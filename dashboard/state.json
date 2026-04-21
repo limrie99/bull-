@@ -1,0 +1,22 @@
+{
+  "last_update": "2026-04-21 17:00 CT",
+  "last_routine": "pre-market",
+  "mode": "paper",
+  "equity": 100000.00,
+  "cash": 100000.00,
+  "day_pl": 0.00,
+  "day_pl_pct": 0.00,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
+  "positions": [],
+  "recent_trades": [],
+  "latest_messages": [
+    {
+      "ts": "2026-04-21 17:00 CT",
+      "routine": "pre-market",
+      "headline": "First research pass — no high-conviction buy ideas yet; saving cash for a better scan.",
+      "body": "Fresh paper account: $100K cash, 0 positions. Wed 4/22 setup mildly risk-on on Mid-East de-escalation hopes (ES ~+0.35%). TSLA AMC 4/22 is the biggest tape-setter. Scout found no name cleanly hitting 2+ signals with a verified near-term catalyst; AMZN thesis real but inside 3-day earnings window. Next pre-market: tighter scan on NVDA, AVGO, GOOGL, PLTR, CRWD, PANW with earnings dates pulled from Alpaca first."
+    }
+  ]
+}

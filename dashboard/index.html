@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bull</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --panel: #141414;
+  --border: #232323;
+  --fg: #e8e8e8;
+  --muted: #888;
+  --pos: #4ade80;
+  --neg: #f87171;
+  --accent: #fbbf24;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.5; }
+header { padding: 16px 24px; border-bottom: 1px solid var(--border); display: flex; align-items: baseline; gap: 24px; flex-wrap: wrap; }
+header h1 { margin: 0; font-size: 18px; letter-spacing: 3px; color: var(--accent); }
+header .meta { color: var(--muted); display: flex; gap: 20px; font-size: 12px; flex-wrap: wrap; }
+header .meta b { color: var(--fg); font-weight: normal; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border-bottom: 1px solid var(--border); }
+.stat { background: var(--panel); padding: 16px 24px; }
+.stat label { display: block; color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 6px; }
+.stat .value { font-size: 22px; font-weight: 600; }
+.value.pos { color: var(--pos); }
+.value.neg { color: var(--neg); }
+main { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1px; background: var(--border); min-height: 55vh; }
+.col { background: var(--bg); padding: 24px; overflow: auto; }
+.col h2 { font-size: 10px; text-transform: uppercase; letter-spacing: 1.8px; color: var(--muted); margin: 0 0 12px; font-weight: 600; }
+.col h2:not(:first-child) { margin-top: 28px; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; }
+th { text-align: left; font-weight: normal; color: var(--muted); border-bottom: 1px solid var(--border); padding: 8px 12px 8px 0; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--border); }
+td.pos, .pos { color: var(--pos); }
+td.neg, .neg { color: var(--neg); }
+td.empty { text-align: center; color: var(--muted); padding: 24px; font-style: italic; }
+.msg { background: var(--panel); border: 1px solid var(--border); border-radius: 4px; padding: 14px 16px; margin-bottom: 10px; }
+.msg-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; gap: 12px; }
+.msg-head b { color: var(--accent); font-weight: 600; font-size: 13px; }
+.msg-head .ts { color: var(--muted); font-size: 11px; white-space: nowrap; }
+.msg-body { color: var(--fg); white-space: pre-wrap; font-size: 12px; }
+.empty { color: var(--muted); text-align: center; padding: 24px; font-style: italic; font-size: 12px; }
+footer { padding: 16px 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
+footer code { background: var(--panel); padding: 2px 6px; border-radius: 3px; color: var(--accent); }
+footer b { color: var(--fg); font-weight: normal; }
+#refreshDot { display: inline-block; width: 6px; height: 6px; background: var(--pos); border-radius: 50%; vertical-align: middle; margin-right: 6px; opacity: 0.6; }
+</style>
+</head>
+<body>
+<header>
+  <h1>BULL</h1>
+  <div class="meta">
+    <span>mode: <b id="mode">-</b></span>
+    <span>last routine: <b id="lastRoutine">-</b></span>
+    <span><span id="refreshDot"></span>updated <b id="updated">never</b></span>
+  </div>
+</header>
+
+<section class="stats">
+  <div class="stat"><label>Equity</label><div class="value" id="equity">-</div></div>
+  <div class="stat"><label>Cash</label><div class="value" id="cash">-</div></div>
+  <div class="stat"><label>Day P/L</label><div class="value" id="dayPL">-</div></div>
+  <div class="stat"><label>Alpha vs SPY (wk)</label><div class="value" id="alpha">-</div></div>
+</section>
+
+<main>
+  <div class="col">
+    <h2>Open positions</h2>
+    <table id="positions">
+      <thead><tr><th>Symbol</th><th>Qty</th><th>Avg</th><th>Current</th><th>P/L %</th><th>Stop</th></tr></thead>
+      <tbody></tbody>
+    </table>
+
+    <h2>Recent trades</h2>
+    <table id="trades">
+      <thead><tr><th>Time</th><th>Side</th><th>Symbol</th><th>Qty</th><th>Price</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col">
+    <h2>Bull says…</h2>
+    <div id="messages"></div>
+  </div>
+</main>
+
+<footer>
+  Talk back to Bull by editing <code>memory/inbox.md</code>. Bull reads it at the start of every routine and replies here.
+</footer>
+
+<script>
+function fmtMoney(n) { return n == null ? '-' : '$' + Number(n).toLocaleString(undefined, {maximumFractionDigits: 2}); }
+function fmtPct(n) { return n == null ? '-' : (n >= 0 ? '+' : '') + Number(n).toFixed(2) + '%'; }
+function clsSign(n) { return n == null ? '' : (n >= 0 ? 'pos' : 'neg'); }
+
+async function load() {
+  try {
+    const r = await fetch('./state.json?ts=' + Date.now(), {cache: 'no-store'});
+    const s = await r.json();
+
+    document.getElementById('mode').textContent = s.mode || '-';
+    document.getElementById('updated').textContent = s.last_update || 'never';
+    document.getElementById('lastRoutine').textContent = s.last_routine || '-';
+
+    document.getElementById('equity').textContent = fmtMoney(s.equity);
+    document.getElementById('cash').textContent = fmtMoney(s.cash);
+
+    const dayPL = document.getElementById('dayPL');
+    dayPL.textContent = fmtPct(s.day_pl_pct);
+    dayPL.className = 'value ' + clsSign(s.day_pl_pct);
+
+    const alpha = document.getElementById('alpha');
+    alpha.textContent = fmtPct(s.alpha_week_pct);
+    alpha.className = 'value ' + clsSign(s.alpha_week_pct);
+
+    const posBody = document.querySelector('#positions tbody');
+    posBody.innerHTML = '';
+    if (s.positions && s.positions.length) {
+      s.positions.forEach(p => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${p.symbol}</td><td>${p.qty}</td><td>${fmtMoney(p.avg_cost)}</td><td>${fmtMoney(p.current)}</td><td class="${clsSign(p.pl_pct)}">${fmtPct(p.pl_pct)}</td><td>${fmtMoney(p.stop)}</td>`;
+        posBody.appendChild(tr);
+      });
+    } else {
+      posBody.innerHTML = '<tr><td colspan="6" class="empty">no open positions</td></tr>';
+    }
+
+    const tradeBody = document.querySelector('#trades tbody');
+    tradeBody.innerHTML = '';
+    if (s.recent_trades && s.recent_trades.length) {
+      s.recent_trades.forEach(t => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${t.date}</td><td class="${t.side === 'BUY' ? 'pos' : 'neg'}">${t.side}</td><td>${t.symbol}</td><td>${t.qty}</td><td>${fmtMoney(t.price)}</td>`;
+        tradeBody.appendChild(tr);
+      });
+    } else {
+      tradeBody.innerHTML = '<tr><td colspan="5" class="empty">no trades yet</td></tr>';
+    }
+
+    const msgs = document.getElementById('messages');
+    msgs.innerHTML = '';
+    if (s.latest_messages && s.latest_messages.length) {
+      s.latest_messages.forEach(m => {
+        const div = document.createElement('article');
+        div.className = 'msg';
+        const body = document.createElement('div');
+        body.className = 'msg-body';
+        body.textContent = m.body || '';
+        const head = document.createElement('div');
+        head.className = 'msg-head';
+        const b = document.createElement('b');
+        b.textContent = m.headline || '';
+        const ts = document.createElement('span');
+        ts.className = 'ts';
+        ts.textContent = (m.ts || '') + ' · ' + (m.routine || '');
+        head.appendChild(b); head.appendChild(ts);
+        div.appendChild(head); div.appendChild(body);
+        msgs.appendChild(div);
+      });
+    } else {
+      msgs.innerHTML = '<div class="empty">no messages yet — Bull will post here after each routine.</div>';
+    }
+  } catch (e) {
+    console.error(e);
+  }
+}
+load();
+setInterval(load, 15000);
+</script>
+</body>
+</html>

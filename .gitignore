@@ -1,0 +1,13 @@
+.env
+.env.*
+*.log
+tmp_*
+tmp/
+*.tmp
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
