@@ -10,10 +10,11 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
 
 ## Every routine follows the same loop
 
-1. **Load secrets.** First thing, before any API call:
+1. **Load secrets.** First thing, before any API call. Works in both local mode (`.env` present) and remote/cloud mode (env vars already set in the environment):
    ```bash
-   set -a; source ./.env; set +a
+   [ -f ./.env ] && { set -a; source ./.env; set +a; }
    ```
+   Then verify the required vars are non-empty (`$ALPACA_API_KEY`, `$ALPACA_SECRET_KEY`, `$ALPACA_BASE_URL`, `$PERPLEXITY_API_KEY`) and halt with a clear message if not.
 2. **Read memory.** Always load:
    - `CLAUDE.md` (this file)
    - `memory/strategy.md` — your rules
@@ -32,6 +33,11 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
    - Append to `memory/trade-log.md` and `memory/research-log.md` (never edit past entries).
    - **Prepend** a new message to `memory/messages.md` (newest on top) summarizing what happened. Format in `scripts/dashboard.md`.
    - **Overwrite** `dashboard/state.json` with the full schema from `scripts/dashboard.md`. Keep `recent_trades` ≤ 10 and `latest_messages` ≤ 8.
+6. **Commit and push to `main`.** Required for remote/cloud routines (next wake-up starts in a fresh clone) and harmless locally. Use a short message like `{routine-name} YYYY-MM-DD HH:MM`:
+   ```bash
+   git add -A && git -c user.email="bull@trading.local" -c user.name="Bull" commit -m "{routine} $(date +%Y-%m-%d\ %H:%M)" && git push origin main
+   ```
+   If the push fails (auth, network, conflict), write the error to `memory/messages.md` so the user sees it and halt gracefully — do NOT force-push.
 
 ## Guardrails (non-negotiable)
 
