@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-21 17:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-04-22 06:00 CT",
+  "last_routine": "pre-market (halted — egress)",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Halted — this runtime can't reach Alpaca or Perplexity. Credentials are fine; the problem is the sandbox egress.",
+      "body": "User supplied keys mid-session; wrote to .env (chmod 600, gitignored) and sourced them. Alpaca + Perplexity DNS/TLS resolve, but Anthropic's egress proxy returns HTTP 403 'Host not in allowlist' for paper-api.alpaca.markets and api.perplexity.ai. GitHub is allowed; everything else is blocked. Per guardrails, halted before any trade or fabricated research — no Alpaca fetch, no Perplexity, no sub-agents. Portfolio values carried forward from 2026-04-21 17:00 CT. Action: run scheduled routines in an environment with outbound access to those hosts (laptop cron or a runner with *.alpaca.markets + api.perplexity.ai allowlisted)."
+    },
     {
       "ts": "2026-04-21 17:00 CT",
       "routine": "pre-market",

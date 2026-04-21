@@ -27,6 +27,47 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 06:00 CT — pre-market (HALTED — egress blocked)
+
+**Halt reason:** Credentials present and valid-looking, but the runtime's egress proxy blocks the required API hosts. No research was done; no trades were placed.
+
+### Diagnosis
+- Initial probe: `printenv | grep -iE "alpaca|perplex|telegr"` returned empty. No `.env` at repo root. Would normally halt here per "If a required var is empty, halt" guardrail.
+- User replied mid-session with all 6 keys (ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL=`https://paper-api.alpaca.markets`, PERPLEXITY_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID).
+- Wrote them to `./.env` (chmod 600, confirmed ignored by `.gitignore:1:.env`). Sourced successfully.
+- Test calls with `curl -v`:
+  - `GET $ALPACA_BASE_URL/v2/clock` → TLS handshake succeeds, cert issued by `O=Anthropic; CN=sandbox-egress-production TLS Inspection CA` (i.e. the Anthropic egress proxy is intercepting TLS), response body `Host not in allowlist`, status **HTTP 403**.
+  - `GET https://data.alpaca.markets/v2/stocks/SPY/trades/latest` → same 403 / same body.
+  - `POST https://api.perplexity.ai/chat/completions` → same 403 / same body.
+  - `POST https://api.telegram.org/bot.../sendMessage` (attempted as "API failure" urgent push per CLAUDE.md telegram guard) → same 403 / same body. Push did NOT deliver.
+  - `curl -sv https://github.com` → connects fine (expected; git ops work).
+- So: **credentials untested end-to-end, but the failure mode is environmental, not credential-related.** When the user runs this repo locally or on a cloud runner with open egress (or with those hosts allowlisted), the routine will work normally.
+
+### What was NOT run
+- No Alpaca account / positions / clock / calendar fetch.
+- No Perplexity queries.
+- No sub-agents dispatched (macro, earnings, position, opportunity scout).
+- No state refresh against a real account; portfolio values carried forward from the 2026-04-21 17:00 CT snapshot.
+
+### Market context
+Not fetched.
+
+### Portfolio watch
+Carried forward: 0 positions, $100K cash, paper mode. No positions to monitor regardless.
+
+### Buy candidates
+None evaluated — research tooling unreachable. Do NOT infer candidates from memory alone; strategy requires live catalyst + earnings-date verification.
+
+### Sell candidates
+None — no positions.
+
+### Next steps on wake
+1. First thing: retry the Alpaca clock call. If it returns 200, proceed with the normal pre-market flow. If it returns 403, halt and re-post the message.
+2. If the egress block is a permanent property of this specific runtime, fall back to whatever environment runs the scheduled routines (the laptop cron / CI runner). The prompts and memory are portable — nothing here is runtime-specific.
+3. Carry forward the 4/21 17:00 CT action items: pull earnings dates from Alpaca first (esp. NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW); treat TSLA AMC 4/22 print as the day's tape-setter; avoid any position within 3 trading days of its earnings.
+
+---
+
 ## 2026-04-21 17:00 CT — pre-market (for 2026-04-22 open)
 
 **Timing note:** Routine fired ad-hoc, not at scheduled 6:00 AM CT slot. Alpaca clock confirms market closed; next_open = 2026-04-22 09:30 ET. Treating this as pre-market prep for Wednesday's session. Account is fresh ($100K cash, no positions) — this is Bull's first research pass.

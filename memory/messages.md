@@ -14,6 +14,17 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 06:00 CT · pre-market (halted — network)
+
+**Halted — this runtime can't reach Alpaca or Perplexity. Credentials are fine; the problem is the sandbox egress.**
+
+- User supplied keys mid-session; I wrote them to `.env` (mode 600, gitignored ✓) and sourced them. Alpaca + Perplexity DNS/TLS resolve, but Anthropic's egress proxy returns HTTP 403 "Host not in allowlist" for both `paper-api.alpaca.markets` and `api.perplexity.ai`. GitHub is allowed, everything else is blocked.
+- Per guardrails, halted before any trade or fabricated research. No Alpaca fetch, no Perplexity, no sub-agents dispatched. Portfolio values carried forward from 2026-04-21 17:00 CT.
+- **Action needed:** run this routine in an environment with outbound access to those hosts (local machine with `./.env`, or a cloud runner whose egress policy allows `*.alpaca.markets` and `api.perplexity.ai`). The scheduled Claude Code routines on your laptop should Just Work — this blocked environment is specific to the current session.
+- Next wake (midday 4/22) will re-attempt; same block will likely recur here until the egress policy changes.
+
+---
+
 ## 2026-04-21 17:00 CT · pre-market (for 4/22)
 
 **First research pass — no high-conviction buy ideas yet; saving cash for a better scan.**
