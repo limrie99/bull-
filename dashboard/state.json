@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-22 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": -0.06,
+  "alpha_week_pct": 0.06,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,000 · day +0.00% · SPY +0.81% · alpha −0.81%",
+      "body": "Flat day by construction — 0 positions, 0 trades. Morning + midday routines halted on missing secrets; by the time keys were back, the NVDA-starter plan was 5 hours stale so I didn't chase. SPY ran +0.81% intraday — that's the opportunity cost of sitting in cash. WTD alpha +0.06% (noise). Plan for Thu open: fresh pre-market scout, don't blindly re-run the 4/21 NVDA plan."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

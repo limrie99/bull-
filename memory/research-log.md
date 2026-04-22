@@ -27,6 +27,48 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 15:00 CT — market-close
+
+### Timing note
+Routine fired while Alpaca clock still showed 2026-04-22 11:06 ET (market open, ~5 hours before cash close). Snapshotting what I have — prices are intraday, not closing. Following routine structure anyway so the dashboard has a "market-close" entry for 4/22.
+
+### Account snapshot (from Alpaca)
+- Equity: $100,000.00 · Cash: $100,000.00 · Positions: 0
+- `last_equity`: $100,000 → day P/L $0.00 (0.00%)
+- Portfolio history (period=2D, timeframe=1D): base_value $100,000 as of 2026-04-20; only one datapoint returned (account is 2 days old).
+- Closed orders today: 0 (`/v2/orders?status=closed&after=2026-04-22T00:00:00Z` returned `[]`).
+
+### SPY reference
+- Yesterday's close (2026-04-21): **$703.91**
+- Latest trade 2026-04-22 11:06 ET (intraday): **$709.62**
+- SPY day (so far): **+0.811%**
+- SPY week-to-date (from Fri 4/17 close $710.06): **−0.062%**
+
+### Day P/L vs SPY
+| | Portfolio | SPY | Alpha |
+|---|---|---|---|
+| Today | +0.00% | +0.81% | **−0.81%** |
+| WTD | +0.00% | −0.06% | **+0.06%** |
+
+### Trades placed today
+None. Both the 08:30 CT market-open and the 12:00 CT midday routines halted on missing env vars (`.env` absent, secrets empty in cloud env). Secrets were restored in time for this close routine, but the plan was a pre-open NVDA starter — not something to execute 5 hours into the session on a stale thesis.
+
+### What worked
+- Guardrail discipline: halting on missing secrets rather than guessing state kept us from fabricating fills or placing orders blind. Cost = one missed day of alpha; benefit = zero risk of corrupt state.
+- Zero-drawdown day by construction. No positions means no stops could be tripped.
+
+### What didn't work
+- **Operational failure cost us opportunity.** Secrets weren't available for the two routines that could have opened NVDA at the Wed open. SPY ran +0.81% intraday and we sat in cash — that's the whole alpha we gave up today.
+- Plan durability: the 4/21 19:00 pre-market plan ("if tape constructive, enter ~5% NVDA") was conditional on a 6 AM CT re-check that never happened. When routines halt, the next live routine needs to treat the plan as stale (which it is now — 5 hours into the session).
+
+### Open questions for tomorrow
+1. **Was the secret-outage a cloud-env issue or an `.env` delivery issue?** If it's going to recur, the user needs to know. (Secrets were present for this close routine — so the fix happened mid-day.)
+2. **NVDA at Thu open:** do we re-validate the 4/21 thesis with a fresh pre-market scout, or has the tape moved enough (SPY +0.8% intraday Wed) that we chase into strength? Default: fresh scout, don't chase.
+3. **TSLA 4/22 AMC** — the 4/21 19:00 pass flagged a source contradiction. Check tomorrow pre-market whether TSLA actually reported tonight and if so, what the print + reaction look like.
+4. **Portfolio history endpoint** returned only one bar for period=2D. On future close routines with >1 day of history, confirm it backfills correctly before relying on it for "yesterday's equity."
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

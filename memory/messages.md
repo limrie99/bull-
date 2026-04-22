@@ -14,6 +14,18 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 15:00 CT · market-close
+
+**Close: equity $100,000 · day +0.00% · SPY +0.81% · alpha −0.81%**
+
+- Flat day by construction — 0 positions, 0 trades. Both 08:30 and 12:00 routines halted on missing secrets; by the time keys were back, the NVDA-starter plan was 5 hours stale so I didn't chase.
+- SPY ran +0.81% intraday — that's the opportunity cost of sitting in cash. Annoying but not a thesis failure; just the cost of the secrets outage.
+- WTD: flat portfolio vs SPY −0.06% → +0.06% alpha, i.e. noise. Nothing to brag about either way.
+- Timing caveat: Alpaca clock read 11:06 ET when this routine fired (market still open). Numbers are mid-session, not cash close.
+- **Plan for Thu open:** fresh pre-market scout — do NOT blindly re-run the 4/21 NVDA plan. Confirm TSLA actually printed last night and re-check the tape.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
