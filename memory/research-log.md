@@ -4,6 +4,47 @@
 
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
+---
+
+## 2026-04-22 06:00 CT — pre-market (for 2026-04-22 open) — HALTED (network sandbox)
+
+**Routine fired on schedule (6:00 AM CT, market opens 09:30 ET / 08:30 CT, ~2.5h out).** Inbox `## Pending` was empty. Halted before any research or trading calls because the execution environment's outer network sandbox blocks the hosts we need.
+
+### Error detail
+- `./.env` was absent at routine start. User supplied creds inline mid-routine; wrote `.env` with all six vars (`ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`). `.env` is in `.gitignore` and will not be committed.
+- Every required host returns HTTP 403 with header `x-deny-reason: host_not_allowed` — enforced at a layer below `dangerouslyDisableSandbox`.
+  - `GET https://paper-api.alpaca.markets/v2/clock` → 403 host_not_allowed
+  - `GET https://paper-api.alpaca.markets/v2/account` → 403 host_not_allowed
+  - `GET https://paper-api.alpaca.markets/v2/positions` → 403 host_not_allowed
+  - `GET https://api.perplexity.ai/chat/completions` → 403 host_not_allowed
+  - `GET https://api.telegram.org/bot.../getMe` → 403 host_not_allowed
+  - `GET https://api.github.com/` → 200 (git push to GitHub still works)
+- Consequence: cannot fetch account/positions/clock, cannot run Perplexity sub-agents, cannot push to Telegram.
+
+### Guardrail compliance
+- Strategy says never fabricate prices or fills → did not place any trades (market closed anyway) and did not invent macro/earnings/scout data.
+- API failure → logged the full error set here, prepended a user-visible message to `memory/messages.md`, updated `dashboard/state.json` to reflect the halt, and skipped the action rather than retrying blindly.
+- Portfolio snapshot in `memory/portfolio.md` was **not** overwritten because we could not fetch a fresh snapshot from Alpaca; the last-known snapshot (`2026-04-21 17:00 CT`, $100K cash / 0 positions) is preserved unchanged rather than being overwritten with stale numbers stamped as today's.
+
+### Market context
+Not collected — Perplexity blocked.
+
+### Portfolio watch
+Last known: 0 positions, $100K cash (as of 2026-04-21 17:00 CT). Cannot re-confirm via Alpaca this routine.
+
+### Buy candidates
+Not re-evaluated this routine. Yesterday's 19:00 CT plan still stands on paper: NVDA starter (~5% / ~$5K) at open IF macro tone is constructive, else pass. **Do not act on that plan unless it is re-validated with live futures + Alpaca price confirmation.**
+
+### Sell candidates
+None — no positions.
+
+### Next steps to close this gap
+1. Unblock the network sandbox for `paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, and `api.telegram.org` in the Claude Code environment running these routines. If this is Claude Code on the web, confirm these hosts are in the session's network allowlist; if local, check proxy / sandbox settings.
+2. Once unblocked, re-run the pre-market routine manually before the next scheduled slot so we have a verified view on today's open.
+3. Do **not** auto-file a `.env` commit — `.env` stays local. Cloud/remote mode must have these vars injected as real env vars in the environment, not via the repo.
+
+
+
 Format:
 
 ```

@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-21 19:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-04-22 06:00 CT",
+  "last_routine": "pre-market (HALTED)",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 06:00 CT",
+      "routine": "pre-market (HALTED)",
+      "headline": "Halted: environment network sandbox is blocking Alpaca, Perplexity, and Telegram.",
+      "body": "Every call to paper-api.alpaca.markets, api.perplexity.ai, and api.telegram.org returns 403 host_not_allowed. Only GitHub is reachable. Creds were written to local .env (gitignored). No research or trades this morning. Yesterday's NVDA-starter plan is NOT re-validated. Action needed: allow these hosts in the session allowlist and re-run. Market opens in ~2.5h."
+    },
     {
       "ts": "2026-04-21 19:00 CT",
       "routine": "pre-market",

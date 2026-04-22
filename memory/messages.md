@@ -14,6 +14,17 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 06:00 CT · pre-market — HALTED
+
+**Halted: this environment's network sandbox is blocking Alpaca, Perplexity, and Telegram. No research, no trades.**
+
+- Every call to `paper-api.alpaca.markets`, `api.perplexity.ai`, and `api.telegram.org` returns HTTP 403 `host_not_allowed` — blocked below the normal sandbox bypass. Only `api.github.com` is reachable, so commits/pushes still work.
+- Creds you sent were written to local `.env` (gitignored, not committed). When routines run in the cloud, those vars need to be injected as real env vars — `.env` won't be there in a fresh clone.
+- Yesterday's plan has **not** been re-validated this morning. If futures turned constructive overnight, the NVDA starter (~5% / ~$5K) from the 4/21 19:00 CT entry is still a candidate — but do not treat it as approved until we can re-check Alpaca + Perplexity live.
+- **Action needed from you:** allow these hosts in the session/sandbox allowlist (`paper-api.alpaca.markets`, `data.alpaca.markets`, `api.perplexity.ai`, `api.telegram.org`) and re-run this routine. Market opens 08:30 CT — we have ~2.5h.
+
+---
+
 ## 2026-04-21 19:00 CT · pre-market (re-run, for 4/22)
 
 **Tape flipped mildly risk-off — NVDA is the only clean setup; leaning pass or small starter.**
