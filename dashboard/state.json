@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-21 17:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-04-22 06:00 CT",
+  "last_routine": "pre-market (HALTED — missing secrets)",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 06:00 CT",
+      "routine": "pre-market",
+      "headline": "HALTED — secrets missing; no research or Alpaca refresh this cycle.",
+      "body": "No .env at repo root and ALPACA_API_KEY / ALPACA_SECRET_KEY / ALPACA_BASE_URL / PERPLEXITY_API_KEY all empty. Halted per guardrail before any API call. Add the four vars and re-run. Portfolio numbers shown are last-known from 2026-04-21 17:00 CT, not re-verified."
+    },
     {
       "ts": "2026-04-21 17:00 CT",
       "routine": "pre-market",
