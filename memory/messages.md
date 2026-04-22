@@ -14,6 +14,18 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 10:10 CT · pre-market (ran late — cash market already open)
+
+**APIs are back. Tape is mildly risk-on; NVDA is the only clean buy today — research-only run, no trades placed.**
+
+- Secrets restored; Alpaca + Perplexity both 200. Account verified: **$100,000 cash / 0 positions** (unchanged). Routine fired ~3.5 hr late — market was already open, but per routine spec I do NOT trade on the pre-market scan.
+- **Macro:** ES ~+0.69% premarket, mild risk-on. **WTI $113.70, Brent $110.25** — crude bid on IRGC attack in Strait of Hormuz; Trump extended US–Iran ceasefire. 10Y / DXY / Asia / Europe came back `n/a` this pull — gap to close next routine.
+- **Earnings:** **no large-cap BMO or AMC prints today.** TSLA 4/22 AMC = confirmed NO (yesterday's source was wrong). **MSFT / META / GOOGL confirmed 2026-04-29 AMC** — they're in the 3-trading-day earnings blackout for the rest of this week.
+- **Top pick for next market-open: NVDA ~$201, 10% starter ($10K, ~49 shares), next earnings 5/20.** Watchlist backups: AVGO (~$413, 6/3 earnings), PLTR (~$151, 5/4 — tight). GOOGL/MSFT/META/NOW/LLY/AMD all skipped (blackout or unverified earnings date).
+- **Next routine** (market-open 4/23 or a midday today) should: verify NVDA 50-DMA, get 10Y + DXY levels, and execute the NVDA starter with a bracket -7% hard stop (~$187.28) if macro stays constructive.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

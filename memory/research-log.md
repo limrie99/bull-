@@ -27,6 +27,89 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 10:10 CT — pre-market (for 4/22 session — ran late, cash market already open)
+
+**Timing note:** Pre-market routine fired at ~10:07 ET / 09:07 CT — cash session already open ~37 min. Alpaca clock confirms `is_open=true`. Secrets are back (Alpaca + Perplexity both 200). Per routine spec, NO trades placed. Account snapshot: $100,000.00 cash, 0 positions, $200K buying power. Three sub-agents ran in parallel (macro / earnings / opportunity scout).
+
+### Market context
+**Mildly risk-on despite crude spike on Hormuz headlines.**
+- **ES ~+0.69% premarket**, NQ mildly green. SPY/QQQ cash-open levels `n/a` from Perplexity pull.
+- **10Y / DXY levels: `n/a`** — Perplexity did not return values this scan. Research gap for midday.
+- **Crude bid hard: WTI $113.70 (+1.15%), Brent $110.25 (+0.44%)** on IRGC attack on 3 vessels in Strait of Hormuz. Trump extended US–Iran ceasefire indefinitely post-close 4/21; VP Vance's Pakistan trip suspended; talks stalled.
+- Asia close / Europe session levels: `n/a`.
+- **Data calendar:** today (4/22) light — no Fed speakers or major prints surfaced; tomorrow (4/23) US Retail Sales. No CPI/PPI/FOMC mins.
+- **Net tone:** mildly risk-on — market leaning on ceasefire extension more than reacting to Hormuz attack. But WTI > $110 is a real signal — watch for energy/defense strength and consumer-discretionary/airline weakness.
+
+### Portfolio watch
+None — no open positions. $100K cash. Nothing to manage.
+
+### Earnings calendar (2026-04-22)
+- **No large-cap US ($10B+) BMO or AMC prints confirmed** for today per Perplexity scan (CapyFin, Nasdaq calendars). Only mid-caps (Ibotta, Compass Diversified) for 4/22.
+- **TSLA AMC 4/22: NO.** Yesterday's 17:00 CT source was wrong — Tesla is not on any 4/22 calendar. Contradiction resolved.
+- **MSFT / META / GOOGL next earnings: confirmed 2026-04-29 AMC** (one source noted 4/28 for GOOGL — treat with caution). **That puts 4/23, 4/24, 4/28 inside the 3-trading-day blackout window for those three names.**
+- **Yesterday's (4/21) AMC:** no major large-caps. SSNC and CSL (~$18B each) reported; details `n/a`. Nothing tape-moving for today.
+- **Net: tape is macro-driven, not earnings-driven.**
+
+### Buy candidates
+
+Sub-agent scout was strict: only propose if ≥2 buy signals are actually verified. Most late-April mega-caps are in the 4/29 blackout (MSFT/META/GOOGL). Remaining clean names:
+
+- **NVDA — AI-infra leader, safely outside earnings blackout.**
+  - Current price: **$201.38** (Alpaca last trade)
+  - Next earnings: **2026-05-20 AMC** (~20 trading days out — safe)
+  - Signals matched:
+    - (3) Confirmed secular AI-infra tailwind — hyperscaler capex cycle; NVDA is the purest expression.
+    - (6) Uptrend — $201 is mid-range, not near 52w lows. (50-DMA vs price: **UNVERIFIED this scan** — pull Alpaca daily bars next routine before sizing.)
+  - Conviction: **med.** Would be high with verified 50-DMA confirmation and a specific April catalyst.
+  - Suggested starter size: **10%** ($10K, ~49 shares).
+  - Near-term catalyst: sympathetic trade on 4/29 MSFT/META/GOOGL hyperscaler capex commentary.
+
+- **AVGO — AI ASIC + VMware cross-sell, earnings well out.**
+  - Current price: **$413.42** (Alpaca last trade)
+  - Next earnings: **2026-06-03** (~30 trading days out — safe)
+  - Signals matched:
+    - (3) Secular tailwind — custom AI silicon (GOOG TPU, META MTIA) + VMware subscription conversion.
+    - (6) Uptrend — $413 off lows, not near 52w lows.
+  - Conviction: **med.**
+  - Suggested starter size: **10%.**
+  - Near-term catalyst: hyperscaler capex read-through from 4/29 wave; any new custom-ASIC customer disclosure.
+
+- **PLTR — defense/AIP, earnings close but outside strict blackout.**
+  - Current price: **$151.24** (Alpaca last trade)
+  - Next earnings: **2026-05-04 AMC** (~8 trading days out — outside 3-day blackout, but tight)
+  - Signals matched:
+    - (3) Secular tailwind — defense software / AIP commercial ramp.
+    - (6) Uptrend — $151 constructive, not near 52w lows.
+  - Conviction: **low-to-med.** Earnings proximity is real risk.
+  - Suggested starter size: **5%** (smaller for earnings risk).
+  - Near-term catalyst: pre-earnings positioning + potential DoD contract news.
+
+**Blacklist (do not open today):**
+- **GOOGL, MSFT, META** — inside 4/29 earnings blackout. Revisit post-print.
+- **NOW, LLY, AMD** — next-earnings dates UNVERIFIED but historically 4/23–5/01 window. Too risky to open without confirming.
+- **CRWD, PANW, ORCL** — earnings dates + catalysts UNVERIFIED; skip.
+- **CAR** — prior 382% 30-day run; momentum-only; strategy forbids.
+
+**Net:** If Bull opens one position this session, **NVDA at 10% ($10K, ~49 shares)** is the cleanest entry: earnings well outside blackout (5/20), cleanest AI-infra exposure, sympathetic beneficiary of next-week hyperscaler prints. AVGO is a close #2. **But** per routine spec, NO trades today — plan stays in the research log for the next market-open or midday routine to execute on.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. **Verify NVDA 50-day MA** via Alpaca daily bars before sizing any entry — scout flagged uptrend but couldn't confirm MA cross.
+2. **Get 10Y yield and DXY levels** — macro digest had `n/a` on both; can't size rate-sensitive names blind.
+3. **Reconfirm MSFT/GOOGL/META 4/29 AMC** with one more calendar source before the 4/28 midday routine — scout flagged one source drift to 4/28 for GOOGL.
+4. **Pull NOW, LLY, AMD next-earnings dates** explicitly before next scan — they were all UNVERIFIED this pass and fall in the high-risk late-April window.
+5. The macro sub-agent's Perplexity call returned `n/a` on rates, DXY, Asia/Europe. Consider widening the query or splitting into two calls next time — budget-allowable for the pre-market slot.
+
+### Plan for next actionable routine (market-open 2026-04-23 or earlier if midday fires today)
+- Re-verify macro (rates, DXY, crude path) at 08:30 CT.
+- Verify NVDA 50-DMA; if price above and macro constructive, enter **NVDA 10% starter (~49 shares at ~$201)** with **-7% hard stop (~$187.28)**. Size via bracket order per scripts/alpaca.md.
+- If crude re-spikes and equities flip risk-off, pass on NVDA and hold cash.
+- AVGO and PLTR remain on the watchlist but behind NVDA in priority.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

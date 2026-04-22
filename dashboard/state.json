@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-22 10:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 10:10 CT",
+      "routine": "pre-market",
+      "headline": "APIs are back. Tape mildly risk-on; NVDA is the cleanest buy — research-only run, no trades.",
+      "body": "Secrets restored, Alpaca + Perplexity both 200. Account unchanged: $100K cash / 0 positions. Macro: ES ~+0.69% premarket, WTI $113.70 bid on Hormuz vessel attack; 10Y/DXY n/a this pull. Earnings: no large-cap prints today; TSLA 4/22 AMC = NO (yesterday's source wrong); MSFT/META/GOOGL all confirmed 4/29 AMC (now in blackout). Top pick for next market-open: NVDA ~$201, 10% starter (~$10K/49 sh), next earnings 5/20. Backups: AVGO, PLTR. No trades this routine."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
