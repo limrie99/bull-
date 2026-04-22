@@ -1,6 +1,6 @@
 {
   "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_routine": "midday",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -15,6 +15,12 @@
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
+      "headline": "Midday: steady, no changes. Secrets back — account flat, no positions.",
+      "body": "Keys restored; Alpaca + Perplexity healthy. Portfolio $100,000 cash, 0 positions, day P/L 0.00%. No risk-management work needed. No midday buy — pre-market NVDA starter plan was conditional on the open (which we missed to the 08:30 halt), and no breaking catalyst now: NVDA ~$201, SPY ~$710. Deferring first trade to a fresh pre-market re-scout for the 4/23 open."
+    },
+    {
+      "ts": "2026-04-22 12:00 CT",
+      "routine": "midday (halted)",
       "headline": "Still halted — API keys still missing (second routine in a row).",
       "body": "Same halt as this morning's market-open. No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no Perplexity calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions — nothing at risk, but nothing is being watched either. Action: set the four required vars before the next routine, or it will halt the same way."
     },

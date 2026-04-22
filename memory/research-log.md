@@ -27,7 +27,44 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
-## 2026-04-22 12:00 CT — midday (HALTED)
+## 2026-04-22 12:00 CT — midday
+
+### Secrets restored
+Env vars back — Alpaca + Perplexity keys all non-empty. First real routine of the 4/22 session after two halted passes (08:30 market-open and the earlier 12:00 midday attempt noted below).
+
+### Account state
+- Alpaca clock `is_open=true`, next_close 2026-04-22 16:00 ET.
+- Account: equity $100,000.00, last_equity $100,000.00, cash $100,000.00, buying_power $200,000, daytrade_count 0, zero positions.
+- Day P/L: $0.00 / 0.00%.
+
+### Tape (spot checks)
+- SPY last trade $709.95 @ 15:07:16 UTC (11:07 CT). No prior close pulled this routine — no intraday alpha comparison until market-close.
+- NVDA last trade $201.34 @ 15:07:15 UTC. That's roughly flat-ish vs last night's implied level; nothing breaking here.
+
+### Portfolio watch
+Nothing to watch. No positions, so:
+- (a) Hard-stop triage — N/A.
+- (b) +5% trailing-stop conversion — N/A.
+- (c) Daily loss cap (-3% intraday) — N/A, but note last_equity = equity so cap not tripped either way.
+
+### Midday buy decision
+Declined. Rationale:
+1. Midday rule requires "high-conviction breaking catalyst." Nothing breaking surfaced — no fresh earnings beat, no analyst upgrade, no M&A headline in view. NVDA is just drifting around $201.
+2. Pre-market plan (19:00 4/21) was conditional: "at most a starter NVDA tranche (~$5K) at Wed open IF macro tone is constructive … if pre-open futures are still risk-off (ES < flat, 10Y > 4.30, WTI gapped up), pass entirely." That open check got skipped (halt). Chasing the name at midday without redoing the scout would violate the spirit of the plan.
+3. Buys-this-week = 0, positions = 0 — gates are open, but the strategy is patient on purpose. First trade should be clean.
+
+Deferring first buy to the next pre-market re-scout (pre-market 2026-04-23). If NVDA prints a catalyst between now and close, the market-close routine can reassess.
+
+### Sell candidates
+None — no positions.
+
+### Notes for next routine
+- First trade of Bull v2 still pending. Budget for a proper sub-agent scout at next pre-market: NVDA, AVGO, PLTR, plus a macro/earnings sub-agent for the 4/23 tape.
+- 4/22 is largely an observation day. At market-close, capture SPY close and mark a starting benchmark so week P/L and alpha can be computed once we actually deploy capital.
+
+---
+
+## 2026-04-22 12:00 CT — midday (HALTED — earlier attempt)
 
 ### Halt reason
 Same as this morning's market-open: `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY` all empty and no `./.env`. Per CLAUDE.md guardrail, halted before any API call.
@@ -39,10 +76,7 @@ Same as this morning's market-open: `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPA
 - Portfolio unchanged: assumed still $100K cash / 0 positions from 2026-04-21 19:00 CT.
 
 ### Pattern note
-Second halt in a row (market-open 08:30 also halted for the same reason). If this keeps up through market-close, the whole 4/22 session is a no-op — fine, since we have no open risk, but the user needs to restore secrets before any routine can actually trade.
-
-### Next steps
-Once secrets are set: run a fresh pre-market-style scout before executing the old NVDA starter plan. Don't trade off last night's context — tape will have moved.
+Second halt in a row (market-open 08:30 also halted for the same reason). Secrets were restored in time for a second midday pass — see entry above.
 
 ---
 

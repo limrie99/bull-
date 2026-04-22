@@ -16,6 +16,17 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ## 2026-04-22 12:00 CT · midday
 
+**Midday: steady, no changes. Secrets back — account flat, no positions, standing pat.**
+
+- Keys restored; Alpaca + Perplexity both healthy. Clock confirms market open.
+- Portfolio: **$100,000 cash, 0 positions, day P/L 0.00%**. No risk-management work needed (no stops to cancel, no drawdowns to triage, daily-loss cap not in play).
+- **No midday buy.** Pre-market plan was a conditional NVDA starter at the open, which we missed (08:30 halt). No breaking catalyst now — NVDA drifting at ~$201, SPY ~$710. Chasing midday without a fresh scout would violate the strategy's patience rule.
+- **Next move:** fresh pre-market sub-agent re-scout for the 4/23 open. First Bull v2 trade stays deferred one more routine.
+
+---
+
+## 2026-04-22 12:00 CT · midday (earlier, halted)
+
 **Still halted — API keys still missing (second routine in a row).**
 
 - No `.env` and no `ALPACA_*` / `PERPLEXITY_API_KEY` in the process env. Same halt as this morning's market-open routine (08:30 CT).
