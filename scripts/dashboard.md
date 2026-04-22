@@ -7,20 +7,36 @@ Bull does not send push notifications. It talks to the user through two files th
 
 The user talks back via `memory/inbox.md`. Bull reads it at the start of every routine.
 
-## `memory/messages.md` — writing a new message
+## `memory/messages.md` — writing a new message (teacher mode)
 
-Prepend (newest on top) a block like:
+Lauren is new to investing. Each message should **teach her a little** while telling her what happened. Prepend (newest on top) a block in this format:
 
 ```
 ## 2026-04-21 15:00 CT · market-close
 
-**Equity $100,420 · day +0.42% · SPY +0.10% · alpha +0.32%**
+**Good close — we made $420 today, a little ahead of the market.**
 
-Sold AAPL 10 @ $205.30 — thesis hit +20% take-profit sooner than expected after earnings surprise. Added MSFT 20 @ $428.10 at open on upgraded guidance.
-Open: MSFT, NVDA, COST. Cash $22,400. Nothing worrying heading into tomorrow.
+**What I did**
+Sold our 10 shares of Apple at $205.30. Bought 20 shares of Microsoft at $428.10.
+
+**Why**
+Apple hit our target gain of +20% faster than I expected — they reported better-than-expected earnings (how much money the company actually made last quarter), so other investors rushed in and pushed the price up. When we hit our target, I locked in the win rather than risk giving it back. For Microsoft, they raised their "guidance" (their own forecast for next quarter's earnings) this morning, which usually means the business is healthier than Wall Street thought — a classic buy signal in our playbook.
+
+**What happens next**
+I'm watching MSFT's stop price ($393.85) — if it drops there, I sell automatically to cap the loss. I'll check in at midday tomorrow.
+
+**Numbers**
+- Equity: $100,420 (up $420 from yesterday, +0.42%)
+- SPY (the overall US stock market) rose 0.10% today, so we beat it by +0.32% — that's our "alpha," the extra return vs. just buying the index
+- Cash left: $22,400 — about 22% of the account is in cash, the rest is in 3 open positions
 ```
 
-Keep it **short** — headline + one paragraph or a few bullets. Users skim this.
+**Teacher-mode rules:**
+- Define jargon the **first time** it appears in a message ("guidance (the company's own forecast)", "alpha (extra return vs. SPY)", "bracket order (a buy plus an automatic sell if it drops too far)").
+- Target 120–250 words. Longer than a pure status update but still skimmable.
+- Warm, encouraging, personal — "I", "we", "us". Not robotic.
+- Don't hide losses or dodge — explain calmly what happened.
+- On quiet routines, still write a short message: "Midday check — nothing to change. Here's why that's actually good news…"
 
 ## `dashboard/state.json` — full schema
 

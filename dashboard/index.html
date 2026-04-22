@@ -2,108 +2,425 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Bull</title>
+<title>🐂 Bull's Ranch</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐂</text></svg>">
 <style>
 :root {
-  --bg: #0a0a0a;
-  --panel: #141414;
-  --border: #232323;
-  --fg: #e8e8e8;
-  --muted: #888;
-  --pos: #4ade80;
-  --neg: #f87171;
-  --accent: #fbbf24;
+  --cream: #fff8ec;
+  --cream-2: #fdf1d7;
+  --pink: #ffc8c8;
+  --pink-dark: #ffa1a1;
+  --brown: #8b5e3c;
+  --brown-dark: #5e3e22;
+  --green: #86c872;
+  --green-dark: #4d9a3d;
+  --red: #e67070;
+  --ink: #4a3526;
+  --muted: #8a7763;
+  --white: #fffdf7;
+  --border: #e9d9b8;
+  --shadow: 0 4px 16px rgba(139, 94, 60, 0.08);
+  --shadow-lg: 0 8px 28px rgba(139, 94, 60, 0.14);
 }
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.5; }
-header { padding: 16px 24px; border-bottom: 1px solid var(--border); display: flex; align-items: baseline; gap: 24px; flex-wrap: wrap; }
-header h1 { margin: 0; font-size: 18px; letter-spacing: 3px; color: var(--accent); }
-header .meta { color: var(--muted); display: flex; gap: 20px; font-size: 12px; flex-wrap: wrap; }
-header .meta b { color: var(--fg); font-weight: normal; }
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border-bottom: 1px solid var(--border); }
-.stat { background: var(--panel); padding: 16px 24px; }
-.stat label { display: block; color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 6px; }
-.stat .value { font-size: 22px; font-weight: 600; }
-.value.pos { color: var(--pos); }
-.value.neg { color: var(--neg); }
-main { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1px; background: var(--border); min-height: 55vh; }
-.col { background: var(--bg); padding: 24px; overflow: auto; }
-.col h2 { font-size: 10px; text-transform: uppercase; letter-spacing: 1.8px; color: var(--muted); margin: 0 0 12px; font-weight: 600; }
-.col h2:not(:first-child) { margin-top: 28px; }
-table { width: 100%; border-collapse: collapse; font-size: 12px; }
-th { text-align: left; font-weight: normal; color: var(--muted); border-bottom: 1px solid var(--border); padding: 8px 12px 8px 0; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
-td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--border); }
-td.pos, .pos { color: var(--pos); }
-td.neg, .neg { color: var(--neg); }
-td.empty { text-align: center; color: var(--muted); padding: 24px; font-style: italic; }
-.msg { background: var(--panel); border: 1px solid var(--border); border-radius: 4px; padding: 14px 16px; margin-bottom: 10px; }
-.msg-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; gap: 12px; }
-.msg-head b { color: var(--accent); font-weight: 600; font-size: 13px; }
-.msg-head .ts { color: var(--muted); font-size: 11px; white-space: nowrap; }
-.msg-body { color: var(--fg); white-space: pre-wrap; font-size: 12px; }
-.empty { color: var(--muted); text-align: center; padding: 24px; font-style: italic; font-size: 12px; }
-footer { padding: 16px 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
-footer code { background: var(--panel); padding: 2px 6px; border-radius: 3px; color: var(--accent); }
-footer b { color: var(--fg); font-weight: normal; }
-#refreshDot { display: inline-block; width: 6px; height: 6px; background: var(--pos); border-radius: 50%; vertical-align: middle; margin-right: 6px; opacity: 0.6; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fff8ec 0%, #fdf1d7 50%, #fbe4c0 100%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: 'Nunito', 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(255, 200, 200, 0.4) 0%, transparent 8%),
+    radial-gradient(circle at 85% 70%, rgba(134, 200, 114, 0.3) 0%, transparent 10%),
+    radial-gradient(circle at 50% 90%, rgba(255, 200, 200, 0.3) 0%, transparent 12%),
+    radial-gradient(circle at 70% 10%, rgba(251, 191, 36, 0.25) 0%, transparent 9%);
+  pointer-events: none;
+  z-index: 0;
+}
+.wrap { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 24px; }
+
+header {
+  background: var(--white);
+  border-radius: 24px;
+  padding: 24px 28px;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  border: 2px solid var(--border);
+}
+.mascot {
+  font-size: 52px;
+  line-height: 1;
+  animation: bounce 2.8s ease-in-out infinite;
+  filter: drop-shadow(0 4px 6px rgba(139, 94, 60, 0.15));
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.titles { flex: 1; min-width: 200px; }
+.titles h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--brown-dark);
+  letter-spacing: -0.5px;
+}
+.titles .tagline {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 2px;
+}
+.meta-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pill {
+  background: var(--cream-2);
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 12px;
+  color: var(--brown);
+  font-weight: 600;
+}
+.pill b {
+  color: var(--brown-dark);
+  margin-left: 4px;
+  font-weight: 700;
+}
+.pill.live {
+  background: #e5f5e0;
+  border-color: #b5e0a0;
+  color: var(--green-dark);
+}
+.pill.live::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: var(--green-dark);
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+  animation: pulse 1.8s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.stat {
+  background: var(--white);
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  padding: 18px 22px;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.stat:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.stat::after {
+  content: attr(data-emoji);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 28px;
+  opacity: 0.15;
+}
+.stat label {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+.stat .value {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+}
+.value.pos { color: var(--green-dark); }
+.value.neg { color: var(--red); }
+
+main {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+
+.card {
+  background: var(--white);
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  padding: 22px 24px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+.card h2 {
+  font-size: 14px;
+  margin: 0 0 14px;
+  font-weight: 800;
+  color: var(--brown-dark);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card h2 .emoji { font-size: 20px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th {
+  text-align: left;
+  font-weight: 700;
+  color: var(--muted);
+  border-bottom: 2px dashed var(--border);
+  padding: 10px 10px 10px 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+td {
+  padding: 12px 10px 12px 0;
+  border-bottom: 1px dashed var(--border);
+  font-weight: 600;
+}
+td.pos, .pos { color: var(--green-dark); }
+td.neg, .neg { color: var(--red); }
+tr:last-child td { border-bottom: none; }
+.empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 32px 16px;
+  font-style: italic;
+  font-size: 13px;
+}
+.empty-pasture {
+  text-align: center;
+  padding: 28px 16px;
+}
+.empty-pasture .grass { font-size: 40px; }
+.empty-pasture p { color: var(--muted); margin: 8px 0 0; font-size: 13px; font-style: italic; }
+
+.msg {
+  background: var(--cream);
+  border: 2px solid var(--border);
+  border-left: 5px solid var(--pink-dark);
+  border-radius: 16px;
+  padding: 16px 18px;
+  margin-bottom: 12px;
+  transition: transform 0.2s ease;
+}
+.msg:hover { transform: translateX(2px); }
+.msg-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.msg-head b {
+  color: var(--brown-dark);
+  font-weight: 800;
+  font-size: 14px;
+}
+.msg-head .ts {
+  color: var(--muted);
+  font-size: 11px;
+  white-space: nowrap;
+  background: var(--white);
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+.msg-body {
+  color: var(--ink);
+  white-space: pre-wrap;
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+
+.routine-badge {
+  display: inline-block;
+  background: var(--pink);
+  color: var(--brown-dark);
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-right: 4px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 18px 22px;
+  background: var(--white);
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  color: var(--muted);
+  font-size: 13px;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+footer code {
+  background: var(--cream-2);
+  padding: 2px 8px;
+  border-radius: 6px;
+  color: var(--brown-dark);
+  font-weight: 700;
+  font-family: ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace;
+  font-size: 12px;
+}
+
+/* Cute floating decorations */
+.float-deco {
+  position: fixed;
+  font-size: 32px;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+  animation: float 8s ease-in-out infinite;
+}
+.float-deco:nth-child(1) { top: 12%; right: 8%; animation-delay: 0s; }
+.float-deco:nth-child(2) { bottom: 20%; left: 4%; animation-delay: 2s; }
+.float-deco:nth-child(3) { top: 65%; right: 4%; animation-delay: 4s; }
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(-5deg); }
+  50% { transform: translateY(-14px) rotate(5deg); }
+}
 </style>
 </head>
 <body>
+
+<div class="float-deco">🌾</div>
+<div class="float-deco">🍃</div>
+<div class="float-deco">💰</div>
+
+<div class="wrap">
+
 <header>
-  <h1>BULL</h1>
-  <div class="meta">
-    <span>mode: <b id="mode">-</b></span>
-    <span>last routine: <b id="lastRoutine">-</b></span>
-    <span><span id="refreshDot"></span>updated <b id="updated">never</b></span>
+  <div class="mascot">🐂</div>
+  <div class="titles">
+    <h1>Bull's Ranch</h1>
+    <div class="tagline">Your personal AI wealth advisor · trading on Alpaca paper</div>
+  </div>
+  <div class="meta-pills">
+    <span class="pill">mode<b id="mode">–</b></span>
+    <span class="pill">last<b id="lastRoutine">–</b></span>
+    <span class="pill live" id="livePill">updated <b id="updated">just now</b></span>
   </div>
 </header>
 
 <section class="stats">
-  <div class="stat"><label>Equity</label><div class="value" id="equity">-</div></div>
-  <div class="stat"><label>Cash</label><div class="value" id="cash">-</div></div>
-  <div class="stat"><label>Day P/L</label><div class="value" id="dayPL">-</div></div>
-  <div class="stat"><label>Alpha vs SPY (wk)</label><div class="value" id="alpha">-</div></div>
+  <div class="stat" data-emoji="💰">
+    <label>Equity</label>
+    <div class="value" id="equity">–</div>
+  </div>
+  <div class="stat" data-emoji="🌾">
+    <label>Cash</label>
+    <div class="value" id="cash">–</div>
+  </div>
+  <div class="stat" data-emoji="📈">
+    <label>Today</label>
+    <div class="value" id="dayPL">–</div>
+  </div>
+  <div class="stat" data-emoji="🎯">
+    <label>vs SPY (wk)</label>
+    <div class="value" id="alpha">–</div>
+  </div>
 </section>
 
 <main>
-  <div class="col">
-    <h2>Open positions</h2>
-    <table id="positions">
-      <thead><tr><th>Symbol</th><th>Qty</th><th>Avg</th><th>Current</th><th>P/L %</th><th>Stop</th></tr></thead>
-      <tbody></tbody>
-    </table>
+  <div>
+    <div class="card">
+      <h2><span class="emoji">🐄</span>Open positions</h2>
+      <table id="positions">
+        <thead><tr><th>Symbol</th><th>Qty</th><th>Avg</th><th>Current</th><th>P/L %</th><th>Stop</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
 
-    <h2>Recent trades</h2>
-    <table id="trades">
-      <thead><tr><th>Time</th><th>Side</th><th>Symbol</th><th>Qty</th><th>Price</th></tr></thead>
-      <tbody></tbody>
-    </table>
+    <div class="card">
+      <h2><span class="emoji">🌱</span>Recent trades</h2>
+      <table id="trades">
+        <thead><tr><th>Time</th><th>Side</th><th>Symbol</th><th>Qty</th><th>Price</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </div>
 
-  <div class="col">
-    <h2>Bull says…</h2>
-    <div id="messages"></div>
+  <div>
+    <div class="card">
+      <h2><span class="emoji">💬</span>Bull says…</h2>
+      <div id="messages"></div>
+    </div>
   </div>
 </main>
 
 <footer>
-  Talk back to Bull by editing <code>memory/inbox.md</code>. Bull reads it at the start of every routine and replies here.
+  🐂 Bull reads <code>memory/inbox.md</code> at the start of every routine. Write him a note there and he'll reply here.
 </footer>
 
+</div>
+
 <script>
-function fmtMoney(n) { return n == null ? '-' : '$' + Number(n).toLocaleString(undefined, {maximumFractionDigits: 2}); }
-function fmtPct(n) { return n == null ? '-' : (n >= 0 ? '+' : '') + Number(n).toFixed(2) + '%'; }
+function fmtMoney(n) {
+  if (n == null) return '–';
+  const v = Number(n);
+  return '$' + v.toLocaleString(undefined, { maximumFractionDigits: 2, minimumFractionDigits: v < 100 ? 2 : 0 });
+}
+function fmtPct(n) {
+  if (n == null) return '–';
+  return (n >= 0 ? '+' : '') + Number(n).toFixed(2) + '%';
+}
 function clsSign(n) { return n == null ? '' : (n >= 0 ? 'pos' : 'neg'); }
+
+const ROUTINE_EMOJI = {
+  'pre-market': '🌅',
+  'market-open': '🔔',
+  'midday': '☀️',
+  'market-close': '🌇',
+  'weekly-review': '📖',
+  'halted': '⚠️'
+};
 
 async function load() {
   try {
-    const r = await fetch('./state.json?ts=' + Date.now(), {cache: 'no-store'});
+    const r = await fetch('./state.json?ts=' + Date.now(), { cache: 'no-store' });
     const s = await r.json();
 
-    document.getElementById('mode').textContent = s.mode || '-';
+    document.getElementById('mode').textContent = s.mode || '–';
     document.getElementById('updated').textContent = s.last_update || 'never';
-    document.getElementById('lastRoutine').textContent = s.last_routine || '-';
+    document.getElementById('lastRoutine').textContent = s.last_routine || '–';
 
     document.getElementById('equity').textContent = fmtMoney(s.equity);
     document.getElementById('cash').textContent = fmtMoney(s.cash);
@@ -121,11 +438,17 @@ async function load() {
     if (s.positions && s.positions.length) {
       s.positions.forEach(p => {
         const tr = document.createElement('tr');
-        tr.innerHTML = `<td>${p.symbol}</td><td>${p.qty}</td><td>${fmtMoney(p.avg_cost)}</td><td>${fmtMoney(p.current)}</td><td class="${clsSign(p.pl_pct)}">${fmtPct(p.pl_pct)}</td><td>${fmtMoney(p.stop)}</td>`;
+        tr.innerHTML = `
+          <td><strong>${p.symbol}</strong></td>
+          <td>${p.qty}</td>
+          <td>${fmtMoney(p.avg_cost)}</td>
+          <td>${fmtMoney(p.current)}</td>
+          <td class="${clsSign(p.pl_pct)}">${fmtPct(p.pl_pct)}</td>
+          <td>${fmtMoney(p.stop)}</td>`;
         posBody.appendChild(tr);
       });
     } else {
-      posBody.innerHTML = '<tr><td colspan="6" class="empty">no open positions</td></tr>';
+      posBody.innerHTML = `<tr><td colspan="6"><div class="empty-pasture"><div class="grass">🌾🐄🌾</div><p>no positions yet — Bull is waiting for the right setup</p></div></td></tr>`;
     }
 
     const tradeBody = document.querySelector('#trades tbody');
@@ -133,11 +456,18 @@ async function load() {
     if (s.recent_trades && s.recent_trades.length) {
       s.recent_trades.forEach(t => {
         const tr = document.createElement('tr');
-        tr.innerHTML = `<td>${t.date}</td><td class="${t.side === 'BUY' ? 'pos' : 'neg'}">${t.side}</td><td>${t.symbol}</td><td>${t.qty}</td><td>${fmtMoney(t.price)}</td>`;
+        const sideCls = t.side === 'BUY' ? 'pos' : 'neg';
+        const sideIcon = t.side === 'BUY' ? '🟢' : '🔴';
+        tr.innerHTML = `
+          <td>${t.date}</td>
+          <td class="${sideCls}">${sideIcon} ${t.side}</td>
+          <td><strong>${t.symbol}</strong></td>
+          <td>${t.qty}</td>
+          <td>${fmtMoney(t.price)}</td>`;
         tradeBody.appendChild(tr);
       });
     } else {
-      tradeBody.innerHTML = '<tr><td colspan="5" class="empty">no trades yet</td></tr>';
+      tradeBody.innerHTML = `<tr><td colspan="5"><div class="empty-pasture"><div class="grass">📜</div><p>no trades yet — first ones fire at tomorrow's market open</p></div></td></tr>`;
     }
 
     const msgs = document.getElementById('messages');
@@ -146,22 +476,20 @@ async function load() {
       s.latest_messages.forEach(m => {
         const div = document.createElement('article');
         div.className = 'msg';
-        const body = document.createElement('div');
-        body.className = 'msg-body';
-        body.textContent = m.body || '';
-        const head = document.createElement('div');
-        head.className = 'msg-head';
-        const b = document.createElement('b');
-        b.textContent = m.headline || '';
-        const ts = document.createElement('span');
-        ts.className = 'ts';
-        ts.textContent = (m.ts || '') + ' · ' + (m.routine || '');
-        head.appendChild(b); head.appendChild(ts);
-        div.appendChild(head); div.appendChild(body);
+        const emoji = ROUTINE_EMOJI[m.routine] || '🐂';
+        const routineLabel = (m.routine || '').replace(/-/g, ' ');
+        div.innerHTML = `
+          <div class="msg-head">
+            <b>${emoji} ${m.headline || ''}</b>
+            <span class="ts">${m.ts || ''}</span>
+          </div>
+          <div class="msg-body"></div>
+          <div style="margin-top:8px"><span class="routine-badge">${routineLabel}</span></div>`;
+        div.querySelector('.msg-body').textContent = m.body || '';
         msgs.appendChild(div);
       });
     } else {
-      msgs.innerHTML = '<div class="empty">no messages yet — Bull will post here after each routine.</div>';
+      msgs.innerHTML = `<div class="empty-pasture"><div class="grass">🌤️</div><p>Bull hasn't said anything yet — check back after the next routine</p></div>`;
     }
   } catch (e) {
     console.error(e);
@@ -170,5 +498,6 @@ async function load() {
 load();
 setInterval(load, 15000);
 </script>
+
 </body>
 </html>
