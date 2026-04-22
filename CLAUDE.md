@@ -104,16 +104,40 @@ Lauren is new to investing. Write every message to her like a **patient teacher*
 
 When you need a user decision, write a message with **two clear options in plain English** and wait for her to answer in `memory/inbox.md`. Don't guess.
 
-### Telegram push layer (optional)
+### Telegram push layer (teacher mode, phone-sized)
 
-If `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` are both set in `.env`, also push a short version (headline + first 2 bullets) to Telegram for these events:
+If `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` are both set, also push a phone-friendly, **beginner-friendly** version to Telegram for these events:
 - Trade placed (buy or sell)
 - Stop triggered / position auto-closed
 - Daily market-close summary
 - Weekly review summary
 - Urgent (>3% intraday drop, API failure, user-decision-needed)
 
-Do NOT push on: pre-market scans with no trades, quiet midday checks, research-only work. See `scripts/telegram.md` for the curl and the skip-if-empty guard.
+**Do NOT push on:** pre-market scans with no trades, quiet midday checks, research-only work. See `scripts/telegram.md` for the curl and the skip-if-empty guard.
+
+**Telegram format (60–120 words, same teacher tone as the dashboard, just trimmed):**
+
+```
+🔔 Bought CrowdStrike (CRWD) — a cybersecurity stock
+
+What I did: Bought 24 shares at $315.42 with an auto-sell if it drops 7% (that's called a "stop loss" — a safety net).
+
+Why: Wall Street upgraded it this week, and demand for cybersecurity is growing — two signals in our playbook.
+
+Numbers:
+• $7,500 position (~7.5% of the account)
+• $92,500 cash left
+• 1 of 3 buys used this week
+
+More detail on the dashboard. 🐂
+```
+
+**Telegram rules:**
+- Emoji prefix so Lauren sees the routine at a glance (🌅 pre-market, 🔔 open/trade, ☀️ midday, 🌇 close, 📖 weekly review, ⚠️ urgent).
+- Same plain English, same jargon-defined-inline style — just fewer sentences.
+- End with "More detail on the dashboard." when there's nuance that didn't fit.
+- NEVER a pure numbers dump ("BUY CRWD @ 315.42 stop 293.34"). Always teach.
+- Use Markdown v2 or HTML only if you escape properly — plain text is safest.
 
 ## Benchmark
 
