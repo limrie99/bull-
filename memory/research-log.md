@@ -27,6 +27,49 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 15:00 CT — market-close
+
+### Market context (close)
+- **SPY closed $711.20, +1.04% on the day** (from $703.91 on 4/21). Tape was unambiguously risk-on — broad strength after the previous session's macro-driven fade. Latest trade print $710.40 just post-close.
+- No major macro print dropped during the session that would invalidate the pre-market read; risk-on move appears to be retracement + flows rather than a specific catalyst. Will verify with an overnight Perplexity pull tomorrow morning.
+- Secrets were finally restored in the environment — this is Bull's first actually-live routine after two consecutive halts (08:30 CT market-open, 12:00 CT midday).
+
+### Portfolio watch (close)
+- **NVDA 25 shares @ $201.38 avg, close $202.25, +$21.75 / +0.43%.** Position sits at ~5.1% of portfolio. No news flow flagged.
+- **Risk-management exception:** the OTO order placed at entry had a DAY time-in-force on the stop leg, which **expired at 3:00 PM CT close**. That left the position un-stopped for ~10 minutes post-close. Placed a GTC stop at $187.28 (entry × 0.93 = −7.01%) via a plain stop order at 15:24 CT. Position is now re-protected.
+
+### Trades placed today
+- **BUY NVDA 25 @ $201.38** (filled 10:07 CT, order id `2b923034…`). OTO parent market, child stop at $187.12 DAY. Fill matched expectation.
+- **Stop re-placement: SELL NVDA 25 stop $187.28 GTC** (order id `a3057559…`). Correcting the DAY-stop gap.
+
+### Day summary
+
+**Closing snapshot**
+- Equity: $100,021.75 (cash $94,965.50 + NVDA MV $5,056.25)
+- Day P/L: +$21.75 / **+0.02%**
+- SPY day: **+1.04%**
+- **Alpha day: −1.02%**
+- Week P/L (Fri 4/17 close baseline): +0.02% | SPY WTD +0.16% | **Alpha WTD −0.14%**
+- Weekly buys used: 1 / 3
+
+**What worked**
+- Executed the pre-market plan as specified: starter NVDA tranche, not a full-size entry, while the scout firms up the watchlist.
+- Env-var halt cycle ended — routine actually ran APIs cleanly today after two missed routines in a row.
+- Caught the expired-stop gap and re-protected the position with a GTC stop before the next session.
+
+**What didn't**
+- **Bracket stop was a DAY order, not GTC.** Strategy calls for a hard stop from buy; a DAY-tif stop violates that the moment the market closes. Update the buy template: parent market + GTC stop-loss child (bracket class with proper TIF), never OTO-DAY.
+- **Alpha was −1.02% on a +1.04% SPY day** because 95% of the book sat in cash. This is the direct cost of a slow-to-deploy first week. Not wrong — the signal gate was honored — but worth noting we only bought 1 name when the pre-market plan allowed for it.
+- Pre-market research had too many `n/a`s on macro fields (DXY, WTI, 10Y) relative to how decisively the tape moved today. Perplexity scout output quality needs to step up.
+
+**Open questions for tomorrow**
+1. Does NVDA hold ≥ $200 overnight / at open? If it opens weak, the thesis isn't broken but size stays small.
+2. Can we add a second name at Thursday open to reduce cash drag? Tighter watchlist: AVGO, PLTR (careful — earnings 5/4, 9 trading days out), GOOGL/MSFT (need earnings-date confirm first).
+3. Verify the GTC stop persists overnight — log it in the pre-market routine.
+4. Is the risk-off narrative (Iran/10Y) actually dead after today's reversal, or is this a one-day squeeze? Sub-agent macro pull tomorrow.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

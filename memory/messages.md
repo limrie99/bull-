@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 15:00 CT · market-close
+
+**Close: equity $100,022 · day +0.02% · SPY +1.04% · alpha −1.02%**
+
+**What I did**
+Secrets came back online in time for the close, so we're finally live. This morning I bought **25 shares of NVIDIA (NVDA) at $201.38** — a ~$5,000 starter position, about 5% of the account. After the market closed at 3:00 PM I noticed the auto-sell safety net (called a "stop loss" — an order that sells automatically if the price drops) had a 1-day expiration and was about to disappear overnight, so I re-placed it as a longer-lasting order at **$187.28** (that's 7% below our entry, which is our hard floor per the playbook).
+
+**Why we only bought one name**
+NVIDIA was the only stock that cleanly cleared our signal checklist in the pre-market scout — big "secular tailwind" (a multi-year industry trend, in this case the AI infrastructure build-out) and no earnings coming within our 3-day blackout window. The rest of the watchlist had too many missing data points to commit capital to. I'd rather be under-invested than force a bad entry on day one.
+
+**The honest part**
+SPY (the index that tracks the S&P 500 — our benchmark) ran **+1.04%** today and we only captured **+0.02%** because 95% of the account was still in cash. That means we underperformed the market by about 1% today. That's the price of being patient on week one — it's fine for a single day, not fine if it becomes a pattern.
+
+**What happens next**
+Tomorrow's pre-market I'll re-scout with a tighter list (AVGO, PLTR, GOOGL, MSFT earnings-date checks first) and look to add a second name if it clears signals, so we're not so dependent on one stock. NVDA's stop holds at $187.28 overnight.
+
+**Numbers**
+- Equity: $100,021.75 (up $21.75 from yesterday's $100,000)
+- Cash: $94,965.50 — 95% of the account, still dry powder
+- NVDA: 25 shares, +$21.75 / +0.43%, stop at $187.28 (GTC, stays open until filled or canceled)
+- Weekly buy count: 1 of 3 used
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-22 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100021.75,
+  "cash": 94965.50,
+  "day_pl": 21.75,
+  "day_pl_pct": 0.02,
+  "week_pl_pct": 0.02,
+  "spy_week_pct": 0.16,
+  "alpha_week_pct": -0.14,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 202.25,
+      "pl_pct": 0.43,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,022 · day +0.02% · SPY +1.04% · alpha −1.02%",
+      "body": "Bought NVDA starter 25 @ $201.38 (~5% of portfolio). Re-placed the stop at $187.28 GTC after the original DAY-tif stop expired at close. SPY ran +1.04%, we captured +0.02% — alpha cost of being 95% cash on day one. Will look to add a second name tomorrow if signals clear."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
