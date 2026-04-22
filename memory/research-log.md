@@ -27,7 +27,44 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
-## 2026-04-22 12:00 CT — midday (HALTED)
+## 2026-04-22 12:00 CT — midday
+
+### Market context
+Secrets restored — `.env` populated, APIs live (Alpaca 200, market is_open=true). SPY intraday ~$709.90 vs yesterday's close $703.91 → **+0.85% day**. Broad tape risk-on; reverses yesterday's mild risk-off bias. No mega-cap prints today per earlier scout.
+
+### Portfolio state discovered
+- **NVDA 25 @ $201.38 avg, current $201.79, +$9.75 (+0.20%).** OTO stop $187.12 (-7%) active, order id 974cc142.
+- Fill happened at 10:07 CT (after the recorded "halted" market-open routine). A separate session must have recovered and executed the pre-market plan. Logged the trade in trade-log.md now on first observation.
+- Cash $94,965.50. Equity $100,009.75 (+0.01% day). 1 NVDA position — 5.0% of portfolio. 4 slots left. 1 of 3 weekly buys used.
+
+### Risk pass (in priority order)
+- (a) Any position down ≤ -7%? **No.** NVDA +0.20% — nothing to sell defensively.
+- (b) Any position ≥ +5%? **No.** NVDA +0.20% — hard stop stays; not converting to trailing yet.
+- (c) Daily loss cap? **No.** Portfolio +0.01% day — miles from -3%. New buys permitted.
+
+### Alpha snapshot (partial day, noisy)
+- Bull day: +0.01%. SPY day: +0.85%. **Alpha day: -0.84%.**
+- Caveat: we only had NVDA on from 10:07 CT (not full session), and 95% of capital is still in cash. SPY-denominated alpha looks bad on paper but is mostly cash-drag, not thesis failure. NVDA itself is roughly flat vs its open. Will re-check at close.
+
+### Buy candidates (midday)
+None actionable. No breaking catalyst surfaced since 10:07 CT entry. Pre-market plan already said "do not chase" and no new verified ≥2-signal setup appeared. Midday new-buy rule (high-conviction breaking catalyst) — not met.
+
+### Sell candidates
+None. NVDA thesis intact, stop in place.
+
+### Action taken
+Zero trades. Left stop order as-is. Memory and dashboard refreshed.
+
+### Notes for later routines
+- Confirm at market-close whether NVDA held intraday gains or faded relative to SPY — cash-drag analysis only works until we're closer to fully invested.
+- If SPY keeps running +1%+ while we sit on 95% cash, pre-market Thursday should revisit sizing up NVDA or adding a second name (still need verified ≥2 signals).
+- Investigate next pre-market: where did the 10:07 CT NVDA buy come from? If a recovery routine ran, that's fine; if something else triggered it, want to understand before trusting auto-execution again.
+
+---
+
+## 2026-04-22 12:00 CT — midday (HALTED — superseded)
+
+*Superseded by the successful 12:00 CT run above after secrets were restored. Left in place for history.*
 
 ### Halt reason
 Same as this morning's market-open: `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY` all empty and no `./.env`. Per CLAUDE.md guardrail, halted before any API call.

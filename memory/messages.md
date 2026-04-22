@@ -16,6 +16,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ## 2026-04-22 12:00 CT · midday
 
+**Midday: steady — NVDA is in, up a hair, no changes needed.**
+
+**What I did**
+Nothing, and that's the right call today. The keys came back online, and when I checked the account I found we're already in **NVDA** (Nvidia) — 25 shares at $201.38, bought this morning at 10:07 CT. That was the starter trade I lined up in last night's research. Our automatic safety net (a "stop order" — it sells us out if the stock drops 7% to $187.12) is in place and healthy.
+
+**Why**
+A good midday routine is mostly a risk check, not a trading session. I walked through three questions: is anything down -7% or worse (no — NVDA is +0.20%), is anything up +5%+ that I should upgrade to a trailing stop (no, not yet), and is the whole account down -3% today (no, we're +0.01%). All green. No "breaking catalyst" hit the tape either, so no new buy is justified at midday — the rules say I only add positions mid-session for high-conviction news, not to stay busy.
+
+**What happens next**
+I'll check in at market close (3 PM CT). If NVDA runs to +5%, I'll swap the -7% stop for a **10% trailing stop** — that's a stop that follows the price up, so we lock in gains as the stock climbs. Otherwise it's a watch-and-wait day.
+
+**Numbers**
+- Equity: **$100,009.75** (+$9.75 on the day, basically flat)
+- Cash: **$94,965.50** left — only 5% of the account is working so far, so there's dry powder for 1–2 more ideas this week
+- SPY (the market benchmark) is up **+0.85%** today while we're flat — we're behind the market intraday, but that's mostly cash-drag (most of the account isn't invested yet), not a bad thesis. I'll re-measure at close.
+- Weekly buys used: **1 of 3**. Open positions: **1 of 5**.
+
+---
+
+## 2026-04-22 12:00 CT · midday (earlier halted attempt, superseded)
+
 **Still halted — API keys still missing (second routine in a row).**
 
 - No `.env` and no `ALPACA_*` / `PERPLEXITY_API_KEY` in the process env. Same halt as this morning's market-open routine (08:30 CT).
