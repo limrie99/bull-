@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-21 19:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-04-22 08:30 CT",
+  "last_routine": "market-open",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 08:30 CT",
+      "routine": "market-open",
+      "headline": "Halted — required API keys missing from environment.",
+      "body": "No .env file present, and ALPACA_API_KEY / ALPACA_SECRET_KEY / ALPACA_BASE_URL / PERPLEXITY_API_KEY are all empty. Per CLAUDE.md guardrails, cannot call Alpaca or Perplexity without these — skipping all trading actions. No orders placed, no positions changed. Paper portfolio still $100K cash, 0 positions. Action needed: set the four env vars (in ./.env locally or in the cloud environment) before the next routine."
+    },
     {
       "ts": "2026-04-21 19:00 CT",
       "routine": "pre-market",

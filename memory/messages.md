@@ -14,6 +14,17 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 08:30 CT · market-open
+
+**Halted — required API keys missing from environment.**
+
+- No `.env` file present, and `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY` are all empty in the environment.
+- Per CLAUDE.md guardrails, I cannot call Alpaca or Perplexity without these — skipping all trading actions for this routine.
+- No orders placed, no positions changed. Paper portfolio still $100K cash, 0 positions.
+- **Action needed:** set the four env vars (either in `./.env` locally or in the cloud environment) before the next routine wakes up, otherwise every routine will halt the same way.
+
+---
+
 ## 2026-04-21 19:00 CT · pre-market (re-run, for 4/22)
 
 **Tape flipped mildly risk-off — NVDA is the only clean setup; leaning pass or small starter.**
