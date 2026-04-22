@@ -27,6 +27,56 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 10:00 CT — pre-market (late-fired, for 2026-04-23 open)
+
+**Timing / clock note:** Routine prompt framed as "6:00 AM CT pre-market with market opening in 3.5 hours," but Alpaca `/v2/clock` returned `is_open=true, timestamp 2026-04-22 11:00 ET (= 10:00 CT), next_open = 2026-04-23 09:30 ET`. Treating this as a **late-fired pre-market re-run, effectively prepping for tomorrow's (4/23) cash open**. Research-only per prompt (no trades). APIs live: Alpaca /account 200, /positions 200, Perplexity 200 (coverage thin). Account unchanged from 4/21 close: $100K cash, 0 positions. Inbox: no pending. Three sub-agents fanned out in parallel (macro, earnings, opportunity scout).
+
+### Market context
+Macro read is **neutral with low information**. Perplexity coverage for today was thin — several key fields `n/a`.
+- **ES (Jun'26):** range ~7,154–7,231 recent sessions; today's pre-market % move `n/a`.
+- **NQ (Jun'26):** level `n/a`, % move `n/a`.
+- **US 10Y:** ~4.26% (Apr 20 print); today's bps change `n/a`. Had been 4.29% on 4/21 evening — suggests bonds bid back slightly.
+- **DXY, WTI/Brent, Gold, Nikkei/Hang Seng/Shanghai, Europe opens:** all `n/a` from Perplexity.
+- **Headlines:** only surfaced item was "US–Iran talks reportedly advancing toward a broader Middle East peace framework." No Fed, tariff, or China print.
+- **Net:** no clear risk-on/risk-off read. Treat macro as neutral and weight idiosyncratic catalysts heavily. If a cleaner read is needed later, pull SPY/QQQ/TLT/UUP/USO/GLD bars directly from Alpaca at the market-open routine as a proxy.
+
+### Portfolio watch
+No open positions. $100K cash. Nothing to watch, nothing at risk.
+
+### Earnings calendar (this week)
+- **Today 2026-04-22 BMO large-caps:** none confirmed.
+- **Today 2026-04-22 AMC large-caps:** none confirmed.
+- **Tomorrow 2026-04-23 (target open) AMC cluster:** **TSLA + INTC + NOW + IBM + LRCX.** This is the week's tape-setter day — Thursday's cash session will be positioning into the print, Friday will be the reaction.
+- **Last night (4/21 AMC):** no mega-cap prints.
+- **Prior TSLA-contradiction RESOLVED:** TSLA reports **Thursday 2026-04-23 AMC**, not Wednesday. 17:00 CT pass on 4/21 had it wrong.
+- **Guidance risk watch (for Fri reaction):** TSLA (auto cycle; guide-cut risk elevated), INTC (semis sentiment vehicle — weak guide would drag SOX).
+- **Next week blackout list:** GOOGL 4/29, AMZN ~4/30, MSFT/META typical 4/29–5/1 — all currently within 3-trading-day blackout, EXCLUDED from new buys.
+
+### Buy candidates
+
+Scout pass was thin on fresh catalysts. Only one name cleanly stacks ≥2 verified signals. Documenting honestly rather than padding to fill the 3–5 slot target.
+
+- **CRWD (Tech — cybersecurity).** Signals matched: **(4)** KeyBanc upgrade Sector Weight → Overweight, $525 PT on 2026-04-21; **(3)** cybersecurity secular tailwind. **Conviction: med.** Next earnings: historical early-June, **UNVERIFIED** in today's pull — must confirm via Alpaca calendar or a direct Perplexity earnings-date query before entering. Entry suggestion: **starter (≤5% ≈ $5K) once earnings date confirmed > 3 trading days out.** Risks: post-outage sentiment overhang; earnings-date risk until verified.
+- **NVDA (Tech — AI infra).** Signals matched: **(3)** secular AI-infra tailwind (Blackwell ramp); **(6)** prior uptrend. **Conviction: med.** Next earnings: **2026-05-20 AMC (confirmed)** — ~20 trading days out, clear of blackout. Entry suggestion: **starter (~5% ≈ $5K) on constructive open**, let hyperscaler capex prints next week (GOOGL 4/29, MSFT/META/AMZN cluster) clarify the AI-capex picture before upsizing. Risks: hyperscaler capex commentary could cut either way; China export headline risk.
+- **INTC.** Only a single signal (William Blair upgrade 4/21). Not a Bull-style fundamentals compounder — execution-dependent turnaround. **Pass.**
+- **AVGO, GOOGL, MSFT, META, AMZN** — all inside or bordering the 3-trading-day earnings blackout (GOOGL confirmed 4/29; AMZN ~4/30; MSFT/META typical 4/29–5/1). **Skip all until post-print**, then revaluate.
+- **PLTR.** Earnings 5/4 AMC (~8 trading days out — just outside blackout but tight). No fresh catalyst today. **Pass for now**; re-evaluate mid-next-week if a new signal appears.
+- **TSLA.** Reports 4/23 AMC. Not a Bull-style name (momentum-heavy, high narrative). **Exclude.**
+
+**Net:** at most **1–2 starters** worth considering for the Thursday 4/23 open, and only if pre-open tone is constructive AND TSLA/INTC hedge risk can be framed in ("both report AMC Thursday, so entries Thursday morning would be pre-reaction — size accordingly"). **CRWD is the cleaner setup on signals, but earnings-date blocker is unresolved**. **NVDA remains the default "always-a-good-time-unless-toppy" AI-infra proxy** with a verified runway (5/20). Cleanest play: **hold fire Thursday morning, watch the TSLA/INTC AMC reactions, and enter Friday pre-market if sentiment supports it.** Do NOT force a Thursday entry just to put cash to work.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. **Verify CRWD next earnings date** — targeted Perplexity call or Alpaca calendar. Blocker for any CRWD entry.
+2. At the next pre-market (Thursday 4/23 06:00 CT), confirm live ES/NQ % move and get actual cash-session SPY/QQQ close from today (4/22) to baseline macro tone.
+3. Pull SPY/QQQ/TLT/UUP/USO/GLD bars directly from Alpaca as a macro-proxy when Perplexity is thin (pattern this week).
+4. Consider raising Perplexity `search_context_size` to `medium` for scout calls — thin coverage is costing decision quality.
+5. Pre-stage a Friday (4/24) pre-market watchlist keyed off Thursday's AMC cluster: (a) SOX names on INTC reaction (AVGO, AMD, MU, ANET, VRT), (b) auto/EV peers on TSLA reaction, (c) software names on NOW/IBM read-through (CRWD, PANW, ORCL).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

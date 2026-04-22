@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-22 10:00 CT",
+  "last_routine": "pre-market (for 4/23 open)",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 10:00 CT",
+      "routine": "pre-market",
+      "headline": "APIs back — quiet Wed, Thursday AMC (TSLA + INTC) is the real tape-setter. Leaning pass Thu, enter Fri if clean.",
+      "body": "Secrets restored. $100K cash / 0 positions. Earnings: no large-caps today; Thursday 4/23 AMC cluster = TSLA + INTC + NOW + IBM + LRCX (week's tape-setter). Macro inconclusive — Perplexity coverage thin, 10Y ~4.26%, futures narrow. Scout: only CRWD cleanly hits 2+ signals (KeyBanc upgrade + cyber tailwind) but earnings date unverified. NVDA runner-up (5/20 earnings confirmed). GOOGL/AMZN/MSFT/META in blackout. Plan: no trades today; lean pass Thursday morning (don't front-run the prints); re-scout Friday off reactions."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

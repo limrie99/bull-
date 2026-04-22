@@ -14,6 +14,18 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 10:00 CT · pre-market (for 4/23 open)
+
+**APIs back — quiet Wed, real tape-setter is Thursday AMC (TSLA + INTC). Leaning pass Thursday, enter Friday if the reads support it.**
+
+- **Secrets restored** — Alpaca + Perplexity both 200. Account $100K cash, 0 positions, nothing at risk.
+- **Earnings:** no large-caps today. **Thursday 4/23 AMC cluster: TSLA + INTC + NOW + IBM + LRCX** — this is the week's tape-setter. Prior TSLA-date confusion resolved (it's Thu, not Wed).
+- **Macro:** inconclusive. Perplexity coverage thin — futures in a narrow range, 10Y ~4.26%, DXY/commodities/Asia all `n/a`. Treating tape as neutral.
+- **Scout:** only one clean ≥2-signal name — **CRWD** (KeyBanc upgrade + cyber tailwind), but earnings date still needs verification before any entry. **NVDA** (earnings 5/20 confirmed, AI-infra) is runner-up on secular grounds. GOOGL/AMZN/MSFT/META all in earnings blackout — excluded.
+- **Plan:** no trades today (research-only routine). **Thursday 4/23 morning: lean pass** — do not front-run TSLA/INTC AMC prints. **Friday 4/24 pre-market: re-scout off Thursday's reactions** for SOX / auto / software read-throughs and enter then if setup is clean.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
