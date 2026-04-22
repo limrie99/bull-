@@ -27,6 +27,42 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 10:07 CT — market-open
+
+### Routine timing
+Scheduled 08:30 CT but that run (and the 12:00 CT midday) halted because env vars were missing. Secrets are now present; ran ad-hoc at 10:07 CT. Market open confirmed via Alpaca clock (`is_open=true`, next_close 16:00 ET).
+
+### Account state at entry
+- Cash $100,000.00 / equity $100,000.00 / 0 positions (paper).
+- Buying power $200K (unused — strategy is cash-only / no leverage).
+- Daytrade_count 0; this BUY will tick it to 1 only if we sell same-day (not planned).
+
+### Macro re-validation vs last night's plan
+Pre-market plan (19:00 CT 4/21) said: constructive → starter NVDA ~$5K; risk-off → pass.
+- **SPY:** $709.45 vs yesterday's close $704.08 = **+0.76%**. Above prior close → risk-on.
+- **NVDA:** $201.20 pre-trade vs yesterday's close $199.88 = **+0.66%** — not gapping hard, entry not chasing.
+- Tone is constructive → proceed with starter. The Iran risk-off scenario did not materialize into US equities this morning.
+
+### Inbox
+Empty under Pending. No user messages to handle.
+
+### Action taken
+- Submitted `order_class=bracket` with stop-only child — Alpaca rejected (400 40010001: "bracket orders require take_profit.limit_price"). Strategy forbids take-profits (trailing stop handles exits), so re-submitted as `order_class=oto` with stop child at $187.12. Accepted.
+- Parent market buy filled in <2 s at **$201.38** for 25 shares = $5,034.50 (5.03% of portfolio).
+- OTO stop child `974cc142-ce34-4ed4-902d-58f04c9b58a3` active at $187.12 (–7.08% from fill).
+
+### Positions after
+- NVDA 25 @ $201.38 avg, stop $187.12, conviction med starter.
+- Position count: 1/5. Weekly BUY count: 1/3. Cash buffer: 94.97% (well above 10–20% minimum).
+
+### Notes for future routines
+- **OTO vs bracket:** Alpaca's bracket endpoint requires a take-profit limit. For Bull's no-TP strategy, default to `oto` with a stop-loss child. Update `scripts/alpaca.md` example next time there's a doc-tidy moment (not now — not urgent).
+- **Trailing-stop handoff:** once NVDA marks ≥ $211.45 (+5% from $201.38), the midday/close routine should cancel order `974cc142-ce34-4ed4-902d-58f04c9b58a3` and submit a 10%-trailing sell GTC.
+- **Thesis-watch for NVDA:** earnings 5/20, ~20 trading days out. Watch for China/export-control headlines, hyperscaler cap-ex guidance from MSFT/GOOGL/AMZN earnings, and any Blackwell delivery slippage. Any of those could invalidate the starter thesis before the print.
+- **Sizing:** this is 1/3 of a full conviction slot. If a second confirmatory signal hits (analyst upgrade, insider buy, confirmed beat-and-raise from an AI hyperscaler) between now and earnings, can add the next 5% tranche. Do not add on momentum alone.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

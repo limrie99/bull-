@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-22 10:07 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
+  "equity": 99999.50,
+  "cash": 94965.50,
+  "day_pl": -0.50,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 201.36,
+      "pl_pct": -0.01,
+      "stop": 187.12
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 10:07 CT",
+      "routine": "market-open",
+      "headline": "Open (late): bought NVDA starter — 25 @ $201.38, stop $187.12",
+      "body": "Secrets restored. Tape risk-on (SPY +0.76%, NVDA +0.74% vs yesterday's close) so the pre-market plan's starter branch triggered. Filled 25 NVDA @ $201.38 (~5% of portfolio, $5,034.50), -7% stop at $187.12 via OTO. Alpaca bracket rejected (requires take-profit), OTO used instead. Week BUY count 1/3. Cash $94,965.50. Next: midday routine will watch for thesis-break news and handle trailing-stop handoff once NVDA is +5%."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

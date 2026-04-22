@@ -14,6 +14,18 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 10:07 CT · market-open
+
+**Open (late): bought NVDA starter tranche — 25 @ $201.38, stop $187.12.**
+
+- Secrets restored — first live routine of the day. Ran at 10:07 CT (~1.5 hr after the bell) since the scheduled 08:30 and 12:00 runs both halted with no `.env`.
+- Re-validated pre-market plan against live tape: **SPY +0.76%**, **NVDA +0.74%** vs yesterday's close → constructive, so the "if risk-on, take starter NVDA" branch triggered.
+- Filled **25 NVDA @ $201.38** (~5.0% of portfolio, $5,034.50). Stop set at **$187.12 (-7%)** via OTO child. Alpaca rejected pure-stop bracket (requires take-profit) so I used OTO — trailing stop will replace the hard stop once NVDA is +5%.
+- No sells (no positions coming in). This week's BUY count is now 1 of 3 allowed. Cash $94,965.50, 1 of 5 position slots used.
+- Next scheduled check is the midday routine; I'll monitor for any thesis-break news on NVDA and the broader tape.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

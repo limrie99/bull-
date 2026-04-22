@@ -1,16 +1,16 @@
 # Portfolio
 
-**Last updated:** 2026-04-21 17:00 CT (pre-market routine)
-**Cash:** $100,000.00
-**Total equity:** $100,000.00
-**Day P/L:** $0.00 (0.00%)
-**Week P/L:** — | SPY week: — | Alpha: — (first run)
+**Last updated:** 2026-04-22 10:07 CT (market-open routine)
+**Cash:** $94,965.50
+**Total equity:** $99,999.50
+**Day P/L:** -$0.50 (0.00%)
+**Week P/L:** — | SPY week: — | Alpha: — (first trading day)
 
 ## Open positions
 
 | Symbol | Shares | Avg Cost | Current | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| (none) | | | | | | | | |
+| NVDA | 25 | $201.38 | $201.36 | -$0.50 | -0.00% | $187.12 | 2026-04-22 | Starter tranche — AI-infra leader, Blackwell ramp, earnings 2026-05-20. |
 
 ## Recent closes (last 5)
 
