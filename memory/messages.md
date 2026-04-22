@@ -14,6 +14,18 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 16:00 CT · weekly-review
+
+**Week ending 2026-04-22: +0.00% | SPY +0.11% | alpha −0.11% | grade C**
+
+- **Heads-up on timing:** routine invoked as the Friday weekly review, but system date is Wed 4/22 and the paper account was only funded Tue 4/21. This is a 2-day inception snapshot, not a real Mon–Fri cycle.
+- **Top win:** discipline held — no forced first trade. The pre-market scout correctly flagged no clean ≥2-signal buy; guardrails behaved cleanly through the halts (no silent state changes).
+- **Top loss:** infrastructure, not strategy. Two of three 4/22 routines (08:30, 12:00) halted on missing env vars; that killed the chance to execute the queued starter NVDA tranche. **Please restore the four required env vars in the cloud runner** before next week's open.
+- **Lesson:** on any mega-cap earnings date a routine uses to gate a decision, re-verify with a second source — the 4/21 17:00 vs 19:00 CT passes disagreed on TSLA AMC. Not a rule change, a workflow note.
+- **Strategy change:** none. One incomplete week is noise, not signal. Full review logged in `memory/weekly-review.md`.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
