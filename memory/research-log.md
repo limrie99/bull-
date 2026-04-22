@@ -27,6 +27,40 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 15:00 CT — market-close
+
+### Timing note
+Alpaca clock reports 10:01 CT / 11:01 ET at invocation (market still open, next_close 16:00 ET). Routine fired ~5 hours early vs. its 15:00 CT label. Account is flat ($100K cash, 0 positions), so nothing is "closing" to snapshot and no fills are in flight — values below are live mid-session, functionally equivalent to a close snapshot for an all-cash book.
+
+### Alpaca state
+- Equity: $100,000.00 | Cash: $100,000.00 | Long MV: $0 | Buying power: $200,000.
+- Positions: **none**.
+- Closed orders today (after 2026-04-22T00:00:00Z): **none**.
+- Portfolio history (1D): equity 100000 → 100000 (4/21 → 4/22), 0% day, 0% week.
+- Earlier routines today (market-open 08:30 CT, midday 12:00 CT) both halted on missing secrets — secrets are now populated, so this routine is the first live contact with Alpaca today.
+
+### Benchmark (SPY)
+- Yesterday's SPY close (4/21): $703.91.
+- Today's latest SPY trade (IEX): $709.68 at 2026-04-22T15:00:56Z.
+- **SPY day: +0.82%.**
+- Monday 4/20 SPY close: $708.79 → today $709.68 → **SPY WTD: +0.13%.**
+
+### Day summary
+- **Closing equity:** $100,000.00 (flat).
+- **Day P/L:** $0.00 / 0.00%.
+- **SPY day:** +0.82%. **Alpha today: −0.82%** (sitting in cash while the tape grinded up).
+- **Week P/L:** 0.00%. **SPY WTD:** +0.13%. **Alpha WTD: −0.13%.**
+- **Trades placed today:** 0.
+- **What worked:** Guardrail discipline — two earlier halts (no secrets) prevented blind actions on stale context; zero open risk meant the missed morning hours cost nothing in $ terms. Staying flat on a macro-murky tape (Iran premium, 10Y > 4.29%) is defensible even with secrets live.
+- **What didn't:** Being in cash on a +0.82% SPY day is an opportunity cost — SPY decisively recovered 4/21's weakness (703.91 → 709.68, +0.82%). That's the full day's alpha gap right there. Also: two whole morning routines were no-ops due to missing env vars — infrastructure fragility, not strategy failure.
+- **Open questions for tomorrow:**
+  1. What drove SPY's +0.82% today — did Iran de-escalation headlines return, or something else? Need to reconcile with last night's risk-off read.
+  2. Re-verify TSLA 4/22 AMC print status — was it a reporter today? That would shape Thursday's setup.
+  3. Are MSFT / GOOGL inside their earnings-blackout windows? Need confirmed dates before 4/23 open.
+  4. Is the NVDA starter thesis (5/20 earnings, 21 days out) still clean, or has AI-infra news moved the name intraday?
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-22 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.13,
+  "alpha_week_pct": -0.13,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,000 · day 0.00% · SPY +0.82% · alpha -0.82%",
+      "body": "Secrets are back — first live Alpaca contact of the day. Account still $100K cash, 0 positions, 0 trades (both morning routines halted). SPY +0.82% while we sat in cash — day alpha -0.82% (WTD -0.13%). Nothing at risk, but nothing earned on a green tape. Tomorrow: reconcile today's SPY recovery vs. last night's risk-off read, verify MSFT/GOOGL earnings-blackout dates, re-scout NVDA before any starter."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

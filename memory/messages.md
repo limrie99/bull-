@@ -14,6 +14,18 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 15:00 CT · market-close
+
+**Close: equity $100,000 · day 0.00% · SPY +0.82% · alpha −0.82%**
+
+- Secrets are back — first live Alpaca contact of the day. Account still $100K cash, 0 positions, 0 trades today (both morning routines halted).
+- **SPY +0.82%** (703.91 → 709.68) while we sat in cash. **Day alpha: −0.82%** (WTD −0.13%). That's the price of today's "pass" call plus the morning halts.
+- No positions to manage, no stops to move, no risk on the books. Zero $ lost, but zero $ earned on a green tape.
+- Heads-up for tomorrow: reconcile last night's risk-off read with today's +0.82% SPY recovery, verify MSFT / GOOGL earnings blackout dates, and re-scout NVDA before any starter tranche — tape has moved, don't trade yesterday's context.
+- Routine ran ~5 hrs early vs. its 15:00 CT label (Alpaca clock said 11:01 ET at invocation, market still open). All-cash book means the snapshot is functionally a close snapshot anyway.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
