@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-22 10:04 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 10:04 CT",
+      "routine": "pre-market",
+      "headline": "Secrets restored — scan done, no trades. NVDA remains the only ≥2-signal candidate; holding fire.",
+      "body": "Alpaca verified: $100K cash / 0 positions / equity $100K — no silent drift during the two halted routines. Scheduler quirk: 6 AM CT pre-market fired at ~10 AM CT (market already open); research-only per routine scope. Macro-driven tape, no confirmed large-cap earnings for 4/22 in fresh pull; crude/Iran is the swing factor and 10Y/DXY/WTI cash levels came back n/a again. NVDA (starter 5%/$5K, next earnings 5/20) is the only name with >=2 verified signals; mega-caps blocked by unverified earnings dates in peak-print week. Defer buy decision to the next clean routine."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

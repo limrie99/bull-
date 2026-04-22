@@ -27,6 +27,52 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 10:04 CT — pre-market (ran late — market already open)
+
+**Timing note:** Routine was scheduled as "6:00 AM CT pre-market" but Alpaca clock at dispatch is `2026-04-22T11:04 ET` = **10:04 CT, market OPEN**. Earlier routines today halted on missing secrets; secrets are now live (`ALPACA_*`, `PERPLEXITY_API_KEY`, `TELEGRAM_*` all set). Per routine scope, **no trades** placed — research-only. Account re-verified via Alpaca: **$100,000 cash, 0 positions, equity $100,000, last_equity $100,000, daytrade_count 0**. Three sub-agents fanned out in parallel (macro, earnings, opportunity scout).
+
+### Market context
+Net tone: **cautiously risk-on, low confidence** — macro digest had too many `n/a`s again.
+- **ES (Jun'26):** ~7,142.50 (+0.60%) on overnight snapshot (02:31 UTC) — stale by ~8h by the time this ran; real-time cash level not pulled. Tue cash closed −0.13%.
+- **NQ:** +0.40% pre-market overnight on US–Iran diplomacy hopes; Tue closed ~flat.
+- **10Y yield, DXY, WTI, Brent cash levels:** **n/a** — Perplexity sparse. WTI only confirmed as *direction up* Tue on Iran-concerns headlines.
+- **Headlines since Tue close:**
+  1. Crude spiked on fresh Iran concerns Tue, erasing early equity gains.
+  2. US–Iran diplomacy hopes lifted futures +0.35–0.40% into Wed pre-market.
+  3. Retail sales data and Warsh (Fed chair nominee) hearing on deck; no CPI/PPI/jobs, no Fed speakers, no tariff/China headlines overnight.
+- **Net:** Middle East / crude remains the swing factor. No data-driven catalyst today.
+
+### Earnings calendar (honest state — source returned mostly n/a)
+- **4/22 BMO / AMC large-caps:** **n/a** — Perplexity did not confirm any large-cap $10B+ reporters for today. Contradicts the 4/21 17:00 CT pass's TSLA-AMC read, consistent with the 4/21 19:00 CT pass's "no confirmed mega-cap" read.
+- **4/23 BMO likely (unconfirmed dates):** MMM, BA, GE, LMT, NOC, UAL, AAL — "this week" list, no firm date/EPS/rev.
+- **4/23 AMC likely (unconfirmed):** TSLA, INTC — historical slot.
+- **4/21 AMC:** no large-cap print surfaced in fresh pull. TSLA 4/21 AMC asserted in 17:00 CT pass on 4/21 has now contradicted itself twice — treat as unconfirmed until Alpaca/filings reflect it.
+- **Implication for 4/22 session:** tape is macro-driven, not earnings-driven.
+
+### Portfolio watch
+No open positions — nothing to watch. $100K cash / $200K reg-T buying power (strategy cap = cash-only, no leverage). No sub-agent dispatched per-position (nothing to cover). Guardrail status: 0/5 position cap used, 0/3 weekly buys used, no daily-loss cap triggered (equity unchanged).
+
+### Buy candidates
+Scout verified very little today (2 Perplexity calls; most fields `n/a`). Honest take: **one low-med candidate, one pass-with-watch, rest are pass-until-dates-are-confirmed.**
+
+- **NVDA** — (Semis / AI infra) ~$186 last print; mkt cap n/a. **Signals matched: (3) secular AI-infra tailwind — intact, dated** + **(1 partial) Feb 25 2026 Q4 FY26 print: rev $68.1B / +73% Y/Y, EPS $1.76 (>1wk stale, partial credit).** Next earnings **2026-05-20 AMC (confirmed prior pass)** — ~20 trading days out, clear of 3-day blackout. Catalyst window: Q1 FY27 print 5/20 is double-edged. **Conviction: MED.** Starter 5% ($5K), full 12% ($12K) max given print risk. Entering 4 weeks ahead of earnings is a known trap — prefer pullback.
+- **AVGO** — (Semis / AI networking) price/mcap n/a. **Signals matched: (3) AI-networking + custom-silicon tailwind (undated in today's pull).** Next earnings **2026-06-03 (confirmed prior pass)** — safe window. **Conviction: LOW** — only 1 signal verified today. **Pass** until a second dated signal.
+- **GOOGL, MSFT, AMZN, META, NOW** — **PASS TODAY.** Late-April is peak mega-cap earnings week; Perplexity did not confirm exact dates today. Opening any of these without a verified next-earnings date would risk the 3-trading-day blackout rule. Defer until dates are pulled directly (next routine: query the Alpaca calendar API or a cleaner source).
+- **PLTR, CRWD, PANW, LLY, BE** — **PASS.** All `n/a` on earnings date + recent catalyst today. Cannot verify blackout compliance or ≥2 signals. Honest pass.
+
+**Net:** still a **pass-and-wait morning** (same recommendation the last two research-log entries reached). If there were pre-market authority to trade, at most a **NVDA starter (~5% / $5K)** with the −7% hard stop — and only if the cash session opens constructive (SPY green, no crude spike). Since this routine is explicitly no-trade, deferring the NVDA entry decision to the next market-open or midday routine.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. Scheduling drift: the 6 AM CT pre-market ran at 10 AM CT. Flag so scheduler can be fixed; if unfixable, rename this slot to "morning scan."
+2. Still failing to pull 10Y / DXY / WTI cash levels from Perplexity. Consider a dedicated narrow query (single concept per call) for macro levels before the batched headline query, or raise `search_context_size` to `medium`.
+3. Pull MSFT/GOOGL/AMZN/META/NOW/LLY/PLTR next-earnings dates from Alpaca's corporate-actions endpoint (or the free `/v2/calendar` if available) rather than asking Perplexity — faster and deterministic.
+4. TSLA 4/21 AMC print status: still unresolved across three consecutive scans. Next routine should check directly on IR page or filings summary.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

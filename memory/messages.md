@@ -14,6 +14,17 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 10:04 CT · pre-market (ran late)
+
+**Secrets restored — back online. Scan done, no trades. NVDA remains the only candidate with ≥2 verified signals; holding fire.**
+
+- Alpaca verified: **$100,000 cash / 0 positions / equity $100,000.** No silent drift during the two halted routines.
+- Scheduler quirk: this "6 AM CT pre-market" fired at **~10 AM CT** (market already open). Per routine scope this is still research-only — no trades.
+- Tape: macro-driven day, **no confirmed large-cap earnings** for 4/22 BMO/AMC in fresh pull. Crude/Iran remains the swing factor; 10Y / DXY / WTI cash levels came back `n/a` again — need to fix the macro query.
+- **Recommendation:** keep cash. NVDA (starter 5% / $5K, next earnings 5/20) is the only name with ≥2 verified signals but I don't want to initiate on a stale-macro, scheduler-broken morning. Mega-caps (GOOGL/MSFT/AMZN/META) blocked by unverified earnings dates in peak-print week. Defer buy decision to the next clean routine.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
