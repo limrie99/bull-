@@ -27,44 +27,49 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
-## 2026-04-22 06:00 CT — pre-market (HALTED — egress blocked)
+## 2026-04-21 19:00 CT — pre-market (for 2026-04-22 open) — re-run
 
-**Halt reason:** Credentials present and valid-looking, but the runtime's egress proxy blocks the required API hosts. No research was done; no trades were placed.
-
-### Diagnosis
-- Initial probe: `printenv | grep -iE "alpaca|perplex|telegr"` returned empty. No `.env` at repo root. Would normally halt here per "If a required var is empty, halt" guardrail.
-- User replied mid-session with all 6 keys (ALPACA_API_KEY, ALPACA_SECRET_KEY, ALPACA_BASE_URL=`https://paper-api.alpaca.markets`, PERPLEXITY_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID).
-- Wrote them to `./.env` (chmod 600, confirmed ignored by `.gitignore:1:.env`). Sourced successfully.
-- Test calls with `curl -v`:
-  - `GET $ALPACA_BASE_URL/v2/clock` → TLS handshake succeeds, cert issued by `O=Anthropic; CN=sandbox-egress-production TLS Inspection CA` (i.e. the Anthropic egress proxy is intercepting TLS), response body `Host not in allowlist`, status **HTTP 403**.
-  - `GET https://data.alpaca.markets/v2/stocks/SPY/trades/latest` → same 403 / same body.
-  - `POST https://api.perplexity.ai/chat/completions` → same 403 / same body.
-  - `POST https://api.telegram.org/bot.../sendMessage` (attempted as "API failure" urgent push per CLAUDE.md telegram guard) → same 403 / same body. Push did NOT deliver.
-  - `curl -sv https://github.com` → connects fine (expected; git ops work).
-- So: **credentials untested end-to-end, but the failure mode is environmental, not credential-related.** When the user runs this repo locally or on a cloud runner with open egress (or with those hosts allowlisted), the routine will work normally.
-
-### What was NOT run
-- No Alpaca account / positions / clock / calendar fetch.
-- No Perplexity queries.
-- No sub-agents dispatched (macro, earnings, position, opportunity scout).
-- No state refresh against a real account; portfolio values carried forward from the 2026-04-21 17:00 CT snapshot.
+**Timing note:** Second pass for the Wed 4/22 open, after the 17:00 CT pass flagged too many `n/a`s to act on. APIs verified live (Alpaca 200, Perplexity 200). Three sub-agents fanned out in parallel — macro, earnings, opportunity scout. Account unchanged: $100K cash, 0 positions.
 
 ### Market context
-Not fetched.
+Tape shifted **mildly risk-off** vs the earlier bullish futures read.
+- **ES (Jun'26):** ~7,165.75, **−0.13%** evening session (was ~+0.35% at 17:00 CT — faded).
+- **NQ (Jun'26):** ~flat to +0.05% evening.
+- **US 10Y Treasury:** 4.294%, **+4.4 bps** on the day (range 4.236 – 4.319). Bonds sold off.
+- **Crude:** direction up on "Iran concerns" headlines; WTI/Brent exact levels `n/a`.
+- **DXY, Nikkei, Hang Seng, European closes:** `n/a` — Perplexity sparse on these; not actionable.
+- **Headline flow:** Iran/Middle East risk premium flipped the intraday tone — early equity gains erased, crude spiked, rates up. No Fed speaker, CPI/PPI, or tariff print surfaced in this window.
+- **Net:** mildly risk-off. Iran/oil is the live wire. Secondary watch: does 10Y hold above 4.30% at Wed open.
 
 ### Portfolio watch
-Carried forward: 0 positions, $100K cash, paper mode. No positions to monitor regardless.
+No open positions. $100K cash, $200K buying power (cash-only / no leverage per strategy).
+
+### Earnings calendar (2026-04-22)
+Contradicts the 17:00 CT pass — worth flagging.
+- **Fresh Perplexity (sonar-pro) returned no confirmed $10B+ US earnings for 4/22, BMO or AMC.** Names that *may* report BMO per an Interactive Investor preview dated 4/17 (unconfirmed for 4/22 specifically): **MMM, GE, UNH, EL, XOM, MRNA**. Consensus EPS/rev not supplied.
+- **TSLA AMC 4/22** was asserted in the 17:00 CT pass but was NOT confirmed in tonight's fresh pull. Source contradiction — do not treat TSLA as a confirmed tape-setter until verified tomorrow morning.
+- **4/21 AMC mega-cap prints (MSFT / GOOGL / META / AMZN / NVDA):** none reported per tonight's pull.
+- **Guidance-risk call:** low-conviction — with no confirmed mega-cap print, Wednesday is more likely to be macro-driven (Iran / rates) than earnings-driven.
 
 ### Buy candidates
-None evaluated — research tooling unreachable. Do NOT infer candidates from memory alone; strategy requires live catalyst + earnings-date verification.
+
+Scout verified next-earnings dates on 3 of 10 seed names; the rest came back `n/a` on critical fields — strategy says do not propose without verification. Documenting honestly.
+
+- **NVDA — AI-infra leader, clean earnings runway.** Signals: (3) secular AI-infra tailwind (Blackwell ramp, cap-ex cycle). Next earnings **2026-05-20 AMC (confirmed)** — ~21 trading days out, outside the 3-day blackout. **Conviction: med.** Only 1 hard signal verified tonight; the earnings date is inbound catalyst but not near-term. Prefer a pullback entry; do not chase.
+- **AVGO — AI ASIC/networking play, widest earnings window.** Signals: (3) custom-silicon + VMware AI tailwind. Next earnings **2026-06-03 (confirmed)** — 6+ weeks out. **Conviction: low–med.** Single verified signal; would upgrade with a verified upgrade or insider-buy tomorrow.
+- **PLTR — AI/defense software, earnings in 9 trading days.** Signals: (3) AI + gov tailwind. Next earnings **2026-05-04 AMC (confirmed)** — 9 trading days out (clear of 3-day blackout but close). **Conviction: low.** High multiple risk into the print; any entry now must be size-to-trim-before-5/1 OR hold-through willingness.
+- **GOOGL, MSFT, CRWD, PANW, BE, LLY, NOW** — earnings dates and fresh catalysts unverified in tonight's 3 Perplexity calls. **MSFT and GOOGL historically print late April** — treat as likely inside/adjacent 3-day blackout until a date is confirmed. **Do not open GOOGL or MSFT at Wed open without an explicit earnings-date check.**
+
+**Net:** no clean ≥2-signal-verified buy tonight. **NVDA is the only name with verified runway + a real tailwind.** Strategy explicitly prefers patience; recommend at most a **starter tranche (1/3 of target size, ~5% of portfolio ≈ $5K)** in NVDA at Wed open IF macro tone is constructive, and re-run the scout after tomorrow night's close with a better-pulled watchlist. If pre-open futures are still risk-off (ES < flat, 10Y > 4.30, WTI gapped up), **pass entirely.**
 
 ### Sell candidates
 None — no positions.
 
-### Next steps on wake
-1. First thing: retry the Alpaca clock call. If it returns 200, proceed with the normal pre-market flow. If it returns 403, halt and re-post the message.
-2. If the egress block is a permanent property of this specific runtime, fall back to whatever environment runs the scheduled routines (the laptop cron / CI runner). The prompts and memory are portable — nothing here is runtime-specific.
-3. Carry forward the 4/21 17:00 CT action items: pull earnings dates from Alpaca first (esp. NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW); treat TSLA AMC 4/22 print as the day's tape-setter; avoid any position within 3 trading days of its earnings.
+### Notes / research gaps to close next routine
+1. Verify TSLA 4/22 AMC print — source contradiction between 17:00 and 19:00 CT passes.
+2. Pull MSFT and GOOGL next-earnings dates explicitly (likely inside late-April blackout window).
+3. Get WTI/Brent cash levels and DXY at open — macro still has too many `n/a`s to size rate-sensitive names.
+4. Perplexity sonar-pro with low search context was thin tonight. Consider raising context size for the scout call (`search_context_size: "medium"`) if budget allows — but batch tickers to keep the call count down.
 
 ---
 
