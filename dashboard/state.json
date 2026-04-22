@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-22 08:30 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-04-22 12:00 CT",
+  "last_routine": "midday (halted)",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 12:00 CT",
+      "routine": "midday",
+      "headline": "Still halted — API keys still missing (second routine in a row).",
+      "body": "Same halt as this morning's market-open. No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no Perplexity calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions — nothing at risk, but nothing is being watched either. Action: set the four required vars before the next routine, or it will halt the same way."
+    },
     {
       "ts": "2026-04-22 08:30 CT",
       "routine": "market-open",

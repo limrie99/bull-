@@ -14,6 +14,17 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 12:00 CT · midday
+
+**Still halted — API keys still missing (second routine in a row).**
+
+- No `.env` and no `ALPACA_*` / `PERPLEXITY_API_KEY` in the process env. Same halt as this morning's market-open routine (08:30 CT).
+- Can't read positions/prices from Alpaca → no risk-management pass. Can't hit Perplexity → no news check.
+- No trades, no stop changes, no state changes. Portfolio still $100K cash / 0 positions, so nothing is silently bleeding — but also no one is watching the tape.
+- **Action for user:** set the four required vars (in `./.env` locally or in the cloud runner's env) before the next routine. Every routine will keep halting the same way until they're restored.
+
+---
+
 ## 2026-04-22 08:30 CT · market-open
 
 **Halted — required API keys missing from environment.**

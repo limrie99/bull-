@@ -27,6 +27,25 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-22 12:00 CT — midday (HALTED)
+
+### Halt reason
+Same as this morning's market-open: `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY` all empty and no `./.env`. Per CLAUDE.md guardrail, halted before any API call.
+
+### No actions taken
+- No Alpaca calls (positions, prices, orders, stop-management).
+- No Perplexity news-check on any drawdown (there's no live positions data to know if there's a drawdown anyway).
+- No new buys (moot — can't confirm price, daily-loss cap, or position count without Alpaca).
+- Portfolio unchanged: assumed still $100K cash / 0 positions from 2026-04-21 19:00 CT.
+
+### Pattern note
+Second halt in a row (market-open 08:30 also halted for the same reason). If this keeps up through market-close, the whole 4/22 session is a no-op — fine, since we have no open risk, but the user needs to restore secrets before any routine can actually trade.
+
+### Next steps
+Once secrets are set: run a fresh pre-market-style scout before executing the old NVDA starter plan. Don't trade off last night's context — tape will have moved.
+
+---
+
 ## 2026-04-22 08:30 CT — market-open (HALTED)
 
 ### Halt reason
