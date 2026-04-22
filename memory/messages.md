@@ -14,6 +14,16 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-22 06:00 CT · pre-market — HALTED
+
+**Could not run pre-market — required secrets missing. No trades attempted.**
+
+- No `.env` at repo root and runtime env has no `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, or `PERPLEXITY_API_KEY` set.
+- Per CLAUDE.md guardrail, I halted before any Alpaca or Perplexity call and did not spawn sub-agents. Portfolio snapshot unchanged from 4/21 close: **$100K cash, 0 positions**.
+- **Action needed from you:** provision the four required secrets (Alpaca paper key/secret/base-url + Perplexity key) for the cloud session. Once they're live, re-running this routine will execute last night's 4/22 plan: pass if futures still risk-off, else $5K NVDA starter with -7% stop.
+
+---
+
 ## 2026-04-21 19:00 CT · pre-market (re-run, for 4/22)
 
 **Tape flipped mildly risk-off — NVDA is the only clean setup; leaning pass or small starter.**

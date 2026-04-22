@@ -4,6 +4,38 @@
 
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
+---
+
+## 2026-04-22 06:00 CT — pre-market — HALTED (missing secrets)
+
+**Timing:** Scheduled 6:00 AM CT pre-market routine for Wed 4/22 open. Routine did not complete.
+
+### Halt reason
+No `.env` file present at repo root and none of the required env vars were set in the runtime environment. Per CLAUDE.md, all of the following are required (halt if empty):
+
+- `ALPACA_API_KEY` — empty
+- `ALPACA_SECRET_KEY` — empty
+- `ALPACA_BASE_URL` — empty
+- `PERPLEXITY_API_KEY` — empty
+
+No Alpaca or Perplexity calls were attempted. No sub-agents were spawned. No trades were placed (market closed and routine forbids trades anyway). Portfolio snapshot unchanged from last write (2026-04-21 17:00 CT): $100K cash, 0 positions.
+
+### Diagnostics
+- `ls -la /home/user/bull-/.env` → `No such file or directory`
+- `env | grep -E "ALPACA|PERPLEXITY|TELEGRAM"` → (empty)
+- Git branch: `claude/gracious-allen-l0R6K` (task-designated dev branch, not `main`).
+
+### What future-Bull should do on next wake
+1. Confirm secrets are configured for the cloud/remote session (expected: Alpaca paper key pair, Alpaca paper base URL, Perplexity key). Locally, dropping a `.env` at repo root will do it.
+2. Once secrets are live, re-run the 4/22 pre-market plan from last night's 19:00 CT digest:
+   - If futures at 6 AM CT remain risk-off (ES < flat, 10Y > 4.30%, WTI gapped up on Iran) → **pass entirely** at Wed open.
+   - If constructive → **$5K starter NVDA** (~5% of portfolio), -7% hard stop via bracket.
+3. Resolve the open research gaps: TSLA 4/22 AMC verification, MSFT/GOOGL earnings-date check (likely inside 3-day blackout), fresh macro levels (DXY, WTI, Brent, 10Y cash).
+
+### Sell candidates
+None — no positions.
+
+
 Format:
 
 ```

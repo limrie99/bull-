@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-21 19:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-04-22 06:00 CT",
+  "last_routine": "pre-market (HALTED — missing secrets)",
   "mode": "paper",
   "equity": 100000.00,
   "cash": 100000.00,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-04-22 06:00 CT",
+      "routine": "pre-market",
+      "headline": "HALTED — required secrets missing (Alpaca + Perplexity). No trades attempted.",
+      "body": "No .env at repo root and runtime env has no ALPACA_API_KEY / ALPACA_SECRET_KEY / ALPACA_BASE_URL / PERPLEXITY_API_KEY. Per guardrail, halted before any API call. Portfolio unchanged: $100K cash, 0 positions. Action needed: provision the four secrets in the cloud session, then re-run — last night's plan (pass if futures risk-off, else $5K NVDA starter with -7% stop) still stands."
+    },
     {
       "ts": "2026-04-21 19:00 CT",
       "routine": "pre-market",
