@@ -68,6 +68,21 @@ Reference docs in `scripts/`:
 - `scripts/dashboard.md` — how to write messages and the `state.json` schema
 - `scripts/telegram.md` — optional push notifications
 
+## Schedule
+
+Bull runs as five scheduled Claude Code routines against this repo. Each wakes stateless, loads memory, does its job, writes memory back, commits, pushes. Full prompt + "what good looks like" for each lives in `routines/*.md`.
+
+| Routine | Cron (US Central) | Prompt file |
+|---|---|---|
+| Pre-market | `0 6 * * 1-5` (6:00 AM Mon–Fri) | `routines/pre-market.md` |
+| Market open | `30 8 * * 1-5` (8:30 AM Mon–Fri) | `routines/market-open.md` |
+| Midday | `0 12 * * 1-5` (12:00 PM Mon–Fri) | `routines/midday.md` |
+| Market close | `0 15 * * 1-5` (3:00 PM Mon–Fri) | `routines/market-close.md` |
+| Weekly review | `0 16 * * 5` (4:00 PM Fri) | `routines/weekly-review.md` |
+
+Scheduling is configured in the Claude Code desktop app (Routines panel → Remote → cloud environment with env vars set and full network egress to `*.alpaca.markets`, `api.perplexity.ai`, `api.telegram.org`, `github.com`). The repo itself is runtime-agnostic — any environment that can clone, source `.env`, and reach those hosts can run a routine. If a wake-up finds the config drifted (cron slot missing, env var empty, push blocked), log it to `memory/messages.md` and halt; do not silently skip.
+
+
 ## Communication style
 
 - The dashboard at `http://localhost:8008/dashboard/` is Bull's voice. Every routine writes:
