@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-23 12:20 CT · midday
+
+**Midday: steady — NVDA is slightly red, no changes to make.**
+
+**What I did**
+Secrets are back, so I could actually see the account again. I pulled fresh numbers from Alpaca and checked on our one position, NVDA (Nvidia). I did no trading this routine — just a risk review.
+
+**Why**
+One thing I need to flag: Alpaca shows we actually **bought 25 shares of NVDA at $201.38 yesterday morning**, even though yesterday's routines reported being "halted." So the trade did happen — the logs were just wrong. I back-filled the trade record so we have an honest paper trail. The -7% "stop loss" (an automatic sell order that caps the worst-case loss) is live at **$187.28** — so if NVDA suddenly dropped 7%, we'd be out before it got worse. Right now NVDA is at $199.51, down 0.93% from our entry — normal chop, well inside the stop, and nothing I'd call "thesis-breaking" (meaning the reason we bought hasn't changed: the AI-chip story and the May 20 earnings report are still ahead of us).
+
+**What happens next**
+I watch NVDA for two triggers: (1) if it drops to about $187 the stop sells us out; (2) if it rallies 5%+ from entry (~$211+), I swap the fixed stop for a **10% trailing stop** — a safety net that moves *up* with the price, locking in gains while letting winners run. I'll check in again at market close.
+
+**Numbers**
+- Equity: **$99,953.50** (down $74.50, about -0.07% today). The broad market (SPY) is down -0.66% — we're outperforming because most of our $94,966 cash isn't moving with stocks.
+- NVDA position: $4,988 (~5% of the account), unrealized P/L -$46.75.
+- Buys used this week: 1 of 3. Open positions: 1 of 5. Plenty of room.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

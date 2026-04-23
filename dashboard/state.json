@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-23 12:20 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
+  "equity": 99953.50,
+  "cash": 94965.50,
+  "day_pl": -74.50,
+  "day_pl_pct": -0.07,
+  "week_pl_pct": -0.05,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 199.51,
+      "pl_pct": -0.93,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-23 12:20 CT",
+      "routine": "midday",
+      "headline": "Midday: steady — NVDA is slightly red, no changes to make.",
+      "body": "Secrets restored, pulled fresh Alpaca state. Flag: Alpaca shows NVDA 25 @ $201.38 actually filled 4/22 10:07 CT — yesterday's 'halted' logs were wrong. Back-filled the trade record. NVDA now $199.51 (-0.93%), stop still at $187.28. No news-check trigger (not at -7%), no trailing-stop swap (not at +5%), daily loss cap not tripped (-0.07%). No midday buys. Equity $99,953.50, SPY day -0.66% so we're outperforming a red tape mostly because cash doesn't move. Next check: market close."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

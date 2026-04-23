@@ -27,6 +27,40 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-23 12:20 CT — midday
+
+### Env / state check
+Secrets restored — `.env` present, all four required vars non-empty. Alpaca `/v2/clock` returns `is_open:true` (13:18 ET). Account pulled cleanly.
+
+### Account snapshot
+- Equity: **$99,953.50** (last_equity $100,028.00 → day P/L **-$74.50 / -0.07%**).
+- Cash: $94,965.50. Non-marginable BP: $95,459.50.
+- Long market value: $4,988.00 (NVDA).
+
+### Reality check vs. message log
+Alpaca shows NVDA 25 @ $201.38 filled 2026-04-22 10:07 CT via OTO market + $187.12 day-stop (order 2b923034). Day-stop expired at 4/22 close; a fresh $187.28 GTC stop (order a3057559) was placed 4/22 16:24 CT and is live. **The 4/22 message log and research log had claimed a halt all day — that was wrong; the trade did fill.** Back-filled a trade-log entry to correct the record. Treating current Alpaca state as source of truth going forward.
+
+### Portfolio watch — NVDA
+- Entry $201.38, current $199.51 (latest trade $199.35–$199.61 IEX), **P/L -0.93%**.
+- Today: NVDA prev close $202.42, intraday −1.52%. Tape-wide: SPY prev close $711.20, current ~$706.52, **SPY −0.66%**.
+- NVDA underperforming SPY by ~86 bps intraday — not thesis-breaking, but worth noting. No single-name catalyst (no news, no guidance cut, no analyst action spotted). Blackwell story and 5/20 earnings runway intact.
+- Risk triggers (priority order in routine brief):
+  - (a) −7% news check? No — NVDA −0.93% from entry. **Skip.**
+  - (b) +5% trailing-stop swap? No — position is slightly red. **Skip.**
+  - (c) Daily loss cap? No — account −0.07% intraday, well inside 3% cap.
+
+### New buys
+**None.** Routine brief says no midday buys absent a high-conviction breaking catalyst; none surfaced in the NVDA snapshot and I did not scout new names at midday (not the right routine for it). Week 17 buys used: 1 of 3. Open positions: 1 of 5.
+
+### Stop / order hygiene
+One open order: a3057559-0031-4402-9011-e75601d5320e — SELL STOP 25 NVDA @ $187.28 GTC. Correctly sized to full position, correctly priced at -7% of entry. No action.
+
+### Research gaps / follow-ups
+- Alpaca market-data subscription rejected the SIP bars endpoint (`subscription does not permit querying recent SIP data`). IEX snapshot worked — use snapshots/latest-trade, not `/bars`, for intraday reads until subscription is upgraded. Noting so future routines don't burn cycles.
+- 4/22 history is murky — some routine fired that wasn't logged. Weekly review should reconcile once we have a fuller trade log.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
