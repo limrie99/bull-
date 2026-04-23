@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-23 06:30 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
   "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "cash": 94965.50,
+  "day_pl": -28.00,
+  "day_pl_pct": -0.03,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 202.15,
+      "pl_pct": 0.38,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-23 06:30 CT",
+      "routine": "pre-market",
+      "headline": "Quiet pre-market — plan is to hold NVDA and not buy anything new at the open.",
+      "body": "Tape is digestive (ES futures -0.5% overnight after Wed's Iran-ceasefire rally), nothing on our candidate list reports today, and MSFT/GOOGL/META/AMD are all likely inside their 3-day earnings blackout this week — so no new buys. NVDA was quiet (no new analyst action, no hyperscaler capex surprise, no competitor move) — thesis intact, holding. Stop $187.28 (-7%); flip to 10% trailing once NVDA closes >= $211.45."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

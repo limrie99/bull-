@@ -27,6 +27,54 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-23 06:30 CT — pre-market (for 2026-04-23 open)
+
+**Timing note:** Waking for the scheduled 6:00 AM CT pre-market, market next_open 09:30 ET (08:30 CT). APIs verified live (Alpaca 200, Perplexity 200). Four sub-agents fanned out in parallel — macro, earnings, position, opportunity scout. **Portfolio now has 1 open position: NVDA 25 sh @ $201.38 (filled 4/22 10:07 CT), stop $187.28 GTC. Cash $94,965.50. Equity $100,000 (last_equity $100,028, -0.028% since yesterday's snapshot).**
+
+### Market context
+Mildly **digestive / slightly risk-off overnight** after a strong Wednesday.
+- **ES (Jun'26):** **−0.51%** overnight (~7,135), giving back some of Wed's rally.
+- **NQ:** n/a (not returned in tonight's digest).
+- **Wed 4/22 cash close (from Alpaca bars):** SPY 711.21 (**+1.01%** d/d from 704.08), NVDA 202.50 (+1.31% d/d). Wed was clearly risk-on.
+- **10Y:** n/a fresh; last confirmed 4.30% on 4/21 (+4 bps).
+- **WTI / Brent / DXY / Nikkei / Hang Seng / Europe:** n/a — Perplexity thin on these.
+- **Headlines:** Trump extended US–Iran ceasefire indefinitely — the catalyst that drove Wed's rip. Overnight fade is profit-taking digestion, not a regime flip.
+- **Data on deck (unconfirmed):** Thursdays historically print jobless claims (8:30 ET) and S&P Global flash PMIs mid-morning; not confirmed by Perplexity tonight. Treat as unknown.
+- **Net:** greenlight to sit tight with the NVDA position. Not a "don't add risk today" tape, but the combination of a fade after a big up day and a thin earnings calendar argues for patience over chasing.
+
+### Portfolio watch — NVDA (5.0% of portfolio)
+- **Last-24h news:** no new analyst upgrades/downgrades since Benchmark $250 (3/31). No Blackwell/Rubin/CUDA product news. No hyperscaler capex pre-announcement from MSFT/META/AMZN/GOOGL. No new China export-control updates. No material competitor move (AMD / AVGO ASICs / Google TPU). SOX/SMH relative performance on 4/22 came back `n/a` from Perplexity — spot-checked via Alpaca: **SMH last trade $477.05** (no bar comparison pulled tonight; worth pulling mid-day).
+- **Pre-market quote:** last trade $202.15 (after-hours 4/22), vs $201.38 avg cost → **+0.38% P/L** on the position.
+- **Thesis status:** intact. Blackwell ramp + AI-infra capex cycle + earnings 5/20 AMC as primary catalyst. Quiet 24h = no accelerant and no crack.
+- **Recommendation:** **HOLD.** No conviction-add today (no new bullish signal surfaced). Stop at $187.28 (-7%). Flip-to-trailing-10% trigger price: **$211.45** (+5% from entry).
+
+### Earnings calendar (2026-04-23)
+- **BMO large-cap US in focus sectors (Mag-7, semis, megacap industrials/financials):** Perplexity returned no confirmed names. Treat as sparse calendar, **not a confirmed empty calendar** — the absence is suspicious. None of Bull's candidate list (NVDA, AVGO, PLTR, MSFT, GOOGL, CRWD, PANW, LLY, NOW, META, AMD) surfaced as printing today.
+- **AMC:** same — nothing confirmed.
+- **Last night (4/22 AMC): TSLA printed.** EPS $0.41 vs cons ~$0.36 (beat). Rev ~$22.38B vs cons ~$22.32B (slight beat). After-hours initial pop faded on a **$25B capex guide** that spooked investors — ambiguous reaction. Implication: growth / mega-cap tech (incl. NVDA) could trade cautious-to-mixed at the open in sympathy.
+- **Blackout check:** assuming MSFT / GOOGL / META / AMD / NOW all print in the 4/24–5/1 window (per historical schedule), they are **inside the 3-trading-day blackout** today. Do not propose those.
+
+### Buy candidates
+Scout returned **no high-conviction verified candidate tonight.** Both Perplexity calls (last-7d beat-and-raise screen; 15–30d catalyst screen) came back thin. Softest candidates — **MSFT (LOW: 1 tailwind signal + unverified Jefferies reit)** and **META (LOW: similar)** — are both almost certainly inside a 3-day earnings blackout and **screened out**. LLY, SNOW, AVGO, PANW, CRWD, AMAT, MU, PLTR, ANET, CAT, DE, COST, BKNG all failed to surface a verified ≥2-signal setup.
+
+**Net:** **no new-buy recommendation for today's open.** Stay at 1 position / 5% invested / 3 weekly buys still available. Strategy explicitly rewards patience — we're sitting on 95% cash with one clean long-duration thesis into a big earnings week for peers.
+
+### Sell candidates
+None. NVDA thesis intact, far from the -7% stop.
+
+### Notes / research gaps to close next routine
+1. **Verify 4/23 earnings calendar via a non-Perplexity source** (Alpaca calendar endpoint if available, or a named second Perplexity query) — the n/a is suspicious. Heavy-hitters often print Thursdays.
+2. Pull **SMH and XLK sector bars** for 4/22 close to quantify semi vs broad-market alpha for NVDA (informs sizing on any Friday add).
+3. Next scout should **wait for post-print setups** — MSFT / GOOGL / META / AMD / AVGO earnings across 4/24–5/1 will generate clean beat-and-raise candidates; better to fish there than force today.
+4. Rerun Perplexity earnings screen Friday 4/25 pre-market and Monday 4/27 pre-market once this week's tape is in.
+
+### Plan for today
+- 08:30 CT open: **no new buys.** HOLD NVDA. Stop stays at $187.28.
+- Midday routine: verify NVDA still holding above entry, check if +5% trigger ($211.45) hit (unlikely in one session), watch tape tone.
+- Close routine: compute day alpha vs SPY; re-run scout if tape gave new signals.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
