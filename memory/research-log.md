@@ -27,6 +27,44 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-23 08:37 CT — market-open
+
+### Status
+Secrets restored. Alpaca clock `is_open=true` (NYT 09:37). Account live: equity $100,004.25, cash $94,965.50, 1 open position (NVDA 25 @ $201.38).
+
+### Reconciliation
+Discovered the 4/21 plan's NVDA starter tranche actually filled on **2026-04-22 15:07:25 UTC** (10:07 CT) at $201.38 — despite both scheduled 4/22 routines halting on missing env vars. The bracket leg (stop @ $187.12) was a `day` TIF and expired at Wed close; a fresh GTC stop at $187.28 was placed this morning at 08:00 UTC (covers all 25 shares, sits at -7.0% from entry as required). Back-filled the 4/22 BUY into `memory/trade-log.md` now that we can see it.
+
+### Market context
+No fresh macro pull this routine — there was no pre-market scout for 2026-04-23 (yesterday's routines halted). Using Alpaca market-data only:
+- **SPY:** $709.92 vs yesterday's close $711.20 → **-0.18%** early.
+- **NVDA:** $201.58 vs entry $201.38 → **+0.10%** (position essentially flat).
+- Day P/L on the book: -$23.75 (-0.02%). Slightly ahead of SPY intraday but within noise.
+
+### Portfolio watch
+- **NVDA (25 sh, +0.10%)** — nothing alarming. Stop $187.28 is well below current. No earnings risk this week (5/20 is ~19 trading days out). No thesis break: the AI-infra / Blackwell tailwind is intact absent a specific catalyst reversal, which we haven't pulled news on today.
+
+### Buy candidates
+None actioned. Without a fresh research pass it would violate strategy ("need at least 2 verified signals") to open a new name cold. 1 of 3 weekly buy slots used (the 4/22 NVDA starter). 4 of 5 position slots still open.
+
+### Sell candidates
+None. NVDA has no sell trigger:
+- Not at -7% hard stop (down would need to hit $187.28; currently $201.58).
+- Not yet at +5% so no trailing-stop conversion (only +0.10%).
+- Thesis intact; no news checked this routine.
+
+### Actions taken
+- Placed zero new orders.
+- Verified existing GTC stop on NVDA: order id `a3057559-0031-4402-9011-e75601d5320e`, stop_price $187.28, qty 25, status `new`. All 25 shares reserved against it (`qty_available: 0`).
+- Logged the 4/22 NVDA BUY to the trade log (previously uncaptured).
+
+### Next steps
+- Midday routine: quick NVDA news scan (Perplexity) and confirm no drawdown >3% intraday.
+- Market-close routine: log day P/L vs SPY, start tracking alpha. First real benchmarked day since seed.
+- Tonight's pre-market: do the scout that didn't happen on 4/22 — target a full 5-signal verification pass on NVDA (add-on question), AVGO, PLTR, GOOGL, MSFT, CRWD, PANW, BE. Priority: pull earnings dates first from Alpaca calendar so we don't burn Perplexity calls on names inside the 3-day earnings blackout.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

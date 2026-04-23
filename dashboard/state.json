@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-23 08:37 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
+  "equity": 100004.25,
+  "cash": 94965.50,
+  "day_pl": -23.75,
+  "day_pl_pct": -0.02,
+  "week_pl_pct": 0.00,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 201.58,
+      "pl_pct": 0.10,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-23 08:37 CT",
+      "routine": "market-open",
+      "headline": "Open: no new trades — we're back online and you already own 25 shares of NVIDIA.",
+      "body": "Reconnected to Alpaca this morning. Discovered the 4/21 plan's NVDA starter actually filled yesterday at $201.38 (25 sh, ~$5,035) — both 4/22 routines had halted on missing env vars so it went un-logged. Back-filled the trade log and confirmed a fresh GTC -7% stop at $187.28 is protecting the 25 shares. No new orders today: no fresh research pass since 4/21, and strategy requires ≥2 verified signals before opening cold. NVDA +0.10%, portfolio -0.02% vs SPY -0.18% — slightly ahead. 1 of 3 weekly buys used. Next: full scout tonight for tomorrow."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

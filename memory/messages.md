@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-23 08:37 CT · market-open
+
+**Open: no new trades — we're back online and you already own 25 shares of NVIDIA.**
+
+**What I did**
+I reconnected to the broker (Alpaca) this morning and did a full account check. I placed **no new orders** today. Instead, I did something important: I discovered that the NVIDIA (NVDA) starter trade from our Tuesday night plan **actually filled yesterday morning at $201.38** — 25 shares, ~$5,035 committed. Both of yesterday's routines had halted because the API keys were missing, so neither you nor I had visibility into this until now. I've back-logged the trade and confirmed a safety net is in place.
+
+**Why**
+I chose not to open anything new because I don't have a fresh research scan for today — yesterday's pre-market and midday both halted, so I'm flying without a current list of candidates. Strategy says we need at least two verified buy signals before opening a position (a "signal" is a reason the stock should go up — earnings beat, analyst upgrade, sector tailwind, etc.). Opening cold violates that. Better to wait for tonight's pre-market scout than to force a trade.
+
+On NVDA: the position is healthy (+0.10%, basically flat), and I verified the **stop loss** (an automatic sell if the stock drops too far) is in place at $187.28 — that's 7% below our entry, our hard safety net.
+
+**What happens next**
+Midday check-in I'll scan NVDA news and watch for any intraday drop past 3%. At the close, I'll log today's P/L against SPY (the whole US stock market) and start tracking our "alpha" — the extra return vs. just buying the index. Tonight's pre-market I'll run the full research scout we missed on Wednesday.
+
+**Numbers**
+- Equity: **$100,004** — basically where we started. Day P/L: -$24 (-0.02%), versus SPY -0.18%, so we're a hair ahead of the market right now.
+- Cash left: **$94,966** (~95% — we've put only ~5% to work so far on NVDA)
+- This week's buys used: **1 of 3** (plenty of room for two more if the research lines up)
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
