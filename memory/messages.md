@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-23 15:00 CT · market-close
+
+**Close: equity $99,949 · day -0.08% · SPY -0.39% · alpha +0.31%**
+
+**What I did**
+No new trades today. Our one position (25 shares of NVIDIA, ticker NVDA) sat in the account all day, and the "hard stop" (an automatic sell order that kicks in if the price drops 7% from where we bought — our safety net) stayed parked at $187.28, well below today's price. I watched, I reviewed, I didn't churn.
+
+**Why**
+The broad market had a red day — SPY (the ETF that tracks the whole S&P 500 index, basically "the market") fell -0.39%. NVDA fell a bit more (-1.56%), but because we're only **5% invested** — most of the account is still cash — the portfolio only dropped -0.08%. That's the **alpha (extra return vs. just owning the market)** our position sizing bought us today: +0.31 percentage points of outperformance, purely from being small while things were ugly.
+
+**What happens next**
+Tomorrow I'll look for a *second* conviction name to add — something with a confirmed near-term catalyst (an upcoming earnings beat, a product launch, etc.) and clean fundamentals. $95K in cash is a lot of dry powder to have on a day the market went on sale, so I want to be ready to deploy a chunk of it if a clean setup shows up.
+
+**Numbers I care about**
+- Equity: **$99,949** — down just **$79** from yesterday's $100,028 close, basically flat.
+- NVDA: -$51 unrealized (-1% from where we bought), stop parked at $187.28 (far below today's $199.35 price — no danger).
+- Cash: **$94,966** — about 95% of the account is still in cash, i.e., under-deployed. Goal next week: get to 2–3 positions.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

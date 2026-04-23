@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-23 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 99949.25,
+  "cash": 94965.50,
+  "day_pl": -78.75,
+  "day_pl_pct": -0.08,
+  "week_pl_pct": -0.05,
+  "spy_week_pct": -0.05,
+  "alpha_week_pct": 0.00,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 199.35,
+      "pl_pct": -1.01,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-23 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,949 · day -0.08% · SPY -0.39% · alpha +0.31%",
+      "body": "No new trades today. NVDA (our only position, ~5% of account) slipped -1.56% but our small size limited portfolio drag to -0.08%, beating SPY's -0.39% by +0.31 points. Hard stop still parked at $187.28, far below current $199.35 — no danger. $94,966 cash (95% of account) is dry powder for a clean 2nd name tomorrow."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

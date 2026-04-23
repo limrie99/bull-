@@ -27,6 +27,43 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-23 15:00 CT — market-close
+
+### Market context
+Red day for US equities. **SPY closed $708.41, -0.39%** on the session (intraday low $702.34, high $712.35 — wide range). Big cap indices dragged by semis on the margin; rates holdup and Iran headline overhang still live from earlier in the week. Breadth thin but no panic — VIX moves not captured in this pull.
+
+### Portfolio watch (close)
+- **NVDA** 25 sh @ $201.38 avg, close $199.35 (-1.56% intraday, -1.01% from entry). Unrealized -$50.75. -7% hard stop sitting GTC at $187.28. Well outside trigger. No news catalyst today — move was beta-to-semis, not thesis-breaking.
+- Cash $94,965.50, equity $99,949.25.
+
+### Today's activity reconciliation
+- Account shows **1 fill today's window adjacent:** the NVDA buy that actually filled **2026-04-22 10:07 CT** (25 × $201.38, OTO with stop leg). Today (4/23) no new fills; only the resting stop sell at $187.28 remains open.
+- **Stop order confirmed resting:** sell-stop 25 NVDA @ $187.28 GTC (id a3057559...). Matches strategy rule (-7% hard stop at entry).
+
+### Day summary (market-close routine)
+- **Closing equity: $99,949.25**
+- **Day P/L: -$78.75 (-0.08%)**
+- **SPY day: -0.39%**
+- **Alpha today: +0.31%** (outperformed the market on a red day because we're only ~5% in and in a name that held up better than index semis on the day — though NVDA itself was -1.56%, worse than SPY, our small position size limited the drag)
+- **Week-to-date (4/20 close → 4/23 close):** portfolio -0.05%, SPY -0.05%, **alpha ~0.00%**. Account was mostly cash all week, so we essentially matched the index while de-risked. Not heroic, but honest — we missed Wednesday's SPY +1.04% rip because we were only ~5% deployed.
+- **Trades placed today:** 0. Stop order continues to rest.
+
+**What worked today**
+- Small starter size (5% NVDA) meant a bad NVDA session (-1.56%) only cost the portfolio -0.08%. Position-sizing discipline paid.
+- Hard stop is in place and well clear — no forced action, no stop churn.
+
+**What didn't work / open questions**
+- We're under-deployed. Target is 60–90% equity exposure; we're at 5%. A red day like today is a gift for accumulation IF we have a scout-verified watchlist ready — we don't yet. The "lessons from 4/21 scouts" were that Perplexity returns too much n/a and we should pre-pull earnings dates from Alpaca. That homework is still not done.
+- NVDA at -1.01% from entry is normal noise, but with earnings 5/20 we have ~20 trading days of headline risk. Trailing-stop activation (+5% profit) would need NVDA ≥ $211.45; not close today.
+
+**Open questions for tomorrow (pre-market / open routine)**
+1. Was today's SPY -0.39% macro-driven (Iran re-escalation, rates, tariff news) or just a technical digestion of Wed's rally? Read the tape.
+2. Is there a second conviction name that hits ≥2 signals with earnings > 3 days out? Priority: pre-pull next-earnings dates from Alpaca calendar for NVDA, AVGO, PLTR, GOOGL, MSFT, CRWD, PANW, LLY, NOW, BE *before* calling Perplexity.
+3. With $95K in cash, a 2nd 10–15% position (~$10–15K) could bring us to ~20% deployed — still conservative but no longer sidelined. What's the clean-catalyst name?
+4. Friday weekly-review prep: compute NVDA-position-level P/L vs. SPY-since-4/22-10:07-CT (the true exposure window), not just calendar-week. That's the real alpha measure.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
