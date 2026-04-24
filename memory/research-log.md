@@ -27,6 +27,57 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-24 06:00 CT — pre-market (for Fri 4/24 open)
+
+**State reconciliation upfront:** Last logged research routine was 2026-04-22 12:00 CT (HALTED). Alpaca now shows an NVDA position (25 sh @ $201.38, filled 2026-04-22 10:07 ET) with a -7% stop at $187.28 GTC. The actual buy routine was not logged in research-log or trade-log — backfilling trade-log now. Account: equity $99,981.50, cash $94,965.50. No positions closed.
+
+Four sub-agents fanned out in parallel (macro, earnings, position/NVDA, opportunity scout). APIs verified live (Alpaca 200, Perplexity 200).
+
+### Market context
+Tone is **mixed** into Fri 4/24 open — earnings-supportive but commodity/rate headwinds.
+- **US equity futures (ES, NQ Jun'26):** specific overnight % change `n/a` from Perplexity. Context: Thu 4/23 cash close S&P 500 **7,137.90 (+1.1%)**, NDX **24,937.28 (+1.7%)**.
+- **Rates:** 10Y ~4.30%, 2Y ~4.80% — mildly higher on crude rebound.
+- **Commodities:** **WTI and Brent near $100** on Hormuz/Iran tensions — the single biggest macro mover. Gold range-bound $4,670–$4,875, soft as oil-driven dollar/yield bid saps safe-haven demand. DXY firmer.
+- **Global:** Nikkei mixed (Japan AI supportive), Hang Seng resilient/mixed, European majors slipped on oil. Specific levels `n/a`.
+- **Headlines:** Iran ceasefire holding loosely but Hormuz premium persists; Micron / Boeing / GE Vernova beat-and-guided; flash PMIs + jobless claims on deck this morning.
+- **Net:** mixed. Expect sector rotation rather than clean beta. Crude > $100 sustained would hit duration-sensitive tech harder.
+
+### Portfolio watch
+
+**NVDA — 25 sh @ $201.38, current $200.64, unrealized −$18.50 (−0.37%). Stop $187.28 GTC. Cost basis $5,034.50 (~5% of portfolio).**
+- **Thesis: INTACT.** Google Cloud announced AI-hypercomputer expansion on next-gen NVIDIA systems (4/22) — bullish read-through on hyperscaler demand. No material 4/23–4/24 news, no new analyst actions in-window (last prints early April: DBS $220, New Street $275, Benchmark $250).
+- **Sector quiet.** TSMC 4/16 "exceptionally strong AI demand" remains the freshest sector datum. AVGO / AMD / ASML / MU / ARM: nothing material.
+- **Correction to prior log:** mega-cap hyperscalers (GOOGL/AMZN/META/MSFT) report ~4/29, NOT 4/23 AMC as loosely implied earlier.
+- **Flags:** RSI ~71.6 (stretched) per 4/21 — could pull back harder than peers on any sector de-risk. Watch SMH/SOXX relative strength today. Any late-week export-control / tariff headline = weekend gap risk.
+- **Action:** HOLD. Stop stays at $187.28 until +5% unrealized ($211.45); no edits needed.
+
+### Earnings calendar (2026-04-24)
+- **BMO:** no verified large-cap ($10B+) US earnings confirmed. Friday calendar is typically thin.
+- **AMC:** none (Fridays almost never see AMC prints of size).
+- **Last night (4/23 AMC) movers:** none material verified at the $50B+ mega-cap level.
+- **Season read:** ~81% EPS beat / ~76% rev beat through 4/23 per Perplexity. Mega-cap tech cluster is **4/29** (GOOGL/MSFT/META/AMZN) — that's the real tape-mover next week.
+
+### Buy candidates
+Scout ran 3 Perplexity passes across the 17-name watchlist (AVGO, GOOGL, MSFT, META, PLTR, CRWD, PANW, LLY, NOW, ANET, TSM, AMD, COST, V, MA, JPM, NFLX). Returns were near-uniformly `unknown` on the critical fields: next earnings dates, fresh analyst actions, near-term catalysts, recent upgrades/insider activity. The one fresh sector read was trailing-6-month (Energy +40.4%, IT −7.8%, Fin −7.5%) — too stale to anchor a buy per strategy rule "confirmed by fresh news."
+
+**No name cleared the ≥2 verified-signal bar.** In particular:
+- MSFT, GOOGL, META, AMD likely in the 3-day earnings blackout around 4/29 — cannot confirm dates, so conservatively treating as blocked.
+- Secular-tailwind names I know-but-cannot-freshly-confirm (AVGO/ANET AI-infra, CRWD/PANW cyber, LLY GLP-1, PLTR defense-AI): single-signal only — strategy needs ≥2.
+
+**Verdict: pass on new buys at 4/24 open.** Discipline > forcing a mediocre entry into a quiet Friday tape with macro headwinds. Cash stays at ~$94,965 (95% of account). Re-scan Monday 4/27 with a targeted per-ticker query approach for the watchlist and a fresh earnings-blackout check.
+
+### Sell candidates
+None. NVDA thesis intact, well above stop, no signal triggered.
+
+### Notes / research gaps to close next routine
+1. Per-ticker Perplexity queries instead of batch — the 17-way batch returns too much `unknown`.
+2. Pull next-earnings dates via Alpaca's asset/calendar endpoint (if supported) before querying Perplexity for thesis context.
+3. Broaden seed list beyond mega-cap tech (which is all in print-window right now) — consider industrials/defense/data-center-power names that already reported (e.g., GE Vernova after its constructive beat).
+4. Confirm actual WTI/Brent/DXY cash levels and ES/NQ overnight % change at Monday's open — this pass had too many `n/a`s on spot macro levels.
+5. Monitor SMH/SOXX vs SPY relative strength at today's open as an early tell on whether semis are rotating into or out of the 4/29 mega-cap hyperscaler print.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

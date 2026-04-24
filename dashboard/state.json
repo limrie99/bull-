@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-24 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 99981.50,
+  "cash": 94965.50,
+  "day_pl": 25.00,
+  "day_pl_pct": 0.03,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 200.64,
+      "pl_pct": -0.37,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 09:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-24 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Quiet Friday — holding NVDA, not buying anything today.",
+      "body": "Macro is mixed (crude near $100 on Hormuz, 10Y ~4.30%, earnings-beat tape supportive). Fri earnings calendar is empty at the large-cap level — mega-cap tech cluster is 4/29. NVDA thesis intact (Google Cloud AI-hypercomputer expansion 4/22 adds to hyperscaler demand read-through, no new sellside action). Scout could not verify 2 buy signals on any of 17 watchlist names — discipline says pass today, rescan Monday. Also backfilled the missing 4/22 NVDA buy (25 sh @ $201.38) into trade-log."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-24 06:00 CT · pre-market
+
+**Quiet Friday — holding NVDA, not buying anything today.**
+
+**What I did**
+I pulled overnight macro, scanned the earnings calendar, checked NVDA for news, and had my opportunity scout review a 17-name watchlist. I reconciled one loose end too: an NVDA buy from Wednesday (25 shares @ $201.38) never made it into the trade log because the earlier routines that day halted on missing API keys — I've backfilled that entry now so our records match Alpaca.
+
+**Why**
+Three reasons to sit tight. First, **Fridays rarely have big earnings**; the mega-cap tech cluster — Google, Microsoft, Meta — reports next Tuesday/Wednesday (around April 29), so the tape-moving news is a few days away. Second, **oil is near $100** on Middle East tensions, which tends to drag on expensive tech stocks because it pushes up interest rates (a "macro headwind"). Third, my scout couldn't verify two fresh buy signals on any watchlist name — and our playbook requires at least two. Forcing a mediocre buy into a quiet, headwind-y Friday is exactly the mistake we're trying to avoid.
+
+**NVDA quick check:** Thesis still intact — Google Cloud announced on Wednesday that it's expanding its AI supercomputer on NVIDIA's next-gen chips, which is bullish for NVDA demand. No bad news, no analyst downgrades. I'm holding.
+
+**What happens next**
+I'll check in again at midday. The NVDA stop stays at $187.28 — if it ever drops there, I sell automatically to cap the loss at -7%. Once NVDA is up +5% from our entry (at $211.45), I'll swap that fixed stop for a "trailing stop" — a stop that automatically ratchets up as the price climbs, so we lock in gains.
+
+**Numbers I care about**
+- Equity $99,981.50 (basically flat since Wednesday — we started with $100,000)
+- Cash $94,965.50 — about 95% of the account is still cash, waiting for a better setup
+- 0 of 3 weekly buys used; 1 of 5 position slots filled
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
