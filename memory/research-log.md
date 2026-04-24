@@ -27,6 +27,69 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-24 08:35 CT — market-open
+
+### Pre-flight state
+- APIs live: Alpaca clock `is_open=true`, account pull 200, positions pull 200.
+- Env: all four required vars present.
+- Inbox: empty (no pending user messages).
+
+### Account snapshot
+- Equity: **$100,042.25** (+$42.25 vs $100K start, +0.04%)
+- Cash: **$94,965.50**
+- Last equity (yesterday close): $99,956.50 → **day P/L +$85.75 / +0.09%**
+- Daytrade count: 0, no blocks, paper mode confirmed.
+
+### Open positions (1)
+- **NVDA** — 25 sh, avg $201.38, current $203.03 (latest trade tick $202.35). Unrealized **+$41.25 (+0.82%)**. Intraday +1.70%. Stop **$187.28 GTC** (= entry × 0.93, the -7% hard stop). Position size $5,076.75 = ~5.1% of equity (starter, as planned).
+
+### Reconstructing the 4/22 gap
+Research-log has HALT entries for 4/22 08:30 and 12:00 CT (env vars empty). But Alpaca order history shows the NVDA starter actually filled later that day:
+- **4/22 15:07 UTC / 10:07 CT** — market BUY 25 NVDA, filled_avg_price $201.38 (OTO parent; stop child $187.12 day).
+- **4/22 20:00 UTC** — day stop expired at close unfilled.
+- **4/22 20:24 UTC / 15:24 CT** — fresh GTC stop placed at **$187.28** (the correct -7% from fill).
+Conclusion: the 4/22 market-open halt was real, but env vars were restored later in the day and some routine (market-close or ad-hoc) executed the NVDA plan. That routine didn't log to trade-log.md or messages.md. Backfilled the trade-log entry today. Stop is healthy and in the right place.
+
+### This week's guardrail usage
+- BUYs this week: **1 of 3** used (NVDA 4/22). 2 slots remain through Friday close.
+- Open positions: **1 of 5** cap.
+- Position concentration: 5.1% (well under 20% cap).
+- Cash: 94.9% (well above 10–20% buffer minimum).
+- Daily loss cap: N/A — we're green intraday.
+
+### Pre-market plan for today?
+**None.** The last research-log entry with a buy plan was 2026-04-21 19:00 CT (for the 4/22 open). There is **no fresh scout for today's (4/24) open**. Strategy rules: "do not propose without verification" / "don't trade off stale context." So no new buys at this open.
+
+### Portfolio watch — NVDA
+- Price action constructive, +1.70% intraday, gap above $200.
+- No news check run at this open (save Perplexity budget for tonight's scout). Will review overnight flow at tomorrow's pre-market.
+- At +0.82% we are **not yet at the +5% trigger** to flip the hard stop to a 10% trailing stop — hold as-is. Revisit intraday or at close.
+- Next earnings 2026-05-20 AMC, 19 trading days out — well clear of the 3-day blackout.
+
+### Buy candidates
+None verified for this open. Scout needed tonight for Monday 4/27. Watchlist to research:
+1. NVDA — already holding starter; consider adding on pullback or after verified signal #2.
+2. AVGO — earnings 6/3; need fresh signal (upgrade or insider buy).
+3. PLTR — earnings 5/4 (close to 3-day blackout edge); likely pass unless thesis is earnings-specific.
+4. MSFT, GOOGL — pull next-earnings dates first (historically late-April prints → likely still in blackout).
+5. Add 2–3 fresh names with verified catalysts outside the tech-mega bucket (healthcare, industrials, financials) for diversification optionality.
+
+### Sell candidates
+None. NVDA stop intact and far from trigger; thesis unchanged.
+
+### Actions taken this routine
+- **No new orders placed** (no verified plan).
+- **No existing orders modified** (NVDA below +5% → hard stop stays).
+- Backfilled trade-log with NVDA 4/22 entry.
+- Refreshed portfolio.md snapshot.
+- Wrote teacher-voice update to messages.md + dashboard state.
+
+### Notes for next routine
+- Tonight's pre-market (or the next research routine) MUST spin up sub-agents: macro digest, earnings calendar for next week, and a 5–8 name opportunity scout with verified catalysts. Don't go into Monday open without a fresh plan.
+- If NVDA pushes through ~$211.45 today (that's +5% from $201.38), cancel the GTC stop at $187.28 and place a 10% trailing stop GTC.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

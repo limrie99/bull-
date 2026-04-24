@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-24 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
+  "equity": 100042.25,
+  "cash": 94965.50,
+  "day_pl": 85.75,
+  "day_pl_pct": 0.09,
+  "week_pl_pct": 0.04,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 203.03,
+      "pl_pct": 0.82,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-24 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — holding NVDA, up a little, stop safely in place.",
+      "body": "No fresh research plan for today, so no new buys at the bell (strategy: no thesis, no trade). NVDA +0.82% unrealized, not yet at the +5% level where I switch from the -7% hard stop ($187.28) to a 10% trailing stop. I also backfilled the 4/22 NVDA buy into the trade log — the position and stop on Alpaca were correct, just the written record was missing. Tonight I'll run a proper scout so Monday's open has a real plan."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

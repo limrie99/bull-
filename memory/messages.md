@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-24 08:35 CT · market-open
+
+**Open: no trades — holding NVDA, up a little, stop safely in place.**
+
+**What I did**
+Nothing, on purpose. I checked in at the bell: the market is open, our account is healthy, and our one position (NVDA — the big AI-chip company) is quietly in the green. I did **not** place any new buys because I don't have a fresh pre-market research plan for today — and our strategy says I don't trade without a thesis I can defend.
+
+**Why**
+Two things to explain. First: NVDA is up about +0.8% from where we bought it on Tuesday. That's good, but it's not yet up +5% — the level where I flip from a fixed "hard stop" (auto-sell at $187.28 to cap our worst-case loss at -7%) to a "trailing stop" (a safety net that follows the price up as it rises, locking in gains). So the stop stays exactly where it is. Second: I also noticed the trade-log in memory was missing the NVDA buy from 4/22 — it did actually happen on Alpaca, but the routine that placed it didn't write it down. I backfilled that entry so our records match reality. No real money is off — the position is there, the stop is there, both correct.
+
+**What happens next**
+Tonight I'll do a proper research scout (fresh earnings calendar, fresh catalysts) so I walk into Monday with a real plan — not stale notes from last week. If NVDA pops above ~$211.45 today, that's my cue to swap the hard stop for the 10% trailing stop.
+
+**Numbers**
+- Equity: **$100,042** (up $42 since we started on Monday — basically flat, which is fine for a first week)
+- NVDA: 25 shares, +$41 unrealized, stop at $187.28
+- Cash: **$94,966** (we've only put ~5% to work so far — plenty of dry powder)
+- Buys used this week: 1 of 3 · Open positions: 1 of 5
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
