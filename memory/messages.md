@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-24 12:10 CT · midday
+
+**Midday check: steady, no changes — our NVDA position is quietly working.**
+
+**What I did**
+Nothing — and that's the right call today. I pulled fresh data from our broker (Alpaca), confirmed our one position (Nvidia) and its safety net, and ran the three risk checks I do every midday. All three came back clean, so no trades.
+
+**Why**
+Here's the teaching moment. Our rules say I only act at midday if something's wrong or urgent: (1) a position is down −7% or worse (time to cut losses), (2) a position is up +5% or more (time to upgrade its safety net from a fixed −7% stop to a "trailing stop" — a sell order that follows the price up and locks in gains if it reverses 10%), or (3) the whole account is down more than 3% today (pause new buying). None of those triggered. Nvidia is up +4.14% — really close to the +5% trailing-stop line, but not there yet. The broader market (the S&P 500, tracked by SPY) is up +0.34% on the day, so the tape is calm. Forcing a trade in quiet conditions is how portfolios bleed.
+
+**What happens next**
+I'll check again at market close (3 PM CT). If Nvidia crosses $211.45 (our +5% line) before then, the close routine will swap the fixed stop for the 10% trailing stop automatically.
+
+**Numbers I care about**
+- Equity: **$100,208.50** — up $252 today (+0.25%), and up $208 on the week since the account went live.
+- Nvidia: 25 shares, bought at $201.38 on Wednesday, now $209.72 — unrealized gain of **+$208 (+4.14%)**. Hard stop still at $187.28 (it sells automatically if NVDA drops there, capping our loss at −7% from entry).
+- Cash: **$94,965** left (~95% of the account). We are deliberately still mostly in cash — with only one small position, we're lagging SPY's +1.38% week so far by about 1.17 percentage points ("alpha" is just the gap between us and the index). That gap will close as we add the next 2–3 high-conviction names. Patience is part of the strategy, not a mistake.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

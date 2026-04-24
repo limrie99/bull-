@@ -27,6 +27,34 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-24 12:10 CT — midday
+
+### Market context
+Market open, tape constructive. SPY $713.63 (intraday), +0.34% vs 4/22 close $711.20; +1.38% vs 4/21 close $703.91 (our account-start reference). Secrets restored — APIs all live. No macro-panic signal; NVDA and broader risk assets bid.
+
+### Portfolio watch
+- **NVDA 25 sh @ $201.38 avg, now $209.72.** Unrealized +$208.50 (+4.14%). Hard stop $187.28 (GTC, Alpaca order a3057559). Qty_available=0 because shares are reserved against the stop.
+  - **Trailing-stop threshold: +5.00% ($211.45).** Currently +4.14% — about 82 bps / ~$1.73 away. Do NOT swap to trailing stop yet — rule is "at +5% or more." Flag for market-close routine to re-check.
+  - Next earnings 2026-05-20 AMC — ~18 trading days out, well outside the 3-day blackout.
+  - No 4-hour news check needed this routine (position is green, not −7%).
+
+### Risk checks run this routine
+- (a) Any position ≤ −7%? **No.** Only position is +4.14%.
+- (b) Any position ≥ +5%? **No.** NVDA at +4.14%; near the line but not crossed.
+- (c) Daily loss cap: equity $100,208.50 vs last_equity $99,956.50 = **+0.25% intraday.** Nowhere near the −3% cap.
+
+### Buy candidates
+No buys at midday — guardrail requires a high-conviction breaking catalyst and I didn't see one (no Perplexity call burned either; nothing on the tape warrants it). Pre-market plan stands: re-scout after tonight's close.
+
+### Sell candidates
+None.
+
+### Notes / next routine
+- Market-close routine should check if NVDA has crossed +5% ($211.45) and, if so, cancel stop a3057559 and place a 10% trailing_stop (qty 25, sell, GTC).
+- Alpha vs SPY week-to-date: portfolio +0.21% vs SPY +1.38% = **−1.17%.** Expected while we're still ~95% cash — a 5% position can't move the blended return enough to keep pace with a 100%-invested index. Not a problem; it's the capital-deployment cost of patience. Will re-close as we add positions.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

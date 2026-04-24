@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-24 12:10 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100208.50,
+  "cash": 94965.50,
+  "day_pl": 252.00,
+  "day_pl_pct": 0.25,
+  "week_pl_pct": 0.21,
+  "spy_week_pct": 1.38,
+  "alpha_week_pct": -1.17,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 209.72,
+      "pl_pct": 4.14,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-24 12:10 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — NVDA quietly working (+4.14%).",
+      "body": "Ran the three midday risk checks: no position down -7%, no position yet at +5% (NVDA is +4.14%, close to the trailing-stop line at $211.45), and the account is only down/up 0.25% intraday (cap is -3%). No trades at midday without a breaking catalyst. Equity $100,208, cash $94,965. Week +0.21% vs SPY +1.38%, alpha -1.17% — expected while ~95% cash; will close as we add positions."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
