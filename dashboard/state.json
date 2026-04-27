@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-27 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 100310.75,
+  "cash": 94965.50,
+  "day_pl": 138.50,
+  "day_pl_pct": 0.14,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 213.49,
+      "pl_pct": 6.02,
+      "stop": 192.13
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-27 12:00 CT",
+      "routine": "midday",
+      "headline": "Tightened the safety net on NVDA — we're up enough to lock in a profit now.",
+      "body": "NVDA is +6% since entry, so I swapped the -7% hard stop for a 10% trailing stop (it follows the price up). Floor is now ~$192.13 vs the old fixed $187.28 — at worst we now exit with profit. No new buys at midday. Equity $100,310.75 (+0.14% day, SPY +0.03%). Cash $94,965; 1 of 3 buys used this week."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

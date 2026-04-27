@@ -27,6 +27,37 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-27 12:00 CT — midday
+
+### Market context
+Quiet midday tape. SPY $714.14 vs Friday close $713.94 → +0.03% intraday. No major macro prints flagging. Account up modestly with the broad market.
+
+### Account snapshot
+- Equity $100,310.75 vs yesterday's close $100,172.25 → day P/L +$138.50 (+0.14%).
+- Cash $94,965.50; long market value $5,345.25.
+- Daily-loss-cap check: not in drawdown (we're up). New-buys-this-week: 1 of 3 (NVDA on 4/22). Position count: 1 of 5.
+
+### Portfolio watch
+- **NVDA** — 25 sh @ $201.38, current $213.49, **+$302.75 / +6.02%** (intraday +2.51% vs SPY +0.03% — leading the tape). Position is +5% qualified for trailing-stop swap.
+  - Action taken: canceled GTC hard stop @ $187.28 (order id `a3057559-0031-4402-9011-e75601d5320e`, HTTP 204). Placed 10% trailing stop, GTC, 25 shares (order id `d42471e7-5c13-45b4-a365-6117602b1eac`); initial trail-from price $213.48, current effective stop $192.13.
+  - Effect: locks in roughly **+$268 worst-case** vs the prior worst-case of −$352 if NVDA had collapsed back to $187.28. Position now has asymmetric risk.
+
+### Trade-log backfill
+The 4/22 NVDA buy (order id `2b923034-96f2-4166-8d53-10b5b9a967b8`, fill 25 @ $201.38, ~10:07 CT) was missing from `memory/trade-log.md` — appended a backfill entry today reconstructed from Alpaca order history. Memory continuity broke between 4/22 and today (no routine output exists for 4/23–4/26). Treating today as the resync.
+
+### Buy candidates
+None opened. Strategy says no midday buys absent a high-conviction breaking catalyst — none surfaced in the routine and we don't go fishing on Perplexity unless there's a reason. Pre-market Tuesday will scan fresh.
+
+### Sell candidates
+None. NVDA thesis intact (no broken-thesis news triggered the routine — this routine only checks news on -7% drawdowns), position is winning, trailing stop is the exit mechanism.
+
+### Notes / research gaps to close next routine
+1. Reestablish weekly P/L vs SPY benchmark properly at Friday close.
+2. Watchlist build — pre-market Tuesday should propose 2–3 candidates so we have something queued if NVDA's stop trips.
+3. NVDA has earnings 2026-05-20 AMC — that's ~16 trading days out, still well clear of the 3-day blackout, but flag for review on 5/14.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

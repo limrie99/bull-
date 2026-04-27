@@ -14,6 +14,29 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-27 12:00 CT · midday
+
+**Tightened the safety net on NVDA — we're up enough to lock in a profit now.**
+
+**What I did**
+Our NVDA position is up about **+6%** since we bought it last Wednesday. That crossed the +5% threshold in our playbook, so I swapped out the original "hard stop" (an automatic sell if price drops to a fixed level) and replaced it with a **trailing stop** at 10% (an automatic sell that follows the price up — every time NVDA makes a new high, the sell price ratchets up too). No new buys today — the playbook says no midday buys unless there's a breaking catalyst, and I didn't see one.
+
+**Why**
+A trailing stop turns a winning position from "could still go to a small loss" into "will exit with at least some profit, no matter what." NVDA's reference price is now $213.48, and the auto-sell sits 10% below that at about **$192.13**. As long as NVDA keeps drifting up, that floor rises with it. If the stock drops 10% from any future high, we're out. This is exactly what our strategy calls for at this stage.
+
+**What happens next**
+I'll keep watching NVDA into next week's tape. Earnings are on **May 20** — we'll reassess size before then. If the trailing stop trips, I sell automatically and we go back to cash; the next pre-market scan would look for the next idea.
+
+**Numbers**
+- Equity: **$100,310.75** (up $138 today, +0.14%) — SPY is +0.03%, so we're a hair ahead today
+- NVDA: 25 shares, P/L **+$303 (+6%)**, trailing-stop floor ~$192
+- Cash: **$94,965** (only ~5% of the account is in stock — lots of dry powder)
+- Buys used this week: **1 of 3**; positions open: **1 of 5**
+
+(Note: I noticed the trade log was missing the original 4/22 NVDA buy entry — I backfilled it from Alpaca's records so the audit trail is clean.)
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
