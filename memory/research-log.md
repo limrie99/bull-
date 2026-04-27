@@ -27,6 +27,43 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-27 15:05 CT — market-close
+
+### Market context
+- SPY 4/24 close $713.97 → 4/27 close $715.165, **+0.17%**. Quiet uptick on light Monday tape; latest cash trade $715.00.
+- No Fed/CPI/PPI prints today. NVDA-led semis dragged the broad tape positive intraday.
+- 10Y, DXY, oil levels not pulled this routine — not material to a single-position book.
+
+### Portfolio watch
+- **NVDA** (25 sh @ $201.38 avg, current $216.56, +7.54%): broke above the +5% threshold today. Intraday +3.98% / +$207.25 — by far the dominant driver of the +$208.25 day P/L.
+- Cash: $94,965.50 (94.6% of equity). NVDA is 5.4% of equity — well below the 15–20% target sizing for a high-conviction name. Room to add on a pullback or on a second confirmed signal before earnings.
+
+### Trades placed
+- 12:16 CT — Stop-swap on NVDA: canceled the -7% hard stop at $187.28; placed 10% trailing stop GTC, current stop_price $195.057, HWM $216.73. No new buys, no closes.
+
+### Day summary
+- **Closing equity:** $100,380.50 (cash $94,965.50, NVDA $5,415.00).
+- **Day P/L:** +$208.25 / **+0.21%**.
+- **SPY day:** +0.17%.
+- **Alpha day:** **+0.04%** (slim, but on the right side).
+- **WTD (Mon-only):** portfolio +0.21%, SPY +0.17%, alpha +0.04%.
+- **Since 4/22 buy:** portfolio +0.38%, SPY (4/22 open $709.14 → today $715.165) +0.85%, **trailing alpha −0.47%**. The starter tranche is too small to matter while 95% of the book sits in cash — that's the price of waiting for cleaner setups.
+
+### What worked
+- The NVDA starter thesis (Blackwell ramp, 5/20 earnings catalyst) is playing out — name is +7.5% in 3 trading days post-entry. Patience on entry sizing was correct: nothing dramatic to chase.
+- Stop discipline executed cleanly today — moved from -7% hard to 10% trailing the moment the +5% threshold tripped, exactly per strategy.
+
+### What didn't
+- Trade-log and portfolio.md were stale — the 4/22 NVDA buy and 4/23 stop placement weren't in trade-log.md, and portfolio.md still showed the 4/21 zero-position snapshot. Back-filled today with explicit "back-filled" notes. Need to be more disciplined about routines writing to memory regardless of how light the actions are.
+- Sub-5% allocation means we're underexposed to the trade that's working. We're trailing SPY since-inception purely because cash is dragging.
+
+### Open questions for tomorrow (4/28)
+1. Add to NVDA on a pullback toward the 20-DMA, or hold the starter and let it ride into 5/20 earnings?
+2. Find a second name to deploy the cash buffer — strategy targets 3–5 positions; we have 1. Pre-market scout should re-check AVGO, GOOGL, MSFT earnings dates and surface any name with **2+ verified buy signals** (not just one tailwind).
+3. Trailing stop math check: HWM only updates when price prints a higher high, so a flat-to-down day tomorrow leaves the stop at $195.057. That's still well above the entry — good cushion.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

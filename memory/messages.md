@@ -14,6 +14,17 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-27 15:05 CT · market-close
+
+**Close: equity $100,380.50 · day +0.21% · SPY +0.17% · alpha +0.04%**
+
+- **NVDA did the work today.** +3.98% intraday on the position, contributing the entire +$208.25 day P/L. Position is now +7.54% from $201.38 entry.
+- **Stop swapped to 10% trailing.** NVDA crossed the +5% threshold, so I canceled the -7% hard stop ($187.28) and placed a 10% trailing stop, current trigger $195.06, HWM $216.73. Per strategy.
+- **No new buys, no closes today.** 1 of 5 position slots used; 94.6% cash. We're underexposed to the only thing that's working.
+- **Tomorrow's question:** add to NVDA on a pullback or look for a second name? Pre-market scout should surface a 2+ signal candidate (AVGO / GOOGL / MSFT earnings dates need verification) — current cash drag is why we're trailing SPY since the 4/22 buy (-0.47% alpha since-inception even though we're +0.04% today).
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

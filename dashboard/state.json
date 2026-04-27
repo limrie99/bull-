@@ -1,17 +1,63 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-27 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100380.50,
+  "cash": 94965.50,
+  "day_pl": 208.25,
+  "day_pl_pct": 0.21,
+  "spy_day_pct": 0.17,
+  "alpha_day_pct": 0.04,
+  "week_pl_pct": 0.21,
+  "spy_week_pct": 0.17,
+  "alpha_week_pct": 0.04,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "shares": 25,
+      "avg_cost": 201.38,
+      "current": 216.56,
+      "market_value": 5414.00,
+      "pl_dollar": 379.50,
+      "pl_pct": 7.54,
+      "stop_type": "10% trailing",
+      "stop_price": 195.06,
+      "hwm": 216.73,
+      "entry_date": "2026-04-22",
+      "thesis": "AI-infra leader, Blackwell ramp; 5/20 earnings catalyst"
+    }
+  ],
+  "recent_trades": [
+    {
+      "ts": "2026-04-27 12:16 CT",
+      "action": "STOP-SWAP",
+      "symbol": "NVDA",
+      "qty": 25,
+      "detail": "Canceled -7% hard stop ($187.28); placed 10% trailing stop (stop_price $195.06, HWM $216.73, GTC). Triggered by position crossing +5% threshold."
+    },
+    {
+      "ts": "2026-04-23 02:00 CT",
+      "action": "STOP-PLACE",
+      "symbol": "NVDA",
+      "qty": 25,
+      "detail": "Re-placed -7% hard stop at $187.28 GTC after 4/22 day-TIF leg expired."
+    },
+    {
+      "ts": "2026-04-22 09:07 CT",
+      "action": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38,
+      "detail": "Starter tranche, ~5% of equity. AI-infra thesis, 5/20 earnings catalyst."
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-27 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,380.50 · day +0.21% · SPY +0.17% · alpha +0.04%",
+      "body": "NVDA did the work today (+3.98% intraday, contributing the full +$208.25 day P/L; position now +7.54% from entry). Crossed the +5% threshold so I swapped the -7% hard stop ($187.28) for a 10% trailing stop (current $195.06, HWM $216.73). No new buys, no closes. 1 of 5 slots used, 94.6% cash — we're underexposed to the only name working, which is why we trail SPY -0.47% alpha since the 4/22 buy. Tomorrow: add to NVDA on a pullback or hunt a second 2+ signal name."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
