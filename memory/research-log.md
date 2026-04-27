@@ -27,6 +27,60 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-27 06:05 CT — pre-market (for Mon 4/27 open)
+
+**APIs verified live:** Alpaca clock 200 (next_open 2026-04-27 09:30 ET), positions 200, Perplexity 200 (×4 sub-agent calls). Account: equity $100,224.00 / cash $94,965.50 / positions 1 (NVDA). NVDA hard stop $187.28 GTC still open and correctly placed (-7% × $201.38 entry). Four sub-agents fanned out in parallel — macro, earnings, NVDA position check, opportunity scout.
+
+### Market context
+**Tape: mildly risk-off into the Mon open.**
+- Friday 4/24 closed sharply lower: S&P 500 −1.67%, Nasdaq 100 −1.93% on Iran/Mid-East war-escalation fears + WTI crude **>+5%** intraday spike.
+- ES (Jun '26) ~7,201.50, only **+0.09%** in late Sunday session — that's digestion, not reversal.
+- NQ overnight %, US 10Y, DXY, Asia/Europe indices, current WTI cash level: **n/a** in the macro pass — sub-agent flagged Perplexity sparse on these.
+- This week's data calendar: not cleanly verified. Expect labor / Fed-speak headlines; cross-check at the open.
+- **Dominant catalyst this week is mid-week mega-cap earnings, NOT macro:** GOOGL + META + MSFT all print **Wed 4/29 AMC**; AMZN likely **Thu 4/30 AMC**. A clean beat-and-raise across the three lifts the tape; one soft guide pulls the Nasdaq down. Thursday open will be cap-ex / AI-spend driven.
+
+### Portfolio watch
+
+**NVDA — 25 sh @ $201.38 avg, current $210.34, P/L +$224 (+4.45%), stop $187.28.**
+- Thesis still intact. Friday's **+4.26% on heavy volume** (~7M shares vs ~3M ADV; NVDA call volume ~52% above typical) was driven by:
+  1. **INTC Q1 beat** (EPS $0.29 vs $0.01; rev $13.58B vs $12.42B) + raised Q2 guide → lit up the whole semi/AI complex.
+  2. **NVDA × Oklo × Los Alamos partnership** announcement on nuclear-powered "AI factories" — long-dated AI-infra/power story.
+  3. Constructive analyst posture: Benchmark Buy PT $250, Rosenblatt Buy PT $325, Cantor OW PT $300; street avg ~$275–281.
+- Watch items (NOT thesis-breakers): ongoing exec insider selling (likely diversification/tax — but flag it); China/Huawei competitive narrative.
+- **Stop-management trigger watch:** position is at +4.45%, **55 bps shy of the +5% trailing-stop conversion threshold.** If NVDA holds ≥ ~$211.45 intraday today (+5% × $201.38), midday routine should: (a) cancel stop order id `a3057559-0031-4402-9011-e75601d5320e`, (b) place a `trailing_stop` sell, qty 25, `trail_percent: 10`, `time_in_force: gtc`. Until then, leave the −7% hard stop alone.
+- **Earnings runway:** May 20 AMC per Bull's prior memory; Perplexity cited May 27 — discrepancy. Verify exact date via Alpaca calendar before any add/trim decision. Current consensus into print: EPS ~$1.76 / rev ~$78.78B (forward P/E ~40.7×) — high bar, beat-and-raise needed to expand multiple.
+- ~17 trading days to print (using May 20). Strategy rule: do NOT add inside the 3-trading-day blackout (~5/15 onward). Plenty of runway right now.
+
+### Buy candidates
+
+**No verified ≥2-signal candidates this routine.** Opportunity scout's Perplexity pass returned no names that could clear the strategy gate without fabrication. Sub-agent did the right thing by refusing to invent dates — that's the discipline this account runs on.
+
+Reasons to hold cash anyway:
+1. **Earnings-week posture.** GOOGL/META/MSFT all print Wed AMC — Thursday's tape will revalue the AI-cap-ex complex. Buying tech-adjacent names today risks being on the wrong side of that print 48h after entry.
+2. **Macro tone is mildly risk-off.** Friday's risk-off close + Iran/oil overhang argues against fresh longs into a thin Monday.
+3. **3-buys-per-week cap is a budget, not a quota.** Skipping a no-edge week is correct.
+4. **Concentration is fine for now.** Currently 5.25% of equity in 1 position; cash 94.8%. If NVDA goes through earnings cleanly, we can size up the second name post-print with better information.
+
+Watchlist for a focused re-scout later this week (after Wed AMC mega-cap prints clear): **AVGO, PLTR, CRWD, PANW, ANET, VRT, GEV, ORCL, MU, ISRG, LLY**. Specifically need verified next-earnings dates and 1-week earnings-surprise screen — Perplexity sonar-pro was thin on calendar this morning, so the next routine should pull dates directly via Alpaca's calendar API or a tighter time-boxed query.
+
+### Sell candidates
+**None.** NVDA thesis intact, position green, stop in place, runway clear. No sells.
+
+### Plan into the open
+1. **No new orders today.** Hold NVDA; cash 94.8%.
+2. Midday routine: re-check NVDA price; if it crossed +5% intraday, convert stop to 10% trailing.
+3. Market-close routine: SPY-vs-portfolio benchmark; flag any thesis news.
+4. Next pre-market (Tue 4/28): tighten the scout — pull Alpaca earnings calendar BEFORE Perplexity, narrow the scout query to "beat & raise in the last 7 days, earnings >5 trading days out", and re-evaluate the watchlist post-Wed-AMC.
+5. Verify NVDA exact next-earnings date (May 20 vs May 27) via Alpaca next routine.
+
+### Notes / research gaps to close next routine
+1. NVDA confirmed earnings date (Alpaca calendar source).
+2. Macro: 10Y, DXY, WTI cash levels, NQ overnight % — Perplexity sparse on these.
+3. Verify AAPL and AMZN earnings dates this week.
+4. Build a tighter "beat-and-raise in last 7 days" Perplexity query for cleaner scout output.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

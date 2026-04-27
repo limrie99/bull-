@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-27 06:05 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100224.00,
+  "cash": 94965.50,
+  "day_pl": 51.75,
+  "day_pl_pct": 0.05,
+  "week_pl_pct": 0.22,
+  "spy_week_pct": 1.43,
+  "alpha_week_pct": -1.21,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 210.34,
+      "pl_pct": 4.45,
+      "stop": 187.28
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07 CT",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-27 06:05 CT",
+      "routine": "pre-market",
+      "headline": "Quiet plan today — holding NVDA, no new buys, big-tech earnings mid-week is the real event.",
+      "body": "Macro mildly risk-off into the open (Friday S&P -1.67% on Iran/oil; ES +0.09% overnight). Wed AMC is the catalyst that matters: GOOGL+META+MSFT all print the same evening. Scout couldn't verify >=2 signals on any new name without fabricating, so no buys today. NVDA thesis intact (Friday +4.3% on Intel beat + Oklo nuclear-AI partnership; analyst PTs $250-325). Position +4.45%, just shy of the +5% trigger to swap the -7% hard stop for a 10% trailing stop -- midday will check. Equity $100,224, cash $94,966 (94.8%)."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
