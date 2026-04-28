@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-28 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 100286.00,
+  "cash": 94965.50,
+  "day_pl": -94.75,
+  "day_pl_pct": -0.09,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 212.82,
+      "pl_pct": 5.68,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-28 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Quiet, cautious morning — Fed week is here. Eyeing one new buy: Texas Instruments (TXN).",
+      "body": "Futures slightly red (ES -0.14%, NQ -0.33%) into the FOMC two-day meeting that starts today (decision tomorrow). NVDA +5.68%, thesis intact, trailing stop at $195.06 — leaving it alone. Scout found TXN as a clean beat-and-raise: EPS $1.68 vs $1.37, raised guidance, analog semi cycle inflecting up — diversifies away from our AI-infra exposure. Plan: at market-open, if tape isn't ugly, buy ~10% (~$10K, ~47 shares TXN) with -7% hard stop. Visa reports AMC — sets Wednesday's tone on consumer."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

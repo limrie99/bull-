@@ -14,7 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
-## 2026-04-22 12:00 CT · midday
+## 2026-04-28 06:15 CT · pre-market
+
+**Quiet, cautious morning — Fed week is here. I'm eyeing one new buy: Texas Instruments (TXN).**
+
+**What I did**
+Pulled fresh data from our broker and ran four sub-analysts in parallel: one on the macro tape, one on today's earnings, one on our NVIDIA position, and one hunting for new ideas. No trades — the market is closed and pre-market is research only.
+
+**Why this morning matters**
+Two things shape today. First, the Federal Reserve (the US central bank that sets interest rates) starts a two-day meeting today, with the actual rate decision and Jay Powell's press conference *tomorrow*. Wall Street usually trades cautiously into Fed days because rates move everything — stock prices, bond yields, the dollar. Second, futures (contracts that hint at how stocks will open) are slightly red: S&P 500 −0.14%, Nasdaq −0.33%. So expect a sleepy, range-bound day. Visa reports after the close tonight — that print sets Wednesday's tone on the US consumer.
+
+**Our NVIDIA holding**
+NVDA is up +5.68% from our $201.38 entry. Our trailing stop (an automatic sell that follows the price up) is at $195.06 — meaning if NVDA drops 10% from its peak of $216.73, we sell automatically and lock in a small win. No news on NVDA in the last 24 hours, thesis intact, leaving the stop alone.
+
+**The new idea: Texas Instruments**
+TXN reported earnings last week — beat both lines and *raised guidance* (their own forecast for next quarter, the highest-quality bullish signal we look for). They make analog chips for cars and factories — different driver from NVIDIA's AI chips, so they diversify us. **At market-open today, if the tape isn't ugly, I plan to buy ~$10K worth (~47 shares, about 10% of the portfolio)** with a −7% hard stop as a safety net.
+
+**Numbers**
+- Equity: $100,286 (down ~$95 overnight, basically flat)
+- Cash: $94,966 — about 95% of the account is still on the sidelines
+- 1 of 5 position slots used (NVDA) · 0 of 3 buys used this week
+- NVDA stop: $195.06 (10% trailing); SPY: $714.80
+
 
 **Still halted — API keys still missing (second routine in a row).**
 

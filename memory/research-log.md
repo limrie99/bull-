@@ -27,6 +27,71 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-28 06:15 CT — pre-market (for 2026-04-28 open)
+
+**Timing:** scheduled 6:00 AM CT. APIs verified live (Alpaca 200, Perplexity 200). Four sub-agents fanned out in parallel — macro, earnings, NVDA position, opportunity scout. Memory drift detected: portfolio.md said 0 positions but Alpaca shows NVDA 25 sh @ $201.38 filled 2026-04-22 with a 10% trailing stop already in place (hwm $216.73, stop $195.057). portfolio.md refreshed from live Alpaca state this routine.
+
+### Market context
+**Mildly risk-off into the FOMC two-day meeting** that begins today (decision + Powell presser tomorrow 4/29). Tape likely cautious/range-bound until Powell.
+- **ES:** ~−0.14% (~7196). **NQ:** ~−0.33% (Nasdaq leading down).
+- **US 10Y / DXY / WTI / Brent:** n/a — Perplexity sparse, not fabricating.
+- **Asia / Europe:** n/a — same.
+- **US data on tap today:** FOMC Day 1 (no presser), Census Q1 housing vacancies 10:00 ET, Fed H.6 money stock 13:00 ET. No CPI/GDP/JOLTS or Fed speakers. Q1 GDP advance + ECI land Thursday 4/30.
+- **Net read:** mildly risk-off. Real catalyst is Wednesday's Fed decision; today is positioning, not direction-setting.
+
+### Portfolio watch
+- **NVDA** — 25 sh @ $201.38, current $212.82, **+5.68%**. Trailing stop at $195.057 (10% trail, hwm $216.73). Yesterday's close last_equity $100,380.75; today pre-market quote $212.82 implies overnight dip of ~−$95 vs yesterday close (−0.09%).
+- **News (24-48h):** no material company-specific news, no fresh upgrades/downgrades, no Blackwell/GB300/Rubin headlines, no China export-control news, no AMD/AVGO competitor news. Quiet tape into earnings.
+- **Technicals:** RSI overbought after the +5.7% run; "Strong Buy" → "Hold/Accumulate" model flip noted post-close 4/27. Normal feature of a strong move, not a sell signal.
+- **Earnings date:** unconfirmed today — Perplexity returned a stale 2026-02-25 date. Prior research had **2026-05-20 AMC**; treat that as working assumption (~16 trading days out, well outside 3-day blackout). **Need to re-verify in next routine.**
+- **Thesis status:** intact. **Stop posture:** keep 10% trailing as-is — no news warrants tightening.
+
+### Earnings calendar (2026-04-28)
+- **BMO confirmed (large-caps):** KO, UPS, SPGI, AMT, SHW, NUE, **GLW (NVDA-adjacent — optical fiber for AI data centers)**, CNC, CMS, VTR, BEN, AVY, EPD. Mostly $10–300B mcap.
+- **AMC confirmed:** **V (Visa, ~$600B)** — tape-setter for Wednesday open via cross-border payments + US consumer pulse. **BKNG (~$130B)**, **NXPI (~$60B, semis read-across)**, **OMC (~$15B)**.
+- **No mega-cap reports today** (MSFT/GOOGL/META/AMZN/AAPL/NVDA/TSLA/JPM/MA cluster later this week).
+- **Semis read-across for NVDA:** GLW optical-connectivity AI fiber commentary AMC could give a mild positive read-across; NXPI auto/industrial cycle is a separate driver.
+- **Consensus EPS numbers:** n/a from Perplexity sweep — not fabricated. Watch the prints, not pre-print whisper math.
+
+### Buy candidates
+
+Scout returned **TXN as the cleanest beat-and-raise** in the 4/21–4/28 reporting window — and it diversifies us off AI-infra concentration (we already own NVDA).
+
+- **TXN — Texas Instruments (~$210, ~$190B mcap, analog semis).**
+  - Signals hit: **(1)** EPS $1.68 vs $1.37 est, revenue beat ~$0.3B, **forward guidance raised**; **(3)** secular tailwind — analog semi cycle inflecting up after multi-year inventory destock + onshoring/auto/industrial automation; **(6)** above 50-DMA per scout screen.
+  - Next earnings: ~2026-07-22 AMC — safe (one quarter out).
+  - **Conviction: high.** ≥2 signals verified with hard numbers. Diversification from NVDA is a bonus.
+  - **Sizing rec: ~10% of portfolio (~$10K, ~47 shares)** at Tuesday open if macro tone is constructive. Below 15% target because we want dry powder for the next two scout passes this week.
+
+- **IBM (~$265, ~$245B mcap, hybrid cloud + AI consulting).**
+  - Signals hit: (1) EPS+rev double-beat, dividend raised; (3) AI consulting bookings tailwind; (6) above 50-DMA.
+  - Next earnings: ~2026-07-22 AMC — safe.
+  - Conviction: **med-high.** "Crushed it" per Perplexity but specific guidance-raise figure not surfaced. Watchlist — wait one routine to confirm 50-DMA hold before adding alongside TXN.
+
+- **NOW — ServiceNow (~$1,000, ~$205B mcap, enterprise AI workflow).**
+  - Signals hit: (1) EPS + rev beat; (3) agentic AI tailwind. Guidance-raise specifics unverified.
+  - Next earnings: ~2026-07-23 AMC.
+  - Conviction: **med.** Need confirmation on the raised-guidance piece.
+
+- **TSLA — SKIP.** Q1 deliveries 358K below est even though EPS beat. Mixed print, only 1 clean signal, high vol.
+
+### Sell candidates
+None. NVDA thesis intact, stop in place.
+
+### Plan for 2026-04-28 open (08:30 CT)
+- **No trade at the bell.** Routine is research-only — no orders during pre-market scan.
+- **For the market-open routine:** if futures are still mildly red into 8:30 CT and macro is quiet, consider entering **TXN starter at ~10% (~$10K, ~47 shares with -7% hard stop)**. If futures gap meaningfully red (>0.5%) or there's a Fed-driven flush, **pass** — we have NVDA already plus 95% cash, no need to force a trade ahead of the 4/29 Fed decision.
+- **Hold NVDA, leave the trailing stop alone.** Re-verify NVDA's 5/20 earnings date next routine.
+- **IBM, NOW** stay on watchlist for Wednesday's pre-market scout.
+
+### Notes / research gaps to close next routine
+1. Re-verify NVDA next earnings date (Perplexity returned stale 2026-02-25). Use Alpaca corporate calendar if available, otherwise targeted Perplexity query.
+2. Pull TXN, IBM, NOW current price + 50-DMA at next pre-market run — scout returned approximations.
+3. Get a real US 10Y yield, DXY, WTI level — three pre-market routines in a row have been macro-data-thin from Perplexity. Consider a different source / Alpaca bars for SPY/IWM/TLT as a proxy.
+4. Watch for Visa AMC tape-set — sets Wednesday's open tone for consumer / cross-border.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
