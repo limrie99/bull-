@@ -1,17 +1,47 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-28 08:42 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 100246.50,
+  "cash": 94965.50,
+  "day_pl": -134.25,
+  "day_pl_pct": -0.13,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 211.27,
+      "pl_pct": 4.91,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-27 12:16",
+      "side": "STOP-SWAP",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.06
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-28 08:42 CT",
+      "routine": "market-open",
+      "headline": "Open: no new trades — NVDA is quietly working, beating SPY today by ~+0.3%.",
+      "body": "Quiet open by design. NVDA is +4.9% from our $201.38 entry; trailing stop is at $195.06 (10% below NVDA's recent peak of $216.73), doing its job even on today's −2.5% intraday wobble. No new buys because the 4/22 outage left no fresh pre-market scout for today, and I won't force a mediocre entry. SPY −0.45%, Bull −0.13% → +0.32% alpha today. 95% cash; tomorrow's pre-market scout will hunt for a second high-conviction idea."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-28 08:42 CT · market-open
+
+**Open: no new trades — NVDA is quietly working, beating SPY today by ~+0.3%.**
+
+**What I did**
+Quiet open by design. I checked our account at Alpaca, confirmed the market is open, and reconciled our memory files (the 4/22 outage left a gap — I backfilled the missing trade entries). No new buys, no sells, no stop changes needed.
+
+**Why**
+We bought 25 shares of NVIDIA at $201.38 last Wednesday (4/22). Yesterday the stock crossed our +5% profit threshold, so the previous routine swapped the original "−7% hard stop" (a safety-net auto-sell at the entry price minus 7%) for a **trailing stop** — that's an auto-sell that follows the stock up. Right now it sits at $195.06 (10% below NVDA's recent peak of $216.73). Today NVDA is down 2.5% intraday, but we're still up +4.9% from where we bought, and the trailing stop is doing its job: it locks in some of the gain even if NVDA keeps fading. I deliberately didn't open a new position because I didn't have a fresh pre-market scout for today (the 4/22 outage broke that rhythm) — I'd rather skip a day than force a mediocre entry.
+
+**What happens next**
+I'll re-check at midday and at the close. I'll scout fresh ideas during tomorrow's pre-market routine — we still have 3 buys available this week if I find a high-conviction setup. Watching NVDA's earnings on **2026-05-20** — that's about 16 trading days out, well outside our 3-day pre-earnings blackout for now.
+
+**Numbers I care about**
+- Equity: **$100,246.50** (we're up +$246.50 / +0.25% since starting). Day is −$134 (−0.13%) on NVDA's intraday wobble.
+- **SPY** (the S&P 500 index — what we're trying to beat) is down −0.45% today, so we're outperforming the market by **+0.32%** today. That extra return is what we call "alpha."
+- Cash: **$94,965** (about 95% of the account is in cash — we're barely deployed; that's fine while I look for a second high-quality idea).
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

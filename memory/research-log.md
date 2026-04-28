@@ -27,6 +27,45 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-28 08:30 CT — market-open
+
+### Routine state
+First successful market-open since the 4/22 halts. Secrets present, Alpaca + Perplexity reachable. Clock confirms market open (next_close 16:00 ET). No fresh pre-market research log for today (last pre-market entry is 2026-04-21 19:00 CT for the 4/22 open) — therefore **no new buys at open**, per "don't trade off stale context."
+
+### Reconciliation with Alpaca (memory was out of sync)
+Memory said 0 positions / $100K cash, but Alpaca shows:
+- **Equity:** $100,246.50 (last_equity $100,380.75 → day P/L −$134.25 / −0.13%)
+- **Cash:** $94,965.50
+- **Position:** NVDA 25 shares @ avg $201.38, current $211.27, market value $5,281.00, unrealized P/L +$247.13 (+4.91%)
+- **Open sell order:** trailing-stop GTC, trail_percent 10, hwm $216.73, stop $195.057
+
+Order history:
+- 2026-04-22 10:07 CT — BUY NVDA 25 @ $201.38 (market, OTO bracket; the day-stop leg expired same day)
+- 2026-04-23 — replaced expired stop with GTC stop at $187.28 (entry × 0.93)
+- 2026-04-27 12:16 CT — cancelled the −7% hard stop, placed 10% trailing stop GTC (NVDA had crossed +5% threshold; hwm of $216.73 was set when stock peaked yesterday)
+
+Backfilled the missing entries into `trade-log.md` (4/22 BUY and 4/27 stop swap).
+
+### Market context (light scan, no new buy)
+- **SPY:** $711.98, −0.45% intraday (yesterday close $715.17). Bull's −0.13% is beating SPY by ~+0.32% so far today. Tape mildly weak.
+- No major macro print this hour. Skipping a deep Perplexity scout — pre-market routine's job, not market-open's.
+
+### Portfolio watch
+- **NVDA** — intraday −2.47% (off yesterday's $216.61 close → $211.27). Position still +4.91% from entry. Trailing stop at $195.057 = ~−10% from $216.73 hwm; ~−3.04% from current price. Thesis (Blackwell ramp, AI cap-ex; next earnings 2026-05-20 AMC, ~16 trading days out, still outside the 3-day blackout) intact. **Hold.** No action needed — the trailing stop is correctly placed per strategy.
+
+### Buy candidates
+None executed. No fresh pre-market plan for today; deferring new entries to the next pre-market scout. Week-of-4/27 BUY count = 0 (the 4/22 NVDA fill was last week), so 3 buys still available this week if the scout finds high-conviction ideas.
+
+### Sell candidates
+None. NVDA's intraday weakness is normal volatility (−2.47% on a stock that ran ~+7% off entry to yesterday's hwm); thesis unchanged; trailing stop will handle a real breakdown.
+
+### Notes / things to watch
+1. NVDA earnings 2026-05-20 AMC. Strategy says "do not hold through earnings on a position already up >20%." We're at +5%, so no decision yet — but if NVDA rips into the print, take profit before; if it slides, the trailing stop will handle it.
+2. Pre-market routine tomorrow needs to do a real scout (the 4/22 halts left a gap — no rolling list of fresh ideas).
+3. Inbox empty; user has not weighed in. Continue running the playbook.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
