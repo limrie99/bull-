@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-28 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100229.02,
+  "cash": 94965.50,
+  "day_pl": -151.73,
+  "day_pl_pct": -0.15,
+  "week_pl_pct": 0.23,
+  "spy_week_pct": 0.83,
+  "alpha_week_pct": -0.60,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 210.57,
+      "pl_pct": 4.56,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 09:30",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-28 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — Nvidia is taking a breather and that's fine.",
+      "body": "NVDA -2.8% today on a sector-wide chip pullback (CNBC story questioning OpenAI's ability to fund all the AI compute they've ordered; OpenAI denied it). Our thesis is unchanged — this is healthy mean-reversion after a 29% monthly rally. NVDA is still +4.6% from entry, with a trailing stop at $195.06 protecting our downside. Equity $100,229 today; we're beating SPY by +0.58% on the day. 95% cash, ready for the next high-conviction setup. Earnings 5/20 — 22 days out."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
