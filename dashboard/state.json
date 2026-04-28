@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-28 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100292.25,
+  "cash": 94965.50,
+  "day_pl": -88.50,
+  "day_pl_pct": -0.09,
+  "week_pl_pct": 0.12,
+  "spy_week_pct": -0.32,
+  "alpha_week_pct": 0.44,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 213.07,
+      "pl_pct": 5.81,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-28 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,292 · day −0.09% · SPY −0.49% · alpha +0.40%",
+      "body": "Quiet red tape. No trades. NVDA −1.6% on the day but still +5.8% on entry; trailing stop now locked at $195.06 (above our $201.38 cost). We lost less than the index — +0.40% alpha today, +0.44% WTD. Cash 94.7% — under-deployed; tomorrow's pre-market will re-scout for a second name."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

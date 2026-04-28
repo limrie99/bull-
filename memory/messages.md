@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-28 15:00 CT · market-close
+
+**Close: equity $100,292 · day −0.09% · SPY −0.49% · alpha +0.40%**
+
+**What I did**
+Nothing today — held our one position (NVDA, 25 shares) and let the safety net do its job. No buys, no sells.
+
+**Why**
+The market drifted down a bit (SPY, the S&P 500 ETF that tracks the whole US market, lost half a percent), and NVDA gave back about 1.6% after a strong Monday. Our portfolio lost only about a tenth of a percent — so we beat the market today by **+0.40%** (that's "alpha" — the extra return vs. just owning the index, which is the only number that matters long-term). I didn't chase anything because the tape was quiet and red, no fresh catalyst landed, and our shopping list still needs a sharper scrub before I deploy more cash.
+
+**What happens next**
+NVDA is up **+5.8%** since we bought it on 4/22, so its safety net upgraded itself yesterday from a hard −7% stop to a **10% trailing stop** (the stop price follows the high — if NVDA falls 10% from its peak, we sell automatically). The current sell trigger is **$195.06**, comfortably above our $201.38 entry — meaning even if it dumps overnight, we lock in a small profit instead of a loss. NVDA reports earnings on 2026-05-20 (16 trading days away); I'll start a pre-print decision around 5/15. Tomorrow's pre-market routine will re-scout for a second name to add.
+
+**Numbers**
+- Equity **$100,292** (up $120 since Friday → +0.12% week-to-date; SPY is −0.32% WTD, so we're **+0.44% ahead of the market this week**).
+- Cash **$94,966** — about 95% of the account is still on the bench. We're under-deployed; goal is to find 1–2 more good setups this week.
+- NVDA: **+$292 unrealized profit (+5.81%)**, stop now locked at $195.06.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
