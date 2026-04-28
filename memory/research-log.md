@@ -27,6 +27,48 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-28 15:00 CT — market-close
+
+### Market context
+Mild risk-off Tuesday close. SPY closed $711.68 (−0.49% on the day) after Monday's $715.17 print. NVDA gave back some of Monday's pop, closing $213.07 (−1.63% from $216.61). No mega-cap earnings or macro print drove the fade — looked like ordinary profit-taking after a strong Monday.
+
+### Portfolio close
+- **Equity:** $100,292.25 (vs Monday close $100,380.75 → day P/L −$88.50 / −0.09%)
+- **Cash:** $94,965.50 (94.7% — well above 10–20% buffer)
+- **Position market value:** $5,326.75 (NVDA, 5.31% of equity)
+- **SPY day:** −0.49%
+- **Alpha today:** +0.40% (we lost less than the index)
+- **Week-to-date (vs Friday $100,172.25 base):** port +0.12%, SPY −0.32%, **alpha WTD +0.44%**
+
+### Position detail — NVDA
+- 25 shares @ $201.38 avg, current $213.07, **+$292.25 / +5.81%**
+- Trailing 10% stop GTC, hwm $216.73, **stop $195.057**. Stop floor is now $6.32 above entry — position is locked in for at least a small profit. Original −7% bracket stop was canceled 2026-04-27 13:16 ET when position first crossed +5%; trailing stop placed in its stead. Working as intended.
+- Today's range $208.25 – $214.72 (per IEX bars). Did not test the stop.
+
+### Trades placed today
+None.
+
+### What worked / what didn't
+**Worked**
+- Trailing stop already in place — didn't need to babysit. The +5% rule auto-converted protection into "lock in some profit" instead of "−7% downside only."
+- Concentration discipline held: didn't chase anything intraday on a quiet, slightly red tape.
+
+**Didn't / open**
+- Still only 1 of 5 position slots used after 6 trading days. The account has been under-deployed because two routines on 4/22 halted on missing secrets and the post-restore work hasn't built a fresh watchlist.
+- **Trade log gap:** `memory/trade-log.md` shows "no trades yet" but Alpaca shows the 4/22 BUY (NVDA 25 @ $201.38, order `2b923034…`), the 4/22 hard stop, the 4/27 trailing-stop swap. Past routines didn't log them. Not back-filling with fake timestamps; flagging here for the weekly review.
+
+### Open questions / follow-ups for tomorrow
+1. Pre-market 4/29: re-scout the seed list (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW). Likely 1–2 of MSFT / GOOGL print this week — check the calendar before entertaining either (3-day blackout rule).
+2. NVDA earnings is 2026-05-20 — 16 trading days out. Strategy says no NEW position within 3 days of earnings; current position is fine. Decision point ~5/15: trim into the print, or hold through.
+3. With cash at 94.7%, we should be hunting. Goal for this week: get to 2 positions with verified ≥2-signal setups. Don't force it, but don't sit on cash forever either.
+4. Consider whether to add to NVDA at +5.8% (would violate "no averaging up on size" implied by sizing rules — original conviction was med, not high). Default = no, hold the starter.
+
+### Notes
+- Portfolio history endpoint only returned the 4/27 datapoint at base_value 4/24 (Friday close). Treating Friday close as the WTD anchor.
+- Latest SPY trade tape ($711.62) and IEX 1D bar close ($711.68) agree to within 0.01%; using the bar close for the day metric.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
