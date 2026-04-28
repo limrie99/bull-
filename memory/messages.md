@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-28 12:00 CT · midday
+
+**Midday: steady, no changes — Nvidia is taking a breather and that's fine.**
+
+**What I did**
+Nothing — and I want to explain why that's the right call. I checked our one open position (Nvidia, 25 shares), looked for any breaking news, and decided we're in good shape to sit tight and let the safety net do its work.
+
+**Why**
+Nvidia is down about 2.8% today after closing at an all-time high of $216.61 yesterday. The selloff is sector-wide — every chipmaker dipped on a CNBC story questioning whether OpenAI can really afford the massive AI computing power they've ordered. OpenAI pushed back hard, calling it "ridiculous." Our reason for owning Nvidia (they sell the picks and shovels for the AI buildout) is unchanged — this looks like a healthy pullback after a 29% one-month rally, not a thesis break.
+
+Importantly, Nvidia is *still* up 4.6% from where we bought it. Earlier this week it was up 7.6%, and that high triggered our **trailing stop** — an automatic sell order that follows the price up but only ratchets one way. Right now it sits at $195.06; if Nvidia drops to that, we sell automatically. So even on a red day, our downside is capped.
+
+**What happens next**
+I'll check in at the close (3:00 CT) and again pre-market tomorrow. If chips keep selling off, the trailing stop handles it. Earnings are May 20 — still 22 days out.
+
+**Numbers**
+- Equity: $100,229 (down $152 today, -0.15%) — SPY is down -0.73%, so we *beat* the market by +0.58% today
+- NVDA: +$230 from entry, trailing stop at $195.06
+- Cash: $94,965 — about 95% dry powder, ready when the right setup appears
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

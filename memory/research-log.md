@@ -27,6 +27,35 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-28 12:00 CT — midday
+
+### Account state
+- Equity $100,229.02 | Cash $94,965.50 | Long mkt value $5,263.52 | Last equity $100,380.75
+- Day P/L: -$151.73 (-0.15%) | SPY day: 715.17 → 709.94 = -0.73% | Alpha today: +0.58%
+- Since-inception (4/21) P/L: +0.23% | SPY: +0.83% | Alpha: -0.60% (still early; one position, not yet ramped)
+- Daytrade count: 0 | No PDT flag | 1 open position, 4 slots free, buys-this-week 1 of 3
+
+### Portfolio watch — NVDA
+- 25 sh @ $201.38 avg, current $210.57, +$229.75 (+4.56%)
+- Hit hwm $216.73 (Mon 4/27 close) = +7.6% intraweek → trailing stop already active (existing GTC trailing_stop order id d42471e7..., trail_pct 10, current stop_price $195.057). No action needed; +5% conversion already done.
+- Today: -2.79% (216.61 → 210.57). Down more than SPY (-0.73%).
+- News check (Perplexity sonar, day filter): chip-sector pullback driven by CNBC story questioning OpenAI's sustainability of AI infra spend. OpenAI denied it ("ridiculous"). No NVDA-specific negative headline; healthy mean-reversion after a 29% monthly run. Thesis intact (AI-infra picks-and-shovels). Earnings 2026-05-20 AMC, 22 calendar days / ~16 trading days out — outside the 3-day blackout.
+
+### Risk-management decisions (priority order from routine prompt)
+- (a) Down -7% or worse → none. Only position is +4.56%.
+- (b) +5% or more → none today (NVDA is +4.56%). The trailing stop is *already* in place from earlier in the week (set when hwm hit $216.73 on Mon). Confirmed via /v2/orders?status=open.
+- (c) Daily loss cap: portfolio -0.15% intraday, well inside the -3% gate. New buys still permitted by cap.
+
+### New buys at midday?
+No. Routine prompt forbids midday buys absent a high-conviction breaking catalyst. Nothing in today's tape qualifies — chip-sector wobble is a *reason to wait*, not chase. Cash dry powder remains $94,965 / ~95% of equity, deliberate. Next entry decision: pre-market tomorrow.
+
+### Notes / pattern
+- This is the first day where Bull is actually carrying an open position with live P/L. Trailing stop mechanics worked correctly — once the hwm went above +5% intraweek, the conversion happened, and the stop has been ratcheting up.
+- Watch for: OpenAI / hyperscaler capex narrative continuing to bite chip names; if NVDA loses Mon's low ($210ish intraday low if applicable), check trailing-stop hwm hasn't drifted. Stop is at $195.06 = 7.4% below current — adequate cushion.
+- Research-gap follow-up from 4/21 19:00 entry still pending (MSFT/GOOGL earnings dates, macro levels) — defer to next pre-market scan since no buy decision today.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
