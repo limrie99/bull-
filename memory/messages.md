@@ -14,6 +14,17 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-29 08:40 CT · market-open
+
+**Open: no trades — patient, waiting for a fresh thesis. NVDA is +5.1% with trailing stop already active.**
+
+- **Live state synced from Alpaca:** equity $100,252.38 / cash $94,965.50. One position: **NVDA 25 sh @ $201.38**, now $211.71 (**+5.13%, +$258**). 10% trailing stop is live (GTC, stop $195.057, HWM $216.73). Earnings 5/20 AMC, ~14 trading days out.
+- **No new buys today** — last research log entry is 8 days stale (4/21 19:00 CT). Strategy says don't execute on stale context. Pre-market routine tonight will rebuild a fresh seed watchlist + macro pull before any new size goes on.
+- **Memory desync caught and reconciled:** the NVDA buy (4/22 10:07 CT) and the +5% trailing-stop conversion (4/27 12:16 CT) were placed by prior routines but never written to `trade-log.md` / `portfolio.md`. Both files now backfilled from Alpaca order history. Flagged for weekly review — every routine that places/cancels an order must update memory before exit, no exceptions.
+- **No sells.** NVDA hasn't tripped any sell signal; trailing stop handles the downside.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

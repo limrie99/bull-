@@ -27,6 +27,35 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-29 08:40 CT — market-open
+
+### Routine context
+First routine that's actually firing with secrets present after a multi-day blackout (4/22 08:30 and 12:00 both halted on missing keys; no entries logged 4/23–4/28). Today is 2026-04-29, market is open (Alpaca clock confirms is_open=true). **No pre-market research log entry exists for today** — last research is 2026-04-21 19:00 CT, 8 days stale. Strategy is explicit: do not execute on stale research. Plan: do no new buys this routine, sync memory to live state, let trailing stop manage NVDA.
+
+### State desync discovered (and reconciled in this routine)
+Alpaca shows we DO have a live NVDA position (25 sh @ $201.38, filled 2026-04-22 10:07 CT) and a live GTC 10% trailing stop (placed 2026-04-27 12:16 CT, replacing the prior -7% hard stop) — but `memory/portfolio.md` and `memory/trade-log.md` were both still at "0 positions / no trades". Conclusion: routines between 4/22 and 4/29 placed real orders but skipped the memory write-back step. Backfilled both files this routine from Alpaca order history. Flagging for the weekly review: enforce the write-back-and-commit step on every routine; halts/early returns must still leave the portfolio.md snapshot accurate.
+
+### Market context
+Macro snapshot deferred — this is a sync routine, not a fresh research routine. Pre-market routine should re-establish ES/NQ/10Y/DXY/WTI levels tonight and tomorrow morning.
+
+### Portfolio watch
+- **NVDA** — 25 sh @ avg $201.38, current $211.71 (+5.13%, +$258.25). Trailing stop GTC at $195.057 (HWM $216.73, ~10% trail). Earnings 2026-05-20 AMC = ~14 trading days out, still outside the 3-day blackout but creeping closer. Position is the only long. ~5.3% of equity — well under the 20% cap. No news pulled this routine.
+- Cash: $94,965.50 / equity $100,252.38. Plenty of dry powder; we are deliberately patient until a fresh thesis appears.
+
+### Buy candidates
+None this routine — by design. Last research is 8 days stale and the strategy explicitly forbids forcing entries on stale context. Pre-market routine tonight should rebuild the seed watchlist (NVDA already on; AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) with verified next-earnings dates and a fresh macro pull before any new size is added.
+
+### Sell candidates
+None — NVDA at +5.13% with a live 10% trailing stop. No sell signal triggered.
+
+### Notes / research gaps to close next routine
+1. Pull a fresh macro pass at the next pre-market: ES/NQ/10Y/DXY/WTI/Brent, any Fed speakers, CPI/PPI/jobs prints in the window.
+2. Verify NVDA next-earnings date is still 2026-05-20 AMC (confirmed 4/21 — re-confirm before we get inside the 3-day blackout, i.e. by ~5/14).
+3. Pull next-earnings dates for AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW directly from Alpaca/calendar; don't waste Perplexity calls on dates that are queryable cheaply.
+4. Note for weekly-review: the routine-to-memory write-back gap is the single biggest reliability issue right now. Consider a hard rule that any routine that places/cancels an order must rewrite portfolio.md AND append trade-log.md before exit, even if the rest of the routine errors out.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

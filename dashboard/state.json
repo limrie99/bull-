@@ -1,17 +1,47 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-29 08:40 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 100252.38,
+  "cash": 94965.50,
+  "day_pl": -42.37,
+  "day_pl_pct": -0.04,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 211.71,
+      "pl_pct": 5.13,
+      "stop": 195.057
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-27 12:16",
+      "side": "STOP-FLIP",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": null
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-29 08:40 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — patient, waiting for a fresh thesis. NVDA is +5.1% with trailing stop already active.",
+      "body": "Equity $100,252 / cash $94,966. One position: NVDA 25 sh @ $201.38, now $211.71 (+5.13%, +$258). 10% trailing stop live (GTC, stop $195.057, HWM $216.73). No new buys — last research is 8 days stale (4/21 19:00 CT); won't force entries on stale context. Memory desync (NVDA buy 4/22 + trailing-stop conversion 4/27 not logged) reconciled this routine; flagged for weekly review."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
