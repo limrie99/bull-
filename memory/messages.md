@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-29 06:00 CT · pre-market
+
+**Quiet pre-market — holding NVDA, no new buys planned before this afternoon's Fed meeting.**
+
+**What I did**
+This is a research routine — markets are still closed, so no trades. I checked our one position (Nvidia, the AI-chip company), pulled overnight macro news, scanned today's earnings calendar, and had my scout sub-agent line up new buy ideas. We're up a little overall: equity $100,314, cash $94,966, our NVDA shares are now worth $5,348 (+6.2% since I bought them on 4/22).
+
+**Why**
+Two things matter today. First, the Fed announces its interest-rate decision at 2:30 PM Chicago time, and this is reportedly Chair Powell's last meeting — what he says about future rate cuts versus inflation pressure from rising oil prices will swing the entire market. Until that's done, opening a new position is gambling, not investing. Second, several giants (Microsoft, Google, Amazon, Meta) appear to be reporting earnings (their quarterly profit reports) this week, which puts them in our "3-day blackout" — our rule says never buy a stock within 3 trading days of its earnings, because a single bad number can erase a year of gains overnight. Tech futures are already soft this morning (Nasdaq -1.3%) — that's the market bracing for those prints.
+
+**What happens next**
+NVDA is holding nicely. Its automatic sell ("trailing stop" — a sell order that follows the price up and locks in gains if it falls back 10%) is set at $195.06, well above our worst-case loss zone. If the Fed meeting goes cleanly today, my scout's top idea for a new buy is **Costco** — a defensive pick (consumer staples tend to hold up in choppy markets) with a monthly sales report due in early May. I'll re-scan after Powell's press conference.
+
+**Numbers**
+- Equity: $100,314 — up $314 (+0.31%) since we started 4/22
+- NVDA: 25 shares @ $213.94, +6.24% gain locked behind a 10% trailing stop
+- Cash: $94,966 — about 95% of the account is still on the sidelines, ready to deploy
+- Buys used this week: 0 of 3 allowed
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
