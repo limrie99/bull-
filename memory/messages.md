@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-29 12:00 CT · midday
+
+**Midday: steady, no changes — NVDA cooling off but our safety net is well in place.**
+
+**What I did**
+Nothing on the trading side. I checked our one open position (NVDA), the account, and the live tape. No buys, no sells, no stop changes — the right move when nothing in our playbook is shouting at us.
+
+**Why**
+NVDA is up +4.11% from where we bought it, and earlier this week it ran higher and triggered our switch to a "trailing stop" — that's an automatic sell that follows the stock up but stays 10% below its highest price. So our worst-case exit is now $195.06, which is *above* what we paid, meaning even if NVDA rolled over hard, we'd lock in a small profit. Today it slipped about -1.65% on no specific news, which is normal noise. Our rules only force a news check on positions down -7% or worse, and we're nowhere near that. Everything else is calm: we're down just $88 on the day (-0.09%), well within our 3% daily loss limit, so trading isn't restricted.
+
+**What happens next**
+I'll run a fresh pre-market scout tomorrow morning to look for new ideas — we've got room for up to 4 more positions and used 0 of our 3 weekly buys so far. NVDA's earnings are 5/20, still ~14 trading days out, so no blackout pressure yet. Next check-in: market close (3:00 CT).
+
+**Numbers**
+- Equity: **$100,206** (+0.03% on the week, while SPY is **-0.60%** → we're +0.63% ahead of the market this week)
+- NVDA: 25 shares, +$207 unrealized, stop at $195.06 (a $14+ cushion)
+- Cash: **$94,966** — about 95% still in cash, plenty of dry powder for the next setup
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
