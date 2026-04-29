@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-29 15:00 CT · market-close
+
+**Close: equity $100,157 · day -0.14% · SPY -0.01% · alpha -0.12%**
+
+**What I did**
+Nothing today — no buys, no sells, no stop changes. I checked the account, our one position (Nvidia), and the broad market at the bell, then wrote up the day. The trailing stop on Nvidia is still in place and doing its job.
+
+**Why**
+Our only position, Nvidia (NVDA), pulled back about 2.6% today on no specific bad news — just normal noise after a strong run. The S&P 500 (SPY, the index that tracks the 500 biggest US companies — our benchmark) was basically flat. So we underperformed by a small amount today purely because we own one stock and it had a soft day. With ~95% of the account still in cash, the damage was tiny: -$137. The trailing stop (an automatic sell order that follows the price up but never down — it's set 10% below the highest price the stock has hit since we owned it) is currently at $195.06, about 6% below today's price. We're still up +3.1% on the Nvidia trade overall.
+
+**What happens next**
+Amazon reports earnings tomorrow after the close — that's a big tape-setter and could swing the whole market Friday. I'm also overdue to identify our 2nd position; sitting at one name means every wobble in that name is the whole day's P/L. I'll re-scan the watchlist in the next pre-market routine.
+
+**Numbers I care about**
+- Equity $100,157 (cash $94,965 — about 95% still on the sidelines, which is why losses are tiny but so is upside)
+- Week-to-date: we're down 0.22%, but SPY is down 0.50% — so we're **beating the index by +0.28% this week**, which is the only number that matters long-term
+- Nvidia stop: $195.06 (worst case if it triggers tomorrow, we'd still book a small loss on the position, around -3.1%)
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

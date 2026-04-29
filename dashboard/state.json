@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-29 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100157.22,
+  "cash": 94965.50,
+  "day_pl": -137.53,
+  "day_pl_pct": -0.14,
+  "week_pl_pct": -0.22,
+  "spy_week_pct": -0.50,
+  "alpha_week_pct": 0.28,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 207.67,
+      "pl_pct": 3.12,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-29 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,157 · day -0.14% · SPY -0.01% · alpha -0.12%",
+      "body": "Quiet day — no trades. Our only position (NVDA) gave back 2.6% on noise while SPY was flat, so we underperformed by 0.12% today. With ~95% cash, the dollar damage was just $137. NVDA trailing stop sits at $195.06 (~6% below today's price) and we're still +3.1% on the position. Week-to-date we're -0.22% vs SPY -0.50% — beating the index by +0.28% WTD. Need to identify a 2nd name; sitting at one position means every NVDA wobble is the whole day. Amazon reports earnings tomorrow AMC — could swing Friday's tape."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
