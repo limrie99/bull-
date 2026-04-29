@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-29 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100206.38,
+  "cash": 94965.50,
+  "day_pl": -88.37,
+  "day_pl_pct": -0.09,
+  "week_pl_pct": 0.03,
+  "spy_week_pct": -0.60,
+  "alpha_week_pct": 0.63,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 209.66,
+      "pl_pct": 4.11,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-29 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — NVDA cooling off but safety net well in place.",
+      "body": "NVDA is +4.11% (stop $195.06, ~$14 cushion). Down a touch on the day on no specific news — well outside the -7% news-check threshold, so no action. Day P/L -0.09%, week +0.03% vs SPY -0.60% (+0.63% alpha). 0/3 buys this week, 1/5 positions. Next check: market close."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -27,6 +27,30 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-29 12:00 CT — midday
+
+### Market context
+Mid-session, light tape. SPY ~$709.66 (vs. last Fri close $713.94 → SPY week-to-date -0.60%). No fresh macro print this hour. Account day P/L -0.09% (-$88), well inside the 3% daily loss cap — new buys not blocked on risk grounds.
+
+### Portfolio watch
+- **NVDA** — 25 sh @ $201.38 avg, current $209.66 → +$206.95 / **+4.11%**. Down -1.65% intraday on a quiet pullback (no specific catalyst surfaced; not at the -7% news-check threshold so no Perplexity call burned). Trailing stop already in place from a prior +5% crossing: 10% trail, hwm $216.73, current stop **$195.06**. NVDA $209.66 is ~$14.60 above the stop — comfortable cushion. Next earnings 5/20 AMC, ~14 trading days out, still outside the 3-day blackout for now.
+
+### Risk-management actions taken
+- (a) -7% drawdown check: none. NVDA is +4.11%. **No action.**
+- (b) +5% trailing-stop install: already in place (hwm $216.73, stop $195.06). **No action.**
+- (c) Daily loss cap: -0.09%, far inside the -3% trigger. **New buys allowed in principle.**
+
+### Buy candidates
+None at midday. Per routine rules, no new buys at midday absent a high-conviction breaking catalyst — and nothing of the kind has surfaced. Position count 1/5, new buys this week 0/3, so capacity is open if the right setup appears at tomorrow's pre-market scout.
+
+### Sell candidates
+None.
+
+### Bookkeeping note
+Memory files were stale through this morning — `portfolio.md`, `trade-log.md`, and `messages.md` had not been updated since 2026-04-22 even though the NVDA buy filled on 4/22 and a trailing stop was placed 4/27. Reconstructed the NVDA trade from Alpaca FILL activities and added it to `trade-log.md` retroactively (clearly marked). State is now in sync with the live Alpaca account.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
