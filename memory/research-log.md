@@ -4,6 +4,85 @@
 
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
+---
+
+## 2026-04-29 06:00 CT — pre-market
+
+**Setup re-cap (after the 4/22 halt gap):** The 4/22 market-open and midday halts ended; some routine between 4/22 and 4/27 actually executed the NVDA starter — order history shows BUY 25 NVDA @ $201.38 filled 4/22 15:07 UTC, with the bracket -7% stop @ $187.12 expiring and a fresh stop @ $187.28 placed 4/22 evening. On 4/27 17:16 UTC that hard stop was canceled and a 10% trailing stop went in (correct conversion — NVDA had crossed +5%). Trail currently at $195.057, hwm $216.73. Position management is healthy.
+
+**Account snapshot (Alpaca, pre-market):**
+- Equity: $100,314.00 | Last equity (4/28 close): $100,294.75 | Day P/L so far: +$19.25 (+0.02%)
+- Cash: $94,965.50 | Buying power: $195,279.50 (cash-only per strategy)
+- Open positions: NVDA 25 sh, avg cost $201.38, current $213.94, unrealized +$314 (+6.24%)
+- Week vs SPY (week-of-4/22 to current): account +0.31% (full equity), NVDA leg +6.24%, SPY 4/22→4/28 close ~+0.07%. Position-level alpha is real but tiny in equity terms because NVDA is only ~5.3% of the book.
+
+### Market context (macro digest)
+- **ES (S&P) ~7,183.5, +0.17% overnight; NQ -1.27% overnight** — tech is the soft spot.
+- **BoJ held at 0.75% in a hawkish 6-3 split**, raised core inflation forecast to 2.8%, growth cut to 0.5%. Markets now price 74% odds of a June hike. JPY ripped (USDJPY ~159.15) — likely pressured Nikkei exporters.
+- **Oil rally continuing** on Persian Gulf shipping disruptions tied to Iran tensions — stagflationary backdrop.
+- **VIX 18.02 (-3.7%); VIX1D crashed -36% to 10.57** — calm-before-event positioning, not confidence.
+- **10Y yield, DXY, WTI cash level, Asia/Europe index closes all `n/a`** from this Perplexity pull. Research gap to close next routine.
+- **LIVE WIRE: Powell FOMC presser at 2:30 PM CT today** — reportedly his final meeting as chair. Forward guidance on cuts vs Iran-driven inflation will dictate the tape into Friday.
+- **Net read:** mixed, leaning risk-off into FOMC. Tech (NQ) is the underperformer pre-market. **Do not open new positions before FOMC** — re-scan after the dust settles.
+
+### Earnings calendar (2026-04-29)
+- **CAVEAT:** Perplexity returned thin/unconfirmed specifics for today's exact slate. Treat below as preliminary.
+- **AMC tonight (likely tape-setters this week):** Mega-cap tech — **MSFT, GOOGL, AMZN, META** all assumed to be in this week's print window. Scout's working assumption is at least some of them print 4/29 AMC. **Operational consequence:** the entire mega-cap-tech complex (MSFT / GOOGL / AMZN / META) is in the **3-trading-day earnings blackout** for new buys per strategy, regardless of which night each one prints — until ≥3 days after their respective prints.
+- **BMO today:** No confirmed large-cap names returned. Tape impact likely modest until AMC.
+- **Yesterday (4/28) AMC:** No confirmed reporters returned by Perplexity.
+
+### Portfolio watch — NVDA
+- **News (24-48h):** `n/a` from Perplexity — no material headlines on customer wins/losses, supply chain, China/H20 export-controls, or Blackwell delivery. The +6.24% drift since 4/22 entry appears to be market-tone, not news-driven.
+- **Analyst action (last 7d):** `n/a` — no upgrades/downgrades/PT changes returned. Search was unusually sparse.
+- **AI-infra peers (AVGO/AMD/MU/TSM/SMCI/ARM):** `n/a` — no fresh peer reads returned.
+- **Risks into 5/20 print:** No whisper info available. Known structural risks unchanged: China/H20 overhang, GM trajectory off 72.7% base, Blackwell ramp execution. Consensus floor: Q1 FY27 EPS ~$1.74-$1.77, rev ~$78.6B.
+- **Net read:** Thesis intact. Trailing stop is doing its job — worst case from here is a modest exit near $195 (still ~$3 below entry). **Hold.** Don't trim on noise, don't tighten yet. Reasonable to revisit ~5/15 whether to trim half ahead of the binary 5/20 print (concentration risk). Today: do nothing.
+
+### Buy candidates (ranked)
+
+1. **COST — Costco Wholesale (Consumer Defensive)** — *scout's pick*
+   - Signals matched: **3** (membership-economy / consumer-defensive secular), **5** (defensive-rotation leader per Perplexity), **6** (clear uptrend)
+   - Catalyst: monthly comparable-sales release typically first week of May (recurring scheduled catalyst).
+   - Earnings: COST fiscal Q3 reports late May — comfortably outside 3-day blackout.
+   - Conviction: **MED.** Three soft signals + dated monthly catalyst.
+   - Invalidator: weak April monthly comp print.
+   - **Verification gap:** confirm earnings date and the May comp release date before any actual entry.
+
+2. **WMT — Walmart (Consumer Defensive)**
+   - Signals matched: **3** (defensive flight + grocery share gains), **5** (defensive-rotation leader), **6** (uptrend leader)
+   - Catalyst: monthly retail data prints in May; no single-stock dated event.
+   - Earnings: typically mid-to-late May — likely outside blackout.
+   - Conviction: **MED.** Quality defensive add but catalyst is diffuse.
+   - Verification gap: pin down earnings date.
+
+3. **CAT — Caterpillar (Industrials)**
+   - Signals matched: **3** (onshoring / data-center power-infra secular), **5** (industrials rotation — XLI strong post-ceasefire), **6** (uptrend per Perplexity)
+   - Catalyst: data-center / power-infra orders flowing; no specific dated event.
+   - Earnings: **UNVERIFIED** — historically late April / early May. Could be inside the 3-day blackout.
+   - Conviction: **LOW** until earnings date is verified. Skip otherwise.
+
+4. **TSLA — Tesla (Consumer Discretionary / Auto-Tech)**
+   - Already past 4/22 print (≥ 3 trading days ago), so technically eligible.
+   - Signals matched: **3** (EV/AI tailwind), **5** (tech-rotation re-leadership claim — soft)
+   - Conviction: **LOW-MED.** Couldn't verify whether the 4/22 print was actually a beat-and-raise, so I can't confirm signal #1.
+
+5. **MSFT, GOOGL, AMZN, META** — **DISQUALIFIED** for new entries — assumed inside 3-trading-day earnings window this week. Revisit ≥3 days after each name's print.
+
+### Sell candidates
+None. NVDA stays. Trailing stop @ $195.057 is the discipline.
+
+### Notes / research gaps to close next routine
+1. Verify exact earnings dates for **COST, WMT, CAT** (and confirm which mega-caps print 4/29 vs 4/30 vs 5/1). Pull from Alpaca's calendar endpoint or issuer IR rather than another Perplexity call — Perplexity coverage was thin today.
+2. Get hard numbers on 10Y, DXY, WTI cash, Asia/Europe index closes — macro digest had too many `n/a`s.
+3. After FOMC at 2:30 PM CT, re-scan for tape direction. Powell's framing of cuts-vs-Iran-inflation drives the next 48h.
+4. Perplexity returns were unusually sparse across all four sub-agents today. Consider raising `search_context_size` to "medium" in the next pre-market scout call.
+
+### Plan for today (no trades — market closed at this routine)
+- Hold NVDA. No stop changes (trailing already correct).
+- Pre-FOMC: do not initiate new positions. If macro is cleanly risk-on after Powell, **a starter in COST (~10% of equity, ~$10K)** is the leading add — pending verification of earnings + May comp date in the next routine.
+- Update guidance to next routine: do NOT chase mega-cap tech post-print without 3 trading days of distance.
+
+
 Format:
 
 ```
