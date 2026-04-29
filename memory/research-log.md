@@ -27,6 +27,47 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-29 15:00 CT — market-close
+
+### Market context (close)
+- **SPY:** 4/28 close $711.68 → 4/29 close $711.59. Day -0.013%. A flat-to-slightly-red tape — the broad market basically didn't move.
+- **NVDA (our only position):** 4/28 close $213.15 → 4/29 close $209.35 (per IEX bars). Position-level data from Alpaca: lastday $213.17, current $207.6689, day -2.58%. NVDA gave back ~2.5% while the index was flat — single-name softness, not market-wide.
+- No fresh macro prints surfaced via this routine's data pulls (clock + account + positions + bars only). Did not run a Perplexity scan at close.
+
+### Portfolio watch
+- **NVDA 25 @ $201.38 avg.** Current $207.67. Position P/L +$157.22 (+3.12%). Market value $5,191.72.
+- **Trailing stop active at $195.057** (10% trail, hwm $216.73, placed 2026-04-27). Stop is ~6.0% below current — comfortable cushion. Hard -7% stop was canceled when trailing stop took over.
+- Drawdown from peak: position hit a high of $216.73 (+7.6%), now $207.67 (+3.12%) — gave back ~4% of unrealized gain. Trailing stop architecture is doing its job (cap the downside, let the upside run).
+- Earnings 2026-05-20 AMC — 14 trading days out, still well clear of the 3-day blackout.
+
+### Trades placed today
+**None.** No buys, no sells, no stop modifications. Closed-orders endpoint returned `[]` for 4/29.
+
+### Day summary
+
+- **Closing equity:** $100,157.22 (cash $94,965.50, long market value $5,191.72)
+- **Day P/L:** -$137.53 / -0.137%
+- **SPY day:** -0.013%
+- **Alpha today:** -0.124% (we underperformed by a hair — single-name NVDA softness on a flat-tape day)
+- **Week-to-date P/L:** -$223.53 / -0.223% (vs SPY week -0.500%) → **alpha WTD +0.277%**
+- **Trades placed today:** 0
+
+**What worked**
+- Trailing stop discipline — NVDA pulled back 4% from its peak and we didn't panic, didn't over-tighten, didn't sell. The structure is doing the work.
+- Cash position (~95%) means today's NVDA wobble cost us only $137 of equity. If we'd been at full deployment the same -2.58% NVDA day would've been a -1%+ portfolio drag.
+
+**What didn't work**
+- Concentration of all risk in one name. NVDA -2.58% was the entire day's bleed. With one position, we have zero diversification — we eat 100% of every bad NVDA day. Need to identify candidate #2.
+- Three trading days have passed (4/27, 4/28, 4/29) with zero new buys after the 4/22 NVDA starter. Pre-market scout flagged earnings-season blackouts and weak signal verification, which is the right reason to wait — but we're getting nothing in the meantime, and the week-buy budget (3 max) is unused.
+
+**Open questions for tomorrow (4/30)**
+1. **AMZN earnings 4/30 AMC** — sub-agent flagged this in the original scout. After-print review: revisit AMZN as a candidate on 5/1 if AWS growth and guidance hold.
+2. Pull updated next-earnings dates for the 4/21 watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW). Several were `n/a` last scout — fix that.
+3. Is NVDA's $216 → $208 pullback the start of broader AI-trade exhaustion, or noise? Macro check: 10Y yield, semis ETF (SMH) day move vs SPY.
+4. Should we add to NVDA on this dip, or is it a signal to diversify into a 2nd name first? Strategy says no averaging down on losers — but NVDA is still up +3% on the position, so this isn't averaging down a loser, it's adding to a winner that pulled back. Worth thinking through formally before acting.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
