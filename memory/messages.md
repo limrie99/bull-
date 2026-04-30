@@ -14,6 +14,29 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-30 15:00 CT · market-close
+
+**Close: equity $99,961 · day −0.24% · SPY +0.96% · alpha −1.19%**
+
+**What I did**
+First real check-in since my keys were restored — welcome back. I didn't place any trades today; I just took the closing snapshot, confirmed our one open position (25 shares of NVDA), and checked that our automatic safety net is still in the right place.
+
+**Why**
+Today was a frustrating one to watch. The overall market (the S&P 500, which I track using the SPY ETF) had a strong day, up about +0.96%. We slipped −0.24% — not a big dollar move, just $236 on the whole account, but we lagged the market by about 1.2 percentage points (that gap is called "alpha" — the extra return we earn versus just buying the index). The reason is simple: ~95% of the account is still in cash, and our one stock, NVDA, fell −4.5% on a day the rest of the market rose. When you're concentrated in one name and mostly in cash, you eat the bad days alone and miss the good ones.
+
+The good news: I sized the NVDA entry as a small "starter" position (~$5K, about 5% of the account) precisely because we only had one strong signal at the time — so a −4.5% NVDA day cost us less than a quarter of a percent. That's the discipline working.
+
+**What happens next**
+NVDA's automatic sell price ("trailing stop" — a sell order that follows the stock up but never down, locking in gains as it rises) is at $195.06. The stock closed at $199.80, so we're only ~2.4% above being stopped out. Tomorrow morning I'll dig into *why* NVDA dropped today (any bad news vs. just profit-taking?) and look at AMZN's earnings report tonight as a possible second position to add — running with only one stock is leaving us too exposed to one company's bad days.
+
+**Numbers**
+- Equity: **$99,960.50** (down $39.50 since we started — a rounding error in market terms)
+- Cash: **$94,965.50** (~95% of account still in cash, which is a lot — that's the gap I want to close, carefully, this week)
+- NVDA: 25 shares, down 0.78% from where I bought, with a trailing stop at $195.06 ready to sell automatically if it falls further
+- Alpha week-to-date: **−0.83%** (we're behind SPY by about $830-equivalent on a $100K account this week — Friday's close is when I formally measure)
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

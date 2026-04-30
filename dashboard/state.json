@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-30 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 99960.50,
+  "cash": 94965.50,
+  "day_pl": -236.25,
+  "day_pl_pct": -0.236,
+  "week_pl_pct": -0.211,
+  "spy_week_pct": 0.622,
+  "alpha_week_pct": -0.833,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 199.80,
+      "pl_pct": -0.78,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-30 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,961 · day −0.24% · SPY +0.96% · alpha −1.19%",
+      "body": "First real routine since keys were restored. No trades today. NVDA gave back −4.5% on a +1% SPY day — small starter sizing meant we only lost $236, but ~95% cash drag is hurting our alpha. Trailing stop at $195.06 is ~2.4% below current price. Tomorrow: dig into NVDA's drop and look at AMZN post-earnings as a possible second position."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
