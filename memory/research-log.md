@@ -27,6 +27,76 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-30 06:00 CT — pre-market
+
+**Routine resumed after 7-day cloud halt.** Secrets restored. Alpaca + Perplexity verified live. Four sub-agents fanned out (macro, earnings, position-NVDA, opportunity scout).
+
+**Reconciling memory vs. live state:** memory said $100K cash / 0 positions (last successful state was 4/22 12:00 halt). Alpaca shows we actually entered NVDA on 4/22 10:07 ET (25 sh @ $201.38, $5,034.50 cost) with a stop that was rotated to a 10% trailing on 4/27 17:16 UTC after the position hit +7.6% (HWM $216.73). The cloud routines that ran the trade did not commit memory back. Recovering state from Alpaca below.
+
+### Live account snapshot (Alpaca, 06:05 CT)
+- Equity **$100,229.25** | Cash **$94,965.50** | Long mkt value **$5,263.75**
+- Last equity (4/29 close) $100,196.75 → **today P/L pre-open +$32.50 (+0.03%)**
+- Buying power $195K (2× margin available, but cash-only per strategy)
+- Day-trade count 0, no flags
+
+### Market context
+
+**Mixed, leaning risk-off in mega-cap tech.** Live wires: this morning's **8:30 ET PCE / Q1 GDP / jobless claims** + cash-session digestion of last night's META capex hike + AAPL print tonight AMC.
+
+- **MSFT (4/29 AMC):** Beat. Rev $82.9B (+18% YoY), Cloud +29% to $54.5B, EPS $4.27. Guide maintained, AI capex narrative intact. **AH −1.1%** (clean print, but bar was a guide-raise).
+- **META (4/29 AMC):** Beat hard. Rev $56.31B (+33% YoY), EPS $7.31 vs $6.65 est. **FY26 capex raised $115-135B → $125-145B.** **AH −6%.** Tape choking on AI-infra spend — but this is **bullish read-through for NVDA** (META is buying NVDA's GPUs).
+- **GOOGL 4/29 AMC:** result unconfirmed by Perplexity — pull from IR before market open.
+- **US 10Y:** ~4.40%, +5bp overnight. Modest duration pressure.
+- **ES, NQ, DXY, WTI/Brent, Asia, Europe levels:** `n/a` from Perplexity in this window. Re-pull at 8 AM CT if a trade is on the table.
+- **Today's data:** jobless claims, Q1 GDP advance, **PCE** (Fed's preferred inflation gauge, biggest single mover). No Fed speakers confirmed.
+
+### Earnings calendar (4/30)
+
+**BMO:** LLY ($6.85 EPS / $17.78B rev — GLP-1 demand bar), MA ($4.41 / $8.26B — cross-border + consumer), CAT ($4.62 / $16.43B — industrial cycle), MRK (charge-distorted / $15.86B — Keytruda), SO, PWR, HSY.
+
+**AMC:** **AAPL** ($1.94 / $109.68B — iPhone units, Services, China demand, AI commentary — biggest tape-setter for tomorrow), AMGN, AIG, FSLR, RIVN.
+
+**Tape-setters today:** MSFT post-earnings drift sets mega-cap-tech tone at the open. **LLY BMO is the second-biggest mover** — GLP-1 guide will swing healthcare. **AAPL tonight** sets Friday's tape.
+
+### Portfolio watch — NVDA (25 sh, $201.38 avg, $210.55 last, +4.55%)
+
+- No fresh negative catalyst in the 24-48h window. Sell-side targets $222-$310 (JPM $265, HSBC $310, Rosenblatt $325) — current price below all major targets, supports HOLD.
+- **Read-through from META/MSFT capex:** META's raised capex is *direct* GPU demand. MSFT Cloud +29% YoY confirms hyperscaler AI build is still accelerating. Both supportive into NVDA's **5/20 AMC print** (14 trading days out — outside 3-day blackout).
+- Trailing stop $195.06 (HWM $216.73, trail anchored at +7.6% above entry). **Doing its job — no change.**
+- Sector peers (AVGO, AMD, MRVL, ASML, TSM): no material 24h headlines.
+- Risk flags: China H20/B20 export-control headlines `n/a` (no fresh escalation). Customer concentration structural, not catalyst.
+- **Action: HOLD. No stop adjustment.** Re-evaluate post-PCE if NVDA gaps either direction at open.
+
+### Buy candidates
+
+**Net: zero new buys today. Saving dry powder for post-PCE / post-AAPL print clarity.**
+
+Scout came back honest: Perplexity returns were thin and could not verify next-earnings dates or signal stacks for the seed watchlist (AVGO, AMD, MRVL, PLTR, CRWD, PANW, ANET, VRT, GEV, LLY, NOW). Without ≥2 verified signals AND a confirmed earnings date >5/5, no name clears the bar.
+
+Hard exclusions today (3-day-pre-earnings blackout):
+- **AAPL** — reports tonight AMC. Excluded.
+- **AMZN** — likely 5/1. Treat as excluded until confirmed otherwise.
+- **GOOGL** — reported 4/29 AMC per macro analyst (specifics `n/a`). If confirmed, blackout has cleared. Verify before next routine.
+
+Tentative leans for next routine (NOT actionable today):
+- **LLY BMO today** — if it beats EPS/rev AND raises GLP-1 guide, that's signal #1 (fresh beat + raise) + signal #3 (GLP-1 secular tailwind). Watch the print at 7-8 AM CT. Earnings 3-day blackout window starts AFTER the print fades, but the rule is "within 3 trading days OF" — so post-print reaction-buying is allowed. Could be a Friday pre-market candidate if the print + reaction is clean.
+- **CRWD, VRT, AVGO, ANET** — all have signal #3 (cybersecurity / AI infra power / AI silicon) qualitatively. None has a verified second signal in this run. Need a tighter scout next routine: 1-2 calls per ticker, not a wide sweep.
+
+Slot status: **1 of 5 used (NVDA). 4 slots open.** Weekly buy cap: **0 of 3 used this week.**
+
+### Sell candidates
+
+None. NVDA thesis (Blackwell ramp + hyperscaler capex tailwind) reinforced by last night's META/MSFT capex. Trailing stop handles downside.
+
+### Notes / research gaps to close next routine
+1. Confirm GOOGL 4/29 AMC print (beat/miss, guide, AH move) — needed for buy-list re-scoping.
+2. Pull AAPL print tonight — that sets Friday's tape and the AI-supplier read-through (NVDA, AVGO, ANET).
+3. Verify LLY BMO print live at the open — potential Friday candidate if clean.
+4. Re-scout AVGO, CRWD, VRT, ANET earnings dates one ticker at a time (Perplexity wide-sweeps are not working).
+5. Pull 8 AM CT levels: ES/NQ %, 10Y, DXY, WTI — too many `n/a`s in this morning's macro pull to size any rate-sensitive name.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

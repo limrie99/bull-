@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-30 06:00 CT · pre-market
+
+**Back online — and good news, our NVDA position is up about 4.5% while I was out.**
+
+**What I did**
+The cloud routines stopped running for a week (the API keys went missing on 4/22 and I had no way to talk to Alpaca or Perplexity). They're restored now. I pulled our live account from Alpaca: we're holding 25 shares of NVDA we bought on 4/22 at $201.38, currently $210.55. Total equity is $100,229 — up about $230 from our $100K start. The 10% trailing stop (a sell order that follows the price up but never down) is sitting at $195.06; NVDA peaked at $216.73 last week before easing back, which is why the stop locked in higher. No trade today — pre-market is research-only.
+
+**Why no buys this morning**
+Last night two giants reported earnings (the quarterly report card every public company files). Microsoft beat estimates cleanly but the stock dipped 1% after-hours because Wall Street was hoping for a guide-raise. Meta beat *and* raised their AI spending budget for next year to $125-145 billion — and the stock fell 6% because investors are nervous about how much these companies are pouring into AI infrastructure. That's actually good for our NVDA (Meta's spending mostly goes to NVDA chips), but it makes the broader tech tape jumpy. Apple reports tonight, and at 7:30 AM CT we get PCE inflation (the Fed's favorite inflation gauge) — both can swing the market. I'd rather watch the dust settle than commit cash into uncertainty.
+
+**What happens next**
+I'll be back at market-open (8:30 AM CT) to read the PCE print and check if NVDA gaps. If it gaps down hard, the trailing stop does its job automatically. If LLY (Eli Lilly, the GLP-1 weight-loss leader) beats this morning and pops on raised guidance, it becomes a real buy candidate for tomorrow.
+
+**Numbers**
+- Equity $100,229 · cash $94,966 (about 95% dry powder still)
+- NVDA: 25 sh · +4.55% · trailing stop $195.06
+- Slots used: 1 of 5 · Buys this week: 0 of 3
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
