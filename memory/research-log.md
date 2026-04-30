@@ -27,6 +27,33 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-30 12:00 CT — midday
+
+### Market context
+SPY $715.37, +0.53% on the day (vs. yesterday's $711.59 close). Tape constructive. No fresh macro shock surfaced in the position news check; NVDA dragging the AI complex without a clear catalyst.
+
+### Portfolio watch
+- **NVDA (25 sh @ $201.38, current $200.22):** −0.58% from entry, but **−4.33% intraday** (vs. lastday $209.25). Trailing stop is already active at **$195.057** (trail 10%, hwm $216.73, GTC) — placed 4/27 after position previously broke +5%.
+  - Perplexity check: no specific news, analyst action, or sector catalyst explains the 4.3% pullback today. Reads as profit-taking / technical from the recent rally; thesis (AI-infra Blackwell ramp, 5/20 AMC earnings ~14 trading days out) intact.
+  - No action: not at −7% from entry, trailing stop is correctly placed, daily-loss cap not tripped.
+
+### Risk pass
+- **(a) Position −7% or worse?** No. NVDA −0.58%.
+- **(b) Position +5% or more without trailing stop?** No. NVDA already on a 10% trailing stop from the prior swing high.
+- **(c) Daily loss cap (>3%)?** No. Equity $99,969.50 vs. yesterday's $100,196.75 = **−0.23%**. New buys remain permitted by rule.
+
+### Buy candidates
+None. No high-conviction breaking catalyst at midday — strategy says only deviate from the pre-market plan with a real fresh catalyst, and there isn't one. Cash sitting at $94,965.50 (~95% of equity) — that's intentional given the thin pre-market scout last week and the macro mush.
+
+### Sell candidates
+None. NVDA stays.
+
+### Notes
+- Week-to-date underperforming SPY: portfolio −0.41% vs SPY +0.20% → alpha **−0.61%**. Cash drag explains most of it (95% cash, 5% NVDA, and NVDA is down on the week). Not a thesis problem yet, but a reminder that sitting in cash has a cost when SPY grinds higher.
+- Trade-log gap: the 4/22 NVDA buy and the 4/27 stop swap weren't logged in `trade-log.md` by prior routines. Per "never edit past entries", I am not retroactively backfilling. Going forward, every order this routine executes will be logged at execution time.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
