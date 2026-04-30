@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-30 08:40 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 100161.25,
+  "cash": 94965.50,
+  "day_pl": -35.50,
+  "day_pl_pct": -0.04,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 207.77,
+      "pl_pct": 3.17,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-30 08:40 CT",
+      "routine": "market-open",
+      "headline": "Open: no new trades — caught up on memory and confirmed NVDA is in good shape.",
+      "body": "Reconciled stale memory with Alpaca: we own 25 NVDA @ $201.38 (bought 4/22, never written down because the 4/22 routines halted on missing keys). Position +3.17%, 10% trailing stop already in place at $195.06 (swapped from -7% hard stop on 4/27 at +5% profit). No fresh pre-market research for 4/30, so no new buys today — strategy says no entries without a thesis. Equity $100,161 (basically flat). $94,966 cash, 95% dry powder. NVDA earnings 5/20."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

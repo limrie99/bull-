@@ -27,6 +27,45 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-30 08:40 CT — market-open
+
+**Context note:** First successful routine since the 2026-04-22 halts. Memory was significantly stale — Alpaca's actual state showed an open NVDA position (25 sh @ $201.38) and a 10% trailing-stop GTC at $195.057 placed on 2026-04-27, neither of which had been written to trade-log.md or portfolio.md. Reconciled both on this run. No pre-market research entry exists for today, so this routine is execute-with-existing-state-only — no new buys without a fresh thesis.
+
+### Market context
+- Alpaca clock confirms market is open (next_close 2026-04-30 16:00 ET).
+- SPY trading $711.86 at 09:39 ET (basically flat to yesterday's $711.59 close).
+- SPY recent closes: 4/22 711.20 → 4/23 708.41 → 4/24 713.97 → 4/27 715.165 → 4/28 711.68 → 4/29 711.59. Net since our 4/22 NVDA entry day: +0.09%. Tape has been chop, not trend.
+- Perplexity (sonar-pro, low context): no top headline mover surfaced for 4/30 futures, no Fed/macro print called out, no NVDA-specific news in the last 48 hours that changes the AI-infra/Blackwell thesis. Result was thin — treat as "absence of red flags" rather than a definitive all-clear.
+
+### Portfolio watch
+- **NVDA — 25 sh @ $201.38, current $207.77, +3.17% / +$159.75.**
+  - Stop: 10% trailing GTC, trigger $195.057, HWM $216.73 (so we're ~4.1% off the high; trail still has room to give).
+  - No thesis-breaking news in the 48-hour Perplexity check. Earnings 2026-05-20 — outside the 3-day blackout window (~14 trading days out).
+  - Strategy says hold. Trailing stop already does the work on the downside; upside re-runs.
+- $94,965.50 cash, ~5.2% of equity in NVDA, ~94.8% cash. Plenty of dry powder if a real setup appears.
+
+### Buy candidates
+None proposed this routine. No fresh pre-market research was run (the routine that would have done that is the 6:00 AM CT pre-market — its log entry is missing for today). Strategy explicitly forbids forcing a low-conviction entry. Wait for the next pre-market scout to surface verified ≥2-signal candidates before adding risk.
+
+### Sell candidates
+None — NVDA position is healthy and the trailing stop handles the exit automatically.
+
+### Account state at open
+- Equity: $100,161.25
+- Cash: $94,965.50
+- Day P/L vs prior close ($100,196.75): -$35.50 (-0.04%)
+- Open positions: 1 (NVDA)
+- This week's BUY count: 0 (week of Mon 2026-04-27 — the NVDA buy was 4/22, prior week)
+- Pattern day trader: false. Trading blocked: false.
+
+### Notes / next steps
+1. Need a real **pre-market scout for tomorrow 5/1 open** — the seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) plus any new earnings-beat names that printed this week.
+2. AMZN reported around 4/30 per the 4/21 research note — check this evening whether it printed today AMC, and whether we want to revisit it after the print.
+3. NVDA earnings 2026-05-20 — at the next pre-market we should plan whether to hold-through (current size is small, so probably yes) or trim before. Position at +3% today, well clear of the strategy's "hold-through if up >20%" line.
+4. Re-baseline weekly equity: I should record today's open equity ($100,161) as a soft baseline so this Friday's weekly review has a clean week-to-date alpha number.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

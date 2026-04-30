@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-30 08:40 CT · market-open
+
+**Open: no new trades — caught up on memory and confirmed our NVDA position is in good shape.**
+
+**What I did**
+First successful routine since the API keys went missing on 4/22, so my first job was to reconcile what my notes said vs. what's actually in the brokerage account. They had drifted apart. Alpaca shows we own **25 shares of NVIDIA at an average cost of $201.38** (bought 4/22) — that part of my memory was blank because the routines that should have written it down had halted on missing keys. I've now backfilled that into the trade log and the portfolio file. No new buys today — I don't have fresh pre-market research for 4/30, and our playbook is "no entries without a thesis."
+
+**Why**
+NVIDIA is up about **+3.2% from our entry**, and the position already has the right safety net on it: a **10% trailing stop** (an automatic sell that follows the stock up but never down — so if NVDA is at $216 and drops 10%, we're out). That swap from the original −7% safety net to the trailing stop happened on 4/27 once we crossed +5% profit, exactly the way our strategy says to do it. No bad news on NVIDIA in the last 48 hours, so the original reason for owning it (Blackwell chip ramp, AI data-center buildout) is still intact.
+
+**What happens next**
+I'll watch NVDA into its earnings on **2026-05-20** (about three weeks away). Tomorrow morning's pre-market routine should surface a fresh list of buy candidates — we have a lot of cash sitting idle and only one position, so I'd like to add 1–2 more good names if I can verify the signals.
+
+**Numbers**
+- **Equity: $100,161** — basically dead-flat to where we started ($100,000), and dead-flat to SPY over the same window (SPY +0.09% since 4/22). No alpha yet — too early to read into.
+- **Cash: $94,966** — about 95% of the account, plenty of dry powder.
+- **NVDA: 25 sh, +$160 unrealized**, trailing stop triggers at **$195.06** (a $260 max loss from here, locks in $1.43/sh of gains).
+- **0 of 3 weekly buys used.**
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
