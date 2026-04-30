@@ -27,6 +27,51 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-04-30 15:00 CT — market-close
+
+### Market context (post-close 4/30)
+- Tape **risk-on** today: SPY +0.958% (711.59 → 718.41), back near multi-week highs.
+- This is the first routine since secrets were restored. Routines on 4/22 (open + midday) halted on missing keys; the user appears to have manually executed the 4/22 NVDA starter plan during the gap (fill 4/22 10:07 CT, hard stop placed 15:24 CT, trailing stop swapped in 4/27 12:16 CT after position breached +5%). All consistent with strategy; logging late so the audit trail is intact.
+
+### Portfolio watch (close)
+- **NVDA — 25 sh @ $201.38 avg, current $199.80, P/L −$39.50 (−0.78%).**
+  - Today's intraday: −4.52% on the name (lastday $209.25 → close $199.80). Single biggest down-day since entry.
+  - HWM since entry: $216.73 (+7.6%) — trailing stop at $195.057 (10% below HWM, GTC).
+  - Distance to trailing stop: $4.74 (~2.4%) — tight. One more red day of similar size and we're stopped out.
+  - Earnings still on the calendar **2026-05-20 AMC** (~14 trading days out, outside the 3-day blackout). No fresh thesis-breaking news pulled this routine.
+
+### Day P/L reconciliation
+- Account equity (close): $99,960.50
+- Account last_equity (yesterday close): $100,196.75
+- Day P/L: **−$236.25 (−0.236%)** — entirely driven by NVDA giving back $236.25 (long market value $4,995, intraday P/L −$236.25 per Alpaca).
+- Cash unchanged at $94,965.50 (no trades today).
+
+### Benchmark
+- SPY day: 711.59 → 718.41 = **+0.958%**
+- **Alpha day: −1.194%** (us −0.236% − SPY +0.958%)
+- Week (Fri 4/24 close → today): portfolio −0.211%, SPY +0.622%, **alpha week −0.833%**
+- We are **behind** SPY week-to-date by ~83 bps. Concentration risk visible: 1 position (~5% of equity) is moving the entire P/L because the rest is cash.
+
+### Trades today
+None.
+
+### Day summary
+**What worked**
+- The earlier (pre-halt) decision to size the NVDA entry small (~5% starter, not 15–20% high-conviction) is paying off today — a −4.5% NVDA day only cost the book −0.24%.
+- Trailing stop is correctly armed and in place (per strategy: switch from −7% hard to 10% trail at +5%). Risk is automated.
+
+**What didn't**
+- The portfolio is too cash-heavy (~95%) to keep up on a +0.96% SPY tape — we earned nothing on $95K while NVDA gave back. That's the cost of two weeks of halted routines plus a single starter that hasn't been built into a full position.
+- No second name entered after the 4/22 NVDA starter. Strategy allows up to 5 positions; running with 1 means we eat full single-name volatility into a cash drag.
+
+**Open questions for tomorrow (Fri 5/1 pre-market / open)**
+1. Why did NVDA drop −4.5% today on a +0.96% SPY day? Single-name news (analyst cut? China headline? AI-cap-ex worry?) or just a profit-take after the +7.6% pop into the 4/27 high? Pull Perplexity on NVDA news for 4/29–4/30 first thing.
+2. With trailing stop only ~2.4% away, do we (a) let it ride into the 5/20 print (high-conviction hold), (b) tighten to a manual exit if it bounces back to flat, or (c) trim half on any rebound? Default is let it ride — the 10% trail is the plan — but flag if we get a thesis-break headline.
+3. Pre-market scout for Friday 5/1: are AMZN (4/30 AMC print just landed), MSFT, GOOGL, META post-print setups? AMZN was the explicit "revisit post-print May 1" name from the 4/21 scout. Verify the print, then consider a measured starter to cut single-name reliance on NVDA.
+4. Week-to-date alpha is −83 bps. Friday is the last trading day of the week; weekly review will happen at Friday close. We need either (a) a meaningful NVDA bounce or (b) a constructive AMZN setup to narrow the gap, but **do not force a trade just to chase alpha** — that's the v1 lesson we paid for.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
