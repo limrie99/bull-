@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-30 06:05 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 100229.25,
+  "cash": 94965.50,
+  "day_pl": 32.50,
+  "day_pl_pct": 0.03,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 210.55,
+      "pl_pct": 4.55,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-30 06:05 CT",
+      "routine": "pre-market",
+      "headline": "Back online · NVDA +4.55% · no trades pre-PCE / pre-AAPL",
+      "body": "Cloud routines resumed after 7-day halt. NVDA position recovered from Alpaca: 25 sh @ $201.38, now $210.55, 10% trailing stop $195.06 (HWM $216.73). MSFT beat clean (-1.1% AH), META beat + raised FY26 capex to $125-145B (-6% AH) — bullish for NVDA GPU demand but tech tape is jumpy. AAPL prints tonight; PCE/GDP/claims at 7:30 AM CT. No buys today; LLY BMO print is the candidate to watch for tomorrow."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
