@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-04-30 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 99969.50,
+  "cash": 94965.50,
+  "day_pl": -227.25,
+  "day_pl_pct": -0.23,
+  "week_pl_pct": -0.41,
+  "spy_week_pct": 0.20,
+  "alpha_week_pct": -0.61,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 200.22,
+      "pl_pct": -0.58,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-04-30 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady — Nvidia is taking a breather, no changes needed.",
+      "body": "NVDA is down ~4.3% intraday but only -0.58% from our entry. 10% trailing stop already active at $195.06 (placed 4/27 after the run to $216.73 hwm). Perplexity found no specific catalyst — looks like profit-taking. Thesis intact (AI-infra, 5/20 earnings). Equity $99,969.50, day -0.23%. SPY +0.53% today. No new buys — no fresh catalyst justifies deviating from the pre-market plan."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

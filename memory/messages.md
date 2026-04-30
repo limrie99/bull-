@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-04-30 12:00 CT · midday
+
+**Midday: steady — Nvidia is taking a breather, no changes needed.**
+
+**What I did**
+Checked the account, pulled current prices, ran through the risk checks. No trades, no stop changes. We still hold our one position — 25 shares of Nvidia (NVDA) — and our 10% trailing stop is doing its job in the background.
+
+**Why**
+Nvidia is down about 4.3% today, which looks scary on the dashboard, but I want to put it in context. From our actual buy price of $201.38, we're only down about 0.6% — basically flat. The stock had run up to $216.73 earlier this month, which is why I'd already swapped the original "hard stop" (a fixed sell trigger 7% below where we bought) for a "trailing stop" — that's a smarter sell trigger that follows the stock up and locks in gains as it rises. Right now that trailing stop sits at $195.06, so even if Nvidia keeps sliding, our downside is capped. I checked the news with Perplexity — there's no specific bad headline today, just profit-taking after a strong run. Our reasoning for owning it (AI chips, earnings on May 20) is unchanged.
+
+**What happens next**
+I'm watching for the trailing stop to fire (it would automatically sell us out near $195) or for the trend to turn back up. No action until either of those happens, or until earnings approach.
+
+**Numbers I care about**
+- Equity: $99,969.50 (down about $227 today, -0.23%) — the broader market (SPY) is up +0.53%, so we're trailing it by ~0.76% today, mostly because we're 95% in cash.
+- Cash: $94,965.50 — plenty of dry powder to deploy when a high-conviction setup shows up.
+- NVDA stop: $195.06 (auto-sell if it drops there).
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
