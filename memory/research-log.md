@@ -27,6 +27,44 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-01 08:45 CT — market-open
+
+### Memory-gap reconciliation
+Last research-log entry was 2026-04-22 12:00 CT (halt). Memory was silent from then through this morning. Alpaca order history filled in the gap:
+- **2026-04-22 10:07 CT:** NVDA buy filled, 25 @ $201.38 (per the 4/21 19:00 plan).
+- **2026-04-23:** GTC −7% hard stop placed at $187.28.
+- **2026-04-27:** Hard stop canceled and replaced with 10% trailing stop (GTC). HWM has run to **$216.73**, meaning NVDA reached at least +7.6% above entry before pulling back. Current trailing stop: **$195.057**.
+Backfilled into trade-log.md and portfolio.md this routine.
+
+### Market context
+Market open confirmed via /v2/clock (is_open=true). Friday 2026-05-01.
+- **SPY:** $722.36 spot (vs. 4/30 close $718.66, +0.51% intraday early).
+- **SPY week-to-date** (since 4/24 close $713.94): +1.18%.
+- No fresh Perplexity scan this routine — open routine is for executing the pre-market plan, and there is no 5/1 pre-market entry to execute. Will defer broader macro/news pull to the next pre-market.
+
+### Portfolio watch
+- **NVDA** 25 @ $201.38 entry, now $201.92 (+0.27% from entry). Trailing stop $195.057 is intact and below current price. HWM $216.73 means we caught the ramp but have given back most of it on the recent pullback (NVDA from $216.73 → $201.92 ≈ −6.8% from peak; trailing stop now ~$3 below current price).
+- **No thesis-break news pulled this routine** — will check at midday and at close. Note: NVDA earnings still scheduled 2026-05-20, ~13 trading days out. Strategy says no new opens in 3-day blackout, but holding a starter through the print is fine if thesis intact.
+- **Position size:** $5,042 / $100,010 = 5.0% of portfolio. Well under 20% cap. Strategy allowed up to 15–20% on a high-conviction name; this is a starter, deliberately small.
+
+### Buy candidates (this routine)
+**None acted on.** No fresh pre-market research entry exists for 2026-05-01. Per CLAUDE.md, the open routine "executes the plan from the pre-market research log." With no plan, the right move is no new entry — placing a blind buy at the open would violate the spirit of the strategy ("don't force mediocre entries"). This week's BUY count: 0 of 3, so capacity exists for next week's pre-market to use.
+
+### Sell candidates
+**None.** NVDA stop is intact and price is above trailing stop. No catalyst-break news identified.
+
+### Actions taken
+- Backfilled NVDA buy and stop history into trade-log.md.
+- Refreshed portfolio.md from Alpaca live state.
+- No orders placed.
+
+### Notes / what next routine should do
+1. Tonight's pre-market routine: full scout. Build a real watchlist again — strategy seeded NVDA / AVGO / GOOGL / MSFT / PLTR / CRWD / PANW / BE / LLY / NOW. We've used NVDA. Need fresh earnings calendar (5/4 week), MSFT/GOOGL post-earnings reads (their late-April prints are done now), PLTR's 5/4 print risk, etc.
+2. Reconcile what NVDA actually did during the gap — it ran to $216.73, pulled back to ~$202. A weekly review of why we didn't add or trim near the high is warranted.
+3. Monitor NVDA into the 5/20 print: if the position is up >20% by then, take profit per strategy rule.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
