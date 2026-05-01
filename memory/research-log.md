@@ -27,6 +27,61 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-01 16:00 CT — weekly review
+
+### Week metrics (Fri 4/24 close → Fri 5/1 close)
+- Equity: $100,172.25 → $99,924.09 = **-0.25%**
+- SPY (IEX): $713.97 → $720.49 = **+0.91%**
+- **Alpha: -1.16%**
+- Cash: $94,965.50 (~95% of equity)
+- Open positions: NVDA only (25 sh @ $201.38, current $198.32, -1.52%, trailing stop $195.06)
+
+### NVDA price arc this week
+| Date | Close | vs entry |
+|---|---|---|
+| 4/24 Fri | $208.18 | +3.4% |
+| 4/27 Mon | $216.54 (high $216.82) | +7.5% / +7.7% intraday |
+| 4/28 Tue | $213.15 | +5.8% |
+| 4/29 Wed | $209.35 | +4.0% |
+| 4/30 Thu | $199.54 | -0.9% (huge -4.7% day) |
+| 5/1 Fri  | $198.39 | -1.5% |
+
+Round-tripped from +7.7% to -1.5%. Trailing stop at $195.06 held through the 4/30 reversal — by design.
+
+### Trades placed this week
+- **None new.** Zero buys, zero sells.
+- One stop-management action: 4/27 12:16 CT, canceled hard stop $187.28, placed 10% trailing stop GTC. Triggered automatically because NVDA crossed +5% profit (per strategy).
+
+### Routine activity audit
+- `research-log.md` last entry before this one was 2026-04-22 12:00 CT (halted). **Five trading days with no scout/midday/close entries.** Either the scheduler did not run, or routines ran but did not log.
+- `messages.md` shows the same gap — last user-facing message before this one was 4/22 12:00 CT.
+- Trades show real activity (4/22 buy, 4/27 stop rotation), so SOME process executed against the account, but it was not Bull's routines as logged. Likely user-driven or unlogged.
+
+### What worked
+- Trailing-stop rotation rule (cancel hard stop, place 10% trailing at +5% profit) executed exactly as specified.
+- The 10% trailing buffer absorbed the 4/30 NVDA -4.7% reversal without triggering — proving the v1 lesson "10% trailing > 2% trailing".
+- Position sizing (5% starter) limited downside damage to ~$77.
+
+### What didn't
+- **Cash drag.** SPY rallied +0.91% on the week; we owned ~5% of NVDA and ~95% cash, so we earned almost nothing on the broader move. Strategy says 10–20% cash buffer = 80–90% deployed; we're at 5% deployed, a 16x violation of the spirit of the rule.
+- **No follow-on buys.** The 4/21 plan was "starter NVDA, then re-scout and add on confirmation." NVDA confirmed (closed +7.5% on Mon) and we did NOT add. The rotation to trailing stop is good defense but not offense.
+- **No new ideas sourced all week.** Five trading days of zero pre-market scouts means zero new candidates in the pipeline.
+
+### Pattern check
+- First weekly review — no historical pattern data yet. Baseline for future comparison.
+- Tested against v1 learnings: "concentration > diversification" — we are violating this in the cash direction (over-concentrated in cash). Spirit of the rule: deploy capital with conviction. We did not.
+
+### Strategy decisions
+- **No rule edits.** One week, no rule violation by act, only by omission. Three weeks of the same pattern = signal. One week = noise.
+- Operational priority for next week (not codified in strategy.md): get the scheduler running and source 1–2 new candidates. Target deploying a second position if 2-signal bar is cleared.
+
+### Open questions / gaps for next routine
+1. Why did Mon 4/27, Tue 4/28, Wed 4/29, Thu 4/30 routines not log? Harness or scheduler issue. Flag to user.
+2. NVDA 5/20 earnings is now 13 trading days out — entering the planning window. Decide by 5/14 whether to hold through, trim, or close pre-print.
+3. Watchlist for next pre-market: NVDA (existing), AVGO, GOOGL (earnings 4/30 already passed — need fresh fundamentals), MSFT (post-earnings 4/30), CRWD, PANW, LLY. Pull verified earnings dates first.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
