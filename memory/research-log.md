@@ -27,6 +27,51 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-01 12:00 CT — midday
+
+### Account / portfolio snapshot (Alpaca, live)
+- Equity: **$99,947.75** | Cash: **$94,965.50** | Long mkt val: **$4,982.25**
+- Last equity (yesterday close): $99,954.75 → **day P/L −$7.00 (−0.007%)** — basically flat. Daily-loss cap (>3%) NOT triggered.
+- Daytrade count: 0. PDT: false. No blocks.
+- One open position (NVDA). One open order (NVDA trailing stop).
+
+### Portfolio watch
+- **NVDA** — 25 sh @ $201.38 avg, current **$199.35**, P/L **−$50.75 (−1.01%)**, mkt val $4,983.75 (~5.0% of portfolio).
+  - Trailing stop: 10% trail, **HWM $216.73**, current trigger **$195.057**, GTC (order d42471e7).
+  - Position has been off its peak since the trailing stop was set on 4/27 — HWM ($216.73) implies NVDA peaked ~+7.6% from entry, has since pulled back to roughly entry. No strategy trigger here: thesis intact, stop is doing its job.
+  - **Not down −7% from entry** → midday Perplexity news-check NOT required per the routine spec. Thesis (AI-infra, 5/20 earnings runway) hasn't materially changed in the absence of new data; skipping the proactive news pull to conserve API calls — will re-evaluate at close.
+  - Earnings: **2026-05-20 AMC** (per pre-market scout) — 14 trading days out, still well outside the 3-day blackout window.
+
+### Risk-management pass (CLAUDE.md midday priority order)
+- (a) Position ≤ −7%? **No.** NVDA −1.01%. Skip news-check + market sell.
+- (b) Position ≥ +5% needs trailing-stop conversion? **Already done** on 4/27 at HWM $216.73. No action.
+- (c) Daily loss cap (>3% intraday)? **No.** Day P/L −0.007%. Buys not blocked on cap grounds.
+
+### Buy candidates
+None proposed. Midday rule: no new buys without a high-conviction breaking catalyst. No tape-moving headline observed in the routine inputs; no fresh Perplexity scout was run (midday is not a research routine, and the daily-loss cap isn't triggered, but there's nothing on the radar that would justify deviating from the pre-market plan and burning weekly buy capacity at midday). Hold the line, save the +1 of 3 weekly-buy slots.
+- Slots remaining this week: **3 of 3** new-buy slots free (no new entries Mon–Thu of this trading week as far as live state shows; the NVDA buy was 4/22, prior week).
+- Position count: **1 of 5** (capacity for 4 more if a setup emerges).
+
+### Sell candidates
+None — NVDA passes all sell-rule checks. Trailing stop will handle exit if the tape rolls.
+
+### Benchmark check
+- SPY trades latest: **$722.21** (live).
+- SPY 4/30 close: $718.41 → **SPY today +0.53%**.
+- Bull today: **−0.007%**. Bull lagging SPY today by **~0.54%**.
+- Since NVDA entry (4/22 close $711.20 → today $722.21): **SPY +1.55%**, Bull equity $99,947.75 vs starting $100,000 = **−0.05%**. **Alpha vs SPY since 4/22: ≈ −1.60%.** Early days but worth marking — sitting 95% in cash means we don't capture a rising tape.
+
+### Notes / housekeeping
+- Backfilled trade-log with two entries reconstructed from Alpaca order history: the 4/22 NVDA buy (order 2b923034, fill $201.38) and the 4/27 hard-stop → trailing-stop conversion (cancel order a3057559, place order d42471e7, HWM $216.73). These were verified from `/v2/orders?status=all` rather than fabricated; they were not logged at the time because the 4/22 and (presumably) subsequent routines halted on missing env vars.
+- The first running of any routine after a long outage should always sanity-check Alpaca history vs. memory before acting — there were 7 trading days of "blind" state before secrets came back.
+
+### Decisions this routine
+- HOLD NVDA (no action).
+- DO NOT place new buys at midday — no breaking catalyst.
+- Re-check at market close.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

@@ -1,17 +1,47 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-01 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 99947.75,
+  "cash": 94965.50,
+  "day_pl": -7.00,
+  "day_pl_pct": -0.01,
   "week_pl_pct": null,
-  "spy_week_pct": null,
+  "spy_week_pct": 1.15,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 199.35,
+      "pl_pct": -1.01,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-27 12:16",
+      "side": "STOP-CONVERT",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.06
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-01 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday check — quiet, holding NVDA, no changes.",
+      "body": "NVDA is −1% from entry, well inside our risk rules. The 10% trailing stop set on 4/27 is doing its job at $195.06. Day flat (−$7). SPY up ~0.5% today, so we're trailing slightly; since NVDA entry on 4/22, alpha vs SPY is roughly −1.6% — early days, but watching. No buys at midday — no breaking catalyst, and cash (~95%) is deliberate while a second clean setup hasn't appeared. Next big watch: NVDA earnings 5/20."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
