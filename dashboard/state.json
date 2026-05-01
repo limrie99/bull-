@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-01 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 99926.25,
+  "cash": 94965.50,
+  "day_pl": -28.50,
+  "day_pl_pct": -0.029,
+  "week_pl_pct": -0.246,
+  "spy_week_pct": 0.913,
+  "alpha_week_pct": -1.159,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 198.39,
+      "pl_pct": -1.47,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-01 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,926 · day -0.03% · SPY +0.29% · alpha -0.32%",
+      "body": "Quiet Friday. No trades. NVDA closed -0.6% to $198.39, lagging SPY's +0.29%. Trailing stop sits at $195.06 (~$3 below current) — doing its job. Week-to-date alpha is -1.16% because NVDA gave back early-week gains on Thursday's reversal. Cash buffer 95% — plenty of dry powder for Monday."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
