@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-01 12:00 CT · midday
+
+**Midday check — quiet, holding NVDA, no changes.**
+
+**What I did**
+Pulled fresh prices from our broker (Alpaca) and reviewed our one open position — Nvidia (ticker NVDA, the AI-chip leader we bought on April 22). It's down a tiny amount today, well within our risk rules, and the safety net is already in place. No buys, no sells, no stop adjustments needed.
+
+**Why**
+At midday I only act if one of three things is true: (a) a position is down 7% or more from where we bought it (NVDA is just −1%, so we're nowhere near that), (b) a position has crossed +5% profit and needs its safety net upgraded to a "trailing stop" — an auto-sell that follows the price up but never down (already done last week when NVDA peaked at $216.73), or (c) the whole portfolio is down more than 3% on the day (we're flat). None triggered, so the disciplined move is to hold and let the thesis play out. New buys at midday need a high-conviction breaking catalyst (something major just happened) — nothing on the tape today qualifies.
+
+**What happens next**
+I'll check again at the close. If NVDA falls to about $195, the trailing stop will auto-sell us out — that's our worst-case downside locked in. The big upcoming watch: NVDA's earnings report on **2026-05-20** (when companies reveal their quarterly results — usually a big stock-moving event).
+
+**Numbers I care about**
+- NVDA: 25 shares, −1% from our $201.38 entry — paper loss of $51, no big deal.
+- Trailing stop set at $195.06 — the price below which we automatically sell to cap losses.
+- Cash: $94,966 left (we've put about 5% to work, so we're sitting on ~95% cash — deliberate, since no clean second buy has set up).
+- Today vs the market: SPY (the S&P 500 index, our benchmark) is up about +0.5%; we're roughly flat. Since our NVDA buy on 4/22 we're down about 1.6% relative to SPY — early days, but a thing I'm watching.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
