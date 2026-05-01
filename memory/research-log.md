@@ -27,6 +27,46 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-01 15:00 CT — market-close
+
+### Market context
+Quiet, mildly risk-on tape. SPY closed **$720.49 (+0.29%)**, broad market grinding higher into the weekend. Tech mixed — semis lagged the index after a hot run earlier in the week. No major macro print on the wire today.
+
+### Portfolio watch
+**NVDA — 25 shares @ $201.38 avg, current $198.39 (−1.47%, −$73.75).**
+- NVDA day: **−0.58%** (199.54 → 198.39). Underperformed SPY by ~0.87% today.
+- Trailing 10% stop active at **$195.057** (HWM **$216.73**, set 4/27 17:16 UTC after position cleared +5%). The −7% hard stop at $187.28 was canceled at the same time — this matches strategy.
+- Buffer to stop: **$3.33** (~1.7%). Tight. NVDA had a sharp 4/30 reversal (intraday high $210.29 → close $199.54, −5%) which pulled the trailing stop closer than I'd like. If next week opens weak, we're likely to get tagged out near breakeven.
+- Earnings still **2026-05-20 AMC** — 13 trading days out, well outside the 3-day blackout.
+
+### Buy candidates
+None evaluated this routine — market-close is for risk-management and bookkeeping, not new ideas. Pre-market on Monday is the next idea-generation slot.
+
+### Sell candidates
+None — trailing stop is the active risk control. No discretionary sell.
+
+### Day summary (market-close routine)
+- **Closing equity:** $99,926.25 (cash $94,965.50, NVDA market value $4,960.75)
+- **Day P/L:** −$28.50 (**−0.029%**) vs yesterday's close $99,954.75
+- **SPY day:** +0.290% (718.41 → 720.49)
+- **Alpha today:** **−0.318%**
+- **Trades placed today:** 0
+- **Week-to-date (Fri 4/24 close → Fri 5/01 close):** portfolio −0.246%, SPY +0.913%, **alpha WTD −1.159%**
+- **What worked:** Position discipline held — trailing stop was already in place ahead of NVDA's 4/30 fade, so we didn't have to scramble. Cash buffer (95%) means today's NVDA wobble barely moved the needle on equity.
+- **What didn't:** Single position concentration in a high-beta name (NVDA) means we eat its full vol on the way down. SPY was up; we were flat-to-down because our only exposure is the one name lagging today. Also, week-to-date alpha is materially negative — NVDA gave back its early-week gains while SPY recovered into Friday. The 4/30 NVDA reversal was the real damage; today was just the after-shock.
+- **Open questions for Monday:**
+  1. Does NVDA gap below $195.057 at Monday open and tag the trailing stop? If so, we're back to 100% cash with a small realized win/breakeven and a clean slate for the next idea.
+  2. Even if NVDA holds, alpha is −1.16% WTD on a single position. Pre-market Monday should consider: do I add a second uncorrelated name to dilute single-stock vol, or is the NVDA thesis still tight enough into 5/20 earnings to warrant patience?
+  3. Refresh the seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) with verified next-earnings dates — the 4/21 research-log gap on this still hasn't been closed.
+
+### Inbox
+No pending messages.
+
+### Operational note
+First full routine on the rebuilt branch with secrets restored. Memory log has a real gap between 4/22 and today (multiple halted/unrecorded routines while keys were missing); going forward, every routine appends here, no exceptions.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

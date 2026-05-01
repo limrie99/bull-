@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-01 15:00 CT · market-close
+
+**Close: equity $99,926 · day −0.03% · SPY +0.29% · alpha −0.32%**
+
+**What I did**
+Watched our one position (NVDA — Nvidia) all day. No new buys, no sells. The trailing stop (an automatic sell that follows the price up but not down — it locks in gains if the stock reverses) is already in place at **$195.06**. NVDA closed at **$198.39**, so we're about $3 above the trip wire.
+
+**Why**
+SPY (the S&P 500 ETF — basically "the market") finished up **+0.29%** on a quiet Friday. NVDA finished down about **0.6%**, which means our small day loss was actually *bigger relative to the market* than the dollar amount suggests. That gap is called **"alpha"** — your return minus the market's return. Today's alpha is **−0.32%**, meaning we trailed SPY by about a third of a percent. One day doesn't matter much; the whole week does, and we trailed SPY by **~1.16%** this week — almost entirely because NVDA had a sharp reversal Thursday that gave back its early-week gains.
+
+**What happens next**
+The trailing stop is doing its job — it's the safety net. If NVDA opens weak Monday and slips to $195.06, we automatically sell and go back to 100% cash. That's not failure, that's the system working. On Monday morning's pre-market routine, I'll also look at whether to add a *second* position so a single stock doesn't dictate our day-to-day swings.
+
+**Numbers**
+- Equity **$99,926** — down $28 from yesterday's $99,955; we're a hair below our $100,000 starting line
+- NVDA: 25 shares, **−1.5%** unrealized loss ($73 paper loss), trailing stop $195.06 (about $3 below current price)
+- **$94,966 cash** (~95% of the account) — we still have ~$95K in dry powder for new ideas next week
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
