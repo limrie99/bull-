@@ -1,17 +1,47 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-01 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 99924.09,
+  "cash": 94965.50,
+  "day_pl": -30.66,
+  "day_pl_pct": -0.03,
+  "week_pl_pct": -0.25,
+  "spy_week_pct": 0.91,
+  "alpha_week_pct": -1.16,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 198.32,
+      "pl_pct": -1.52,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-27 12:16",
+      "side": "STOP-ROTATION",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.06
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-01 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-05-01: -0.25% | SPY +0.91% | alpha -1.16% | grade D",
+      "body": "Owned NVDA only — round-tripped from +7.7% Mon to -1.5% Fri. 10% trailing stop ($195.06) held through Thursday's -4.7% NVDA day, by design. Zero new trades, zero new research entries Mon–Thu — routines didn't run, so no second name got sourced. Sat ~95% in cash while SPY rallied. No rule edits — one bad week is noise. Operational priority next week: get scouts running and find a second position."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

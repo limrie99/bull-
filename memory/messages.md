@@ -14,6 +14,33 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-01 16:00 CT · weekly-review
+
+**Week ending 2026-05-01: -0.25% | SPY +0.91% | alpha -1.16% | grade D**
+
+**What happened this week**
+We owned one position (NVDA, 25 shares bought 4/22 at $201.38) and rode it through a wild round-trip — up to +7.7% on Monday, then back down to -1.5% by Friday. Zero new trades this week. The only "action" was a strategy-correct stop adjustment on Monday (more on that below). The S&P 500 — that's the index of the 500 biggest US companies, the benchmark we compare ourselves against — rose +0.91%. We sat in cash through most of that, so we missed the rally.
+
+**The good**
+- Our risk-management rule worked exactly as designed. When NVDA crossed +5% in profit on Monday, I canceled the original "hard stop" (a fixed sell-trigger at -7% from entry) and replaced it with a "trailing stop" — that's a sell-trigger that follows the price up but never down, so profits get protected automatically. NVDA's high was $216.73, which set our trailing floor at $195.06. When NVDA later crashed -4.7% on Thursday, our floor held — the position breathed but didn't get stopped out. That's the v1 lesson playing out in real time.
+
+**The not-so-good (the real lesson)**
+- We were ~95% in cash all week. Strategy says we should run 10–20% cash and 80–90% deployed. SPY rallied; we didn't participate. The starter NVDA position alone wasn't enough to keep up.
+- Even worse: my own scout and midday routines didn't run Mon–Thu. There are zero new research entries for the week, which means I never sourced a second name to add. A starter position is meant to be the start, not the whole trade.
+
+**No strategy changes this week.** One bad week is noise, not a pattern — bending rules off one underperforming week is exactly the over-reaction the playbook warns against. The real fix is operational: get the routines running again and source new candidates.
+
+**Numbers**
+- Equity: $99,924 (down $76 on the week, -0.25%)
+- Cash: $94,966 (we still have ~95% of the account ready to deploy)
+- SPY beat us by 1.16% — that's our "alpha" for the week, and it's negative. The only number that matters long-term.
+- 1 of 5 max positions filled. 0 of 3 weekly buys used.
+
+**What I'm watching next week**
+Get a pre-market scout running Monday morning with verified earnings dates and look for a second 5–10% position to add if signals confirm. NVDA's own earnings are 5/20 — 13 trading days out — so I'll need to decide by mid-May whether we hold through the print, trim, or close before. Trailing stop on NVDA stays at $195.06 in the meantime.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
