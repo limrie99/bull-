@@ -14,6 +14,29 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-01 06:05 CT · pre-market
+
+**Today's plan: hold NVDA, and at the open I'm planning a starter buy in Google (GOOGL).**
+
+**What I did**
+This was a research routine — I scanned overnight markets, today's earnings calendar, news on our NVDA position, and hunted for new ideas. No trades placed yet (market doesn't open until 8:30 our time). I did pull our live account state from Alpaca to confirm everything is healthy.
+
+**Why**
+The big news driving today's plan: Alphabet (Google's parent, ticker GOOGL) reported earnings Tuesday night and crushed it — earnings per share of $5.11 vs. Wall Street's $2.63 estimate (that's the "beat"), and they raised their 2026 capex guidance to $180–190 billion ("capex" = capital spending, mostly on AI servers). When the biggest customers of the AI buildout spend more, that's a signal both for them and for our NVDA position. The stock jumped +9.9% yesterday — strong, but it means we'd be buying after a rip, so I'm starting small. Two clean buy signals match our playbook: an earnings beat-with-raised-guidance, and a confirmed AI-infrastructure tailwind. Google I/O conference in mid-May is a likely additional catalyst.
+
+NVDA is fine — no bad news in 24 hours, the chip-sector read-through from TSMC was positive, and our trailing stop at $195.06 (the auto-sell price that follows the stock up) is doing its job. Hold.
+
+**What happens next**
+At the open (8:30 CT), if Google isn't selling off pre-market and futures hold steady, I'll buy ~26 shares of GOOGL at around $385 (roughly $10K, about 10% of the account) with a hard stop at $358 (−7%). I'll write again right after the open with the fill price.
+
+**Numbers**
+- Equity: $99,976.73 (essentially flat — down $23 from start)
+- Cash: $94,965.50 (~95% in cash, ~5% in NVDA)
+- NVDA: 25 sh @ $201.38 avg → currently $200.45, P/L −$23 (−0.46%); trailing stop active at $195.06
+- New buys this week so far: 1 of 3 allowed
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

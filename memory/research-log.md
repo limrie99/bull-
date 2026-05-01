@@ -27,6 +27,77 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-01 06:00 CT — pre-market (for 5/1 open)
+
+**Timing:** Routine fired on schedule. Alpaca clock confirms market closed; next_open = 2026-05-01 09:30 ET. Four sub-agents fanned out in parallel — macro, earnings, position-watch (NVDA), opportunity scout. APIs verified live (Alpaca 200, Perplexity 200).
+
+**Account state pulled from Alpaca:**
+- Equity $99,976.73 | Cash $94,965.50 | Long market value $5,011.23
+- Last_equity $99,954.75 → day P/L +$21.98 (+0.022%)
+- Open positions: 1 (NVDA 25 sh @ $201.38 avg, current $200.45, unrealized −0.46%)
+- Open orders: 1 (NVDA trailing-stop, sell, 10% trail, GTC, HWM $216.73, current stop $195.06) — confirms position has been ≥+5% in profit at some point and the trailing-stop conversion already executed.
+- SPY last close (4/30) = $718.41.
+
+### Market context
+**Mixed-leaning-constructive overnight tape; conviction LOW given big macro data gaps.**
+- **ES:** ~6,657.50, **+0.10%** (one source had +0.85% — flagged as conflict).
+- **NQ:** ~24,376.75, **+0.07%**.
+- **YM:** ~46,958, **+0.12%**. **RTY:** n/a.
+- **US 10Y / 2Y yields, DXY:** all `n/a` from this morning's Perplexity pull. Significant gap — can't size rate-sensitive names confidently.
+- **WTI:** $113.70, **+1.15%** overnight. **Brent:** $110.25, +0.44%. **Gold:** $4,669.51, +0.40%. (One feed showed crude later printing −2.81% — direction unstable.)
+- **Asia:** Nikkei +0.03%, Hang Seng **+2.04%** (notable strength). **Europe:** FTSE +0.71%, DAX +0.69% mid-session. Stoxx 600 n/a.
+- **Headline flow:** quiet — no Fed speak surfaced, no fresh Iran/Middle East shock, no confirmed NFP/ISM print today (NFP would be the top risk on a 5/1 Friday — flagging as a research gap). AMZN reported 4/30 AMC but the actual EPS/rev numbers and AH reaction did NOT surface in this morning's pull.
+- **Net:** mildly constructive into the open, but blind on rates/DXY/AMZN print/possible NFP. Treat conviction as low — don't size up.
+
+### Portfolio watch — NVDA (25 sh @ $201.38)
+- Sub-agent verdict: **HOLD**. Thesis intact, no fresh negative catalysts in 24h.
+- TSMC recent print constructive — rev +1.9% QoQ / +25.5% YoY USD, 3nm at 28% of wafer revenue, mgmt flagged strong AI demand. Positive read-through for NVDA.
+- China H200 rule-tightening is a known background overhang (drafting limits on Chinese tech firms buying H200, steering toward domestic). Not a new shock.
+- No analyst upgrades/downgrades or insider Form 4s in the 24h window.
+- Earnings next: 2026-05-20 AMC, ~13 trading days out — outside the 3-day blackout.
+- Trailing stop $195.06 is doing its job; HWM $216.73 means we caught a +7.5% extension that has since faded. Let it breathe.
+
+### Earnings context
+- **5/1 BMO confirmed:** AON, AN, ARES — large/mid-cap but not in our active candidate set. Avoid opening these regardless.
+- **5/1 AMC:** none confirmed mega-cap.
+- **4/30 AMC:** **AMZN** confirmed reported but actual print details not retrieved — important gap; AMZN reaction will set tone for mega-cap tech Friday open.
+- **4/29 AMC (already in tape):** MSFT, GOOGL, META reported.
+- **5/4–5/6 calendar:** unverifiable from this morning's pull — research gap. Verify any candidate's next-earnings date directly via Alpaca corporate-actions before opening.
+
+### Buy candidates
+**Net: ONE viable lead — GOOGL.** All other late-April reporters failed the ≥2-signals test (MSFT narrow beat no raise, META mixed Q2 guide, CAT no explicit raise, TSLA no beat-and-raise, etc.).
+
+#### GOOGL (Alphabet) — $385.30 last (4/30 close $384.99)
+- **Signal #1 (earnings beat + raised guidance):** Reported 4/29 AMC. EPS $5.11 vs $2.63 consensus, revenue $109.9B vs $107.2B, Cloud $20.03B. **Raised 2026 capex guide to $180–190B (from $175–185B); signaled 2027 capex "significantly higher."** Concrete beat-and-raise.
+- **Signal #3 (secular tailwind — AI infra):** The capex raise itself confirms hyperscaler AI-infra build acceleration. Same secular thesis as our NVDA position (which is both a positive read-through for NVDA AND a concentration concern for the book).
+- **Signal #2 (catalyst in 30d):** Google I/O typically mid-May — product/AI announcements likely within the window. Conviction medium until date confirmed.
+- **Signal #6 (uptrend):** Daily closes 4/17 → 4/29 were $341 → $350; **4/30 ripped to $384.99 (+9.9% gap on the print).** Clearly above 50-DMA. Uptrend confirmed; flip side, we'd be buying after a +10% one-day move.
+- Next earnings: ~late July 2026 (typical Q2 cadence; not yet verified via Alpaca corp actions — TODO before order).
+- Conviction: **medium** (3 verified signals, one is the 30-day catalyst with a slightly soft date; offsetting the strong setup is the post-rip entry and the NVDA correlation).
+- **Plan for 5/1 open:** starter tranche ~10% of portfolio = ~$10K, ~26 shares at ~$385 with a hard −7% stop at ~$358.05 (bracket order). Hold off if (a) GOOGL prints down >2% pre-open on news, (b) ES futures dump >0.5% before open, or (c) AMZN print details surface as a clear miss flipping AI-infra sentiment.
+- Sizing rationale: medium-conviction band is 10–15%, but I'm taking the bottom of the band because (i) we're chasing a +10% gap, (ii) NVDA already gives us AI-infra exposure, (iii) macro data gaps reduce confidence. Room to add later if the 5/4 pre-market scan still likes it.
+
+### Names rejected this pass
+- **MSFT** — narrow cloud beat, no raise. 1 signal only.
+- **META** — beat, but mixed Q2 guide. Doesn't clear raised-guidance bar.
+- **CAT** — beat, no explicit FY raise.
+- **TSLA** — no beat-and-raise.
+- **JPM, WFC** — earnings outside 2-week window.
+- **AON, AN, ARES** — reporting today (5/1 blackout).
+- AMZN — earnings was last night; print details unretrieved, can't confirm signals — **defer to next routine** once the dust settles.
+
+### Sell candidates
+- None. NVDA = HOLD per position analyst.
+
+### Notes / research gaps to close next routine
+1. **Pull AMZN 4/30 AMC print headline** — biggest single tape-setter for Friday open.
+2. **Confirm GOOGL next earnings date** via Alpaca corporate actions before placing the buy.
+3. **Verify is today an NFP day?** April NFP usually first Friday of May = 5/1. If yes, that's an 8:30 ET (07:30 CT) data print 1 hour before the open — reschedule any size adds for after the print clears.
+4. **Pull 10Y, 2Y, DXY** — three calls of macro context still missing.
+5. **5/4–5/6 earnings calendar** — needed to clear next week's blackout list.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
