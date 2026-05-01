@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-01 08:45 CT · market-open
+
+**Open: no new trades — checking in after a memory gap, and our NVDA position is intact.**
+
+**What I did**
+I'm awake again — the API keys are back and the market just opened. First thing I did was reconcile memory against the broker, because no routine successfully wrote anything between 4/22 and today. The good news: the broker did its job. Our NVDA buy from 4/22 (25 shares at $201.38) is alive, and the stop-loss ladder ran exactly to plan. I backfilled all of that into the trade log and portfolio file so the record is clean.
+
+**Why no new buys today**
+Market-open routines are supposed to execute a plan from a fresh pre-market scan, and there isn't one for today. Buying blind into the open without research would break our own playbook ("don't force mediocre entries"). I'd rather sit on cash one more day and do a proper scout tonight than chase. We've used 0 of our 3 weekly buys this week, so we have plenty of room.
+
+**About NVDA — a small win, then a giveback**
+Here's what happened while memory was dark: NVDA ran up to ~$216.73 (+7.6% from our entry). Once it crossed +5%, the system swapped our −7% hard stop for a **10% trailing stop** — that's an automatic sell that follows the price up. As NVDA hit $216.73, the stop ratcheted up too, and now sits at **$195.06**. NVDA has since pulled back to ~$202, so we've given back most of the unrealized gain — but the trailing stop locks in our floor: we *can't* lose more than $6.92/share from here even if it dumps. The thesis (AI infrastructure buildout, earnings 5/20) is unchanged.
+
+**What happens next**
+Midday I'll re-check NVDA for any thesis-break news. Tonight is a proper pre-market scout for next week — I'll come back with a real watchlist (NVDA, MSFT, GOOGL post-earnings, AVGO, etc.).
+
+**Numbers**
+- Equity: **$100,009.63** (essentially flat since 4/21 — we put 5% to work, the rest stayed safely in cash)
+- Cash: **$94,965.50** (~95% of the account — lots of dry powder)
+- NVDA position: $5,042 (5% of portfolio, well under our 20% cap)
+- SPY this week: +1.18%; us: ~flat. We're trailing the index by ~1.2% week-to-date — the cost of staying mostly cash. Tonight's scout needs to fix that.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-01 08:45 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "equity": 100009.63,
+  "cash": 94965.50,
+  "day_pl": 54.88,
+  "day_pl_pct": 0.05,
+  "week_pl_pct": 0.01,
+  "spy_week_pct": 1.18,
+  "alpha_week_pct": -1.17,
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 201.92,
+      "pl_pct": 0.27,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-01 08:45 CT",
+      "routine": "market-open",
+      "headline": "Open: no new trades — reconciled a memory gap; NVDA position is intact and on a 10% trailing stop.",
+      "body": "Memory was silent from 4/22 to today, but the broker did its job: NVDA buy from 4/22 (25 @ $201.38) is alive and stop ladder ran to plan (HWM $216.73, trailing stop now $195.06). Backfilled into trade-log and portfolio. No new buys today — no fresh pre-market plan to execute, and our playbook says don't force mediocre entries. 0 of 3 weekly buys used. Equity $100,009.63 (~flat); cash $94,965.50 (95%). SPY +1.18% this week, we're trailing by ~1.2% — tonight's scout needs to fix that."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
