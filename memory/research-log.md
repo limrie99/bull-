@@ -27,6 +27,81 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-04 06:15 CT — pre-market (for 5/4 open)
+
+**Timing note:** First successful research routine after the 4/22 halt sequence. Account state recovered: equity $99,928, cash $94,965.50, one open position (NVDA, 25 sh @ $201.38 from 4/22 fill). APIs verified live (Alpaca 200, Perplexity 200). Four sub-agents fanned out in parallel — macro, earnings, NVDA position-watch, opportunity scout.
+
+**Trade-log gap flagged:** NVDA buy filled 2026-04-22 15:07 UTC @ $201.38 (Alpaca order id confirms) was never written to `trade-log.md` because the 4/22 routines halted on missing secrets. Reconstructing the entry retrospectively in `trade-log.md` for future-Bull's continuity. The trailing stop conversion (orig -7% bracket → 10% trailing, hwm $216.73, current stop $195.057) also happened during the gap and is reconstructed.
+
+### Market context
+
+**Mildly risk-on, light data day, single-name event risk = PLTR AMC.**
+- **ES (Jun'26):** ~7,262.50, **+0.06%** overnight. **NQ:** **+0.85%** overnight. NQ outperformance = AI/semis bid into the cash open.
+- **US 10Y, DXY, WTI/Brent, Asia/Europe levels:** `n/a` from Perplexity tonight — sub-agent flagged data gap. Pull from Alpaca/quote feed at the open before sizing rate-sensitive trades.
+- **Tape backdrop:** S&P 500 reportedly +4.5% since the late-Feb US-Iran strike, Nasdaq leading. Wartime risk premium continues to fade. Q1 2026 S&P 500 blended earnings growth running ~15.1% YoY (Tech ~46%) — earnings the dominant bullish driver.
+- **US data today:** Factory Orders (March) at 10:00 ET — second-tier print, not a tape-mover unless extreme. No confirmed Fed speakers.
+- **Headlines:** Berkshire annual meeting Sat 5/2 — no market-moving items surfaced. Quiet weekend.
+- **Net:** mildly risk-on, but markets near record highs → chase risk is the live tactical concern. Tape is light-data; will be driven by single-name flow today and PLTR AMC tonight.
+
+### Portfolio watch
+
+**NVDA — 25 sh @ $201.38, current $198.50 (-1.43%, -$72). Trailing stop: 10%, hwm $216.73, stop $195.057.**
+- **No material news in the last 72h** (Fri close → Mon AM). No analyst PT changes (Benchmark $250 from 3/31 and Tigress $360 from 3/5 are stale). No Blackwell pre-announce, no fresh China/H20 export-control news, no AMD/AVGO competitive launch.
+- **Sector:** SOXX flat Friday (~$465, -0.16%). AI-semi cohort in wait-and-see mode ahead of NVDA's 5/20 print.
+- **Earnings prep:** 5/20 AMC, 16 trading days out. Outside the 3-day blackout. Whisper / options-implied move not surfaced. Pre-print PT-bump cycle typically starts ~2 weeks out — watch for analyst preview notes this week.
+- **Thesis status:** intact. Recent $216.73 → $198.50 pullback (-8.4% from hwm) reads as positioning/profit-taking, not a fundamentals break.
+- **Risk for today's open:** trailing stop is at $195.057 → only **1.7% cushion** below Friday's close. A gap-down >1.7% on broad SOXX/macro weakness would auto-flush 16 days before earnings. Watch SOXX pre-market and any AMD/AVGO headline pressure. If hit, accept the exit — the trailing stop is doing its job.
+
+### Earnings calendar (2026-05-04)
+
+- **BMO:** No confirmed $10B+ mega-cap prints. Tape will be macro / single-name flow until the AH wave.
+- **AMC:** **PLTR (Palantir)** — confirmed 5:00 PM ET webcast, company IR sourced. Watch: AI-platform commercial growth, government segment guide. **CRITICAL:** earlier research had assumed PLTR was 5/5 — corrected to 5/4. Tonight's print is the AI-software cohort tape-setter into Tuesday (PLTR, AI, SNOW, NOW, MDB).
+- **Friday 5/1 AMC prints:** unconfirmed by Perplexity — flag for the market-open routine to re-check via Alpaca calendar API + a second source.
+- **This week (rest):** unconfirmed by tonight's pull — re-scan needed.
+
+### Buy candidates
+
+Selective scan returned **one high-conviction name** plus several rejected for failing verification. Per strategy ("be selective rather than pad"), not forcing low-conviction picks.
+
+- **CAT (Caterpillar) — Industrials / heavy equipment — ~$890.32.** **Conviction: HIGH.**
+  - **Signals matched:**
+    - **(1) Beat-and-raise on Apr 30:** adj EPS $5.54 vs $4.62 cons (+19.9%), revenue $17.4B vs $16.43B (+5.9% beat, +22% YoY), **raised full-year guidance.**
+    - **(3) Secular tailwind:** onshoring / industrials, AND data-center power demand flowing into CAT's Energy & Transportation segment (engines/turbines for hyperscaler buildout).
+    - **(6) Clear uptrend:** $890.32 vs 50DMA ~$751 (+18.5% above). Gapped up ~9.9% on print (Apr 29 close $810.5 → Apr 30 $890.58) and held into Friday.
+  - **Catalyst:** post-earnings drift + analyst PT-bump cycle still unfolding; data-center read-through is the new bullish narrative for the name.
+  - **Next earnings:** ~Aug 4, 2026 — well outside the 3-day blackout.
+  - **Position-size suggestion:** **15% of portfolio (~$15K, ~17 shares).** High-band; lower end of the high-conviction range because it's a day-after-earnings entry (some giveback risk).
+  - **Entry tactic:** limit near $885–890 at the open, NOT market-on-open chase. Bracket with -7% hard stop at ~$828.
+  - **Risk to thesis:** day-after-earnings buyers can give back 3–5% on broad-tape wobble; macro flip risk-off on Iran/oil headline; CAT historically beta to global growth — watch China/EU industrial PMI for next catalyst.
+
+- **REJECTED:**
+  - **GE Aerospace** — beat Q1 EPS/rev on 4/21 but only **maintained** guidance (no raise → fails signal #1). At $286.53, **below 50DMA ~$307** (fails signal #6). Reject.
+  - **MSFT, GOOGL, META, AMZN, AAPL, LLY, V, MA, AMD, PLTR, CRWD, PANW, NOW, LMT** — Perplexity returned UNCONFIRMED on whether they beat-and-raised in the 4/28–5/2 window. Strategy punishes fabricated data → not proposing names that can't be verified. Re-scan Wed AM with fresher news indexing.
+  - **VRT, ETN, GEV** — could not confirm earnings results / prices / trend status.
+
+**Net for the open:** CAT is the single clean idea. NVDA is the existing risk to manage.
+
+### Sell candidates
+
+None outright. Watch NVDA at the open for trailing-stop trigger ($195.057, only 1.7% cushion). If the stop hits naturally, let it work — do not intervene. Thesis intact, but stop discipline > thesis sentiment.
+
+### Plan for the 5/4 market-open routine
+
+1. **Confirm pre-open futures still constructive.** If ES/NQ flip risk-off (>0.5% drop) or 10Y rips above key threshold, defer CAT entry.
+2. **NVDA:** no action. Trailing stop is in place; let it work. Monitor SOXX pre-open as a tell.
+3. **CAT entry:** if futures hold, place a **limit-buy** for ~17 shares near $890 with a bracket -7% stop at ~$828 (per strategy: hard stop until +5%, then convert to 10% trailing). Target sizing **~15% of portfolio (~$15K)**.
+4. **Buy budget:** 1 of 3 weekly buys would be used; 4 → 3 open slots; cash falls from $94.9K to ~$80K (still well above the 10–20% buffer rule).
+5. **PLTR AMC tonight (5pm ET):** informational — no action, but the result will color Tuesday's open for the AI-software cohort. Note it for the midday and market-close routines.
+
+### Notes / research gaps to close next routine
+
+1. Pull live US 10Y, DXY, WTI/Brent, Asia/Europe close levels at the market-open routine (Perplexity sparse on these tonight).
+2. Verify Friday 5/1 AMC mega-cap print list (Perplexity returned n/a — check Alpaca calendar API).
+3. Verify the rest-of-week earnings calendar (Tue–Fri) before Wednesday's pre-market.
+4. After NVDA's 5/20 print, if held, take profit consideration if up >20% (per strategy rule).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
