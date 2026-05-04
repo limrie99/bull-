@@ -27,6 +27,55 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-04 12:00 CT — midday
+
+### Resume note
+First successful routine since the 4/22 halts. Secrets present, Alpaca + Perplexity both healthy. Reconciling state from Alpaca activity feed since the memory files lag the broker by 12 days.
+
+### Account snapshot (live)
+- Equity: $99,840.96 | Cash: $99,840.96 | Positions: 0 | Open orders: 0
+- last_equity (Friday 5/01 close): $99,926.75 → day P/L -$85.79 (-0.09%)
+- Daily-loss-cap check: -0.09% intraday — well inside the 3% guard. New buys are NOT blocked by the daily cap.
+
+### What actually happened since 4/22 (reconciled from Alpaca activity)
+- **2026-04-22 10:07 CT:** Bought 25 NVDA @ $201.38 = $5,034.50. Bracket OTO with -7% stop @ $187.12. Buy filled clean.
+- **2026-04-22 close:** Attached stop expired (was `time_in_force: day` — the bracket leg defaults to day). Position briefly unprotected overnight. **Process bug — fix in buy template: always GTC the protective stop.**
+- **2026-04-23 03:00 CT:** Replacement -7% stop @ $187.28, GTC.
+- **2026-04-27 12:16 CT:** Position +5%+ in profit (HWM tracking near $216). Cancelled the hard stop, placed 10% trailing stop GTC.
+- **2026-05-04 10:21 CT (today):** Trailing stop fired. HWM $216.73 → trigger $195.057 → filled in 3 partials @ avg $195.0184. P/L -$159.04 (-3.16%). Position closed.
+
+### Why NVDA faded (Perplexity, last 7 days)
+1. **Pre-earnings de-risking** ahead of 5/20 fiscal Q1 FY27 print — investors trimming after the 4/27 ATH near $217 (~8% pullback).
+2. **China revenue overhang** — Q1 guide ($78B) explicitly excludes ~$50B of China DC revenue under current US export rules.
+3. **Hyperscaler custom silicon** — Google + Amazon flagged third-party ASIC/TPU sales in their prints, reviving "are NVIDIA's biggest customers also future competitors?" debate.
+4. **Technical selling** — failed breakout above October 2025 highs; bull-trap pattern called out by sell-side technicians.
+
+### Was the thesis broken?
+**No.** AI-infra capex cycle is intact, Blackwell ramp on track, 5/20 print is still the binary catalyst. The trailing stop locked in a small loss on what looks like normal pre-earnings volatility plus a real-but-not-fatal competition narrative. Mechanical discipline did its job.
+
+### Lessons & rules that earned themselves today
+- **GTC the protective stop, every time.** The 4/22 day-stop expiring at close is exactly the kind of sloppiness that costs money on a gap-down. Add to buy checklist.
+- **The 10% trailing stop did NOT save us a big loss this time** (we exited at -3% of cost, not -10% of HWM in absolute terms — we were only briefly +7%). It worked, but on a position that never really got going. That's fine — the design point is asymmetric: tight enough to bank gains, wide enough to let theses breathe.
+- **Don't fight the calendar.** Strategy already says "no new position within 3 trading days of earnings." With NVDA's print on 5/20, we are 12 trading days out — still inside the window today, but the bar to re-enter NVDA before the print should be very high. Better to wait for post-print clarity.
+
+### Buy candidates — midday
+None proposed. Strategy explicitly forbids new buys at midday absent a high-conviction breaking catalyst, and there isn't one. Cash sits at $99,841 / 0 positions / 0 of 3 weekly buys used. Pre-market routine tomorrow gets a clean slate.
+
+### Sell candidates
+None — no positions.
+
+### Open questions for the next pre-market scout
+1. Re-scan the seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) with explicit next-earnings dates. Avoid anything inside the 3-trading-day pre-earnings blackout.
+2. NVDA re-entry: should we wait for the 5/20 print and re-evaluate then? Default = yes.
+3. PLTR earnings: pre-market scout from 4/21 had PLTR printing **today AMC (5/04)** — verify that did/didn't happen and use the print to inform tomorrow's plan.
+
+### Alpha math
+- SPY 4/22 close $711.21 → 5/04 intraday $718.34 = **+1.00%**
+- Bull 4/22 inception → today midday = **-0.16%**
+- **Alpha vs SPY = -1.16%** through ~12 days. Nine trading days of cash drag plus a -3% NVDA stop-out is the story; the runway to claw back is long, no need to chase.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

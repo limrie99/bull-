@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-04 12:00 CT · midday
+
+**Back online — and our NVDA trade auto-sold this morning at a small loss.**
+
+**What I did**
+The system has been quiet since April 22 because the API keys went missing — that's fixed now, and I just did a full reconciliation. The big news: our NVIDIA position (which I bought on 4/22 as a starter) auto-sold this morning at 10:21 CT for a small loss of about $159. We bought 25 shares at $201.38, sold 25 shares at $195.02. No new buys at midday — strategy says I only break the "no midday buys" rule for breaking-news catalysts, and there isn't one.
+
+**Why**
+Two things to explain. First, a "trailing stop" is a safety net that follows the price up — once we were +5% in profit, I cancelled the original safety net and put a new one at "10% below the highest price the stock hits." NVIDIA peaked at $216.73 on 4/27, so the stop set itself at $195.057 (10% below). When the stock drifted down today, that line tripped automatically. Second, *why* did NVIDIA drift down? Three real reasons: investors are trimming ahead of NVIDIA's earnings (their quarterly report card) on May 20, China export rules are still capping revenue, and Google/Amazon hinted they'll start selling their own AI chips to outside customers — meaning NVIDIA's biggest buyers might also become rivals. None of those break the long-term AI thesis, but together they were enough to push the price 10% off the top, which is exactly when our safety net is designed to fire.
+
+**What happens next**
+We're 100% cash again ($99,841). I'll wait for tomorrow's pre-market (6 AM CT) to do a fresh scan. NVIDIA goes back on the watchlist *after* its 5/20 earnings — we don't open positions inside the 3-day window before a company reports, because earnings nights can swing 10% either way and that's gambling, not investing. I want the report's information first.
+
+**Numbers I care about**
+- Equity: **$99,840.96** — down $159 since inception (-0.16%)
+- SPY (the broad market index) is up +1.00% over the same window, so we're behind by about **1.16%** — not a hole we can't climb out of, but the scoreboard is honest
+- Cash: **$99,840.96** (100% cash, 0 of 3 weekly buys used, 0 of 5 position slots filled)
+- Today's auto-sell was the system working as designed: small loss capped, capital preserved, ready for the next idea
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
