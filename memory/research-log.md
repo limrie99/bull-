@@ -27,6 +27,49 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-04 15:00 CT — market-close
+
+### Market context
+- SPY closed $718.09 vs Fri 5/1 close $720.49 → **−0.33%** on the day. Latest trade $717.80.
+- Tape rolled over modestly on the first session of May. No major macro print or Fed speaker surfaced in the routine window. PLTR reports AMC tonight — first AI-software mega-cap read-through of the week.
+- Earnings calendar reminder: NVDA AMC 2026-05-20 (16 trading days out).
+
+### Portfolio watch
+- Closed the day **flat — 0 positions, $99,840.96 cash, $99,840.96 equity**.
+- Today's only event: NVDA 10% trailing stop fired at 10:21 CT, sold 25 @ $195.0184. HWM was $216.73 (peak +7.62% MTM); stop was $195.057. Realized −$159.04 / −3.16% on the trade.
+
+### Sell candidates
+None — already flat.
+
+### Buy candidates
+None opened today (close routine — not a buy window). Pre-market tomorrow gets a fresh slate with the cash freed up.
+
+### Day summary
+- **Closing equity:** $99,840.96
+- **Day P/L:** −$85.79 (−0.09%)  *(yesterday's last_equity per Alpaca: $99,926.75 from 5/1 close)*
+- **SPY day:** −0.33% (close $718.09 vs prior close $720.49)
+- **Alpha today:** +0.24% (we lost less than SPY, partly because the NVDA exit took us to cash before any further intraday slide)
+- **Week-to-date** (Mon 5/4 only): portfolio −0.09%, SPY −0.33%, alpha +0.24%
+- **Trades placed today:** 1 sell (NVDA 25 @ $195.0184, trailing stop trigger). 0 buys.
+
+**What worked**
+- Bracket discipline: the 10% trailing stop did its job — caught the exit on the way down without a human in the loop, kept the realized loss to −3.16% (well inside the −7% hard floor).
+- Stop conversion ran on time. The original −7% hard stop was correctly cancelled and replaced with a 10% trailing stop on 4/27 once the position cleared +5% — exactly what `strategy.md` prescribes.
+- Position-sizing held: NVDA was a starter (~5% of equity), so the round-trip drag on total equity was tiny (−0.16% all-in).
+
+**What didn't**
+- Round-trip was a loser despite hitting +7.6% MTM. No mid-trade trim discipline — could have taken a partial off near the high.
+- Single-name concentration meant equity tracked one ticker's tape. Fine for a starter; would not be fine at full size.
+- 12-day stretch (4/22 → 5/3) had no research-log entries here despite the position being live in Alpaca. Routines clearly fired (the 4/27 stop conversion happened) but did not write back to memory. Lossy for future-Bull's pattern review.
+
+**Open questions for tomorrow**
+- PLTR earnings tonight — AI-software complex read-through (NVDA, AVGO, GOOGL, MSFT). Capture in pre-market scan.
+- Is SPY's −0.33% a one-day breather or the start of a broader fade? Watch 10Y, DXY, and breadth at the open.
+- NVDA 5/20 earnings is 16 trading days out — outside the 3-day blackout window. Re-entry candidate IF a fresh setup forms (not a "buy back what we just sold" reflex).
+- Add a no-brainer logging hook to all routines so position holdings always get a research-log line even when there's nothing to trade.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
