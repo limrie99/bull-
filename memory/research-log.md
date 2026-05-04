@@ -27,6 +27,46 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-04 08:52 CT — market-open
+
+### Reconciliation note (memory was out of sync)
+The 4/22 market-open and midday routines halted on missing env vars (logged below). Memory files (`portfolio.md`, `trade-log.md`, `messages.md`, `dashboard/state.json`) were never updated again, so they showed $100K cash / 0 positions. Reality from the Alpaca order/position pull this morning:
+
+- **2026-04-22 10:07 CT:** OTO bracket buy filled — 25 NVDA @ $201.38 ($5,034.50 cost). Bracket stop leg (DAY TIF) expired same day at 15:00 CT.
+- **2026-04-23 03:00 CT:** New GTC stop placed @ $187.28 (-7% from entry).
+- **2026-04-27 12:16 CT:** -7% stop canceled and replaced with 10% trailing stop. Trail HWM = $216.73 ⇒ NVDA printed +7.6% from entry at some point between 4/22 and 4/27, triggering the strategy rule "once +5% in profit, swap hard stop for 10% trailing." Some routine between 4/22 and 4/27 actually executed the buy and managed the stops, just without writing to memory.
+- **Today 2026-05-04 09:52 ET:** NVDA $199.46, position -0.95% on cost. Trailing-stop trigger sits at $195.057 (= 0.90 × HWM $216.73). The position has given back its gains — back to roughly flat — but the trailing stop is still working as designed; below ~$195 it auto-sells.
+
+Trade-log entry has been backfilled with full provenance. No prior entries can be recovered for the stop adjustments themselves (only present as Alpaca order events, which I cited in the trade-log notes).
+
+### Market context
+Market is open (Alpaca clock confirmed `is_open: true`, next_close 16:00 ET). No fresh pre-market scout was run for today's open — the most recent pre-market entry in this log is from 2026-04-21 (~9 trading days stale). Per CLAUDE.md ("don't blindly execute last night's plan on stale context") I am NOT opening any new positions on stale research.
+
+Spot read at routine start (no Perplexity call this routine — saving for the next pre-market):
+- **SPY:** $720.66 (mid). Tape direction not assessed in detail.
+- **NVDA:** $199.46.
+
+### Portfolio watch
+- **NVDA (25 sh, -0.95%, ~5% of equity):** Trailing stop @ $195.06 GTC is the only open order. Earnings 2026-05-20 AMC = 12 trading days out — still safely outside the 3-day earnings blackout. Position is not up >20%, so no take-profit-into-print rule triggers. No catalyst for action this routine. Watching: any move toward $195.06 (auto-exit) or any move toward HWM $216+ (would tighten the trailing stop further automatically).
+
+### Buy candidates
+None — no fresh research, see market context. Will run a proper opportunity scout in tonight's pre-market routine for tomorrow's open. Also note PLTR was scheduled to print AMC today (per 4/21 research) — would re-confirm before any action; we do not own PLTR.
+
+### Sell candidates
+None — NVDA thesis intact, position above stop, earnings clear.
+
+### Actions taken this routine
+- No new orders placed.
+- Reconciled memory files (trade-log, portfolio, messages, dashboard) to actual Alpaca state.
+- 0 of 3 weekly buys used (this is week starting Mon 5/04; trade-log shows last buy was 4/22 — outside this week).
+
+### Notes / research gaps to close next routine
+1. Run a proper opportunity scout (sub-agents) tonight or tomorrow morning — watchlist still NVDA / AVGO / GOOGL / MSFT / PLTR / CRWD / PANW / BE / LLY / NOW.
+2. Track SPY benchmark from today's $720.66 baseline so we can resume alpha tracking by Friday.
+3. Investigate why the routine that actually executed the NVDA buy on 4/22 didn't write to memory — likely the same env-var gap was patched mid-day but the operator's routine ran a non-Bull manual flow. Worth a system-level note in the next weekly review.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
