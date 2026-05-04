@@ -1,17 +1,40 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-04 08:52 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 99953.37,
+  "cash": 94965.50,
+  "day_pl": 26.62,
+  "day_pl_pct": 0.03,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
-  "recent_trades": [],
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "qty": 25,
+      "avg_cost": 201.38,
+      "current": 199.46,
+      "pl_pct": -0.95,
+      "stop": 195.06
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-04 08:52 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — found a missed NVDA position from 4/22 and got our books back in sync.",
+      "body": "Memory said $100K cash / 0 positions; Alpaca said we own 25 NVDA from 4/22 @ $201.38. Reconciled. NVDA -0.95% on cost ($199.46), 10% trailing stop active at $195.06 (was triggered after NVDA ran to $216.73 / +7.6%). Earnings 2026-05-20 — outside our 3-day blackout. No fresh research today, so no new buys; 0 of 3 weekly buys used. Cash ~$95K (95% of account)."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
