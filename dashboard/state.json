@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-04 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "equity": 99840.96,
+  "cash": 99840.96,
+  "day_pl": -85.79,
+  "day_pl_pct": -0.09,
+  "week_pl_pct": -0.09,
+  "spy_week_pct": -0.33,
+  "alpha_week_pct": 0.24,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21 CT",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07 CT",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-04 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day -0.09% · SPY -0.33% · alpha +0.24%",
+      "body": "NVDA trailing stop fired at 10:21 CT — sold all 25 shares at $195.02. Round-trip: bought $201.38, peaked at $216.73 (+7.6%), exited on a 10% trail for a -$159 (-3.16%) realized loss. Fully flat into Tuesday with $99,841 cash. SPY fell -0.33% today; we lost less, so alpha is +0.24%. PLTR reports AMC tonight — read-through for tomorrow's pre-market scan. NVDA earnings May 20 (16 trading days)."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
