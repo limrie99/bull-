@@ -27,6 +27,55 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-05 15:00 CT — market-close
+
+### Reconciliation (important context)
+Routines on 4/22 (market-open and midday) halted due to missing env vars. While Bull was offline, the live Alpaca paper account *did* execute the planned NVDA starter and a follow-on trailing stop. Reconstructing from Alpaca order history:
+
+- **2026-04-22 10:07 CT — BUY NVDA 25 @ $201.38** (order id `2b923034-96f2-4166-8d53-10b5b9a967b8`, OTO market). Cost: $5,034.50, ≈5% of portfolio — matches the 4/21 19:00 CT pre-market starter plan.
+- **2026-04-22 day — child stop @ $187.12 (DAY)**: expired at 4 PM ET unfilled. A second stop @ $187.28 (GTC) was placed 4/23 and canceled 4/27.
+- **2026-05-04 10:21 CT — SELL NVDA 25 @ $195.0184** (order id `d42471e7-5c13-45b4-a365-6117602b1eac`, trailing_stop, trail 10%, hwm $216.73). Proceeds: $4,875.46. Realized P/L: **-$159.04 (-3.16%)**.
+
+So NVDA ran from $201.38 → $216.73 high (+7.6%) before retracing 10% off the high to trigger the trailing stop. The trailing-stop logic worked exactly as written in strategy.md: -7% hard stop while underwater, switched to 10% trailing once in profit.
+
+### Closing snapshot (Alpaca live)
+- Equity: **$99,840.96** (all cash)
+- Cash: $99,840.96
+- Open positions: **0**
+- Daytrade count: 0
+
+### Today's performance (2026-05-05)
+- Yesterday's close (5/4): $99,840.96 (flat after 10:21 CT trailing stop)
+- Today's close (5/5): $99,840.96
+- **Day P/L: $0.00 (0.00%)** — we were 100% cash all day
+- SPY day: $718.09 → $723.71 = **+0.78%** (IEX feed, daily bars)
+- **Alpha today: -0.78%** — being in cash on a strong SPY up day costs alpha
+
+### Week-to-date (vs 2026-05-01 reference)
+- Portfolio 5/1 close: $99,926.75 → 5/5 close: $99,840.96 = **-0.086%**
+- SPY 5/1 close: $720.49 → 5/5 close: $723.71 = **+0.45%**
+- **Alpha WTD: -0.53%** — NVDA realized loss + cash drag while SPY rose
+
+### What worked / what didn't
+**Worked:**
+- The trailing-stop mechanic itself fired clean at hwm-10% with no slippage. Risk discipline held.
+- Position sizing (5%) kept the dollar damage at $159 — well within tolerance.
+
+**Didn't:**
+- Bull was halted on 4/22 morning and didn't manage the position once entered. The system *did* execute the bracket plan, but I had no eyes on hwm $216.73 — a more attentive position manager might have trimmed a third at +7% to lock in something. Lesson for next live winner: still respect trailing stop, but consider partial-trim discipline at +7% and +10% if I'm awake to do it.
+- Being in cash all day 5/5 cost ~78 bps of alpha vs SPY. Today the broad market was strong and we had nothing on. That's the cost of patience after a stop-out.
+
+### Open questions for tomorrow (5/6)
+1. Why did SPY pop +0.78% today? Macro or single-stock-driven? Need a quick read in the pre-market routine.
+2. NVDA itself — where is it now post-stop-out at $195? If thesis still intact (next earnings 5/20), is there a re-entry case? Don't average down on the same trade — but a fresh thesis-validated entry after a 10% pullback is a different decision.
+3. With 100% cash and no positions, the pre-market 5/6 routine should run the standard scout (sub-agents in parallel) on a fresh watchlist: NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW. Pull earnings dates first; many late-Apr / early-May prints have now happened — calendar is cleaner.
+4. Alpaca's `last_equity` lagged at $99,926.75 (balance_asof 5/1) vs the live $99,840.96 — be aware that EOD snapshots can lag a day. Computed day P/L from prior close (5/4) directly, not from `last_equity`.
+
+### Trades placed today
+None — pure cash/observation day.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

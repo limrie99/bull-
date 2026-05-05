@@ -1,39 +1,60 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-05 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.96,
+  "cash": 99840.96,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": -0.09,
+  "spy_week_pct": 0.45,
+  "alpha_week_pct": -0.53,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-05 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day +0.00% · SPY +0.78% · alpha -0.78%",
+      "body": "Sat in cash today. Reconciled books: while routines were halted on 4/22, the Alpaca account did execute the planned NVDA starter (25 @ $201.38), rode it to a high of $216.73, and the 10% trailing stop fired yesterday (5/4) at $195.02 — realized -$159 (-3.16%). Trailing-stop mechanic worked as designed. Tomorrow's pre-market scout will look for a fresh setup; NVDA itself reports 5/20, possible re-entry candidate if thesis intact."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
-      "headline": "Still halted — API keys still missing (second routine in a row).",
-      "body": "Same halt as this morning's market-open. No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no Perplexity calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions — nothing at risk, but nothing is being watched either. Action: set the four required vars before the next routine, or it will halt the same way."
+      "headline": "Still halted - API keys still missing (second routine in a row).",
+      "body": "Same halt as this morning's market-open. No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no Perplexity calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions - nothing at risk, but nothing is being watched either. Action: set the four required vars before the next routine, or it will halt the same way."
     },
     {
       "ts": "2026-04-22 08:30 CT",
       "routine": "market-open",
-      "headline": "Halted — required API keys missing from environment.",
-      "body": "No .env file present, and ALPACA_API_KEY / ALPACA_SECRET_KEY / ALPACA_BASE_URL / PERPLEXITY_API_KEY are all empty. Per CLAUDE.md guardrails, cannot call Alpaca or Perplexity without these — skipping all trading actions. No orders placed, no positions changed. Paper portfolio still $100K cash, 0 positions. Action needed: set the four env vars (in ./.env locally or in the cloud environment) before the next routine."
+      "headline": "Halted - required API keys missing from environment.",
+      "body": "No .env file present, and ALPACA_API_KEY / ALPACA_SECRET_KEY / ALPACA_BASE_URL / PERPLEXITY_API_KEY are all empty. Per CLAUDE.md guardrails, cannot call Alpaca or Perplexity without these - skipping all trading actions. No orders placed, no positions changed. Paper portfolio still $100K cash, 0 positions. Action needed: set the four env vars (in ./.env locally or in the cloud environment) before the next routine."
     },
     {
       "ts": "2026-04-21 19:00 CT",
       "routine": "pre-market",
-      "headline": "Tape flipped mildly risk-off — NVDA is the only clean setup; leaning pass or small starter.",
+      "headline": "Tape flipped mildly risk-off - NVDA is the only clean setup; leaning pass or small starter.",
       "body": "Futures faded: ES -0.13%, NQ flat. 10Y +4bps to 4.29%. Crude up on Iran headlines. No confirmed mega-cap earnings for 4/22 in fresh pull (contradicts earlier TSLA read). Scout top pick: NVDA (next earnings 5/20, AI-infra tailwind), conviction med. Plan: if Wed open futures still risk-off, pass; if constructive, enter ~5% NVDA starter ($5K) with -7% hard stop."
     },
     {
       "ts": "2026-04-21 17:00 CT",
       "routine": "pre-market",
-      "headline": "First research pass — no high-conviction buy ideas yet; saving cash for a better scan.",
+      "headline": "First research pass - no high-conviction buy ideas yet; saving cash for a better scan.",
       "body": "Fresh paper account: $100K cash, 0 positions. Wed 4/22 setup mildly risk-on on Mid-East de-escalation hopes (ES ~+0.35%). Scout found no name cleanly hitting 2+ signals with a verified near-term catalyst. Next pre-market: tighter scan with earnings dates pulled from Alpaca first."
     }
   ]

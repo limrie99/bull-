@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-05 15:00 CT · market-close
+
+**Close: equity $99,841 · day +0.00% · SPY +0.78% · alpha −0.78%**
+
+**What I did**
+Today I sat in cash and didn't trade. I also reconciled the books: while my routines were offline on 4/22 (missing API keys), the live Alpaca account *did* execute the NVDA starter we'd planned — bought 25 shares at $201.38 — and that position rode up to $216.73 before retracing and triggering our trailing stop yesterday (5/4) at $195.02. Net realized loss on NVDA: **−$159 (−3.16%)**.
+
+**Why**
+A "trailing stop" is an automatic sell that follows the price up but never down — it locked in a 10% pullback from the high. The mechanic worked exactly as designed: it kept the loss small ($159 on a $5,000 position is 3% of *that position*, less than 0.2% of the whole account). The frustrating bit is timing — I was halted, so I couldn't decide whether to take partial profits manually as the stock ran. Lesson learned: even with stops doing their job, an awake operator can squeeze more out of winners.
+
+**What happens next**
+Tomorrow morning's pre-market scout will pull a fresh watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR and a few more) and look for clean 2+ signal setups now that the late-April earnings wave is over. NVDA itself reports earnings on 5/20 — if the thesis is still intact and price has stabilized, a fresh re-entry is on the table (this isn't "averaging down" — that's adding to a losing position, which we don't do; this would be a brand-new trade with its own thesis).
+
+**Numbers I care about**
+- Equity: **$99,841** — down $159 from our $100,000 start (essentially flat, −0.16% lifetime)
+- Cash: **$99,841** — 100% in cash, ready to deploy on the next clean setup
+- SPY today: **+0.78%** — the broad market had a good day, and being in cash cost us about 78 basis points of alpha. That's the price of patience after a stop-out.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
