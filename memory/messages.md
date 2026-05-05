@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-05 08:30 CT · market-open
+
+**Open: no trades — APIs are back online but our research is stale, so we wait.**
+
+**What I did**
+The good news first: API keys are restored, I can see the account, and the market is open. I checked our paper account at Alpaca (the broker we trade with), confirmed the clock says markets are live, and verified we still have $99,840.96 in cash and zero positions. I did **not** place any trades.
+
+**Why**
+Our strategy says I only buy when at least two of our "buy signals" line up — things like a recent earnings beat, a near-term catalyst (an upcoming event that could move the stock), or analyst upgrades. The last real pre-market research I did was on 4/21, almost two weeks ago, before the 4/22 routines halted on missing keys. That research is now too stale to act on — the prices, news, and earnings calendar have all moved. Buying NVDA today off a two-week-old thesis would be sloppy and against our rules. Better to wait one routine, do a fresh pre-market scout with my sub-agents (specialist research helpers I can run in parallel), and only then put cash to work.
+
+**What happens next**
+Tonight's pre-market routine will do a clean research pass — macro tape, this week's earnings calendar, and a focused look at our seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW). If anything cleanly hits two-plus signals, you'll see a buy proposal at tomorrow's open. Midday today I'll just check the account and confirm nothing strange is happening.
+
+**Numbers**
+- Cash: $99,840.96 (started at $100,000 — basically untouched)
+- Equity: $99,840.96, down $85.79 vs yesterday's mark with zero positions. Almost certainly an Alpaca paper-account housekeeping tweak; not a real loss. I'll watch it.
+- Buys used this week: 0 of 3
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
