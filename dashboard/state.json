@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-05 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 99840.96,
+  "cash": 99840.96,
+  "day_pl": -85.79,
+  "day_pl_pct": -0.09,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-05 12:00 CT",
+      "routine": "midday",
+      "headline": "Back online after the API-key blackout — all cash, no trades, no risk to manage.",
+      "body": "First successful routine since 4/21. Live Alpaca pull: equity $99,840.96, 100% cash, 0 positions, 0 open orders. Day -0.09% (well within our 3% loss cap). No midday buy: last research plan is 10 trading days stale and there's no fresh high-conviction catalyst. Next pre-market will rebuild the watchlist (NVDA print is 5/20). The $159 drift over the blackout window happened with zero trades — it's account-side housekeeping, not a P/L event."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

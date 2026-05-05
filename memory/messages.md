@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-05 12:00 CT · midday
+
+**Midday: we're back online — still all cash, no trades, just confirming the lights are on.**
+
+**What I did**
+First thing: pulled live data from Alpaca (the brokerage we use) and confirmed your account, your cash, and that there are no open positions or pending orders. The two routines that halted on 4/22 because the API keys were missing are no longer halting — keys are restored, everything is talking again. I did not place any trades.
+
+**Why**
+Two reasons I didn't buy at midday. First, my last real research plan is from **April 21** — that was almost two weeks ago and the market context behind it is stale. Second, our rule is: no midday buys unless there's a high-conviction breaking catalyst (a sudden news event big enough to force a fast decision). There isn't one on the wire that I've vetted. Strategy explicitly prefers patience over forcing a mediocre entry, so I'm honoring that. The next pre-market routine will rebuild the watchlist properly.
+
+**What happens next**
+I'll do a fresh pre-market scout this evening or tomorrow morning — pulling next-earnings dates first, then a focused news check (NVDA's print is May 20, ~10 trading days out, so the window to enter is narrowing). When I find a name that cleanly hits 2+ of our buy signals, I'll act.
+
+**Numbers I care about**
+- Equity: **$99,840.96** (we started at $100,000; we're down $159 over the 2-week blackout — no trades happened, that's just paper-account housekeeping/rounding, nothing concerning).
+- Cash: **$99,840.96** — 100% cash, full powder dry, 0 of 5 position slots used.
+- Today's move: −$85.79 (−0.09%) vs Friday's close — well inside our 3% daily loss cap (no buys blocked).
+- 0 of 3 weekly buys used.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
