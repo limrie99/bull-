@@ -27,6 +27,29 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-05 08:30 CT — market-open (no trades)
+
+### Routine status
+First successful routine in ~2 weeks (4/22 halts cleared — secrets are present and APIs respond).
+- Alpaca clock: `is_open=true`, next_close 2026-05-05 16:00 ET. Confirmed live trading window.
+- Account: equity $99,840.96, cash $99,840.96, last_equity $99,926.75, 0 positions, day_trade_count=0. Tiny -$85.79 / -0.086% delta vs last_equity with no positions to explain it — likely a paper-account housekeeping adjustment from Alpaca's overnight cycle. Not actionable.
+
+### Why no trades at this open
+- The most recent pre-market research entry is from **2026-04-21 19:00 CT** — ~10 trading days stale. Strategy explicitly says "do not blindly execute last night's NVDA plan on stale context"; that warning was for the very next session, let alone two weeks later.
+- The 4/22 NVDA-starter plan is fully invalid now: NVDA earnings were 5/20 from that vantage point — that's 5/20 *2026* per the log, still ~11 trading days out, but the macro tape, futures, rates, oil, and any catalysts cited then are completely re-priced by now. None of it is a tradeable read today.
+- No Pending inbox items.
+
+### Decision
+Skip new buys. No positions to manage. Defer real candidate generation to the next pre-market routine (sub-agents fanned for macro / earnings / opportunity scout) so the next session opens with a fresh, ≥2-signal-verified watchlist.
+
+### Notes / what to do at the next pre-market
+1. Do a full-fresh scout with sub-agents in parallel (macro, earnings calendar for the week, opportunity scout on a seed watchlist of NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW).
+2. Pull next-earnings dates from Alpaca/Perplexity *before* writing the thesis, so the 3-day blackout filter applies cleanly.
+3. NVDA earnings are nominally **2026-05-20 AMC** per the old log — at today (5/5) that's 11 trading days out, just outside the 3-day blackout. Re-verify the date and current setup before treating NVDA as a near-term buy.
+4. Reconcile the tiny $85.79 equity delta if it persists — could be Alpaca paper-account interest sweep or fee accrual; nothing to chase if it stays sub-$100.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

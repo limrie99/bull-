@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-05 08:30 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 99840.96,
+  "cash": 99840.96,
+  "day_pl": -85.79,
+  "day_pl_pct": -0.09,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-05 08:30 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — APIs are back online but our research is stale, so we wait.",
+      "body": "APIs and account access restored after the 4/22 halts. Market is open, account: $99,840.96 cash, 0 positions. The most recent pre-market research is from 4/21 — too stale to act on. Per strategy, no buys without ≥2 fresh signals. Tonight's pre-market routine will do a clean scout (macro, earnings calendar, opportunity scout via sub-agents); buy proposals possible at tomorrow's open if anything hits ≥2 signals. Buys used this week: 0 of 3."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
