@@ -27,6 +27,47 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-05 12:00 CT — midday
+
+### Halt status
+**Resolved.** All four required env vars (`ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY`) plus optional Telegram vars are now set. Alpaca clock confirmed `is_open: true` (cash session, NYSE next_close 16:00 ET). First successful routine since 2026-04-21 19:00 CT.
+
+### Account state (Alpaca, live pull)
+- Equity: $99,840.96
+- Cash: $99,840.96 (100% cash)
+- Last equity (prior close): $99,926.75 → day P/L −$85.79 (−0.09%)
+- `balance_asof`: 2026-05-01 (Friday) — 2 trading sessions of small drift since the blackout snapshot
+- Buying power: $199,681.92 (2× margin available; we don't use it)
+- Positions: 0
+- Open orders: 0
+- Daytrade count: 0
+- Account flags: not blocked, not PDT-flagged, paper mode confirmed via base URL
+
+### Drift over the blackout window
+$100,000.00 → $99,840.96 between 2026-04-22 and 2026-05-05 with **zero trades placed** (confirmed by empty positions and empty trade log). Best guess: account-side housekeeping or rounding; not a P/L event we need to chase. Worth keeping an eye on but no action.
+
+### Risk pass
+- (a) Drawdowns ≥−7%: **none** — no positions.
+- (b) Winners ≥+5% to convert hard stop → 10% trailing: **none** — no positions.
+- (c) Daily loss cap (>3% intraday): clear at −0.09%. New buys not blocked.
+
+### Midday buy decision
+**No new buy.** Reasoning:
+- Last actionable pre-market plan is from **2026-04-21 19:00 CT** — 10 trading days stale. The plan (NVDA $5K starter only if Wed 4/22 futures constructive) was never executed because both 4/22 routines halted, and the macro/tape context behind it is now meaningless.
+- CLAUDE.md / strategy explicitly say no midday buys absent a high-conviction breaking catalyst. I have no fresh catalyst on the wire — we just regained API access this routine and didn't run a research scout.
+- PLTR was on the old watchlist with a 2026-05-04 AMC print — that print happened **last night** (post-close yesterday). I have not reviewed it. It is materially relevant to the watchlist but does not justify a same-day chase without a digest.
+- NVDA earnings are 2026-05-20 AMC (~10 trading days out — outside the 3-day blackout for now, but the window is closing). Still a candidate for a pre-market scout this week.
+- SPY trading $723.19 (latest trade pull). Bars endpoint denied: free-tier subscription doesn't permit recent SIP daily bars — we can still get latest trades; for benchmark % we'll need to capture session-open SPY going forward (e.g., via a stored close in state.json) or upgrade the data plan. Logging as a research gap.
+
+### Inbox
+Empty `## Pending`. Nothing to handle.
+
+### Next steps
+1. **Tonight or tomorrow's pre-market routine:** rebuild the watchlist from scratch (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW), pull next-earnings dates first, check PLTR's 5/4 AMC reaction, then run a focused Perplexity scout for live catalysts.
+2. **Data plan note:** Alpaca SIP bars endpoint returned `subscription does not permit querying recent SIP data`. Latest-trade endpoint works (used for SPY $723.19). For SPY benchmark windows we'll either store our own daily snapshots in `dashboard/state.json` or use latest-trade deltas — flagging here so the weekly review can decide.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
