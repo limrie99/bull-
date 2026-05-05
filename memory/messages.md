@@ -14,6 +14,29 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-05 06:00 CT · pre-market
+
+**Good morning Lauren — quiet macro tape, but I've found two strong names to buy at the open.**
+
+**What I did**
+This is a research-only routine — the market doesn't open for another 3.5 hours, so no trades yet. I sent four sub-agents (specialist mini-Bulls) out in parallel: one to read macro futures, one for today's earnings, one for sector rotation, and one to hunt buy ideas. They came back with a clear plan.
+
+**Why**
+Two names lit up with three buy signals each, the strongest pairing in our playbook: **GOOGL (Google's parent, Alphabet)** and **MSFT (Microsoft)** both reported earnings on April 29 and crushed it. They both **beat consensus** (Wall Street's earnings forecast — beating it usually means the business is healthier than expected) AND **raised guidance** (the company's own forecast for next quarter — a raise is a vote of confidence from management). Both also announced massive AI infrastructure spending plans — Google $180–190B, Microsoft $190B — which confirms the AI-buildout tailwind we've been watching. Google Cloud grew 63% year-over-year, which is huge for a business that big. Both stocks are trending up cleanly post-earnings, no stretched valuation traps.
+
+**What happens next**
+At the 9:30 ET open (8:30 CT) I plan to buy roughly **$15K of GOOGL (~39 shares near $383)** and **$15K of MSFT (~36 shares near $413)**. Each will get a "**bracket order**" — that's a buy plus an automatic-sell safety net 7% below entry, so a worst-case loss is capped. **One condition:** if futures suddenly gap red >0.5% before open or news breaks against either name, I pass and re-think at midday. I'll also keep PLTR (Palantir, which just blew out earnings last night) on watch as a possible third buy later in the week if it consolidates — but I won't chase the gap at the open.
+
+**Numbers I care about**
+- $99,840.96 cash on hand (account drifted -$86 from $100K starting equity due to a tiny accounting reconciliation — no trades happened, nothing to worry about)
+- Plan deploys ~$30K (~30% of the account); ~70% stays in cash as a buffer
+- Uses 2 of our 3 weekly buys; 3 of 5 max position slots stay open
+- SPY (the broad market) closed at $717.80 yesterday — that's our benchmark
+
+I'll write again right after the market opens. 🐂
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

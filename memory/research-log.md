@@ -27,6 +27,97 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-05 06:00 CT — pre-market (for 5/5 open)
+
+**Timing:** Scheduled 6:00 AM CT pre-market. Alpaca clock confirms market closed; next_open 2026-05-05 09:30 ET (~3h out). Secrets all present (Alpaca + Perplexity). Account: **$99,840.96 cash, 0 positions, last_equity $99,926.75 (drift -$85.79 since 5/1 reconcile, no trades).** Four sub-agents fanned out in parallel — macro, earnings, sectors, opportunity scout.
+
+### Market context
+
+Tape leans **quietly green into the open, low conviction** because most macro fields came back `n/a`.
+
+- **ES (Jun'26):** ~7,243.00, **+0.18%** overnight (only confirmed futures level).
+- **NQ:** `n/a` — Perplexity could not return level.
+- **10Y Treasury:** `n/a` — bp move unknown.
+- **DXY, WTI, Brent:** all `n/a`.
+- **Asia / Europe:** `n/a` (no confirmed Nikkei / Hang Seng / FTSE / DAX prints returned).
+- **Headlines (since Mon close):** none dated and verifiable in this pull.
+- **Sector tape (last 5 sessions):** Technology still leads (April +2% on the month). Energy weak (April -14%). S&P 500 closed ~7,200.75 on 5/4 (-0.41% on the day).
+
+**Net:** treat today as a **normal-volatility, modestly risk-on session with too many `n/a`s to size aggressively off macro alone.** ES +0.18% is the only hard datapoint. Intraday breadth + 10Y direction will tell the real story — re-check live levels at 9:30 ET before any sizing decision. If futures fade red pre-open, downsize.
+
+### Portfolio watch
+
+No open positions. $99,840.96 cash, $199,681.92 buying power (cash-only / no margin per strategy). Day drift -$85.79 vs last_equity is balance-reconciliation noise — no risk on the book. Nothing to babysit.
+
+### Earnings calendar (2026-05-05)
+
+- **BMO:** no $10B+ US large-caps confirmed by Perplexity for today's BMO. Smaller names (IBTA, MDRX, BORR) below universe threshold. Cross-check Earnings Whispers / Briefing live before open if anything material surfaces.
+- **AMC:** no large-caps confirmed for today AMC. PINS and VRTX surfaced but the May-5 date was not verified.
+- **Yesterday AMC (5/4) — relevant gap:** **PLTR blew out the print.** Q1 rev $1.633B vs ~$1.54B est (+85% YoY), adj EPS $0.33 vs $0.27–$0.28, GAAP EPS $0.34. **Raised FY26 guide:** rev $7.650–$7.662B, US commercial $3.224B+ (+120%), adj op income $4.440–$4.452B, adj FCF $4.2–$4.4B. Adj op margin ~60%. Latest print $146.96 (post-AH). **PLTR is the single earnings tape-setter going into today.**
+- **Guidance-risk read:** with no confirmed BMO mega-caps, today is more macro/PLTR-spillover driven than print-driven.
+
+### Buy candidates
+
+**1. GOOGL — AI capex raise + Cloud blowout, fresh post-earnings strength** — **HIGH conviction**
+- Last print **$383.21**, mcap ~$4.7T (post-Apr 30 +9.96% gap on earnings)
+- Next earnings: ~late July 2026 (Q2) — **outside** 3-day blackout.
+- Signals matched: **(1)** Apr 29 beat — rev $109.9B vs $106.8B est, EPS $5.11 vs $2.62, FY AI capex guide raised to **$180–190B**; **(3)** Google Cloud +63% YoY to $20B = AI infra secular tailwind; **(6)** clear uptrend off the gap.
+- 3 verified signals, the strongest pairing in the framework. Defensible thesis even if tape gets ugly today.
+
+**2. MSFT — Azure/AI beat, $190B FY26 capex, no print until Oct** — **HIGH conviction**
+- Last print **$412.94**, mcap ~$3.1T.
+- Next earnings: 2026-10-29 (Q1 FY27) — **far outside** blackout.
+- Signals matched: **(1)** Apr 29 Q3 FY26 beat — EPS $4.27 vs $4.06, rev $82.89B vs $81.39B; **(3)** AI infra tailwind, $190B FY26 capex commitment; **(6)** post-beat uptrend (visible via 4/30 gap).
+- Cleanest "long runway, no near-term print risk" name in the watchlist.
+
+**3. AVGO — custom-silicon AI beneficiary, post-selloff entry** — **MEDIUM conviction**
+- Price unverified pre-market, mcap ~$1T+, YTD +19% as of 5/1.
+- Next earnings: early-June 2026 (est, Q2 FY26) — **outside** 3-day blackout, but watch the calendar.
+- Signals matched: **(3)** named hyperscaler partner for Alphabet/Meta custom silicon = AI infra tailwind; **(5)** sector rotation back into AI infra after late-April OpenAI-leak selloff.
+- Only 2 signals + price unverified. Fine as a watchlist add later in week, not a day-1 buy.
+
+**4. NVDA — AI cornerstone but pulled back hard, earnings 5/20** — **LOW–MEDIUM conviction**
+- Last sub-agent reference ~$171 (down from $213 on 4/28). Mcap ~$3.77T.
+- Next earnings: **2026-05-20 AMC** — outside 3-day blackout but inside 15-day window. Per strategy, openable but small.
+- Signals: **(3)** AI tailwind intact, **(5)** sector rotation. **Failed** signal **(6)** — not in clean uptrend, just made a lower low.
+- Honest read: wait for the May-20 print or a confirmed higher-low before entering.
+
+**5. PLTR — post-earnings momentum, fresh blowout guide** — **MEDIUM conviction (gap-chase risk)**
+- Last print $146.96, mcap ~$340B.
+- Next earnings: now ~3 months out post-print — **way outside** blackout.
+- Signals matched: **(1)** massive Q1 beat-and-raise just hours ago; **(3)** AI/defense-software tailwind; arguably **(6)** uptrend, but it just gapped and chasing gaps is exactly what strategy v1 punished.
+- **Caveat:** strategy says "don't chase momentum without a catalyst" — there IS a catalyst here, but the gap-chase risk is real and PLTR's multiple is rich. Consider as the third buy LATER in the week if it consolidates above $145, NOT at the open.
+
+### Names considered & rejected
+
+- **CRWD** — YTD -4.87% as of 5/1, fails signal (6); no recent earnings beat verified. Reject for now.
+- **PANW, NOW, META, AMZN, AAPL, TSM, ORCL, LLY, BE** — could not verify ≥2 signals from this Perplexity budget. ORCL had directional AI-infra mention (OCI Supercluster) but no earnings/upgrade/price confirm. Re-pull case-by-case next routine.
+
+### Sell candidates
+
+None — no positions.
+
+### Net plan for 9:30 ET open
+
+If futures hold green and tape is constructive:
+
+- **GOOGL ~15% of equity ≈ $15,000 → ~39 shares at $383** (high conviction band).
+- **MSFT ~15% of equity ≈ $15,000 → ~36 shares at $413** (high conviction band).
+- That's 2 of 3 weekly buys used, $30K deployed, ~70% cash retained.
+- Place each as a **bracket buy with -7% hard stop** (GOOGL stop ~$356, MSFT stop ~$384). No take-profit — trailing stop handles upside per strategy.
+- **Skip NVDA, AVGO, PLTR at open.** Re-evaluate AVGO + PLTR midweek.
+
+If ES turns >0.5% red before open, or 10Y prints >4.40%, or GOOGL/MSFT take overnight bad headline: **pass and reassess at midday.**
+
+### Notes / research gaps to close next routine
+
+1. Re-pull macro fields properly — ES alone isn't enough. Need 10Y, DXY, WTI levels.
+2. Cross-check live earnings calendar for any 5/5 BMO surprises before 9:30 ET.
+3. Confirm AVGO current price + 50-day MA before any AVGO action.
+4. Rebuild a 15-name watchlist with verified next-earnings dates so future scouts don't burn calls re-discovering basics.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
