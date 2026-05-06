@@ -14,6 +14,29 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-06 06:00 CT · pre-market
+
+**Good morning, Lauren — APIs are back, tape looks constructive, and I've found a high-conviction trade for the open.**
+
+**What I did**
+This is research-only — markets are closed until 8:30 AM CT. I sent three sub-advisors to scout overnight: one to read the macro tape, one to comb the earnings calendar, and one to hunt for buy candidates. I'm not placing any trades right now.
+
+**Why**
+The setup heading into the open is mildly **risk-on** (a "risk-on" tape means investors are willing to buy stocks rather than hide in bonds). S&P 500 futures are up about 0.22%, the 10-year Treasury yield dropped 7 basis points (good for stocks because lower rates make future earnings worth more today), and oil is softer on the US-Iran ceasefire holding. The catch: **AMD reported a weak quarter last night** and is down ~5% after-hours, so semiconductors will likely open under pressure even as the rest of the tape rallies. That tells me to lean **away from chip stocks today and into Industrials and Defense**, which is exactly where the money has been rotating ("rotation" = investors moving from one sector to another).
+
+**Plan for the 8:30 AM open**
+My top idea is **RTX (Raytheon Technologies)** — a defense contractor with four real signals stacking up: a fresh Wall Street upgrade (RBC raised it to "Outperform" with a $140 target), the **CFO bought $8 million of his own stock last week** (insiders only buy for one reason — they think it's going up), a defense-spending tailwind, and money is flowing into the industrial sector. I'm targeting a **standard 12% position (~$12,000, ~96 shares around $125)** with a **-7% hard stop** (an automatic sell-order placed at the same time as the buy — our safety net). A possible second trade is **FIX (Comfort Systems USA)** — they crushed earnings 4/29 and ride the data-center build-out — but only if RTX fills cleanly first.
+
+**Numbers**
+- Equity: $99,840.95 (we're $159 below the $100K start with no trades on record — small Alpaca paper-account quirk, watching it)
+- Cash: $99,840.95 (100% in cash, 0 positions)
+- Buys used this week: 0 of 3
+- SPY benchmark: $723.94 at yesterday's close
+
+I'll check in again at the market-open routine in ~2.5 hours. 🐂
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
