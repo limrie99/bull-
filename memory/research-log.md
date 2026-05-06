@@ -27,6 +27,52 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-06 12:00 CT — midday
+
+### Account state (live from Alpaca)
+- Equity: **$99,840.95** | Cash: **$99,840.95** | Positions: **0**
+- Day P/L: **$0.00 / 0.00%** (100% cash, sat out today's session)
+- Last_equity (yesterday's close): $99,840.95 → daily-loss-cap not triggered (-3% threshold = a $2,995 drawdown; we're flat)
+- 5D portfolio history: 5/01 close $99,926.75 → 5/06 $99,840.95 (-$85.80, -0.09% week)
+
+### State reconciliation — important
+Local memory was stale. `portfolio.md` and `trade-log.md` claimed "no trades yet" but Alpaca shows a complete NVDA round-trip happened during the halt window:
+- **2026-04-22 10:07 CT** — BUY 25 NVDA @ $201.38 (order `974cc142…`). Same-day OTO stop at $187.12 expired; GTC -7% stop at $187.28 placed 4/22 evening.
+- **2026-04-27 17:16 CT** — Cancelled the -7% hard stop and replaced it with a **10% trailing stop** (order `d42471e7…`). Cause: NVDA had moved into +5% profit territory by then, per strategy rule. HWM tracked to **$216.73** (peak +7.62%).
+- **2026-05-04 10:21 CT** — Trailing stop triggered, sold 25 NVDA @ **$195.0184**. Net P/L: **-$159.04 (-3.16%)**.
+
+The cloud routines that should have logged each step were halted on missing env vars (4/22 market-open, 4/22 midday). The buy + bracket stop + trailing-stop swap + exit fill all happened correctly via the Alpaca side, just without local memory updates. **Today's midday routine reconstructs the trade log from order history.** Lesson: even a halted routine should at minimum read Alpaca order history and reconcile, not just refuse to do anything. Filing that as a process improvement.
+
+### Market context (light pull, no Perplexity calls — quiet midday)
+- **SPY:** $730.98 (+1.00% intraday vs. prev close $723.71). Trend: up week-over-week.
+  - 5D SPY closes: 4/28 $711.68 · 4/29 $711.59 · 4/30 $718.41 · 5/01 $720.49 · 5/04 $718.09 · 5/05 $723.71 · 5/06 $731.18 intraday.
+  - Week SPY: +2.75% (4/29 close → today). **Alpha vs SPY this week: -2.84%.**
+- **NVDA:** $204.77 (+4.21% intraday vs. prev close $196.50). We exited 5/04 at $195.02, missed today's pop — but the trailing stop did exactly what strategy says (10% off HWM). No regret, no reentry chase.
+
+### Portfolio watch
+None — 100% cash. Nothing to manage.
+
+### Risk management pass
+- (a) -7% drawdowns: N/A, no positions.
+- (b) +5% positions to flip to trailing stops: N/A, no positions.
+- (c) Daily loss cap: 0.00% day P/L, well above -3% threshold. Not triggered.
+
+### Buy candidates (midday)
+**Skipping per routine guardrail.** Midday only allows new buys on a high-conviction breaking catalyst, and there's no headline breaking on the tape that warrants overriding the pre-market discipline. SPY is rallying; chasing into a +1% intraday move from a flat-cash start is exactly the "FOMO" trap the strategy is built to avoid.
+
+Real action: **next pre-market routine should fan out sub-agents** (macro + earnings calendar + opportunity scout on the seed watchlist NVDA / AVGO / GOOGL / MSFT / PLTR / CRWD / PANW / BE / LLY / NOW). Open earnings dates need checking — May is heavy with mega-cap prints already past (MSFT/GOOGL late April) and PLTR/NVDA still ahead (5/04 and 5/20 respectively — actually PLTR likely already reported, verify next routine).
+
+### Sell candidates
+None — no positions.
+
+### Notes for next routine
+1. Verify which May mega-cap earnings have already printed (PLTR 5/04? NVDA 5/20 confirmed).
+2. We're roughly **3% behind SPY since 4/22 (entry day) and -2.8% behind on the week** — being in cash during a rally is a real cost. Pre-market should evaluate redeploying ~10–15% of equity in a starter as soon as a 2-signal name surfaces.
+3. Buy-budget reset: this is a fresh week (Mon-Fri 5/04–5/08); 0 of 3 weekly buys used.
+4. Trade-log + portfolio.md are now reconciled with Alpaca.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

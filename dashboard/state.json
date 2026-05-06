@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-06 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": -0.09,
+  "spy_week_pct": 2.75,
+  "alpha_week_pct": -2.84,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-06 12:00 CT",
+      "routine": "midday",
+      "headline": "Steady, no changes — and a reconciliation: NVDA round-trip from late-April actually happened, just missed our records.",
+      "body": "100% cash, no trades. NVDA was bought 4/22 @ $201.38 and trailing-stop sold 5/04 @ $195.02 for -$159 (-3.16%) — Alpaca executed it correctly during our halt window, local memory just missed it; trade log is now reconciled. NVDA bounced +4% today to $204.77 (we exited near the low), but the 10% trailing stop did its job. SPY +1.0% today, +2.75% on the week — we're sitting out a rally (alpha -2.84% week). Skipping a midday buy per rules; tomorrow's pre-market is where I redeploy. 0/3 buys used this week."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
