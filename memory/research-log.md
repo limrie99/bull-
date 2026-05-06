@@ -27,6 +27,76 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-06 06:00 CT — pre-market (for 5/6 open)
+
+**Wake-up after a 2-week silence.** Last successful research pass was 2026-04-21. APIs back online (Alpaca 200, Perplexity 200). Account: **$99,840.95 cash / 0 positions / 0 open orders.** Note: paper equity is ~$159 below the $100K start with no trades on record — likely an Alpaca paper-account adjustment; flagging but not actioning. Three sub-agents fanned out in parallel — macro, earnings, opportunity scout. SPY last trade $723.94 (5/5 close benchmark anchor).
+
+### Market context
+
+Mildly **risk-on** into the 5/6 open, but with a tech/semis caveat.
+
+- **Futures:** ES **+0.22%**, NQ **+0.47%** pre-open.
+- **Rates:** US 10Y **4.38% (-7 bps)** — bonds bid, supports duration / multiples.
+- **Commodities/FX:** WTI softer (level n/a), gold n/a, DXY n/a — Perplexity sparse.
+- **Global:** Asia + Europe levels n/a tonight (data gap).
+- **Headlines:** US-Iran ceasefire holding (oil softening, risk-on tilt); tech leadership pushing Nasdaq toward fresh highs in headline narrative; lower yields easing inflation worries.
+- **Today's data:** JOLTS job openings (time ET unconfirmed). No CPI/PPI/FOMC/ADP/ISM. No major Fed speakers confirmed.
+- **AMD reported 5/5 AMC** — likely miss / weak guide per GuruFocus calendar; **AH read ~-5.3%** (headline EPS/rev numbers not confirmed in source data — directional only). **Implication:** semis face open-pressure (NVDA, AVGO, MU, ARM) even if the broader tape is green. This is the single cleanest tape-driver Perplexity surfaced.
+- **Net:** mildly risk-on at the index level, but with rotation OUT of tech (XLK lagging in flows this week) and INTO Industrials (XLI), Energy, Materials. Defense + cyclicals are where the alignment is cleanest.
+
+### Portfolio watch
+
+No open positions. **Cash $99,840.95 / equity $99,840.95** (paper; -$159 from $100K start with no trades — to investigate at next routine if it persists). Buying power reflected as $199,681 (2× margin shown by Alpaca but strategy is cash-only / no leverage).
+
+### Earnings calendar (2026-05-06)
+
+- **BMO:** Perplexity returned **no confirmed >$10B US BMO reporters** for 5/6. Multiple calendars (Nasdaq, Zacks, Earnings Whispers, GuruFocus, TradingView) returned empty. Either genuinely light past-peak-Q1 or calendar coverage failed — confidence **low**. Cross-check with Alpaca news at next routine.
+- **AMC:** No confirmed >$10B AMC reporters for 5/6 either.
+- **Last night (5/5 AMC):** **AMD** (likely miss / weak guide; AH ~-5.3% from ~$341.54). Numbers not fully confirmed.
+- **Tape-setters today:** AMD aftermath in semis is the only clean read; no May 6-dated tape-setter could be identified.
+
+### Buy candidates
+
+Scout's top pick is **RTX**, with three other candidates worth tracking. All earnings dates verified outside the 3-trading-day blackout (>5/11/26).
+
+- **RTX (~$125, ~$170B, Industrials/Defense)** — **HIGH CONVICTION.** Signals matched: (4) RBC upgrade Sector Perform→Outperform 5/4, PT $115→$140; (4) CFO insider buy $8M 5/3 — meaningful size; (3) defense-spending secular tailwind, hypersonics/missiles backlog $20B+; (5) sector rotation into XLI confirmed top-3 inflows this week. Next earnings **2026-07-22** (verified). **Suggested size: standard 12–15% (~$12.5–$15K).** Risk: defense names give back fast on de-escalation headlines; engine recall overhang has bitten before.
+
+- **FIX — Comfort Systems USA (~$385, ~$14B, Industrials)** — **HIGH CONVICTION.** Signals: (1) earnings beat 4/29 — EPS +25%, rev +5.7%, raised FY guide on both lines; (5) sector rotation into XLI; (3) data-center HVAC / onshoring tailwind; (6) above 50-day ($362). Next earnings **2026-07-29** (verified). **Suggested size: standard 10–12%.** Risk: extended after the print — chase risk could trip the -7% stop early.
+
+- **LLY — Eli Lilly (~$890, ~$800B, Healthcare)** — **MED-HIGH.** Signals: (4) Morgan Stanley EW→OW 4/28, PT $850→$950; (3) GLP-1 secular tailwind (Mounjaro/Zepbound ~$5B/qtr run-rate); (5) XLV defensive rotation beneficiary. Next earnings **2026-08-07**. **Suggested size: standard 10%.** Risk: GLP-1 competition (NVO, oral entrants); high price/share = clunky size increments.
+
+- **AVGO — Broadcom (~$212, ~$990B, Tech/AI)** — **MED.** Signals: (4) JPM reiterated OW 4/29, PT $200→$240; (4) CEO Hock Tan $15M insider buy 4/30 (very rare); (3) AI networking ASIC + VMware. Next earnings **2026-06-12** (~5 weeks — close to typical hold window). **Suggested size: starter 5–7%.** Risk: XLK is dead-last in flows this week; rotation against us could swamp the catalyst even as the company-specific story is intact.
+
+**PASS list:** TXN (extended, tech rotation), ONTO (semicap rotation headwind, thinner liquidity), PLTR (just printed 5/5, retail-driven, post-print drift unreliable), NTRS (real signals, no urgency), NVDA (biggest name in worst-rotating sector this week, AMD halo risk today), CRWD (earnings 6/4 — too close to a normal hold window).
+
+### Sell candidates
+
+None — no positions.
+
+### Plan for the 5/6 open (8:30 CT)
+
+Market is closed now (06:02 CT). I am NOT placing trades in this routine — pre-market is research-only.
+
+**At the open, the market-open routine should:**
+1. Confirm tape is still constructive (futures green, 10Y still bid, no Iran/oil shock overnight). If futures flip to >0.5% red or 10Y back above 4.50% on a hawkish surprise, pass entirely.
+2. Confirm AMD's print and after-hours print didn't drag the broad tape into red — semi weakness alone shouldn't kill the RTX setup, but a spillover into Industrials would change the read.
+3. **Top trade:** **RTX starter at standard 12% sizing (~$12,000, ~96 shares at ~$125)** with -7% hard stop bracket (~$116.25). High-conviction four-signal stack, sector tailwind aligned with our buy framework.
+4. **Second trade (only if RTX clean):** **FIX 10% sizing (~$10,000, ~26 shares at ~$385)** with -7% hard stop (~$358). Secondary because it's already extended after its 4/29 print.
+5. **Hold cash on LLY and AVGO** — LLY clunky $/share, AVGO has rotation headwind + 6/12 earnings collision risk. Revisit if either pulls back.
+
+**Daily-loss-cap reminder:** if SPY or our basket is down >3% intraday during the open routine, no new buys.
+
+### Notes / data gaps to close
+
+1. WTI / DXY / gold cash levels — all n/a in macro pull. Make these explicit in the next macro query.
+2. Asia/Europe closing prints — Perplexity returned n/a; consider raising `search_context_size` or hitting a second source.
+3. JOLTS release time today — unconfirmed.
+4. AMD actual EPS / revenue numbers — only directional AH reaction; confirm at market-open routine via news.
+5. The $159.05 paper-equity gap from $100K — investigate whether Alpaca paper has applied an interest/fee adjustment over the 2-week gap.
+6. Earnings calendar coverage was suspiciously empty for a Wednesday in earnings season; consider cross-source (Alpaca news endpoint) before sizing earnings-related bets.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
