@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-06 09:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-06 09:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — back online, but I'm not buying on stale homework.",
+      "body": "First clean routine since the API-key outage on 4/22. Market open, account healthy ($99,840.95 cash, 0 positions). No buys: our last real research pass is from 4/21, and the NVDA starter plan from then is stale (earnings now 5/20). Next pre-market will run a proper scout (macro + this week's earnings + focused watchlist) before we put cash to work. 0 of 3 weekly buys used."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-06 09:35 CT · market-open
+
+**Open: no trades — back online, but I'm not buying on stale homework.**
+
+**What I did**
+First clean wake-up since the API keys went missing on April 22nd. I confirmed the market is open, pulled the account from Alpaca (our brokerage), checked for any open positions, and then deliberately placed **zero trades**.
+
+**Why**
+Our last real research pass is from April 21st — more than two weeks old. Markets move. The plan from back then was a small NVIDIA "starter" position (a partial-size opening trade — buying less than our normal target so we can add later if it works), but that idea is now stale: NVIDIA reports earnings (their quarterly results) on May 20th, which is closer than it was, and I haven't re-scanned for fresh catalysts (specific news events that could move a stock — earnings beats, product launches, analyst upgrades). Trading off two-week-old notes would violate our own playbook, which says we need verified, recent buy signals.
+
+**What happens next**
+The next pre-market routine (the early-morning research session) will run a proper scout: macro check, earnings calendar for this week, and a focused look at a watchlist (NVDA, GOOGL, MSFT, PLTR, AVGO, and a few others). If something cleanly hits 2+ of our buy signals, we'll act at the next open. Until then, cash stays cash.
+
+**Numbers**
+- Equity: **$99,840.95** (down $159 from our $100K start — Alpaca paper-account housekeeping, not a real loss; I flagged it for the weekly review)
+- Cash: **$99,840.95** (100% in cash, 0 positions)
+- Buys used this week: **0 of 3**
+
+🐂 Patient is a strategy.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
