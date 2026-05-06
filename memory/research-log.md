@@ -27,6 +27,38 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-06 09:35 CT — market-open
+
+### Halt-style no-op (planning halt, not a secrets halt)
+Secrets present, APIs healthy (Alpaca clock 200, account 200, positions 200). Market confirmed open (next_close 2026-05-06 16:00 ET). **However, no fresh pre-market research was logged for today** — the most recent entries in this file are from 2026-04-22, both halted for missing env vars. Two-plus weeks of stale context is too old to act on; the NVDA starter plan from 2026-04-21 is no longer trustworthy (NVDA earnings is now ~2 weeks out, the macro tape has moved, and no one has re-scouted catalysts).
+
+### Account state
+- Equity **$99,840.95** / cash **$99,840.95** / positions **0**.
+- Equity is $159.05 below the $100K paper start. With zero trades placed in the account's history, this is a paper-account adjustment, not a P/L event. Flagging so weekly review notices it; not actionable today.
+- `balance_asof` 2026-05-05. Day P/L 0.00%.
+
+### Portfolio watch
+No open positions → nothing to defend, no stops to manage, no thesis-break check to run.
+
+### Buy candidates
+None today — no fresh research, no current-day catalyst scan, and the strategy is explicit that we don't force entries.
+
+### Sell candidates
+None — no positions.
+
+### Plan
+1. Run a proper pre-market scout at the next pre-market routine: macro digest (ES/NQ, 10Y, DXY, WTI), earnings calendar 5/6–5/13, plus a sub-agent fanout on a tight watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, LLY).
+2. Re-verify NVDA earnings date — last log said 2026-05-20 AMC; if confirmed, we're now ~10 trading days out, which keeps it outside the 3-day blackout but the print risk is rising.
+3. PLTR last noted earnings 2026-05-04 AMC — that print is now in the rearview. If true, post-print reaction is fresh information worth pulling next routine.
+4. Consider Perplexity `search_context_size: "medium"` next scout — last pass was too thin on macro fields.
+
+### Notes
+- Inbox empty.
+- Trade log empty (no fills ever).
+- Routine ran cleanly end-to-end; this is the first non-halted Bull routine since the env-var outage on 4/22.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
