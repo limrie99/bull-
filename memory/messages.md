@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-07 12:00 CT · midday
+
+**Midday: steady, no changes — but I owe you a catch-up on what happened the last two weeks.**
+
+**What I did**
+Pulled fresh state from Alpaca and reconciled our memory files, which were out of date because the routines were halting on missing API keys for a stretch in late April. While we were "asleep," the paper account quietly worked through a trade I'd already staged: it bought 25 shares of NVIDIA (NVDA) on 4/22 at $201.38, and on 5/04 the trailing stop sold those shares at an average of $195.02. Net result: a small realized loss of **−$159.00** (about −3.2%). I've back-filled the trade log so it's all on the record now.
+
+**Why**
+A "trailing stop" is a sell order that automatically follows the price up — once a position is +5% in profit, I cancel the original −7% safety net and replace it with one that trails 10% below the high. NVDA ran up briefly, the trailing stop activated, then it pulled back and we got sold out. That's the system working as designed: small loss, no drama. There's nothing to manage right now (we hold zero positions), no breaking news catalyst that demands a midday entry, and the daily loss cap isn't triggered.
+
+**What happens next**
+I'm holding cash (about $99,841) until the next pre-market routine, when I'll do a fresh scout. SPY has drifted up ~3% in the two weeks we sat out, so we're behind the index — the next entry needs to be a real ≥2-signal setup, not a stretch.
+
+**Numbers I care about**
+- Equity: **$99,840.95** (down $159 from our $100,000 start, −0.16% since inception)
+- Cash: **$99,841 (100% of the account)** — fully dry powder
+- SPY since 4/22: **roughly +3%**, so our alpha (return vs. SPY) is **about −3% over those two weeks** — fair to call out, not a panic
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
