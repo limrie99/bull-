@@ -27,6 +27,65 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-07 06:00 CT — pre-market (for 5/7 open)
+
+**Timing note:** First successful routine since the 4/22 halt streak. Secrets are back. Account verified live: **$99,840.95 cash, 0 positions, equity $99,840.95** (paper-account starting balance is ~$99.8K, not $100K — minor variance carried from Alpaca's paper default). Alpaca clock confirms market closed; next_open 09:30 ET today. Three sub-agents fanned out (macro, earnings, opportunity scout). Note: Alpaca SIP data subscription not enabled — could not pull SPY bars from data API (`subscription does not permit querying recent SIP data`); will need IEX-tier endpoint or skip alpha calcs until upgraded.
+
+### Market context
+
+Tape **risk-on** into Thu 5/7 cash open.
+
+- **ES (Jun'26):** **+~1.07%** at ~7,365.50. Gap-up resuming bull trend after Wed close.
+- **NQ:** roughly flat to slight +; mixed signals overnight after a +2.08% Nasdaq cash close on 5/6.
+- **Dominant overnight driver:** AI/semis momentum — **AMD +17%** (AMC 5/6 strong data-center forecast & beat), **SMCI +24%** (margin/profit guide raise). The two prints lit a fire under AI capex names.
+- **10Y, DXY, WTI/Brent, Asia/Europe closes:** all `n/a` from Perplexity this run. Need a secondary check at open if rate-sensitive sizing matters.
+- **No Fed speakers, CPI/PPI prints, jobless-claims surprises** flagged for the overnight window.
+- **Net read:** risk-on. Swing factor = whether AMD/SMCI/AI-adjacent names hold their gap-up at 09:30 ET cash open. A fade would sap broad-market momentum.
+
+### Portfolio watch
+
+**No open positions.** $99,840.95 cash, $199,681.90 buying power (cash-only / no leverage per strategy). Nothing to manage; no stops, no thesis-break checks needed.
+
+### Earnings calendar (2026-05-07)
+
+Perplexity could not authoritatively confirm any large-cap reports for today (BMO or AMC). Honest read: today is more macro/momentum-driven than earnings-driven. If a position is moving sharply, run a per-ticker check before assuming earnings is the driver.
+
+**Yesterday AMC (5/6):** **AMD** and **PLTR** both confirmed printers (per macro and scout digests respectively). AMD +17% reaction, PLTR raised FY26 guide to ~36% YoY (rev ~$3.75B). **NOW** printed 5/1 with a raised FY26 subscription guide. **MA** caught a JPM upgrade to Overweight on 5/4.
+
+### Buy candidates
+
+Scout returned 4 names; verifying earnings-blackout windows. **All four are post-print, so the "3-day before earnings" blackout does not apply** — each is now in fresh-print territory, the strongest signal in the playbook.
+
+- **PLTR — Palantir | ~$42 | Conviction: HIGH.** Signals matched: (1) earnings beat 5/6 AMC + raised FY26 guide (~36% YoY rev, ~$3.75B); (3) secular AI/defense tailwind (AIP commercial + government). Next earnings ~Aug 4. Risk: stock often pops hard post-print and gives some back; consider not chasing the open gap — stage a starter on any pullback into 09:45–10:30 ET.
+- **NOW — ServiceNow | ~$980 | Conviction: HIGH.** Signals: (1) earnings beat 5/1 + raised FY26 subscription guide ($13.46–13.49B); (3) secular enterprise-AI / agentic-workflow tailwind. Next earnings ~Jul 22–27. Cleanest "fresh beat + raised guide + durable subscription model" setup in the playbook. Bull should be a buyer.
+- **AMD — Advanced Micro Devices | ~$148 | Conviction: MED.** Signals: (1) earnings beat 5/6 AMC + raised Q2 guide ($7.1–7.6B), MI300 demand strong; (3) AI-infra capex tailwind. Next earnings ~Aug 5. Caveat: stock already +17% on the print — chasing into a gap-up risks a -7% hard-stop in days. Wait for first 30-60 min volatility to settle, ideally enter on consolidation, not the open print.
+- **MA — Mastercard | ~$515 | Conviction: MED.** Signals: (4) JPM upgrade 5/4 to Overweight, PT $620; (5) sector rotation diversifier (financials/payments outside our crowded AI book). Next earnings ~Jul 29. Single-signal-light, but real diversification value if we're going to load up on PLTR/NOW/AMD — would prefer this as the 4th name, not the 1st.
+
+**Net plan for the 5/7 open (no trade in this routine — research only):**
+- Best two ideas: **NOW** and **PLTR**. Both have the textbook "beat + raised guide" combo. NOW is the cleaner setup; PLTR is higher beta/momentum.
+- **AMD** is real but already gapped — disciplined entry only.
+- **MA** is the diversification candidate.
+- Tentative size: 2 starters at the open ≈ 10–12% each (~$10K each), **NOW first** if we only place one. Hard -7% bracket on each. Re-validate at the 09:00 CT market-open routine before placing.
+
+### Sell candidates
+
+None — no positions.
+
+### Notes / research gaps to close next routine
+
+1. Get 10Y, DXY, WTI cash levels at the cash open (Perplexity gave `n/a` again — try a focused single query, or use a secondary source).
+2. Check Alpaca SIP/IEX entitlements — can't pull SPY bars on current subscription, breaks alpha calc. Either upgrade or use last-trade endpoint and a rolling SPY snapshot from Perplexity.
+3. Verify NOW / PLTR / AMD / MA quotes at open via Alpaca latest-trade endpoint before sizing.
+4. Watch for AMD/SMCI fade at open as the macro swing factor.
+
+### Sub-agent research caveats
+
+- **Macro digest** thin on rates, FX, and overseas closes (`n/a`s). Got the futures direction and the AMD/SMCI catalysts — enough to call risk-on, not enough to size rate-sensitive names.
+- **Earnings digest** could not authoritatively confirm any large-cap May 7 reporters. Source is incomplete — the macro and scout digests independently confirmed AMD reported 5/6, which the earnings digest missed. Treat the earnings digest as a floor, not a ceiling.
+- **Scout digest** gave 4 actionable names with verifiable post-print catalysts, but flagged that Perplexity returned `n/a` on exact next-earnings dates in its verification call. The discovery-call dates above are approximate; confirm directly before trading.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
