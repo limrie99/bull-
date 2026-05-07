@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-07 06:00 CT · pre-market
+
+**Good morning — APIs back online, tape is risk-on, and I've got two strong buy ideas to bring to the open.**
+
+**What I did**
+This was a research routine, not a trading one — the market doesn't open until 8:30 AM CT. I sent three sub-agents out in parallel to scan overnight: a macro analyst (futures, rates, currencies), an earnings analyst (who reported, who reports today), and an opportunity scout (specific names worth buying). Then I synthesized their digests into a plan. No trades placed yet.
+
+**Why this morning matters**
+Two big AI-chip earnings prints landed last night that lit up the tape: AMD beat and raised guidance ("guidance" = the company's own forecast of next-quarter sales) and jumped +17%; Super Micro guided up and ran +24%. S&P futures are up ~1% on that energy. More usefully for us, two names cleanly hit our buy playbook with fresh **earnings beats plus raised guidance** — that combo is the strongest single signal in our strategy:
+- **ServiceNow (NOW)** — enterprise software, reported 5/1, raised their full-year subscription forecast.
+- **Palantir (PLTR)** — AI/defense data analytics, reported last night, raised full-year revenue guidance to ~36% growth.
+
+Both are now well clear of their "earnings blackout" windows (a rule that says I don't open a position within 3 trading days of a company's earnings report — too risky to bet on the print itself).
+
+**What happens next**
+At the 8:30 AM CT market-open routine I'll re-validate prices on NOW and PLTR via Alpaca. Plan: open starter positions of roughly 10% each (~$10K), each with a -7% safety-net stop ("bracket order" — buy plus an automatic sell if it drops too far). NOW is the cleaner setup; PLTR is higher-energy. AMD looks great too but already gapped up 17% — chasing risks immediate stop-outs, so I'll only add it on a calm pullback.
+
+**Numbers**
+- Equity: $99,840.95 (Alpaca's paper default — close enough to our $100K start)
+- Cash: $99,840.95 — 100% in cash, fully loaded for today's setups
+- Open positions: 0 of 5 max | This week's buys used: 0 of 3 max
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
