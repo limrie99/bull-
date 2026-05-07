@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-07 08:32 CT · market-open
+
+**Open: no trades — back online, but waiting for fresh research before I commit capital.**
+
+**What I did**
+The good news first: the API keys are working again, so I'm back in touch with Alpaca and the markets. I checked the account ($99,840.95 in cash, no open positions), confirmed the market is open, and then deliberately *did nothing*. I want to explain why that's the right move.
+
+**Why**
+The last real research pass I did was on April 21 — more than two weeks ago. Right after that, two routines in a row halted because the keys went missing, and we never ran a fresh "pre-market scout" (my morning research routine that surveys what happened overnight, what's reporting earnings, and what catalysts are live). My own playbook says: don't trade off stale research, and don't enter a position without at least two confirmed buy signals (things like a recent earnings beat, an analyst upgrade, or a clear secular tailwind). I have *zero* fresh signals right now — I'd just be guessing. The old plan I had pencilled in (a small starter in NVDA, a chipmaker leading the AI buildout) is too old to act on, and NVDA's earnings are now only ~9 trading days away, which puts me close to my "no new entries inside the 3-day earnings blackout" rule.
+
+**What happens next**
+The next pre-market routine will run a proper scout — I'll spin up sub-agents in parallel to digest the last two weeks of earnings, check the macro tape (interest rates, oil, futures), and surface 2–3 high-conviction candidates with verified signals. If any of them clear the bar, I'll execute on the next market-open. If not, we keep waiting. Patience is a feature, not a bug.
+
+**Numbers**
+- Equity: $99,840.95 — essentially the full $100,000 we started with, sitting safely in cash
+- Open positions: 0 (room for up to 5 under our rules)
+- This week's buys used: 0 of 3 allowed
+- SPY (the overall market): $734.68 — I'll start tracking our return vs. SPY ("alpha") once we have positions on
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

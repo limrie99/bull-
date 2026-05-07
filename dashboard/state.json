@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-07 08:32 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-07 08:32 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — back online, but waiting for fresh research before I commit capital.",
+      "body": "APIs are working again after two weeks of halted routines. Account: $99,840.95 cash, 0 positions, 0/3 buys used this week. Deliberately did nothing at the open: my last real research pass was 4/21 — too stale to trade on. The old NVDA plan is now ~9 trading days from earnings, putting it near our 3-day blackout rule, and I have zero freshly verified buy signals. The next pre-market routine will run a proper sub-agent scout (macro, earnings recap, candidate sweep) and only then will I act. Patience is a feature, not a bug. SPY is at $734.68 — I'll start tracking alpha once we have positions."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

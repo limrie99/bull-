@@ -1,10 +1,10 @@
 # Portfolio
 
-**Last updated:** 2026-04-21 17:00 CT (pre-market routine)
-**Cash:** $100,000.00
-**Total equity:** $100,000.00
-**Day P/L:** $0.00 (0.00%)
-**Week P/L:** — | SPY week: — | Alpha: — (first run)
+**Last updated:** 2026-05-07 08:32 CT (market-open routine)
+**Cash:** $99,840.95
+**Total equity:** $99,840.95
+**Day P/L:** $0.00 (0.00%) — last_equity matches equity (no positions, no overnight move)
+**Week P/L:** — | SPY week: — | Alpha: — (no trading activity since seed)
 
 ## Open positions
 
@@ -20,3 +20,4 @@
 
 ---
 *Overwrite this file every routine. Keep it a live snapshot, not a log.*
+*Note: equity is $99,840.95 vs the $100,000 paper seed — Alpaca shows balance_asof 2026-05-06, no positions, no day move. Small $159.05 gap from seed predates the data we have; will reconcile if it matters once we start trading.*
