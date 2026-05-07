@@ -27,6 +27,49 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-07 12:00 CT — midday
+
+### Halt → unhalt context
+First non-halted routine since 2026-04-22. `.env` is now present; all four required vars set. Big gap in memory updates between 4/22 and today.
+
+### Reconciliation with Alpaca (memory was out of sync)
+- The **paper account did execute** an NVDA round-trip during the halted window:
+  - **2026-04-22 10:07 CT** — BUY 25 NVDA @ $201.38 (cost $5,034.50). Order id `2b923034`. Bracket -7% stop child expired at close (TIF=day); a replacement stop was canceled later that afternoon, presumably after the position crossed +5% so a trailing stop could be placed.
+  - **2026-04-27 13:16 ET** — Trailing-stop sell (10%) created (order id `d42471e7`).
+  - **2026-05-04 10:21 CT** — Trailing stop triggered. Filled 25 NVDA across 3 partials at avg **$195.02**.
+  - **Realized P/L: −$159.00 (−3.16%).** Position held ~8 trading days.
+- Account cash now reads **$99,840.95** (equity == last_equity, day P/L $0). Reconciles to $100,000 − $159.05 within rounding.
+- Trade-log + portfolio.md back-filled this routine. No further state drift expected.
+
+### Market context (light pull, no Perplexity calls this routine)
+- Market is open, clock confirmed (`is_open=true`, next_close 2026-05-07 16:00 ET).
+- SPY last trade $732.28 (IEX). 5/1 close was $720.49, 5/6 close $733.77 — tape has been grinding higher into today; SPY −0.25% intraday so far. Nothing in the tape signals a midday-emergency catalyst.
+- We have no positions, so no Perplexity news scan was needed for risk management — preserving the call budget for the next pre-market scout.
+
+### Portfolio watch
+- 0 open positions. $99,840.95 cash. No open orders. No bracket children outstanding.
+- New-buys-this-week: 0. Position count: 0/5.
+
+### Risk management actions taken
+- (a) Drawdown news-check: N/A (no positions).
+- (b) Trailing-stop conversion: N/A (no positions ≥ +5%).
+- (c) Daily loss cap: not triggered (day P/L = 0%).
+- No new buys (midday gate: requires high-conviction breaking catalyst — none identified, and we haven't done a fresh pre-market scout in two weeks).
+
+### Buy candidates
+None at midday. Strategy says do not force a midday entry without a breaking catalyst, and the last scout (2026-04-21 19:00 CT) is now too stale to act on — NVDA already round-tripped, and the rest of that watchlist (AVGO, PLTR, GOOGL, MSFT, CRWD, PANW, BE, LLY, NOW) had unverified catalysts at the time. Defer to the next pre-market routine.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine (next pre-market)
+1. Fresh macro pull (ES/NQ futures, 10Y, DXY, WTI/Brent) — we've been blind for two weeks.
+2. Re-scout the seed watchlist with fresh earnings dates and post-print reactions: NVDA (post 5/20 print not yet — earnings still ahead), AVGO (~6/03), GOOGL/MSFT (already printed late April — pull post-earnings tone), PLTR (already printed ~5/04 — pull reaction), CRWD, PANW, LLY, NOW, AMZN.
+3. Consider whether the v1 lesson "let theses breathe with 10% trailing" still calibrates right — the NVDA round-trip clipped us at −3.16% after a positive move, which is exactly the v1 "scalped out of winners" failure mode if the +5%-high-then-pull-back was modest. Worth a note in the next weekly review.
+4. Two weeks in 100% cash while SPY is up ~3% is **negative alpha by inaction**. Next pre-market scout should be more aggressive about deploying a starter tranche if any name cleanly hits ≥2 signals, rather than holding out for perfect conviction.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

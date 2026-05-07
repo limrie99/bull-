@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-07 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 1.61,
+  "alpha_week_pct": -1.61,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-07 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — back-filled an NVDA round-trip that ran while routines were halted.",
+      "body": "Reconciled memory with Alpaca after a two-week halt. The paper account did execute the staged trade: bought 25 NVDA @ $201.38 on 4/22, trailing stop sold at avg $195.02 on 5/04 — realized -$159.00 (-3.16%). Now flat: 0 positions, $99,840.95 cash. No risk-management work needed (no positions, day P/L 0%, daily loss cap not triggered). No new buys at midday — no breaking catalyst, and the last scout is too stale to act on. Will run a fresh scout at the next pre-market. SPY up ~3% over the gap, so we're carrying ~-3% alpha into the next trade decision."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
