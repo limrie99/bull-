@@ -27,6 +27,31 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-07 08:32 CT — market-open
+
+### Status
+APIs live again — Alpaca clock returns `is_open=true` (next_close 16:00 ET), `/v2/account` returns equity $99,840.95 / cash $99,840.95, `/v2/positions` empty. SPY last trade $734.675 at 13:32 UTC. Telegram + Perplexity vars also present. First non-halted routine since the 2026-04-22 halts.
+
+### Decision: no trades at the open
+The pre-market research plan that's still in this log is from **2026-04-21 19:00 CT** — over two weeks stale. That plan recommended at most a $5K NVDA starter at the 2026-04-22 open, **conditional on a constructive macro tone** (ES > flat, 10Y < 4.30, WTI not gapped up). Two halts followed and no fresh scout has been run since. Per that same entry's explicit "Next steps" note: *"don't blindly execute last night's NVDA plan on stale context."* That applies even more strongly two weeks later.
+
+Strategy rules also bind:
+- We don't enter without **≥2 verified buy signals** from a fresh research pass.
+- NVDA's earnings date noted as 2026-05-20 AMC — at today's open (5/7) that's ~9 trading days out. Not yet inside the 3-day blackout, but close enough that I'd want a fresh thesis pass before committing capital.
+- Inbox is empty (no Pending), so no user override.
+
+### No actions taken
+- No buys placed.
+- No sells (no positions to sell).
+- Account snapshot refreshed; portfolio.md overwritten.
+
+### What needs to happen next
+1. Run a real **pre-market scout** before the next open with sub-agents fanned out over: macro (futures, 10Y, DXY, oil), 4/22→5/7 earnings season recap (what did MSFT/GOOGL/META/AMZN/NVDA say?), and a fresh ≥2-signal candidate sweep.
+2. Specifically re-validate NVDA: 5/20 earnings ~9 trading days out, AI-infra cycle still intact?
+3. Pull SPY 4/21→5/7 return so we can finally start tracking benchmark drift even on a flat book.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
