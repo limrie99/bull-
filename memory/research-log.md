@@ -27,6 +27,60 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-07 15:02 CT — market-close
+
+### Market context
+SPY closed $731.53 vs prior $733.77 → -0.305% on the day. Modest pullback after a strong Tue/Wed. 10Y, DXY, crude not pulled this routine — no positions to size, so macro detail isn't blocking any decision today. Bigger picture this week: SPY ripped +1.53% Mon→Thu, mostly on the 5/6 +1.39% candle.
+
+### Portfolio watch
+No open positions. $99,840.95 cash. Day movement = $0.
+
+### Memory reconciliation (important)
+Memory was stale from 4/22 12:00 CT through today because every intraday routine since had halted on missing env vars. Alpaca, however, kept executing the orders Bull placed at the 4/22 open. Reconstructed sequence from the broker:
+
+- **2026-04-22 10:07 CT** — BUY 25 NVDA @ $201.38 (OTO market) → committed $5,034.50.
+- **2026-04-22 10:07 CT** — Initial stop leg @ $187.12 placed as day order (expired same evening).
+- **2026-04-23 03:00 CT** — Replacement GTC stop @ $187.28 placed (-7% hard stop).
+- **2026-04-27 12:16 CT** — GTC stop canceled, replaced with 10% trailing stop (position had cleared +5%, per strategy rule). HWM tracked to $216.73.
+- **2026-05-04 10:21 CT** — Trailing stop fired at $195.0184. Sold 25 shares. Realized P/L **-$159.05 / -3.16%**.
+- **2026-05-04 → 2026-05-07** — Account fully in cash, no new entries.
+
+### Day summary
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 / 0.00% (fully cash)
+- **SPY day:** -0.305% (729.75 low / 736.10 high / 731.53 close vs 5/6's 733.77)
+- **Alpha today:** +0.305% (passive — being in cash on a down day, not skill)
+- **Trades placed today:** none
+- **Open positions:** none
+
+### Week-to-date (5/4 Mon → 5/7 Thu close)
+- Week start equity (5/1 Fri close): $99,954.75
+- Today close: $99,840.95
+- **Week P/L:** -$113.80 / **-0.114%**
+- **SPY week:** $720.49 → $731.53 = **+1.532%**
+- **Alpha WTD:** **-1.646%** — entirely a function of being stopped out 5/4 on the NVDA round-trip and then sitting in cash through the 5/5–5/6 leg up.
+
+### What worked
+- Trailing stop did its job mechanically — no discretion required, no emotional decision on the way down from $216.73.
+- Risk discipline held: no panic re-entry, no averaging down, no breach of guardrails despite memory being stale.
+
+### What didn't
+- The NVDA entry was a **low-conviction starter** (only 1 verified signal at the time of the 4/21 19:00 CT scout) and it round-tripped for a small loss. We took marginal risk and got a marginal-bad outcome — predictable.
+- Sitting in cash from 5/4 → 5/7 cost us **~1.65% of relative performance** vs SPY this week. The trailing stop is the right rule, but the absence of any new entries since 4/22 means we're not putting capital back to work after exits.
+- Memory pipeline failed for ~12 days. Routines were halting on env vars while live orders kept executing. The dashboard had no idea what the broker was actually doing.
+
+### Open questions for tomorrow (5/8 Fri pre-market & open)
+1. **Re-scout for new entries.** We haven't researched a fresh buy candidate since 4/21. SPY is at fresh recent highs ($731+) — we need a watchlist refresh: NVDA (post-stop reset, 5/20 earnings ~9 trading days out — likely INSIDE 3-day blackout window by next Wed), AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, plus any May earnings winners worth chasing.
+2. **Earnings calendar 5/8 → 5/15.** Need confirmed dates before any new buy. PLTR was 5/4 AMC per old scout — review the print's outcome before re-considering.
+3. **Was 5/6's +1.4% SPY day a breakout or a one-off?** Look at breadth, leadership, rates. Don't FOMO into a melt-up after we already missed the leg.
+4. **Weekly buy cap reset:** new week starts Mon 5/11. We have 0/3 buys used this week (Mon-Fri 5/4-5/8) — could still place up to 3 entries by Friday close if a clean setup emerges.
+
+### Notes
+- No Perplexity calls this routine — close-of-day reconciliation, not a research pass.
+- This entry restores the research-log continuity. The next pre-market routine should treat this as the starting context.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

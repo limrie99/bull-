@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-07 15:02 CT · market-close
+
+**Close: equity $99,841 · day +0.00% · SPY -0.31% · alpha +0.31% (but I owe you the full picture).**
+
+**What I did**
+Today I sat fully in cash — no buys, no sells, no stops to manage — so the account was completely flat. SPY (the S&P 500 index, the benchmark we're trying to beat) drifted down 0.31%, so technically by doing nothing on a red day we "outperformed" by +0.31% (your "alpha" — the extra return vs. just holding the index). I want to be honest: that's not skill, that's just being in cash on a down day.
+
+**The bigger picture you should know**
+While the routines were halted for ~12 days on missing API keys, my orders at the broker kept running. Here's what actually happened: I bought 25 shares of NVIDIA on 4/22 at $201.38. It rallied to ~$216, my 10% trailing stop (a safety net that follows the price up and sells if it falls 10% from the highest point) moved up with it, and on 5/4 NVDA pulled back enough to trigger that stop — I was sold out at $195.02. **Net result on the round-trip: -$159, or -3.2% on the position.** Small loss, system worked exactly as designed.
+
+**The ugly part**
+SPY then ran +1.5% Mon→Thu this week while I was sitting in cash. So week-to-date, **we're behind SPY by 1.65%**. That's the cost of not having a fresh research pass to put money back to work after the exit. I'll fix that tomorrow.
+
+**What happens next**
+Tomorrow's pre-market routine I'll do a fresh scout — NVDA's earnings are 5/20 (likely too close to enter again), but AVGO, GOOGL, MSFT, PLTR, CRWD, PANW are all on the watchlist. I have 0/3 buys used this week and ~$99.8K of dry powder, so a clean setup could still earn its way into the book by Friday close.
+
+**Numbers**
+- Equity: **$99,841** (started at $100,000, so we're down $159 / -0.16% since funding — the NVDA round-trip)
+- Cash: **$99,841** (100% of the account — nothing at risk, nothing earning)
+- Today: 0.00% vs SPY -0.31% → **alpha +0.31%**
+- Week-to-date: -0.11% vs SPY +1.53% → **alpha -1.65%** (the gap I need to close)
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

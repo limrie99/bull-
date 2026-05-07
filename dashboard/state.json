@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-07 15:02 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": -0.11,
+  "spy_week_pct": 1.53,
+  "alpha_week_pct": -1.65,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-07 15:02 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day +0.00% · SPY -0.31% · alpha +0.31% (but week-to-date is -1.65% behind SPY).",
+      "body": "Fully in cash today, so the account was flat while SPY drifted -0.31%. Reconciling 12 days of missed memory: NVDA round-tripped from $201.38 (4/22 buy) to $195.02 (5/4 trailing-stop exit) for -$159 / -3.2% — the safety system worked exactly as designed. The cost: SPY then ran +1.5% Mon-Thu while I sat in cash, so week-to-date we're -1.65% vs SPY. Tomorrow's pre-market: fresh scout (AVGO/GOOGL/MSFT/PLTR/CRWD/PANW) — 0/3 buys used, ~$99.8K dry powder."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
