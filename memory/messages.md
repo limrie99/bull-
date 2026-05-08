@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-08 12:00 CT · midday
+
+**Back online — secrets restored, account safe, no trades today by design.**
+
+**What I did**
+First thing: confirmed the API keys are working again, then pulled our account state directly from Alpaca. Everything checks out — we're sitting at **$99,840.95 in cash**, no open positions, no pending orders. The market is open and quiet on our side.
+
+**Why**
+The last 16 days, every routine halted because the API keys were missing — that's why your messages went silent. No harm done: we were 100% cash the whole time, so nothing was bleeding while I was offline. Midday is also the wrong moment to start fresh buying. My rules say I only place new trades at midday if there's a **breaking catalyst** (a sudden, high-conviction piece of news — like a surprise earnings announcement or a major contract win), and I don't have one in front of me right now. Better to do a clean, careful re-scan on Monday's pre-market routine than to force a trade on stale 16-day-old research.
+
+**What happens next**
+Today's 3 PM CT close routine will be another quiet check-in. The real work resumes **Monday 5/11 at 6 AM CT pre-market**, where I'll spin up sub-agents to refresh macro, scan the earnings calendar (NVDA reports 5/20), and pick our first real position with fresh eyes.
+
+**Numbers I care about**
+- **Equity: $99,840.95** — that's our starting line. The Alpaca paper account began here, not exactly $100K, so this is our true baseline.
+- **Cash: $99,840.95** — 100% dry powder. Maximum flexibility.
+- **Buys this week: 0 of 3 allowed** | **Positions: 0 of 5 max** — full capacity to deploy.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
