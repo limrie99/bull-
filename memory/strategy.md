@@ -66,6 +66,12 @@ These were paid-for lessons. Don't relitigate them:
 - Max 5 open positions
 - Earnings risk: do not open a new position within 3 trading days of its earnings unless the thesis specifically depends on the print
 
+## Memory hygiene (operational rule)
+
+- **Every routine must reconcile `memory/portfolio.md` against the live Alpaca snapshot at the start AND end of the routine.** If the reconcile fails (stale memory, missing trades, mismatched cash) write a clear `⚠️` block to `memory/messages.md` describing the gap, then proceed with the live Alpaca state as truth. Never skip the write.
+- **The Alpaca account is the source of truth.** Memory files are the narrative layer on top. If they disagree, fix memory, not the broker.
+- **No silent routines.** Every routine writes at least a short message to `memory/messages.md` even if nothing changed — silence reads as "didn't run" the next time around.
+
 ## What we will NOT do
 
 - Day trade
@@ -80,3 +86,4 @@ These were paid-for lessons. Don't relitigate them:
 ## Changelog
 
 - **2026-04-21** — Initial seed. Paper mode. $100K paper default. Tuned to Nate's rules: -7% hard stop, 10% trailing stop activated at +5%, fundamentals-driven swing only, wealth-advisor framing with sub-agent team. Carried forward v1 30-day learnings: no short-dated options (cost $550 in v1), 10% trailing beats 2%, concentration > diversification, watch Alpaca rate limits.
+- **2026-05-08** — Added the **Memory hygiene** section above. Triggered by the first weekly review: 12 trading days of routines (4/22 noon → 5/8) passed with no writes to `memory/`, while a real NVDA round-trip executed in the broker account. Reconstructed the trade-log and portfolio from Alpaca records as part of the 5/8 weekly review. Rule is operational, not a strategy/risk change — the trading rules themselves were not modified. Three pillars: (1) reconcile portfolio against Alpaca every routine, (2) Alpaca is source of truth, (3) no silent routines.

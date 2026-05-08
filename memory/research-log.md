@@ -27,6 +27,59 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-08 16:00 CT — weekly-review
+
+### Account & week metrics (Alpaca)
+- Starting equity (5/1 close, base_value): **$99,926.75**
+- Ending equity (5/8 close): **$99,840.95**
+- Week P/L: **−$85.80, −0.0859%**
+- SPY 5/1 close: $720.49 → 5/8 close: $737.54 → **+2.367%**
+- **Alpha vs SPY: −2.45%**
+- Open positions at close: **0** (all cash)
+- Cash: $99,840.95
+
+### Memory hygiene gap discovered
+The Alpaca account shows a complete NVDA round-trip (BUY 4/22, SELL 5/04) that **was never logged** in `memory/trade-log.md`, `memory/portfolio.md`, `memory/messages.md`, or `memory/research-log.md`. Last memory entry before today was 2026-04-22 12:00 CT (a halted midday routine). That's **12 trading days of routines that either never fired or fired without writing memory back.** Reconstructed the trade-log and portfolio from Alpaca records (orders + activities + portfolio history) as part of this review. Pattern to watch: every routine MUST overwrite `portfolio.md` from the live Alpaca snapshot per the CLAUDE.md loop step #5 — that step appears to have failed silently.
+
+### NVDA round-trip — full reconstruction from Alpaca
+| When (CT) | Action | Detail |
+|---|---|---|
+| 2026-04-22 10:07 | BUY | 25 @ $201.38 (3 partials, all $201.38) — $5,034.50 deployed (5.0% of portfolio). OTO stop $187.12 day-TIF (expired same day). |
+| 2026-04-23 03:00 | Stop replaced | New GTC stop @ $187.28 (−7.0% hard stop). |
+| 2026-04-27 12:16 | Trail activated | NVDA at $216.54 (+7.5% from entry). Hard stop canceled, **10% trailing stop** placed (HWM $216.73). Per strategy: +5% profit → switch to 10% trail. ✅ |
+| 2026-05-04 10:21 | SELL (stop hit) | 25 @ avg $195.0184 (3 partials: 7@$195.04, 12@$195.01, 6@$195.01). NVDA intraday low $194.76. P/L **−$159.04, −3.16%**. |
+
+### NVDA after our exit (the painful part)
+- 5/04 close: $198.56 (we sold at the day's near-low)
+- 5/05 close: $196.50
+- 5/06 close: **$207.67 (+5.7%)**
+- 5/07 close: $211.56
+- 5/08 close: **$215.21**
+
+If we'd held: 25 × $215.21 = $5,380.25 → **+$345.75, +6.87%** instead of −$159.04, −3.16%. Whipsaw cost = ~$505 of opportunity. The trailing stop did exactly what the rules say (HWM $216.73 → 10% trail → $195.057 → fill $195.02), but NVDA reversed within days. Classic trailing-stop tradeoff.
+
+### What worked
+- **Position sizing was disciplined.** Starter tranche at ~5% of portfolio per the 4/21 19:00 CT plan. No conviction-stretching.
+- **Trail switch executed cleanly.** When NVDA hit +5% on 4/27, the −7% hard stop was canceled and a 10% trailing stop replaced it — exactly the strategy rule.
+- **Loss was contained.** −3.16% on the position is well inside the −7% hard-stop ceiling and roughly half of what an unmanaged position would have given back (peak-to-bottom NVDA was −10.5% from $216.73 to $194.76).
+
+### What didn't work
+- **Single-signal entry.** Strategy says "need at least 2" buy signals. The pre-market scout flagged NVDA with only signal #3 (secular AI tailwind) verified — entry was rationalized as a "starter tranche" to bypass the 2-signal floor. That's the most reviewable decision of the week. With only one signal, a whipsaw was always probable.
+- **Held through a sector earnings dip with no plan.** NVDA dropped from $209.35 (4/29) to $199.54 (4/30) — likely sympathy with a peer print. We had no documented response plan for the dip; the trailing stop just rode it down to its trigger. A pre-defined "what would make me sell early" check at the 4/30 −10% drop might have saved a few dollars but more importantly would have re-tested the thesis.
+- **Memory hygiene collapse.** No routine wrote anything between 4/22 noon and today. We executed real money trades blind to our own memory. This is the biggest non-trade issue of the week — bigger than the −$159 loss.
+
+### Pattern recognition vs prior reviews
+This is the **first** weekly review (no priors). One whipsaw is not a pattern — strategy explicitly notes 10% trails were chosen specifically because v1's 2% trails got scalped out of winners. Don't tweak the rule on an n=1.
+
+### Strategy adjustment
+- **No change to trailing-stop or position-size rules.** One trade is noise.
+- **Added** a stronger memory-hygiene clause to `strategy.md`: every routine MUST reconcile `portfolio.md` against Alpaca live state at the start AND end. If the reconcile fails, that's the message — log the gap, don't paper over it.
+
+### Grade
+**C−** — small absolute loss (−0.09%) but big alpha gap (−2.45%) because we were in cash 80% of the week. The one trade we did make followed every rule but was a single-signal entry that whipsawed; the bigger problem is 12 days of silent routines.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
