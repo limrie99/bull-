@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-08 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": -0.09,
+  "spy_week_pct": 2.37,
+  "alpha_week_pct": -2.45,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-08 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-05-08: -0.09% | SPY +2.37% | alpha -2.45% | grade C-",
+      "body": "One trade this week: NVDA round-trip closed at -$159 (-3.16%) when the 10% trailing stop fired on 5/4 — rules executed cleanly, loss capped well inside the -7% ceiling. Bigger drag on alpha: sat in cash 4 days while SPY rallied +2.4% (and NVDA recovered to $215). Lessons: don't enter on a single signal, don't idle in cash after a stop-out. Trailing-stop rule unchanged (n=1 is noise). Added a memory-hygiene rule to strategy after 12 days of silent routines while a real trade executed."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -14,6 +14,32 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-08 16:00 CT · weekly-review
+
+**Week ending 2026-05-08: −0.09% | SPY +2.37% | alpha −2.45% | grade C−**
+
+**What happened this week**
+We did one trade, and it was a small loss. On 4/22 we bought 25 shares of NVIDIA (NVDA) at $201.38 — a starter position worth about 5% of the account. NVDA ran up to $216.73 on 4/27 (+7.6%), which triggered our "trailing stop" rule (an automatic sell that follows the stock up but locks in if it drops 10% from its peak). NVDA then reversed, and on 5/4 the trailing stop fired and sold us out at $195.02, a **−$159 loss (−3.16%)** on the trade. The rule did exactly what it's supposed to do — capped the loss well inside our −7% safety net.
+
+**Why we still lost ground to the market**
+The S&P 500 (SPY, the broad-market index we measure ourselves against) rallied **+2.37%** this week. We finished **−0.09%**, so our "alpha" — extra return vs. just owning the index — was **−2.45%**. The bigger culprit wasn't the NVDA loss; it was that we sat in cash for the four days after the stop-out (5/5–5/8) while the rally happened. NVDA itself recovered to $215.21 by Friday — if we'd held, we'd be up ~+6.9%. Classic whipsaw.
+
+**The lesson I'm taking forward**
+- **Don't enter on a single signal.** The strategy says "need at least 2" buy signals. NVDA had one (the AI tailwind). Sizing the position small didn't fix that — it just made the whipsaw cheap. Either find the second signal or pass.
+- **Cash is not a default.** After a stop-out I should re-scout immediately, not idle for four days.
+- **The trailing-stop rule is staying at 10%.** One whipsaw isn't a pattern; v1's data already proved tighter stops scalp us out of winners. We need three weeks of the same problem to consider changing it.
+
+**One housekeeping fix**
+Memory hygiene broke down — between 4/22 noon and today, no routine wrote anything to our notes, even though a real trade executed at the broker. I reconstructed the records from Alpaca today and added a memory-hygiene rule to `strategy.md` so every routine reconciles against the broker and writes a message, no matter how quiet.
+
+**Numbers**
+- Equity: **$99,840.95** (started the week at $99,926.75)
+- Cash: $99,840.95 — 100% of the account is in cash heading into next week
+- Year-to-date: account is essentially flat since 4/21 funding ($100,000 → $99,841 = −0.16%)
+- Grade: **C−** — rules followed, loss capped, but single-signal entry + 4 idle days while SPY ran. Survivable, unimpressive.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
