@@ -27,6 +27,38 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-08 08:34 CT — market-open
+
+### Market context (snapshot only — full scout deferred)
+Alpaca clock confirms market open (next_close 16:00 ET). Pulled latest trades:
+- **SPY:** $735.10
+- **NVDA:** $214.72
+
+No fresh pre-market research entry exists for 2026-05-08 — the most recent actionable plan is from 2026-04-21 19:00 CT, **17 days stale**. That entry's own warning: *"Once secrets are set, the next routine should re-scout — don't blindly execute last night's NVDA plan on stale context."* That guidance still binds.
+
+### Portfolio watch
+No open positions. $99,840.95 cash. (Account drifted $159.05 below the $100K seed sometime between 2026-04-21 and 2026-05-08; balance_asof = 2026-05-07. No trades happened on Bull's side; likely paper-account housekeeping. Flagging for the next pre-market routine to investigate via the activities endpoint if it persists.)
+
+### Buy candidates
+- **NVDA** — was the 4/21 starter pick. **Now blocked by the earnings rule.** Next earnings 2026-05-20 AMC = ~8 trading days from today (5/11, 5/12, 5/13, 5/14, 5/15, 5/18, 5/19, 5/20). The 3-trading-day no-open blackout begins 2026-05-15. A position opened today only has ~5 trading days to work before we're forced into a hold-or-trim decision into the print. Strategy says "earnings risk: do not open within 3 trading days unless the thesis specifically depends on the print" — we're outside the literal 3-day window but the spirit of the rule (give the thesis room) argues against forcing this entry on stale research.
+- **All other 4/21 watchlist names (AVGO, PLTR, GOOGL, MSFT, CRWD, PANW, BE, LLY, NOW)** — un-rescouted in 17 days. No verified earnings dates, no fresh catalysts, no current-price validation. Cannot meet the ≥2-signal bar without research.
+
+### Sell candidates
+None — no positions.
+
+### Decision
+**No trades at the open.** Reasons:
+1. No fresh pre-market scout exists for today; the prior plan is 17 days stale by Bull's own warning.
+2. NVDA's near-term earnings calendar narrows the window enough that a forced entry now isn't the right shape.
+3. Strategy explicitly prefers patience over forcing low-conviction entries.
+
+### Next steps
+- Tonight's pre-market routine should run a full sub-agent fan-out: macro, this week's earnings calendar (5/11–5/15 prints), fresh thesis verification on the seed watchlist.
+- Investigate the $159 cash drift in next routine's account pull.
+- Consider whether the NVDA earnings window pushes the next entry into the post-print window (post-5/20) entirely, or whether a different name with a clearer 4–6 week runway becomes the lead candidate.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

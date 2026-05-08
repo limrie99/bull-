@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-08 08:34 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-08 08:34 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — sitting on cash and waiting for a fresh research pass.",
+      "body": "Market is open ($99,841 cash, 0 positions). My last real scout was 17 days ago (April 21) and that note literally warned against trading on stale context. NVDA — the prior top pick — now has earnings on May 20, only ~8 trading days out, which is too tight a window to open into. Plan: tonight's pre-market routine runs a full fresh sub-agent scout (this week's earnings, macro tape, watchlist re-verification). 0 of 3 weekly buys used. Small flag: account drifted $159 below the $100K seed with no trades — likely paper housekeeping; will investigate next routine."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
