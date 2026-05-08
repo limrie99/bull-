@@ -27,6 +27,80 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-08 06:00 CT — pre-market
+
+**Account snapshot:** $99,840.95 cash, 0 positions, no open orders. Buying power $199,681.90 (margin enabled but strategy is cash-only). Alpaca + Perplexity APIs both responsive — first fully clean routine since 4/21.
+
+**Tape context (Alpaca SPY bars, IEX feed):** SPY closed $733.77 on 5/6, up from $703.91 on 4/21 (+4.2% over ~2.5 weeks). 5/7 close not in IEX yet but futures imply flat-to-up. Trend is clearly up. Bull starts the run already behind SPY by ~4% benchmark — first real opportunity to deploy capital is Monday 5/11.
+
+### Market context
+
+**Mixed, leaning cautiously risk-on.** Three sub-agents (macro, earnings, opportunity scout) ran in parallel via Perplexity sonar-pro.
+
+- **Futures (overnight):** ES ~+0.03% (flat), NQ ~−0.01% (flat), YM n/a. Premarket dead-flat heading in.
+- **Rates:** US 10Y ~4.37%, ~−1 to −2 bps overnight. 2Y n/a. Mild bond bid is constructive for duration-sensitive growth names.
+- **FX / commodities:** DXY n/a, WTI n/a, Brent unverified (one stale source flagged >$112 on Mideast tensions; do not treat as live). Energy still a swing factor; treat as data gap.
+- **Asia / Europe (directional, not live quotes):** Nikkei ~+0.4%, Hang Seng ~−0.6%, DAX ~+0.2%, FTSE ~+0.1%, Stoxx 600 n/a.
+- **Top headlines:** (1) AI capex tailwind sustaining US equity rally — Capital Economics floats S&P 8,000 path. (2) China stuck in low-growth/deflation, no major stimulus pivot — drag on cyclicals/materials. (3) Trade-war tensions lingering post Xi–Trump deal; one-year sunset clause = 2026 tariff flare-up risk. (4) Geopolitics #1 risk in McKinsey Q1 exec survey (72%, up from 51%). (5) US/UK/France fiscal strain backdrop. No fresh Fed speakers / CPI / China prints overnight.
+- **US data today (2026-05-08):** NFP already printed 5/1; CPI/PPI not today. UMich Consumer Sentiment preliminary *might* land today (typical second-Friday slot) but unverified — treat as n/a until confirmed. No Fed speakers confirmed.
+- **Net read:** equities can grind higher on the AI/earnings narrative, but there's no fresh positive catalyst forcing a chase. Geopolitics + China weakness keep me from sizing aggressively. Wait for the cash open and confirm levels.
+
+### Earnings calendar
+
+**Earnings-light today.** Perplexity could not surface confirmed large-cap BMO reporters for 5/8 (data gap — flag). Only AMC name surfaced was AMCX (sub-$10B, not in universe). 
+
+**Last night's AMC mover:** **AMD beat — EPS ~$1.37 vs ~$1.29, rev ~$10.25B vs ~$9.89B (+38% YoY), RAISED full-year guide.** This is a positive read-through to NVDA, AVGO, MU, ANET — the AI-infra/semis tape should open firm.
+
+**Next week's gate (5/12–5/16):**
+- BABA — Thu 5/14 BMO (China ADR, outside universe)
+- JD — Thu 5/14 BMO (China ADR)
+- **CSCO — Fri 5/15 AMC** (S&P 500, networking — 3-day blackout = 5/13–5/15)
+- **AMAT — Fri 5/15 AMC** (semis equipment — 3-day blackout = 5/13–5/15)
+- Mon 5/11, Tue 5/12, Wed 5/13 — no large-caps confirmed (data gap; double-check before any new buy)
+
+### Portfolio watch
+
+No open positions. Nothing to monitor.
+
+### Buy candidates
+
+Three Perplexity calls produced **2 clean ≥2-signal candidates** with verified data. Documenting honestly per strategy.
+
+- **PLTR — Palantir (AI/government software) — HIGH conviction.** Three signals verified:
+  1. **(1) Earnings beat + raised guidance** — printed 5/4/2026: EPS $0.33 vs $0.28 est, rev $1.633B vs $1.54B (+85% YoY). FY26 rev guide raised to $7.650–7.662B; Q2 guide $1.797–1.801B (above $1.68–1.70B Street). US rev +104% YoY.
+  2. **(4) Analyst upgrade** — Rosenblatt 5/5/2026: PT to $225 from $200, Buy.
+  3. **(3) Secular tailwind** — AI/government software, core thesis intact.
+  Next earnings: ~Aug 2026 (Q2). Well clear of any blackout. **Risks:** ran hard post-print; Michael Burry disclosed a short; valuation rich; crowded long. Do not chase the open — prefer a starter on a quiet day or after a 1–3% pullback.
+- **NVDA — NVIDIA (AI infra semis) — MEDIUM-HIGH conviction.** Two signals:
+  1. **(3) Secular tailwind** — AI infrastructure leader.
+  2. **(2) Catalyst within 30 days** — earnings 2026-05-20 AMC (12 days out, outside 3-day blackout). AMD beat last night reinforces the read-through.
+  **Risk:** holding through earnings is event risk; strategy lets us either trim before 5/20 or accept the print.
+- **NYT — New York Times (Comm Services) — MEDIUM, deferred.** Earnings beat this week + raised guide; comm services led S&P sectors Q1. But ~$10B mcap (right at the universe floor), lower volume. Skip unless we run out of better ideas.
+
+**Names checked but not actionable today:** AVGO, GOOGL, MSFT, META, AAPL, AMZN, CRWD, PANW, NOW, LLY, NVO, JPM, COST, TSM, ANET, MU, ORCL, CRM — Perplexity returned `n/a` on recent earnings/upgrades/catalysts. Re-query Monday pre-market with narrower questions per name. UNH, CVS, PWR, DGX flagged as having raised guidance but specific numbers `n/a` — worth a deeper sub-agent dive next routine.
+
+### Sell candidates
+
+None — no positions.
+
+### Plan for Monday 5/11 open
+
+1. **Re-validate** PLTR thesis at Monday open — confirm price hasn't gapped >3%, reconfirm post-Burry headlines, check if PLTR moved hard Friday.
+2. **Starter PLTR** — target 10–12% of portfolio (~$10–12K) with −7% bracket stop. Sizing is medium (high conviction but elevated valuation risk).
+3. **Consider NVDA starter** — 5–7% of portfolio if AMD-driven semi strength holds into Monday and macro tone is constructive. Plan to either trim before 5/20 print or accept event risk on a small starter. Skip if futures gap risk-off or 10Y > 4.45%.
+4. **Hard pass on CSCO and AMAT** all of next week — both inside Friday 5/15 earnings blackout from 5/13 onward, and tight enough that a Mon/Tue entry leaves no thesis-runway either.
+5. **Weekly buy budget:** up to 3 new positions allowed; conservative target is **2 buys** next week (PLTR + NVDA), leave one slot for a fresh catalyst.
+
+### Notes / research gaps to close next routine
+
+1. Confirm UMich Consumer Sentiment print (today, ~10:00 ET) — moves the tape if surprise.
+2. Pull live PLTR and NVDA quotes Monday open before sizing (no live SIP feed on this account; use IEX bars + Alpaca latest trade).
+3. Re-query AVGO, ANET, CRWD, MU, AMZN with narrower per-name Perplexity calls on Monday — the broad sweep was too thin.
+4. Verify UNH, CVS, PWR, DGX guidance-raise specifics.
+5. Watch AMD itself today — if it gives back the gap up, the AI-infra read-through weakens.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

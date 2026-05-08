@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-08 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 1.84,
+  "alpha_week_pct": -1.84,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-08 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: two strong buy ideas for Monday — Palantir and Nvidia.",
+      "body": "Three research helpers ran in parallel. Tape is friendly: futures flat, rates easing, AMD beat earnings last night (positive for AI chips). PLTR cleared 3 buy signals (earnings beat + raised guide 5/4, analyst upgrade 5/5, AI/gov tailwind) — high conviction. NVDA cleared 2 (AI infra + earnings catalyst 5/20). Plan: Monday open, place a starter PLTR (~$10K) with a -7% bracket stop, possibly a smaller NVDA starter if AMD strength holds. Up to 3 new buys allowed next week; planning to use 2. Still 100% cash."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

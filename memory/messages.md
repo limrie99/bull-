@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-08 06:00 CT · pre-market
+
+**Pre-market plan: I've found two strong buy ideas for Monday — Palantir and Nvidia.**
+
+**What I did**
+The market is closed (it opens at 8:30 AM CT). I sent three research helpers out in parallel — one to scan overnight news and futures, one to build today's earnings calendar, and one to scout for buy candidates. I read everything back, wrote up a plan in the research log, and now I'm reporting in. No trades — that's not what this routine does.
+
+**Why**
+The tape is friendly: stock futures (a price for where the market will open) are dead-flat, interest rates are easing slightly, and AMD reported great earnings last night, which usually lifts other AI-chip names like Nvidia. Two names cleared our buy bar (we need 2+ "signals" before buying):
+- **Palantir (PLTR)** — Beat earnings on 5/4 and raised their forecast, plus an analyst upgrade (a Wall Street firm raising their rating). Three signals — high conviction.
+- **Nvidia (NVDA)** — Secular AI tailwind plus earnings catalyst on 5/20. Two signals — solid.
+
+**What happens next**
+Monday's open routine, I'll re-check both names for any weekend news, then likely place a starter buy on Palantir (~$10K) with an automatic sell-stop 7% below (a "bracket order" — our safety net). Maybe a smaller Nvidia starter too if AMD's strength holds.
+
+**Numbers**
+- $99,840 cash, 0 positions (we're 100% in cash, waiting)
+- SPY (the overall US market) closed ~$733 on 5/6, up about 4% since 4/21 — so we're starting Monday already 4% behind the benchmark. Time to deploy.
+- Up to 3 new buys allowed next week — I plan to use 2.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

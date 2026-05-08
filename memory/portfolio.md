@@ -1,10 +1,10 @@
 # Portfolio
 
-**Last updated:** 2026-04-21 17:00 CT (pre-market routine)
-**Cash:** $100,000.00
-**Total equity:** $100,000.00
-**Day P/L:** $0.00 (0.00%)
-**Week P/L:** — | SPY week: — | Alpha: — (first run)
+**Last updated:** 2026-05-08 06:00 CT (pre-market routine)
+**Cash:** $99,840.95
+**Total equity:** $99,840.95
+**Day P/L:** $0.00 (0.00%) — market closed, no positions
+**Week P/L:** $0.00 (0.00%) | SPY week: ~+1.9% (5/1 close $720.49 → 5/6 close $733.77, IEX) | Alpha: ~−1.9% (we're in cash while SPY ran)
 
 ## Open positions
 
