@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-08 15:10 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": -0.09,
+  "spy_week_pct": 2.37,
+  "alpha_week_pct": -2.46,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-08 15:10 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,840.95 · day 0.00% · SPY +0.82% · alpha −0.82%",
+      "body": "Back online after a 2-week halt (API keys restored). Zero positions, zero trades today. SPY +0.82% on the day, +2.37% on the week — we sat in cash through it, so week alpha is −2.46%. Plan: fresh pre-market scan Monday; earnings season has cleared, so the watchlist is wider now. Won't chase an already-up-2% market — looking for a pullback to lean into."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

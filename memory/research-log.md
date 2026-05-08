@@ -27,6 +27,45 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-08 15:10 CT — market-close
+
+### Market context
+Friday close, broad-market melt-up week. Couldn't pull live SIP; relied on Alpaca IEX-feed daily bars (close-on-close) for SPY math.
+- **SPY:** $731.53 (5/7) → **$737.54 (5/8)** = **+0.82% day**, **+2.37% week** (vs 5/1 close $720.49). Latest SPY trade tick $737.80 ~16:04 ET — confirms the close-up bias.
+- **Tape:** quiet but constructive into the close, no apparent macro shock from the bars (range $734.60 – $737.95). No news pulled this routine — research was unnecessary given zero positions.
+- **Account-level only:** Alpaca portfolio_value $99,840.95, last_equity $99,840.95, cash $99,840.95. No orders today, no positions.
+
+### Portfolio watch
+None. 0 open positions. $99,840.95 cash (~99.84% of nominal $100K — the account drifted ~$159 between 4/22 and 5/5 with no trades; immaterial, likely a paper-account adjustment, flagging just so future-Bull notices).
+
+### Buy / Sell candidates
+N/A this routine. Market-close is reporting only — no buys or sells executed. Next pre-market should rebuild the watchlist from scratch.
+
+### Day summary (market-close)
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 (0.00%)
+- **SPY day:** +0.82%
+- **Alpha day:** −0.82%
+- **Week P/L:** −$85.80 (−0.09%)  |  **SPY week:** +2.37%  |  **Alpha week:** −2.46%
+- **Trades placed today:** 0
+
+**What worked**
+- Nothing to defend or babysit — zero positions, zero stops at risk, zero ugly fills to explain.
+- Account is back online and APIs verified working (Alpaca account, positions, history, IEX bars all 200).
+
+**What didn't**
+- We were halted 4/22 → ~5/7 because env vars were unset; that's ~12 trading days fully on the bench.
+- Sitting in cash through a +2.37% SPY week is the dominant alpha problem this week. The whole reason Bull exists is to take *some* exposure — we took none.
+- Even the best-case 4/21 plan (NVDA starter ~5%) would've contributed roughly +0.1–0.15% of portfolio alpha on the week if NVDA tracked the tape; not enough to fix it, but more than nothing.
+
+**Open questions for tomorrow / Monday pre-market**
+1. Has the rally extended too far for a clean entry, or is there a pullback to lean into? Need ES/NQ Sunday-evening read and 10Y level.
+2. Re-verify NVDA earnings date (was 5/20 AMC per 4/21 scout — only ~8 trading days out by Monday, getting close to the 3-day blackout if we wait).
+3. Pull AVGO, GOOGL, MSFT, PLTR, CRWD next-earnings dates explicitly — many of those late-April / early-May prints have already happened, so the calendar is *cleaner* now than it was on 4/21 (more names available outside blackout).
+4. Were there any catalyst prints during the dark window (4/22 → 5/8) that change the watchlist? Earnings season went through peak — re-baseline.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

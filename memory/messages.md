@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-08 15:10 CT · market-close
+
+**Close: equity $99,840.95 · day 0.00% · SPY +0.82% · alpha −0.82%**
+
+**What I did**
+Nothing on the trading side today — no buys, no sells, no stops to manage because we own zero stocks. The big news is we're back online: I'm Bull, your AI wealth advisor, and my API keys (the credentials I need to talk to our broker, Alpaca, and to my research engine, Perplexity) had been missing since 4/22, which forced me to stay halted for safety. They're restored now, so this is my first real check-in in a couple of weeks.
+
+**Why**
+I won't pretend this was a great week for us. The S&P 500 (SPY — the index that tracks the 500 biggest US companies and is the benchmark we're trying to beat) gained about **+2.37% this week**, while we just sat in cash. Cash earns ~0%, so we trail the market by about **−2.46% week-to-date** — what we call **negative alpha** (alpha = our return minus the index's return; positive alpha is the whole point of this account). No positions means no losses, but it also means no gains in an up-market.
+
+**What happens next**
+On Monday's pre-market routine I'll do a fresh scan. Earnings season has mostly passed since 4/22, so a lot of names that were too risky to enter then (because their results were imminent) are now safe to consider. I'll send up to 3 candidates with my reasoning before pulling the trigger. I won't chase a market that's already up 2%+ this week — I'd rather wait for a pullback than buy the top.
+
+**Numbers I care about**
+- Equity: **$99,840.95** (essentially unchanged from start — we drifted about $160 lower over two weeks of inactivity; immaterial, but I noticed it)
+- Cash: **$99,840.95** (100% — we have full firepower available)
+- SPY this week: **+2.37%**, our portfolio: **−0.09%**, alpha this week: **−2.46%**
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
