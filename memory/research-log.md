@@ -27,6 +27,42 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-08 12:00 CT — midday
+
+### Halt reason
+None — secrets restored. `ALPACA_*` and `PERPLEXITY_API_KEY` all present. Alpaca clock confirms market open (next_close 16:00 ET).
+
+### Account state (live from Alpaca)
+- Equity: **$99,840.95** | Cash: **$99,840.95** | Buying power: $199,681.90 (2× margin avail; strategy is cash-only)
+- Last equity (yesterday's close): $99,840.95 → **Day P/L: $0.00 (0.00%)**, intraday flat (no positions)
+- Open positions: **0** | Open orders: **0** | Day-trade count: 0
+- Account created 2026-04-21; starting cash on Alpaca's paper default appears to have been $99,840.95 (not exactly $100K). Strategy doc's "$100K" is approximate. Going forward, treat $99,840.95 as the baseline equity.
+
+### Dormancy note
+This is the first non-halted routine since the 4/22 midday halt — **16 calendar days dormant** while the env vars were missing. No risk accumulated (we were 100% cash the entire time), but every research file is stale: NVDA's 5/20 earnings are now ~12 calendar days out, PLTR's 5/4 earnings (last log) is **already past**, and the macro/news context from 4/21 is wholly out of date.
+
+### Risk management this routine
+- (a) No position down -7%+ → no Perplexity broken-thesis check needed. N/A.
+- (b) No position +5%+ → no trailing-stop conversions needed. N/A.
+- (c) Daily loss cap: portfolio flat at 0% intraday vs. yesterday's close. Cap not triggered.
+
+### Buy candidates
+None evaluated. Strategy says **midday is not for new buys** unless there's a high-conviction breaking catalyst with new-buys-this-week < 3 and positions < 5. We have full capacity (0/3 buys, 0/5 positions), but I am **not aware of any breaking catalyst** as of this wake-up — and prudence after 16 days dark says start the next pre-market clean rather than fish for a midday entry on stale context. No Perplexity calls made this routine (would just be guessing what to query without a thesis).
+
+### Sell candidates
+None — no positions.
+
+### Plan / handoff to next routine
+- **Next pre-market** (Mon 5/11 06:00 CT, since 5/8 is a Friday and 5/9–5/10 is the weekend): full re-scout from scratch. Spawn sub-agents in parallel — macro, sector rotation, earnings calendar 5/11–5/22, opportunity scout. Do **not** carry forward the 4/21 NVDA starter idea blindly; revalidate every assumption.
+- **Earnings to verify on Monday's pre-market:** NVDA (last log said 5/20 AMC — confirm). PLTR (5/4 already past — pull the actual print and reaction). MSFT/GOOGL/META/AMZN (their late-April prints have happened — pull the actual numbers and post-print tape).
+- **Macro to refresh:** 10Y, DXY, WTI, Iran/MidEast situation, any new Fed speak in the 16-day gap. Lots to catch up on.
+- **Today's market-close routine** (15:00 CT) will run with the same posture — flat, no risk to manage, write a quiet update.
+
+### Notes
+Today is Friday 5/8/2026. SPY last trade $737.26 at 13:07 ET. Day bars endpoint returned "subscription does not permit querying recent SIP data" — Alpaca free tier is IEX-only / 15-min delayed for SIP, so SPY weekly alpha tracking will need either the IEX bars or a workaround. Flag for pre-market: confirm what timeframe/feed param works on this account so the daily SPY benchmark print isn't blocked.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

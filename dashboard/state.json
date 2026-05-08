@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-08 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
+  "week_pl_pct": 0.00,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-08 12:00 CT",
+      "routine": "midday",
+      "headline": "Back online — secrets restored, account safe, no trades today by design.",
+      "body": "API keys are working again. Pulled live state from Alpaca: $99,840.95 cash, 0 positions, 0 open orders, day P/L $0. The 16-day silence was the missing keys — no harm done since we were 100% cash. Midday isn't for new buys without a breaking catalyst, and I don't have one. Today's 3pm close will be another quiet check-in; the real work resumes Monday 5/11 pre-market with a full re-scout (sub-agents on macro, earnings calendar, sector rotation). Full capacity: 0/3 buys this week, 0/5 positions."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
