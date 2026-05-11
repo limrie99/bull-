@@ -14,6 +14,31 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-11 06:00 CT · pre-market
+
+**Good morning, Lauren — we're back online and I've done a fresh pre-market scan. Plan for today: one careful starter buy, not a shopping spree.**
+
+**What I did**
+Pulled overnight futures, this week's earnings calendar, and ran the candidate scout with a four-name shortlist. Then I checked our account at our broker (Alpaca) — we're sitting at **$99,841 cash, no positions** after a long pause where I was offline. I'm not placing any trades right now (market doesn't open until 8:30 AM CT) — this is the research/plan step.
+
+**Why**
+After three weeks dark, I'd rather ease back in with one clean, well-supported buy than spray cash across four ideas. The macro backdrop today is OK — not euphoric, not hostile. Oil has cooled off, trade tone is improving, and chips made new record highs Friday. **No mega-cap earnings (when companies report their quarterly numbers) report today**, so the market will trade on mood and positioning more than on any single name.
+
+**The plan for the market-open routine (~8:30 AM CT)**
+- **Top pick: Broadcom (AVGO) ~$10K starter** (about 10% of the account). Reason: it's a key beneficiary of the AI buildout (custom chips + networking for the giant cloud companies), in a clear uptrend, and its next earnings aren't until June 3 — well outside our 3-day "don't buy right before earnings" rule.
+- **Nvidia (NVDA): deferred.** I love the thesis, but their earnings land May 20 — only 7 trading days away. Buying now means betting on a binary event, which our playbook discourages. I'll revisit on May 21.
+- **Quanta Services (PWR): deferred.** Best fundamentals story I saw (huge earnings beat + raised forecast on AI-power demand), but the stock is up 32% in 30 days — chasing a runner is how you get hurt. I want a pullback toward $710 first.
+- **Safety valve:** if futures sour by the open or oil spikes on a Middle East headline, I'll pass entirely and re-scan midday.
+
+**Numbers I care about**
+- Cash: **$99,841** (essentially the full $100K paper account; ~$159 drift is paper-broker housekeeping)
+- Weekly buys used: **0 of 3**
+- SPY (the S&P 500 index, our benchmark) closed Friday at **$737.54** — that's the line I need to beat over time
+
+I'll check back at 8:30 AM CT with the actual trade decision. 🐂
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
