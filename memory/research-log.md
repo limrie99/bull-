@@ -27,6 +27,83 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-11 06:00 CT — pre-market (for 5/11 open)
+
+**Status:** Live. Env loaded, Alpaca + Perplexity verified. Account snapshot: **$99,840.95 cash, 0 positions, equity $99,840.95** (3-week gap since 4/22 halts; account drifted ~$159 from $100K — likely paper-account housekeeping, not material). Three sub-agents fanned out in parallel: macro, earnings, opportunity scout.
+
+### Market context
+
+Tone: **constructive-to-mixed**. No major US data risk pre-10:00 ET.
+
+- **ES (~7,408, −0.15%)** overnight. NQ level n/a from Perplexity.
+- **US 10Y, DXY, WTI/Brent levels** — n/a from Perplexity this pass. **Brent qualitatively rolled back to ~$100 from ~$108 last week** as the Iran risk premium bled out after CENTCOM "self-defense" strikes (May 8) that didn't escalate. That's a tailwind if it holds.
+- **EU-US trade tone improving** — auto-tariff threat fizzled; deal "near."
+- **Semis hit record highs Friday** on reported Apple-Intel deal; chip leadership intact.
+- **US data today (5/11):** 10:00 ET Existing Home Sales (high impact). Treasury bill (11:30 ET) + 3Y note (13:00 ET) auctions. No CPI/PPI/jobs. No Fed speakers flagged.
+- **Live wire:** if crude snaps back above $105 on any Iran headline, downgrade to hostile.
+
+### Portfolio watch
+
+No open positions. $99,840.95 cash, $199,681.90 buying power (2× margin; strategy is cash-only, no leverage).
+
+### Earnings calendar (week of 5/11–5/15)
+
+- **Today BMO/AMC:** No $10B+ caps confirmed by Perplexity. Light single-name vol — Monday will likely trade on macro/positioning, not earnings.
+- **This week marquee (timing unconfirmed in fresh pull):** mega-cap banks **JPM, GS, MS, BAC, C** flagged as likely early-week BMO — read on consumer credit, NIMs. **BLK** asset-manager bellwether. **AMAT** semi-cap-equipment AI-capex read. Retail bellwethers (WMT, HD, TGT, LOW) not confirmed for this week. **Bull must verify any earnings date via Alpaca calendar / IR before opening a financials, semi-cap, or retail position this week** (3-trading-day blackout rule).
+- **Friday AMC / weekend:** nothing material from mega-caps.
+
+### Buy candidates
+
+Scout flagged genuinely low verification quality this cycle — many May-2026 catalysts came back UNVERIFIED in Perplexity. Reporting honestly.
+
+1. **AVGO ($429.86, ~$2.0T)** — Conviction: **med-low**
+   - Signals: (3) AI custom-silicon + networking tailwind, hyperscaler-capex beneficiary. (6) uptrend, semis at record highs.
+   - Next earnings: **~2026-06-03 AMC (confirmed via Zacks/MarketBeat/IR)** — 16 trading days out, clear of blackout.
+   - Single verified secular-tailwind signal + uptrend; no fresh catalyst or upgrade confirmed. Sits at the **minimum 2-signal bar**.
+   - Suggested size if entered: 10–12% (~$10K–$12K).
+
+2. **NVDA ($215.21, ~$5.2T)** — Conviction: **med**
+   - Signals: (3) AI infra tailwind (hyperscaler capex >$725B/yr per multiple Perplexity sources). (6) uptrend (chips at record highs).
+   - Next earnings: **2026-05-20 AMC (confirmed query 1, not re-verified)** — **7 trading days out, just outside the 3-day blackout.** Either size down or plan to trim/exit before the print.
+   - Suggested size if entered: **starter 5–8% (~$5K–$8K)** given the close-in print. Strategy says "do not open a new position within 3 trading days of earnings unless thesis depends on the print" — we're just outside that, so a small starter is allowed but the prudent move is to defer to post-print and avoid binary risk.
+
+3. **GOOGL ($400.10, ~$4.9T)** — Conviction: **low-med**
+   - Signals: (3) hyperscaler AI tailwind ("owns model + infra"). Past Q1 print → out of blackout.
+   - No verified upgrade or fresh catalyst. Pure thematic AI exposure, overlapping with NVDA/AVGO.
+   - Suggested size if entered: 10%.
+
+4. **PWR ($744.84, ~$110B)** — Conviction: **med, but DO NOT chase**
+   - Signals: (1) Q1 4/30 beat (EPS $2.68 vs $2.03, rev $7.87B vs ~$7B) **AND raised FY26 guide** ($34.7–35.2B rev / EPS $13.55–14.25, record $48.5B backlog). (3) onshoring/grid build-out tailwind, directly tied to AI data-center power demand.
+   - Cleanest 2-signal fundamentals case on the board. **But stock is +32% in 30 days, +48.9% YTD — buying at the open = chasing a runner.** Wait for a pullback toward $700–$710 area.
+   - Suggested size if entered (on pullback): 10–12%.
+
+5. **Watchlist additions for verification next routine:**
+   - **ANET ($141.73)** — AI-networking peer of AVGO. Verify next-earnings date + upgrade history.
+   - **GEV ($1,040.04)** — grid/power-infra peer of PWR, same AI-power thesis.
+   - **CEG ($303.50)** — nuclear/data-center power.
+   - **VRT ($340.23)** — data-center cooling/power.
+
+**Net read for Bull, market-open routine:**
+
+- **Today is the first real trading day after a 3-week halt** (4/22 onwards halted for missing keys). Don't rush to deploy all cash; ease in.
+- **Macro tape is acceptable** to open longs — not euphoric, not hostile.
+- **Recommended market-open plan:** open **AVGO 10–12% (~$10K)** as the cleanest verified ≥2-signal entry available. Defer NVDA (earnings 5/20, binary risk too close — revisit post-print 5/21). Defer GOOGL (thematic overlap with AVGO already covered). Defer PWR (chasing — wait for pullback). Defer financials until earnings dates verified.
+- **If ES turns flat-to-down at 6:30 AM CT scan or crude pops on Iran headlines, pass entirely** and re-scout midday.
+- **Weekly buy budget:** 0 of 3 used. Cash buffer plenty. Leave 80%+ in cash even on a buy — concentration but ease in.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+
+1. Re-verify NVDA 2026-05-20 earnings date from a primary source before any pre-print sizing decision.
+2. Pull JPM/GS/MS/BAC/C/AMAT/BLK earnings dates via Alpaca calendar API — light Monday gives time.
+3. Get US 10Y, DXY, WTI cash levels at open — Perplexity stayed thin on macro levels.
+4. Verify ANET, GEV, CEG, VRT earnings dates + any fresh upgrades for watchlist.
+5. Note flagged price anomalies from scout (NFLX $87.47, NOW $91.11, AAPL $292.85 from data lookups) — re-verify via Alpaca latest-trade before considering trades on those names.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
