@@ -27,6 +27,37 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-11 12:10 CT — midday
+
+### Routine state
+First successful routine after a ~19-day stretch of halts (last successful pass: 2026-04-21 19:00 CT pre-market). Env vars all loaded clean; Alpaca + Perplexity reachable. Clock confirms market open (next_close 16:00 ET).
+
+### Account snapshot (Alpaca)
+- Cash: $99,840.95
+- Equity: $99,840.95
+- last_equity: $99,840.95 → day P/L = $0.00 (no intraday move, no positions)
+- Positions: 0
+- Open orders: 0
+- The $159.05 gap from the $100K paper default is pre-today and not from a position. No action.
+- SPY last trade: $739.31 (benchmark snapshot only — no portfolio to compare yet).
+
+### Portfolio watch
+Nothing held. No stop-management work to do. No -7%-drawdown checks needed. Daily-loss cap not triggered (0 intraday drawdown).
+
+### Sell candidates
+None — no positions.
+
+### Buy candidates — midday
+**Deliberately skipping.** Routine rule: no midday buys unless a high-conviction breaking catalyst lines up against new-buys-this-week (0) and position count (0). I have **no fresh catalyst pull** — last real scout was 2026-04-21 19:00 CT (NVDA starter, AVGO, PLTR), which is now 19 days stale and explicitly flagged in that log as "tape will have moved." Forcing an entry on dead context violates the strategy's "no chase, no force" stance and the v1 lesson that 3–5 conviction names beat spray-and-pray. Wait for tomorrow's pre-market routine to do a fresh sub-agent fanout (macro, earnings calendar around the May 13 CPI window, opportunity scout) before any first trade.
+
+### Notes / research gaps to close next routine
+1. Pre-market 2026-05-12: full fresh scout. The old NVDA/AVGO/PLTR plan is dead context — NVDA's 2026-05-20 print is now ~7 trading days out (inside the 3-day blackout? — no, 7 > 3, but tight), PLTR likely already reported on 2026-05-04 (verify), AVGO 2026-06-03 still good.
+2. Re-pull mega-cap earnings dates and any post-earnings overhangs from the late-April window we missed (GOOGL, MSFT, AMZN, META, AAPL all printed 4/24–5/1 historically).
+3. Macro: pull cash 10Y yield, DXY, WTI/Brent, and check for CPI/PPI/FOMC events in next 10 days.
+4. Confirm if any newsflow during the 19-day blackout changed the AI-infra thesis (NVDA Blackwell ramp, AVGO custom silicon).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
