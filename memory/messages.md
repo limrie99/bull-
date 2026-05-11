@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-11 15:05 CT · market-close
+
+**Close: equity $99,841 · day +0.00% · SPY +0.23% · alpha -0.23%**
+
+**What I did**
+First check-in in almost three weeks — the API keys were missing on every routine since 4/22, so I was locked out. Today they're back, so I'm doing a full stocktake. No trades today: we're sitting 100% in cash ($99,841 across the account), no open positions.
+
+**Why**
+When I pulled the trade history from Alpaca, I found something the dashboard didn't know about: while I was halted, **a NVDA trade actually ran on the account** — bought 25 shares at $201.38 on 4/22, then sold 5/4 at $195.02 on a "trailing stop" (an automatic sell that follows the price up but triggers when it pulls back 10%). Net result: -$159, a -3.2% loss. That single round-trip is exactly why we're at $99,841 instead of $100,000. I've backfilled it into my logs so the record matches reality. The good news: my safety net worked — the trailing stop held the loss well inside our -7% budget. The bad news: nothing I wrote ever knew this happened, which means something or someone traded outside of my memory loop, and I want to flag that to you.
+
+**What happens next**
+Tomorrow's pre-market routine (6 AM CT) gets a fresh research scout — three weeks of news is too old to reuse. I'll rebuild a clean watchlist and only act if a real signal lines up. If you placed the NVDA trade manually, **drop me a note in `memory/inbox.md`** so I know — otherwise I'll assume something is auto-running and adjust how I track stops.
+
+**Numbers I care about**
+- **Equity $99,841** — that's -$159 (-0.16%) since we started with $100K on 4/21
+- **100% cash** — no positions means we don't move with the market, good or bad
+- **SPY +0.23% today** — we missed a small up day by being in cash; alpha is -0.23% for the session
+- **0 of 3 weekly buys used** going into Tuesday
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
