@@ -27,6 +27,55 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-11 15:05 CT — market-close
+
+### Market context
+First routine to wake up in nearly three weeks (every routine since 2026-04-22 12:00 CT was halted for missing secrets, per the prior log entries). Today is Monday 5/11, the start of a fresh trading week. SPY closed +0.23% on the day ($737.54 → $739.20 from Friday's close to today's), per Alpaca daily bars. Latest SPY trade tape: $739.06. No mega-cap earnings or macro print to call out from this routine's scope — close routine is a stocktake, not a research scout.
+
+### Portfolio watch
+Account is flat: $99,840.95 cash, 0 open positions, equity unchanged from Friday because we hold no risk. Day P/L $0 / 0%. Pulling Alpaca portfolio-history (1W) confirms equity has been flat at $99,840.95 every close since 5/5 — i.e., we've been parked in cash for at least a week.
+
+### Surprise on stocktake — NVDA round-trip that memory never logged
+Pulled `/v2/orders?status=all` and found the account's full trade history is **not** zero — there was one round-trip in NVDA, executed while routines were claiming to be halted:
+- **2026-04-22 15:07:25 UTC (10:07 CT) — BUY 25 NVDA @ $201.38** (market, day, OTO with stop @ $187.12). Cost basis $5,034.50. Source: "access_key". This was almost exactly the starter tranche the 4/21 19:00 CT pre-market plan called for ("~5% NVDA tranche ~$5K").
+- 2026-04-22 — OTO day stop expired unfilled.
+- 2026-04-23 08:00 UTC — fresh stop @ $187.28 GTC placed.
+- 2026-04-27 17:16 UTC — stop canceled and replaced with **10% trailing stop** (qty 25, GTC). High-water mark recorded at $216.73 (+7.62% from entry, so the +5% trigger to convert from hard stop → trailing was satisfied).
+- **2026-05-04 15:21:29 UTC (10:21 CT) — SELL 25 NVDA @ $195.0184** via trailing stop fill. Proceeds $4,875.46. **Round-trip P/L: -$159.04 / -3.16%.**
+
+This single round-trip exactly accounts for the equity drift from the $100K seed to today's $99,840.95.
+
+How did this happen given the halt logs? The 4/22 market-open (08:30) and midday (12:00) entries both claim missing secrets. But the BUY was filled at 10:07 CT — between those two routines — and the source on the order is "access_key". Three possibilities: (a) secrets were briefly restored and a routine traded without writing back to memory; (b) the user manually placed it on Alpaca; (c) an off-cycle Bull invocation ran. There's no way to tell from this seat. **The account state is real, the trade is real, and I'm backfilling it into trade-log.md so the historical record matches Alpaca.**
+
+What the trailing stop did right: it held the loss to **inside the -7% hard-stop budget** (-3.16%) by ratcheting up to the $216.73 high-water and then triggering on the pullback. The mechanic worked as designed. The miss was that nothing actively managed the thesis — no one (Bull or otherwise) was watching for the 5/20 earnings setup, so we got round-tripped on tape noise instead of exiting on a thesis-related event.
+
+### Buy candidates
+None this routine — close routine is read-only on new ideas. We'll do a real scout in tomorrow's pre-market.
+
+### Sell candidates
+None — no positions.
+
+### Day summary (market-close)
+- **Closing equity:** $99,840.95 (cash 100%, no positions)
+- **Day P/L:** $0.00 / 0.00% — we hold zero positions, so we don't move with the tape
+- **SPY day:** +0.23% (737.54 → 739.20)
+- **Alpha today:** -0.23% (we missed today's small SPY up day by being in cash)
+- **WTD (just Monday):** portfolio 0.00%, SPY +0.23%, alpha -0.23%
+- **All-time since seed (4/21):** -$159.05 / -0.16%, all of it from the one NVDA round-trip
+- **Trades placed today:** 0
+- **What worked:**
+  1. The 10% trailing-stop mechanic held the only realized loss to -3.16%, well inside the -7% hard-stop budget. Strategy v1 lesson ("10% trailing beats 2%") earned its keep on this trade.
+- **What didn't:**
+  1. Memory ↔ Alpaca drifted: the NVDA round-trip happened while routines were claiming halted, so trade-log and portfolio.md missed it entirely until today's stocktake.
+  2. We've been parked in cash for ~3 weeks while SPY moved — opportunity cost. Even a modest SPY tracker would be ahead by mid-single-digit alpha deficit by now.
+- **Open questions for tomorrow's pre-market:**
+  1. **Reconcile process gap:** is there an off-cycle invocation of Bull, or did the user trade manually? Need to know before the next entry, because if Bull's stops can be modified or trades placed outside its memory, the risk-management loop is broken.
+  2. With ~3 weeks of macro/earnings now stale, the pre-market scout has to **rebuild context from scratch** — old NVDA/AVGO/PLTR theses are not safe to reuse.
+  3. Re-pull next-earnings dates on the seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE) — strategy 3-trading-day-before-earnings blackout depends on it.
+  4. Confirm secrets stay populated overnight — if they evaporate again, the same halt-cycle starts.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
