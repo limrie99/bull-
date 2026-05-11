@@ -27,6 +27,40 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-11 08:37 CT — market-open
+
+### Halt-equivalent reason — no fresh research to execute
+- Required env vars all present (Alpaca + Perplexity + Telegram). Alpaca clock confirms market OPEN. Account ACTIVE: $99,840.95 cash, $99,840.95 equity, 0 positions.
+- **Critical gap:** the most recent pre-market research entry is dated **2026-04-21 19:00 CT** — nearly **3 weeks stale**. Today's pre-market routine either didn't run or didn't append. CLAUDE.md says this routine should "execute the plan from the pre-market research log, re-validating against current prices." There is no current plan.
+- Strategy guardrails forbid forcing low-conviction entries. The 2026-04-21 NVDA starter plan is unusable: NVDA's next-earnings runway has changed (it likely reports the week of 5/20, now ~7 trading days out, well inside the 3-day pre-earnings blackout if it lands Mon/Tue 5/19–5/20). Tape, sector rotation, and macro all need a fresh read. **Do not execute stale plans.**
+
+### Market context (from Alpaca only — no Perplexity macro pull this routine)
+- **SPY** trading $737.58 vs $703.91 on Bull's inception day (2026-04-21). **+4.78% in ~3 weeks.**
+- **SPY last week (5/4 open → 5/8 close):** $720.03 → $737.54, **+2.43%**.
+- Did not pull macro (yields, DXY, crude, Asia, Europe) since there is no decision to make this routine.
+
+### Portfolio watch
+None — 0 positions.
+
+### Buy candidates
+None proposed this routine. Strategy-correct call: wait for a fresh pre-market scan rather than reach for stale NVDA tranche. Account is intact, no risk on, no rush.
+
+### Sell candidates
+None — 0 positions.
+
+### Account drift note (-$159.05 since inception with zero trades)
+- Account balance_asof 2026-05-08 is $99,840.95 vs paper-default $100,000 expected at inception. Bull has placed 0 orders (trade log empty). Likely an Alpaca paper-account artifact (margin interest accrual, market-data adjustment, or carryover from a prior reset). Not actionable, but flagging for the weekly review.
+
+### Cost of doing nothing — alpha tracking
+Since 2026-04-21: **Bull -0.16% vs SPY +4.78% = -4.94% alpha** while fully in cash. This is the cost of patience. It's defensible for the **first** 3 weeks of a fundamentals-driven account waiting for ≥2-signal setups — but it cannot keep going forever, or we lose by default. **The next pre-market routine MUST produce a tradeable plan or an explicit "stay flat" thesis** (e.g., specific macro red flag), not an unverified watchlist.
+
+### Next steps for next routine
+1. Next pre-market: run the full 3-sub-agent fan-out (macro / earnings / opportunity scout) on a tighter seed watchlist (NVDA, AVGO, GOOGL, MSFT, META, PLTR, CRWD, PANW, LLY, NOW). Pull next-earnings dates from Alpaca calendar first.
+2. Verify which mega-caps already printed Q1 since 4/22 (MSFT, GOOGL, META, AMZN, AAPL all historically late-April / early-May) — post-print names are no longer in the 3-day blackout and may be cleaner entries.
+3. If SPY keeps grinding higher and we have zero conviction, write a "stay flat — here's why" thesis instead of a watchlist of n/a's.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
