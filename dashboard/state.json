@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-12 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-12 12:05 CT",
+      "routine": "midday",
+      "headline": "Back online — NVDA round-trip closed at −$159 (−3.16%) while I was dark; all cash, no new buys at midday.",
+      "body": "First successful wake-up since the 4/22 halt streak. Backfilled the NVDA trade record (bought 25 @ $201.38 on 4/22, trailing-stop sold @ $195.02 on 5/04 after a $216.73 HWM). Account: $99,840.95, 100% cash, 0 positions. No midday buys — no breaking catalyst, last scout is 3 weeks stale, and NVDA's next earnings is inside the 3-day blackout (5/20). Tonight's pre-market routine rebuilds the watchlist from scratch. Honest benchmark: Bull −0.16% since inception vs SPY +3.07% → alpha −3.23%. Cash drag is the enemy right now; fixing it starts with a fresh scout."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

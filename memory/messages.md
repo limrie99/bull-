@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-12 12:05 CT · midday
+
+**We're back online — and I have some honest news from the time I was dark.**
+
+**What I did**
+First successful wake-up since the API keys went missing on 4/22. While I was offline, the one trade I had open (25 shares of NVIDIA, ticker NVDA) ran up nicely, then pulled back and got sold automatically by our "trailing stop" — a safety net that follows the price up and triggers a sale if the stock drops a set percentage from its peak. The position closed at a small loss of $159 (−3.16%), so the account today sits at **$99,840.95 — basically flat to start.** I just backfilled the trade record so our log matches reality, and I did not place any new trades at midday.
+
+**Why**
+Two reasons. First, midday isn't when I look for new buys unless there's a breaking catalyst (a sudden piece of news big enough to move a stock right now), and there isn't one today. Second, my last research scan is three weeks stale — the market has moved, and re-entering NVDA at this exact moment is risky because they report earnings next week (we avoid buying within 3 trading days of an earnings report). Better to wait for tonight's pre-market routine, do a fresh scan, and pick the next setup with conviction.
+
+**What happens next**
+Tonight's pre-market routine will rebuild a 6–8 name watchlist with verified earnings dates and current catalysts. I'm also adding a fix: when I place a stop order, it has to be "GTC" (good-til-cancelled), not just for the day — a small mistake on the NVDA trade left it briefly un-protected overnight before I caught it.
+
+**Numbers I care about**
+- **Equity: $99,840.95** — we started at $100,000, so we are −$159 (−0.16%) since I went live on 4/22.
+- **SPY (the S&P 500 index, our benchmark): +3.07% over the same window.** That means I'm **−3.23% behind the market right now**, almost entirely from sitting in cash during a rally. Honest read: cash drag is hurting us. Fixing it starts with tonight's scout.
+- **0 of 3 weekly buys used.** $99,840.95 cash dry powder ready for the next high-conviction idea.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

@@ -27,6 +27,57 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-12 12:05 CT — midday
+
+### Routine context
+First successful wake-up since the 4/22 halt streak. Secrets are now set in the cloud env — Alpaca + Perplexity verified. Big gap to reconcile: trade-log and portfolio.md were stale (last touched 4/21–4/22), but Alpaca's order history shows a complete NVDA round-trip during the dark window. Backfilled both legs into trade-log.md so the record matches reality.
+
+### Account state (live, 12:05 CT)
+- Cash: $99,840.95 | Equity: $99,840.95 | Positions: 0 | Open orders: 0
+- Day P/L: $0.00 (0.00%) — all cash, can't move with tape today
+- Last_equity (prior session close): $99,840.95 — confirms no overnight risk
+- Daily loss cap (>3% intraday): N/A, we are flat
+
+### What happened in the dark window (per Alpaca order history)
+1. **2026-04-22 10:07 CT** — bought 25 NVDA @ $201.38 (~$5,034.50, ~5% of equity), per the 4/21 19:00 CT pre-market plan. **Bug:** OTO stop leg was placed TIF=day and expired same session, leaving NVDA un-stopped overnight.
+2. **2026-04-27** — caught the missing stop; placed a fresh GTC stop at $187.28.
+3. **NVDA rallied** to a HWM of $216.73 (+7.6% over entry), at which point the 10% trailing-stop replacement should have kicked in. Trail stop was placed.
+4. **2026-05-04 10:21 CT** — trailing stop filled at $195.0184. Round-trip P/L: **−$159.04 (−3.16%)**. NVDA gave back ~10% from the HWM on what looks like a normal pullback (no thesis-breaking news in the headline I can see).
+
+### Lessons logged
+- **Stop-leg TIF must be GTC, not day.** The 4/22 bracket left the position naked overnight. Add this to the pre-trade checklist.
+- **10% trailing stop is wide but can still bite a volatile mega-cap.** NVDA's drawdown from the local high was inside normal mega-cap noise but tripped the trail because we had ridden it up to a +7.6% HWM. Honest first lesson — the trail did its job (limited downside to a tiny scratch loss), but it also handed back most of the paper gain. Document and don't second-guess; the strategy says 10% trail, we follow it.
+
+### Portfolio watch
+- No open positions → no thesis to monitor, no stops to manage, no Perplexity news pull needed.
+
+### Sell candidates
+- None — nothing to sell.
+
+### Buy candidates (midday)
+- **None.** Per CLAUDE.md: no new buys at midday unless there's a high-conviction breaking catalyst, and there isn't one. Tape is mildly red (SPY −0.84% intraday: $739.20 → $733.02), no earnings or macro print in the past 4 hours that would justify a deviation from the pre-market plan. Plus we have no current pre-market plan to deviate from — the last scout is 3 weeks stale.
+
+### Benchmark snapshot
+- Bull since 2026-04-22 inception: **−0.16%** ($100,000.00 → $99,840.95)
+- SPY since 4/22 close ($711.20) to current ($733.02): **+3.07%**
+- Alpha: **−3.23%** — we are well behind the benchmark, almost entirely from being out of the market during the rally between 5/04 (NVDA stop-out) and today. Cash drag is the single biggest enemy right now.
+
+### Next steps
+1. **Tonight's pre-market routine** (or tomorrow morning 6 AM CT) needs to do a fresh scout from scratch. Stale watchlist; tape has moved. Specifically:
+   - Re-verify NVDA next-earnings date (was 5/20 per 4/21 scout — that's next week, putting NVDA inside the 3-day blackout). **Do NOT re-enter NVDA at the open without checking the earnings calendar.**
+   - Build a 6–8 name watchlist with verified next-earnings dates and at least one fresh catalyst per name.
+   - Macro: get current 10Y, DXY, WTI levels so position sizing is informed.
+2. Add a "stop leg = GTC" check to the buy-order flow in scripts/alpaca.md (note for the next routine).
+3. Avoid the temptation to FOMO-chase the SPY rally at midday — sit on cash until the pre-market scan delivers a thesis.
+
+### No actions taken this routine
+- No buys (no breaking catalyst).
+- No sells (no positions).
+- No stop adjustments (no positions).
+- Backfilled trade-log.md with the two NVDA legs from the dark window — same Alpaca order IDs, so the record is verifiable.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
