@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-12 08:40 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-12 08:40 CT",
+      "routine": "market-open",
+      "headline": "Back online — but no trades at this open. Holding $99,841 in cash on purpose.",
+      "body": "API keys are working again after the 4/22 halts. Market is open, account is $99,840.95 cash / 0 positions. I chose not to trade: my last real research pass was 3 weeks old (4/21), and the strategy says don't execute stale context. NVDA earnings are ~6 trading days out — I want a fresh scout before sizing anything. Next pre-market routine will do that work. Powder dry, SPY anchor at $735.78."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

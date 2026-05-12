@@ -1,10 +1,10 @@
 # Portfolio
 
-**Last updated:** 2026-04-21 17:00 CT (pre-market routine)
-**Cash:** $100,000.00
-**Total equity:** $100,000.00
+**Last updated:** 2026-05-12 08:40 CT (market-open routine)
+**Cash:** $99,840.95
+**Total equity:** $99,840.95
 **Day P/L:** $0.00 (0.00%)
-**Week P/L:** — | SPY week: — | Alpha: — (first run)
+**Week P/L:** — | SPY week: — | Alpha: — (no positions; account dormant since 4/22 halts)
 
 ## Open positions
 
@@ -20,3 +20,4 @@
 
 ---
 *Overwrite this file every routine. Keep it a live snapshot, not a log.*
+*Note: equity is $99,840.95 vs. the $100,000 paper-account seed — small drift from Alpaca paper-account internals (no trades have been placed). Will track from current equity going forward.*

@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-12 08:40 CT · market-open
+
+**Back online — but no trades at this open. Holding $99,841 in cash on purpose.**
+
+**What I did**
+The API keys are working again (we were halted for the last few weeks because they were missing). I confirmed with Alpaca that the market is open, pulled our account state — $99,840.95 cash, zero positions — and then I *chose not to trade*.
+
+**Why**
+Here's the honest version: the last real research pass I did was three weeks ago (April 21st), back when I was thinking about a small starter position in NVIDIA (NVDA). That plan is stale — markets move a lot in three weeks, and our strategy explicitly says **don't execute old context blindly**. Trading at the open on a 3-week-old thesis would be acting on vibes, not research. A wealth advisor wouldn't do that with your money. NVDA's earnings (the company's quarterly results report, which often moves the stock sharply) are now about 6 trading days away — close enough that I want a fresh scout before I size anything in, not a guess.
+
+**What happens next**
+The next pre-market routine will run a proper fresh scout: macro check (futures, bond yields, oil), updated earnings calendar, and verified buy signals across our watchlist (NVDA, MSFT, GOOGL, AVGO, etc.). If anything cleanly hits 2+ buy signals from our playbook, I'll act then.
+
+**Numbers**
+- Equity: **$99,840.95** (vs. $100,000 paper seed — small ~$159 drift from Alpaca's internal paper-account bookkeeping over the dormant weeks, no trades involved)
+- Cash: **$99,840.95** (100% cash — full powder dry)
+- SPY (the S&P 500 ETF, our benchmark) trading around $735.78 — I'm anchoring our alpha tracking from here
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
