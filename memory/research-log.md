@@ -27,6 +27,44 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-12 15:00 CT — market-close
+
+### Market context
+SPY closed **$738.19, down −0.14%** on the day (from $739.20 on 5/11). A flat-to-down session — no major catalysts pulled tape one way or the other from a Bull-portfolio-impact perspective. Did not pull broader macro (10Y, DXY, oil) for this close since we have zero open risk; that's a tomorrow-pre-market job.
+
+### Account state at close
+- **Equity:** $99,840.95
+- **Cash:** $99,840.95 (100% cash)
+- **Buying power:** $199,681.90 (2× — but strategy is cash-only, no leverage)
+- **Open positions:** 0
+- **Closed orders today:** 0
+- **Last equity (5/11 close):** $99,840.95 → **day P/L: $0.00 (0.00%)**
+
+Note: account starting balance was Alpaca's $100K paper default but is showing $99,840.95 as of `base_value_asof 2026-05-05`. No trades on the record to explain the −$159.05 drift. Treating Alpaca's number as source-of-truth and moving on — not worth a witch hunt with no open risk and no trade history.
+
+### Portfolio watch
+No open positions. Nothing to watch. No stops to manage, no thesis to re-check.
+
+### Day summary
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 (0.00%)
+- **SPY day:** −0.14% (close 738.19 vs 739.20 prior)
+- **Alpha today:** +0.14% (cash mechanically beats a down tape)
+- **Week-to-date:** Bull 0.00%, SPY +0.09% (5/8 close 737.54 → 5/12 close 738.19), **alpha WTD −0.09%**
+- **Trades placed today:** 0
+
+### What worked / didn't
+- **Worked:** Holding cash kept us flat while SPY drifted down — passive positive alpha for the day.
+- **Didn't work:** Holding cash isn't a strategy — it's an absence of one. We've been flat for a full week (5/5–5/12) with the dashboard going dark since the 4/22 halts. Today is the first session this routine has had working secrets. **The real cost is opportunity, not drawdown.**
+
+### Open questions for tomorrow
+1. **Pre-market routine needs to actually run.** The last full pre-market scout was 2026-04-21 19:00 CT — that NVDA starter idea is stale-3-weeks-old context. Fresh scout required before any entry.
+2. **Earnings calendar reset.** NVDA was scheduled 2026-05-20, AVGO 2026-06-03, PLTR 2026-05-04. PLTR has now printed (post-event); re-scout the reaction. NVDA is now ~5 trading days out — inside the 3-day blackout window soon, so any NVDA entry needs to happen this week or wait through the print.
+3. **Why is starting equity $99,840.95?** Low priority — flag in next weekly review only if a pattern (e.g., unexplained drift on rest days) emerges.
+4. **Are routines actually scheduled?** Three weeks of silent halts followed by a clean run today suggests the env vars only just got set. Worth surfacing in tonight's message so the user knows we're back online.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
