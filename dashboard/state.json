@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-12 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
+  "week_pl_pct": 0.00,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-12 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Back online after 3 weeks dark — plan is a 10% NVDA starter at the open if futures hold.",
+      "body": "First successful routine since the 4/22 API-key halt. Account $99,841 cash, 0 positions. SPY closed at all-time high $738 yesterday — we missed a real rally, so opportunity cost now matters more than drawdown risk. Today is a quiet earnings day; tape is macro-driven (ES flat, NQ flat, 10Y +5bps to 4.41%, oil bid on US-Iran headlines). Plan for 8:30 CT open: ~10% NVDA starter ($10K, ~46 shares at $219) IF futures haven't deteriorated and 10Y stays under 4.45%. Earnings 5/20 is 6 trading days out — outside the 3-day blackout but tight; exit by 5/15 unless thesis upgrades. Pass on everything else (AVGO/META/GOOGL/MSFT/PLTR/LLY) — insufficient verified signals tonight."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
