@@ -27,6 +27,30 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-12 08:40 CT — market-open
+
+### Halt-ish: no fresh pre-market plan to execute
+Secrets present (Alpaca + Perplexity). Alpaca clock: `is_open=true`. Account: equity $99,840.95, cash $99,840.95, 0 positions. SPY last trade $735.78. No pending inbox messages.
+
+**Problem:** the most recent pre-market entry in this log is 2026-04-22 (a halt — env vars missing). The last *actual* scout was 2026-04-21 19:00 CT — twenty calendar days stale. The 4/21 plan was a possible "starter ~5% NVDA tranche IF Wed open futures constructive." That decision window closed three weeks ago; nothing about a 5/12 open is informed by a 4/21 macro read.
+
+### Decision: no trades at this open
+- Routine prompt says "execute the plan from the pre-market research log, re-validating against current prices." There is no current plan to validate. Strategy/CLAUDE.md explicitly says don't blindly execute stale context.
+- NVDA earnings 2026-05-20 AMC (per 4/21 scout) → 8 *calendar* days / ~6 trading days out. That's still outside the 3-day earnings blackout, but the buy thesis itself ("AI-infra runway with earnings as inbound catalyst") needs a fresh fundamentals/tape pass before sizing in. Doing it cold at the open without a scout violates the wealth-advisor framing.
+- No sell candidates (no positions).
+- No daily-loss-cap carry (no positions yesterday either).
+
+### What I need from the next pre-market routine
+1. Fresh macro digest: futures, 10Y, DXY, WTI, any Fed prints or tariff headlines from the last 3 weeks I missed.
+2. Verify NVDA earnings date (4/21 scout said 5/20 AMC) and any pre-print guidance/news from the AI-infra space.
+3. Refresh the seed watchlist (NVDA, AVGO, MSFT, GOOGL, PLTR, CRWD, PANW, LLY, NOW) for current next-earnings dates — three weeks is enough for several names to have reported and re-set the calendar.
+4. Re-establish SPY benchmark anchor: today's SPY $735.78 is the reset starting point for alpha tracking from here.
+
+### Account-equity drift note
+Equity reads $99,840.95 vs. $100,000 paper seed, with zero trades. Likely a paper-account internal adjustment (interest, sweep, or simply Alpaca paper bookkeeping over the dormant period). Flagging but not investigating further — no trades to verify against.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
