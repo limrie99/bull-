@@ -27,6 +27,83 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-12 06:10 CT — pre-market
+
+**Timing note:** First successful routine since the 4/22 halts. APIs verified live (Alpaca 200, Perplexity 200). Account: $99,840.95 cash, equity $99,840.95, 0 positions. Three sub-agents (macro, earnings, opportunity scout) plus one direct verification pull on a 10-name watchlist.
+
+**Gap context — 3 weeks of inactivity:** Last live data was 4/21 (account opening, $100K cash). Today is 5/12. We have sat in cash through what looks like a strong rally — SPY now $738.29. We are -0.16% lifetime vs SPY moving sharply up. The mandate is to beat SPY; sitting in 100% cash with no opens is not the long-term plan. Today's open routine should plausibly place a first starter, conditional on macro tone.
+
+### Market context
+
+Mixed / mildly cautious into Tuesday 5/12 open.
+- **ES (Jun '26):** ~7,434.25, **−0.03%** overnight (flat).
+- **NQ (Jun '26):** **−0.04%** (flat).
+- **US 10Y:** **4.41%, +5 bps.** Bonds soft on energy/inflation worry.
+- **WTI / Brent:** rising (exact level n/a). Driver: US–Iran talks failed to produce a Mideast war end-terms framework — risk premium back on.
+- **DXY, Gold, Asia, Europe:** n/a from Perplexity tonight.
+- **Headlines:**
+  1. US–Iran talks fail → oil up, yields up.
+  2. SPY and QQQ hit fresh all-time highs Monday on continued AI/chips leadership.
+  3. Global yields rising — central-bank-tightening tail risk back in chatter.
+- **US data today:** none scheduled (no CPI/PPI/FOMC minutes flagged).
+- **Net tone:** mixed. Flat futures after Monday's record close means the market is digesting, not extending. The 5 bp yield jump + oil bid is a real headwind for rate-sensitive longs. Not risk-off enough to pass on everything, but not the day to size up aggressively.
+
+### Portfolio watch
+
+No open positions. $99,841 cash. Nothing to manage. The only "watch" item is that we've been in cash through a SPY ATH run — opportunity cost is now the dominant risk, not drawdown risk.
+
+### Earnings calendar (2026-05-12)
+
+**Quiet day.** Perplexity returned no confirmed $10B+ US BMO or AMC reports for today. Monday 5/11 AMC also light (Fox Corp reported BMO, not AMC). Today's tape is macro-driven, not earnings-driven. Lower idiosyncratic risk for opening a position; higher macro/oil/yield sensitivity.
+
+### Watchlist — last close from Alpaca (firm)
+
+| Symbol | Last px | t (UTC) |
+|---|---|---|
+| NVDA | 219.04 | 5/11 20:12 |
+| AVGO | 428.32 | 5/11 19:59 |
+| MSFT | 412.62 | 5/11 19:59 |
+| GOOGL | 389.21 | 5/11 20:16 |
+| META | 599.26 | 5/11 20:58 |
+| PLTR | 136.90 | 5/11 19:59 |
+| CRWD | 542.59 | 5/11 19:59 |
+| PANW | 213.71 | 5/11 19:59 |
+| LLY | 967.16 | 5/11 19:59 |
+| NOW | 91.48 | 5/11 19:59 |
+| SPY | 738.29 | 5/11 20:11 |
+| QQQ | 712.72 | 5/11 20:40 |
+
+(NOW at $91 implies a post-split; older context had it triple-digit hundreds — flag for verification before sizing.)
+
+### Buy candidates
+
+Perplexity was thin again tonight (most fields n/a). Verified-data candidates:
+
+- **NVDA — $219.04, 2.1% off 52-week high, above 50-DMA.** Signals: (3) secular AI/Blackwell tailwind, (6) clear uptrend. Last verified next earnings date from prior log: **2026-05-20 AMC**, which is **6 trading days out** (5/13, 5/14, 5/15, 5/18, 5/19, 5/20). That's **outside the 3-day blackout but tight** — opening today means we'll need a plan for the 5/20 print: either close before 5/15 (cutoff for 3-day rule), hold-through (only if thesis depends on the print), or trim. **Conviction: medium.** Cleanest name on the board, but earnings proximity reduces the "let it breathe" upside.
+- **AVGO — $428.32.** Earnings ~2026-06-03 (prior log, unconfirmed tonight). Single signal (3 — secular AI ASIC) carried over from 4/21 scout. **Conviction: low–medium.** Best earnings window if confirmed, but needs a fresh signal (upgrade, contract win) to clear the ≥2 bar.
+- **META — $599.26.** Reported in late April historically. No confirmed earnings date or fresh signal tonight. **Conviction: insufficient data.**
+- **GOOGL, MSFT — $389.21 / $412.62.** Likely already reported (late-April pattern). Need a verified next-earnings date and a fresh signal before considering. **Skip until verified.**
+- **PLTR — $136.90.** Prior log flagged 2026-05-04 AMC earnings — that print is already in the rearview. No data tonight on the result. **Skip until verified.**
+- **LLY — $967.16.** GLP-1 leader, secular tailwind (3). No fresh signal or earnings date tonight. **Conviction: low — single signal.**
+- **CRWD ($542.59), PANW ($213.71), NOW ($91.48):** no verified fresh data. **Skip.**
+
+**Net recommendation for today's market-open routine:**
+- **Primary plan:** open an NVDA starter at the open IF (a) ES/NQ remain at or above flat, (b) 10Y not above 4.45%, (c) WTI not gapping >2%. Size: **10% of equity (~$10,000, ~46 shares at $219).** That's medium-conviction sizing per strategy. Place bracket with stop at $219 × 0.93 ≈ $203.67.
+- **Pre-earnings exit plan:** plan to close NVDA by **2026-05-15 close** (last day outside the 3-day earnings window) UNLESS thesis upgrade by then.
+- **Fallback if macro deteriorates pre-open:** pass entirely, run a tighter verification scout midday.
+- **Do NOT** open AVGO, META, GOOGL, MSFT, PLTR, CRWD, LLY, NOW today on tonight's data — insufficient verified signals.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. Confirm NVDA 5/20 earnings date directly (Alpaca calendar or news pull) before sizing.
+2. Pull MSFT, GOOGL, META, PLTR last-week earnings results — those prints already happened and the results would let us add fresh signals.
+3. Verify NOW $91 print — looks split-adjusted; need confirmed reference price.
+4. Perplexity is thin on price/earnings-date specifics in 2026 again. Consider biasing future scouts toward Alpaca-native data (latest trades, daily bars, calendar API) and using Perplexity only for narrative catalysts.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
