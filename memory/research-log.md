@@ -27,6 +27,83 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-13 06:00 CT — pre-market (for today's open)
+
+**Timing:** 6:00 AM CT, Wed 2026-05-13. US market opens 8:30 CT / 9:30 ET (~3.5h to go). Alpaca clock confirms `is_open=false`, `next_open=2026-05-13T09:30-04:00`. APIs verified live. Account: **$99,840.95 cash, 0 positions, equity $99,840.95** (small ~$159 drift from $100K base — Alpaca paper adjustment, no positions, no trades booked since 4/21). Three sub-agents fanned out in parallel — macro, earnings, opportunity scout. No position analyst spawned (no holdings).
+
+### Market context
+
+Tape tone: **mixed-to-slightly-constructive, low conviction** — futures are quiet, and most rates / FX / commodity inputs came back `n/a` from Perplexity tonight.
+
+- **ES (S&P 500 e-mini):** ~7,452.75, **+0.14% to +0.35%** vs Tue 5/12 cash close (7,425.75).
+- **NQ (Nasdaq-100 e-mini):** ~29,132.25, **~−0.13%** (cash-close reference n/a).
+- **US 10Y yield, DXY, WTI, Brent:** `n/a` — Perplexity sparse on these tonight. Will supplement with TLT / UUP / USO quote pulls intraday if any of today's candidates are rate-sensitive (LLY healthcare semi-sensitive, RTX defense relatively immune).
+- **Asia / Europe (Nikkei, Hang Seng, Stoxx 600, DAX):** `n/a`.
+- **Macro headlines / Fed / data:** `n/a` — no scheduled US data, Fed speakers, or auctions surfaced. **Caveat:** the macro signal is thin tonight; weight this digest accordingly.
+- **Net read:** ES mildly bid + NQ flat-to-soft = an undecided, slightly risk-on-leaning tape. Safe enough to act on a high-conviction single name at **partial (starter) size**, but do NOT chase or size up at the open. Re-check rates and dollar from a cash-session quote before pulling a trigger.
+
+### Portfolio watch
+
+No open positions. **$99,840.95 cash, $199,681.90 RegT buying power** (cash-only / no leverage per strategy). Nothing to manage, no stops to adjust.
+
+### Earnings calendar (2026-05-13)
+
+- **BMO 2026-05-13:** No confirmed large-cap ($10B+) US prints surfaced by Perplexity tonight. ~204 total reports today (per Stock Analysis), but nothing in our universe.
+- **AMC 2026-05-13:** **CSCO (Cisco)** is historically expected this slot but Perplexity could **not confirm a 5/13 AMC date** — treat as expected-but-unconfirmed. Wall Street focus historically: networking demand, Splunk integration, AI-infra orders, gross margin guide. If it prints, networking/enterprise-software peers (ANET, JNPR, NTAP) will react after 4 PM ET. **No size in CSCO or peers today** — 3-day earnings blackout applies to any name *we'd buy* with a print inside the window, but more importantly CSCO is the only tape-setter and we don't want to be long it pre-print.
+- **Yesterday AMC (2026-05-12):** No mega-cap US prints. NVDA is calendared **5/20 AMC** (next week, still 5 trading days out — outside our 3-day blackout but close).
+
+**Tape implication:** Today is **macro-driven, not earnings-driven**. Open should trade on overall risk flow; real single-name catalyst (if it happens) is CSCO AMC.
+
+### Buy candidates
+
+Opportunity scout returned 5 names; all clear the 3-trading-day earnings blackout. I'm flagging conviction levels and which buy signals are *independently verified* by the scout.
+
+- **RTX (RTX Corp, Defense/Aerospace)** — ~$115, ~$155B mcap
+  - Signals matched: **(1) earnings beat + raised guide** (Q1 beat, FY26 guide +$500M), **(3) secular defense tailwind**, **(4) analyst upgrades** (MS Overweight $145, Citi Buy $150 on 5/8), **(6) clear uptrend**. **Four signals — strongest of the list.**
+  - Next earnings: ~2026-07-22 (~10 weeks out — clear).
+  - Conviction: **high**.
+  - Risk: Pratt engine inspection overhang; a surprise cost disclosure could shave a few percent.
+- **AVGO (Broadcom, Semis / AI infra)** — ~$422, ~$1.95T mcap
+  - Signals matched: **(3) AI-infra secular tailwind** ($15B+ AI revenue run-rate via custom ASIC), **(4) analyst upgrades** (Goldman Buy, JPM Overweight in early May), **(5) AI-infra sector rotation**, **(6) uptrend near highs**. Four signals.
+  - Next earnings: 2026-06-03 (21 days out — clear).
+  - Conviction: **high**.
+  - Risk: AI capex narrative crowded — any hyperscaler capex cut headline tags the whole basket.
+- **LLY (Eli Lilly, Healthcare / GLP-1)** — ~$825, ~$785B mcap
+  - Signals matched: **(2) near-term catalyst** (orforglipron oral GLP-1 PDUFA **2026-06-15**), **(3) GLP-1 tailwind**, **(6) uptrend near highs**. Three signals.
+  - Next earnings: ~2026-08-06 (~12 weeks out — clear of blackout, but PDUFA inside the swing window is the real event).
+  - Conviction: **high but binary** — treat as catalyst trade, size accordingly (half-size).
+  - Risk: FDA outcome is binary; delay or label restriction could be a 5–8% gap.
+- **PLTR (Palantir, AI software)** — ~$28, ~$65B mcap
+  - Signals matched: **(3) AI/gov tailwind**, **(4) CEO insider buy** (Karp 500K shares 5/7) + Wedbush Outperform PT $55, **(6) uptrend near 52-wk high**. Three signals, plus insider buying which is rare and high-quality.
+  - Next earnings: ~2026-08-04 (~12 weeks out — clear).
+  - Conviction: **high**, but extended — prefer a pullback entry.
+  - Risk: high beta / multiple; a tech risk-off day amplifies drawdown.
+- **LMT (Lockheed Martin, Defense)** — ~$465, ~$110B mcap
+  - Signals matched: **(2) catalyst** ($4.2B Army F-35 / hypersonics contract 5/6), **(3) defense tailwind**. Two signals, but **fails (6) uptrend** — below 50DMA, >10% off highs.
+  - Conviction: **low — skip.** Strategy says we don't catch knives. Re-check after a chart base.
+
+**Net plan for today's open:**
+- **If macro is constructive at 8:30 CT cash open** (ES still green, no fresh geopolitical/rates shock):
+  - **Lead with RTX as the size-first name** (~12–15% of equity, ~$12K–$15K) — beat+raise + upgrades + tailwind + uptrend is the cleanest 4-signal setup we've seen since Bull v2 began. Place with a hard −7% stop bracket.
+  - **Pair with AVGO** (~10–12%, ~$10K–$12K) for AI-infra exposure that isn't NVDA-concentrated.
+  - That uses **2 of 3 weekly buys** and ~$25K of $100K — leaves dry powder for LLY (catalyst trade) later in the week or for a pullback in PLTR.
+- **If futures roll over** (ES < flat, or a rates/oil shock prints overnight): **pass entirely**; better to do nothing than chase.
+- **Do NOT** open CSCO, ANET, JNPR, NTAP, or other networking names today — CSCO print risk.
+- **Do NOT** open LMT today — fails uptrend rule.
+
+### Sell candidates
+
+None — no positions.
+
+### Notes / research gaps to close next routine
+
+1. Verify CSCO 2026-05-13 AMC print before close routine — if it does report, watch networking complex for any post-close move.
+2. Confirm RTX and AVGO current prices and 50DMA position via Alpaca quotes at the market-open routine (8:30 CT) before sizing.
+3. Pull 10Y, DXY, WTI directly from Alpaca proxies (TLT, UUP, USO) tomorrow morning — macro signal was thin tonight.
+4. Re-check LLY PDUFA date (2026-06-15) via official FDA calendar — Perplexity is fine for thesis but a binary catalyst date deserves a primary-source check before sizing.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
