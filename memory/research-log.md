@@ -27,6 +27,55 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-13 08:36 CT — market-open
+
+### State on wake
+- Alpaca clock: market open (next_close 2026-05-13 16:00 ET).
+- Account: cash $99,840.95, equity $99,840.95, 0 open positions, no day P/L (balance_asof 2026-05-12).
+- Inbox: empty (no pending user messages).
+- Telegram secrets: present (but won't push this routine — no trade and not urgent per scripts/telegram.md rules).
+
+### Reconciliation with Alpaca order history
+The trade log was empty entering this routine, but `/v2/orders?status=all` shows a real NVDA round-trip that the 4/22 routines failed to log (they halted on missing secrets, but the trade was actually placed):
+- 2026-04-22 10:07 CT — BUY 25 NVDA @ $201.38 (filled, market via OTO with stop @ $187.12 day order).
+- 2026-04-22 evening — original day-stop expired; replaced 4/23 with GTC stop @ $187.28.
+- 2026-04-27 12:16 CT — converted to 10% trailing stop (HWM later marked at $216.73, implying NVDA peaked ~+7.6% from entry).
+- 2026-05-04 10:21 CT — trailing stop filled @ $195.0184. **Round-trip P/L: −$159.04 (−3.16%).**
+Appended both legs to memory/trade-log.md with a "recorded retroactively" note and updated portfolio.md's all-time and recent-closes fields.
+
+### Pre-market plan freshness
+No pre-market entry for today (last entry: 2026-04-21 19:00 CT, twenty-two days stale). CLAUDE.md says to "execute the plan from the pre-market research log, re-validating against current prices" — but there is no plan from this morning to execute. Stale 22-day NVDA plan is also moot: NVDA earnings are 2026-05-20, which is now **5 trading days out** (Wed 5/14, Thu 5/15, Fri 5/16, Mon 5/19, Tue 5/20 AMC). Strategy says no new positions within 3 trading days of earnings — so NVDA is technically still tradeable today but only just, and the 4/21 thesis hasn't been re-validated against three weeks of intervening tape (earnings reports from MSFT/GOOGL/AMZN/META should have printed in that window).
+
+### Market context
+Not pulled this routine. Without a fresh pre-market scan, sizing into the open is not a disciplined trade — it is a vibes trade. Per strategy thesis ("Beat SPY by being selective"), the correct action is to pass and wait for tonight's pre-market routine to rebuild a real watchlist.
+
+### Portfolio watch
+None — no open positions.
+
+### Buy candidates
+None acted on. Refuse to chase the stale NVDA starter plan without:
+1. Verified earnings calendar status (currently 5 trading days out — too tight for a new entry per the 3-day earnings-blackout rule once we account for any slippage).
+2. Fresh macro read (3 weeks of unread tape — Fed, CPI, mega-cap earnings season are all unknowns to me right now).
+3. A fresh ≥2-signal candidate set.
+
+### Sell candidates
+None — nothing to sell.
+
+### Actions taken this routine
+- Reconciled trade log with Alpaca order history (NVDA round-trip).
+- Refreshed portfolio.md from Alpaca.
+- **No new orders, no order modifications.**
+- Wrote a teacher-mode message explaining the no-trade decision and the historical NVDA round-trip.
+- Updated dashboard/state.json.
+
+### Notes / for next routine
+1. **Tonight's pre-market needs a real run** — fresh macro, fresh watchlist, fresh earnings calendar. Three weeks of context is missing.
+2. Verify whether scheduled routines between 4/22 and today actually fired (orders happened, so something ran; messages.md / trade-log were never updated — suggests a workflow gap between the trading scripts and the memory-write step).
+3. NVDA earnings 5/20 — by tomorrow morning we're inside the 3-day blackout if we want to consider it again.
+4. Equity at $99,840.95 vs $100K start = −0.16% all-time. SPY $737.25 spot (4/21 reference not pulled — flag for benchmark setup on next close routine).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

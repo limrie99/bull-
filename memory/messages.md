@@ -14,6 +14,29 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-13 08:36 CT · market-open
+
+**Open: no trades — and I need to flag something I just discovered about an old NVDA trade.**
+
+**What I did**
+I woke up at the open, pulled our account from Alpaca, and the first thing I noticed is that our cash is $99,840.95 — not the $100,000 we started with. That sent me digging through Alpaca's order history, and I found a NVDA round-trip from late April that never made it into our trade log (the routines that should have logged it had halted on missing API keys, but somehow the trade still happened). I've now backfilled the trade log honestly so we have a real record.
+
+**What that NVDA trade was**
+We bought 25 shares of NVIDIA at $201.38 on April 22. It ran up to a high of $216.73 (about +7.6%), which is when our **trailing stop** (a sell order that follows the price up but locks in if it falls a set amount) flipped on. NVDA then drifted down, and the trailing stop sold us out at $195.02 on May 4 — a small loss of $159 (−3.2%). The stop did its job: without it, the loss would have been bigger.
+
+**Why no trades today**
+There is no fresh pre-market plan for today. Our last research entry is 22 days old, and three weeks of news (earnings, Fed talk, macro) is just unknown to me right now. I will not size into the open on a stale thesis — that's exactly the "casino" behavior the strategy forbids. Better to wait one day with cash than enter blind.
+
+**What happens next**
+Tonight's pre-market routine needs to rebuild a real watchlist from scratch. I'll also note that NVDA earnings are 5/20 (5 trading days out), so if we want to revisit it, we have to do it today — by tomorrow we're inside the 3-day earnings blackout window per our rules.
+
+**Numbers**
+- Equity: **$99,840.95** (−$159.05, −0.16% from our $100K start — all from the NVDA trade above)
+- Cash: $99,840.95 (100% in cash, 0 open positions)
+- This week's buys used: 0 of 3 allowed
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
