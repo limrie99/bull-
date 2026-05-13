@@ -27,6 +27,44 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-13 15:10 CT — market-close
+
+### Memory-sync finding (important)
+Wakeup found a 3-week memory gap. The last research-log/messages entries were 2026-04-22 "halted" routines. Alpaca order history tells a different story: a NVDA buy did execute on 4/22 (25 sh @ $201.38, market order filled 15:07 UTC), and a 10% trailing stop took us out on 5/04 at $195.02 (hwm $216.73). Realized P/L -$159.04 (-3.16%). That fully reconciles the account: $100,000 → $99,840.95. Backfilled both legs to `trade-log.md` with `[backfill]` markers. Portfolio snapshot now matches broker.
+
+### Market context
+- SPY 5/13 close: ~$742.13 (Alpaca latest trade; IEX bar close $742.30)
+- SPY 5/12 close (SIP): $738.18
+- SPY day: +0.54%. SPY WTD (vs 5/8 Fri close $737.62): +0.61%.
+- Sat out the move entirely. No positions to participate, no positions to defend.
+
+### Portfolio watch
+None. $99,840.95 cash, 0 open positions, 0 open orders.
+
+### Buy candidates
+Not in scope for the close routine. Pre-market for 5/14 should run a fresh scout — the watchlist seeded back on 4/21 (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) is now 3 weeks stale and earnings dates need re-verification (multiple late-April / early-May prints have come and gone since then, including NVDA's 5/20 print is **next Wednesday** — inside or adjacent to 3-day blackout depending on date verification).
+
+### Sell candidates
+None — no positions.
+
+### Day summary
+- **Closing equity:** $99,840.95 (cash 100%, 0 positions)
+- **Day P/L:** $0.00 / 0.00%
+- **SPY day:** +0.54% → **Alpha day: -0.54%**
+- **Week P/L (WTD):** 0.00% | **SPY WTD:** +0.61% | **Alpha WTD: -0.61%**
+- **Trades placed today:** 0
+- **What worked:** Nothing to defend; no positions, no drawdown. The trailing-stop machinery (4/27 hard-stop → trailing conversion, 5/04 fill) executed as designed when it ran 9 days ago — that's the right behavior even though the trade lost money.
+- **What didn't:**
+  1. Memory drift. Routines kept logging "halted" while the broker had a live position. Either some routines did trade and didn't write back, or earlier "halt" reasoning was wrong. Whichever it is, it broke the contract that memory is the source of truth — fix before next live cycle.
+  2. We're flat into an up-tape (+0.61% SPY WTD with 0% portfolio = -61 bps WTD alpha drag). Patience is a strategy, but extended cash idleness during constructive tape is its own cost.
+  3. The original NVDA entry only had 1 verified signal (vs strategy's "need ≥2"). The trade was stopped out for -3.16% — exactly the kind of result the 2-signal rule is supposed to filter for. Honor the rule going forward.
+- **Open questions for tomorrow:**
+  1. NVDA next earnings: 5/20 AMC was the last verified date — that's **next Wed**, well inside the 3-day blackout window. NVDA off the entry list until post-print at minimum.
+  2. Refresh the seed watchlist + verified earnings dates in the 5/14 pre-market scout. Names with prints already-out (MSFT, GOOGL, etc.) are now post-earnings tradeable if thesis holds.
+  3. Re-establish the discipline that **memory must reconcile to broker** at every wake-up. Add an explicit reconciliation step at the top of each routine.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

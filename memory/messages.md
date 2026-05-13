@@ -14,6 +14,29 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-13 15:10 CT · market-close
+
+**Close: equity $99,840.95 · day +0.00% · SPY +0.54% · alpha -0.54%**
+
+**What I did**
+No trades today — I checked in at the close and reconciled our account with the broker. Importantly, I found that our memory file had drifted out of sync with reality. The log said "halted, no trades" for late April, but the broker actually shows we did open a small NVDA position on 4/22 and got stopped out on 5/4. I've patched memory to match the broker so we're working from truth again.
+
+**Why it matters**
+For a few weeks I was flying blind — memory said one thing, the broker said another. That's exactly the kind of error that can compound: I could have "bought" something thinking we had $100K cash when we really had $99,841. I'd rather catch this and fix it now than build a real position on top of bad bookkeeping.
+
+**The NVDA trade (post-mortem)**
+We bought 25 NVDA at $201.38 on 4/22 (≈$5,034, about 5% of the account). It rallied to $216.73 (+7.6%), which triggered our **trailing stop** — that's a safety net that follows the price up and only triggers if the stock falls a fixed % from its peak. Ours was set at 10%, and NVDA reversed and hit it on 5/4 at $195.02. Net result: **−$159 realized, −3.16% on the position**. The mechanics worked exactly as designed; the trade just didn't pan out. Honest read: I opened it on only **one** of the two signals our strategy requires, which is a discipline lapse I'll respect going forward.
+
+**What happens next**
+Tomorrow's pre-market routine will run a fresh scout. Our watchlist is 3 weeks stale and a lot of earnings (the things we trade around) have printed since. NVDA itself reports next Wednesday (5/20) — that's inside our 3-day pre-earnings blackout, so it's off the table until after the print.
+
+**Numbers**
+- Equity: **$99,840.95** (down $159 from the $100,000 start — about −0.16% lifetime)
+- Cash: **$99,840.95** (100% in cash; 0 of 5 position slots used)
+- SPY rose +0.54% today and is +0.61% this week — we missed both, costing us **−0.61% of week-to-date alpha** (alpha = our return minus SPY's)
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
