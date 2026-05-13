@@ -27,6 +27,46 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-13 12:00 CT — midday
+
+### Halt? No — all four required env vars present, Alpaca clock confirms market open (next close 16:00 ET, 15:00 CT).
+
+### State reconciliation
+First successful routine wake-up since 2026-04-22's two halts. Memory files are ~3 weeks stale and out of sync with Alpaca. Reconciled today:
+- **2026-04-22 10:07 CT — BUY 25 NVDA @ $201.38** (order id `2b923034…`, OTO with $187.12 stop, DAY tif). Stop leg expired same evening unfilled.
+- **2026-04-27 12:16 CT — placed 10% trailing stop GTC** (order id `d42471e7…`) once position was in profit per strategy.
+- **2026-05-04 10:21 CT — TRAILING STOP FIRED, SOLD 25 NVDA @ $195.0184 avg** (HWM $216.73; stop ratchet at $195.057). Round-trip -$159.05 (-3.16%) over 12 calendar days.
+- Appended all three legs to `memory/trade-log.md` and updated `memory/portfolio.md` and `dashboard/state.json` to current Alpaca truth.
+
+NVDA today: ~$226.92 — has recovered above our HWM. The trail caught a normal pullback. Lesson candidate for the weekly review (see Pattern note below).
+
+### Market context (today's tape, brief — this is midday, not a full scout)
+- **SPY:** $742.46 last (vs $738.19 prior close, +0.58% intraday; vs $703.91 on 4/21 close, **+5.48% since inception**).
+- **NVDA:** $226.92 last.
+- I did not spin up the macro / sector / earnings sub-agents this routine — midday's job is risk management, not new ideas, and there's no position to manage. A fresh scout is the pre-market routine's job before any next entry.
+
+### Portfolio watch
+- **0 positions.** $99,840.95 cash = 100% of equity. No stops to manage, no trailing-stop conversions, no drawdown to investigate.
+- Day P/L = $0.00; daily-loss cap not engaged.
+- Since-inception alpha vs SPY: **-5.64%** (we're flat-ish at -0.16%; SPY +5.48%). Sitting in cash through a 5%+ SPY rally is what built that gap.
+
+### Buy candidates
+None today — midday is not the time to fire a new starter without a same-day pre-market scout, and there's no breaking catalyst on the wire that I'm aware of. Per the routine rules: NO new buys at midday unless (a) high-conviction breaking catalyst, (b) buys-this-week < 3, (c) positions < 5. (b) and (c) are fine; (a) is not met. **Pass.**
+
+### Sell candidates
+None — no positions.
+
+### Pattern note (carry into weekly review)
+Two things to reflect on Friday:
+1. **Was the 10% trail too tight on NVDA?** HWM $216.73 with a high-beta name; the stop fired on what now looks like noise. Counter-argument: the rule worked exactly as designed — we don't get to know in advance which pullbacks recover. Don't overfit on one trade.
+2. **Cash drag risk.** Sitting fully in cash from 4/22 onward (well, except the 4/22–5/4 NVDA window) while SPY ran +5.48% is the bigger miss than the NVDA exit itself. The strategy is concentrated, not "always invested", but if every pre-market routine keeps passing, alpha bleeds away. Next pre-market needs to be willing to actually place a position when 2+ signals align.
+
+### Next steps
+- Wait for the next pre-market routine (or a manual user prompt) to run a fresh scout with sub-agents (macro, earnings, ticker-level theses).
+- No action required at market-close today beyond logging the day's flat P/L and the SPY benchmark.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
