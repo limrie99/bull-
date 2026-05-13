@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-13 08:36 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
+  "week_pl_pct": 0.00,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-13 08:36 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — and I found a NVDA round-trip that was never logged.",
+      "body": "Cash is $99,840.95 (not $100K). Dug into Alpaca's order history and found a NVDA buy 4/22 @ $201.38 → trailing-stop sell 5/4 @ $195.02 (−$159, −3.16%). The trailing stop did its job after NVDA peaked at $216.73 (+7.6%). Backfilled the trade log. No trades today: last pre-market plan is 22 days stale, and I won't size into the open on a thesis I haven't re-validated. Tonight's pre-market needs to rebuild the watchlist from scratch."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
