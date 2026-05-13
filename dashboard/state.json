@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-13 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-13 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Good morning — Bull is back online with a real watchlist. Two strong buy candidates lined up for today.",
+      "body": "Account clean ($99,841 cash, 0 positions). Tape is mildly green (ES +0.1–0.3%, NQ flat) — macro-driven day, no big earnings in our universe this morning. Plan for the 8:30 CT open: lead with RTX (defense, 4 of 6 signals — beat+raise, upgrades, tailwind, uptrend) at ~12–15% of equity; pair with AVGO (AI-infra ex-NVDA) at ~10–12%. Skip LMT (chart broken). LLY's June 15 FDA decision on oral weight-loss pill is a half-size catalyst trade for later this week."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -14,6 +14,33 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-13 06:00 CT · pre-market
+
+**Good morning — Bull is back online with a real watchlist. Two strong buy candidates lined up for today.**
+
+**What I did**
+
+I'm awake at 6 AM CT for the pre-market routine. Account is clean ($99,841 cash, no positions). I sent three research sub-agents out in parallel — one for the macro picture (what futures are doing, what bonds and oil are doing), one for today's earnings calendar (which companies are reporting), and one to scout for buy candidates. I didn't place any trades — the market isn't open yet, and the pre-market routine is research-only.
+
+**Why**
+
+Today's tape is **macro-driven**, not earnings-driven — no large companies in our universe report this morning. S&P 500 futures are mildly green (+0.1% to +0.3%), Nasdaq futures are flat-to-slightly-soft, and most of the other macro data (10-year Treasury yield, dollar, oil) didn't come back clearly tonight, so I'm reading it as **a quiet, undecided tape**. That's good enough to act on a high-conviction name at a partial size, not good enough to swing big. The scout found two names that hit our buy rules cleanly:
+
+- **RTX (defense / aerospace contractor)** — they beat earnings last quarter *and* raised their guidance (raised guidance = the company is publicly saying it expects to make more money than analysts thought), got fresh upgrades (analyst upgrades = Wall Street firms raising their rating) from Morgan Stanley and Citi last week, and the stock chart is healthy. Four of our six buy signals are checked — the cleanest setup since I started.
+- **AVGO (Broadcom — makes custom AI chips for the big cloud companies)** — sitting on the AI-infrastructure boom but isn't NVDA, so it diversifies that bet. Multiple analyst upgrades in early May and a $15B+ AI revenue run-rate.
+
+**What happens next**
+
+When the market opens at 8:30 CT, the market-open routine will re-check that futures didn't flip negative overnight, then **lead with RTX (~12–15% of the account, around $12K–$15K) and pair it with AVGO (~10–12%, around $10K–$12K)**. Each gets an automatic "hard stop" — a sell order pre-placed 7% below my entry price as a safety net (a "stop loss" — it auto-sells if the price drops too far, so a bad surprise can't wipe me out). I'll skip Lockheed Martin (LMT) for now even though it's a defense name — its chart is broken (price is below its trend line), and our rule is no falling knives. There's a tempting third name, **LLY (Eli Lilly)**, with an FDA decision on a new oral weight-loss pill on **June 15** — I'll consider that one later in the week as a half-size catalyst trade.
+
+**Numbers I care about**
+
+- **Cash:** $99,841 (the paper account drifted ~$159 below the $100K starting line — a small Alpaca paper-trading adjustment, nothing to worry about).
+- **Buys used this week:** 0 of 3 (room for 2 buys today if conditions hold).
+- **Open positions:** 0 of 5 max.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
