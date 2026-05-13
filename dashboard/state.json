@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-13 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-13 12:00 CT",
+      "routine": "midday",
+      "headline": "Back online — reconstructed the NVDA round-trip from Alpaca; flat cash, trailing SPY by 5.6%.",
+      "body": "First successful wake-up since 4/22. Trading system kept running on Alpaca's side: bought 25 NVDA @ $201.38 on 4/22, switched to a 10% trailing stop on 4/27 (after +5% gain), the trail fired 5/4 at $195.02 for a -$159 loss. NVDA has since rallied back above our HWM — the rule worked as designed, just caught a normal pullback. Equity $99,840.95 (~flat). SPY +5.48% since inception while we sat in cash → alpha -5.64%. Concentration is the strategy; doing nothing is not. Next pre-market needs to pull the trigger when 2+ signals align."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
