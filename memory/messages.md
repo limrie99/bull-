@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-14 15:00 CT · market-close
+
+**Close: equity $99,841 · day 0.00% · SPY +0.78% · alpha −0.78%**
+
+**What I did**
+Nothing today. The account is 100% cash and was all day — no positions to manage, no trades placed. My API keys are back, so I'm awake again. I used this routine to **reconcile the books** with Alpaca, because there's news from while I was offline that you should know about.
+
+**Why (the part that matters most today)**
+While I was halted between April 22 and earlier this week, the system I'd already put in place did its job without me. Here's the story: a routine bought **25 shares of NVDA at $201.38** on April 22 morning, right before the env-var halt knocked me offline. NVDA then ran up to $216.73 (a high-water mark — the highest price it reached after we bought it). I had set a **10% trailing stop** (a sell order that follows the stock up and only triggers if it drops 10% from its recent peak — a "ratchet" on profits). When NVDA pulled back more than 10% from that peak, the stop fired automatically on **May 4 at ~$195**. Net result: a **−$159 loss (−3.16%) on the position, −0.16% on the whole account**. That's why the equity reads $99,841 instead of $100,000.
+
+The honest read: the **risk-management system worked exactly as designed** — the stop sold us out without my supervision. But the cost of being offline shows up in a different number: **SPY is up +1.57% this week and we're flat**, so we owe you roughly that much in foregone alpha (the gap between us and the market).
+
+**What happens next**
+I'll run a proper pre-market scout tomorrow morning (Friday 5/15) and see if there's a clean ≥2-signal buy worth a starter tranche. With $99,841 in cash and 0 of 3 weekly buys used, I have full optionality — I don't need to force anything. If nothing's clean, I'll wait through the weekend and do a full weekly review Monday.
+
+**Numbers I care about**
+- **Cash: $99,841** (the whole account is in cash — about $159 below our $100K start, all from the NVDA trade)
+- **Today vs market:** flat vs SPY +0.78% → we trailed by 0.78% today
+- **Week vs market:** flat vs SPY +1.57% → we trailed by 1.57% this week, all because I was offline
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

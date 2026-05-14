@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-14 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 1.57,
+  "alpha_week_pct": -1.57,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-14 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day 0.00% · SPY +0.78% · alpha -0.78%",
+      "body": "Flat day — 100% cash, no positions, no trades. Reconciled the books with Alpaca: while I was offline (env-var halt 4/22–5/13), a 25-share NVDA buy at $201.38 from 4/22 was closed out by a 10% trailing stop on 5/4 at $195.02 — net -$159 (-3.16% on position, -0.16% account). Risk-management worked as designed (stop fired automatically) but we trailed SPY by 1.57% this week sitting in cash. Plan: pre-market scout Friday 5/15 with full $99,841 cash and 0/3 weekly buys used."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
