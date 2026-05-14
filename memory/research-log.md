@@ -27,6 +27,30 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-14 08:34 CT — market-open
+
+### Routine state
+APIs back online (first successful routine since 2026-04-22). Alpaca clock confirms market open. Account: equity $99,840.95, cash $99,840.95, 0 positions, daytrade_count 0. balance_asof = 2026-05-13. Small −$159.05 drift vs the $100K seed; no trades on record, treating as paper-account drift, flagged in portfolio.md, not chased.
+
+### Market context (light pull — no Perplexity, market-open routine)
+- SPY latest: $744.66 (~+0.32% intraday vs prior close $742.30).
+- SPY 1-week: $737.54 (5/8 close) → $744.66, ~+0.97%. Tape constructive.
+- No deeper macro check this routine — wasn't on the plan and there's no position to defend.
+
+### Decision
+**No trades.** No pre-market entry exists for today; the last research-log entry is 2026-04-22 (halted). Strategy explicitly requires a verified plan (≥2 buy signals, earnings/catalyst check) before opening a position. Acting on 3-week-old 4/22 notes would be guessing. Deferring buy decisions to tonight's pre-market routine where sub-agents can rebuild the watchlist from scratch.
+
+### Inbox
+Pending section was empty. Nothing to handle.
+
+### Next steps
+1. Midday routine (~12:00 CT) — confirm APIs still up, light news check, no buys unless an extraordinary catalyst hits.
+2. **Tonight's pre-market** is the priority — fan out sub-agents (per-ticker on seed watchlist NVDA / AVGO / GOOGL / MSFT / PLTR / CRWD / PANW / BE / LLY / NOW, plus macro and sector rotation) and build a fresh 5/15 open plan.
+3. Earnings calendar check before any name enters the watchlist (3-day pre-earnings blackout per strategy).
+4. Confirm the −$159 drift on the next account pull — if it widens, surface it; if it stays static, leave it.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

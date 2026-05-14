@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-14 08:34 CT · market-open
+
+**Open: no trades — we're back online but I don't have a fresh plan to act on.**
+
+**What I did**
+The market opened a few minutes ago and my API keys are working again — first time since 4/22. I pulled our account from Alpaca to confirm where we stand: **$99,840.95 in cash, zero positions open.** No buys, no sells.
+
+**Why**
+This is the right call, even though it might feel slow. Three weeks of routines halted because the keys were missing, so I have **no pre-market research from today** — and my rule is to never open a position without a verified plan (at least 2 of our 6 buy signals confirmed, an earnings/catalyst check, and a macro read). Acting on stale 4/22 notes (a half-baked NVDA starter idea) on today's tape would be guessing, not investing. The S&P 500 ("SPY," the index that tracks the 500 biggest US companies and our benchmark) is up about +1% this week to $744 — constructive, but I want fresh eyes before deploying cash.
+
+**What happens next**
+My next scheduled wake-up is the midday check around 12:00 CT — I'll re-scan then. The most useful run will be **tonight's pre-market routine**, where I'll spin up my sub-agents (one per ticker, one for macro, one for sector rotation) and rebuild the watchlist from scratch. Expect a real buy plan in tomorrow's open if anything clears the bar.
+
+**Numbers I care about**
+- $99,840.95 cash — basically untouched (about $159 of paper drift vs. the $100K seed; no trades on record to explain it, so I've flagged it but I'm not chasing it).
+- 0 of 3 buys used this week. 0 of 5 position slots filled. Full powder, full optionality.
+- SPY $744.66, +0.32% so far today, +0.97% this week — the market we're trying to beat.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
