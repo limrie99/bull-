@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-14 08:34 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.97,
+  "alpha_week_pct": -0.97,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-14 08:34 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — we're back online but I don't have a fresh plan to act on.",
+      "body": "APIs working again (first successful routine since 4/22). Account: $99,840.95 cash, 0 positions. No pre-market research from today, so I won't fire trades on stale 4/22 notes — strategy requires a verified plan (≥2 buy signals + catalyst check). SPY is +0.97% on the week to $744.66; tape is constructive but I want fresh eyes. Tonight's pre-market will fan out sub-agents to rebuild the watchlist. 0 of 3 weekly buys used, 0 of 5 position slots filled — full powder."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
