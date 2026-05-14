@@ -27,6 +27,70 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-14 06:00 CT — pre-market (for 5/14 open)
+
+**Timing:** Scheduled pre-market routine. Alpaca clock confirms market closed; next_open = 2026-05-14 09:30 ET. APIs verified live (Alpaca 200, Perplexity 200). Three sub-agents fanned out in parallel: macro, earnings, opportunity scout. Account fresh after a multi-week halt window: **$99,840.95 cash, 0 positions** (down $159.05 from $100K — likely tiny paper-account interest accrual or rounding, not a trade).
+
+### Market context
+
+Tape into Thursday cash open reads **mildly risk-on at record highs**, but data was thin.
+- **ES (Jun'26):** +0.20% at ~7,484.25 overnight (prior cash session +0.62%).
+- **NQ (Jun'26):** +0.55% overnight (prior session +1.09%). Nasdaq leading SPX = AI/semis bid intact.
+- **SPY spot:** $742.77 (Alpaca last trade 5/13). At this price SPY implies SPX ~7,427 — consistent with ES at 7,484.
+- **10Y yield, DXY, WTI, Brent, gold, Asia/Europe closes:** all came back **n/a** from Perplexity. Same data gap as the 4/21 passes — need a better macro source.
+- **Headlines:** no fresh Fed/CPI/PPI/tariff/geopolitics driver named. Wednesday's S&P/Nasdaq prints made fresh record highs on continued AI-chip momentum.
+- **Net read:** mildly risk-on but extended; path of least resistance is up into the open, but record-high tape is asymmetric — any surprise headline hurts more than it helps.
+
+### Portfolio watch
+
+No open positions. **$99,840.95 cash**, $199,681.90 buying power (cash-only per strategy). Nothing to manage.
+
+### Earnings calendar (2026-05-14)
+
+- **BMO and AMC: Perplexity returned no verified $10B+ US earnings for 5/14.** This is a Perplexity coverage limitation, not a market signal. Names like WMT and CSCO historically print mid-May — treat as **possible but unconfirmed**; verify against a structured calendar (Alpaca news / Nasdaq calendar) before Friday's routine.
+- **Wed 5/13 AMC standouts:** none confirmed. Do not assume any specific print without verification.
+- **Tape-setter call:** without confirmed mega-cap prints, Thursday is macro/flow-driven, not earnings-driven.
+
+### Buy candidates
+
+Scout returned a ranked table of **NVDA / LLY / AVGO / PLTR / MSFT**, but **flagged a serious data-quality problem:** Perplexity's quoted current prices were materially wrong vs. live Alpaca quotes. Documenting both for honesty:
+
+| Ticker | Scout-quoted price | Alpaca last trade (5/13) | Delta | Implication |
+|---|---|---|---|---|
+| NVDA | ~$145.20 | **$226.41** | +56% | Scout price appears to be pre-split or stale by months |
+| LLY  | ~$928.40 | **$1,015.64** | +9% | Closer, but still off |
+| AVGO | ~$192.80 | **$417.50** | +117% | Likely pre-split / pre-2025 quote |
+| PLTR | ~$38.90  | **$130.13** | +234% | Stale by many months |
+| MSFT | ~$482.50 | **$404.35** | −16% | Off the other direction |
+
+Because the scout's prices are unreliable, **its specific claims (insider buy 50K shares 5/10, FDA approval 5/11, $1.2B Army contract 5/8, Goldman upgrade dates) cannot be trusted without independent verification.** Treat the symbol list as a **watchlist**, not as verified buy theses.
+
+What I can still defensibly say about each, using only confirmed Alpaca prices + strategy rules:
+
+- **NVDA — $226.41.** Secular AI-infra tailwind (signal 3) is real and ongoing; that one alone has been a 2026 thesis. Next earnings date not verified tonight — historical pattern is **late May**, which would put us inside or near the 3-trading-day blackout. **Do not enter without confirming earnings date first.** If confirmed clear of blackout: med-conviction starter.
+- **LLY — $1,015.64.** GLP-1 secular tailwind (signal 3) is intact. Specific FDA-approval claim from scout unverified. Notional cost of a single share is high — 5% position sizing means ~$5K = only 4-5 shares (fine, just sized small).
+- **AVGO — $417.50.** Custom-silicon / AI-networking tailwind (signal 3). Earnings unverified; AVGO typically prints **early September**, so blackout less likely an issue now. Pullback-entry geometry tempting but unverified.
+- **PLTR — $130.13.** AI + defense tailwind (signal 3). At all-time highs based on the price move; chasing a name up >3x in a year carries its own risk. Strategy explicitly tolerates momentum within a fundamentals frame, but I want a *verified* fresh catalyst before opening.
+- **MSFT — $404.35.** Down ~16% from the scout's misquoted level. If MSFT is actually trading off recent highs while AI-cap-ex remains intact, that's a *better* setup than the scout described, not worse — but I need to confirm the price action isn't a thesis-breaker (e.g., Azure miss, antitrust headline). Earnings was late January cycle → next likely late July, well clear of blackout.
+
+**Net call for 5/14 open:** **NO new buys.** This is a pre-market routine — no trades allowed anyway — but importantly, even if it were the open routine, the scout data is too unreliable to act on. The market-open routine should:
+1. Verify next-earnings dates for NVDA, LLY, AVGO, PLTR, MSFT via Alpaca corporate actions or a per-ticker Perplexity query.
+2. Confirm at least one concrete catalyst per name with a primary source (company IR, SEC filing) before opening anything.
+3. If tape is still risk-on and at least 2 names clear ≥2 verified signals, open ONE starter (5% sizing, ~$5K), prefer AVGO or LLY for less-extended entry. NVDA only if blackout clears.
+
+### Sell candidates
+
+None — no positions.
+
+### Notes / research gaps to close next routine
+
+1. **Scout price-verification is mandatory.** Going forward, the scout must cross-check at least the current price for each proposed ticker via Alpaca before reporting — Perplexity alone is unreliable on quotes.
+2. Pull next-earnings dates for NVDA, LLY, AVGO, PLTR, MSFT directly (Alpaca calendar or per-ticker Perplexity).
+3. Macro digest is still missing 10Y yield, DXY, WTI/Brent, gold, Asia/Europe levels. Consider a different research path or a higher search-context setting.
+4. The 22-day gap since the last successful routine (2026-04-22 halts) is large — tape has moved a lot. Rebuild the watchlist deliberately rather than relying on 4/21 priors.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

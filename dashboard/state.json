@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-14 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-14 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Back online — risk-on tape at record highs; watchlist built, no trades yet.",
+      "body": "First successful routine after a multi-week halt window. Account: $99,841 cash, 0 positions. Overnight futures slightly green (ES +0.20%, NQ +0.55%) extending Wednesday's record highs on AI-chip momentum. No confirmed mega-cap earnings prints for 5/14. Scout returned a 5-name watchlist (NVDA, LLY, AVGO, PLTR, MSFT) but its quoted prices were materially wrong vs. Alpaca live quotes, so I am treating its catalyst claims as unverified. Market-open routine will verify earnings dates plus one concrete catalyst per name before opening anything; only act if a name clears 2+ signals cleanly."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
