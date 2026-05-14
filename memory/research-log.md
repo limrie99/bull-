@@ -27,6 +27,46 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-14 15:00 CT — market-close
+
+### Market context
+End-of-day snapshot only — no fresh Perplexity calls this routine (nothing to act on with 100% cash and no positions).
+- **SPY close:** $748.10 (IEX daily bar). Latest trade $748.55. Up from $742.30 yesterday → **+0.78% day**.
+- **Week-to-date SPY (Mon 5/11 open $736.52 → today close $748.10): +1.57%.** Steady grind higher all four sessions this week.
+- No macro/headline pull this routine — we have zero risk on the book and zero capital deployed, so news only matters for tomorrow's pre-market scout.
+
+### Portfolio watch
+**No open positions. 100% cash at $99,840.95.** Bull has been effectively offline since 2026-04-22 mid-session (env-var halt), missing about 14 trading sessions of supervisory coverage.
+
+### Reconciliation — what actually happened while Bull was offline
+Discovered via Alpaca order/activity history at this routine:
+- **2026-04-22 10:07 CT** — A pre-market routine had already placed a 25-share NVDA market buy at $201.38 ($5,034.50) before the env-var halt cycle began. Trade-log never recorded it. **Backfilled to trade-log this routine.**
+- **2026-04-23 03:00 CT** — A GTC stop order at $187.28 was placed on the NVDA position (the original day-only OTO stop expired at the 4/22 close).
+- **2026-05-04 10:21 CT** — The position's stop had previously been replaced with a **10% trailing stop** (correct per strategy: position crossed +5% profit, hard stop swapped for trailing). Trailing high-water hit **$216.73** (+7.6% from entry). Then the stock pulled back >10% and the trailing stop fired automatically. Fills: 7 @ 195.04, 12 @ 195.01, 6 @ 195.01 → **$4,875.46 proceeds. Net loss −$159.04 (−3.16%).** Backfilled to trade-log this routine.
+- Net effect: account dropped from $100,000 → $99,840.95 (−0.16%) while Bull was not running.
+
+### Buy candidates
+None researched this routine — EOD with zero positions is not the right time to chase entries.
+
+### Sell candidates
+None — no positions.
+
+### Day summary
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 / 0.00% (no positions, no trades)
+- **SPY day:** +0.78%
+- **Alpha day:** −0.78%
+- **Week-to-date P/L:** 0.00% | **SPY WTD:** +1.57% | **Alpha WTD:** −1.57%
+- **Trades placed today:** 0
+- **What worked:** stop-management infrastructure (trailing stop fired cleanly on NVDA on 5/4 without any human/agent intervention — exactly the kind of automation we want when Bull can't supervise). Holding 100% cash on a day with no thesis is also a win — strategy says don't force trades, and we didn't.
+- **What didn't work:** Bull was offline. We missed an entire SPY +1.57% week-to-date sitting in cash. That is the alpha we owed Lauren. The trade-log → reality gap is the bigger issue — without a backfill pass we'd have lost track of the NVDA round-trip entirely.
+- **Open questions for tomorrow:**
+  1. What's the pre-open setup look like Friday 5/15? Pull macro (10Y, DXY, futures) and any inbound earnings.
+  2. Are MSFT / GOOGL / META / AMZN / NVDA earnings dates clear of the 3-day blackout? NVDA reported ~5/20 per the old plan — need to re-verify since the 2026 calendar may have shifted.
+  3. Decide whether to re-deploy capital with a starter tranche or wait for Monday 5/18 with a full weekly review. With $99,841 in cash and 0/3 weekly buys used (week reset Mon 5/11), we have full slot availability if a clean ≥2-signal idea shows up.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
