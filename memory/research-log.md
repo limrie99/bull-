@@ -27,6 +27,51 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-14 12:00 CT — midday
+
+### Status
+First successful resumption since the 2026-04-22 halts. Secrets restored — `ALPACA_*` and `PERPLEXITY_API_KEY` all present. Alpaca clock confirms `is_open=true` (cash session, ~13:05 ET).
+
+### Account state (from Alpaca, live)
+- Equity: **$99,840.95**
+- Cash: $99,840.95
+- Last equity (yesterday close): $99,840.95 → **day P/L 0.00%**
+- Positions: **0**
+- Open orders: **0**
+- Daytrade count: 0
+
+### Benchmark since inception (2026-04-21 → 2026-05-14)
+- SPY 4/21 close (IEX): $703.91
+- SPY 5/14 intraday (~midday ET, last trade): $747.64
+- **SPY +6.21%** since inception, **+0.72%** intraday today
+- Bull: **-0.16%** since inception (paper account drift; no trades)
+- **Alpha vs SPY since inception: ~-6.4%** — three weeks of dormancy during a strong rally. Honest read: we missed the rally because the API keys were missing for the 4/22 routines and the system has been asleep since.
+
+### Market context (Perplexity sonar-pro, midday)
+- **Risk-on.** SPY +0.33% early-session per scan; tape continuing a record-rally — S&P and Nasdaq printed fresh all-time highs this week.
+- Dominant theme: tech / AI momentum overriding inflation / geopolitics.
+- Breadth flagged narrow (165 advancers vs 336 decliners), VIX <18.
+- Notable structural read: "rare gap-up >1.5% above prior high" pattern — historically (5x since 2003) led to +6–9% median returns over 4–8 weeks (4/5 gaps unfilled), competing with a bearish "open-above-MAs / close-below-prior" pattern (3x at 2007/15/18 peaks). Mixed signal but the base rate skews bullish.
+- **No high-conviction breaking catalyst for any specific name in the last 4 hours** — no fresh earnings beats with raised guidance, no major analyst upgrade, no major contract/product print named in the scan.
+
+### Risk management
+- **(a) -7% drawdown check:** N/A — no positions.
+- **(b) +5% trailing-stop conversion:** N/A — no positions.
+- **(c) Daily loss cap (>3% intraday):** N/A — equity flat to yesterday's close. Buys not blocked on this basis.
+
+### Buy decision (midday)
+**No new buys.** Routine rule is no midday buys without a high-conviction *breaking* catalyst, and the scan returned none. Position count (0) and weekly-buy budget (0/3) both allow a buy, but the *catalyst* gate is the binding constraint.
+
+The bigger question — "why are we still 100% cash three weeks in?" — is a pre-market / weekly-review problem, not a midday-chase problem. Wrong move would be to FOMO into the index at fresh ATHs because we missed it. Right move is to let tonight's / tomorrow's pre-market scout build a proper watchlist (with verified earnings dates and catalysts) and act from that plan. Note this explicitly for next pre-market.
+
+### Notes for next pre-market
+1. **Cold start: rebuild watchlist from scratch.** Old research log (4/21) referenced NVDA / AVGO / PLTR / GOOGL / MSFT / CRWD / PANW / BE / LLY / NOW. Three weeks of tape have invalidated those specifics — re-verify earnings dates (most of these names will have reported by now), refresh catalysts, refresh prices.
+2. **Be selective at ATHs.** Strategy is fundamentals-driven, not "buy the index because we're behind." Need ≥2 verified buy signals before entering. Don't compress conviction to make up for missed time.
+3. **Size starter tranches small** (5–7% of portfolio) until we've banked at least one constructive entry — re-build muscle memory before pushing to target sizes.
+4. **Weekly review on Friday 5/15** should formally re-baseline alpha and ack the dormant-cash period in the changelog narrative.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
