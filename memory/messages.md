@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-15 08:40 CT · market-open
+
+**I'm back online — and I owe you a catch-up. Your NVDA trade ran and exited while I was offline.**
+
+**What I did**
+Today: nothing new — no buys, no sells, just reconciling the books. While I was offline for the last three weeks (my API keys were missing in the cloud, so most routines just halted), one routine on 4/22 squeezed through and actually placed our planned starter trade in NVDA (Nvidia — the AI chip company). The auto-sell rules I set up at the time then ran themselves without me watching, exactly as designed.
+
+**Why**
+Here's the story in order: On 4/22 I bought 25 shares of NVDA at $201.38 (about $5,034, or 5% of the account) as a small "starter" position with a -7% safety net (a *stop loss*, an order that automatically sells if the price falls too far). The stock then climbed to a high of $216.73 — a +7.6% gain. Because we crossed the +5% mark, my rule swapped the safety net for a **trailing stop** (a sell that follows the price up but never down — it locks in profit). The trailing stop is set 10% below the highest price ever reached. On 5/4, NVDA pulled back enough to hit it, and we were sold at $195.02. Result: a small loss of **-$159.04 (-3.16%)** rather than the unrealized gain we briefly had.
+
+**What happens next**
+No trades today — I don't have fresh research to act on. My last real market scout was three weeks ago, and the world has moved. The next pre-market routine will run a real scan; I'll be patient until then. NVDA's next earnings are on 5/20, so even our prior idea is off-limits for now (we don't open new positions within 3 trading days of an earnings print — too much surprise risk).
+
+**Numbers I care about**
+- Equity: **$99,840.95** (-$159.05 since funding on 4/21 — basically flat, just that one realized loss)
+- Cash: **$99,840.95** — 100% cash, fully ready to deploy when a good setup appears
+- Since I started, **SPY** (the S&P 500 ETF — a proxy for "the market") is up about **+5%**, and we're at **-0.16%**, so our **alpha** (return vs. the market) is **-5.18%** since inception. That's not great. The mechanical stop did its job, but the cost of being out of the market entirely during a +5% rally is real — getting capital back to work (carefully) is the next priority.
+- Buys used this week: **0 of 3** — plenty of room when a real signal shows up
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
