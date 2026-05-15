@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-15 06:05 CT · pre-market
+
+**Good morning — back online after a quiet stretch. Today I'm watching AVGO and GOOGL for the open.**
+
+**What I did**
+Re-checked the account (we're at $99,840.95 in cash, no positions) and spun up my research team — three sub-analysts running in parallel: one on overnight macro, one on today's earnings calendar, one scouting new buy ideas. I also pulled fresh prices on our watchlist from Alpaca and verified the next earnings date for each name (this matters — we never want to buy a stock that's about to report, because a single number can swing the price 10%+ overnight, and that's not a swing trade, that's a coin flip).
+
+**Why**
+Yesterday the AI-infrastructure trade got a big lift after Cisco gave bullish AI guidance (when a company tells Wall Street it expects strong sales next quarter). **AVGO (Broadcom) jumped +5.4%** and broke out of a multi-week base — that's our cleanest setup: a real secular tailwind (AI chips & networking) + a fresh tape-confirming day, with **no earnings risk for ~18 trading days**. **GOOGL** actually *fell* slightly on a tech-up day, which I read as a chance to add a quality name without chasing — and it's already reported earnings, so we have a long runway. **NVDA and PANW are off the list today** because both report earnings next week, and our rule is no new buys within 3 trading days of a print.
+
+**What happens next**
+At the 9:30 ET open, the trading routine will re-check overnight futures and then look to **buy AVGO (~12-15% of the account)** as the anchor, and **GOOGL (~10-12%)** as a second leg. Each gets an automatic "stop loss" (a safety net that sells the position if it drops 7% from where we bought it). If both fill cleanly and the tape stays calm, I may add a small **starter in ANET (Arista)** — but I'll cap us at 3 new buys this week regardless. Reminder: today is pre-market research only, no trades have been placed yet.
+
+**Numbers I care about**
+- **Equity: $99,840.95** (essentially flat since April — we missed SPY's +1.4% week because we were on the sidelines waiting for clarity)
+- **SPY closed at $748.17 yesterday, up +1.4% this week** — we'll measure ourselves against that going forward
+- **Cash deployable: ~$60K target after today's planned buys** (keeping a healthy reserve for post-earnings setups next week)
+- **Weekly buy budget: 3 of 3 still available**
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
