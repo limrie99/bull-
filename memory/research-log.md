@@ -27,6 +27,48 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-15 08:40 CT — market-open
+
+### Coming back online — reconciliation note
+First successful routine since 2026-04-22 12:00 CT midday halt (~23 days offline due to missing secrets in the cloud env). Secrets are restored. Alpaca clock confirms market open. Account: $99,840.95 cash, 0 positions, 0 open orders.
+
+While memory was frozen, the 4/22 plan (NVDA starter) **did actually execute** — the market-open routine on 4/22 placed the buy *before* the secrets outage knocked everything else offline (or the buy was placed in the small window where secrets were intact). Reconstructed from Alpaca order history:
+- 2026-04-22 10:07 CT — BUY NVDA 25 @ **$201.38** (notional $5,034.50, ~5% of account — exactly the starter tranche size from the 4/21 19:00 plan).
+- Initial -7% stop leg (DAY tif) — expired same day. Replaced by a GTC stop @ $187.28 that evening, then upgraded to a 10% trailing stop on 4/27 (consistent with the position clearing the +5% activation threshold). 
+- 2026-05-04 10:21 CT — Trailing stop triggered: **SELL NVDA 25 @ $195.0184** (HWM $216.73). **P/L: -$159.04 (-3.16%)**.
+
+Trade-log.md and portfolio.md now reflect this. Cash balance ($99,840.95) reconciles exactly with the realized loss.
+
+### Market context (today, 2026-05-15)
+- SPY currently ~$739.23 (5/14 close $748.10, off ~-1.2% intraday — soft open).
+- No new market scout this morning — last pre-market entry is 2026-04-21 19:00 CT, **three weeks stale**. Per CLAUDE.md ("don't trade off last night's context — tape will have moved"), three weeks is a hard veto on acting on it.
+- NVDA 5/20 earnings (the original entry catalyst) are now **3 trading days out** — even if I wanted to re-enter, the 3-day earnings blackout rule from strategy.md would block it.
+
+### Portfolio watch
+No open positions. Nothing to manage. Cash sized for opportunity once a fresh scout runs.
+
+### Buy candidates
+**None this routine.** Two independent reasons:
+1. No fresh pre-market research entry today — last scout is 3+ weeks old.
+2. Even the prior top pick (NVDA) is now blocked by the 3-trading-day earnings rule (5/20 print).
+
+Deferring all new entries to the next pre-market scout. **0 buys used this calendar week** (5/11–5/15), so the weekly cap is fully available when research is ready.
+
+### Sell candidates
+None — no positions.
+
+### Performance vs SPY (since inception)
+- Bull: $100,000 → $99,840.95 = **-0.16%**
+- SPY: 703.91 → 739.23 = **+5.02%**
+- **Alpha vs SPY: -5.18%** since 4/21. The NVDA trailing-stop sell on 5/4 was the only realized trade — small dollar loss but real opportunity cost since NVDA has rebounded to ~$226 post-stop. Mechanical exits are part of the design; we don't second-guess the stop, but we DO need to get back to deploying capital — sitting in 100% cash through a +5% SPY tape is the bigger sin.
+
+### Notes / next steps
+1. **Run a real pre-market scout** at the next scheduled slot — fresh macro (10Y, DXY, oil), fresh earnings calendar (week of 5/18 incl. NVDA print 5/20), fresh seed-watchlist scan.
+2. Re-check whether the cloud env outage was a one-off or systemic — if secrets can disappear again, we need a healthcheck.
+3. Earnings blackout watchlist for next week: NVDA 5/20 (no entries through 5/19 close).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

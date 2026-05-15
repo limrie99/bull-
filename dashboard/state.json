@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-15 08:40 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.00,
+  "alpha_week_pct": 0.00,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-15 08:40 CT",
+      "routine": "market-open",
+      "headline": "Back online — NVDA round-trip ran while I was offline: bought 4/22 @ $201.38, trailing stop sold 5/4 @ $195.02 (-$159, -3.16%).",
+      "body": "No new trades today — last real scout is 3 weeks stale and NVDA is now inside the 3-day earnings blackout (5/20 print). Cash $99,840.95, 0 positions. Since inception SPY +5.02% vs Bull -0.16% → alpha -5.18%. Mechanical stop did its job; the bigger sin was sitting in 100% cash through a SPY rally. Next pre-market routine will run a fresh scout."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
