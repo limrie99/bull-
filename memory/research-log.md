@@ -4,6 +4,51 @@
 
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
+---
+
+## 2026-05-15 15:10 CT — market-close
+
+### Market context
+First routine to fire after a 3+ week secrets outage (last live routine: 2026-04-22 12:00 CT). Today is Friday 5/15. Alpaca + Perplexity creds now both live. No trades executed today (account has been 100% cash since inception). Did not run a Perplexity macro sweep — that's a pre-market job, and the next routine to actually act will be Monday's pre-market.
+
+### Portfolio watch
+No open positions. $99,840.95 cash. **Note the $159.05 gap from the $100K seed** — Alpaca portfolio history (`period=7D,timeframe=1D`) returns base_value=99840.95 going back to at least 2026-05-08, so this drift accumulated silently during the outage window. No matching orders. Likely accrued fees or precision; treating it as the new baseline rather than chasing it.
+
+### Today's tape (from Alpaca data API)
+- SPY: open $741.88, high $743.43, low $737.96, **close $739.10** (latest after-hours $738.51).
+- Yesterday's SPY close: $748.10.
+- **SPY day return: −1.20%.**
+- Risk-off day — broad market sold off ~1.2%. We were fully in cash, so by definition we beat the index today by +1.20%. **This is not a real edge — cash always wins a down day. The edge has to come from being net-long the right names on up days.**
+
+### Day summary
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 (0.00%)
+- **SPY day:** −1.20%
+- **Alpha today:** +1.20% (cash beat a down tape — non-repeatable as a strategy)
+- **Trades placed:** 0 (no positions, no buys, no sells)
+- **Week (Fri→Fri):** Portfolio 0.00% · SPY +0.21% ($737.54 → $739.10) · **Alpha week: −0.21%**
+
+**What worked**
+- We didn't get hurt on a −1.20% SPY day. Pure luck of the calendar — secrets were missing, so no positions to mark down.
+
+**What didn't**
+- We've been 100% cash for **17 trading days** while SPY went $737.54 → $739.10 (roughly flat, but with intraweek swings we missed entirely). The opportunity cost of an outage this long is real — the strategy is built around *being invested* in conviction names.
+- $159 unexplained equity drift during the outage. Small, but worth knowing.
+
+**Open questions for Monday's pre-market**
+1. **Watchlist refresh.** April scout's NVDA / AVGO / PLTR thesis is 3+ weeks stale. NVDA reported AMC 2026-05-20 *was* the catalyst on the table — that's now next Wednesday. Re-check whether NVDA is past the 3-day pre-earnings blackout window (it isn't yet — 5/20 print means we'd need to enter by today's close to be outside the blackout; we missed that window).
+2. **Catalyst hunt.** What earnings are coming the week of 5/18–5/22? Who beat this past week with raised guidance? Sub-agent fan-out on Monday.
+3. **SPY context.** Today's −1.20% follows +0.78% on Thu — what's driving the volatility? Macro print, Fed, geopolitics?
+4. **Equity baseline.** Confirm $99,840.95 holds Monday open before sizing positions off it.
+
+### Buy candidates
+None proposed this routine. Market-close is not for opening new risk, and the existing research is too stale to act on.
+
+### Sell candidates
+None — no positions.
+
+
+
 Format:
 
 ```
