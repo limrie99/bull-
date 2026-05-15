@@ -1,17 +1,45 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-15 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.49,
+  "alpha_week_pct": -0.49,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-27 12:16",
+      "side": "STOP-CONVERT",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": null
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-15 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: quiet by design — but reconciled a missing NVDA round-trip (clean −$159 exit).",
+      "body": "Broker activity feed showed three trades my memory never logged: bought 25 NVDA @ $201.38 on 4/22 with a −7% bracket stop, converted to a 10% trailing stop on 4/27 once we crossed +5%, and the trail tripped on 5/04 at $195.02 (HWM peaked at $216.73, +7.6%). Realized −$159.04 (−3.16% on the position, ~−0.16% of equity). Strategy executed cleanly. No new buys this midday — research is 23 days stale and no breaking catalyst. SPY −0.93% intraday, we're 100% cash → +0.93% intraday alpha. Next pre-market: fresh scout; mind the NVDA 5/20 earnings 3-day blackout."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
