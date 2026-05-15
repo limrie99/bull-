@@ -27,6 +27,38 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-15 16:00 CT — weekly-review
+
+### Data pulled
+- Alpaca `/v2/account`: equity 99840.95, cash 99840.95, last_equity 99840.95, balance_asof 2026-05-14, 0 positions.
+- Alpaca `/v2/positions`: empty array.
+- Alpaca `/v2/account/portfolio/history?period=1W&timeframe=1D`: equity 99840.95 every day Mon–Thu (Fri bar not yet posted), base_value 99840.95 as of 2026-05-08. **Week return = 0.00%.**
+- Alpaca `/v2/account/portfolio/history?period=1M&timeframe=1D`: shows equity bouncing between $100,000 → $99,840.95 between ~4/21 and ~4/30, then flat at $99,840.95 since. **Trade log shows zero entries** — there is an unreconciled gap between the equity-history movements in late April and what's been logged. Not fixable here, but flagged.
+- Alpaca `/v2/account/activities?date=2026-05-15`: empty.
+- Alpaca data API SPY bars 5/11–5/15: open 736.52 Mon → close 739.10 Fri. **Week return = +0.35%.**
+
+### Metrics
+- Portfolio week return: **0.00%**
+- SPY week return: **+0.35%** (Mon open → Fri close)
+- **Alpha: −0.35%**
+- Trades: 0 buy / 0 sell. Win rate n/a.
+
+### Honest read
+- Strategy didn't fail — the runner did. Last research-log entry was 4/22 12:00 CT (halted on missing env vars). Three weeks dark. APIs all 200 today, so pipes are clear going into next week.
+- Decision: no strategy changes. One bad week is noise.
+- Pattern watch: first weekly review, no comparator. If next week is again 0 trades / 0 research, escalate operational concern; strategy still stays.
+
+### Plan for Monday 5/18 pre-market
+1. Fresh macro pull (futures, 10Y, DXY, WTI, Brent — close the n/a gaps from 4/21).
+2. Fresh earnings calendar for week of 5/18 — note NVDA prints AMC 2026-05-20, so NVDA is **inside** the 3-day earnings-blackout rule and OFF the table for a fresh entry. Do not just rehydrate the 4/21 NVDA plan.
+3. Build a current seed watchlist with verified next-earnings dates so the scout has a real universe.
+4. First successful trade also serves as a trade-log discipline test (log → message → dashboard → push).
+
+### Ops note: Telegram emoji escape bug
+First Telegram push of the weekly review used bash `$'\U0001F4D6'` style escapes inside a heredoc-style variable. Bash did NOT expand `\U` properly and the literal string `\U0001F4D6` was sent to Telegram (visible in chat as escape codes, not emojis). Fix: embed actual emoji UTF-8 characters directly in the shell string (don't rely on `\u` / `\U` escapes). Re-sent corrected message; both pushes are in the chat. Future Bull: just paste the emoji char, no escape needed.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
