@@ -27,6 +27,116 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-15 06:05 CT — pre-market (for 2026-05-15 open)
+
+**Timing note:** First live routine since 2026-04-22 halts. Secrets all set; Alpaca and Perplexity verified live. Account $99,840.95 / 0 positions. SPY 5/14 close $748.17, up +1.43% week (5/8 → 5/14). We've been on the sidelines through a clear market rally — alpha YTD-from-inception ≈ −1.43%, fully explained by sitting in cash. Three sub-agents fanned out in parallel — macro, earnings, opportunity scout.
+
+### Market context
+Tape is **cautiously risk-on, tech-led** heading into Friday.
+- **NQ futures:** +0.07% (24,376.75). **ES:** n/a in Perplexity pull, but cash S&P ref ~7,503 on 5/14.
+- **10Y Treasury:** 4.43%, easing ~7bps off recent ~4.50% peak.
+- **DXY:** 98.59 (+0.07%).
+- **WTI crude:** $100.51 (−0.53%) — elevated, keeping the sticky-inflation narrative live.
+- **VIX:** 17.89 — calm.
+- **Asia:** Nikkei flat (+0.03%), **Hang Seng +2.04% — clear outperformer** on US-China summit optimism.
+- **Europe:** DAX/FTSE levels n/a (data gap, low impact today).
+- **Top macro headlines:**
+  1. **Cisco AI guidance** lifted tech sentiment overnight — direct read-through to AVGO/ANET/NVDA.
+  2. **April retail sales +0.5%** beat (vs +0.4% cons); jobless claims 211k. Firmer activity.
+  3. Import prices **+1.9%**, export prices **+3.3%** — sticky-inflation back in the conversation.
+  4. **US–China summit** in focus (Trump trip); mixed signals overnight, Hong Kong rallied on optimism but ES gave back early gains.
+- **Net tone:** Tech tape constructive (Cisco read-through + low VIX), but $100 oil and hot import prices cap broader enthusiasm. No fresh earnings tape-setter today.
+
+### Portfolio watch
+No open positions. $99,840.95 cash. **3 of 3 weekly buys available.** No stops to manage.
+
+### Earnings calendar (2026-05-15)
+- **BMO and AMC:** Perplexity returned **no confirmed large-cap US earnings** for today. Mid-May Friday is structurally quiet (Q1 season largely wrapped the prior week).
+- **Post-close 5/14 reports:** none confirmed in fresh pull.
+- **Implication:** Today is a **macro/flow-driven tape**, not earnings-driven. No single print will dictate the open.
+
+### Earnings blackout check on watchlist (next earnings dates verified)
+
+| Ticker | Next earnings | Status | Notes |
+|---|---|---|---|
+| **NVDA** | **2026-05-20 AMC (Wed)** | **IN BLACKOUT** | 3 trading days out (Mon/Tue/Wed). Strategy excludes new positions in this window. **EXCLUDE.** |
+| **PANW** | Est. **2026-05-19** (MarketBeat) OR 2026-06-02 (Zacks). Sources conflict. | **TREAT AS BLACKOUT** | Safer to exclude until company-confirmed. **EXCLUDE today.** |
+| **AVGO** | Est. ~2026-06-11 | OK | ~18 trading days out — comfortable swing window. |
+| **CRWD** | Est. early June 2026 | OK | ~14 trading days. Size with print in mind. |
+| **ANET** | Last reported 2026-05-05; next ~late July | CLEAR | No event risk near-term. |
+| **AMD** | Last reported 2026-04-28; next ~late July | CLEAR | |
+| **GOOGL** | Last reported late April; next ~late July | CLEAR | |
+| **MSFT** | Last reported late April; next ~late July | CLEAR | |
+| **META** | Last reported late April; next ~late July | CLEAR | |
+| **PLTR** | Last reported 2026-05-04; next ~early Aug | CLEAR | |
+| **LLY** | Last reported late April; next ~late July | CLEAR | |
+
+### 5/14 cash-session move (Alpaca-verified live prices)
+
+Strong rotation into AI-infra and cybersecurity, broad tech lagged.
+
+| Ticker | 5/14 close | 1-day % | 20-day % | Trend |
+|---|---|---|---|---|
+| AVGO | $439.34 | **+5.42%** | +10.86% | Breakout day off recent base $416-430 |
+| ANET | $147.78 | **+5.05%** | −4.22% | Reversal day; still below 20-day start |
+| PANW | $238.23 | +4.58% | **+45.15%** | Extended; blackout-excluded anyway |
+| NVDA | $235.78 | +4.37% | +18.54% | Earnings 5/20 → blackout-excluded |
+| CRWD | $579.84 | +3.08% | **+41.05%** | Extended; momentum but late |
+| PLTR | $133.73 | +2.81% | n/a | Just printed; data thin |
+| MSFT | $409.44 | +1.07% | n/a | Quiet |
+| AMD | $449.70 | +0.96% | n/a | Quiet |
+| META | $618.51 | +0.31% | n/a | Quiet |
+| GOOGL | $401.12 | −0.38% | n/a | Mild laggard on a tech-up day |
+| LLY | $1,007.78 | −0.77% | n/a | Mild pullback |
+
+### Buy candidates for 5/15 open
+
+**Top pick: AVGO — high–med conviction.**
+- Live price: $439.34 close 5/14 (+5.42%).
+- Signals hit: **(3)** secular AI/networking tailwind (Cisco read-through last night); **(4)** breakout day on volume = tape-confirmed; **(6)** clear uptrend (+10.9% over 20 days, just broke recent $416-430 base).
+- Next earnings ~6/11 → ~18 trading days clear of blackout.
+- Conviction **high–med**. **Suggested size: medium (12-15% of equity ≈ $12K-15K, ~27-34 shares).**
+- Thesis: cleanest AI-tape buy — AI ASIC + VMware AI bundle thesis intact, no near-term event risk, breaking out off Cisco's bullish read-through.
+
+**Second: GOOGL — medium conviction, contrarian.**
+- Live price: $401.12 close 5/14 (−0.38% on a tech-up day = relative weakness).
+- Signals hit: **(1)** Q1 2026 beat with raised guidance (verified late-April print); **(3)** AI/Cloud tailwind; **(6)** uptrend intact LT.
+- Next earnings ~late July → ~50+ trading days clear.
+- Conviction **medium**. **Suggested size: medium (10-12% ≈ $10K-12K, ~25-30 shares).**
+- Thesis: relative underperformer yesterday lets us add quality without chasing — long runway to next print, no event risk.
+
+**Third (optional): ANET — medium conviction, reversal setup.**
+- Live price: $147.78 close 5/14 (+5.05% reversal).
+- Signals hit: **(1)** Q1 2026 beat 5/5; **(3)** AI networking (Cisco read-through); **(5)** sector rotation into AI infra confirmed yesterday.
+- Next earnings ~late July → clear.
+- Conviction **medium**. **Suggested size: starter (5-7% ≈ $5K-7K).**
+- Thesis: rebounding from a 20-day base; cheaper than AVGO on tape; same Cisco read-through tailwind. Less conviction than AVGO — earnings already printed, so the freshness of the signal is shorter.
+
+**Honorable mentions / passes:**
+- **NVDA, PANW** — excluded on earnings blackout (5/20 and likely 5/19 respectively). Re-evaluate post-print.
+- **CRWD** — +41% in 20 days = extended; chase risk + early-June print means I'd rather wait for a pullback.
+- **META, MSFT** — quality but no fresh catalyst above what's already priced.
+- **LLY** — GLP-1 thesis intact but no fresh catalyst yesterday; can size later.
+- **PLTR** — just printed; need clearer post-print signal.
+
+### Sell candidates
+None — no positions.
+
+### Plan for 2026-05-15 09:30 ET (market-open routine)
+1. **Pre-flight at the open:** re-check ES futures direction + 10Y + crude direction in the last 30 min before open. If ES is sharply red (>−0.5%) and 10Y > 4.50%, **delay or pass.**
+2. **Primary buy: AVGO** — medium size (~12-15% / ~$13K). Bracket order with **−7% hard stop** (stop ~$408.59 if entry ~$439).
+3. **Secondary buy: GOOGL** — medium size (~10-12% / ~$11K). Bracket with stop at entry × 0.93.
+4. **Tertiary (only if both above print cleanly and tape stays constructive): ANET starter (~5% / ~$5K).** Otherwise skip and reserve for next week.
+5. **Cap weekly buys at 3.** Even if we love a 4th idea, we wait until Mon.
+6. **Cash buffer target:** keep ≥60% cash after this round so we have dry powder for post-NVDA-print setups next week.
+
+### Research gaps to close next routine
+1. Confirm AVGO live price + recent insider/analyst action in last 5 trading days before placing the order.
+2. Pull official PANW Q3 FY26 earnings date — MarketBeat says 5/19, Zacks says 6/2. Until confirmed, blacklist.
+3. Watch the European cash close (DAX/FTSE) at US-open time — wasn't in tonight's pull.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
