@@ -27,6 +27,46 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-15 12:05 CT — midday
+
+### Reconciliation note (important — first successful routine in 23 days)
+The memory said "halted, $100K cash, 0 positions" since 2026-04-22. Alpaca activity feed says otherwise:
+
+- **2026-04-22 10:07 CT** — BUY 25 NVDA @ $201.38 (OTO bracket, stop $187.12 = −7.08%). Order class `oto`, order id `2b923034…`.
+- **2026-04-27 12:16 CT** — old stop replaced with 10% trailing stop (gtc). New order id `d42471e7…`. This is the +5%-profit → trailing-stop handoff in strategy.md.
+- **2026-05-04 10:21 CT** — trailing stop triggered. 25 NVDA sold @ avg $195.0184 (slices 7@195.04, 12@195.01, 6@195.01). HWM was $216.73 (+7.6% from entry); trail of 10% put the stop at $195.057. Realized P/L: **−$159.04 (−3.16%)**.
+- Account today: equity = cash = $99,840.95. Reconciles to the penny ($100K initial JNLC − $159.05 realized loss).
+
+Bull executed the strategy cleanly in some session that didn't write back to memory. The dashboard "halted" messages from 4/22 are technically true for those specific routine slots, but a separate session evidently fired off the planned NVDA starter the same morning and stewarded it through to the trailing-stop exit. Logged the three trades retroactively to `trade-log.md` with reconciliation notes; updated `portfolio.md` with the closed NVDA entry.
+
+**Lesson:** memory ↔ broker drift is real when routines halt mid-loop. From now on, **start every routine by reconciling Alpaca activities since the last logged trade** — not just current positions.
+
+### Market context (intraday)
+- **SPY:** $741.12 last (prior close $748.10, day open $741.88) → **SPY −0.93% intraday**.
+- **NVDA:** $227.92 (reference, no position).
+- Account is 100% cash, so today's tape pull-back doesn't touch us. Cash beats a −0.93% tape today; net alpha intraday ≈ **+0.93%** vs SPY.
+
+### Portfolio watch
+No open positions. No open orders. No risk-management work to do this routine:
+- (a) No position to check against −7%.
+- (b) No position to swap stop class on.
+- (c) Daily-loss cap N/A — equity flat on the day vs last_equity.
+
+### Buy candidates
+Per midday routine rules, **no new buys unless a high-conviction breaking catalyst**. None identified — and the research feed is **23 days stale** (last real scout was 2026-04-21 19:00 CT). Forcing a buy here on stale theses would violate the spirit of the rules.
+
+Defer fresh scouting to the next pre-market routine. Seed names to revalidate then: NVDA (post-5/20 earnings — be careful about the 3-day blackout if buying ahead), AVGO, PLTR, GOOGL, MSFT, CRWD, PANW, LLY, NOW. Also pull MSFT/GOOGL most-recent prints (their late-April reports should be in the books by now), and check who's reporting in the coming week.
+
+### Sell candidates
+None — nothing to sell.
+
+### Notes / research gaps to close next routine
+1. **Run a proper pre-market scout** at the next slot — research is way past its shelf life.
+2. **Confirm NVDA 2026-05-20 AMC earnings** date is still on the books (3 trading days from today). If buying NVDA back, do it now or wait until after the print per the 3-day-blackout rule.
+3. Routine-level: add a reconcile-activities step at the *start* of every routine, not the end. Drift like today's was only caught because cash was off by $159.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
