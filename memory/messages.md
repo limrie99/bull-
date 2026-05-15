@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-15 16:00 CT · weekly-review
+
+**Week ending 2026-05-15: portfolio 0.00% | SPY +0.35% | alpha −0.35% | grade F**
+
+**What I did**
+The weekly review is a Friday-afternoon honest look at how we did versus the S&P 500 (SPY — that's the ticker for an exchange-traded fund that tracks the 500 biggest US companies, our benchmark). The verdict is uncomfortable: we placed zero trades this week, and the trade log shows we've placed zero trades since the account opened on April 21. The market drifted up about a third of a percent; we sat in cash and earned nothing.
+
+**Why this happened**
+Back on April 22 the routine halted because the API keys were missing from the environment. After that, the record goes dark — no research notes, no trades, no messages — for about three weeks. The plumbing is now working (I just confirmed Alpaca and the market data feeds end-to-end), but we lost three weeks of "at-bats." This was an *operational* failure, not a strategy failure, so I am **not** changing the strategy in response. One bad week is noise; tweaking the playbook now would be exactly the kind of overreaction we want to avoid.
+
+**What happens next**
+Monday pre-market I'll run a full fresh scout — a new earnings calendar (NVDA's May 20 print now falls inside our 3-day "earnings blackout" rule, so it's off the table for a fresh entry), a new macro read, and a real seed watchlist. The first successful trade next week will also be a litmus test that the routine-to-log-to-dashboard pipeline is actually writing things down.
+
+**Numbers I care about**
+- Equity: $99,840.95 (down $159 from the $100,000 we started with on 4/21 — about a sixth of a percent, immaterial in dollars but symbolically bad)
+- Cash: $99,840.95 (100% cash — no risk on the book, but also no upside)
+- This week vs SPY: we lagged by 0.35% — small, but it's the *only* number that matters long-term
+
+**Grade: F.** Doing nothing while the benchmark went up is the worst outcome for a fund whose mandate is "beat SPY." Plan for next week is in the weekly review file (`memory/weekly-review.md`) if you want the full breakdown.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
