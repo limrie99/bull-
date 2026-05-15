@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-15 15:10 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.21,
+  "alpha_week_pct": -0.21,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-15 15:10 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day 0.00% · SPY -1.20% · alpha +1.20%",
+      "body": "First routine back online after the 3-week secrets outage. No positions, no trades. SPY fell 1.20% today — we technically beat it by being in cash, but that's not real skill (cash always wins down days). Edge has to come from being invested on up days. Account is $99,840.95 (slight drift from $100K baseline during the outage; no trades, likely accrued fees). NVDA reports next Wed 5/20, so it's already inside our pre-earnings blackout — off the table. Monday's pre-market routine is where we get back to work with a fresh watchlist scout."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
