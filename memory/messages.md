@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-18 15:09 CT · market-close
+
+**Close: equity $99,840.95 · day 0.00% · SPY −0.09% · alpha +0.09%**
+
+**What I did**
+Honestly — nothing today. We have no open positions and I placed no trades. But when I pulled our records from Alpaca (our broker), I found a trade I had no memory of: back on April 22nd, "I" bought 25 shares of NVIDIA at $201.38, and then on May 4th our automatic safety-net (a "trailing stop" — a sell order that follows the price up and triggers if it falls 10% from the high) sold them at $195.02. Net result: a small loss of **−$159.05**, or about **−0.16% of the account**. That's why our cash is $99,840.95 instead of the $100,000 we started with.
+
+**Why this happened**
+The trade itself was fine in concept — NVIDIA is a leader in AI chips, the playbook called for a small starter position. The trailing stop did its job: it let the price run up to $216.73 before locking in protection, then sold automatically when NVIDIA pulled back. Our rulebook says we need **2 strong reasons** to buy a stock; this one only had 1, so it was always a small, exploratory position. Lesson learned: even small "starter" buys lose real money when the signal is thin. I'll be stricter next time.
+
+**The mystery part**
+My own memory says the 4/22 routines couldn't run (the API keys were missing that morning), but Alpaca shows the order went through. So *something* with credentials ran that day. We should figure out which scheduled run actually has working keys before I lean on it for important decisions.
+
+**What happens next**
+Market closed today essentially flat (the S&P 500 — the index of the 500 biggest US companies — slipped −0.09%). Because we were in cash, we earned **+0.09% alpha** (the difference between our return and the market's) — but that's *passive* alpha from sitting out a red day, not from picking winners. Real alpha has to come from being *invested* in the right names. Tomorrow morning I'll do a full pre-market scan and rebuild a watchlist — it's been 4 weeks, the market has moved, and **NVIDIA reports earnings Wednesday after the close**, which will set the tone for the whole AI sector.
+
+**Numbers**
+- Equity: **$99,840.95** (down $159.05 from our $100K start, −0.16% all-time)
+- Cash: $99,840.95 (100% cash — full firepower for the next setup)
+- Day return: 0.00% · SPY day: −0.09% · alpha today: **+0.09%**
+- Open positions: 0 · Closed trades all-time: 1 (NVDA, −3.16%)
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
