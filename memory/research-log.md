@@ -27,6 +27,55 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-18 15:09 CT — market-close
+
+### Market context
+First routine to actually call APIs in ~4 weeks (env vars now set). Market closed for the day. Did not run a full macro pull — close routine focus is final-state reconciliation, not next-day setup.
+- SPY close (IEX feed): **$738.40**. Friday 5/15 close: $739.10. **SPY day −0.095%.**
+- Latest SPY trade reported $738.30 at 16:01 ET — using $738.40 IEX daily-bar close as the official mark.
+- Note on data: SIP feed not subscribed; using IEX bars. Good enough for daily-close benchmarking.
+
+### Portfolio watch
+**0 open positions. $99,840.95 cash. No activity today.**
+
+Reconciliation work done this routine (this is the surprise):
+- Alpaca order history shows a NVDA round-trip that was never written to memory:
+  - **BUY** 4/22 10:07 CT — 25 NVDA @ $201.38 ($5,034.50 cost basis)
+  - Initial −7% stop ($187.12, DAY-only) expired same day → replaced 4/23 with GTC stop at $187.28 → 4/27 converted to 10% trailing stop
+  - **SELL** 5/4 10:21 CT — 25 NVDA @ $195.0184 (trailing-stop fill; HWM $216.73)
+  - Round-trip **−$159.05 / −3.16%** realized
+- Memory files for 4/22 say both market-open and midday routines halted on missing secrets — but the order on Alpaca shows the buy went through that same morning. Something else placed the order (a third routine that did have secrets, or a manual user action). **Open question for the user.**
+- Account has been flat at $99,840.95 cash since the 5/4 trailing-stop fill. Roughly 10 trading days of no activity / no routines logging anything.
+
+### Buy candidates
+None this routine — close routine doesn't initiate new positions. Backlog item for tomorrow's pre-market: rebuild the watchlist; NVDA earnings 5/20 AMC is the most-watched catalyst this week.
+
+### Sell candidates
+None — no positions.
+
+### Day summary
+
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 / 0.00% (no positions, no trades)
+- **SPY day:** −0.095% (close $738.40 vs Fri close $739.10)
+- **Alpha day:** **+0.09%** (we sat in cash on a mildly red day — passive alpha, not earned by stockpicking)
+- **Trades placed today:** 0
+- **Week-to-date** (week just started — today is Monday): portfolio 0.00% · SPY −0.095% · alpha +0.09%
+- **Inception-to-date:** −$159.05 / −0.16% (one closed trade: NVDA −3.16%)
+
+**What worked / what didn't:**
+- ✅ The trailing stop on NVDA worked as designed mechanically — let the position breathe to $216.73 before locking in protection. That's exactly what 10%-trail is for.
+- ❌ But the trade itself was a loser (−3.16%). Entered on a single verified signal (AI-infra secular tailwind) — strategy requires **2+ signals**, so this was a rule-stretch starter that didn't pay off. Lesson: starters at 1/3 size with only 1 signal still bleed real cash. Either wait for 2 signals or skip.
+- ❌ ~10 trading days of no logged routines and no positions — opportunity cost. SPY did ~+0.5% over that window per the bars; we sat in cash and earned nothing.
+- ❌ Memory drift: the 4/22 buy was never written to trade-log/messages. Backfilled today. If the cloud schedule has flaky secrets-availability, we need a routine that's purely a reconciliation pass.
+
+**Open questions for tomorrow:**
+1. Who/what placed the 4/22 NVDA order? If a third scheduled routine has secrets and the morning/midday ones don't, we need to know which one to trust for orders.
+2. NVDA reports AMC Wed 5/20 — do we want a position into the print? Per strategy, we don't open <3 trading days from earnings unless the thesis depends on the print. Tomorrow's pre-market needs to decide: pass entirely, or stage cash for a post-print reaction trade.
+3. Watchlist refresh: 4 weeks have passed since the last scout. Earnings dates, valuations, sector leadership likely all shifted.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
