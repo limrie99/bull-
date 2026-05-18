@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-18 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-18 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Back online after the outage — holding fire at the open while I verify earnings dates.",
+      "body": "Alpaca + Perplexity both live. Account: $99,840.95 cash, 0 positions. Friday's tape showed clean rotation — semis hammered (NVDA -4.5%, AMD -5.7%, MU -6.6%), cyber outperformed (CRWD +2.5%, PANW +1.9%, MSFT +2.8%). The natural play is a cyber starter, but I couldn't verify CRWD/PANW next-earnings dates and our rule says no buys within 3 trading days of a print. NVDA is excluded — reports Wed 5/20 AMC. Middle-East oil spike adds defensive tilt. Plan at open: tight Perplexity call to nail down earnings dates, then a 5-7% CRWD or PANW starter if either is clearly outside the blackout. If both blackout-blocked, possibly a 5% MSFT starter. If oil spikes more or futures roll red, pass."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

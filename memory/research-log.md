@@ -27,6 +27,84 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-18 06:10 CT — pre-market (for Monday 5/18 open)
+
+**Timing:** First routine after the ~26-day API-key outage. Secrets verified live. APIs verified: Alpaca 200, Perplexity 200. Account fetched: **$99,840.95 cash, $99,840.95 equity, 0 positions**, `balance_asof = 2026-05-15`. ~$159 below the $100K paper default — small drift, likely a stale-balance carry; no positions, so no risk leak. Three sub-agents fanned out in parallel (macro, earnings, opportunity scout) plus two direct Perplexity gap-fill calls. Perplexity was patchy today on macro index levels and the 5/18 earnings slate — falling back on Alpaca price snapshots and historical earnings patterns where I had to.
+
+### Market context
+
+Friday 5/15 closed **risk-off**, semis-led. Pre-market today is **flat-to-slightly-green on equity futures but with a Middle-East oil spike** that's keeping the tone defensive.
+
+- **ES (Jun '26):** +0.10% overnight.
+- **NQ (Jun '26):** +0.07% overnight.
+- **WTI crude:** ~$113.70, **+1.15%** on reports of a strike on a UAE nuclear facility (per Benzinga).
+- **Brent:** ~$110.25, +0.44%.
+- **Gold futures:** ~$4,669 (+0.4%).
+- **US 10Y / DXY / Asia closes / Europe early:** `n/a` — Perplexity declined to give live numbers, and Alpaca doesn't quote them in equity APIs. Last confirmed 10Y was ~4.59% at the 5/15 close per YCharts (up ~12 bps Thu→Fri). Treat rate direction as elevated and unknown intraday — avoid sizing rate-sensitive names hard.
+
+**Friday's tape (Alpaca snapshot prev-close → last-trade):**
+| Ticker | Thu close | Fri close | Day % |
+|---|---|---|---|
+| SPY | 748.10 | 737.71 | **−1.39%** |
+| QQQ | 719.75 | 707.55 | **−1.69%** |
+| NVDA | 235.78 | 225.08 | **−4.54%** |
+| AMD | 449.70 | 424.18 | **−5.67%** |
+| MU | 775.91 | 724.40 | **−6.64%** |
+| ANET | 147.78 | 141.95 | **−3.94%** |
+| AVGO | 439.34 | 425.03 | **−3.26%** |
+| META | 618.51 | 614.38 | −0.67% |
+| GOOGL | 401.12 | 396.31 | −1.20% |
+| LLY | 1007.78 | 1004.69 | −0.31% |
+| ORCL | 195.65 | 192.47 | −1.63% |
+| MSFT | 409.44 | 420.80 | **+2.77%** |
+| CRWD | 579.84 | 594.23 | **+2.48%** |
+| PANW | 238.23 | 242.85 | **+1.94%** |
+| PLTR | 133.73 | 133.79 | flat |
+
+**Read:** clear **semis-down, software/cyber-up rotation** Friday — NVDA/AMD/MU/AVGO/ANET dumped together while MSFT/CRWD/PANW absorbed the rotation. SPY −1.4% / QQQ −1.7% with semis down 4–7% says the index move *was* the semis. Cyber outperforming on a red tape is a real tell.
+
+**Net tone:** Mixed / cautious. Oil is the live wire today. Index futures slightly green is not a green light — semis still have to prove they've stopped bleeding, and the 10Y at 4.59% is unfriendly for high-multiple growth.
+
+### Portfolio watch
+No open positions. $99,840.95 cash, $199,681.90 buying power (cash-only / no leverage per strategy). No risk, no stops to manage.
+
+### Earnings calendar (2026-05-18)
+- **BMO Mon 5/18:** Perplexity returned `unconfirmed` for the full BMO and AMC slate. **No confirmed large-cap reporters today.** Need to re-verify at market-open routine via a tighter Perplexity call or a Polygon/financialmodelingprep cross-check.
+- **NVDA next earnings: 2026-05-20 AMC (CONFIRMED via Perplexity).** That puts NVDA in the **3-trading-day blackout** (5/18, 5/19, 5/20). **No new NVDA position can be opened this week** under strategy rule.
+- **Other watchlist next-earnings dates:** all `unconfirmed` from Perplexity today (AVGO, MSFT, GOOGL, META, AMD, PLTR, CRWD, PANW, ANET, MU, ORCL, NOW, LLY). Need a second source — Alpaca doesn't expose a calendar API for free, so this stays a Perplexity-with-citation problem. Historical patterns (for soft inference only, NOT a tradeable signal): MSFT/GOOGL/META/AMZN reported late April (likely outside blackout now); AVGO typically early June; CRWD typically late May (could be near blackout); PANW typically mid-May (could be inside blackout); LLY late April / early May; PLTR confirmed last pass as 5/04 AMC, so already reported.
+
+### Buy candidates
+
+No verified ≥2-signal name today. Documenting the shortlist honestly with the data I do have:
+
+- **CRWD ($594, ~$140B mcap) — cyber leader, outperformed Friday's red tape.** Signals possibly hit: (3) cybersecurity secular tailwind, (5) sector rotation into cyber (clear from Fri tape), (6) above 50DMA per casual chart-shape inference. **BLOCKER:** next earnings date unverified — CRWD historically reports late May / very early June, which could put us inside the 3-day blackout window any day this week. **Cannot open without verifying the date.** If verified outside the blackout, this is the cleanest med-conviction name. Conviction held back to **low** until date is confirmed.
+- **PANW ($243, ~$160B mcap) — cyber, same rotation read as CRWD.** Signals: (3) secular cyber, (5) sector rotation, (6) above 50DMA. **Same blocker:** PANW historically reports mid-May Q3 (e.g., 5/19 in prior years). Materially more likely to be inside the blackout than CRWD. **Skip until date is verified.**
+- **MSFT ($421, ~$3.1T mcap) — only mega-cap green on Friday's red tape (+2.8%).** Signals: (3) AI/cloud secular, (5) rotation into mega-cap quality on Friday. Probably already reported (late-April pattern). **Conviction: low–med, pending date verification.** This is a "if I have to put cash to work this week, MSFT is the safest defensive pick" candidate, not a high-conviction buy.
+- **NVDA — EXCLUDED** by 3-day earnings blackout (5/20 AMC confirmed). Friday's −4.5% drop into the print also tells you positioning is jittery. Revisit post-print on 5/21.
+- **AMD, MU, AVGO, ANET — pass.** Semis broke Friday; trying to catch the dip here without a fresh catalyst is averaging-down-on-momentum-shift behavior the strategy explicitly forbids.
+- **LLY ($1,005, ~$960B mcap) — GLP-1 secular intact, traded flat Friday.** Signals: (3) GLP-1 tailwind. Single signal verified; needs an earnings-date check before opening. Conviction **low**.
+
+**Net call:** **No buy at Monday open.** The cleanest setup (cyber rotation) requires an earnings-date verification I couldn't get in this pass. The next-cleanest (MSFT defensive AI mega-cap) is fine but doesn't clear 2 verified signals. Strategy says don't force a trade — do the work.
+
+**Plan for the market-open routine (9:30 ET / 8:30 CT):**
+1. **First action: verify next-earnings dates** for CRWD, PANW, MSFT, GOOGL, META, AVGO, ANET, LLY via a tight Perplexity call asking each name's *most recent* reported quarter date AND next confirmed date with citations.
+2. If CRWD's next earnings is ≥4 trading days out, open a **starter 5–7% position** ($5K–$7K) with the −7% hard stop, signals (3) + (5) + (6).
+3. If CRWD is blackout-blocked but PANW is verified ≥4 days out, same play in PANW.
+4. If both blackout-blocked, open a **smaller 5% MSFT starter** ($5K) as a defensive AI/cloud foothold — accept the conviction is only low-medium.
+5. If oil spikes another 2%+ pre-open or ES turns red, **pass entirely**.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. **Earnings-date verification is the bottleneck.** Without it I can't deploy. The market-open routine needs to lead with a single Perplexity call that asks ONLY for next-earnings dates of the cyber/AI watchlist, with citations required.
+2. **NOW shows ~$95 on Alpaca snapshot** — that's almost certainly a stale/wrong feed (ServiceNow typically trades $700–1,000). Don't act on that number. If we ever consider NOW, pull `latestTrade` directly.
+3. **Perplexity sparse on this date.** Two of three sub-agents got thin returns. Consider tagging Perplexity calls with explicit "use only sources dated within the last 14 days" framing.
+4. **10Y / DXY / Asia / Europe still `n/a`.** If a separate macro feed is available, wire it up — making blind size decisions on oil-spike days without rates context is dangerous.
+5. **Long gap since last routine (~26 days).** The strategy timing rules (e.g. "3 buys per week") effectively reset — no prior buys this week. The −7% / +5% trailing stop rules are moot since there are no positions to manage.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
