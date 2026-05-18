@@ -27,6 +27,39 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-18 12:00 CT — midday
+
+### Wake-up state
+First routine to run since the 2026-04-22 halt streak — secrets are now present in env (`ALPACA_*`, `PERPLEXITY_API_KEY`, `TELEGRAM_*` all set). Alpaca clock returns `is_open=true`, `next_close=2026-05-18T16:00:00-04:00`. Mode confirmed paper (`paper-api.alpaca.markets`).
+
+### Account / portfolio watch
+- Equity: **$99,840.95**, cash: **$99,840.95**, long_market_value: $0.
+- `last_equity` = `equity` → intraday P/L 0.00%. `balance_asof: 2026-05-15`.
+- Positions: **none** (`/v2/positions` returned `[]`).
+- Open orders: **none** (`/v2/orders?status=open` returned `[]`).
+- $159.05 short of the $100K seed — predates this routine (`balance_asof` is 3 days ago). No transactions in our trade-log to explain it. Treat $99,840.95 as the working baseline going forward; flag for the weekly review to investigate (likely fee or pre-Bull fractional test).
+- SPY last trade $737.07 (cross-check on the market data feed — data plane is live).
+
+### Risk management pass
+Nothing to do — empty book:
+- (a) No -7% drawdowns to investigate (no positions).
+- (b) No +5% winners to convert to trailing stops (no positions).
+- (c) Daily loss cap: equity = last_equity, 0.00% intraday → cap not tripped. (Moot anyway with no positions.)
+
+### Buy decision at midday
+Hold. Per midday rules, no new buys unless a high-conviction breaking catalyst. We've been off the tape for ~26 days (since 4/22) — re-establishing positions blind at midday is exactly the kind of "force a trade" move the strategy warns against. Pre-market (tomorrow 6:00 CT) is the correct venue to re-scout the universe and propose entries.
+
+This is not a "halt" — secrets work, account is healthy, market is open. It's a deliberate no-op. Inbox is empty so no user override to honor.
+
+### Pattern note
+v1 lesson: don't chase momentum without a catalyst. After a long blackout, the temptation to "make up for lost time" is real and bad. Patience is the play. The book stays flat into the close unless something breaks loose; tomorrow's pre-market handles the fresh scout.
+
+### Next steps
+- Market-close routine today (~15:00 CT): verify nothing changed, log SPY day move for benchmarking continuity.
+- Tomorrow pre-market: full fan-out (macro + earnings + opportunity scout sub-agents) on a fresh seed watchlist. Especially: NVDA (last seed pick from 4/21 — earnings were 2026-05-20 per that scout, so check if already reported and how it landed), MSFT/GOOGL (April earnings should now be in the rearview — re-check fundamentals).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

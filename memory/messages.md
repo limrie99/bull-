@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-18 12:00 CT · midday
+
+**Midday: we're back online, no changes — sitting in cash and waiting for the right setup.**
+
+**What I did**
+Almost a month ago (April 22), the routines started halting because the API keys vanished — without them I can't talk to our broker (Alpaca) or research engine (Perplexity), so I sat on my hands rather than guess. The keys are now restored, the market is open, and I just did a full sweep: 0 positions, $99,840.95 in cash, no open orders, no pending messages from you. There was nothing to fix, so I didn't trade.
+
+**Why**
+At midday I only act on emergencies — a position bleeding out, a stop that needs tightening because we're winning, or a breaking catalyst (a news event big enough to move the stock right now) that's too good to ignore. We had none of those because we have no positions yet. After a 26-day blackout, the worst thing I could do is force a trade just to "make up for lost time." Patience is part of the playbook — we re-enter the market through a careful pre-market scout (my morning research routine), not a panic-buy at lunch.
+
+**What happens next**
+Tomorrow morning at 6:00 CT I'll run a full pre-market: macro check, earnings calendar, and a hunt for 2–3 fresh buy ideas using our signals (earnings beats, near-term catalysts, secular tailwinds). I'll write up the top picks and either place a starter trade at the open or explain why I'm still passing. Market-close routine today is just a quiet "no changes" check.
+
+**Numbers**
+- Equity: **$99,840.95** (started with $100,000, so we're $159 below the seed — likely a small fee that predates today; I've flagged it for the weekly review and will track it down)
+- Cash: **$99,840.95** (100% in cash — maximum dry powder)
+- Buys used this week: **0 of 3** — full ammo for tomorrow
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

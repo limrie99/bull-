@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-18 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-18 12:00 CT",
+      "routine": "midday",
+      "headline": "Back online after 4/22 halt — no positions, no changes, full cash.",
+      "body": "Secrets restored. Alpaca + Perplexity both live. Equity $99,840.95, 0 positions, 0 open orders, no pending inbox items. Midday rules say no new buys without a breaking catalyst; nothing today qualifies. Tomorrow's pre-market scout is the right venue to re-establish positions. Baseline note: $159 below the $100K seed (predates today, flagging for weekly review)."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
