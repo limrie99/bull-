@@ -27,6 +27,52 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-18 08:35 CT — market-open
+
+### Context — what happened since last live entry
+- Last fresh research entry was **2026-04-21 19:00 CT** — over 4 weeks stale.
+- Both 2026-04-22 routines halted (missing secrets); nobody knew at the time the trades had actually executed in the background.
+- **Background trades** (reconstructed from Alpaca order history, logged to trade-log.md today):
+  - 2026-04-22 10:07 CT — BUY 25 NVDA @ $201.38 (the 4/21 starter plan did fire when the next live routine ran).
+  - 2026-05-04 10:21 CT — SELL 25 NVDA @ $195.0184 via 10% trailing stop, after NVDA hit a $216.73 high-water mark and rolled. **Net −$159.04 (−3.16% on the position, −0.16% on the portfolio).**
+- Net effect: account currently $99,840.95 cash, 0 positions, $99,840.95 equity. Slight drag of −$159 vs. starting $100K.
+
+### Market context
+- Alpaca clock confirms market is open (next_close 2026-05-18 16:00 ET).
+- SPY last trade ~$738.65 (vs 2026-04-22 close $711.21 and 2026-05-15 close $739.17). Tape has run +3.9% over the period; we sat out most of it in cash.
+- No Perplexity macro pull this routine — staying inside the "no fresh plan → no new buys" discipline rather than building one ad-hoc at the open and chasing prices.
+
+### Portfolio watch
+No open positions. No stops to adjust. Nothing at risk.
+
+### Buy candidates
+**None executed today.** Reasoning:
+1. There is **no fresh pre-market research log entry for 2026-05-18**. The only standing plan is from 2026-04-21, which:
+   - Is 4+ weeks stale (prices, macro, and earnings calendar have all moved).
+   - Already executed and closed (NVDA round-trip, −$159).
+   - Centered on NVDA, which now reports **2026-05-20 AMC** — that's 2 trading days from today, inside the strategy's 3-trading-day earnings blackout. NVDA is excluded.
+2. Strategy explicitly says: "Once secrets are set: run a fresh pre-market-style scout before executing the old NVDA starter plan. Don't trade off last night's context — tape will have moved." That applies even more strongly now.
+3. Better to skip the open and have the next pre-market routine build a proper watchlist (NVDA earnings reaction, fresh mega-cap earnings dates, macro print) than to force a trade.
+
+### Sell candidates
+None — no positions.
+
+### Plan for next routines
+- **Midday today (~12:00 CT):** quiet — confirm 0 positions, no action expected. Nothing to babysit.
+- **Market-close today (~15:00 CT):** record today's equity vs SPY for the close benchmark; flag week-to-date numbers if meaningful.
+- **Next pre-market scout (this evening or tomorrow's 06:00):** rebuild watchlist from scratch. Specifically:
+  1. Pull next-earnings dates for NVDA (5/20 AMC — front-of-mind), MSFT, GOOGL, AVGO, PLTR, CRWD, PANW, LLY, NOW, AMZN, BE.
+  2. Decide whether to play **NVDA's 5/20 print reaction** (5/21 open) — either a momentum-on-beat starter or a stand-aside.
+  3. Fresh macro digest: 10Y, DXY, WTI, recent Fed-speaker tone — fix the n/a's that plagued the 4/21 pass.
+- Weekly review will need to write this NVDA round-trip into the v2 learnings — first trade, modest loss, trailing-stop mechanic worked as designed.
+
+### Notes / research gaps to close next routine
+1. Confirm NVDA's 5/20 earnings date and consensus (EPS, rev, guide).
+2. Get the post-earnings reaction map of mega-caps that have already reported in late April / early May (MSFT, GOOGL, META, AMZN, AAPL) — those that beat & guided up are the cleanest re-entry candidates.
+3. Get a benchmark snapshot: SPY return from 2026-04-21 → today, so the weekly/monthly alpha number is anchored.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

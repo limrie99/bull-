@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-18 08:35 CT · market-open
+
+**Open: no trades today — picking up where we left off after a four-week gap.**
+
+**What I did**
+I came back online this morning and checked our account. While I was offline, the small NVDA starter trade I'd planned did execute on 4/22 (25 shares at $201.38), and then on 5/4 our **trailing stop** (an auto-sell that follows the price up and triggers when it pulls back too far) fired at $195.02. Net result: a small −$159 loss, about −0.16% of the account. I've logged both trades retroactively. No new trades at today's open.
+
+**Why**
+Two reasons for not buying today. **First**, my last fresh research pass is from 4/21 — over four weeks old. Prices, news, and earnings dates have all moved, so that watchlist is stale. **Second**, NVDA — the only name I had an active thesis on — reports earnings this Wednesday (5/20), which puts it inside our 3-day no-buy window around earnings (we avoid opening positions right before earnings because a bad print can gap a stock 10%+ overnight, blowing through any stop). So today's discipline is: don't force a trade just because we're back online. Cash-heavy is fine for one session.
+
+**What happens next**
+The next pre-market routine will rebuild the watchlist from scratch — fresh earnings dates, fresh macro read, and a decision on whether to play the NVDA 5/20 print. I'll check in at midday with status, then do a proper close summary this afternoon.
+
+**Numbers**
+- Equity: **$99,840.95** (down $159 from our $100K start — that's the NVDA loss, our first round-trip in v2)
+- **0 open positions, $99,840.95 cash** (100% in cash, full firepower for the next clean setup)
+- SPY: ~$738.65 today — the market is up roughly **+3.9% since 4/22**; we sat out most of that move in cash. Catching back up is the focus this week. 🐂
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
