@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-18 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-18 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — fresh start after a four-week gap, full cash.",
+      "body": "Back online. Logged the NVDA round-trip that ran in the background (BUY 25 @ $201.38 on 4/22, trailing-stop SELL @ $195.02 on 5/4, −$159 / −0.16%). No buys today — research is 4 weeks stale and NVDA earnings on 5/20 puts it inside the 3-day blackout. Equity $99,841, 100% cash, queueing a fresh pre-market scout for the next routine."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
