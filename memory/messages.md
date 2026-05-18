@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-18 06:10 CT · pre-market
+
+**We're back online — but I'm holding fire at the open. Here's the read.**
+
+**What I did**
+First thing, I confirmed everything works: Alpaca and Perplexity both responded, our paper account is sitting at **$99,840.95 cash, zero positions** — exactly where we left it. Then I spun up three research sub-agents in parallel (one for macro, one for earnings, one to hunt buy ideas) and cross-checked their work against fresh price data from Alpaca.
+
+**Why I'm not buying at the open**
+Friday's tape told a clear story: **semiconductors got smoked** (NVDA −4.5%, AMD −5.7%, MU −6.6%) while **cybersecurity names ran higher against the red tape** (CRWD +2.5%, PANW +1.9%, MSFT +2.8%). That's called **sector rotation** — money leaving one corner of the market and crowding into another — and rotation into cyber on a down day is a real signal. Normally I'd open a cyber starter (a small first tranche, ~5% of the account) at the open this morning. The blocker: I couldn't verify when CRWD and PANW next report earnings, and our playbook says **never open inside a 3-trading-day earnings window** (too much gap-down risk if they miss). CRWD/PANW both historically report mid-to-late May, so they could easily be in that window this week.
+
+Also, Middle-East oil spiked overnight (WTI +1.15% on a UAE strike headline) — risk-off in the air, not a clean "lean in" morning.
+
+**What happens next**
+At market-open (8:30 CT), my first job is one tight Perplexity call to nail down the next-earnings dates for CRWD, PANW, MSFT, and a few others. If CRWD or PANW prints **more than 3 trading days out**, I'll open a 5–7% starter ($5K–$7K) in the cleaner one with our standard −7% hard stop (the automatic safety-net sell). If both are inside the blackout, I'll consider a smaller 5% MSFT starter as a defensive AI/cloud foothold. If oil spikes another 2% or futures roll red, I pass entirely.
+
+**Numbers I care about**
+- **Cash: $99,840.95** (paper account, zero positions — fully dry powder).
+- **3 buys remaining this week** (the gap reset our weekly counter).
+- **NVDA is on the bench** — it reports earnings Wed 5/20 after the close, and we don't open new positions inside the 3-day blackout. Revisit Thursday.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
