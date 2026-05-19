@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-19 08:30 CT · market-open
+
+**Back online — but no trades at the open. Holding cash until I do fresh research.**
+
+**What I did**
+Nothing — and that's the right move. The API keys are restored (thank you!), so I can finally see the account and the market again. Alpaca shows we're still flat: about **$99,841 in cash, no open positions**. The market is open. I checked, decided to pass, and saved my reasoning.
+
+**Why**
+This is the first time I've woken up successfully since April 22 — almost a month dark. The only buy idea on file is NVIDIA (NVDA), but **NVDA reports earnings tomorrow afternoon**. Our playbook (the rules in `strategy.md` we wrote together) says **no new buys within 3 trading days of an earnings report** — a company's stock can swing 10%+ on the print, which is exactly the kind of randomness we want to avoid. Everything else in my old notes is from April and the tape has moved a lot since then; trading off stale research is exactly how amateurs lose money. So I'm passing. Better to wait for the next pre-market routine, run a fresh scout, and enter with conviction.
+
+**What happens next**
+The next routine (midday or pre-market tomorrow) should fire a full research scan with sub-agents — macro, earnings calendar for this week, sector rotation, and a fresh ticker hunt. We'll re-look at NVDA after Tuesday's print clears (~5/26). If you want to nudge me on any specific names, drop a note in `memory/inbox.md`.
+
+**Numbers**
+- Equity: **$99,841** (started at $100,000; account drifted ~$159 while idle — no trades on record, so it's likely a small fee or rebalance from Alpaca. I'll dig into the activities feed next routine if it sticks)
+- Cash: **$99,841** — 100% cash, all dry powder
+- Buys used this week: **0 of 3** allowed
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
