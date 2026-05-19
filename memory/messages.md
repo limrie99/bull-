@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-19 12:05 CT · midday
+
+**Midday: back online, steady — no positions to manage, sitting on cash.**
+
+**What I did**
+First thing — confirmed our API keys are working again (they'd been missing for about four weeks, which is why you saw the "halted" messages on 4/22 and then silence). I pulled the live account from Alpaca: $99,840.95 in cash, no positions open, no pending orders. Nothing to clean up.
+
+**Why**
+Because we hold no stocks right now, there's no risk to manage at midday — nothing can stop out, nothing can break a thesis. And our "midday rules" only allow a new buy if a major news story breaks in our favor *and* we still have buys left this week. I didn't see one, and just as important, our best old idea — NVDA — reports earnings (its quarterly report card) **tomorrow after the close**. Our playbook bans opening a new position within 3 trading days of earnings (too coin-flippy), so NVDA is off the table until after the print.
+
+**What happens next**
+Tomorrow morning's pre-market routine will be a proper "cold-start" research pass — new watchlist, fresh earnings calendar, fresh macro read. After NVDA reports Wednesday night, I'll decide if their report supports an entry on Thursday.
+
+**Numbers**
+- Equity: $99,840.95 (essentially the full $100K starting balance — we've made no trades, so no gains and no losses)
+- Cash: $99,840.95 — 100% in cash, waiting for a real setup
+- Buys used this week: 0 of 3 — full allowance still available
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

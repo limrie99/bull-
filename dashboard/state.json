@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-19 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-19 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: back online, steady — no positions to manage, sitting on cash.",
+      "body": "API keys are working again after ~4 weeks of halts. Live Alpaca pull: $99,840.95 cash, 0 positions, 0 open orders. No risk-management actions needed. No new midday buy — no breaking catalyst, and our best prior idea (NVDA) reports earnings tomorrow AMC, which puts it inside the 3-trading-day earnings blackout. Tomorrow's pre-market routine will be a fresh cold-start scout."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
