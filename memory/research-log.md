@@ -27,6 +27,57 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-19 15:10 CT — market-close
+
+### Routine context
+First memory write since 2026-04-22 (27 calendar days dark). Secrets are back. Alpaca shows trades did happen in that window — reconciled below. Today's session: no positions held, no orders placed, equity flat.
+
+### Final day state (Alpaca)
+- **Equity:** $99,840.95
+- **Cash:** $99,840.95 (100% cash)
+- **Buying power:** $199,681.90 (2× margin available; strategy is cash-only)
+- **Open positions:** 0
+- **Today's filled orders:** 0
+- **Yesterday's closing equity (5/18):** $99,840.95
+- **Week-start closing equity (Fri 5/15):** $99,840.95
+
+### Performance — today (2026-05-19)
+- **Day P/L:** $0.00 (0.00%) — no positions, can't move
+- **SPY day:** $738.40 → $733.80 close = **−0.6230%** (latest trade $733.80 confirms close)
+- **Alpha today: +0.6230%** (sitting in cash on a SPY down-day looks like alpha; it's defensive alpha, not generated alpha — only counts if we redeploy intelligently)
+
+### Performance — week-to-date (5/18 + 5/19, partial week)
+- **Bull WTD:** 0.00%
+- **SPY WTD:** $739.10 (5/15 close) → $733.80 = **−0.7171%**
+- **Alpha WTD: +0.7171%**
+
+### Reconciliation — what actually happened 4/22 → 5/19
+- **4/22 09:07 CT:** BUY NVDA 25 @ $201.38 (notional ~$5,034.50, ~5.0% of equity) — the starter plan from the 4/21 19:00 CT scout *did* execute despite the 4/22 08:30 memory log saying "halted." Likely a routine ran successfully but did not commit a memory write, or the buy was placed and memory write failed silently.
+- **4/22 → 4/27:** Hard stop $187.12 expired (DAY tif), replaced with GTC $187.28 — normal stop management.
+- **4/27 → 5/04:** Position climbed; HWM $216.73 (+7.62%), trailing-stop converted per strategy (activated above +5% profit).
+- **5/04 09:21 CT:** Trailing-stop fill at $195.0184 — tape gave back enough from the HWM that the 10% trail triggered. Net round-trip: **−$159.04 (−3.16%)** on 25 NVDA. Account moved from $100,000 to $99,840.95 and has been flat there since (12 trading days of no activity).
+
+### What worked
+- **Trailing stop did its job.** Activated only after +5% gain, kept us in for the runup to +7.6%, then cut us before the round-trip turned into a real loss. Net loss capped at −3.16% — well inside the −7% hard-stop band. Strategy rule worked exactly as designed.
+- **Sized small.** Starter tranche at ~5% of equity meant the −3.16% NVDA loss only cost the account 0.16% — exactly the patience the 4/21 scout argued for ("at most a starter tranche").
+- **Out before the earnings print.** NVDA reports 5/20 AMC (tomorrow). We're flat into the print, which is what strategy prefers (no opening within 3 trading days of earnings; same logic applies to "don't hold a marginal position into a binary catalyst").
+
+### What didn't
+- **12-trading-day cash dead zone.** From 5/04 stop-out through today (5/19), zero buy decisions. Either every scan turned up nothing, or routines weren't firing. Either way, no alpha generated — we just sat in cash. SPY also sat (5/15 → 5/19 SPY −0.72%), so we accidentally outperformed by being out, but that's not a repeatable plan.
+- **Memory hygiene broke.** Bull was trading via Alpaca but not writing memory. That's the wrong failure mode — better to halt and write than trade and not write. Need to confirm next routine that memory writes are succeeding (this entry is the test).
+- **Single-name concentration risk realized in miniature.** NVDA was the only position; one bad week and the whole P/L was negative. With 3–5 positions a single name's chop matters less. (Strategy already calls for 3–5; we just never got past 1.)
+
+### Open questions for tomorrow's routines
+1. **NVDA earnings 5/20 AMC.** Do we want NVDA back in after the print? If the print is constructive and the tape doesn't gap up too hard, post-print is a clean re-entry window with the earnings catalyst freshly validated (buy signal #1). Pre-market 5/20 routine should pull consensus EPS/rev and watch the AMC reaction.
+2. **Watchlist rebuild.** The 4/21 seed list (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) is 4 weeks stale. Most have reported since. Pre-market needs to refresh: who's already printed, who beat/missed, who has a fresh catalyst inside 30 days.
+3. **Why so long in cash?** Were routines firing 5/05 → 5/18 and finding nothing, or were they not firing at all? Worth checking trade-log/research-log for any partial entries and treating today as a fresh restart.
+4. **Position count target.** Strategy says 3–5 open. We've been at 0 or 1 for the whole window. Pre-market 5/20 should aim to find 1–2 names worth a starter, not just one.
+
+### Next routine
+Pre-market 5/20 (6 AM CT) — fresh macro scan + earnings calendar pull (NVDA AMC dominates), refresh watchlist, propose at most 1–2 starter entries (3 buys/week cap, 0 used this week).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-19 15:10 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": -0.72,
+  "alpha_week_pct": 0.72,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 09:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 09:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-19 15:10 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day 0.00% · SPY −0.62% · alpha +0.62%",
+      "body": "Flat today — 100% cash, no positions. Backfilling a memory gap: we bought NVDA on 4/22 at $201.38 (~5% starter) and the 10% trailing stop sold us out on 5/04 at $195.02 for a −$159 loss (−3.16%) — the stop did its job after the position peaked at +7.6%. Account moved $100,000 → $99,841 over the round-trip and has been flat since. Today's +0.62% alpha is defensive (we beat a down SPY by sitting out), not generated. NVDA reports tomorrow AMC — I'll do a fresh pre-market scout at 6 AM CT and aim to redeploy cash into 1–2 quality entries this week."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
