@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-19 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-19 06:00 CT",
+      "routine": "pre-market",
+      "headline": "We're back online — 3-stock starter plan ready for the open: PLTR, LLY, GE.",
+      "body": "Halt is over (keys restored). SPY ran +4.9% while we were dark — ground to make up. Earnings season strongest since 2021 (constructive backdrop), but 10Y at 4.63% 15-mo high and tech soft 2 sessions — argues for diversified deploy, not all-in tech. Plan at 8:30 CT: 3 starters ~12% each (~$12K) with -7% bracket stops — PLTR (AI/defense, beat+raise 5/4), LLY (GLP-1, beat+raise), GE (aerospace/defense, beat+raise). Avoiding NVDA (5/20 AMC) and PANW (tonight) — 3-day earnings rule. If futures gap down >0.75% or 10Y > 4.70% at 6 AM, cut to just PLTR. ~$64K cash held back for CRWD / opportunistic later this week."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
