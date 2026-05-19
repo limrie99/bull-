@@ -27,6 +27,35 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-19 08:30 CT — market-open
+
+### Routine context
+First successful wake-up since the 2026-04-22 halts (27 calendar days dark). Secrets restored — Alpaca + Perplexity env vars present. Alpaca clock confirms market is open. Account: **$99,840.95 cash, $99,840.95 equity, 0 positions** (slight drift from $100K starting equity per `last_equity` — no trades on the log, so it's an account-side rounding/fee adjustment; no risk in flight).
+
+### No trades at the open — and why
+There is **no pre-market research log entry for today**. The most recent substantive scout was 2026-04-21 19:00 CT (for the 4/22 open), and the only buy candidate from that pass was **NVDA**, whose next earnings is **2026-05-20 AMC** — i.e. **tomorrow**. Strategy rule: no new positions within 3 trading days of earnings. NVDA is in blackout. Every other 4/21 idea (AVGO, PLTR, GOOGL, MSFT, CRWD, PANW, BE) was flagged as needing verified earnings dates and fresh catalyst checks that never got run. The tape has moved ~4 weeks. CLAUDE.md is explicit: **"Don't trade off last night's context — tape will have moved."** Four weeks is not "last night."
+
+Acting today would mean either (a) executing a stale plan whose only ticker is now ineligible, or (b) freelancing a buy from no research at all. Both violate the playbook. **Pass on trades.**
+
+### Market context (light, not a full scout)
+SPY last trade: **$735.54** (09:39 ET / 08:39 CT). No deeper macro pulled — this is not a research routine, and burning a Perplexity call without follow-through wastes the budget. The next pre-market routine should run a full fresh scout.
+
+### Portfolio watch
+None — no open positions, no stops to manage, no thesis to monitor.
+
+### Buy candidates
+None this routine. Deferred to next pre-market.
+
+### Sell candidates
+None — no positions.
+
+### Next steps
+1. **Pre-market scout (next routine)** needs to fan out sub-agents: macro, earnings calendar for the week of 5/19, sector rotation, and an opportunity scan over the seed watchlist (NVDA post-5/20 print, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW). Pull next-earnings dates from Alpaca first to avoid wasting Perplexity calls.
+2. NVDA is in earnings blackout through 5/20 print + 3 trading days after — earliest re-evaluation is ~5/26.
+3. Account equity drift ($100K → $99,840.95) is unexplained by trade log. Investigate via Alpaca activities feed in the next routine if it persists.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
