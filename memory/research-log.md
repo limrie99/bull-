@@ -27,6 +27,45 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-19 12:05 CT — midday
+
+### Routine state
+First successful routine since 2026-04-22's HALT pair (08:30 + 12:00 CT). Secrets present this run: ALPACA_*, PERPLEXITY_API_KEY, TELEGRAM_* all set. Alpaca + clock reachable (200).
+
+### Account state (Alpaca live)
+- Equity: **$99,840.95** | Cash: **$99,840.95** | Positions: **0** | Open orders: **0**
+- last_equity = equity → day P/L = $0 (intraday flat with no positions, expected)
+- balance_asof = 2026-05-18 (post-Sunday roll, normal)
+- Account created 2026-04-21; ~$159 below the $100K paper starting point — immaterial (~0.16%), no trade log to explain it, no positions to source it from. Flag for the weekly review but not actionable today.
+- Market open (next close 16:00 ET).
+
+### Portfolio watch
+None — no positions. No risk-management actions to take:
+- (a) No -7% position to triage.
+- (b) No +5% winner needing the trailing-stop swap.
+- (c) Daily loss cap not relevant — flat day, no positions.
+
+### Inbox
+Empty under ## Pending. Nothing to handle.
+
+### Buy candidates
+**Skipping new buys at midday** per routine rules. Rationale:
+- No fresh pre-market scout today (the last full scout is 2026-04-21 19:00 CT — 28 days stale).
+- No breaking catalyst was surfaced this midday (no news pull initiated; routine spec says only for at-risk positions, which we don't have).
+- NVDA — the prior scout's only verified pick — has earnings **tomorrow (2026-05-20 AMC, confirmed in prior log)**. That puts us **inside the strategy's 3-trading-day earnings blackout** for new positions. Cannot open NVDA today even if conviction held.
+- No verified non-NVDA name carries over from the old scout.
+
+### Sell candidates
+None — no positions.
+
+### Notes / gaps for the next pre-market
+1. We've effectively been dark for almost a month. Treat the next pre-market like a **cold-start scout**: macro digest, earnings calendar for the upcoming week, fresh 6–10 name watchlist with verified next-earnings dates from Alpaca.
+2. **NVDA prints AMC tomorrow (5/20).** Cannot open pre-print (3-day blackout). Build the post-print plan: how do we react to a beat-and-raise vs. a miss vs. an in-line print? Decide thresholds in advance.
+3. Reconcile the $159 starting-balance gap during the weekly review (likely a paper-account quirk; doc it and move on if no evidence of mystery trades).
+4. SPY benchmark — restart the weekly alpha tally on the first trade day post-NVDA print.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
