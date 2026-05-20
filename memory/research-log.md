@@ -27,6 +27,49 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-20 15:10 CT — market-close
+
+### Account snapshot (Alpaca)
+- Equity: **$99,840.95** | Cash: **$99,840.95** | Positions: **0**
+- Last equity (5/19 close): $99,840.95 → **Day P/L = $0.00 (0.00%)**
+- Buying power: $199,681.90 (2× margin, unused — strategy is cash-only)
+- Daytrade count: 0 | Account status: ACTIVE | No blocks
+
+### Today's tape
+- **SPY:** 733.80 (5/19 close) → **741.31** (5/20 close, IEX bar). Day **+1.02%.**
+- **Latest SPY trade (post-close print):** $740.86 (V exchange, 16:04 ET).
+- **Big catalyst tonight:** NVDA reports AMC — per our 4/21 pre-market scout this was 21 trading days out at the time; it's tonight. We have no position, so no immediate exposure either way.
+
+### Today's orders
+- None. No fills, no cancels, no stop-management activity (no positions to manage).
+
+### Portfolio history reconciliation (memory gap flagged)
+Alpaca's 1-month portfolio history shows the account was actively traded between 4/22 and 5/01: equity wandered between $99,926 and $100,381 with small daily swings, then settled at **$99,840.95 on 5/01** and has been flat since. That implies trades were placed (and lost a net $159) during the window when our `.env` secrets were missing — those fills never made it into `memory/trade-log.md` or `memory/portfolio.md`. Today's account is clean (no open positions), but the per-trade history for that window is gone from our local memory.
+
+### Day summary
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 / 0.00%
+- **SPY day:** +1.02% | **Alpha day: −1.02%**
+- **Week P/L (from 5/15 Fri close):** 0.00% | SPY WTD +0.30% | **Alpha WTD: −0.30%**
+- **Since inception (4/21):** −0.16% vs SPY +5.31% → **Alpha −5.47%**
+- **Trades placed today:** 0
+
+**What worked**
+- Nothing was at risk on a tape where individual names can swing into NVDA's print — we own no late-cycle AI exposure.
+- Memory and APIs are healthy again; the routine ran clean end-to-end.
+
+**What didn't**
+- We sat in cash for a +1% SPY day. That's the structural cost of being benched.
+- Cumulative: the account has been ~100% cash for three weeks while SPY rallied 5%+. That is the dominant alpha drag, not any trade mistake.
+- Memory gap from the 4/22–5/01 window is still unresolved (the $159 of realized losses we can see in the equity curve but not in our trade log).
+
+**Open questions for tomorrow**
+1. **NVDA print tonight** — beat / miss / guide? Is the AI-infra thesis still intact? Action: tomorrow's pre-market scout must read the print first thing.
+2. **Are we ready to actually deploy capital?** The account has been idle for weeks. A starter NVDA or AVGO position (1/3 size) becomes much more attractive post-print if the guide is clean.
+3. **Reconciliation:** should we annotate the trade-log with a "memory gap 4/22–5/01" stub so future Bull doesn't think the account was always flat?
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

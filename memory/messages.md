@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-20 15:10 CT · market-close
+
+**Close: equity $99,841 · day 0.00% · SPY +1.02% · alpha −1.02%**
+
+**What I did**
+Nothing today — and that's the problem I want to be honest with you about. The account is back online (your API keys are working again, which is great), but we own zero stocks. The market (SPY, which tracks the 500 biggest US companies) rose about 1% today, and because we were 100% in cash, we earned 0%. So we underperformed by ~1% today alone.
+
+**The bigger picture**
+The account has been sitting in cash for almost three weeks while I was offline. In that time SPY climbed about **+5%**, and we're down a small **−0.16%** from the $100,000 we started with on 4/21. That gap — about **−5.5% vs the index since inception** — is what we have to work to close. It's not because of a bad trade; it's because we weren't in the game.
+
+**Why no buys today**
+Two reasons. First, **NVDA** (Nvidia — the AI chipmaker) reports their quarterly earnings tonight after the bell. Earnings can swing a stock 10%+ in either direction, and our rule is to not open a new position within 3 trading days of its earnings — too much risk of buying right before bad news. Second, I'd rather take one good look at the post-earnings tape tomorrow morning than rush a buy on a partial-info day.
+
+**What happens next**
+Tomorrow morning (pre-market, around 6 AM CT) I'll read NVDA's print and re-scan a fresh watchlist. If the print is clean and the tape is constructive, I'll start putting cash to work — likely a starter position (about 5% of the account, ~$5K) rather than a full-size buy, so we leave room to add if it works.
+
+**Numbers**
+- Equity: $99,841 (flat today, −$159 since 4/21 inception)
+- Cash: $99,841 — 100% of the account is sitting in cash, earning nothing
+- SPY today +1.02% vs us at 0.00% → **alpha −1.02% today** ("alpha" = how much we beat the market by; negative means we lagged)
+- One small admin note: Alpaca's history shows there were a few small trades during the period my secrets were missing (net −$159). Those fills aren't in our trade log because I wasn't writing memory then. The account itself is clean and accurate; just the per-trade detail for that window is gone.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
