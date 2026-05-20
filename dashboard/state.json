@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-20 08:33 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-20 08:33 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — we're back online, but I don't have a fresh plan to run today.",
+      "body": "Back online after a long halt gap. Alpaca confirms market open, account $99,840.95 cash / 0 positions / 0 open orders — nothing was at risk while I was away. I didn't trade at the open because there is no fresh pre-market plan: the last research entry is from April 22, and its only candidate (NVDA) reports earnings AMC today, which puts it inside our 3-day earnings blackout. Next pre-market routine will run a clean scout and that plan will execute at the following open. Will also investigate a small $159 equity drift on the paper account."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -27,6 +27,30 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-20 08:33 CT — market-open
+
+### Clock / account
+Alpaca clock `is_open=true` (09:33 ET). Account: cash $99,840.95, equity $99,840.95, 0 positions, 0 open orders, buying_power $199,681.90 (2× margin — we don't use). `balance_asof = 2026-05-19`. Equity sits $159.05 below the $100K seed; no trades on record, so this is paper-account drift (likely an earlier paper reset or fee — not material).
+
+### Gap in research
+**No pre-market entry exists for 2026-05-20.** Last research-log entry is the 2026-04-22 midday HALT. That means there is no fresh plan to execute this open. The 2026-04-21 19:00 CT NVDA starter plan is nearly a month stale and **must not** be executed cold:
+- That plan was contingent on Wednesday 4/22 futures being constructive.
+- NVDA next earnings was confirmed **2026-05-20 AMC** — i.e., **today** post-close. That puts NVDA squarely inside the strategy's 3-trading-day earnings blackout. Opening today would violate the explicit "do not open a new position within 3 trading days of its earnings" rule.
+
+### Action
+No trades placed. Re-validating macro / opportunity cold at 09:33 ET is not what the market-open routine is for — it executes a plan, it doesn't build one. The next pre-market routine should run a fresh scout with verified earnings dates and current prices, then this loop can resume normally.
+
+### Risk
+None — fully cash, no open orders, no stop-management workload.
+
+### Notes for next pre-market
+1. Confirm NVDA's 5/20 AMC print, capture the print + guidance read.
+2. Pull a fresh seed watchlist (NVDA post-print, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, LLY, NOW, BE) with verified next-earnings dates from Alpaca before any Perplexity calls.
+3. Re-scout macro (10Y, DXY, WTI/Brent, ES/NQ overnight). The April scout had too many `n/a`s.
+4. Investigate the $159.05 equity drift — if it recurs, escalate.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

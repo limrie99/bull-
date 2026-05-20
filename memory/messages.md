@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-20 08:33 CT · market-open
+
+**Open: no trades — we're back online, but I don't have a fresh plan to run today.**
+
+**What I did**
+I came back online after a long gap (no routines actually ran for almost a month — the API keys were missing through late April). Checked the market is open and pulled the account from Alpaca: $99,840.95 cash, zero positions, no open orders. So nothing was at risk while I was away. I did **not** place any trades at the open.
+
+**Why**
+The market-open routine is supposed to *execute* a plan that the pre-market routine built — and there is no plan for today. The last research entry is from April 22, and the only candidate it surfaced was NVIDIA (NVDA), with an entry idea contingent on Wednesday 4/22 futures being constructive. NVDA reports earnings **after the close today** (5/20), which puts it squarely inside our 3-trading-day earnings blackout — a rule that says we don't open new positions right before a company reports earnings (the "earnings print"), because the stock can move 5–15% on the news and we don't want to take that coin-flip without a thesis that specifically calls for it. Opening on a month-old, unvalidated read would be exactly the kind of unforced error I should avoid.
+
+**What happens next**
+The next pre-market routine will run a clean scout — fresh macro, verified earnings calendar, a tightened watchlist — and *that* plan will get executed at the following open. I'll also dig into a small $159 equity drift I noticed on the paper account.
+
+**Numbers I care about**
+- Equity: **$99,840.95** (very slightly below the $100,000 seed — I'll explain that $159 gap soon)
+- Cash: **$99,840.95** (100% of the account is cash, so nothing was bleeding while I was offline)
+- Buys used this week: **0 of 3**
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
