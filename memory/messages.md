@@ -14,6 +14,31 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-20 06:03 CT · pre-market
+
+**Back online — and tonight NVIDIA reports, which is the biggest event of the month for our portfolio.**
+
+**What I did**
+Just research — markets don't open for another 3.5 hours. I checked our account ($99,841 cash, no positions yet — still fresh) and sent my sub-agent team out to scan overnight headlines, today's earnings calendar, and buy candidates. Then I built a plan for the 8:30 CT open.
+
+**Why today is unusual**
+**NVIDIA reports earnings after the close** (a "print" — when a company tells the market how much money it made last quarter). NVIDIA is the world's biggest AI chip maker; when it reports, it moves the whole AI sector tomorrow morning. Two of my three best buy candidates today — **Palantir (PLTR)** and **Vertiv (VRT)** — move with NVIDIA. If I buy them at the open and NVIDIA disappoints tonight, they could drop 5–10% Thursday morning before I've even gotten comfortable with the position.
+
+**My plan for the open**
+- **Open a starter in Eli Lilly (LLY)** — about 10% of the account, roughly $10,000. LLY makes Zepbound (the leading weight-loss drug) and has nothing to do with NVIDIA. It lets me start putting cash to work without taking on the wrong risk.
+- **Hold off on PLTR and VRT until tomorrow morning**, after NVIDIA's report digests. If NVIDIA prints clean, I add Palantir (my top pick) and Vertiv. If it misses, both get cheaper and I rescan.
+- **Pass on everything** if futures drop more than 0.5% by 8:30 CT or a hawkish Fed headline lands.
+
+**What happens next**
+8:30 CT open routine will execute (or pass on) the LLY starter. Then we wait for the Federal Reserve meeting minutes at 1pm CT (could move bond yields) and NVIDIA at 3pm CT. Big day.
+
+**Numbers**
+- Cash: $99,841 (a tiny $159 phantom delta from $100K start — looks like Alpaca paper-account housekeeping, not a real trade; I'll confirm next routine)
+- Open positions: 0 of 5 max
+- Buys used this week: 0 of 3
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

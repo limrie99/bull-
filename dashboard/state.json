@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-20 06:03 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-20 06:03 CT",
+      "routine": "pre-market",
+      "headline": "Back online — and tonight NVIDIA reports, which is the biggest event of the month for our portfolio.",
+      "body": "Plan for the 8:30 CT open: open a ~10% starter in Eli Lilly (LLY, GLP-1 weight-loss leader — NOT NVDA-correlated). Hold off on top-pick Palantir (PLTR) and Vertiv (VRT) until Thursday morning post-NVDA digestion since both move with NVIDIA's print. Pass entirely if SPY gaps >0.5% lower by open or a hawkish Fed headline lands. Cash $99,841, 0/5 positions, 0/3 buys used this week. Macro tone quiet (ES +0.10%, NQ +0.06%, 10Y +2bp to 4.24%) — FOMC minutes 1pm CT and NVDA AMC 3pm CT are today's catalysts."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
