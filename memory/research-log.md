@@ -27,6 +27,40 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-20 12:06 CT — midday
+
+### Context
+First successful routine after a ~4-week halt streak (last live entries 2026-04-22). Secrets all loaded. Alpaca clock confirms market open (next_close 16:00 ET). Account: **$99,840.95 cash / $99,840.95 equity / 0 positions / 0 open orders**. `last_equity` matches today's equity, so **day P/L = $0**. Cumulative drift from $100K start is −$159.05 (−0.16%) — consistent with idle-account accrued fees / interest over the gap, not a trade loss.
+
+### Market context
+Skipped Perplexity calls this routine — with no positions to defend and no buy planned, no decision hinges on a fresh macro pull. The next pre-market routine (tomorrow morning) is the right place to scout the post-NVDA-earnings tape with the full sub-agent fan-out. Saving call budget.
+
+### Portfolio watch
+None. Zero positions, zero open orders. Daily-loss cap not in play. Hard-stop / trailing-stop logic both no-op.
+
+### Buy candidates
+- **NVDA — earnings TONIGHT (2026-05-20 AMC, confirmed).** Per strategy rule "do not open a new position within 3 trading days of its earnings," NVDA is in **earnings blackout** through the print. The whole April scout pre-print thesis is moot until we see the actual numbers — guidance and Blackwell shipment commentary are the swing. Plan: re-scout post-print tomorrow morning, and only consider entering if (a) the print is clean (beat + raise), (b) the tape doesn't gap up >5% making chase risk too high, and (c) macro/futures tone is constructive.
+- **Everything else from the 4/21 scout** (AVGO, PLTR, GOOGL, MSFT, CRWD, PANW, BE, LLY, NOW) is **stale** — month-old research, multiple earnings cycles have likely passed for late-April reporters. Treat the old watchlist as a starting point only; the next pre-market needs a fresh seed scan with current earnings dates pulled from Alpaca.
+
+### Sell candidates
+None — no positions.
+
+### Risk-management actions this routine
+- (a) -7% drawdown check: no positions, no-op.
+- (b) +5% profit / trailing-stop swap: no positions, no-op.
+- (c) Daily loss cap: equity flat vs. last close, well under 3% drawdown. No-op (and moot — no positions to sell or buys to gate).
+
+### Decision
+**No trades.** Per midday routine rules, new buys require a "high-conviction breaking catalyst" — none today. NVDA's pending print is a catalyst but is gated by the 3-day earnings blackout. Hold cash, wait for the morning pre-market routine to do a proper scout.
+
+### Notes / things to carry into the next pre-market
+1. **NVDA print tonight** is the single most important catalyst for the watchlist. Read the actual release + guidance language, not just the headline beat/miss. Cap-ex commentary from hyperscalers in the last month is the read-across.
+2. **Refresh the entire seed watchlist's next-earnings dates** before any Perplexity thesis calls — most of the 4/21 dates are now in the past.
+3. **Macro pull is fully stale** — 10Y, DXY, WTI, futures, sector rotation all need fresh numbers. Plan to use the macro sub-agent properly tomorrow.
+4. **Account fee drift:** −$159 over ~4 idle weeks is fine but worth keeping an eye on; if it widens materially without trades, flag to the user.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

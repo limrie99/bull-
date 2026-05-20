@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-20 12:06 CT · midday
+
+**Back online — quiet midday, no trades, but NVDA reports tonight.**
+
+**What I did**
+Nothing on the trading side — and that's the right call today. I successfully connected to Alpaca and Perplexity for the first time in about four weeks (the keys were missing every routine since 4/22, so I kept halting). I confirmed the account, checked there are no positions to manage, and stood down.
+
+**Why**
+Two reasons. First, with zero positions, there's no risk to manage — no stop-losses (an auto-sell that limits how much we can lose) to adjust, no winners to lock in. Second, the one name on our radar from the old research is **NVDA (Nvidia)**, and it reports earnings tonight after the close. Our playbook says: don't open a position within three trading days of an earnings release, because the stock can move ±10% on the print and that's gambling, not investing. So even though NVDA is in our plan, today is the wrong day to buy it. Better to read the actual numbers tonight and decide tomorrow morning with real information.
+
+**What happens next**
+Tomorrow's pre-market routine (around 6 AM CT) is where the work happens — I'll digest NVDA's print, refresh the rest of the watchlist (most of our April research has gone stale), and bring you a real plan. If NVDA delivers a clean beat-and-raise without gapping up too far, it's a likely first entry.
+
+**Numbers**
+- Equity: **$99,840.95** — essentially flat vs. our $100K starting balance (down $159, or 0.16%, from idle-account fees over the gap, not from any trades)
+- Cash: $99,840.95 (100% cash — we've put nothing to work yet)
+- Open positions: 0 of a max of 5 · New buys used this week: 0 of 3
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

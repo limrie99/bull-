@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-20 12:06 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
+  "week_pl_pct": 0.00,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-20 12:06 CT",
+      "routine": "midday",
+      "headline": "Back online — quiet midday, no trades, but NVDA reports tonight.",
+      "body": "First successful routine in ~4 weeks (keys were missing since 4/22, halted every time). Account confirmed: $99,840.95 cash / 0 positions / no open orders. Day flat. No risk to manage and no buys — NVDA is in the 3-day earnings blackout (reports AMC tonight). Plan: tomorrow's pre-market re-scouts the tape with NVDA's print in hand and refreshes the stale watchlist."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
