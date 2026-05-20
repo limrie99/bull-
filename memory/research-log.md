@@ -27,6 +27,63 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-20 06:03 CT — pre-market
+
+**Timing note:** First live routine in ~4 weeks (prior runs 4/22 halted on missing secrets). Secrets now present, Alpaca + Perplexity verified live. Account: **$99,840.95 cash, 0 positions** (small ~$159 housekeeping delta from $100K starting cash — not from any trade we placed). Three sub-agents fanned out in parallel: macro, earnings, opportunity scout.
+
+### Market context — mildly risk-off-but-quiet
+- **ES (Jun'26):** ~7,385.50, **+0.10%** overnight.
+- **NQ (Jun'26):** ~13,592.75, **+0.06%** overnight.
+- **10Y UST:** ~4.24%, **+2 bps**. **DXY:** ~102.98 (+0.1%). **WTI:** ~$79.86 (+0.3%).
+- **Asia:** Nikkei -0.3%, Hang Seng -0.6% on renewed US/China tech-export rhetoric. **Europe:** Stoxx 600 / DAX modestly soft, FTSE flat.
+- **Headlines:** (1) Fed "higher-for-longer" chatter ahead of today's FOMC minutes; (2) US-China tech/export-control friction back in focus; (3) Crude steady on Mid-East risk + OPEC+ discipline.
+- **US data today:** 07:00 ET MBA Mortgage Apps; 10:30 ET EIA Crude inventories; **14:00 ET FOMC minutes (early-May meeting)** — biggest intraday catalyst.
+- **Net tone:** quiet drift likely until 2pm ET minutes. Any hawkish surprise pressures duration-sensitive growth.
+
+### Earnings calendar (2026-05-20)
+- **Headline event: NVDA AMC** — confirmed via NVIDIA IR + Wall Street Horizon. Consensus **EPS ~$1.78** (+120% Y/Y), **revenue ~$79.2B**. Key watches: (a) **Blackwell ramp** + GB300 commentary; (b) **hyperscaler data-center capex** tone; (c) **China / H20 export-license** — prior quarter took a ~$8B revenue hit, any license update is the swing factor; (d) **gross margin** trajectory (guide was 72.0% ±50bps, mid-70s by year-end — Blackwell mix is dilutive risk).
+- **BMO / other AMC:** none confirmed for 2026-05-20 from the earnings agent's pulls. Plausible late-May names (TGT, TJX, LOW, ADI, PANW, SNOW) unverified.
+- **Tape-setter risk:** NVDA AMC is the only print that matters today. Beat-and-raise lifts SPX/SOX/AI-adjacents (AVGO, AMD, ARM, ANET, VRT, PLTR); in-line + cautious China commentary or any Blackwell-mix margin slip is the asymmetric downside.
+
+### Portfolio watch
+No open positions. $99,840.95 cash. ~$159 phantom delta from $100K start — not a trade, likely Alpaca paper housekeeping; flagging for next routine.
+
+### Buy candidates
+
+Scout returned three names that cleanly clear the ≥2-signal bar and the 3-day-earnings-blackout rule:
+
+- **PLTR — Palantir** — Conviction: **HIGH**. Price **$134.95**. Next earnings ~2026-08-03 (≥45 trading days out — clears). Signals matched: **(1) Q1 beat 5/4** (rev $1.633B +85% Y/Y, EPS $0.33 vs $0.28); **(3) AI + defense secular tailwind**; **(4) analyst re-rates 5/18–5/19** on raised FY26 guide (~$7.65B, ~71% Y/Y; US commercial guide >$3.2B, ~120% Y/Y). Catalyst: raised FY26 guidance + ongoing sell-side updates. **Suggested size: 15% / ~$14,976 (~111 shares).** Risk: high-multiple, ~2× tape beta — any AI sentiment wobble hits hard.
+- **LLY — Eli Lilly** — Conviction: **MED-HIGH**. Price **$1,021.15**. Next earnings ~late-July 2026 (clears). Signals matched: **(3) GLP-1/obesity secular tailwind** (Zepbound/Mounjaro share gains); **(6) clear uptrend** above 50-DMA. Catalyst: oral GLP-1 (**orforglipron**) data/regulatory milestones in H2-26. **Suggested size: 12% / ~$11,981 (~12 shares).** Risk: single-trial-readout sensitive; NVO competitive surprise. **Importantly: NOT NVDA-correlated.**
+- **VRT — Vertiv** — Conviction: **MED**. Price **$322.64**. Next earnings ~late-July 2026 (clears). Signals matched: **(3) data-center power/thermal** is the most physically-constrained AI bottleneck; **(5) hyperscaler capex rotation** into AI-infra-ex-GPU. Catalyst: MSFT/GOOGL/META capex raises through earnings + June AI-infra conferences. **Suggested size: 10% / ~$9,984 (~31 shares).** Risk: high-beta to NVDA print tonight.
+
+#### Excluded / passed
+- **NVDA** — AMC tonight, inside earnings blackout. Re-evaluate Thursday morning post-print.
+- **CRWD** (earnings 2026-06-03, ~9 trading days out) — clears 3-day rule but uncomfortably close; pass.
+- **AVGO** (earnings early-June 2026) — same logic as CRWD; pass.
+- **PANW** — late-May 2026 earnings (likely within 3–5 trading days). **Excluded by guardrail.**
+- **NOW** — Alpaca latest came back $101.83, anomalous for ServiceNow; data integrity issue, skip until verified.
+- **GOOGL, MSFT, META, AAPL, AMD, ANET, TSM, COST, UNH, BE** — no fresh named catalyst inside last 14 days; pass to preserve the ≥2-specific-signal bar.
+
+### Plan for 2026-05-20 market open (8:30 CT)
+**Single biggest risk today: NVDA AMC.** Two of three finalists (PLTR, VRT) move with NVDA — if I open both at the open and NVDA disappoints, I'm sitting on a ~5–10% gap-down Thursday morning with brand-new positions and the hard -7% stop right in striking distance.
+
+**Recommended sequencing:**
+1. **At today's open: starter in LLY only**, ~10–12% size ($10K–$12K). LLY is GLP-1/healthcare, decorrelated from NVDA's AI tape — lets us begin deploying capital with event risk we *want* (LLY-specific), not event risk we *don't* (NVDA's print).
+2. **Skip PLTR and VRT today.** Wait for NVDA's print + Thursday open tape.
+3. **Thursday pre-market (post-NVDA):** if NVDA holds or beats clean, add **PLTR ~15% as the top pick** and consider VRT ~10%. If NVDA misses or guides soft, both reset cheaper and we re-scout.
+4. **Pass entirely** if 8:30 CT shows SPY > 0.5% gap down or a fresh hawkish surprise around the minutes.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. The ~$159 cash delta from $100K — confirm it's an Alpaca housekeeping artifact and not a phantom test trade.
+2. ServiceNow (NOW) Alpaca quote returned $101.83 — verify data feed health before relying on Alpaca latest-trade prices intraday.
+3. Re-verify NVDA print expectations near close (whisper vs consensus, options-implied move) so the market-open routine has a fresh read.
+4. BMO/AMC ex-NVDA reporters today are unconfirmed — re-pull at 8 AM CT in case any sector-mover surfaces.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
