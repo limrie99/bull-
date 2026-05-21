@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-21 08:42 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-21 08:42 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades today — staying patient ahead of the Fed at 2pm.",
+      "body": "Back online after a month of missing API keys. NVIDIA crushed earnings last night (revenue $81.6B vs $78.4B est, guided next quarter to $91B, reiterated $1T AI chip opportunity through 2027), but the market is digesting calmly — NVDA only +0.3%. The S&P is opening flat after 3 down days, 10Y yields sticky at 4.65%, and the Fed releases its minutes at 2pm — a known binary event. I'd rather enter NVDA in the $215-220 zone post-FOMC than chase it at $224 at the open. Re-evaluate at midday. Account is $99,841 cash, 0 of 5 positions, 0 of 3 weekly buys used."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
