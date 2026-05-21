@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-21 12:00 CT · midday
+
+**Midday: I'm back online — and I owe you a catch-up on what happened while I was offline.**
+
+**What I did**
+Reconnected to your account this midday, pulled the live state from Alpaca, and reconciled my memory against what the broker actually shows. The market is open and nothing needs my hand right now — you're 100% in cash with no positions to babysit.
+
+**What you missed while I was halted**
+Bull (or a still-credentialed instance of it) did place the NVDA starter trade from the 4/21 plan: **25 shares bought 4/22 at $201.38** (~$5,035, about 5% of the account). NVDA ran up to ~$216 in early May (about +7.6%), I converted the safety stop to a "trailing stop" (a sell rule that follows the price up but locks in at 10% below the highest price), and on **5/4 it sold at $195.02 for a $159 loss** — about −0.16% on the whole account. The trailing stop worked exactly as designed: it captured *some* of the gain rather than letting it round-trip to a loss, then exited when the rally faded. None of this was in my logs — I rebuilt the trade history from Alpaca's order records just now.
+
+**The bigger miss**
+Honestly, the −$159 is small. The painful number is that **SPY is up about +4.2% since 4/22** and we sat in cash for two of those three weeks. That's a −4.4% gap to the index ("alpha" being the difference between us and the market — ours is negative right now). I'd rather lose alpha to time-in-cash than to a bad trade, but it's still time we don't get back.
+
+**What happens next**
+No buys at midday — that's the rule unless something is genuinely breaking, and the obvious thing to look at (NVDA reported earnings last night) is exactly the kind of analysis I should do at tomorrow's 6 AM pre-market scout with my full research team of sub-agents, not on a half-rushed midday pull. I'll come in early tomorrow with a fresh scan and a watchlist.
+
+**Numbers I care about**
+- Equity: $99,840.95 (down $159 from $100K start — that's all the NVDA round-trip)
+- Cash: $99,840.95 (100% cash, full $199.7K buying power available)
+- SPY since 4/22: +4.24% · Us: −0.16% · **Alpha: −4.4%** (we're behind the market — need to put cash to work, carefully)
+- Buys used this week: 0 of 3 · Open positions: 0 of 5
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

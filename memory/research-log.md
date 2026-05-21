@@ -27,6 +27,59 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-21 12:00 CT — midday
+
+### Memory reconciliation (gap 2026-04-22 → 2026-05-21)
+This is the first routine that has actually completed since the 4/22 halts. Alpaca shows live activity that Bull's memory never logged at the time. Reconstructed from `/v2/orders?status=all&after=2026-04-22`:
+
+| Date (CT) | Action | Detail |
+|---|---|---|
+| 2026-04-22 10:07 | BUY NVDA 25 @ $201.38 | OTO market w/ day stop $187.12 (expired same session). |
+| 2026-04-22 15:24 | Stop re-submitted GTC | $187.28 hard stop. |
+| 2026-04-27 12:16 | Stop → trailing 10% | Position crossed +5%, hard stop cancelled, trailing 10% placed (HWM started $216.73 — i.e. NVDA touched ~$216 in late Apr / early May). |
+| 2026-05-04 10:21 | SELL NVDA 25 @ $195.0184 | Trailing stop fired. Realized **−$159.05** (−3.16% position, −0.16% account). |
+
+Retroactive entries added to `memory/trade-log.md` (4/22 buy, 4/27 stop conversion, 5/4 sell) with a "recorded retroactively" note on each.
+
+**Process gap to fix:** for the period 4/22 → 5/20, no routine successfully wrote memory back. The orders show three weeks of trade life-cycle on a position that never appeared in `memory/portfolio.md`. Whatever monitor watched the trailing stop was not the same instance that updates memory — or the routines kept halting on secrets and the trade was placed by something/someone else with credentials. Flag this for the weekly review on Friday.
+
+### Market context (light pull — no positions, no buys planned)
+- Clock: `is_open=true`, next_close 16:00 ET (15:00 CT). Mid-session.
+- SPY: ~$739.22 live (latest trade). Yesterday close $741.31 → SPY day **−0.28%**. SPY since 4/22 open ($709.14) → **+4.24%** over the gap.
+- NVDA reported earnings AMC 2026-05-20 (yesterday). No fresh Perplexity pull this routine — strategy says no midday buys without a high-conviction *breaking* catalyst; a 12-hour-old print isn't breaking, and proper post-earnings analysis belongs in pre-market. Flag NVDA for the next pre-market scout: revisit thesis given the print and the now-known $195–$217 trading range over the past month.
+- Daily loss cap: `equity = last_equity = $99,840.95` → 0.00% day. Not triggered. No-op anyway since we have no positions.
+
+### Portfolio watch
+No open positions. $99,840.95 cash, $199,681.90 buying power (cash-only per strategy). 0 daytrade count.
+
+### Risk management
+- (a) Down −7%+ positions: none (no positions).
+- (b) Up +5%+ positions: none (no positions).
+- (c) Daily loss cap: not triggered. Moot.
+
+### Buy candidates
+None this routine. Per midday rules, no new buys without a high-conviction *breaking* catalyst, and there's no fresh research pass at midday. The NVDA 5/20 print is the obvious thing to evaluate — defer to the next pre-market routine, which is the right slot for a real scout with sub-agents.
+
+### Sell candidates
+None — no positions.
+
+### Benchmark vs SPY (since inception)
+| | Value | Δ from 4/22 open |
+|---|---|---|
+| Bull account | $99,840.95 | **−0.16%** |
+| SPY ($709.14 → $739.22) | $739.22 | **+4.24%** |
+| **Alpha** | | **−4.40 pts** |
+
+Honest read: we placed one trade (the planned NVDA starter), it ran +7.6% to HWM, the 10% trail brought us out at −3.16%, and we've been in cash for two weeks while SPY ran another ~3.5%. The strategy mechanically worked (trailing stop locked in *some* of the gain) — but being in 0 positions for two weeks of a rallying tape is the much bigger drag than the −$159 trade itself.
+
+### Action items for next pre-market (2026-05-22 06:00 CT)
+1. Fresh scout with sub-agents — fundamentals/macro/sector/earnings — given a month of stale memory.
+2. Specifically re-evaluate NVDA post-5/20 print (was the reception bullish?). Decide whether to re-enter.
+3. Build a fresh seed watchlist; the 4/21 list is stale.
+4. Diagnose the memory-write gap so future routines can't trade without logging.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
