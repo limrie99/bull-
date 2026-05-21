@@ -27,6 +27,51 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-21 08:42 CT — market-open
+
+**Context:** First active routine in a month. All 4/22 routines halted on missing keys; nothing has happened since. Keys are now live (Alpaca + Perplexity verified, market clock confirms is_open=true at 9:38 ET). Account: **$99,840.95 cash, 0 positions** (tiny -$159 drift from $100K paper start — non-trade admin, no positions ever opened). The old pre-market plan from 4/21 is **one month stale**; its flagship setup (NVDA starter contingent on NVDA's 5/20 earnings) is no longer hypothetical — NVDA printed last night. Refused to execute month-old context; ran a fresh 2-sub-agent scout instead.
+
+### Market context
+**Tape character: mixed, leaning cautious.**
+- SPY $737.97, QQQ $709.95 at ~9:41 ET — opening flat-ish after **3 straight down days**.
+- **10Y Treasury ~4.65%** — elevated, growth/duration headwind.
+- **WTI ~$101, –2.78%** — soft energy tape.
+- **VIX 17.94** — no panic, but creeping above mid-teens comfort zone.
+- **FOMC minutes at 2:00 PM ET today** — known intraday binary that will move yields and equities.
+- Other catalysts today: WMT and DE report (retail + ag/industrial reads). No mega-cap AMC tonight per fresh pull.
+- Geopolitics, DXY, NDX, Brent: n/a — Perplexity sparse.
+
+### Portfolio watch
+No open positions. Nothing to manage. $99,840.95 cash (~$199.7K margin buying power, unused per strategy).
+
+### NVDA earnings recap (printed 2026-05-20 AMC) — confirmed via Perplexity scout
+- **Revenue $81.62B vs ~$78.4B consensus** (+85% YoY, +20% QoQ) — clear beat.
+- **Non-GAAP EPS $1.87 vs ~$1.76 consensus** — beat by $0.11.
+- **Q2 FY27 guide $91B ±2% vs Street ~$87B** — meaningful raise.
+- **Data Center $75B, +92% YoY.** Blackwell ramp broad across hyperscalers, AI clouds, model makers, sovereigns. Management reiterated **$1T Blackwell+Rubin opportunity 2025-27**.
+- **China:** No relief. Q2 guide explicitly excludes China DC compute; no quantified incremental hit beyond the FY26 ~$4.5B H20 charge / ~$8B lost revenue baseline.
+- **Capital return:** Quarterly dividend $0.01 → $0.20; new buyback authorized.
+- **Tape reaction:** Close $223.47 (+1.3% on day) → AH ~$220.66 (–1.26%, classic buy-rumor-sell-news digestion) → **9:41 ET today $224.19** (AH dip got bought back). Calm digestion, not a gap-up chase, not a breakdown.
+
+### Buy candidates
+
+- **NVDA — $224.19.** Signals matched: **(1)** positive earnings surprise this week (beat both lines + raised guide) ✓ **(3)** secular tailwind confirmed ($1T Blackwell+Rubin reiterated) ✓. That's **2 verified signals → meets the strategy threshold.** Conviction: **med-high.** But: (a) tape is in a 3-day downtrend, (b) FOMC minutes at 2pm is a known binary in 4.5 hours, (c) NVDA at $224 is above sub-agent 1's preferred dip zone of $215–220 — closer to "chase" than "pullback." Verdict: **defer entry to midday post-FOMC**, not pass entirely. If FOMC is hawkish and NVDA dips into $215–220, we get a better entry on the same thesis. If FOMC is fine and NVDA holds $223+, the midday routine still has a clean window to enter.
+
+- **AVGO — $420.57, PLTR — $137.64, ORCL — $190.89, MSFT — $420.40, GOOGL — $385.89.** All AI-adjacent. AI capex narrative was just reinforced by NVDA's print. None has a verified ≥2-signal setup pulled fresh today. Defer to tonight's pre-market for proper scout.
+
+**Net buy plan for today:** **Zero trades at open.** Re-evaluate at midday after FOMC minutes (2:00 PM ET / 1:00 PM CT). The strongest setup (NVDA) is real but the entry timing isn't optimal at the open.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. Watch FOMC minutes (2:00 PM ET) — is the Fed more hawkish than priced? If yes, growth/duration takes another hit and NVDA dip may extend.
+2. Pull NVDA intraday tape at midday — did it drift into the $215-220 zone? Did sell-the-news pressure resume?
+3. Get AVGO, PLTR, ORCL pre-earnings dates verified (whether any are inside the 3-day blackout).
+4. Sub-agent 2 (macro) confused NVDA's print timing (said it reports tonight) — that's a Perplexity training-data freshness issue. Use Alpaca live quotes to ground-truth tape, not Perplexity, for time-sensitive questions.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
