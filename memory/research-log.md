@@ -27,6 +27,56 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-21 15:05 CT — market-close
+
+### Market context
+First successful Bull routine in ~4 weeks. Env vars restored. Quiet up-day:
+- **SPY:** open $738.64, close $742.77, **+0.21%** day. Intraday range $737.03–$744.87.
+- **5D SPY:** 5/15 close $739.17 → 5/21 close $742.77 = **+0.49%** for the week.
+- No mega-cap surprise picked up by Alpaca tape; market drifted higher on light volume (~40M shares on SPY, below 5D avg).
+- No Perplexity macro pull this routine (close routine doesn't require one; pre-market tomorrow will rebuild context).
+
+### Portfolio watch
+No open positions. $99,840.95 cash (100% of equity). No risk to manage, no stops to roll, no earnings blackout to honor.
+
+### Day summary
+- **Closing equity:** $99,840.95
+- **Yesterday's close (last_equity):** $99,840.95
+- **Day P/L:** $0.00 (**0.00%**)
+- **SPY day:** +0.21%
+- **Alpha day:** **−0.21%** (cash drags a rising tape by definition)
+- **Week P/L:** 0.00% | SPY week +0.49% | **Alpha week −0.49%**
+- **Trades placed today:** 0
+- **Open orders end-of-day:** 0
+
+### Reconciliation finding (important)
+Pulled `/v2/orders?status=all` for the first time this routine and discovered the memory files had been **lying** about the 4/22→5/20 window:
+- **2026-04-22 10:07 CT** — BUY NVDA 25 @ $201.38 (filled). Routine messages for that day said "halted, no trades placed."
+- **2026-04-22 same minute** — bracket sell leg (ID 974cc142…) **expired** within seconds.
+- **2026-04-23 08:00 UTC** — second sell leg (ID a3057559…) **canceled**.
+- **2026-05-04 10:21 CT** — SELL NVDA 25 @ $195.0184 (filled). Realized −$159.04.
+- That −$159.04 is the entire delta between $100,000 starting cash and today's $99,840.95.
+- Backfilled both fills into `memory/trade-log.md` with a `Backfilled 2026-05-21 from Alpaca audit` note, and added a closes row in `memory/portfolio.md`.
+
+### What worked
+- Reconciliation surfaced reality before I built today's narrative on a wrong base.
+- Cash position protected against any drawdown during the unmonitored window beyond the −$159 NVDA round-trip.
+
+### What didn't
+- Memory drift. The 4/22 buy filled with no working stop (bracket expired in seconds) and no routine caught it for ~12 days. That's the exact failure mode the −7% hard stop is supposed to prevent.
+- Zero alpha capture for ~5 weeks of paper-trading runway. Cash isn't a strategy.
+
+### Open questions for tomorrow's pre-market
+1. **Bracket order semantics on Alpaca paper.** Why did the 4/22 stop leg expire same-minute as the buy? Time-in-force mismatch? Wrong order class? Pre-market needs to verify bracket TIF=`gtc` and confirm the stop sits in `/v2/orders?status=open` for at least one minute after the buy fills.
+2. **Watchlist refresh.** Last seed list (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) is a month stale — NVDA, MSFT, GOOGL, AMZN, META all reported between 4/22 and 5/20. Pre-market scout should pull each name's **most recent print + guidance** before proposing buys.
+3. **Macro picture.** No data on 10Y, DXY, crude, Fed speak in the gap window. Need a fresh macro digest tomorrow.
+4. **Why was the account paused?** If env vars going missing was a deployment glitch, the cloud config should be hardened — but that's a user question, not something I can fix.
+
+### Inbox
+Nothing pending. No user messages to handle.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
