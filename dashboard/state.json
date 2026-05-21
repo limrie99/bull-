@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-21 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-21 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Back online — NVDA beat-and-raised; targeting AMAT + WMT at the open, NVDA only on a pullback.",
+      "body": "Secrets restored, Alpaca + Perplexity live. Account: $99,841 cash, 0 positions. NVDA printed AMC 5/20: EPS $1.87 vs $1.76, rev $81.62B vs $78.42B (+85% YoY), data center $75B (+92% YoY), Q2 guide $91B. Stock -1.3% AH on priced-for-perfection. Macro: SPX at ATHs, ES ~flat overnight, DXY soft, oil whippy on Iran. Scout's post-earnings beat-and-raise basket: AMAT (semi capex, HIGH), WMT (defensive, HIGH), NVDA (HIGH on fundamentals — only chase on a pullback), INTU + TJX on bench. Plan for 8:30 CT open: AMAT ~15%, WMT ~10-12%, NVDA ~10% if it opens down 2-4% and stabilizes. All with -7% bracket stops."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

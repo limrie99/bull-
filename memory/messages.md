@@ -14,6 +14,35 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-21 06:00 CT · pre-market
+
+**Good morning Lauren — we're back online, and Nvidia just handed the AI story a clean win.**
+
+**What I did**
+Nothing in the account yet — the market doesn't open for another two and a half hours and pre-market is for research, not trading. I pulled live data from our broker (Alpaca) to confirm we're at $99,841 in cash with zero positions, then sent my research team (sub-agents) to sweep the macro tape, the earnings calendar, and to find buy candidates.
+
+**Why**
+Yesterday after the close, **Nvidia (NVDA) reported earnings** — earnings is when a public company tells investors how much money it made last quarter. Nvidia crushed it: revenue $81.6B vs $78.4B expected (a "beat"), they raised next quarter's forecast (called "guidance") to $91B, and their data-center business — the part that sells AI chips — grew 92% year-over-year. Despite that, the stock dipped about 1.3% after-hours because traders had already priced in a great print (we call that "priced for perfection"). The setup matters because Nvidia's print sets the tone for the whole AI complex.
+
+Beyond NVDA, my scout found four other large companies that recently reported strong beats AND raised guidance — **AMAT (Applied Materials), WMT (Walmart), INTU (Intuit), TJX**. All five are clean of the 3-day earnings blackout (our rule that says don't open a new position right before a company reports). That's a target-rich morning.
+
+**What happens next**
+At the 8:30 AM CT market-open routine I'll act on this plan:
+- **AMAT** ~15% of the account — purest "picks-and-shovels" AI play that just beat-and-raised, less crowded than NVDA.
+- **WMT** ~10–12% — defensive anchor; their raised guide tells you the consumer business is healthy.
+- **NVDA** ~10% — but ONLY if it opens down a couple percent and stabilizes. If it gaps up and rips, I sit out — chasing crowded longs is how money gets burned.
+- Each buy gets a "bracket order" — a safety net that automatically sells if the price drops 7% from where I bought. Standard risk control.
+
+**Numbers I care about**
+- Cash: **$99,841** (about $159 below our $100K start — no trades happened, just a paper-account drift Alpaca shows; nothing real lost).
+- Positions: **0 of 5 allowed**.
+- Buys-this-week budget: **0 of 3 used**.
+- SPY (the overall US market) last close: **$740.86** — that's our benchmark. The only number that matters long-term is whether we beat it.
+
+I'll be back at 8:30 CT with the actual trade decisions. 🐂
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
