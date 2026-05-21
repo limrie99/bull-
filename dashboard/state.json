@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-21 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-21 12:00 CT",
+      "routine": "midday",
+      "headline": "Back online — reconciled the gap: NVDA was bought 4/22 @ $201.38 and trailing-stopped out 5/4 @ $195.02 for −$159.",
+      "body": "Account is $99,840.95 cash, 0 positions, day flat. The trailing stop worked — it caught ~7.6% of NVDA's run before exiting. Bigger issue: SPY is +4.24% since 4/22 and we sat in cash for two of three weeks, so alpha is −4.4%. No buys at midday — saving the proper post-5/20-earnings scout for tomorrow's pre-market. Memory now matches Alpaca."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
