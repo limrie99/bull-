@@ -27,6 +27,68 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-21 06:00 CT — pre-market
+
+**Timing:** First live routine since the 4/22 halts — secrets are back. Alpaca 200, Perplexity 200. Account: $99,840.95 cash, 0 positions. SPY last close $740.86 (data via Alpaca trades/latest). Four sub-agents fanned out: macro, earnings, NVDA-print verify, opportunity scout. Inbox empty.
+
+### Market context
+Tape: **mixed / cautiously risk-on into a tired all-time-high tape.**
+- **ES (Jun'26):** ~7,379, ~flat overnight (live overnight tick unconfirmed beyond CME quote).
+- **NQ:** n/a — couldn't confirm a fresh level.
+- **US 10Y:** working zone 4.55–4.60% (cited 4.57% after a 10bps drop on softer oil in a recent session). Overnight tick n/a.
+- **Crude:** WTI cited ~$96.37 (+2.09% on Hormuz tension in a recent session); choppy on Iran headlines. Live overnight n/a.
+- **DXY:** ~99.09, −0.06% overnight — mildly dollar-negative, supportive for risk.
+- **Asia/Europe:** Nikkei, Hang Seng, DAX, FTSE all **n/a** in this pull. Don't assume.
+- **Headlines:** SPX, NDX, DJI, RUT all at fresh ATHs recently; recent SPX close ~7,005 (+0.75%) on strong consumer sentiment + softer labor. Oil whippy on Iran-deal hopes vs Hormuz tension.
+- **Calendar:** No confirmed Fed event, FOMC minutes, or macro print scheduled today per Perplexity (n/a — sanity-check before any binary sizing). Today is **earnings-light** mid-week — the NVDA aftershock is the dominant story.
+- **Net:** constructive but late-cycle tape at ATHs. Tactical sizing, not full-throated. Iran/oil is the live wire.
+
+### Portfolio watch
+No open positions. $99,840.95 cash, $199,681.90 buying power (cash-only / no leverage per strategy). `last_equity = $99,840.95` so no day P/L action. Account drifted ~$159 below the $100K start during the silent month — likely a paper-account default reset or rounding from Alpaca; not a trade-driven move (trade log is empty).
+
+### The NVDA print — 2026-05-20 AMC (verified Perplexity, MarketBeat-cited)
+- **EPS:** $1.87 vs $1.76 consensus (+$0.11 beat).
+- **Revenue:** $81.62B vs $78.42B consensus (+$3.2B beat). **+85.2% YoY.**
+- **Data center:** $75B, **+92% YoY** — the centerpiece.
+- **Q2 FY27 guide:** $91B ± 2% — well above the implied Street ($85B-ish region). Clean **beat-and-raise.**
+- **CEO commentary:** reiterated **$1T Blackwell+Rubin** revenue across 2025–2027. No China commentary surfaced in this pull.
+- **After-hours:** $223.47 → $220.66, **−1.3% AH.** Classic "priced for perfection" — stock had run hard into the print and got a small sell-the-news.
+- **Read:** Fundamentals printed everything we wanted. The AH dip is reaction, not thesis-break. Today's first-hour reaction is the actual signal for whether NVDA is buyable or whether the tape needs to digest first.
+
+### Buy candidates — post-earnings beat-and-raise basket
+All five just reported, so all are clear of the 3-trading-day earnings blackout. All hit ≥3 buy signals. Prices unconfirmed in the scout pull — Bull must pull live quotes from Alpaca before sizing tomorrow.
+
+- **AMAT — Applied Materials** (semi equipment, ~$170B mcap). Signals: (1) Q2 beat + raised outlook (May 14–16); (3) AI-infra picks-and-shovels secular tailwind; (4) PT hikes post-print. Next earnings ~mid-Aug. **Conviction: HIGH.** Thesis: cleanest pure-play "AI capex" beat-and-raise of last week — sells the picks AND the shovels, less single-customer concentration than NVDA.
+- **WMT — Walmart** (consumer staples, ~$700B mcap). Signals: (1) Q1 beat + raised FY guide 5/15; (4) MS PT raise post-print; (6) trades near highs. Next earnings ~mid-Aug. **Conviction: HIGH.** Defensive ballast — grocery + e-comm grind. Lowest vol on the list.
+- **NVDA — NVIDIA** (~$4T mcap). Signals: (1) blowout beat-and-raise 5/20 AMC; (3) AI infra; (6) uptrend persists. Next earnings ~Aug. **Conviction: HIGH on fundamentals, MED on timing.** AH was −1.3% — let the first 30–60 min of cash session set the open price before chasing. If it gaps down 2–4% and stabilizes, that's a clean pullback entry. If it gaps up and ramps, we likely chase a crowded trade.
+- **INTU — Intuit** (~$180B mcap). Signals: (1) earnings beat + raised outlook last week; (3) AI in TurboTax/Credit Karma; (4) upgrades. Next earnings ~Aug. **Conviction: MED-HIGH.** Post-tax-season strength + AI monetization story.
+- **TJX — TJX Companies** (~$140B mcap). Signals: (1) Q1 beat + raised outlook; (4) PT raises; (5) sector rotation into off-price as consumer trades down. Next earnings ~mid-Aug. **Conviction: MED-HIGH.** Lowest drawdown risk in consumer.
+
+**Names dropped:**
+- **PANW, SNOW, ZS, CRWD** — late-May/early-June earnings windows likely; 3-day blackout risk until confirmed past.
+- **PLTR, GOOGL, MSFT, META** — no fresh catalyst in 5/14–5/21 window; would be momentum-only.
+- **LLY** — June ADA conference is a real catalyst but no fresh beat/upgrade in window.
+- **TGT, DE** — missed/cut guide; avoid.
+- **GEV / VRT / ETN** — AI-power tailwind real but no verified 5/14–5/21 print/upgrade in this pull.
+
+### Plan for today's open (no trades this routine — execution decision is the 8:30 CT market-open routine)
+- **Lead with AMAT.** Highest signal-density, lowest single-name crowding, AI-capex tailwind without the NVDA-style "priced-for-perfection" risk. Target ~15% (~$15K, ~75–100 shares depending on cash-open price).
+- **Add WMT** as a defensive ballast. ~10–12% (~$10K). Steadier, raised guide is the tell.
+- **Watch NVDA's open before committing.** If it opens down 2–4% and finds a base in the first 30–45 min, take a ~10% tranche (~$10K) — that's a clean post-print pullback. If it gaps up and ramps, **pass** — better setups exist than chasing.
+- **INTU and TJX:** carry as bench. Open only if cash remains and the first three positions behave on day 1. Strategy caps at 3 new buys/week — we'd use all three this week if all three trigger.
+- **All entries:** bracket order, **−7% hard stop** at entry, no take-profit (trailing stop activates at +5% per strategy).
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps
+1. Earnings sub-agent couldn't pull a usable today-5/21 calendar — Perplexity only returned generic calendar landing pages. If a large-cap surprises BMO today, we'll see it in pre-market movers. Re-confirm at the 8:30 CT market-open routine via Alpaca's pre-market quote / news.
+2. Asia/Europe and live overnight oil/yields all came back n/a — pull them again at 8:00 CT before the open.
+3. CRWD / PANW / SNOW exact next-earnings dates were not retrievable — if they end up on a future watchlist, check their IR pages first.
+4. Account `equity = last_equity = $99,840.95` (not the $100K we started with). Difference is small (~$159) and there are zero trades in the log — not a real loss to explain to the user, mention as a curiosity.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
