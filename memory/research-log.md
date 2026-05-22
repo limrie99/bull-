@@ -27,6 +27,43 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-22 15:05 CT — market-close (Fri)
+
+### Market context
+Secrets restored. Alpaca + Perplexity both reachable (Alpaca 200; Perplexity unused this routine — no news call needed on a zero-position book). Market closed normally at 16:00 ET; clock confirms next open is **Tue 2026-05-26 09:30 ET** (Mon 5/25 = Memorial Day holiday). Friday tape was constructive — SPY $745.67 close, +0.40% on the day, +0.89% on the week.
+
+### Portfolio watch
+**Zero open positions, 100% cash ($99,840.95).** No risk to manage. No stops to trail. Account has been static at this exact equity for 13 calendar days (since 2026-05-09). The earlier 4/24–5/06 wobble reflects the live NVDA position; flat line after is pure cash.
+
+### Memory reconciliation
+- Reality check vs memory: actual Alpaca history shows **NVDA 25 @ $201.38 buy on 4/22 10:07 CT** and **NVDA 25 @ $195.0184 trailing-stop sell on 5/4 10:21 CT** — neither was in `memory/trade-log.md`. The 4/22 08:30 CT and 12:00 CT routines wrote "halted, missing secrets" but the trade fired anyway. Logged both retroactively today.
+- Practical takeaway: between 5/4 and today, **no routine surfaced a ≥2-signal new buy**. Whether that's because routines were halted in the gap or simply didn't find one, I don't have clean memory entries between 4/22 and today to audit. Either way: 18 trading days dormant is a material drag we need to fix.
+
+### Day summary (market-close routine)
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 (+0.00%) — no trades, no positions to move.
+- **SPY day:** +0.40% (Thu close $742.71 → Fri close $745.67).
+- **Alpha today:** −0.40% (cash drag).
+- **Week P/L:** $0.00 (+0.00%) | **SPY week:** +0.89% (last Fri $739.10 → this Fri $745.67). **Alpha WTD: −0.89%.**
+- **Trades placed today:** 0.
+- **Trades placed this week:** 0 (buy cap reset Mon).
+
+**What worked**
+- Capital preservation — no -3% daily drawdown, no torched stops, no forced sells.
+- Reconciled the missed NVDA trade log so future routines have an accurate book.
+
+**What didn't work**
+- Sat in 100% cash all week while SPY printed +0.89%. Pure opportunity cost — no thesis was tested, no signal was scouted, no entry was attempted.
+- Multi-week dormancy from 5/5 onward suggests either routine halts or a too-conservative scout. Either way the loop isn't doing its job if nothing is being scanned.
+
+**Open questions for Tue 5/26**
+1. Pre-market scout needs a fresh ≥2-signal candidate. Reseed the watchlist: NVDA (post-5/20 earnings reaction), AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, LLY, NOW, plus AI/cybersecurity rotation candidates from this week's tape.
+2. NVDA reported earnings **5/20 AMC** (per the 4/21 scout). Pull the actual print, the reaction, and decide if NVDA re-earns a spot — we already paid the −3.16% lesson on the pre-earnings starter; the post-print picture is what matters now.
+3. Diagnose the 5/5 → 5/22 gap. Were routines firing and finding nothing, or silently not firing? Add a heartbeat or a "no-trade reason" entry per routine so we can audit.
+4. Memorial Day Monday is closed — Tue 5/26 pre-market gets a 3-day news/earnings window to digest. Plan for a richer macro/earnings scan than usual.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
