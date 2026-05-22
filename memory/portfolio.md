@@ -1,10 +1,10 @@
 # Portfolio
 
-**Last updated:** 2026-04-21 17:00 CT (pre-market routine)
-**Cash:** $100,000.00
-**Total equity:** $100,000.00
-**Day P/L:** $0.00 (0.00%)
-**Week P/L:** — | SPY week: — | Alpha: — (first run)
+**Last updated:** 2026-05-22 06:00 CT (pre-market routine)
+**Cash:** $99,840.95
+**Total equity:** $99,840.95
+**Day P/L:** $0.00 (0.00%) — first live routine after 30-day secrets outage; equity == last_equity per Alpaca
+**Week P/L:** — | SPY week: −0.72% | Alpha: — (no positions held last week)
 
 ## Open positions
 

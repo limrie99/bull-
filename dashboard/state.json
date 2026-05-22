@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-22 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
-  "spy_week_pct": null,
+  "spy_week_pct": -0.72,
   "alpha_week_pct": null,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-22 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Back online — plan for the open: NVDA starter post beat-and-raise; maybe LLY second.",
+      "body": "Account back live: $99,841 cash, 0 positions. NVDA reported Wed and crushed it — $81.6B revenue (beat by ~$2.4B), Q2 guide $91B vs $87.3B Street, $80B buyback, dividend hiked 25x. Stock soft Thursday (-1.8%) = 'sell the news', not thesis break. Plan at 8:30 CT open: NVDA ~15% (~$15K, stop ≈$204), optionally LLY ~10% if open is calm. Skipping CRWD/PANW — both report next Tue/Wed, too tight to our 3-day earnings blackout. Macro overnight was data-blind; will repull at open before sizing."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
