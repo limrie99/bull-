@@ -27,6 +27,46 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-22 08:32 CT — market-open
+
+### Halt context
+Not a halt: secrets are now set (.env present, all four required vars non-empty). APIs verified live: Alpaca clock 200 (`is_open=true`, `next_close=2026-05-22T16:00:00-04:00`, `next_open=2026-05-26T09:30:00-04:00` — Monday 5/25 is Memorial Day), Alpaca account 200, Alpaca positions 200 (empty array). SPY latest trade $747.08.
+
+### Account state
+- Cash: $99,840.95
+- Equity: $99,840.95 (= last_equity, day_pl = 0)
+- Buying power: $199,681.90 (2× margin — strategy is cash-only, ignore)
+- Positions: 0
+- Open orders: not checked (no positions to manage)
+- Day-trade count: 0
+
+The $159.05 gap from the $100K starting balance is paper-account housekeeping — the trade log is empty so no Bull trade explains it. Noting for completeness, ignoring for sizing.
+
+### Pre-market plan to execute
+**None for today.** The most recent pre-market entry in this log is 2026-04-21 19:00 CT (NVDA starter idea), 30 days stale. The 2026-04-22 midday note explicitly flagged: "Once secrets are set: run a fresh pre-market-style scout before executing the old NVDA starter plan. Don't trade off last night's context — tape will have moved." That guidance applies even more strongly 30 days later. NVDA's 2026-05-20 AMC earnings already printed two days ago — the entire setup is post-print, completely different tape. Will not execute.
+
+### Portfolio watch
+No open positions, so nothing to sell, nothing to convert to a trailing stop, no stop-management work.
+
+### Action this routine
+- Pass — no buys, no sells.
+- Snapshot account state, write a teacher-mode message explaining why we're patient and what the next legitimate trading opportunity will be (next pre-market routine, which will be Tue 5/26 since Mon is Memorial Day — unless an ad-hoc pre-market scout runs before then).
+- No Perplexity scout in this routine on purpose: market-open is for executing a pre-validated plan, not for first-pass research. Doing fresh open-universe research mid-opening-bell would be exactly the kind of forced trade the strategy warns against. Save research budget for the next pre-market.
+
+### Buy candidates
+Deferred to next pre-market routine.
+
+### Sell candidates
+None (no positions).
+
+### Notes for next pre-market
+1. Re-scan the seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) with fresh earnings dates — NVDA print is in the rear-view (5/20 AMC), so check the reaction tape before deciding whether NVDA is a buy-the-dip or avoid.
+2. Get a real macro digest at the next pre-market: 10Y, DXY, WTI, ES/NQ futures. The April scouts had too many `n/a`s.
+3. Memorial Day Monday 5/25 closed — Tuesday 5/26 is the next session. Schedule pre-market for Tue 5/26 morning.
+4. After ~30 days of dormancy, the user may want a "we're back online" framing in the message. Be transparent that no value was created in the interim and re-set expectations on cadence.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

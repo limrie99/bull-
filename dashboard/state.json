@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-22 08:32 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-22 08:32 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — we're back online but I'm not forcing one on day one.",
+      "body": "Reconnected to Alpaca, confirmed market open, account intact at $99,840.95 cash / 0 positions. The only plan in research notes is a 30-day-old NVDA starter idea that's now stale (NVDA already reported 5/20). Strategy says don't trade off stale context. Waiting for a fresh pre-market scan — next one Tuesday 5/26 (Memorial Day Monday closed). SPY opened ~$747."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
