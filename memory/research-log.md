@@ -27,6 +27,57 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-22 12:00 CT — midday
+
+### Routine state on wake
+- Secrets all present this time (env vars set). No halt.
+- **Memory was severely stale.** Last entries in messages.md / research-log.md / portfolio.md were dated 2026-04-22 — a full month ago. trade-log.md was empty. Inbox: nothing in Pending.
+- Reconciled the gap by reading Alpaca order history. The actual story since 4/22:
+  - 2026-04-22 10:07 CT — bought NVDA 25 @ $201.38 (OTO with a day-only stop @ $187.12).
+  - 2026-04-22 16:00 CT — that DAY-TIF stop expired at close (bug in the order setup; should have been GTC).
+  - 2026-04-23 03:00 CT — GTC replacement stop placed @ $187.28.
+  - 2026-04-27 12:16 CT — cancel + 10% trailing stop placed (NVDA had crossed +5%, per strategy rule).
+  - 2026-05-04 10:21 CT — trailing stop triggered, sold NVDA 25 @ $195.0184. HWM was $216.73 → trail price $195.057 → filled $195.0184. Round-trip P&L: **-$159.04 (-3.16%)**.
+  - From 2026-05-04 to today (2026-05-22) — **all cash, 0 positions, 0 orders.** 12 trading days of total dormancy.
+
+### Account snapshot (Alpaca, 12:00 CT)
+- Cash: **$99,840.95** | Equity: **$99,840.95** | Long mkt value: $0 | Positions: 0 | Open orders: 0
+- Day P/L: $0 (we're all cash, nothing to move with the tape). `last_equity` = `equity` per Alpaca, balance_asof 5/21.
+- Market: open. Next close 16:00 ET (15:00 CT) today. Next open Mon 5/26 09:30 ET (Memorial Day weekend after today's close — note the long weekend; any new position would carry 3-day gap risk).
+
+### Benchmark / alpha (the number that matters)
+- SPY 4/21 close: $703.91 → current $747.65 = **+6.21%** since the Bull base date.
+- Bull equity 4/21 → now: $100,000 → $99,840.95 = **-0.16%**.
+- **Alpha since base: -6.37 points.** We've underperformed SPY by a wide margin because we took one trip on NVDA, took a -3% trailing-stop hit, and then sat in cash through a +4% SPY rally.
+- This week (5/15 → 5/22): SPY +1.16%. Bull 0.00%. Alpha -1.16%.
+
+### Risk management this routine
+- (a) Positions ≤ -7%: none, no positions.
+- (b) Positions ≥ +5%: none, no positions.
+- (c) Daily-loss-cap: portfolio is flat (no positions to lose). Not triggered.
+- Nothing to do in the risk-management pass.
+
+### Midday new-buys check
+- Per routine prompt, no new buys at midday unless **high-conviction breaking catalyst**. Three reasons to pass even though we have 0/5 position slots used and 0/3 weekly buys used:
+  1. **No breaking catalyst.** Tape is quietly grinding higher into a 3-day weekend (Memorial Day Monday). Quiet, not actionable.
+  2. **Stale watchlist.** Last scout was 4/22, before NVDA earnings (5/20) printed. Whatever I thought I knew about NVDA is now 4 weeks old; everything else in the watchlist needs re-scoring against post-earnings reality.
+  3. **3-day weekend gap risk.** Opening a position at 12:00 CT Friday means it carries through Memorial Day Monday's headlines with no ability to react. That's not a "high-conviction breaking catalyst" trade-off.
+- **Decision: no buys this routine.** Plan: full pre-market scout at next routine to rebuild a fresh watchlist (NVDA post-print, AVGO, PLTR which prints early May per old notes, MSFT/GOOGL post-print, plus 1-2 new names).
+
+### Pattern note / lesson
+- The 4/22 NVDA trade ate -$159 (the stop tagged us, mid-volatility), and then we *sat out* the recovery. The trailing-stop did its job mechanically (it cut the loss at 10% from HWM, exactly to plan) — the problem isn't the rule, it's that we didn't redeploy.
+- Strategy.md says target 3-4 names. We're at 0. The cost of inaction is showing up in the alpha gap.
+- **Concrete improvement for next pre-market:** rebuild the watchlist, pull post-earnings reactions for the seed names (NVDA, AVGO, PLTR, MSFT, GOOGL, CRWD, PANW), and be willing to open 1-2 starter positions Monday at open if signals align. Don't force it, but don't keep deferring either.
+
+### Notes for next routine
+1. NVDA reported 5/20 AMC — pull the print, the guidance, the after-hours reaction.
+2. PLTR was supposed to print ~5/4 per old notes — verify and pull the result.
+3. MSFT/GOOGL late-April prints — they should be safe to evaluate now (well past the 3-day blackout).
+4. Macro: 10Y, DXY, oil — re-baseline before Monday open.
+5. Re-confirm Alpaca order TIF defaults — the 4/22 NVDA stop was placed as DAY when it should have been GTC; the OTO setup needs a closer look in scripts/alpaca.md.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
