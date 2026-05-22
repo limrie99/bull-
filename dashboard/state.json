@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-22 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.79,
+  "alpha_week_pct": -0.79,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-22 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-05-22: 0.00% | SPY +0.79% | alpha -0.79% | grade D",
+      "body": "Flat all week in 100% cash while SPY drifted +0.79%, so we underperformed by 0.79% (negative alpha). No new buys — the pre-market scouts haven't produced a thesis I trust enough to act on. Also: backfilled the one lifetime trade (NVDA 4/22 buy at $201.38, 5/04 trailing-stop sell at $195.02, -$159 / -3.16%) into the local log since broker truth and memory had drifted. No strategy changes — one quiet week isn't a pattern. If we go a second consecutive cash-only week, I'll treat the scout pipeline as the problem."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -27,6 +27,54 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-22 16:00 CT — weekly-review (week ending 2026-05-22)
+
+### Account snapshot (from Alpaca /v2/account)
+- Equity: $99,840.95
+- Cash: $99,840.95 (100% cash)
+- Last equity (yesterday close): $99,840.95
+- Positions: 0
+- Account age: 31 calendar days since inception (2026-04-21)
+
+### Portfolio history this week (/v2/account/portfolio/history?period=1W&timeframe=1D)
+- Equity flat at $99,840.95 every session (Tue 5/19 → Fri 5/22). Mon 5/18 not in the 1W window but monthly history confirms 99840.95 since 5/05.
+- Week P/L: $0.00 (0.00%)
+
+### SPY benchmark this week (data.alpaca.markets bars)
+- Mon 5/18 open: $739.83 → Fri 5/22 close: $745.67
+- SPY week return: +0.79%
+- Intraweek path: 5/15c 739.10, 5/18c 738.40, 5/19c 733.80 (dip), 5/20c 741.31, 5/21c 742.71, 5/22c 745.67
+- **Alpha: 0.00% − 0.79% = -0.79%**
+
+### Trades placed this week
+- None. Zero buys, zero sells. No stop adjustments (no positions to adjust).
+
+### Lifetime trades (broker truth — reconstructed from Alpaca order history, NOT from prior memory which had drifted)
+1. **2026-04-22 10:07 CT** — BUY 25 NVDA @ $201.38 (market, OTO, day stop $187.12). Cost $5,034.50.
+2. **2026-04-23 03:00 CT** — Hard stop reset to GTC $187.28 (-7%).
+3. **2026-04-27 12:16 CT** — Canceled hard stop, placed 10% GTC trailing stop. (Per strategy: trail activates at +5%.)
+4. **2026-05-04 10:21 CT** — Trailing stop FILLED. SELL 25 NVDA @ $195.0184. HWM was $216.73 (+7.62% above entry). Realized P/L -$159.04 (-3.16%).
+
+### Pattern recognition vs. prior weekly reviews
+- This is the first formal weekly review on file. No prior weekly entries to compare against. **Watch-flag for next week:** if scouts continue to produce no tradeable thesis and we sit in cash a second consecutive week while SPY drifts up, treat that as the start of a pattern and dig into *why* (routine-firing? Perplexity coverage? signal threshold too tight?).
+
+### What worked
+- 10% trailing stop fired exactly as designed on the one closed trade — gave NVDA room to run to +7.6% before tracking it down. v1's carried-forward learning held up.
+- Capital preservation: no losses taken this week.
+
+### What didn't
+- 100% cash for the entire week while SPY ran +0.79%. Strategy allows 3 buys / 5 open positions; we used 0/3 and 0/5.
+- Bookkeeping drift: between 4/22 (last logged routine) and today, four real broker events (the buy, the GTC stop reset, the trailing-stop swap, and the stop trigger) occurred without any local routine log. This is a process failure — broker truth was the only source for this review.
+
+### Strategy adjustments proposed
+- None. One closed trade is not a signal. The 10% trail behaved per spec. The cash-drag is a process / scout-output problem, not a rules problem.
+
+### Notes for next week's routines
+- Reconcile `portfolio.md` and `trade-log.md` against `/v2/account` and `/v2/orders` at the START of every routine. The fill-the-gap mode used today shouldn't be necessary again.
+- If the pre-market scout returns n/a on critical fields for the proposed seed watchlist (per 4/21 notes — NVDA/AVGO/GOOGL/MSFT/PLTR/CRWD/PANW), raise `search_context_size` and batch tickers, rather than skipping the trade entirely.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
