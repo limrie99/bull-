@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-22 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.89,
+  "alpha_week_pct": -0.89,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-22 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day +0.00% · SPY +0.40% · alpha -0.40%",
+      "body": "Quiet Friday close — no trades, no positions all week, so we held flat at $99,841 while SPY rose +0.40% today / +0.89% on the week (alpha -0.89% WTD). Reconciled an old NVDA round-trip that was missing from the trade log: bought 25 @ $201.38 on 4/22, trailing stop fired 5/4 at $195.02 for -$159 (-3.16%) — fully explains the $100K → $99,841 gap. Account has been 100% cash since 5/4 (18 trading days dormant) — too long. Markets closed Mon for Memorial Day. Tue 5/26 pre-market: fresh scout, with NVDA post-5/20-earnings the first stop on the list."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
