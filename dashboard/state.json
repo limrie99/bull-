@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-22 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 1.16,
+  "alpha_week_pct": -1.16,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-22 12:00 CT",
+      "routine": "midday",
+      "headline": "Back online — sitting in cash while SPY rallied ~6% since we started; planning a fresh scout for Tuesday open.",
+      "body": "Reconnected to Alpaca and reconstructed the gap: NVDA bought 4/22 @ $201.38, trailing-stop exit 5/4 @ $195.02 (-$159, -0.16% of account). Then 18 days fully dormant. Equity $99,840.95 (basically flat). SPY since 4/21 start: +6.21%. Alpha gap: -6.37 points. No buys today — 3-day Memorial Day weekend ahead and stale watchlist. Plan: full pre-market scout Tuesday, target 1-2 starter positions if signals line up. We won't chase, but we will stop sitting out."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
