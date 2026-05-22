@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-22 06:00 CT · pre-market
+
+**Good morning Lauren — back online. I've got a clean plan for the open: NVDA, post-earnings.**
+
+**What I did**
+Routine research only — no trades yet, market opens at 8:30 AM your time. I read your inbox (no messages), pulled live prices from Alpaca, and ran three research sub-agents in parallel (a macro analyst, an earnings analyst, and an opportunity scout). Our account is back online and healthy: **$99,841 cash, 0 positions, full dry powder.** Equity is $159 shy of the $100,000 we started with — a tiny paper-account quirk I'll keep an eye on.
+
+**Why**
+This week's main event was Nvidia's earnings on Wednesday — and it was a clean **beat-and-raise** (the company beat what Wall Street expected for last quarter AND raised its forecast for next quarter, which is the strongest combo a stock can deliver). They guided next quarter to $91B in revenue versus the $87B analysts were looking for, and announced an **$80 billion stock buyback** (when a company uses its own cash to buy its shares back — usually a sign management thinks the stock is cheap). Despite this, the stock actually **fell 1.8% Thursday** — that's a "sell the news" reaction, when traders take profits even on good news. **That's exactly the kind of setup we like** — strong fundamentals, soft tape, meaning we're not chasing a hot stock at the top. NVDA hits two of our six buy signals (recent earnings beat + secular AI tailwind), the minimum to act.
+
+**What happens next**
+At the open, I'll place a starter position in **NVDA — about 15% of the account (~$15,000)** with a hard stop-loss at −7% (≈ $204), our safety net. If the open is calm, I may add a second position in **LLY (Eli Lilly)** for our GLP-1 / weight-loss-drug exposure — they're at fresh highs. I'm staying away from CrowdStrike and Palo Alto this week — both are red-hot but report earnings next Tuesday/Wednesday, and our rules say no new buys this close to a print. I'd rather buy them *after* we see the numbers than gamble on them.
+
+**Numbers I care about**
+- $99,841 cash (basically all of it — we haven't deployed anything yet)
+- SPY (the S&P 500, our benchmark) is at $742.71 — up about 4.4% since we went dark a month ago. We have ground to make up.
+- Macro data overnight was thin (futures, yields all showed `n/a` from our research provider) — I'll re-pull at the open before I commit any cash.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

@@ -27,6 +27,73 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-22 06:00 CT — pre-market (for Fri 5/22 open)
+
+**Account (Alpaca, live):** $99,840.95 cash, $99,840.95 equity, **0 positions**, day P/L = $0 (equity == last_equity). Account is effectively flat after the long secrets-outage gap — first live routine in 30 days. Clock confirms next_open 2026-05-22 09:30 ET (~2.5h away). Sub-agents: macro, earnings, opportunity scout — all 3 fired in parallel. Macro returned `n/a` heavy (Perplexity data-thin on overnight tape); earnings returned `n/a` heavy on Friday calendar (Friday post-NVDA week is structurally light); scout returned a defensible NVDA-led thesis. Two targeted Perplexity calls verified critical earnings dates. Live Alpaca bars gave us the price/momentum picture the macro leg could not.
+
+### Market context
+
+- **SPY 30-day:** **$711.20 (4/22) → $742.71 (5/21)** = **+4.43%** over the missed window. Last week (5/14 → 5/21): **−0.72%**. Tape was healthy through the outage; mild pullback last week into NVDA print, then stabilized.
+- **QQQ last week:** −0.74%, mirroring SPY.
+- **Semis under digestion:** **NVDA −6.92%** week-over-week (gap-down 5/14→5/15 −4.4%, then sideways into the print). **AVGO −5.69%** in sympathy. Despite NVDA's beat-and-raise (see below), 5/21 closed −1.79% — classic "sell the news."
+- **Cybersecurity ripping:** **CRWD +11.78%** week (fresh local highs at $648.16). **PANW +6.15%** ($252.88).
+- **GLP-1 strength:** **LLY +3.38%** to $1,041.84 (fresh local highs).
+- **Big tech mixed:** MSFT +2.34% (quiet resilience), GOOGL −3.39%, META −1.81%, AMZN +0.48%.
+- **Macro overnight data (futures ES/NQ/YM/RTY, 10Y yield, DXY, WTI, gold, Nikkei, Hang Seng, DAX, Fed speakers):** **`n/a`** — Perplexity returned nothing time-stamped for 5/22 overnight. **Research gap.** Market-open routine should pull a fresh macro snapshot before sizing.
+- **Net read:** with macro data missing, leaning on price action: SPY made a higher local high last week before pulling in modestly. Semis in a "digest the NVDA print" phase. Cyber and GLP-1 are the active rotations. No regime change signal in the price tape.
+
+### NVDA Q1 FY27 print (Wed 5/20 AMC) — the anchor event
+
+Verified by scout via Perplexity:
+- **Revenue $81.6B** vs ~$79.2B consensus (~$2.4B beat)
+- **EPS $1.87** vs ~$1.77 consensus (~$0.10 beat)
+- **Data Center $75.2B** in a single quarter
+- **Q2 guide $91B vs Street $87.3B** — **~$3.7B above** the bar, with zero China DC contribution baked in
+- **Capital return:** **$80B buyback** + dividend hiked 25x to $0.25
+- **Tape reaction:** muted "priced for perfection" — Thu 5/21 −1.79% to $219.47, week −6.92%
+
+The structural AI-infra thesis is **stronger** post-print, not weaker. Setup type: beat-and-raise + soft tape = textbook non-chase entry for swing players.
+
+### Portfolio watch
+
+No open positions. Nothing to manage. Full $99,840.95 dry powder, no daytrade count, no margin used.
+
+### Buy candidates
+
+| Symbol | Last close | Wk % | Signals matched (verified) | Earnings | Conviction | Suggested size |
+|---|---|---|---|---|---|---|
+| **NVDA** | $219.47 | −6.92% | **(1) beat+raise last wk · (3) AI-infra secular tailwind** — both verified | Just reported, next ~Aug | **HIGH** | 10–15% ($10–15K) starter |
+| **LLY** | $1,041.84 | +3.38% | (3) GLP-1 secular · (6) uptrend / fresh local highs | Likely late-Jul (unverified) | MED | 10% ($10K) |
+| **MU** | $761.74 | −1.83% | (3) HBM/AI-memory tailwind via NVDA's $91B Q2 guide | Late-Jun est (unverified) | LOW–MED | 5% starter only |
+| **ANET** | $148.67 | +0.60% | (3) AI-ethernet build-out | ~Aug (unverified) | LOW | Pass / starter |
+| **MSFT** | $419.00 | +2.34% | (3) AI/Azure secular · (6) modest uptrend | Late-Jul (unverified) | LOW–MED | Pass — no near-term catalyst |
+
+**Earnings blockers (do NOT propose this week):**
+- **PANW — reports 2026-06-02 AMC** (confirmed via PANW IR / PRNewswire). 7 trading days out → outside the 3-day blackout but very tight. Buying today means either riding into the print (against discipline — no specific thesis on the number) or trimming by 5/29. **Skip until post-print.**
+- **CRWD — reports 2026-06-03** (confirmed via MarketChameleon / MarketBeat estimates; not company-confirmed but consistent). Same logic — extended +11.78% on the week into a print 8 trading days out. **Skip until post-print.**
+- **AVGO — likely 2026-06-03** (consistent with prior research-log; scout flagged unverified). **Skip until confirmed clear.**
+
+### Sell candidates
+
+None — no positions.
+
+### Plan for 2026-05-22 market-open routine (8:30 CT / 9:30 ET)
+
+1. **Pull fresh macro** at the open — at minimum SPY snapshot, NVDA pre-market quote, and 10Y / DXY if accessible. If ES/NQ futures are clearly red (>−0.5%), defer the NVDA buy to midday and re-assess.
+2. **Primary buy: NVDA ~$15K (~68 sh at $219.47, target 15% sizing).** Bracket order, hard stop at −7% ≈ **$204.10**. No take-profit (trailing stop replaces hard stop at +5% per strategy).
+3. **Secondary (optional): LLY ~$10K (~10 sh at $1,041.84, ~10% sizing).** Bracket order, hard stop at −7% ≈ **$968.91**. Only if NVDA fills cleanly AND market open is constructive (SPY green or flat in first 15 min).
+4. **Cash reserve:** even if both fill, ~$75K cash remains (~75% reserve). Comfortably above the 10–20% minimum buffer. Leaves room for a third add later in the week if a clean setup appears.
+5. **Buys used this week:** 1–2 of 3 max if both fire.
+
+### Notes / research gaps to close next routine
+
+1. **Macro overnight is data-blind.** Live ES/NQ/10Y/DXY pull at the open is non-optional before sizing.
+2. **Verify LLY's actual next earnings date** (likely late-Jul but unconfirmed) — required before a second buy today.
+3. **Today's BMO/AMC earnings list** unconfirmed by Perplexity; pull a live calendar at the open in case a name on the watchlist is reporting and creates earnings-blackout risk.
+4. **Account equity is $159 below $100K starting capital** — small, presumably from initial paper-account quirk; flag if it persists or grows in next routine.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
