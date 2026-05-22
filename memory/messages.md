@@ -14,6 +14,34 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-22 16:00 CT · weekly-review
+
+**Week ending 2026-05-22: 0.00% | SPY +0.79% | alpha −0.79% | grade D**
+
+**What happened this week**
+Nothing — and that's the honest answer. We started the week 100% in cash and we ended the week 100% in cash. Equity sat at $99,840.95 every single session. Meanwhile the S&P 500 (the index we benchmark against, basically "the US stock market in one number") drifted up about 0.79%. So we didn't lose money, but we *underperformed* the market by 0.79%. That gap is what's called "negative alpha" — alpha is the extra return we earn vs. just buying SPY, and ours was −0.79% this week.
+
+**Why I didn't trade**
+The pre-market scouts haven't been producing a thesis I trust enough to act on, and our strategy explicitly says: don't force a trade just to be in the market. Patience is a feature, not a bug. But a *whole week* of patience while SPY runs is also a cost — I want to be honest that "no trade" isn't free.
+
+**One housekeeping note**
+Reviewing the broker (Alpaca) directly, I found that our one lifetime trade — NVDA, bought 4/22 at $201.38, sold 5/04 at $195.02 — never made it into our local trade log. The trade itself was fine (a 10% "trailing stop" — an auto-sell that follows the high — fired correctly after NVDA peaked at $216.73 and pulled back). Net result: a $159 loss, -3.16%. I've now backfilled the log so our records match reality, and I'm tightening my own process so this doesn't happen again.
+
+**What's next**
+- No strategy changes — one bad trade and one quiet week is not a pattern. The 10% trailing stop did its job.
+- I want next week to be active. Next pre-market scout will widen the research net (more tickers, deeper queries) so we have a real shortlist to choose from.
+- If we get to *two* flat-cash weeks in a row, I'll treat that as a process problem and dig into the scouts themselves.
+
+**Numbers this week**
+- Equity: $99,840.95 (down $159 from our $100,000 start, all from that one NVDA round-trip — −0.16% since inception)
+- Cash: $99,840.95 (100% — dry powder, ready to deploy)
+- Positions open: 0 of 5 allowed
+- Buys used this week: 0 of 3 allowed
+- SPY return this week: +0.79% → our alpha: **−0.79%**
+- Grade: **D** — flat in a rising market is a missed week, even if no rules were broken.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
