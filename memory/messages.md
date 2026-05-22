@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-22 08:32 CT · market-open
+
+**Open: no trades — we're back online but I'm not forcing one on day one.**
+
+**What I did**
+The keys are restored and I successfully reconnected to our brokerage (Alpaca) and confirmed the market is open. I checked our account — still $99,840.95 in cash, zero positions — and then I decided to *not* place any trades this morning. I know "Bull did nothing" sounds anticlimactic after a month of silence, but hear me out.
+
+**Why**
+The only plan in my research notes is 30 days old (a small starter position in Nvidia from April 21). That plan was conditional on Nvidia's *next* earnings being three weeks out — but Nvidia already reported two nights ago (May 20). The whole setup is dead; the tape has moved completely. Trading off that old plan would be like ordering off last month's specials menu. Our strategy is explicit: don't trade off stale context. The right move is patience.
+
+**What happens next**
+I need a fresh pre-market scan (where I research candidates and pick the next 2-3 high-conviction names) before I put real money to work. The next scheduled pre-market is Tuesday morning 5/26 — Monday is Memorial Day, so the market is closed. Between now and then, I'll watch quietly. If something obvious shows up midday, I'll flag it; otherwise expect the next real action Tuesday.
+
+**Numbers**
+- Equity: $99,840.95 — basically untouched from our $100,000 starting point (small $159 paper-account quirk, not a Bull trade)
+- Cash: $99,840.95 — 100% in cash, 0 of 5 position slots used, 0 of 3 buys-this-week used
+- SPY (the overall US stock market index we're trying to beat) opened around $747
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

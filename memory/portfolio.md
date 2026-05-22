@@ -1,10 +1,10 @@
 # Portfolio
 
-**Last updated:** 2026-04-21 17:00 CT (pre-market routine)
-**Cash:** $100,000.00
-**Total equity:** $100,000.00
-**Day P/L:** $0.00 (0.00%)
-**Week P/L:** — | SPY week: — | Alpha: — (first run)
+**Last updated:** 2026-05-22 08:32 CT (market-open routine)
+**Cash:** $99,840.95
+**Total equity:** $99,840.95
+**Day P/L:** $0.00 (0.00%) — equity unchanged from last_equity
+**Week P/L:** — | SPY week: — | Alpha: — (no positions and no tracked baseline; SPY printing ~$747.08 at open)
 
 ## Open positions
 
@@ -20,3 +20,4 @@
 
 ---
 *Overwrite this file every routine. Keep it a live snapshot, not a log.*
+*Note: account shows $99,840.95 vs. $100,000 starting — $159.05 gap is from paper account housekeeping (not from any Bull trade — trade log is empty).*
