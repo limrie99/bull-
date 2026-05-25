@@ -27,6 +27,63 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-25 12:00 CT — midday (Memorial Day — US market closed)
+
+### Halt context (soft halt — operational, not error)
+US markets closed for Memorial Day (federal holiday). Alpaca clock confirms `is_open=false`, `next_open=2026-05-26 09:30 ET`. No trading actions possible. Routine still runs to refresh memory + benchmark the account.
+
+### Account state (live from Alpaca)
+- Cash: $99,840.95
+- Equity: $99,840.95
+- Buying power: $199,681.90 (2x margin available but strategy is cash-only)
+- Positions: 0
+- Open orders: 0
+- Daytrade count: 0
+
+### Memory-reconciliation (important — gap between 4/22 and today)
+The local memory files (trade-log.md, portfolio.md, messages.md) had not been updated since the 2026-04-22 halt. Alpaca's order history shows the routines DID run and trade during that window without writing back. Reconstructed from the broker side:
+
+- **2026-04-22 09:07 CT** — BUY 25 NVDA @ $201.38 (market, OTO with -7% day stop leg). Cost basis $5,034.50, ~5.0% of portfolio. Day-stop leg expired same day; GTC -7% stop placed 4/23 at $187.28.
+- **2026-04-27** — position went +5%, hard stop canceled and replaced with 10% trailing stop (per strategy). HWM ran to $216.73 (≈ +7.6% from entry).
+- **2026-05-04 10:21 CT** — Trailing stop fired @ $195.0184 (10% off the $216.73 HWM). 25 sh sold. Round-trip P/L: −$159.04 (−3.16%).
+
+Backfilled both legs into trade-log.md and overwrote portfolio.md to reflect the round-trip and current cash. Nothing was traded between 5/4 and today.
+
+### Benchmark vs SPY (the only number that matters long-term)
+- SPY 4/21 close (account inception eve): $704.08
+- SPY 5/22 close (most recent): $745.64
+- **SPY inception-to-date: +5.90%**
+- **Bull inception-to-date: −0.16%**
+- **Alpha inception-to-date: −6.06%** — we are well behind the index. The reason: NVDA chopped us out for a small loss, and we have been in cash ever since while the tape rallied. Concentration cuts both ways; missing-the-move is its own kind of loss.
+
+Weekly cut (5/15→5/22 close): SPY +0.88%, Bull 0%, alpha −0.88%.
+
+### Portfolio watch
+No open positions. Nothing to manage. All three midday risk checks (−7% drawdown, +5% trailing-stop conversion, daily-loss-cap) are non-applicable.
+
+### Buy candidates
+None today — market closed. The bigger issue: we have **zero capital deployed** while SPY has rallied ~6%. The pre-market routine for Tuesday 5/26 (post-holiday open) needs to scout fresh and seriously consider redeploying. Names worth re-validating before the open:
+- **NVDA** — earnings printed 5/20 (per April scout). Need to check the print, the post-earnings reaction, and whether the original AI-infra thesis is still intact. If the tape rewarded the print, this could be a clean re-entry with a wider stop than last time.
+- **MSFT, GOOGL** — both should be past their late-April prints. Re-verify earnings clearance and check post-print drift.
+- **PLTR** — 5/4 AMC earnings should be in the rear-view; check the post-print direction.
+- **AVGO** — next earnings ~6/3, getting close to the 3-day blackout window.
+- **Macro:** SPY at $745.64 is near recent highs. We may be chasing the rally rather than buying a dip. Tuesday's pre-market should weigh "deploy now even if late" vs. "wait for a pullback."
+
+### Sell candidates
+None — no positions.
+
+### Action items for next pre-market (Tuesday 2026-05-26 06:00 CT)
+1. Pull NVDA, MSFT, GOOGL, PLTR post-earnings prints + reactions via Perplexity sub-agents in parallel.
+2. Verify SPY and 10Y levels for the holiday-shortened week tone.
+3. Aim for 1–2 starter positions if any name clears ≥2 signals — don't sit in cash a third week.
+4. If macro is clearly toppy, document the pass reason — but don't pass by default.
+
+### Notes
+- Soft halt only. No API call failed. Memory reconciliation done. Next routine fires normally for the 5/26 cash open.
+- Strategy point worth flagging in the weekly review: routines need to ALWAYS write memory back even when they halt operationally, otherwise we get blind spots like the 4/22→5/25 gap.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

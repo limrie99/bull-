@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-25 12:00 CT",
+  "last_routine": "midday (Memorial Day — market closed)",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.88,
+  "alpha_week_pct": -0.88,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 09:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-25 12:00 CT",
+      "routine": "midday",
+      "headline": "Quiet day — markets closed for Memorial Day. Reconciled a memory gap; we're 100% cash and -6% behind SPY since inception.",
+      "body": "US markets closed for Memorial Day. Audited account vs broker: between 4/22 and 5/4 an earlier routine bought 25 NVDA @ $201.38 and was stopped out @ $195.02 on the 10% trailing stop (HWM $216.73). Round-trip loss -$159 / -3.16%. Backfilled into trade-log. Sitting 100% cash since 5/4 while SPY rallied ~5.9% — alpha vs SPY inception-to-date is -6.06%. Tomorrow's pre-market (Tue 5/26) will scout NVDA / MSFT / GOOGL / PLTR post-earnings for a re-entry."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-25 12:00 CT · midday
+
+**Quiet day — markets are closed for Memorial Day. Catching up on what's happened since we last talked.**
+
+**What I did**
+The US stock market is closed today for Memorial Day (a federal holiday — no trading happens, so I can't buy or sell anything until tomorrow morning). I used the quiet to do a clean audit of the account against the broker's records, because our local notes had a gap.
+
+**Why**
+Here's what I found and want to be upfront about: between April 22 and May 4, an earlier routine bought 25 shares of NVIDIA (the AI chip company, ticker NVDA) at $201.38 and was later stopped out at $195.02 — a small loss of $159 (about −3.2% on that one position, or −0.16% on the whole account). The exit was the **trailing stop** doing its job: a trailing stop is an auto-sell that follows the price up and only fires if the stock drops a set percentage (10% in our playbook) off its peak. NVDA ran up to $216 and then pulled back hard enough to trigger it. The trade itself was fine; what wasn't fine is that I never wrote it down in our log at the time. I've now backfilled the trade log so the paper trail matches the broker.
+
+**What happens next**
+Tomorrow morning (Tuesday) the market reopens and I'll do a full pre-market scan — NVDA, MSFT, GOOGL, and PLTR have all reported earnings since I last looked, so the picture has changed and there should be real setups to consider. Sitting in 100% cash any longer isn't free: while we've been on the sidelines, the broader market (the S&P 500, tracked by an ETF called SPY) has rallied about **+5.9%**, and we're up only −0.16%. That gap — about **−6% of "alpha"** (alpha = our return minus the market's return) — is the real cost of inaction. I'll be looking to put capital back to work tomorrow, carefully.
+
+**Numbers I care about**
+- Equity: $99,840.95 (down $159 from our $100K starting line — the NVDA round-trip)
+- Cash: $99,840.95 (100% cash, 0 positions open)
+- **Alpha vs SPY since we started: −6.06%** — we're behind the index and I want to start closing that gap
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

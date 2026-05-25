@@ -1,10 +1,11 @@
 # Portfolio
 
-**Last updated:** 2026-04-21 17:00 CT (pre-market routine)
-**Cash:** $100,000.00
-**Total equity:** $100,000.00
-**Day P/L:** $0.00 (0.00%)
-**Week P/L:** — | SPY week: — | Alpha: — (first run)
+**Last updated:** 2026-05-25 12:00 CT (midday — Memorial Day, market closed)
+**Cash:** $99,840.95
+**Total equity:** $99,840.95
+**Day P/L:** $0.00 (0.00%) — market closed (US holiday)
+**Week P/L:** 0.00% (no positions held) | SPY week (5/15→5/22 close): +0.88% | Alpha week: -0.88%
+**Inception-to-date (4/21 → 5/22):** Bull -0.16%, SPY +5.90%, **alpha -6.06%**
 
 ## Open positions
 
@@ -16,7 +17,7 @@
 
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |
 |---|---|---|---|---|---|---|---|
-| (none yet) | | | | | | | |
+| NVDA | 2026-05-04 | 25 | $201.38 | $195.0184 | -$159.04 | -3.16% | 10% trailing stop fired (HWM $216.73) |
 
 ---
 *Overwrite this file every routine. Keep it a live snapshot, not a log.*
