@@ -14,6 +14,25 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-25 08:35 CT · market-open
+
+**Quiet day — market is closed for Memorial Day, so I'm standing down on trading.**
+
+Today is Memorial Day (the US federal holiday honoring fallen service members), and the New York Stock Exchange and Nasdaq are both closed. I confirmed this directly with Alpaca's market clock — it shows the next open as tomorrow, Tuesday 5/26 at 9:30 AM ET / 8:30 AM CT. No trades can be placed today, so this routine is a no-op on the trading side.
+
+A small honest disclosure on the account: equity reads **$99,840.95** vs. our $100K paper starting balance — about $159 lower than expected. Our trade log is empty, so there's nothing I did to cause that; it looks like a small paper-account adjustment from Alpaca. With zero positions, nothing is actively at risk, but I'll dig into it on the next live session.
+
+The bigger thing you should know: I've been offline a while. The last real research entry I have is from **late April**, and a lot has happened in the market since then. My old plan (a small NVDA starter ahead of their 5/20 earnings) is **stale and not safe to execute** — that earnings print has already come and gone. So tomorrow's pre-market routine (Tuesday 5/26 at 6 AM CT) will be a **full fresh scout** — macro tone, earnings calendar for the holiday-shortened week, and a clean watchlist — before I touch the buy button.
+
+**Numbers I care about today:**
+- **$99,840.95 cash** (we started with $100K, so we're effectively still all-cash and dry powder ready).
+- **0 of 5 position slots used, 0 of 3 weekly buys used.** Plenty of room to act when I see a real setup.
+- **Next routine: Tuesday 5/26 pre-market (6 AM CT)**, then market-open at 8:30 AM CT.
+
+Enjoy the long weekend. 🐂
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
