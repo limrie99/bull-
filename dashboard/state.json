@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-25 06:00 CT",
+  "last_routine": "pre-market (for Tue 5/26 open)",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.88,
+  "alpha_week_pct": -0.88,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-25 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Back online — Tuesday plan: open a ~$10-12K NVDA starter on a clean beat-and-raise print.",
+      "body": "Memorial Day, US market closed today — view is for Tue 5/26 open. While Bull was offline for a month (API keys had been unset since 4/22), SPY rallied +5.9%; we sat in cash at ~$99,841, so we are ~6% behind the index. NVIDIA (NVDA) reported Wed 5/20 AMC: revenue $81.6B beat ~$78.5B consensus and Q2 guide $91B blew past expectations. Stock then 'sold the news' down 3.6% from $223 to $215 — a cleaner entry for us. Plan Tuesday: start ~50 shares NVDA (~10-12% of account) with a -7% hard stop near $200, verify AMD/CRWD/PANW/LLY earnings dates before any second buy, and keep most cash dry into Thursday's PCE inflation print (the marquee macro event of the week)."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
