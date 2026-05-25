@@ -27,6 +27,61 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-25 15:10 CT — market-close (Memorial Day — US market closed)
+
+### Routine context
+Today is Memorial Day (US federal holiday). NYSE/Nasdaq closed. Routine fired ad-hoc against a stateless wake. Secrets all present. Alpaca clock confirms `is_open=false`, `next_open=2026-05-26 09:30 ET`. No trades possible today by definition.
+
+### Memory reconciliation (important)
+Pulled Alpaca order history and discovered a significant gap between memory state and reality. Memory's last update was 2026-04-22 12:00 CT (halted). Alpaca shows:
+- **2026-04-22 10:07 ET — BUY 25 NVDA @ $201.38** (filled, order d03cf15d). Starter tranche per the 4/21 19:00 pre-market plan. Cost: $5,034.50.
+- **2026-04-23 — initial −7% stop replaced** (day stop expired 4/22 EOD, GTC stop placed at $187.28).
+- **2026-04-27 11:16 CT — stop converted to 10% trailing stop** (hwm-tracking, 10% trail). Strategy says convert at +5% profit; NVDA was up enough to warrant the conversion.
+- **2026-05-04 11:21 ET — TRAILING STOP FILLED: SELL 25 NVDA @ $195.02** (peak hwm $216.73). Realized **−$159.04 (−3.16%)** on the position.
+- **5/4 → today (3 weeks):** equity flat at $99,840.95, 0 positions, no orders.
+
+These trades were back-filled into `memory/trade-log.md` today. No previous routine committed them — likely env-var halts (matching the 4/22 pattern) followed by silent dormancy.
+
+### Market context
+- Market closed (Memorial Day). No price action today.
+- Reference close = Friday 2026-05-22:
+  - **SPY: $745.67** (Fri close). Latest trade $745.92 (after-hours print 5/22 16:14 ET).
+  - **Portfolio equity: $99,840.95** (unchanged for 21 calendar days).
+- No live news/macro pull this routine — no positions to manage and no buying window today.
+
+### Portfolio watch
+0 positions. $99,840.95 cash (≈ 100% cash). All risk currently is opportunity cost, not drawdown.
+
+### Buy candidates
+None evaluated today (market closed, no execution possible). Pre-market routine for the Tue 5/26 open should re-scout from scratch — last fresh scout was 4/21 and the tape has moved meaningfully since (SPY +5.9% over the gap).
+
+### Sell candidates
+None — no positions.
+
+### Day summary (market-close routine)
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 (0.00%) — market closed
+- **SPY day:** 0.00% (no trading)
+- **Alpha (day):** 0.00%
+- **Trades placed today:** 0
+- **Week-to-date (5/15 → 5/22 close):** portfolio 0.00% / SPY +0.89% / **alpha −0.89%** — cost of being all-cash through a small SPY up-week.
+- **Since inception (4/21):** portfolio −0.16% / SPY +5.93% / **alpha −6.09%** — the gap is the cost of (a) one −$159 NVDA trail-stop loss and (b) sitting in cash for 3 weeks while SPY rallied.
+
+### What worked
+- Discipline: trailing-stop did its job on NVDA — locked in a small loss rather than letting it round-trip further.
+- Guardrails held: we were not silently overexposed during the gap; we were silently under-exposed, which is the safer failure mode.
+
+### What didn't
+- **Operational failure: memory wasn't written for the 4/22 NVDA buy or the 5/4 NVDA trailing-stop fill.** Two real trades happened in a paper account and Bull's memory had no record of them until today's reconciliation. The dashboard has been showing stale state for 3+ weeks.
+- **3 weeks of full-cash dormancy.** No new scouts were committed. Either the routines weren't waking up, or they were halting silently. Either way: zero ideas surfaced while SPY ran +5.9%.
+
+### Open questions for tomorrow (Tue 5/26 open)
+1. Why did 3+ weeks of routines not commit? Env-var halts again? Scheduler off? Need to confirm with the user before the next pre-market.
+2. Fresh pre-market scout needed — 5/20 NVDA earnings already happened (we'd be reading the print, not anticipating it). Reset the watchlist.
+3. With $99,840.95 in cash and a 4-week clean slate, decide whether to lean in (deploy a 2–3 position basket on the next clean signal) or stay conservative until we see how the post-NVDA-earnings tape is trading.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
