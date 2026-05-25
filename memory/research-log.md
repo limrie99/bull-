@@ -27,6 +27,31 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-25 08:35 CT — market-open (NO-OP, market closed for Memorial Day)
+
+### Halt reason
+US equity markets are closed today (Memorial Day, observed Mon 5/25/2026). Alpaca clock confirms `is_open: false`, `next_open: 2026-05-26T09:30:00-04:00`. No orders can be placed — halted before any trading action, per CLAUDE.md ("Never fabricate prices or fills. Always confirm via the Alpaca API.").
+
+### Account state (still pulled for sanity check)
+- Cash $99,840.95 / equity $99,840.95 / 0 positions.
+- `balance_asof: 2026-05-22` (last business day before the long weekend).
+- Equity is **~$159 below the $100K paper start**, with **no entries in trade-log.md to explain it**. Most likely a small paper-account adjustment / accrued fee or stale snapshot reconciliation — no live positions, so no live risk. Flagging to investigate at the next live routine.
+
+### Gap in research context
+- Last research-log entry before today: **2026-04-22 12:00 CT (also halted, on missing API keys)**. That's a **~5-week gap** with no fresh research.
+- The 4/21 pre-market plan (NVDA starter) is stale — NVDA's 5/20 earnings have already passed; the entire macro / earnings setup is different now.
+- **Do not execute any plan off the pre-5/20 research.** Tomorrow's pre-market routine (5/26) needs a full fresh scout: macro, earnings calendar for the post-holiday week, and a fresh watchlist scan. Treat the account as brand-new from a research-state standpoint.
+
+### Actions taken this routine
+- None on the trading side (market closed).
+- Account / positions / clock pulled and confirmed.
+- Portfolio snapshot refreshed, dashboard updated, message written.
+
+### No buy/sell candidates
+Market closed → moot.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
