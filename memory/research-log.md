@@ -27,6 +27,83 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-25 06:00 CT — pre-market (for Tue 2026-05-26 open)
+
+**Timing note:** First successful routine since 2026-04-21. APIs verified live (Alpaca account/positions 200; Perplexity 200 selectively). Today is **Memorial Day — US market CLOSED**, so this pre-market view targets the Tue 5/26 reopen. Account: $99,840.95 cash, 0 positions (small ~$159 drift from $100K seed — likely Alpaca paper-account fee accrual). Four sub-agents fanned in parallel: macro, earnings, opportunity scout, sector rotation. Earnings and macro sub-agents returned mostly `n/a` from Perplexity on live tape numbers; Alpaca direct-bar pulls filled the most important gap (sector ETFs).
+
+### Benchmark check
+- SPY 2026-04-21 close: $704.08 → 2026-05-22 close: $745.64 → **+5.90% over the gap window**.
+- Bull's portfolio: $99,841 vs $100,000 seed → **-0.16%**.
+- **Alpha vs SPY since 4/21: -6.06%.** Bull missed the rally by sitting in cash through 23 trading days of halted/no-action routines. Not a reason to panic-deploy; IS a reason to act decisively on the next verified setup instead of re-running another "no high-conviction pick" pass.
+
+### Market context
+- **Today:** Memorial Day holiday, US equities and bond market closed. Next open: Tue 2026-05-26 09:30 ET.
+- **Last full session (Fri 5/22):** SPY $745.64 (record-area). Risk-on with a soft-landing flavor.
+- **Sector tape (5/15 → 5/22, week-over-week from Alpaca bars):**
+  - Leaders: **SMH +3.59% (semis), XLU +3.37% (utilities), XLV +3.30% (healthcare), XLRE +3.08% (REITs), IWM +2.71% (small caps), XLK +2.34% (tech), XLY +2.27% (cons disc).**
+  - Laggards: XLC -0.53% (comms — GOOGL drag), XLB -0.02%, XLE +0.08%, XLP +0.19%, XLI +0.22%.
+  - SPY benchmark: +0.88%.
+  - **Read:** Risk-on + soft-landing positioning. Yield-sensitive (XLU/XLRE/SMH) outperformance implies yields drifted lower into the PCE print. Small-cap broadening (IWM > SPY by 1.8pts) is a bullish breadth signal. Communication services the lone weak group.
+- **Macro calendar this week:**
+  - Tue 5/26 — Case-Shiller HPI 9:00 ET; **Consumer Confidence 10:00 ET**.
+  - Thu 5/28 — **April PCE / Core PCE 8:30 ET (marquee print)**, Q1 GDP 2nd estimate, advance durable goods, jobless claims.
+  - Fri 5/29 — Chicago PMI 9:45 ET; Fed Gov. Waller speech (TBD).
+  - **Live wire: Thursday PCE.** A hot core PCE re-tightens conditions and pressures long-duration tech; a cool print extends the soft-landing bid the tape is already pricing in.
+- **Futures / yields / FX / commodities Sunday-night levels:** Perplexity returned `n/a`. Will pull at Tue 6 AM CT before the open-routine fires.
+
+### Portfolio watch
+No open positions. $99,840.95 cash, $199,681.90 buying power (cash-only per strategy — ignore margin).
+
+### Earnings — just-printed (key catalyst)
+**NVDA — fiscal Q1 FY27 reported Wed 5/20 AMC. Confirmed beat-and-raise.**
+- **Revenue: $81.6B vs consensus ~$78.5B (+4% beat).** Record. Data Center $75.2B, +92% YoY.
+- Non-GAAP EPS $1.87 (GAAP $2.39). Non-GAAP gross margin 75.0%.
+- **Q2 FY27 guide: $91.0B ±2%** — sequential +11–13% from a record Q1, explicitly **excluding any China Data Center compute revenue**. Well above prior consensus.
+- **Stock reaction: SOLD THE NEWS.** 5/20 close $223.47 (pre-print) → 5/21 $219.51 (-1.77%) → 5/22 $215.33 (-1.91%). **-3.64% over the two post-earnings sessions** despite a blowout print. Reason: NVDA had run +57.7% since June 2025 / +16.3% from prior quarter — expectations were sky-high.
+- **For Bull:** the sell-the-news drift is a gift on the entry, not a thesis killer. Earnings runway is now ~3 months (next print late Aug). Fundamentals are pristine. Entry at $215 is ~3.6% better than chasing the print itself.
+
+### Earnings — this-week calendar
+Perplexity refused this query. Will pull a fresh Alpaca-calendar query or targeted Perplexity tickers at Tue 6 AM CT before deciding on AMD / CRWD / PANW.
+
+### Buy candidates
+
+**TOP PICK — NVDA (~$215) — conviction MED-HIGH**
+- Signals hit: **(1)** earnings beat + raised guidance, verified ✅; **(3)** secular AI infra tailwind, confirmed by the $91B Q2 guide ✅; **(5)** sector rotation into semis (SMH +3.59% week) ✅.
+- Signal (6) uptrend is a yellow flag — short-term down 3.6% post-earnings, but still up >50% YTD. Not a fresh 52-week-low knife.
+- Earnings runway: clear, next print ~late August.
+- Proposed sizing: **starter ~10–12% of portfolio (~$10K–$12K, ~45–55 shares at $215)** with the strategy's **-7% hard stop at ~$200**.
+- Why not full 15–20%: respect the sell-the-news tape; size up only if NVDA holds $215 area and PCE doesn't blow up Thursday.
+
+**SECONDARY WATCH (need fresh verification at Tue 6 AM):**
+- **AMD (~$467)** — closed +3.98% on 5/22 with semis leading. Signal (3) + likely (5). Need to verify next earnings date is outside 3-day blackout and identify a specific catalyst (analyst upgrade, OEM win, etc.) before sizing.
+- **LLY (~$1,065)** — closed +2.24% on 5/22. GLP-1 secular thesis (signal 3) intact. Healthcare leadership confirmed (XLV +3.30% week). Verify next earnings date and any fresh catalyst.
+- **CRWD (~$663)** — closed +2.35% on 5/22. **CRWD historically reports fiscal Q1 in early June — likely inside the 3-day blackout from Tue 5/26.** Hard verify before any entry; otherwise skip until post-print.
+- **PANW (~$261)** — closed +3.03% on 5/22. **PANW historically reports fiscal Q3 in late May (~5/22 was a typical print window). May have just reported or be about to.** Hard verify before any entry.
+
+**HARD SKIPS:**
+- **COST** — -2.10% on 5/22 (defensive weakness, likely just reported and missed something).
+- **GOOGL** — XLC was the only red sector last week; no fresh catalyst verified.
+- **MSFT / META / AAPL / ORCL / AVGO** — no fresh ≥2-signal setup verified; all in the post-Q1-print quiet window.
+
+### Sell candidates
+None — no positions.
+
+### Plan for Tue 2026-05-26 market-open routine
+1. Pull live futures, 10Y, DXY, oil at 6 AM CT. If futures down >0.5% or 10Y back above 4.40%, **shrink NVDA starter to $5K or skip**.
+2. Re-verify NVDA didn't gap >2% from Friday's $215 close.
+3. **If constructive:** place NVDA bracket buy — market order ~50 shares (~$10.7K, ~10.7% of portfolio), stop_loss at $200.00 (-7%). Use the bracket flow in scripts/alpaca.md.
+4. Targeted Perplexity / Alpaca-calendar check on AMD, CRWD, PANW, LLY next-earnings dates. If AMD or LLY clear the 3-day blackout AND have a verifiable second signal, consider a second 5–10% starter Tuesday. CRWD/PANW: default skip until earnings prints are confirmed past.
+5. Daily-loss-cap not in play (no positions). Weekly buy cap: 0/3 used this week — comfortable with 1–2 fresh buys.
+6. Keep ≥75% cash through Wed PM. Thursday PCE could move us 1–2% either way; want dry powder.
+
+### Notes / research gaps for next routine
+1. Earnings calendar refused by Perplexity — try Alpaca calendar API or per-ticker Perplexity queries at Tue 6 AM.
+2. Verify CRWD and PANW exact next-earnings dates (historical late-May/early-June risk).
+3. Pull live futures and 10Y at Tuesday 6 AM — sub-agents could not retrieve.
+4. Build a sub-agent macro digest that batches the live-data query into one tight question rather than spreading across calls — Perplexity refused most spread-out asks but answered the focused NVDA-earnings call.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
