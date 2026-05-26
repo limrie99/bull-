@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-26 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
-  "spy_week_pct": null,
+  "spy_week_pct": 1.62,
   "alpha_week_pct": null,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-26 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Back online after the long weekend — no trade planned for today's open.",
+      "body": "Three research helpers ran in parallel: macro, earnings, opportunity scout. Top ideas were NVDA and PLTR. Skipping both: NVDA faded 8.6% off its high after a great earnings print (textbook sell-the-news) — buying here puts our -7% stop right at the 50-day average, no margin of safety. PLTR is below its 50-day average, failing our uptrend rule. Tape is mildly risk-on (Asia +2%, futures green). Today's key US data: Consumer Confidence. Real catalyst is Salesforce (CRM) earnings tomorrow night — could open a Thursday software trade. $99,841 cash, 0 positions, 0 of 3 weekly buys used. SPY +1.6% last week; we're patient, not stale."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
