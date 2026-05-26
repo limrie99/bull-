@@ -27,6 +27,57 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-26 06:00 CT — pre-market (first session after Memorial Day)
+
+**Timing note:** Routine fired on schedule. Alpaca clock confirms market closed, next_open = 2026-05-26 09:30 ET (~2.5h away). Account is back online — secrets restored after the 4/22 halt cluster. Cash $99,840.95, 0 positions, 0 open orders. Account effectively unchanged for ~5 weeks. **First real research pass in over a month.** Three sub-agents fanned out in parallel: macro, earnings, opportunity scout.
+
+### Market context
+Mildly **risk-on** into the Tuesday open, low-to-medium conviction. Asia outperformed (Hang Seng +2.04%), Europe firm (DAX +0.69%), futures slightly green.
+- **ES futures:** indicative slightly green vs Friday close; exact overnight % `n/a` (sub-agent flagged sparse live data).
+- **NQ futures:** indicative ~+0.07% overnight.
+- **US 10Y:** 4.55%, **−3 bps** (modest bid for duration).
+- **DXY:** 99.34, +0.08% — marginally firmer dollar.
+- **WTI:** $96.48, +0.12%; **Brent:** ~$110, +0.4% — oil holds geopolitical risk premium.
+- **Gold:** $4,669/oz, +0.40% — bid on Iran headlines.
+- **Overseas:** Nikkei flat, Hang Seng **+2.04%** (standout), DAX +0.69%, FTSE `n/a`.
+- **Long-weekend headlines:** US/Iran de-escalation signals (with Strait of Hormuz friction remaining); aluminum facility attacks pushed aluminum near 4-yr highs; UMich final May consumer sentiment ~48.2 (near record lows).
+- **Today's US calendar:** Conference Board **Consumer Confidence (May)** is the marquee print. Fed speakers `n/a` for today.
+- **Net:** mildly risk-on, but consumer-confidence risk on tap and geopolitics still the live wire. Not a "back up the truck" tape.
+
+**SPY tape (from Alpaca):** $733.73 → $741.25 → $742.72 → **$745.64 (Fri 5/22 close)**. Up +1.6% over the week. Index is trending; we are NOT.
+
+### Portfolio watch
+No open positions. $99,840.95 cash (~$160 erosion vs $100K start — likely BP/data-fee dust, not a fill). Buying power $199.7K margin (we use cash only). Nothing to manage.
+
+### Earnings calendar (2026-05-26)
+- **BMO large-caps ($10B+):** `n/a` — sub-agent could not verify any. Calendar small-caps only (Ooma, Semtech, Champion Homes, VNET).
+- **AMC large-caps:** `n/a` for today. The late-May enterprise-software gauntlet (CRM, DELL, MRVL, NTAP, ADSK, HPE) lands Wed 5/27 and Thu 5/28.
+- **CRM Wed 5/27 AMC confirmed** — consensus EPS ~$3.05; will drag IGV/NOW/ADBE on Thursday read-through.
+- **Fri 5/22 AMC tape-setters:** `n/a` — no verified mega-cap prints surfaced.
+- **Net:** today is macro-/positioning-driven, not earnings-driven. The real risk is **tomorrow night's CRM**.
+
+### Buy candidates
+
+Scout's defensible 2-signal names are NVDA and PLTR. Both were stress-tested against Alpaca quote/trend data before deciding.
+
+- **NVDA** — Signals: (1) clean beat-and-raise on 5/20 AMC (EPS $1.87 vs $1.76, rev $81.6B vs $78.4B, next Q guide $89.2–92.8B vs $86.4B Street), (3) AI-infra tailwind intact. **Signal 6 (trend) status:** last $215.33, 50-DMA ≈ $196.8 — yes, above 50-DMA. But the **post-earnings reaction was negative**: ran from $165 to $235 (+42%) into the print, then **faded −8.6% off the high** to $215.33 by Friday close. Two consecutive red days post-earnings (5/21 −1.8%, 5/22 −2%) is a textbook sell-the-news fade. A buy here at $215 with the −7% hard stop puts the stop at ~$200 — right at the 50-DMA. That's no margin of safety; we'd be one normal pullback from a flush. **Conviction: low-med. Pre-market call: PASS today; wait for a base.** Re-evaluate if NVDA closes back above $225 OR stabilizes 3 sessions above $210.
+- **PLTR** — Signals: (1) raised FY26 revenue guide to **71% Y/Y, US commercial to 120% Y/Y** on 5/4, (3) AI + government-software tailwind. **Signal 6 (trend) status: FAIL.** Last $136.88, 50-DMA ≈ $140.6 — **below 50-DMA**, sideways since the print. Only 2 signals confirmed and one of the screens for "uptrend" is broken. PLTR's single-name vol also means the −7% stop trips on routine noise. **Conviction: low. Pre-market call: PASS.** Watchlist for a reclaim of $140 with volume.
+- **AVGO, GOOGL, MSFT, META, AMZN, AAPL, COST, NFLX, AMD, ORCL** — scout could not verify earnings dates, recent upgrades, or specific near-30-day catalysts in this pass. **Earnings blackout risk on AVGO and CRWD** (typical early-to-mid-June prints — could be inside the 3-day window soon). Defer until verified.
+
+**Net:** **no clean buy today.** Fresh paper portfolio is fine sitting on cash; strategy says concentration over forcing trades. Plan for the market-open routine in 2.5 hours: **likely no-trade**, just confirm tape tone and consumer-confidence reaction. The bigger setup is Wed CRM AMC — if CRM prints clean, the IGV complex (NOW, ADBE, MSFT) becomes a Thu-open opportunity.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. Verify CRM Wed 5/27 AMC consensus revenue (only EPS ~$3.05 confirmed tonight). Pull guidance whisper.
+2. Pull next-earnings dates for AVGO, CRWD, PANW, DELL, MRVL — blackout-risk names.
+3. Get specific analyst upgrades / insider-buy data on NVDA, PLTR, COST, NFLX in last 10 days (Signal 4 was blank for all candidates).
+4. Build conviction watchlist for the Thu post-CRM tape: NOW, MSFT, ADBE behavior + CRM reaction.
+5. Watch NVDA price action today — does it base ~$215 or fade through to $210? Stabilization changes the calculus.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
