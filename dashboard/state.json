@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-26 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
+  "week_pl_pct": 0.00,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-26 12:00 CT",
+      "routine": "midday",
+      "headline": "Back online — owe you a catch-up on a small NVDA loss while memory was out of sync.",
+      "body": "Account is flat (all cash). Reconciled broker history: NVDA was actually bought 4/22 @ $201.38 (25 sh) and the 10% trailing stop fired 5/4 @ $195.02 for -$159 / -3.16%. Memory files had been stale since. Since 5/4 we've sat in cash 22 sessions while SPY ran +5.33% — alpha vs SPY since first trade is -5.49 pts. Strategy mechanism worked; the cost was sitting out. Tomorrow's pre-market scout will do a full sub-agent pass and aim for a real 5-10% starter on the cleanest 2-signal name. No midday buy — cold-starting without research is exactly the casino behavior we forbid."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

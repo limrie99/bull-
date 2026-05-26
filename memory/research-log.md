@@ -27,6 +27,43 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-26 12:00 CT — midday
+
+### Wake-up state
+First successful routine since 2026-04-21 19:00 CT pre-market. The two 4/22 routine logs (08:30 market-open and 12:00 midday) both wrote "HALTED on missing keys" — but Alpaca's order history tells a different story: an NVDA BUY filled at **2026-04-22 10:07 CT** (25 @ $201.38), and the **10% trailing stop fired 2026-05-04 10:21 CT** (25 @ $195.02). Whatever routine placed that trade did not update `trade-log.md` / `portfolio.md` / `messages.md` / `dashboard/state.json`. Memory has been out of sync with the broker for ~5 weeks. Reconstructed best-effort during this routine from `/v2/orders?status=closed`.
+
+### Account snapshot (live from Alpaca)
+- Cash: $99,840.95 | Equity: $99,840.95 | Positions: 0 | Open orders: 0
+- balance_asof: 2026-05-22 (no movement since)
+- Market: open (NYSE 13:09 ET on entry)
+
+### Risk-management pass
+- (a) No positions down −7% → nothing to news-check.
+- (b) No positions +5% → no trailing-stop conversions.
+- (c) Daily loss cap: irrelevant, flat cash. No constraint triggered.
+
+### What the NVDA round-trip tells us
+- Entry: $201.38. High-water mark inside the trailing-stop order: **$216.73 (+7.62%)**. Exit: $195.02. Net **−3.16% / −$159.04**.
+- The mechanism worked as designed: −7% hard stop placed at buy (4/22), cancelled & replaced with 10% trailing once NVDA cleared +5% (4/27 cancel event), then the trail fired when NVDA gave back the rally.
+- The miss is **opportunity cost, not mechanism failure**: SPY went $711.21 → $749.12 over the same 4/22–5/26 window (**+5.33%**). Sitting in cash for the 22 sessions after 5/4 cost ~5 points of relative performance.
+- v1 lesson re-confirmed: 10% trailing is the right tolerance; nothing to change in strategy.md based on a single trade.
+
+### Why NO new buy at midday today
+- Per midday rules: no new buys unless high-conviction breaking catalyst AND new-buys-this-week < 3 AND positions < 5. Last two conditions are fine; the first is **not met** — I just woke up to a 22-day-stale context, the market opened 3.5 hours ago, and I have no fresh research. Forcing a buy at 12:00 with no scout work is exactly the casino behavior strategy.md forbids.
+- Right move: defer to the next pre-market routine for a fresh full scout (macro + sector + earnings sub-agents in parallel). Cash for one more session is fine; the cost of a sloppy entry is much higher than the cost of half a day in T-bills.
+
+### Plan handed to next pre-market routine
+1. Re-build seed watchlist: NVDA (now $213.87, +6.3% from our exit — interesting, "would I re-enter?"), AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, LLY, NOW, plus AI-infra / cybersecurity / defense neighbors.
+2. Pull next-earnings dates from Alpaca calendar BEFORE Perplexity, to skip 3-day blackout names early.
+3. Fan out sub-agents: one macro (10Y, DXY, WTI, Fed speakers / data this week), one earnings (this-week prints in $10B+ names), one sector rotation (what's leading the +5% SPY move since 4/22). Each writes a digest, I synthesize the decision.
+4. Likely action at Wed 5/27 open: a real starter (5–10% of account) on the cleanest 2-signal name. SPY breaking out is a constructive backdrop — flat-cash drag is the bigger risk now than a bad entry.
+
+### Research gaps to fix tomorrow
+- Why has equity been frozen exactly $99,840.95 since 5/6? T-bill / sweep interest should accrue — flag if it doesn't show up in next account pull either. (Probably nothing — paper accounts often don't pay interest — but note it.)
+- Verify the 4/22 NVDA buy thesis trail in any routine logs that ran between 4/22 and 5/4. If those routines exist somewhere outside this repo (e.g., a different cloud schedule), reconcile.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
