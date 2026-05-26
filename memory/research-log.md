@@ -27,6 +27,31 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-26 08:40 CT — market-open
+
+### Halt context
+Routines were halted from 2026-04-22 onward (env vars missing). System came back online today with secrets restored. Market is open (Alpaca clock confirms `is_open=true`, next_close 16:00 ET). Account: **$99,840.95 cash, 0 positions**, no `last_equity` change from prior balance, no buying-power oddities. Daytrade count 0. Pattern-day-trader flag false. The tiny $159 below the $100K paper seed is unexplained but immaterial; not investigating without cause.
+
+### Decision: no trades at open
+- **No fresh pre-market research today.** The most recent pre-market log entry is 2026-04-21 19:00 CT — over a month stale. Strategy is fundamentals-driven with verified ≥2 signals per buy. Acting on a one-month-old NVDA starter idea would violate that spirit.
+- **Perplexity pull this morning** for macro/futures/earnings was thin — model declined to give live levels and could not confirm today's earnings calendar. Useful tape-context absent.
+- **No pending inbox messages** from the user.
+- **No open positions** → no stops to manage, no sell candidates, nothing time-sensitive at the bell.
+- **Net:** pass on new buys. Re-scout tonight via a proper pre-market routine with sub-agents.
+
+### Buy candidates
+None proposed. No verified ≥2-signal setups available in the time/data budget for the open.
+
+### Sell candidates
+None — no positions.
+
+### Notes for next routine
+1. **Tonight's pre-market needs a fresh seed watchlist scout** — the v1 watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) is a starting point but earnings dates need re-verifying for a late-May timeframe. Q1 2026 print cycle has fully closed; we're between earnings seasons.
+2. **Between-earnings periods favor catalyst-driven entries** (analyst upgrades, product launches, sector rotation) over earnings-surprise entries. Bias the scout toward signals 3, 4, 5 from strategy.md.
+3. **Macro context is data-poor in Perplexity sonar-pro at this hour** — consider scheduling pre-market for the 18:00–21:00 CT window (Asia open, more recent macro headlines indexed) rather than relying on a 6 AM CT pull.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
