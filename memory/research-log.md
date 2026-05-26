@@ -27,6 +27,41 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-26 15:00 CT — market-close
+
+### Reconciliation (important)
+First fully-live routine on this branch in weeks. Alpaca ground truth contradicts the memory I woke up to. The prior files claimed the 4/22 session "halted — missing keys, $100K cash, no trades." **That was wrong.** Alpaca order history shows a complete NVDA round-trip:
+- **2026-04-22 10:07 CT** — BUY 25 NVDA @ $201.38 (market, OTO; cost $5,034.50). The planned ~5% starter from the 4/21 scout actually executed.
+- **2026-04-22 → 4/23** — same-day OTO hard stop @ $187.12 expired at the close; re-placed as a GTC −7% hard stop @ $187.28 on 4/23.
+- **2026-04-27** — hard stop canceled, replaced with a 10% trailing stop (position had cleared +5%; hwm reached $216.73 = +7.6%). Discipline followed correctly.
+- **2026-05-04 10:21 CT** — trailing stop filled @ $195.0184, sold all 25. Realized **−$159.04 (−3.16%)**.
+This exactly accounts for equity = $100,000 − $159.05 = **$99,840.95**. Backfilled both legs into trade-log.md and reset portfolio.md to reality. Lesson for housekeeping: the live trading environment's memory writes were never committed to this branch, so the record silently drifted. Going forward, ground every snapshot in a live Alpaca pull, not the last committed file.
+
+### Market context
+Market was open today (Tue 5/26); Mon 5/25 was Memorial Day (closed). SPY closed **$750.46**, up from Fri 5/22's **$745.67** → **+0.64%**. Constructive tape; we held nothing and captured none of it.
+
+### Portfolio watch
+No open positions. $99,840.95 all cash since the NVDA exit on 5/04 — ~15 trading days flat. Standing concern: zero market exposure = structurally cannot beat SPY. We are 0-for-the-period on being invested.
+
+### Buy candidates
+None scouted this routine (market-close is a reporting routine). NVDA's 5/20 earnings have now passed — re-scout it and the rest of the seed watchlist (AVGO, GOOGL, MSFT, PLTR, CRWD, PANW) fresh at next pre-market with post-earnings data.
+
+### Sell candidates
+None — no positions.
+
+### Day summary (market-close)
+- **Closing equity:** $99,840.95 (cash $99,840.95, 0 positions)
+- **Day P/L:** $0.00 (0.00%) — flat, 100% cash
+- **SPY day:** +0.64% (745.67 → 750.46)
+- **Alpha today:** **−0.64%** (we sat out a green day)
+- **Week-to-date:** portfolio 0.00% | SPY +0.64% | alpha −0.64% (week's only trading day so far)
+- **Trades placed today:** none
+- **What worked:** Nothing to manage = nothing broke. The earlier NVDA exit was textbook risk discipline (10% trail did its job; loss capped at −3.16%, well inside the −7% hard floor).
+- **What didn't:** Being all-cash for ~3 weeks. The trailing stop got us out, but we never redeployed — opportunity cost is now the dominant risk, not drawdown. SPY has been grinding up while we watch.
+- **Open questions for tomorrow:** (1) Best post-earnings re-entry from the seed watchlist now that NVDA/others have printed? (2) Should the next pre-market deploy a 2-name starter basket to stop the cash drag, or wait for a high-conviction single name? Flag for the weekly review whether sitting in cash this long is a discipline failure vs. genuinely no setup.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

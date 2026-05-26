@@ -1,22 +1,43 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-26 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.64,
+  "alpha_week_pct": -0.64,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-26 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day +0.0% · SPY +0.6% · alpha −0.6%",
+      "body": "Quiet day, but the real issue: we're 100% cash and have been for ~3 weeks, so when SPY rose +0.6% we made 0% — lagging the market by 0.6%. Reconciled the records too: an NVDA trade (bought 4/22, trailing stop sold it 5/04) closed for a small −$159 loss, which is why equity is $99,841 not $100,000. The trade was disciplined; we just never redeployed. Priority tomorrow: scout 1–2 names and put cash back to work."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
       "headline": "Still halted — API keys still missing (second routine in a row).",
-      "body": "Same halt as this morning's market-open. No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no Perplexity calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions — nothing at risk, but nothing is being watched either. Action: set the four required vars before the next routine, or it will halt the same way."
+      "body": "Same halt as this morning's market-open. No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no Perplexity calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions — nothing at risk, but nothing is being watched either. Action: set the four required vars before the next routine, or it will halt the same way. (Note 5/26: this was wrong — the live environment WAS trading NVDA at the time; see today's reconciliation.)"
     },
     {
       "ts": "2026-04-22 08:30 CT",

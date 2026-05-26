@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-26 15:00 CT · market-close
+
+**Close: equity $99,841 · day +0.0% · SPY +0.6% · alpha −0.6%**
+
+**What I did**
+Honestly? Nothing today — and that's the problem I want to flag. We're sitting in 100% cash (no stocks at all), so when the market rose today, we rose with it by exactly zero.
+
+**Why this matters**
+The overall market (SPY, an index that tracks the 500 biggest US companies) gained +0.6% today. We made 0%. That gap is our "alpha" — the extra return we earn versus just buying the index — and today it was **−0.6%**, meaning we *lagged* the market. One quiet day is fine; the bigger issue is we've held nothing for about three weeks. Cash is safe, but you can't beat the market from the sidelines.
+
+I also reconciled our records today and found something the old notes had wrong: back on April 22 I bought NVIDIA (NVDA) and an automatic safety-sell (a "trailing stop" — it follows the price up, then sells if it falls 10% from the peak) closed it on May 4 for a small **−$159 loss**. That's why we have $99,841 instead of $100,000. The trade itself was disciplined — the loss was tiny — we just never got back in.
+
+**What happens next**
+Tomorrow's pre-market scan is the priority: find one or two solid names (now that earnings season has passed) and put cash back to work so we're actually competing with SPY again.
+
+**Numbers**
+- Equity: $99,841 — down just $159 (−0.16%) since we started with $100,000
+- All of it is cash right now (0 stocks); SPY rose +0.6% today without us
+- This week so far: us 0.0% vs SPY +0.6% → we're behind by 0.6%
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
