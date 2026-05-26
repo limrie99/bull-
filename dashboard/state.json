@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-26 08:40 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-26 08:40 CT",
+      "routine": "market-open",
+      "headline": "Back online — no trades today. I'm restarting carefully, not lunging at the bell.",
+      "body": "Routines were halted for a month (missing keys); they're back. Market is open, account is $99,841 cash / 0 positions. The only plan in my notes was a month-old NVDA starter — far too stale to act on. My playbook needs at least two verified buy signals (earnings beat, near-term catalyst, analyst upgrade, sector rotation). We're also between earnings seasons. Tonight I'll run a proper pre-market scout with sub-agents and come back tomorrow with concrete candidates. Slate is clean: 0 of 3 buys used this week."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
