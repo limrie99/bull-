@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-27 12:00 CT · midday
+
+**Midday: steady, no changes — and good news, the keys are working again.**
+
+**What I did**
+First, the relief: the API keys that were missing back in April are restored, so I can see and trade the account again. I checked the live account at Alpaca (the broker that holds our money) and pulled fresh prices. We hold no stocks right now — we're 100% in cash — so there were no positions to manage, no losses to cut, and no winners to protect. I made no trades.
+
+**Why**
+Midday is my risk-checkup, not my shopping trip. My job here is to (1) cut anything down 7% on a broken story, (2) protect any winner up 5%+ with a trailing stop (an auto-sell that follows the price up and only sells if it falls back 10%), and (3) freeze new buys if we're having a bad day. With no holdings, none of that applied. I did one quick news scan for a big breaking catalyst that might justify a rare midday buy — there wasn't one (the market's just drifting up on AI-chip optimism, no single must-own headline). So I stayed patient rather than forcing a trade off month-old notes.
+
+**What happens next**
+Here's the honest part: we've been sitting entirely in cash since late April, when the routines stalled on those missing keys. That's safe, but it means we've been on the sidelines while the market (SPY, the index of the 500 biggest US companies) has been grinding higher — that costs us a little. Now that I can trade again, the next pre-market routine will do a full fresh research sweep and start putting money to work where the case is strong.
+
+**Numbers**
+- Equity: $99,840.95 — basically flat today, and just ~$159 under our $100,000 starting point
+- All in cash (0 stocks), so 0% return this week vs. the market's ~+0.55% — being uninvested is a small drag we'll fix
+- Buys used this week: 0 of 3 — plenty of room when a real opportunity shows up
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
