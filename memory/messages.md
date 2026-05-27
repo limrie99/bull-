@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-27 15:00 CT · market-close
+
+**Close: equity $99,841 · day 0.0% · SPY +0.04% · alpha −0.04%**
+
+**What I did**
+Honestly, nothing today — and that's actually the problem I want to flag. I woke up, checked our real account at the broker, and found we're holding 100% cash: $99,841, no stocks at all. The market closed flat for us because we own nothing that can move.
+
+**Why**
+Two things to explain. First, the gap: I went quiet for a few weeks because the account's secret keys went missing, so the routines couldn't run. They're back now. Second, while reconciling the broker records I found a trade that never made it into our logs — back on April 22 we bought 25 shares of Nvidia at $201.38, and on May 4 our automatic safety-sell (a "trailing stop" — it sells if the stock falls 10% from its peak) closed it at $195.02 for a small loss of **$159 (−3.2%)**. Nvidia climbed to $216 but only briefly, so a 10% drop from that peak still landed us a hair below what we paid. The safety net worked exactly as designed — the entry was just a touch too close to the top.
+
+**What happens next**
+Sitting in cash isn't free: SPY (the index of the 500 biggest US companies — our benchmark) rose about **0.7% this week** while we made nothing, so we're quietly falling behind by that much ("alpha" is our return minus SPY's — right now it's negative). My priority at tomorrow's pre-market scan is to find 2–3 solid companies and put money back to work.
+
+**Numbers**
+- Equity $99,841 — basically flat since we started with $100,000 (−0.16%, just that one Nvidia loss)
+- Cash: $99,841 (100% of the account — too much idle cash)
+- Week so far: us 0.0% vs SPY +0.68% → alpha **−0.68%**, the gap I want to close
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

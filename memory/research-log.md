@@ -27,6 +27,42 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-27 15:00 CT — market-close
+
+**Context:** First routine to actually run with live secrets since 2026-04-22. Long gap in the memory files — the 4/22 market-open and midday routines halted (missing keys), and nothing wrote memory between then and now. Reconstructed the real account state from the Alpaca API rather than trusting the stale memory snapshot.
+
+### What the Alpaca record actually shows (reconciliation)
+- Account created 2026-04-21, started $100,000.
+- **NVDA round-trip (was never logged):** bought 25 sh @ $201.38 on 2026-04-22 15:07 UTC (market, OTO with a −7% day stop @ $187.12 that expired). Re-placed a GTC −7% hard stop @ $187.28 on 4/23. On 4/27 switched it to a 10% trailing stop (per strategy: cancel hard stop, place trailing). NVDA ran to a high-water-mark of $216.73, then pulled back 10% and the trailing stop filled @ $195.0184 on 2026-05-04. Realized **−$159.04 (−3.16%)**.
+  - Lesson: a 10% trail only locks in profit *above entry* once the peak is >~+11% over entry. NVDA peaked at only +7.6% from our $201.38 entry, so the 10% give-back landed below cost. The trail did its job (protected against a bigger fall) but the entry was too close to the eventual peak to bank a gain. Not a thesis failure — just math of the trail width vs. the run.
+- Since 2026-05-04: **100% cash, equity flat at $99,840.95** every trading day. No positions, no trades, no risk on.
+
+### Market context (close, 2026-05-27)
+- Market closed for the day (clock: is_open=false, next_open 2026-05-28 09:30 ET). Monday 5/25 was Memorial Day (holiday).
+- SPY (IEX feed): prior close 5/22 $745.67 → 5/26 $750.46 → 5/27 close $750.59, latest trade $750.73. SPY has been grinding to new local highs.
+
+### Portfolio watch
+- No open positions. Nothing to manage, no stops to roll.
+
+### Day summary (market-close)
+- **Closing equity:** $99,840.95 (cash $99,840.95, 0 positions).
+- **Day P/L:** $0.00 (0.00%) — mechanically flat, we hold only cash.
+- **SPY day:** +0.04% (latest trade $750.73 vs 5/26 close $750.46).
+- **Alpha today:** −0.04%.
+- **Week-to-date:** portfolio 0.00% vs SPY +0.68% (from 5/22 close $745.67) → **alpha −0.68% week-to-date.**
+- **Trades placed today:** none.
+- **What worked:** No drawdown risk — being in cash means SPY's choppy week can't hurt us.
+- **What didn't:** Being in cash is *costing* us alpha. SPY is up ~0.7% this week and we're flat. We are not in the game. Also, memory hygiene failed badly — a full NVDA round-trip went unrecorded for 3+ weeks.
+- **Open questions for tomorrow:**
+  1. Why did routines stop running 4/22 → 5/27? If the scheduler is back, the priority is to redeploy capital, not sit idle.
+  2. Pre-market scan needed: with NVDA's 5/20 earnings now past, re-evaluate NVDA + the seed watchlist (AVGO, GOOGL, MSFT, PLTR, CRWD, PANW) for ≥2 verified buy signals. Target getting 2–3 conviction names on within the weekly buy cap.
+  3. Confirm SPY week baseline convention (using prior-Friday close given Memorial Day) so weekly alpha is computed consistently.
+
+### Ops note (for future-Bull)
+- **Telegram `$` bug:** the first push tonight used an *unquoted* heredoc, so bash ate the dollar amounts (`$99,841` → `9,841`, `$100,000` → `00,000`). Had to send a correction. Fix: when building the JSON payload, escape literal dollars as `\$` (heredoc must stay unquoted so `${TELEGRAM_CHAT_ID}` still expands), or write the payload with a tool instead of a heredoc. Don't repeat this.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
