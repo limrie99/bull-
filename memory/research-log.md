@@ -27,6 +27,63 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-27 06:00 CT — pre-market
+
+**Timing note:** First live routine since secrets were restored (the 4/22 market-open and midday routines both HALTED on missing keys, so the planned NVDA starter was never executed — and that context is now ~5 weeks stale, so this is a clean-slate scout, not a resume). APIs verified live: Alpaca 200 (account, positions, clock, market data), Perplexity 200 (3 sub-agents). Market closed, next_open 2026-05-27 09:30 ET. Account: **equity $99,840.95, all cash, 0 positions** (essentially the full ~$100K seed still uninvested). Three sub-agents fanned out in parallel — macro, earnings, opportunity scout.
+
+**⚠️ Price-source discrepancy (important):** The scout's Perplexity prices came back anchored near training-era levels and were badly stale on several names. I re-pulled Alpaca latest-trade as the authoritative tradeable price. Use ALPACA numbers below. Re-verify all next-earnings dates against IR pages before any order.
+
+| Symbol | Scout (Perplexity, stale) | Alpaca latest trade (authoritative) |
+|---|---|---|
+| LLY | ~$840 | **$1,066.70** |
+| GOOGL | ~$175 | **$388.13** |
+| AVGO | ~$424 | **$422.82** (matched) |
+| AMD | ~$165 | **$504.51** |
+| NOW | ~$760 | $99.98 — **ANOMALOUS, distrust** (ServiceNow trades ~$900+; bad/stale tick) |
+| SPY | — | $750.46 |
+
+### Market context
+Tape is **mildly risk-on** into the open, but thin conviction and a couple of cross-currents.
+- **Futures:** ES +0.10%, NQ +0.07% — flat-to-slightly-green.
+- **Rates:** 10Y ~4.56% (−1 bp), 2Y ~4.8–4.9% (mild curve inversion). Levels approximate per Perplexity — not exact intraday stamps.
+- **FX/Commodities:** DXY softer (~104–105, drifting lower). **WTI crude ~$113.70, +1.15% — elevated; this is the inflation/energy cross-current to watch.** Gold ~$4,669, +0.4%.
+- **Global:** Asia mixed-to-up (Hang Seng +2.04%, Nikkei flat). Europe green (DAX +0.69%, FTSE +0.71%).
+- **Headlines:** (1) Indices drifting near records on AI/chip strength; (2) easing Middle-East tension / US-Iran negotiation optimism lifting risk appetite; (3) hawkish Fed backdrop — April FOMC minutes flagged sticky inflation, further tightening on the table; (4) inflation expectations sticky (UMich 1yr 4.8%); (5) firm crude keeps energy/inflation watch alive.
+- **Scheduled US data today:** none firmly confirmed for 2026-05-27 (Perplexity pattern-guessed Durable Goods / Pending Home Sales / EIA — treat as indicative, not verified).
+- **Net:** mildly risk-on; biggest swing factor is geopolitics (US-Iran headlines) against a still-hawkish Fed; high oil is the cross-current.
+
+### Portfolio watch
+No open positions. $99,840.95 cash, 0 positions, daytrade_count 0. Nothing to manage, no stops to roll. Buying capacity for up to 5 positions; week-buy counter resets fresh (max 3 new buys this week).
+
+### Earnings calendar (2026-05-27)
+- **No large-cap ($10B+) US name confirmed reporting today**, BMO or AMC. Two independent Perplexity passes both failed to confirm any megacap for 5/27. Today is **macro-driven, not earnings-driven.**
+- **COST (Costco) confirmed for TOMORROW 2026-05-28 AMC** — not today. A consumer-spend tape-setter to watch Thursday; do NOT open COST inside its 3-day earnings blackout.
+- Names that *historically* print late-May/early-June but were **NOT confirmed for today** (do not treat as fact): SNPS, HPE, PANW, AVGO, CRWD, MDT, NTAP. These feed into the blackout checks below.
+
+### Buy candidates (signals matched + conviction)
+Signal key: 1=earnings beat last wk, 2=catalyst <30d, 3=secular tailwind, 4=upgrades/insider buys <2wk, 5=sector rotation, 6=clear uptrend. Need ≥2. (Note: no name hits signal 1 today — there were no recent prints — so these lean on 3/4/6.)
+
+1. **LLY — $1,066.70 — signals 3, 4, 6 — conviction HIGH.** GLP-1/obesity secular tailwind (Zepbound/Mounjaro demand), multiple analyst price-target hikes in May, strong uptrend near record highs. Next earnings **Aug 5 — well clear of the 3-day blackout.** Cleanest fit on the board; the only name simultaneously hitting tailwind + upgrades + price-trend with zero near-term earnings landmine. At ~$1,067/share a 15% target (~$15K) ≈ 14 shares.
+2. **GOOGL — $388.13 — signals 3, 4, 6 — conviction MED-HIGH.** AI/Cloud + Gemini momentum + ad strength; bulge-bracket PT hikes post-Q1; near highs. Next earnings **Jul 23 — clear.** No near-term earnings risk.
+3. **AVGO — $422.82 — signals 3, 4, 6 — conviction MED.** AI accelerator/custom-silicon + networking demand; mid-May target hike; uptrend above 50-day. Next earnings **~Jun 12 (VERIFY) — ~12 trading days out, outside blackout for now**, but would need to be exited or consciously held before that print.
+4. **AMD — $504.51 — signals 3, 4, 6 — conviction MED.** Data-center GPU pipeline ramp; mid-May upgrades/PT hikes; uptrend. Next earnings **~Jul 30 — clear.**
+5. **NOW — price ANOMALOUS — conviction LOW / PARKED.** Enterprise-AI/workflow tailwind thesis is fine, but Alpaca returned $99.98 for NOW which can't be right for ServiceNow — drop until price is re-verified. Weakest of the five regardless.
+
+**Excluded:** PLTR (signal strength unverified), CRWD (no recent beat + next ER ~Jun 4 leaves a thin window), PANW (3-month trend flat — fails uptrend signal 6 — and ER ~Jun 3 near), NVDA (reported May 20, now drifting lower — fails uptrend signal 6).
+
+**Net plan for the 09:30 open (market-open routine):** No clean signal-1 (fresh-beat) name today, but **LLY is a genuine ≥3-signal HIGH-conviction setup with a clean earnings runway.** Recommend the market-open routine: (a) re-pull live Alpaca quotes for LLY/GOOGL/AVGO/AMD and re-verify AVGO's Jun-12 date; (b) if macro tone is still constructive at the open (ES not sharply red, oil not spiking hard), **initiate LLY at ~15% (~$15K, target-size for high conviction) with the −7% hard stop** as the first position; (c) optionally add GOOGL as a second med-high name at ~10–12% if it confirms; (d) keep ≥2 of the 3 weekly buys in reserve and hold the 10–20% cash buffer. If futures flip sharply risk-off or oil gaps up hard pre-open, scale back to LLY-only or pass.
+
+### Sell candidates
+None — no open positions.
+
+### Notes / research gaps to close next routine
+1. **Re-verify earnings dates** for AVGO (~Jun 12), CRWD (~Jun 4), PANW (~Jun 3), ORCL (~Jun 10) against IR pages — these June reporters drive blackout timing.
+2. **Confirm NOW's real price** — the $99.98 Alpaca tick is almost certainly bad/stale; don't act on it.
+3. Perplexity data quality was weak this run (two of three follow-up calls partially refused; prices stale). Anchor all prices to Alpaca latest-trade, not Perplexity.
+4. Watch crude — WTI ~$114 is high enough to be an inflation cross-current; a further spike flips the risk-on tone.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
