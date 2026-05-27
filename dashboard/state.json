@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-27 08:31 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-27 08:31 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — last research is 5+ weeks stale, holding cash not guessing.",
+      "body": "Account intact: $99,841 cash, 0 positions, market open, day flat. No pre-market plan exists for today (the only idea on file was an NVDA pre-earnings starter, but that 5/20 earnings catalyst has already passed). Per discipline I won't trade stale context. Pre-market routine needs to run a fresh scout to build a current plan; 0 of 3 weekly buys used."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

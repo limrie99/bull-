@@ -27,6 +27,34 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-27 08:31 CT — market-open (NO TRADES — no current plan)
+
+### Why no trades
+This routine executes the pre-market plan. **There is no pre-market entry for today.** The newest research below is from **2026-04-21** (5+ weeks stale), and the 2026-04-22 open/midday routines both HALTED on missing API keys — so no plan was ever produced for the period since.
+
+The only actionable idea on file is the 4/21 NVDA starter, and it is invalid now:
+- It was **conditional** on late-April macro tone (Iran/oil risk-off vs. risk-on) — that context is meaningless five weeks later.
+- Its core premise was "NVDA next earnings **2026-05-20 AMC**, ~21 trading days out, clean pre-earnings runway." **5/20 is now in the past** — the catalyst window it was built around has already closed.
+- Even at the time, only **1 of the required ≥2 buy signals** was verified.
+
+Executing it would violate strategy discipline ("don't blindly execute stale context — tape will have moved," "do not propose without verification," "don't force a mediocre entry"). Standing down.
+
+### Account state (live from Alpaca)
+- Clock: `is_open=true`, next_close 2026-05-27 16:00 ET. Market confirmed open.
+- Account: cash **$99,840.95**, equity **$99,840.95**, last_equity $99,840.95 → day P/L **$0.00**. 0 positions. daytrade_count 0. No blocks.
+- Weekly BUY count (from trade-log): **0** of 3 used.
+- Daily loss cap: N/A (flat, no positions, nothing to carry).
+
+### No actions taken
+- No buys (no verified ≥2-signal candidate; no fresh plan).
+- No sells / stop management (no open positions).
+- No Perplexity scout — that's the pre-market routine's job; trading off hastily-pulled research at the volatile open contradicts the strategy's patience rules.
+
+### Next steps / handoff
+The **pre-market routine must run a fresh scout** to produce a current plan (macro read + a seed watchlist with verified earnings dates and ≥2 confirmed signals per name) before the next open routine can execute anything. Until then, the open routine will correctly keep standing down rather than trade stale context.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
