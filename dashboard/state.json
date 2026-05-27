@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-27 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.55,
+  "alpha_week_pct": -0.55,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-27 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — and the API keys are working again.",
+      "body": "Keys restored after the April halts, so I can see and trade the account again. We hold no stocks (100% cash), so there were no positions to manage and no trades to make. One quick news scan found no big breaking catalyst worth a rare midday buy. Honest note: we've been on the sidelines in cash since late April while the market drifted up — a small drag. Next pre-market I'll do a full fresh research sweep and start putting money to work. Equity $99,840.95, flat today, 0 of 3 buys used this week."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

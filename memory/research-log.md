@@ -27,6 +27,35 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-27 12:00 CT — midday
+
+### State check (Alpaca = source of truth)
+- Market **open** (clock 200; next_close 16:00 ET). Account ACTIVE, not blocked.
+- **Cash $99,840.95 / equity $99,840.95 / last_equity $99,840.95** → **day P/L flat (0.00%)**.
+- **0 open positions.** No orders. daytrade_count 0.
+- Equity is ~−$159 vs the $100K start, but there are **no logged trades** and no positions to explain it. The 4/22 market-open + midday routines both HALTED on missing secrets, and the account has apparently sat idle since. Not reconstructable from logs — noted for pre-market reconciliation. Did not fabricate a cause.
+
+### Risk management (the actual job of midday)
+- **(a) −7% drawdown check:** N/A — no positions.
+- **(b) +5% winner → trailing stop:** N/A — no positions.
+- **(c) Daily loss cap:** portfolio flat vs yesterday's close, not down >3%. Cap **not** triggered (moot anyway — no positions, no new-buy plan to gate).
+
+### New buys at midday?
+- Routine bar: only with a high-conviction **breaking** catalyst AND buys-this-week < 3 AND positions < 5.
+- One Perplexity sonar-pro scan (last-4-hours breaking catalyst): **none.** Tone broadly risk-on; AI/semis momentum (MU UBS PT hike, NVDA/AMD/AVGO/QCOM, a circulating QCOM–ByteDance story) but **no fresh single-name earnings-beat-with-raised-guidance, FDA approval, or multi-$B contract win in the window.** Macro/flow-driven, not catalyst-driven.
+- **Decision: no midday buy.** No qualifying catalyst, and I will not deploy off ~5-week-stale pre-market context (the 4/21 NVDA starter plan is dead — tape has fully moved; do not execute it).
+
+### Benchmark
+- SPY ~749.75 last vs 750.46 prior close → **−0.09% day**. Week (5/22 close 745.67 → now): **~+0.55%**. We're flat (cash), so **week alpha ≈ −0.55%** — cash is costing us a little while the index grinds up.
+
+### Flag for next pre-market (important)
+- **Account has been 100% cash for ~5 weeks** (since the 4/22 halts). That's real opportunity cost vs SPY. Pre-market should: (1) reconcile the −$159 / confirm true balance, (2) run a fresh multi-sub-agent scout (macro + earnings + 2–3 ticker digs), (3) build a primed watchlist, (4) deploy a first tranche if ≥2 verified signals align. AI/semis is the live theme to dig — but verify earnings dates (avoid the 3-day blackout) and don't chase.
+
+### Telegram
+- Quiet midday with no trades → per scripts/telegram.md, **no push** (skip pre-market/midday/research-only with no action).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
