@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-27 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-27 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Back online — first real candidate is Eli Lilly (LLY). No trades yet; plan set for the open.",
+      "body": "Secrets restored after the 4/22 halts — we're still 100% cash (~$99,841), so zero risk taken while we waited. No large-cap reports earnings today (Costco is tomorrow, steering clear). Tape mildly risk-on; oil is the one cross-current. Scout's top pick: LLY — GLP-1 weight-loss tailwind + analyst price-target hikes this month + strong uptrend, next earnings Aug 5 (clear of blackout), HIGH conviction. Backups: GOOGL (med-high), AVGO/AMD (med). Plan: re-check live prices at the 8:30 CT open and, if calm, start LLY at ~15% (~$15K) with a -7% hard stop, keeping cash in reserve. No trades in this routine — market closed."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

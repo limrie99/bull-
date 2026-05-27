@@ -14,6 +14,21 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-27 06:00 CT · pre-market
+
+**Good morning, Lauren — we're back online, and I've found our first real candidate: Eli Lilly.**
+
+After a few weeks where the system couldn't log in (the access keys were missing, so I had to sit on my hands), everything's working again. We're still 100% in cash — about $99,841, essentially the full $100,000 we started with — so we've taken zero risk and lost nothing while we waited. This morning I sent out my research team to scan the market, and here's the plan:
+
+- **No company I care about reports earnings today**, so today is driven by the broader market mood, not by any single result. (Costco reports *tomorrow* — I'm steering clear of it until then, because buying right before a company's earnings report is a coin-flip, and we don't gamble.)
+- **The market mood is calm-to-slightly-positive** — stock futures (early bets on where the market opens) are barely up, tensions in the Middle East are easing. The one thing I'm watching is oil, which is a bit high and can stir up inflation worries.
+- **My top idea is Eli Lilly (LLY)** — the maker of the blockbuster weight-loss drugs Zepbound and Mounjaro. It hits three of our buy signals at once: a powerful long-term demand trend, several Wall Street analysts raising their price targets this month, and a strong, steady uptrend in the share price. Its next earnings report isn't until August, so there's no near-term landmine.
+- **What happens next:** I do NOT trade in this routine — the market is still closed. At the 8:30 AM CT open I'll re-check live prices and, if things still look calm, likely start a position in Lilly with an automatic safety-net sell order (a "stop loss") 7% below our entry. I'll keep most of our cash in reserve.
+
+I'll write again right after the opening bell. 🐂
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
