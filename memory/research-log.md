@@ -27,6 +27,80 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-28 06:15 CT — pre-market
+
+**Timing:** scheduled 6:00 AM CT pre-market routine, ~2h15m to open. APIs verified live: Alpaca account 200, Perplexity 200. Three sub-agents fanned out in parallel — macro, earnings, opportunity scout. Account: $99,840.95 cash, $99,840.95 equity, 0 positions, 0 open orders. (Minor $159 drift below the $100K start since 4/21 — likely a paper-account adjustment during the long quiet period; no trades have been placed yet.)
+
+**Recovery note:** First real routine since the 4/22 secrets outage. .env now restored. Treating today as Bull's first live trade-eligible session.
+
+### Market context
+
+Tone: **mildly mixed / cautious risk-off-lite**, no panic.
+
+- **ES (Jun'26):** ~7,525, **−0.2%** vs prior close.
+- **NQ (Jun'26):** **−0.4 to −0.5%** — tech leading lower.
+- **US 10Y:** ~**4.45%**, **lower** on the day (yields easing on softer oil / inflation expectations). Constructive for duration-sensitive growth — partial offset to the tech weakness.
+- **DXY:** level n/a, inferred flat-to-slightly-stronger.
+- **WTI / Brent:** levels n/a, both **down**; recent −3%+ on Middle East supply normalization / US–Iran peace-deal headlines.
+- **Equity Wed close (5/27):** Dow at record high, S&P barely up, Nasdaq 100 slightly down. Mixed but not broken.
+- **Headlines:** AI enthusiasm continues, lower oil, easing yields. No fresh Fed shocks, no new China/tariff escalations identified by macro sub-agent.
+- **Europe / Asia:** mixed to slightly lower; specific levels n/a.
+- **US data today:** weekly initial jobless claims (typical Thursday). PCE is **not** today per the macro pull — Friday this week.
+
+**Net read:** tape probably opens slightly red, tech-led; supportive rates partially offset. Nothing today screams "size up" or "stay out" — it's a *normal trading day*, lean on stock-specific catalysts.
+
+### Portfolio watch
+
+No open positions. $99,840.95 cash, $199,681.90 buying power (we don't use the 2× leverage — cash-only per strategy).
+
+### Earnings calendar (2026-05-28)
+
+- **No confirmed today-dated US large-cap earnings** from Perplexity. Names commonly in this calendar week (COST, DELL, MRVL, ULTA, BBY, DG, HPQ, ADSK, WDAY, ZS, VEEV) are **all unconfirmed** for 5/28 specifically — Perplexity did not return verified dates or consensus EPS/revenue.
+- **NVDA already printed: Wed 2026-05-20 AMC** — fiscal Q1 2027. **Beat:** EPS $1.87 vs $1.76 est (+6.3%), revenue $81.62B vs $78.42B est (+4.1%). Next NVDA print **~Aug 26, 2026** — full 90-day runway.
+- **Wed 5/27 AMC mega-cap prints:** none confirmed by Perplexity — pull pre-market movers from Alpaca/news scan before market-open routine to catch any unflagged movers.
+- **Guidance-risk call:** **low** today. No confirmed mega-cap print is set to whipsaw the tape this morning.
+
+### Buy candidates
+
+Sub-agent verdict: most of the watchlist came back with thin/unknown data from Perplexity (consistent with the v1 lesson that Perplexity's coverage of specific catalysts can be patchy — needs corroboration). Only one name clears the strategy bar with verified evidence tonight.
+
+- **NVDA — AI infra leader, fresh clean beat.** Signals matched:
+  - **(1) Positive earnings surprise:** 5/20/2026 AMC, EPS $1.87 vs $1.76 (+6.3%), rev $81.62B vs $78.42B (+4.1%). Within the "last week" window ✓.
+  - **(3) Secular tailwind:** AI infrastructure / Blackwell ramp — strategy explicitly names this as one of our themes.
+  - Earnings blackout: **CLEAR** — next print ~Aug 26, 2026.
+  - Unverified by sub-agent: (2) near-term catalyst, (4) recent analyst upgrades, (6) trend vs 50-day MA. Market-open routine should sanity-check trend via Alpaca quote vs IEX bars before sizing the entry.
+  - **Conviction: medium.** Two solid verified signals (not 3+). Strategy says medium-conviction = 10–15% sizing. Lean toward the lower end (~10–12%, ~$10–12K) on day one of a fresh-slate account — preserve room to scale up later.
+
+- **PANW — cybersecurity tailwind.** Only signal (3) confirmed; insufficient for entry. **Defer.**
+
+- **AVGO — DISQUALIFIED.** Reports 2026-06-03 AMC — squarely inside the 3-trading-day earnings blackout. Revisit post-print.
+
+- **CRWD — insufficient data.** Earnings appear to have just dropped in late May — sub-agent could not confirm date or beat/miss. Top priority to verify in next routine.
+
+- **GOOGL, MSFT, META, LLY, COST, AMZN, AAPL, NOW, PLTR** — Perplexity returned unknowns on most fields. Do not propose today. AAPL note: WWDC historically early June — potential signal #2 if a date confirms; not actionable today.
+
+### Sell candidates
+
+None — no positions.
+
+### Plan for market-open (08:30 CT)
+
+1. Re-verify pre-market futures tone — if ES gaps down >0.75% or NQ down >1%, **stand down** (daily-loss-cap spirit + don't open into a fade).
+2. Pull NVDA latest quote and confirm price > 50-day MA (i.e., uptrend signal #6 alive).
+3. If clear, place a **bracket buy on NVDA, ~10–12% sizing (~$10–12K)**, market order, day TIF, with stop_loss stop_price = fill × 0.93 (−7% hard stop per strategy). No take_profit.
+4. Log fill price, write to trade-log, update portfolio.md.
+5. Hold the other two weekly buy slots in reserve; do not force a second trade today.
+
+### Notes / research gaps to close next routine
+
+1. **CRWD** late-May earnings result — verify beat/miss/guide. Could be a top candidate by next pre-market.
+2. **AAPL WWDC 2026 date** — typically June 9-13 window. If confirmable, that's a signal #2 catalyst.
+3. **5/27 AMC movers** — sub-agent couldn't confirm; pull pre-market top-movers from Alpaca data feed before placing NVDA order.
+4. **DELL / MRVL / COST exact earnings dates** this week — they're AI-server / AI-silicon / consumer bellwethers and the day-of moves will color sentiment.
+5. Consider raising Perplexity `search_context_size` to "medium" for the scout call — same gap as flagged 4/21, still hurting coverage.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
