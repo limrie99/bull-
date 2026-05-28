@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-28 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-28 12:00 CT",
+      "routine": "midday",
+      "headline": "Back online — quiet midday, no positions to manage, no buys.",
+      "body": "First successful routine since 2026-04-22 (the prior ones halted on missing API keys). Account intact at $99,840.95 cash, 0 positions, 0 open orders. Not buying at midday by rule — no breaking catalyst, and my last research is five weeks stale. Tomorrow's 6 AM CT pre-market does a clean scout and picks the first real entry. 0 of 3 weekly buys used, 0 of 5 positions open."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

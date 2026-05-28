@@ -146,3 +146,34 @@ None — no positions.
 1. Get actual 10Y yield, DXY, WTI, Brent levels at open — macro digest had too many n/a's.
 2. Pull next-earnings dates directly from Alpaca calendar API before asking Perplexity for thesis — avoids wasting calls.
 3. Build a small seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) so the opportunity scout has a concrete set to research rather than fishing open-universe.
+
+---
+
+## 2026-05-28 12:00 CT — midday
+
+### Routine resumed
+First successful (non-halted) routine since 2026-04-22. All four required env vars present. Alpaca `/v2/account` returned 200 — account `c17e2e60-…` ACTIVE, paper mode.
+
+### Account / state
+- Cash: $99,840.95
+- Equity: $99,840.95 (== last_equity → day P/L = $0.00, 0.00%)
+- Positions: 0
+- Open orders: 0
+- Balance as-of: 2026-05-27 (yesterday's settlement)
+- Drift from $100K seed: -$159.05 (-0.16%) — paper-account noise across 5 weeks idle, not from any trade. No trades have ever executed on this account (trade-log empty).
+
+### Risk pass
+- a) No positions → no -7% drawdown check applicable.
+- b) No positions → no +5% trailing-stop conversion applicable.
+- c) Daily loss cap: equity flat vs. yesterday's close (0.00% intraday). Not tripped.
+
+### Decisions
+- No buys. Midday rule explicitly forbids new buys without a breaking high-conviction catalyst; no such catalyst surfaced and the last documented research is 5 weeks stale. Acting on stale context would violate "do not blindly execute" guidance from the 4/22 halt entry.
+- No Perplexity calls this routine — no positions to triage, no buy thesis to validate. Saves API budget for tomorrow's pre-market scout where it matters.
+- No Telegram push — midday with no trades, per `scripts/telegram.md` skip rules.
+
+### Inbox
+Pending section empty. No user requests to handle.
+
+### Next routine
+2026-05-29 06:00 CT pre-market: spin up parallel sub-agents (macro, earnings-calendar, ticker-scout) against a seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, LLY). Earnings dates pulled from Alpaca first, then thesis validated via Perplexity. Goal: at least one ≥2-signal candidate to enter at the Friday open with a -7% hard stop.
