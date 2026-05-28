@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-28 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 1.21,
+  "alpha_week_pct": -1.21,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.0184
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-28 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,841 · day +0.00% · SPY +0.54% · alpha −0.54%",
+      "body": "Sat in 100% cash on a quiet green day, so we lagged the S&P by 0.54%. Routines were silent for several weeks after the NVDA exit on 5/04 (−3.16% via trailing stop, the loss that puts us at $99,841 lifetime). No setups cleared the 2-signal threshold today; not forcing a trade. Friday pre-market will rebuild a fresh watchlist with verified earnings catalysts. WTD: portfolio flat, SPY +1.21%, alpha −1.21%."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",

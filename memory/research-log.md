@@ -27,6 +27,45 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-28 15:00 CT — market-close
+
+### Market context
+SPY closed at $754.68, **+0.54%** on the day (from yesterday's $750.59). Quiet upside drift, no major macro print on the tape. WTD SPY +1.21% (from last Fri 5/22 close $745.67).
+
+### Portfolio watch
+No open positions. $99,840.95 cash, all 5 slots open. Account has been 100% cash since the NVDA trailing-stop exit on 2026-05-04. Lifetime P/L vs $100K seed: −$159.05 (−0.16%) from that one trade.
+
+### Day summary
+- **Closing equity:** $99,840.95
+- **Day P/L:** $0.00 (0.00%)
+- **SPY day %:** +0.54%
+- **Alpha today:** −0.54%
+- **Week P/L:** $0.00 (0.00%) since last Friday's close ($99,840.95 throughout)
+- **SPY week:** +1.21%
+- **Alpha WTD:** −1.21%
+- **Trades placed today:** 0
+
+**What worked**
+- Risk discipline: no positions = no losses on a non-conviction day.
+
+**What didn't**
+- Opportunity cost: 100% cash on a green tape. SPY put up +0.54% today and we caught none of it.
+- Memory drift: routines had not run successfully since 2026-04-22 (env-var halts), so the NVDA exit on 5/04 was never journaled in real time. Back-filling now to trade-log for completeness.
+
+**Open questions for tomorrow**
+1. Pre-market scout needs to rebuild a 5-name watchlist with verified earnings dates and a near-term catalyst — we've been out of the market for ~5 weeks of tape we haven't researched.
+2. Macro reset: 10Y, DXY, WTI levels at Fri 5/29 open (last good macro read was 4/21).
+3. Any mega-cap earnings 5/29 worth fronting, or are we mid-earnings-lull? (Pull from Alpaca calendar before Perplexity.)
+4. NVDA reported on 5/20 (after our exit) — what was the print and the stock reaction? Worth a re-look if the thesis is intact.
+
+### Operational note
+Telegram push went out 3x due to bash emoji-escape and apostrophe-escape glitches. First message: emojis rendered as literal `\U0001F307`. Second: emojis fixed but apostrophes became `'''`. Third: clean (written via heredoc'd Python file at /tmp/tg_msg.py to bypass shell quoting). For future routines, prefer the Python-file approach for any Telegram message containing unicode + apostrophes.
+
+### Historical note (back-fill — see trade-log)
+The NVDA trade (buy 25 @ $201.38 on 2026-04-22 10:07 CT; exit 25 @ $195.0184 on 2026-05-04 10:21 CT via 10% trailing stop, HWM $216.73) was not journaled at the time because the 4/22 midday and subsequent routines halted on missing env vars. The −$159.04 (−3.16%) realized loss is what brings equity to $99,840.95 today. Logging it now in trade-log so the record exists; no double-count anywhere.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
