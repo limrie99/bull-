@@ -27,6 +27,40 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-28 08:32 CT — market-open
+
+### Coming back online after a 5-week halt
+- API keys are restored. Alpaca clock confirms market is open (`is_open: true`, next_close 2026-05-28 16:00 ET).
+- Account snapshot: equity $99,840.95, cash $99,840.95, 0 positions, 0 open orders, daytrade_count 0.
+- **Memory was out of sync with Alpaca.** Trade-log and portfolio.md showed "no trades yet" but Alpaca order history shows the 4/22 NVDA starter actually executed (buy 25 @ $201.38, OTO with a -7% stop @ $187.28). The bracket stop's day-TIF leg expired EOD 4/22; a fresh GTC stop was re-placed 4/23. On 4/27 it was swapped for a 10% trailing stop. The trailing stop fired 5/4 @ $195.0184 after NVDA peaked at $216.73 (high water mark in the order record). Net P/L: -$159.04 (-3.16%).
+- Reconciled retroactively: appended both NVDA legs to `memory/trade-log.md` and updated `memory/portfolio.md` with the close.
+
+### Market context (light pull — full scout deferred to next pre-market)
+- SPY $750.03 right now (5/28 mid-morning). 5/22 close $745.67 → week-to-date **+0.59%**. 4/22 open $709.14 → since-inception **+5.77%**.
+- Tape has clearly been **risk-on** during our offline window — SPY ground steadily higher (711 → 750) with low daily vol.
+- No fresh news / macro / earnings pull done this routine. The 4/22 pre-market plan is **stale (35 trading days old)**. Strategy says do not propose without verification — so no buys today.
+
+### Portfolio watch
+None — flat.
+
+### Buy candidates
+**None executed.** No fresh pre-market scout for today's open. Per strategy ("fundamentals-driven", "do not propose without verification"), I am NOT initiating positions off a 5-week-old plan or off price action alone. The right move is to run a proper pre-market scout for tomorrow's (Friday 5/29) open or, more usefully, for Tuesday 6/2 open since Monday looks like a long-weekend re-open (note: 5/26 Memorial Day already passed — Friday 5/29 is a regular trading day).
+
+### Sell candidates
+None — no positions.
+
+### Performance read since inception
+- Account: -0.16% in 5 weeks.
+- SPY: +5.77% same window.
+- **Alpha: -5.93%.** That's a real hole. It came from one round-trip that captured ~half of an NVDA move on the way up but gave back the rest, AND from being out of the tape entirely for 4 weeks while SPY ran. The lesson is uptime: when a routine halts on missing keys, we lose both ways — we don't manage risk on open positions AND we miss new setups.
+
+### Plan into tomorrow / next routine
+1. Today: midday/close routines should just monitor — no new entries without a real scout.
+2. Pre-market scout for 5/29 open (or whichever is the next scheduled pre-market routine): run the 3-sub-agent fan-out (macro, earnings, opportunity), build a fresh 6–10 name watchlist, confirm earnings dates, and propose a properly verified starter only if ≥2 buy signals are met.
+3. **Note for the weekly review:** raise this with the user — should we tighten the routine to "if memory is more than 3 trading days stale, force a fresh pre-market scout before any execution routine can place an order"? Right now there's no built-in guardrail for stale-research execution.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

@@ -14,6 +14,33 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-28 08:32 CT · market-open
+
+**Back online — catching you up on what happened while I was offline, and why I'm not buying anything this morning.**
+
+**What I did**
+Nothing new today — no buys, no sells. But I did discover something my records missed: way back on April 22, I actually *did* place that NVDA (Nvidia) starter trade we'd planned — 25 shares at $201.38, about $5,000 of the account. A "trailing stop" (a sell order that follows the stock price up — once a stock is winning, it slides up behind it and only triggers if the stock drops 10% from its peak) fired on May 4 at $195.02, after NVDA had peaked at $216.73 and pulled back. Net result: we lost $159 on that round-trip (-3.2%). I went back and logged both legs of that trade properly so our records match reality.
+
+**Why nothing today**
+My system was offline for about five weeks (the API keys were missing — your end, not mine). I've now got fresh keys, but I don't have a fresh "pre-market scout" — the research pass I do before each market open to figure out *what* is worth buying *today*. Our strategy says "fundamentals-driven only — don't trade without verification." A research note from a month ago isn't verification. So I'm sitting in cash this morning and I'll run a proper scout for tomorrow's (Friday's) open.
+
+**The honest scoreboard**
+While we were offline, the overall US market (SPY) ran from about $709 to $750 — that's **+5.8%**. We were essentially flat (-0.2%). So we're **about 6% behind the market** since inception. That's not where I want to be, and I want to be straight with you about it.
+
+**What happens next**
+- Midday and close routines today: monitoring only, no new trades.
+- Friday pre-market: I'll spin up sub-agents to scan macro, earnings, and a fresh watchlist, then propose 1–2 starter buys if the setups are clean.
+- I'll raise this in the weekly review: should the system block trading entirely if research is more than 3 days stale? Right now there's no safety net for that.
+
+**Numbers**
+- Cash: $99,840.95 (essentially all of it — we're 100% in cash heading into today)
+- Equity: $99,840.95 (started at $100,000, so -0.16% lifetime)
+- Open positions: 0 of our max 5
+- Buys used this week: 0 of 3
+- SPY today: ~$750, up about 5.8% since we started — we have ground to make up 🐂
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

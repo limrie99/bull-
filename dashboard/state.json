@@ -1,17 +1,38 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-28 08:32 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.59,
+  "alpha_week_pct": -0.59,
   "positions": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "date": "2026-05-04 10:21",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 195.02
+    },
+    {
+      "date": "2026-04-22 10:07",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 25,
+      "price": 201.38
+    }
+  ],
   "latest_messages": [
+    {
+      "ts": "2026-05-28 08:32 CT",
+      "routine": "market-open",
+      "headline": "Back online — no buys today; running a proper scout for Friday's open.",
+      "body": "Reconciled records: the 4/22 NVDA starter actually fired (25 sh @ $201.38), and the trailing stop sold on 5/4 at $195.02 after NVDA peaked at $216.73 — net -$159 (-3.2%). System was offline ~5 weeks while keys were missing. SPY ran +5.8% in that window; we were flat — so we're about 6% behind the market since inception. Not initiating new trades off stale research; will run a fresh sub-agent scout tomorrow morning."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
