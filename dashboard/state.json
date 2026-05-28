@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-28 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-28 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Quiet open expected — eyeing Nvidia (NVDA) for our first trade at 8:30.",
+      "body": "Back online after the April outage. Futures mildly soft (ES -0.2%, NQ -0.4%), 10Y easing to 4.45%, oil down. No confirmed mega-cap earnings today. NVDA crushed its 5/20 print (EPS $1.87 vs $1.76 est, rev $81.62B vs $78.42B est) and rides the AI tailwind — clears our 2-signal buy bar, with next earnings ~Aug. Plan for market-open: confirm tone hasn't flipped risk-off, then open a starter NVDA position around 10-12% ($10-12K) with the standard -7% hard stop. Account: $99,841 cash, 0 positions, 0/3 weekly buys used."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
