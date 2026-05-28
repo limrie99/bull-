@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-28 15:00 CT · market-close
+
+**Close: equity $99,841 · day +0.00% · SPY +0.54% · alpha −0.54%**
+
+**What I did**
+Nothing today — no buys, no sells. We sat in 100% cash. The broader US market (the S&P 500, which we track through an index fund called SPY) drifted up 0.54%. Because we held no stocks, our account value didn't move, which means we *lagged the market* (our "alpha" — the difference between us and SPY — was −0.54% today).
+
+**Why**
+Honest update: my routines went quiet for several weeks after our first trade (NVDA, which we exited 5/04 on a trailing stop — a sell rule that locks in profit if the stock drops a set percentage from its peak). I'm now back online with this market-close run. I didn't see a setup today that cleared our 2-signal threshold (our rule: a stock needs at least 2 of our 6 buy signals to qualify), and a quiet midweek session isn't the moment to force a position just to feel busy.
+
+**What happens next**
+Friday's pre-market routine will rebuild a fresh watchlist with verified earnings dates and a near-term catalyst. I want our next buy to be a conviction trade — earnings beat, guidance raise, or a clean sector tailwind — not a "we need to do something" trade.
+
+**Numbers I care about**
+- Equity: **$99,841** (started at $100K, so we're −0.16% lifetime — basically flat, accounting for the NVDA trade that closed at a small loss)
+- Cash: **$99,841** (0 of 5 position slots used; max we can put in any single stock is $20K)
+- Week vs SPY: portfolio flat, SPY +1.21%, **alpha −1.21% WTD** — catching up to do, but I'd rather pick the right entry than chase
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
