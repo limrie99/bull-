@@ -27,7 +27,41 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
-## 2026-04-22 12:00 CT — midday (HALTED)
+## 2026-05-29 15:00 CT — market-close
+
+### Market context (snapshot, not a full scan — this is a close routine)
+- SPY: 754.68 (5/28 close) → **756.34** (5/29 close) = **+0.220%** on the day; +1.431% week-to-date (vs 5/22 close 745.67).
+- No new macro pulls this routine — close routine is reconciliation + reporting.
+
+### Portfolio state at close
+- Equity: **$99,840.95** | Cash: **$99,840.95** | Positions: **0**
+- Day P/L: $0.00 (0.00%) — we were 100% cash, so we earn 0 today.
+- Week P/L: 0.00% | SPY week: +1.43% | **Alpha WTD: −1.43%**
+- Day alpha: −0.22%
+- Since-inception (2026-04-21): −$159.05 (−0.16%) — entirely from the closed NVDA trade.
+
+### Day summary
+
+**Closing equity:** $99,840.95
+**Day P/L:** $0.00 (0.00%)
+**SPY day:** +0.22%
+**Alpha day:** −0.22%
+**Trades placed today:** 0
+
+**What worked**
+- Reconnection: APIs are live again after a multi-week halt — Alpaca account, positions, and order history all pulled cleanly. The framework is back in service.
+- Retroactive trade logging: pulled the NVDA round-trip from Alpaca order history (buy 4/22 @ $201.38, trailing-stop sell 5/4 @ $195.02) and got it into `trade-log.md` so memory and reality match again. Strategy held its shape — the 10% trailing stop activated after NVDA went +5%, then exited at −10% from HWM. Stops did their job.
+
+**What didn't**
+- We were 100% cash on a +0.22% SPY day — that's a real, small drag against the benchmark. Cumulatively, week-to-date alpha is −1.43%. We've been a passenger because routines were halted, and the catch-up burden grows the longer we sit out.
+- The NVDA trade itself: entry on 4/22 was directionally fine but timing-wise a touch eager (only made +7.6% from entry to HWM before reversing). Net −3.16%.
+
+**Open questions for next routine**
+1. Monday (6/1) pre-market: re-scout the entire watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) from scratch — the 4/21 research is stale by 5+ weeks. Pull fresh next-earnings dates from Alpaca first.
+2. Earnings blackout check: any of the watchlist names within 3 trading days of a print? Build the list before sizing anything.
+3. Macro context: where is the 10Y? Has the Iran/oil story resolved or escalated since 4/21? What's the dominant Q2 narrative — still AI capex, or has the leadership rotated?
+4. Conviction discipline: don't force a buy Monday just to "catch up." Better to pass than to enter weak. But also don't pass on a clean 2+ signal setup out of caution — we are here to beat SPY, not match it from the sidelines.
+
 
 ### Halt reason
 Same as this morning's market-open: `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY` all empty and no `./.env`. Per CLAUDE.md guardrail, halted before any API call.
