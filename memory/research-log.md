@@ -27,6 +27,82 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-29 06:15 CT — pre-market
+
+**Routine wake-up.** First successful research routine after a 5-week gap (4/22 → 5/29). Account is alive: Alpaca returns $99,840.95 cash / $99,840.95 equity / 0 positions. Tiny $159 drift from the original $100K start (likely a paper-account quirk; no trades on record). APIs healthy: Alpaca 200, Perplexity reachable. Three sub-agents fanned out (macro / earnings / opportunity scout); macro & earnings came back thin (Perplexity declined live quotes & calendar data), scout returned 5 ranked names with one critical caveat (stale price levels on AVGO and GOOGL).
+
+### Market context
+**Tone: risk-on, broad-based.** Pulled cash bars directly via Alpaca (IEX feed) since Perplexity wouldn't quote live levels.
+
+Thursday 5/28 closes (confirmed via Alpaca):
+- **SPY 754.68 (+0.59%)**, latest indication 755.36
+- **QQQ 735.64 (+0.84%)**, latest 736.03
+- **IWM 292.07 (+0.57%)** — small caps participating
+- **TLT 85.72 (+0.50%)** — long bonds firm (yields easing)
+- **GLD 412.80 (+1.04%)** — gold up alongside equities (mildly dovish lean)
+
+Week-to-date (5/22 → 5/28):
+- SPY +1.21%, QQQ +2.53%, IWM +2.44% — tech leading, breadth healthy
+- TLT +1.24% — duration up means yields drifted lower on the week
+
+Macro headline context (per macro sub-agent, partially verifiable):
+- April PCE + Q1 GDP 2nd estimate released 5/28 — core PCE reportedly running >3% YoY into April → "higher for longer" risk remains the background concern, hostile to long-duration growth on any day they wake up.
+- No top-tier US data print confirmed for today; Chicago PMI and UMich final are typical end-of-month Friday prints but couldn't verify. Treat as "no scheduled catalyst" until confirmed.
+- Tariff-driven goods inflation remains an analyst overhang.
+- Fed under Chair Warsh — any speakers today will be parsed against yesterday's PCE.
+
+**Net read:** constructive open setup. Tech-led rally with bonds firm = a Goldilocks-ish tape into Memorial Day weekend follow-through Friday. Risk: light volume on a half-day-feel Friday can magnify moves either way.
+
+### Portfolio watch
+No open positions. $99,840.95 cash, $199,681.90 nominal buying power (strategy is cash-only / no leverage so usable is $99,840.95).
+
+### Buy candidates
+
+**Live prices re-verified via Alpaca — scout had stale levels on AVGO and GOOGL. Corrected below.**
+
+- **NVDA — high conviction.** Recent beat-and-raise per scout (FY revenue guide reportedly lifted from ~$140B to ~$165–169B on AI data-center demand). Price ~$214.14 (Alpaca latest, 5/28 close $214.27). Off recent ~$219 high by 2.4%. Next earnings ~2026-08-26 AMC → ~60 trading days out, well clear of the 3-day blackout. Signals matched: (#1) recent EPS+rev beat with raised guidance, (#3) AI-infra secular tailwind, (#4) analyst target hikes post-print, (#6) clear uptrend (Apr→May trend up despite minor consolidation last 5 sessions). **Four signals → high conviction.** Risk: $5T mcap means slow position, extended valuation. Mitigation: long earnings runway + clearest catalyst chain in the book.
+
+- **AVGO — med-high conviction.** AI-networking + custom ASIC pipeline. Price ~$431.94 (scout said ~$190 — that was wrong; corrected). Next earnings 2026-06-12 AMC → 10 trading days out, just outside blackout but the print is the catalyst & also a binary risk. Signals: (#2) earnings catalyst inside 30 days, (#3) AI-infra tailwind, (#4) multiple analyst target raises. **Three signals → med-high.** Best entry plan if taken: starter sizing (~7–10%) with explicit plan to trim or hold-through by 6/10. AMD's +15% weekly run-up (more on that below) is sympathetic-bullish for AVGO's AI-networking thesis.
+
+- **GOOGL — med-high conviction.** Price ~$389.75 (scout said ~$181 — wrong; corrected). Near record highs after Google I/O AI updates. Next earnings 2026-07-28 AMC → ~40 trading days out, clear. Signals: (#3) AI tailwind, (#4) analyst target hikes post-I/O, (#5) sector rotation into mega-cap AI, (#6) uptrend. **Four signals → med-high.** Risk: entry timing near ATH; a 1-2% pullback day would be a better tactical entry than a green open.
+
+- **LLY — med conviction, diversifier.** GLP-1/Mounjaro/Zepbound franchise. Price ~$1,127.36 (5/28 close, **+3.98% on the day vs prior** — single-day jump). Next earnings 2026-08-04 → ~46 trading days out. Signals: (#3) GLP-1 secular tailwind, (#4) maintained bullish targets, (#6) long-term uptrend. **Three signals → med.** Notes: $1,127 share price = odd-lot sizing; only buys ~13 shares per ~$15K slot. Pure healthcare diversifier away from the AI cluster.
+
+- **META — pass.** $635 well-extended (+4.6% on 5/27 alone). Capex narrative + concentration risk argue against adding another mega-cap-AI beta to the basket alongside NVDA / AVGO / GOOGL.
+
+**AMD wildcard.** Not in scout's top 5 but worth flagging: AMD +15.6% week (449 → 519), single-day +12% on 5/26. That's earnings-reaction-sized move — either AMD reported a blowout that I'm missing, or sector rotation is force-buying it. Need to verify the catalyst before sizing. Adds urgency to confirming the wider semis story.
+
+**CRWD — EXCLUDED.** Earnings 6/3 AMC = 3 trading days out → inside the 3-day blackout per strategy.
+
+**COST — EXCLUDED-ish.** Earnings 6/4 AMC = 4 trading days, edge of blackout. Compounded by COST being down -5.2% on the week (1,050 → 995) — no fresh-beat signal anyway. Pass.
+
+### Sell candidates
+None — no positions.
+
+### Decision plan for 8:30 CT market-open routine
+
+Bull is starting from 0/5 positions with full cash — this is the optimal moment to deploy thoughtfully. Recommended actions for the market-open routine (subject to a fresh check at the open):
+
+1. **NVDA — primary deploy.** ~15% size (~$15K). High conviction. Set −7% hard stop via Alpaca bracket order. Will need ~70 shares at $214.
+2. **GOOGL — secondary deploy.** ~10% size (~$10K) IF the open is not a vertical gap-up. ~25 shares at $390. Hard stop at −7%.
+3. **AVGO — starter only (~7%, ~$7K).** Earnings risk in 10 trading days. Will need to trim or close before 6/10. ~16 shares at $432. Set stop.
+
+Total deployed ~32% (~$32K) → leaves ~$67K cash for adds or to pick up LLY/the AMD story later in the week. Stays well inside the 3-new-buys-per-week cap and the 5-positions cap.
+
+**Pass conditions for the open:**
+- ES/NQ gap up >0.8% at open → buy half-size on NVDA only, no GOOGL/AVGO (chasing risk)
+- ES/NQ gap down >0.8% → buy NVDA full size + GOOGL half-size, hold AVGO until later in day
+- Macro shock headline overnight → pass entirely
+
+### Research gaps to close at market-open
+1. Verify NVDA's reported beat-and-raise date & guide figures with a fresh Perplexity call (scout's claims directionally sound but needs source confirmation).
+2. Verify AMD's +15% week catalyst — was there an event I'm missing?
+3. Confirm AVGO's 6/12 earnings date precisely (the 10-day count assumes no schedule change).
+4. Pull DXY, WTI, 10Y at the open — macro digest was n/a-heavy, want a real level on rates before sizing.
+5. Confirm whether any large-cap reported AMC 5/28 (earnings sub-agent returned nothing — possible they all reported earlier in the week).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
