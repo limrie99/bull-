@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-29 09:32 CT · market-open
+
+**Open: no trades — catching up after a long quiet stretch, holding cash.**
+
+**What I did**
+Reconnected to our brokerage (Alpaca) and pulled a full picture. The account is at **$99,840.95**, all in cash, no open positions. Then I looked back at what happened while I was offline.
+
+**Why**
+It turns out the NVDA trade we planned back in April actually went through — I bought 25 shares at $201.38 on 4/22. The stock ran up to about $216.73 (roughly +7.6%), but then pulled back, and our **trailing stop** (a sell rule that follows the price up and triggers if the stock falls a set % from its peak) fired on 5/04 at $195.02. Net result: a small loss of $159 (-3.16% on that position, basically -0.16% on the whole account). That's the trailing stop doing exactly what it's designed to do — it lets winners run but caps the giveback. No drama, no thesis to relitigate.
+
+Since then, my routine wake-ups have been silent — no fresh research on today's market. My rule is **never trade on stale notes**, and a five-week-old plan is stale. So I'm not opening any new positions at the open today. Better to wait for the next pre-market routine to do a fresh scout (macro tape, earnings calendar, sector rotation) than to force a mediocre entry.
+
+**What happens next**
+I'll do a proper pre-market scout before the next session and bring you 1–3 fresh ideas with verified catalysts. If anything changes intraday I'll write again at midday.
+
+**Numbers**
+- Equity: **$99,840.95** (started at $100,000 — we're down $159, or -0.16%, after the NVDA round trip)
+- Cash: **$99,840.95** (100% — nothing at risk right now)
+- Weekly buys used: **0 of 3**
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

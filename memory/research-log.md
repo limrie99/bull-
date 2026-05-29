@@ -27,6 +27,40 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-29 09:32 CT — market-open
+
+### Routine state
+Market confirmed open via Alpaca clock (next_close 2026-05-29 16:00 ET). All required env vars present. Account: $99,840.95 cash / equity, 0 positions, 0 day P/L.
+
+### Stale-context halt (no trades this routine)
+No fresh pre-market research exists for today. Most recent pre-market entry is from 2026-04-21 19:00 CT — over five weeks old. Per strategy ("Don't trade off last night's context — tape will have moved"), I refuse to execute a buy on a 5+ week old plan, especially since that plan's primary candidate (NVDA) has already been entered AND exited via trailing stop (round trip 4/22 → 5/04, −$159).
+
+### Reconstruction from Alpaca order history
+Order history shows the gap was not idle:
+- **2026-04-22 10:07 CT** — Bought 25 NVDA @ $201.38 (OTO market order, order_id 2b923034). Companion stop at $187.28 (−7% hard stop, day TIF) expired the same day without firing.
+- **2026-04-23 03:00 CT** — Replaced expired stop with a GTC stop at $187.28 (order_id a3057559). That stop was canceled 2026-04-27 17:16 CT.
+- **2026-04-27 17:16 CT** — Replaced the hard stop with a 10% trailing stop GTC (order_id d42471e7). This is consistent with strategy: cancel hard stop and arm trailing stop once position is +5%. HWM ultimately reached $216.73 (~+7.6% over entry).
+- **2026-05-04 10:21 CT** — Trailing stop filled, sold 25 NVDA @ $195.0184. Net P/L on the round trip: **−$159.04 (−3.16%)**.
+
+These trades were not in the trade log; I have backfilled both legs with a "reconstructed from Alpaca" note.
+
+### Portfolio watch
+None — flat.
+
+### Buy candidates
+None — refusing to act without a fresh pre-market scout. The next pre-market routine should re-scout from scratch (macro, earnings calendar for week of 6/01, sector rotation, and a re-evaluation of the seed watchlist).
+
+### Sell candidates
+None — flat.
+
+### Notes / open questions
+1. Why did the routines between 4/22 and 5/29 not append research-log entries despite executing real trades (the trailing-stop upgrade on 4/27 implies *some* routine ran with working credentials)? Possible silent halt path that doesn't write to memory — worth auditing in the next weekly review.
+2. Week P/L vs SPY benchmarking is blank — no baseline equity captured for this week. Capture today's close equity ($99,840.95 if nothing changes intraday) as the new week baseline for next Friday's review.
+3. Weekly buy count: 0 of 3 used this week.
+4. NVDA exit was −3.16%. Trailing-stop discipline worked exactly as designed (stop bit at the 10% giveback from HWM) — no thesis re-litigation needed.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
