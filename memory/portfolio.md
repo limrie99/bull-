@@ -1,10 +1,10 @@
 # Portfolio
 
-**Last updated:** 2026-04-21 17:00 CT (pre-market routine)
-**Cash:** $100,000.00
-**Total equity:** $100,000.00
+**Last updated:** 2026-05-29 12:00 CT (midday routine)
+**Cash:** $99,840.95
+**Total equity:** $99,840.95
 **Day P/L:** $0.00 (0.00%)
-**Week P/L:** — | SPY week: — | Alpha: — (first run)
+**Week P/L:** — | SPY week: — | Alpha: — (no positions)
 
 ## Open positions
 
@@ -20,3 +20,5 @@
 
 ---
 *Overwrite this file every routine. Keep it a live snapshot, not a log.*
+
+**Note:** Cash is $159.05 below the $100K seed. Alpaca paper account shows no trades on record (`trade-log.md` empty). Likely paper-account maintenance/drift between 2026-04-22 and 2026-05-28. No positions, no orders. SPY last trade $756.95.

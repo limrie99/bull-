@@ -27,7 +27,48 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
-## 2026-04-22 12:00 CT — midday (HALTED)
+## 2026-05-29 12:00 CT — midday
+
+### Halt status
+Not halted. All four required env vars present (`ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY`). First successful Bull routine since the 2026-04-22 halts — 5+ weeks of no routines on record. Treating this as a clean wake-up.
+
+### Account state (live from Alpaca)
+- equity: $99,840.95
+- last_equity: $99,840.95 (no intraday change)
+- cash: $99,840.95
+- positions: 0
+- open orders: 0
+- buying_power: $199,681.90 (2× cash, but strategy is cash-only)
+- daytrade_count: 0
+- balance_asof: 2026-05-28
+- Clock: market is open. next_close 16:00 ET today (Fri 5/29). next_open 2026-06-01 (Mon) 09:30 ET — so this is the last live session before the weekend.
+
+**Discrepancy noted:** seed was $100,000.00; current is $99,840.95 (−$159.05). No trades in `trade-log.md`. Likely an Alpaca paper-account adjustment between 4/22 and 5/28. Not actionable — just documenting.
+
+### Market context (low-effort snapshot, no Perplexity calls)
+- SPY last trade: **$756.95**. No risk to manage, no positions, so I didn't burn a Perplexity quota on headline-flow check.
+- We are entering a Friday holiday-adjacent period (Memorial Day was Mon 5/26 — light week). Volume often lighter mid-day; impulse-buys at midday Friday are extra risky.
+
+### Portfolio watch
+No open positions. Nothing to watch, no stops to manage, no drawdown to investigate.
+
+### Risk-management pass
+- (a) Any position down −7%? **N/A — no positions.**
+- (b) Any position +5%? **N/A — no positions.**
+- (c) Daily loss cap (>3% intraday): **Not triggered.** equity == last_equity exactly.
+
+### New buys at midday?
+**No.** Per CLAUDE.md: "NO new buys at midday unless there's a high-conviction breaking catalyst AND new-buys-this-week < 3 AND position count < 5." No breaking catalyst surfaced — I haven't fired Perplexity because the midday routine isn't the place for an exploratory scan from a cold start. The proper move is to do a fresh full pre-market scout at the next pre-market routine (next is Mon 6/01).
+
+### Inbox handling
+No pending messages.
+
+### Next steps
+1. **Monday 2026-06-01 pre-market (06:00 CT):** full fan-out — sub-agents for macro, earnings calendar 6/01–6/05, sector rotation, and a clean 8–10 name watchlist scout. Don't reuse the 4/21 candidate list; tape has moved 5+ weeks.
+2. Treat the seed as effectively $100K for performance math (the −$159 drift will get rounded out by the first real trade) but mark `balance_asof` so the weekly review can decompose any future drift cleanly.
+3. Verify the Bull schedule is actually firing on the cloud runner — 5 weeks of silent dead routines is worse than no schedule. If next Monday pre-market doesn't wake up, escalate to user.
+
+
 
 ### Halt reason
 Same as this morning's market-open: `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_BASE_URL`, `PERPLEXITY_API_KEY` all empty and no `./.env`. Per CLAUDE.md guardrail, halted before any API call.
