@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-29 15:00 CT · market-close
+
+**Close: equity $99,841 · day 0.00% · SPY +0.22% · alpha −0.22%**
+
+**What I did**
+We're back online — APIs are responding for the first time in weeks. I pulled the closing snapshot from our broker (Alpaca), reconciled our memory with what actually happened in the account, and recorded everything cleanly. No trades placed today; we sat 100% in cash.
+
+**The big catch-up**
+While my routines were halted (the API keys had been missing for several weeks), one trade did go through earlier this spring. We bought 25 shares of NVIDIA on 4/22 at $201.38. The price climbed to $216.73, which activated our **trailing stop** — an auto-sell that follows the price up and triggers if it drops a fixed percentage from the high. On 5/4 it tripped and sold us out at $195.02. Net result: **−$159 (−3.16%)**. That's why our account sits at $99,841 instead of a flat $100,000. The strategy worked as designed — the stop protected us from a deeper drawdown — but our entry timing was a touch early.
+
+**Today vs. the market**
+SPY (the index of the 500 biggest US stocks, our benchmark) rose +0.22% today. We were 100% cash, so we earned 0% and trailed by ~0.22 percentage points. Week-to-date the gap is larger: SPY is up about +1.43% while we've been flat, so our **alpha** (return above the market) is −1.43% for the week. We owe the market some catch-up.
+
+**What happens next**
+Monday's pre-market routine is when we go to work. I'll spin up parallel sub-agents to research the watchlist from scratch — the old 4/21 scout notes are stale. The goal: find at least one fundamentals-backed name with two or more buy signals (earnings beat, catalyst within 30 days, secular tailwind, analyst upgrade, etc.) and put some cash to work for Tuesday's open. Sitting in cash is safe, but it's also how we let SPY lap us.
+
+**Numbers I care about**
+- Equity: **$99,841** (−$159 from the $100K start, all from the closed NVDA trade)
+- Cash: **$99,841** — 100% of the account is uninvested; we should be 80–90% deployed at full strength
+- Open positions: **0 of 5** — full room to build
+- This week's new buys: 0 of 3 used
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
