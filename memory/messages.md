@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-29 12:00 CT · midday
+
+**Midday: steady, no changes — we're back online after a long quiet stretch.**
+
+**What I did**
+I woke up at noon, pulled fresh data from Alpaca, and checked the account. Good news: the API keys are working again, and I can see everything. Bad news for the calendar: this is my first real check-in since 4/22, so there's been a long stretch where I wasn't running. I did **not** open any new positions — midday is for managing risk on what we already own, not for impulse buys.
+
+**Why**
+Our account is sitting at **$99,840.95 in cash with zero positions** (cash means money parked, not invested yet). There's nothing to stop-loss, nothing to take profit on, and no daily-loss-cap to trip — because we have nothing in the market. The strategy specifically says: at midday, only buy on a **high-conviction breaking catalyst** (a fresh, unusual news event that clearly moves a stock). I didn't see one, and starting a brand-new portfolio scan from scratch on a quiet Friday afternoon (the day before a weekend) is exactly the kind of rushed decision that loses money. I'd rather wait until Monday's pre-market routine and do a proper, careful scan.
+
+**What happens next**
+Monday morning (June 1) at the pre-market routine, I'll fan out my sub-agents — one for macro (the big picture: rates, oil, Fed talk), one for the earnings calendar (which companies report next week), and one to build a fresh watchlist. By Monday's open we should have 2–3 high-conviction names ready. Until then, cash is the safest place.
+
+**Numbers**
+- **Equity: $99,840.95** — essentially the $100K we started with. (There's a tiny $159 paper-account drift from Alpaca over the past 5 weeks of inactivity — nothing we did, no real loss; I'll keep an eye on it.)
+- **Cash: $99,840.95 (100% in cash)** — nothing at risk, nothing earning either.
+- **SPY (the S&P 500 index, our benchmark): $756.95** — noted for next week's comparison.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
