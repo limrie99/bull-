@@ -27,6 +27,52 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-05-29 16:00 CT — weekly review
+
+### Market context (week 5/25 – 5/29)
+- 4 trading days (Mon 5/25 = Memorial Day, market closed).
+- **SPY:** 5/22 close $745.67 → 5/29 close $756.34 = **+1.43% week.** Intraweek path was a one-sided grind higher (5/26 +0.64%, 5/27 +0.02%, 5/28 +0.54%, 5/29 +0.22% by close).
+- **Drivers (per Perplexity sonar):** semis and optical-comms led; broader risk-on momentum continued. No verifiable major macro prints (Fed / CPI / jobs) or large-cap earnings highlighted in available sources — week was more momentum/flow than catalyst-driven.
+
+### Portfolio watch
+- 0 open positions. $99,840.95 cash. No positions to monitor; no stops to manage.
+
+### Account history sanity-check (Alpaca activities)
+- Total fills in account history: 6 (1 buy fill split into 3 partials, 1 sell fill split into 3 partials).
+- **2026-04-22 10:07 CT: BUY 25 NVDA @ $201.38** (market order, $5,034.50 cost). Stop placed at $187.28 (-7%). Bracket leg expired same day at 15:00 CT — replaced with standalone GTC stop. Stop later canceled 4/27 and replaced with 10% trailing stop after position crossed +5% profit threshold.
+- **2026-05-04 10:21 CT: SELL 25 NVDA @ ~$195.02** (trailing stop filled across 3 partials: 7 @ $195.04, 12 @ $195.01, 6 @ $195.01). HWM was $216.73 → 10% trail = $195.057. Realized P/L: 25 × ($195.02 − $201.38) ≈ **−$159.00 (−3.16%)**.
+- **5/04 → 5/29 (≈ 18 trading days):** zero activity. Account 100% cash.
+
+### Performance math
+- Starting equity (Fri 5/22 close): $99,840.95
+- Ending equity (Fri 5/29 close): $99,840.95
+- Portfolio week return: **0.00%**
+- SPY week return: **+1.43%**
+- **Alpha: −1.43%**
+
+### Routine cadence audit (meta)
+- Last `memory/messages.md` entry before this review: 2026-04-22 12:00 CT (midday halt).
+- That means **no scheduled routine has fired and written state for ~5 weeks** (4/22 → 5/29). Yet the NVDA trailing stop did fill on 5/04 — meaning the Alpaca account was live and the GTC trailing stop did its job autonomously, but no Bull routine observed or wrote about the close.
+- This is the dominant operational issue: the rulebook is intact and the broker integration works, but the wake-up loop is silent. Until scheduled routines fire reliably, candidate generation and active risk management are paused.
+
+### Patterns vs. prior reviews
+- First weekly review — no prior pattern to compare to.
+- Carried-forward v1 lesson "concentration > diversification" assumes we are actually deploying capital. Sitting 100% cash for 5+ weeks doesn't validate or invalidate the rule — it just sidesteps it.
+
+### Sub-agent usage this routine
+- 1 Perplexity sonar call (market-context digest for the week). No fan-out sub-agents needed — there were no candidates to research and no positions to dig into. Sub-agents will earn their keep next pre-market once we resume scouting.
+
+### Strategy decision
+- **No rule changes.** One quiet week is noise, not signal. Strategy changes require ≥3 weeks of consistent pattern. Rules in `strategy.md` remain unchanged.
+
+### Action items for next pre-market (Mon 6/01 06:00 CT)
+1. Re-pull earnings calendar from Alpaca for the seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, LLY).
+2. Fan out 3 parallel sub-agents: (a) macro / rates / Fed schedule for the week, (b) per-ticker catalyst hunt across the watchlist, (c) sector-rotation read for early June.
+3. Target: produce at least one validated ≥2-signal buy candidate with sizing, stop, and thesis written up. If genuinely nothing clears the bar, document why — but make a real decision, don't punt.
+4. If a candidate clears the bar, execute on Wed 6/03 at earliest (gives 2 days of confirmation), starter tranche (5% of portfolio ≈ $5K) with −7% hard stop.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

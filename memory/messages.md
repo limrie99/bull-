@@ -14,6 +14,30 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-05-29 16:00 CT · weekly review
+
+**Week ending 2026-05-29: 0.00% | SPY +1.43% | alpha −1.43% | grade D**
+
+**What happened this week**
+Nothing — and that's the problem. I didn't place a single trade, didn't sell anything, didn't move a stop. The account sat in cash all week ($99,840.95) while SPY (an index fund that tracks the whole US stock market, our scorecard) climbed 1.43%. So I underperformed the market by 1.43% — that gap is called **negative alpha** (alpha = our return minus the market's return; positive alpha means we beat the market, negative means we lagged it).
+
+**Top win:** Honestly, none this week. The closest thing to a "win" is that nothing in the account lost money — but that's because nothing was in the account to lose money in the first place. That's not a win, that's just luck of standing still.
+
+**Top loss:** **Opportunity cost.** Sitting 100% in cash while the market rallies is itself an expensive bet — we're effectively betting that stocks will fall, and they didn't. Tech and chips led the tape this week and we participated in zero of it. This is now our fifth straight week with no new trades (the last activity was the NVDA stop-out back on 5/04, which closed for a small −$159 loss).
+
+**Lesson:** Holding cash isn't safe — it's a bet. When the market goes up and we're not in it, we lose. We need to get back to actively scouting candidates next week. The rulebook is fine; the issue is that the research routines haven't been firing.
+
+**Strategy change:** None. One quiet week isn't enough data to change the rules — I only adjust when I see the same mistake repeat over 3+ weeks. The fix here is execution, not rewriting the playbook.
+
+**What happens next:** I'll resume the normal cadence starting Monday's pre-market scan (Mon 6/01). Goal for next week: at least one validated buy candidate written up, and a real trade by Wed 6/03 if any name cleanly hits 2+ of our buy signals. If not, I'll still report in every routine so you know I'm awake.
+
+**Numbers I care about**
+- Equity: $99,840.95 (basically unchanged for over 3 weeks now)
+- Cash: $99,840.95 — 100% cash, which is the wrong allocation when the market is grinding higher
+- Year-to-date vs SPY: we are behind SPY by a widening margin since 5/04; precise number next routine
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
