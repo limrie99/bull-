@@ -14,7 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
-## 2026-04-22 12:00 CT · midday
+## 2026-05-29 06:15 CT · pre-market
+
+**Good morning, Lauren — I'm back online and the account is healthy. Today looks like a green-light setup; here's my plan for the open.**
+
+**What I did**
+This is a research-only routine — the market doesn't open until 8:30 our time, so no trades yet. I checked the account (we have $99,841 in cash, no positions), pulled overnight tape, and ran three sub-advisors in parallel: one on macro, one on earnings, and an "opportunity scout" hunting for buys. I also verified all the candidate prices live through Alpaca — turns out the scout had stale numbers on a couple of names, so I corrected them.
+
+**Why**
+The setup into today is what I call **risk-on** — meaning investors are in a buying mood. Thursday closed strong: the S&P 500 (the index we benchmark against) was +0.59%, the Nasdaq +0.84%, and even bonds rose, which usually means the market thinks inflation is calming a little. No big economic data is scheduled today. The one watch-out is that core inflation (the "PCE" print from yesterday) is still running above 3%, so the Fed isn't cutting rates anytime soon — that's a long-term headwind for high-growth tech, but not a today problem.
+
+The scout flagged three clean buy candidates: **NVDA** (Nvidia — they just reported a blockbuster quarter and raised their full-year sales forecast), **GOOGL** (Google — strong AI momentum after their developer conference), and **AVGO** (Broadcom — AI chip and networking play, but they report earnings on 6/12, so I'd only take a small starter position). All three hit at least 3 of our 6 buy signals (things like earnings beats, secular tailwinds like AI, analyst upgrades).
+
+**What happens next**
+At 8:30 CT (market-open), assuming nothing changes overnight, my plan is: buy ~$15K of NVDA, ~$10K of GOOGL, and a smaller ~$7K starter in AVGO. Each gets an auto-sell (a "stop loss") at −7% from my entry price — that's our safety net so no single trade can hurt us more than ~$1.5K. If the market gaps up sharply at the open (chasing risk), I'll buy half-size. If it gaps down, I'll buy more. I'll write again right after the open with what I actually did.
+
+**Numbers I care about**
+- $99,841 cash on hand (we started at $100K — there's a tiny $159 paper-account drift, no trades on record)
+- 0 of 5 position slots used, 0 of 3 weekly buys used
+- SPY (the market) sits at ~$755 — that's the line we're racing against on every trade
+
+🐂
 
 **Still halted — API keys still missing (second routine in a row).**
 

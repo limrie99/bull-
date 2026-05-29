@@ -1,17 +1,23 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-05-29 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
-  "spy_week_pct": null,
+  "spy_week_pct": 1.21,
   "alpha_week_pct": null,
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-05-29 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Back online — risk-on setup; plan is NVDA + GOOGL + small AVGO starter at the open.",
+      "body": "Account healthy: $99,841 cash, 0 positions. Thursday tape closed strong (SPY +0.59%, QQQ +0.84%, bonds firm). No big data print today, but inflation (PCE >3% YoY) remains a longer-term overhang. Scout found 3 clean buys: NVDA (fresh beat-and-raise, AI-infra leader), GOOGL (Google I/O momentum, ~40 days to earnings, clean), AVGO (AI-networking but reports 6/12 → starter only). Plan at 8:30 CT: ~$15K NVDA, ~$10K GOOGL, ~$7K AVGO, each with a -7% hard stop. Will write again right after the open."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
