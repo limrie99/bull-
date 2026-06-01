@@ -27,6 +27,39 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-06-01 08:31 CT — market-open (no trades — stale research)
+
+### Halt-equivalent reason
+Routine fired at the Monday 6/1 open with no fresh pre-market research entry. Last research-log entry is **2026-04-22** — six weeks stale. Strategy rule (from the 4/22 entry's own next-steps): "Once secrets are set, the next routine should re-scout — don't blindly execute last night's NVDA plan on stale context." Six weeks past that, the old NVDA-starter plan is dead context: tape, prices, earnings calendar, macro setup, and NVDA's own 5/20 earnings have all already happened.
+
+### State pulled (live)
+- **Clock:** market open, next close 2026-06-01 16:00 ET.
+- **Account:** $99,840.95 cash, $99,840.95 equity, $0 long market value, 0 positions, 0 day-trade count, trading not blocked.
+- **Note:** equity is $159.05 below the $100K starting bankroll. No trades on the log explain this — paper-account adjustment / accrual; flag but not material.
+- **Positions:** none.
+
+### Market context
+Not pulled — Perplexity call deferred to the next dedicated pre-market routine. Doing macro/earnings research at the open burns the window the strategy actually wants used for pre-market prep.
+
+### Portfolio watch
+No open positions. No stops to manage, no thesis-break risk to monitor.
+
+### Buy candidates
+None this routine. Re-validating an old plan against current prices (per the prompt) requires the old plan to still be plausibly current — it isn't.
+
+### Sell candidates
+None — no positions.
+
+### This-week BUY count (per strategy guardrail)
+0 buys this week so far. Full 3-buy budget remains.
+
+### Next steps
+1. Run a fresh pre-market scout (likely as a separate routine or before the next open) with sub-agents on: macro/futures/rates, this-week earnings calendar, and a seeded watchlist (e.g. NVDA, GOOGL, MSFT, AVGO, PLTR, CRWD, PANW, LLY, NOW, plus anything topical from headlines).
+2. Only after that scout produces a verified ≥2-signal candidate at acceptable size, place trades — at the next open or via a limit working into the close.
+3. Reconcile the $159.05 equity drift on the next routine that pulls account history (check `/v2/account/activities` for accrued fees / cash movements).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
