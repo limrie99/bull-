@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-01 CT",
-  "last_routine": "system repair (manual)",
+  "last_update": "2026-06-01 10:40 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
   "equity": 99840.95,
   "cash": 99840.95,
@@ -27,6 +27,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-01 10:40 CT",
+      "routine": "pre-market",
+      "headline": "Cash $99,841 · scan done · NVDA is the top buy candidate for the next open",
+      "body": "First real scan since the memory fix. No trades (research shift). Market at record highs, AI/tech leading. NVDA is the top pick (3 buy signals, beat-and-raise on 5/20, earnings not until Aug) — plan to open a starter next routine. GOOGL and IBM are runners-up; avoiding AVGO (reports Wed) and MRVL (likely earnings blackout) for now."
+    },
     {
       "ts": "2026-06-01 CT",
       "routine": "system repair (manual)",

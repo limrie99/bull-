@@ -1,6 +1,6 @@
 # Portfolio
 
-**Last updated:** 2026-06-01 (manual consolidation — verified live against Alpaca)
+**Last updated:** 2026-06-01 10:40 CT (pre-market — verified live against Alpaca)
 **Cash:** $99,840.95
 **Total equity:** $99,840.95
 **Day P/L:** $0.00 (0.00%)
@@ -20,3 +20,4 @@
 
 ---
 *Overwrite this file every routine. Keep it a live snapshot, not a log.*
+*Watchlist teed up for next market-open: NVDA (top, clear to open), GOOGL, IBM. MRVL/AVGO on earnings-blackout hold.*
