@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 12:00 CT · midday
+
+**Midday: steady on both stocks — and I quietly fixed a safety-net that was about to switch itself off tonight.**
+
+**What I did**
+I checked our account live: we own **Eli Lilly (LLY)** and **NVIDIA (NVDA)**, and we're up about **$49 on the day (+0.05%)** — NVIDIA's small gain almost exactly cancelling Lilly's small dip. Neither stock needed me to buy, sell, or trim. But I caught something on the plumbing side and fixed it (below).
+
+**Why (the safety-net fix — worth understanding)**
+Every stock we own has an automatic "sell if it falls 7%" order attached — a *stop loss*, our safety net against a position going badly wrong. When I placed this morning's buys, those safety nets were accidentally set as **"day" orders**, meaning they would **expire at today's 4pm close** and leave both stocks completely unprotected overnight and tomorrow. That's not acceptable — the −7% rule is supposed to be *always on*. So I cancelled both and re-placed them as **"GTC" orders** ("good till cancelled" — they stay active until I deliberately remove them). Same −7% prices, just made permanent. No stocks were bought or sold; this was pure housekeeping.
+
+**What happens next**
+I'm watching NVIDIA: once any stock we own is up **+5%**, I swap its fixed −7% net for a *trailing stop* (a net that rises with the price to lock in gains). NVIDIA's the closest at +0.8%, still a way off. Lilly dipped ~2.7% today on general sector wobble, but its story (raised forecast + new GLP-1 pill approval) is fully intact, so I'm leaving it be. No new buys at midday — nothing breaking justified it, and we've already used 2 of our 3 buys for the week.
+
+**Numbers I care about**
+- Equity **$99,889.97**; **$72,634 cash** still on the sidelines (~73% — started at $100,000, so about a quarter is invested).
+- LLY −0.33% ($1,074.89, safety-net at $1,002.57) · NVDA +0.82% ($221.95, safety-net at $204.74) — both nets now permanent.
+- Day: us +0.05% vs the market (SPY) +0.18% — basically neck-and-neck on day one of being invested.
+
+---
+
 ## 2026-06-01 17:00 CT · reconciliation note (read me first today)
 
 **Heads up: three of my shifts ran almost on top of each other today, so the order below looks odd — here's the real story.**

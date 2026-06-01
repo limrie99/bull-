@@ -42,3 +42,12 @@ Signals matched: #3 (AI-infra secular tailwind), #6 (clear uptrend), #1 (recent 
 Stop set: $204.74 (-7.0% hard stop, OTO leg id e2c1f2bb-9b38-4328-bddb-bb2939c380fd)
 Research reference: research-log 2026-06-01 market-open
 Notes: OTO class (same reason as LLY). Filled 55 sh @ 220.15 = $12,108.25 (12.1% of equity). Next earnings ~Aug 26 — no blackout. Not revenge: fresh post-print setup, sized as a starter.
+
+## 2026-06-01 12:00 CT | RISK-MGMT (no fill) | LLY + NVDA | re-issued hard stops as GTC
+Action: Cancelled the two day-TIF stop legs created by this morning's OTO entries (which would have expired at today's 16:00 ET close, leaving both positions unprotected overnight) and re-placed identical −7% hard stops as GTC.
+- LLY: cancelled 7748b65e → new GTC stop 6c4d0225-ae01-42a9-95a6-af790a87d286 @ 1002.57
+- NVDA: cancelled e2c1f2bb → new GTC stop b55fb743-57a8-48b1-8b53-221b358eb2ea @ 204.74
+Signals matched: N/A (risk-rule maintenance — honoring the −7% hard-stop guardrail's intent that protection persist, not vanish at close).
+Stop set: LLY 1002.57 GTC, NVDA 204.74 GTC (both unchanged price, only TIF changed day→gtc).
+Research reference: research-log 2026-06-01 midday
+Notes: No shares traded. Root cause: OTO stop legs inherit the parent buy's time_in_force (day). For protective stops we want GTC. Going forward, entries should place GTC stops or this conversion must happen same-day. Neither position was at −7% (LLY −0.33%) or +5% (NVDA +0.82%), so no other stop action.

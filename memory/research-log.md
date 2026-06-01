@@ -210,3 +210,38 @@ None — no positions.
 1. Get actual 10Y yield, DXY, WTI, Brent levels at open — macro digest had too many n/a's.
 2. Pull next-earnings dates directly from Alpaca calendar API before asking Perplexity for thesis — avoids wasting calls.
 3. Build a small seed watchlist (NVDA, AVGO, GOOGL, MSFT, PLTR, CRWD, PANW, BE, LLY, NOW) so the opportunity scout has a concrete set to research rather than fishing open-universe.
+
+---
+
+## 2026-06-01 12:00 CT — midday
+
+**APIs live** (Alpaca account/positions/orders 200, market data 200). First midday running off correctly-persisted live memory. Market open (next_close 16:00 ET).
+
+### Live account snapshot
+- Equity **$99,889.97**, cash **$72,634.26**, last_equity (5/29 close) $99,840.95 → **day P/L +$49.02 (+0.05%)**.
+- Positions (2 of 5):
+  - **LLY** 14 @ 1078.46, current 1074.89 → −$49.98 (**−0.33%**). lastday 1105, change_today −2.7%.
+  - **NVDA** 55 @ 220.15, current 221.95 → +$99.00 (**+0.82%**). lastday 211.14, change_today +5.1%.
+- daytrade_count 2 (not PDT; no day trades initiated by us — these are the broker's count from the round-trips, watch it).
+
+### Risk management (priority order)
+- **(a) −7% drawdown check:** neither position near −7% (worst is LLY −0.33%). No Perplexity news-check needed, no sells.
+- **(b) +5% profit → trailing stop:** NVDA +0.82%, LLY −0.33%; neither at +5%. No conversion to trailing stop yet. (Watch NVDA — closest.)
+- **(c) Daily loss cap:** portfolio +0.05% intraday, nowhere near −3%. Cap NOT triggered. (Moot anyway — no buys planned.)
+
+### Stop-protection gap found + fixed (the real action of this run)
+Open-orders pull showed both OTO stop legs were `time_in_force: day`, `expires_at 2026-06-01T20:00:00Z` — i.e. they would **expire at today's market close**, leaving LLY and NVDA with **no stop overnight**. That silently voids the −7% hard-stop guardrail. Root cause: an OTO stop leg inherits the parent market buy's TIF (day). Fix:
+1. Cancelled LLY day-stop 7748b65e (204), NVDA day-stop e2c1f2bb (204). Confirmed open orders empty, qty_available restored (14 / 55).
+2. Placed GTC stops at identical −7% prices: LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74. Confirmed both `tif=gtc`, expires 2026-08-28 (quarterly GTC horizon).
+**Forward fix for entries:** market-open/pre-market buy logic should place the protective stop as a standalone GTC order (or convert same-day), not rely on the OTO day leg. Flagging for the next entry routine; not a strategy-rule change, so not escalating to a weekly-review item unless it recurs.
+
+### New buys
+None. Midday rule: no new buys unless a high-conviction breaking catalyst AND buys-this-week < 3 AND positions < 5. No qualifying breaking catalyst surfaced; also buys-this-week = 2 of 3 (LLY+NVDA filled today). Held.
+
+### Benchmark (informational, full compare at close)
+- SPY: 5/29 close 756.34 → now 757.71 (**+0.18%** today). Portfolio +0.05% → trailing by ~0.13% intraday — noise on day one of exposure.
+
+### Next watch
+- NVDA toward +5% ($231.16) → convert −7% hard stop to 10% trailing stop.
+- LLY: nothing fundamental; −2.7% on the day is sector/tape noise, thesis (raised guidance + orforglipron + GLP-1 tailwind) intact. No news-check warranted at −0.33%.
+- Close routine: full SPY alpha compare; confirm GTC stops still resting.

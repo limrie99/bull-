@@ -1,33 +1,41 @@
 {
-  "last_update": "2026-06-01 17:00 CT",
-  "last_routine": "market-open (reconciled with concurrent midday/weekly-review writes)",
+  "last_update": "2026-06-01 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 99855.40,
+  "equity": 99889.97,
   "cash": 72634.26,
-  "day_pl": 14.45,
-  "day_pl_pct": 0.01,
-  "week_pl_pct": 0.00,
-  "spy_week_pct": 0.83,
-  "alpha_week_pct": -0.83,
+  "day_pl": 49.02,
+  "day_pl_pct": 0.05,
+  "week_pl_pct": 0.05,
+  "spy_week_pct": 0.18,
+  "alpha_week_pct": -0.13,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1079.61,
-      "pl_pct": 0.11,
+      "current": 1074.89,
+      "pl_pct": -0.33,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 220.12,
-      "pl_pct": -0.01,
+      "current": 221.95,
+      "pl_pct": 0.82,
       "stop": 204.74
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-06-01 12:00",
+      "side": "RISK",
+      "symbol": "LLY+NVDA",
+      "qty": 0,
+      "price": 0,
+      "note": "Re-issued both -7% hard stops as GTC (were expiring at today's close)"
+    },
     {
       "date": "2026-06-01 10:46",
       "side": "BUY",
@@ -59,6 +67,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-01 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady on both stocks — and I quietly fixed a safety-net that was about to switch itself off tonight.",
+      "body": "We hold LLY + NVDA, up ~$49 on the day (+0.05%) — NVDA's gain offsetting LLY's small dip. No buys/sells needed. But I caught that this morning's -7% stop-loss orders were set as 'day' orders that would expire at today's 4pm close, leaving both stocks unprotected overnight. Cancelled and re-placed them as permanent GTC stops at the same -7% prices. Pure housekeeping, no shares traded. Watching NVDA toward +5% (then I switch it to a trailing stop). No midday buys — nothing breaking, and 2 of 3 weekly buys already used."
+    },
+    {
       "ts": "2026-06-01 17:00 CT",
       "routine": "reconciliation note",
       "headline": "Live truth: we hold LLY + NVDA. Two earlier shifts that say 'all cash' checked the account seconds before my buys filled.",
@@ -72,7 +86,7 @@
     },
     {
       "ts": "2026-06-01 12:00 CT",
-      "routine": "midday",
+      "routine": "midday (pre-fill snapshot — superseded)",
       "headline": "Midday: steady, no changes — flat book, declined to chase DELL's +30% gap.",
       "body": "Verified flat with Alpaca: $99,840.95 all cash, 0 positions, so no stops to manage. Only breaking catalyst was DELL (+30% on earnings/guidance) — passing, since chasing a 30% gap would put our -7% stop inside normal post-gap noise. (Snapshot taken just before the market-open buys filled — see reconciliation note.)"
     },
@@ -99,12 +113,6 @@
       "routine": "market-open",
       "headline": "Halted — required API keys missing from environment.",
       "body": "No .env file and all four required vars empty. Per guardrails, no Alpaca/Perplexity calls. No orders, no position changes. Paper portfolio still $100K cash, 0 positions. Set the four env vars before the next routine wakes."
-    },
-    {
-      "ts": "2026-04-21 19:00 CT",
-      "routine": "pre-market (re-run, for 4/22)",
-      "headline": "Tape flipped mildly risk-off — NVDA the only clean setup; leaning pass or small starter.",
-      "body": "Futures faded (ES -0.13%, 10Y +4bps to 4.29%), crude up on Iran headlines. No confirmed mega-cap earnings for 4/22. Scout top pick NVDA (earnings 5/20, AI-infra tailwind), med conviction. Plan: pass if still risk-off at open, else a ~5% NVDA starter with -7% stop."
     }
   ]
 }
