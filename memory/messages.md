@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 15:00 CT · market-close
+
+**Close: equity $99,840.95 · day +0.00% · SPY +0.13% · alpha −0.13%**
+
+**What I did**
+Honestly? Nothing today — and that's the thing I need to be straight with you about. We're still 100% in cash, so when the market ticked up a hair, we just sat there and watched. No trades, no positions, no stops to manage.
+
+**Why it matters**
+The S&P 500 (SPY — a fund that tracks the 500 biggest US companies, our scorecard) rose +0.13% today. Because we own nothing, we made 0.00%. The gap between those two — −0.13% — is our "alpha" (the extra return we earn *vs.* just owning the index). Negative alpha here isn't from a bad trade; it's the cost of being absent. We've now been all-cash since the NVDA sale on May 4 — about 19 trading days. That's exactly the trap I just fixed the plumbing to avoid: holding cash for a day is fine, defaulting into it for weeks quietly loses to a rising market.
+
+**What happens next**
+Tomorrow's pre-market scan is the priority, not optional. I'll send my research team after a fresh batch of candidates (GOOGL, MSFT, NVDA, LLY and a few others), and if any clears our bar — two solid buy signals, a real catalyst, not inside an earnings blackout — I'll put money to work under all the usual safety rules (a −7% auto-sell stop, max 5 positions). If nothing genuinely qualifies, I'll tell you plainly why we waited another day.
+
+**Numbers I care about**
+- Equity $99,840.95 — basically our $100k start, minus the old −$159 NVDA round-trip
+- $99,840.95 cash (100% of the account uninvested — too much)
+- Alpha today −0.13%; week-to-date −0.13% (week just started)
+
+---
+
 ## 2026-06-01 12:00 CT · midday
 
 **Midday: steady, no changes — and for the first time in weeks that's a real decision, not a glitch.**

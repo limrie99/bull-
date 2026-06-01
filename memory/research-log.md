@@ -27,6 +27,35 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-06-01 15:00 CT — market-close
+
+### Market context
+Quiet, mildly green tape. SPY closed ~757.29 vs Friday's 756.34 (+0.13%). The market drifted up on the first session of June; no major macro print or mega-cap catalyst surfaced in this window. Nothing that changes the playbook.
+
+### Portfolio watch
+**No open positions.** Account verified live against Alpaca: equity $99,840.95, cash $99,840.95, buying power $199,681.90 (2× margin available but strategy is cash-only). Day P/L $0.00 — the book sat in cash all day, so it neither gained nor lost on price.
+
+This is the **first routine after the 6/1 memory-persistence repair.** Memory now actually reloads from `origin/main` and pushes back to `HEAD:main`, so state should compound from here. Account is at a clean, true baseline: $99,840.95 (the only dent is the −$159.04 NVDA round-trip closed 5/4).
+
+### Buy candidates
+None evaluated — market-close is a reporting routine, not an origination routine. **Cash-drag flag stands:** the book has been 100% cash since the NVDA exit on 2026-05-04 (~19 trading days). Per the cold-start / anti-paralysis rule, this is no longer acceptable as a resting state. **Tomorrow's pre-market (6/2) must run a genuine sub-agent fan-out scan and put money to work if any name clears the 2-signal bar.** Holding cash is fine for a day if nothing qualifies; defaulting into it for weeks is the documented failure mode. Carry forward the midday note on **DELL** (+30% post-earnings gap) — re-evaluate for a proper, settled entry rather than chasing the gap.
+
+### Sell candidates
+None — no positions.
+
+### Day summary (market-close)
+- **Closing equity:** $99,840.95 (cash $99,840.95, 0 positions)
+- **Day P/L:** $0.00 (0.00%)
+- **SPY day:** +0.13% (756.34 → 757.29)
+- **Alpha (day):** −0.13% — we lagged the index purely by being absent from a green day
+- **Week-to-date** (week began Mon 6/1, today is day 1): port +0.00%, SPY +0.13%, alpha −0.13%
+- **Trades placed today:** none
+- **What worked:** (1) Memory persistence is fixed — this is the first close that should actually save. (2) No risk taken, no loss taken.
+- **What didn't:** (1) Still 100% cash on a rising tape — the opportunity cost the strategy warned about is live and compounding. (2) ~19 consecutive trading days flat; this is the cash-drag failure mode, not prudence.
+- **Open questions for tomorrow:** (1) Run the full pre-market sub-agent scan — macro + sector rotation + 4-5 candidate tickers — and verify next-earnings dates before proposing. (2) Watchlist seed to revisit: GOOGL, MSFT, NVDA, AVGO, PLTR, LLY, NOW, CRWD, plus DELL post-gap. (3) Confirm whether any are inside a 3-day earnings blackout before entry. **Priority for 6/2: find a qualifying 2-signal setup and act, or explicitly justify another cash day.**
+
+---
+
 ## 2026-06-01 12:00 CT — midday
 
 ### State on wake
@@ -50,9 +79,6 @@ Midday rule: **no new buys unless a high-conviction *breaking* catalyst** AND bu
 Single breaking catalyst surfaced: **DELL +30%+** post-earnings on a beat + raised guidance (AI-server demand). Clears signal #1 (earnings beat + raised guidance) and arguably #3 (AI-infra tailwind) = 2 signals.
 
 **Decision: DO NOT chase DELL at midday.** A +30% post-earnings gap is an extended entry — buying here puts the −7% hard stop squarely inside normal post-gap volatility (a routine gap-fill whipsaws us out at a loss). Strategy's "we don't catch knives" logic cuts both ways: don't chase blow-off gaps either. This is FOMO, not a disciplined swing entry. **Queued for tomorrow's pre-market** to evaluate a proper entry once the gap settles / consolidates.
-
-### Sell candidates
-None — no positions.
 
 ### Net / handoff to 6/2 pre-market
 - No trades, no stop changes this midday (nothing to manage on a flat book).
