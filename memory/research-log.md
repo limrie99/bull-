@@ -27,6 +27,67 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-06-01 06:00 CT — pre-market (for 6/1 open)
+
+**Timing:** Scheduled pre-market routine. APIs verified live (Alpaca 200, Perplexity 200 via 3 parallel sub-agents). Account: **$99,840.95 cash, 0 positions, $99,840.95 equity** (Alpaca balance_asof 2026-05-29). First live research routine since 4/21 — the 4/22 session and weeks since were halted-no-trades, so the slate is genuinely fresh.
+
+**Sub-agent team fanned out in parallel:** macro analyst, earnings analyst, opportunity scout. No position analyst — no open positions to watch.
+
+### Market context (macro digest)
+Tone into the 6/1 open: **risk-on, but on a tight leash** for rate-sensitive names.
+- **ES (Jun):** ~7,580–7,620 (level only — overnight % `n/a` from Perplexity).
+- **NQ, 10Y, DXY, WTI/Brent, Nikkei, Hang Seng, DAX/FTSE:** levels `n/a` from Perplexity; will need to check live feed before any sizing.
+- **Dominant tape-driver:** tentative **US–Iran 60-day ceasefire extension** reopening the Strait of Hormuz. Equities bid, crude under heavy pressure — Brent on pace for its worst month since 2020. WTI at multi-week lows.
+- **Cross-current:** **April PCE came in hot at 3.8% YoY (3-year high)** while Q1 GDP was revised down to 1.6%. Fed speakers have turned modestly more hawkish — real policy rate may still be below neutral. This puts duration and rate-sensitive names (high-multiple tech, REITs, regional banks) on a tight leash even as the index drifts higher.
+- **Asia:** firm overnight on soft Tokyo May CPI (eases BoJ hike pressure). Global equities at record highs into the US open.
+- **Today's data:** no major US print or Fed speaker confirmed for Mon 6/1. **Week ahead:** ISM Manufacturing (Mon/Tue), JOLTS (Tue), ADP (Wed), ISM Services (Wed/Fri), Initial Claims (Thu), **NFP Fri (~+150–200k, U-rate ~3.8–4.0%, AHE +0.3% m/m)**.
+- **Net:** risk-on for the index, but the hot-PCE / hawkish-Fed undercurrent says **don't size up rate-sensitive multiples today**. Iran/oil is the binary swing — a ceasefire wobble would flip the tape.
+
+### Portfolio watch
+No open positions. **$99,840.95 cash, $199,681.90 buying power** (2× margin offered, but strategy is cash-only / no leverage). Equity is essentially flat vs $100K seed (small ~$159 drift, likely accrued fees — not material). Nothing to manage, nothing bleeding.
+
+### Earnings calendar
+- **Mon 6/1:** **earnings-free day for $10B+ US names** per Nasdaq's published calendar (post-Memorial-Day weekend). The only 6/1 entry surfaced is sub-$10B (UEC). **Today's tape will be macro-driven, not earnings-driven.**
+- **This week (June 2–6) — tape-setters to position around:**
+  - **PANW — Tue 6/2 AMC (tentative)** — guidance on NGS ARR + platformization deal count; sets cyber tone for CRWD/ZS.
+  - **AVGO — Wed 6/3 AMC (tentative)** — **THE dominant overhang for the entire AI complex this week.** AI semi revenue run-rate + custom-ASIC commentary. NVDA/AMD/MRVL/ANET ranges likely tighten Tue–Wed into this print.
+  - **LULU — Thu 6/4 AMC (tentative)** — North America comp + China growth; consumer discretionary tell.
+  - **HPE, MDT, CRWD, DOCU** — also in the early-June window; specific dates unconfirmed.
+- Consensus EPS/rev: `n/a` — not verified by Perplexity this run.
+- **Guidance-risk call:** **low today, high Wed.** AVGO Wednesday is the week's biggest event.
+
+### Buy candidates
+Honest read: the scout could not lock in ≥2 verified buy signals for any single name this run. **Signal #3 (secular tailwind) is the only one consistently verifiable** — that's one signal, the strategy requires two. No fresh upgrades, insider buys, contracts, or rotation reads were surfaced for the May 25–31 window in the time budget.
+
+Live prices from Alpaca (last trade, close of Fri 5/29):
+
+| Symbol | Last | Signals verified | Conviction | Notes |
+|---|---|---|---|---|
+| NVDA | $212.46 | #3 (AI infra secular) | **low** | Earnings ~late Aug 2026 → blackout-safe. **Hampered by AVGO Wed readthrough — entire AI semi complex on tight leash through Wed.** |
+| GOOGL | $380.90 | #3 (cloud + Gemini secular) | **low** | Next earnings ~late July → blackout-safe. Less AVGO-readthrough risk than pure semis. |
+| MSFT | $448.17 | #3 (Azure + AI secular) | **low** | Next earnings ~late July → blackout-safe. PCE-hot tape unfriendly to high-multiple mega-tech today. |
+| META | $631.96 | #3 (ad + AI infra) | **low** | Single signal only. |
+| LLY | $1,105.00 | #3 (GLP-1 secular) | **low** | Single signal; GLP-1 thematic intact but no fresh catalyst surfaced. |
+| AMD, AMZN, PLTR | (n/a thesis) | — | — | No second signal verified. |
+
+**Hard exclusions (earnings blackout — strategy rule: no new position within 3 trading days of print):**
+- **PANW** ($281.97) — earnings Tue 6/2 AMC. Hard exclude all week pre-print.
+- **AVGO** ($444.33) — earnings Wed 6/3 AMC. Hard exclude all week pre-print.
+- **CRWD** ($731.09) — in early-June batch, date not pinned but in/adjacent to blackout. Exclude until exact date confirmed.
+
+**Net call:** **No buys at Monday open.** Strategy explicitly says be patient — first trade should be a clean ≥2-signal setup, not a forced entry. With the AVGO print looming Wednesday night and the entire AI-semi complex likely to compress, **defer the NVDA/AMD/ANET decision until Thursday morning**, when AVGO's readthrough is in. GOOGL and MSFT are blackout-safe but didn't clear ≥2 signals this run — re-test them at the open and at midday once we have intraday tape and any fresh news.
+
+### Sell candidates
+None — no positions.
+
+### Notes / research gaps to close next routine
+1. Get verified pre-open levels for ES, NQ, 10Y, DXY, WTI, Brent at the 8:30 CT market-open routine — Perplexity was thin on numerics again. Consider raising `search_context_size: "medium"` for the macro call.
+2. Verify exact 6/2–6/6 earnings dates for CRWD, HPE, MDT, DOCU — currently tentative. Use Alpaca calendar API if Perplexity stays vague.
+3. Run a tighter, per-ticker scout on NVDA and GOOGL at the open: any analyst-action overnight, any contract announcement, any sector-rotation read into XLK or XLC.
+4. Watch ISM Manufacturing print today — if it surprises high, bond yields likely pop and rate-sensitive multiples get hit; if low, the slowing-growth narrative dominates.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

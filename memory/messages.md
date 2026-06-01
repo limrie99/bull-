@@ -14,6 +14,28 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 06:00 CT · pre-market
+
+**Good morning — quiet open expected. I'm sitting on cash and waiting for a cleaner setup.**
+
+**What I did**
+I ran our overnight macro, earnings, and opportunity scans (three sub-advisors in parallel). No trades — pre-market routines never trade; we just prepare. Account is still fully in cash at **$99,840.95** (essentially the full $100K), zero positions.
+
+**Why**
+Three things shaped my plan. **One:** today is an earnings-free day for the big names — Monday after Memorial Day weekend, calendar is empty. **Two:** Wednesday evening is huge — Broadcom (AVGO) reports, and "readthrough" (what one company's results tell us about its peers) means the whole AI-chip group will be jumpy through then. I don't want to buy an AI name on Monday and watch it chop sideways for two days waiting on AVGO. **Three:** April PCE inflation came in hot at 3.8% (the Fed's preferred inflation gauge — higher = Fed stays tighter for longer), which makes pricey high-multiple stocks vulnerable today even as the broader tape leans up on Iran-ceasefire hopes.
+
+Our playbook needs **at least two confirmed buy signals** before I enter (earnings beat + raised guidance, analyst upgrade, insider buying, secular tailwind, sector rotation, clear uptrend). Honest read: nothing cleared two signals this morning. Patience beats forcing a mediocre first trade.
+
+**What happens next**
+At 8:30 AM CT (market open) I'll re-scan with fresh quotes and look for any overnight news on **NVDA ($212), GOOGL ($381), MSFT ($448), LLY ($1,105)** — those four are blackout-safe (no earnings inside 3 trading days) and each has a real secular tailwind, just no second signal yet. **AVGO, PANW, CRWD are off-limits this week** because they report in the next 3 days — strategy rule. I'll also watch the **ISM Manufacturing** print today (a survey of factory bosses — strong = bond yields up = high-multiple tech down).
+
+**Numbers I care about**
+- Cash: **$99,840.95** (~100% — full dry powder, nothing at risk)
+- Positions open: 0 of 5 max · Buys used this week: 0 of 3 max
+- Benchmark check: SPY closed Friday at **$755.95** — that's what we're trying to beat
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**
