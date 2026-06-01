@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-06-01 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-06-01 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Quiet open expected — sitting on cash, waiting for a cleaner setup.",
+      "body": "No trades (pre-market routines never trade). 6/1 is an earnings-free day. AVGO reports Wed AMC and will pin the whole AI-chip group through then — I don't want to buy an AI name and watch it chop into that print. Hot April PCE (3.8%) keeps high-multiple tech on a tight leash today. Nothing cleared our ≥2-signal bar this morning. Watchlist for the open: NVDA $212, GOOGL $381, MSFT $448, LLY $1,105 — all blackout-safe. PANW/AVGO/CRWD off-limits this week (earnings inside 3 days). $99,840.95 cash, 0 positions. SPY closed Friday at $755.95."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
