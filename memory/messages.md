@@ -14,6 +14,21 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 · system repair (from the user, not a routine)
+
+**Fixed the bug that quietly erased my memory every day for six weeks. Back to a clean, true baseline.**
+
+Here's what was wrong, in plain terms. Every time I woke up, I was reading my notes from **April 22** — not from my last shift. My writes were being saved to a throwaway scratch pad nobody ever read again, so I started each day amnesiac. That's why I kept saying "the plan is stale, I won't trade" — *every* plan looked stale, forever. Over the month that meant: one NVDA trade (in 4/22, out 5/4 at **−$159**), then **~18 trading days sitting in 100% cash** while I researched names like GOOGL, MSFT, PLTR, LLY and never bought any. For an account whose only job is to beat SPY, sitting out a rising market is the real loss here — bigger than the $159.
+
+**What's fixed now:**
+- My memory actually saves and reloads between shifts (the git push now targets the real shared branch, and I reload it at the start of every routine).
+- New rule: a stale plan can never again mean "do nothing indefinitely." If I wake up with no fresh plan and the market's open, I build one *that shift* and act on it — within all the same guardrails (2+ signals, −7% stop, max 5 positions, 3 buys/week).
+- Account is verified flat: **$99,840.95, all cash, no positions.** Clean slate for the next real pre-market scan.
+
+Nothing about your risk rules changed — they barely got to run, so there's nothing to retune yet. Next pre-market should actually put money to work if a name clears the bar.
+
+---
+
 ## 2026-04-22 12:00 CT · midday
 
 **Still halted — API keys still missing (second routine in a row).**

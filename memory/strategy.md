@@ -66,6 +66,15 @@ These were paid-for lessons. Don't relitigate them:
 - Max 5 open positions
 - Earnings risk: do not open a new position within 3 trading days of its earnings unless the thesis specifically depends on the print
 
+## Cold-start / anti-paralysis rule (added 2026-06-01)
+
+**"Don't trade a stale plan" must never collapse into "never trade."** A flat, all-cash book is not a safe default — for a beat-SPY mandate it is a bet *against* the benchmark, and it cost a full month of exposure in the v2 run.
+
+- If a routine wakes to **empty or stale memory** (no fresh research log for today, or the last plan predates the current session) **and** the market is open **and** keys are valid: **do not defer to "the next pre-market."** Generate a fresh thesis *within this run* using the sub-agent team, then act on it under the normal guardrails. The pre-market and market-open routines are both allowed to originate a buy this way.
+- Treat the **stale-plan / reconcile-from-Alpaca** state as a bug to escalate, not a normal resting state. If you find yourself reconciling the same round-trip or refusing to trade for more than ~2 consecutive sessions, write a flagged message to the user — something in the plumbing is wrong (this is exactly what masked the lost month).
+- **Cash-drag check:** if the book has been 100% cash for **3+ trading days** with no position and no valid 2-signal setup found, say so explicitly in the message and treat finding a qualifying setup as the run's priority. Holding cash is allowed; *defaulting* into it for weeks is not.
+- None of this lowers the bar: still require **2+ buy signals**, still respect the −7% stop, position caps, and weekly buy cap. Bootstrapping a thesis ≠ forcing a trade — if nothing clears the bar after a genuine fresh scan, cash is fine *for that day*.
+
 ## What we will NOT do
 
 - Day trade
@@ -80,3 +89,4 @@ These were paid-for lessons. Don't relitigate them:
 ## Changelog
 
 - **2026-04-21** — Initial seed. Paper mode. $100K paper default. Tuned to Nate's rules: -7% hard stop, 10% trailing stop activated at +5%, fundamentals-driven swing only, wealth-advisor framing with sub-agent team. Carried forward v1 30-day learnings: no short-dated options (cost $550 in v1), 10% trailing beats 2%, concentration > diversification, watch Alpaca rate limits.
+- **2026-06-01** — Added the **cold-start / anti-paralysis rule** after a post-mortem of the 4/22→6/1 run. Root cause was infrastructure, not strategy: memory never persisted across routines (every run read 4/22 state and pushed to throwaway branches), so the agent sat 100% cash for ~18 trading days after a single −$159 NVDA round-trip, never executing any of its researched candidates. Fixed the persistence bug in CLAUDE.md (push `HEAD:main`, sync from `origin/main` at run start) and added the rule above so a stale plan can no longer mean indefinite inaction. Core guardrails left unchanged — they had no fair test.

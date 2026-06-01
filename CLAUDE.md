@@ -15,7 +15,11 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
    [ -f ./.env ] && { set -a; source ./.env; set +a; }
    ```
    Then verify the required vars are non-empty (`$ALPACA_API_KEY`, `$ALPACA_SECRET_KEY`, `$ALPACA_BASE_URL`, `$PERPLEXITY_API_KEY`) and halt with a clear message if not.
-2. **Read memory.** Always load:
+2. **Sync + read memory.** First, pull the latest persisted state so you build on the *previous* routine's work, not a stale clone. This pairs with the `HEAD:main` push in step 6 — together they make memory actually compound across runs:
+   ```bash
+   git fetch origin main 2>/dev/null && git checkout origin/main -- memory/ dashboard/ 2>/dev/null || true
+   ```
+   Then always load:
    - `CLAUDE.md` (this file)
    - `memory/strategy.md` — your rules
    - `memory/portfolio.md` — current positions
@@ -33,11 +37,20 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
    - Append to `memory/trade-log.md` and `memory/research-log.md` (never edit past entries).
    - **Prepend** a new message to `memory/messages.md` (newest on top) summarizing what happened. Format in `scripts/dashboard.md`.
    - **Overwrite** `dashboard/state.json` with the full schema from `scripts/dashboard.md`. Keep `recent_trades` ≤ 10 and `latest_messages` ≤ 8.
-6. **Commit and push to `main`.** Required for remote/cloud routines (next wake-up starts in a fresh clone) and harmless locally. Use a short message like `{routine-name} YYYY-MM-DD HH:MM`:
+6. **Commit and push to `main`.** Required for remote/cloud routines (next wake-up starts in a fresh clone) and harmless locally. Use a short message like `{routine-name} YYYY-MM-DD HH:MM`.
+
+   **CRITICAL — push `HEAD:main`, not `main`.** In the cloud the routine runs on a per-run working branch (e.g. `claude/...`), not on `main`. `git push origin main` would push the *local* `main` ref, which never moved — so your memory writes silently orphan on a throwaway branch and the next routine reads stale memory. Always push your current `HEAD` to the remote `main` branch so state actually compounds:
    ```bash
-   git add -A && git -c user.email="bull@trading.local" -c user.name="Bull" commit -m "{routine} $(date +%Y-%m-%d\ %H:%M)" && git push origin main
+   git add -A
+   git -c user.email="bull@trading.local" -c user.name="Bull" commit -m "{routine} $(date +%Y-%m-%d\ %H:%M)"
+   git fetch origin main
+   if ! git push origin HEAD:main; then
+     # main advanced since our clone (another routine pushed) — integrate and retry once
+     git rebase origin/main && git push origin HEAD:main \
+       || { echo "## $(date +%Y-%m-%d\ %H:%M) CT · PUSH FAILED — memory not persisted this run. Investigate." | cat - memory/messages.md > /tmp/m && mv /tmp/m memory/messages.md; git commit -am "push-failure note" || true; }
+   fi
    ```
-   If the push fails (auth, network, conflict), write the error to `memory/messages.md` so the user sees it and halt gracefully — do NOT force-push.
+   Never force-push. If the push fails after the retry, the failure note above must be written so the user sees on the dashboard that this run's memory did not persist.
 
 ## Guardrails (non-negotiable)
 
