@@ -14,6 +14,29 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 16:00 CT · weekly review
+
+**Week ending 5/29: +0.0% | SPY +0.8% | alpha −0.8% | grade D**
+
+**What I did**
+This was my weekly check-in — the first one I've written from *current* memory instead of the frozen April notes that caused so much trouble. I pulled our account history straight from the broker and compared it to the S&P 500 (SPY — basically "the whole US stock market in one number"). The verdict: we sat in 100% cash all week and made nothing, while the market drifted up about +0.8%. So our "alpha" (our return *minus* the market's — the only score that matters for us) was **−0.8%**. We made no trades, opened nothing, closed nothing.
+
+**Why this happened (and why it ends now)**
+This week was the tail end of the six-week bug I fixed yesterday — the one where I woke up amnesiac every day and kept calling every plan "too stale to trade." So once again I stood on the sidelines while stocks rose. That's the real cost: not a loss on a bad pick, but the gains we *didn't* capture. The good news — the plumbing is fixed and I added a rule that a stale plan can never again mean doing nothing forever.
+
+**The honest part**
+I'm grading this week a **D**. We lost no money, but for an account whose one job is to beat the market, sitting it out *is* the failure. I'm deliberately **not** changing any of your risk rules this week — they've barely had a chance to run (one trade ever), and piling on tweaks before the fix gets a real test would be guessing. Next week is the true test.
+
+**What happens next**
+We've been all-cash since May 4 — way too long. My very next morning scan is under orders to actually put money to work if any stock clears our bar (needs 2+ good reasons to buy, gets an automatic −7% safety-net sell). If I'm *still* all-cash next Friday, something's broken again and I'll escalate to you directly.
+
+**Numbers I care about**
+- Equity: **$99,840.95**, all cash — we've effectively put 0% of the account to work (started at $100,000).
+- This week: portfolio flat (0.0%) vs SPY +0.8% → we trailed the market by about **0.8%**.
+- Trades this week: **0 buys, 0 sells.** Cash days in a row: 19 and counting — the next routine's #1 job is to end that responsibly.
+
+---
+
 ## 2026-06-01 12:00 CT · midday
 
 **Midday: steady, no changes — and for the first time in weeks that's a real decision, not a glitch.**

@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-06-01 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-01 16:00 CT",
+  "last_routine": "weekly review",
   "mode": "paper",
   "equity": 99840.95,
   "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "week_pl_pct": 0.00,
+  "spy_week_pct": 0.83,
+  "alpha_week_pct": -0.83,
   "positions": [],
   "recent_trades": [
     {
@@ -28,6 +28,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-01 16:00 CT",
+      "routine": "weekly review",
+      "headline": "Week ending 5/29: +0.0% | SPY +0.8% | alpha -0.8% | grade D",
+      "body": "First review off live memory. We sat 100% cash all week while SPY rose ~0.8%, so we trailed by 0.8% (alpha by omission) — the tail end of the now-fixed memory bug. Zero trades. No risk-rule changes this week (the fix is one day old; let it run). All-cash 19 days — next morning scan is under orders to put money to work if a name clears the bar, or escalate if still flat next Friday. Equity $99,840.95."
+    },
+    {
       "ts": "2026-06-01 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — flat book, declined to chase DELL's +30% gap.",
@@ -44,6 +50,24 @@
       "routine": "midday",
       "headline": "Still halted — API keys still missing (second routine in a row).",
       "body": "No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions. Set the four required vars before the next routine or it will keep halting."
+    },
+    {
+      "ts": "2026-04-22 08:30 CT",
+      "routine": "market-open",
+      "headline": "Halted — required API keys missing from environment.",
+      "body": "No .env file and all four required vars empty. Per guardrails, no Alpaca/Perplexity calls. No orders, no position changes. Paper portfolio still $100K cash, 0 positions. Set the four env vars before the next routine wakes."
+    },
+    {
+      "ts": "2026-04-21 19:00 CT",
+      "routine": "pre-market (re-run, for 4/22)",
+      "headline": "Tape flipped mildly risk-off — NVDA the only clean setup; leaning pass or small starter.",
+      "body": "Futures faded (ES -0.13%, 10Y +4bps to 4.29%), crude up on Iran headlines. No confirmed mega-cap earnings for 4/22. Scout top pick NVDA (earnings 5/20, AI-infra tailwind), med conviction. Plan: pass if still risk-off at open, else a ~5% NVDA starter with -7% stop."
+    },
+    {
+      "ts": "2026-04-21 17:00 CT",
+      "routine": "pre-market (for 4/22)",
+      "headline": "First research pass — no high-conviction buy ideas yet; saving cash for a better scan.",
+      "body": "Fresh paper account ($100K cash). Mildly risk-on into 4/22 on Mid-East de-escalation hopes. No name cleanly hits 2+ signals with a verified near-term catalyst. Next pre-market: tighter scan on a seed watchlist with earnings dates pulled first."
     }
   ]
 }
