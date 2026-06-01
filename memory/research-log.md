@@ -26,6 +26,37 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-01 10:46 CT — market-open (FRESH IN-RUN THESIS, traded)
+
+**Context:** Woke to the cold-start scenario the new strategy rule was written for. The only "pre-market" entries in the log were the 4/22 HALTED no-ops (missing secrets) and the 4/21 NVDA scout — both stale by ~6 weeks. Book was 100% cash since the 5/4 NVDA trailing-stop exit (~18 trading days). Keys valid, market open (clock is_open=true, woke mid-session ~11:46 ET). Per the anti-paralysis rule: originated a fresh thesis this run with the sub-agent team and acted under normal guardrails. Account: $99,840.95 cash, 0 positions, 0 buys this week, daytrade_count 0, flat day (last_equity==equity → no daily-loss-cap block).
+
+**Sub-agent fan-out (3 parallel):** macro + two opportunity scouts.
+- **Macro:** neutral / mildly cautious. S&P near record highs (~7,230 area; SPY ~757, at/near 120d high, +7.5% over 50d MA). WTI up ~3% (growth optimism + Iran risk) = mild inflation overhang. 10Y elevated/biasing up (no exact tick). VIX contained but unconfirmed. Inflation/jobs prints this week (dates unconfirmed). Verdict: OK to open a high-conviction long, size conservatively, don't front-run the data.
+- **Scouts:** Perplexity's index treats late-May/June 2026 as forward-dated and REFUSED to name dated earnings beats / fresh upgrades — so signals #1 and #4 are hard to verify from that source right now. Scouts surfaced a theme watchlist only: NVDA, AMD, MU, ETN, LLY, defense primes, etc. Lesson logged: for this date window, use Alpaca for hard facts (price/trend) + narrow per-ticker Perplexity for earnings dates; don't ask for "5 names from the future."
+
+**My verification pass (Alpaca trend + per-ticker Perplexity):**
+| Sym | Px | vs 50dMA | off 120d-hi | Read |
+|---|---|---|---|---|
+| NVDA | 220 | +5.9% | −10.4% | clean healthy uptrend, not extended |
+| AMD | 513 | +57% | −0.4% | PARABOLIC — chase risk, pass |
+| MU | 1032 | +74% | 0% | PARABOLIC at highs — pass |
+| ETN | 399 | +1.8% | −7.5% | mild/consolidating; no fresh catalyst → pass (don't force) |
+| LLY | 1078 | +15.8% | −1.9% | strong steady uptrend |
+
+Per-ticker Perplexity confirmed:
+- **LLY** — Q1 2026 (rel 4/30): non-GAAP EPS $8.55 vs ~$6.97, rev $19.8B +56% YoY, **raised FY26 guidance** ($82–85B rev, $35.50–37.00 EPS). **FDA approval of Foundayo/orforglipron** (oral GLP-1, obesity). Next earnings ~Aug 5 (est) → no blackout. Signals #1+#2+#3+#6. **High conviction.**
+- **NVDA** — Q1 FY27 (rel 5/20): EPS $1.87 vs $1.76, record rev $81.6B, "Beat." Guidance-raise not explicitly confirmed. Next earnings ~Aug 26 → no blackout. Signals #3+#6 (+#1 borderline-recent). **Medium conviction.** Re-entry above the 5/4 exit; thesis never broke (prior exit was a trailing-stop pullback).
+- **ETN** — Q1 (5/5) beat (adj EPS $2.81 vs $2.73), next ~Aug 4. Only #3 + a weak #6. No fresh catalyst. **Passed.**
+
+**Decision / sizing (conservative re-entry on a cautious-macro day, 1 buy kept in reserve):**
+- LLY 14 sh @ 1078.46 = $15,098.44 (15.1%), stop $1002.57. High conviction → ~target 15%.
+- NVDA 55 sh @ 220.15 = $12,108.25 (12.1%), stop $204.74. Medium → ~12%.
+- Total deployed ~$27.2K (27%); cash buffer ~73%. 2 of 5 positions, 2 of 3 weekly buys used.
+
+**Execution note (infra):** paper API rejects `bracket` without `take_profit.limit_price`. Strategy = no take-profit (trailing stop handles upside). Used **OTO** order_class (market buy triggers single stop-loss leg) — exact behavior we want. Update scripts/alpaca.md cheat-sheet to reflect OTO-for-no-TP. Both filled at/near pre-fill price; both −7% stop legs live (status new/working).
+
+**Why not deploy harder:** anti-paralysis rule says find qualifying setups (done) but explicitly ≠ force trades. Macro is neutral-to-cautious with unconfirmed inflation/jobs prints this week; this is the first re-entry after a long flat stretch. Two genuine high-quality names now + a 3rd buy in reserve for midday/close or a pullback is the disciplined middle path. Cash-drag broken honestly, not recklessly.
+
 
 ## 2026-04-22 12:00 CT — midday (HALTED)
 

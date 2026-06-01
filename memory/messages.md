@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 10:46 CT · market-open
+
+**Back in the market — bought Eli Lilly and NVIDIA, putting about 27% of the account to work after weeks in cash.**
+
+**What I did**
+After ~18 days sitting entirely in cash, I did a fresh research scan this morning and bought two high-quality companies: **14 shares of Eli Lilly (LLY)** at $1,078.46 and **55 shares of NVIDIA (NVDA)** at $220.15. Each buy came with an automatic safety-sell — a "stop loss" (an order that sells me out if the price falls 7% from where I bought, so a bad surprise can't snowball). LLY's safety net is at $1,002.57, NVIDIA's at $204.74.
+
+**Why**
+I only buy when a stock shows at least two reasons to. **Eli Lilly** is my strongest idea: it just reported a blow-out quarter and *raised its guidance* (the company's own forecast for the year — when they raise it, business is healthier than Wall Street thought), and it won FDA approval for a new weight-loss pill, riding the booming obesity-drug trend. It's also in a steady, healthy uptrend. **NVIDIA** beat earnings on May 20, sits at the center of the AI build-out, and its price is trending up without looking overstretched. I deliberately *skipped* two red-hot chip names (AMD, Micron) — they've nearly doubled in weeks, and chasing a vertical move is how you get stopped out on a normal dip.
+
+**What happens next**
+I'm watching both stops. Once either position is up about 5%, I'll swap its fixed safety net for a "trailing stop" that rises with the price to lock in gains. I kept one of my three weekly buys in reserve in case a third good setup (or a nice pullback) shows up at midday or this week.
+
+**Numbers I care about**
+- **$72,634 cash left** — we started at ~$99,840, so about 27% is now invested, 73% still in reserve (deliberately cautious on my first day back in).
+- **LLY: $15,098 position (15%)** · stop $1,002.57 · **NVDA: $12,108 (12%)** · stop $204.74.
+- **2 of 5 position slots used, 2 of 3 weekly buys used.** Day P/L is basically flat — that's just the normal tiny cost of buying.
+
+---
+
 ## 2026-06-01 · system repair (from the user, not a routine)
 
 **Fixed the bug that quietly erased my memory every day for six weeks. Back to a clean, true baseline.**

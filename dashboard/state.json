@@ -1,16 +1,47 @@
 {
-  "last_update": "2026-06-01 CT",
-  "last_routine": "system repair (manual)",
+  "last_update": "2026-06-01 10:46 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 99840.95,
-  "cash": 99840.95,
-  "day_pl": 0.00,
-  "day_pl_pct": 0.00,
+  "equity": 99822.70,
+  "cash": 72634.26,
+  "day_pl": -18.25,
+  "day_pl_pct": -0.02,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "LLY",
+      "qty": 14,
+      "avg_cost": 1078.46,
+      "current": 1077.51,
+      "pl_pct": -0.09,
+      "stop": 1002.57
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 55,
+      "avg_cost": 220.15,
+      "current": 220.07,
+      "pl_pct": -0.03,
+      "stop": 204.74
+    }
+  ],
   "recent_trades": [
+    {
+      "date": "2026-06-01 10:46",
+      "side": "BUY",
+      "symbol": "LLY",
+      "qty": 14,
+      "price": 1078.46
+    },
+    {
+      "date": "2026-06-01 10:46",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 55,
+      "price": 220.15
+    },
     {
       "date": "2026-05-04",
       "side": "SELL",
@@ -27,6 +58,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-01 10:46 CT",
+      "routine": "market-open",
+      "headline": "Back in the market — bought Eli Lilly & NVIDIA (~27% invested)",
+      "body": "After ~18 days in cash, opened LLY 14 @ $1,078.46 (15%) and NVDA 55 @ $220.15 (12%), each with a -7% stop. LLY: raised guidance + new GLP-1 pill approval + uptrend. NVDA: earnings beat + AI tailwind. Skipped parabolic AMD/MU. $72,634 cash left; 2 of 5 slots, 2 of 3 weekly buys used."
+    },
     {
       "ts": "2026-06-01 CT",
       "routine": "system repair (manual)",

@@ -56,7 +56,14 @@ curl -s "https://data.alpaca.markets/v2/stocks/SPY/bars?timeframe=1Day&start=202
   -H "APCA-API-SECRET-KEY: $ALPACA_SECRET_KEY"
 ```
 
-## Place a bracket order (buy with stop-loss and take-profit)
+## Place a buy with a stop-loss but NO take-profit (Bull's standard entry)
+
+Bull's strategy is **no take-profit** — the trailing stop handles the upside.
+But the paper API **rejects `order_class: "bracket"` without `take_profit.limit_price`**
+(`code 40010001: "bracket orders require take_profit.limit_price"`). So for a
+market buy + stop-loss and nothing else, use **`order_class: "oto"`** (one-triggers-other):
+the primary buy triggers a single stop-loss leg. This is the verified working form
+(used at the 2026-06-01 open for LLY and NVDA):
 
 ```bash
 curl -s -X POST "$ALPACA_BASE_URL/v2/orders" \
@@ -69,13 +76,16 @@ curl -s -X POST "$ALPACA_BASE_URL/v2/orders" \
     "side": "buy",
     "type": "market",
     "time_in_force": "day",
-    "order_class": "bracket",
-    "stop_loss":   {"stop_price": 172.00},
-    "take_profit": {"limit_price": 235.00}
+    "order_class": "oto",
+    "stop_loss": {"stop_price": 172.00}
   }'
 ```
 
-For Bull: **stop_price = entry × 0.93 (-7%)**, **no take_profit** — the trailing stop handles the upside. Actual entry comes from the fill.
+For Bull: **stop_price = entry × 0.93 (-7%)**. Actual entry comes from the fill —
+after fill, confirm the stop leg is working via `GET /v2/orders?status=open`.
+
+If you ever *do* want a true bracket (stop + take-profit), `order_class: "bracket"`
+works but **both** `stop_loss.stop_price` and `take_profit.limit_price` are required.
 
 ## Convert to trailing stop once winning (+5% or more)
 
