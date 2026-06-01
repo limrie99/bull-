@@ -26,6 +26,29 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-01 15:00 CT — market-close
+
+### Day summary
+- **Closing equity:** $100,128.53 (cash $72,634.26, ~72.5% buffer). Crossed back above $100K for the first time since the long flat stretch.
+- **Day P/L:** +$287.58, **+0.29%** vs yesterday's close ($99,840.95, from account `last_equity`).
+- **SPY day:** +0.28% (5/29 close 756.34 → 6/1 close 758.44; latest trade 758.42). **Alpha: +0.01%** — effectively matched the market on day 1.
+- **Week-to-date (week started Mon 6/1):** portfolio +0.29%, SPY +0.28%, alpha +0.01%.
+- **Trades placed today:** none at close. The two morning buys (LLY 14 @ 1078.46, NVDA 55 @ 220.15) and the midday GTC stop re-issue are already logged. Close routine = pure monitoring + reporting.
+
+**What worked**
+- NVDA (+1.94%, +$235) carried the day — the post-earnings re-entry above the 5/4 exit is behaving; AI-infra bid intact.
+- Both GTC hard stops confirmed live/working at close, so the overnight-unprotected bug from this morning's OTO legs is fully closed out. Protection persists.
+
+**What didn't / watch**
+- LLY only +0.35% (+$52) — fine, it's a slow steady compounder, not a mover; no concern.
+- Alpha is dead-even, not positive. Expected on day 1 with freshly opened positions, but the mandate is to *beat* SPY — the thesis needs a few sessions to express. Not a problem yet; flagging so it's tracked.
+
+**Open questions for 6/2 pre-market**
+- Deploy the 3rd (and final) weekly buy? Re-evaluate **DELL** post-gap (was +30% on the midday print — has it consolidated to a sane entry, or still extended?). Fresh watchlist seed: NVDA-adjacent (AVGO, GOOGL, MSFT, PLTR, NOW, CRWD, PANW) + DELL.
+- Watch this week's inflation/jobs prints (dates still unconfirmed) — they could move the whole tape and gate new buys.
+- Neither position near a +5% trailing-stop conversion yet; check again 6/2 — NVDA closest at +1.94%.
+
+---
 ## 2026-06-01 10:46 CT — market-open (FRESH IN-RUN THESIS, traded)
 
 **Context:** Woke to the cold-start scenario the new strategy rule was written for. The only "pre-market" entries in the log were the 4/22 HALTED no-ops (missing secrets) and the 4/21 NVDA scout — both stale by ~6 weeks. Book was 100% cash since the 5/4 NVDA trailing-stop exit (~18 trading days). Keys valid, market open (clock is_open=true, woke mid-session ~11:46 ET). Per the anti-paralysis rule: originated a fresh thesis this run with the sub-agent team and acted under normal guardrails. Account: $99,840.95 cash, 0 positions, 0 buys this week, daytrade_count 0, flat day (last_equity==equity → no daily-loss-cap block).

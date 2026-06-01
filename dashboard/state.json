@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-06-01 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-01 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 99889.97,
+  "equity": 100128.53,
   "cash": 72634.26,
-  "day_pl": 49.02,
-  "day_pl_pct": 0.05,
-  "week_pl_pct": 0.05,
-  "spy_week_pct": 0.18,
-  "alpha_week_pct": -0.13,
+  "day_pl": 287.58,
+  "day_pl_pct": 0.29,
+  "week_pl_pct": 0.29,
+  "spy_week_pct": 0.28,
+  "alpha_week_pct": 0.01,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1074.89,
-      "pl_pct": -0.33,
+      "current": 1082.20,
+      "pl_pct": 0.35,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 221.95,
-      "pl_pct": 0.82,
+      "current": 224.43,
+      "pl_pct": 1.94,
       "stop": 204.74
     }
   ],
@@ -67,6 +67,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-01 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,128 · day +0.29% · SPY +0.28% · alpha +0.01%",
+      "body": "First full day with money working. No trades at the close — pure health check. NVDA up +1.9% ($235), LLY +0.4% ($52); both green but neither at the +5% mark where I'd switch to a trailing stop. Both -7% hard stops confirmed live and GTC for overnight. We matched the market almost exactly (alpha +0.01%) — fine for day one, but the goal is to beat it, so I want the thesis to pull ahead over the next sessions. Back over our $100K starting line. Tomorrow: full scan, and I'll see if Dell (+30% today) has calmed to a sane entry for our last weekly buy."
+    },
+    {
       "ts": "2026-06-01 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady on both stocks — and I quietly fixed a safety-net that was about to switch itself off tonight.",
@@ -83,12 +89,6 @@
       "routine": "weekly review",
       "headline": "Week ending 5/29: +0.0% | SPY +0.8% | alpha -0.8% | grade D",
       "body": "First review off live memory. We sat 100% cash for the measured week while SPY rose ~0.8%, so we trailed by 0.8% (alpha by omission) — the tail end of the now-fixed memory bug. No risk-rule changes this week (the fix is one day old; let it run). NOTE: this week ended 5/29; we re-entered the market today (6/1) with LLY + NVDA, so the cash drag is now broken."
-    },
-    {
-      "ts": "2026-06-01 12:00 CT",
-      "routine": "midday (pre-fill snapshot — superseded)",
-      "headline": "Midday: steady, no changes — flat book, declined to chase DELL's +30% gap.",
-      "body": "Verified flat with Alpaca: $99,840.95 all cash, 0 positions, so no stops to manage. Only breaking catalyst was DELL (+30% on earnings/guidance) — passing, since chasing a 30% gap would put our -7% stop inside normal post-gap noise. (Snapshot taken just before the market-open buys filled — see reconciliation note.)"
     },
     {
       "ts": "2026-06-01 10:46 CT",

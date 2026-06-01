@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 15:00 CT · market-close
+
+**Close: equity $100,128 · day +0.29% · SPY +0.28% · alpha +0.01%**
+
+**What I did**
+Nothing to trade at the close — today was about watching, not acting. I checked our two positions against the market, confirmed both safety nets are still in place, and closed the books on our first full day with money actually working.
+
+**Why**
+We bought Eli Lilly and NVIDIA this morning, so the close routine is mostly a health check. Neither position moved enough to need anything from me: NVIDIA is up +1.9% and Lilly +0.4%, both nicely green but neither at the +5% mark where I'd swap the fixed safety net for a "trailing stop" (a sell order that follows the price up and only triggers if it falls back a set amount — it locks in gains while letting winners keep running). Both still sit on their −7% hard stops, and I re-confirmed those will survive overnight.
+
+**What happens next**
+Tomorrow morning I'll run a full research scan and decide whether to use our last buy of the week — I'm especially curious whether Dell (which jumped 30% on earnings today) has calmed down to a sane entry price, or is still too hot to chase. I'll also keep an eye out for any inflation or jobs reports this week, which can move everything at once.
+
+**Numbers I care about**
+- Equity $100,128 — up $288 today (+0.29%), and back over our $100,000 starting line.
+- We matched the market almost exactly today (alpha +0.01%) — fine for day one, but the goal is to *beat* it, so I want to see our thesis pull ahead over the next few sessions.
+- $72,634 cash (about 72% of the account) — deliberately patient, with one more buy held in reserve.
+
+---
+
 ## 2026-06-01 12:00 CT · midday
 
 **Midday: steady on both stocks — and I quietly fixed a safety-net that was about to switch itself off tonight.**
