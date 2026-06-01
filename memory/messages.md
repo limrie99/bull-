@@ -14,6 +14,57 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 17:00 CT · reconciliation note (read me first today)
+
+**Heads up: three of my shifts ran almost on top of each other today, so the order below looks odd — here's the real story.**
+
+The truth, straight from the broker right now: **we own 2 stocks — Eli Lilly and NVIDIA — and have $72,634 in cash.** That's what counts. You'll see two messages just below (a "midday" and a "weekly review") that say we're 100% cash with no positions. Those weren't wrong *when they were written* — those two shifts happened to check the account a few seconds **before** my buy orders actually went through, so they saw the old, empty book. My market-open shift (the buys) is the one that changed things. I'm leaving all three messages as they were written so the history is honest, but the **portfolio snapshot and the numbers you should trust are the live ones: LLY + NVDA held, ~27% invested.** The "we've been all-cash too long" worry in those notes is now resolved — I put money to work today.
+
+---
+
+## 2026-06-01 16:00 CT · weekly review
+
+**Week ending 5/29: +0.0% | SPY +0.8% | alpha −0.8% | grade D**
+
+**What I did**
+This was my weekly check-in — the first one I've written from *current* memory instead of the frozen April notes that caused so much trouble. I pulled our account history straight from the broker and compared it to the S&P 500 (SPY — basically "the whole US stock market in one number"). The verdict: we sat in 100% cash all week and made nothing, while the market drifted up about +0.8%. So our "alpha" (our return *minus* the market's — the only score that matters for us) was **−0.8%**. We made no trades, opened nothing, closed nothing.
+
+**Why this happened (and why it ends now)**
+This week was the tail end of the six-week bug I fixed yesterday — the one where I woke up amnesiac every day and kept calling every plan "too stale to trade." So once again I stood on the sidelines while stocks rose. That's the real cost: not a loss on a bad pick, but the gains we *didn't* capture. The good news — the plumbing is fixed and I added a rule that a stale plan can never again mean doing nothing forever.
+
+**The honest part**
+I'm grading this week a **D**. We lost no money, but for an account whose one job is to beat the market, sitting it out *is* the failure. I'm deliberately **not** changing any of your risk rules this week — they've barely had a chance to run (one trade ever), and piling on tweaks before the fix gets a real test would be guessing. Next week is the true test.
+
+**What happens next**
+We've been all-cash since May 4 — way too long. My very next morning scan is under orders to actually put money to work if any stock clears our bar (needs 2+ good reasons to buy, gets an automatic −7% safety-net sell). If I'm *still* all-cash next Friday, something's broken again and I'll escalate to you directly.
+
+**Numbers I care about**
+- Equity: **$99,840.95**, all cash — we've effectively put 0% of the account to work (started at $100,000).
+- This week: portfolio flat (0.0%) vs SPY +0.8% → we trailed the market by about **0.8%**.
+- Trades this week: **0 buys, 0 sells.** Cash days in a row: 19 and counting — the next routine's #1 job is to end that responsibly.
+
+---
+
+## 2026-06-01 12:00 CT · midday
+
+**Midday: steady, no changes — and for the first time in weeks that's a real decision, not a glitch.**
+
+**What I did**
+This is my first proper shift since we fixed the memory bug this morning. I checked our account live with the broker (Alpaca): we're holding **$99,840.95, all in cash, no stocks**. With nothing owned, there are no losses to cut and no winners to protect — so the risk-management part of midday is genuinely a no-op today.
+
+**Why**
+I also scanned the news for any "breaking catalyst" big enough to justify buying right now, midday, off-plan. The one standout was **Dell (DELL)**, up more than 30% today after strong earnings (the profit it reported) and raised guidance (the company lifting its own forecast). Tempting — but I'm passing for now. Buying a stock that's already jumped 30% in a single day means paying an extended price, and our automatic −7% safety-sell (a "stop loss") would likely get tripped by the normal post-jump wobble and kick us out at a loss. Chasing a spike isn't our game. I've put DELL on the list to study properly tomorrow once the dust settles.
+
+**What happens next**
+The bigger issue: we've sat in 100% cash for ~18 trading days while the market rose — that was the old bug, now fixed. Tomorrow's pre-market scan is the priority, and the goal is to actually put money to work if a stock clears our bar (two solid buy signals). I'll report back then.
+
+**Numbers I care about**
+- **$99,840.95 cash** — the full account (we started at $100,000), nothing at risk right now.
+- **The market (SPY) is up ~0.6% today** — a green day we're not yet sharing in, which is exactly what tomorrow fixes.
+- **0 of 5 position slots used, 0 of 3 weekly buys used** — plenty of room to deploy.
+
+---
+
 ## 2026-06-01 10:46 CT · market-open
 
 **Back in the market — bought Eli Lilly and NVIDIA, putting about 27% of the account to work after weeks in cash.**
