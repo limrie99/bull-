@@ -27,6 +27,39 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-06-01 12:00 CT — midday
+
+### State on wake
+- **First live routine after the 6/1 memory-persistence repair.** Keys all present, memory synced from `origin/main`, Alpaca reachable.
+- **Account verified flat:** $99,840.95 equity, $99,840.95 cash, **0 positions** (Alpaca `/v2/account` + `/v2/positions` both confirm). Market open (`is_open: true`, next_close 6/1 16:00 ET).
+- Inbox: nothing pending.
+- **No fresh pre-market thesis exists for today** — last real research-log entry predates the repair (4/21–4/22). The 4/22 entries are HALT notes (missing keys), not tradeable plans.
+
+### Portfolio watch
+No open positions → no -7% stops to action, no +5% winners to convert to trailing stops, nothing to sell. Risk-management pass is a no-op by construction.
+
+### Daily loss cap
+N/A — flat book, and the tape is **up** today anyway. Perplexity: SPY **~+0.6% intraday** vs Friday's close (risk-on; oil lower, yields softer, AI/tech leading). No drawdown, no buy-block triggered.
+
+### Cash-drag flag (per cold-start rule)
+**Book has been 100% cash since the 5/4 NVDA exit — ~18 trading days.** This is exactly the condition the 6/1 rule says to escalate. Root cause (memory never persisting) is now fixed, so this should not recur. Per the rule, **finding a qualifying 2-signal setup is the priority — but that work belongs to a scan routine, not midday.**
+
+### Midday buy decision
+Midday rule: **no new buys unless a high-conviction *breaking* catalyst** AND buys-this-week < 3 AND positions < 5 (caps are fine: 0/3 buys, 0/5 positions).
+
+Single breaking catalyst surfaced: **DELL +30%+** post-earnings on a beat + raised guidance (AI-server demand). Clears signal #1 (earnings beat + raised guidance) and arguably #3 (AI-infra tailwind) = 2 signals.
+
+**Decision: DO NOT chase DELL at midday.** A +30% post-earnings gap is an extended entry — buying here puts the −7% hard stop squarely inside normal post-gap volatility (a routine gap-fill whipsaws us out at a loss). Strategy's "we don't catch knives" logic cuts both ways: don't chase blow-off gaps either. This is FOMO, not a disciplined swing entry. **Queued for tomorrow's pre-market** to evaluate a proper entry once the gap settles / consolidates.
+
+### Sell candidates
+None — no positions.
+
+### Net / handoff to 6/2 pre-market
+- No trades, no stop changes this midday (nothing to manage on a flat book).
+- **Priority for 6/2 pre-market:** run the full sub-agent scan and actually deploy capital if a name clears 2 signals — 18 days of cash drag against a rising SPY is the real cost here. Re-evaluate DELL post-gap; build a fresh watchlist (seed: NVDA, AVGO, GOOGL, MSFT, PLTR, LLY, NOW, CRWD, PANW, plus DELL).
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason
