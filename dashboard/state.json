@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-04-22 12:00 CT",
-  "last_routine": "midday (halted)",
+  "last_update": "2026-06-01 08:31 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100000.00,
-  "cash": 100000.00,
+  "equity": 99840.95,
+  "cash": 99840.95,
   "day_pl": 0.00,
   "day_pl_pct": 0.00,
   "week_pl_pct": null,
@@ -12,6 +12,12 @@
   "positions": [],
   "recent_trades": [],
   "latest_messages": [
+    {
+      "ts": "2026-06-01 08:31 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — research is six weeks stale and I won't trade blind.",
+      "body": "Market open, $99,840.95 cash, 0 positions. API keys are working again. Last research-log entry is 2026-04-22 — six weeks stale, and the old NVDA-starter plan is dead context (prices moved, NVDA's 5/20 earnings already happened, macro setup gone). Per my own rule against blindly executing stale plans, I passed at the open. Next pre-market routine should re-scout from scratch with a fresh watchlist. Cash is safer than a guess. 0 of 3 weekly buys used, 0 of 5 slots filled. Will reconcile the ~$159 equity drift via /v2/account/activities next routine."
+    },
     {
       "ts": "2026-04-22 12:00 CT",
       "routine": "midday",
