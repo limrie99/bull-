@@ -27,6 +27,41 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 
 ---
 
+## 2026-06-01 10:40 CT — pre-market
+
+**Routine note / clock discrepancy:** Invoked as the "pre-market" research routine (prompt said 6:00 AM CT), but the live Alpaca clock shows the market **already open** (11:37 ET / 10:37 CT, `is_open=true`, next_close 16:00 ET). Treated this as research-only per the routine scope — **no trades placed**. The candidates below are teed up for the next market-open routine to act on. APIs verified live: Alpaca 200, Perplexity 200. Account reconciled flat against Alpaca: **$99,840.95, all cash, 0 positions, daytrade_count 0.** This is the first real scan since the memory-persistence bug was fixed today.
+
+**Cash-drag flag:** Per the cold-start / anti-paralysis rule, the book has effectively been 100% cash since the 5/04 NVDA exit (~18 trading days). The bug that caused that is fixed; the priority for the next market-open routine is to **put money to work if a name clears the 2-signal bar** (several below do). Holding cash another full session is not the default.
+
+### Market context
+Four sub-agents fanned out (macro, earnings, opportunity scout, sector rotation), each with Perplexity.
+- **Tape:** Risk-on, at record highs. S&P 500 closed Fri 5/29 at ~7,645.71 (+0.22%), Nasdaq 100 +0.36% — fresh all-time highs across S&P/Nasdaq/Dow. SPY last ~$757.35. Momentum "grind higher" intact; some chatter about exhaustion at the top.
+- **Rates / commodities / VIX:** Precise 10Y, WTI, DXY, VIX levels **n/a** from Perplexity this run. Qualitative: crude easing on Mideast peace-deal hopes (disinflationary, bond-supportive). Verify levels on a live source before relying on them.
+- **Leadership:** Tech / AI infrastructure clearly leading (Dell +32% Fri on strong outlook). Communication Services (GOOGL, META — AI ad monetization) and Industrials (AI datacenter power) also strong. Lagging: Utilities, REITs, Staples (rate-sensitive / defensive shunned in risk-on).
+- **Net read:** Risk-on but extended. **Live wire:** whether megacap/AI leadership holds or shows breadth exhaustion at record highs. No confirmed value/cyclical rotation yet.
+- **Data calendar caveat:** Perplexity could not cleanly confirm this week's macro calendar (NFP/Fed/CPI/PCE) for early June 2026 — verify jobs-report timing on a live calendar.
+
+### Portfolio watch
+No open positions. $99,840.95 cash, ~$199,682 buying power (cash-only, no leverage per strategy). Nothing to manage — no stops to roll, no thesis to defend.
+
+### Buy candidates (signals matched + conviction)
+Uptrend confirmed via Alpaca daily bars (last close vs ~50-day simple avg); all > $5, all large-cap/liquid.
+
+1. **NVDA — Tech/semis — HIGH conviction. CLEAR TO OPEN.** Signals **#1, #3, #6** (3). Reported FQ1'27 on **5/20**: EPS $1.87 vs $1.76, rev $81.6B vs $78.4B, guided Q2 rev $89–93B above ~$86B Street — clean beat-and-raise. Secular AI-datacenter bellwether. Uptrend: last $220.42 vs 50d avg ~$199.8. **Next earnings 8/26** — well outside the 3-day blackout. Top pick for the next open.
+2. **GOOGL — Comm Services — MED-HIGH.** Signals **#3 (AI ad monetization), #5 (sector rotation into comm services), #6 (uptrend, last $375.88 vs avg ~$348.4)**. Mega-cap internet leadership on AI-driven ad margins. Earnings date to verify (typically late July) — not an imminent blackout.
+3. **IBM — Tech — MED.** Signals **#3 (AI/enterprise + quantum), #6 (uptrend, +12.8% late May; last $327.18 vs avg ~$239)**. Lower-beta AI momentum play. Verify next earnings date before opening.
+4. **MRVL — Tech/semis — MED-HIGH thesis, EARNINGS-DATE RISK.** Signals **#1 (raised FY27 outlook ~$11B), #3 (AI datacenter/optical, hyperscaler demand), #6 (last $217.95 vs avg ~$147.8, +50%+ YTD)**. Strong, but Marvell typically reports **late May/early June** — likely inside the 3-day blackout. **Do NOT open until next earnings date is confirmed clear.**
+5. **AVGO — Tech/semis — strong, but BLACKOUT.** Reports **Wed 6/3** (within 3 trading days). Per strategy rule #67 we do **not** open a new position within 3 trading days of earnings. Revisit after the print.
+- **Watchlist (second signal pending):** LLY (GLP-1 secular #3, but no fresh catalyst), VRT (AI datacenter power #3, no confirmed second signal).
+
+### Sell candidates
+None — no open positions.
+
+### Data confidence
+NVDA beat/raise + earnings date: fully Perplexity-confirmed with figures (HIGH). GOOGL/IBM/MRVL catalysts dated to late May (MED) but their next-earnings dates unverified — confirm before sizing. AVGO 6/3 / ADBE 6/11 earnings dates confirmed via calendar. Macro equity levels good through 5/29–6/1; rates/oil/VIX/this-week's-data-calendar all n/a this run — verify live. Prices/uptrend are live from Alpaca as of this run.
+
+---
+
 ## 2026-04-22 12:00 CT — midday (HALTED)
 
 ### Halt reason

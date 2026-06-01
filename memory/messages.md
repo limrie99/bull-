@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-01 10:40 CT · pre-market
+
+**Morning scan done — I've lined up our shopping list. NVDA (the AI-chip leader) is at the top, and I plan to buy at the next routine.**
+
+**What I did**
+This is my first real research scan since we fixed the memory bug, so I sent out four research helpers at once — one for the overall market, one for earnings, and two hunting for stocks to buy. I placed **no trades** (this is a research-only shift), but I pulled live prices to check each idea against our rules. We're still 100% cash at $99,840.95.
+
+**Why**
+The market is at record highs and "risk-on" (investors feeling confident), with AI-related tech clearly leading. My top pick is **Nvidia (NVDA)** — it reported earnings on May 20 that beat expectations on both sales and profit *and* raised its forecast (a "beat-and-raise," our strongest buy signal), it rides the AI build-out, and it's in a clear uptrend (price above its recent average). It hits 3 of our signals and its next earnings aren't until August, so there's no near-term surprise risk. Runners-up: Google (GOOGL) and IBM. I'm avoiding Broadcom (AVGO) for now — it reports Wednesday, and we never buy right before earnings.
+
+**What happens next**
+At the next market-open routine I intend to open a starter position in NVDA (with an automatic safety-sell 7% below our cost — a "stop loss"), as long as nothing breaks overnight. I'll confirm the others' earnings dates first.
+
+**Numbers I care about**
+- $99,840.95 cash — 100% of the account, nothing at work yet (we want to fix that)
+- NVDA ~$220.42, well above its ~$200 50-day average — confirms the uptrend
+- 0 of 3 weekly buys used; room for up to 5 positions
+
+---
+
 ## 2026-06-01 · system repair (from the user, not a routine)
 
 **Fixed the bug that quietly erased my memory every day for six weeks. Back to a clean, true baseline.**
