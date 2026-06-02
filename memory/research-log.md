@@ -26,6 +26,29 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-02 08:32 CT — market-open
+
+**Setup:** Memory synced from origin/main; all keys present; Alpaca reachable. Market OPEN (`is_open:true`, next_close 6/2 16:00 ET). Account: equity $100,124.93, last_equity $100,124.86 → **flat day so far (+$0.07, ~0.00%)** — no daily-loss-cap concern. cash $72,634.26, daytrade_count 0, trading_blocked false. Inbox: nothing pending.
+
+### Positions (live marks at open)
+| Sym | Sh | Avg | Cur | P/L $ | P/L % | Stop | Read |
+|---|---|---|---|---|---|---|---|
+| LLY | 14 | 1078.46 | 1077.00 | −20.44 | −0.14% | 1002.57 GTC | INTACT, flat; nowhere near −7% or +5% |
+| NVDA | 55 | 220.15 | 225.685 | +304.43 | +2.51% | 204.74 GTC | INTACT; **below +5% trailing trigger (~$231.16)** — no conversion |
+
+- Both −7% GTC hard stops re-confirmed live via `GET /v2/orders?status=open` (NVDA b55fb743 @ 204.74, LLY 6c4d0225 @ 1002.57). NVDA cooled from the +3.23% pre-market mark to +2.51% at the cash open — **did not reach +5%**, so the planned hard-stop→trailing-stop conversion is NOT executed this run.
+
+### Buy plan re-validation — GOOGL FAILED its condition → NO BUY
+Pre-market handoff: deploy the 3rd/final weekly buy on **GOOGL "if it opens constructively."** Re-validated against live data at the open:
+- **GOOGL is NOT opening constructively.** 6/1 daily close $376.37; live trade **$360.92 = ~−4.1% gap-down** on a ~flat tape (SPY 757.40 vs 6/1 close 758.44, ≈−0.14%). Last 5 daily closes show momentum already rolled over BEFORE today: 388.88 → 388.83 → 390.13 → 380.34 → 376.37, now ~361. Still +~3% above 50dMA so trend not *broken*, but the short-term action is a falling knife, not a constructive entry.
+- Per-ticker Perplexity (6/2): no *new* discrete catalyst today; the drop is the **ongoing AI-capex / lower-near-term-FCF overhang** (GOOGL sold off 4–5% on its print despite beating; ~$175–185B 2026 capex guidance spooked investors). Could not confirm broad megacap-tech weakness as a date-stamped fact, but MSFT (−2.0%) is also soft → tech-specific wobble this morning.
+- **Decision: PASS on GOOGL.** Strategy signal #6 requires a clear uptrend / "we don't catch knives." A −4% gap-down into a known capex overhang is the opposite of the constructive open the plan required. Buying here would put the −7% stop inside live downside momentum.
+- **Backup MSFT — also PASS.** 6/1 close 460.52, live $451.49 (−2.0%); strong uptrend (+13.9% over 50dMA, −1.2% off hi) but only a thin 2-signal case (#3 secular Azure/Copilot + #6 trend) with **no fresh near-term catalyst** (pre-market itself tagged it "no near-term catalyst"). Forcing the 3rd buy into a thin no-catalyst name on a soft-tech morning, 3 trading days before **NFP Fri 6/5**, is not disciplined. AVGO still barred (earnings ~6/3, inside 3-day blackout); DELL still extended post-gap.
+
+### Net decision
+**No trades and no stop changes this open.** Hold LLY + NVDA (both INTACT). NVDA didn't reach +5% → no trailing-stop conversion. GOOGL failed its constructive-open condition → 3rd weekly buy stays in reserve (still 1 of 3 left this week, good through Friday). This is **not** the cash-drag failure mode the cold-start rule guards against: we deployed ~27% across two solid positions just yesterday, and the anti-paralysis rule explicitly says bootstrapping ≠ forcing a trade — cash is fine for a day when nothing clears the bar after a genuine scan. Revisit GOOGL for a stabilized/consolidated entry, and re-check NVDA's +5% trigger, at midday/close.
+
+---
 ## 2026-06-02 06:00 CT — pre-market
 
 **Setup:** Memory synced from origin/main; keys all present; Alpaca reachable. Market CLOSED (next open 8:30 CT). Account: equity $100,211.56, cash $72,634.26, last_equity $100,124.86, daytrade_count 0. Positions: LLY 14 @ 1078.46 (mark 1077, −0.14%), NVDA 55 @ 220.15 (pre-mkt mark 227.26, **+3.23%**). Both −7% GTC hard stops confirmed live/working (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74). Inbox: nothing pending. **No trades this routine — market closed.** 5-agent fan-out (macro, earnings, LLY, NVDA, scout).

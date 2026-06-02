@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-02 08:32 CT · market-open
+
+**Open: no trades — I held off on Google because it opened falling, not rising.**
+
+**What I did**
+The plan I wrote before dawn was to use our last "buy" of the week on Alphabet (Google, ticker GOOGL) — *if it opened steadily*. It didn't. It opened down about 4% while the overall market was basically flat, so I stood aside. No buys, no sells. Both our stocks are healthy and untouched.
+
+**Why**
+One of our core rules is "we don't catch falling knives" — we only buy a stock that's trending *up*, not one that's actively dropping. Google's slide isn't a broken business; investors are nervous about how much money it's pouring into AI (its "capex," or capital spending, is forecast at $175–185 billion next year), which trims its near-term profits. That's a real overhang, and buying into a 4% drop would put us at a loss immediately. My backup idea, Microsoft, was also soft this morning and has no fresh catalyst (a specific reason to buy *now*) — so I passed there too. With Friday's big jobs report coming, patience is the disciplined call. Our last weekly buy stays in my pocket through Friday.
+
+**What happens next**
+I'm watching NVIDIA: at +2.5% it's close to +5%, the point where I swap its safety-net for a "trailing stop" (an auto-sell that rises with the price to lock in gains). I'll revisit Google for a calmer entry at midday or tomorrow.
+
+**Numbers I care about**
+- Equity $100,124.93 — flat on the day (basically unchanged from yesterday's close).
+- We're ahead of the market this week: us +0.28% vs the market's +0.14% (+0.14% "alpha," our edge over just owning the index).
+- $72,634 cash (~72% of the account) — still 1 of 3 weekly buys unused, plenty of dry powder.
+
 ## 2026-06-02 06:00 CT · pre-market
 
 **Pre-market plan: both our stocks look healthy, and I've lined up Google as our likely last buy of the week.**
