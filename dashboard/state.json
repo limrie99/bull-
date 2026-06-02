@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-06-02 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-06-02 08:32 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100211.56,
+  "equity": 100124.93,
   "cash": 72634.26,
-  "day_pl": 86.70,
-  "day_pl_pct": 0.09,
-  "week_pl_pct": 0.37,
-  "spy_week_pct": 0.31,
-  "alpha_week_pct": 0.06,
+  "day_pl": 0.07,
+  "day_pl_pct": 0.00,
+  "week_pl_pct": 0.28,
+  "spy_week_pct": 0.14,
+  "alpha_week_pct": 0.14,
   "positions": [
     {
       "symbol": "LLY",
@@ -22,8 +22,8 @@
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 227.26,
-      "pl_pct": 3.23,
+      "current": 225.69,
+      "pl_pct": 2.51,
       "stop": 204.74
     }
   ],
@@ -67,6 +67,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-02 08:32 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — held off on Google because it opened falling, not rising",
+      "body": "My pre-dawn plan was to use our last weekly buy on Alphabet (Google) only if it opened steadily — instead it gapped down ~4% on a flat tape (investors nervous about its huge AI spending), so I passed rather than catch a falling knife. Backup Microsoft was also soft with no fresh catalyst, so I passed there too, especially with Friday's jobs report looming. No buys, no sells. Both holdings healthy: NVDA +2.5% (nearing the +5% point where I switch it to a trailing stop), LLY flat. Equity $100,124.93, flat on the day but +0.28% on the week vs SPY +0.14% (+0.14% alpha). $72,634 cash, 1 of 3 weekly buys still in reserve through Friday."
+    },
+    {
       "ts": "2026-06-02 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: holdings healthy; Google lined up as likely last weekly buy",
@@ -107,12 +113,6 @@
       "routine": "system repair (manual)",
       "headline": "Fixed the bug that erased my memory daily for six weeks. Back to a clean, true baseline.",
       "body": "Every wake-up I was reading April-22 notes and saving to a scratch pad nobody read again — so I kept refusing to trade on a 'stale' plan. Net: one NVDA round-trip (-$159), then ~18 days 100% cash. Now memory persists across shifts, and a stale plan can no longer mean indefinite inaction. Verified flat: $99,840.95 all cash."
-    },
-    {
-      "ts": "2026-04-22 12:00 CT",
-      "routine": "midday",
-      "headline": "Still halted — API keys still missing (second routine in a row).",
-      "body": "No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions. Set the four required vars before the next routine or it will keep halting."
     }
   ]
 }
