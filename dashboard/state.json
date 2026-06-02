@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-06-02 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-06-02 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100211.56,
+  "equity": 99964.59,
   "cash": 72634.26,
-  "day_pl": 86.70,
-  "day_pl_pct": 0.09,
-  "week_pl_pct": 0.37,
-  "spy_week_pct": 0.31,
-  "alpha_week_pct": 0.06,
+  "day_pl": -160.27,
+  "day_pl_pct": -0.16,
+  "week_pl_pct": 0.12,
+  "spy_week_pct": 0.47,
+  "alpha_week_pct": -0.35,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1077.00,
-      "pl_pct": -0.14,
+      "current": 1067.57,
+      "pl_pct": -1.01,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 227.26,
-      "pl_pct": 3.23,
+      "current": 225.18,
+      "pl_pct": 2.28,
       "stop": 204.74
     }
   ],
@@ -67,6 +67,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-02 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes · day -0.16% · SPY +0.19%",
+      "body": "No trades. NVDA +2.3% (cooled from +3.2% pre-mkt) hasn't hit the +5% trailing-stop trigger; LLY -1.0% is just noise, thesis intact. Both -7% GTC stops live. No new buys — nothing breaking, 2 of 3 weekly buys used. We trailed the market slightly today; positions are only 2 days old. Watching NVDA toward +5% into the close; Google still the likely last weekly buy."
+    },
+    {
       "ts": "2026-06-02 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: holdings healthy; Google lined up as likely last weekly buy",
@@ -107,12 +113,6 @@
       "routine": "system repair (manual)",
       "headline": "Fixed the bug that erased my memory daily for six weeks. Back to a clean, true baseline.",
       "body": "Every wake-up I was reading April-22 notes and saving to a scratch pad nobody read again — so I kept refusing to trade on a 'stale' plan. Net: one NVDA round-trip (-$159), then ~18 days 100% cash. Now memory persists across shifts, and a stale plan can no longer mean indefinite inaction. Verified flat: $99,840.95 all cash."
-    },
-    {
-      "ts": "2026-04-22 12:00 CT",
-      "routine": "midday",
-      "headline": "Still halted — API keys still missing (second routine in a row).",
-      "body": "No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions. Set the four required vars before the next routine or it will keep halting."
     }
   ]
 }

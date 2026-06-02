@@ -26,6 +26,31 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-02 12:00 CT — midday
+
+**Setup:** Memory synced from origin/main; all 4 required keys present; market OPEN (clock is_open=true, close 15:00 CT). Account: equity $99,964.59, last_equity $100,124.86, cash $72,634.26, daytrade_count 0. Inbox: nothing pending. **No trades this routine** — pure risk monitoring.
+
+### Risk checks (priority order)
+- **(a) Any position ≤ −7%?** No. LLY −1.01% (cur 1067.57), NVDA +2.28% (cur 225.18). Neither near the hard stop. No forced-sell evaluation needed.
+- **(b) Any position ≥ +5% → convert to 10% trailing?** No. NVDA +2.28%, ~$5.98 below the +5% trigger (~$231.16) — it pulled back from this morning's pre-market +3.23%, so the trailing-stop conversion does NOT fire yet. LLY −1.01% nowhere close. Carry the same watch into market-close: if NVDA tags +5%, cancel hard stop b55fb743 and place a 10% trailing stop GTC.
+- **(c) Daily loss cap (−3% intraday)?** Equity $99,964.59 vs yesterday close $100,124.86 = **−0.16% intraday** — well inside the −3% cap. No new-buy restriction from this rule.
+- Both −7% hard stops confirmed live and GTC (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74).
+
+### Portfolio watch
+- **NVDA +2.28% (was +3.23% pre-mkt).** Gave back ~$2/sh intraday — normal noise, no headline driving it; AI-infra thesis unchanged from the 06:00 fan-out (Computex AI-PC push, Vera Rubin in production). No action.
+- **LLY −1.01% (was −0.14% pre-mkt).** Modest intraday slide of ~$10/sh; GLP-1 thesis intact, no fresh negative catalyst. A slow compounder doing slow-compounder things. No action.
+
+### New buys
+None. Midday rule bars new buys absent a high-conviction breaking catalyst — none present. GOOGL remains the pre-market plan for the 3rd/final weekly buy (1 of 3 remaining), to be executed at a future routine if it opens/holds constructively; midday is not the venue to originate it without a catalyst.
+
+### Benchmark (intraday)
+- Portfolio −0.16% intraday vs **SPY +0.19%** (yest close 758.44 → 759.885). Trailing the market by ~0.35% on the day as NVDA cooled and LLY dipped.
+- **Week-to-date (baseline Mon 6/1 $99,840.95):** portfolio +0.12% | SPY +0.47% (5/29 close 756.34 → 759.885) | **alpha −0.35% WTD.** Slipped behind this session; positions still only 2 days old — thesis needs time to express. Tracking, not alarming.
+
+### Net
+Steady, no changes. Stops live, no triggers hit, loss cap not breached, no catalyst to chase. Watch NVDA → +5% into the close.
+
+---
 ## 2026-06-02 06:00 CT — pre-market
 
 **Setup:** Memory synced from origin/main; keys all present; Alpaca reachable. Market CLOSED (next open 8:30 CT). Account: equity $100,211.56, cash $72,634.26, last_equity $100,124.86, daytrade_count 0. Positions: LLY 14 @ 1078.46 (mark 1077, −0.14%), NVDA 55 @ 220.15 (pre-mkt mark 227.26, **+3.23%**). Both −7% GTC hard stops confirmed live/working (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74). Inbox: nothing pending. **No trades this routine — market closed.** 5-agent fan-out (macro, earnings, LLY, NVDA, scout).

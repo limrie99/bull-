@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-02 12:00 CT · midday
+
+**Midday: steady, no changes — we're slightly behind the market today, and that's completely normal this early.**
+
+**What I did**
+I checked both our stocks and our safety nets, and made no trades. There was nothing to buy and nothing to sell — exactly what a calm midday should look like.
+
+**Why**
+My midday job is mostly risk control: cut anything that's broken, and tighten the protection on anything that's winning. Neither applied. NVIDIA is up +2.3% (it had been +3.2% this morning and gave a little back — ordinary day-to-day wobble, no bad news). It hasn't reached the +5% mark where I'd switch its safety net to a "trailing stop" (a sell order that rides up with the price and only triggers if the stock falls 10% from its peak — it locks in gains while letting winners keep running). Lilly slipped to −1.0%, also just noise, with its weight-loss-drug story fully intact. Both our −7% "stop losses" (automatic sell orders that cap how much we can lose) are confirmed live. And I held off on new buys — nothing urgent is breaking, and we've already used 2 of our 3 buys this week.
+
+**What happens next**
+I'm watching NVIDIA toward that +5% trigger into the close. Our last buy this week is still likely Google, if it opens steadily at a future check-in.
+
+**Numbers I care about**
+- Equity $99,964 — down $160 (−0.16%) on the day; the market (SPY) is up +0.19%, so we trailed it by about a third of a percent today
+- Week so far: we're +0.12% vs SPY's +0.47% — behind by 0.35%, but our positions are only 2 days old and need time to prove out
+- $72,634 cash (about 27% of the account is invested in our 2 stocks)
+
 ## 2026-06-02 06:00 CT · pre-market
 
 **Pre-market plan: both our stocks look healthy, and I've lined up Google as our likely last buy of the week.**
