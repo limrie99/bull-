@@ -26,6 +26,39 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-02 06:00 CT — pre-market
+
+**Setup:** Memory synced from origin/main; keys all present; Alpaca reachable. Market CLOSED (next open 8:30 CT). Account: equity $100,211.56, cash $72,634.26, last_equity $100,124.86, daytrade_count 0. Positions: LLY 14 @ 1078.46 (mark 1077, −0.14%), NVDA 55 @ 220.15 (pre-mkt mark 227.26, **+3.23%**). Both −7% GTC hard stops confirmed live/working (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74). Inbox: nothing pending. **No trades this routine — market closed.** 5-agent fan-out (macro, earnings, LLY, NVDA, scout).
+
+### Market context
+- **Futures (unconfirmed precision, Perplexity treats this date as near-future):** ES ~+0.3%, NQ ~+0.2%. Asia firmer (Nikkei +0.3–0.8%, HSI +0.5–1.0%); Europe slightly up (DAX/FTSE +0.1–0.6%).
+- **Rates:** 10Y ~4.2–4.3%, biasing UP as markets pare Fed-cut bets — mild headwind, not a stop.
+- **FX/commodities:** DXY ~104–105 firm; WTI ~$77–79 up modestly; gold softer on higher real yields.
+- **SPY (Alpaca):** 758.65, +7.5% over ~50dMA (705.6), basically AT its ~120d high (760.26) — market at record highs.
+- **Data this week (dates INFERRED, unconfirmed):** ISM Mfg (Mon), JOLTS (Tue), ISM Svcs + ADP (Wed), claims (Thu), **NFP Fri 6/5 = key event**. CPI/PCE later in month. → size any entry mindful of Friday's jobs print.
+- **Risk read:** mildly risk-on / constructive. **Macro does NOT gate new buys today.**
+
+### Portfolio watch
+- **LLY — INTACT.** No 48h thesis-breaker. Recent confirms: retatrutide TRIUMPH-1 strong topline (ASCO ~5/29), Foundayo (oral orforglipron) gets CVS Caremark coverage from 6/1 — all 3 major PBMs now cover LLY's obesity portfolio. FDA proposing to drop tirzepatide/semaglutide from 503B list = tailwind (curbs compounded copycats). Watch: Medicare GLP-1 $50/mo bridge (from 7/1) boosts volume but compresses realized price (hits Novo too). No reason to sell/trim — day-2 hold.
+- **NVDA — INTACT, strengthening.** Computex/GTC Taipei keynote (~6/1): NVDA entering Windows AI-PC market (RTX Spark + N1X with MediaTek; OEMs MSFT/Dell/HP/Lenovo) = TAM expansion; Vera Rubin in production, Blackwell Ultra ramping; hyperscaler capex intact. Export-control loophole closure noted as minimal demand impact (supply-constrained). **At +3.23%, ~$3.90 below the +5% (~$231.16) trailing-stop trigger** — a fresh positive narrative could push it through today. **Market-open task: if NVDA ≥ +5%, cancel −7% hard stop b55fb743 and place a 10% trailing stop (GTC).** No sell reason.
+
+### Buy candidates (1 of 3 weekly buys remaining; 2 of 5 slots used; $72.6K cash)
+Perplexity refused dated 6/2 earnings/upgrade data → signals #1/#4 UNVERIFIED, must confirm at open. Trend (#6) verified via Alpaca below.
+- **GOOGL — LEAD CANDIDATE.** 367.94, +5.4% over ~50dMA (349), ~10% off ~120d-hi (408.57) = constructive uptrend, NOT parabolic, NOT a fresh low. Thesis: AI cloud + ad monetization + TPU buildout (secular #3) + clean uptrend (#6) = **2 signals, med conviction.** Adds AI exposure via a different vector than NVDA. No looming earnings coin-flip. Verify at open: holds constructive open; any recent upgrade would add #4.
+- **MSFT — backup.** 456.42, +13% over 50dMA, −2% off 120d-hi (466.27). Strong uptrend near highs; secular #3 (Azure/Copilot) + #6. No near-term catalyst. Med conviction.
+- **AVGO — PASS for now (earnings-risk rule).** 467.15, +20% over 50dMA, AT 120d-hi (466) = extended, and fiscal Q2 earnings ~6/3 = **within 3 trading days → strategy bars opening unless thesis depends on the print.** Revisit post-beat only.
+- **PANW — conditional.** 300.5, near 120d-hi (302.87); cybersecurity secular #3; fiscal Q3 earnings "this month" — must confirm date isn't within 3 trading days before any entry.
+- **DELL — WAIT/PASS.** 477.13, at/above 120d-hi (468.64) after the +30% earnings gap = extended. Don't chase; only revisit if it digests sideways / pulls back to gap-low on light volume.
+
+### Sell candidates
+None. Both holdings INTACT; neither near −7%; NVDA approaching (not at) +5% trailing trigger.
+
+### Net / handoff to market-open
+1. **Watch NVDA → +5% (~$231.16): convert to 10% trailing stop** if hit.
+2. **GOOGL is the plan for the 3rd weekly buy** if it opens constructively (and ideally a per-ticker confirm of trend/any upgrade). Med conviction → ~12–15% size (~$12–15K), −7% hard stop via OTO order_class, GTC. AVGO excluded by earnings-risk rule; DELL still extended.
+3. Mind **NFP Friday 6/5** — don't over-size into it.
+
+---
 ## 2026-06-01 15:00 CT — market-close
 
 ### Day summary

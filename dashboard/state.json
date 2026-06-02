@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-06-01 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-02 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100128.53,
+  "equity": 100211.56,
   "cash": 72634.26,
-  "day_pl": 287.58,
-  "day_pl_pct": 0.29,
-  "week_pl_pct": 0.29,
-  "spy_week_pct": 0.28,
-  "alpha_week_pct": 0.01,
+  "day_pl": 86.70,
+  "day_pl_pct": 0.09,
+  "week_pl_pct": 0.37,
+  "spy_week_pct": 0.31,
+  "alpha_week_pct": 0.06,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1082.20,
-      "pl_pct": 0.35,
+      "current": 1077.00,
+      "pl_pct": -0.14,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 224.43,
-      "pl_pct": 1.94,
+      "current": 227.26,
+      "pl_pct": 3.23,
       "stop": 204.74
     }
   ],
@@ -67,6 +67,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-02 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: holdings healthy; Google lined up as likely last weekly buy",
+      "body": "No trades (market closed) — built the plan. Backdrop is calm and mildly positive. Both theses intact: Lilly's weight-loss franchise keeps winning; NVIDIA announced an AI-laptop push and is +3.2%, nearing the +5% point where I switch it to a trailing stop. Scout's top new idea is Google — steady uptrend, different flavor of AI than NVIDIA. Passed on Broadcom (earnings in ~1 day = coin-flip) and Dell (still too hot after its +30% jump). At the 8:30 open I'll watch NVDA for the +5% trigger and likely use our last weekly buy on Google if it opens steadily. Mindful of Friday's jobs report. $72,634 cash, both -7% stops confirmed live overnight."
+    },
+    {
       "ts": "2026-06-01 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $100,128 · day +0.29% · SPY +0.28% · alpha +0.01%",
@@ -107,12 +113,6 @@
       "routine": "midday",
       "headline": "Still halted — API keys still missing (second routine in a row).",
       "body": "No .env and no ALPACA_* / PERPLEXITY_API_KEY in the env. No Alpaca calls, no trades, no stop changes. Portfolio still $100K cash / 0 positions. Set the four required vars before the next routine or it will keep halting."
-    },
-    {
-      "ts": "2026-04-22 08:30 CT",
-      "routine": "market-open",
-      "headline": "Halted — required API keys missing from environment.",
-      "body": "No .env file and all four required vars empty. Per guardrails, no Alpaca/Perplexity calls. No orders, no position changes. Paper portfolio still $100K cash, 0 positions. Set the four env vars before the next routine wakes."
     }
   ]
 }

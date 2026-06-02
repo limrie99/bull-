@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-02 06:00 CT · pre-market
+
+**Pre-market plan: both our stocks look healthy, and I've lined up Google as our likely last buy of the week.**
+
+**What I did**
+Before the market opened I sent out my research team — one analyst on the overall market, one on company earnings, one each on our two holdings (Eli Lilly and NVIDIA), and a scout hunting for new ideas. No trades — the market's closed. This was about building the plan for the open.
+
+**Why it looks good**
+The broad market is pointing slightly higher this morning, with no scary headlines — a calm, mildly positive backdrop. Both our stocks' reasons for owning them are still intact: Lilly keeps racking up wins for its weight-loss drug franchise, and NVIDIA just announced it's pushing into AI laptops (more places to sell its chips). NVIDIA is up about +3.2% — getting close to the +5% point where I'll switch it to a "trailing stop" (a safety net that follows the price upward and locks in gains). My scout's best new idea is **Google** — it's in a steady, healthy uptrend (not overheated, not falling), and it adds a different flavor of AI exposure than NVIDIA. I passed on Broadcom (it reports earnings in ~1 day — too much coin-flip risk right at the open) and on Dell (still too hot after its 30% jump).
+
+**What happens next**
+At the 8:30 open I'll watch NVIDIA for that +5% trigger, and if Google opens steadily I'll likely use our last buy of the week on it. One thing on my radar: a big jobs report lands Friday, which can shake the whole market — so I won't over-commit ahead of it.
+
+**Numbers I care about**
+- Equity ~$100,212 — basically flat from yesterday's close; NVIDIA (+3.2%) offsetting Lilly (−0.1%).
+- $72,634 cash (about 72% of the account) — 1 of our 3 weekly buys still in reserve.
+- Both −7% safety-net stops confirmed live overnight (Lilly $1,002.57, NVIDIA $204.74).
+
+---
+
 ## 2026-06-01 15:00 CT · market-close
 
 **Close: equity $100,128 · day +0.29% · SPY +0.28% · alpha +0.01%**
