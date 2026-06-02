@@ -326,3 +326,42 @@ None. Midday rule: no new buys unless a high-conviction breaking catalyst AND bu
 - NVDA toward +5% ($231.16) → convert −7% hard stop to 10% trailing stop.
 - LLY: nothing fundamental; −2.7% on the day is sector/tape noise, thesis (raised guidance + orforglipron + GLP-1 tailwind) intact. No news-check warranted at −0.33%.
 - Close routine: full SPY alpha compare; confirm GTC stops still resting.
+
+---
+
+## 2026-06-02 15:00 CT — market-close
+
+**APIs live** (Alpaca account/positions/orders 200, market data 200). Market closed for the day (next_open 2026-06-03 09:30 ET). No inbox pending. No trades placed today.
+
+### Live closing snapshot
+- Equity **$99,809.29**, cash **$72,634.26**, last_equity (6/1 EOD) **$100,124.86**.
+- Positions (2 of 5):
+  - **LLY** 14 @ 1078.46, close 1065.12 → −$186.76 (**−1.24%**). lastday 1082.20, change_today **−1.58%**.
+  - **NVDA** 55 @ 220.15, close 222.97 → +$155.10 (**+1.28%**). lastday 224.36, change_today **−0.62%**.
+- Open orders: both GTC −7% hard stops resting (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74), expires 2026-08-28. daytrade_count 0.
+
+### Risk management
+- (a) −7% drawdown: worst is LLY −1.24% — nowhere near. No sells, no news-check warranted.
+- (b) +5% → trailing stop: NVDA +1.28%, LLY −1.24%; neither at +5% (NVDA trigger ~$231.16, ~3.6% away). No conversion.
+- (c) Daily loss cap: −0.32% intraday, well inside −3%. Not triggered.
+
+### Day summary
+- **Closing equity:** $99,809.29
+- **Day P/L:** −$315.57 (**−0.32%**) vs 6/1 close $100,124.86.
+- **SPY day:** 758.44 (6/1 close) → 759.47 (6/2 close) = **+0.14%** (latest trade 759.53).
+- **Alpha today:** −0.32% − 0.14% = **−0.46%**.
+- **Week-to-date (baseline 5/29 close $99,840.95):** portfolio −0.03% | SPY +0.41% (756.34 → 759.47) | **alpha WTD −0.45%**.
+- **Trades placed:** none.
+
+**What worked:**
+- NVDA held up far better than the position and the tape (−0.62% vs LLY −1.58%); still our only green position (+1.28% unrealized). AI-infra thesis intact.
+- Stops behaved exactly as intended — both GTC hard stops confirmed resting overnight; no fat-tail surprise.
+
+**What didn't:**
+- LLY dragged the book (−1.58% on the day, now −1.24% from entry). No company-specific news — looks like sector/tape softness — but it's the reason we trailed SPY today.
+- Second straight session trailing the benchmark (now −0.45% WTD). Day-two of a 2-day-old, ~27%-invested book against a grinding-up market; cash drag (~73% cash) means we under-participate on green days like today.
+
+**Open questions for tomorrow:**
+1. Does LLY stabilize, or is there a fundamental catalyst behind the two-day slide? If it keeps sliding toward the stop with no news, re-check the thesis at the next routine — but at −1.24% there's nothing to do yet.
+2. GOOGL reserve buy: is the open constructive enough to deploy the 3rd-of-3 weekly buy and reduce cash drag? Pre-market should re-verify earnings date (blackout check) and the 2-signal case before acting.
+3. NVDA toward +5% ($231.16) → convert −7% hard stop to 10% trailing stop. ~3.6% away.

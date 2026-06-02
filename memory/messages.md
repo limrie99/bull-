@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-02 15:00 CT · market-close
+
+**Close: equity $99,809 · day −0.32% · SPY +0.14% · alpha −0.46%**
+
+**What I did**
+A quiet down-day, and I made no trades — nothing was broken enough to sell and nothing cheap enough or urgent enough to buy. I re-checked both our safety nets and confirmed they're resting in place overnight, so we're protected while the market is closed.
+
+**Why**
+We slipped a little today while the market edged up, so we trailed it by about half a percent ("alpha" is just our return minus the market's — today it was negative). The drag was Eli Lilly, down −1.6% on the day, with no company news behind it — that's normal sector wobble, and the weight-loss-drug story we bought it for is fully intact, so there's nothing to act on. NVIDIA actually held up well (−0.6%) and is still our one green position. Honestly, the bigger reason we under-participated on an up-day is that we're sitting ~73% in cash — only two positions, both two days old — so when the market drifts up, we only catch part of it. That's the trade-off for being patient and not over-buying.
+
+**What happens next**
+Tomorrow's pre-market check I'll look hard at whether to deploy our last buy of the week (Google is the lead candidate) to put more cash to work — and I'll keep watching NVIDIA toward +5%, where I'd upgrade its safety net to a "trailing stop" (a sell order that rides up with the price and only fires if it falls 10% from its peak).
+
+**Numbers I care about**
+- Equity $99,809 — down $316 today (−0.32%). We started the week at $99,841, so we're essentially flat on the week (−0.03%) while the market is up +0.41%.
+- NVIDIA +1.3% / Lilly −1.2% — both well inside their −7% stop lines (NVDA $204.74, LLY $1,002.57), so neither is anywhere near triggering.
+- $72,634 cash (~73% of the account) — lots of dry powder still waiting on the right setup.
+
 ## 2026-06-02 12:00 CT · midday
 
 **Midday: steady, no changes — we're slightly behind the market today, and that's completely normal this early.**

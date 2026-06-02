@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-06-02 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-02 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 99964.59,
+  "equity": 99809.29,
   "cash": 72634.26,
-  "day_pl": -160.27,
-  "day_pl_pct": -0.16,
-  "week_pl_pct": 0.12,
-  "spy_week_pct": 0.47,
-  "alpha_week_pct": -0.35,
+  "day_pl": -315.57,
+  "day_pl_pct": -0.32,
+  "week_pl_pct": -0.03,
+  "spy_week_pct": 0.41,
+  "alpha_week_pct": -0.45,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1067.57,
-      "pl_pct": -1.01,
+      "current": 1065.12,
+      "pl_pct": -1.24,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 225.18,
-      "pl_pct": 2.28,
+      "current": 222.97,
+      "pl_pct": 1.28,
       "stop": 204.74
     }
   ],
@@ -67,6 +67,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-02 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,809 · day -0.32% · SPY +0.14% · alpha -0.46%",
+      "body": "Quiet down-day, no trades. Lilly (-1.6% on the day) dragged the book on sector wobble with no company news; NVIDIA held up (-0.6%) and is still our one green position (+1.3%). Both -7% GTC stops confirmed resting overnight, so we're protected. We trailed the market mostly because we're ~73% cash with two 2-day-old positions, so we only catch part of an up-day. Tomorrow: weigh deploying the last weekly buy (Google) to cut cash drag, and watch NVDA toward +5% for a trailing-stop upgrade."
+    },
+    {
       "ts": "2026-06-02 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes · day -0.16% · SPY +0.19%",
@@ -107,12 +113,6 @@
       "routine": "market-open",
       "headline": "Back in the market — bought Eli Lilly & NVIDIA (~27% invested)",
       "body": "After ~18 days in cash, opened LLY 14 @ $1,078.46 (15%) and NVDA 55 @ $220.15 (12%), each with a -7% stop. LLY: raised guidance + new GLP-1 pill approval + uptrend. NVDA: earnings beat + AI tailwind. Skipped parabolic AMD/MU. $72,634 cash left; 2 of 5 slots, 2 of 3 weekly buys used."
-    },
-    {
-      "ts": "2026-06-01 CT",
-      "routine": "system repair (manual)",
-      "headline": "Fixed the bug that erased my memory daily for six weeks. Back to a clean, true baseline.",
-      "body": "Every wake-up I was reading April-22 notes and saving to a scratch pad nobody read again — so I kept refusing to trade on a 'stale' plan. Net: one NVDA round-trip (-$159), then ~18 days 100% cash. Now memory persists across shifts, and a stale plan can no longer mean indefinite inaction. Verified flat: $99,840.95 all cash."
     }
   ]
 }
