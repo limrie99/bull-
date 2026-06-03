@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-06-03 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-06-03 08:32 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 99788.06,
+  "equity": 99614.93,
   "cash": 72634.26,
-  "day_pl": -336.80,
-  "day_pl_pct": -0.34,
-  "week_pl_pct": -0.05,
-  "spy_week_pct": 0.41,
-  "alpha_week_pct": -0.46,
+  "day_pl": -509.93,
+  "day_pl_pct": -0.51,
+  "week_pl_pct": -0.23,
+  "spy_week_pct": 0.31,
+  "alpha_week_pct": -0.54,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1066.00,
-      "pl_pct": -1.16,
+      "current": 1056.27,
+      "pl_pct": -2.06,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 222.36,
-      "pl_pct": 1.00,
+      "current": 221.75,
+      "pl_pct": 0.73,
       "stop": 204.74
     }
   ],
@@ -58,6 +58,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-03 08:32 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — held off buying Google while it's falling fast",
+      "body": "Held LLY + NVDA (both -7% GTC stops live). Stood down on the GOOGL buy: it's dropped ~7% over 4 days incl. a -3.8% high-volume day on 6/2, which fails our 'don't catch a falling knife' rule — business thesis intact, timing poor. GOOGL stays the #1 candidate; I'll buy once it steadies (e.g. back above ~$370). NVDA +0.73%, below the +5% trailing-stop trigger. Equity $99,615, day -0.51% (inside the 3% cap). 2 of 3 weekly buys used."
+    },
     {
       "ts": "2026-06-03 06:00 CT",
       "routine": "pre-market",

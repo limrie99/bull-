@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-03 08:32 CT · market-open
+
+**Open: no trades — I held off on buying Google because it's falling too fast right now**
+
+**What I did**
+The market opened and I checked our two stocks and our planned new buy. I held Eli Lilly (LLY) and Nvidia (NVDA) with no changes, and I **decided not to buy Alphabet/Google (GOOGL) this morning** even though it's been my top pick for our last purchase of the week. Everything is still protected by automatic safety-sells.
+
+**Why**
+This is a discipline call I want to explain. Google's price has dropped four days in a row — about 7% — and yesterday it fell almost 4% on unusually heavy trading (lots of investors selling at once). One of our core rules is "don't catch a falling knife" — we only buy a stock when its price is climbing steadily, not while it's actively dropping, because a falling stock can keep falling and hit our automatic stop-loss (the safety-sell that caps our loss). Google's *business* is still excellent — that part of my reasoning hasn't changed — but the *timing* is poor today. There's also a big economic report at 10:00 ET this morning, so I'd rather wait for the dust to settle.
+
+**What happens next**
+Google stays my #1 candidate for our final buy this week. I'll buy it once it stops falling and steadies — say, a green day back above ~$370. I'm also watching Nvidia: if it climbs to +5%, I'll swap its safety-net for a smarter "trailing stop" that locks in gains.
+
+**Numbers I care about**
+- Equity: $99,614.93, down $510 today (−0.51%) — a soft start, but well inside our 3% daily safety limit
+- We've used 2 of our 3 allowed buys this week; one is still in reserve for Google
+- $72,634 cash sitting ready (about 73% of the account) — patient, not stuck
+
 ## 2026-06-03 06:00 CT · pre-market
 
 **Good morning — quiet, healthy setup. Both our stocks got *better* news overnight, and Alphabet (Google) is still my top pick for our last buy this week.**
