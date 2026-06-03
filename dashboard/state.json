@@ -1,41 +1,33 @@
 {
-  "last_update": "2026-06-02 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-03 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99809.29,
+  "equity": 99788.06,
   "cash": 72634.26,
-  "day_pl": -315.57,
-  "day_pl_pct": -0.32,
-  "week_pl_pct": -0.03,
+  "day_pl": -336.80,
+  "day_pl_pct": -0.34,
+  "week_pl_pct": -0.05,
   "spy_week_pct": 0.41,
-  "alpha_week_pct": -0.45,
+  "alpha_week_pct": -0.46,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1065.12,
-      "pl_pct": -1.24,
+      "current": 1066.00,
+      "pl_pct": -1.16,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 222.97,
-      "pl_pct": 1.28,
+      "current": 222.36,
+      "pl_pct": 1.00,
       "stop": 204.74
     }
   ],
   "recent_trades": [
-    {
-      "date": "2026-06-01 12:00",
-      "side": "RISK",
-      "symbol": "LLY+NVDA",
-      "qty": 0,
-      "price": 0,
-      "note": "Re-issued both -7% hard stops as GTC (were expiring at today's close)"
-    },
     {
       "date": "2026-06-01 10:46",
       "side": "BUY",
@@ -58,7 +50,7 @@
       "price": 195.02
     },
     {
-      "date": "2026-04-22 08:30",
+      "date": "2026-04-22",
       "side": "BUY",
       "symbol": "NVDA",
       "qty": 25,
@@ -67,52 +59,28 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-03 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Quiet, healthy setup · both holdings got better news overnight · GOOGL still top pick for last buy",
+      "body": "No trades (market closed). LLY's new weight-loss pill won coverage from all big insurers; NVDA reaffirmed next-gen chips in full production (Morningstar fair value raised to $280) — both theses stronger. GOOGL is the lead for our 3rd weekly buy. Passed on JPM and COST (both sliding below their average price). Watching: NVDA toward +5% (would convert its stop to a trailing stop), and big jobs reports today + Friday — so I'll size any buy modestly."
+    },
+    {
       "ts": "2026-06-02 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $99,809 · day -0.32% · SPY +0.14% · alpha -0.46%",
-      "body": "Quiet down-day, no trades. Lilly (-1.6% on the day) dragged the book on sector wobble with no company news; NVIDIA held up (-0.6%) and is still our one green position (+1.3%). Both -7% GTC stops confirmed resting overnight, so we're protected. We trailed the market mostly because we're ~73% cash with two 2-day-old positions, so we only catch part of an up-day. Tomorrow: weigh deploying the last weekly buy (Google) to cut cash drag, and watch NVDA toward +5% for a trailing-stop upgrade."
+      "headline": "Quiet down-day, still protected — alpha slightly negative on day 2",
+      "body": "Broad soft close; LLY did most of the damage (-1.58%), NVDA held better. Both -7% GTC stops live overnight. NVDA below the +5% trailing trigger. GOOGL reserved for the final weekly buy."
     },
     {
       "ts": "2026-06-02 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes · day -0.16% · SPY +0.19%",
-      "body": "No trades. NVDA +2.3% (cooled from +3.2% pre-mkt) hasn't hit the +5% trailing-stop trigger; LLY -1.0% is just noise, thesis intact. Both -7% GTC stops live. No new buys — nothing breaking, 2 of 3 weekly buys used. We trailed the market slightly today; positions are only 2 days old. Watching NVDA toward +5% into the close; Google still the likely last weekly buy."
+      "headline": "Steady midday — no changes, stops live, NVDA cooled off",
+      "body": "Quiet session. NVDA pulled back from +3.2% pre-market to +2.3% — still below the +5% trailing-stop trigger. LLY -1.0%. Both -7% stops live. No catalyst to chase. GOOGL still the plan for the final weekly buy."
     },
     {
       "ts": "2026-06-02 06:00 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: holdings healthy; Google lined up as likely last weekly buy",
-      "body": "No trades (market closed) — built the plan. Backdrop is calm and mildly positive. Both theses intact: Lilly's weight-loss franchise keeps winning; NVIDIA announced an AI-laptop push and is +3.2%, nearing the +5% point where I switch it to a trailing stop. Scout's top new idea is Google — steady uptrend, different flavor of AI than NVIDIA. Passed on Broadcom (earnings in ~1 day = coin-flip) and Dell (still too hot after its +30% jump). At the 8:30 open I'll watch NVDA for the +5% trigger and likely use our last weekly buy on Google if it opens steadily. Mindful of Friday's jobs report. $72,634 cash, both -7% stops confirmed live overnight."
-    },
-    {
-      "ts": "2026-06-01 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $100,128 · day +0.29% · SPY +0.28% · alpha +0.01%",
-      "body": "First full day with money working. No trades at the close — pure health check. NVDA up +1.9% ($235), LLY +0.4% ($52); both green but neither at the +5% mark where I'd switch to a trailing stop. Both -7% hard stops confirmed live and GTC for overnight. We matched the market almost exactly (alpha +0.01%) — fine for day one, but the goal is to beat it, so I want the thesis to pull ahead over the next sessions. Back over our $100K starting line. Tomorrow: full scan, and I'll see if Dell (+30% today) has calmed to a sane entry for our last weekly buy."
-    },
-    {
-      "ts": "2026-06-01 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady on both stocks — and I quietly fixed a safety-net that was about to switch itself off tonight.",
-      "body": "We hold LLY + NVDA, up ~$49 on the day (+0.05%) — NVDA's gain offsetting LLY's small dip. No buys/sells needed. But I caught that this morning's -7% stop-loss orders were set as 'day' orders that would expire at today's 4pm close, leaving both stocks unprotected overnight. Cancelled and re-placed them as permanent GTC stops at the same -7% prices. Pure housekeeping, no shares traded. Watching NVDA toward +5% (then I switch it to a trailing stop). No midday buys — nothing breaking, and 2 of 3 weekly buys already used."
-    },
-    {
-      "ts": "2026-06-01 17:00 CT",
-      "routine": "reconciliation note",
-      "headline": "Live truth: we hold LLY + NVDA. Two earlier shifts that say 'all cash' checked the account seconds before my buys filled.",
-      "body": "Three routines ran near-simultaneously today. The midday and weekly-review entries below snapshotted Alpaca before this morning's buy orders filled, so they show a flat book — true at the instant they looked, stale now. Current truth: LLY 14 @ $1,078.46 + NVDA 55 @ $220.15 held, ~27% invested, $72,634 cash. The 'all-cash too long' worry in those notes is resolved."
-    },
-    {
-      "ts": "2026-06-01 16:00 CT",
-      "routine": "weekly review",
-      "headline": "Week ending 5/29: +0.0% | SPY +0.8% | alpha -0.8% | grade D",
-      "body": "First review off live memory. We sat 100% cash for the measured week while SPY rose ~0.8%, so we trailed by 0.8% (alpha by omission) — the tail end of the now-fixed memory bug. No risk-rule changes this week (the fix is one day old; let it run). NOTE: this week ended 5/29; we re-entered the market today (6/1) with LLY + NVDA, so the cash drag is now broken."
-    },
-    {
-      "ts": "2026-06-01 10:46 CT",
-      "routine": "market-open",
-      "headline": "Back in the market — bought Eli Lilly & NVIDIA (~27% invested)",
-      "body": "After ~18 days in cash, opened LLY 14 @ $1,078.46 (15%) and NVDA 55 @ $220.15 (12%), each with a -7% stop. LLY: raised guidance + new GLP-1 pill approval + uptrend. NVDA: earnings beat + AI tailwind. Skipped parabolic AMD/MU. $72,634 cash left; 2 of 5 slots, 2 of 3 weekly buys used."
+      "headline": "Pre-market plan — hold LLY + NVDA, GOOGL is the lead 3rd buy",
+      "body": "Both holdings intact and strengthening. NVDA approaching (not at) the +5% trailing trigger. Macro mildly risk-on, doesn't gate buys. GOOGL lead candidate for the final weekly buy; AVGO passed on earnings-risk."
     }
   ]
 }
