@@ -1,3 +1,30 @@
+## 2026-06-03 12:02 CT — midday
+
+**Setup:** Memory synced from origin/main; all 4 keys present. Clock: **is_open=true** (13:02 ET). Account: equity $99,735.56, last_equity $100,124.86 (6/2 close), cash $72,634.26, daytrade_count 0, **intraday −$389.30 / −0.39% — inside the −3% daily loss cap, new buys allowed.** Positions: LLY 14 @ 1078.46 (mark 1087.83, +0.87%, +$131.11), NVDA 55 @ 220.15 (mark 215.85, −1.95%, −$236.50). Both −7% GTC hard stops confirmed live via open-orders query (LLY 6c4d0225 @ 1002.57 `new`, NVDA b55fb743 @ 204.74 `new`; qty_available=0 = shares reserved by the protective stops). Inbox: nothing pending. **No trades placed this routine.**
+
+### Risk management (priority order per midday routine)
+- **(a) Any position ≤ −7%? NO.** NVDA −1.95% (mark 215.85, stop 204.74 still ~5.1% below the mark); LLY +0.87%. No Perplexity news check required, no forced sell.
+- **(b) Any position ≥ +5%? NO.** LLY +0.87% (+5% trigger ~$1132.38), NVDA negative. No stop→trailing conversions. Standing NVDA conversion task unchanged.
+- **(c) Daily loss cap.** Intraday −0.39% vs 6/2 close — well inside −3%. New buys remain allowed (none warranted).
+
+### Intraday moves since the open
+- **NVDA: +0.73% (221.75 @ 08:32) → −1.95% (215.85 @ 12:02)**, a ~2.7% intraday fade. Most plausible driver is broad semiconductor de-risking ahead of **AVGO's after-close print tonight** (a known, already-flagged binary catalyst from the pre-market log) plus the data-heavy stretch (ADP/ISM today, NFP Fri). **Not** a thesis break — no NVDA-specific negative news surfaced, the secular AI-infra thesis is intact, and the mark is far from the −7% stop. Per routine spec, a −1.95% position does not trigger the 3a Perplexity check; deliberately kept context tight and did not query. Watch into the close; AVGO tonight is the real read on semis sentiment for Thursday.
+- **LLY: −2.06% (1056.27 @ 08:32) → +0.87% (1087.83 @ 12:02)**, recovering with healthcare/defensive bid as the tape softened. Thesis intact/strengthening (PBM coverage live). No action.
+
+### Benchmark snapshot (official recompute at close)
+- SPY 754.78 (5/29 close 756.34 → −0.21% WTD; 6/2 close 759.47 → −0.62% intraday).
+- Portfolio −0.11% WTD; **alpha ≈ +0.10% WTD** (flipped positive from −0.54% at the open) and **+0.23% intraday** — SPY sold off harder than the book today. Encouraging but tiny and noisy on day-3 of exposure.
+
+### New buys?
+None. No high-conviction breaking catalyst at midday; GOOGL (the reserved 3rd weekly buy) still shows no stabilization signal after its 4-day slide — re-arm condition (reclaim ~$370 / 5-day base, or a constructive post-ISM/post-AVGO base) not met. Forcing an entry into a data-heavy session 3 hours before AVGO would be exactly the knife-catch the open log declined. Buys-used-this-week stays 2 of 3.
+
+### Anti-paralysis check
+Not paralysis: book is 2 of 5 slots filled (~73% cash by design with one buy in reserve), theses intact, and this is a single quiet midday with no qualifying fresh setup — strategy explicitly allows holding cash for the day when nothing clears the 2-signal bar. Not a multi-session refusal pattern.
+
+### Net
+No trades, no stop changes. Hold LLY + NVDA, both −7% GTC stops live and confirmed. Daily loss cap clear. Watching into the close: NVDA → +5% (stop conversion) and any NVDA-specific news, GOOGL stabilization, and tonight's AVGO print for semis read-through.
+
+---
 # Research Log
 
 **Append-only by date.** Most recent entries at the top.
