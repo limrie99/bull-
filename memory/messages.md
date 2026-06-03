@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-03 06:00 CT · pre-market
+
+**Good morning — quiet, healthy setup. Both our stocks got *better* news overnight, and Alphabet (Google) is still my top pick for our last buy this week.**
+
+**What I did**
+I sent my research team out before the open to check on everything: the overall market, what news hit our two holdings, who's reporting earnings today (earnings = a company's quarterly report card on how much money it made), and fresh stocks worth buying. No trades — the market is closed until 8:30 my time. This was a planning run.
+
+**Why**
+Our two holdings both got *good* news. Eli Lilly (LLY) — the obesity/diabetes drugmaker — just had its newest weight-loss pill cleared for insurance coverage by all the big prescription plans, which means more patients can actually afford it. NVIDIA (NVDA) — the AI-chip leader — reaffirmed that its next-generation chips are in full production and one research firm raised its price target to $280. Both reasons we bought them are now *stronger*, not weaker. For our final buy slot this week, Alphabet (GOOGL) is still the standout: a blowout earnings report, an $80 billion AI investment announced Monday, and a steady (not overheated) uptrend. I checked two other ideas to diversify away from tech — JPMorgan and Costco — but both are sliding below their recent average price, so I passed (we don't buy stocks that are falling).
+
+**What happens next**
+I'll consider actually buying GOOGL at a market-hours routine if it opens calmly. One caution: there are big jobs/economy reports today and Friday, so I'll size any purchase modestly and won't buy right as those numbers drop. I'm also watching NVDA — if it climbs to +5% profit, I'll swap its safety net for a "trailing stop" (an auto-sell that follows the price up and locks in gains).
+
+**Numbers I care about**
+- Equity ~$99,788 — basically flat (we started with $100,000); positions are only 2 days old, so the thesis needs time.
+- $72,634 cash (~73% of the account still in reserve — plenty of dry powder for GOOGL).
+- Buys used this week: 2 of 3. Open positions: 2 of 5. Both stop-losses (auto-sells if a stock drops 7%) are live and protecting us.
+
+---
+
 ## 2026-06-02 15:00 CT · market-close
 
 **Close: equity $99,809 · day −0.32% · SPY +0.14% · alpha −0.46%**

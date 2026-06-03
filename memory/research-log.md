@@ -26,6 +26,38 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-03 06:00 CT — pre-market
+
+**Setup:** Memory synced from origin/main; all 4 required keys present; Alpaca reachable. Market CLOSED (next open 8:30 CT / 09:30 ET). Account: equity $99,788.06, last_equity $100,124.86 (6/2 close), cash $72,634.26, daytrade_count 0. Positions: LLY 14 @ 1078.46 (mark 1066.00, −1.16%, −$174.44), NVDA 55 @ 220.15 (mark 222.36, +1.00%, +$121.55). Both −7% GTC hard stops confirmed live/working (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74). Inbox: nothing pending. **No trades this routine — market closed.** 4-thread sub-agent fan-out (macro, earnings, position [LLY+NVDA], opportunity scout) + Alpaca trend verification.
+
+### Market context
+- **Futures (unconfirmed precision — Perplexity treats 6/3 as near-future, refused live quotes):** ES modestly green-to-flat, NQ outperforming on megacap/AI leadership; indices at/near record highs.
+- **Rates:** 10Y range-bound, slight bias lower in yield into data; Fed data-dependent / wait-and-see. No fresh dislocation. Mild, not a stop.
+- **FX/commodities:** DXY flat-to-soft; WTI mid-range, no overnight spike; gold firm on lower real yields. No shocks.
+- **SPY (Alpaca):** 6/2 close 759.47, +7.3% over ~50dMA (707.79), basically AT its ~65-bar high (759.47) — market at record highs. Pre-market print ~760.
+- **Data this week (ET):** Wed 6/3 — 08:15 ADP private payrolls, 10:00 ISM Services PMI (both NFP previews, land mid-session). Thu 6/4 — 08:30 jobless claims. **Fri 6/5 08:30 — May Jobs Report / NFP = the key event (CONFIRMED via BLS calendar).**
+- **Earnings tonight:** **AVGO (Broadcom) reports after close — CONFIRMED.** Binary AI-accelerator/networking + guidance swing name; a big move could ripple to semis/NVDA sentiment Thursday. Watch, don't trade.
+- **Risk read:** neutral-to-mildly-risk-on. **Macro does NOT gate new buys today.** But ADP/ISM today + NFP Friday + AVGO tonight = a data-heavy stretch → size any entry conservatively and avoid initiating right into the 8:15/10:00 prints.
+
+### Portfolio watch
+- **LLY — INTACT, strengthening.** Last 24–48h: all 3 major PBMs now formally cover the full obesity portfolio (CVS Caremark Foundayo/orforglipron coverage went LIVE 6/1; broader Zepbound by 10/1; copays ~$25/mo commercial, ~$50/mo Medicare via the GLP-1 bridge from 7/1). Announced ~$3.8B in infectious-disease/vaccine bolt-ons (Curevo, LimmaTech, Vaccine Company). Goldman healthcare conf presentation 6/9. The "access" pillar of the thesis got formal confirmation. No analyst downgrades, no thesis-breaker. Day-3 hold; no action.
+- **NVDA — INTACT, strengthening.** GTC Taipei (6/1) formally launched RTX Spark AI-PC platform + 3 Windows AI PCs and the N1X chip w/ MediaTek (fall availability). 6/2 analyst Q&A reaffirmed Vera Rubin in full production (supply chain ~2× Grace Blackwell), 50%+ FCF return via buybacks/divvies, "major inflection in inference demand"; Vera CPU on track early Q3. Morningstar raised fair value to $280; 37-analyst Buy consensus intact, no downgrades. **At +1.00% (mark 222.36), ~$8.80 below the +5% (~$231.16) trailing-stop trigger** — no conversion yet. **Market-open task: if NVDA ≥ +5%, cancel −7% hard stop b55fb743 and place a 10% trailing stop (GTC).** No sell reason.
+
+### Buy candidates (1 of 3 weekly buys remaining; 2 of 5 slots used; $72.6K cash, ~72.8% buffer)
+Perplexity refused dated security-level screens (earnings surprise / 50dMA / next-earnings) for fresh names → trend (#6) verified independently via Alpaca bars below; that gate eliminated two scout ideas.
+- **GOOGL — LEAD CANDIDATE (high conviction).** 361.84, **+3.3% over ~50dMA (350.18), −10.1% off ~65-bar high (402.63)** = constructive uptrend, NOT parabolic, NOT a fresh low (#6 ✓). Q1'26 (reported 4/29) blowout: rev $109.9B (+22%), EPS $5.11 (+82% vs ~$2.66 cons), Cloud +63% YoY, backlog ~$460B (#1 ✓); 6/1 announced $80B raise for AI/TPU compute buildout = near-term catalyst (#2 ✓); AI cloud + ad + TPU secular tailwind (#3 ✓); strong analyst support (#4 ✓). **4+ signals.** Next earnings ~7/22 → no blackout. Adds AI exposure via a different vector (ads/cloud/TPU) than NVDA's hardware. **This is the execute candidate at market-open if it opens/holds constructively.**
+- **MSFT — backup (med-high).** 441.35, +8.9% over 50dMA, −4.2% off high = strong uptrend (#6 ✓); Azure mid/high-30s% growth + Copilot secular (#3 ✓), solid late-Apr beat (#1 borderline). NOTE: overlaps the AI-infra theme Bull already owns via NVDA — less diversifying. Next earnings ~late Jul.
+- **JPM — REJECTED (fails trend gate).** 300.99, **−0.8% BELOW 50dMA (303.28)**, −5.1% off high. Not a clear uptrend → signal #6 fails; only ~1 signal (sector). Don't catch a flat/rolling name. Revisit only if it reclaims the 50dMA.
+- **COST — REJECTED (fails trend gate + earnings-timing risk).** 954.23, **−5.2% BELOW 50dMA (1006.47)**, −12.9% off high = pulling back, not an uptrend (#6 fails). Also a late-May/early-June fiscal-Q3 cadence = possible earnings blackout. Two reasons to pass.
+- **AVGO — DISQUALIFIED.** Reports tonight after close → inside the earnings-within-3-days blackout. Revisit only post-print.
+
+### Sell candidates
+None. Both holdings INTACT and strengthening; neither near −7%; NVDA below (not at) the +5% trailing trigger. No thesis breaks, no fundamentals deterioration.
+
+### Net
+Plan unchanged and reinforced: hold LLY + NVDA (both theses confirmed by the 24h fan-out), and GOOGL remains the lead for the 3rd/final weekly buy — now with freshly-confirmed, dated signals and a verified constructive uptrend. No clean non-tech diversifier cleared the trend gate today (JPM/COST both below 50dMA), so GOOGL is the standout. Execution deferred to a market-hours routine. Watch into the open: NVDA → +5% (stop conversion), and don't initiate GOOGL right into the 8:15 ADP / 10:00 ISM prints; AVGO tonight informs semis sentiment.
+
+---
 ## 2026-06-02 12:00 CT — midday
 
 **Setup:** Memory synced from origin/main; all 4 required keys present; market OPEN (clock is_open=true, close 15:00 CT). Account: equity $99,964.59, last_equity $100,124.86, cash $72,634.26, daytrade_count 0. Inbox: nothing pending. **No trades this routine** — pure risk monitoring.
