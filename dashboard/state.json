@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-06-03 08:32 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-06-03 12:02 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 99614.93,
+  "equity": 99735.56,
   "cash": 72634.26,
-  "day_pl": -509.93,
-  "day_pl_pct": -0.51,
-  "week_pl_pct": -0.23,
-  "spy_week_pct": 0.31,
-  "alpha_week_pct": -0.54,
+  "day_pl": -389.30,
+  "day_pl_pct": -0.39,
+  "week_pl_pct": -0.11,
+  "spy_week_pct": -0.21,
+  "alpha_week_pct": 0.10,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1056.27,
-      "pl_pct": -2.06,
+      "current": 1087.83,
+      "pl_pct": 0.87,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 221.75,
-      "pl_pct": 0.73,
+      "current": 215.85,
+      "pl_pct": -1.95,
       "stop": 204.74
     }
   ],
@@ -58,6 +58,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-03 12:02 CT",
+      "routine": "midday",
+      "headline": "Steady midday — no changes, quietly ahead of the market today",
+      "body": "Held LLY + NVDA, both -7% GTC stops live. LLY ticked green (+0.87%); NVDA -1.95% on chip-sector caution before Broadcom's earnings tonight (not NVDA-specific bad news, far from its stop). Neither at the +5% trailing trigger. No new buys — GOOGL still hasn't steadied. Equity $99,735, day -0.39% (inside the 3% cap). SPY -0.62% today, so we edged ~+0.10% ahead WTD (alpha). 2 of 3 weekly buys used."
+    },
     {
       "ts": "2026-06-03 08:32 CT",
       "routine": "market-open",

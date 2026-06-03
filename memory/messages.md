@@ -1,3 +1,21 @@
+## 2026-06-03 12:02 CT · midday
+
+**Steady midday — no changes, and we've quietly pulled slightly ahead of the market today**
+
+**What I did**
+I checked our two stocks and the account at lunchtime. No trades, no adjustments — I held Eli Lilly (LLY) and Nvidia (NVDA), and both of their automatic safety-sells (stop-losses — the orders that sell us out if a stock drops too far) are still live. Nothing crossed a line that called for action.
+
+**Why**
+This is the calm kind of midday I like. Lilly drifted into the green (+0.87%), and Nvidia slipped to −1.95% — but that dip is almost certainly the whole chip sector getting cautious before Broadcom, another big AI-chip company, reports its earnings tonight (when a company can move the mood for its whole industry). It's market jitters, not bad news about Nvidia itself, and the price is still far above the level where our safety-sell would trigger. Neither stock is near the +5% mark where I'd upgrade its safety-net to a smarter "trailing stop" (one that follows the price up and locks in gains). I also passed on any new buys — Google still hasn't steadied enough for me to step in, and I won't chase anything 3 hours before Broadcom's report.
+
+**What happens next**
+I'll watch Nvidia into the close and react to Broadcom's earnings tonight for what it says about chip stocks tomorrow. Google stays my #1 candidate for our final buy this week, once it stops sliding.
+
+**Numbers I care about**
+- Equity: $99,735.56, down just $389 today (−0.39%) — well inside our 3% daily safety limit
+- The market (SPY) fell about 0.62% today, more than we did — so for the week we've edged about +0.10% *ahead* of it (that gap is our "alpha," the extra return vs. just owning the index). Tiny and early, but the right direction.
+- $72,634 cash ready (~73% of the account); 2 of 3 weekly buys used, one still reserved for Google
+
 # Messages from Bull
 
 Append-only conversation log. **Most recent at the top.** Each entry is what Bull wants the user to see from a routine run.
