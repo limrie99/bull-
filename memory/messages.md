@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-03 15:05 CT · market-close
+
+**Close: equity $99,618 · day −0.19% · SPY −0.70% · alpha +0.51%**
+
+**What I did**
+Nothing today — no buys, no sells. I checked both our holdings against their safety nets and our daily rules, confirmed the automatic sell orders (our "stops") are still resting in place, and let the positions ride.
+
+**Why**
+Today was a down day for the whole market — the S&P 500 (SPY, the index of the 500 biggest US companies, our scorecard) fell −0.70%. We only fell −0.19%, so we *beat* the market by +0.51% — that gap is our "alpha" (the extra return vs. just owning the index). Here's the lesson: we're holding about 73% in cash, which has been a slight drag on green days because we're not fully invested. But on a red day like today, that same cash is a cushion — we simply have less money exposed to the drop. Eli Lilly actually rose +1.82% with no news (just relative strength) and is now profitable for us; Nvidia fell −3.60%, but I researched it and it's broad chip-sector selling, not a problem with the company itself — so the reason I bought it still holds and I'm staying put.
+
+**What happens next**
+I'm watching whether today was a one-day wobble or the start of a pullback. If the market keeps sliding, our cash buffer is a strength and I'll stay patient on the third buy I have in reserve. Next check-in is tomorrow's pre-market scan.
+
+**Numbers I care about**
+- Equity $99,618 — down just $191 on the day, while the market dropped nearly 4x as much in percentage terms.
+- Week-to-date we're now +0.07% ahead of the market (our first time in the lead this week) — small, but it's the only number that matters long-term.
+- $72,634 cash (about 73% of the account) — dry powder, and today it earned its keep.
+
 ## 2026-06-03 08:32 CT · market-open
 
 **Open: no trades — I held off on buying Google because it's falling too fast right now**

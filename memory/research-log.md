@@ -415,3 +415,44 @@ None. Midday rule: no new buys unless a high-conviction breaking catalyst AND bu
 1. Does LLY stabilize, or is there a fundamental catalyst behind the two-day slide? If it keeps sliding toward the stop with no news, re-check the thesis at the next routine — but at −1.24% there's nothing to do yet.
 2. GOOGL reserve buy: is the open constructive enough to deploy the 3rd-of-3 weekly buy and reduce cash drag? Pre-market should re-verify earnings date (blackout check) and the 2-signal case before acting.
 3. NVDA toward +5% ($231.16) → convert −7% hard stop to 10% trailing stop. ~3.6% away.
+
+---
+
+## 2026-06-03 15:05 CT — market-close
+
+**APIs live** (Alpaca account/positions/orders 200, market data 200; Perplexity `sonar` 200 — `sonnet` model id was rejected, used `sonar`). Market closed (next_open 2026-06-04 09:30 ET). No inbox pending. No trades placed today.
+
+### Live closing snapshot
+- Equity **$99,617.82**, cash **$72,634.26**. (Alpaca `last_equity` read **$100,124.86** — stale = 6/1 EOD, did not roll to 6/2; portfolio-history endpoint returned flat/duplicate values this pull. Used 6/2 research-log EOD **$99,809.29** as yesterday's close for the day-over-day calc.)
+- Positions (2 of 5):
+  - **LLY** 14 @ 1078.46, close 1083.54 → +$71.12 (**+0.47%**). lastday 1064.15, change_today **+1.82%** — flipped green, best performer, carried the book on a red tape.
+  - **NVDA** 55 @ 220.15, close 214.80 → −$294.25 (**−2.43%**). lastday 222.82, change_today **−3.60%**.
+- Open orders: both GTC −7% hard stops resting (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74), expires 2026-08-28. daytrade_count 0.
+
+### Risk management
+- (a) −7% drawdown: worst NVDA −2.43% (stop 204.74 ~4.7% below mark) — no sell. NVDA −3.60% day diagnosed via Perplexity = broad semiconductor/AI valuation weakness + investor selling (Thiel/SoftBank trims noted), **no company-specific bad news, no downgrade, no guidance change**. Thesis intact — held.
+- (b) +5% → trailing stop: LLY +0.47%, NVDA −2.43%; neither at +5% (NVDA trigger ~$231.16). No conversion.
+- (c) Daily loss cap: day −0.19% intraday vs prior close — well inside −3%. Not triggered.
+
+### Day summary
+- **Closing equity:** $99,617.82
+- **Day P/L:** −$191.47 (**−0.19%**) vs 6/2 close $99,809.29.
+- **SPY day:** 759.47 (6/2 close) → 754.18 (6/3 close) = **−0.70%**.
+- **Alpha today:** −0.19% − (−0.70%) = **+0.51%** ✅ (beat SPY on a down day).
+- **Week-to-date (baseline 5/29 close $99,840.95):** portfolio −0.22% (99,617.82) | SPY −0.29% (756.34 → 754.18) | **alpha WTD +0.07%** — ahead of benchmark for the first time this week.
+- **Trades placed:** none.
+
+**What worked:**
+- The defensive posture paid off: a ~73% cash buffer + LLY's +1.82% day meant we lost only −0.19% while SPY fell −0.70%. Cash drag (the WTD headwind on green days) became cash *cushion* on a red day — exactly the value of not being fully invested into a stretched tape.
+- LLY's strength (no company news, just relative strength) validated the "let the fundamentally-strongest name breathe" call; it's now green from entry.
+- Standing down on GOOGL at the open looks correct — buying a knife-falling name into a broad −0.70% market day would have hurt.
+
+**What didn't:**
+- NVDA gave back the week's gain and is now our drag (−2.43% from entry, −3.60% on the day) — but it's macro/sector, not thesis, so no action. Position sizing (12% starter) kept the dollar hit contained (−$294).
+- Still slightly negative on the week in absolute terms (−0.22%); we're winning on *relative* terms (alpha) but the book hasn't compounded yet — function of low net exposure on day-3.
+
+**Open questions for tomorrow:**
+1. Was today a one-day macro shakeout or the start of a pullback? If SPY keeps sliding, the cash buffer is an asset and the GOOGL re-arm should wait; if it bounces, reconsider deploying the 3rd weekly buy (window closes Fri — weekly buy cap resets Mon 6/8).
+2. NVDA: does the −3.60% extend on more sector selling, or stabilize? Stop is 204.74; nothing to do until/unless it approaches. Re-check for any actual company news at pre-market.
+3. NVDA toward +5% ($231.16) → convert −7% hard stop to 10% trailing stop. Moved *further* away today (~7.6% above current mark).
+4. **Plumbing flag (minor):** Alpaca `last_equity` didn't roll to the prior day's close this pull, and portfolio-history was flat — relying on the research-log EOD value worked, but watch whether the API values self-correct tomorrow. Not escalating yet.
