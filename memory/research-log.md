@@ -26,6 +26,40 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-04 06:00 CT — pre-market
+
+**Setup:** Memory synced from origin/main; all 4 required keys present; Alpaca reachable. Market CLOSED, **opens today 09:30 ET / 08:30 CT** (clock: is_open=false, next_open 2026-06-04T09:30 ET). Account: equity $99,693.62, cash $72,634.26, last_equity $99,548.43 (6/3 close), daytrade_count 0. Positions: LLY 14 @ 1078.46 (mark 1097.99, **+1.81%, +$273.42**), NVDA 55 @ 220.15 (mark 212.50, **−3.48%, −$420.75**). Both −7% GTC hard stops confirmed live via open-orders query (LLY 6c4d0225 @ 1002.57 `new`, NVDA b55fb743 @ 204.74 `new`). Inbox: nothing pending. **No trades — market closed.** 4-thread sub-agent fan-out (macro, earnings, position [LLY+NVDA], opportunity scout) + Alpaca trend verification on DE/TJX/GOOGL/SPY.
+
+### Market context
+- **Futures: RISK-OFF.** ES (S&P 500) ~−0.35%, NQ (Nasdaq 100) ~−0.47% — tech leading the downside on the AVGO-driven semi selloff. Global overnight broadly red: Nikkei −1.54%, Hang Seng −1.56%, DAX −1.31%.
+- **THE story — AVGO (Broadcom, reported after close 6/3):** beat Q2 (rev ~$22.2B +48% YoY, EPS $2.44 vs ~$2.40, AI semi rev $10.8B +143%) and guided Q3 *total* rev above consensus — **but the AI-specific Q3 guide came in light (~$16B vs ~$17.2B Street)**, and the market punished it: AVGO **−13 to −14% after-hours**, dragging Marvell ~−9%, Astera/Credo lower. Negative read-through to AI-chip sentiment → **NVDA likely opens soft.** Position-analyst + macro both read this as a **sentiment/timing move, not a structural demand break** (AVGO reaffirmed its multi-year AI target; "good but not good enough" vs stretched expectations).
+- **Rates/FX/commodities:** Perplexity could not source live 10Y or DXY; WTI ~−0.7%, gold futures mildly bid (+0.3%) — consistent with risk-off.
+- **SPY (Alpaca):** 6/3 close **754.18, −0.70%** on heavy volume (1.91M, ~1.6× recent avg = a distribution day), off the 6/2 record 759.47. Still +6.6% over ~50dMA (~707) — pullback within an uptrend, not a breakdown.
+- **Macro calendar (ET):** Thu 6/4 — 08:30 jobless claims + Fed speakers. **Fri 6/5 08:30 — May Jobs Report / NFP = the week's key binary event.**
+- **Risk read:** **cautious / risk-off.** Macro doesn't hard-gate buys per strategy, but two real reasons to be patient TODAY: (1) buying any semi/AI name into a post-AVGO knife is poor timing; (2) initiating fresh risk the day before NFP adds avoidable event risk. Bias: hold, let the open settle, don't chase.
+
+### Portfolio watch
+- **LLY — INTACT, STRENGTHENING (+1.81%).** No new 24–48h thesis-breaker. All 3 PBMs now cover the obesity portfolio (CVS Caremark Foundayo/oral-orforglipron coverage live 6/1; broader Zepbound by 10/1; copays as low as ~$25/mo). Retatrutide TRIUMPH-1 (~30% weight loss) deepens the next-gen moat. Goldman healthcare conf fireside **6/9** — watch for incremental commentary. No analyst downgrade found. Now green for us; nowhere near the −7% stop. No action.
+- **NVDA — INTACT, mild near-term sentiment headwind (−3.48%).** No NVDA-specific bad news / filing / downgrade found in the window; roadmap intact (Vera Rubin on track for Q3 production, Blackwell Ultra ramping). The −3.48% is **AVGO-spillover semi weakness, not a catalyst reversal** — AVGO's *reaffirmed* multi-year AI guide is actually consistent with NVDA's thesis. Mark 212.50 vs stop 204.74 = ~3.7% of cushion left; **−7% hard stop would trigger ~$204.74.** Not at +5% (trigger ~$231.16), so no trailing-stop conversion. **Standing task carried to market-open: (a) if NVDA opens/trades down toward 204.74, the GTC stop handles it automatically — do NOT pre-empt; (b) if NVDA ≥ +5%, cancel hard stop b55fb743 and place a 10% trailing stop GTC.** Watch for AVGO-driven semi follow-through at the open.
+
+### Buy candidates (1 of 3 weekly buys remaining; 2 of 5 slots used; $72.6K cash, ~72.9% buffer)
+Trend (#6) verified independently via Alpaca daily bars + computed 50dMA. Prefer non-AI-hardware diversifiers (book already heavy AI via NVDA).
+- **DE (Deere) — LEAD CANDIDATE, conviction HIGH, no blackout.** Close **588.61, +2.6% over 50dMA (573.51)**, accelerating uptrend (5/29 542.44 → 6/1 542.76 → 6/2 579.31 → 6/3 588.61). Signals: **#1** (Q2 beat 5/21: EPS $6.55 vs $5.76, rev $13.37B vs $11.48B est) + **#6** (clear, strong uptrend) + **#3** (ag-equipment / onshoring tailwind). 3 signals. Next earnings **~Aug 20** → no blackout. Best non-AI industrial diversifier in the set. The natural candidate for the 3rd/final weekly buy IF the tape cooperates — but note the recent run is steep (+8.5% in 3 sessions); ideally enter on a settle, not chasing the spike, and not blindly into NFP.
+- **TJX (TJX Companies) — backup, conviction MED, no blackout.** Close **157.87, only +0.8% over 50dMA (156.64)** — choppy/sideways (154.89→154.77→152.74→153.69) then a +2.7% pop 6/3; uptrend is *just emerging*, #6 borderline. Signals: **#1** (5/20 beat & raise: EPS $1.19 vs $1.02, rev $14.32B vs $14.02B, raised Q2 EPS guide) + #6 (borderline). 2 signals. Off-price retail = recession-resilient consumer diversifier. Next report ~mid-Aug. Solid #2 but wait for the uptrend to confirm above the 50dMA.
+- **GOOGL — STILL STOOD DOWN (do not buy).** Continued sliding: 6/1 376.26 → 6/2 361.84 → **6/3 359.37** (Alpaca); 5+ sessions of lower closes, ~2%+ below the $370 re-arm trigger, almost certainly below its 50dMA → fails signal #6. Fundamental thesis (Q1 blowout, ~$180B '26 AI/TPU capex) **intact**, only entry timing is wrong. Re-arm on a base + reclaim of ~$370 with a couple of green closes. Lead AI-diversifier candidate once it stops falling.
+- **MRVL — noted, deprioritized.** Beat + raised guidance 5/27 + AI tailwind, but it's an AI-semiconductor name (overlaps NVDA, and it just got hit −9% on the AVGO read-through). Skip for diversification unless deliberately doubling down on AI infra.
+- **Screened out:** CRM (beat but sharp downtrend, knife — #6 fails), WMT (in-line EPS, drifting down, ~1 signal), COST (no guidance raise, ~1 signal).
+
+### Sell candidates
+None. Both holdings INTACT (LLY strengthening, NVDA intact on sentiment-only weakness); neither near −7%; NVDA below (not at) the +5% trailing trigger. No thesis breaks, no fundamentals deterioration. The GTC hard stops handle any AVGO-spillover downside automatically.
+
+### Benchmark (week-to-date, pre-market snapshot)
+Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $99,693.62 → **WTD −0.148%.** SPY WTD: 756.34 (5/29) → 754.18 (6/3) = **−0.286%.** **Alpha WTD +0.14%** — still nudged ahead of the benchmark on a down week, cash buffer cushioning the AVGO-driven tech wobble.
+
+### Net
+**No trades (market closed).** Plan into the open: **hold LLY + NVDA** (both theses confirmed by the 24h fan-out; GTC −7% stops live), let the post-AVGO semi tape settle rather than reacting to NVDA's soft open, and watch NVDA for the +5% trailing-stop conversion (not close). **DE is the new lead candidate** for the 3rd/final weekly buy — a clean non-AI industrial beat-and-uptrend — with TJX as backup; GOOGL stays parked until it bases. Given risk-off futures + NFP Friday, no rush to deploy today: a qualifying setup can be executed at a market-hours routine on a settle, and cash-for-a-day is explicitly fine. Watching: NVDA/semis at the open (AVGO follow-through), 08:30 ET claims, DE not running away, NFP Friday.
+
+---
 ## 2026-06-03 08:32 CT — market-open
 
 **Setup:** Memory synced from origin/main; all 4 keys present. Clock: **is_open=true** (09:31 ET). Account: equity $99,614.93, last_equity $100,124.86 (6/2 close), cash $72,634.26, daytrade_count 0, **intraday −$509.93 / −0.51% — inside the −3% daily loss cap, new buys allowed.** Positions: LLY 14 @ 1078.46 (mark 1056.27, −2.06%, −$310.72), NVDA 55 @ 220.15 (mark 221.75, +0.73%, +$87.95). Both −7% GTC hard stops confirmed live via open-orders query (LLY 6c4d0225 @ 1002.57 `new`, NVDA b55fb743 @ 204.74 `new`; this is why qty_available=0 — shares reserved by the protective stops). Inbox: nothing pending. **No trades placed this routine.**
