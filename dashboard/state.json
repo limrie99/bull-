@@ -1,41 +1,48 @@
 {
-  "last_update": "2026-06-04 08:40 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-06-04 12:02 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 99949.10,
+  "equity": 100536.16,
   "cash": 59658.22,
-  "day_pl": 400.67,
-  "day_pl_pct": 0.40,
-  "week_pl_pct": 0.11,
-  "spy_week_pct": -0.40,
-  "alpha_week_pct": 0.50,
+  "day_pl": 987.73,
+  "day_pl_pct": 0.99,
+  "week_pl_pct": 0.70,
+  "spy_week_pct": 0.07,
+  "alpha_week_pct": 0.63,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1107.25,
-      "pl_pct": 2.67,
-      "stop": 1002.57
+      "current": 1133.825,
+      "pl_pct": 5.13,
+      "stop": "10% trailing (floor 1019.70)"
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 215.48,
-      "pl_pct": -2.12,
+      "current": 218.6253,
+      "pl_pct": -0.69,
       "stop": 204.74
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 588.12,
-      "pl_pct": -0.29,
+      "current": 590.00,
+      "pl_pct": 0.03,
       "stop": 548.53
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-06-04 12:02",
+      "side": "RISK",
+      "symbol": "LLY",
+      "qty": 14,
+      "price": "→10% trailing stop (+5%)"
+    },
     {
       "date": "2026-06-04 08:35",
       "side": "BUY",
@@ -63,16 +70,15 @@
       "symbol": "NVDA",
       "qty": 25,
       "price": 195.02
-    },
-    {
-      "date": "2026-04-22",
-      "side": "BUY",
-      "symbol": "NVDA",
-      "qty": 25,
-      "price": 201.38
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-04 12:02 CT",
+      "routine": "midday",
+      "headline": "Midday: LLY crossed +5% — upgraded its safety net to a 10% trailing stop",
+      "body": "One change: Eli Lilly (LLY) is up ~5.1%, hitting our trigger to swap its fixed -7% auto-sell for a 'trailing stop' — an auto-sell that floats 10% below the stock's high and ratchets up as it climbs (locking in gains while letting it run). Cancelled the old stop at $1,002.57, placed the trailing one (floor now $1,019.70). NVDA -0.7% (bouncing back from its chip-sector dip) and DE flat are unchanged with their -7% stops. No buys (weekly cap reached, 3/3). Equity $100,536, day +0.99% vs SPY +0.35% — we're +0.64% ahead today, this time by being invested rather than just holding cash. Cash ~59%. Watching NVDA toward +5% next and Friday's jobs report."
+    },
     {
       "ts": "2026-06-04 08:40 CT",
       "routine": "market-open",
@@ -114,12 +120,6 @@
       "routine": "midday",
       "headline": "Steady midday — no changes, stops live, NVDA cooled off",
       "body": "Quiet session. NVDA pulled back from +3.2% pre-market to +2.3% — still below the +5% trailing-stop trigger. LLY -1.0%. Both -7% stops live. No catalyst to chase. GOOGL still the plan for the final weekly buy."
-    },
-    {
-      "ts": "2026-06-02 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan — hold LLY + NVDA, GOOGL is the lead 3rd buy",
-      "body": "Both holdings intact and strengthening. NVDA approaching (not at) the +5% trailing trigger. Macro mildly risk-on, doesn't gate buys. GOOGL lead candidate for the final weekly buy; AVGO passed on earnings-risk."
     }
   ]
 }

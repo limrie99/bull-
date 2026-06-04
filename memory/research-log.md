@@ -512,3 +512,45 @@ None. Midday rule: no new buys unless a high-conviction breaking catalyst AND bu
 2. NVDA: does the −3.60% extend on more sector selling, or stabilize? Stop is 204.74; nothing to do until/unless it approaches. Re-check for any actual company news at pre-market.
 3. NVDA toward +5% ($231.16) → convert −7% hard stop to 10% trailing stop. Moved *further* away today (~7.6% above current mark).
 4. **Plumbing flag (minor):** Alpaca `last_equity` didn't roll to the prior day's close this pull, and portfolio-history was flat — relying on the research-log EOD value worked, but watch whether the API values self-correct tomorrow. Not escalating yet.
+
+---
+
+## 2026-06-04 12:02 CT — midday
+
+**APIs live** (Alpaca clock/account/positions/orders 200; market OPEN, next_close 16:00 ET). No inbox pending. One risk-management action taken (LLY stop conversion); no buys/sells.
+
+### Live midday snapshot
+- Equity **$100,536.16**, cash **$59,658.22**, last_equity **$99,548.43** (balance_asof 2026-06-03 — note: Alpaca's last_equity rolled correctly to 6/3 today, self-correcting the stale-value plumbing flag raised 6/3; the 6/3 research-log computed close $99,617.82 differs slightly from Alpaca's $99,548.43, used Alpaca's authoritative value for the day calc).
+- Positions (3 of 5):
+  - **DE** 22 @ 589.82, mark 590.00 → +$3.96 (**+0.03%**). change_today +0.29%.
+  - **LLY** 14 @ 1078.46, mark 1133.825 → +$775.11 (**+5.13%**). change_today +5.10% — best performer, crossed the +5% trailing-stop trigger.
+  - **NVDA** 55 @ 220.15, mark 218.6253 → −$83.86 (**−0.69%**). change_today +1.81% — recovering from the 6/3 chip-sector dip.
+- Open orders after this routine: DE hard stop a150583a @ 548.53 (GTC), NVDA hard stop b55fb743 @ 204.74 (GTC), **LLY 10% trailing stop 6016a7e7 (GTC, floor 1019.70, hwm 1133)** — replaced the cancelled LLY hard stop 6c4d0225. daytrade_count 0.
+
+### Risk management (priority order)
+- (a) **−7% drawdown check:** worst is NVDA −0.69% — nowhere near. No news-check or sell warranted.
+- (b) **+5% → trailing stop:** **LLY +5.13% → CONVERTED.** Cancelled −7% hard stop 6c4d0225 (HTTP 204, verified no open LLY orders), placed 10% trailing GTC stop 6016a7e7 (trail_percent 10, initial floor 1019.70, hwm 1133, verified resting). DE +0.03% and NVDA −0.69% — neither at +5%, no conversion. **Standing tasks: if NVDA ≥ +5% cancel b55fb743 → 10% trailing GTC; if DE ≥ +5% cancel a150583a → 10% trailing GTC.**
+- (c) **Daily loss cap:** day **+0.99%** (green) — nowhere near the −3% cap. (Moot anyway — weekly buy cap reached.)
+
+### New buys
+- None. Weekly buy cap reached (3 of 3: LLY+NVDA 6/1, DE 6/4). No high-conviction breaking catalyst surfaced, and the cap would block a buy regardless. No deviation from the pre-market plan.
+
+### Midday numbers
+- **Equity:** $100,536.16 | **Day P/L:** +$987.73 (**+0.99%**) vs 6/3 close (Alpaca last_equity $99,548.43).
+- **SPY:** 754.18 (6/3 close) → 756.835 (latest) = **+0.35%** intraday.
+- **Alpha today:** +0.99% − 0.35% = **+0.64%** ✅ — ahead of the market on a green day (LLY's +5.1% carried it; we participated in the up-tape this time rather than just cushioning a down one).
+- **Week-to-date (baseline 5/29 close $99,840.95):** portfolio **+0.70%** (100,536.16) | SPY +0.07% (756.34 → 756.835) | **alpha WTD +0.63%** ✅ — extending the lead built 6/3.
+- **Trades placed:** none. Stop conversions: 1 (LLY).
+
+**What worked:**
+- LLY's breakout (+5.1% on the day) flipped the book from cash-cushion mode (6/3) to actual participation — first green day where we're *ahead* by being invested, not just by holding cash. The +5% trailing-stop conversion now protects the gain while letting it run (floor ratchets up with price).
+- NVDA recovering (+1.81%) confirms the 6/3 "hold through the sector dip, thesis intact" call — no company news, just sentiment, and it's bouncing.
+
+**What didn't / watch:**
+- DE flat (+0.03%) — fine, it's a 1-day-old position into NFP-Friday event risk; the −7% stop is the backstop.
+- Cash still ~59% — comfortable buffer, but with weekly buys exhausted there's nothing to deploy until the cap resets Mon 6/8. GOOGL remains the lead candidate for next week if it bases above ~$370.
+
+**Open questions for the close:**
+1. Does LLY hold the breakout into the close? The trailing floor (1019.70) is well below the mark — no risk of getting stopped today, but watch the hwm climb.
+2. NVDA toward +5% ($231.16) → next conversion target; ~5.7% away.
+3. NFP (jobs report) tomorrow morning (Fri 6/5) — sets the tape; nothing to do today but expect a jolt at the open.

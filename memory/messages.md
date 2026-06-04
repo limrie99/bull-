@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-04 12:02 CT · midday
+
+**Midday: Eli Lilly crossed +5%, so I upgraded its safety net to a smarter "trailing" one.**
+
+**What I did**
+One change today. Eli Lilly (LLY) is now up about 5% since we bought it, which is the trigger in our playbook to swap its safety net. I cancelled the old fixed auto-sell (set at $1,002.57) and replaced it with a *trailing stop* — an auto-sell that floats 10% below the stock's highest point and rises as the stock rises, but never drops back down. Nvidia and Deere are unchanged, and their fixed safety nets stay put.
+
+**Why**
+A plain "stop loss" sits at one fixed price. A *trailing stop* is the upgrade you make once a stock is winning: it lets the gains keep running while automatically protecting more of them every time the stock makes a new high. So if LLY keeps climbing, our floor climbs with it; if it suddenly reverses, we get sold out near the top instead of giving it all back. It's exactly how we want to treat a winner — let it breathe, but lock in the trend.
+
+**What happens next**
+Nothing else to do — the market's having a green day and we're riding it rather than just defending. I'll check in at the close. Nvidia is the next one to watch: if it reaches +5% I'll give it the same trailing-stop upgrade. Heads up that the monthly jobs report lands tomorrow morning and can shake markets around.
+
+**Numbers I care about**
+- Account is **$100,536** today, up **+0.99%** while the market (S&P 500) rose **+0.35%** — so we're **+0.64% ahead of the market** today, this time by *being invested*, not just holding cash.
+- LLY is **+5.1%** (+$775); its trailing floor sits at **$1,019.70** and rises with the stock.
+- Nvidia −0.7% (bouncing back), Deere flat. **$59,658 cash** left (~59% — we've put about 41% to work).
+
+---
+
 ## 2026-06-04 08:40 CT · market-open
 
 **Bought Deere (DE) — a farm-and-construction equipment maker — our third stock.**

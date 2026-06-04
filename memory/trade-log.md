@@ -58,3 +58,12 @@ Signals matched: #1 (earnings beat & raised production), #3 (ag/onshoring secula
 Stop set: $548.53 (-7.0% from fill; placed as standalone GTC stop a150583a-a58c-42c9-8d12-9d7ece773841 after cancelling the day-TIF OTO leg 1c404b6b)
 Research reference: research-log 2026-06-04 pre-market (DE = lead candidate) + this market-open re-validation
 Notes: OTO market buy + day stop; filled in fragments (thin paper liquidity, wide quote) — partials 20→21→22, final avg 589.82 = $12,976.04 (~13.0% of equity). Cancelled the inherited day-TIF stop leg and re-placed an identical −7% stop as GTC so protection persists overnight (same fix as the 6/1 OTO entries). 3 of 5 slots, 3 of 3 weekly buys used.
+
+## 2026-06-04 12:02 CT | RISK-MGMT (no fill) | LLY | converted −7% hard stop → 10% trailing stop | 6016a7e7-faac-4e93-82e7-851abf30eca8
+Action: LLY hit +5.13% (mark 1133.825 vs entry 1078.46), crossing the +5% profit threshold, so per strategy I cancelled the −7% GTC hard stop and replaced it with a 10% trailing GTC stop.
+- Cancelled hard stop 6c4d0225-ae01-42a9-95a6-af790a87d286 (was @ 1002.57) — HTTP 204, confirmed no open LLY orders.
+- Placed trailing_stop sell, qty 14, trail_percent 10, GTC → id 6016a7e7-faac-4e93-82e7-851abf30eca8. Initial stop_price 1019.70, hwm 1133. Confirmed resting (status new).
+Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% profit). No shares traded.
+Stop set: LLY 10% trailing GTC (floor 1019.70 at placement; ratchets up as LLY rises).
+Research reference: research-log 2026-06-04 midday.
+Notes: Trailing floor 1019.70 is below entry 1078.46, so it doesn't yet lock in a profit — but it's ~$17 higher than the old hard stop (1002.57) and will climb with the price. NVDA (−0.69%) and DE (+0.03%) unchanged — neither at +5% or −7%, no action.
