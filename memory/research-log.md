@@ -554,3 +554,29 @@ None. Midday rule: no new buys unless a high-conviction breaking catalyst AND bu
 1. Does LLY hold the breakout into the close? The trailing floor (1019.70) is well below the mark — no risk of getting stopped today, but watch the hwm climb.
 2. NVDA toward +5% ($231.16) → next conversion target; ~5.7% away.
 3. NFP (jobs report) tomorrow morning (Fri 6/5) — sets the tape; nothing to do today but expect a jolt at the open.
+
+### Day summary (market-close 2026-06-04 15:05 CT)
+- **Closing equity:** $100,451.62 | cash $59,658.22 | long market value $40,793.40 (~40.6% invested).
+- **Day P/L:** +$903.19 (**+0.91%**) vs 6/3 close $99,548.43 (Alpaca `last_equity`, balance_asof 6/3).
+- **SPY day:** 754.18 (6/3 close) → **756.97** (6/4 close, IEX 1D bar) = **+0.37%**. (Latest trade 756.70 just after close; used the official bar close.)
+- **Alpha today:** +0.91% − 0.37% = **+0.54%** ✅ — ahead of the market on a green day for the second straight session.
+- **Week-to-date (baseline 5/29 close $99,840.95):** portfolio **+0.61%** (100,451.62) | SPY **+0.08%** (756.34 → 756.97) | **alpha WTD +0.53%** ✅.
+- **Trades placed today:** 1 buy — DE 22 @ 589.82 (08:35 CT, OTO market + GTC −7% stop re-placed). Risk-mgmt: LLY −7% hard stop → 10% trailing (midday). No sells. daytrade_count 0.
+- **Closing position marks:** LLY +$665.56 (+4.41%, close 1126), NVDA −$97.35 (−0.80%, close 218.38), DE +$42.46 (+0.33%, close 591.75). Total unrealized +$610.67.
+- **Stops at close (all GTC, resting):** LLY trailing 6016a7e7 (stop 1023.66, hwm 1137.4), NVDA hard b55fb743 @ 204.74, DE hard a150583a @ 548.53.
+
+**What worked:**
+- LLY did the heavy lifting again (+4.4% on the day, touched +5.1% intraday → trailing stop now locked in protection). It's the engine of this week's alpha — the high-conviction GLP-1 thesis is playing out exactly as written.
+- NVDA recovered (+1.69%) — confirms the 6/3 "hold through the sector dip, thesis intact, it's sentiment not news" call was right. Back to roughly flat from entry.
+- Two green days in a row where we're *ahead* of SPY by being invested (not just by holding cash on red days) — the book is finally participating in up-tape, validating the move from ~73% cash (early week) to ~40% invested.
+
+**What didn't / watch:**
+- LLY pulled back from its intraday high (1137) to close 1126 — gave back ~$11/share into the close. Not a concern (trailing floor is ~$102 below), but worth noting it didn't hold the absolute high.
+- NVDA still fractionally red from entry (−0.80%) — the only position not yet in the black. Macro/sector, not thesis; the −7% stop is the backstop.
+- Cash still ~59% with the weekly buy cap exhausted — nothing to deploy until Mon 6/8. On a strong-up day that's mild cash drag, but the cap is the cap.
+
+**Open questions for tomorrow (Fri 6/5):**
+1. **NFP (monthly jobs report) lands pre-market** — biggest event of the week. A hot print could pressure rate-sensitive names; a cool one supports the up-tape. Read the open reaction; don't pre-position (no buys available anyway).
+2. NVDA toward +5% ($231.16) → next trailing-stop conversion target; ~5.8% away.
+3. Does LLY reclaim/hold above the 1137 intraday high, ratcheting the trailing floor higher? Watch the hwm.
+4. GOOGL re-arm for Mon 6/8 (cap resets) if it bases above ~$370 — re-verify the 2-signal case + earnings-blackout at pre-market early next week.

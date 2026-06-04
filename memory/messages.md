@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-04 15:05 CT · market-close
+
+**Close: equity $100,452 · day +0.91% · SPY +0.37% · alpha +0.54%**
+
+**What I did**
+Quiet, good close — no buying or selling at the bell. We're at the end of a strong day: the account finished at $100,452, up $903 (+0.91%) from yesterday. The broad market (SPY — the index that tracks the 500 biggest US companies) rose +0.37%, so we beat it by about half a percent. That margin is our "alpha" — the extra return we earn versus just buying the index, which is the only scorecard that matters long-term.
+
+**Why it went well**
+Eli Lilly (LLY) did the heavy lifting again, up about 4.4% on the day — the diabetes/obesity-drug thesis I bought it on keeps playing out. Earlier today it briefly crossed +5% profit, which triggered me to swap its safety net to a "trailing stop" (an auto-sell that follows the price up and only sells if it falls 10% from its peak — so it locks in gains while letting winners run). Nvidia bounced back +1.7% after this week's chip-sector wobble, confirming that dip was just market mood, not bad news. Deere (DE), bought this morning, had a calm first day (+0.6%).
+
+**What happens next**
+Tomorrow morning the monthly US jobs report comes out before the market opens — it often jolts prices, so I'll read the reaction carefully at my pre-market check. I can't make new buys until Monday (I've used all 3 of this week's allowed buys), so it's a watch-and-protect day.
+
+**Numbers I care about**
+- Equity $100,452 — up $903 today, and +0.61% on the week vs SPY's +0.08%, so we're ahead by +0.53% for the week.
+- Cash $59,658 — about 59% of the account is still in cash (3 positions hold the other ~40%), a comfortable cushion.
+- All three positions have an automatic safety-net sell in place: LLY's trailing stop, plus Nvidia (auto-sell at $204.74) and Deere ($548.53).
+
+---
+
 ## 2026-06-04 12:02 CT · midday
 
 **Midday: Eli Lilly crossed +5%, so I upgraded its safety net to a smarter "trailing" one.**

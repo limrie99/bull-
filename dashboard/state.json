@@ -1,48 +1,41 @@
 {
-  "last_update": "2026-06-04 12:02 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-04 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100536.16,
+  "equity": 100451.62,
   "cash": 59658.22,
-  "day_pl": 987.73,
-  "day_pl_pct": 0.99,
-  "week_pl_pct": 0.70,
-  "spy_week_pct": 0.07,
-  "alpha_week_pct": 0.63,
+  "day_pl": 903.19,
+  "day_pl_pct": 0.91,
+  "week_pl_pct": 0.61,
+  "spy_week_pct": 0.08,
+  "alpha_week_pct": 0.53,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1133.825,
-      "pl_pct": 5.13,
-      "stop": "10% trailing (floor 1019.70)"
+      "current": 1126.00,
+      "pl_pct": 4.41,
+      "stop": 1023.66
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 218.6253,
-      "pl_pct": -0.69,
+      "current": 218.38,
+      "pl_pct": -0.80,
       "stop": 204.74
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 590.00,
-      "pl_pct": 0.03,
+      "current": 591.75,
+      "pl_pct": 0.33,
       "stop": 548.53
     }
   ],
   "recent_trades": [
-    {
-      "date": "2026-06-04 12:02",
-      "side": "RISK",
-      "symbol": "LLY",
-      "qty": 14,
-      "price": "→10% trailing stop (+5%)"
-    },
     {
       "date": "2026-06-04 08:35",
       "side": "BUY",
@@ -74,52 +67,34 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-04 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,452 · day +0.91% · SPY +0.37% · alpha +0.54%",
+      "body": "Strong, quiet close — no trades at the bell. LLY led again (+4.4%), its safety net is now a trailing stop locking in gains; NVDA bounced +1.7% after the chip-sector dip; DE calm first day (+0.6%). We beat the market by +0.54% today, +0.53% on the week. ~59% cash; jobs report tomorrow pre-market."
+    },
+    {
       "ts": "2026-06-04 12:02 CT",
       "routine": "midday",
-      "headline": "Midday: LLY crossed +5% — upgraded its safety net to a 10% trailing stop",
-      "body": "One change: Eli Lilly (LLY) is up ~5.1%, hitting our trigger to swap its fixed -7% auto-sell for a 'trailing stop' — an auto-sell that floats 10% below the stock's high and ratchets up as it climbs (locking in gains while letting it run). Cancelled the old stop at $1,002.57, placed the trailing one (floor now $1,019.70). NVDA -0.7% (bouncing back from its chip-sector dip) and DE flat are unchanged with their -7% stops. No buys (weekly cap reached, 3/3). Equity $100,536, day +0.99% vs SPY +0.35% — we're +0.64% ahead today, this time by being invested rather than just holding cash. Cash ~59%. Watching NVDA toward +5% next and Friday's jobs report."
+      "headline": "Midday: equity $100,536 · day +0.99% · alpha +0.64% — LLY breakout, trailing stop set",
+      "body": "LLY hit +5.1% so I converted its -7% stop to a 10% trailing stop to protect the gain. NVDA recovering +1.8%. No buys (weekly cap reached). Ahead of the market on a green day."
     },
     {
-      "ts": "2026-06-04 08:40 CT",
+      "ts": "2026-06-04 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: bought Deere (DE) — our third stock, a non-AI diversifier",
-      "body": "Bought 22 shares of Deere at $589.82 (~$12,976, about 13% of the account) with a -7% auto-sell safety net at $548.53 (GTC). Deere beat earnings, has an onshoring/farm-equipment tailwind, and is in a clean uptrend — and it's NOT an AI stock, so it balances our Nvidia exposure. We'd been ~73% cash, which drags on a beat-the-market goal, so deploying was overdue; I kept the size modest given the stock's fast run-up and Friday's Jobs Report. This was our last weekly buy (3 of 3). LLY +2.7%, NVDA -2.1% (bouncing back from its chip-sector dip). Equity $99,949, day +0.40% vs SPY -0.11% (alpha ~+0.5%). Cash now ~60%."
-    },
-    {
-      "ts": "2026-06-04 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: hold steady, let the chip selloff settle — Deere lined up as a fresh non-tech idea",
-      "body": "No trades (market closed). Broadcom's soft AI guidance sank chip stocks after hours (~-13%), so futures point lower and NVDA will likely open soft — but my team reads it as a mood swing, not a real demand problem (Broadcom reaffirmed multi-year AI targets), so I'm holding NVDA, not selling into the dip. LLY now +1.8% (green), NVDA -3.5% — both well inside their -7% GTC stops. New lead candidate for our last weekly buy: Deere (DE), a farm-equipment maker that beat earnings and is in a strong uptrend — a non-AI diversifier. Won't rush it in front of Friday's Jobs Report. Week-to-date -0.15% vs SPY -0.29%, so still +0.14% ahead."
+      "headline": "Bought Deere (DE) — a farm-equipment maker — our 3rd and final buy this week",
+      "body": "22 shares @ $589.82 (~13% of the account) with an auto-sell at $548.53. Strong Q2 earnings beat + onshoring tailwind; a non-tech diversifier for our AI-heavy book."
     },
     {
       "ts": "2026-06-03 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $99,618 · day -0.19% · SPY -0.70% · alpha +0.51%",
-      "body": "Down day for the whole market (SPY -0.70%), but we only slipped -0.19% — beating the index by +0.51%. Our ~73% cash, usually a drag on green days, was a cushion today. LLY rose +1.82% (now green from entry); NVDA fell -3.60% but it's broad chip-sector selling, not a company problem — thesis intact, so I held. No trades. Both -7% GTC stops still resting. Week-to-date we're now +0.07% ahead of the market — our first time in the lead this week."
-    },
-    {
-      "ts": "2026-06-03 08:32 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — held off buying Google while it's falling fast",
-      "body": "Held LLY + NVDA (both -7% GTC stops live). Stood down on the GOOGL buy: it's dropped ~7% over 4 days incl. a -3.8% high-volume day on 6/2, which fails our 'don't catch a falling knife' rule — business thesis intact, timing poor. GOOGL stays the #1 candidate; I'll buy once it steadies (e.g. back above ~$370). NVDA +0.73%, below the +5% trailing-stop trigger. Equity $99,615, day -0.51% (inside the 3% cap). 2 of 3 weekly buys used."
-    },
-    {
-      "ts": "2026-06-03 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Quiet, healthy setup · both holdings got better news overnight · GOOGL still top pick for last buy",
-      "body": "No trades (market closed). LLY's new weight-loss pill won coverage from all big insurers; NVDA reaffirmed next-gen chips in full production (Morningstar fair value raised to $280) — both theses stronger. GOOGL is the lead for our 3rd weekly buy. Passed on JPM and COST (both sliding below their average price). Watching: NVDA toward +5% (would convert its stop to a trailing stop), and big jobs reports today + Friday — so I'll size any buy modestly."
+      "body": "Down day for the market; we fell less thanks to LLY's strength (+1.8%) and a big cash buffer. NVDA dipped on broad chip-sector selling (no company news). First day ahead of SPY on the week."
     },
     {
       "ts": "2026-06-02 15:00 CT",
       "routine": "market-close",
-      "headline": "Quiet down-day, still protected — alpha slightly negative on day 2",
-      "body": "Broad soft close; LLY did most of the damage (-1.58%), NVDA held better. Both -7% GTC stops live overnight. NVDA below the +5% trailing trigger. GOOGL reserved for the final weekly buy."
-    },
-    {
-      "ts": "2026-06-02 12:00 CT",
-      "routine": "midday",
-      "headline": "Steady midday — no changes, stops live, NVDA cooled off",
-      "body": "Quiet session. NVDA pulled back from +3.2% pre-market to +2.3% — still below the +5% trailing-stop trigger. LLY -1.0%. Both -7% stops live. No catalyst to chase. GOOGL still the plan for the final weekly buy."
+      "headline": "Close: equity $99,809 · day -0.32% · SPY +0.14% · alpha -0.46%",
+      "body": "Slightly behind the market — LLY softened on no news. NVDA held up best. Stops resting safely overnight; nothing to change."
     }
   ]
 }
