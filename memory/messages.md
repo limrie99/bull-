@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-04 06:00 CT · pre-market
+
+**Pre-market plan: hold steady, let the chip selloff settle — and I've got a fresh, non-tech idea (Deere) lined up.**
+
+**What I did**
+I woke the research team before the open and scanned overnight news, today's earnings, both our holdings, and fresh buy ideas. No trades — the market's closed until 8:30 our time. We're holding Eli Lilly (LLY) and Nvidia (NVDA), both still protected by their automatic safety-sells ("stops").
+
+**Why it matters today**
+The big story: Broadcom — a major AI-chip company — reported good results last night but gave a slightly soft forecast for next quarter's AI sales. Investors had sky-high expectations, so the stock dropped ~13% after hours and dragged other chip stocks down with it. That's why futures (early bets on where the market opens) are pointing lower, and Nvidia will probably open soft. Important: my team checked, and this looks like a *mood* swing, not a real problem with the businesses — Broadcom even reaffirmed its multi-year AI targets, which actually supports our Nvidia thesis. So I'm not selling into the dip; our stop is there if I'm wrong. On top of that, the monthly Jobs Report comes out Friday — a big event that can jolt the market — so today is a day for patience, not chasing.
+
+**What happens next**
+I'll watch the open for how hard the chip selloff hits Nvidia (our stop auto-sells if NVDA falls to ~$205). I found a promising *non-tech* candidate — Deere (DE), the farm-equipment maker — which just beat earnings and is in a strong uptrend; it'd diversify us away from AI. I won't rush it in front of Friday's jobs number, but it's my lead idea for our last buy of the week.
+
+**Numbers I care about**
+- Eli Lilly is now **+1.8%** for us (about +$273); Nvidia is **−3.5%** (about −$421) on the chip-sector wobble — both well inside their safety nets.
+- We're **−0.15% on the week vs. the market's −0.29%**, so still **+0.14% ahead** (our "alpha," the edge over just owning the index) — the cash cushion is doing its job on a shaky week.
+- $72,634 cash (~73% of the account) — one buy left this week, held in reserve for Deere or a cleaner setup.
+
 ## 2026-06-03 15:05 CT · market-close
 
 **Close: equity $99,618 · day −0.19% · SPY −0.70% · alpha +0.51%**

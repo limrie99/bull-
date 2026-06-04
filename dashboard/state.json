@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-06-03 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-04 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99617.82,
+  "equity": 99693.62,
   "cash": 72634.26,
-  "day_pl": -191.47,
-  "day_pl_pct": -0.19,
-  "week_pl_pct": -0.22,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "week_pl_pct": -0.15,
   "spy_week_pct": -0.29,
-  "alpha_week_pct": 0.07,
+  "alpha_week_pct": 0.14,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1083.54,
-      "pl_pct": 0.47,
+      "current": 1097.99,
+      "pl_pct": 1.81,
       "stop": 1002.57
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 214.80,
-      "pl_pct": -2.43,
+      "current": 212.50,
+      "pl_pct": -3.48,
       "stop": 204.74
     }
   ],
@@ -58,6 +58,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-04 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: hold steady, let the chip selloff settle — Deere lined up as a fresh non-tech idea",
+      "body": "No trades (market closed). Broadcom's soft AI guidance sank chip stocks after hours (~-13%), so futures point lower and NVDA will likely open soft — but my team reads it as a mood swing, not a real demand problem (Broadcom reaffirmed multi-year AI targets), so I'm holding NVDA, not selling into the dip. LLY now +1.8% (green), NVDA -3.5% — both well inside their -7% GTC stops. New lead candidate for our last weekly buy: Deere (DE), a farm-equipment maker that beat earnings and is in a strong uptrend — a non-AI diversifier. Won't rush it in front of Friday's Jobs Report. Week-to-date -0.15% vs SPY -0.29%, so still +0.14% ahead."
+    },
     {
       "ts": "2026-06-03 15:05 CT",
       "routine": "market-close",
