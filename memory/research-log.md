@@ -26,6 +26,28 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-04 08:35 CT — market-open
+
+**Setup:** Memory synced from origin/main; all 4 keys present. Clock: **is_open=true** (09:32 ET). Account at open: equity $99,877.78, cash $72,634.26, last_equity $99,548.43 (6/3 close), daytrade_count 0 → intraday **+$329 / +0.33%**, inside the −3% loss cap → buys allowed. Positions pre-trade: LLY 14 @ 1078.46 (mark 1109.73, +2.9%), NVDA 55 @ 220.15 (mark 212.89, −3.30%). All stops confirmed GTC/`new` (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74). Inbox: nothing pending.
+
+### Re-validation of the pre-market plan vs live open
+- **NVDA stop conversion — NOT triggered.** NVDA opened soft (AVGO spillover, as forecast) at 212.89 but **stabilized through the routine to 215.48** — far below the +5% (~$231.16) trailing trigger and well above the 204.74 hard stop (~5% cushion). No NVDA-specific news. Hold; GTC stop unchanged. No action.
+- **LLY — HOLD.** +2.7% (1107.25), strengthening; nowhere near +5% (~1132) or the −7% stop. No action.
+- **DE — EXECUTED (the 3rd/final weekly buy).** Live tape: DE ~589.7 vs 6/3 close 588.61 = **flat/settled**, not extending the steep +8.5% 3-session run → the pre-market "enter on a settle, don't chase" condition met. SPY −0.24% at open (mild risk-off; AVGO semi selloff did NOT cascade broadly), NVDA stabilizing → tape cooperated. DE is a clean 3-signal (#1 Q2 beat 5/21, #3 ag/onshoring tailwind, #6 strong uptrend) high-conviction NON-AI diversifier — exactly the book-balance the AI-heavy portfolio needed. Also addressed real under-investment: we were ~73% cash vs the strategy's 10–20% buffer target / 3–4 name target (cash drag is this account's documented #1 failure mode). Sized **conservatively ~13%** (not full 15–20%) to respect the steep run + NFP-Friday event risk; −7% GTC stop is the backstop.
+
+### DE execution detail
+OTO market buy 22 sh + attached stop. Thin paper liquidity / wide quote (bid 562.59 / ask 589.03) → fragmented fill: 20 → 21 → 22 sh, **final avg 589.82 = $12,976.04 (~13.0% of equity)**. The OTO stop leg inherited TIF=day (would expire at 16:00 ET, leaving DE unprotected overnight) — per the 6/1 lesson I **cancelled the day leg (1c404b6b)** and re-placed an identical **−7% stop as GTC at 548.53 (a150583a)** computed from the actual fill. All three GTC stops verified `new` post-trade.
+
+### Post-trade state
+Equity $99,949.10, cash $59,658.22 (~59.7% buffer), 3 of 5 slots, **3 of 3 weekly buys used → weekly cap reached.** daytrade_count 0.
+
+### Benchmark
+Intraday: portfolio +0.40% vs SPY −0.11% (754.18 → 753.34) → **alpha today +0.51%.** WTD (baseline Mon 6/1 $99,840.95): portfolio +0.11% vs SPY −0.40% (756.34 → 753.34) → **alpha WTD +0.50%.**
+
+### Net
+Executed DE (22 @ 589.82, −7% GTC stop 548.53), the pre-market lead candidate, on a settle — deploying the reserved weekly buy and meaningfully reducing cash drag (73%→60%) while diversifying away from AI. Hold LLY + NVDA (NVDA's open dip was AVGO-sentiment, recovered intraday). Weekly buy cap now reached — no more new buys until next week. Watching: NFP Friday 6/5, NVDA semi follow-through, and the three +5% trailing-stop triggers (LLY ~1132, NVDA ~231, DE ~619). GOOGL still parked pending a base/reclaim of ~$370 — a candidate for *next* week.
+
+---
 ## 2026-06-04 06:00 CT — pre-market
 
 **Setup:** Memory synced from origin/main; all 4 required keys present; Alpaca reachable. Market CLOSED, **opens today 09:30 ET / 08:30 CT** (clock: is_open=false, next_open 2026-06-04T09:30 ET). Account: equity $99,693.62, cash $72,634.26, last_equity $99,548.43 (6/3 close), daytrade_count 0. Positions: LLY 14 @ 1078.46 (mark 1097.99, **+1.81%, +$273.42**), NVDA 55 @ 220.15 (mark 212.50, **−3.48%, −$420.75**). Both −7% GTC hard stops confirmed live via open-orders query (LLY 6c4d0225 @ 1002.57 `new`, NVDA b55fb743 @ 204.74 `new`). Inbox: nothing pending. **No trades — market closed.** 4-thread sub-agent fan-out (macro, earnings, position [LLY+NVDA], opportunity scout) + Alpaca trend verification on DE/TJX/GOOGL/SPY.

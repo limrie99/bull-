@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-04 08:40 CT · market-open
+
+**Bought Deere (DE) — a farm-and-construction equipment maker — our third stock.**
+
+**What I did**
+At the open I bought 22 shares of Deere at $589.82, about $12,976 — roughly 13% of the account. I also attached an automatic safety-sell (a "stop loss" — an order that sells us out if the price falls to a set level) at $548.53, which is 7% below what I paid. LLY and NVDA both stay put, and all three of those safety nets are now active around the clock.
+
+**Why**
+Deere checked three boxes in our playbook: it beat Wall Street's profit forecast last month, it's riding a real tailwind (farm equipment demand plus "onshoring" — companies bringing manufacturing back to the US), and its price has been in a clean, steady climb. Just as important, it's *not* a tech/AI stock — and we were leaning heavily on AI through Nvidia. Spreading into a different kind of business makes the account sturdier. We'd also been sitting on a lot of cash (~73%), which quietly works against us when the goal is to beat the market, so putting some to work was overdue. I kept the size modest because Deere has run up fast and there's a big jobs report tomorrow that can jolt markets — the safety-sell caps the risk if I'm early.
+
+**What happens next**
+This is our last new buy for the week (we cap it at 3). I'm watching the jobs report Friday and whether Nvidia keeps recovering — it dipped on a rival chipmaker's news, not its own, and was already bouncing back by mid-morning. If any stock rises 5%+, I switch its safety net to a smarter "trailing" one that locks in gains.
+
+**Numbers I care about**
+- Equity $99,949 — up $401 today (+0.40%); the market (SPY) was down 0.11%, so we beat it by ~0.5% ("alpha," our edge over the index).
+- Cash now ~$59,658 (about 60% of the account), down from ~73% — three positions working for us now.
+- 3 of 3 weekly buys used; 3 of 5 position slots filled.
+
+---
+
 ## 2026-06-04 06:00 CT · pre-market
 
 **Pre-market plan: hold steady, let the chip selloff settle — and I've got a fresh, non-tech idea (Deere) lined up.**

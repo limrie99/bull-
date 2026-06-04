@@ -51,3 +51,10 @@ Signals matched: N/A (risk-rule maintenance — honoring the −7% hard-stop gua
 Stop set: LLY 1002.57 GTC, NVDA 204.74 GTC (both unchanged price, only TIF changed day→gtc).
 Research reference: research-log 2026-06-01 midday
 Notes: No shares traded. Root cause: OTO stop legs inherit the parent buy's time_in_force (day). For protective stops we want GTC. Going forward, entries should place GTC stops or this conversion must happen same-day. Neither position was at −7% (LLY −0.33%) or +5% (NVDA +0.82%), so no other stop action.
+
+## 2026-06-04 08:35 CT | BUY | DE | 22 @ 589.82 | d8eaf151-071b-40f3-b666-2edeb3f190a9
+Thesis: Deere — Q2 beat (5/21: EPS $6.55 vs $5.76, rev $13.37B vs $11.48B est) + accelerating clean uptrend + ag-equipment/onshoring secular tailwind = a high-conviction NON-AI industrial diversifier for an AI-heavy book (NVDA). 3rd/final weekly buy, deployed on a settle (DE flat ~589.7 at the open vs 588.61 prior close, not chasing the 3-day spike).
+Signals matched: #1 (earnings beat & raised production), #3 (ag/onshoring secular tailwind), #6 (clear, strong uptrend). High conviction; sized conservatively (~13%) for the steep recent run + NFP-Friday event risk.
+Stop set: $548.53 (-7.0% from fill; placed as standalone GTC stop a150583a-a58c-42c9-8d12-9d7ece773841 after cancelling the day-TIF OTO leg 1c404b6b)
+Research reference: research-log 2026-06-04 pre-market (DE = lead candidate) + this market-open re-validation
+Notes: OTO market buy + day stop; filled in fragments (thin paper liquidity, wide quote) — partials 20→21→22, final avg 589.82 = $12,976.04 (~13.0% of equity). Cancelled the inherited day-TIF stop leg and re-placed an identical −7% stop as GTC so protection persists overnight (same fix as the 6/1 OTO entries). 3 of 5 slots, 3 of 3 weekly buys used.
