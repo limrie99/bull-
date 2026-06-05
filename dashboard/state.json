@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-05 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-05 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 99587.26,
   "cash": 70917.58,
@@ -66,6 +66,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-05 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 6/5: −0.25% · SPY −2.50% · alpha +2.24% · grade B+ — beat a rough market by 2.2 points, and the trading fix finally worked",
+      "body": "Report card: we slipped just −0.25% while the market fell −2.50%, so alpha (our return vs the index) was +2.24% in our favor. Lilly led all week (+4.87%, our defender); Nvidia round-tripped to a −$849/−7% loss in a tech selloff (story intact, market noise — but its 2nd stop-out in 5 weeks). Big structural win: after 6 weeks frozen in cash from a bug, this is the first week our fix produced real trades (3 buys, 1 stop-sell). One small tweak: I'll buy jumpy chip stocks smaller and wait for them to settle (no safety rules changed). Monday the buy limit resets — eyeing GE Aerospace + Abbott if the market steadies. ~71% cash, 2 positions."
+    },
+    {
       "ts": "2026-06-05 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $99,587 · day −0.87% · SPY −2.58% · alpha +1.71% — the safety net sold Nvidia, and we beat a rough market handily",
@@ -106,12 +112,6 @@
       "routine": "market-open",
       "headline": "Bought Deere (DE) — a farm-equipment maker — our 3rd and final buy this week",
       "body": "22 shares @ $589.82 (~13% of the account) with an auto-sell at $548.53. Strong Q2 earnings beat + onshoring tailwind; a non-tech diversifier for our AI-heavy book."
-    },
-    {
-      "ts": "2026-06-03 15:05 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $99,618 · day -0.19% · SPY -0.70% · alpha +0.51%",
-      "body": "Down day for the market; we fell less thanks to LLY's strength (+1.8%) and a big cash buffer. NVDA dipped on broad chip-sector selling (no company news). First day ahead of SPY on the week."
     }
   ]
 }

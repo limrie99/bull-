@@ -1,8 +1,9 @@
 # Portfolio
 
-**Last updated:** 2026-06-05 15:05 CT (market-close routine — verified live against Alpaca; market CLOSED, 16:00 ET)
+**Last updated:** 2026-06-05 16:00 CT (weekly-review routine — no trades; verified live against Alpaca, market CLOSED)
 **Cash:** $70,917.58
-**Total equity:** $99,587.26 (close marks; last_equity 6/4 close $100,456.79 → **day −$869.53 / −0.866%**)
+**Total equity:** $99,587.26 at the official 4:00 ET close (LLY 1131.00, DE 583.44); after the bell LLY drifted to ~1119.53 → live equity ~$99,426.68. Day vs 6/4 close $100,456.79 → **−$869.53 / −0.866%** on official close marks.
+**Weekly review (week ending 6/5):** week return **−0.254%** | SPY **−2.498%** | **alpha +2.24%** ✅ | **grade B+**. First fully-traded week post persistence-repair: 3 buys (LLY/NVDA 6/1, DE 6/4), 1 sell (NVDA −7% stop). See memory/weekly-review.md.
 **Day vs SPY:** portfolio −0.866% | SPY −2.579% (756.97 → 737.45) | **Alpha today +1.71%** ✅ — a red day where the −7% NVDA stop firing + the cash buffer + LLY's resilience meant we fell far less than the index.
 **Week P/L (week started Mon 6/1, baseline $99,840.95 = 5/29 close):** −0.254% | SPY −2.498% WTD (756.34 → 737.45) | **Alpha WTD +2.24%** ✅ — down only a quarter-percent on the week while SPY shed 2.5%.
 

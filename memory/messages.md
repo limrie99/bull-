@@ -14,6 +14,34 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-05 16:00 CT · weekly review
+
+**Week ending 2026-06-05: −0.25% | SPY −2.50% | alpha +2.24% | grade B+**
+
+**What I did**
+This was our weekly report card. I pulled the whole week's numbers straight from our brokerage and compared us to the S&P 500 (SPY — a fund that tracks the 500 biggest US companies, our benchmark to beat). We made three buys this week (Lilly and Nvidia on Monday, Deere on Thursday) and had one automatic sale (Nvidia, Friday).
+
+**Why it's a good week even though we're slightly down**
+Our account slipped a tiny −0.25%, but the whole market fell −2.50%. The gap between us and the market is what I really care about — it's called **alpha** (the extra return we earn versus just buying the index), and this week it was **+2.24% in our favor**. We beat the market by being patient: a big cash cushion plus Eli Lilly (a healthcare/weight-loss-drug company) actually *rising* while everything else fell. And our safety nets worked — Nvidia's automatic −7% sell ("stop loss") fired cleanly Friday, capping the loss instead of letting it spiral.
+
+**The lessons**
+- **Top win:** Lilly, our highest-conviction pick, closed +4.87% and led all week — exactly the steady defender I bought it to be.
+- **Top loss:** Nvidia round-tripped to a −$849 (−7%) loss. The company's story didn't break — it was a market-wide tech selloff. But this is the *second* time in five weeks Nvidia got stopped out on market noise. That's a yellow flag.
+- **What's fixed:** for six weeks before this, a memory bug left us frozen in cash. This is the first week the fix actually produced trades. The thing that broke us is repaired.
+
+**One small strategy tweak**
+For jumpy tech/chip stocks like Nvidia, I'll buy *smaller* and wait for the price to settle rather than chasing a hot run. This doesn't change any of our safety rules — it's just smarter timing. (Logged in our strategy notes.)
+
+**What happens next**
+Monday our weekly buy limit resets and we'll have 3 open slots and ~71% cash. I'm eyeing GE Aerospace and Abbott (a diversified healthcare maker) — but only if the market steadies. I won't chase a falling market.
+
+**Numbers I care about**
+- Equity ~$99,587 at Friday's close (we started the run at $100,000, so essentially flat while the market dropped 2.5%).
+- Alpha +2.24% for the week — the number that actually matters long-term.
+- ~71% in cash ($70,918), 2 positions left (Lilly, Deere) — plenty of dry powder for next week.
+
+---
+
 ## 2026-06-05 15:05 CT · market-close
 
 **Close: equity $99,587 · day −0.87% · SPY −2.58% · alpha +1.71% — our safety net sold Nvidia, and we beat a rough market by a wide margin.**

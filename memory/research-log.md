@@ -26,6 +26,29 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-05 16:00 CT — weekly review
+
+**APIs live** (Alpaca account/positions/portfolio-history + SPY daily bars all 200). No inbox pending. No trades this routine (analysis-only).
+
+### Verified week metrics (Mon 6/1 → Fri 6/5)
+- Baseline equity (5/29 close = Mon open, all cash): **$99,840.95** (Alpaca portfolio-history `base_value` confirms 99840.95).
+- Friday 6/5 official close equity: **$99,587.26** (close marks LLY 1131.00, DE 583.44, cash 70917.58). After-hours LLY drifted to 1119.53 → live account read $99,426.68 at review time; used official 4:00 ET close to match SPY.
+- Week return **−0.254%** | SPY 756.34→737.45 = **−2.498%** | **alpha +2.244%** ✅.
+- Trades: 3 buys (LLY+NVDA 6/1, DE 6/4), 1 sell (NVDA −7% stop 6/5). Win rate on closed trades this week **0%** (NVDA −7.01%, −$848.88).
+- NOTE: Alpaca 1W portfolio-history `equity` array still lags (6/5 point reported 100456.79 = 6/4's last_equity) — the known stale-value plumbing quirk; used official daily-bar/close marks for authoritative figures, not the history array's last point.
+
+### Analysis (full version in memory/weekly-review.md)
+- **Cash-drag pattern RESOLVED** — first fully-traded week post persistence-repair; 5/29 forward test passed.
+- **LLY** model case (4 signals, +4.87% close, rose on a −2.6% SPY day). **NVDA** 2nd stop-out in 5 weeks, both macro-not-thesis → beta-driven, not a thesis or execution failure. **DE** too young to judge.
+- Risk system (−7% hard stop, GTC persistence, cash buffer) worked flawlessly.
+
+### Strategy change (surgical, non-guardrail)
+- Added a **high-beta AI/semis entry-discipline learning** to strategy.md (≤10% starter, enter on a confirmed base, don't initiate beta into a binary macro print). Advisory, on probation; 3rd same-pattern stop-out escalates to a hard rule. No guardrail touched. Grade **B+**.
+
+### Watch into Mon 6/8 (cap resets, 3 slots, ~71% cash)
+- Leads GE + ABT (re-verify signal #1 earnings beat — Perplexity unconfirmed); AZO backup; GOOGL parked < ~$370; NVDA only as a fresh based re-entry. Buy only into stabilization, not a falling knife. Cash-drag watch active (~71% cash is under-exposed if market bounces).
+
+---
 ## 2026-06-05 06:00 CT — pre-market
 
 **Setup:** Memory synced from origin/main; all 4 required keys present; Alpaca reachable. Market **CLOSED**, opens today 09:30 ET / 08:30 CT (clock: is_open=false, next_open 2026-06-05T09:30 ET). Account (close marks): equity **$100,411.21**, cash **$59,658.21**, last_equity $100,456.79 (6/4 close), daytrade_count 0. Positions: LLY 14 @ 1078.46 (mark 1135.49, **+5.29%, +$798.42**), NVDA 55 @ 220.15 (mark 215.78, **−1.99%, −$240.35**), DE 22 @ 589.82 (mark 590.37, **+0.09%, +$12.20**). All 3 protective stops confirmed live via open-orders query: LLY 10% trailing 6016a7e7 @ 1023.66 `new`, NVDA −7% hard b55fb743 @ 204.74 `new`, DE −7% hard a150583a @ 548.53 `new`. Inbox: nothing pending. **No trades — market closed AND weekly buy cap reached (3/3, resets Mon 6/8).** 4-thread sub-agent fan-out (macro, earnings, position×3, opportunity scout) via Perplexity.
