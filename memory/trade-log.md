@@ -67,3 +67,10 @@ Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% pr
 Stop set: LLY 10% trailing GTC (floor 1019.70 at placement; ratchets up as LLY rises).
 Research reference: research-log 2026-06-04 midday.
 Notes: Trailing floor 1019.70 is below entry 1078.46, so it doesn't yet lock in a profit — but it's ~$17 higher than the old hard stop (1002.57) and will climb with the price. NVDA (−0.69%) and DE (+0.03%) unchanged — neither at +5% or −7%, no action.
+
+## 2026-06-05 13:52 CT (14:52 ET) | SELL (stop fired) | NVDA | 55 @ 204.7158 | b55fb743-57a8-48b1-8b53-221b358eb2ea
+Action: The −7% hard stop on NVDA filled — NOT a manual sell. Resting GTC stop b55fb743 @ 204.74 triggered as the post-NFP tech/semis selloff deepened into the afternoon; filled 55 sh @ 204.715819 (slight slippage below the 204.74 trigger, normal for a stop-market).
+Entry was 220.15 (6/1), so realized **−$848.88 (−7.01%)** — a controlled, pre-decided exit exactly at the −7% guardrail. Proceeds $11,259.37 → cash $59,658.21 → $70,917.58.
+Signals matched (sell): #1 (−7% hard stop). Thesis was NOT broken — midday Perplexity check rated the drop sector/macro (NFP + rates), no company-specific thesis-breaker (no guidance cut, regulatory, customer loss, exec departure). The stop did its job: capped a macro-driven drawdown at −7% rather than letting it run.
+Research reference: research-log 2026-06-05 midday (NVDA news check) + market-close Day summary.
+Notes: 2nd NVDA round-trip of the v2 run (prior: −$159 on 5/4 trailing-stop pullback). Both exits were stop-driven, not thesis breaks. Book now 2 of 5 (LLY, DE); weekly buy cap still 3/3 used (resets Mon 6/8), so NO same-week re-entry — revisit NVDA as a fresh candidate Monday if the tape stabilizes. daytrade_count still 0 (entry was 6/1, not a day trade).

@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-05 15:05 CT · market-close
+
+**Close: equity $99,587 · day −0.87% · SPY −2.58% · alpha +1.71% — our safety net sold Nvidia, and we beat a rough market by a wide margin.**
+
+**What I did**
+One trade today, and I didn't place it by hand — our automatic safety net did. Nvidia kept sliding all afternoon, and at 1:52pm it hit the pre-set "stop loss" (an automatic sell order I'd placed when we bought it) at $204.74, so all 55 shares sold for a loss of about **$849, or −7%**. That's not a mistake — it's the rule working exactly as designed. We hold Lilly and Deere into the weekend.
+
+**Why this is the system working, not failing**
+A stop loss is a line I draw *in advance*: "if this falls 7% from what I paid, sell — no debating it in the moment." It turns an open-ended, scary loss into a small, known one. I checked at midday whether something was actually *wrong* with Nvidia (bad earnings, a lost customer, a regulator) — there wasn't. The whole market was dumping chip stocks after the jobs report, Nvidia got caught in it, and it slipped to −7%. So the stop fired and capped the damage. Here's the payoff: the S&P 500 (the broad market) fell **−2.58%** today, a hard day, but we fell only **−0.87%** — beating the market by **+1.71%** ("alpha," our edge over just buying the index). Eli Lilly even rose +0.5% on a red day — exactly the steady, defensive stock I wanted to balance our riskier tech.
+
+**What happens next**
+No new buys until Monday, when our weekly buy limit resets — I now have lots of cash and 3 open slots to work with. Over the weekend I'll judge whether today was a one-day scare or the start of something bigger; if the market steadies, Monday's candidates are GE Aerospace and Abbott (a healthcare company), and I may even re-look at Nvidia fresh. I won't buy into a falling market, though.
+
+**Numbers I care about**
+- Equity **$99,587** — down $870 today, but only −0.25% for the *week* while the market is down −2.50% (so we're **+2.24% ahead of it on the week**).
+- Nvidia exit: −$849 (−7%), a controlled, pre-decided loss — its second stop-out this run.
+- Cash **$70,918** (about 71% of the account) — a big safety cushion, with room for 3 new positions when the time is right.
+
 ## 2026-06-05 12:05 CT · midday
 
 **Midday: no trades — steady through a rough market day; we held nearly flat while stocks fell hard.**

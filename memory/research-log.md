@@ -680,3 +680,29 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 1. Does NVDA hold above 204.74 into the close, or does the selloff trip the stop? If it stabilizes, hold; if the −7% stop fires, log the round-trip and reassess the AI sleeve.
 2. Does LLY hold the new highs, ratcheting the trailing floor further?
 3. Is today's risk-off a one-day NFP jolt or the start of something? Read into next week before re-arming GE/ABT buys Mon 6/8 — prefer adding into stabilization, not a knife.
+
+### Day summary (market-close 2026-06-05 15:05 CT)
+
+- **Closing equity:** $99,587.26 | cash $70,917.58 (71.2%) | invested $28,669.68 (28.8%, 2 positions).
+- **Day P/L:** −$869.53 (**−0.866%**) vs 6/4 close $100,456.79 (Alpaca last_equity / portfolio-history confirmed 6/4 = 100,456.79).
+- **SPY day:** 756.97 (6/4 close) → **737.45** (6/5 daily-bar close) = **−2.579%**. (Daily bars now returning via IEX feed; latest trade 737.44 confirms.)
+- **Alpha today:** −0.866% − (−2.579%) = **+1.71%** ✅ — beat SPY by 1.7pts on a sharp down day.
+- **Week-to-date** (baseline 5/29 close $99,840.95): portfolio **−0.254%** | SPY 756.34 → 737.45 = **−2.498%** | **alpha WTD +2.24%** ✅.
+- **Trades placed:** 1 — **NVDA −7% hard stop FILLED** 14:52 ET, 55 sh @ 204.7158 (trigger 204.74), realized **−$848.88 (−7.01%)**. No manual trades; weekly buy cap (3/3) blocks any re-entry until Mon 6/8.
+- **Stop conversions:** none. LLY already trailing (floor 1049.66, hwm 1166.29 — no new high into the close). DE −7% hard 548.53 resting. Both confirmed GTC `new`.
+
+**What worked:**
+- **The −7% hard stop did exactly its job.** NVDA slid past flat all day on the post-NFP semis flush; rather than panic-sell or freeze, the pre-placed GTC stop capped the loss at a controlled −7.01% (−$848.88). No emotion, no guessing — the guardrail converted an open-ended drawdown into a known, bounded one. This is the system working as designed.
+- **LLY = the defensive anchor.** +0.51% on the day (closing 1131, +4.87%) while SPY fell 2.6% — exactly the healthcare/GLP-1 diversifier role we wanted against an AI-heavy book. Its trailing stop locks the bulk of the gain hands-free.
+- **Cash buffer cushioned the tape.** Entered the day ~59% cash; the NVDA exit lifted it to ~71%. A −2.6% index day cost us under −0.9%, widening alpha WTD to +2.24%.
+
+**What didn't / watch:**
+- **NVDA round-tripped to a −7% loss.** Second NVDA stop-out of the run (prior −$159 on 5/4). Both were stop-driven on macro/sector moves, not thesis breaks — the AI-infra thesis is intact, but two clean exits in five weeks says the entries caught short-term tops into volatile tape. Lesson for the weekly review: consider sizing AI/semis entries smaller or waiting for a confirmed base, given their beta on macro days.
+- **DE turned marginally negative** (−1.08%, −1.4% today) — a 2-day-old position chopping with the tape; thesis intact, ~6% above its stop. Fine, but on watch.
+- **~71% cash with 3 open slots** is a lot of dry powder heading into an uncertain Monday. Good optionality, but it's also under-exposed for a beat-SPY mandate if the market bounces — the cold-start rule warns against defaulting into cash.
+
+**Open questions for tomorrow / Monday 6/8:**
+1. Is today's −2.6% SPY day a one-session NFP/rates jolt or the start of a broader risk-off? The answer governs whether Monday is a buy-the-dip or a wait-for-stabilization day. Don't catch a falling knife.
+2. Re-evaluate NVDA as a *fresh* candidate (not revenge) — does it base above ~205, and does the semis group steady? If yes, it's a legitimate re-entry with 3 slots and ~71% cash available.
+3. Re-verify signal #1 (recent earnings beat) for GE / ABT / AZO before buying — Perplexity hasn't confirmed it yet. GE + ABT remain the high-conviction leads; ABT is attractive as a non-GLP-1 healthcare add alongside LLY.
+4. Does LLY resume new highs (re-ratcheting its trailing floor above 1049.66), or has it topped near 1166?

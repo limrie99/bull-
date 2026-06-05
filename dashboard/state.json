@@ -1,41 +1,40 @@
 {
-  "last_update": "2026-06-05 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-05 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100189.74,
-  "cash": 59658.21,
-  "day_pl": -267.05,
-  "day_pl_pct": -0.27,
-  "week_pl_pct": 0.35,
-  "spy_week_pct": -1.66,
-  "alpha_week_pct": 2.01,
+  "equity": 99587.26,
+  "cash": 70917.58,
+  "day_pl": -869.53,
+  "day_pl_pct": -0.87,
+  "week_pl_pct": -0.25,
+  "spy_week_pct": -2.50,
+  "alpha_week_pct": 2.24,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1150.42,
-      "pl_pct": 6.67,
+      "current": 1131.00,
+      "pl_pct": 4.87,
       "stop": 1049.66
-    },
-    {
-      "symbol": "NVDA",
-      "qty": 55,
-      "avg_cost": 220.15,
-      "current": 207.88,
-      "pl_pct": -5.57,
-      "stop": 204.74
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 590.56,
-      "pl_pct": 0.12,
+      "current": 583.44,
+      "pl_pct": -1.08,
       "stop": 548.53
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-06-05 13:52",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 55,
+      "price": 204.72
+    },
     {
       "date": "2026-06-04 08:35",
       "side": "BUY",
@@ -66,6 +65,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-05 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,587 · day −0.87% · SPY −2.58% · alpha +1.71% — the safety net sold Nvidia, and we beat a rough market handily",
+      "body": "Our pre-set −7% stop loss on Nvidia fired at 1:52pm (55 sh @ $204.72, a controlled −$849/−7% loss) as chips sold off hard after the jobs report — not a thesis break, just the guardrail working. The S&P fell −2.58% today but we fell only −0.87%, beating the market by +1.71%; LLY even rose +0.5%. We're −0.25% on the week vs SPY −2.50% (alpha +2.24%). Now ~71% cash with 3 open slots — no buys until Monday, and only into a steadier tape."
+    },
     {
       "ts": "2026-06-05 12:05 CT",
       "routine": "midday",
@@ -107,12 +112,6 @@
       "routine": "market-close",
       "headline": "Close: equity $99,618 · day -0.19% · SPY -0.70% · alpha +0.51%",
       "body": "Down day for the market; we fell less thanks to LLY's strength (+1.8%) and a big cash buffer. NVDA dipped on broad chip-sector selling (no company news). First day ahead of SPY on the week."
-    },
-    {
-      "ts": "2026-06-02 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $99,809 · day -0.32% · SPY +0.14% · alpha -0.46%",
-      "body": "Slightly behind the market — LLY softened on no news. NVDA held up best. Stops resting safely overnight; nothing to change."
     }
   ]
 }
