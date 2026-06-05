@@ -616,3 +616,28 @@ None. Midday rule: no new buys unless a high-conviction breaking catalyst AND bu
 2. NVDA toward +5% ($231.16) → next trailing-stop conversion target; ~5.8% away.
 3. Does LLY reclaim/hold above the 1137 intraday high, ratcheting the trailing floor higher? Watch the hwm.
 4. GOOGL re-arm for Mon 6/8 (cap resets) if it bases above ~$370 — re-verify the 2-signal case + earnings-blackout at pre-market early next week.
+
+---
+## 2026-06-05 08:35 CT — market-open
+
+**Setup:** Memory synced from origin/main; all 4 required keys present. Clock: **is_open=true** (09:32 ET). Account: equity **$100,454.11**, cash **$59,658.21**, last_equity $100,456.79 (6/4 close), daytrade_count 0 → intraday **−$2.68 / −0.00% (flat)**, well inside the −3% loss cap. Positions: LLY 14 @ 1078.46 (mark 1142.84, **+5.97%, +$901.26**), NVDA 55 @ 220.15 (mark 214.08, **−2.76%, −$333.85**), DE 22 @ 589.82 (mark 591.98, **+0.37%, +$47.41**). Inbox: nothing pending. **No trades — weekly buy cap reached (3/3, resets Mon 6/8).**
+
+### Re-validation of the pre-market plan vs the live open
+Pre-market plan was: hold all three (theses confirmed), read the NFP reaction rather than pre-position, watch NVDA (+5% → ~231.16) and DE (+5% → ~619.31) for trailing-stop conversions, no new buys (cap reached). Re-checking each against the open:
+
+- **NFP reaction — mild risk-off / rotation, as the cautious pre-market read flagged.** SPY 6/4 close 756.97 → **752.49 (−0.59% intraday)**; NVDA −2.1% intraday (long-duration tech softer on the print); LLY +1.56% and DE flat held up. Our equity essentially flat (−$2.68) — the ~59% cash buffer + healthcare/industrial tilt cushioned the tech wobble. Consistent with "hot-ish / no-cut" read pushing yields up and pressuring growth, not a regime change.
+- **LLY — HOLD, +5.97% (biggest winner, strengthening).** Trailing stop **ratcheted up**: hwm now 1148.03 (was ~1135 pre-market), stop_price climbed to **1033.23** (was 1023.66). Working exactly as designed — locking in more profit on each new high while letting it run. No action.
+- **NVDA — HOLD, −2.76% (sentiment/NFP softness, not company news).** Mark 214.08 vs −7% stop 204.74 = ~4.4% cushion; far below the +5% trigger (~231.16). No conversion, no sell. **Standing task carried: if NVDA ≥ +5% cancel b55fb743 → 10% trailing GTC.** No action.
+- **DE — HOLD, +0.37% (calm).** Mark 591.98 vs −7% stop 548.53; +5% trigger ~619.31. No action.
+
+### Stop verification (open-orders query, all `new`/resting GTC)
+- LLY 10% trailing `6016a7e7` — stop 1033.23, trail 10%, hwm 1148.03. ✅ ratcheting.
+- NVDA −7% hard `b55fb743` @ 204.74. ✅
+- DE −7% hard `a150583a` @ 548.53. ✅
+- (a) −7% drawdown: worst NVDA −2.76% — no sells. (b) +5% trailing: only LLY ≥+5% and already converted — no new conversions. (c) loss cap: intraday flat — moot.
+
+### Benchmark (week-to-date)
+Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → **WTD +0.614%.** SPY WTD: 756.34 (5/29) → 752.49 = **−0.509%.** **Alpha WTD +1.12%** ✅ — the down-market open on NFP actually widened our lead, exactly the cash-buffer-cushions-a-down-day pattern.
+
+### Net
+**No trades (weekly buy cap reached).** Hold all three — every thesis intact, no thesis-breakers, all stops live GTC. NFP open was a mild risk-off that we weathered flat while SPY fell ~0.6%, widening alpha WTD to +1.12%. LLY's trailing stop is ratcheting (hwm 1148.03, floor 1033.23). Watching into the session: NVDA toward the +5% trailing trigger (~231.16) and DE (~619.31), and LLY new highs lifting its trailing floor. Next week's shortlist set (GE + ABT leads, AZO backup, GOOGL parked); re-verify candidate signal-#1 fundamentals Monday before buying.

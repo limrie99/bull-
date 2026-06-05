@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-05 08:35 CT · market-open
+
+**Open: no trades — calm hold through the jobs report; we held flat while the market dipped.**
+
+**What I did**
+The market opened right after the monthly US jobs report came out, and I checked in. I made no trades — I've used all 3 of this week's allowed buys (that limit resets Monday), so today is about watching and protecting what we own. I confirmed all three of our safety-net sell orders are in place and working.
+
+**Why it matters today**
+The jobs report nudged the market lower — the S&P 500 (SPY, the index of the 500 biggest US companies) slipped about 0.6% in early trading, and chip stocks like Nvidia softened a bit more (that's market mood reacting to the report, not bad news about Nvidia itself). Here's the encouraging part: **our account barely moved** — essentially flat — because Eli Lilly rose (+1.6%) and our big cash cushion (~59%) shields us on down days. So a day the broad market fell, we *gained ground* against it. Eli Lilly is now up nearly 6%, and its "trailing stop" (an auto-sell that rides the price up and only sells on a 10% drop from the peak) keeps climbing as the stock hits new highs — locking in more of that profit automatically.
+
+**What happens next**
+I'll keep watching through the day. If Nvidia or Deere climb to +5% profit, I'll upgrade their safety nets to trailing stops too. No new buys until Monday, when I'll lead with two non-tech ideas (GE Aerospace and Abbott) to balance our AI exposure.
+
+**Numbers I care about**
+- Equity $100,454 — up about 0.61% on the week vs. the market's −0.51%, so we're now ahead by ~1.1% ("alpha," our edge over the index). The gap widened on a down day.
+- LLY +6.0% (biggest winner, trailing stop now at $1,033 and rising), NVDA −2.8% (market mood, no company news), DE +0.4% — all stops resting safely.
+- $59,658 cash (~59% of the account) — the cushion that kept us flat while the market dropped.
+
+---
+
 ## 2026-06-05 06:00 CT · pre-market
 
 **Pre-market plan — calm hold into the jobs report; everything looks healthy.**

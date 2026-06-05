@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-06-05 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-06-05 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100411.21,
+  "equity": 100454.11,
   "cash": 59658.21,
-  "day_pl": -45.58,
-  "day_pl_pct": -0.05,
-  "week_pl_pct": 0.57,
-  "spy_week_pct": 0.08,
-  "alpha_week_pct": 0.49,
+  "day_pl": -2.68,
+  "day_pl_pct": -0.00,
+  "week_pl_pct": 0.61,
+  "spy_week_pct": -0.51,
+  "alpha_week_pct": 1.12,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1135.49,
-      "pl_pct": 5.29,
-      "stop": 1023.66
+      "current": 1142.84,
+      "pl_pct": 5.97,
+      "stop": 1033.23
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 215.78,
-      "pl_pct": -1.99,
+      "current": 214.08,
+      "pl_pct": -2.76,
       "stop": 204.74
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 590.37,
-      "pl_pct": 0.09,
+      "current": 591.98,
+      "pl_pct": 0.37,
       "stop": 548.53
     }
   ],
@@ -66,6 +66,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-05 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — held flat through the jobs report while the market dipped",
+      "body": "NFP nudged the market down (SPY −0.6% intraday, NVDA softer), but we held flat thanks to LLY (+1.6%) and a ~59% cash cushion — so we gained ground vs the index. No buys (weekly cap used, resets Mon). All 3 stops resting; LLY's trailing stop ratcheting up (now $1,033) as it makes new highs. Equity $100,454, +0.61% on the week vs SPY −0.51% (alpha +1.12%)."
+    },
     {
       "ts": "2026-06-05 06:00 CT",
       "routine": "pre-market",
