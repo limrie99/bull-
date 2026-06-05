@@ -641,3 +641,42 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 
 ### Net
 **No trades (weekly buy cap reached).** Hold all three — every thesis intact, no thesis-breakers, all stops live GTC. NFP open was a mild risk-off that we weathered flat while SPY fell ~0.6%, widening alpha WTD to +1.12%. LLY's trailing stop is ratcheting (hwm 1148.03, floor 1033.23). Watching into the session: NVDA toward the +5% trailing trigger (~231.16) and DE (~619.31), and LLY new highs lifting its trailing floor. Next week's shortlist set (GE + ABT leads, AZO backup, GOOGL parked); re-verify candidate signal-#1 fundamentals Monday before buying.
+
+---
+## 2026-06-05 12:05 CT — midday
+
+**Setup:** Memory synced from origin/main; all 4 required keys present. Clock: **is_open=true** (13:01 ET). Account: equity **$100,189.74**, cash **$59,658.21**, last_equity $100,456.79 (6/4 close), daytrade_count 0 → intraday **−$267.05 / −0.27%**, well inside the −3% loss cap. Positions: LLY 14 @ 1078.46 (mark 1150.42, **+6.67%, +$1,007.37**), NVDA 55 @ 220.15 (mark 207.88, **−5.57%, −$674.85**), DE 22 @ 589.82 (mark 590.56, **+0.12%, +$16.28**). Inbox: nothing pending. **No trades — weekly buy cap reached (3/3, resets Mon 6/8).**
+
+### Risk management (priority order)
+- (a) **−7% drawdown / news check:** worst is **NVDA −5.57%** (was −2.76% at the open; mark 207.88, ~1.5% above its −7% stop 204.74). Not yet at the −7% mandatory trigger, but it's slid materially toward the stop on a sharp down-tape, so I ran the thesis-break check anyway. **Perplexity (sonar-pro):** no NVDA-specific thesis-breaking headline (no guidance cut, regulatory action, customer loss, exec departure) — drop is a **broad tech/semis selloff after the jobs data + rates move**; rated **(2) sector-wide noise / (3) macro move**, NOT a company thesis break. **Decision: HOLD, no manual sell, no manual tighten.** Strategy = don't catch knives but don't scalp winners with tight stops; the resting −7% GTC stop (204.74) is the mechanical backstop if the selloff deepens. DE −0.12%? no — DE +0.12%, far from stop. No sells.
+- (b) **+5% → trailing stop:** **LLY +6.67%** — already on a 10% trailing stop (6016a7e7), which **ratcheted up** today: stop_price 1049.66 (was 1033.23 at open), hwm 1166.29 (was 1148.03) — new highs. No new conversion needed. NVDA (−5.57%) and DE (+0.12%) nowhere near +5%. **Standing tasks carried: if NVDA ≥ +5% (~231.16) cancel b55fb743 → 10% trailing GTC; if DE ≥ +5% (~619.31) cancel a150583a → 10% trailing GTC.**
+- (c) **Daily loss cap:** day **−0.27%** — well inside −3%. Moot anyway (weekly buy cap reached).
+
+### Stop verification (open-orders query, all `new`/resting GTC)
+- LLY 10% trailing `6016a7e7` — stop 1049.66, trail 10%, hwm 1166.29. ✅ ratcheting.
+- NVDA −7% hard `b55fb743` @ 204.74. ✅ (~1.5% cushion — tightest)
+- DE −7% hard `a150583a` @ 548.53. ✅
+
+### New buys
+- None. Weekly buy cap reached (3 of 3: LLY+NVDA 6/1, DE 6/4). No high-conviction breaking catalyst surfaced — and on a −1.7% SPY day I would not add into a falling tape regardless. No deviation from the pre-market plan.
+
+### Midday numbers
+- **Equity:** $100,189.74 | **Day P/L:** −$267.05 (**−0.27%**) vs 6/4 close (Alpaca last_equity $100,456.79).
+- **SPY:** 756.97 (6/4 close) → **743.79** (latest trade) = **−1.74%** intraday. (Daily-bar query blocked by SIP subscription; used latest-trade print.)
+- **Alpha today:** −0.27% − (−1.74%) = **+1.47%** ✅ — sharply ahead on a red day; the cash buffer + LLY's new highs absorbed the tech selloff that took NVDA down −5.6%.
+- **Week-to-date (baseline 5/29 close $99,840.95):** portfolio **+0.349%** (100,189.74) | SPY **−1.659%** (756.34 → 743.79) | **alpha WTD +2.01%** ✅ — the lead nearly doubled vs the open (+1.12%) as the selloff deepened; classic cash-cushion-on-a-down-day pattern.
+- **Trades placed:** none. Stop conversions: none (LLY already trailing; its floor ratcheted up automatically).
+
+**What worked:**
+- LLY printing fresh highs (+6.67%, hwm 1166.29) on a broad down day — defensive GLP-1/healthcare leadership is exactly the diversifier we wanted against the AI-heavy tech book. Its trailing floor ratcheted to 1049.66, locking in more of the gain hands-free.
+- The ~59% cash buffer + healthcare/industrial tilt meant a −1.7% SPY day cost us only −0.27% — alpha WTD widened to +2.0%.
+
+**What didn't / watch:**
+- **NVDA −5.57%** is the soft spot — round-tripped past flat and is ~1.5% from its −7% stop. News check says macro, not company, so the plan is to let the mechanical stop work rather than panic-sell into a sector flush. If it fills at 204.74 that's a −7% controlled loss, by design. Will reassess at the close.
+- DE flat (+0.12%) — fine for a 2-day-old position into a risk-off tape; −7% stop is the backstop.
+- Cash drag is irrelevant on a red day, but it's still ~59% with the buy cap exhausted — nothing to deploy until Mon 6/8.
+
+**Open questions for the close:**
+1. Does NVDA hold above 204.74 into the close, or does the selloff trip the stop? If it stabilizes, hold; if the −7% stop fires, log the round-trip and reassess the AI sleeve.
+2. Does LLY hold the new highs, ratcheting the trailing floor further?
+3. Is today's risk-off a one-day NFP jolt or the start of something? Read into next week before re-arming GE/ABT buys Mon 6/8 — prefer adding into stabilization, not a knife.

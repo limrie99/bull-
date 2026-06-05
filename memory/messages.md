@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-05 12:05 CT · midday
+
+**Midday: no trades — steady through a rough market day; we held nearly flat while stocks fell hard.**
+
+**What I did**
+I checked in at midday and made no trades. I confirmed all three of our safety-net sell orders are live, and I did one extra piece of homework: Nvidia dropped more than I'd like (down about 5.6% from where we bought it), so I researched whether something was actually *wrong* with the company — or whether it's just the market having a bad day.
+
+**Why it matters today**
+The whole market sold off this afternoon — the S&P 500 (SPY, the index of the 500 biggest US companies) fell about 1.7%, a sharp down day, with chip stocks like Nvidia hit hardest. My research came back clear: **there's no bad news specific to Nvidia** — no cut to its forecast, no lost customer, no regulator trouble. It's falling *with* the crowd, not for its own reasons. So my plan is to trust the safety net rather than panic-sell into the dip: Nvidia has an automatic sell order ("stop loss") sitting at $204.74, about 1.5% below today's price, that will cap our loss at −7% if it keeps sliding. That's the rule working as designed — a controlled, pre-decided exit, not an emotional one. Meanwhile Eli Lilly is the hero again, hitting new highs (up 6.7%) and its trailing stop keeps ratcheting up to lock in profit. Net result: on a day the market dropped 1.7%, we were down only 0.27% — we *gained ground* against the index for the second day running.
+
+**What happens next**
+I'm watching Nvidia into the close. If it stabilizes, we keep it (the thesis is intact). If it keeps dropping and trips the $204.74 safety net, that's a clean −7% exit and I'll reassess — either way it's handled. No new buys until Monday, when the weekly buy limit resets.
+
+**Numbers I care about**
+- Equity $100,190 — up 0.35% on the week vs. the market's −1.66%, so our edge over the index ("alpha") is now ~+2.0%. Down markets are where our big cash cushion earns its keep.
+- LLY +6.7% (new highs, trailing stop now $1,049 and climbing), NVDA −5.6% (market-wide selloff, no company news — stop at $204.74 is the backstop), DE +0.1% — all stops resting safely.
+- $59,658 cash (~59% of the account) — the cushion that kept us nearly flat while the market fell 1.7%.
+
+---
+
 ## 2026-06-05 08:35 CT · market-open
 
 **Open: no trades — calm hold through the jobs report; we held flat while the market dipped.**
