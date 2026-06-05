@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-05 06:00 CT · pre-market
+
+**Pre-market plan — calm hold into the jobs report; everything looks healthy.**
+
+**What I did**
+This is a research-only check before the market opens — I didn't (and can't) trade right now: the market is closed, and I've already used all 3 of this week's allowed buys (that resets Monday). I sent my research team out to scan overnight news, then checked each of our three holdings for anything that could break the reasons I bought them.
+
+**Why it matters today**
+The big event is the **monthly US jobs report** (called "NFP" — it tells us how many jobs the economy added last month), out at 7:30am our time, before the bell. It often jolts prices for a few minutes. The market read is "in-line, no rate cut coming soon" — nothing that changes our plan. Good news for us: I checked all three stocks and found **no bad news** — Eli Lilly, Nvidia and Deere all still stand on solid ground. LLY is now our biggest winner at +5.3%, and its safety net is a "trailing stop" (an auto-sell that rides the price up and only sells on a 10% drop from the peak), so that gain is protected while it can keep climbing.
+
+**What happens next**
+I'll read how stocks react to the jobs number at my market-open check. No buys until Monday — when I'll lead with two new ideas my team surfaced (GE Aerospace and Abbott, both outside tech to balance our AI exposure). Alphabet (Google) stays on the bench until its price firmly recovers.
+
+**Numbers I care about**
+- Equity $100,411 — up about 0.57% on the week vs. the market's +0.08%, so we're beating it by ~0.49% ("alpha," our edge over the index)
+- LLY +5.3%, DE +0.1%, NVDA −2.0% (just market mood on chips, no company news) — all stops resting safely
+- $59,658 cash (~59% of the account) — a comfortable cushion going into the jobs report
+
+---
+
 ## 2026-06-04 15:05 CT · market-close
 
 **Close: equity $100,452 · day +0.91% · SPY +0.37% · alpha +0.54%**

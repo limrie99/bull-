@@ -26,6 +26,42 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-05 06:00 CT — pre-market
+
+**Setup:** Memory synced from origin/main; all 4 required keys present; Alpaca reachable. Market **CLOSED**, opens today 09:30 ET / 08:30 CT (clock: is_open=false, next_open 2026-06-05T09:30 ET). Account (close marks): equity **$100,411.21**, cash **$59,658.21**, last_equity $100,456.79 (6/4 close), daytrade_count 0. Positions: LLY 14 @ 1078.46 (mark 1135.49, **+5.29%, +$798.42**), NVDA 55 @ 220.15 (mark 215.78, **−1.99%, −$240.35**), DE 22 @ 589.82 (mark 590.37, **+0.09%, +$12.20**). All 3 protective stops confirmed live via open-orders query: LLY 10% trailing 6016a7e7 @ 1023.66 `new`, NVDA −7% hard b55fb743 @ 204.74 `new`, DE −7% hard a150583a @ 548.53 `new`. Inbox: nothing pending. **No trades — market closed AND weekly buy cap reached (3/3, resets Mon 6/8).** 4-thread sub-agent fan-out (macro, earnings, position×3, opportunity scout) via Perplexity.
+
+**DATA-QUALITY CAVEAT:** Perplexity (sonar-pro) repeatedly refused to resolve date-specific 2026 data (live futures ticks, the street NFP survey, the 6/4–6/5 earnings calendar, recent per-name earnings dates). Macro consensus figures and candidate signal-#1 confirmations below are aggregator/inference, NOT confirmed. Position-news checks and Alpaca price/benchmark data ARE reliable. Treat the macro/candidate numbers as directional and re-verify Monday before acting.
+
+### Market context
+- **THE event: May Non-Farm Payrolls (NFP / monthly US jobs report) at 08:30 ET pre-market** — the week's binary event. Aggregator consensus (unconfirmed): payrolls ~+85k, unemployment 4.3%, avg hourly earnings +0.2% m/m / ~3.6% y/y. No documented whisper. Rate-cut read: Fed funds futures priced for the FOMC to stay on hold — near-zero odds of an imminent cut. Hot print (payrolls ≫85k, wages ≥0.3%) → yields up, long-duration tech (NQ) underperforms. Cold-but-not-recessionary print → yields down, bullish SPY/growth.
+- **Futures (directional, unconfirmed):** ES (S&P 500) ~+0.3–0.5%, NQ (Nasdaq 100) slightly soft ~−0.3 to −0.6% — mild rotation out of long-duration tech into cyclicals/financials. Driver: lower yields after WTI crude fell ~3% Thursday (10Y ~4.47%, −2bp).
+- **Global/rates/FX/commodities (estimates, no live feed):** Nikkei +0.3–0.7%, Hang Seng flat/+0.5%, DAX/Europe +0.2–0.5%; 10Y ~4.45–4.50%; DXY ~104–105; WTI ~$72–75 post-Thursday drop; gold bid.
+- **SPY (Alpaca, authoritative):** 6/4 close **756.97** (+0.37% on the day), recovering from the 6/3 distribution day (754.18). Uptrend intact, near the 6/2 record 759.47.
+- **Risk read: cautious / mildly risk-on into a binary event.** Macro doesn't hard-gate buys per strategy, but the NFP print is a real swing factor. Moot today regardless — weekly buy cap reached, market closed.
+
+### Portfolio watch (all theses INTACT — zero thesis-breakers found in 24–48h)
+- **LLY — INTACT, now +5.29% (our biggest winner).** No material 24–48h news; no FDA/trial/PBM changes; no analyst downgrade. Consensus PT ~$1,215 (24 buy / 6 hold / 1 sell). Trailing stop already converted (6/4 midday); floor 1023.66 ratchets up with new highs (hwm tracking ~1135). **Next catalyst: Goldman healthcare conf fireside ~June 9** — watch for incremental obesity-franchise commentary. No action.
+- **NVDA — INTACT, −1.99% (sentiment-only).** No NVDA-specific news found across two queries; no upgrades/downgrades 6/4–6/5. Demand narrative intact (Blackwell Ultra ramp, Vera Rubin shipping 2026). The AVGO (Broadcom) read-through from 6/3 could NOT be confirmed as a documented spillover — consistent with "sector noise, not company news." Mark 215.78 vs −7% stop 204.74 (~5.1% cushion); not at +5% trigger (~231.16). **Standing task: if NVDA ≥ +5% cancel b55fb743 → 10% trailing GTC.** No action.
+- **DE — INTACT, +0.09% (calm first full session).** No material news; strength is 5/21 Q2-beat follow-through. Confirmed non-issues: right-to-repair litigation *settled* (April, no wrongdoing — overhang removed); CFO change (Brent Norwood, eff. May 1) a *planned internal promotion*, not a disruptive departure. Supportive backdrop: soybean prices firming on China demand. Mark 590.37 vs −7% stop 548.53; trigger for +5% trailing ~619.31. No action.
+
+### Buy candidates (FOR NEXT WEEK — weekly cap reached, resets Mon 6/8; 3 of 5 slots used; ~$59.7K cash / ~59% buffer)
+Prefer non-AI-hardware diversifiers (book heavy AI via NVDA). NOTE: signal #1 (recent earnings beat) could NOT be confirmed by Perplexity for these names — they lean on #3/#4/#6; re-verify fundamentals Monday before pulling the trigger.
+- **GE (GE Aerospace) — LEAD, conviction HIGH.** Signals: **#3** (commercial-aerospace aftermarket + defense + grid/electrification onshoring tailwind), **#4** (fresh Buy/Overweight upgrades, PTs raised $190–220), **#5** (industrials/electrification rotation), **#6** (decisively above 50d, near multi-year highs). Pure industrial, zero NVDA overlap. Next earnings ~late July → no blackout for a 6/8 entry.
+- **ABT (Abbott Labs) — LEAD #2, conviction HIGH.** Signals: **#3** (aging-population chronic-disease monitoring — FreeStyle Libre, structural heart), **#4** (Buy/Overweight reiterations, PTs $125–135), **#6** (steady uptrend off lows). Diversified low-vol healthcare that complements LLY without doubling the GLP-1 bet. Next earnings ~mid-July → no blackout.
+- **AZO (AutoZone) — backup, conviction MED.** Signals: **#4** (Argus upgrade to Buy, $4,325 PT), **#3** (aging US vehicle fleet tailwind), **#6** (above 50d). Defensive consumer. Caveat: ~$3,700+/share = awkward sizing (1 sh ≈ 3.7% of book; needs fractional). Next earnings ~late Sept.
+- **DVN (Devon Energy) — watch only, conviction LOW.** Signals: #4 (Raymond James → Strong Buy 5/5), #6 (above 50d). Energy is outside preferred sectors and macro/commodity-driven. Not a lead.
+- **GOOGL — STILL PARKED (do not arm yet).** Basing/consolidating ~$364 in a $355–375 range; $370 acting as resistance; intraday pokes above $370 did NOT hold (latest close ~$359). Price flat at/just below the 50d. Thesis intact (Q1 blowout, AI/TPU capex, PTs $430–450) — only timing is wrong. **Re-arm rule: a daily CLOSE above ~$370 that holds a 2nd day; don't chase intraday wicks.**
+
+### Sell candidates
+**None.** All three holdings INTACT; no thesis breaks, no fundamentals deterioration, no analyst downgrades. LLY's trailing stop and the two −7% hard stops handle any downside automatically.
+
+### Benchmark (week-to-date, pre-market snapshot)
+Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,411.21 → **WTD +0.571%.** SPY WTD: 756.34 (5/29) → 756.97 (6/4) = **+0.083%.** **Alpha WTD +0.49%** ✅ — holding the lead into NFP Friday, cushioned by LLY's run and a ~59% cash buffer.
+
+### Net
+**No trades (market closed + weekly buy cap reached).** Plan into the open: **hold all three** (LLY/NVDA/DE theses confirmed by the 24h fan-out; all stops live GTC), read the 08:30 ET NFP reaction at the market-open routine rather than pre-positioning, and watch NVDA for the +5% trailing-stop conversion (~231.16) and DE (~619.31). LLY's trailing stop floor (1023.66) climbs with any new high. **Next week's shortlist is set: lead GE + ABT (both HIGH conviction, non-AI diversifiers, no blackout); AZO backup; GOOGL stays parked until it closes above ~$370 and holds.** Re-verify candidate signal-#1 fundamentals Monday given the Perplexity date-resolution gap.
+
+---
 ## 2026-06-04 08:35 CT — market-open
 
 **Setup:** Memory synced from origin/main; all 4 keys present. Clock: **is_open=true** (09:32 ET). Account at open: equity $99,877.78, cash $72,634.26, last_equity $99,548.43 (6/3 close), daytrade_count 0 → intraday **+$329 / +0.33%**, inside the −3% loss cap → buys allowed. Positions pre-trade: LLY 14 @ 1078.46 (mark 1109.73, +2.9%), NVDA 55 @ 220.15 (mark 212.89, −3.30%). All stops confirmed GTC/`new` (LLY 6c4d0225 @ 1002.57, NVDA b55fb743 @ 204.74). Inbox: nothing pending.

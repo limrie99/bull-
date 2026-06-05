@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-06-04 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-05 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100451.62,
-  "cash": 59658.22,
-  "day_pl": 903.19,
-  "day_pl_pct": 0.91,
-  "week_pl_pct": 0.61,
+  "equity": 100411.21,
+  "cash": 59658.21,
+  "day_pl": -45.58,
+  "day_pl_pct": -0.05,
+  "week_pl_pct": 0.57,
   "spy_week_pct": 0.08,
-  "alpha_week_pct": 0.53,
+  "alpha_week_pct": 0.49,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1126.00,
-      "pl_pct": 4.41,
+      "current": 1135.49,
+      "pl_pct": 5.29,
       "stop": 1023.66
     },
     {
       "symbol": "NVDA",
       "qty": 55,
       "avg_cost": 220.15,
-      "current": 218.38,
-      "pl_pct": -0.80,
+      "current": 215.78,
+      "pl_pct": -1.99,
       "stop": 204.74
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 591.75,
-      "pl_pct": 0.33,
+      "current": 590.37,
+      "pl_pct": 0.09,
       "stop": 548.53
     }
   ],
@@ -66,6 +66,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-05 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan — calm hold into the jobs report; all 3 holdings healthy",
+      "body": "Research-only check (market closed, weekly buy cap used). Jobs report (NFP) lands pre-market — read as in-line. No bad news on LLY/NVDA/DE; all theses intact, all stops resting. LLY now +5.3% (biggest winner, gain protected by a trailing stop). Equity $100,411, +0.57% on the week vs SPY +0.08% (alpha +0.49%). Monday's leads: GE Aerospace + Abbott; GOOGL still parked."
+    },
     {
       "ts": "2026-06-04 15:05 CT",
       "routine": "market-close",
