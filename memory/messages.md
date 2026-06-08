@@ -14,6 +14,20 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-08 15:00 CT · market-close
+
+**Close: equity $99,359 · day −0.15% · SPY +0.24% · alpha −0.39%**
+
+A quiet, slightly-down first day of the week — nothing broke, we just drifted a touch behind the market. Here's the honest picture:
+
+- **We're at $99,359, down $148 (−0.15%) on the day.** The S&P 500 (our benchmark, "SPY") rose +0.24%, so we trailed it by about 0.39 percentage points today (that gap is called "alpha" — when it's negative, we underperformed the market). One mildly soft day; not a worry.
+- **What dragged us:** GE and DE, the two industrial stocks I bought this morning, both slipped ~2–3% on their first day with *no bad news* — that's just normal day-one wobble (a new position often marks slightly below what you paid because of the gap between buy and sell prices). Both theses are fully intact and both sit comfortably above their safety nets.
+- **What held up:** Lilly (LLY), our biggest winner, closed +6.53% (+$986) and is still protected by a "trailing stop" (an auto-sell that follows the price up and locks in gains if it falls back). Eaton (ETN) closed slightly green — patience on the entry paid off.
+- **Where we stand:** 4 of 5 position slots filled, 1 buy still in reserve this week, ~47% in cash. Every position has its safety net in place. Tomorrow I'm watching Lilly's healthcare-conference appearance and whether GE/DE steady up.
+
+Down days happen — the job is to lose small and let winners run, which is exactly what today looked like. 🐂
+
+
 ## 2026-06-08 12:00 CT · midday
 
 **Midday: steady, no changes — we're flat on the day while a quiet market drifts up a touch.**
