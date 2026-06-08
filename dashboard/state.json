@@ -1,45 +1,45 @@
 {
-  "last_update": "2026-06-08 08:40 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-06-08 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 99876.88,
+  "equity": 99489.62,
   "cash": 46447.19,
-  "day_pl": 369.86,
-  "day_pl_pct": 0.37,
-  "week_pl_pct": 0.37,
-  "spy_week_pct": 0.59,
-  "alpha_week_pct": -0.22,
+  "day_pl": -17.40,
+  "day_pl_pct": -0.02,
+  "week_pl_pct": -0.02,
+  "spy_week_pct": 0.47,
+  "alpha_week_pct": -0.48,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1157.87,
-      "pl_pct": 7.36,
-      "stop": 1055.907
+      "current": 1155.385,
+      "pl_pct": 7.13,
+      "stop": 1064.457
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 327.40,
-      "pl_pct": -0.68,
+      "current": 322.325,
+      "pl_pct": -2.22,
       "stop": 306.56
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 399.07,
-      "pl_pct": -0.62,
+      "current": 403.13,
+      "pl_pct": 0.40,
       "stop": 373.43
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 586.765,
-      "pl_pct": -0.52,
+      "current": 576.695,
+      "pl_pct": -2.23,
       "stop": 548.53
     }
   ],
@@ -96,6 +96,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-08 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — flat on the day, all 4 stocks healthy and every safety net resting",
+      "body": "No trades — nothing hit a rule. GE and Deere slipped to ~−2.2% (normal day-1/2 wiggling, both ~5% above their auto-sell prices), Eaton ticked green (+0.4%), and Lilly still leads at +7.1%. Lilly's trailing safety-sell ratcheted up on its own to $1,064.46 as it made new highs, protecting more profit hands-free. Equity ~$99,490, flat on the day; SPY +0.5%, so we trail by ~half a point intraday only because the two fresh industrials mark below cost on day one (real tally at the close). Cash ~$46,400 (~46%). Keeping our 1 reserve buy parked — won't force it."
+    },
+    {
       "ts": "2026-06-08 08:40 CT",
       "routine": "market-open",
       "headline": "Open: bought GE Aerospace + Eaton as the market steadied — now 4 stocks, ~46% cash",
@@ -136,12 +142,6 @@
       "routine": "pre-market",
       "headline": "Pre-market plan — calm hold into the jobs report; all 3 holdings healthy",
       "body": "Research-only check (market closed, weekly buy cap used). Jobs report (NFP) lands pre-market — read as in-line. No bad news on LLY/NVDA/DE; all theses intact, all stops resting. LLY now +5.3% (biggest winner, gain protected by a trailing stop). Equity $100,411, +0.57% on the week vs SPY +0.08% (alpha +0.49%). Monday's leads: GE Aerospace + Abbott; GOOGL still parked."
-    },
-    {
-      "ts": "2026-06-04 15:05 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $100,452 · day +0.91% · SPY +0.37% · alpha +0.54%",
-      "body": "Strong, quiet close — no trades at the bell. LLY led again (+4.4%), its safety net is now a trailing stop locking in gains; NVDA bounced +1.7% after the chip-sector dip; DE calm first day (+0.6%). We beat the market by +0.54% today, +0.53% on the week. ~59% cash; jobs report tomorrow pre-market."
     }
   ]
 }

@@ -796,3 +796,16 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 2. Re-evaluate NVDA as a *fresh* candidate (not revenge) — does it base above ~205, and does the semis group steady? If yes, it's a legitimate re-entry with 3 slots and ~71% cash available.
 3. Re-verify signal #1 (recent earnings beat) for GE / ABT / AZO before buying — Perplexity hasn't confirmed it yet. GE + ABT remain the high-conviction leads; ABT is attractive as a non-GLP-1 healthcare add alongside LLY.
 4. Does LLY resume new highs (re-ratcheting its trailing floor above 1049.66), or has it topped near 1166?
+
+### Midday check 2026-06-08 12:00 CT
+
+- **Live (Alpaca):** equity $99,489.62 | cash $46,447.19 (46.7%) | invested $53,042.43 (4 positions) | last_equity (6/5 close) $99,507.02 → day **−$17.40 / −0.02%** (flat). daytrade_count 0.
+- **Marks:** LLY 1155.385 **+7.13%** | ETN 403.13 **+0.40%** | GE 322.325 **−2.22%** | DE 576.695 **−2.23%**.
+- **SPY:** 740.88 vs 6/5 close 737.45 = **+0.47%**. Intraday alpha ~**−0.48pts** — gave back the open's +0.37% as GE/DE softened off morning highs and LLY backed off its high; fresh industrials still marking below entry-day cost. Not authoritative (close routine computes the real day-vs-SPY).
+- **Risk checks:**
+  - (a) −7% drawdown: worst DE −2.23% / GE −2.22%, both ~4.9% above their −7% stops. No sells.
+  - (b) +5% → trailing: LLY already trailing; its floor **ratcheted up to 1064.457** (hwm 1182.73) on new highs since the open — confirmed RESTING GTC. GE/ETN/DE far from +5%. Nothing to convert.
+  - (c) Daily loss cap: day −0.02%, not >3% down. No buy restriction. (Also no new-buy intent — midday, no breaking catalyst.)
+- **All 4 stops confirmed open/`new`:** LLY trail 1064.457 | GE 306.56 | ETN 373.43 | DE 548.53.
+- **No trades.** Reserve buy (1 of 3 this week) parked — no qualifying 2-signal setup; not forcing it. AZO/GOOGL/NVDA all below their respective triggers.
+- **Watch into close:** does the bounce hold or fade (yields ~4.5%, crude elevated)? LLY Goldman healthcare fireside ~6/9.

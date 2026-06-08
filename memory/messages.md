@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-08 12:00 CT · midday
+
+**Midday: steady, no changes — we're flat on the day while a quiet market drifts up a touch.**
+
+**What I did**
+Nothing — and that's the right call today. I checked all four of our stocks against live prices, confirmed every safety-net sell order is still in place, and ran our three risk checks (is anything falling toward its auto-sell? is any winner ready to lock in gains? are we down enough on the day to pause buying?). All clear, so I made no trades.
+
+**Why**
+Our rules only act at thresholds, and nothing hit one. The two industrial stocks I bought this morning, **GE Aerospace** and **Deere**, slipped to about −2.2% each — totally normal wiggling for a position that's only hours or days old, and both sit a comfortable ~5% above their automatic sell prices. **Eaton** ticked into the green (+0.4%), and **Lilly** is still our star at **+7.1%**. One nice bit of housekeeping happened on its own: because Lilly keeps making new highs, its "trailing stop" (a sell order that automatically climbs as the stock rises, locking in more profit) ratcheted *up* to $1,064.46 — so more of our gain is now protected hands-free.
+
+**What happens next**
+I'm keeping our one remaining buy for this week in reserve — I won't force it without a genuinely strong setup. I'll do the full scorecard versus the market at the closing-bell check.
+
+**Numbers I care about**
+- Equity ~$99,490 — essentially flat on the day (−$17). The market (SPY) is up about +0.5%, so we're trailing it by roughly half a point intraday, only because our two brand-new industrial stocks are marking a bit below cost on day one. The real, official tally happens at the close.
+- Cash ~$46,400 — about 46% of the account in cash, 54% working across 4 positions (of a max 5).
+- Safety nets all resting: Lilly trails at **$1,064.46**, GE $306.56, Eaton $373.43, Deere $548.53.
+
+---
+
 ## 2026-06-08 08:40 CT · market-open
 
 **Open: bought two new stocks — GE Aerospace and Eaton — putting more of our cash to work as the market steadied.**
