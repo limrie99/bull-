@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-06-05 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-06-08 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99587.26,
-  "cash": 70917.58,
-  "day_pl": -869.53,
-  "day_pl_pct": -0.87,
-  "week_pl_pct": -0.25,
-  "spy_week_pct": -2.50,
-  "alpha_week_pct": 2.24,
+  "equity": 99998.96,
+  "cash": 70917.56,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1131.00,
-      "pl_pct": 4.87,
+      "current": 1165.50,
+      "pl_pct": 8.07,
       "stop": 1049.66
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 583.44,
-      "pl_pct": -1.08,
+      "current": 580.20,
+      "pl_pct": -1.63,
       "stop": 548.53
     }
   ],
@@ -66,6 +66,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-08 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan — fresh week, both holdings healthy; GE Aerospace lined up as Monday's top buy (only if the market steadies)",
+      "body": "Research-only check (market closed). Friday's hot jobs report knocked the S&P −2.5% (tech/chips hit hardest); overnight futures point slightly up — a tentative bounce I want confirmed before deploying ('don't catch a falling knife'). Both holdings INTACT: LLY +8% (our anchor, trailing safety-sell $1,049.66), DE −1.6% (normal, stop $548.53). Weekly buy limit reset — up to 3 buys, 3 open slots, ~71% cash. Plan at the 8:30 open: lead with GE Aerospace (jet engines/defense, full size) if the tape steadies, then maybe Eaton (electrical gear for AI data centers, smaller, after it settles). Dropped Abbott (cut guidance, near lows). Equity ~$99,999."
+    },
+    {
       "ts": "2026-06-05 16:00 CT",
       "routine": "weekly-review",
       "headline": "Week ending 6/5: −0.25% · SPY −2.50% · alpha +2.24% · grade B+ — beat a rough market by 2.2 points, and the trading fix finally worked",
@@ -106,12 +112,6 @@
       "routine": "midday",
       "headline": "Midday: equity $100,536 · day +0.99% · alpha +0.64% — LLY breakout, trailing stop set",
       "body": "LLY hit +5.1% so I converted its -7% stop to a 10% trailing stop to protect the gain. NVDA recovering +1.8%. No buys (weekly cap reached). Ahead of the market on a green day."
-    },
-    {
-      "ts": "2026-06-04 08:35 CT",
-      "routine": "market-open",
-      "headline": "Bought Deere (DE) — a farm-equipment maker — our 3rd and final buy this week",
-      "body": "22 shares @ $589.82 (~13% of the account) with an auto-sell at $548.53. Strong Q2 earnings beat + onshoring tailwind; a non-tech diversifier for our AI-heavy book."
     }
   ]
 }

@@ -26,6 +26,46 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-08 06:00 CT — pre-market
+
+**Setup:** Memory synced from origin/main; all 4 required keys present; Telegram keys also present. Market **CLOSED**, opens today 09:30 ET / 08:30 CT (clock is_open=false, next_open 2026-06-08T09:30 ET). Account (live marks): equity **$99,998.96**, cash **$70,917.56**, last_equity $99,507.02 (Fri 6/5 close), daytrade_count 0, buying_power $365,098.16. Positions: LLY 14 @ 1078.46 (mark **1165.50, +8.07%, +$1,218.56**), DE 22 @ 589.82 (mark **580.20, −1.63%, −$211.64**). Both protective stops confirmed live via open-orders query: LLY 10% trailing 6016a7e7 @ **1049.66** (hwm 1166.29) `new`; DE −7% hard a150583a @ **548.53** `new`. Inbox: nothing pending. **Weekly buy cap RESET today (0/3 used); 3 of 5 slots open; ~71% cash.** **No trades — market closed (research-only).** 4-thread sub-agent fan-out (macro, earnings, position×2, opportunity scout) via Perplexity.
+
+**DATA-QUALITY CAVEAT (same as Friday):** Perplexity (sonar-pro) still refuses hard date-pinned 2026 data and lags 1–3 days. Confirmed this run: Friday NFP details, GE price/consensus, MSFT/ABT/ETN earnings details, AVGO timing, sector-rotation direction. Inferred/unverified: AZO & GOOGL 2026 prices/technicals, exact next-earnings dates for AZO/ORCL/ADBE, all "last-2-weeks" analyst/insider activity, live futures ticks. Alpaca price/benchmark data IS reliable.
+
+### Market context
+- **Friday's driver, now confirmed:** May NFP printed **HOT at +172k** (≈2× the ~85k consensus), unemployment steady **4.3%**, wages **+0.3% m/m / +3.4% y/y**, plus **+93k upward revisions** to Mar/Apr. A too-strong labor market — it gutted near-term rate-cut odds, lifted yields, and hit long-duration tech/semis hardest → SPY −2.5% Friday (semis-led). Next FOMC (mid-June) overwhelmingly expected to **hold** (~90%+).
+- **Overnight futures (confirmed ~midnight ET, direction reliable):** ES (S&P 500) **+0.21%**, NQ (Nasdaq 100) **+0.62%** — tech *leading* a bounce attempt, notable after Friday's semis flush. A dip-buy attempt, not an all-clear.
+- **Global:** Nikkei **−3.66%** (catching down to Friday's US move), Euro Stoxx 50 fut +0.20%. (Hang Seng/DAX figures available were stale Friday closes — ignored.)
+- **Rates/FX/commodities:** 10Y ~**4.54%** (contextual, elevated = core pressure on tech multiples); **WTI crude ~+3.7% to ~$94** (an inflation/risk wrinkle worth watching); gold ~flat. DXY not confirmed.
+- **SPY (Alpaca, authoritative):** 6/5 close **737.45** (−2.6% day, 756.97→737.45). Latest IEX print 734.47 (mildly soft pre-open). New week baseline = 737.45.
+- **Risk read: tentatively STABILIZING but fragile.** Hard overnight evidence (ES/NQ green, tech leading) points to a stabilization/bounce attempt rather than a continued cascade — but elevated yields + crude spike argue the pressure on high-multiple tech lingers. **Implication for deployment:** conditions lean toward cautious deployment being reasonable *today*, but the market-open routine should confirm the bounce holds in the first 30–60 min (and that 10Y isn't ripping) before committing buy slots. Don't catch a knife.
+
+### Portfolio watch (both theses INTACT — zero thesis-breakers in 48–72h)
+- **LLY — INTACT, +8.07% (mark 1165.50), our biggest winner.** No negative GLP-1/obesity data, no orforglipron (Foundayo) setback, no PBM/coverage cut, no downgrade. Consensus "Strong Buy" (≈24 buy / 5 hold / 2 sell), targets edging up on the raised FY guide. Fresh positive: Lilly's 2026 bolt-on acquisition spree (Curevo/LimmaTech/etc., diversifying beyond GLP-1) — confidence signal. **Soft catalyst ~June 9 (tomorrow): Goldman healthcare conference fireside** — likely demand/capacity commentary; date inferred, not hard-confirmed. Trailing stop 1049.66 (hwm 1166.29), floor ~$116 below mark — no near-term stop risk. **Standing task: trailing floor re-climbs on any new high.** No action.
+- **DE — INTACT, −1.63% (mark 580.20).** No guidance cut, no ag-sector shock, no downgrade in the window. Structural headwinds known (tariffs/trade, high rates, elevated used inventory), partly offset by tight global grain/oilseed stocks. Last earnings catalyst = 5/21 Q2 beat. Hard stop 548.53, ~5.5% cushion. +5% trailing trigger ~619.31. No action.
+
+### Buy candidates (for THIS week — cap reset 0/3, 3 slots, ~71% cash / ~$70.9K)
+Prefer diversifiers; book is LLY (healthcare) + DE (industrial/ag), light on AI after Friday's NVDA stop-out. Rotation is INTO industrials/financials/healthcare/defensives, OUT of tech/semis.
+- **GE (GE Aerospace) — LEAD, conviction HIGH.** Aerospace/defense; record commercial-aircraft demand + high-margin engine-service (aftermarket) backlog. Signals **#3** (aerospace aftermarket + defense secular), **#5** (industrials rotation, confirmed), **#6** (~$326, "Strong Buy", 12-mo target ~$348–350; not at lows). Pure industrial, zero AI/NVDA overlap, lower-beta. **No blackout** (last earnings April, next ~late July). Jefferies trimmed target to $365 but **kept Buy** (a tweak, not a downgrade). Suggested **full size ~15% (~$15K)**.
+- **ETN (Eaton) — #2, conviction MED-HIGH.** Electrical-equipment "picks-and-shovels" for AI data-center power (electrical segment orders +55% / rev +50%). Re-adds AI exposure WITHOUT a semiconductor. Signals **#1** (Q1 2026 beat + raised FY guidance, confirmed), **#3** (AI data-center power + electrification secular, intact 2026), **#5** (industrial rotation). **No blackout** (Q1 reported, next ~late July). CAVEAT: fell ~5% Friday (~$418→~$396) caught in the semis-led rotation despite raised guidance — higher beta. Suggested **smaller ≤10% (~$10K), enter on intraday stabilization, don't chase the open gap-down** (per the high-beta entry-discipline learning).
+- **AZO (AutoZone) — backup, conviction LOW / pending.** Defensive consumer compounder; benefits from rotation out of tech. Signals #5/#6 INFERRED only. **EARNINGS-BLACKOUT RISK: reports fiscal Q3 in late May/early June; exact 2026 date unconfirmed** — if it hasn't reported yet it may be inside the 3-day blackout. **Verify the earnings date before any action.**
+- **GOOGL — STILL PARKED.** Re-arm rule unchanged: a daily CLOSE above ~$370 held a 2nd day. 2026 price/trigger UNVERIFIED by Perplexity. Also mega-cap tech = the rotation-OUT group right now. Do NOT buy on inference; confirm price at the terminal.
+- **DROPPED — ABT (Abbott).** Confirmed ~$91, near 52-week LOWS ($91–139 range), −22% YTD, below 50d & 200d, and **CUT guidance** on 4/16 (beat EPS/rev but lowered outlook). Falling knife + guidance cut → fails #6 and the "don't catch knives" rule. Off the list.
+- **NVDA re-entry — NOT yet.** Semis still the group being sold; no confirmed base post-Friday. Reconsider only on a confirmed base above its 50d, size ≤10% (high-beta entry discipline).
+- **MSFT — watchlist, not a fresh buy today.** Strongest confirmed fundamentals (double-beat 4/29, raised guide, Azure/AI tailwind, no earnings 30+ days) BUT mega-cap tech = rotation-OUT group. If we want tech, ETN is the cleaner risk-adjusted entry.
+- **Earnings-blackout calendar:** AVGO already reported (cleared). **ORCL & ADBE historically report mid-June — treat as blackout-risk this week/next; do not initiate.** GE/ETN/MSFT clear of the 3-day window.
+
+### Sell candidates
+**None.** Both holdings INTACT; no thesis breaks, no fundamentals deterioration, no downgrades. LLY's trailing stop (1049.66) and DE's −7% hard stop (548.53) handle downside automatically.
+
+### Plan for the market-open routine (08:30 CT today)
+1. **Re-verify the tape first:** confirm Friday's bounce holds in the first 30–60 min and 10Y isn't spiking — deploy into stabilization, not a falling knife.
+2. **Lead = GE** (full ~15%, cleanest diversifier, in the rotation-INTO sector). Verify it's holding the low-$320s, not breaking down.
+3. **#2 = ETN** (smaller ≤10%, wait for an intraday floor — don't chase the gap). The smart way to re-add AI risk without semis.
+4. **3rd slot:** AZO only if its earnings date verifies clear of blackout; GOOGL only if it has actually closed >$370 two days. Otherwise HOLD the 3rd slot — don't force a buy into a shaky tape. Up to 3 buys allowed this week; quality over filling slots.
+5. All entries: market buy + GTC −7% hard stop (OTO class, then re-place stop as GTC per the verified 6/1–6/4 workflow so protection persists overnight).
+
+---
 ## 2026-06-05 16:00 CT — weekly review
 
 **APIs live** (Alpaca account/positions/portfolio-history + SPY daily bars all 200). No inbox pending. No trades this routine (analysis-only).

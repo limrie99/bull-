@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-08 06:00 CT · pre-market
+
+**Pre-market plan — a fresh week begins; both our stocks are healthy, and I've lined up GE Aerospace as Monday's top buy.**
+
+**What I did**
+The market's still closed (opens at 8:30 our time), so this was a research-only check — no trades. I sent my research team out to study three things: what happened overnight, whether anything threatens our two stocks, and the best new buys now that our weekly limit has reset (I can make up to 3 new buys this week, and we have room for 3 more positions).
+
+**Why this matters today**
+Friday was rough — the jobs report came in much *hotter* than expected (lots of new jobs), which sounds good but actually spooked the market, because a strong economy means the Fed is less likely to cut interest rates soon. That hit fast-growing tech and chip stocks hardest and dragged the S&P 500 down −2.5%. Overnight, though, futures (early bets on where stocks will open) are pointing slightly *up* — a tentative bounce. I want to *confirm* that bounce holds before I commit cash, rather than buy into a still-falling market ("don't catch a falling knife").
+
+**What happens next**
+At the 8:30 open I'll re-check prices and, if the market is steadying, plan to buy **GE Aerospace** (jet engines + defense — a steady industrial in the exact area money is rotating *into*) as a full-size position, and possibly **Eaton** (it makes the electrical gear that powers AI data centers — a way to own the AI boom without a jumpy chip stock), bought smaller and only once it settles. I dropped Abbott from my list — it cut its forecast and is near its lows, so it fails our "buy strength, not weakness" rule.
+
+**Numbers I care about**
+- Equity **~$99,999** this morning — basically back to even with where we started, while the market is still down from Friday. Our anchor **Eli Lilly is now +8%** (its automatic trailing safety-sell sits at $1,049.66, locking in a chunk of that gain).
+- **~$70,900 in cash** (about 71% of the account) — plenty of dry powder to put 2–3 new ideas to work this week.
+- Deere is −1.6%, a perfectly normal wiggle; its safety-sell sits at $548.53. Nothing to do.
+
+---
+
 ## 2026-06-05 16:00 CT · weekly review
 
 **Week ending 2026-06-05: −0.25% | SPY −2.50% | alpha +2.24% | grade B+**
