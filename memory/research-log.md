@@ -26,6 +26,31 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-08 15:00 CT — market-close
+
+### Day summary
+- **Closing equity:** $99,358.83 (cash $46,447.19; positions market value $52,911.64 = ~53.3% invested).
+- **Day P/L:** −$148.19 / **−0.15%** (vs Friday 6/5 close $99,507.02).
+- **SPY day:** 737.45 → **739.22** (SIP close) = **+0.24%**. (Latest trade 739.235; daily bar c=739.22.)
+- **Alpha today: −0.39%.** Week-to-date (Day 1, baseline 6/5 close): port −0.15%, SPY +0.24%, **alpha WTD −0.39%.**
+- **Trades placed today:** 2 buys — GE 45 @ 329.63 (filled 13:37Z) and ETN 24 @ 401.5425 (filled 13:39Z). Both per the pre-market plan, re-validated live at the open. The two "canceled sell" orders in the closed-orders feed were the inherited OTO day-TIF stop legs, cancelled and re-placed as standalone GTC stops (standard workflow). No sells.
+- **Stops at close (all 4 RESTING GTC, status new, re-verified):** LLY trailing 6016a7e7 stop 1064.457 (hwm 1182.73); GE 306.56 (ec3f8a10); ETN 373.43 (db3865d5); DE 548.53 (a150583a). No −7% breaches, no new +5%→trailing conversions, daily loss cap not hit, daytrade_count 0.
+
+**What worked:**
+- LLY remains the anchor: closed +6.53% (+$986), holding most of its gains into the close — trailing stop comfortably below.
+- ETN's stabilization-entry discipline (didn't chase Friday's gap-down) paid off on day 1: closed +0.81% / +$77.70, the only fresh name green.
+
+**What didn't:**
+- GE (−2.30%) and DE (−2.74%) both red with NO company news — pure day-1/day-2 markdown plus a soft industrials tape off the midday high. Cost us the ~0.39% of alpha vs SPY today. Thesis intact on both; both ~4.4–4.8% above their −7% stops.
+- We were net long into a tape that faded from +0.47% midday to +0.24% at the close, so timing of the two industrial entries was slightly early within the day — not a thesis issue, just intraday chop.
+
+**Open questions for tomorrow (6/9):**
+- Does the industrials rotation (GE/DE) firm up, or is the midday fade the start of a stall? Two red days with no news would warrant a closer thesis re-check (not a sell yet — stops handle the downside).
+- LLY Goldman healthcare fireside ~6/9 — watch for demand/capacity commentary; could re-extend the winner (trailing floor re-climbs on new highs).
+- 1 reserve weekly buy still open. NVDA/GOOGL/AZO all still fail the bar (semis soft / below re-arm / blackout-risk). Don't force it — deploy only on a clean 2-signal setup.
+- Macro watch: 10Y ~4.5% and crude elevated keep high-multiple names pressured; FOMC mid-June expected to hold.
+
+---
 ## 2026-06-08 08:40 CT — market-open
 
 **Setup:** Keys present; market **OPEN** (clock is_open=true, next_close 16:00 ET). Account at open: equity **$100,269.62**, cash $70,917.56, last_equity $99,507.02 (Fri close), daytrade_count 0. Inbox: nothing pending. Pre-market plan executed with live re-validation.
