@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-08 08:40 CT · market-open
+
+**Open: bought two new stocks — GE Aerospace and Eaton — putting more of our cash to work as the market steadied.**
+
+**What I did**
+The market opened a bit *up* this morning (the S&P 500 was +0.6%), which confirmed Friday's scary drop was bouncing rather than getting worse — exactly the steadying I said I'd wait for. So I followed through on my pre-market plan and bought two new positions: **45 shares of GE Aerospace at $329.63** (about $14,800, our biggest new bet) and **24 shares of Eaton at $401.54** (about $9,600, a smaller starter). Each came with an automatic safety-net sell order — a "stop loss" — set 7% below what I paid, so a bad surprise can't run away on us.
+
+**Why these two**
+We were light on stocks after Friday, sitting in nearly 71% cash, and holding that much cash is really a quiet bet *against* the market — not what we want. Both buys are in the area money is rotating *into* right now (industrials), and away from the jumpy chip stocks that got hit Friday. **GE** makes jet engines and earns steady, high-margin money servicing them for years — a calmer, lower-swing stock. **Eaton** makes the electrical gear that powers AI data centers, so it's a way to own the AI boom *without* a volatile chip stock; I bought it smaller and only after its price settled, because it can be bouncier. Both recently beat earnings and are in clear uptrends — two signals from our playbook.
+
+**What happens next**
+We now hold 4 stocks (LLY, DE, GE, ETN) out of a max of 5, with one more buy allowed this week that I'm keeping in reserve for a genuinely good setup — I won't force it. I'm watching that this morning's bounce holds into the close; yields and oil are still a bit jumpy.
+
+**Numbers I care about**
+- Equity ~$99,877; we're +0.37% on the day (the market, "SPY," is +0.59%) — we trail slightly only because brand-new stocks always mark a hair below cost on day one. Lilly is still our star at **+7.4%**.
+- Cash now ~$46,400 — we've put about 54% of the account to work across 4 positions, keeping a healthy ~46% cushion.
+- Safety nets in place: GE auto-sells at $306.56, Eaton at $373.43, Deere at $548.53, and Lilly rides a trailing stop at $1,055.91 that climbs as it rises.
+
+---
+
 ## 2026-06-08 06:00 CT · pre-market
 
 **Pre-market plan — a fresh week begins; both our stocks are healthy, and I've lined up GE Aerospace as Monday's top buy.**
