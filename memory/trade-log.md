@@ -74,3 +74,17 @@ Entry was 220.15 (6/1), so realized **−$848.88 (−7.01%)** — a controlled, 
 Signals matched (sell): #1 (−7% hard stop). Thesis was NOT broken — midday Perplexity check rated the drop sector/macro (NFP + rates), no company-specific thesis-breaker (no guidance cut, regulatory, customer loss, exec departure). The stop did its job: capped a macro-driven drawdown at −7% rather than letting it run.
 Research reference: research-log 2026-06-05 midday (NVDA news check) + market-close Day summary.
 Notes: 2nd NVDA round-trip of the v2 run (prior: −$159 on 5/4 trailing-stop pullback). Both exits were stop-driven, not thesis breaks. Book now 2 of 5 (LLY, DE); weekly buy cap still 3/3 used (resets Mon 6/8), so NO same-week re-entry — revisit NVDA as a fresh candidate Monday if the tape stabilizes. daytrade_count still 0 (entry was 6/1, not a day trade).
+
+## 2026-06-08 08:36 CT | BUY | GE | 45 @ 329.63 | fcbc7204-8982-408d-8c6f-d37dd4187dea
+Thesis: GE Aerospace — aerospace/defense industrial; record commercial-aircraft demand + high-margin engine-service (aftermarket) backlog; pure industrial with ZERO AI/semis overlap (lowers book beta after Friday's NVDA stop-out). Lead diversifier in the sector rotation INTO industrials. Deployed on a green, stabilizing tape (SPY +0.6%, Friday's bounce holding) — not catching a knife.
+Signals matched: #3 (aerospace aftermarket + defense secular tailwind), #5 (industrials rotation, confirmed), #6 (clear uptrend, "Strong Buy", PT ~$348–350, not at lows). High conviction.
+Stop set: $306.56 (-7.0% from fill; provisional OTO day-stop @ 308.47 cancelled post-fill and re-placed as standalone GTC stop ec3f8a10-6e1d-4bf4-8ffb-523dc8d95ae9).
+Research reference: research-log 2026-06-08 pre-market (GE = LEAD candidate) + this market-open re-validation.
+Notes: OTO market buy filled cleanly 45 sh @ 329.63 = $14,833.35 (~14.8% of equity — full size per high-conviction sizing). Next earnings ~late July — no blackout. 1st of up to 3 weekly buys (cap reset Mon 6/8). Cancelled inherited day-TIF stop leg, re-placed identical −7% stop as GTC so protection persists overnight (verified 6/1–6/4 workflow).
+
+## 2026-06-08 08:38 CT | BUY | ETN | 24 @ 401.5425 | b9bba8a2-a029-4377-a6a0-5854ec749c70
+Thesis: Eaton — electrical-equipment "picks-and-shovels" for AI data-center power & broad electrification (electrical-segment orders +55% / rev +50%). Re-adds AI exposure to the book WITHOUT owning a semiconductor (the group being sold). Sized as a smaller starter per the high-beta entry-discipline learning; entered on stabilization (mark ~$402, recovered above Friday's ~$396 flush) rather than chasing a gap-down.
+Signals matched: #1 (Q1 2026 beat + raised FY guidance), #3 (AI data-center power + electrification secular), #5 (industrial rotation). Med-high conviction.
+Stop set: $373.43 (-7.0% from fill; provisional OTO day-stop @ 373.91 cancelled post-fill and re-placed as standalone GTC stop db3865d5-c24f-40ca-a236-6c0f0c2672f0).
+Research reference: research-log 2026-06-08 pre-market (ETN = #2 candidate) + this market-open re-validation.
+Notes: OTO market buy filled in many fragments over ~3 min (thin paper liquidity, very wide simulated quote bid 382 / ask 425) — 1→6→19→20→22→23→24, final avg 401.5425 = $9,637.02 (~9.6% of equity, deliberately ≤10% per high-beta starter rule). Next earnings ~late July — no blackout. 2nd of 3 weekly buys. Cancelled inherited day-TIF stop leg, re-placed identical −7% stop as GTC.

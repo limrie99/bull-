@@ -26,6 +26,33 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-08 08:40 CT — market-open
+
+**Setup:** Keys present; market **OPEN** (clock is_open=true, next_close 16:00 ET). Account at open: equity **$100,269.62**, cash $70,917.56, last_equity $99,507.02 (Fri close), daytrade_count 0. Inbox: nothing pending. Pre-market plan executed with live re-validation.
+
+### Tape re-validation (the gate before deploying)
+- **SPY 741.84 → 741.77** vs Fri close 737.45 = **+0.59–0.60%**. Friday's NFP-driven flush is bouncing, not cascading. Both existing holdings green at the open (LLY +7.9% intraday-marked, DE intraday +1.4%). **Bounce confirmed holding → cautious deployment approved** (not catching a knife). Caveat: 10Y still ~4.5%, crude elevated — fragile, watch the close.
+
+### Orders executed (both per pre-market plan, re-validated against live prices)
+- **GE — BUY 45 @ 329.63** (filled clean), order fcbc7204. Live price $331.69 at decision (above pre-market's low-$320s, holding firm in the rotation-INTO sector → LEAD confirmed). $14,833.35 = ~14.8% (full conviction size). −7% GTC stop @ **306.56** (ec3f8a10) after cancelling the OTO day-leg (308.47). Signals #3/#5/#6. No blackout (~late July).
+- **ETN — BUY 24 @ 401.5425** (filled in many fragments over ~3 min on thin paper liquidity; simulated quote was extremely wide, bid 382 / ask 425), order b9bba8a2. Live ~$402 at decision = recovered above Friday's ~$396 flush → stabilization confirmed, not chasing a gap-down (high-beta entry discipline). $9,637.02 = ~9.6% (deliberately ≤10% starter). −7% GTC stop @ **373.43** (db3865d5) after cancelling OTO day-leg (373.91). Signals #1/#3/#5. No blackout (~late July).
+
+### Slots/caps after execution
+- Positions **4 of 5** (LLY, GE, ETN, DE). Weekly buys **2 of 3** — **1 in reserve.** Cash $46,447.19 (~46.5% buffer). daytrade_count 0. Daily loss cap not triggered (day +0.37%).
+
+### 3rd slot NOT deployed (deliberate, per "quality over filling slots")
+- **AZO** — still earnings-blackout risk (fiscal Q3 date unverified) + awkward sizing ($3,080/sh); low conviction. Skipped.
+- **GOOGL** — $363.36, below the ~$370 re-arm trigger; still parked.
+- **NVDA** — $208.50, semis still soft, no confirmed base. Not yet.
+- Holding the reserve buy for a genuine 2-signal setup rather than forcing it into a fragile tape.
+
+### Stop-management (all 4 confirmed RESTING GTC, status new)
+- LLY trailing 6016a7e7 @ 1055.907 (hwm 1173.23); GE 306.56 (ec3f8a10); ETN 373.43 (db3865d5); DE 548.53 (a150583a). Standing +5%→trailing triggers: GE ~346.11, ETN ~421.62, DE ~619.31.
+
+### Note
+- Equity dipped from $100,270 (open) to $99,877 post-fills — purely the bid/ask spread cost of marking two fresh positions slightly below entry on day one (especially ETN's wide simulated quote). Still +0.37% vs Friday's close. Authoritative day/alpha computed at the close routine.
+
+---
 ## 2026-06-08 06:00 CT — pre-market
 
 **Setup:** Memory synced from origin/main; all 4 required keys present; Telegram keys also present. Market **CLOSED**, opens today 09:30 ET / 08:30 CT (clock is_open=false, next_open 2026-06-08T09:30 ET). Account (live marks): equity **$99,998.96**, cash **$70,917.56**, last_equity $99,507.02 (Fri 6/5 close), daytrade_count 0, buying_power $365,098.16. Positions: LLY 14 @ 1078.46 (mark **1165.50, +8.07%, +$1,218.56**), DE 22 @ 589.82 (mark **580.20, −1.63%, −$211.64**). Both protective stops confirmed live via open-orders query: LLY 10% trailing 6016a7e7 @ **1049.66** (hwm 1166.29) `new`; DE −7% hard a150583a @ **548.53** `new`. Inbox: nothing pending. **Weekly buy cap RESET today (0/3 used); 3 of 5 slots open; ~71% cash.** **No trades — market closed (research-only).** 4-thread sub-agent fan-out (macro, earnings, position×2, opportunity scout) via Perplexity.

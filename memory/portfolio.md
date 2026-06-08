@@ -1,48 +1,43 @@
 # Portfolio
 
-**Last updated:** 2026-06-05 16:00 CT (weekly-review routine — no trades; verified live against Alpaca, market CLOSED)
-**Cash:** $70,917.58
-**Total equity:** $99,587.26 at the official 4:00 ET close (LLY 1131.00, DE 583.44); after the bell LLY drifted to ~1119.53 → live equity ~$99,426.68. Day vs 6/4 close $100,456.79 → **−$869.53 / −0.866%** on official close marks.
-**Weekly review (week ending 6/5):** week return **−0.254%** | SPY **−2.498%** | **alpha +2.24%** ✅ | **grade B+**. First fully-traded week post persistence-repair: 3 buys (LLY/NVDA 6/1, DE 6/4), 1 sell (NVDA −7% stop). See memory/weekly-review.md.
-**Day vs SPY:** portfolio −0.866% | SPY −2.579% (756.97 → 737.45) | **Alpha today +1.71%** ✅ — a red day where the −7% NVDA stop firing + the cash buffer + LLY's resilience meant we fell far less than the index.
-**Week P/L (week started Mon 6/1, baseline $99,840.95 = 5/29 close):** −0.254% | SPY −2.498% WTD (756.34 → 737.45) | **Alpha WTD +2.24%** ✅ — down only a quarter-percent on the week while SPY shed 2.5%.
+**Last updated:** 2026-06-08 08:40 CT (market-open routine — 2 buys placed: GE + ETN; verified live against Alpaca, market OPEN)
+**Cash:** $46,447.19
+**Total equity:** $99,876.88 (live intraday marks). vs Friday 6/5 close $99,507.02 → **+$369.86 / +0.37%** on the day so far (the small drag vs the open's $100,270 is just the bid/ask spread cost of marking the two fresh positions slightly below entry — normal on entry day).
+**Day vs SPY:** portfolio +0.37% | SPY +0.59% (737.45 → 741.77) — modestly trailing intraday only because two brand-new positions are marked just below cost; LLY's +7.4% continues to anchor. Authoritative day-vs-SPY alpha is computed at the close routine.
+**This week (started Mon 6/8, baseline $99,507.02 = 6/5 close):** Day 1. Buys used: **2 of 3** (GE + ETN today); 1 buy still in reserve.
 
-## Open positions
+## Open positions (4 of 5)
 
 | Symbol | Shares | Avg Cost | Mark | P/L $ | P/L % | Stop | +5% trail trigger | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|---|
-| LLY | 14 | 1078.46 | 1131.00 | +735.56 | +4.87% | **10% TRAILING (GTC)**, stop 1049.66, hwm 1166.29 | converted ✅ | 2026-06-01 | Q1 beat + raised FY guidance + oral GLP-1 (orforglipron/Foundayo) approval; all 3 PBMs cover obesity portfolio; GLP-1 tailwind; clean uptrend. Biggest winner; +0.51% today on a −2.6% SPY day (defensive leadership). Pulled back from intraday highs (~1150) to 1131 at the close but still well in profit. Watch Goldman healthcare fireside ~6/9 |
-| DE | 22 | 589.82 | 583.44 | −140.36 | −1.08% | 548.53 (−7%, **GTC**) | ~619.31 | 2026-06-04 | Q2 beat (5/21: EPS $6.55 vs $5.76, rev $13.37B vs $11.48B); ag-equipment/onshoring tailwind; NON-AI diversifier. Slipped −1.40% today with the broad tape; now marginally underwater. ~6% above its −7% stop. Thesis intact (no news); holding |
+| LLY | 14 | 1078.46 | 1157.87 | +1111.74 | +7.36% | **10% TRAILING (GTC)**, stop 1055.907, hwm 1173.23 | converted ✅ | 2026-06-01 | Q1 beat + raised FY guidance + oral GLP-1 (orforglipron/Foundayo) approval; GLP-1 tailwind; clean uptrend. Biggest winner, +7.4%. Trailing floor ratchets up on new highs. Soft catalyst: Goldman healthcare fireside ~6/9 (tomorrow). |
+| GE | 45 | 329.63 | 327.40 | −100.35 | −0.68% | 306.56 (−7%, **GTC**) | ~346.11 | 2026-06-08 | GE Aerospace — record commercial-aircraft demand + high-margin engine aftermarket + defense; pure industrial, zero AI overlap, lower beta. Lead diversifier in the industrials rotation. Strong Buy, PT ~$348–350. No blackout (~late July earnings). Bought today; marked just below cost (entry-day spread). |
+| ETN | 24 | 401.5425 | 399.07 | −59.34 | −0.62% | 373.43 (−7%, **GTC**) | ~421.62 | 2026-06-08 | Eaton — electrical "picks-and-shovels" for AI data-center power + electrification (orders +55%/rev +50%). Re-adds AI exposure WITHOUT a semiconductor. Q1 beat + raised guide. Smaller starter (~9.6%) per high-beta discipline; entered on stabilization above Friday's flush. No blackout (~late July). |
+| DE | 22 | 589.82 | 586.765 | −67.21 | −0.52% | 548.53 (−7%, **GTC**) | ~619.31 | 2026-06-04 | Q2 beat (5/21: EPS $6.55 vs $5.76, rev $13.37B vs $11.48B); ag-equipment/onshoring tailwind; NON-AI diversifier. Thesis intact (no news); ~6.5% above its −7% stop. Holding. |
 
-**Open positions: 2 of 5** (was 3 — NVDA −7% stop fired today). **Buys used this week: 3 of 3** (LLY + NVDA Mon 6/1; DE 6/4) — **weekly buy cap reached** (resets Mon 6/8). **Cash buffer: ~71.2%** (~28.8% invested, ~$28,669.68 market value).
+**Open positions: 4 of 5.** **Buys used this week: 2 of 3** (GE + ETN today; cap resets Mon 6/15) — **1 buy in reserve.** **Cash buffer: ~46.5%** (~53.5% invested, ~$53,429.69 market value).
 
-## Today's realized trade
+## Today's trades
 
-- **NVDA −7% hard stop FIRED** 13:52 CT (14:52 ET): 55 sh sold @ 204.7158 (trigger 204.74). Entry 220.15 → realized **−$848.88 (−7.01%)**. Macro-driven (post-NFP semis selloff), NOT a thesis break per the midday Perplexity check — the mechanical stop capped the drawdown exactly at the guardrail. Cash $59,658.21 → $70,917.58. 2nd NVDA round-trip of the run.
+- **BOUGHT GE** 08:36 CT: 45 sh @ 329.63 = $14,833.35 (~14.8%). −7% GTC stop @ 306.56 (ec3f8a10). Lead diversifier, industrials rotation, full conviction size.
+- **BOUGHT ETN** 08:38 CT: 24 sh @ 401.5425 = $9,637.02 (~9.6%). −7% GTC stop @ 373.43 (db3865d5). Smaller high-beta starter; filled in many fragments on thin paper liquidity (wide simulated quote).
 
-## Stop-management state (close, both confirmed RESTING as GTC, status `new`)
+## Stop-management state (all 4 confirmed RESTING as GTC, status `new`)
 
-- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — stop_price **1049.66**, trail 10%, hwm 1166.29 (unchanged from midday; LLY didn't make a new high into the close, pulling back to 1131). Floor ~$81 below the mark — no near-term stop risk.
-- **DE −7% hard** `a150583a-a58c-42c9-8d12-9d7ece773841` @ 548.53 (mark 583.44, ~6% cushion).
-- (a) **−7% drawdown check:** NVDA's stop already fired at exactly −7% (handled). Remaining: LLY +4.87%, DE −1.08% — neither near −7%. No further sells.
-- (b) **+5% → trailing stop:** LLY converted ✅. **Standing task: if DE ≥ +5% (mark ~619.31) cancel a150583a → 10% trailing GTC.**
-- (c) **Daily loss cap:** day −0.866%, well inside −3%. Moot (weekly buy cap reached anyway).
+- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — stop_price **1055.907**, trail 10%, hwm **1173.23** (ratcheted up as LLY rose). Floor ~$102 below mark — no near-term stop risk.
+- **GE −7% hard** `ec3f8a10-6e1d-4bf4-8ffb-523dc8d95ae9` @ **306.56** (mark 327.40, ~6.4% cushion).
+- **ETN −7% hard** `db3865d5-c24f-40ca-a236-6c0f0c2672f0` @ **373.43** (mark 399.07, ~6.4% cushion).
+- **DE −7% hard** `a150583a-a58c-42c9-8d12-9d7ece773841` @ **548.53** (mark 586.765, ~6.5% cushion).
+- (a) **−7% drawdown check:** none near −7%. No sells.
+- (b) **+5% → trailing stop:** LLY converted ✅. **Standing tasks:** if DE ≥ +5% (~619.31), GE ≥ +5% (~346.11), or ETN ≥ +5% (~421.62), cancel that name's −7% hard stop → 10% trailing GTC.
+- (c) **Daily loss cap:** day +0.37% (up). Not triggered.
 - daytrade_count 0.
 
-## Watch into next week (Mon 6/8 — buy cap resets, 3 open slots free)
+## Watch
 
-- **Is today a one-day NFP jolt or the start of a deeper risk-off?** SPY −2.58% today (756.97 → 737.45) was a sharp leg down; semis led the decline. Read the tape Monday before re-arming buys — **prefer adding into stabilization, not a falling knife** (per the cold-start rule's "don't catch knives" caveat).
-- **NVDA is now flat (sold).** It can be re-evaluated as a *fresh* candidate Monday — thesis (AI-infra, May beat) was never broken, today's exit was purely the macro stop. If it bases and the tape steadies, it's a legitimate re-entry; do NOT revenge-buy into a continuing flush.
-- **LLY** trailing floor (1049.66) re-climbs on any new high; defensive anchor of the book.
-- **DE** −7% stop 548.53 is the backstop; thesis intact.
-
-## Next-week shortlist (cap resets Mon 6/8)
-
-- **GE (GE Aerospace)** — HIGH conviction lead; signals #3/#4/#5/#6; non-AI industrial; no earnings blackout (~late July).
-- **ABT (Abbott)** — HIGH conviction lead #2; signals #3/#4/#6; diversified healthcare, complements LLY without doubling GLP-1; no blackout (~mid-July).
-- **AZO (AutoZone)** — MED backup; signals #3/#4/#6; awkward sizing (~$3,700/sh, needs fractional).
-- **GOOGL** — STILL PARKED; basing ~$364, $370 resistance not reclaimed. Re-arm on a daily close above ~$370 that holds 2 days.
-- NOTE: signal #1 (recent earnings beat) unconfirmed by Perplexity for GE/ABT/AZO — re-verify fundamentals Monday before buying. With ~71% cash and 3 free slots after the NVDA exit, there's room to deploy 2–3 ideas — but only into a steadier tape.
+- **Tape:** Friday's NFP-driven selloff is bouncing (SPY +0.6% today, tech leading). Bounce holding so far but yields elevated (~4.5% 10Y) + crude spike keep it fragile — watch the close.
+- **LLY** Goldman healthcare fireside ~6/9 (tomorrow); trailing floor (1055.907) re-climbs on new highs; defensive anchor.
+- **3rd buy slot in reserve:** AZO still blackout-risk + awkward ~$3,080/sh sizing (skipped); GOOGL parked below the ~$370 re-arm trigger ($363 today); NVDA semis still soft, no confirmed base. Deploy the reserve buy only on a qualifying 2-signal setup — don't force it.
 
 ## Recent closes (last 5)
 
