@@ -26,6 +26,31 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-09 08:35 CT — market-open
+
+**Setup:** Keys present (all 4 required + Telegram). Market **OPEN** (clock is_open=true, next_close 2026-06-09T16:00 ET). Account at open: equity **$100,165.16**, cash **$46,447.18**, last_equity $99,322.96 (Alpaca prior-day baseline), buying_power $336,199.05, daytrade_count 0. Inbox: nothing pending. Pre-market plan (no trades; hold reserve into CPI) re-validated against live prices and executed.
+
+### Tape re-validation (the gate)
+- **SPY 739.22 (6/8 close) → 743.865 (live) = +0.63%.** Recovering toward the 6/4 high (756.97); no overnight cascade. But **May CPI prints tomorrow Wed 6/10 8:30 ET (CONFIRMED)** — the binary swing factor. Per the pre-market plan and our high-beta entry discipline (generalized to any new buy ahead of a binary macro print), **today is wait-and-see — do not initiate fresh size.**
+
+### Decision: NO TRADES (per plan)
+- **No buys.** Two independent reasons: (1) no watchlist name clears the 2-signal bar — GOOGL ($363 area, below ~$370 re-arm), NVDA (semis soft, no confirmed base), AVGO (earnings-blackout risk); and (2) CPI tomorrow argues against fresh size. Reserve buy (1 of 3) stays parked. **Not cash-drag** — book ~53.6% invested across 4 names.
+- **No sells.** All 4 intact, no thesis-breakers, all comfortably above −7% stops.
+
+### Portfolio at open (live, all 4 INTACT)
+- **LLY** 14 @ 1078.46 → 1165.00, **+8.02% / +$1,211.56.** Anchor. Goldman healthcare fireside ~3:20 ET today — watch readout. Trailing floor 1064.457 (hwm 1182.73; mark < hwm so floor held), ~$101 below mark.
+- **GE** 45 @ 329.63 → 329.195, **−0.13% / −$19.58.** Reversed +2.22% today, day-1 markdown nearly fully unwound. ~7.4% above stop 306.56. Thesis intact, no news.
+- **ETN** 24 @ 401.5425 → 406.70, **+1.28% / +$123.78.** +0.88% today, stabilization entry holding. ~8.9% above stop 373.43.
+- **DE** 22 @ 589.82 → 582.78, **−1.19% / −$154.88.** Bounced +1.59% off yesterday's low. ~5.9% above stop 548.53. Thesis intact, no news.
+
+### Stop-management (all 4 confirmed RESTING GTC, status new — open-orders query)
+- LLY trailing 6016a7e7 @ 1064.457 (hwm 1182.73); GE −7% ec3f8a10 @ 306.56; ETN −7% db3865d5 @ 373.43; DE −7% a150583a @ 548.53.
+- (a) −7% drawdown: worst DE −1.19%, none near. No sells. (b) +5%→trailing: LLY done; GE ~346.11 / ETN ~421.62 / DE ~619.31 — none near. (c) Daily loss cap: day +0.85% (up), N/A. daytrade_count 0.
+
+### Note
+- Industrials rotation read: GE and DE both green this morning after two red days with no news — the day-1/2 markdown is unwinding, not the start of a stall. Reaffirms holding both. Authoritative day/alpha computed at close.
+
+---
 ## 2026-06-09 06:00 CT — pre-market
 
 **Setup:** Memory synced from origin/main; all 4 required keys present; Telegram keys present. Market **CLOSED**, opens today 09:30 ET / 08:30 CT (clock is_open=false, next_open 2026-06-09T09:30 ET). Account (pre-market marks): equity **$99,522.34**, cash **$46,447.18**, last_equity $99,322.96, daytrade_count 0, buying_power $334,399.17. Positions live-verified (4 of 5): LLY 14 @ 1078.46 (mark **1157.00, +7.28%, +$1,099.56**), GE 45 @ 329.63 (mark **323.32, −1.91%, −$283.95**), ETN 24 @ 401.5425 (mark **405.99, +1.11%, +$106.74**), DE 22 @ 589.82 (mark **572.00, −3.02%, −$392.04**). All 4 protective stops confirmed RESTING GTC via open-orders query (status new): LLY trailing 6016a7e7 @ **1064.457** (hwm 1182.73); GE −7% ec3f8a10 @ 306.56; ETN −7% db3865d5 @ 373.43; DE −7% a150583a @ 548.53. Inbox: nothing pending. **Weekly buys 2 of 3 used (1 in reserve, cap resets Mon 6/15); 4 of 5 slots; ~46.7% cash.** **No trades — market closed (research-only).** 4-thread sub-agent fan-out (macro, earnings, position, opportunity scout) via Perplexity.

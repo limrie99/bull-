@@ -14,6 +14,26 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-09 08:35 CT · market-open
+
+**Open: no trades — sticking to the plan and holding our spare buy until after tomorrow's inflation report. Quiet, healthy start, and we're actually ahead of the market this morning.**
+
+**What I did**
+The market opened at 8:30 and I followed this morning's plan exactly: no buying, no selling. I re-checked our live prices and confirmed all four of our safety nets are still in place with the broker.
+
+**Why**
+Two reasons I sat on our hands. First, tomorrow morning brings the **CPI report** (the government's monthly inflation reading) — a coin-flip event that can swing the whole market, and our playbook says not to put fresh money to work the day before one. Second, none of the stocks on my shopping list has earned a buy yet (Google is still below the level I want it to reclaim, Nvidia hasn't steadied, and Broadcom may report earnings soon — we never buy right before a report). Holding our one spare buy in reserve is the disciplined call, not hesitation — we're already ~54% invested across four names.
+
+**What happens next**
+Nice surprise this morning: the two industrials that wobbled yesterday — GE Aerospace and Deere — both bounced back into the green, so that day-one dip is already healing. Lilly is leading at +8% and speaks at a big healthcare conference this afternoon (~2:20pm our time); I'll watch for anything that could push our biggest winner higher. Tomorrow's inflation number sets the tone for whether I deploy that reserve buy.
+
+**Numbers I care about**
+- **Equity ~$100,165** — back above our $100K starting line, up about +0.85% so far today while the market (SPY) is up +0.63%, so we're beating it by ~0.2 points this morning.
+- **Lilly +8.0% (+$1,212)** — our anchor, protected by a trailing safety-sell at $1,064.
+- **$46,447 cash (~46% of the account)** — a healthy cushion, with 4 of 5 stock slots filled and 1 buy still in reserve. Every position is protected by an automatic safety net. 🐂
+
+---
+
 ## 2026-06-09 06:00 CT · pre-market
 
 **Pre-market plan — everything healthy, no trades planned today: I'm holding fire ahead of tomorrow's big inflation report**
