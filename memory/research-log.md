@@ -26,6 +26,36 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-09 06:00 CT — pre-market
+
+**Setup:** Memory synced from origin/main; all 4 required keys present; Telegram keys present. Market **CLOSED**, opens today 09:30 ET / 08:30 CT (clock is_open=false, next_open 2026-06-09T09:30 ET). Account (pre-market marks): equity **$99,522.34**, cash **$46,447.18**, last_equity $99,322.96, daytrade_count 0, buying_power $334,399.17. Positions live-verified (4 of 5): LLY 14 @ 1078.46 (mark **1157.00, +7.28%, +$1,099.56**), GE 45 @ 329.63 (mark **323.32, −1.91%, −$283.95**), ETN 24 @ 401.5425 (mark **405.99, +1.11%, +$106.74**), DE 22 @ 589.82 (mark **572.00, −3.02%, −$392.04**). All 4 protective stops confirmed RESTING GTC via open-orders query (status new): LLY trailing 6016a7e7 @ **1064.457** (hwm 1182.73); GE −7% ec3f8a10 @ 306.56; ETN −7% db3865d5 @ 373.43; DE −7% a150583a @ 548.53. Inbox: nothing pending. **Weekly buys 2 of 3 used (1 in reserve, cap resets Mon 6/15); 4 of 5 slots; ~46.7% cash.** **No trades — market closed (research-only).** 4-thread sub-agent fan-out (macro, earnings, position, opportunity scout) via Perplexity.
+
+**DATA-QUALITY CAVEAT (persistent):** Perplexity (sonar-pro) again refused most hard date-pinned June-2026 data — no reliable live futures ticks, no confirmed per-day earnings calendar, no verifiable last-2-week analyst/insider actions. Confirmed items below are flagged; the rest is inferred or "absence of evidence within a 1–3 day lag," NOT a clean all-clear. **Alpaca price/benchmark data IS reliable** and used to ground all watchlist prices.
+
+### Market context
+- **Dominant swing factor this week: May CPI, Wednesday 6/10, 8:30 a.m. ET (CONFIRMED).** This is the marquee print. A hot number lifts yields and pressures long-duration tech (risk-off); in-line/cool relieves and supports risk-on. **Implication: today is a wait-and-see, pre-CPI session — do not initiate fresh size into a binary macro print** (consistent with our high-beta entry-discipline learning, generalized to any new buy the day before CPI).
+- **FOMC 6/16–17 (CONFIRMED):** market prices a **hold**; cuts eyed later in 2026. Fed may be entering its pre-meeting quiet period (~6/9), so fewer speakers.
+- **Futures/global (UNCONFIRMED — Perplexity refused live ticks):** best read is cautious/flat into the open; no sharp overnight selloff signal surfaced. SPY last close 739.235 (6/8), still below the 6/4 high of 756.97 — the post-NFP flush of 6/5 (737.45) has stabilized but not recovered.
+- **Rates/commodities (stale, approx):** 10Y range-bound; crude ~$78–80; gold elevated/consolidating. No spike flagged.
+
+### Portfolio watch (no thesis-breakers; all 4 INTACT)
+- **LLY** — **CONFIRMED:** Lilly presents at the Goldman Sachs 47th Annual Global Healthcare Conference today (6/9), fireside ~3:20 p.m. ET (K. Custer, EVP Cardiometabolic Health). Pre-event notice only — no readout yet. Anchor winner +7.28%; trailing floor 1064.457 sits ~$92 below mark = no near-term stop risk. **Watch the fireside readout after 3:20 ET for orforglipron/guidance commentary** — could re-extend the winner (floor ratchets on new highs). Thesis intact.
+- **GE** — no datable 24–48h news; −1.91% is drift, not news. ~5.0% above its −7% stop. Thesis intact. Watching whether the industrials rotation firms or stalls (day 2).
+- **ETN** — no confirmed news; +1.11%, stabilization entry still working. Thesis intact.
+- **DE** — no material news; −3.02% drift (worst in book but ~4.0% above its −7% stop). Thesis intact. Day 4 of holding.
+- **Stop-management:** −7% drawdown check — worst is DE −3.02%, none near −7%, no sells. +5%→trailing triggers still standing: GE ~346.11, ETN ~421.62, DE ~619.31 (none near). LLY already converted. Daily loss cap N/A (market closed). daytrade_count 0.
+
+### Buy candidates
+- **No qualifying 2-signal setup today.** Perplexity produced no verifiable per-name beats/upgrades, so I grounded the watchlist with live Alpaca quotes:
+  - **GOOGL — $363.44.** Still **below** the ~$370 re-arm trigger. Parked. (Cleanest re-add IF it reclaims and holds >$370 with the broader tape steady.) Conviction: MED, pending price — fails today.
+  - **NVDA — $208.66.** Semis still soft; consolidating below the ~$224 area, no confirmed base (#6 uptrend fails). Conviction: LOW. Not yet.
+  - **AVGO — $396.72.** Possible early-June fiscal-Q2 earnings **blackout risk (HIGH, unconfirmed date)** → do not initiate within 3 trading days of a print. Avoid this week regardless of price.
+- **Reserve buy (1 of 3 left) stays parked.** Two independent reasons not to deploy today: (1) no name clears the 2-signal bar, and (2) CPI tomorrow argues against initiating fresh size into a binary macro print. **Not a cash-drag situation** — book is ~53% invested across 4 names, not sitting in cash. Per "quality over filling slots," holding the reserve is correct, not paralysis.
+
+### Sell candidates
+- **None.** No thesis-breakers surfaced. All 4 positions intact and comfortably above their −7% stops; no +5% conversions pending besides LLY (done). Stops do the work — no discretionary sells warranted.
+
+---
 ## 2026-06-08 15:00 CT — market-close
 
 ### Day summary
