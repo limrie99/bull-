@@ -50,6 +50,15 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ### Note
 - Industrials rotation read: GE and DE both green this morning after two red days with no news — the day-1/2 markdown is unwinding, not the start of a stall. Reaffirms holding both. Authoritative day/alpha computed at close.
 
+### Day summary (market-close 15:00 CT)
+- **Closing equity: $99,705.64** (cash $46,447.18 / ~46.6%; invested $53,258.46 across 4 names). Prior-day baseline (6/8 close) $99,322.96.
+- **Day P/L: +$382.68 / +0.385%.** | **SPY: 739.22 → 737.11 = −0.285%.** | **Alpha today: +0.671%** ✅ (beat a slightly red tape).
+- **Week-to-date (baseline 6/5 close $99,507.02):** +$198.62 / +0.200%; SPY WTD 737.55 → 737.11 = −0.060%; **alpha WTD +0.259%** ✅. Day 2 of 5.
+- **Trades placed today: 0** (open + midday both no-trade, per plan: hold the reserve buy into tomorrow's CPI). daytrade_count 0. Buys used this week 2 of 3.
+- **What worked:** (1) The ~47% cash cushion + LLY's defensive healthcare leadership again produced positive alpha on a flat-to-red broad tape — same pattern as midday. (2) The industrials (GE/DE/ETN) all clawed back from intraday red to ~flat by the close — GE +0.45%, ETN +0.04%, DE −0.02% — confirming the day-1/2 markdown was noise, not a stall. (3) Sitting out ahead of CPI kept us from buying into a coin-flip.
+- **What didn't:** Nothing material. LLY drifted off its +8% open to +6.1% as the tape softened pre-CPI, but that's normal and the trailing floor (1064.457) is ~$80 below the mark — no risk. The book is essentially flat ex-LLY; we're winning on cash allocation + one strong anchor, not breadth — worth noting if LLY ever rolls over.
+- **Open questions for tomorrow:** (1) **May CPI 8:30 ET Wed 6/10** is THE event — a hot print pressures rates/equities (risk-off), a cool print could re-extend LLY and re-arm the GOOGL/NVDA reserve setups. Don't pre-position. (2) Watch the LLY Goldman fireside readout (was ~today) for orforglipron/guidance commentary. (3) If CPI is benign and a watchlist name (GOOGL <~$370 re-arm, NVDA confirmed base) clears 2 signals, the 1 reserve buy is available.
+
 ---
 ## 2026-06-09 06:00 CT — pre-market
 

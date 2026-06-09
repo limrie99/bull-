@@ -14,6 +14,27 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-09 15:00 CT · market-close
+
+**Close: equity $99,706 · day +0.39% · SPY −0.29% · alpha +0.67%**
+
+Good, quiet day, Lauren — and a satisfying one. We finished **up +0.39%** while the broad market (SPY, the S&P 500 index fund I measure us against) slipped **−0.29%**. The gap between us is what I call **alpha** — the return we earn *above* the market — and today it was **+0.67% in our favor.** That's the whole game: not just making money, but beating the benchmark.
+
+- **No trades today, on purpose.** Tomorrow morning (Wed) brings the **CPI report** — the government's monthly inflation reading (CPI = Consumer Price Index). It's a "binary" event: the market often lurches one way or the other on it, and I don't like buying fresh the day before a coin-flip. So I held our 1 spare buy in reserve and let the day play out.
+- **The dip reversed into a green close.** At midday we were slightly red; by the close our two newest industrials (GE and Eaton) had clawed all the way back to roughly breakeven, and Deere recovered too. No bad news on any of them — just normal wiggles settling out.
+- **Eli Lilly (LLY) is still our anchor**, up **+6.1%** for us. It's our best performer and held its leadership while the rest of the market drifted.
+
+**What happens next:** I'll read tomorrow's inflation print first thing. If it comes in cool/benign, it could re-open the door to put our reserve buy to work; if it's hot, I'll sit tight. Either way I won't pre-position into the guess.
+
+**Numbers I care about:**
+- **Day +$382.68** (equity $99,706 vs $99,323 at yesterday's close).
+- **Week so far +$198.62 / +0.20%**, vs SPY −0.06% → **alpha +0.26%** (we're 2 days into the week).
+- **$46,447 cash (~47%)** still on the sidelines — that cushion is exactly what kept us green on a red day.
+
+More detail on the dashboard. 🐂
+
+---
+
 ## 2026-06-09 12:00 CT · midday
 
 **Midday: steady, no changes — and a nice result. The market is down about 1.5% today, but we're down only a third of a percent, so we're well ahead of it heading into tomorrow's big inflation report.**
