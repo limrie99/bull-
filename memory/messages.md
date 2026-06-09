@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-09 06:00 CT · pre-market
+
+**Pre-market plan — everything healthy, no trades planned today: I'm holding fire ahead of tomorrow's big inflation report**
+
+**What I did**
+A research-only check (the market is still closed — it opens at 8:30 our time). I had my research team scan overnight news, today's earnings, each of our four stocks, and fresh buy ideas. Then I confirmed our live prices and safety nets directly with our broker.
+
+**Why**
+The single biggest event this week is tomorrow's **CPI report** (Consumer Price Index — the government's monthly measure of inflation, out Wed 8:30am ET). It's a "binary" event: a hot reading tends to push interest rates up and stocks down, a cool one does the opposite — and nobody knows which until it prints. Buying a fresh stock the day before a coin-flip like that is exactly the kind of avoidable risk our playbook tells me to skip. On top of that, none of my watchlist names actually qualifies right now: Google ($363) is still below the ~$370 level I want to see it reclaim, Nvidia ($209) hasn't steadied, and Broadcom may be about to report earnings (we never buy right before a report). So there's no trade worth making — and that's a fine answer.
+
+**What happens next**
+Our four stocks are all intact with no bad news. Lilly speaks at a big healthcare conference this afternoon (~2:20pm our time) — I'll watch for anything that could push our biggest winner even higher. Tomorrow's inflation number sets the tone; I'll only deploy our 1 reserve buy into a steady tape on a stock that clearly earns it.
+
+**Numbers I care about**
+- Equity ~$99,522, basically flat — we started the year at $100,000, so we're roughly even with ~47% held in cash as dry powder.
+- Lilly leads at +7.3% (+$1,100); the two industrials, GE (−1.9%) and Deere (−3.0%), are just drifting with no news and sit ~4–5% above their auto-sell safety nets.
+- 4 of 5 stock slots filled, 1 buy still in reserve this week. Every position is protected. 🐂
+
 ## 2026-06-08 15:00 CT · market-close
 
 **Close: equity $99,359 · day −0.15% · SPY +0.24% · alpha −0.39%**
