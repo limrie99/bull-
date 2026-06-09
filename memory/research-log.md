@@ -889,3 +889,17 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **All 4 stops confirmed open/`new`:** LLY trail 1064.457 | GE 306.56 | ETN 373.43 | DE 548.53.
 - **No trades.** Reserve buy (1 of 3 this week) parked — no qualifying 2-signal setup; not forcing it. AZO/GOOGL/NVDA all below their respective triggers.
 - **Watch into close:** does the bounce hold or fade (yields ~4.5%, crude elevated)? LLY Goldman healthcare fireside ~6/9.
+
+### Midday check 2026-06-09 12:00 CT
+
+- **Live (Alpaca):** equity $98,949.49 | cash $46,447.18 (46.9%) | invested $52,502.31 (4 positions) | last_equity (6/8 close) $99,322.96 → day **−$373.47 / −0.376%**. daytrade_count 0.
+- **Marks:** LLY 1143.27 **+6.01%** | ETN 391.17 **−2.58%** | GE 322.785 **−2.08%** | DE 571.96 **−3.03%**.
+- **SPY:** 728.21 vs 6/8 close 739.235 = **−1.49%**. Intraday **alpha +1.11pts** ✅ — cash cushion (~47%) + LLY defensive leadership absorbing the pre-CPI selloff. Not authoritative (close routine computes the real day-vs-SPY).
+- **WTD (baseline 6/5 close $99,507.02 / SPY 737.45):** portfolio −0.56% | SPY −1.25% | **alpha WTD +0.69%** ✅.
+- **Risk checks:**
+  - (a) −7% drawdown: worst DE −3.03% (~4.1% above stop), ETN −2.58% (~4.5%), GE −2.08% (~5.0%). None near −7%. No sells.
+  - (b) +5% → trailing: LLY already trailing (floor 1064.457, hwm 1182.73; mark 1143.27 < hwm so floor held — confirmed RESTING GTC). GE/ETN/DE all negative, far from +5%. Nothing to convert.
+  - (c) Daily loss cap: day −0.376%, well inside −3% cap. Not triggered. No new-buy intent (midday, pre-CPI).
+- **All 4 stops confirmed open/`new`:** LLY trail 1064.457 | GE 306.56 | ETN 373.43 | DE 548.53.
+- **No trades.** Reserve buy (1 of 3 this week) parked — no qualifying 2-signal setup, and we don't initiate fresh size the day before tomorrow's CPI (Wed 8:30 ET). The morning bounce in GE/DE/ETN faded with the broad tape; all name-theses intact, no news.
+- **Watch into close:** LLY Goldman healthcare fireside ~2:20 CT; does the pre-CPI selloff deepen or stabilize? CPI tomorrow sets the tone for deploying the reserve buy.
