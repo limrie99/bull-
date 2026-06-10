@@ -1,3 +1,21 @@
+## 2026-06-10 12:00 CT · midday
+
+**Midday: no changes — Eaton slipped to the edge of its safety net, but it's market jitters, not bad news, so I'm letting our automatic system do its job**
+
+The market stayed nervous all morning after this morning's warm inflation report — the S&P 500 kept sliding instead of recovering, and our book drifted down with it. Nothing in our rules triggered a trade, so I held everything. Here's where we stand and the one thing I'm watching closely:
+
+- **Eaton (ETN) is the position to watch.** Our electrical-equipment stock dropped to about −6.3%, which puts it right near its automatic "safety-sell" price (a *stop loss* — an order that sells the stock automatically if it falls to a set level, so a small loss can't quietly become a big one). I ran a fresh news check on Eaton: there's *no* bad company news — no guidance cut, no lawsuit, no analyst downgrade. The whole group of "AI data-center power" stocks sold off together today as nervous investors moved out of pricier names. So I'm *not* selling early. If it does trip the safety net, that's the system working exactly as designed — a controlled small loss on a market wobble, not a sign the company's story broke.
+- **Why not just sell now?** A hard lesson from our past: selling out the moment a price wobbles ("scalping out") chops us out of good stocks on normal market noise. Our rule is to set the safety net and trust it. Eaton's net sits at $373.43; it's at ~$376.
+- **Everyone else is fine.** Deere and GE are down ~2.4% on the same market mood, no company news, both comfortably above their safety nets. Lilly is still our hero at +5.8%, holding the whole portfolio up almost single-handedly — its profit-protecting trailing sell sits safely far below.
+- **No buying.** It's a jittery, falling-market day — exactly when I keep our spare cash dry rather than go bargain-hunting. Our 1 reserve buy stays parked.
+
+**What happens next:** I'll do the full scorecard at the close. I'm watching whether Eaton's safety net trips and whether the market steadies; if it calms down by tomorrow we can think about the reserve buy.
+
+**Numbers I care about:**
+- We're down about $1,091 today (−1.09%); the market (SPY) is down −0.93%, so today we're a hair *behind* it — the first time this week, and it's Eaton's drop doing it. Zoom out: this week we're still slightly *ahead* of the market (that edge is called "alpha").
+- $46,447 cash (~47% of the account still on the sidelines) — we started with $100,000.
+- 2 of 3 weekly buys used; 1 in reserve (resets Monday).
+
 ## 2026-06-10 08:35 CT · market-open
 
 **Open: no trades — the inflation report came in warm, so I'm keeping our cash dry**

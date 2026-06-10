@@ -969,3 +969,17 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **All 4 stops confirmed open/`new`:** LLY trail 1064.457 | GE 306.56 | ETN 373.43 | DE 548.53.
 - **No trades.** Reserve buy (1 of 3 this week) parked — no qualifying 2-signal setup, and we don't initiate fresh size the day before tomorrow's CPI (Wed 8:30 ET). The morning bounce in GE/DE/ETN faded with the broad tape; all name-theses intact, no news.
 - **Watch into close:** LLY Goldman healthcare fireside ~2:20 CT; does the pre-CPI selloff deepen or stabilize? CPI tomorrow sets the tone for deploying the reserve buy.
+
+### Midday check 2026-06-10 12:00 CT
+
+- **Live (Alpaca):** equity $98,594.45 | cash $46,447.18 (47.1%) | invested $52,147.27 (4 positions) | last_equity (6/9 close) $99,685.04 → day **−$1,090.59 / −1.094%**. daytrade_count 0.
+- **Marks:** LLY 1141.455 **+5.84%** | DE 575.13 **−2.49%** | GE 321.878 **−2.35%** | **ETN 376.23 −6.30%** ← weakest, near stop.
+- **SPY:** 730.19 vs 6/9 close 737.07 = **−0.933%**. Intraday **alpha ~−0.16pts** — gave back the open's +0.13% as ETN/GE deepened with the post-CPI risk-off tape; LLY still anchoring. Not authoritative (close routine computes the real day-vs-SPY).
+- **WTD (baseline 6/5 close $99,507.02 / SPY 737.55):** portfolio −0.92% | SPY −0.998% | **alpha WTD +0.08%** ✅ (thin but still ahead).
+- **Risk checks:**
+  - (a) −7% drawdown: **ETN −6.30%** is the standout — just 0.74% above its −7% stop (mark 376.23, stop 373.43). Ran Perplexity thesis-break check: **NO Eaton-specific catalyst** in the last 4h (no press release, guidance change, or downgrade). Rated **(2) sector-wide/electrical-industrial risk-off** — high-multiple electrification/data-center names sold with higher Treasury yields. Thesis (data-center power + electrification orders, Q1 beat + raised guide) **intact**. Decision: **HOLD — do not pre-empt the −7% hard stop.** Per v1 learning (don't scalp out of names on macro noise) and routine rule 3a (mandatory action only at −7% AND broken thesis / no reason). The resting GTC stop at 373.43 will fire if it breaks; if ETN stops out it'll be macro-driven, not thesis. GE −2.35% / DE −2.49% both intact (GE confirmed clean at the open; no new news), ~4.6–4.8% above stops. No sells.
+  - (b) +5% → trailing: LLY already trailing (floor 1064.457, hwm 1182.73; mark 1141.46 < hwm so floor held — confirmed RESTING GTC). GE/ETN/DE all negative, far from their +5% triggers (~346.11 / ~421.62 / ~619.31). Nothing to convert.
+  - (c) Daily loss cap: day −1.094%, inside the −3% cap. Not triggered. No new-buy intent anyway (risk-off tape, SPY below 730, no qualifying 2-signal setup).
+- **All 4 stops confirmed open/`new` GTC:** LLY trail 1064.457 | GE 306.56 | ETN 373.43 | DE 548.53.
+- **No trades.** Reserve buy (1 of 3 this week) parked — risk-off, support-breaking session is the "don't deploy" branch of the pre-market plan; no qualifying setup. Not forcing it.
+- **Watch into close:** ETN's 0.74% cushion is thin — if the electrical-industrial group keeps sliding it likely stops out on macro (not thesis); that's the system working, not a failure. SPY broke below the 6/5 low and kept sliding (730.19, −0.93%) — tape stayed risk-off through the morning, no reclaim. LLY remains the only thing holding the book up.
