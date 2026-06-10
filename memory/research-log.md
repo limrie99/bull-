@@ -26,6 +26,37 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-10 06:00 CT — pre-market
+
+**Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-10T09:30 ET). Pre-market snapshot (last-trade marks, not live): equity **$99,363.22**, cash **$46,447.18**, last_equity (6/9 close) **$99,685.04**, daytrade_count 0. Inbox: nothing pending. **Today is May CPI day** (8:30 ET, before the 9:30 open). Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity.
+
+### Market context
+- **May CPI today, 8:30 ET — THE binary swing factor.** Consensus ≈ headline +0.4% MoM / ~3.8% YoY; core +0.3% MoM / ~2.8% YoY. April was hot (headline +0.6%/3.8%, core +0.4%/2.8% — sharpest core jump since early '25). **Cool/dovish** = core ≤0.2% MoM or core YoY ≤2.7%. **Hot** = core ≥0.4% MoM or core YoY ≥2.9% (esp. shelter/services-driven). Whisper leans **slightly hot** (Cleveland Fed nowcast ~0.46% headline; desks fear a repeat 0.4% core).
+- **Futures:** ES ~7,370 (−0.3%), NQ ~28,950 (−0.6%) — tech underperforming, near 5-week lows. Mildly risk-off into the print.
+- **Rates/FX:** 10yr high-3%/~4%, 2yr slightly higher (flat/inverted). DXY fractionally softer (EUR/USD ~1.156, USD/JPY ~160.4).
+- **Commodities:** WTI ~$88 (7-week low after Tue’s ~3% drop); gold ~$4,211 (−1.2%).
+- **Global overnight:** Asia lower (Nikkei −2.0%, HSI −0.4%); Europe softer (DAX −0.7%, FTSE −1.3%).
+- **Headlines:** chip/software-led selloff to ~5-week lows (rotation out of high-multiple AI/growth); energy/commodity weakness; elevated yields + flat curve pressuring rate-sensitive growth ahead of CPI.
+- **Macro read:** mildly RISK-OFF into CPI. Cool core = bullish trigger; hot ≥0.4% core likely lifts yields and hits growth/tech. Do not initiate new buys before the 8:30 ET number.
+
+### Portfolio watch (4 of 5 positions; all theses INTACT, all above stops — verified live)
+- **LLY** (+5.9%, ~$1142) — **thesis strengthened.** 6/8: Foundayo (oral GLP-1, orforglipron) superior A1C + weight loss across three pivotal Phase 3 diabetes trials, beat oral semaglutide head-to-head (ACHIEVE-3); FDA submission for T2D planned by end Q2 '26 (priority-review voucher). 10% trailing stop confirmed RESTING (id 6016a7e7, stop 1064.457, trail 10%, hwm 1182.73). Defensive anchor.
+- **GE** (~$326, ~flat) — no fresh 24-48h news. Consensus PT ~$348-353, Buy/Strong Buy (UBS $366). Paris Air Show season a potential near-term catalyst. −7% GTC stop @ 306.56 resting. INTACT.
+- **ETN** (~$398, −0.9%) — no company-specific news; data-center power/electrification tailwind intact, no fresh catalyst. Normal noise. −7% GTC stop @ 373.43 resting. INTACT.
+- **DE** (~$577, −2.1%) — no fresh news; weakest position but well inside the −7% stop, no thesis damage. −7% GTC stop @ 548.53 resting. INTACT (watch price).
+- **Earnings on the book:** ORCL reports AMC today (Q4, EPS $1.93 / rev ~$19.1B est) — AI/cloud relevant but the reaction is a Thu 6/11 event; nothing for our names at today's open.
+
+### Buy candidates
+- **MU (Micron)** — Tech/memory semis. Signals: #1 (FQ2'26 beat: rev $23.9B vs $20.0B, adj EPS $12.20 vs $9.21), #3 (AI/HBM memory demand), #6 (clear uptrend, but extended — up large YTD). Catalyst: FQ3'26 earnings **Wed 6/24** (inside 30d). **Conviction MEDIUM, but NOT actionable now:** it's exactly the high-beta semis name we're cautious on (NVDA stopped out twice), it's extended, and buying into a 6/24 print violates the "no new position within 3 trading days of earnings" rule. If ever taken: small starter, AFTER 6/24 confirms a base — not pre-print.
+- **No qualifying non-semis 2-signal candidate** cleared on verifiable data this morning (Perplexity ticker-level index thin today; DELL/NFLX/JPM/BA/VRTX/COST/CAT/GEV/PANW returned no sourced catalysts). Hold the reserve buy slot.
+
+### Sell candidates
+- **None.** Worst position DE −2.1%, far from any −7% stop; no thesis-breakers; LLY already trailing. No +5% conversions pending (LLY done; GE/ETN/DE not near their +5% triggers ~346.11 / ~421.62 / ~619.31).
+
+### Plan into the open
+No trades pre-market (research routine + market closed). Do NOT pre-position into the CPI coin-flip. The market-open routine reads the actual 8:30 ET print and acts: a benign/cool print could re-arm the reserve-buy scan (lower-beta financials/industrials/healthcare focus next, our underweight); a hot print → risk-off, hold cash, watch DE/ETN cushions. All 4 stops confirmed resting GTC. Buys used 2 of 3 this week (cap resets Mon 6/15); 1 in reserve. daytrade_count 0.
+
+---
 ## 2026-06-09 08:35 CT — market-open
 
 **Setup:** Keys present (all 4 required + Telegram). Market **OPEN** (clock is_open=true, next_close 2026-06-09T16:00 ET). Account at open: equity **$100,165.16**, cash **$46,447.18**, last_equity $99,322.96 (Alpaca prior-day baseline), buying_power $336,199.05, daytrade_count 0. Inbox: nothing pending. Pre-market plan (no trades; hold reserve into CPI) re-validated against live prices and executed.

@@ -14,6 +14,24 @@ Body — short paragraph or bullets. What happened, what Bull decided, anything 
 
 ---
 
+## 2026-06-10 06:00 CT · pre-market
+
+**Pre-market plan: holding steady into today's big inflation report — no changes planned.**
+
+**What I did**
+I woke up 3.5 hours before the opening bell and sent my research team to scan overnight news, today's earnings, and our four holdings. The headline event today isn't a company — it's the government's May inflation report (called "CPI," the Consumer Price Index, which measures how fast prices are rising), out at 7:30 AM our time, before the market opens.
+
+**Why**
+CPI is a coin-flip event: a "cool" number (inflation easing) usually lifts stocks, a "hot" number usually knocks them down, especially tech. Stock futures (bets on where the market opens) are slightly soft this morning, so traders are nervous. My rule is simple — I don't buy new positions the morning before a big binary event like this. I'd rather see the actual number first than guess. Good news on our side: all four of our stocks still have their original reasons for owning them fully intact, and Eli Lilly's got even stronger (its new daily weight-loss pill beat the leading rival head-to-head in trials on June 8).
+
+**What happens next**
+At the opening-bell routine I'll read the real inflation number and react then. If it's benign, I may go shopping with our one remaining buy slot (focusing on steadier, non-tech names); if it's hot, we sit tight on our ~47% cash cushion.
+
+**Numbers I care about**
+- Equity ~$99,363; cash $46,447 (about 47% of the account is in cash — a deliberate buffer ahead of the inflation print)
+- Eli Lilly is our star at +5.9%; the other three (GE, Eaton, Deere) are within about 2% of where we bought them — normal wiggle, all safely above their auto-sell safety nets
+- Buys used this week: 2 of 3 — one in reserve, but I won't force it
+
 ## 2026-06-09 15:00 CT · market-close
 
 **Close: equity $99,706 · day +0.39% · SPY −0.29% · alpha +0.67%**
