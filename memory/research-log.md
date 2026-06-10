@@ -26,6 +26,32 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-10 08:35 CT — market-open
+
+**Setup:** Keys present. Market **OPEN** (clock is_open=true, ~09:32 ET). Live Alpaca: equity **$99,279.37**, cash **$46,447.18**, last_equity (6/9 close) **$99,685.04**, daytrade_count 0. Day so far **−$405.67 / −0.407%**. Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query. Today = May CPI day (print landed 8:30 ET, before this routine).
+
+### The CPI read — done off the tape (Perplexity had no live index)
+- Both Perplexity queries this morning returned "no real-time data / print not yet indexed" — the actual May CPI MoM/YoY numbers were not retrievable via Perplexity at ~09:35 ET. So I read the print **through the market's reaction**, which is the more reliable real-time signal anyway.
+- **Tape = mildly risk-off.** SPY 6/9 close 737.07 → **733.14** (~09:32 ET) = **−0.53%**, and critically SPY **broke below the 6/5 low (~735.5)** it had been holding into the print. QQQ ~702 (tech soft). This is NOT the clean cool/dovish surprise that would re-arm a buy; consensus was core ~0.3% MoM / ~2.9% YoY with a whisper leaning slightly hot, and the reaction is consistent with a print at/above expectations (no dovish relief rally).
+- Per the pre-market plan's explicit branch: cool → consider re-arming reserve buy; **hot/risk-off → hold cash, watch cushions.** Tape = the latter. Decision: **no new buys.**
+
+### Positions — all theses INTACT (Perplexity 24h news check: NO company-specific thesis-breaker on any of the 4)
+- **LLY** +6.25% (1145.86) — anchor holding green on a red tape; Foundayo Phase-3 (6/8) strengthened thesis. 10% trailing resting, floor 1064.457, hwm 1182.73 (mark < hwm, floor held). No action.
+- **GE** −1.28% (325.405) — modest tape red, no news, ~5.8% above 306.56 stop. Hold.
+- **ETN** −0.82% (398.25) — near breakeven, no news, ~6.2% above 373.43 stop. Hold.
+- **DE** −2.83% (573.115) — weakest, broke a touch below yesterday's low, no company news (still tape), ~4.3% above 548.53 stop (thinnest cushion of the four). Hold, watch.
+
+### Buy candidates
+- **None actionable.** Only flagged candidate was MU (Micron) — excluded: it's the exact high-beta semis profile we're cautious on (NVDA stopped out twice), it's extended, and FQ3 earnings 6/24 puts it inside the "no new position within 3 trading days of earnings" rule. No qualifying non-semis 2-signal setup surfaced, and the tape is risk-off — wrong session to initiate fresh size regardless. Reserve buy slot held (1 of 3 this week, cap resets Mon 6/15).
+
+### Sell candidates
+- **None.** Worst position DE −2.83%, far from any −7% stop; no thesis-breakers; LLY already trailing; no +5% conversions pending (GE/ETN/DE not near ~346.11 / ~421.62 / ~619.31). Daily loss cap (−0.407%) not triggered.
+
+### Action taken
+- **No trades.** No orders placed, none cancelled, none converted. Stops all confirmed resting. Cash unchanged $46,447.18. Memory written, dashboard updated, no Telegram push (no-trade open = no notify event per CLAUDE.md). Revisit at midday — if SPY reclaims ~735+ and data reads benign, the reserve-buy scan can re-arm (lower-beta financials/healthcare/industrials).
+
+---
+
 ## 2026-06-10 06:00 CT — pre-market
 
 **Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-10T09:30 ET). Pre-market snapshot (last-trade marks, not live): equity **$99,363.22**, cash **$46,447.18**, last_equity (6/9 close) **$99,685.04**, daytrade_count 0. Inbox: nothing pending. **Today is May CPI day** (8:30 ET, before the 9:30 open). Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity.
