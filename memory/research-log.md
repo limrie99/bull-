@@ -26,6 +26,33 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-10 15:00 CT — market-close
+
+### Market context
+- Post-CPI risk-off held all session. SPY 6/9 close 737.07 → **725.58** (6/10 close) = **−1.559%**; broke and stayed below the 6/5 low it lost at the open, no dovish-relief reclaim. QQQ/tech soft, 10yr yields elevated. The CPI print read (through the tape) as at/above expectations — exactly the "hot/risk-off → hold cash" branch from the pre-market plan. Latest SPY trade (after-hours) 724.73.
+
+### Portfolio watch (closing marks, live Alpaca)
+- **LLY** +5.33% (1135.94), day −0.76% — the lone green name and the day's hero, falling far less than the index. Trailing floor 1064.457 (hwm 1182.73, mark < hwm). Anchor working. No news.
+- **GE** −3.37% (318.51), day −3.6% — industrial flush, no company news, ~3.75% above 306.56 stop. Intact.
+- **DE** −5.05% (560.05), day −3.0% — deteriorated sharply, cushion to 548.53 stop now ~2.06% (was ~4.3% at open). Ag/industrial sector weakness, no company-specific news. Intact but on watch.
+- **ETN** −6.31% (376.20), day −6.35% — the day's worst, electrical-industrial flush on higher yields. Closed 0.74% above its 373.43 stop — survived without triggering. No Eaton-specific thesis-breaker. Intact, on close watch.
+
+### Buy candidates
+- **None actionable.** Risk-off, support-breaking tape all day — wrong session to deploy the reserve buy. No qualifying non-semis 2-signal setup surfaced. Reserve slot held (cap resets Mon 6/15).
+
+### Sell candidates
+- **None.** Worst ETN −6.31%, not yet at −7%; no thesis-breakers; sector/macro-driven. Let the −7% hard stops work if breached. No +5% conversions pending. Daily loss cap (−1.657%) not triggered.
+
+### Day summary (market-close)
+- **Closing equity:** $98,033.19. **Cash:** $46,447.18 (unchanged). Invested $51,586.01 (~52.6%).
+- **Day P/L:** **−$1,651.85 / −1.657%.** **SPY day −1.559%.** **Alpha today −0.098%** (slightly behind — our industrials, DE/ETN especially, fell harder than the index).
+- **Week (vs 6/5 close $99,507.02):** −$1,473.83 / **−1.481%**; SPY WTD −1.609%; **alpha WTD +0.128%** ✅ (thin, still ahead).
+- **Trades placed:** none (open, midday, close). No stops fired, no conversions. daytrade_count 0.
+- **What worked:** (1) LLY anchor — held its +5% gain and only fell −0.76% on a −1.56% tape, single biggest reason we stayed ahead WTD. (2) High cash buffer (~47%) cushioned a broad-market down day. (3) Stops did their job — none over-triggered; we didn't panic-sell macro noise.
+- **What didn't:** (1) Industrials concentration (GE/DE/ETN) all fell faster than SPY — book has no tech offset since the NVDA stop-out, so a risk-off day with no breadth hurts. (2) ETN's beta showing again — smaller starter sizing was the right call but it's still the weakest link 0.74% from stopping out.
+- **Open questions for tomorrow:** (1) Does ETN and/or DE gap-down through its stop Thursday? Both are within a normal day's range of triggering. (2) Any post-CPI follow-through or a relief bounce? If the tape stabilizes and a clean 2-signal non-semis setup appears, the reserve buy can re-arm — but not into more risk-off. (3) ORCL reported AMC 6/9 — watch for any AI/data-center read-through that could matter for ETN's electrification thesis.
+
+---
 ## 2026-06-10 08:35 CT — market-open
 
 **Setup:** Keys present. Market **OPEN** (clock is_open=true, ~09:32 ET). Live Alpaca: equity **$99,279.37**, cash **$46,447.18**, last_equity (6/9 close) **$99,685.04**, daytrade_count 0. Day so far **−$405.67 / −0.407%**. Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query. Today = May CPI day (print landed 8:30 ET, before this routine).

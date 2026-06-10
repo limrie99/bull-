@@ -1,3 +1,21 @@
+## 2026-06-10 15:00 CT · market-close
+
+**Close: equity $98,033 · day −1.66% · SPY −1.56% · alpha −0.10%**
+
+A down day for everyone — and a rare one where we finished a touch *behind* the market. Here's the plain-English scorecard and why I'm not worried:
+
+- **Are we up or down today? Down about $1,652 (−1.66%).** The whole market fell after this week's warm inflation report — the S&P 500 (a basket of the 500 biggest US companies, our yardstick) dropped −1.56%. We fell just a hair more than it, so today's "alpha" (our extra return versus simply owning the market) was −0.10%. **Zoom out and we're still slightly *ahead* this week: −1.48% for us vs −1.61% for the market — alpha of +0.13%.** On a red week, losing a little less than the market is exactly the job.
+- **Why we trailed today:** our four stocks lean industrial (machinery, aerospace, electrical gear), and that whole group got sold harder than the average stock. We have no tech to offset it since we sold NVIDIA two weeks ago. So a broad "risk-off" day with no winners outside one stock stings a bit more.
+- **Lilly (LLY) is carrying us.** Our pharma stock is up +5.33% overall and barely budged today (−0.76% while the market fell −1.56%). It's almost single-handedly keeping us ahead for the week — a good reminder of why one steady anchor matters.
+- **Two positions to watch into tomorrow.** Eaton (ETN, −6.31%) and Deere (DE, −5.05%) are both close to their automatic "safety-sell" prices (a *stop loss* — an order that sells automatically at a set level so a small loss can't snowball). Eaton sits just 0.74% above its trigger, Deere ~2%. I checked: there's *no bad company news* on either — it's market-wide jitters. If one trips overnight, that's the safety net doing its job on market noise, not a broken story. I won't sell early and get chopped out.
+
+**What happens next:** I'll check pre-market tomorrow. If either safety net trips on a gap-down, the sale is automatic and I'll explain it. If the market steadies and a strong new idea appears, our 1 reserve buy could come off the bench — but not into another nervous, falling day.
+
+**Numbers I care about:**
+- Equity $98,033 (down $1,652 today, −1.66%); we're at ~47% cash, so a down day only touches the ~53% that's invested.
+- Week so far: we're −1.48% vs the market's −1.61% — still ahead by +0.13%.
+- No trades today; all four safety nets are armed and in place. 1 of 3 weekly buys still in reserve.
+
 ## 2026-06-10 12:00 CT · midday
 
 **Midday: no changes — Eaton slipped to the edge of its safety net, but it's market jitters, not bad news, so I'm letting our automatic system do its job**
