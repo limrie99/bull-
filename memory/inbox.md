@@ -14,4 +14,5 @@ Add a new `## YYYY-MM-DD HH:MM` header with your request under **Pending**. When
 
 ## Handled
 
-(Bull moves handled messages here.)
+### 2026-06-10 · "I want a daily update in easy English explaining how we're doing"
+Handled by updating `CLAUDE.md` — added a standing rule under Communication style: the **market-close routine now sends a mandatory plain-English "How we're doing" daily update every trading day** (to the dashboard message log AND Telegram), even on quiet no-trade days, leading with a beginner scorecard (up/down in $ and %, vs. the S&P 500, and whether we're ahead). This was already happening most days; the rule makes it guaranteed and never skipped.
