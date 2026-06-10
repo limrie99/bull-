@@ -42,7 +42,9 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
    **CRITICAL — push `HEAD:main`, not `main`.** In the cloud the routine runs on a per-run working branch (e.g. `claude/...`), not on `main`. `git push origin main` would push the *local* `main` ref, which never moved — so your memory writes silently orphan on a throwaway branch and the next routine reads stale memory. Always push your current `HEAD` to the remote `main` branch so state actually compounds:
    ```bash
    git add -A
-   git -c user.email="bull@trading.local" -c user.name="Bull" commit -m "{routine} $(date +%Y-%m-%d\ %H:%M)"
+   # Author commits as Claude with the Anthropic noreply email so GitHub shows them as Verified.
+   # (Bull's "voice" lives in memory/messages.md, not the git author field.)
+   git -c user.email="noreply@anthropic.com" -c user.name="Claude" commit -m "{routine} $(date +%Y-%m-%d\ %H:%M)"
    git fetch origin main
    if ! git push origin HEAD:main; then
      # main advanced since our clone (another routine pushed) — integrate and retry once
