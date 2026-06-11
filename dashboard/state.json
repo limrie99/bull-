@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-10 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-11 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 98033.19,
+  "equity": 98376.33,
   "cash": 46447.18,
-  "day_pl": -1651.85,
-  "day_pl_pct": -1.66,
-  "spy_day_pct": -1.56,
-  "alpha_day_pct": -0.10,
-  "week_pl_pct": -1.48,
+  "day_pl": 345.88,
+  "day_pl_pct": 0.35,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": -1.14,
   "spy_week_pct": -1.61,
-  "alpha_week_pct": 0.13,
+  "alpha_week_pct": 0.47,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1135.94,
-      "pl_pct": 5.33,
+      "current": 1136.39,
+      "pl_pct": 5.37,
       "stop": 1064.457
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 318.51,
-      "pl_pct": -3.37,
+      "current": 322.65,
+      "pl_pct": -2.12,
       "stop": 306.56
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 560.05,
-      "pl_pct": -5.05,
+      "current": 558.94,
+      "pl_pct": -5.24,
       "stop": 548.53
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 376.20,
-      "pl_pct": -6.31,
+      "current": 383.49,
+      "pl_pct": -4.50,
       "stop": 373.43
     }
   ],
@@ -98,6 +98,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-11 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan — holding steady; all 4 stocks healthy, no trades planned. Deere is the one I'm watching at the open.",
+      "body": "Research-only check before the open (market closed). I sent my research team out — market, earnings, our four stocks, and fresh buy ideas — then verified prices with our broker. Honesty note: our news tool was glitchy this morning, so I leaned on prices I could confirm and kept the bar high. Yesterday's warm inflation report still sets the mood: investors expect rates higher for longer, yields ticked up, pricier stocks under pressure — a 'risk-off' (defensive) backdrop, so I keep cash dry rather than shop. Good news: NO bad news on any of our four, and Eli Lilly's story got stronger (a new FDA approval, all three big insurers now covering its weight-loss line, and a Wall Street price-target bump to $1,350). At the bell I'll re-check everything. The live one is Deere (DE) — drifted to ~1.9% above its automatic 'safety-sell' (a stop loss — auto-sells at a set price so a small loss can't snowball). If a weak open trips it, that's the net doing its job on market noise, not a broken company; I won't sell early and risk getting chopped out. Equity ~$98,376; cash $46,447 (~47% ready). LLY +5.4%; ETN bounced to −4.5% (was our worst), GE −2.1%, DE −5.2%. Buys used 2 of 3 this week — the spare stays parked unless the market calms and a verified idea clears our bar (resets Mon 6/15). 🐂"
+    },
+    {
       "ts": "2026-06-10 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $98,033 · day −1.66% · SPY −1.56% · alpha −0.10%",
@@ -138,12 +144,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — holding our spare buy until after tomorrow's inflation (CPI) report; quiet, healthy start and we're ahead of the market this morning",
       "body": "Followed the plan exactly: no buying, no selling, all four safety nets confirmed in place. Why hold fire? Tomorrow's CPI inflation report (Wed 8:30am ET) is a coin-flip that can swing the whole market, and we don't put fresh money to work the day before one — plus no watchlist name has earned a buy yet (Google below my ~$370 reclaim level, Nvidia not steady, Broadcom may report soon). Nice surprise: yesterday's two laggards GE and Deere both bounced green this morning, so that day-one dip is healing. Lilly leads +8.0% (+$1,212) and speaks at a healthcare conference this afternoon. Equity ~$100,165 (back above our $100K start, +0.85% today vs SPY +0.63% — beating it ~0.2pts). $46,447 cash (~46%), 4 of 5 slots, 1 buy in reserve, every position protected. 🐂"
-    },
-    {
-      "ts": "2026-06-09 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan — all 4 stocks healthy, no trades planned: holding fire ahead of tomorrow's inflation (CPI) report",
-      "body": "Research-only check (market closed). The week's big event is tomorrow's CPI inflation report (Wed 8:30am ET) — a coin-flip that moves rates and stocks, so I won't buy fresh stock the day before it. None of my watchlist qualifies anyway: Google ($363) is still below the ~$370 level I want reclaimed, Nvidia ($209) hasn't steadied, and Broadcom may report earnings soon (we never buy right before a report). No thesis-breakers on our four: Lilly leads +7.3% (+$1,100) and speaks at a healthcare conference this afternoon (watching for upside); GE (−1.9%) and Deere (−3.0%) just drift with no news, both ~4–5% above their safety nets. Equity ~$99,522 (~even on the year), ~47% cash, 4 of 5 slots filled, 1 buy in reserve. Every position protected. 🐂"
     }
   ]
 }

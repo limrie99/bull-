@@ -26,6 +26,38 @@ Portfolio close value, day P/L, SPY day P/L, alpha, trades placed, what worked /
 ```
 
 ---
+## 2026-06-11 06:00 CT — pre-market
+
+**Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-11T09:30 ET). Pre-market snapshot (last-trade marks, ~07:05 ET, NOT live): equity **$98,376.33**, cash **$46,447.18**, last_equity (6/10 close) **$98,030.45**, daytrade_count 0. Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity. **Major caveat: Perplexity's real-time retrieval was largely non-functional today** — futures prints conflicted, no earnings calendar confirmed beyond ADBE, and the opportunity scan came back essentially empty. Treated all Perplexity magnitudes as unverified; grounded prices via Alpaca where possible.
+
+### Market context
+- **Tape into the open: risk-off but orderly.** Yesterday's hot May CPI repriced Fed cut odds down hard (now ~0/1 cut in 2026, some desks pushing first cut to 2027, faint hike-odds tail). "Higher for longer" reinforced. 10yr pushed to **low-4%**, dollar firmer. Megacap/high-duration tech underperforming; rotation toward quality value & financials.
+- **Futures (unverified/conflicting via Perplexity):** ES mixed — one read +0.32% (small relief bid ~7,302), another −0.57%. NQ no clean live print (Wed close −2.07%). Net: mixed-to-slightly-soft, possible faint relief bounce, unconfirmed.
+- **Commodities:** WTI up >2% Wed on Middle East tensions — oil risk premium feeding the inflation narrative. Gold print not retrievable.
+- **Today's data/Fed:** Post-CPI / pre-PPI; Perplexity could NOT confirm a real-time calendar for PPI, weekly jobless claims, or Fed speakers — treat as unconfirmed.
+- **Benchmark grounding (Alpaca):** SPY 6/10 close **725.58**; last after-hours trade 724.73. WTD from 6/5 close 737.45 = **−1.61%**.
+
+### Portfolio watch (live Alpaca pre-market marks; all 4 theses INTACT, zero thesis-breakers found)
+- **LLY** +5.37% (1136.39) — anchor, the lone green name. **Thesis strengthening:** EBGLYSS every-8-week maintenance dosing FDA approval (~6/9-10), all three major PBMs now covering the obesity portfolio (Foundayo/Zepbound), Jefferies raised PT to $1,350 (Buy). 10% trailing resting, floor 1064.457 (~6.3% below mark; hwm 1182.73, mark < hwm so floor held). No action.
+- **GE** −2.12% (322.65) — recovered from yesterday's −3.6% flush; no fresh company news (Perplexity stale/2025-dated), ~4.99% above 306.56 stop. Intact, hold.
+- **ETN** −4.50% (383.49) — **best overnight relief** (was −6.31% at close, the day's worst). Highest-beta name; bounce is sector/market beta, no company-specific news. ~2.62% above 373.43 stop. Intact, hold.
+- **DE** −5.24% (558.94) — **now the thinnest cushion, ~1.86% above 548.53 stop** (a gap-down open could trigger it). No company-specific news (Perplexity returned no dated early-June Deere headlines); the drawdown is ag/industrial price action, not a thesis break. Intact but the live one to watch.
+
+### Buy candidates
+- **None actionable this run.** Opportunity scan hit a Perplexity data outage — only JPM surfaced with a single verifiable live signal.
+  - **JPM (Financials):** signal #6 (clean uptrend, ~$309, near recent high, not at lows). Signals #1–#5 **could not be verified** today. Quality lower-beta financials *diversifier* (book is LLY/GE/DE/ETN — pharma + 3 industrials, no financials, no tech offset since NVDA exit). Next earnings ~mid-July → likely no blackout, but confirm before any entry. Conviction **MED**, watch-list only — does NOT clear the 2-signal bar on verified evidence.
+- Sectors flagged for a risk-off/diversify tape (unverified, screen-only): staples (PG/KO/COST), healthcare (UNH/ABBV), quality tech (MSFT/GOOGL).
+- **Reserve buy (1 of 3 this week) stays parked.** Per cold-start rule this is fine *for today*: no qualifying 2-signal setup cleared a genuine scan (data outage capped the scan), and the tape is risk-off — not a license to force a trade. Book is NOT cash-dragged (4 of 5 invested, ~53%). Cap resets Mon 6/15.
+
+### Sell candidates
+- **None.** Worst position DE −5.24%, not at −7%; no thesis-breakers on any name; LLY already trailing; no +5% conversions pending (GE/ETN/DE not near ~346.11 / ~421.62 / ~619.31). 
+
+### Plan for the open
+- **Default: hold all 4, no buys.** Let the −7% hard stops do their job. **DE is the live one** (~1.86% above stop) — a gap-down could trigger it; if it does, that's the system capping macro/sector noise (thesis intact), not a panic sell, so I will NOT pre-empt it. ETN next (~2.62%).
+- Reserve buy only re-arms on (a) a calmer/constructive tape AND (b) a *verified* 2-signal non-semis, non-industrial-concentrating setup. JPM is the lead watch idea — re-verify its signals + earnings date at the open before considering. Given the risk-off tape + data outage, a no-buy open is the likely outcome.
+- No trades placed this routine (market closed).
+
+---
 ## 2026-06-10 15:00 CT — market-close
 
 ### Market context
