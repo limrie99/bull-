@@ -4,6 +4,30 @@
 
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
+---
+## 2026-06-11 08:36 CT — market-open
+
+**Setup:** Keys present (all 4 required + Telegram). Market **OPEN** (clock is_open=true, ~09:35 ET, next_close 16:00 ET). Live Alpaca: equity **$98,531.69**, cash **$46,447.18**, last_equity (6/10 close) **$98,030.45**, long_market_value $52,084.51, daytrade_count 0. Day so far **+$501.24 / +0.51%**. Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query. Executed the pre-market plan (hold all 4, no buys) re-validated against live prices.
+
+### Tape read (off prices — relief bounce)
+- **SPY 725.58 (6/10 close) → 727.04 (~09:35 ET) = +0.20%.** Broad relief bounce after two risk-off days (post-CPI selloff). Our book +0.51% — beaten-down industrials bounced harder than the index, so **alpha today +0.31% so far** (early).
+- One green morning ≠ trend. Post-CPI "higher for longer" backdrop unchanged (Fed cut odds repriced down hard yesterday). This is an oversold bounce, not a regime change. Stay disciplined.
+
+### Positions — all 4 theses INTACT, all bounced on the day, all above stops (verified live)
+- **LLY** +5.24% (1134.95), day −0.13% — lone fractional red, but still our biggest winner; held flat while laggards bounced (anchor working). 10% trailing resting (id 6016a7e7, floor 1064.457, hwm 1182.73, mark < hwm so floor held, ~6.2% below mark). No action.
+- **GE** −1.71% (324.00), day +1.66% — recovered, no news, ~5.38% above 306.56 stop. Hold.
+- **DE** −3.87% (566.985), day +1.24% — bounced; cushion to 548.53 stop widened to ~3.26% (was ~1.86% pre-market). No company news; prior drawdown was ag/industrial price action. Hold.
+- **ETN** −5.11% (381.01), day +1.48% — still thinnest cushion (~1.99% above 373.43 stop) but moving the right way (was −6.31% Tue close). No Eaton-specific thesis-breaker. Hold; let the −7% stop work if it rolls back over (would be macro, not thesis).
+
+### Buy candidates
+- **None actionable.** Pre-market scan (Perplexity data outage) surfaced only JPM with 1 verified signal (#6 uptrend) — does NOT clear the 2-signal bar. No verified non-semis/non-industrial-concentrating setup. Per the pre-market plan's branch, the reserve buy re-arms only on (a) a verified 2-signal setup AND (b) a *confirmed-constructive* tape — one bounce day is not confirmation. Reserve buy (1 of 3 this week) stays parked. Book is NOT cash-dragged (4 of 5 invested, ~52.9%). Cap resets Mon 6/15.
+
+### Sell candidates
+- **None.** Worst ETN −5.11%, not at −7%; no thesis-breakers; LLY already trailing; no +5% conversions pending (GE/ETN/DE not near ~346.11 / ~421.62 / ~619.31). Daily loss cap (day +0.51%, up) not in play.
+
+### Action taken
+- **No trades.** No orders placed, cancelled, or converted. All 4 stops confirmed resting GTC. Cash unchanged $46,447.18. Memory written, dashboard updated, no Telegram push (no-trade open = no notify event per CLAUDE.md). Revisit at midday — reserve-buy scan re-arms only on a *verified* 2-signal setup AND sustained constructive tape (re-verify JPM signals + earnings date before any entry).
+
 Format:
 
 ```
