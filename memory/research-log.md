@@ -5,6 +5,30 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-12 12:05 CT — midday
+
+**Setup:** Keys present (all 4 required + Telegram). Market **OPEN** (clock is_open=true, ~13:05 ET, next_close 16:00 ET). Live Alpaca: equity **$99,648.29**, cash **$46,447.18**, last_equity (6/11 close) **$99,632.12**, long_market_value **$53,201.11**, daytrade_count 0. Day so far **+$16.17 / +0.016%** (flat). Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query.
+
+### Tape read
+- **SPY 737.67 (6/11 close) → 741.90 (~13:05 ET) = +0.573%.** Broad continued grind higher after Thursday's relief bounce. Our book +0.016% — flat — so **intraday alpha ~−0.56pts** (we lag on an up-day: ~46.6% cash earns nothing rising; the same cash cushions down-days). Close/weekly-review owns the authoritative figure.
+- WTD intraday: book +0.142% vs SPY +0.603% (from 6/5 close) → intraday WTD alpha ~−0.46pts. NOT authoritative — flipped slightly negative intraday only because SPY rallied into Friday; the close routine recomputes officially.
+
+### Positions — all 4 theses INTACT, all above stops (verified live)
+- **LLY** +6.10% (1144.25), anchor. 10% trailing resting (id 6016a7e7, floor 1064.457, hwm 1182.73, mark < hwm so floor held, ~6.97% below mark). No action.
+- **GE** +1.76% (335.43), quiet, no fresh news, ~8.61% above 306.56 stop. Hold.
+- **DE** −2.19% (576.93), improved from −3.17% at the open; ~4.92% above 548.53 stop. No company-specific catalyst; sector/macro drift. Hold.
+- **ETN** −2.51% (391.45), gave back the open's gain (was −1.00%), now the thinnest cushion ~4.6% above 373.43 stop. No Eaton-specific thesis-breaker; 6/10 spinoff remains thesis-positive. Hold; let the −7% stop work if it rolls over (macro, not thesis).
+
+### Buy candidates
+- **None actionable at midday.** No high-conviction breaking catalyst surfaced that would justify deviating from the pre-market plan at midday. JPM remains the lead reserve-buy idea (2 signals: #6 uptrend hard-verified, #5 rotation thematic; July-14 earnings outside blackout) but the deploy decision — requiring a verified 2-signal setup AND a confirmed-constructive tape — belongs to today's weekly-review routine, not midday. Book NOT cash-dragged (4 of 5 invested, ~53.4%). Cap resets Mon 6/15.
+
+### Sell candidates
+- **None.** Worst ETN −2.51%, not at −7%; no thesis-breakers; LLY already trailing; no new +5% conversions pending (GE/ETN/DE not near ~346.11 / ~421.62 / ~619.31; GE closest at +1.76%). Daily loss cap (day +0.016%, flat) not in play.
+
+### Action taken
+- **No trades.** No orders placed, cancelled, or converted. All 4 stops confirmed resting GTC. Cash unchanged $46,447.18. Memory written, dashboard updated, no Telegram push (quiet midday = no notify event per CLAUDE.md). Next: weekly review + week close — full-week alpha tally vs SPY, sub-agent research team for next week's candidates, and the reserve-buy/JPM decision before it resets Mon 6/15.
+
+---
 ## 2026-06-12 06:00 CT — pre-market
 
 **Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-12T09:30 ET). Pre-market snapshot (indicative last-trade marks ~07:05 ET, NOT live): equity **$99,844.45**, cash **$46,447.18**, long_market_value **$53,397.27** (~53.5% invested / ~46.5% cash), account last_equity (6/11 close) **$99,632.12**, daytrade_count 0. Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query (LLY trailing 1064.457; GE 306.56; ETN 373.43; DE 548.53). Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity. **Caveat: Perplexity real-time retrieval was again largely non-functional** for live prices/futures/earnings calendar — grounded everything possible against Alpaca; flagged the rest UNVERIFIED. **Today (Fri 6/12) is also the weekly-review + week-close day — that routine owns the reserve-buy decision and full week-alpha tally; this pre-market just tees up the view.**
