@@ -5,6 +5,40 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-12 06:00 CT — pre-market
+
+**Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-12T09:30 ET). Pre-market snapshot (indicative last-trade marks ~07:05 ET, NOT live): equity **$99,844.45**, cash **$46,447.18**, long_market_value **$53,397.27** (~53.5% invested / ~46.5% cash), account last_equity (6/11 close) **$99,632.12**, daytrade_count 0. Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query (LLY trailing 1064.457; GE 306.56; ETN 373.43; DE 548.53). Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity. **Caveat: Perplexity real-time retrieval was again largely non-functional** for live prices/futures/earnings calendar — grounded everything possible against Alpaca; flagged the rest UNVERIFIED. **Today (Fri 6/12) is also the weekly-review + week-close day — that routine owns the reserve-buy decision and full week-alpha tally; this pre-market just tees up the view.**
+
+### Market context
+- **Tape into the open: mixed-to-cautious, headline-sensitive into the weekend.** Hot May PPI (released 6/11) ran **+1.1% m/m vs +0.7% est** — fastest since late-2022, reinforcing this week's hot-CPI "higher-for-longer" story. Fed-cut odds priced out; some desks now flag a faint *hike* tail and put the October meeting "in play." Thursday 6/11 was a strong relief bounce (SPY +1.67%), but one bounce ≠ regime change.
+- **Futures/rates/FX/commodities: UNVERIFIED** — Perplexity could not retrieve time-stamped ES/NQ/10yr/DXY prints. Background only: 10yr low-4% earlier this week; WTI elevated on Middle East tensions (oil risk premium feeds the inflation narrative).
+- **Today's only scheduled US data:** prelim June UMich Consumer Sentiment (~mid-session). No inflation/labor prints today. Macro confidence LOW on live levels, MED on narrative.
+- **Benchmark grounding (Alpaca):** SPY 6/11 close **737.67** (after-hours last trade 738.15). Week baseline (6/5 close) 737.45 → +0.030% WTD pre-open.
+
+### Portfolio watch (pre-market marks; all 4 theses INTACT, zero thesis-breakers found)
+- **LLY** +7.93% (1164.01), our anchor. **Thesis supportive:** June 9 orforglipron ACHIEVE-1 readout (A1C −1.3 to −1.6%, ~7.9% weight loss) corroborated the oral-GLP-1 catalyst (one day outside the 24h window but constructive). 10% trailing resting, floor **1064.457** (~8.6% below mark; hwm 1182.73, mark < hwm so floor held). No action.
+- **ETN** −1.41% (395.87), recovered from this week's near-stop scare (was −6.31% Tue close). **MATERIAL POSITIVE / thesis STRENGTHENED:** June 10 announced separation of its Mobility Group into a Reverse Morris Trust with Dana (~$5.1B unit value, ~$1.1B cash to Eaton, holders own ≥50.1% of newco, closes ~1Q27) — sharpens the company onto higher-growth **Electrical/data-center + Aerospace**, i.e. exactly our buy thesis. Stock reportedly +5.06% on 6/11. ~5.67% above 373.43 stop. Hold.
+- **GE** +1.56% (334.77), quiet — no fresh material company news in 24-48h. ~8.43% above 306.56 stop. Intact, hold.
+- **DE** −3.39% (569.80), weakest name but **no company-specific thesis-breaker** (no guidance cut, downgrade, litigation, recall) — drawdown is ag/industrial sector/macro noise (severity-2). ~3.73% above 548.53 stop. Intact, hold.
+
+### Buy candidates
+- **JPM — JPMorgan Chase (Financials) — conviction MED. Now clears the 2-signal bar (upgraded from 1-signal on prior runs).**
+  - **Signal #6 (clear uptrend) — VERIFIED via Alpaca:** last 313.54, above 50d MA (~306.09, +2.4%), near 20d high 316.30, well off 20d low 293.83 — not catching a knife.
+  - **Signal #5 (sector rotation into financials) — thematic/verified-narrative:** higher-for-longer rates → stronger bank net-interest-margin is the dominant post-CPI strategist call this week. (Softer than a hard data point, but real and consistent.)
+  - **Next earnings: July 14, 2026 BMO (CONFIRMED)** — comfortably outside the 3-day no-buy blackout; safe to initiate.
+  - **Best-fit diversifier:** book is pharma + 3 industrials with zero financials and no tech/semis offset (NVDA exited 6/5). JPM fills the financials gap with a lower-beta quality name. Signals #1/#4 (earnings beat / fresh upgrade) UNVERIFIED today — last reported April, no verifiable 2-week upgrade found.
+- **ORCL — Oracle (quality tech/software) — conviction LOW.** BofA double-upgrade Underperform→Buy, PT $135 (dated 6/11) = signal #4. But Oracle's fiscal cadence often puts a print in **mid-June** → unverifiable earnings-proximity risk; price/trend UNVERIFIED. Watch-list only until earnings date is confirmed safe.
+- **INTC — deliberately EXCLUDED** despite an identical 6/11 BofA double-upgrade: it's exactly the high-beta semi the strategy says not to initiate into macro uncertainty (NVDA just stopped out twice). Skip.
+- Scout found **zero verifiable fresh earnings beats** this week — opportunity scan capped by retrieval failure, not by the names.
+
+### Sell candidates
+- **None.** Worst DE −3.39% (not at −7%); no thesis-breakers on any name; LLY already trailing; no +5% conversions pending (GE/ETN/DE not near ~346.11 / ~421.62 / ~619.31; GE closest at +1.56%). Daily loss cap N/A (market closed).
+
+### Plan handed to the weekly-review/close
+- **No trades this routine (market closed).** Hold all 4; let the −7% hard stops work. DE remains the live one (~3.73% cushion) but thesis intact.
+- **Reserve buy (1 of 3 this week, resets Mon 6/15):** JPM is the lead candidate and now has 2 signals (one hard #6, one thematic #5) + a clean July-14 earnings date. The weekly-review routine should: (a) re-verify JPM live price/uptrend at the open and check for any fresh upgrade (would lift conviction to MED-HIGH), (b) weigh deploying the reserve buy vs. parking it for Monday's reset given a still mixed/headline-sensitive tape, and (c) size JPM as a normal (non-high-beta) ~12-15% position if taken. Not cash-dragged (4 of 5 invested, ~53.5%), so no forced action.
+
+---
 ## 2026-06-11 08:36 CT — market-open
 
 **Setup:** Keys present (all 4 required + Telegram). Market **OPEN** (clock is_open=true, ~09:35 ET, next_close 16:00 ET). Live Alpaca: equity **$98,531.69**, cash **$46,447.18**, last_equity (6/10 close) **$98,030.45**, long_market_value $52,084.51, daytrade_count 0. Day so far **+$501.24 / +0.51%**. Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query. Executed the pre-market plan (hold all 4, no buys) re-validated against live prices.
