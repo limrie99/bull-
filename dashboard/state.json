@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-06-11 close",
-  "last_routine": "market-close",
+  "last_update": "2026-06-12 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99693.98,
+  "equity": 99844.45,
   "cash": 46447.18,
-  "day_pl": 1663.53,
-  "day_pl_pct": 1.70,
-  "spy_day_pct": 1.67,
-  "alpha_day_pct": 0.03,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
   "week_pl_pct": 0.19,
   "spy_week_pct": 0.03,
   "alpha_week_pct": 0.16,
@@ -16,24 +16,24 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1161.42,
-      "pl_pct": 7.69,
+      "current": 1164.01,
+      "pl_pct": 7.93,
       "stop": 1064.457
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 333.00,
-      "pl_pct": 1.02,
+      "current": 334.77,
+      "pl_pct": 1.56,
       "stop": 306.56
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 394.43,
-      "pl_pct": -1.77,
+      "current": 395.87,
+      "pl_pct": -1.41,
       "stop": 373.43
     },
     {
@@ -98,6 +98,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-12 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: hold all four, no trades before the open — plus good news for Eaton and a fresh buy idea (JPMorgan) for later today.",
+      "body": "Research-only check before the open (market closed). I sent my research team out — economy, earnings, our four stocks, and fresh ideas — then grounded prices with our broker (our news tool was glitchy again, so I kept the bar high). The mood is cautious: yesterday's wholesale-inflation report (PPI) ran hot, which keeps the Fed from cutting interest rates soon and caps how far stocks can run — so patience is the right setting. Bright spot: Eaton (ETN) announced it's spinning off a slower-growth car-parts unit to focus on its fast-growing electrical & data-center business — exactly why we own it, so the story got stronger. Nothing bad on Lilly, GE, or Deere; Deere's dip is just the industrial group drifting, not a company problem. All four safety-sell orders confirmed armed. Today is also my Friday weekly review, where I'll tally the full week and decide on our one spare buy. Lead idea: JPMorgan (JPM), a big bank — it now ticks two of our boxes (clear uptrend, and higher rates tend to help banks earn more), and we own no banks, so it fills a gap. I'll decide then whether to use the spare buy or wait for Monday. Equity ~$99,844 pre-market (rough overnight prices); $46,447 cash (~47% ready). Lilly leads +7.9%; GE +1.6%; Eaton −1.4%; Deere −3.4% — all above their nets. 2 of 3 weekly buys used. 🐂"
+    },
+    {
       "ts": "2026-06-11 close",
       "routine": "market-close",
       "headline": "Close: equity $99,694 · day +1.70% · SPY +1.67% · alpha +0.03% — a strong, green day, and we kept pace with a fast-rising market.",
@@ -138,12 +144,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — the inflation report came in warm, so I'm keeping our cash dry",
       "body": "Today the May inflation report (CPI — how fast prices are rising) landed at 7:30am CT, before the open. My plan all week was to react to the real number, not guess it. The market voted 'warm, not cool': the S&P 500 opened down ~0.5% and slipped BELOW the price floor it had held since Friday — that's the market saying inflation didn't cool enough to cheer. On a nervous day like this my playbook says protect the cash, don't go shopping. So: no new buys (the only name on radar, chip-maker Micron, is too jumpy and reports earnings in 2 weeks). No sells — I checked all four stocks for bad company news overnight and they're clean; the small dips are just everyone drifting down together. Lilly's still our star at +6.25%, barely flinching, its trailing safety-sell sitting safely far below. We're down ~$406 today (−0.41%) but the market's down more (−0.53%), so cash + Lilly are cushioning us — we're beating the market by a hair. $46,447 cash (~47% on the sidelines, ready). 2 of 3 weekly buys used, 1 held in reserve. I'll recheck midday — if the market calms and reclaims that floor, I may put the reserve buy to work in steadier sectors. 🐂"
-    },
-    {
-      "ts": "2026-06-09 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $99,706 · day +0.39% · SPY −0.29% · alpha +0.67%",
-      "body": "Quiet, satisfying day: we finished UP +0.39% while the market (SPY) slipped −0.29%, so we beat the benchmark by +0.67% (that gap in our favor is 'alpha'). No trades on purpose — tomorrow morning brings the CPI inflation report (Wed 8:30am ET), a coin-flip event, and I won't buy fresh the day before one, so our 1 spare buy stays in reserve. The midday dip reversed into a green close: GE and Eaton clawed all the way back to roughly breakeven and Deere recovered too, with no bad news on any of them. Lilly remains our anchor at +6.1% (+$918), trailing-protected at $1,064. Day +$382.68 (equity $99,706 vs $99,323 yesterday). Week so far +0.20% vs SPY −0.06% → alpha +0.26% (2 days in). $46,447 cash (~47%) on the sidelines — that cushion is what kept us green on a red day. I'll read tomorrow's inflation print first thing before deciding anything. 🐂"
     }
   ]
 }

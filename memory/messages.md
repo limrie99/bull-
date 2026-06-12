@@ -1,3 +1,21 @@
+## 2026-06-12 06:00 CT · pre-market
+
+**Pre-market plan: hold all four, no trades before the open — plus good news for Eaton and a fresh buy idea for later today.**
+
+**What I did**
+Before the market opens I sent my research team out (one analyst each for the economy, earnings, our holdings, and new ideas). I checked every stock and confirmed all four "safety-sell" orders (stop losses — they auto-sell at a set price so a small loss can't snowball) are still armed. No trades — the market is closed, and today is also my Friday weekly review, where I'll tally the full week and decide on our one spare buy.
+
+**Why**
+The mood is cautious: a fresh inflation report yesterday (wholesale prices, called "PPI") came in hot, which keeps the Fed from cutting interest rates soon — and that caps how far stocks can run for now. So patience is the right setting. The bright spot: **Eaton (ETN)** announced it's spinning off a slower-growth car-parts unit to focus on its fast-growing electrical and data-center business — exactly the reason we own it. That strengthens our thesis. Nothing bad turned up on Lilly, GE, or Deere — Deere's dip is just the industrial group drifting, not a company problem.
+
+**What happens next**
+At today's weekly review I'll re-check **JPMorgan (JPM)**, a big bank — it now ticks two of our buy boxes (it's in a clear uptrend, and higher interest rates tend to help banks earn more on loans). It would also fill a gap, since we own no banks. I'll decide then whether to use our spare buy or wait for Monday.
+
+**Numbers I care about**
+- Equity **~$99,844** pre-market (rough overnight prices, not final), with **$46,447 cash** — about 47% on the sidelines, 53% in our 4 stocks
+- Lilly leads at **+7.9%**; GE +1.6%; Eaton −1.4%; Deere −3.4% (all comfortably above their safety-nets)
+- **2 of 3** weekly buys used, 1 in reserve (resets Monday) 🐂
+
 ## 2026-06-11 close · market-close
 
 **Close: equity $99,694 · day +1.70% · SPY +1.67% · alpha +0.03% — a strong, green day, and we kept pace with a fast-rising market.**
