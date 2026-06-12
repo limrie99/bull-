@@ -33,6 +33,57 @@ Format:
 
 ---
 
+## Week ending 2026-06-12 (Friday) — the cash buffer's other face: lagged SPY on an up-week
+
+_Run 2026-06-12 (Fri) 16:05 CT, covers the trading week Mon 6/8 → Fri 6/12. Market confirmed closed via Alpaca clock; all marks are official Alpaca close. Numbers verified live against Alpaca (account, 1W portfolio history, SPY daily bars 6/5–6/12). Baseline held consistent with the daily routines all week: 6/5 close $99,507.02 / SPY 737.45._
+
+**Metrics**
+- Starting equity (Mon 6/8 open = 6/5 close): **$99,507.02**
+- Ending equity (Fri 6/12 close): **$99,521.97**
+- Week return: **+0.015%** (+$14.95 — essentially flat)
+- SPY week return: **+0.572%** (6/5 close 737.45 → 6/12 close 741.67)
+- **Alpha vs SPY: −0.557%** ❌ (first negative-alpha week since trading resumed)
+- Trades placed: **2 buys / 0 sells** (BUY GE + BUY ETN, both 6/8). 3rd weekly buy slot **expired unused.**
+- Win rate on closed trades this week: **N/A** (zero positions closed this week)
+- **2-week cumulative alpha (since trading resumed, 5/29 close baseline): +1.62%** ✅ (portfolio −0.319% vs SPY −1.94%)
+
+**The week in one line:** a near-flat book (+0.02%) lagged a modestly-rising SPY (+0.57%) by about half a point — the exact mirror of last week, when the same ~47%-cash buffer won us +2.24 alpha on a *down*-week. No losses, no stops fired, discipline clean, and we're still +1.62% ahead of SPY across the full two-week traded stretch.
+
+**Wins**
+- **No good stock got scalped out on macro noise.** Both new industrials got scary mid-week — ETN hit −6.30% on 6/10 (0.74% above its stop) and DE hit −5.15% on 6/11 (1.95% above its stop) on the post-CPI/PPI risk-off. Each time I ran a Perplexity thesis-break check, found NO company-specific catalyst (sector/rates, not thesis), and **held rather than pre-empt the −7% stop.** Both recovered by Friday (ETN −2.38%, DE −2.09%). The "don't scalp out on noise" v1 learning was rewarded twice this week.
+- **LLY stayed the anchor and GE worked.** LLY closed +5.15% (off its +7.69% midweek high but still the book's hero, trailing-stop locked). GE — the lead "rotation into industrials" entry — closed green +1.70%, the best of the two new buys. Stock selection on the *invested* sleeve was additive: the ~53%-invested book outran SPY most days; only the cash flattened the blended number.
+- **Risk system stayed clean.** Zero stops fired, zero whipsaws, all four GTC stops confirmed resting `new` every routine. Capital fully protected through a choppy −1%/+1.7% week.
+
+**Losses**
+- **We lagged SPY (−0.56% alpha) — the core mandate, missed this week.** SPY netted +0.57% on the week; we netted +0.02%. On the up-days the ~47% cash earned nothing while the index climbed, and LLY's Friday fade (1161 → 1134, −$380) erased the slim WTD lead right at the tape. The only number that matters long-term went the wrong way this week.
+- **The 3rd buy slot expired unused for the 2nd straight week.** Every individual day's "don't deploy" was defensible (pre-CPI, risk-off tape, no verified 2-signal setup, "not a confirmed-constructive tape"). But the cumulative effect — ~47% cash idle through a week SPY rose — is precisely what cost the alpha. JPM was floated all week as the lead idea and never cleared re-verification.
+
+**Root-cause read (signal vs. execution vs. thesis)**
+- **The negative alpha was structural, not a bad trade.** No trade lost money this week; nothing was closed. The lag is 100% **net-exposure / cash-drag**, the deliberate cost of a ~47%-cash defensive posture meeting an up-tape. Execution was clean, theses intact, signals fine.
+- **GE:** signal right (rotation + aerospace tailwind + uptrend), thesis playing out, +1.70%. The model new entry.
+- **ETN:** entered as a ≤10% starter per the high-beta discipline; thesis strengthened mid-week (6/10 spinoff). Still −2.38% — entry was a touch early into the post-CPI flush, but recovering and well-root-caused (macro, not thesis).
+- **DE:** −2.09%, recovered off a −5.15% midweek scare; no Deere-specific catalyst, pure sector/rate softness. Thesis intact.
+
+**Pattern recognition vs. previous reviews**
+- **The cash buffer has now shown BOTH faces in consecutive weeks.** Week 6/5 (down-week): buffer + selectivity → **+2.24 alpha**. Week 6/12 (up-week): same buffer → **−0.56 alpha**. This is not a bug — it is the *defining characteristic* of running ~47% cash, working exactly as the math predicts. Over the two weeks combined it nets **+1.62% alpha**, so the approach is winning cumulatively. The honest read: we are slightly under-exposed for a beat-SPY mandate, which trades downside protection for upside lag.
+- **Cash-drag, 2nd occurrence (yellow flag, NOT yet a rule trigger).** Last week's review explicitly flagged "cash-drag watch: ~47% cash with free slots." This week the 3rd slot again went unused and the cost materialized as negative alpha. That's **2 of a possible 3** occurrences against our own "three weeks of the same pattern is a signal" discipline. Naming it loudly now; if next week (6/19) again ends with idle slots and SPY-lagging alpha on a rising tape, that's the 3rd strike and warrants a deliberate look at whether our deploy bar is *too* conservative (not loosening guardrails — examining whether "confirmed-constructive tape" has become a perpetual excuse).
+- **NVDA/high-beta pattern: untested this week** (no semis position). The 6/5 entry-discipline learning stays on probation, unchanged.
+
+**Strategy adjustments**
+- **None. No guardrail changes, no new rules.** One lagging week — especially one with zero losses, clean discipline, and still-positive cumulative alpha — is noise, not a signal. The −7% hard stop, 10% trailing, position caps, weekly buy cap, cold-start rule, and high-beta entry discipline all held and need no tuning. Tightening *or* loosening on a two-week sample would be exactly the over-fitting the strategy warns against. The surgical move is to **name the cash-drag as a probationary 2nd-occurrence pattern** (above) and set a clear forward expectation, not to codify anything.
+- **Forward expectation (not a rule):** next week, treat a *verified* 2-signal, non-industrial-concentrating setup into a constructive tape as something to **deploy**, not reflexively park. The bar stays at 2+ signals; the discipline is to actually pull the trigger when it's cleared.
+
+**Live flags for next week (Mon 6/15 — weekly buy cap resets to 3, 1 free position slot, ~47% cash)**
+- **JPM downgraded as a lead idea — does NOT clear the bar.** Sub-agent re-verification: JPM clears only ~1.5 of 6 signals (signal 6 uptrend cleared at ~$313, upper band of its 52wk range; but the earnings beat is **2 months stale** (Q1 4/14), **no fresh guidance raise**, **no dated upgrade or insider buy in the last 2 weeks**, no near-term catalyst except its **7/14 earnings**). It is NOT a 2-signal buy next week. Clean re-entry window is *post-7/14* if it beats and raises. Do not deploy the reserve into JPM Monday on the old "lead idea" framing.
+- **Next week is event-heavy and holiday-shortened — lean to patience / late-week entries.** **FOMC 6/16–6/17, decision + dot plot Wed 6/17 2pm ET** is the dominant event; **triple-witching OPEX effectively hits Thu 6/18**; **market CLOSED Fri 6/19 (Juneteenth)** = only 4 sessions, two of them high-vol. Per our own discipline (don't initiate fresh size the day before a binary macro print), **avoid opening Mon–Tue ahead of the Fed; prefer staggering any fresh buys to after the 6/17 decision settles.**
+- **Candidate screen must be re-run Monday — Perplexity was unreliable this session.** sonar-pro inconsistently refused candidate/multi-ticker screens (an overcautious "no real-time data" guardrail), though single-ticker factual queries worked. The diversifier list did NOT complete. Re-run with different phrasing / plain `sonar` / parallel one-ticker sub-agents before any buy. Directionally the gaps to fill (book = 3 industrials + 1 pharma) are **consumer staples, a financial/insurer, and a utility or consumer-discretionary** name; WMT (staples, low-beta) surfaced as a reasonable archetype but its catalyst/earnings date were unverified — do NOT act on it unverified.
+- **LLY** trailing floor 1064.457 re-climbs only on new highs above the 1182.73 hwm; watch whether it resumes leadership or has topped. **GE** the model new entry (+1.70%). **DE** −7% stop 548.53, **ETN** −7% stop 373.43 — both recovering, theses intact, stops are the backstop.
+- **Read the tape first:** is the 6/11→6/12 reclaim of the post-CPI selloff durable, or a two-day relief bounce? Combined with the FOMC, this argues for patience early in the week. Don't catch a knife; equally, don't let "wait for confirmation" become a 3rd idle week — if a *verified* 2-signal diversifier clears post-Fed, deploy it.
+
+**Grade: C+** — no money lost, no discipline broken, risk system flawless, and still +1.62% ahead of SPY cumulatively — but we **lagged the benchmark this week** (−0.56% alpha), the one number that matters long-term, and let the 3rd buy slot sit idle for the 2nd straight week on an up-tape. A "fine, but we missed the mandate this week" grade: better than C because nothing was lost and the lag was structural/defensible, held below B because beating SPY is the job and this week we didn't.
+
+---
+
 ## Week ending 2026-06-05 (Friday) — first FULLY TRADED week post-repair
 
 _Run 2026-06-05 (Fri) 16:00 CT, covers the trading week Mon 6/1 → Fri 6/5. This is the first weekly review written off a book that actually **traded** since the persistence repair — the forward test the 5/29 review set up. Numbers verified live against Alpaca (account, 1W portfolio history, SPY daily bars). Friday close marks used (LLY 1131.00, DE 583.44) for apples-to-apples with SPY's official close; after the bell LLY drifted to ~1119.53, leaving live equity ~$99,426._

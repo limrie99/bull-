@@ -1178,3 +1178,23 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **No trades.** Reserve buy (1 of 3 this week, expires today) parked — no verified 2-signal setup to execute at the open, and the reserve-deploy decision (incl. JPM re-verification) belongs to today's weekly-review routine. Not forcing it; this is NOT cold-start (healthy 4-position book, fresh memory).
 - **Notable:** ETN firmed to −1.00% (from −1.77% at 6/11 close) on its pre-market spinoff announcement (separating a slower-growth vehicle unit to focus on electrical/data-center) — thesis-positive. No Deere-specific or other adverse catalyst noted on the four at the open.
 - **Watch into midday/close:** does the green open hold? DE's ~3.96% cushion is the live one but improving. Weekly review later today: full-week alpha, next-week candidates, reserve-buy decision before Mon 6/15 reset.
+
+### Weekly review + week-close 2026-06-12 16:05 CT (market closed; marks = official Alpaca close)
+
+- **Closing equity:** $99,521.97 | cash $46,447.18 (46.7%) | invested $53,074.79 (53.3%, 4 positions). daytrade_count 0. Clock is_open=false (next_open Mon 6/15).
+- **Day P/L (6/12):** equity 99,521.97 − last_equity 99,632.12 = **−$110.15 / −0.111%.** LLY faded 1161.42→1134.00 (−$380 swing on 14 sh) on a day SPY rose — the day's drag.
+- **SPY day:** 6/11 close 737.67 → 6/12 close 741.67 (Alpaca daily bar; latest trade 741.67 @ 19:59Z confirms) = **+0.542%.** **Day alpha −0.65%** (lagged).
+- **WEEK (Mon 6/8 → Fri 6/12, baseline 6/5 close $99,507.02 / SPY 737.45):** portfolio **+0.015%** (+$14.95) | SPY 737.45→741.67 **+0.572%** | **week alpha −0.557%** ❌ — first negative-alpha week since trading resumed.
+- **2-WEEK cumulative (5/29 close $99,840.95 / SPY 756.34 baseline):** portfolio 99,840.95→99,521.97 = **−0.319%** | SPY 756.34→741.67 = **−1.940%** | **alpha +1.62%** ✅.
+- **Trades this week:** 2 buys (GE 45 @ 329.63, ETN 24 @ 401.5425, both 6/8), 0 sells, 0 stops fired, 0 conversions. 3rd weekly buy slot **expired unused.** No closed trades → win rate N/A.
+- **Closing marks:** LLY 1134.00 +5.15% (+$777.56) | GE 335.25 +1.70% (+$252.88) | DE 577.48 −2.09% (−$271.48) | ETN 392.00 −2.38% (−$229.02). Net open unrealized +$529.94.
+- **Stops (all GTC, confirmed `new` at the open):** LLY trail 1064.457 (hwm 1182.73, floor held) | GE 306.56 | ETN 373.43 | DE 548.53. No stop action: worst ETN −2.38% (not −7%); only LLY ≥+5% and already trailing (no new high to ratchet).
+
+**Root-cause read:** the −0.56% week alpha is structural (net-exposure/cash-drag on an up-tape), not a bad trade — nothing was closed, no loss taken. Mirror image of last week's +2.24 (down-tape). Cumulative still +1.62%. No guardrail change warranted (one lagging week is noise). Logged the cash-drag as a probationary 2nd-occurrence pattern (3rd strike = examine whether the deploy bar is too conservative).
+
+**Next-week sub-agent digest (research-only; Perplexity sonar-pro flaky on screening queries this session — single-ticker factual worked, multi-ticker/open-ended screens hit an inconsistent "no real-time data" refusal):**
+- **JPM:** clears only ~1.5 of 6 signals. Uptrend ✅ (~$313, upper band of $262.71–$337.25 52wk range). But Q1 beat (4/14) is 2 months stale, no fresh guidance raise, no dated upgrade/insider buy in last 2 weeks, no near-term catalyst except **earnings 7/14** (outside blackout for the 6/15 week, but the buy case is weak). NOT a 2-signal buy. Revisit post-7/14. Downgraded from "lead idea."
+- **Macro week of 6/15:** **FOMC 6/16–6/17 (decision + dot plot Wed 6/17 2pm ET)** dominant; housing/retail Tue–Wed; jobless claims/Philly Fed Thu; **triple-witching OPEX effectively Thu 6/18**; **market CLOSED Fri 6/19 (Juneteenth)** → 4 sessions, 2 high-vol. Lean patience; avoid opening Mon–Tue ahead of the Fed; stagger fresh buys to after 6/17.
+- **Candidate screen INCOMPLETE — re-run Monday** (Perplexity refused the diversifier list). Gaps to fill (3 industrials + 1 pharma): consumer staples / financial-insurer / utility or consumer-discretionary. WMT surfaced as a low-beta staples archetype but catalyst + earnings date UNVERIFIED — do not act unverified. Re-run with different phrasing / plain `sonar` / parallel one-ticker sub-agents before committing any of Monday's 3 buys.
+
+**Grade: C+** — no loss, clean discipline, flawless risk system, still +1.62% cumulative alpha — but lagged SPY this week (−0.56%) and let the 3rd buy slot sit idle a 2nd straight week on an up-tape.

@@ -1,3 +1,24 @@
+## 2026-06-12 16:05 CT · weekly review + week-close
+
+**Week ending 6/12: us +0.02% | S&P 500 +0.57% | we trailed by ~0.56% | grade C+. A quiet, no-loss week where the market edged us out — but we're still ahead of it over the last two weeks combined.**
+
+**The scorecard first (plain English)**
+We finished the week essentially flat (+$15), while the S&P 500 — the index of the 500 biggest US companies, our benchmark — rose about +0.57%. So this week the market beat us by roughly half a percentage point. That's the opposite of last week, when the same setup beat the market by +2.2%. Zoom out to both weeks together and we're still **ahead of the market by ~1.6%** — which is the number that actually matters.
+
+**Why we trailed (and why it's not a mistake)**
+We keep about 47% of the account in cash. On a week when the market drifts *up*, that cash earns nothing and we lag — exactly what happened. On a week when the market falls (like last week), that same cash cushions us and we win big. It's a deliberate trade-off, not an error: we gave up a little upside this week in exchange for the downside protection that paid off last week. The honest catch: we also left our one spare "buy" unused for a second week running, and that idle cash is part of why we lagged.
+
+**What went right**
+Two of our stocks got scary mid-week — Eaton and Deere each dropped close to their automatic safety-sells (stop losses) — but I checked the news, found no actual company problems (just the whole sector wobbling on interest-rate jitters), and held firm instead of panic-selling. Both bounced back by Friday. Lilly stayed our star (+5.2%) and GE, our newest buy, closed green (+1.7%).
+
+**What I'm watching next week**
+Next week is busy and short: the Federal Reserve (the US central bank that sets interest rates) announces its decision Wednesday, there's a big options-expiration day Thursday, and the market is **closed Friday for Juneteenth**. That's a recipe for jumpy trading, so I'll be patient early and wait until after the Fed before putting fresh money to work. My old lead idea, JPMorgan, didn't hold up on a closer look (its good news is two months stale), so I've set it aside — I'll hunt for a fresh, fully-qualified idea Monday.
+
+**Numbers I care about**
+- Equity **$99,521.97** — flat on the week (+$15); two-week score vs. the market: **+1.6% ahead** ✅
+- This week's "alpha" (our edge over the market): **−0.56%** — we trailed; last week was +2.24%, so it evens out and then some
+- $46,447 cash (~47% on the sidelines); next week resets us to **3 fresh buys** available, 1 open position slot 🐂
+
 ## 2026-06-12 12:05 CT · midday
 
 **Midday: steady, no changes — we're flat on the day while the market drifts up; all four stocks healthy and the spare buy stays for this afternoon's review.**

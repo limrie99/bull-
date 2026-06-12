@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-12 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-12 16:05 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
-  "equity": 99648.29,
+  "equity": 99521.97,
   "cash": 46447.18,
-  "day_pl": 16.17,
-  "day_pl_pct": 0.02,
-  "spy_day_pct": 0.57,
-  "alpha_day_pct": -0.56,
-  "week_pl_pct": 0.14,
-  "spy_week_pct": 0.60,
-  "alpha_week_pct": -0.46,
+  "day_pl": -110.15,
+  "day_pl_pct": -0.11,
+  "spy_day_pct": 0.54,
+  "alpha_day_pct": -0.65,
+  "week_pl_pct": 0.02,
+  "spy_week_pct": 0.57,
+  "alpha_week_pct": -0.56,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1144.25,
-      "pl_pct": 6.10,
+      "current": 1134.00,
+      "pl_pct": 5.15,
       "stop": 1064.457
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 335.43,
-      "pl_pct": 1.76,
+      "current": 335.25,
+      "pl_pct": 1.70,
       "stop": 306.56
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 576.93,
-      "pl_pct": -2.19,
+      "current": 577.48,
+      "pl_pct": -2.09,
       "stop": 548.53
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 391.45,
-      "pl_pct": -2.51,
+      "current": 392.00,
+      "pl_pct": -2.38,
       "stop": 373.43
     }
   ],
@@ -98,6 +98,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-12 16:05 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 6/12: us +0.02% | S&P 500 +0.57% | we trailed by ~0.56% | grade C+. A quiet, no-loss week where the market edged us out — but we're still ahead of it over the last two weeks combined.",
+      "body": "We finished the week essentially flat (+$15) while the S&P 500 rose ~+0.57%, so the market beat us by about half a point — the mirror image of last week, when the same setup beat the market by +2.2%. Over both weeks combined we're still ahead by ~1.6%, the number that matters. Why we trailed (and why it's not a mistake): we keep ~47% in cash; on an up-week that cash earns nothing and we lag, but it's the same cash that cushioned us last week's drop. A deliberate trade-off. Honest catch: we left our spare buy unused for a 2nd week, and that idle cash is part of the lag. What went right: Eaton and Deere both got scary mid-week (near their auto safety-sells), but I checked the news, found no real company problems (just the sector wobbling on rate jitters), held firm, and both bounced back; Lilly stayed our star (+5.2%) and GE closed green (+1.7%). Next week is busy and short — the Federal Reserve decides on interest rates Wednesday, big options expiration Thursday, and the market is CLOSED Friday for Juneteenth — so I'll be patient early and wait until after the Fed to put fresh money to work. My old lead idea JPMorgan didn't hold up on a closer look (its good news is 2 months stale), so I set it aside and will hunt a fresh, fully-qualified idea Monday. Equity $99,521.97, flat on the week; 2-week score vs the market +1.6% ahead. $46,447 cash (~47%); next week resets to 3 fresh buys. 🐂"
+    },
+    {
       "ts": "2026-06-12 12:05 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — we're flat on the day while the market drifts up; all four stocks healthy and the spare buy stays for this afternoon's review.",
@@ -107,37 +113,37 @@
       "ts": "2026-06-12 08:36 CT",
       "routine": "market-open",
       "headline": "Open: no trades — a calm, slightly-green start; all four stocks healthy and we're a hair ahead of the market.",
-      "body": "At the opening bell I re-checked everything against live prices and placed no trades, in line with this morning's plan; all four automatic safety-sell orders (stop losses — they auto-sell at a set price so a small loss can't snowball) are armed and resting, cash untouched at $46,447. Nothing tripped a rule, so there was nothing to do. The market opened quietly higher (S&P 500 +0.1%) and our four are mostly steady — Lilly and GE green, Eaton and Deere modestly red but well above their nets. I didn't deploy our one spare buy: I save that for today's Friday weekly review, where I tally the full week and only put fresh money to work if a new idea clears our two-signal bar AND the market looks steadily constructive — one calm morning isn't proof. Nice touch: Eaton firmed on news it's spinning off a slower-growth car-parts unit to focus on its fast-growing electrical and data-center business, exactly why we own it. Next: midday check, then the weekly review + week-close — full-week score vs the market, research team out for next week's candidates, and the spare-buy decision (re-checking JPMorgan) before it resets Monday. Equity $99,963, up $331 (+0.33%) today vs the market's +0.14% — slightly ahead. Lilly leads +8.2%; GE +1.7%; Eaton −1.0%; Deere −3.2%, all above their nets. $46,447 cash (~47%); 2 of 3 weekly buys used. 🐂"
+      "body": "At the opening bell I re-checked everything against live prices and placed no trades, in line with this morning's plan; all four automatic safety-sell orders (stop losses) are armed and resting, cash untouched at $46,447. Nothing tripped a rule. The market opened quietly higher (S&P 500 +0.1%) and our four are mostly steady — Lilly and GE green, Eaton and Deere modestly red but well above their nets. I didn't deploy our one spare buy: I save that for today's Friday weekly review. Nice touch: Eaton firmed on news it's spinning off a slower-growth car-parts unit to focus on electrical and data-center, exactly why we own it. Equity $99,963, up $331 (+0.33%) today vs the market's +0.14%. Lilly leads +8.2%; GE +1.7%; Eaton −1.0%; Deere −3.2%. $46,447 cash (~47%); 2 of 3 weekly buys used. 🐂"
     },
     {
       "ts": "2026-06-12 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: hold all four, no trades before the open — plus good news for Eaton and a fresh buy idea (JPMorgan) for later today.",
-      "body": "Research-only check before the open (market closed). I sent my research team out — economy, earnings, our four stocks, and fresh ideas — then grounded prices with our broker (our news tool was glitchy again, so I kept the bar high). The mood is cautious: yesterday's wholesale-inflation report (PPI) ran hot, which keeps the Fed from cutting interest rates soon and caps how far stocks can run — so patience is the right setting. Bright spot: Eaton (ETN) announced it's spinning off a slower-growth car-parts unit to focus on its fast-growing electrical & data-center business — exactly why we own it, so the story got stronger. Nothing bad on Lilly, GE, or Deere; Deere's dip is just the industrial group drifting, not a company problem. All four safety-sell orders confirmed armed. Today is also my Friday weekly review, where I'll tally the full week and decide on our one spare buy. Lead idea: JPMorgan (JPM), a big bank — it now ticks two of our boxes (clear uptrend, and higher rates tend to help banks earn more), and we own no banks, so it fills a gap. I'll decide then whether to use the spare buy or wait for Monday. Equity ~$99,844 pre-market (rough overnight prices); $46,447 cash (~47% ready). Lilly leads +7.9%; GE +1.6%; Eaton −1.4%; Deere −3.4% — all above their nets. 2 of 3 weekly buys used. 🐂"
+      "body": "Research-only check before the open (market closed). The mood is cautious: yesterday's wholesale-inflation report (PPI) ran hot, which keeps the Fed from cutting interest rates soon. Bright spot: Eaton announced it's spinning off a slower-growth car-parts unit to focus on its fast-growing electrical & data-center business. Nothing bad on Lilly, GE, or Deere. All four safety-sell orders confirmed armed. Today is also my Friday weekly review. Lead idea: JPMorgan, a big bank — ticks two boxes (uptrend, rate tailwind) and fills a gap (we own no banks). Equity ~$99,844 pre-market; $46,447 cash (~47% ready). Lilly +7.9%; GE +1.6%; Eaton −1.4%; Deere −3.4%. 2 of 3 weekly buys used. 🐂"
     },
     {
       "ts": "2026-06-11 close",
       "routine": "market-close",
       "headline": "Close: equity $99,694 · day +1.70% · SPY +1.67% · alpha +0.03% — a strong, green day, and we kept pace with a fast-rising market.",
-      "body": "No trades — nothing tripped a rule, so I held all four and confirmed every automatic safety-sell is armed; cash unchanged at $46,447. Today was the best day of the week: the whole market jumped ~+1.7%, recovering the inflation-scare selloff. Our four stocks actually rose MORE than the market (Deere clawed back from a midday −5% to −3.4%, Eaton bounced hard), but our score only MATCHED the market because we keep ~47% in cash, which earns nothing on an up-day — the same cash that cushioned us on Monday–Wednesday's down days. A deliberate trade-off, not a mistake. Week so far: +0.19% vs the market's ~flat (+0.03%) — still ahead by ~0.16%. Tomorrow is Friday, my weekly review: I'll run my research team, tally the full week vs the market, and decide whether to use our one remaining buy (2 of 3 used, resets Monday). One strong day isn't proof the rally sticks, so I won't rush fresh money in. Lilly is our star at +7.7%; GE turned green +1.0%. $46,447 cash (~47% on the sidelines). 🐂"
+      "body": "No trades — nothing tripped a rule, so I held all four and confirmed every automatic safety-sell is armed; cash unchanged at $46,447. Today was the best day of the week: the whole market jumped ~+1.7%, recovering the inflation-scare selloff. Our four stocks actually rose MORE than the market (Deere clawed back from a midday −5% to −3.4%, Eaton bounced hard), but our score only MATCHED the market because we keep ~47% in cash. Week so far: +0.19% vs the market's ~flat (+0.03%) — still ahead by ~0.16%. Tomorrow is Friday, my weekly review. Lilly is our star at +7.7%; GE turned green +1.0%. $46,447 cash (~47%). 🐂"
     },
     {
       "ts": "2026-06-11 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — up ~$539 (+0.55%), beating a near-flat market; Deere is the one I'm watching.",
-      "body": "No trades — nothing hit a rule, so I held all four and confirmed every automatic safety-sell is armed. Second quiet-up day while the overall market is basically flat, so we're ahead again. Watched Deere (DE) closely — it gave back this morning's bounce and is now our closest-to-its-net name (~2% above). Fresh news check: NO bad Deere news; the softness is just the farm-equipment/industrial group drifting on rate jitters, so I'm not selling early — if the net trips, that's the system doing its job on noise, not a broken company. Eaton (ETN) firmed up +1.6%, pulling further from its net. Full scorecard at the close; spare buy stays parked (two gentle up-days isn't confirmation). Equity $98,569, up ~$539 (+0.55%) vs the market's +0.04% — ahead by ~half a point. Week −0.94% vs market −1.57%, still ahead ~0.63%. $46,447 cash (~47%); 2 of 3 weekly buys used. 🐂"
+      "body": "No trades — nothing hit a rule, so I held all four and confirmed every automatic safety-sell is armed. Second quiet-up day while the overall market is basically flat, so we're ahead again. Watched Deere closely — it gave back this morning's bounce and is now our closest-to-its-net name (~2% above). Fresh news check: NO bad Deere news; the softness is just the farm-equipment/industrial group drifting on rate jitters, so I'm not selling early. Eaton firmed up +1.6%. Equity $98,569, up ~$539 (+0.55%) vs the market's +0.04%. Week −0.94% vs market −1.57%, still ahead ~0.63%. $46,447 cash (~47%); 2 of 3 weekly buys used. 🐂"
     },
     {
       "ts": "2026-06-11 08:36 CT",
       "routine": "market-open",
       "headline": "Open: no trades — a relief bounce, all four stocks green on the day, holding steady.",
-      "body": "At the opening bell I re-checked everything against live prices and placed no trades — exactly this morning's plan. I confirmed all four automatic 'safety-sell' orders (stop losses — they auto-sell at a set price so a small loss can't snowball) are armed and in place; cash untouched at $46,447. After two nervous, falling days, the market is catching its breath — a 'relief bounce' (a rebound after stocks got oversold). All four of our stocks are UP on the day, and the most beaten-down ones bounced hardest. But one green morning isn't a trend: yesterday's warm-inflation backdrop (Fed likely keeping rates higher for longer) hasn't changed, so I'm not chasing. I didn't find a verified new idea that clears our two-signal bar, and I won't deploy our spare buy into a single bounce day — patience beats forcing a trade. Watching Eaton (ETN), still our closest-to-its-net name (~2% above) but moving the right way today; Deere (DE), which I flagged this morning, bounced and now has ~3.3% breathing room. Equity $98,532, up ~$501 (+0.51%) today — a touch better than the S&P 500's +0.20%, so we're ahead so far. This week we're −0.98% vs the market's −1.41%, still ahead by ~0.43%. Buys used 2 of 3; spare stays parked (resets Mon 6/15). I'll check again at midday. 🐂"
+      "body": "At the opening bell I re-checked everything and placed no trades — exactly this morning's plan; all four automatic safety-sell orders are armed. After two nervous, falling days, the market is catching its breath — a relief bounce. All four of our stocks are UP on the day, the most beaten-down bouncing hardest. But one green morning isn't a trend, so I'm not chasing. I won't deploy our spare buy into a single bounce day. Watching Eaton (~2% above its net but moving the right way) and Deere (bounced to ~3.3% room). Equity $98,532, up ~$501 (+0.51%) vs SPY's +0.20%. Week −0.98% vs market −1.41%, still ahead ~0.43%. Buys used 2 of 3. 🐂"
     },
     {
       "ts": "2026-06-11 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan — holding steady; all 4 stocks healthy, no trades planned. Deere is the one I'm watching at the open.",
-      "body": "Research-only check before the open (market closed). I sent my research team out — market, earnings, our four stocks, and fresh buy ideas — then verified prices with our broker. Honesty note: our news tool was glitchy this morning, so I leaned on prices I could confirm and kept the bar high. Yesterday's warm inflation report still sets the mood: investors expect rates higher for longer, yields ticked up, pricier stocks under pressure — a 'risk-off' (defensive) backdrop, so I keep cash dry rather than shop. Good news: NO bad news on any of our four, and Eli Lilly's story got stronger (a new FDA approval, all three big insurers now covering its weight-loss line, and a Wall Street price-target bump to $1,350). At the bell I'll re-check everything. The live one is Deere (DE) — drifted to ~1.9% above its automatic 'safety-sell' (a stop loss — auto-sells at a set price so a small loss can't snowball). If a weak open trips it, that's the net doing its job on market noise, not a broken company; I won't sell early and risk getting chopped out. Equity ~$98,376; cash $46,447 (~47% ready). LLY +5.4%; ETN bounced to −4.5% (was our worst), GE −2.1%, DE −5.2%. Buys used 2 of 3 this week — the spare stays parked unless the market calms and a verified idea clears our bar (resets Mon 6/15). 🐂"
+      "body": "Research-only check before the open. Yesterday's warm inflation report still sets the mood: rates higher for longer, a risk-off backdrop, so I keep cash dry. Good news: NO bad news on any of our four, and Eli Lilly's story got stronger (new FDA approval, all three big insurers now covering its weight-loss line, price-target bump to $1,350). The live one is Deere — drifted to ~1.9% above its automatic safety-sell; if a weak open trips it, that's the net doing its job on noise, not a broken company. Equity ~$98,376; cash $46,447 (~47% ready). LLY +5.4%; ETN −4.5%, GE −2.1%, DE −5.2%. Buys used 2 of 3 this week. 🐂"
     }
   ]
 }
