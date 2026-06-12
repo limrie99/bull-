@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-11 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-11 close",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 98569.47,
+  "equity": 99693.98,
   "cash": 46447.18,
-  "day_pl": 539.02,
-  "day_pl_pct": 0.55,
-  "spy_day_pct": 0.04,
-  "alpha_day_pct": 0.51,
-  "week_pl_pct": -0.94,
-  "spy_week_pct": -1.57,
-  "alpha_week_pct": 0.63,
+  "day_pl": 1663.53,
+  "day_pl_pct": 1.70,
+  "spy_day_pct": 1.67,
+  "alpha_day_pct": 0.03,
+  "week_pl_pct": 0.19,
+  "spy_week_pct": 0.03,
+  "alpha_week_pct": 0.16,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1154.0101,
-      "pl_pct": 7.00,
+      "current": 1161.42,
+      "pl_pct": 7.69,
       "stop": 1064.457
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 322.275,
-      "pl_pct": -2.23,
+      "current": 333.00,
+      "pl_pct": 1.02,
       "stop": 306.56
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 381.49,
-      "pl_pct": -4.99,
+      "current": 394.43,
+      "pl_pct": -1.77,
       "stop": 373.43
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 559.455,
-      "pl_pct": -5.15,
+      "current": 569.80,
+      "pl_pct": -3.39,
       "stop": 548.53
     }
   ],
@@ -97,6 +97,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-11 close",
+      "routine": "market-close",
+      "headline": "Close: equity $99,694 · day +1.70% · SPY +1.67% · alpha +0.03% — a strong, green day, and we kept pace with a fast-rising market.",
+      "body": "No trades — nothing tripped a rule, so I held all four and confirmed every automatic safety-sell is armed; cash unchanged at $46,447. Today was the best day of the week: the whole market jumped ~+1.7%, recovering the inflation-scare selloff. Our four stocks actually rose MORE than the market (Deere clawed back from a midday −5% to −3.4%, Eaton bounced hard), but our score only MATCHED the market because we keep ~47% in cash, which earns nothing on an up-day — the same cash that cushioned us on Monday–Wednesday's down days. A deliberate trade-off, not a mistake. Week so far: +0.19% vs the market's ~flat (+0.03%) — still ahead by ~0.16%. Tomorrow is Friday, my weekly review: I'll run my research team, tally the full week vs the market, and decide whether to use our one remaining buy (2 of 3 used, resets Monday). One strong day isn't proof the rally sticks, so I won't rush fresh money in. Lilly is our star at +7.7%; GE turned green +1.0%. $46,447 cash (~47% on the sidelines). 🐂"
+    },
     {
       "ts": "2026-06-11 12:00 CT",
       "routine": "midday",

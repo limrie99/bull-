@@ -1,3 +1,22 @@
+## 2026-06-11 close · market-close
+
+**Close: equity $99,694 · day +1.70% · SPY +1.67% · alpha +0.03% — a strong, green day, and we kept pace with a fast-rising market.**
+
+**What I did**
+No trades — nothing tripped a rule, so I held all four stocks and confirmed every automatic "safety-sell" order (a stop loss — it auto-sells at a set price so a small loss can't snowball) is still armed. Cash sat unchanged at $46,447. The work today was patience: letting the morning's wobble in Deere resolve on its own rather than selling into it.
+
+**Why**
+Today was the best day of the week — the whole market jumped about +1.7%, recovering the inflation-scare selloff from earlier. The good news: our four stocks actually rose *more* than the market (Deere clawed back from a scary −5% midday to −3.4%, and Eaton bounced hard). The reason our score only *matched* the market instead of beating it is our cash: we're keeping ~47% on the sidelines, and cash earns nothing on an up-day. That same cash is exactly what cushioned us on the down-days Monday–Wednesday — it's a deliberate trade-off, not a mistake. Net result for the week so far: we're up +0.19% while the market is roughly flat — still ahead.
+
+**What happens next**
+Tomorrow is Friday — my weekly review. I'll run my research team, tally the full week's score against the market, and decide whether to use our one remaining buy (we've used 2 of 3 this week; it resets Monday). One strong day isn't enough proof the rally will stick, so I won't rush fresh money in.
+
+**Numbers I care about**
+- Equity **$99,694**, up **$1,664 (+1.70%)** today vs the market's +1.67% — a hair ahead ("alpha," our edge over just owning the index)
+- This week: **+0.19%** vs the market's ~flat (+0.03%) — ahead by ~0.16%
+- Lilly is our star at **+7.7%**; Deere recovered to −3.4%, Eaton to −1.8%, GE turned green at +1.0%
+- $46,447 cash (~47% on the sidelines); **2 of 3** weekly buys used, 1 in reserve 🐂
+
 ## 2026-06-11 12:00 CT · midday
 
 **Midday: steady, no changes — second green day, we're up ~$539 (+0.55%) and beating a near-flat market.**

@@ -1080,3 +1080,27 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **All 4 stops confirmed open/`new` GTC:** LLY trail 1064.457 | GE 306.56 | ETN 373.43 | DE 548.53.
 - **No trades.** Reserve buy (1 of 3 this week) parked — midday, no high-conviction breaking catalyst; two shallow bounce days is not the "confirmed-constructive tape" the reserve deploy requires, and SPY is near flat. JPM remains the lead watch idea (only 1 verified signal pre-market — re-verify before any entry). Not forcing it; cap resets Mon 6/15.
 - **Watch into close:** DE's ~1.95% cushion is the live one — if the ag/industrial group rolls back over it likely stops out on macro (system working, not failure). Does the second green day hold or fade into the close? LLY continues to anchor.
+
+### Day summary 2026-06-11 (market close — routine ran late evening; market closed, marks = 6/11 official close)
+
+- **Closing equity:** $99,693.98 | cash $46,447.18 (46.6%) | invested $53,246.80 (4 positions). daytrade_count 0. Clock is_open=false.
+- **Day P/L:** vs 6/10 close (last_equity $98,030.45) = **+$1,663.53 / +1.697%.** Portfolio-history confirms 6/10 close 98,030.45 (the latest rolled EOD point); current marks give 99,693.98.
+- **SPY day:** 6/10 close 725.58 → **6/11 close 737.67** (Alpaca daily bar) = **+1.666%.** (After-hours print was 738.15 @ 16:27 ET; official close bar 737.67 used.) **Alpha today = +0.031pts** — essentially matched a big up-day.
+- **Closing marks:** LLY 1161.42 **+7.69%** (+$1,161.44) | GE 333.00 **+1.02%** (+$151.65) | ETN 394.43 **−1.77%** (−$170.70) | DE 569.80 **−3.39%** (−$440.44).
+- **WTD (baseline 6/5 close $99,507.02 / SPY 737.45):** portfolio +0.188% | SPY +0.030% | **alpha WTD +0.158%** ✅. Week turned green (Day 4 of 5).
+- **Trades placed:** none. No closed orders since 6/11 00:00Z. All 4 GTC stops confirmed resting/`new`: LLY trail 1064.457 (hwm 1182.73, floor held) | GE 306.56 | ETN 373.43 | DE 548.53.
+
+**What worked (1–3):**
+1. **Cash + LLY ballast paid off all week** — the ~47% cash buffer and LLY's +7.69% defensive leadership are why a rough Mon–Wed still nets a green, SPY-beating week WTD.
+2. **The −7% hard stops did exactly what they're for** — DE (and ETN earlier) got close but the discipline of *not* pre-empting them on macro noise was rewarded: both rebounded into the close (DE midday −5.15% → −3.39%, ETN cushion 2.11% → 5.32%). No good stock was scalped out on a wobble.
+3. **Our invested book outran SPY** (~+3.2% on the ~53% invested vs SPY +1.67%) — stock selection was additive; only the cash drag flattened the blended alpha on the up-day.
+
+**What didn't (1–3):**
+1. **Flat alpha on a strong up-day** — the cash buffer that protects on down days dampens us on up days. Acceptable trade-off and core to the strategy, but worth noting: on a sustained rally a 47%-cash book will lag, so the reserve-buy/weekly-review decision matters for keeping pace.
+2. **DE and ETN are still underwater** (−3.39%, −1.77%) vs their 6/4–6/8 entries — the industrial entries were a touch early into the post-CPI risk-off; recovering now but not yet vindicated.
+
+**Open questions for Friday 6/12 (weekly review + week close):**
+1. Is the 6/11 rally a durable reclaim of the post-CPI selloff or a one-day relief bounce? Governs whether the reserve buy gets deployed.
+2. Deploy the 3rd weekly buy before it resets Mon 6/15, or let it expire? Need a *verified* 2-signal, non-industrial-concentrating setup AND a confirmed-constructive tape. Re-verify JPM (financials) signals + earnings date.
+3. Full-week alpha vs SPY for the Friday review: does the green WTD hold through Friday's close?
+4. Do DE/ETN keep recovering toward break-even, or stall and re-test their stops?
