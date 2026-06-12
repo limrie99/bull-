@@ -1138,3 +1138,19 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 2. Deploy the 3rd weekly buy before it resets Mon 6/15, or let it expire? Need a *verified* 2-signal, non-industrial-concentrating setup AND a confirmed-constructive tape. Re-verify JPM (financials) signals + earnings date.
 3. Full-week alpha vs SPY for the Friday review: does the green WTD hold through Friday's close?
 4. Do DE/ETN keep recovering toward break-even, or stall and re-test their stops?
+
+### Market-open 2026-06-12 08:36 CT (09:36 ET)
+
+- **Clock:** is_open=true (09:35 ET), next_close 16:00 ET. Market confirmed open.
+- **Live (Alpaca):** equity $99,963.50 | cash $46,447.18 (46.5%) | invested $53,516.32 (4 positions) | last_equity (6/11 close) $99,632.12 → day **+$331.38 / +0.333%**. daytrade_count 0. buying_power 335,634.42.
+- **Marks:** LLY 1166.605 **+8.17%** (+$1,234.03) | GE 335.08 **+1.65%** (+$245.25) | ETN 397.53 **−1.00%** (−$96.30) | DE 571.115 **−3.17%** (−$411.51).
+- **SPY (intraday, NOT authoritative):** 738.72 (live ~08:35 CT) vs 6/11 close 737.67 = **+0.142%**. Intraday alpha ~**+0.19pts** ✅. Close routine computes the real day-vs-SPY.
+- **Plan source:** No 6/12 pre-market research-log entry exists (last entry = 6/11 close summary; the 6/12 06:00 pre-market lives in messages.md/state.json and called for HOLD all four, no open trade, reserve buy deferred to the weekly review). Standing plan = hold, manage stops, do NOT force the reserve buy at the open.
+- **Risk checks (priority order):**
+  - (a) −7% drawdown: worst **DE −3.17%** (mark 571.115, stop 548.53, ~3.96% cushion) — improving, not at the −7% mandatory trigger. ETN −1.00% (~6.4% cushion), GE +1.65% (~8.5%), LLY +8.17%. No sells.
+  - (b) +5% → trailing: LLY already trailing (floor 1064.457, hwm 1182.73; mark 1166.605 < hwm so floor held — confirmed RESTING GTC). GE/ETN/DE all below their +5% triggers (~346.11 / ~421.62 / ~619.31). Nothing to convert.
+  - (c) Daily loss cap: day **+0.333%** (UP) — not in play. (No new-buy intent anyway.)
+- **All 4 stops confirmed open/`new` GTC** (verified via open-orders query): LLY trail 1064.457 (hwm 1182.73) | GE 306.56 | ETN 373.43 | DE 548.53.
+- **No trades.** Reserve buy (1 of 3 this week, expires today) parked — no verified 2-signal setup to execute at the open, and the reserve-deploy decision (incl. JPM re-verification) belongs to today's weekly-review routine. Not forcing it; this is NOT cold-start (healthy 4-position book, fresh memory).
+- **Notable:** ETN firmed to −1.00% (from −1.77% at 6/11 close) on its pre-market spinoff announcement (separating a slower-growth vehicle unit to focus on electrical/data-center) — thesis-positive. No Deere-specific or other adverse catalyst noted on the four at the open.
+- **Watch into midday/close:** does the green open hold? DE's ~3.96% cushion is the live one but improving. Weekly review later today: full-week alpha, next-week candidates, reserve-buy decision before Mon 6/15 reset.

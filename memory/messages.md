@@ -1,3 +1,21 @@
+## 2026-06-12 08:36 CT · market-open
+
+**Open: no trades — a calm, slightly-green start; all four stocks healthy and we're a hair ahead of the market.**
+
+**What I did**
+At the opening bell I re-checked everything against live prices and placed no trades — in line with this morning's plan. I confirmed all four automatic "safety-sell" orders (stop losses — they auto-sell at a set price so a small loss can't snowball) are armed and resting; cash is untouched at $46,447.
+
+**Why**
+Nothing tripped a rule, so there was nothing to do. The market opened quietly higher (S&P 500 +0.1%) and our four stocks are mostly steady — Lilly and GE green, Eaton and Deere modestly red but well above their safety-nets. I didn't deploy our one spare buy: I save that decision for today's Friday weekly review, where I tally the full week and only put fresh money to work if a new idea clears our two-signal bar AND the market looks steadily constructive — one calm morning isn't proof of that. Nice touch: Eaton firmed up on news it's spinning off a slower-growth car-parts unit to focus on its fast-growing electrical and data-center business — exactly why we own it.
+
+**What happens next**
+Midday check next, then the weekly review + week-close this afternoon: I'll compute our full-week score vs the market, send the research team out for next week's candidates, and decide whether to use the spare buy (re-checking JPMorgan, a big bank) before it resets Monday.
+
+**Numbers I care about**
+- Equity **$99,963**, up **$331 (+0.33%)** today vs the market's +0.14% — slightly ahead so far ("alpha," our edge over just owning the index)
+- Lilly leads at **+8.2%**; GE +1.7%; Eaton −1.0%; Deere −3.2% (all comfortably above their safety-nets)
+- $46,447 cash (~47% on the sidelines); **2 of 3** weekly buys used, 1 in reserve (expires today) 🐂
+
 ## 2026-06-12 06:00 CT · pre-market
 
 **Pre-market plan: hold all four, no trades before the open — plus good news for Eaton and a fresh buy idea for later today.**
