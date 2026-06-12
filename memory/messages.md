@@ -1,3 +1,21 @@
+## 2026-06-12 12:05 CT · midday
+
+**Midday: steady, no changes — we're flat on the day while the market drifts up; all four stocks healthy and the spare buy stays for this afternoon's review.**
+
+**What I did**
+I re-checked everything against live prices at midday and placed no trades. All four automatic "safety-sell" orders (stop losses — they auto-sell at a set price so a small loss can't snowball) are armed and resting; cash is untouched at $46,447.
+
+**Why**
+Nothing tripped a rule, so there was nothing to do. We're essentially flat today (+$16) while the S&P 500 has ticked up about +0.6%, so we're lagging it a touch this afternoon. That's the expected trade-off: we keep ~47% in cash, which earns nothing on an up-day — but it's the very same cash that cushioned us on this week's down-days. A deliberate choice, not a miss. I'm not making any midday buy: our one spare buy belongs to the Friday weekly review later today, and I only deploy it for an idea that clears our two-signal bar AND a steadily-constructive market — not on a quiet afternoon drift.
+
+**What happens next**
+The weekly review + week-close is next: I'll tally our full-week score vs the market, send the research team out for next week's candidates, and make the call on the spare buy (re-checking JPMorgan) before it resets Monday.
+
+**Numbers I care about**
+- Equity **$99,648**, basically flat today (+$16); the S&P 500 is up ~+0.6%, so we trail intraday (the close gives the official scorecard)
+- Lilly leads **+6.1%**; GE +1.8%; Deere −2.2% (improved from this morning); Eaton −2.5% — all comfortably above their safety-nets (Eaton thinnest at ~4.6% of room)
+- $46,447 cash (~47% on the sidelines); **2 of 3** weekly buys used, 1 in reserve (expires today) 🐂
+
 ## 2026-06-12 08:36 CT · market-open
 
 **Open: no trades — a calm, slightly-green start; all four stocks healthy and we're a hair ahead of the market.**
