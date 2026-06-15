@@ -1249,3 +1249,27 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **No trades.** No new buy at midday: the FOMC governor (Wed 6/17 2pm ET) still stands — JPM reserve buy deferred to post-FOMC (Thu 6/18). No high-conviction breaking catalyst surfaced to justify a midday deviation. 0 of 3 weekly buys used, 1 open slot. Not cold-start (healthy 4-position book, fresh memory).
 - **Notable:** GE ratcheted to a new high (hwm 348.89 vs 346.64 at open) then eased to 344.73 (+4.58%) — trailing floor rose to 314.001 accordingly, locking in more gain. LLY firmed back to +4.83% (from +3.37% at open), still below its 1182.73 hwm so no new ratchet. DE the lone red (−1.26%) but well clear of its stop; thesis intact, HOLD.
 - **Watch into close:** does the green hold? ETN nearest its own +5% trailing conversion (~421.62). Close routine: authoritative day-vs-SPY, mandatory daily "how we're doing" + Telegram. FOMC Wed is the week's pivot for deploying dry powder.
+
+### Day summary 2026-06-15 15:06 CT (market close, 16:06 ET)
+
+- **Closing equity:** **$100,098.08** | cash $46,447.18 (46.4%) | invested $53,650.90 (4 positions). last_equity (6/12 close) $99,495.60. daytrade_count 0.
+- **Day P/L:** **+$602.48 / +0.61%.**
+- **SPY day (authoritative):** 6/12 close 741.67 → 6/15 close **754.75** = **+1.76%.**
+- **Alpha today:** 0.61% − 1.76% = **−1.16 pts.** WTD = same (Mon = day 1 of the short Fed week).
+- **Closing marks:** LLY 1131.30 +4.90% (+$739.76) | GE 341.80 +3.69% (+$547.65) | ETN 407.14 +1.39% (+$134.34) | DE 575.47 −2.43% (−$315.70). Net open unrealized **+$1,106.05.**
+- **vs midday:** book gave back ~$316 into the close (midday equity $100,414 → close $100,098). DE faded hardest (582.40 → 575.47, −1.26% → −2.43%); GE eased (344.73 → 341.80); ETN held its strong day (+4.02% on the day's lastday_price base). LLY ~flat. Normal afternoon drift, no stop pressure.
+- **Trades placed:** none. Only action was this morning's GE −7%→10%-trailing conversion (RISK-MGMT, no fill).
+- **All 4 stops confirmed RESTING `new` GTC** (open-orders query): GE trailing 314.001 (hwm 348.89) | LLY trailing 1064.457 (hwm 1182.73) | ETN −7% 373.43 | DE −7% 548.53. qty_available=0 on all 4 positions corroborates (shares reserved by resting sells).
+
+**What worked**
+- Two of three industrials carried the book: ETN +4.0% (AI-power demand bid) and GE +1.9% on a broad up-tape; both new entries now meaningfully green.
+- Trailing stops did their quiet job — GE's floor stayed ratcheted at 314.001 even as the name eased into the close, locking in more of the run than the original hard stop would have.
+
+**What didn't**
+- Third straight up-day lagging SPY (−1.16 pts today). ~46% cash is the structural drag; deliberate ahead of Wed's FOMC, but it's now a genuine pattern to break Thursday if JPM (or a substitute) clears the gate.
+- DE remains the laggard, −2.43% and faded into the close; still ~4.9% above its stop with thesis intact, so HOLD, but it's the weakest name and the one to watch for a thesis-breaker.
+
+**Open questions for tomorrow (Tue 6/16, pre-FOMC)**
+- Does the rally hold into the FOMC, or do we get a pre-meeting fade? Either way no new buys until the Wed 2pm ET print clears.
+- Re-confirm JPM's setup stays intact (price/trend) so it's ready to deploy Thu 6/18 post-FOMC if it still scores ≥70 with 2+ signals.
+- ETN watch: needs ~421.62 (currently 407.14) to trigger its own +5%→trailing conversion — getting close.

@@ -1,3 +1,23 @@
+## 2026-06-15 15:06 CT · market-close
+
+**Close: equity $100,098 · day +0.61% · SPY +1.76% · alpha −1.16%**
+
+**How we're doing:** Good day in dollars — we made **+$602 (+0.61%)** and finished above $100K. But the overall US stock market (the S&P 500) had a *bigger* day at +1.76%, so we trailed it by about 1.2 points. We're up, just up less than the index today — and that's by design this week (more on why below).
+
+**What I did**
+No buying or selling today. The only housekeeping was this morning, when I upgraded GE's safety-net to a *trailing stop* — a sell order that climbs with the price to protect profits. All four of our stocks are healthy and every safety-sell order is armed and resting.
+
+**Why we trailed the market (on purpose)**
+We're holding about 46% of the account in cash right now, waiting for **Wednesday's Federal Reserve interest-rate decision** (the US central bank's call that moves the whole market). When stocks rip higher like today, cash sitting on the sidelines "drags" us behind the index — that's the trade-off. The flip side: that same cash cushions us on down-days. This is the third up-day in a row we've lagged, so it's now a real pattern I want to break — but jumping in *right before* a Fed decision is a coin-flip I won't take. I'd rather deploy after Wednesday clears.
+
+**What happens next**
+No new buys until after the Fed on Wednesday. If my top idea (JPMorgan, a bank whose fortunes ride on interest rates) still looks strong afterward, I'll put some cash to work Thursday. The market's closed Friday for the Juneteenth holiday.
+
+**Numbers I care about**
+- Equity **$100,098** — up **+$602 (+0.61%)** today; S&P 500 +1.76%, so alpha (our return vs. the market) was **−1.16 points** today
+- Our four stocks combined are sitting on **+$1,106** of unrealized profit: Lilly +$740, GE +$548, Eaton +$134, Deere −$316 (our one laggard, still well above its safety-net)
+- **$46,447 cash** left (~46% of the account) — dry powder waiting for after the Fed
+
 ## 2026-06-15 12:05 CT · midday
 
 **Midday: steady, no changes — all four stocks healthy, nothing tripped a rule. We're up about +0.9% today; the market's up more (+1.9%), so we trail it intraday — on purpose this week ahead of Wednesday's Fed.**
