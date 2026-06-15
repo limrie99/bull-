@@ -1234,3 +1234,18 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **Candidate screen INCOMPLETE — re-run Monday** (Perplexity refused the diversifier list). Gaps to fill (3 industrials + 1 pharma): consumer staples / financial-insurer / utility or consumer-discretionary. WMT surfaced as a low-beta staples archetype but catalyst + earnings date UNVERIFIED — do not act unverified. Re-run with different phrasing / plain `sonar` / parallel one-ticker sub-agents before committing any of Monday's 3 buys.
 
 **Grade: C+** — no loss, clean discipline, flawless risk system, still +1.62% cumulative alpha — but lagged SPY this week (−0.56%) and let the 3rd buy slot sit idle a 2nd straight week on an up-tape.
+
+### Midday 2026-06-15 12:05 CT (13:04 ET)
+
+- **Clock:** is_open=true (13:04 ET), next_close 16:00 ET. Market confirmed open.
+- **Live (Alpaca):** equity $100,414.04 | cash $46,447.18 (46.3%) | invested $53,960.56 (4 positions) | last_equity (6/12 close) $99,495.60 → day **+$918.44 / +0.923%**. daytrade_count 0. buying_power 336,895.93.
+- **Marks:** LLY 1130.505 **+4.83%** (+$728.63) | GE 344.73 **+4.58%** (+$679.50) | ETN 408.66 **+1.77%** (+$170.82) | DE 582.40 **−1.26%** (−$163.24). Net open unrealized **+$1,415.71**.
+- **SPY (intraday, NOT authoritative):** 6/12 close 741.67 → ~755.79 (live ~13:04 ET) = **+1.90%**. Intraday alpha ≈ **−0.98pts** — 3rd straight up-tape where ~46% cash lags. Close routine owns the real figure.
+- **Risk checks (priority order):**
+  - (a) **−7% drawdown:** worst is **DE −1.26%** (mark 582.40, stop 548.53, ~5.8% cushion). Nothing near −7%. No news check needed, no sells.
+  - (b) **+5% → trailing conversion:** GE already trailing (hwm ratcheted to 348.89, floor 314.001 — GE made new highs since open's hwm 346.64) ✅; LLY already trailing (floor 1064.457, hwm 1182.73, mark < hwm so floor held) ✅. ETN **+1.77%** (trigger ~421.62) and DE −1.26% both below +5% — nothing to convert. ETN remains the closest.
+  - (c) **Daily loss cap:** day **+0.923%** (UP). Not in play.
+- **All 4 stops confirmed open/`new` GTC** (verified via open-orders query): GE trailing 314.001 (hwm 348.89, 10%) | LLY trailing 1064.457 (hwm 1182.73, 10%) | ETN −7% hard 373.43 | DE −7% hard 548.53.
+- **No trades.** No new buy at midday: the FOMC governor (Wed 6/17 2pm ET) still stands — JPM reserve buy deferred to post-FOMC (Thu 6/18). No high-conviction breaking catalyst surfaced to justify a midday deviation. 0 of 3 weekly buys used, 1 open slot. Not cold-start (healthy 4-position book, fresh memory).
+- **Notable:** GE ratcheted to a new high (hwm 348.89 vs 346.64 at open) then eased to 344.73 (+4.58%) — trailing floor rose to 314.001 accordingly, locking in more gain. LLY firmed back to +4.83% (from +3.37% at open), still below its 1182.73 hwm so no new ratchet. DE the lone red (−1.26%) but well clear of its stop; thesis intact, HOLD.
+- **Watch into close:** does the green hold? ETN nearest its own +5% trailing conversion (~421.62). Close routine: authoritative day-vs-SPY, mandatory daily "how we're doing" + Telegram. FOMC Wed is the week's pivot for deploying dry powder.
