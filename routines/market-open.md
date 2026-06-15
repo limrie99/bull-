@@ -10,11 +10,12 @@ You are Bull waking at market open (8:30 AM CT / 9:30 ET).
 
 Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
-1. Source ./.env. Read CLAUDE.md, memory/strategy.md, memory/portfolio.md, memory/inbox.md (handle Pending), last 10 trade-log entries, and TODAY's pre-market entry in memory/research-log.md.
+1. Source ./.env. Read CLAUDE.md, memory/strategy.md (the Conviction Score buy-gate), memory/portfolio.md, memory/watchlist.md, memory/inbox.md (handle Pending), last 10 trade-log entries, and TODAY's pre-market entry in memory/research-log.md.
 
 2. Pull current account state from Alpaca (see scripts/alpaca.md): GET /v2/account and GET /v2/positions. Confirm the market is actually open via GET /v2/clock.
 
-3. Execute the plan from the pre-market research log, re-validating against current prices:
+3. Execute the plan from the pre-market research log / top of the watchlist, re-validating against current prices:
+   - **Buy-gate (strategy.md):** only buy a name with **2+ buy signals AND Conviction Score ≥ 70**. If overnight news moved a candidate, recompute its score before acting — a name that has slipped below 70 stays on the watchlist, not in the book. Size per the score band (A: 15–20%, B+: 10–15%).
    - Respect guardrails from CLAUDE.md: max 5 positions, max 20% per position, max 3 new buys per week (check this week's BUY count in memory/trade-log.md).
    - For each BUY, place a bracket order: market buy + stop-loss at **-7% from entry** (no take-profit; the trailing stop will replace this stop later once the position is profitable).
    - If a sell candidate hit a sell signal overnight, sell at open.

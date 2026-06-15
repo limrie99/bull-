@@ -43,6 +43,34 @@ These were paid-for lessons. Don't relitigate them:
 5. Sector rotation into the name's sector, confirmed by research
 6. Price in a clear uptrend (not at fresh 52-week lows — we don't catch knives)
 
+## Conviction Score (0–100) — the buy-gate (added 2026-06-15)
+
+Every buy candidate gets one number before any order is placed. This converts "I have a good feeling" into a disciplined, comparable score and is the primary defense against the analysis-paralysis that left v2 in cash. Score is the **weighted sum of 5 dimensions**. Weights are deliberately fundamentals-and-catalyst heavy (60%) — technicals are timing only, never the reason to buy (see *What we will NOT do*).
+
+| Dimension | Weight | What it measures | Scored 0–100 by the sub-agent that owns it |
+|-----------|--------|------------------|---------------------------------------------|
+| **Fundamental quality** | **30%** | Valuation vs sector, revenue/EPS growth, margins, balance sheet, moat | fundamental analyst |
+| **Thesis & catalyst** | **30%** | Catalyst clarity, timeline (sooner = higher), risk/reward asymmetry, edge | synthesized by you (Bull) |
+| **Sentiment** | **20%** | News tone, analyst upgrades/targets, insider buying, institutional flow | sentiment analyst |
+| **Risk profile** | **12%** | Volatility/beta, drawdown history, liquidity, correlation (higher score = SAFER) | risk analyst |
+| **Technical timing** | **8%** | Trend intact, *not* at fresh 52-wk lows (no knife-catching), near support not resistance | position/scout analyst |
+
+**Conviction = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech**
+
+| Score | Grade | Action |
+|-------|-------|--------|
+| 80–100 | A | **Strong buy** — top conviction, size at high end |
+| 70–79 | B+ | **Buy** — clears the gate |
+| 55–69 | B | Watchlist only — wait for confirmation, do not buy |
+| 40–54 | C | Sideline |
+| < 40 | D/F | Avoid |
+
+**Buy-gate rule (both conditions required, neither replaces the other):**
+1. **≥ 2 buy signals** from the list above (unchanged), AND
+2. **Conviction Score ≥ 70.**
+
+A high score with only 1 signal does **not** buy. Two signals with a score of 64 do **not** buy — they go on the watchlist. When at the 5-position cap and a new name scores higher than a held name, that's a *candidate* swap to reason about in the message, not an automatic action.
+
 ## Sell signals — any one triggers
 
 1. **Hard stop: -7% from entry.** (Placed as a stop order at buy via Alpaca bracket.)
@@ -53,8 +81,10 @@ These were paid-for lessons. Don't relitigate them:
 
 ## Position sizing
 
-- High conviction (3+ buy signals align): 15–20% of portfolio
-- Medium conviction (2 signals): 10–15%
+Tie the size to the Conviction Score (above), which already folds in the buy-signal count:
+
+- **Grade A (score 80–100):** 15–20% of portfolio
+- **Grade B+ (score 70–79):** 10–15%
 - Never more than 20% in any single position
 - Keep 10–20% cash buffer at all times
 
@@ -90,5 +120,6 @@ These were paid-for lessons. Don't relitigate them:
 ## Changelog
 
 - **2026-04-21** — Initial seed. Paper mode. $100K paper default. Tuned to Nate's rules: -7% hard stop, 10% trailing stop activated at +5%, fundamentals-driven swing only, wealth-advisor framing with sub-agent team. Carried forward v1 30-day learnings: no short-dated options (cost $550 in v1), 10% trailing beats 2%, concentration > diversification, watch Alpaca rate limits.
+- **2026-06-15** — Added the **Conviction Score (0–100) buy-gate** and a persistent scored **`memory/watchlist.md`**, ported (and reweighted) from an external trading-analysis skill pack. The skills weighted technicals 25–40%; rebalanced to 60% fundamentals+catalyst / 20% sentiment / 12% risk / 8% technical-timing to match our fundamentals-first mandate. Pre-market sub-agents now each return a 0–100 score on their dimension and the opportunity scout runs defined screens (growth / momentum / earnings-beat) instead of ad-hoc idea generation. Buy now requires **2+ signals AND score ≥ 70** — the numeric gate is meant to give a clear trigger to *act* (fighting cash-drag) while keeping the bar disciplined. No change to stops, caps, or the no-options/no-shorts guardrails.
 - **2026-06-01** — Added the **cold-start / anti-paralysis rule** after a post-mortem of the 4/22→6/1 run. Root cause was infrastructure, not strategy: memory never persisted across routines (every run read 4/22 state and pushed to throwaway branches), so the agent sat 100% cash for ~18 trading days after a single −$159 NVDA round-trip, never executing any of its researched candidates. Fixed the persistence bug in CLAUDE.md (push `HEAD:main`, sync from `origin/main` at run start) and added the rule above so a stale plan can no longer mean indefinite inaction. Core guardrails left unchanged — they had no fair test.
 - **2026-06-05** — Added a **high-beta AI/semis entry-discipline learning** (see "Learnings carried forward" above) after the week-ending-6/5 review. NVDA round-tripped to a stop-out a 2nd time in five weeks (−$849 on 6/5, macro/NFP semis flush, thesis intact). The pattern is beta-driven, not thesis-driven: a high-beta name on a −7% hard stop gets shaken out on macro noise before the thesis expresses. The refinement (smaller ≤10% starter, enter on a confirmed base, don't initiate beta into a binary macro print) is **advisory and on probation** — it changes no guardrail. The −7% hard stop, 10% trailing, position caps, weekly buy cap, and cold-start rule all worked as intended this week and are unchanged. A 3rd same-pattern NVDA-style stop-out escalates this to a hard rule. (Deliberately surgical: alpha was +2.24% this week — a winning week is not a license to over-tune.)

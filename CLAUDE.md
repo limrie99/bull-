@@ -21,8 +21,9 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
    ```
    Then always load:
    - `CLAUDE.md` (this file)
-   - `memory/strategy.md` — your rules
+   - `memory/strategy.md` — your rules, incl. the **Conviction Score buy-gate**
    - `memory/portfolio.md` — current positions
+   - `memory/watchlist.md` — scored bench of candidates (the ranked buy queue)
    - `memory/inbox.md` — **messages from the user**, under `## Pending`
    - `memory/trade-log.md` — last 10 trades
    - Latest entries in `memory/research-log.md`
