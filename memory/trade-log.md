@@ -88,3 +88,12 @@ Signals matched: #1 (Q1 2026 beat + raised FY guidance), #3 (AI data-center powe
 Stop set: $373.43 (-7.0% from fill; provisional OTO day-stop @ 373.91 cancelled post-fill and re-placed as standalone GTC stop db3865d5-c24f-40ca-a236-6c0f0c2672f0).
 Research reference: research-log 2026-06-08 pre-market (ETN = #2 candidate) + this market-open re-validation.
 Notes: OTO market buy filled in many fragments over ~3 min (thin paper liquidity, very wide simulated quote bid 382 / ask 425) — 1→6→19→20→22→23→24, final avg 401.5425 = $9,637.02 (~9.6% of equity, deliberately ≤10% per high-beta starter rule). Next earnings ~late July — no blackout. 2nd of 3 weekly buys. Cancelled inherited day-TIF stop leg, re-placed identical −7% stop as GTC.
+
+## 2026-06-15 08:37 CT | RISK-MGMT (no fill) | GE | converted −7% hard stop → 10% trailing stop | b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c
+Action: GE crossed +5% profit at the open (mark ~346.3–346.6 vs entry 329.63 = +5.1%), the +5% conversion threshold, so per strategy I cancelled the −7% GTC hard stop and replaced it with a 10% trailing GTC stop.
+- Cancelled hard stop ec3f8a10-6e1d-4bf4-8ffb-523dc8d95ae9 (was @ 306.56) — HTTP 204, confirmed zero open GE orders before re-placing.
+- Placed trailing_stop sell, qty 45, trail_percent 10, GTC → id b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c. Initial stop_price 311.976, hwm 346.64 (ratcheted to ~312.09 as GE ticked higher). Confirmed resting (status new).
+Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% profit). No shares traded.
+Stop set: GE 10% trailing GTC (floor ~312.09 at placement; ratchets up as GE rises).
+Research reference: research-log 2026-06-15 pre-market (standing conversion task: "if GE ≥ ~346.11, convert") + this market-open execution.
+Notes: Floor 312.09 is below entry 329.63 so it doesn't yet lock in a profit, but it's ~$5.5 above the old hard stop and will climb with the price. GE is the book's strongest new entry (+5.13%). No buys/sells this routine — JPM reserve buy deferred to post-FOMC (Wed 6/17 rate decision) per pre-market plan; today's +1.5% tape is a day-one geopolitical (Iran de-escalation) gap, escape-hatch "durable tape + Fed priced" conditions not met. daytrade_count 0.

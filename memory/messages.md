@@ -1,3 +1,21 @@
+## 2026-06-15 08:37 CT · market-open
+
+**Open: no new buy — but a good housekeeping win. GE crossed +5%, so I locked in a profit-protecting trailing safety-net on it. We're up about +0.9% on the day; the market's up more (+1.5%), so we're trailing it intraday — and that's on purpose this week.**
+
+**What I did**
+At the opening bell I re-checked all four stocks against live prices. GE (GE Aerospace) ticked just past a +5% gain, which triggers one of our rules: I cancelled its fixed "−7% safety-net" and replaced it with a **trailing stop** (a sell order that automatically rises as the stock climbs, so it locks in more of the gain and only sells if GE falls ~10% from its high). No buying or selling of shares — just that one upgrade. Cash is untouched.
+
+**Why**
+The market opened sharply higher (~+1.5%) on a hopeful headline — a reported easing of Middle East tensions, which also pushed oil prices down. Tempting, but I'm deliberately patient this week: the **Federal Reserve** (the US central bank that sets interest rates) announces its rate decision **this Wednesday**. My best new idea, JPMorgan, is a bank whose fortunes ride directly on interest rates — so buying it two days *before* that decision is a coin-flip. And today's jump is a one-day reaction to a news headline, not yet a proven trend. I'd rather see what the Fed says first, then buy with more confidence Thursday. Holding ~46% cash is the cost of that patience: on a fast-rising day it makes us lag, but it's the same cushion that protects us when the market drops.
+
+**What happens next**
+I'll keep watching. Eaton is the next one nearing a +5% gain (+2.1% now) — if it gets there I'll give it the same trailing-net upgrade. The big event is Wednesday's Fed decision; if JPMorgan still looks good afterward, I'll likely put our spare cash to work Thursday.
+
+**Numbers I care about**
+- Equity **$100,425** — up **+$930 (+0.93%)** today; the S&P 500 is up ~+1.5%, so we trail it intraday (the official scorecard comes at the close)
+- All four healthy: **GE +5.1% (now on a trailing net)**, Lilly +3.4%, Eaton +2.1%, Deere −0.3% — all well clear of their safety-nets
+- **$46,447 cash (~46%)** ready; **0 of 3 weekly buys used** (cap just reset), 1 open slot 🐂
+
 ## 2026-06-15 06:00 CT · pre-market
 
 **Pre-market plan: hold all four, no trades before the open. Good news — Eaton turned green and GE is up ~4%. I'm staying patient on a new buy until after the Fed decides on interest rates this Wednesday.**

@@ -1,48 +1,40 @@
 # Portfolio
 
-**Last updated:** 2026-06-12 16:05 CT (WEEKLY-REVIEW + WEEK-CLOSE routine; market confirmed closed via clock, marks = official Alpaca close).
-**Cash:** $46,447.18 (unchanged all week — no trades since the 6/8 GE+ETN buys)
-**Total equity:** $99,521.97 (Alpaca close). Prior-day baseline (6/11 close, last_equity) $99,632.12.
-**Day P/L (6/12):** **−$110.15 / −0.111%.** Modestly red — LLY pulled back (1161.42 → 1134.00) while SPY rose, dragging the book on an up-day.
-**Day vs SPY:** SPY 737.67 (6/11 close) → 741.67 (6/12 close) = **+0.542%** → **day alpha −0.65%** (lagged: LLY gave back gains on the day the index advanced).
-**This week (Mon 6/8 → Fri 6/12, baseline $99,507.02 = 6/5 close):** week return **+0.015%** (+$14.95) vs **SPY +0.572%** (737.45 → 741.67) → **week alpha −0.557%** ❌ (lagged on an up-week — cash drag + LLY's Friday fade).
-**2-week cumulative (since trading resumed, 5/29 close $99,840.95):** portfolio −0.319% vs SPY −1.94% (756.34 → 741.67) → **+1.62% alpha** ✅ (still solidly ahead across the full traded stretch).
-**Buys used this week:** 2 of 3 (GE + ETN on 6/8); **3rd buy slot expired UNUSED — cap resets Mon 6/15.**
+**Last updated:** 2026-06-15 08:37 CT (MARKET-OPEN routine; market confirmed OPEN via clock; marks = live Alpaca ~09:36 ET).
+**Cash:** $46,447.18 (unchanged — no buys/sells this routine; only a GE stop conversion).
+**Total equity:** $100,425.13 (live). Prior-day baseline (6/12 close, last_equity) $99,495.60.
+**Day P/L (6/15, intraday):** **+$929.53 / +0.934%.** Green open — risk-on tape on a reported US–Iran de-escalation; ETN (+4.75%), DE (+1.82%), GE (+3.36%) up, LLY (−1.61%) the lone laggard.
+**Day vs SPY:** SPY 741.67 (6/12 close) → 753.165 (~09:36 ET) = **+1.550%** → **intraday alpha ≈ −0.62pts** (lagging the up-tape — ~46% cash earns nothing while the index rips; same cushion protects on down-days). Close routine owns the authoritative figure.
+**Buys used this week:** 0 of 3 (cap reset Mon 6/15). **JPM reserve buy DEFERRED to post-FOMC (Thu 6/18)** — see Watch below.
 
 ## Open positions (4 of 5)
 
-| Symbol | Shares | Avg Cost | Mark (6/12 close) | P/L $ | P/L % | Stop | +5% trail trigger | Entry Date | Thesis (1 line) |
+| Symbol | Shares | Avg Cost | Mark (live ~09:36 ET) | P/L $ | P/L % | Stop | +5% trail trigger | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|---|
-| LLY | 14 | 1078.46 | 1134.00 | +777.56 | +5.15% | **10% TRAILING (GTC)**, stop 1064.457, hwm 1182.73 | converted ✅ | 2026-06-01 | Q1 beat + raised FY guidance + oral GLP-1 (orforglipron/Foundayo) approval; GLP-1 tailwind; clean uptrend. The book's hero, +5.15% (faded from +7.69% at 6/11 close). Trailing floor 1064.457 (~6.1% below mark; mark 1134.00 < hwm 1182.73, floor held — no new high to ratchet). |
-| GE | 45 | 329.63 | 335.25 | +252.88 | +1.70% | 306.56 (−7%, **GTC**) | ~346.11 | 2026-06-08 | GE Aerospace — record commercial-aircraft demand + high-margin engine aftermarket + defense; pure industrial, zero AI overlap, lower beta. Green +1.70%, ~8.6% above stop. Thesis intact. No blackout (~late July earnings). The week's best new entry. |
-| DE | 22 | 589.82 | 577.48 | −271.48 | −2.09% | 548.53 (−7%, **GTC**) | ~619.31 | 2026-06-04 | Q2 beat (5/21: EPS $6.55 vs $5.76, rev $13.37B vs $11.48B); ag-equipment/onshoring tailwind; NON-AI diversifier. −2.09% (~5.0% above stop), recovered from a midday −5.15% on 6/11. No Deere-specific catalyst; weakness was sector/macro. Thesis intact; HOLD. |
-| ETN | 24 | 401.5425 | 392.00 | −229.02 | −2.38% | 373.43 (−7%, **GTC**) | ~421.62 | 2026-06-08 | Eaton — electrical "picks-and-shovels" for AI data-center power + electrification (orders +55%/rev +50%). Q1 beat + raised guide. 6/10 spinoff of slower-growth vehicle unit (Reverse Morris Trust w/ Dana) sharpens electrical/data-center focus — thesis-positive. −2.38% (~4.8% above stop); dipped to −6.30% on 6/10, recovered. Thesis intact; HOLD. No blackout (~late July). |
+| GE | 45 | 329.63 | 346.555 | +761.62 | +5.13% | **10% TRAILING (GTC)**, floor ~312.09, hwm ~346.64 | converted ✅ today | 2026-06-08 | GE Aerospace — record commercial-aircraft demand + high-margin engine aftermarket + defense; pure industrial, zero AI overlap, lower beta. Crossed +5% at the open → hard stop converted to 10% trailing this routine. Book's strongest new entry. Thesis intact; earnings ~late July (no blackout). |
+| LLY | 14 | 1078.46 | 1114.76 | +508.20 | +3.37% | **10% TRAILING (GTC)**, floor 1064.457, hwm 1182.73 | converted ✅ | 2026-06-01 | Eli Lilly — Q1 beat + raised FY guidance + oral GLP-1 (orforglipron/Foundayo); GLP-1 tailwind; clean uptrend. Anchor. Faded −1.61% intraday on an up-day (mark 1114.76 < hwm 1182.73, floor held, no new high to ratchet). Forward catalyst: Foundayo Medicare Part D access at $50/mo opens July 1. Jefferies maintained Buy, PT $1,350 (Jun 9). |
+| ETN | 24 | 401.5425 | 410.00 | +202.98 | +2.11% | 373.43 (−7%, **GTC**) | ~421.62 | 2026-06-08 | Eaton — electrical "picks-and-shovels" for AI data-center power + electrification (orders +55%/rev +50%). Q1 beat + raised guide; RMT Mobility/Dana spinoff sharpens electrical focus. Flipped solidly green (+2.11%, +4.75% intraday), fully recovered from last week's near-stop scare. ~8.9% above stop. Thesis intact; earnings ~late July (no blackout). |
+| DE | 22 | 589.82 | 588.015 | −39.71 | −0.31% | 548.53 (−7%, **GTC**) | ~619.31 | 2026-06-04 | Deere — Q2 beat (5/21: EPS $6.55 vs $5.76, rev $13.37B vs $11.48B); ag-equipment/onshoring tailwind; NON-AI diversifier. Nearly flat (−0.31%, +1.82% intraday — best recovery off last week's lows). No Deere-specific thesis-breaker. ~6.5% above stop. Thesis intact; HOLD. |
 
-**Open positions: 4 of 5.** **Buys used this week: 2 of 3** (GE + ETN on 6/8) — **3rd slot expired unused; cap resets Mon 6/15.** **Cash buffer: ~46.7%** (~53.3% invested, $53,074.79 market value). Net open unrealized **+$529.94** (LLY +777.56, GE +252.88, DE −271.48, ETN −229.02).
+**Open positions: 4 of 5.** **Buys used this week: 0 of 3** (cap fresh; 1 free position slot). **Cash buffer: ~46.3%** (~53.7% invested, $53,977.95 market value). Net open unrealized **+$1,433.09** (GE +761.62, LLY +508.20, ETN +202.98, DE −39.71).
 
-## This week's trades
+## Stop-management state (all 4 confirmed RESTING as GTC, status `new`)
 
-- **6/8 BUY GE** 45 @ 329.63 (~14.8%, high conviction) — open, +1.70%.
-- **6/8 BUY ETN** 24 @ 401.5425 (~9.6% starter, per high-beta entry discipline) — open, −2.38%.
-- **No sells, no stops fired, no conversions this week.** No closed trades → win rate this week N/A.
-
-## Stop-management state (all 4 confirmed RESTING as GTC, status `new` at the open; market now closed)
-
-- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — stop_price **1064.457**, trail 10%, hwm **1182.73** (mark 1134.00 < hwm, floor held). Floor ~6.1% below mark — no near-term stop risk.
-- **ETN −7% hard** `db3865d5-c24f-40ca-a236-6c0f0c2672f0` @ **373.43** (mark 392.00, ~4.8% cushion).
-- **DE −7% hard** `a150583a-a58c-42c9-8d12-9d7ece773841` @ **548.53** (mark 577.48, ~5.0% cushion).
-- **GE −7% hard** `ec3f8a10-6e1d-4bf4-8ffb-523dc8d95ae9` @ **306.56** (mark 335.25, ~8.6% cushion).
-- (a) **−7% drawdown check:** worst is ETN −2.38% (not at −7%). HOLD. No sells.
-- (b) **+5% → trailing:** LLY converted ✅ (floor held, no new high). **Standing tasks:** if DE ≥ +5% (~619.31), GE ≥ +5% (~346.11), or ETN ≥ +5% (~421.62), cancel that name's −7% hard stop → 10% trailing GTC. GE closest (+1.70%).
-- (c) **Daily loss cap:** day −0.111% (well inside −3%). Not in play.
+- **GE 10% trailing** `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` — converted THIS routine from the −7% hard stop (cancelled ec3f8a10, HTTP 204). floor ~312.09, hwm ~346.64. ~10% below mark.
+- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1064.457**, hwm **1182.73** (mark 1114.76 < hwm, floor held). ~4.5% below mark.
+- **ETN −7% hard** `db3865d5-c24f-40ca-a236-6c0f0c2672f0` @ **373.43** (mark 410.00, ~8.9% cushion).
+- **DE −7% hard** `a150583a-a58c-42c9-8d12-9d7ece773841` @ **548.53** (mark 588.015, ~6.5% cushion).
+- (a) **−7% drawdown check:** worst is DE −0.31% (not near −7%). HOLD. No sells.
+- (b) **+5% → trailing:** GE converted ✅ this routine; LLY already trailing. **Standing tasks:** if ETN ≥ +5% (~421.62) or DE ≥ +5% (~619.31), cancel that name's −7% hard stop → 10% trailing GTC. ETN closest (+2.11%).
+- (c) **Daily loss cap:** day +0.934% (green; loss cap N/A).
 - daytrade_count 0.
 
-## Watch / next week (Mon 6/15 — weekly buy cap resets, 3 open buy slots, 1 free position slot, ~47% cash)
+## Watch / next (Fed week, short week — only 4 trading days, CLOSED Fri 6/19 Juneteenth)
 
-- **Cash-drag-on-up-tape, 2nd occurrence.** The ~47% cash + selectivity that won us +2.24 alpha on last week's *down*-week cost us −0.56 alpha this *up*-week — the known trade-off, now shown both faces in back-to-back weeks. The 3rd buy slot went unused for the 2nd straight week. NOT a guardrail change (cumulative 2-week alpha is still +1.62%), but a **yellow flag**: next week, a *verified* 2-signal, non-industrial-concentrating setup into a constructive tape should be **deployed, not parked again**. Don't force a trade; do stop reflexively deferring one.
-- **Lead candidate for Monday's pre-market:** JPM (financials — fills a sector gap; rate tailwind + uptrend). Re-verify signals before any entry (pre-market had only ~1 hard signal). See weekly-review 6/12 for the sub-agent digest.
-- **LLY** remains the anchor (+5.15%); watch whether it resumes new highs (re-ratchets trailing floor above 1064.457) or has topped near the 1182 hwm. **GE** the best new entry (+1.70%). **DE/ETN** still underwater but recovering off their midweek lows; theses intact, stops are the backstop.
-- **Monday is a fresh week:** run the pre-market research team, read the tape (is the 6/11–6/12 reclaim durable or a relief bounce?), and put the reserve dry powder to work if something clears the bar.
+- **THE governor: FOMC rate decision Wed June 17, 2:00 PM ET.** Fed in blackout until then. JPM's reserve-buy thesis is rate-driven, so initiating it before the print = buying into a binary macro event — exactly what the strategy warns against. **Plan: re-verify JPM (price/trend + rates reaction) and deploy AFTER the FOMC clears, i.e. Thu 6/18, if it still holds.** This is a dated event reason, NOT reflexive cash-drag deferral (the Friday yellow flag).
+- **Cash-drag-on-up-tape, watch:** 3rd straight up-tape where ~46% cash lags. Acceptable THIS run because of the FOMC; but if JPM (or a verified alternative) still clears 2 signals Thursday, **deploy it** — don't park a 3rd consecutive week.
+- **GE** the new leader (+5.13%, now trailing). **ETN** firmly green (+2.11%) and closest to its own +5% conversion (~421.62). **LLY** the anchor but faded intraday — watch whether it resumes new highs (re-ratchets above 1064.457) or has topped near 1182. **DE** nearly flat, recovering; thesis intact, stop is the backstop.
+- Thursday 6/18 is also a big options-expiration session → jumpy. Read the post-FOMC tape before committing dry powder.
 
 ## Recent closes (last 5)
 
