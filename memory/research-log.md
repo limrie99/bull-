@@ -5,6 +5,42 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-15 06:00 CT — pre-market
+
+**Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-15T09:30 ET). Pre-market indicative marks (NOT live — Friday after-hours/last trade): equity **$100,281.44** (back above $100K), cash **$46,447.18**, long_market_value **$53,834.26** (~53.7% invested / ~46.3% cash), account last_equity (6/12 close) **$99,495.60**, daytrade_count 0. Indicative since-Friday +$785.84 / +0.79% (UNAUTHORITATIVE — no Monday SPY/equity print yet; market closed). Inbox: nothing pending. **New trading week — weekly buy cap reset to 0 of 3; 1 open position slot (4 of 5 held).** All 4 GTC stops verified RESTING (status `new`): LLY trailing 1064.457 (hwm 1182.73); GE 306.56; ETN 373.43; DE 548.53. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity. **Caveat: Perplexity real-time retrieval again largely unreliable** for live levels/calendar — grounded everything possible against Alpaca; flagged the rest UNVERIFIED.
+
+### Market context — risk-on open, but a Fed-week, short-week governor
+- **Futures: RISK-ON.** ES indicated ~+1.0–1.3%, NQ ~+1.0–1.7% overnight (delayed/approximate, not a live tick). Dominant catalyst: a reported **US–Iran de-escalation / peace deal** (Pakistan-mediated, signing slated ~June 19, reportedly reopening the Strait of Hormuz). **WTI crude DOWN** on easing supply risk — risk-on + oil-down is broadly supportive for a long-only book at the open.
+- **THE governor: FOMC rate decision Wed June 17, 2:00 PM ET.** Target range 3.50–3.75% (held since March); "higher-for-longer" posture, ~1 modest cut expected later in 2026, data-dependent. Fed in **blackout (≈June 6–18)** → info vacuum until the statement/presser Wednesday. Any new buy today carries binary event risk into that print.
+- **Short week:** US markets **CLOSED Friday June 19 (Juneteenth)** → only 4 trading days. Thursday is also a big options-expiration ("triple-witching"-type) session → jumpy.
+- Rates (10yr), DXY, gold levels: **UNVERIFIED** (no live ticks). The "hot May CPI/PPI" premise from last week's runs could NOT be re-confirmed this morning (retrieval gap) — but it was hard-verified in the 6/11–6/12 runs, so treat as established background, not new.
+- **Benchmark grounding (Alpaca):** SPY 6/12 close **741.67** (no Monday print yet). Week baseline for Mon 6/15.
+
+### Portfolio watch — all 4 theses INTACT, zero thesis-breakers; quiet weekend
+- **LLY** +5.67% (indic. 1139.61), anchor. **Mildly STRENGTHENED:** Jefferies maintained Buy, PT $1,350 (Jun 9). Forward catalyst: Foundayo (oral GLP-1) Medicare Part D access at $50/mo opens **July 1**. 10% trailing resting, floor **1064.457** (~6.6% below mark; hwm 1182.73, mark < hwm so floor held — no new high to ratchet). No action.
+- **GE** +3.99% (indic. 342.79), strongest new entry, firmed over the weekend (no specific news — broad industrial bid). ~10.5% above 306.56 stop. Closest to a +5% trailing conversion (trigger ~346.11) — **standing task for the open routine: if GE ≥ ~346.11, cancel −7% hard stop ec3f8a10 → place 10% trailing GTC.** Intact, hold.
+- **ETN** +0.36% (indic. 403.00) — **flipped GREEN** (was −2.38% Fri close), fully recovered from last week's near-stop scare. RMT Mobility/Dana spinoff (prior/known) remains thesis-positive; no new developments. ~7.9% above 373.43 stop. Intact, hold.
+- **DE** −1.49% (indic. 581.01), weakest but improved (was −2.09% Fri); no company-specific thesis-breaker (no guidance cut/downgrade/litigation) — ag/industrial drift. ~5.9% above 548.53 stop. Intact, hold.
+
+### Buy candidates
+- **JPM — JPMorgan (Financials) — conviction MED, 2 signals. Lead reserve-buy candidate, BUT see Fed-timing caveat.**
+  - **Signal #6 (clear uptrend) — CONFIRMED:** ~320.55 (6/12 close), above 50d (~305–306) and 200d (~306–307) SMAs; a **golden cross printed ~June 5** (50d crossing above 200d, bullish). 52wk range ~262.71–337.25 → ~5% below the high, not extended, not at lows.
+  - **Signal #5 (financials rotation) — thematic/narrative:** higher-for-longer → bank NIM tailwind. Real but soft.
+  - **Earnings: CONFIRMED July 14 BMO** (verified 3 sources) — ~21 trading days out, well clear of blackout. Safe to initiate on timing.
+  - **Signal #4 (fresh upgrade <2wk): ABSENT** — most recent dated action is Evercore ISI Apr 17 ($340 PT). Signal #1 (earnings beat): N/A until July. So JPM clears the 2-signal bar on the *softer* pair (#6 trend + #5 thematic), not on a hard fresh catalyst. Best-fit diversifier (fills the missing financials sleeve; book is pharma + 3 industrials, no financials/tech offset since NVDA exit).
+  - **⚠️ Fed-timing caveat (NEW, decisive this week):** JPM's whole #5 thesis is *rate-driven*, which makes it directly exposed to a hawkish/dovish surprise at Wednesday's FOMC. Buying a rate-sensitive bank 2 days before the rate decision is, in spirit, initiating into a binary macro print — the exact pattern the strategy warns against (the high-beta-semis rule is the letter; the principle is broader). Independent macro sub-agent reached the same conclusion: don't commit the weekly buy budget before Wednesday clears.
+- **Other candidates (MSFT, CRM, JNJ, LMT) — ALL UNVERIFIED.** Perplexity refused/failed structured setup queries; names came with inference-only signals, no date-stamped beats/upgrades. CRM & MSFT are the best *fits* (quality tech, low beta, good diversifiers; CRM's late-May earnings = no blackout) but NOT buyable on today's evidence. JNJ overlaps LLY (pharma); LMT overlaps our 3 industrials. Watch-list only.
+- **Earnings-fuel scan:** No large-cap reports today. This week: JBL (Wed BMO), KR + ACN (Thu BMO). Last week's possible beats — AVGO (reported beat-and-raise per media, specifics UNVERIFIED), ORCL (confirmed double-beat Jun 10, but the "raised guidance" leg unconfirmed → not a clean #1). Neither actionable without confirmation.
+
+### Sell candidates
+- **None.** Worst is DE −1.49% (nowhere near −7%); no thesis-breakers on any name; LLY already trailing; no +5% conversions yet fired (GE closest at +3.99%, trigger ~346.11 — open routine watches it). Daily loss cap N/A (market closed).
+
+### Plan handed to the market-open routine
+- **No trades this routine (market closed).** Hold all 4; let the −7% hard stops work. **Standing conversion task: if GE ≥ ~346.11 (+5%), convert its −7% hard stop → 10% trailing GTC** (GE is +3.99% pre-market, the live one).
+- **Reserve-buy decision (0 of 3 used, cap fresh today):** JPM is the lead and clears 2 signals + safe earnings + fills the financials gap. **My recommendation: do NOT chase the Iran-headline risk-on gap Monday; prefer deploying JPM AFTER Wednesday's FOMC (i.e. Thursday), re-verifying price/trend and reading the rates reaction — JPM's thesis literally hinges on the Fed.** This is *not* reflexive cash-drag deferral (the yellow flag from Friday): it's a specific, dated, 2-session event reason, on a name whose thesis is the print itself. We are 4-of-5 invested (~46% cash = the buffer, not idle paralysis), so no forced action.
+- **Escape hatch for the open routine's judgment:** if Monday's open shows a *durably* constructive tape (not just a geopolitical gap that fades) AND the routine judges the Fed largely priced, a **half-size ~7–8% JPM starter** is acceptable to honor Friday's "deploy, don't reflexively park" flag — but full-size or a fresh non-JPM name should wait for confirmation. Don't force it; nothing clears a *hard* catalyst bar today.
+
+---
 ## 2026-06-12 12:05 CT — midday
 
 **Setup:** Keys present (all 4 required + Telegram). Market **OPEN** (clock is_open=true, ~13:05 ET, next_close 16:00 ET). Live Alpaca: equity **$99,648.29**, cash **$46,447.18**, last_equity (6/11 close) **$99,632.12**, long_market_value **$53,201.11**, daytrade_count 0. Day so far **+$16.17 / +0.016%** (flat). Inbox: nothing pending. All 4 GTC stops verified RESTING (status `new`) via open-orders query.

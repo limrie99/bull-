@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-12 16:05 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-06-15 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99521.97,
+  "equity": 100281.44,
   "cash": 46447.18,
-  "day_pl": -110.15,
-  "day_pl_pct": -0.11,
-  "spy_day_pct": 0.54,
-  "alpha_day_pct": -0.65,
-  "week_pl_pct": 0.02,
-  "spy_week_pct": 0.57,
-  "alpha_week_pct": -0.56,
+  "day_pl": 785.84,
+  "day_pl_pct": 0.79,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1134.00,
-      "pl_pct": 5.15,
+      "current": 1139.61,
+      "pl_pct": 5.67,
       "stop": 1064.457
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 335.25,
-      "pl_pct": 1.70,
+      "current": 342.79,
+      "pl_pct": 3.99,
       "stop": 306.56
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 577.48,
-      "pl_pct": -2.09,
+      "current": 581.01,
+      "pl_pct": -1.49,
       "stop": 548.53
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 392.00,
-      "pl_pct": -2.38,
+      "current": 403.00,
+      "pl_pct": 0.36,
       "stop": 373.43
     }
   ],
@@ -98,6 +98,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-15 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: hold all four, no trades before the open. Good news — Eaton turned green and GE is up ~4%. I'm staying patient on a new buy until after the Fed decides on interest rates this Wednesday.",
+      "body": "Research-only check before the bell (market closed). I sent my research team out — one analyst each on the overall market, the earnings calendar, our four stocks, and new buy ideas. The market looks set to open higher on a hopeful headline (a reported peace deal easing Middle East tensions, which also pushed oil prices down) — a nice tailwind. But I'm cautious about rushing in: the Federal Reserve (the US central bank that sets interest rates) announces its decision this Wednesday, and the market is closed Friday for Juneteenth, so it's a short, jumpy week. My best new idea, JPMorgan (a big bank), clears our bar and fills a gap (we own no banks), but a bank's fortunes ride directly on interest rates — so buying it two days before the rate decision is a coin-flip I'd rather not take. Better to see what the Fed says first. At the open I'll re-check live; if GE climbs past ~$346 (+5%) I'll swap its safety-net for a trailing one that locks in profit. Equity ~$100,281 in early indications — back above our $100,000 start (unofficial pre-market prices). All four healthy: Lilly +5.7%, GE +4.0%, Eaton back to +0.4% (was red), Deere −1.5% — all clear of their safety-nets. $46,447 cash (~46%) ready; new week resets to 3 fresh buys, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-12 16:05 CT",
       "routine": "weekly-review",
       "headline": "Week ending 6/12: us +0.02% | S&P 500 +0.57% | we trailed by ~0.56% | grade C+. A quiet, no-loss week where the market edged us out — but we're still ahead of it over the last two weeks combined.",
@@ -138,12 +144,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — a relief bounce, all four stocks green on the day, holding steady.",
       "body": "At the opening bell I re-checked everything and placed no trades — exactly this morning's plan; all four automatic safety-sell orders are armed. After two nervous, falling days, the market is catching its breath — a relief bounce. All four of our stocks are UP on the day, the most beaten-down bouncing hardest. But one green morning isn't a trend, so I'm not chasing. I won't deploy our spare buy into a single bounce day. Watching Eaton (~2% above its net but moving the right way) and Deere (bounced to ~3.3% room). Equity $98,532, up ~$501 (+0.51%) vs SPY's +0.20%. Week −0.98% vs market −1.41%, still ahead ~0.43%. Buys used 2 of 3. 🐂"
-    },
-    {
-      "ts": "2026-06-11 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan — holding steady; all 4 stocks healthy, no trades planned. Deere is the one I'm watching at the open.",
-      "body": "Research-only check before the open. Yesterday's warm inflation report still sets the mood: rates higher for longer, a risk-off backdrop, so I keep cash dry. Good news: NO bad news on any of our four, and Eli Lilly's story got stronger (new FDA approval, all three big insurers now covering its weight-loss line, price-target bump to $1,350). The live one is Deere — drifted to ~1.9% above its automatic safety-sell; if a weak open trips it, that's the net doing its job on noise, not a broken company. Equity ~$98,376; cash $46,447 (~47% ready). LLY +5.4%; ETN −4.5%, GE −2.1%, DE −5.2%. Buys used 2 of 3 this week. 🐂"
     }
   ]
 }
