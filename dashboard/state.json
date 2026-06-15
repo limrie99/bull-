@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-15 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-15 15:06 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100414.04,
+  "equity": 100098.08,
   "cash": 46447.18,
-  "day_pl": 918.44,
-  "day_pl_pct": 0.92,
-  "spy_day_pct": 1.90,
-  "alpha_day_pct": -0.98,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "day_pl": 602.48,
+  "day_pl_pct": 0.61,
+  "spy_day_pct": 1.76,
+  "alpha_day_pct": -1.16,
+  "week_pl_pct": 0.61,
+  "spy_week_pct": 1.76,
+  "alpha_week_pct": -1.16,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1130.505,
-      "pl_pct": 4.83,
+      "current": 1131.30,
+      "pl_pct": 4.90,
       "stop": 1064.457
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 344.73,
-      "pl_pct": 4.58,
+      "current": 341.80,
+      "pl_pct": 3.69,
       "stop": 314.001
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 408.66,
-      "pl_pct": 1.77,
+      "current": 407.14,
+      "pl_pct": 1.39,
       "stop": 373.43
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 582.40,
-      "pl_pct": -1.26,
+      "current": 575.47,
+      "pl_pct": -2.43,
       "stop": 548.53
     }
   ],
@@ -105,6 +105,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-15 15:06 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,098 · day +0.61% · SPY +1.76% · alpha -1.16%",
+      "body": "Good day in dollars — we made +$602 (+0.61%) and finished above $100K — but the S&P 500 had a bigger day (+1.76%), so we trailed it by ~1.2 points. We're up, just up less than the index, and that's by design this week. No buying or selling today; the only housekeeping was this morning's upgrade of GE's safety-net to a trailing stop (a sell order that climbs with the price to protect profits). All four stocks are healthy and every safety-sell is armed and resting. Why we trailed on purpose: we're holding ~46% cash waiting for Wednesday's Federal Reserve interest-rate decision (the central bank call that moves the whole market). When stocks rip higher like today, sidelined cash drags us behind the index — the trade-off for the cushion it gives on down-days. This is the third up-day in a row we've lagged, so it's now a pattern I want to break — but I won't buy into a coin-flip right before the Fed; I'd rather deploy after Wednesday clears. Next: no new buys until after the Fed; if my top idea (JPMorgan, a bank whose fortunes ride on rates) still looks strong, I'll put cash to work Thursday. Market's closed Friday for Juneteenth. Numbers: equity $100,098, +$602 (+0.61%); our four stocks hold +$1,106 unrealized profit (Lilly +$740, GE +$548, Eaton +$134, Deere -$316, our one laggard but well above its net); $46,447 cash (~46%) as dry powder. 🐂"
+    },
     {
       "ts": "2026-06-15 12:05 CT",
       "routine": "midday",
