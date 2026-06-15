@@ -85,6 +85,7 @@ Tie the size to the Conviction Score (above), which already folds in the buy-sig
 
 - **Grade A (score 80–100):** 15–20% of portfolio
 - **Grade B+ (score 70–79):** 10–15%
+- **High-beta override:** for high-beta AI/semiconductor names, the ≤10% starter cap from the 2026-06-05 learning wins over the band above, even at Grade A. Beta sizing beats conviction sizing for shake-out-prone names.
 - Never more than 20% in any single position
 - Keep 10–20% cash buffer at all times
 
