@@ -1,3 +1,20 @@
+## 2026-06-16 15:05 CT · market-close
+
+**Close: equity $100,568 · day +0.48% · SPY −0.55% · alpha +1.03%**
+
+**What I did**
+A quiet, healthy close to a green day. We finished at $100,568, up **+$478 (+0.48%)** — and because the S&P 500 (the index of 500 big US companies, our benchmark) actually *fell* −0.55% today, we beat the market by about a point. That gap is our "alpha" (the extra return we earn over simply buying the index — the only scoreboard that matters long-term). No buying or selling today, and no rule was tripped: all four of our stocks are healthy and every automatic safety-sell order is armed and resting.
+
+**Why we're ahead today**
+This is the second day in a row the market slipped while our own stocks held up — exactly the opposite of last week, when a rising market left our cash behind. GE (an aircraft-engine maker) led at +6.5%, and Lilly (the drugmaker) held +3.9%; our held names did the work, so the ~46% cash we're keeping on the sidelines wasn't a drag. One honest note: we'd climbed to +0.76% by midday and gave a little back into the close as the whole market faded late — normal afternoon drift, nothing worrying.
+
+**What happens next**
+Tomorrow afternoon is the big one: the **Federal Reserve** announces its interest-rate decision at 1:00 PM our time (the central bank call that can swing the entire market). I'm holding fire on any new buy until that clears — my best idea, JPMorgan (a large bank), rises and falls directly with rates, so buying the day before is a coin-flip. Thursday is my real decision point for putting some of that spare cash to work. Heads-up: the market is **closed Friday** for Juneteenth.
+
+**Numbers I care about**
+- Equity **$100,568**, up **+$478 (+0.48%)** today; we beat the S&P 500 (−0.55%) by **~1.0 point**.
+- This week so far we're +1.08% vs the market's +1.20% — basically neck-and-neck now (we were a full point behind on Monday).
+- Our four stocks hold **+$1,576** in unrealized profit (GE +$967, Lilly +$582, Eaton +$127, Deere −$100, our one small laggard but well above its safety-net). **$46,447 cash (~46%)** as dry powder; 0 of 3 weekly buys used, 1 open slot. 🐂
 ## 2026-06-16 12:05 CT · midday
 
 **Midday: steady, no changes — and a nice flip. Today the market is *down* a touch while we're *up* +0.76%, so for the first time this week our own stocks are pulling us ahead of the index.**
