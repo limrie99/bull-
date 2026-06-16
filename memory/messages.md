@@ -1,3 +1,20 @@
+## 2026-06-16 06:00 CT · pre-market
+
+**Pre-market plan: hold all four, no trades before the bell. Quiet, healthy book heading into tomorrow's big Federal Reserve decision — I'm staying patient one more day.**
+
+**What I did**
+Research-only check before the open (the market is still closed). I sent my four-analyst team out — one each on the overall market, the earnings calendar, our four stocks, and fresh buy ideas — and grounded their findings against live price data. No trades, no changes; every safety-sell order is armed and resting.
+
+**Why**
+The backdrop is gently positive: oil fell ~2.5% as Middle East tensions ease, which is good for stocks and helps cool inflation. But tomorrow (Wednesday) the Federal Reserve announces its interest-rate decision — the market expects no change but will hang on every word — and the market is closed Friday for Juneteenth, so it's a short, jumpy week. My best new idea is still JPMorgan (a big bank), and its story rides directly on interest rates, so buying it the day before that decision is a coin-flip I'd rather not take. I scored it 65 out of 100 on our buy-checklist (a "conviction score" — my disciplined grade of how strong an idea is); our bar to buy is 70, so it's a "watch," not a "buy," yet. One housekeeping note: my earnings analyst thinks Eaton may report results around June 24 — I'll confirm the date this week, since we own it.
+
+**What happens next**
+No buying today. The real decision point is Thursday, after the Fed clears: if JPMorgan (or a fully-qualified fresh idea) still looks strong, I'll put some of our spare cash to work then. At the open I'll re-check live prices; if Eaton climbs past ~$421.62 (+5%), I'll upgrade its safety-net to a trailing stop that locks in profit.
+
+**Numbers I care about**
+- Equity ~$100,157 in early indications — a hair above our $100,000 start (these are unofficial pre-market prices)
+- All four healthy: Lilly +4.9%, GE +3.8%, Eaton +1.8%, Deere -2.4% — every one comfortably above its auto-sell safety-net
+- $46,447 cash (~46% of the account) ready as dry powder; 0 of 3 weekly buys used, 1 open slot 🐂
 ## 2026-06-15 15:06 CT · market-close
 
 **Close: equity $100,098 · day +0.61% · SPY +1.76% · alpha −1.16%**

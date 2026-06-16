@@ -5,6 +5,46 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-16 06:00 CT — pre-market
+
+**Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-16T09:30 ET). Live Alpaca account (pre-market, after-hours marks — NOT a live session tick): equity **$100,157.10**, cash **$46,447.18**, long_market_value **$53,709.92** (~53.6% invested / ~46.4% cash), account last_equity (6/15 official close) **$100,089.56**, daytrade_count 0. Indicative since-6/15-close **+$67.54 / +0.07%** (UNAUTHORITATIVE — market closed, no Tue SPY/equity print). Inbox: nothing pending. **Tue = day 2 of the short Fed week; weekly buy cap 0 of 3 used; 1 open position slot (4 of 5 held).** All 4 GTC stops verified RESTING (status `new`): GE trailing 314.001 (hwm 348.89); LLY trailing 1064.457 (hwm 1182.73); ETN −7% hard 373.43; DE −7% hard 548.53. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; grounded prices/trend against Alpaca bars directly because Perplexity real-time retrieval is again unreliable past ~early 2026 (it refused to confirm any June 2026 beats/upgrades/technicals).
+
+### Market context — mildly risk-on, but Fed-eve in a short, triple-witching week
+- **Futures: MILDLY RISK-ON.** ES ~+0.0–0.2%, NQ ~+0.2% (verified ~05:12 ET). Europe broadly higher (FTSE +1.37%, DAX +0.64%); Asia mixed (Hang Seng −1.44%). Driver: US–Iran de-escalation pulling the war-risk premium out.
+- **Oil DOWN hard: WTI ~$78.73, −2.5%** (verified) on the Strait of Hormuz reopening news — supply-fear unwinding, supportive for a long-only book and disinflationary at the margin. **Gold ~$4,341 +0.86%** (Fed-eve positioning). EUR/USD ~1.16 (softer dollar). 10yr yield / DXY: **UNVERIFIED** (no timestamped tick).
+- **THE governor: FOMC Wed June 17, 2:00 PM ET.** Market prices **~97% HOLD** at 3.50–3.75%, ~3% for a cut (CME FedWatch). Fed in blackout. Key risk Wednesday is a **hawkish guidance/dot surprise**, not the rate itself. Any new buy today carries binary event risk into that print.
+- **Short, jumpy week:** US markets **CLOSED Fri June 19 (Juneteenth)** → 4 trading days; **Thursday is triple-witching** (largest options-expiration / repositioning session). Flows front-loaded Wed–Thu.
+- **Iran deal flagged fragile/reversible** (Israel struck Beirut; sanctions/nuclear unresolved) — two-sided headline risk persists.
+- **Benchmark grounding (Alpaca):** SPY last 754.50 (6/15 after-hours, = ~6/15 close 754.75). No Tuesday print yet. Week baseline (Mon 6/15 close) ≈ 754.75.
+
+### Portfolio watch — all 4 theses INTACT, zero thesis-breakers (position-analyst clean across 2 independent queries)
+- **LLY** +4.92% (mark 1131.50), anchor. No material 24h news; Foundayo (oral GLP-1) Medicare Part D at $50/mo opens **July 1** = forward catalyst; Jefferies Buy PT $1,350. 10% trailing resting, floor **1064.457** (~5.9% below mark; hwm 1182.73, mark < hwm → floor held). Hold.
+- **GE** +3.83% (mark 342.26), strongest. No material 24h news. 10% trailing resting, floor **314.001** (hwm 348.89; mark < hwm → floor held, ~8.0% below mark). Earnings ~late July (no blackout). Hold.
+- **ETN** +1.76% (mark 408.62), green and firm. No material 24h news; Mobility/Dana RMT spinoff remains thesis-positive. −7% hard 373.43 (~8.6% cushion). Closest to its own +5% conversion (trigger ~421.62). **⚠️ NEW FLAG: earnings analyst puts ETN's next report ~June 24, 2026 (UNVERIFIED) — INSIDE the ~14-day window.** This is hold-through-earnings event risk on an open position (only +1.76%, far below the >20% take-profit-first rule, so no pre-emptive action). **Standing task for open/midday this week: verify ETN's exact earnings date.** Hold.
+- **DE** −2.43% (mark 575.47), lone red. No company-specific thesis-breaker (no guidance cut/downgrade/litigation/USDA-driver) — ag/industrial drift. −7% hard 548.53 (~4.7% cushion). Hold.
+
+### Buy candidates — NOTHING clears the gate today (2+ signals AND Conviction ≥70)
+- **JPM — JPMorgan (Financials) — Conviction ≈ 65 (Grade B), 2 signals (soft pair). Lead reserve-buy; deploy decision deferred to post-FOMC.**
+  - Signal #6 (uptrend) — **HARD-VERIFIED via Alpaca daily bars:** 296.56 (5/28) → 320.71 (6/12) → 319.66 (6/15), clean stair-step higher, above 50d/200d, golden cross (~June 5) intact, ~5% below 52wk high (337.25), not extended/not at lows.
+  - Signal #5 (financials rotation, higher-for-longer NIM tailwind) — thematic/soft, UNVERIFIED.
+  - Signals #1 (fresh beat) and #4 (fresh <2wk upgrade): **ABSENT** — no date-stamped catalyst. Earnings ~July 14 (>3 trading days out → no-buy-within-3-days rule not blocking).
+  - **Conviction breakdown:** Fund 75·0.30 + Thesis 55·0.30 + Sent 60·0.20 + Risk 60·0.12 + Tech 80·0.08 = 22.5+16.5+12+7.2+6.4 = **64.6**. Clears 2 signals but only the SOFT pair, and score < 70 gate. Best *diversification* fit (book has no financials).
+  - **⚠️ Fed-timing:** JPM's #5 thesis is literally rate-driven → buying a rate-sensitive bank the day before the FOMC = initiating into a binary macro print. **Plan: re-verify JPM Thursday 6/18 post-FOMC (price/trend + rates reaction); deploy then if it still holds and clears the gate.** Dated event reason, NOT reflexive cash-drag deferral.
+- **ORCL — Oracle — beat-and-raise but the market REJECTED it. Conviction ≈ 52 (Grade C), THESIS-RISK / knife.**
+  - Signal #1 (beat-and-raise) VERIFIED (Q4 FY26 reported Jun 10: EPS $2.11 vs ~$1.9 cons, rev $19.18B +21% YoY, profit-forecast raised). BUT signal #6 (uptrend) **FAILS HARD:** Alpaca bars show ORCL *fell* from ~248 (6/1) to 184 (6/11) — a post-print selloff, down ~9% the session after earnings — only now bouncing to 192.62. The market punished the print; we don't catch knives (strategy "What we will NOT do"). Watchlist-only, low.
+- **AVGO — Broadcom — Conviction ≈ 65 (Grade B), watchlist.** Strong secular AI-infra story (#3), but the beat-and-raise catalyst is STALE (Mar 4, 3 months old), high-beta semis (the group we just exited via NVDA), and overlaps ETN's AI-power theme. No fresh dated catalyst. Watchlist.
+- **No large-cap earnings catalyst today.** This week: JBL + KMX (Wed), ACN + KR (Thu BMO) — watch for a Thursday beat-and-raise. ADBE/ORCL mid-June reporters checked; ORCL covered above, ADBE no verifiable fresh signal.
+
+### Sell candidates
+- **None.** Worst is DE −2.43% (nowhere near −7%); no thesis-breakers on any name; LLY & GE already trailing; no +5% conversion fired today (ETN closest at +1.76%, trigger ~421.62 — open/midday watches it). Daily loss cap N/A (market closed).
+
+### Plan handed to the market-open routine
+- **No trades this routine (market closed).** Hold all 4; let the stops work.
+- **Standing conversion tasks:** if **ETN ≥ ~421.62 (+5%)** cancel its −7% hard stop (db3865d5) → place 10% trailing GTC; if **DE ≥ ~619.31 (+5%)** same (a150583a). GE & LLY already trailing.
+- **⚠️ Verify ETN's exact next-earnings date** (flagged ~June 24, UNVERIFIED) — if confirmed within ~3 days, note the hold-through-earnings risk in that day's message (no new buy is implicated; it's an existing position).
+- **Reserve buy (0 of 3 used):** JPM is the lead but scores ~65 (< 70 gate) and is rate-sensitive into Wednesday. **Hold all buys today; re-verify and decide JPM (or a fresh verified alternative) Thursday 6/18 post-FOMC.** Cash-drag note: 4th straight up-tape session where ~46% cash lags — acceptable into the FOMC, but if a name clears 2 signals + Conviction ≥70 Thursday, **deploy it** rather than park a 3rd consecutive week. Read the post-FOMC + triple-witching tape before committing dry powder.
+
+---
 ## 2026-06-15 06:00 CT — pre-market
 
 **Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-15T09:30 ET). Pre-market indicative marks (NOT live — Friday after-hours/last trade): equity **$100,281.44** (back above $100K), cash **$46,447.18**, long_market_value **$53,834.26** (~53.7% invested / ~46.3% cash), account last_equity (6/12 close) **$99,495.60**, daytrade_count 0. Indicative since-Friday +$785.84 / +0.79% (UNAUTHORITATIVE — no Monday SPY/equity print yet; market closed). Inbox: nothing pending. **New trading week — weekly buy cap reset to 0 of 3; 1 open position slot (4 of 5 held).** All 4 GTC stops verified RESTING (status `new`): LLY trailing 1064.457 (hwm 1182.73); GE 306.56; ETN 373.43; DE 548.53. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity. **Caveat: Perplexity real-time retrieval again largely unreliable** for live levels/calendar — grounded everything possible against Alpaca; flagged the rest UNVERIFIED.
