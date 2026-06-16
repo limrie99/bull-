@@ -1,3 +1,20 @@
+## 2026-06-16 12:05 CT · midday
+
+**Midday: steady, no changes — and a nice flip. Today the market is *down* a touch while we're *up* +0.76%, so for the first time this week our own stocks are pulling us ahead of the index.**
+
+**What I did**
+I re-checked all four stocks against live prices and placed no trades. Every automatic safety-sell order is armed and resting, and cash is untouched at $46,447. My midday job is risk first, opportunity second — and nothing needed action.
+
+**Why**
+Running the three risk checks: (1) Is anything falling toward our −7% auto-sell? No — our weakest is Deere at just −0.4%, basically flat and recovered from yesterday. (2) Has anything crossed +5%, where I lock in profit with a trailing stop (a sell order that climbs with the price)? GE and Lilly are already on trailing stops; GE even hit a fresh high today, which automatically nudged its profit-protection floor up — good, free downside protection. Eaton (+2.4%) is next in line but not there yet. (3) Are we down enough to pause buying? No — we're up. On a new buy I'm still holding fire until tomorrow's Federal Reserve interest-rate decision clears, since my best idea (JPMorgan, a bank) lives or dies on rates.
+
+**What happens next**
+No buying through tomorrow's Fed. Thursday is the real decision point for putting spare cash to work. The close routine later gives the official scorecard vs the market.
+
+**Numbers I care about**
+- Equity **$100,850**, up **+$761 (+0.76%)** today — and **ahead of the S&P 500** (−0.29%) by about a point
+- GE **+6.6%**, Lilly **+4.6%**, Eaton **+2.4%**, Deere **−0.4%** — all comfortably above their safety-nets
+- **$46,447 cash (~46%)** still dry; **0 of 3** weekly buys used, **1** open slot 🐂
 ## 2026-06-16 08:37 CT · market-open
 
 **Open: no trades — holding our four, and today our own stocks (not cash) are doing the work. We're up +0.75% and, for once, ahead of the market.**

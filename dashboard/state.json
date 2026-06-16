@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-16 08:37 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-06-16 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100841.89,
+  "equity": 100850.63,
   "cash": 46447.18,
-  "day_pl": 752.33,
-  "day_pl_pct": 0.75,
-  "spy_day_pct": 0.06,
-  "alpha_day_pct": 0.69,
-  "week_pl_pct": 1.35,
-  "spy_week_pct": 1.82,
-  "alpha_week_pct": -0.47,
+  "day_pl": 761.07,
+  "day_pl_pct": 0.76,
+  "spy_day_pct": -0.29,
+  "alpha_day_pct": 1.05,
+  "week_pl_pct": 1.36,
+  "spy_week_pct": 1.47,
+  "alpha_week_pct": -0.11,
   "positions": [
-    {
-      "symbol": "LLY",
-      "qty": 14,
-      "avg_cost": 1078.46,
-      "current": 1143.63,
-      "pl_pct": 6.04,
-      "stop": 1064.457
-    },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 348.24,
-      "pl_pct": 5.64,
-      "stop": 314.10
+      "current": 351.40,
+      "pl_pct": 6.60,
+      "stop": 317.574
+    },
+    {
+      "symbol": "LLY",
+      "qty": 14,
+      "avg_cost": 1078.46,
+      "current": 1128.58,
+      "pl_pct": 4.65,
+      "stop": 1064.457
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 411.33,
-      "pl_pct": 2.44,
+      "current": 411.06,
+      "pl_pct": 2.37,
       "stop": 373.43
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 583.70,
-      "pl_pct": -1.04,
+      "current": 587.495,
+      "pl_pct": -0.39,
       "stop": 548.53
     }
   ],
@@ -106,6 +106,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-16 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — and a nice flip. Today the market is down a touch while we're up +0.76%, so for the first time this week our own stocks are pulling us ahead of the index.",
+      "body": "I re-checked all four stocks against live prices and placed no trades; every safety-sell order is armed and resting, cash untouched at $46,447. Risk first: (1) anything near our -7% auto-sell? No — weakest is Deere at just -0.4%, basically flat and recovered from yesterday. (2) anything crossed +5% to lock in with a trailing stop? GE and Lilly already are; GE hit a fresh high today, which automatically nudged its profit-protection floor up. Eaton (+2.4%) is next but not there. (3) down enough to pause buying? No — we're up. On a new buy I'm still holding fire until tomorrow's Federal Reserve rate decision clears (my best idea, JPMorgan, a bank, lives or dies on rates). Next: no buying through the Fed; Thursday is the real decision point. Numbers: equity $100,850, up +$761 (+0.76%) and ahead of the S&P 500 (-0.29%) by about a point. GE +6.6%, Lilly +4.6%, Eaton +2.4%, Deere -0.4% — all above their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-16 08:37 CT",
       "routine": "market-open",
       "headline": "Open: no trades — holding our four, and today our own stocks (not cash) are doing the work. We're up +0.75% and, for once, ahead of the market.",
@@ -132,14 +138,14 @@
     {
       "ts": "2026-06-15 08:37 CT",
       "routine": "market-open",
-      "headline": "Open: no new buy — but a good housekeeping win. GE crossed +5%, so I locked in a profit-protecting trailing safety-net on it. We're up about +0.9% on the day; the market's up more (+1.5%), so we're trailing it intraday — and that's on purpose this week.",
-      "body": "At the opening bell I re-checked all four stocks against live prices. GE (GE Aerospace) ticked just past a +5% gain, which triggers one of our rules: I cancelled its fixed -7% safety-net and replaced it with a trailing stop (a sell order that rises as the stock climbs, locking in more gain and only selling if GE falls ~10% from its high). No share trades — just that upgrade; cash untouched. The market opened sharply higher (~+1.5%) on a hopeful headline (easing Middle East tensions, which also pushed oil down). Tempting, but I'm deliberately patient: the Federal Reserve announces its interest-rate decision this Wednesday. My best new idea, JPMorgan, is a bank whose fortunes ride directly on rates — so buying it two days before that decision is a coin-flip, and today's jump is a one-day headline reaction, not yet a trend. I'd rather see the Fed first, then buy with more confidence Thursday. Holding ~46% cash is the cost of that patience: it makes us lag on a fast-rising day, but it's the same cushion that protects us on drops. Next: if Eaton (+2.1%) reaches +5% I'll give it the same trailing upgrade; the big event is Wednesday's Fed. Equity $100,425, up +$930 (+0.93%) today vs SPY ~+1.5%, so we trail intraday (close gives the official score). GE +5.1% (now trailing), Lilly +3.4%, Eaton +2.1%, Deere -0.3% — all clear of their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+      "headline": "Open: no new buy — but a good housekeeping win. GE crossed +5%, so I locked in a profit-protecting trailing safety-net on it.",
+      "body": "At the opening bell I re-checked all four stocks against live prices. GE (GE Aerospace) ticked just past a +5% gain, which triggers one of our rules: I cancelled its fixed -7% safety-net and replaced it with a trailing stop (a sell order that rises as the stock climbs, locking in more gain and only selling if GE falls ~10% from its high). No share trades — just that upgrade; cash untouched. The market opened sharply higher (~+1.5%) on a hopeful headline (easing Middle East tensions, which also pushed oil down). Tempting, but I'm deliberately patient: the Federal Reserve announces its interest-rate decision this Wednesday. My best new idea, JPMorgan, is a bank whose fortunes ride directly on rates — so buying it two days before is a coin-flip, and today's jump is a one-day headline reaction, not yet a trend. Holding ~46% cash is the cost of that patience. Equity $100,425, up +$930 (+0.93%) today vs SPY ~+1.5%. GE +5.1% (now trailing), Lilly +3.4%, Eaton +2.1%, Deere -0.3%. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
     },
     {
       "ts": "2026-06-15 06:00 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: hold all four, no trades before the open. Good news — Eaton turned green and GE is up ~4%. I'm staying patient on a new buy until after the Fed decides on interest rates this Wednesday.",
-      "body": "Research-only check before the bell (market closed). I sent my research team out — one analyst each on the overall market, the earnings calendar, our four stocks, and new buy ideas. The market looks set to open higher on a hopeful headline (a reported peace deal easing Middle East tensions, which also pushed oil prices down) — a nice tailwind. But I'm cautious about rushing in: the Federal Reserve (the US central bank that sets interest rates) announces its decision this Wednesday, and the market is closed Friday for Juneteenth, so it's a short, jumpy week. My best new idea, JPMorgan (a big bank), clears our bar and fills a gap (we own no banks), but a bank's fortunes ride directly on interest rates — so buying it two days before the rate decision is a coin-flip I'd rather not take. Better to see what the Fed says first. At the open I'll re-check live; if GE climbs past ~$346 (+5%) I'll swap its safety-net for a trailing one that locks in profit. Equity ~$100,281 in early indications — back above our $100,000 start (unofficial pre-market prices). All four healthy: Lilly +5.7%, GE +4.0%, Eaton back to +0.4% (was red), Deere -1.5% — all clear of their safety-nets. $46,447 cash (~46%) ready; new week resets to 3 fresh buys, 1 open slot. 🐂"
+      "headline": "Pre-market plan: hold all four, no trades before the open. Good news — Eaton turned green and GE is up ~4%. Staying patient on a new buy until after Wednesday's Fed.",
+      "body": "Research-only check before the bell. The market looks set to open higher on a hopeful headline (a reported peace deal easing Middle East tensions, which also pushed oil prices down). But I'm cautious: the Federal Reserve announces its rate decision this Wednesday, and the market's closed Friday for Juneteenth, so it's a short, jumpy week. My best idea, JPMorgan (a big bank), clears our bar and fills a gap (we own no banks), but a bank rides directly on interest rates — so buying two days before the decision is a coin-flip I'd rather not take. At the open I'll re-check live; if GE climbs past ~$346 (+5%) I'll swap its safety-net for a trailing one. Equity ~$100,281 (unofficial pre-market). Lilly +5.7%, GE +4.0%, Eaton +0.4%, Deere -1.5%. $46,447 cash (~46%); new week resets to 3 fresh buys, 1 open slot. 🐂"
     },
     {
       "ts": "2026-06-12 16:05 CT",
