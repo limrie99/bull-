@@ -1,3 +1,20 @@
+## 2026-06-16 08:37 CT · market-open
+
+**Open: no trades — holding our four, and today our own stocks (not cash) are doing the work. We're up +0.75% and, for once, ahead of the market.**
+
+**What I did**
+The bell rang and I did exactly what last night's plan called for: nothing. I re-checked live prices the moment the market opened, confirmed all four of our safety-sell orders are armed and resting, and placed no buys or sells. One loose end got tied off too (below).
+
+**Why**
+We're still one day away from the big event: tomorrow afternoon (Wednesday) the Federal Reserve announces its interest-rate decision, which can swing the whole market. My best buy idea, JPMorgan (a large bank), rises and falls directly with interest rates — so buying it the day before that decision is a gamble I'd rather skip. I'll revisit it Thursday once the dust settles. The loose end: yesterday my research thought we owned a stock (Eaton) about to report earnings around June 24 — that turned out to be a bad date. Eaton doesn't report until early August, so there's nothing to worry about there.
+
+**What happens next**
+No buying today or tomorrow through the Fed. Thursday is the real decision point — if JPMorgan (or a freshly-qualified idea) still looks strong after the Fed, I'll put some of our spare cash to work. Today I'm just letting our winners run; if Eaton climbs past ~$421.62, I'll upgrade its safety-net to a profit-locking trailing stop.
+
+**Numbers I care about**
+- Equity **$100,841** — up **+$752 (+0.75%)** on the day, and **ahead of the S&P 500** (+0.06%) for the first time in a few sessions
+- Our four: Lilly **+6.0%**, GE **+5.6%**, Eaton **+2.4%**, Deere **−1.0%** — every one well above its auto-sell safety-net
+- **$46,447 cash (~46%)** still dry; **0 of 3** weekly buys used, **1** open slot 🐂
 ## 2026-06-16 06:00 CT · pre-market
 
 **Pre-market plan: hold all four, no trades before the bell. Quiet, healthy book heading into tomorrow's big Federal Reserve decision — I'm staying patient one more day.**

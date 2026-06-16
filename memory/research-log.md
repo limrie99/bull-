@@ -5,6 +5,33 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-16 08:37 CT — market-open
+
+**Setup:** Keys present (all 4 + Telegram). Market **OPEN** (clock is_open=true, 09:37 ET; next_close 16:00 ET). Live Alpaca: equity **$100,841.89**, cash **$46,447.18**, long_market_value **$54,394.71** (~53.9% invested / ~46.1% cash), last_equity (6/15 close) **$100,089.56**, daytrade_count 0. **Day P/L +$752.33 / +0.75%.** SPY 755.19 live vs 754.75 (6/15 close) = +0.06% → **alpha today ≈ +0.69 pts (AHEAD of index intraday — first up-tape in the stretch where the held book leads, not the cash).** Inbox: nothing pending. Buy cap 0 of 3; 4 of 5 slots.
+
+### Executed the pre-market plan: NO TRADES, holds confirmed
+- **No buys.** JPM (lead reserve, Conviction ~65 < 70 gate, rate-driven) deferred to post-FOMC Thu 6/18 per plan; FOMC is tomorrow (Wed 6/17). Nothing else clears 2 signals + Conviction ≥70. Cold-start/anti-paralysis rule satisfied: this is a dated 2-session event deferral, not reflexive cash-drag (and we're 4-of-5 invested + ahead of SPY today).
+- **No sells.** Worst is DE −1.04% (nowhere near −7%); no thesis-breakers on any name.
+- **No +5% conversions fired.** GE & LLY already trailing. ETN +2.44% (mark 411.33), below its 421.62 trigger — did not convert. DE red. Standing conversion tasks carried forward.
+
+### Live stop verification (GET /v2/orders?status=open) — all 4 RESTING GTC, status `new`
+- GE trailing_stop b9dadf2d — stop 314.10, trail 10%, hwm 349.00 (ratcheted up from 348.89).
+- LLY trailing_stop 6016a7e7 — stop 1064.457, trail 10%, hwm 1182.73 (mark 1143.63 < hwm → floor held).
+- ETN stop db3865d5 — 373.43 (−7% hard).
+- DE stop a150583a — 548.53 (−7% hard).
+
+### Standing task resolved: ETN earnings date
+- Pre-market flagged ETN earnings ~June 24 (UNVERIFIED) as a possible 14-day-window/hold-through-earnings risk. **Verified via Perplexity:** Eaton's last report was **May 5, 2026** (Q1); NASDAQ shows "data not available" for next date; the only forward pointer is **Zacks estimate ~Aug 4, 2026** (consistent with quarterly cadence). **Conclusion: the ~June 24 date was a hallucination — ETN is NOT inside the 14-day window.** No hold-through-earnings risk near-term; flag cleared. (Position is only +2.44% anyway, far below the >20% take-profit-first rule, so no action was implicated either way.)
+
+### Live position marks
+- LLY 1143.63 (+6.04%, +$912.45) · GE 348.24 (+5.64%, +$837.23) · ETN 411.33 (+2.44%, +$234.90) · DE 583.70 (−1.04%, −$134.71). Net open unrealized **+$1,849.87**.
+
+### Plan handed to midday/close
+- Hold all 4; let the stops work. Re-check at midday: if **ETN ≥ ~421.62 (+5%)** convert its −7% hard (db3865d5) → 10% trailing GTC; if **DE ≥ ~619.31 (+5%)** same (a150583a).
+- **No new buys until post-FOMC Thu 6/18** — re-verify JPM (or a fresh verified alternative) after the 2pm-ET Wed print + read the triple-witching tape Thursday before deploying dry powder. Don't park a 3rd consecutive week if a name clears the gate.
+- Close routine owns the mandatory plain-English daily scorecard + Telegram push.
+
+---
 ## 2026-06-16 06:00 CT — pre-market
 
 **Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-16T09:30 ET). Live Alpaca account (pre-market, after-hours marks — NOT a live session tick): equity **$100,157.10**, cash **$46,447.18**, long_market_value **$53,709.92** (~53.6% invested / ~46.4% cash), account last_equity (6/15 official close) **$100,089.56**, daytrade_count 0. Indicative since-6/15-close **+$67.54 / +0.07%** (UNAUTHORITATIVE — market closed, no Tue SPY/equity print). Inbox: nothing pending. **Tue = day 2 of the short Fed week; weekly buy cap 0 of 3 used; 1 open position slot (4 of 5 held).** All 4 GTC stops verified RESTING (status `new`): GE trailing 314.001 (hwm 348.89); LLY trailing 1064.457 (hwm 1182.73); ETN −7% hard 373.43; DE −7% hard 548.53. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; grounded prices/trend against Alpaca bars directly because Perplexity real-time retrieval is again unreliable past ~early 2026 (it refused to confirm any June 2026 beats/upgrades/technicals).
