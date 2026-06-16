@@ -20,12 +20,16 @@ Persistent, scored bench of candidates Bull is tracking but hasn't bought (or ha
 
 ## Rankings
 
-_(Last scored: — · seed empty; pre-market will populate)_
+_(Last scored: 2026-06-16 06:00 CT pre-market. Conviction = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech, each dimension 0–100. Buy needs 2+ signals AND Conviction ≥70 — none clears today.)_
 
-| Rank | Ticker | Company | Conviction | Fund/30 | Thesis/30 | Sent/20 | Risk/12 | Tech/8 | Signals | Alert | One-line thesis |
+| Rank | Ticker | Company | Conviction | Fund/100 | Thesis/100 | Sent/100 | Risk/100 | Tech/100 | Signals | Alert | One-line thesis |
 |------|--------|---------|-----------|---------|-----------|---------|---------|--------|---------|-------|-----------------|
-| — | — | — | — | — | — | — | — | — | — | — | _no candidates yet_ |
+| 1 | JPM | JPMorgan Chase | **65** | 75 | 55 | 60 | 60 | 80 | #6 (uptrend, HARD-verified via bars), #5 (financials rotation, thematic) | NEAR-TRIGGER | Best-in-class bank, fills the missing financials sleeve; clean uptrend + golden cross. Rate-driven thesis → deploy decision deferred to post-FOMC (Thu 6/18). Earnings ~July 14. |
+| 2 | AVGO | Broadcom | **65** | 80 | 55 | 65 | 50 | 65 | #3 (AI-infra secular, verified) | THESIS-RISK (stale catalyst) | Premier AI custom-silicon, but the beat-and-raise is 3 months stale (Mar 4), high-beta semis (just exited NVDA), overlaps ETN. No fresh dated catalyst. |
+| 3 | ORCL | Oracle | **52** | 70 | 50 | 40 | 50 | 30 | #1 (Q4 beat-and-raise 6/10, VERIFIED) | THESIS-RISK (knife) | Beat-and-raise but the market REJECTED it — fell ~9% post-print (248→184), only now bouncing to ~192. Fails #6 (not in uptrend, near recent lows). Don't catch the knife. |
+
+_Bench (unscored, no verified fresh signal): MSFT, CRM, ADBE — quality/diversifier fits to re-screen when Perplexity/Alpaca surfaces a dated catalyst._
 
 ## Log (newest on top)
 
-- _empty — first pre-market run after 2026-06-15 will seed this from the opportunity scout's screens._
+- **2026-06-16 pre-market** — Seeded from the opportunity-scout screens. **JPM (65, NEAR-TRIGGER)** stays the lead reserve-buy: uptrend hard-verified via Alpaca bars (296→320 over 3 wks, golden cross intact), but only the soft 2-signal pair (#5+#6), no fresh catalyst, and rate-sensitive into Wed's FOMC → deploy decision deferred to Thu 6/18 post-Fed. **AVGO (65)** strong secular story but catalyst stale (Mar 4) + high-beta semis overlap. **ORCL (52)** beat-and-raise on 6/10 but stock fell ~9% the next session — market rejected the print, so it's a knife (fails #6), watchlist-only. Nothing clears 2 signals + Conviction ≥70 today.

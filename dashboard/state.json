@@ -1,39 +1,39 @@
 {
-  "last_update": "2026-06-15 15:06 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-16 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100098.08,
+  "equity": 100157.10,
   "cash": 46447.18,
-  "day_pl": 602.48,
-  "day_pl_pct": 0.61,
-  "spy_day_pct": 1.76,
-  "alpha_day_pct": -1.16,
-  "week_pl_pct": 0.61,
-  "spy_week_pct": 1.76,
-  "alpha_week_pct": -1.16,
+  "day_pl": 67.54,
+  "day_pl_pct": 0.07,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": 0.07,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1131.30,
-      "pl_pct": 4.90,
+      "current": 1131.50,
+      "pl_pct": 4.92,
       "stop": 1064.457
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 341.80,
-      "pl_pct": 3.69,
+      "current": 342.26,
+      "pl_pct": 3.83,
       "stop": 314.001
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 407.14,
-      "pl_pct": 1.39,
+      "current": 408.62,
+      "pl_pct": 1.76,
       "stop": 373.43
     },
     {
@@ -106,6 +106,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-16 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: hold all four, no trades. Quiet, healthy book into tomorrow's Fed decision — staying patient one more day.",
+      "body": "Research-only check before the bell (market closed). Backdrop is gently positive (oil down ~2.5% as Middle East tensions ease), but the Federal Reserve decides on interest rates Wednesday and the market's closed Friday for Juneteenth — a short, jumpy week. My best new idea is still JPMorgan, but a bank's fortunes ride on rates, so buying the day before the Fed is a coin-flip; I scored it 65/100 vs our 70 bar — a 'watch,' not a 'buy.' Real decision point is Thursday, after the Fed clears. Heads-up: Eaton may report earnings ~June 24 — I'll confirm the date. Equity ~$100,157 (early/unofficial). Lilly +4.9%, GE +3.8%, Eaton +1.8%, Deere -2.4% — all above their safety-nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-15 15:06 CT",
       "routine": "market-close",
       "headline": "Close: equity $100,098 · day +0.61% · SPY +1.76% · alpha -1.16%",
@@ -146,12 +152,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — a calm, slightly-green start; all four stocks healthy and we're a hair ahead of the market.",
       "body": "At the opening bell I re-checked everything against live prices and placed no trades, in line with this morning's plan; all four automatic safety-sell orders (stop losses) are armed and resting, cash untouched at $46,447. Nothing tripped a rule. The market opened quietly higher (S&P 500 +0.1%) and our four are mostly steady — Lilly and GE green, Eaton and Deere modestly red but well above their nets. I didn't deploy our one spare buy: I save that for today's Friday weekly review. Nice touch: Eaton firmed on news it's spinning off a slower-growth car-parts unit to focus on electrical and data-center, exactly why we own it. Equity $99,963, up $331 (+0.33%) today vs the market's +0.14%. Lilly leads +8.2%; GE +1.7%; Eaton -1.0%; Deere -3.2%. $46,447 cash (~47%); 2 of 3 weekly buys used. 🐂"
-    },
-    {
-      "ts": "2026-06-12 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: hold all four, no trades before the open — plus good news for Eaton and a fresh buy idea (JPMorgan) for later today.",
-      "body": "Research-only check before the open (market closed). The mood is cautious: yesterday's wholesale-inflation report (PPI) ran hot, which keeps the Fed from cutting interest rates soon. Bright spot: Eaton announced it's spinning off a slower-growth car-parts unit to focus on its fast-growing electrical & data-center business. Nothing bad on Lilly, GE, or Deere. All four safety-sell orders confirmed armed. Today is also my Friday weekly review. Lead idea: JPMorgan, a big bank — ticks two boxes (uptrend, rate tailwind) and fills a gap (we own no banks). Equity ~$99,844 pre-market; $46,447 cash (~47% ready). Lilly +7.9%; GE +1.6%; Eaton -1.4%; Deere -3.4%. 2 of 3 weekly buys used. 🐂"
     }
   ]
 }
