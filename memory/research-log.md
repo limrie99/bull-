@@ -5,6 +5,44 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-17 06:00 CT — pre-market
+
+**Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-17T09:30 ET, next_close 16:00 ET). Live Alpaca account (pre-market / after-hours marks — NOT a live session tick): equity **$100,684.61**, cash **$46,447.18**, long_market_value **$54,237.43** (~53.9% invested / ~46.1% cash), account last_equity (6/16 official close) **$100,651.45**, daytrade_count 0. Indicative since-6/16-close **+$33.16 / +0.03%** (UNAUTHORITATIVE — market closed, no Wed SPY/equity print). Inbox: nothing pending. **Wed = day 3 of the short Fed week; weekly buy cap 0 of 3 used; 1 open position slot (4 of 5 held).** All 4 GTC stops verified RESTING (status `new`): GE trailing 317.574 (hwm 352.86); LLY trailing 1064.457 (hwm 1182.73); ETN −7% hard 373.43; DE −7% hard 548.53. SPY last 750.58 (= 6/16 close, no Wed print). Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; Perplexity real-time retrieval again largely unreliable past ~early 2026 (most live levels/dates came back UNVERIFIED) — flagged accordingly and grounded prices against Alpaca.
+
+### Market context — cautiously risk-on but pinned into the Fed (TODAY 2:00 PM ET)
+- **THE governor: FOMC rate decision TODAY Wed June 17, 2:00 PM ET**, with updated dot plot / SEP and Powell presser. Target range confirmed **3.50–3.75%**; market prices a near-certain HOLD (~97% prior). **The decision is not the risk — the dots and Powell's tone are.** Macro analyst flagged a recent **hotter-than-expected PPI print** nudging the short end up = a mild hawkish undercurrent. Hawkish surprise (fewer 2026 cuts in the dots / "not confident yet") = sell-off risk; a dovish read = relief rally.
+- **Futures direction UNVERIFIED** (Perplexity couldn't confirm timestamped ES/NQ on 3 tries). 10-year Treasury ~**4.43–4.44%** (only confirmed live rate figure, ~flat overnight). DXY / gold UNVERIFIED.
+- **Oil softening** on continued US–Iran de-escalation / peace-deal optimism (WTI level UNVERIFIED but directionally down) — eases the war-risk premium, disinflationary at the margin, supportive for a long-only book.
+- **Short, jumpy week:** US markets **CLOSED Fri June 19 (Juneteenth)**; **Thursday 6/18 is triple-witching** (largest options-expiration / repositioning session). Post-FOMC flows front-loaded into Thu.
+- **Verdict: cautiously risk-on, pinned into the Fed.** Expect quiet trade until 2 PM ET, then volatility on the dots. No tradeable number acted on without Alpaca confirmation.
+
+### Portfolio watch — all 4 theses INTACT, zero thesis-breakers
+- **GE** +6.84% (mark 352.19), strongest. No material 24–48h news; trading near record highs; thesis (aerospace aftermarket + defense) intact. 10% trailing resting, floor **317.574** (hwm 352.86; mark < hwm → floor held, ~9.8% below mark). Earnings ~late July. Hold.
+- **LLY** +3.96% (mark 1121.11), anchor. No material 24–48h news. Foundayo (oral GLP-1) Medicare Part D at $50/mo opens **July 1** = forward catalyst (watch the date, not a risk now). 10% trailing resting, floor **1064.457** (hwm 1182.73; mark < hwm → floor held, ~5.1% below mark). Hold.
+- **ETN** +1.87% (mark 409.04), green/firm. **WATCH (thesis intact, reinforced):** position analyst flagged the **June 11 $5.1B Reverse Morris Trust** to combine Eaton's Mobility Group with Dana (closes ~Q1 2027). Stock dipped ~7% over two sessions on the news but **no FY2026 guidance change, no broad downgrade** — strategically it *sharpens* ETN's focus on Electrical + Aerospace (AI data-center power / electrification), so the core thesis is unchanged/arguably stronger. Not a thesis-breaker; monitor. −7% hard 373.43 (~8.7% cushion). Closest to its own +5% conversion (trigger ~421.62). Earnings ~Aug 4 (verified prior run — NOT in 14-day window). Hold.
+- **DE** −0.77% (mark 585.29), lone red. No company-specific thesis-breaker (no guidance cut/downgrade/litigation). Ag/onshoring thesis intact; non-AI diversifier. −7% hard 548.53 (~6.3% cushion). Hold.
+
+### Buy candidates — NOTHING to buy today (market closed + buying into the FOMC violates discipline). New lead emerged.
+- **PANW — Palo Alto Networks (Cybersecurity software) — Conviction ≈ 70 (Grade B+, right at the gate), 3 signals. NEW LEAD WATCH / NEAR-TRIGGER.**
+  - Signal #1 (beat-and-raise) **VERIFIED:** reported **June 2, 2026** — EPS $0.85 vs $0.79 cons, rev $3.0B vs $2.94B, **raised Q4 + FY guidance.** (Note: 6/2 is ~15 days back — at the edge of "last week," catalyst freshness fading.)
+  - Signal #3 (cybersecurity secular tailwind) verified. Signal #6 (uptrend, +~60% YTD) — in a clear uptrend but **the run itself is the risk: chasing a +60% YTD spike, not a confirmed base.**
+  - **Conviction breakdown:** Fund 78·0.30 + Thesis 75·0.30 + Sent 65·0.20 + Risk 55·0.12 + Tech 70·0.08 = 23.4+22.5+13+6.6+5.6 = **70.0.** Clears 2+ signals AND ≥70 — *technically* through the gate. But: market is closed today; it would be buying into the FOMC; and entering on a +60% YTD run cuts directly against the "enter on a confirmed base, don't chase a multi-day spike" entry-discipline learning. **Decision: do NOT initiate today; carry as the lead post-FOMC watch alongside JPM, reassess Thu 6/18 (price reaction + whether it's a base or a chase).**
+- **JPM — JPMorgan (Financials) — Conviction ≈ 64 (Grade B), 2 soft signals (#5 rotation, #6 uptrend). Reserve diversification buy, rate-deferred.** Scout dropped it 1 pt from 65 on catalyst staleness (no fresh <2wk beat/upgrade; last hard data is Q1 Apr 14 beat but NII guide *cut*; earnings ~July 14). Rate-driven thesis → still correctly deferred to post-FOMC. Fills the missing financials sleeve; clean uptrend, golden cross. Decide Thu 6/18 post-Fed.
+- **AVGO — Broadcom — Conviction ≈ 58 (down from 65), THESIS-RISK.** Beat-and-raise stale (Mar 4), high-beta semis overlap (just exited NVDA twice on stops), overlaps ETN's AI-power theme. No fresh catalyst. Watchlist-low.
+- **PWR — Quanta Services — Conviction ≈ 55, watch.** AI-power/onshoring secular fit (#3) but everything else UNVERIFIED this cycle. New bench name to re-screen for a dated catalyst.
+- **ORCL — Oracle — Conviction ≈ 50, THESIS-RISK (knife).** Scout could NOT re-verify the ~June 10 beat or the ~9% post-print drop this cycle; held at ~50, do not act.
+- **Earnings calendar (no actionable beat-and-raise this week):** Today JBL (BMO), KMX (AMC). Thursday ACN + KR (BMO). ACN's pattern is "beats but does not raise" (Q1 FY26 beat $3.94 vs $3.74, in-line/soft guide) → does NOT meet signal #1. All EPS figures UNVERIFIED/soft. Held names not reporting this week.
+
+### Sell candidates
+- **None.** Worst is DE −0.77% (nowhere near −7%); no thesis-breakers on any name; GE & LLY already trailing; no +5% conversion fired (ETN closest at +1.87%, trigger ~421.62). Daily loss cap N/A (market closed).
+
+### Plan handed to the market-open routine
+- **No trades this routine (market closed). At the open: hold all 4; do NOT initiate any buy** — buying ahead of a 2 PM FOMC + dots is initiating into a binary macro print (the exact pattern the entry-discipline learning warns against). Let the stops work.
+- **Standing conversion tasks:** if **ETN ≥ ~421.62 (+5%)** cancel its −7% hard stop (db3865d5) → place 10% trailing GTC; if **DE ≥ ~619.31 (+5%)** same (a150583a). GE & LLY already trailing.
+- **Reserve buy (0 of 3 used):** two post-FOMC candidates now — **PANW (new lead, Conviction 70, fresh verified beat-and-raise, but watch the +60% YTD chase risk)** and **JPM (64, financials sleeve, rate-driven)**. **Re-verify and decide Thursday 6/18 post-FOMC**, reading the rate reaction + the triple-witching tape before committing dry powder. Cash-drag note: 0 of 3 buys used for a 3rd straight week is approaching the "don't park cash indefinitely" line — if a name clears 2 signals + Conviction ≥70 *and* the entry looks like a base (not a chase) Thursday, **deploy it**.
+- Close routine owns the mandatory plain-English daily scorecard + Telegram push.
+
+---
 ## 2026-06-16 08:37 CT — market-open
 
 **Setup:** Keys present (all 4 + Telegram). Market **OPEN** (clock is_open=true, 09:37 ET; next_close 16:00 ET). Live Alpaca: equity **$100,841.89**, cash **$46,447.18**, long_market_value **$54,394.71** (~53.9% invested / ~46.1% cash), last_equity (6/15 close) **$100,089.56**, daytrade_count 0. **Day P/L +$752.33 / +0.75%.** SPY 755.19 live vs 754.75 (6/15 close) = +0.06% → **alpha today ≈ +0.69 pts (AHEAD of index intraday — first up-tape in the stretch where the held book leads, not the cash).** Inbox: nothing pending. Buy cap 0 of 3; 4 of 5 slots.
