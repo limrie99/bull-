@@ -1419,3 +1419,19 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - FOMC 2:00 PM ET: ~97% priced for HOLD, so the dot plot / Powell guidance tone is the real variable. Watch the rates reaction (10Y) and how JPM trades it — that's the input for Thursday's deploy decision.
 - No new buys until the print clears, regardless of tape. If a >3% intraday swing hits on the decision, run the daily-loss-cap check before anything else.
 - ETN watch: needs ~421.62 (mark 406.82) to trigger its own +5%→trailing conversion — closest of the two hard-stop names.
+
+### Market-open 2026-06-17 08:36 CT (09:35 ET) — FOMC day
+
+- **Clock:** is_open=true (09:35 ET), next_close 16:00 ET, next_open 2026-06-18 (Thu — Fri 6/19 CLOSED, Juneteenth). Market confirmed open.
+- **Live (Alpaca):** equity **$100,829.61** | cash $46,447.18 (46.1%) | invested $54,382.43 (4 positions) | last_equity (6/16 close) $100,651.45 → day **+$178.16 / +0.177%**. daytrade_count 0. buying_power 338,059.52.
+- **Marks:** GE 353.00 **+7.09%** (+$1,051.65) | ETN 415.86 **+3.57%** (+$343.62) | LLY 1113.75 **+3.27%** (+$494.06) | DE 587.795 **−0.34%** (−$44.55). Net open unrealized **+$1,844.78**.
+- **SPY (intraday, NOT authoritative):** 6/16 close 750.58 → 750.70 (live ~09:35 ET) = **+0.016%**. Intraday alpha ≈ **+0.16 pts**. Close routine owns the real figure.
+- **Plan source:** 2026-06-17 06:00 pre-market research-log + watchlist. Standing plan = **HOLD all four, NO new buys ahead of the 2:00 PM ET FOMC decision** (initiating into a binary macro print = against entry discipline). PANW scores 70 (clears gate numerically) but is the post-FOMC Thu 6/18 watch — chase risk (+60% YTD), buy only on a confirmed base. JPM 64 (below gate), rate-deferred to Thu.
+- **Risk checks (priority order):**
+  - (a) **−7% drawdown:** worst is **DE −0.34%** (mark 587.795, stop 548.53, ~6.7% cushion). Nothing near −7%. No news check needed, no sells.
+  - (b) **+5% → trailing conversion:** GE already trailing (hwm ratcheted to a NEW high **353.53** vs 6/16's 352.86; floor **318.177**) ✅; LLY already trailing (floor 1064.457, hwm 1182.73, mark 1113.75 < hwm so floor held) ✅. ETN **+3.57%** (trigger ~421.62, mark 415.86 — closest, ~$6 away) and DE −0.34% both below +5% — **nothing to convert.**
+  - (c) **Daily loss cap:** day **+0.177%** (UP). Not in play. (No new-buy intent anyway.)
+- **All 4 stops confirmed open/`new` GTC** (verified via open-orders query): GE trailing 318.177 (hwm 353.53, 10%) | LLY trailing 1064.457 (hwm 1182.73, 10%) | ETN −7% hard 373.43 | DE −7% hard 548.53.
+- **No trades.** No new buy at the open: the FOMC governor (today 2:00 PM ET) stands; all buys deferred to post-FOMC Thu 6/18 per the pre-market plan. 0 of 3 weekly buys used, 1 open slot. Not cold-start (healthy 4-position book, fresh memory). Inbox: nothing pending.
+- **Notable:** GE ratcheted to a fresh high (hwm 353.53), trailing floor up to 318.177 — now ~$11.6 above the original $306.56 hard stop, locking in more of the run. ETN firmed to +3.57% (mark 415.86), now the closest of the two hard-stop names to its own +5% trailing conversion (~421.62) — standing task if it triggers intraday. DE recovered to near-flat (−0.34%), thesis intact, HOLD.
+- **Watch into midday/close:** the 2:00 PM ET FOMC decision (+ dot plot / SEP + Powell presser) — ~priced for HOLD, the dots/tone are the real variable; if a >3% intraday swing hits, run the daily-loss-cap check first. ETN's +5%→trailing conversion if it crosses ~421.62. Thu 6/18 (post-FOMC, triple-witching) is the deploy decision for PANW/JPM. Close routine: authoritative day-vs-SPY + mandatory daily "how we're doing" + Telegram.
