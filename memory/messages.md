@@ -1,3 +1,20 @@
+## 2026-06-17 08:36 CT · market-open
+
+**Open: no trades — holding our four into this afternoon's Fed decision. Quiet, healthy start: we're up about +0.2% and our stocks are at fresh comfort levels.**
+
+**What I did**
+I did exactly what the plan called for at the opening bell: nothing new. I re-checked all four stocks against live prices, confirmed every automatic safety-sell order is armed and resting, and placed no buys or sells. Cash is untouched at $46,447.
+
+**Why**
+Today at 1:00 PM our time the Federal Reserve (the US central bank that sets interest rates) announces its decision. Almost everyone expects rates to stay put — the real wildcard is the Fed's *tone* and its forecasts, which can swing the whole market in minutes. Buying right before that is a coin-flip, so I'm staying patient. My best new idea, Palo Alto Networks (a cybersecurity company), just barely clears my buy bar (70/100), but it's already up ~60% this year — I'd rather see how it trades *after* the Fed than chase it at a high. Thursday is my real decision point.
+
+**What happens next**
+No buying through today's 1pm decision, no matter what the market does. If Eaton (our electrical-equipment stock) climbs past about $421.62, I'll automatically upgrade its safety-net to a profit-locking trailing stop — it's the closest, only ~$6 away. Heads-up: the market is closed Friday for Juneteenth.
+
+**Numbers I care about**
+- Equity **$100,830**, up **+$178 (+0.18%)** so far today; the S&P 500 is basically flat (+0.02%), so we're a touch ahead intraday.
+- Our four stocks hold **+$1,845** in unrealized profit: GE +7.1% (and at a fresh high, which nudged its profit-floor up again), Eaton +3.6%, Lilly +3.3%, Deere −0.3% (our one small laggard, now nearly back to flat) — all well above their safety-nets.
+- **$46,447 cash (~46%)** as dry powder; 0 of 3 weekly buys used, 1 open slot. 🐂
 ## 2026-06-17 06:00 CT · pre-market
 
 **Pre-market plan: hold all four, no trades. Today's the big one — the Fed decides on interest rates at 1pm CT, so I'm deliberately patient until it clears.**
