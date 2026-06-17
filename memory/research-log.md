@@ -5,6 +5,43 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-17 15:05 CT — market-close (Day summary)
+
+**Setup:** Keys present (all 4 + Telegram). Market CLOSED 16:00 ET. Authoritative close pulled from Alpaca. No inbox pending. No orders placed or filled today (closed-orders query empty — held the pre-Fed no-trade plan exactly). All 4 GTC stops re-verified RESTING (status `new`).
+
+### Closing numbers (OFFICIAL)
+- **Equity $100,875.84** (cash $46,447.18, long market value $54,428.66, ~54.0% invested). Yesterday's close (6/16) $100,651.45 (confirmed via portfolio/history 1D).
+- **Day P/L +$224.39 / +0.2229% (+0.22%).**
+- **SPY day −1.27%** (6/16 close 750.58 → 6/17 close 741.02, per daily bars).
+- **Alpha today ≈ +1.50 pts** — finished green while the index fell over a point.
+- **Week-to-date** (base Fri 6/12: equity $99,495.60 / SPY 741.67): portfolio **+1.39%** vs SPY **−0.09%** → **week alpha ≈ +1.47 pts** (ahead of the market for the week — a clear improvement from neck-and-neck Monday).
+- daytrade_count 0.
+
+### THE event — FOMC (2:00 PM ET): held, but hawkish dots/tone
+- Held the target range at **3.50–3.75%** (as priced, ~97% odds). The risk was always the dots + tone, not the rate — and it broke mildly hawkish: dot plot slightly hawkish (about half see a possible small hike later), Powell hawkish/less-dovish (emphasized inflation, dropped strong forward guidance). 2yr yield +~11bps, 10yr +~4bps. Equities sold off into the close: SPY −1.27%, faded from an intraday 752.13 high to 741.02.
+- **Daily-loss-cap check (priority on a Fed day):** portfolio day +0.22% — UP. The market's drop did NOT drag us negative, so the >3%-down cap was never remotely in play. No defensive action needed.
+
+### Per-position day attribution (intraday P/L = exact reconciliation to +$224.39)
+- **GE** +$238.50 (+1.51% on day, close 357.03, +8.31% from cost) — LED the book on a down-tape; printed a fresh intraday high (hwm 362.33), trailing floor ratcheted to 326.097.
+- **DE** +$69.96 (+0.54% on day) but closed −0.23% from cost after the late fade.
+- **ETN** +$36.96 (+0.38% on day, close 409.25, +1.92% from cost) — gave back from midday 417.28; no +5% conversion (trigger ~421.62, ~$12 away).
+- **LLY** −$121.03 (−0.77% on day, close 1113.86, +3.28% from cost) — lone red name, deeply green from cost.
+- Net intraday +$224.39 = exact match to account day P/L. Net open unrealized +$1,883.81.
+
+### What worked
+- **Low-beta, non-AI construction did its job on a hawkish-Fed down day.** GE and DE (pure industrials, zero semis overlap) finished green while a rate-sensitive index fell 1.3%. This is the explicit design from the post-NVDA learning (lower book beta), validated.
+- **The ~46% cash cushion + patience into the binary print** meant we had no fresh exposure to whipsaw on the dots. The entry-discipline rule (don't initiate into a binary macro print) paid off literally.
+
+### What didn't / watch
+- **LLY** the lone drag (−0.77%) — no news, deeply green from cost, no concern; just the most rate-sensitive (long-duration growth) of the four on a yields-up day.
+- **Cash drag is now a 3rd-straight-week reality** — defensible today (we beat a down tape) but the deploy bar Thursday is real: a qualifying name should go to work if the post-Fed/triple-witching tape gives a base.
+
+### Open questions for tomorrow (Thu 6/18 — triple-witching, reserve-buy decision day)
+- Does the hawkish-Fed reaction extend (risk-off follow-through) or stabilize? Read the open before any buy.
+- PANW: after a risk-off Fed day, is it holding a base or rolling over with the tape? Only buy on a constructive hold, not a knife (it's +60% YTD). JPM: higher-for-longer rates can help bank NIM — does the bank tape confirm? Re-score both.
+- Re-check ETN's +5% trigger (~421.62) and DE's (~619.31) at the open.
+
+---
 ## 2026-06-17 12:05 CT — midday
 
 **Setup:** Keys present (all 4 required + Telegram). Market **OPEN** (clock is_open=true, 13:04 ET; next_close 16:00 ET). Live Alpaca: equity **$101,418.64**, cash **$46,447.18**, long_market_value **$54,971.46** (~54.2% invested / ~45.8% cash), last_equity (6/16 official close) **$100,651.45**, daytrade_count 0. **Day P/L +$767.19 / +0.762%** (intraday, UNAUTHORITATIVE — close routine owns the official figure). SPY 749.51 live (vs 6/16 close 750.58 = **−0.143%**) → **intraday alpha ≈ +0.90 pts** (we're up while the index is slightly red into the Fed). Inbox: nothing pending. Buy cap 0 of 3; 4 of 5 slots.
