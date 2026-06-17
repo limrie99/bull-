@@ -5,6 +5,34 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-17 12:05 CT — midday
+
+**Setup:** Keys present (all 4 required + Telegram). Market **OPEN** (clock is_open=true, 13:04 ET; next_close 16:00 ET). Live Alpaca: equity **$101,418.64**, cash **$46,447.18**, long_market_value **$54,971.46** (~54.2% invested / ~45.8% cash), last_equity (6/16 official close) **$100,651.45**, daytrade_count 0. **Day P/L +$767.19 / +0.762%** (intraday, UNAUTHORITATIVE — close routine owns the official figure). SPY 749.51 live (vs 6/16 close 750.58 = **−0.143%**) → **intraday alpha ≈ +0.90 pts** (we're up while the index is slightly red into the Fed). Inbox: nothing pending. Buy cap 0 of 3; 4 of 5 slots.
+
+### ⚠️ FOMC is at 2:00 PM ET — AFTER this routine. No buys, by plan.
+Midday runs ~1 hr before the 2 PM ET rate decision + dot plot + Powell presser. Buying ahead of it = initiating into a binary macro print (the exact pattern the entry-discipline learning warns against). Held-position risk into the print is acceptable (all 4 carry resting GTC stops); new exposure is not. Buys stay **deferred to post-FOMC Thu 6/18** per the standing plan. No high-conviction breaking catalyst surfaced to justify a midday deviation.
+
+### Risk management — priority order, all clean
+- **(a) −7% drawdown check:** No position anywhere near −7%. Live P/L from entry: GE **+9.45%** (mark 360.775), ETN **+3.92%** (417.28), LLY **+3.47%** (1115.87), DE **+0.95%** (595.44). Worst is DE at +0.95% — all four GREEN from entry. LLY is the only intraday red (−0.59% on the day) but deeply green from cost. **No sells.** No Perplexity news-check needed (nothing at/near the stop).
+- **(b) +5% → trailing conversion:** GE & LLY already trailing. **ETN +3.92% (mark 417.28) vs its ~421.62 trigger — closest, ~$4.34 away, did NOT cross.** DE +0.95%, far from its ~619.31 trigger. **No conversion fired this routine.** Standing tasks carried forward unchanged.
+- **(c) Daily loss cap:** day **+0.762% (UP)** — cap not in play; new buys would not be blocked on this basis (though they're deferred anyway for the FOMC reason above).
+
+### Live stop verification (GET /v2/orders?status=open) — all 4 RESTING GTC, status `new`
+- **GE** trailing_stop `b9dadf2d` — stop **325.0215**, trail 10%, **hwm ratcheted up to 361.135** (from 353.53 at open; GE printed a fresh high, floor climbed). Mark 360.775, ~9.9% below.
+- **LLY** trailing_stop `6016a7e7` — stop **1064.457**, trail 10%, hwm 1182.73 (mark 1115.87 < hwm → floor held, ~4.6% below mark).
+- **ETN** stop `db3865d5` — **373.43** (−7% hard). Mark 417.28, ~10.5% cushion.
+- **DE** stop `a150583a` — **548.53** (−7% hard). Mark 595.44, ~7.9% cushion.
+
+### Net
+Net open unrealized **+$2,426.61** (GE +1,401.53, ETN +377.70, LLY +523.74, DE +123.64). DE flipped green since the open (was −0.34% at open, now +0.95%). GE crossed +9% and led the intraday move (+2.57% on the day).
+
+### Plan handed to the close routine
+- **No trades this routine.** Hold all 4; stops resting and working (GE's floor ratcheted up on the fresh high).
+- **THE event: FOMC 2 PM ET.** Close routine reads the post-decision tape, runs the daily-loss-cap check if a >3% swing hits, and owns the mandatory plain-English daily scorecard + Telegram push.
+- **Standing conversion tasks:** if **ETN ≥ ~421.62 (+5%)** cancel its −7% hard (db3865d5) → 10% trailing GTC (it's ~$4 away — close routine should re-check post-FOMC); if **DE ≥ ~619.31 (+5%)** same (a150583a).
+- **Reserve buy (0 of 3 used):** PANW (lead, Conviction 70, chase-risk) + JPM (64, financials sleeve) — **decide Thu 6/18 post-FOMC**, reading the rate reaction + triple-witching tape. Cash-drag note still live (3rd straight week at 0 buys).
+
+---
 ## 2026-06-17 06:00 CT — pre-market
 
 **Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-17T09:30 ET, next_close 16:00 ET). Live Alpaca account (pre-market / after-hours marks — NOT a live session tick): equity **$100,684.61**, cash **$46,447.18**, long_market_value **$54,237.43** (~53.9% invested / ~46.1% cash), account last_equity (6/16 official close) **$100,651.45**, daytrade_count 0. Indicative since-6/16-close **+$33.16 / +0.03%** (UNAUTHORITATIVE — market closed, no Wed SPY/equity print). Inbox: nothing pending. **Wed = day 3 of the short Fed week; weekly buy cap 0 of 3 used; 1 open position slot (4 of 5 held).** All 4 GTC stops verified RESTING (status `new`): GE trailing 317.574 (hwm 352.86); LLY trailing 1064.457 (hwm 1182.73); ETN −7% hard 373.43; DE −7% hard 548.53. SPY last 750.58 (= 6/16 close, no Wed print). Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; Perplexity real-time retrieval again largely unreliable past ~early 2026 (most live levels/dates came back UNVERIFIED) — flagged accordingly and grounded prices against Alpaca.

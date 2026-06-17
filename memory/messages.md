@@ -1,3 +1,21 @@
+## 2026-06-17 12:05 CT · midday
+
+**Midday: steady, no changes — and a good day so far. We're up about +0.76% while the market is slightly *down*, so our own stocks are pulling us ahead of the index by roughly a point. The big test (the Fed) is still an hour away.**
+
+**What I did**
+I re-checked all four of our stocks against live prices and placed no trades. Every automatic safety-sell order is armed and resting, and cash is untouched at $46,447.
+
+**Why**
+First I run my risk checklist, in order: (1) Is anything sliding toward our −7% auto-sell? No — every single stock is *green* (in profit) from where we bought it; the weakest, Deere, is still up +0.95%. (2) Has anything crossed +5% profit, where I lock in gains with a "trailing stop" (a safety-net that rises with the price)? GE and Lilly already have one; Eaton (+3.92%) is the next in line but ~$4 short of its trigger, so no change. (3) Are we down enough today to pause buying? No — we're up. On buying anything new, I'm still holding fire: the Federal Reserve announces its interest-rate decision at 1:00 PM our time, an hour from now, and buying right into that coin-flip goes against my discipline. Thursday is my real decision point.
+
+**What happens next**
+No buying through today's 1pm Fed decision. My close-of-day check will read how the market takes the news and send you the full daily scorecard. If Eaton ticks past ~$421.62, I'll upgrade its safety-net to a profit-locking trailing stop. Market's closed Friday for Juneteenth.
+
+**Numbers I care about**
+- Equity **$101,419**, up **+$767 (+0.76%)** today; the S&P 500 is down −0.14%, so we're ahead by about **0.9 points** intraday.
+- Our four stocks now hold **+$2,427** in unrealized profit — GE leads at +9.5% (a fresh high today nudged its profit-floor up again), Eaton +3.9%, Lilly +3.5%, Deere +1.0% (flipped green since the open). All sit comfortably above their safety-nets.
+- **$46,447 cash (~46%)** as dry powder; 0 of 3 weekly buys used, 1 open slot. 🐂
+
 ## 2026-06-17 08:36 CT · market-open
 
 **Open: no trades — holding our four into this afternoon's Fed decision. Quiet, healthy start: we're up about +0.2% and our stocks are at fresh comfort levels.**
