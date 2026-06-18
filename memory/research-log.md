@@ -5,6 +5,33 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-18 15:00 CT — market-close (Day summary)
+
+**Official close numbers (Alpaca):** equity **$101,068.13**, cash $46,447.18, long_market_value $54,620.95 (~54.1% invested). Yesterday (6/17) close $101,006.23. daytrade_count 0.
+
+- **Day P/L: +$61.90 / +0.061%** (essentially flat).
+- **SPY day:** 741.02 → 746.75 = **+0.773%.** → **Day alpha −0.712 pts — we LAGGED the market today.**
+- **Week-to-date (from Fri 6/12 close $99,495.60):** +$1,572.53 / **+1.581%.** **SPY week** 741.75 → 746.75 = **+0.674%.** → **Week alpha +0.906 pts — AHEAD this week.**
+- **Net open unrealized +$2,076.10** (GE +1,265.40, ETN +538.98, LLY +284.48, DE −12.76).
+
+**Closing position marks:** GE 357.75 (+8.53%), ETN 424.00 (+5.59%, fresh high hwm 425.92), LLY 1098.78 (+1.88%), DE 589.24 (−0.10%).
+
+**Trades placed today:** none (no buys, no sells). One risk-mgmt action at midday: ETN −7% hard stop → 10% trailing GTC after crossing +5% (cc843666). All 4 stops re-verified RESTING at close: GE floor 328.23, ETN floor 383.328 (ratcheted up), LLY floor 1064.457, DE hard 548.53.
+
+**What worked:**
+- ETN delivered the day's gain — crossed +5% and printed a fresh high (hwm 425.92), and we locked it in with a 10% trailing stop (floor now 383.328, ~$10 above the old hard stop). Picks-and-shovels AI-power thesis expressing.
+- Discipline held into a flow-distorted triple-witching, pre-holiday session — no chasing, no forced buy. Week alpha stays solidly positive (+0.91 pts).
+
+**What didn't:**
+- We lagged a strong up-index day. ~46% cash is a structural drag whenever SPY rips, and today three of four names were flat-to-soft (GE faded ~$6 off its intraday high; LLY and DE roughly flat). This is the mirror image of the SPY-red/us-green days earlier this run where the cash cushion *helped*.
+- 4th straight week at 0/3 buys. Defensible (book ~54% invested, beating SPY on the week), but the cash drag is now a recurring give-back on up days. Finding a qualifying ≥70 setup remains the standing priority.
+
+**Open questions for Monday (6/22 reopen — Fri 6/19 closed for Juneteenth):**
+- Does PANW get a fresh analyst upgrade or a clean dip-and-hold over the long weekend to re-clear the 70 gate? It's the lead reserve at 66.
+- Weekend/triple-witching-unwind gap risk into the Mon open — watch for any gap-down that fills below a trailing floor at the open (none currently close to their floors, so low risk).
+- Cash drag: with three names now on trailing stops and one slot open, is there a constructive add that improves our up-day capture without lowering the conviction bar? Pre-market Monday re-scores the bench.
+
+---
 ## 2026-06-18 08:37 CT — market-open
 
 **Setup:** Keys present (all 4 + Telegram). Market **OPEN** (clock is_open=true, 09:35 ET; next_close 16:00 ET; **next_open 2026-06-22** → confirms Fri 6/19 CLOSED, Juneteenth). Live Alpaca: equity **$101,694.07**, cash **$46,447.18**, long_market_value **$55,246.89** (~54.3% invested / ~45.7% cash), last_equity (6/17 ref) **$101,006.23**, daytrade_count 0, PDT false. **Day P/L +$687.84 / +0.68%** (intraday, UNAUTHORITATIVE — close routine owns official). SPY last **745.12** vs 6/17 close 741.02 = **+0.55%** → intraday alpha ~+0.13 pts (both green — relief bounce after Wed's hawkish-Fed −1.27%). Inbox: nothing pending. Buy cap 0 of 3; 4 of 5 slots.

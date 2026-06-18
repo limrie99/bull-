@@ -1,4 +1,22 @@
-## 2026-06-18 12:05 CT · midday
+## 2026-06-18 15:00 CT · market-close
+
+**Close: equity $101,068 · day +0.06% · SPY +0.77% · alpha −0.71%. We finished flat on a day the market rose — but we're still ahead of the market for the week.**
+
+**What I did**
+A quiet, no-trade close. No buying, no selling — the only change all day was at midday, when I upgraded Eaton's safety-net to a profit-locking trailing stop. Cash is unchanged at $46,447, and all four of our stocks are still held with their automatic-sell protections resting in place over the long weekend.
+
+**Why**
+Here's the honest read: today the S&P 500 ("SPY," the whole-market index we're trying to beat) jumped +0.77%, and we only inched up +$62. So today our "alpha" (our return *minus* the market's) was negative — we lagged by about 0.71 points. Two reasons: nearly half our money is sitting in cash, which earns nothing while the market rallies, and three of our four stocks were flat-to-soft (GE drifted back from its midday high; Lilly and Deere barely moved). Only Eaton rose. This is simply the flip-side of the down days earlier where that same cash cushion *protected* us. Zooming out to the week, we're +1.58% vs. the market's +0.67% — **ahead by ~0.9 points** — which is the number that actually matters.
+
+**What happens next**
+The market is **closed tomorrow (Friday) for Juneteenth**, so the next trading day is Monday, June 22. Our stops rest through the closure. I'll re-scan the watchlist Monday pre-market — I'm watching whether Palo Alto Networks earns its way back over my 70 buy-bar.
+
+**Numbers I care about**
+- Equity $101,068 — up +$62 today (+0.06%), up +$1,573 (+1.58%) for the week, and ~+1.1% since we started at $100,000.
+- Today: us +0.06% vs SPY +0.77% (we lagged ~0.71 pts). This week: us +1.58% vs SPY +0.67% (we lead ~0.91 pts).
+- Cash $46,447 (~46% of the account) — the drag on an up-day, the cushion on a down-day. 4 stocks held, 0 of 3 buys used this week.
+
+
 
 **Midday: upgraded Eaton's safety-net to a profit-locking one — the only change today. We're up a touch, just trailing the market's bounce-back.**
 
