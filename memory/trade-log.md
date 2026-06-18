@@ -97,3 +97,12 @@ Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% pr
 Stop set: GE 10% trailing GTC (floor ~312.09 at placement; ratchets up as GE rises).
 Research reference: research-log 2026-06-15 pre-market (standing conversion task: "if GE ≥ ~346.11, convert") + this market-open execution.
 Notes: Floor 312.09 is below entry 329.63 so it doesn't yet lock in a profit, but it's ~$5.5 above the old hard stop and will climb with the price. GE is the book's strongest new entry (+5.13%). No buys/sells this routine — JPM reserve buy deferred to post-FOMC (Wed 6/17 rate decision) per pre-market plan; today's +1.5% tape is a day-one geopolitical (Iran de-escalation) gap, escape-hatch "durable tape + Fed priced" conditions not met. daytrade_count 0.
+
+## 2026-06-18 12:05 CT | RISK-MGMT (no fill) | ETN | converted −7% hard stop → 10% trailing stop | cc843666-7e63-462a-82d4-57cc3e826ead
+Action: ETN crossed +5% profit at midday (mark 423.79 vs entry 401.5425 = +5.54%, above the ~421.62 +5% trigger that it sat ~$0.25 short of at the open), so per strategy I cancelled the −7% GTC hard stop and replaced it with a 10% trailing GTC stop.
+- Cancelled hard stop db3865d5-c24f-40ca-a236-6c0f0c2672f0 (was @ 373.43) — HTTP 204, confirmed zero open ETN orders before re-placing.
+- Placed trailing_stop sell, qty 24, trail_percent 10, GTC → id cc843666-7e63-462a-82d4-57cc3e826ead. stop_price 381.555, hwm 423.95. Confirmed resting (status new), HTTP 200.
+Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% profit). No shares traded.
+Stop set: ETN 10% trailing GTC (floor 381.555 at placement, hwm 423.95; ratchets up as ETN rises).
+Research reference: portfolio.md standing task ("the moment ETN tags +5% ~421.62, cancel db3865d5 → place a 10% trailing GTC") + this midday execution.
+Notes: New floor 381.555 is ~$8 above the old hard stop 373.43 — locks in more of the run, though still below entry 401.54 so not yet a guaranteed profit. ETN is now the 3rd of 4 names on a trailing stop (GE, LLY, ETN); only DE (+0.19%) remains on a −7% hard stop. No buys/sells this routine. daytrade_count 0.

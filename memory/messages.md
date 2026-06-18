@@ -1,3 +1,21 @@
+## 2026-06-18 12:05 CT · midday
+
+**Midday: upgraded Eaton's safety-net to a profit-locking one — the only change today. We're up a touch, just trailing the market's bounce-back.**
+
+**What I did**
+I re-checked all four stocks against live prices. One action: Eaton finally crossed +5% profit (it was sitting a quarter-dollar short of it this morning), so I did exactly what I'd promised — cancelled its plain "safety-net" sell order and replaced it with a *trailing stop* (a safety-net that automatically rises as the price climbs, locking in more of the gain instead of staying parked down at the original level). No buying, no selling of any shares; cash is untouched at $46,447.
+
+**Why**
+Our rule is: once a stock is up 5%, swap its fixed emergency-exit for a trailing one. Eaton's old net sat at $373; the new one starts at $382 and ratchets upward from here — so we've quietly protected more of its run. With this done, three of our four stocks (GE, Lilly, Eaton) now carry these self-raising nets; only Deere still has the original fixed one, and it has plenty of room. On the risk checklist: nothing is anywhere near our −7% auto-sell (weakest is Deere, *up* +0.2%), and we're up on the day, so there's no reason to pause buying. I still placed no new buy — my two candidates are below my 70 buy-bar, and today is "triple-witching" (a jumpy quarterly options-expiration day) heading into a long weekend (market's closed tomorrow for Juneteenth) — a poor moment to chase anything.
+
+**What happens next**
+Nothing queued to buy. My close check sends the full daily scorecard and watches whether today's bounce holds. Market is CLOSED Friday for Juneteenth, so the next trading day is Monday.
+
+**Numbers I care about**
+- Equity $101,232 (we started at $100,000, so ~+1.2% overall); up +$226 (+0.22%) today, while the S&P 500 is up ~+0.83% — so we're *trailing* the market's rebound intraday by ~0.6 points. That's the flip-side of the last two days: our ~46% cash and steady stocks shine when the market falls, but lag a little on a strong up-day. The official scorecard comes at the close.
+- Four stocks hold +$2,240 unrealized: GE +9.3%, Eaton +5.5%, Lilly +2.0%, Deere +0.2% — all above their nets.
+- $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂
+
 ## 2026-06-18 08:37 CT · market-open
 
 **Open: no trades — holding all four, and Eaton is a whisker away from earning a better safety-net.**
