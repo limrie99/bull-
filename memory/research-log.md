@@ -5,6 +5,39 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-18 08:37 CT — market-open
+
+**Setup:** Keys present (all 4 + Telegram). Market **OPEN** (clock is_open=true, 09:35 ET; next_close 16:00 ET; **next_open 2026-06-22** → confirms Fri 6/19 CLOSED, Juneteenth). Live Alpaca: equity **$101,694.07**, cash **$46,447.18**, long_market_value **$55,246.89** (~54.3% invested / ~45.7% cash), last_equity (6/17 ref) **$101,006.23**, daytrade_count 0, PDT false. **Day P/L +$687.84 / +0.68%** (intraday, UNAUTHORITATIVE — close routine owns official). SPY last **745.12** vs 6/17 close 741.02 = **+0.55%** → intraday alpha ~+0.13 pts (both green — relief bounce after Wed's hawkish-Fed −1.27%). Inbox: nothing pending. Buy cap 0 of 3; 4 of 5 slots.
+
+### Decision: NO TRADES (no buys, no sells, no stop conversions fired)
+Executed the pre-market plan, re-validated against the live open. **The post-FOMC deploy decision stands at NO buy.**
+
+### Buys — nothing clears the gate (2+ signals AND Conviction ≥70)
+- Re-validated the two reserve candidates at the open; **no new qualifying catalyst surfaced overnight/into the open.** PANW **66** (THESIS-RISK — fresh insider SELLING + no new upgrade, catalyst ~16d stale; held a base but below the 70 gate), JPM **65** (no fresh <2wk catalyst). A market-open buy of a +60% YTD name at Conviction 66 into a flow-distorted **triple-witching** session would violate both the gate and the high-beta entry-discipline learning. AVGO 58 / PWR 52 / ORCL 48 unchanged. Did not re-run a full Perplexity scan — pre-market (06:00) was thorough and the gate verdict is unambiguous; PANW's missing piece (a fresh upgrade) does not materialize overnight into expiration.
+- **Cash-drag:** 4th straight week at 0/3 buys, BUT book is ~54% invested (NOT the 100%-cash trap the cold-start rule targets), and the cushion just beat a −1.3% tape Wed. Holding is defensible into a jumpy, pre-holiday tape with nothing qualifying. Deploy the moment a name clears 2 signals + ≥70 on a constructive base.
+
+### Sells / risk — all clean (priority order)
+- **(a) −7% drawdown:** worst is DE **+1.29%** (live 597.43); all four GREEN from entry (GE +10.45%, ETN +4.94%, LLY +3.08%, DE +1.29%). Nowhere near −7%. No sells. No Perplexity news-check needed (nothing at/near a stop).
+- **(b) +5% → trailing conversion:** GE & LLY already trailing. **ETN at +4.94% (live 421.37) vs its precise +5% trigger 421.6196 (401.5425×1.05) — within ~$0.25 but DID NOT cross.** Per strategy, convert only at +5% or more, so the −7% hard stop (db3865d5 @ 373.43) STAYS resting. Re-checked twice (421.57 then 421.37 — ticked down). DE far (+1.29% vs ~619.31). **No conversion fired.** Standing tasks carried to midday: convert ETN the instant it tags ~421.62.
+- **(c) Daily loss cap:** day +0.68% (UP) — not in play.
+
+### Live stop verification (GET /v2/orders?status=open&nested=true) — all 4 RESTING GTC, status `new`
+- **GE** trailing_stop `b9dadf2d` — stop **328.23**, trail 10%, **hwm ratcheted to 364.7** (fresh intraday high, up from 362.33). Live 364.08, ~9.8% below.
+- **LLY** trailing_stop `6016a7e7` — stop **1064.457**, hwm 1182.73 (live 1111.66 < hwm → floor held, ~4.2% below).
+- **ETN** stop `db3865d5` — **373.43** (−7% hard). Live 421.37, ~12.8% cushion.
+- **DE** stop `a150583a` — **548.53** (−7% hard). Live 597.43, ~8.2% cushion.
+
+### Net
+Net open unrealized **+$2,663.25** (GE +1,550.25, ETN +480.78, LLY +464.80, DE +167.42). GE printed a fresh high (hwm 364.7, floor 328.23). DE flipped firmly green.
+
+### Plan handed to midday
+- **No trades.** Hold all 4; stops resting and working.
+- **ETN is the live action item** — ~$0.25 from its +5% conversion. Midday: re-check and convert `db3865d5` → 10% trailing GTC the moment ETN tags ~421.62.
+- **Triple-witching** → expect a frenetic, gamma-driven final hour; read the tape, don't chase flow. Fri closed (Juneteenth) → thin pre-holiday afternoon + weekend gap risk into Mon 6/22 reopen.
+- Reserve buys (PANW 66 / JPM 65) stay on watch — deploy only on a genuine 2-signal + ≥70 setup. No Telegram push this routine (no-trade open — close routine owns the mandatory daily scorecard). daytrade_count 0.
+
+---
+
 ## 2026-06-18 06:00 CT — pre-market
 
 **Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-18T09:30 ET, next_close 16:00 ET). **Fri 6/19 CLOSED — Juneteenth.** Live Alpaca account (after-hours/pre-market marks — NOT a live session tick): equity **$101,191.05**, cash **$46,447.18**, long_market_value **$54,743.87** (~54.1% invested / ~45.9% cash), account last_equity **$101,006.23**, daytrade_count 0. Indicative since-official-close **+$315.21 / +0.31%** (UNAUTHORITATIVE — market closed, after-hours marks). Inbox: nothing pending. **Thu = post-FOMC + triple-witching reserve-buy decision day; weekly buy cap 0 of 3 used; 1 open slot (4 of 5 held).** All 4 GTC stops verified RESTING (status `new`): GE trailing **326.097** (hwm 362.33); LLY trailing **1064.457** (hwm 1182.73); ETN −7% hard **373.43**; DE −7% hard **548.53**. SPY last 741.02 (= 6/17 official close, no new print). Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; real-time retrieval again largely unreliable past early 2026 (futures levels, yields, earnings dates mostly UNVERIFIED) — flagged and grounded against Alpaca.
