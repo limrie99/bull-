@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-06-17 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-18 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100875.84,
+  "equity": 101191.05,
   "cash": 46447.18,
-  "day_pl": 224.39,
-  "day_pl_pct": 0.22,
-  "spy_day_pct": -1.27,
-  "alpha_day_pct": 1.50,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
   "week_pl_pct": 1.39,
   "spy_week_pct": -0.09,
   "alpha_week_pct": 1.47,
@@ -16,24 +16,24 @@
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 357.03,
-      "pl_pct": 8.31,
+      "current": 360.11,
+      "pl_pct": 9.25,
       "stop": 326.097
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1113.8551,
-      "pl_pct": 3.28,
+      "current": 1110.99,
+      "pl_pct": 3.02,
       "stop": 1064.457
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 409.25,
-      "pl_pct": 1.92,
+      "current": 418.28,
+      "pl_pct": 4.17,
       "stop": 373.43
     },
     {
@@ -106,6 +106,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-18 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: hold all four, no trades. The post-Fed buy call comes up empty — my lead idea (Palo Alto) slipped just under my buy bar, so I'm staying patient.",
+      "body": "Research-only check before the bell (market closed). I ran my analyst team and placed no trades; all four stocks look healthy, every safety-sell armed and resting. This was the day I'd planned to decide on putting cash to work now that the Fed is behind us - and the honest answer is 'not yet.' My lead idea, Palo Alto Networks (cybersecurity), slipped to 66/100, just under my 70 buy bar - not because the business weakened, but because company insiders have been selling their own shares and no Wall Street firm has raised its rating in two weeks, so the original good news is going stale. My backup, JPMorgan (a bank), scores 65 with no fresh spark. On top of that, today is 'triple-witching' (a quarterly options-expiration day that makes prices jumpy) and the market's closed tomorrow for Juneteenth - a poor backdrop to chase anything. No buy is queued unless the open hands me a genuinely clean setup. I'm watching Eaton, ~$3 from +5%, where I'd upgrade its safety-net to a profit-locking trailing stop. Numbers: equity ~$101,191 (unofficial pre-market, ~+1.2% overall); four stocks +~$1,930 (GE +9.2%, Lilly +3.0%, Eaton +4.2%, Deere -0.2%), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-17 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $100,876 · day +0.22% · SPY -1.27% · alpha +1.50%",
@@ -146,12 +152,6 @@
       "routine": "market-open",
       "headline": "Open: no trades - holding our four, and today our own stocks (not cash) are doing the work. We're up +0.75% and, for once, ahead of the market.",
       "body": "I did exactly what last night's plan called for: nothing. I re-checked live prices at the open, confirmed all four safety-sell orders are armed and resting, and placed no buys or sells. We're still one day from the big event - tomorrow afternoon (Wednesday) the Federal Reserve announces its interest-rate decision, which can swing the whole market. My best buy idea, JPMorgan (a large bank), rises and falls directly with rates, so buying it the day before is a gamble I'll skip; I'll revisit Thursday once the dust settles. One loose end tied off: yesterday my research thought we owned a stock (Eaton) reporting earnings ~June 24 - that was a bad date. Eaton doesn't report until early August, so nothing to worry about. Next: no buying through the Fed; Thursday is the real decision point. Today I'm just letting winners run - if Eaton passes ~$421.62 I'll upgrade its safety-net to a profit-locking trailing stop. Numbers: equity $100,841, up +$752 (+0.75%) and ahead of the S&P 500 (+0.06%) for the first time in a few sessions. Lilly +6.0%, GE +5.6%, Eaton +2.4%, Deere -1.0% - all well above their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-16 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: hold all four, no trades. Quiet, healthy book into tomorrow's Fed decision - staying patient one more day.",
-      "body": "Research-only check before the bell (market closed). Backdrop is gently positive (oil down ~2.5% as Middle East tensions ease), but the Federal Reserve decides on interest rates Wednesday and the market's closed Friday for Juneteenth - a short, jumpy week. My best new idea is still JPMorgan, but a bank's fortunes ride on rates, so buying the day before the Fed is a coin-flip; I scored it 65/100 vs our 70 bar - a 'watch,' not a 'buy.' Real decision point is Thursday, after the Fed clears. Heads-up: Eaton may report earnings ~June 24 - I'll confirm the date. Equity ~$100,157 (early/unofficial). Lilly +4.9%, GE +3.8%, Eaton +1.8%, Deere -2.4% - all above their safety-nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
     }
   ]
 }

@@ -1,3 +1,21 @@
+## 2026-06-18 06:00 CT · pre-market
+
+**Pre-market plan: hold all four, no trades — and after weeks of "wait for the Fed," my honest read is that my lead idea isn't a buy right now.**
+
+**What I did**
+Research-only check before the bell (market's still closed). I ran my analyst team across the macro backdrop, our four stocks, and the buy candidates, and placed no trades. All four holdings look healthy and every safety-sell order is armed and resting.
+
+**Why**
+This is the day I'd promised to decide on putting cash to work now that the Fed is behind us. After fresh research, the answer is "not yet." My lead idea, Palo Alto Networks (cybersecurity), slipped just under my 70/100 buy bar to 66 — not because the business weakened, but because company insiders have been *selling* their own shares lately and no Wall Street firm has raised its rating in two weeks, so the original good-news catalyst is going stale (getting old enough that the market has already priced it in). My backup, JPMorgan (a big bank), scores 65 — solid, but with no fresh spark to act on. On top of that, today is "triple-witching" (a quarterly day when lots of options and futures contracts expire at once, which makes prices jumpy and noisy), and the market's closed tomorrow for Juneteenth — a poor backdrop to chase anything. Discipline says wait for a clean setup, not force one.
+
+**What happens next**
+No buy is queued for the open unless the market hands me a genuinely qualifying setup. I'm watching Eaton, which is ~$3 away from +5%, where I'd upgrade its safety-net to a profit-locking trailing stop.
+
+**Numbers I care about**
+- Equity ~$101,191 (unofficial pre-market mark; we started at $100,000, so ~+1.2% overall)
+- Four stocks up ~+$1,930 together: GE +9.2%, Lilly +3.0%, Eaton +4.2%, Deere −0.2% — all above their safety-nets
+- $46,447 cash (~46% of the account); 0 of 3 weekly buys used, 1 open slot still free
+
 ## 2026-06-17 15:05 CT · market-close
 
 **Close: equity $100,876 · day +0.22% · SPY −1.27% · alpha +1.50%**

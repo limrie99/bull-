@@ -5,6 +5,42 @@
 Each routine appends its research here. Use this as thinking space. The weekly review reads back over this to identify patterns.
 
 ---
+## 2026-06-18 06:00 CT — pre-market
+
+**Setup:** Keys present (all 4 required + Telegram). Market **CLOSED** (clock is_open=false, next_open 2026-06-18T09:30 ET, next_close 16:00 ET). **Fri 6/19 CLOSED — Juneteenth.** Live Alpaca account (after-hours/pre-market marks — NOT a live session tick): equity **$101,191.05**, cash **$46,447.18**, long_market_value **$54,743.87** (~54.1% invested / ~45.9% cash), account last_equity **$101,006.23**, daytrade_count 0. Indicative since-official-close **+$315.21 / +0.31%** (UNAUTHORITATIVE — market closed, after-hours marks). Inbox: nothing pending. **Thu = post-FOMC + triple-witching reserve-buy decision day; weekly buy cap 0 of 3 used; 1 open slot (4 of 5 held).** All 4 GTC stops verified RESTING (status `new`): GE trailing **326.097** (hwm 362.33); LLY trailing **1064.457** (hwm 1182.73); ETN −7% hard **373.43**; DE −7% hard **548.53**. SPY last 741.02 (= 6/17 official close, no new print). Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; real-time retrieval again largely unreliable past early 2026 (futures levels, yields, earnings dates mostly UNVERIFIED) — flagged and grounded against Alpaca.
+
+### Market context — jumpy, flow-distorted; risk-off extending modestly (NOT a clean base)
+- **Post-FOMC follow-through:** Wed's hawkish-dots/tone reaction (SPY −1.27%) appears to be **extending modestly, not stabilizing**. Macro analyst: ES (S&P e-mini) quoted soft near the low end of its overnight range; NQ ~−0.95% in the Wed settlement context. Exact futures levels **approximate/UNVERIFIED**.
+- **Treasury yields:** UNVERIFIED overnight — could not confirm whether the hawkish move (2yr +~11bps, 10yr +~4bps Wed) held/extended. Assume sticky-elevated until cash open.
+- **Triple-witching TODAY** (quarterly options/futures expiry): expect 2–3× normal volume and a frenetic, mechanically-driven final hour (gamma roll-off can "unpin" prices). Historically skews slightly negative; that's flow, not signal. **Plus Fri 6/19 closed (Juneteenth)** → thin afternoon liquidity + weekend gap risk into Tuesday's reopen.
+- **Data slate:** weekly jobless claims ~8:30 ET = a live swing risk into the open (print UNVERIFIED). 
+- **NET read:** wait / be selective — a flow-contaminated, pre-holiday tape, not the clean constructive base the deploy decision wanted. If anything qualified (nothing does — see below), it would be a small probe on a limit, with size reserved for post-expiration next week.
+
+### Portfolio watch — all 4 THESIS INTACT (no red flags found; unverified scan)
+- **GE** +9.2% (mark ~360.11). No verifiable 24h thesis-breaker / rating change. Low-beta industrial — should weather a hawkish tape best. INTACT. Book's strongest; trailing floor 326.097 (hwm 362.33).
+- **LLY** +3.0% (mark ~1110.99). No verifiable 24h news. Foundayo Medicare Part D $50/mo access (reportedly July 1) + Jefferies Buy PT $1,350 remain UNVERIFIED this scan. Most rate-sensitive (long-duration growth) of the four on a yields-up day. INTACT.
+- **ETN** +4.2% (mark ~418.28). No verifiable 24h news. **As an AI data-center power play, the name most exposed to hawkish multiple compression — watch the open.** Closest to +5% conversion: ~$3.3 below its ~421.62 trailing trigger. INTACT.
+- **DE** −0.2% (mark ~588.47). No verifiable 24h news; Q2 beat (5/21) stands. Flat, non-AI diversifier. INTACT.
+- Earnings-blackout: PANW likely **August** (UNVERIFIED, but all estimates point August → safe). GE/LLY/ETN/DE next earnings all ~late-July–Aug per prior verification; none in a 3-day window.
+
+### Buy candidates — NOTHING clears the gate (2+ signals AND Conviction ≥70)
+- **PANW (Palo Alto Networks) — Conviction 66 (↓ from 70), THESIS-RISK.** Fund 78 / Thesis 72 / Sent 50 / Risk 55 / Tech 65. Signals #1 (beat-and-raise 6/2, verified), #3 (cybersecurity secular), #6 (uptrend) — still 3 signals. **But it slipped below the 70 gate on sentiment:** the only fresh insider activity is **SELLING** (director Goetz ~20k shares 6/16; CTO Klarich ~62.9k 5/22) and **no new analyst upgrade** in 2 weeks → catalyst decaying without reinforcement (now ~16d stale). Base-or-knife: closer to a **base** — closed ~$282 Wed, actually +0.80% on the hawkish-Fed down day, tight ~$276–284 range, absorbed the session. % above 50-day UNVERIFIED. Still lead, but **does not buy** at 66.
+- **JPM (JPMorgan) — Conviction 65, watch.** Fund 82 / Thesis 70 / Sent 50 / Risk 60 / Tech 70. Signals #3 (financials rotation), #6 (uptrend near 52-wk high ~$331–335). Only 2 borderline signals, **no fresh <2wk catalyst** (Q1 beat Apr 14, NII guide cut), earnings ~mid-July. Higher-for-longer rates can help bank NIM. Backup if it gets a pre-earnings analyst catalyst.
+- **AVGO 58** (THESIS-RISK) — Q2 beat but "so-so" guide, fell ~12–13% on 6/4, still below highs; high-beta semis overlap with ETN.
+- **PWR 52** (watch) — grid/electrification tailwind intact but only 1 signal, no dated catalyst.
+- **ORCL 48** (THESIS-RISK) — post-June-print stabilization UNVERIFIED; treat as knife.
+- **No NEW large-cap beat-and-raise** verified in the last ~7 days (screen came back empty/unreliable; JBL beat 6/17 but raise unconfirmed + borderline size). Nothing new outranks the bench.
+
+### Sell candidates — none
+- (a) −7% drawdown: worst is DE −0.2%; all 4 flat-to-deeply-green, nowhere near −7%. (b) +5%→trailing: GE & LLY already trailing; ETN closest (~$3.3 from ~421.62), DE far. (c) Daily loss cap: market closed, n/a. No sells.
+
+### Plan handed to market-open (Thu 6/18)
+- **The post-FOMC deploy decision resolves to: NO buy queued.** PANW (lead) fell to 66 below the 70 gate on insider selling + stale catalyst; JPM (65) has no fresh catalyst. Neither clears. Hold the 5th slot — cash-drag now entering a 4th week but defensible into a jumpy, flow-distorted, pre-holiday tape with nothing qualifying. **Only revisit if the open hands a genuine 2-signal + ≥70 setup** (e.g., a fresh PANW upgrade or clean dip-and-hold re-clearing 70).
+- **Standing conversion tasks:** if **ETN ≥ ~421.62 (+5%)** cancel its −7% hard (db3865d5) → 10% trailing GTC (closest, ~$3 away — re-check at open/midday); if **DE ≥ ~619.31 (+5%)** same (a150583a).
+- **Watch ETN at the open** — most hawkish-Fed-multiple-exposed name.
+- daytrade_count 0. No orders placed this routine (market closed).
+
+---
 ## 2026-06-17 15:05 CT — market-close (Day summary)
 
 **Setup:** Keys present (all 4 + Telegram). Market CLOSED 16:00 ET. Authoritative close pulled from Alpaca. No inbox pending. No orders placed or filled today (closed-orders query empty — held the pre-Fed no-trade plan exactly). All 4 GTC stops re-verified RESTING (status `new`).
