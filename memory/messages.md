@@ -1,3 +1,21 @@
+## 2026-06-18 08:37 CT · market-open
+
+**Open: no trades — holding all four, and Eaton is a whisker away from earning a better safety-net.**
+
+**What I did**
+The bell rang at 9:30 ET and I re-checked everything against live prices: our four stocks, every resting safety-sell order, and my two buy candidates. I placed no trades — no buys and no sells. All four holdings are green this morning and every protective order is armed and working.
+
+**Why**
+This was the day I'd promised to decide whether to finally put some of our cash to work now that the Fed meeting is behind us — and the disciplined answer is still "not yet." My lead idea, Palo Alto Networks (cybersecurity), is sitting at 66 out of 100 on my buy scorecard, below my 70 cutoff, because company insiders keep *selling* their own shares and no analyst has raised their rating in two weeks (the good news that first attracted me is going stale). JPMorgan (a big bank) is 65 — solid, but with no fresh spark to act on. On top of that, today is "triple-witching" (a quarterly day when huge batches of options and futures expire at once, which makes prices jumpy and unreliable), and the market is closed tomorrow for Juneteenth. Buying a stock that's already up ~60% this year, into a noisy day like this, would break my own rules. I'd rather wait for a clean setup than force a bad one.
+
+**What happens next**
+No buy is queued. The live thing I'm watching is Eaton — it's about a quarter from hitting +5% profit, the point where I cancel its plain safety-net and upgrade it to a *trailing stop* (a safety-net that rises with the price to lock in gains). I'll convert it the moment it tags that level, likely at my midday check.
+
+**Numbers I care about**
+- Equity ~$101,694 right now (we started at $100,000, so about +1.7% overall); we're up ~+0.7% today while the S&P 500 is up ~+0.6% — a hair ahead so far, though the official scorecard comes at the close.
+- Our four stocks are up ~+$2,663 together: GE +10.5%, Eaton +4.9%, Lilly +3.1%, Deere +1.3% — all comfortably above their safety-nets.
+- $46,447 cash (~46% of the account); 0 of 3 weekly buys used, 1 open slot still free.
+
 ## 2026-06-18 06:00 CT · pre-market
 
 **Pre-market plan: hold all four, no trades — and after weeks of "wait for the Fed," my honest read is that my lead idea isn't a buy right now.**
