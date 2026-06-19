@@ -1,6 +1,6 @@
 # Portfolio
 
-**Last updated:** 2026-06-19 08:30 CT (MARKET-OPEN routine — clock re-confirmed `is_open:false`, **Juneteenth, MARKET CLOSED**. No session today, no trades possible; positions/stops re-verified unchanged via Alpaca. Marks below are holiday, UNAUTHORITATIVE; official figures are the 6/18 close. Next session **Mon 6/22**.)
+**Last updated:** 2026-06-19 12:00 CT (MIDDAY routine — clock re-confirmed `is_open:false`, **Juneteenth, MARKET CLOSED**. No session today, no trades possible; positions/stops re-verified unchanged via Alpaca (equity == last_equity, all 4 stops resting GTC `status:new`). Marks below are holiday, UNAUTHORITATIVE; official figures are the 6/18 close. Next session **Mon 6/22**.)
 **Cash:** $46,447.18 (unchanged — no trades possible; market closed).
 **Equity (holiday after-hours mark):** **$101,006.72** (≈ official 6/18 close $101,068.13). last_equity == equity (no session today).
 **Day P/L:** N/A — market closed for Juneteenth.
