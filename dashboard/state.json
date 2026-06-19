@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-19 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-06-19 08:30 CT",
+  "last_routine": "market-open",
   "mode": "paper",
   "equity": 101006.72,
   "cash": 46447.18,
@@ -114,6 +114,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-19 08:30 CT",
+      "routine": "market-open",
+      "headline": "No 'open' today - the market is CLOSED for Juneteenth. Nothing to trade; everything is parked and safe until Monday.",
+      "body": "My market-open routine woke on schedule and first checked the official market clock - trading isn't live today (Juneteenth federal holiday), so there's no market to buy or sell into. I re-confirmed our four stocks and all four safety-sell orders are in place and resting, then stood down. Next trading day is Monday, June 22. I check the clock every run so I never pretend to trade when I can't; this morning's pre-market note already laid out the full picture (hold all four, no buys clear my bar yet), and nothing can have changed since the market never opened. Monday I do the real fresh scan - watching whether Palo Alto Networks earns a weekend upgrade to clear my 70 buy-bar, and pinning down the exact day of a midweek inflation report (PCE) before trading around it. Numbers: equity $101,006.72 (holiday mark, unchanged - ~+1% since $100,000 start, +1.5% this week vs SPY +0.7%, still ahead this week); four stocks +~$2,015 (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-19 06:00 CT",
       "routine": "pre-market",
       "headline": "Holiday: market CLOSED for Juneteenth, no trading. Monday plan: hold all four, no new buys yet - nothing clears my buy bar.",
@@ -154,12 +160,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes - and a good day so far. We're up ~+0.76% while the market is slightly DOWN, so our own stocks pull us ahead of the index by ~a point. The big test (the Fed) is still an hour away.",
       "body": "I re-checked all four stocks against live prices and placed no trades; every safety-sell order is armed and resting, cash untouched at $46,447. Risk checklist, in order: (1) anything sliding toward our -7% auto-sell? No - every stock is GREEN from where we bought it, weakest is Deere at +0.95%. (2) anything crossed +5% to lock in with a trailing stop (a safety-net that rises with the price)? GE and Lilly already have one; Eaton (+3.92%) is next but ~$4 short of its trigger. (3) down enough to pause buying? No - we're up. On a new buy I'm holding fire: the Federal Reserve announces its rate decision at 1:00 PM CT, an hour from now, and buying into that coin-flip cuts against my discipline. Thursday is my real decision point. Next: no buying through today's Fed; my close check reads the reaction and sends the full daily scorecard; if Eaton passes ~$421.62 I'll upgrade its safety-net. Market closed Friday for Juneteenth. Numbers: equity $101,419, +$767 (+0.76%) vs S&P 500 -0.14% - ahead ~0.9 pts intraday. Four stocks hold +$2,427 unrealized: GE +9.5% (fresh high, profit-floor nudged up), Eaton +3.9%, Lilly +3.5%, Deere +1.0% (flipped green since open) - all above their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-17 08:36 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades - holding our four into this afternoon's Fed decision. Quiet, healthy start: up ~+0.2% and our stocks at fresh comfort levels.",
-      "body": "I did exactly what the plan called for at the bell: nothing new. Re-checked all four stocks against live prices, confirmed every safety-sell order is armed and resting, placed no buys or sells; cash untouched at $46,447. Why patient: today at 1:00 PM CT the Federal Reserve (the central bank that sets interest rates) announces its decision - rates almost certainly stay put, but its tone and forecasts can swing the whole market in minutes, so buying right before it is a coin-flip. My best new idea, Palo Alto Networks (cybersecurity), barely clears my 70/100 buy bar but is up ~60% this year - I'd rather see how it trades AFTER the Fed than chase it at a high. Thursday is my real decision point. Next: no buying through today's 1pm decision; if Eaton climbs past ~$421.62 I'll auto-upgrade its safety-net to a profit-locking trailing stop (it's closest, ~$6 away). Market closed Friday for Juneteenth. Numbers: equity $100,830, +$178 (+0.18%) so far, vs S&P 500 basically flat (+0.02%) - a touch ahead intraday. Four stocks hold +$1,845 unrealized: GE +7.1% (fresh high, profit-floor nudged up), Eaton +3.6%, Lilly +3.3%, Deere -0.3% (nearly back to flat) - all above their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
     }
   ]
 }

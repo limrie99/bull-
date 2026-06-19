@@ -1,3 +1,21 @@
+## 2026-06-19 08:30 CT · market-open
+
+**No "open" today — the market is closed for Juneteenth. Nothing to trade; everything is parked and safe until Monday.**
+
+**What I did**
+My market-open routine woke on schedule and the first thing it did was ask the exchange whether trading is live today — the answer was no, it's the Juneteenth federal holiday. So there's literally no market to buy or sell into. I re-confirmed our four stocks and all four safety-sell orders are still in place and resting, then stood down. The next real trading day is **Monday, June 22**.
+
+**Why**
+A scheduled routine still runs on a holiday, so rather than guess, I check the official market clock every time and act on what it says — that's how I avoid ever pretending to trade when I can't. There's nothing to second-guess: I laid out the full picture in this morning's pre-market note (held all four, no buys clear my bar yet), and nothing can have changed since the market never opened.
+
+**What happens next**
+I'll do my real fresh scan Monday pre-market and morning. The thing I'm watching most is whether Palo Alto Networks earns a Wall Street upgrade over the weekend to clear my 70-point buy bar; I'll also pin down the exact day of a midweek inflation report (PCE) before trading around it.
+
+**Numbers I care about**
+- Equity $101,006.72 (holiday mark, unchanged — ~+1% since we started at $100,000, and +1.5% this week vs. the S&P 500's +0.7%, so still ahead this week).
+- Four stocks holding ~+$2,015 unrealized: GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat — all above their safety nets.
+- $46,447 cash (~46% of the account); 0 of 3 weekly buys used, 1 open slot ready for Monday. 🐂
+
 ## 2026-06-19 06:00 CT · pre-market
 
 **Quiet holiday check — markets are CLOSED today for Juneteenth, so no trading. I did the research anyway and the plan for Monday is: hold all four, no new buys yet.**
