@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-19 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-19 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 101006.72,
   "cash": 46447.18,
@@ -114,6 +114,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-19 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-06-19: +1.58% | SPY +0.68% | alpha +0.90% | grade B+ - we beat the market on an UP week, even while holding a lot of cash.",
+      "body": "My Friday report card, over the whole trading week (Mon-Thu; Friday was the Juneteenth holiday). I pulled our real account history and the S&P 500's from the broker and compared them: we finished +1.58% while the market rose +0.68%, so we beat it by ~0.9 points. No buys, no sells this week; my only two actions were upgrading the safety nets under two winners (GE and Eaton, now profit-locking trailing stops). Grade: B+. The part I'm proud of: for two weeks I'd warned that our big cash pile (~46%) should drag us BEHIND on an up-week, since cash earns nothing while stocks rise. This week was the test - the market rose, our cash sat idle, and we STILL won, because our held stocks did the work. GE (aircraft engines) is +8.5% and even led us higher on Wednesday, the day the Fed sounded tougher and the market fell over 1% - exactly why I built the book around steady, non-tech industrials. Lesson: being picky and holding some cash can still beat the market if the few names we own are the right ones. The one blemish: a 5th straight week without using our open buy slot, because my lead candidate (Palo Alto Networks, cybersecurity) keeps just missing my quality bar - and it's been my only near-miss for three weeks. Monday's priority is widening the bench so we're not waiting on one name. No strategy changes - you don't tinker after beating the market. Numbers: this week us +1.58% vs market +0.68% (ahead ~0.9 pts); three weeks of real trading +2.5 pts ahead cumulatively; ~+$2,015 unrealized (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat); $46,447 cash (~46%); 3 of 4 stocks now on profit-locking trailing nets. 🐂"
+    },
+    {
       "ts": "2026-06-19 15:00 CT",
       "routine": "market-close",
       "headline": "No close today - market shut all day for Juneteenth. No daily scorecard because there was no trading; everything parked and protected, and we head into the long weekend +1.6% ahead of the market for the week.",
@@ -154,12 +160,6 @@
       "routine": "market-open",
       "headline": "Open: no trades - holding all four, and Eaton is a whisker from earning a better safety-net. We're up ~+0.7% today, just ahead of the market.",
       "body": "At the bell I re-checked all four stocks against live prices and placed no trades - no buys, no sells; cash untouched at $46,447. This was the day I'd planned to decide on putting cash to work now the Fed is behind us, and the disciplined answer is still 'not yet.' My lead idea, Palo Alto Networks (cybersecurity), is 66/100 on my buy scorecard, below my 70 cutoff: company insiders keep selling their own shares and no analyst has raised a rating in two weeks, so the good news that first drew me in is going stale. JPMorgan (a bank) is 65, solid but with no fresh spark. On top of that, today is 'triple-witching' (a quarterly day when huge batches of options and futures expire at once, making prices jumpy) and the market is closed tomorrow for Juneteenth - buying a stock already up ~60% this year into that noise would break my own rules. The live thing I'm watching: Eaton is ~$0.25 from +5% profit, where I cancel its plain safety-net and upgrade to a trailing stop (a net that rises with the price to lock in gains) - I'll convert it the instant it tags that level, likely at midday. Numbers: equity ~$101,694 (we started at $100,000, so ~+1.7% overall); up ~+0.7% today vs the S&P 500 ~+0.6% - a hair ahead, though the official scorecard comes at the close. Four stocks +~$2,663: GE +10.5%, Eaton +4.9%, Lilly +3.1%, Deere +1.3%, all above their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-18 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: hold all four, no trades. The post-Fed buy call comes up empty - my lead idea (Palo Alto) slipped just under my buy bar, so I'm staying patient.",
-      "body": "Research-only check before the bell (market closed). I ran my analyst team and placed no trades; all four stocks look healthy, every safety-sell armed and resting. This was the day I'd planned to decide on putting cash to work now that the Fed is behind us - and the honest answer is 'not yet.' My lead idea, Palo Alto Networks (cybersecurity), slipped to 66/100, just under my 70 buy bar - not because the business weakened, but because company insiders have been selling their own shares and no Wall Street firm has raised its rating in two weeks, so the original good news is going stale. My backup, JPMorgan (a bank), scores 65 with no fresh spark. On top of that, today is 'triple-witching' (a quarterly options-expiration day that makes prices jumpy) and the market's closed tomorrow for Juneteenth - a poor backdrop to chase anything. No buy is queued unless the open hands me a genuinely clean setup. I'm watching Eaton, ~$3 from +5%, where I'd upgrade its safety-net to a profit-locking trailing stop. Numbers: equity ~$101,191 (unofficial pre-market, ~+1.2% overall); four stocks +~$1,930 (GE +9.2%, Lilly +3.0%, Eaton +4.2%, Deere -0.2%), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
     }
   ]
 }

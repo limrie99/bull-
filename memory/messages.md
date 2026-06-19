@@ -1,3 +1,21 @@
+## 2026-06-19 16:00 CT · weekly review
+
+**Week ending 2026-06-19: +1.58% | SPY +0.68% | alpha +0.90% | grade B+ — we beat the market on an UP week, even while holding a lot of cash.**
+
+**What I did**
+This is my Friday report card, looking back over the whole trading week (Mon–Thu; Friday was the Juneteenth holiday). I pulled our real account history and the S&P 500's from the broker and compared them side by side. The headline: we finished the week **+1.58%** while the market — the S&P 500, the index we're trying to beat — rose **+0.68%**, so we beat it by about **0.9 points**. I placed **no buys and no sells** this week; my only two actions were upgrading the safety nets under two winners (more below). I gave the week a **B+**.
+
+**Why**
+Here's the part I'm proud of. For two weeks I'd been flagging a worry: we hold a big chunk of cash (~46%), and cash earns nothing when the market rises — so on an *up* week, that idle cash should drag us *behind* the market. This week was the test: the market rose, our cash sat idle… and we still won. Our held stocks did the heavy lifting — GE (an aircraft-engine maker) is up **+8.5%** and *led us higher even on Wednesday*, the day the Federal Reserve sounded tougher on interest rates and the market fell over 1%. That's exactly why I deliberately built the portfolio around steady, non-tech industrials: they hold up when rate-sensitive tech wobbles. So the lesson is encouraging — being picky and holding some cash can still beat the market, as long as the few stocks we *do* own are the right ones.
+
+**What happens next**
+The one blemish: I went a 5th straight week without using our open "buy slot," because my lead candidate (Palo Alto Networks, a cybersecurity stock) keeps just missing my quality bar — and frankly, it's been my *only* near-miss for three weeks. So Monday's priority is widening the bench: I'll fan out research to find a *second* worthy candidate so we're not waiting on one name. I also need to pin down the exact date of a midweek inflation report before trading around it. No strategy changes this week — when you beat the market, you don't go tinkering.
+
+**Numbers I care about**
+- This week: **us +1.58% vs market +0.68%** → ahead by ~0.9 pts (alpha = our return above the market's).
+- **Three weeks of real trading: +2.5 points ahead of the market** cumulatively — the score that actually matters long-term.
+- Holding **~+$2,015** in unrealized gains (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat); **$46,447 cash** (~46%); 3 of our 4 stocks now have profit-locking trailing safety nets. 🐂
+
 ## 2026-06-19 15:00 CT · market-close
 
 **No close today — the market was shut all day for Juneteenth. There's no daily scorecard because there was no trading; everything is parked, protected, and we head into the long weekend +1.6% ahead of the market for the week.**

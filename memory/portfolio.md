@@ -1,6 +1,6 @@
 # Portfolio
 
-**Last updated:** 2026-06-19 15:00 CT (MARKET-CLOSE routine — clock re-confirmed `is_open:false`, **Juneteenth, MARKET CLOSED ALL DAY**. No session today → **no "close" to report**; the authoritative figures remain the **Thu 6/18 official close**. Positions/stops re-verified unchanged via Alpaca (equity == last_equity, `balance_asof:2026-06-18`, all 4 stops resting GTC `status:new`, 0 closed orders today). Marks below are holiday after-hours, UNAUTHORITATIVE. Next session **Mon 6/22**.)
+**Last updated:** 2026-06-19 16:00 CT (WEEKLY-REVIEW routine — clock re-confirmed `is_open:false`, **Juneteenth, MARKET CLOSED ALL DAY**. No session today → **no "close" to report**; the authoritative figures remain the **Thu 6/18 official close**. Positions/stops re-verified unchanged via Alpaca this run (equity $101,006.72 == last_equity, `balance_asof:2026-06-18`, all 4 stops resting GTC `status:new`, 0 closed orders today). Marks below are holiday after-hours, UNAUTHORITATIVE. **Week ending 6/19: +1.58% vs SPY +0.68% → alpha +0.90 pts, grade B+** (full review in `memory/weekly-review.md`). Next session **Mon 6/22**.)
 **Cash:** $46,447.18 (unchanged — no trades possible; market closed).
 **Equity (holiday after-hours mark):** **$101,006.72** (official 6/18 close was $101,068.13; the small drift is after-hours marks, not a session move). last_equity == equity (no session today).
 **Day P/L:** **N/A — market closed for Juneteenth (no trading session today).**

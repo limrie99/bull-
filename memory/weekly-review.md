@@ -33,6 +33,57 @@ Format:
 
 ---
 
+## Week ending 2026-06-19 (Friday) — BEAT SPY on an up-week despite ~46% cash; the cash-drag 3rd-strike test came back NEGATIVE
+
+_Run 2026-06-19 (Fri) 16:00 CT, covers the trading week Mon 6/15 → Thu 6/18 (**Fri 6/19 CLOSED — Juneteenth**, so the week is a 4-session, holiday-shortened stretch; "Friday close" = Thu 6/18 official close). Numbers verified live against Alpaca this run: account, 1W portfolio history (1D), positions, and SPY daily bars 6/11→6/18 (IEX feed). Week baseline held consistent with every daily routine this week: 6/12 close $99,495.60 / SPY 741.67._
+
+**Metrics**
+- Starting equity (Mon 6/15 open = Fri 6/12 close): **$99,495.60**
+- Ending equity (Thu 6/18 official close; 6/19 holiday): **$101,068.13**
+- Week return: **+1.581%** (+$1,572.53)
+- SPY week return: **+0.685%** (6/12 close 741.67 → 6/18 close 746.75)
+- **Alpha vs SPY: +0.896 pts ≈ +0.90%** ✅ (back ahead after last week's −0.56%)
+- Trades placed: **0 buys / 0 sells.** (2 risk-mgmt stop conversions, no shares traded: GE −7%→10% trailing 6/15; ETN −7%→10% trailing 6/18.)
+- Win rate on closed trades this week: **N/A** (zero positions closed)
+- **3-week cumulative alpha (since trading resumed, 5/29 close baseline): +2.50 pts** ✅ (portfolio +1.23% vs SPY −1.27%)
+
+**The week in one line:** we beat a *rising* SPY by ~0.90 points on a holiday-shortened, event-heavy week (FOMC + triple-witching) while sitting ~46% cash and placing zero trades — the held sleeve (GE +8.5%, ETN +5.0%) carried the book, and low-beta industrials won the hawkish-Fed down-day outright. The exact 3rd-strike condition the 6/12 review set for cash-drag (idle slot **AND** SPY-lagging alpha on a rising tape) did **not** trigger: the slot sat idle, but we beat the tape.
+
+**Wins**
+- **Beat SPY on an UP week with ~46% cash — the cash-drag fear, directly tested, did not bite.** Last week's review predicted that another idle-slot week into a rising SPY would cost alpha (the feared 3rd strike). The tape rose (+0.68%), the slot stayed idle — and we still won by +0.90. Stock selection on the ~54%-invested sleeve more than offset the cash. This is the *other* proof: the buffer + concentrated quality can beat the index even when cash earns nothing.
+- **GE is the model holding.** +8.5% on the week (best in book), printed fresh highs, and on Wed's hawkish-Fed −1.27% SPY day it *led the book green* (+1.51% on the day). A pure low-beta industrial with zero AI/semis overlap — exactly the "lower book beta" design we adopted after the NVDA stop-outs. Validated again. Its 6/15 conversion to a 10% trailing stop locks the gain hands-free.
+- **Discipline through the worst possible tape for new entries — and it paid literally.** FOMC (Wed, hawkish hold) + triple-witching (Thu) + a pre-holiday Friday. The entry-discipline rule (don't initiate fresh size into a binary macro print) meant we had no whipsaw-able new exposure across the dots/Powell reaction. We won the Fed down-day by +1.50 alpha precisely *because* we were patient and low-beta.
+- **Risk system flawless, and now locking profit on 3 of 4.** Zero stops fired, zero whipsaws. ETN crossed +5% Thu and we converted its −7% hard stop to a 10% trailing GTC (floor 383.328, ~$10 above the old hard stop). All four GTC stops verified resting `new` on every single routine. DE the lone name still on a −7% hard (thesis intact, ~7% cushion).
+
+**Losses**
+- **Zero buys — the 5th-week-running sub-cap deployment.** One slot sat open all week; weekly buy cap went 0 of 3. On the pure up-days (Thu: SPY +0.77%, us +0.06%) the cash drag showed its face. This week selection covered for it, but a fresh qualifying add could have widened the lead rather than relying on two names to do the work.
+- **PANW keeps just missing the gate.** The standing lead reserve hovered at Conviction 66 all week — 3 signals (verified beat-and-raise 6/2, cybersecurity secular, uptrend) but **fresh insider SELLING** (director + CTO) and **no new analyst upgrade** left it stuck below the 70 buy-gate with a decaying (~17-day-stale) catalyst. JPM (65) had no fresh <2-week catalyst (next real trigger is ~7/14 earnings). Nothing else verified. So "no buy" was the correct call given the bench — but the bench being this thin is itself the constraint.
+
+**Root-cause read (signal vs. execution vs. thesis)**
+- **The +0.90 alpha was selection, not luck.** GE/ETN expressing + LLY/DE holding green, plus a deliberately low-beta book that won the Fed down-day — execution and theses all intact, signals fine. No trade to second-guess.
+- **The idle slot was a bench problem, not a discipline failure.** The gate correctly kept us out of PANW (a +60% YTD name with insider selling and a stale catalyst) and out of high-beta semis into FOMC/expiration. "No buy" was the right answer to "is there a qualifying ≥70 setup?" — the answer was genuinely no.
+
+**Pattern recognition vs. previous reviews**
+- **Cash-drag: the 3rd-strike test came back NEGATIVE — DOWNGRADE the flag, do NOT escalate.** The 6/12 review was explicit: "if next week (6/19) again ends with idle slots **and** SPY-lagging alpha on a rising tape, that's the 3rd strike." This week: idle slot ✅, rising tape ✅, but **SPY-lagging alpha ❌ — we BEAT SPY by +0.90.** The compound condition is not met, so the escalation does not fire. More importantly, the week is positive *evidence against* the thesis that our cash posture is structurally costing the mandate: across the three traded weeks the buffer has now won a down-week (+2.24), lagged an up-week (−0.56), and **won an up-week (+0.90)** — net +2.50 cumulative alpha. The honest read flips from "we're under-exposed" toward "selectivity + buffer is beating SPY; the give-back on pure up-days is real but recoverable by selection." The flag stays on the board as a *watch* (a thin bench is a genuine constraint), but it is no longer a probationary escalation path.
+- **The "low book beta" redesign is repeatedly validated.** Every down/hawkish day since the NVDA stop-outs, the non-AI industrials (GE, DE) have cushioned or led. That structural choice is doing exactly its job — keep it.
+- **NVDA/high-beta entry-discipline: untested again** (no semis position all week). Stays on probation, unchanged.
+
+**Strategy adjustments**
+- **NONE. No guardrail changes, no new rules.** This was a *winning* week — beat SPY, zero losses, flawless risk discipline, two gains locked via trailing conversions, navigated FOMC + triple-witching cleanly. Tuning anything after a beat-the-benchmark week would be exactly the over-fitting the strategy warns against. The −7% hard stop, 10% trailing, position caps, weekly buy cap, Conviction ≥70 gate, cold-start rule, and high-beta entry discipline all held and need no change.
+- **Cash-drag flag: formally downgraded from "probationary 2nd-occurrence / 3rd-strike pending" to "watch."** Rationale documented above — the specific forward test failed to trigger and the week is evidence the posture is working. This is not a strategy edit (no rule changed); it's a correction to the *pattern-tracking* so we don't mechanically "escalate" a pattern the data just contradicted.
+- **Forward expectation (not a rule, carried & sharpened):** the deploy bar (2 signals + Conviction ≥70) stays exactly as-is. But the run priority next week is **bench width** — PANW has been the *only* near-gate name for 3 weeks. Re-run the candidate screens with a genuine fan-out (parallel single-ticker sub-agents, since multi-ticker Perplexity screens kept failing) to surface a *second* qualifying name, so a future deploy isn't hostage to one stale catalyst.
+
+**Live flags for next week (Mon 6/22 — weekly buy cap resets to 3, 1 open slot, ~46% cash)**
+- **PANW (lead, 66):** re-clears the 70 gate only on a *fresh* analyst upgrade or a clean dip-and-hold base over the weekend. Do not deploy at 66 on the old "lead idea" inertia. **JPM (65):** backup; real trigger is ~7/14 earnings unless a pre-earnings catalyst appears.
+- **Bench is too thin — widen it.** Re-run growth / momentum / earnings-beat screens via parallel one-ticker sub-agents (multi-ticker Perplexity calls were unreliable all week). Directional gaps in the book (3 industrials + 1 pharma): consumer staples, a financial/insurer, a utility/consumer-discretionary. Verify any catalyst + earnings date before acting — do NOT act on unverified names.
+- **Verify core PCE's exact date (Thu 6/25 vs Fri 6/26 — conflicting in this week's scans)** before trading around it. Re-confirm AVGO earnings date for blackout. Light, off-cycle earnings week (likely FDX/MU/DRI — MU the semis bellwether); no held/watchlist name reports next week (UNVERIFIED).
+- **Long-weekend gap risk MEDIUM** (Iran/Middle East headlines + Fed-speak). Nothing of ours sits near a trailing floor, so a Monday gap-down fills at the open with low damage. Watch Sunday-night Globex oil.
+- **Stops:** GE trailing floor 328.23 (hwm 364.7), ETN trailing 383.328 (hwm 425.92), LLY trailing 1064.457 (hwm 1182.73), DE −7% hard 548.53 (the only hard stop left). All resting GTC.
+
+**Grade: B+** — we beat SPY (+0.90 alpha) on a *rising*, event-heavy, holiday-shortened week with zero losses, flawless risk discipline, and two profit-locking conversions, and pushed 3-week cumulative alpha to +2.50. Crucially, the cash-drag 3rd-strike fear was directly tested and *failed to materialize* — selection beat the tape even at ~46% cash. Held below A only because the buy slot sat idle a 5th straight week on a thin one-name bench (PANW), so the lead rode on two holdings rather than a broadening book — a solid beat, not yet a high-conviction, fully-deployed one.
+
+---
+
 ## Week ending 2026-06-12 (Friday) — the cash buffer's other face: lagged SPY on an up-week
 
 _Run 2026-06-12 (Fri) 16:05 CT, covers the trading week Mon 6/8 → Fri 6/12. Market confirmed closed via Alpaca clock; all marks are official Alpaca close. Numbers verified live against Alpaca (account, 1W portfolio history, SPY daily bars 6/5–6/12). Baseline held consistent with the daily routines all week: 6/5 close $99,507.02 / SPY 737.45._
