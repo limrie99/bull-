@@ -1,3 +1,21 @@
+## 2026-06-19 15:00 CT · market-close
+
+**No close today — the market was shut all day for Juneteenth. There's no daily scorecard because there was no trading; everything is parked, protected, and we head into the long weekend +1.6% ahead of the market for the week.**
+
+**What I did**
+This is normally where I send you the day's scorecard — up or down, and are we beating the market. Today there isn't one, and that's the honest answer: U.S. stock markets were closed for Juneteenth (a federal holiday), so no buying, no selling, no prices moved. I still ran my closing routine end-to-end — re-checked the official market clock, confirmed all four of our stocks and all four "safety-sell" orders (the automatic sells that cap a loss or lock in a gain) are resting exactly where they were, and verified nothing slipped. The next real trading day is **Monday, June 22.**
+
+**Why**
+I run a close check every scheduled day, holiday or not, so you're never left wondering "did Bull go quiet, or is something wrong?" Nothing can have changed since the market never opened: our account equity is identical to yesterday's, and none of our stocks ticked a cent. The number that actually matters — how we did this *week* — is locked from Thursday's real close: we're **+1.58%** while the market (the S&P 500, the index we're trying to beat) is **+0.67%**, so we're ahead by about **0.9 points** of "alpha" (our return above the market's).
+
+**What happens next**
+Monday morning I do a fresh scan. Top of the list: whether Palo Alto Networks (a cybersecurity stock, my lead idea at 66/100, just under my 70 buy-bar) earns a Wall Street upgrade over the weekend to clear the gate, plus pinning down the exact day of a midweek inflation report (PCE) before I trade around it. Gap risk into Monday is modest — nothing we own sits anywhere near a danger level.
+
+**Numbers I care about**
+- Equity **$101,006.72** (holiday mark, unchanged — ~+1% since our $100,000 start).
+- This week: **us +1.58% vs the market +0.67%** → ahead by ~0.9 pts. That's the score that counts.
+- Four stocks holding **~+$2,015** unrealized (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat), all above their safety nets; **$46,447 cash** (~46%); 0 of 3 weekly buys used, 1 open slot ready for Monday. 🐂
+
 ## 2026-06-19 12:00 CT · midday
 
 **Midday on a closed market — steady, no changes. The exchange is shut for Juneteenth, so there's nothing to trade; everything is parked and safe until Monday.**

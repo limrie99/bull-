@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-19 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-19 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
   "equity": 101006.72,
   "cash": 46447.18,
@@ -114,6 +114,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-19 15:00 CT",
+      "routine": "market-close",
+      "headline": "No close today - market shut all day for Juneteenth. No daily scorecard because there was no trading; everything parked and protected, and we head into the long weekend +1.6% ahead of the market for the week.",
+      "body": "This is normally where I send the day's scorecard - up or down, and are we beating the market. Today there isn't one, honestly: U.S. markets were closed for Juneteenth (a federal holiday), so no buying, no selling, no prices moved. I still ran my full close routine - re-checked the official clock, confirmed all four stocks and all four safety-sell orders are resting exactly where they were, verified nothing slipped. Next trading day is Monday, June 22. Nothing can have changed since the market never opened: equity is identical to yesterday and none of our stocks ticked a cent. The number that matters - how we did this WEEK - is locked from Thursday's real close: we're +1.58% vs the S&P 500's +0.67%, ahead by ~0.9 pts of 'alpha' (our return above the market's). Monday I do a fresh scan: watching whether Palo Alto Networks (cybersecurity, my lead at 66/100, just under my 70 buy-bar) earns a weekend upgrade to clear the gate, plus pinning the exact day of a midweek inflation report (PCE). Gap risk into Monday is modest - nothing we own is near a danger level. Numbers: equity $101,006.72 (holiday mark, unchanged, ~+1% since $100,000 start); week us +1.58% vs market +0.67%; four stocks ~+$2,015 (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-19 12:00 CT",
       "routine": "midday",
       "headline": "Midday on a closed market - steady, no changes. The exchange is shut for Juneteenth, so nothing to trade; everything is parked and safe until Monday.",
@@ -154,12 +160,6 @@
       "routine": "pre-market",
       "headline": "Pre-market plan: hold all four, no trades. The post-Fed buy call comes up empty - my lead idea (Palo Alto) slipped just under my buy bar, so I'm staying patient.",
       "body": "Research-only check before the bell (market closed). I ran my analyst team and placed no trades; all four stocks look healthy, every safety-sell armed and resting. This was the day I'd planned to decide on putting cash to work now that the Fed is behind us - and the honest answer is 'not yet.' My lead idea, Palo Alto Networks (cybersecurity), slipped to 66/100, just under my 70 buy bar - not because the business weakened, but because company insiders have been selling their own shares and no Wall Street firm has raised its rating in two weeks, so the original good news is going stale. My backup, JPMorgan (a bank), scores 65 with no fresh spark. On top of that, today is 'triple-witching' (a quarterly options-expiration day that makes prices jumpy) and the market's closed tomorrow for Juneteenth - a poor backdrop to chase anything. No buy is queued unless the open hands me a genuinely clean setup. I'm watching Eaton, ~$3 from +5%, where I'd upgrade its safety-net to a profit-locking trailing stop. Numbers: equity ~$101,191 (unofficial pre-market, ~+1.2% overall); four stocks +~$1,930 (GE +9.2%, Lilly +3.0%, Eaton +4.2%, Deere -0.2%), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-17 15:05 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $100,876 · day +0.22% · SPY -1.27% · alpha +1.50%",
-      "body": "The market sold off ~1.3% after the Fed left rates unchanged but sounded hawkish (in no hurry to cut, still worried about inflation) - and we finished GREEN, beating the index by ~1.5 points (that's our 'alpha,' the extra return over just owning the market). No trades, no rule tripped; all four safety-sells armed and resting. Our steady industrials carried it: GE (+1.5%) and Deere (+0.5%) rose while the market fell, and our ~46% cash had nothing to lose in the drop - exactly the down-day payoff for lagging a little on big up-days. This week we're +1.39% vs the market's -0.09%, ahead by ~1.5 points (we were neck-and-neck Monday). Next: Thursday is my real call - with the Fed behind us I'll look at putting cash to work (Palo Alto Networks is my lead idea) if it's holding steady, not tumbling; it's also triple-witching (a jumpy options-expiration day) so I'll read the open first. Market CLOSED Friday for Juneteenth. Numbers: equity $100,876, +$224 (+0.22%) vs SPY -1.27%; four stocks hold +$1,884 unrealized (GE +$1,233, Lilly +$496, Eaton +$185, Deere -$30); $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
     }
   ]
 }

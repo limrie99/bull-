@@ -1,3 +1,28 @@
+## 2026-06-19 15:00 CT — market-close (Day summary — JUNETEENTH, NO SESSION)
+
+**No market-close to report — U.S. equities were CLOSED all day for Juneteenth.** The close routine fired on the holiday; there was no trading session, so there is no day P/L, no day-vs-SPY, and no alpha to compute for 6/19. The authoritative daily scorecard remains **Thu 6/18's official close** (logged below). This entry exists so the record shows the close routine ran and verified state on the holiday rather than silently skipping.
+
+**Verification (Alpaca, this routine):**
+- **Clock:** `is_open:false`, `next_open 2026-06-22T09:30 ET`, `next_close 2026-06-22T16:00 ET`. Calendar confirms NO session 6/19 (jumps 6/18 → 6/22).
+- **Account:** equity **$101,006.72** == last_equity $101,006.72 (no session tick), cash $46,447.18, long_market_value $54,559.54 (~54.0% invested), `balance_asof:2026-06-18`, daytrade_count 0, PDT false. (Equity differs trivially from the 6/18 official close $101,068.13 — after-hours position marks, not a session move. UNAUTHORITATIVE.)
+- **Closed orders today:** **0** (verified — nothing could fill, market shut).
+- **All 4 stops RESTING GTC `status:new`** (open-orders query): GE trailing 328.23 (hwm 364.7) | ETN trailing 383.328 (hwm 425.92) | LLY trailing 1064.457 (hwm 1182.73) | DE −7% hard 548.53. Unchanged from midday/6/18 close.
+- **Holiday after-hours marks:** GE 357.64 (+8.50%), ETN 421.77 (+5.04%), LLY 1098.57 (+1.86%), DE 589.24 (−0.10%). Net open unrealized +$2,014.69. UNAUTHORITATIVE.
+
+**Authoritative week-to-date (carried from 6/18 close, unchanged — no 6/19 session):** portfolio +$1,572.53 / **+1.581%** WTD (from Fri 6/12 close $99,495.60); SPY week **+0.674%**; **week alpha +0.906 pts — AHEAD this week.**
+
+**Trades placed today:** none (market closed). No risk-mgmt actions (no session; nothing could trigger).
+
+**What worked:** Process discipline on a non-trading day — every holiday routine (pre-market, open, midday, close) independently re-checked the official clock and verified the 4 stops resting rather than assuming, so there is zero chance of a phantom "trade" or an unguarded position over the long weekend. The book ends the short week ahead of SPY (+1.58% vs +0.67%).
+
+**What didn't:** N/A — no session to evaluate. (Standing structural note carried from 6/18: 5th week at 0/3 buys; ~46% cash is a recurring give-back on up-index days. Finding a qualifying ≥70 setup is Monday's priority — not a 6/19 failure, just the open item.)
+
+**Open questions for Monday 6/22 (reopen):**
+- Long-weekend gap risk MEDIUM (Iran/Middle East headlines + Fed-speak); nothing of ours sits near a trailing floor, so a gap-down fills at the open with low damage. Watch Sunday-night Globex oil.
+- Does PANW (lead, 66) earn a fresh analyst upgrade or print a clean dip-and-hold over the weekend to re-clear the 70 gate? JPM (65) any pre-earnings catalyst?
+- **Verify core PCE's exact date (Thu 6/25 vs Fri 6/26 — conflicting)** before trading around it. Re-confirm AVGO earnings date for blackout.
+
+---
 ## 2026-06-19 06:00 CT — pre-market (Juneteenth — MARKET CLOSED, scan targets Mon 6/22)
 
 **Setup:** Keys present (all 4 required + Telegram). Market **CLOSED — Juneteenth** (clock is_open=false, **next_open 2026-06-22 09:30 ET**, next_close 16:00 ET). This pre-market routine fired on the holiday; no session today, no trades possible — the scan is forward-looking to **Monday 6/22**. Live Alpaca (after-hours marks, UNAUTHORITATIVE): equity **$101,006.72**, last_equity $101,006.72 (== equity, no session), cash **$46,447.18**, long_market_value **$54,559.54** (~54.0% invested / ~46.0% cash), daytrade_count 0, PDT false. SPY last trade 748.46 (after-hours/stale vs Thu 6/18 official close 746.75 — UNAUTHORITATIVE). Inbox: nothing pending. Weekly buy cap **0 of 3 used**; **4 of 5 slots** (1 open). All 4 GTC stops verified RESTING (status `new`): GE trailing **328.23** (hwm 364.7), ETN trailing **383.328** (hwm 425.92), LLY trailing **1064.457** (hwm 1182.73), DE −7% hard **548.53**. Sub-agent team (macro, position, opportunity, earnings) run in parallel via Perplexity; real-time retrieval again largely unreliable past early 2026 — flagged UNVERIFIED throughout and grounded against Alpaca.

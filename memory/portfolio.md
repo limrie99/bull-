@@ -1,10 +1,10 @@
 # Portfolio
 
-**Last updated:** 2026-06-19 12:00 CT (MIDDAY routine — clock re-confirmed `is_open:false`, **Juneteenth, MARKET CLOSED**. No session today, no trades possible; positions/stops re-verified unchanged via Alpaca (equity == last_equity, all 4 stops resting GTC `status:new`). Marks below are holiday, UNAUTHORITATIVE; official figures are the 6/18 close. Next session **Mon 6/22**.)
+**Last updated:** 2026-06-19 15:00 CT (MARKET-CLOSE routine — clock re-confirmed `is_open:false`, **Juneteenth, MARKET CLOSED ALL DAY**. No session today → **no "close" to report**; the authoritative figures remain the **Thu 6/18 official close**. Positions/stops re-verified unchanged via Alpaca (equity == last_equity, `balance_asof:2026-06-18`, all 4 stops resting GTC `status:new`, 0 closed orders today). Marks below are holiday after-hours, UNAUTHORITATIVE. Next session **Mon 6/22**.)
 **Cash:** $46,447.18 (unchanged — no trades possible; market closed).
-**Equity (holiday after-hours mark):** **$101,006.72** (≈ official 6/18 close $101,068.13). last_equity == equity (no session today).
-**Day P/L:** N/A — market closed for Juneteenth.
-**Week-to-date P/L (as of 6/18 official close):** **+$1,572.53 / +1.581%** (from Fri 6/12 close $99,495.60). **SPY week +0.674%** → **week alpha +0.906 pts — AHEAD of the market this week.**
+**Equity (holiday after-hours mark):** **$101,006.72** (official 6/18 close was $101,068.13; the small drift is after-hours marks, not a session move). last_equity == equity (no session today).
+**Day P/L:** **N/A — market closed for Juneteenth (no trading session today).**
+**Week-to-date P/L (authoritative, as of 6/18 official close):** **+$1,572.53 / +1.581%** (from Fri 6/12 close $99,495.60). **SPY week +0.674%** → **week alpha +0.906 pts — AHEAD of the market this week.** (Unchanged from 6/18 — no session 6/19 to move it.)
 **Buys used this week:** 0 of 3. **NO trades this routine** (market closed). Nothing clears 2 signals + Conviction ≥70 for Monday.
 
 ## Open positions (4 of 5) — holiday after-hours marks
@@ -27,7 +27,7 @@
 - (a) **−7% drawdown check:** worst is DE −0.10% — all 4 at/above entry, nowhere near −7%. HOLD. No sells.
 - (b) **+5% → trailing:** GE, ETN, LLY all converted. DE far from its +5% (~619.31). Nothing pending.
 - (c) **Daily loss cap:** N/A — market closed.
-- daytrade_count 0. No trades this routine (market closed for Juneteenth).
+- daytrade_count 0. No trades this routine (market closed for Juneteenth). 0 closed orders today (verified).
 
 ## Watch / next (CLOSED Fri 6/19 Juneteenth → reopens Mon 6/22)
 
