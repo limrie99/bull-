@@ -1,3 +1,40 @@
+## 2026-06-19 06:00 CT — pre-market (Juneteenth — MARKET CLOSED, scan targets Mon 6/22)
+
+**Setup:** Keys present (all 4 required + Telegram). Market **CLOSED — Juneteenth** (clock is_open=false, **next_open 2026-06-22 09:30 ET**, next_close 16:00 ET). This pre-market routine fired on the holiday; no session today, no trades possible — the scan is forward-looking to **Monday 6/22**. Live Alpaca (after-hours marks, UNAUTHORITATIVE): equity **$101,006.72**, last_equity $101,006.72 (== equity, no session), cash **$46,447.18**, long_market_value **$54,559.54** (~54.0% invested / ~46.0% cash), daytrade_count 0, PDT false. SPY last trade 748.46 (after-hours/stale vs Thu 6/18 official close 746.75 — UNAUTHORITATIVE). Inbox: nothing pending. Weekly buy cap **0 of 3 used**; **4 of 5 slots** (1 open). All 4 GTC stops verified RESTING (status `new`): GE trailing **328.23** (hwm 364.7), ETN trailing **383.328** (hwm 425.92), LLY trailing **1064.457** (hwm 1182.73), DE −7% hard **548.53**. Sub-agent team (macro, position, opportunity, earnings) run in parallel via Perplexity; real-time retrieval again largely unreliable past early 2026 — flagged UNVERIFIED throughout and grounded against Alpaca.
+
+### Market context — mixed-to-cautious into Monday; choppy not disorderly
+- **Post-FOMC (hawkish hold, 6/17) follow-through** vs a **benign oil/geopolitics backdrop** = cross-currents, no clean directional signal into Monday. Hawkish "higher-for-longer" puts a floor under front-end yields (risk-negative); US–Iran de-escalation narrative (ceasefire/sanctions-relief hopes, possible added Iranian supply, Brent reportedly high-$70s) cushions downside (risk-positive). All yield/oil/futures levels **UNVERIFIED**.
+- **Gap risk into Monday: MEDIUM.** Two live long-weekend catalysts: Iran/Middle East headlines (deal formalized → gap up via lower oil; talks break → gap down via energy premium) and any Fed-speaker commentary. Watch Sunday-night Globex oil + Iran headlines as the tell.
+- **Week-ahead data (week of 6/22):** Mon quiet. Likely Tue S&P Global flash PMIs + Conf. Board Consumer Confidence; Thu jobless claims + durable goods; **core PCE (May)** the week's biggest dated landmine — **date CONFLICTING/UNVERIFIED (Thu 6/25 vs Fri 6/26)** — verify before trading around it. All dates UNVERIFIED.
+- **Earnings (week of 6/22):** light, off-cycle window. Likely reporters **FedEx (FDX), Micron (MU), Darden (DRI)** — all UNVERIFIED 2026 dates. **MU** (memory chips) is the one sentiment-moving semis/AI bellwether that week; FDX a global-shipping tell. None of our holdings or watchlist names report next week (re-check AVGO Sun/Mon — pattern points early June, likely just past). **Blackout: all clear** for GE/ETN/LLY/DE/PANW/JPM (UNVERIFIED but consistent late-July/Aug/mid-July cadence).
+
+### Portfolio watch — all 4 THESES INTACT (no thesis-breakers found this scan)
+- **GE** +8.5% (mark ~357.6). No verifiable 24–48h thesis-breaker, downgrade, or guidance change. Latest items (May USAF GE426 contract, hybrid-electric test) old & supportive. Low-beta industrial — best-positioned for a hawkish tape. Book's strongest. Trailing floor 328.23 (hwm 364.7, ~8.2% below). Earnings ~late July.
+- **ETN** +5.0% (mark ~421.8). No verifiable 24–48h news/rating change. AI data-center power + electrification narrative unchanged. Now on a 10% trailing (floor 383.328, hwm 425.92, ~9.1% below). The name most exposed to hawkish multiple compression — watch the open. Earnings ~late July.
+- **LLY** +1.9% (mark ~1098.6). No verifiable 24–48h news. **CORRECTION/CAVEAT on the thesis detail:** Foundayo (orforglipron) FDA approval (Apr 1) + launch are confirmed, but the **$50/mo Medicare figure is UNVERIFIED** — documented pricing is $25/mo insured / $149/mo cash-pay starter; the "July 1 Medicare Part D" date appears only in secondary commentary as a generic "July 2026 Part D launch," **no CMS/Lilly primary confirmation**. Treat as expected, not fact. Most rate-sensitive (long-duration growth) on a yields-up day. Trailing floor 1064.457 (~3.1% below). INTACT.
+- **DE** −0.0% (mark ~589.2). No verifiable 24–48h news; Q2 beat (5/21) stands. Flat, non-AI diversifier — the lone name still on a −7% hard stop (548.53, ~6.9% cushion). INTACT.
+
+### Buy candidates — NOTHING clears the gate (2+ signals AND Conviction ≥70)
+- **PANW (Palo Alto Networks) — Conviction 66 (unchanged), THESIS-RISK / lead.** Fund 78 / Thesis 72 / Sent 50 / Risk 55 / Tech 65. Still 3 signals (#1 verified beat-and-raise 6/2, #3 cybersecurity secular, #6 uptrend) — but the scout **confirmed no fresh upgrade or insider BUY in the 6/13–18 window**; latest PT raises all 5/27–6/1 ($300 across Wedbush/Baird/Jefferies/JPM), insider activity remains SELLING. Catalyst decaying, not refreshing (~17d stale). One unverified note (a "CEO share purchase" with NO date) — NOT counted. Stays the lead but does **not** buy at 66. Re-clears 70 only on a fresh upgrade or a clean dip-and-hold.
+- **JPM (JPMorgan) — Conviction 65 (unchanged), NEAR-TRIGGER.** Fund 82 / Thesis 70 / Sent 50 / Risk 60 / Tech 70. Best-in-class bank, clean uptrend, fills the financials sleeve — but no fresh <2wk catalyst; next real trigger is earnings ~July 14. Backup if a pre-earnings analyst catalyst appears.
+- **AVGO 58** (THESIS-RISK) — so-so guide, fell ~12% 6/4, high-beta semis overlap with ETN. No change.
+- **PWR 52** (watch) — AI-power/onshoring secular intact but only 1 signal, no dated catalyst.
+- **ORCL 48** (knife) — post-print rejection, avoid.
+- **New candidates: NONE verifiable.** Both the broad beat-and-raise screen and a tighter "reported 6/8–18" screen returned nothing Perplexity could tie to a specific dated report. No fabrication — no new name added. (Caveat: limited by unverified real-time data — read as "could not confirm," not a hard negative.)
+
+### Sell candidates — NONE
+- (a) −7% drawdown: worst is DE −0.0% — all four at/above entry, nowhere near −7%. HOLD.
+- (b) +5%→trailing: GE, ETN, LLY all already on 10% trailing; DE far from its +5% (~619.31). Nothing pending.
+- (c) Daily loss cap: N/A (market closed).
+- No thesis-breaker surfaced for any holding. No sells.
+
+### Decision & plan handed to Monday 6/22 pre-market/open
+- **NO TRADES** (market closed today). Hold all 4; stops resting GTC through the long weekend (they cannot fill while shut — any Monday gap-down fills at the open, not the stop price; nothing close to a floor, so risk is low).
+- **Cash-drag:** entering a 5th week at 0/3 buys, BUT book is ~54% invested (NOT the 100%-cash trap), 3 of 4 names carry profit-locking trailing stops, and we're ~+1.5% on the week vs SPY ~+0.7%. Defensible. Deploy the moment a name clears 2 signals + Conviction ≥70 on a constructive base.
+- **Monday pre-market priorities:** (1) re-score PANW for any weekend analyst upgrade / clean dip-and-hold to re-clear 70; (2) check JPM for a pre-earnings catalyst; (3) verify core PCE's exact date before trading around it; (4) re-confirm AVGO earnings date (blackout). Reserve slot (5th) stays open.
+
+---
+
 # Research Log
 
 **Append-only by date.** Most recent entries at the top.

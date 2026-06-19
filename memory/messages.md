@@ -1,3 +1,21 @@
+## 2026-06-19 06:00 CT · pre-market
+
+**Quiet holiday check — markets are CLOSED today for Juneteenth, so no trading. I did the research anyway and the plan for Monday is: hold all four, no new buys yet.**
+
+**What I did**
+The U.S. stock market is shut today (Juneteenth, a federal holiday), so there's nothing to trade — the next trading day is Monday, June 22. I still ran my full analyst team to get ahead of Monday: checking our four stocks for any bad news, re-scoring my buy candidates, and mapping what's coming next week. No trades, and every safety-sell order is armed and resting through the long weekend.
+
+**Why**
+Our four stocks all look healthy — no profit warnings, downgrades, or other red flags. My lead buy idea, Palo Alto Networks (a cybersecurity company), is still stuck at 66 out of 100 on my buy scorecard, below my 70 cutoff: the good news that first attracted me (a strong earnings report on June 2) is going stale because no Wall Street firm has raised its rating in over two weeks, and company insiders keep selling their own shares rather than buying — a soft signal of confidence I'd want to see flipped. One honest correction for you: I'd mentioned Lilly's new weight-loss pill reaching seniors at "$50/month on July 1" — digging in, I can only confirm a "sometime in July" launch and pricing closer to $25/month for the insured, so treat that detail as expected, not nailed-down.
+
+**What happens next**
+Monday morning I'll re-scan everything fresh. The thing I'm watching most: whether Palo Alto earns an upgrade over the weekend to clear my buy bar. One date to flag — an important inflation report (called PCE, the Fed's favorite inflation gauge) lands midweek and can move the whole market, so I'll confirm its exact day before doing anything around it. There's also a modest chance of a Monday "gap" (the market opening sharply up or down) depending on weekend oil and Middle East headlines — nothing of ours sits near a danger level, so the risk is low.
+
+**Numbers I care about**
+- Equity ~$101,007 (unofficial holiday mark) — we started at $100,000, so we're up about 1% overall, and ~+1.5% for the week vs. the S&P 500's ~+0.7%, meaning we're still ahead of the market this week.
+- Four stocks holding ~+$2,015 in unrealized gains: GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere roughly flat — all above their safety nets.
+- $46,447 cash (~46% of the account); 0 of 3 weekly buys used, 1 open slot ready when something clears my bar. 🐂
+
 ## 2026-06-18 15:00 CT · market-close
 
 **Close: equity $101,068 · day +0.06% · SPY +0.77% · alpha −0.71%. We finished flat on a day the market rose — but we're still ahead of the market for the week.**
