@@ -1,3 +1,46 @@
+## 2026-06-22 06:00 CT — pre-market (first session of a fresh week after the Juneteenth long weekend)
+
+**Setup:** All 4 required keys present (+ Telegram). Market **CLOSED pre-market** (clock is_open=false, next_open **2026-06-22 09:30 ET**, next_close 16:00 ET) — opens in ~3.5h. Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$101,028.17**, last_equity $101,006.72, cash **$46,447.18**, long_market_value **$54,580.99** (~54.0% invested / ~46.0% cash), `balance_asof:2026-06-18`, daytrade_count 0, PDT false. Inbox: **nothing pending.** **Fresh week → weekly buy cap resets to 0 of 3**; **4 of 5 slots** (1 open). All 4 GTC stops re-verified RESTING (status `new`) via open-orders query: GE trailing **328.23** (hwm 364.7), ETN trailing **383.328** (hwm 425.92), LLY trailing **1064.457** (hwm 1182.73), DE −7% hard **548.53**. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; real-time retrieval again capped ~early-June 2026 — everything flagged V/UNVERIFIED and grounded against Alpaca.
+
+### Market context — MIXED, leaning cautious; hawkish-Fed/rising-yields is the theme
+- **Overnight tape soft-but-orderly:** ES ~−0.17% (one clean CME print 7,557.75 @ 04:49 CT, VERIFIED direction; magnitude beyond ~−0.2% UNV), NQ modestly lower in line (UNV). Global: only Fri 6/19 closes confirmable (DAX −0.16%, FTSE +0.59%, Nikkei +0.28%); Monday move UNV.
+- **Rates the dominant driver:** 10y ~4.45% (6/18 VERIFIED) drifting up toward ~4.48–4.50% (level UNV, direction-up VERIFIED); 2y ~4.18–4.20% (6/17–18 VERIFIED). **Bond market reopens today** after the holiday → minor rate-repricing risk at the open. DXY/Brent/WTI/Gold all UNV (no dated levels; could NOT independently confirm any fresh Iran/oil catalyst either).
+- **Hawkish-hold narrative (VERIFIED, 6/17–18):** Fed held but signaled possible further tightening; ~half of policymakers see ≥1 hike in 2026, market pricing a hike by ~October. Kevin Warsh's first meeting as Chair — 2y jumped ~16bps on the day (largest Fed-day move since Mar 2008), stressed inflation-fighting. No confirmable weekend Fed-speak. This is a headwind for high-multiple/long-duration equities → favor quality fundamentals, keep any new-buy sizing measured into the print.
+- **Week-ahead — core PCE date RESOLVED: Thursday June 25, 8:30 AM EDT (VERIFIED against BEA schedule — NOT Friday 6/26).** This is the week's marquee landmine given the hawkish hold. Also: Tue ~6/23 Consumer Confidence (UNV slot); Wed 6/24 BEA Intl Transactions; Thu 6/25 GDP 3rd estimate + Cleveland Fed Median PCE + jobless claims + durable goods.
+- **Gap risk into the open: LOW–MEDIUM** — futures only modestly soft, no confirmed weekend shock; main risk is the hawkish-drift/yields, not an event.
+
+### Portfolio watch — all 4 THESES INTACT (no verifiable 24–72h thesis-breaker on any name)
+- **GE** +8.3% (mark ~356.99). No verifiable weekend news/downgrade. Low-beta industrial — best-positioned for a hawkish tape; book's strongest. Trailing floor 328.23 (~8.0% below). Earnings ~Jul 16 (UNV/est) — no blackout.
+- **ETN** +5.6% (mark ~424.06). No verifiable news/rating change. AI-power/electrification narrative intact. Most exposed to hawkish multiple compression — watch the open. Trailing floor 383.328 (~9.6% below). Earnings late-July (UNV) — no blackout.
+- **LLY** +2.1% (mark ~1101.00). No verifiable weekend news. Most rate-sensitive (long-duration growth) on a yields-up day. (Carry the standing CAVEAT: the $50/mo Medicare + July-1 Part D detail remains UNVERIFIED — documented is $25/mo insured / $149 cash.) Trailing floor 1064.457 (~3.3% below). INTACT.
+- **DE** −0.4% (mark ~587.50). No verifiable news; Q2 beat (5/21) stands. Lone name still on a −7% hard stop (548.53, ~6.6% cushion). INTACT.
+- **Portfolio-level risk:** a hawkish rate turn pressures LLY + ETN most, GE/DE least — exactly the diversification the book is built on. No sector-wide breaker found.
+
+### Buy candidates — NOTHING clears the gate (2+ signals AND Conviction ≥70)
+- **PANW — Conviction 66 (unchanged), THESIS-RISK / lead.** Fund 78 / Thesis 72 / Sent 50 / Risk 55 / Tech 65. Still 3 signals (#1 verified beat-and-raise 6/2, #3 cybersecurity secular, #6 uptrend — golden cross 5/28 VERIFIED, price ~$280–287 above 50d). Scout confirmed **NO fresh analyst upgrade or insider BUY after ~June 8** (latest PT set all 6/1–6/3: Citi $340, Evercore $375, JPM/Baird $300 — the same stale set already in the 66; insider posture still net-negative, 2 buys / 27 sells cumulative). Catalyst now ~20d stale. Stays the lead but does NOT buy at 66. Re-clears 70 only on a fresh (<2wk) upgrade or insider open-market buy.
+- **JPM — Conviction 65 (unchanged), NEAR-TRIGGER.** Fund 82 / Thesis 70 / Sent 50 / Risk 60 / Tech 70. Clean uptrend VERIFIED (price ~$325.28 vs 50d $309.17 / 200d $307.68, tagged 6/22). But still only ~1 fresh signal (uptrend); no dated <2wk catalyst. Earnings ~Jul 14 (>3wk out) is the real trigger. Backup.
+- **AVGO 58** (THESIS-RISK) — post-6/3 print sold off (beat rev/EPS but did NOT raise AI-chip target, VERIFIED via CNBC); $396 (6/8) → $382 (6/12). High-beta semis, overlaps ETN. No change.
+- **PWR 52** (watch) — AI-power/onshoring intact but only 1 signal, zero new data this cycle.
+- **ORCL** dropped from the active table last cycle (knife / unverifiable) — left off.
+- **New candidates: NONE verifiable.** Broad beat-and-raise screen + targeted check of June-reporters (FDX/MU/LEN/CCL/ACN/DRI/KBH) returned nothing Perplexity could tie to a fresh dated beat-and-raise above the 50d. Honest blocker is **data recency (retrieval capped ~early June)**, not absence of quality — read as "could not confirm," not a hard negative. No fabrication, no new name added.
+
+### Earnings / blackout — clean for new buys this week
+- **Reporting today (Mon 6/22):** none material (one vendor floated FDX/MU Mon AMC — contradicted by stronger Tue/Wed signals, UNV; treat Monday as empty).
+- **This week (all UNV/tentative):** FDX Tue 6/23 AMC, **MU Wed 6/24 AMC (the semis/AI-memory bellwether → expect sector vol Thu)**, DRI Thu 6/25 BMO; also MKC/PAYX/CCL/SNX.
+- **Blackout check — NO flags:** GE ~Jul 16, PANW mid-late Aug (last reported 6/2), JPM ~Jul 13–14, AVGO late-Aug/Sep — none within 3 trading days. ETN/LLY/DE dates unconfirmed but pattern = late-Jul/Aug (verify on IR before any buy; not buying them today).
+
+### Sell candidates — NONE
+- (a) −7% drawdown: worst is DE −0.4% — all four at/above-ish entry, nowhere near −7%. HOLD.
+- (b) +5%→trailing: GE/ETN/LLY all already on 10% trailing; DE far from its +5% (~619.31). Nothing pending.
+- (c) Daily loss cap: N/A pre-market (re-check at open/midday).
+- No thesis-breaker for any holding. No sells.
+
+### Decision & plan handed to market-open
+- **NO TRADES** (pre-market routine — market closed; we don't trade here regardless). Hold all 4; stops resting GTC.
+- **Cash-drag:** new week opens at 0/3 buys and ~46% cash — BUT the book is ~54% invested (NOT the 100%-cash trap), 3 of 4 names carry profit-locking trailing stops, and we beat SPY last week (+1.58% vs +0.67%). With **core PCE confirmed Thu 6/25** and a hawkish-hold tape pressuring rate-sensitive multiples, waiting for the print before deploying a rate-sensitive name is *prudent*, not paralysis. Deploy the moment a name clears 2 signals + Conviction ≥70 on a constructive base.
+- **Market-open priorities:** (1) act only if the open hands a genuine ≥70 setup (none in hand now); (2) re-confirm the daily loss-cap clean; (3) PANW/JPM stay the watch — neither buys without a fresh verifiable catalyst. Position carefully around Thu 6/25 PCE.
+
+---
 ## 2026-06-19 15:00 CT — market-close (Day summary — JUNETEENTH, NO SESSION)
 
 **No market-close to report — U.S. equities were CLOSED all day for Juneteenth.** The close routine fired on the holiday; there was no trading session, so there is no day P/L, no day-vs-SPY, and no alpha to compute for 6/19. The authoritative daily scorecard remains **Thu 6/18's official close** (logged below). This entry exists so the record shows the close routine ran and verified state on the holiday rather than silently skipping.
