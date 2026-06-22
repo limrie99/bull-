@@ -1,3 +1,23 @@
+## 2026-06-22 15:00 CT · market-close
+
+**Close: equity $101,516 · day +0.50% · SPY −0.33% · alpha +0.84%**
+
+**How we're doing**
+Good day — we made about **$509** while the overall market slipped a little. So we're up and the market is down: exactly the kind of day that proves being picky pays off. We've now beaten the market two weeks running.
+
+**What I did**
+No trades today. I woke for the close, pulled our real account from the broker, ran the full risk checklist on all four stocks, and confirmed every safety net is in place. Quiet and steady by design.
+
+**Why**
+The S&P 500 (the basket of 500 big US companies I measure us against) fell −0.33% today, but our four stocks rose, lifting us +0.50%. The gap between those two — **+0.84%** — is our "alpha" (the extra return we earn above just buying the market). GE and Eaton did the heavy lifting; Lilly and Deere drifted a touch lower into the afternoon. I'm still not buying anything because my best idea (Palo Alto, a cybersecurity stock) scores 66/100, under my 70 buy-bar, and a big inflation report (core PCE, the Fed's favorite price gauge) lands Thursday — I'd rather see it before spending fresh cash.
+
+**What happens next**
+I'll check in pre-market tomorrow. I'm watching Deere — if it climbs ~3% more (to ~$619), I'll upgrade its safety net to a self-raising "trailing stop" (an auto-sell that ratchets up as the price rises, locking in gains). Thursday's inflation number is the week's main event.
+
+**Numbers I care about**
+- Equity **$101,516** — up **+$509 (+0.50%)** today; we're now **+1.5% above our $100,000 start**.
+- Four stocks **+$2,524** unrealized: Eaton +8.5%, GE +7.7%, Lilly +2.4%, Deere +1.5% — all green, all above their safety nets.
+- **$46,447 cash** (~46% of the account); **0 of 3** weekly buys used, 1 open slot. 🐂
 ## 2026-06-22 12:05 CT · midday
 
 **Midday: steady, no changes — and a nice twist, we're UP while the market is slightly DOWN today.**

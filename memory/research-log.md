@@ -1764,3 +1764,27 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **No trades.** No new buy at midday: no high-conviction breaking catalyst surfaced to justify a deviation from the pre-market HOLD plan. Reserve candidates PANW (66) and JPM (65) remain below the 70 gate; core PCE Thu 6/25 8:30 ET is the week's pivot — prudent to see the print before deploying fresh rate-sensitive cash. 0 of 3 weekly buys used, 1 open slot. Not cold-start (healthy 4-position book ~54% invested, fresh memory). Inbox: nothing pending.
 - **Notable:** ETN ratcheted to a fresh high (hwm 434.42 vs Thu's 423.95 at conversion), trailing floor up to 390.978 — locking in more of the run. GE held +8.34% (mark below its 364.7 hwm, floor held at 328.23). DE recovered to +2.13% (best since entry), still ~$17 below its +5% trailing-conversion trigger; the lone hard-stop name, thesis intact, HOLD. Day-shape favorable: SPY soft, us green — alpha from selection, not eroded by cash drag.
 - **Watch into close:** does the green hold while SPY stays soft? DE's +5%→trailing conversion if it tags ~619.31 (standing task). Close routine owns authoritative day-vs-SPY + mandatory daily "how we're doing" + Telegram. Core PCE Thu 6/25 is the deploy-or-defer pivot for the idle 5th slot.
+
+### Market-close 2026-06-22 15:00 CT (16:00 ET) — DAY SUMMARY (authoritative)
+
+- **Clock:** market closed 16:00 ET. Next open 2026-06-23 09:30 ET. Day 1 of the new week complete.
+- **Closing equity (Alpaca authoritative):** **$101,516.04** | cash $46,447.18 (45.8%) | long_mv $55,068.86 (54.2%, 4 positions) | last_equity (6/18 close) $101,006.72. daytrade_count 0. buying_power 339,981.53. ACTIVE.
+- **Day P/L: +$509.32 / +0.504%.** SPY 6/18 close 746.75 → 6/22 close 744.27 = **−0.332%**. **Day alpha +0.836 pts, AHEAD** (book green, index red — selection carried us on a soft tape).
+- **WTD (day 1, base 6/18 close $101,006.72 / SPY 746.75):** +$509.32 / +0.504% | SPY −0.332% | **week alpha +0.836 pts.**
+- **Closing marks:** GE 355.12 **+7.73%** (+$1,147.05) | ETN 435.78 **+8.53%** (+$821.70) | LLY 1104.34 **+2.40%** (+$362.32) | DE 598.59 **+1.49%** (+$192.94). Net open unrealized **+$2,524.01**.
+- **Trades today:** **NONE** (0 closed orders). 0 of 3 weekly buys used, 1 open slot.
+- **Stops at close (3 trailing, 1 hard — all GTC `new`, re-verified via open-orders query):** GE trailing 328.23 (hwm 364.7) | ETN trailing **393.066 (hwm 436.74 — ratcheted up** from 390.978/434.42 on a fresh intraday high) | LLY trailing 1064.457 (hwm 1182.73) | DE −7% hard 548.53.
+- **Risk checks:** (a) worst DE +1.49% — all green, none near −7%. (b) GE/ETN/LLY already trailing; DE +1.49% below ~619.31 trigger — nothing to convert. (c) UP day, loss cap clean.
+
+**What worked**
+- Selection beat the index again: SPY fell −0.332% while the book rose +0.504% — GE (+7.7%) and ETN (+8.5%) carried it. The ~46% cash that drags on up-days was neutral-to-helpful on a soft tape.
+- Discipline held: zero forced trades, dry powder intact ahead of Thu's core-PCE print, all four stops armed and resting.
+
+**What didn't**
+- Book faded ~$245 off the midday high ($101,760.87 → $101,516.04), trimming a +0.747% intraday day to +0.504% — afternoon gave back ~a third of the gain (LLY 1111.82→1104.34, DE 602.40→598.59, GE 357.12→355.12; ETN firmed 434.38→435.78).
+- 5th slot idle into day 1 of the 2nd week running; defensible ahead of core PCE but the deploy-or-justify clock keeps ticking.
+
+**Open questions for tomorrow (Tue 6/23)**
+- Does the SPY-soft / book-green pattern hold, or does a relief bounce flip the day-shape (cash drag costs us on green-index days)?
+- DE's +5%→trailing conversion if it tags ~619.31 (~$21 above the 598.59 close) — standing task.
+- Watch into Thu 6/25 core PCE (8:30 ET): the deploy-or-defer pivot for the idle 5th slot. FDX Tue AMC / MU Wed AMC (semis vol) on the calendar — none held/watchlist.
