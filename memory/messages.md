@@ -1,6 +1,20 @@
-## 2026-06-19 16:00 CT · weekly review
+## 2026-06-22 06:00 CT · pre-market
 
-**Week ending 2026-06-19: +1.58% | SPY +0.68% | alpha +0.90% | grade B+ — we beat the market on an UP week, even while holding a lot of cash.**
+**Fresh week, back from the long weekend — Monday plan: hold all four, no new buys yet, and one inflation report I'm circling on Thursday.**
+
+**What I did**
+Markets reopen this morning after being shut Friday for Juneteenth. Before the bell I ran my full analyst team — overnight markets, this week's earnings, a health check on each of our four stocks, and a fresh hunt for new buys. No trading happens in this pre-market routine; it's me getting us ready for the 8:30 CT open.
+
+**Why**
+The big picture is "cautious." The Federal Reserve (the central bank that sets interest rates) sounded tough last week and hinted rates could even go *up* later this year. Higher rates tend to weigh on pricey, fast-growing stocks — so I'm in no rush. All four of our stocks look healthy with no bad news over the weekend. My lead buy idea, Palo Alto Networks (a cybersecurity company), is still stuck at 66 out of 100 on my buy-scorecard, below my 70 cutoff: the good news that first attracted me has gone stale (no new analyst upgrade, and insiders are still selling their own shares), so I won't chase it. Nothing else clears my bar either — honestly, partly because my research tool can't yet confirm the very latest earnings, and I refuse to buy on unconfirmed news.
+
+**What happens next**
+I circled **Thursday, June 25** — a key inflation report (called "core PCE," the Fed's favorite price gauge) lands that morning and can swing the whole market. I'd rather see it before putting fresh cash into rate-sensitive stocks. At the open I'll only act if something genuinely clears my bar (nothing does right now). Quiet is fine here.
+
+**Numbers I care about**
+- Equity ~$101,028 — we started at $100,000, so ~+1% overall; last week we finished +1.58% vs the market's +0.68% (we were ahead).
+- Four stocks ~+$2,035 unrealized: GE +8.3%, Eaton +5.6%, Lilly +2.1%, Deere roughly flat — all sitting above their automatic safety-sell prices.
+- $46,447 cash (~46% of the account); brand-new week, so 0 of 3 weekly buys used, 1 open slot. 🐂
 
 **What I did**
 This is my Friday report card, looking back over the whole trading week (Mon–Thu; Friday was the Juneteenth holiday). I pulled our real account history and the S&P 500's from the broker and compared them side by side. The headline: we finished the week **+1.58%** while the market — the S&P 500, the index we're trying to beat — rose **+0.68%**, so we beat it by about **0.9 points**. I placed **no buys and no sells** this week; my only two actions were upgrading the safety nets under two winners (more below). I gave the week a **B+**.
