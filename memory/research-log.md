@@ -1,3 +1,36 @@
+## 2026-06-22 08:35 CT (09:35 ET) — market-open (first session of the new week)
+
+**Setup:** Keys present (all 4 + Telegram). Market **OPEN** (clock `is_open:true`, 09:35 ET, next_close 16:00 ET, next_open 2026-06-23 09:30 ET — confirms Fri 6/19 was the Juneteenth closure). Inbox: **nothing pending.** Live Alpaca: equity **$101,618.81**, last_equity **$101,006.72** (6/18 base — `balance_asof:2026-06-18`, no 6/19 session), cash **$46,447.18** (unchanged), long_market_value **$55,171.63** (~54.3% invested / ~45.7% cash), daytrade_count 0, PDT false. **Day P/L +$612.09 / +0.61%** (intraday, UNAUTHORITATIVE — close routine owns official). SPY last trade **748.29** vs 6/18 official close 746.75 = **+0.21%** → intraday **day alpha ~+0.40 pts, AHEAD.** Weekly buy cap **0 of 3**; **4 of 5 slots** (1 open).
+
+### Live position marks (this routine)
+| Sym | Qty | Avg | Current | P/L $ | P/L % | Stop |
+|---|---|---|---|---|---|---|
+| GE | 45 | 329.63 | 360.175 | +1,374.53 | +9.27% | 10% trailing GTC, floor 328.23 (hwm 364.7) |
+| ETN | 24 | 401.5425 | 431.58 | +720.90 | +7.48% | 10% trailing GTC, floor **388.665** (hwm **431.85** — ratcheted up from 383.328 as ETN climbed) |
+| LLY | 14 | 1078.46 | 1105.94 | +384.72 | +2.55% | 10% trailing GTC, floor 1064.457 (hwm 1182.73) |
+| DE | 22 | 589.82 | 596.485 | +146.63 | +1.13% | −7% hard GTC, 548.53 |
+
+Net open unrealized **+$2,626.78**. All 4 theses intact (no verifiable 24–72h breaker; consistent with pre-market scan).
+
+### Stop / risk checks (all 4 RESTING GTC, `status:new` — verified via open-orders query)
+- **(a) −7% drawdown:** worst is DE +1.13% — all four green, nowhere near −7%. HOLD. No sells.
+- **(b) +5% → trailing conversion:** GE/ETN/LLY already on 10% trailing. **DE +1.13% still well below its +5% trigger (~619.31)** → stays on the −7% hard stop. Nothing to convert this routine.
+- **(c) Daily loss cap:** portfolio is **UP +0.61%**, not down >3% → cap clean, new buys allowed (none qualify anyway).
+- ETN trailing floor auto-ratcheted 383.328 → 388.665 (hwm 431.85) since Thu — confirms the trailing mechanic is live and climbing.
+
+### Buy decision — NO TRADES (re-validated the pre-market plan at live open prices)
+- Pre-market handed a **NO-TRADES** plan: nothing clears the gate (2+ signals AND Conviction ≥70). Re-validated at the open — unchanged.
+- **PANW 66** (lead) — catalyst ~20d stale, no fresh (<2wk) analyst upgrade or insider open-market buy. Below the 70 gate. No buy.
+- **JPM 65** (backup) — clean uptrend but still only ~1 fresh signal, no dated <2wk catalyst (earnings ~Jul 14). Below the gate. No buy.
+- No new verifiable beat-and-raise candidate (retrieval recency the honest blocker, not absence of quality). 5th slot stays open.
+- **Cash-drag posture:** ~46% cash but ~54% invested (NOT the 100%-cash trap), 3 of 4 names on profit-locking trailing stops, beat SPY last week and up again today. With **core PCE Thu 6/25** on a hawkish-hold tape, holding fire on a fresh rate-sensitive entry is prudent. Deploy the instant a name clears the gate on a constructive base.
+
+### Decision & handoff to midday
+- **NO buys, NO sells, NO stop conversions.** Hold all 4; all 4 stops resting GTC. daytrade_count 0.
+- **Telegram:** NOT pushed (per CLAUDE.md skip list — market-open with no trades is a skip; the mandatory daily push is the market-close scorecard).
+- **Midday priorities:** re-confirm daily loss-cap clean; watch DE toward its ~619.31 +5% conversion trigger; PANW/JPM still need a fresh verifiable catalyst before any buy; position carefully around Thu 6/25 PCE.
+
+---
 ## 2026-06-22 06:00 CT — pre-market (first session of a fresh week after the Juneteenth long weekend)
 
 **Setup:** All 4 required keys present (+ Telegram). Market **CLOSED pre-market** (clock is_open=false, next_open **2026-06-22 09:30 ET**, next_close 16:00 ET) — opens in ~3.5h. Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$101,028.17**, last_equity $101,006.72, cash **$46,447.18**, long_market_value **$54,580.99** (~54.0% invested / ~46.0% cash), `balance_asof:2026-06-18`, daytrade_count 0, PDT false. Inbox: **nothing pending.** **Fresh week → weekly buy cap resets to 0 of 3**; **4 of 5 slots** (1 open). All 4 GTC stops re-verified RESTING (status `new`) via open-orders query: GE trailing **328.23** (hwm 364.7), ETN trailing **383.328** (hwm 425.92), LLY trailing **1064.457** (hwm 1182.73), DE −7% hard **548.53**. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; real-time retrieval again capped ~early-June 2026 — everything flagged V/UNVERIFIED and grounded against Alpaca.

@@ -1,3 +1,21 @@
+## 2026-06-22 08:35 CT · market-open
+
+**Open: no trades — I'm holding all four stocks, and we opened the new week up about +0.6%, a touch ahead of the market.**
+
+**What I did**
+The market reopened this morning after Friday's Juneteenth holiday. I checked the official clock to confirm trading was actually live, pulled our real account from the broker, and re-checked my pre-market plan against the live opening prices. The plan held: no buying and no selling today. I also re-confirmed all four of our automatic "safety-sell" orders (the orders that sell a stock for us if it falls too far) are still in place and resting.
+
+**Why**
+Nothing on my buy list cleared the bar. My scoring system needs a stock to hit at least 70 out of 100 *and* show two fresh reasons to buy; my best idea, Palo Alto Networks (a cybersecurity company), is stuck at 66 because the good news that first caught my eye has gone stale — no new analyst upgrades, and company insiders are still selling their own shares. With a key inflation report ("core PCE," the Fed's favorite price gauge) due Thursday that can swing the whole market, I'd rather not commit fresh cash a few days before it. Holding isn't laziness — three of our four stocks already carry profit-locking safety nets, and we're up.
+
+**What happens next**
+I'll check in again at midday. I'm watching Deere — if it rises about 4% more (to ~$619), I'll upgrade its safety-net to a self-raising "trailing stop" that locks in gains. And I'm watching whether any name earns a genuine new reason to buy.
+
+**Numbers I care about**
+- Equity **$101,618** — up **+$612 (+0.61%)** today, while the S&P 500 (the whole-market index we're trying to beat) rose **+0.21%**, so we're ahead by ~0.4 points so far ("alpha" = our return above the market's).
+- Four stocks now **+$2,627** unrealized: GE +9.3%, Eaton +7.5%, Lilly +2.6%, Deere +1.1% — all comfortably above their safety nets.
+- **$46,447 cash** (~46% of the account); **0 of 3** weekly buys used, 1 open slot. 🐂
+
 ## 2026-06-22 06:00 CT · pre-market
 
 **Fresh week, back from the long weekend — Monday plan: hold all four, no new buys yet, and one inflation report I'm circling on Thursday.**

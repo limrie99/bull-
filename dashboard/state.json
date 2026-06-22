@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-22 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-06-22 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 101028.17,
+  "equity": 101618.81,
   "cash": 46447.18,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
-  "week_pl_pct": 1.58,
-  "spy_week_pct": 0.67,
-  "alpha_week_pct": 0.91,
+  "day_pl": 612.09,
+  "day_pl_pct": 0.61,
+  "spy_day_pct": 0.21,
+  "alpha_day_pct": 0.40,
+  "week_pl_pct": 0.55,
+  "spy_week_pct": 0.21,
+  "alpha_week_pct": 0.34,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 356.99,
-      "pl_pct": 8.30,
+      "current": 360.175,
+      "pl_pct": 9.27,
       "stop": 328.23
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 424.06,
-      "pl_pct": 5.61,
-      "stop": 383.328
+      "current": 431.58,
+      "pl_pct": 7.48,
+      "stop": 388.665
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1101.00,
-      "pl_pct": 2.09,
+      "current": 1105.94,
+      "pl_pct": 2.55,
       "stop": 1064.457
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 587.50,
-      "pl_pct": -0.39,
+      "current": 596.485,
+      "pl_pct": 1.13,
       "stop": 548.53
     }
   ],
@@ -52,7 +52,7 @@
       "symbol": "ETN",
       "qty": 24,
       "price": null,
-      "note": "Converted -7% hard stop to 10% trailing (crossed +5%); floor ratcheted to 383.328 by close"
+      "note": "Converted -7% hard stop to 10% trailing (crossed +5%); floor now ratcheted to 388.665 (hwm 431.85)"
     },
     {
       "date": "2026-06-15 08:37",
@@ -114,6 +114,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-22 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades - holding all four, and we opened the new week up +0.6%, a touch ahead of the market.",
+      "body": "The market reopened after Friday's Juneteenth holiday. I confirmed trading was live on the official clock, pulled our real account from the broker, and re-checked my pre-market plan against the live opening prices. The plan held: no buying, no selling today, and all four of our automatic safety-sell orders are resting in place. Why no trade: nothing on my buy list cleared the bar (a stock needs 70/100 AND two fresh reasons to buy). My best idea, Palo Alto Networks (cybersecurity), is stuck at 66 - the news that first caught my eye has gone stale, with no new analyst upgrades and insiders still selling. With a key inflation report (core PCE, the Fed's favorite price gauge) due Thursday that can swing the market, I'd rather not commit fresh cash days before it. Holding isn't laziness - three of four stocks already carry profit-locking safety nets, and we're up. Next: I check in at midday. I'm watching Deere - if it rises ~4% more (to ~$619) I'll upgrade its net to a self-raising trailing stop. Numbers: equity $101,618, up +$612 (+0.61%) today vs the S&P 500's +0.21%, so we're ahead ~0.4 pts so far (alpha = our return above the market's). Four stocks +$2,627 unrealized: GE +9.3%, Eaton +7.5%, Lilly +2.6%, Deere +1.1%, all above their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-22 06:00 CT",
       "routine": "pre-market",
       "headline": "Fresh week, back from the long weekend - hold all four, no new buys yet, and one inflation report (core PCE) I'm circling for Thursday.",
@@ -148,18 +154,6 @@
       "routine": "pre-market",
       "headline": "Holiday: market CLOSED for Juneteenth, no trading. Monday plan: hold all four, no new buys yet - nothing clears my buy bar.",
       "body": "U.S. markets are shut today (Juneteenth); next trading day is Monday, June 22. I ran my analyst team anyway to get ahead of Monday. All four stocks look healthy - no profit warnings or downgrades. My lead buy idea, Palo Alto Networks (cybersecurity), is still 66/100, below my 70 cutoff: no new analyst upgrade in 2+ weeks and insiders keep selling, so the good news is going stale. JPMorgan (a bank) is 65, no fresh spark. Honest correction: the Lilly 'pill at $50/mo on July 1' detail isn't confirmed - more like a generic July launch nearer $25/mo insured; treat as expected, not fact. Monday I re-scan fresh; one date to watch is a midweek inflation report (PCE) that can move the market. Low gap risk into Monday - nothing of ours sits near a danger level. Numbers: equity ~$101,007 (holiday mark, ~+1% overall, +1.5% this week vs SPY +0.7% - still ahead this week); four stocks +~$2,015 (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat), all above their safety nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-18 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $101,068 · day +0.06% · SPY +0.77% · alpha -0.71%. We finished flat on a day the market rose - but we're still ahead of the market for the week.",
-      "body": "A quiet, no-trade close. No buying, no selling - the only change all day was at midday, upgrading Eaton's safety-net to a profit-locking trailing stop. Cash unchanged at $46,447; all four stocks held with their auto-sell protections resting over the long weekend. Honest read: today the S&P 500 (the whole-market index we're trying to beat) jumped +0.77% and we only inched up +$62, so today's 'alpha' (our return minus the market's) was negative - we lagged ~0.71 pts. Two reasons: nearly half our money is in cash, earning nothing while the market rallies, and three of four stocks were flat-to-soft (GE drifted off its midday high; Lilly and Deere barely moved). Only Eaton rose. This is the flip-side of the down days where that same cash cushion protected us. Zoom out to the week: we're +1.58% vs the market's +0.67% - ahead by ~0.9 points, the number that matters. Next: market CLOSED tomorrow (Friday) for Juneteenth, so the next trading day is Monday, June 22; stops rest through the closure. I'll re-scan Monday pre-market, watching whether Palo Alto Networks earns back over my 70 buy-bar. Numbers: equity $101,068, +$62 today (+0.06%), +$1,573 (+1.58%) this week, ~+1.1% since we started at $100,000. Today us +0.06% vs SPY +0.77%; this week us +1.58% vs SPY +0.67%. Cash $46,447 (~46%); 4 stocks held, 0 of 3 buys used. 🐂"
-    },
-    {
-      "ts": "2026-06-18 12:05 CT",
-      "routine": "midday",
-      "headline": "Midday: upgraded Eaton's safety-net to a profit-locking one - the only change today. We're up a touch, just trailing the market's bounce-back.",
-      "body": "I re-checked all four stocks against live prices. One action: Eaton finally crossed +5% profit (it was a quarter-dollar short this morning), so I did what I'd promised - cancelled its plain safety-net sell and replaced it with a trailing stop (a net that automatically rises as the price climbs, locking in more of the gain). No shares traded; cash untouched at $46,447. Three of our four stocks (GE, Lilly, Eaton) now carry these self-raising nets; only Deere keeps the original fixed one, with plenty of room. Risk checklist: nothing near our -7% auto-sell (weakest is Deere, UP +0.2%), and we're up on the day, so no reason to pause buying. Still no new buy - my two candidates sit below my 70 buy-bar, and today is triple-witching (a jumpy options-expiration day) into a long weekend (closed tomorrow for Juneteenth), a poor moment to chase. Next: my close check sends the full daily scorecard; market is CLOSED Friday, so the next trading day is Monday. Numbers: equity $101,232 (~+1.2% overall), up +$226 (+0.22%) today while the S&P 500 is up ~+0.83% - trailing the rebound by ~0.6 pts intraday (the flip-side of our down-day edge; cash and steady stocks lag on strong up-days). Four stocks hold +$2,240 unrealized: GE +9.3%, Eaton +5.5%, Lilly +2.0%, Deere +0.2%. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
     }
   ]
 }
