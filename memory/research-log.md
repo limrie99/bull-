@@ -81,6 +81,31 @@ Net open unrealized **+$2,626.78**. All 4 theses intact (no verifiable 24–72h 
 - **Telegram:** NOT pushed (per CLAUDE.md skip list — market-open with no trades is a skip; the mandatory daily push is the market-close scorecard).
 - **Midday priorities:** re-confirm daily loss-cap clean; watch DE toward its ~619.31 +5% conversion trigger; PANW/JPM still need a fresh verifiable catalyst before any buy; position carefully around Thu 6/25 PCE.
 
+### Day summary 2026-06-23 15:00 CT (market close, 16:00 ET) — AUTHORITATIVE
+
+- **Clock:** market closed 16:00 ET. Next open 2026-06-24 09:30 ET. Day 2 of the week complete.
+- **Closing equity (Alpaca authoritative):** **$100,701.25** | cash $46,447.18 (46.1%) | long_mv $54,254.07 (53.9%, 4 positions) | last_equity (6/22 close) $101,484.40. daytrade_count 0. buying_power 337,700.12. ACTIVE.
+- **Day P/L: −$783.15 / −0.7717%.** SPY 6/22 close 744.27 → 6/23 close **733.62** = **−1.4309%**. **Day alpha +0.66 pts, AHEAD** (book lost ~half the index's move — selection + LLY/GE ballast cushioned a broad risk-off tape).
+- **WTD (base 6/18 close $101,006.72 / SPY 746.75 — Fri 6/19 Juneteenth holiday):** portfolio −$305.47 / **−0.302%** | SPY 746.75→733.62 = **−1.758%** | **week alpha +1.46 pts, AHEAD** (2 sessions in).
+- **Closing marks:** GE 356.47 **+8.14%** (+$1,207.80, day +0.38%) | ETN 405.01 **+0.86%** (+$83.22, **day −7.06%**) | LLY 1105.00 **+2.46%** (+$371.56, day +0.27%) | DE 591.94 **+0.36%** (+$46.64, day −1.11%). Net open unrealized **+$1,709.22**.
+- **Intraday shape:** loss was a gap-down at the open (open mark $100,371.21) — we actually drifted *up* ~$330 into the close. The damage was front-loaded, not a fade.
+- **Trades today:** **NONE** (0 closed orders). 0 of 3 weekly buys used, 1 open slot.
+- **Stops at close (3 trailing, 1 hard — all GTC `new`, re-verified via open-orders query):** GE trailing 328.23 (hwm 364.7) | ETN trailing 393.066 (hwm 436.74, unchanged — mark below hwm) | LLY trailing 1064.457 (hwm 1182.73) | DE −7% hard 548.53.
+- **Risk checks:** (a) worst net is DE +0.36% — all green from entry, none near −7%. ETN's −7.06% was a *day* move (vs prior close), net +0.86% from entry. (b) GE/ETN/LLY already trailing; DE +0.36% below ~619.31 trigger — nothing to convert. (c) day −0.77%, within −3% loss cap.
+
+**What worked**
+- **Beat SPY on a down day** — the hardest kind to win: book −0.77% vs index −1.43%, day alpha +0.66 pts. GE (+0.38%) and LLY (+0.27%) held green while the tape sold off, exactly the non-AI / healthcare ballast the book is built to provide. Week alpha now +1.46 pts AHEAD.
+- Discipline held: zero forced trades, dry powder intact ahead of Thu's core-PCE print, all four stops armed and resting; ETN's −7% slide hit a trailing stop that absorbed it without manual intervention.
+
+**What didn't**
+- **ETN −7.06%** dragged the book — the most AI-power-exposed, highest-beta name took the brunt of the risk-off move. Still net +0.86% and on a trailing stop with only ~3.0% cushion now (floor 393.066) — the narrowest of the four; one more bad session could tag it.
+- 5th slot idle into day 2 of the week; defensible ahead of core PCE but the deploy-or-justify clock keeps ticking. ~46% cash was neutral-to-helpful on this down day (cushioned the loss) but is the recurring drag on up-index days.
+
+**Open questions for tomorrow (Wed 6/24)**
+- Does the risk-off tape continue into core PCE (Thu), and does ETN find a floor or keep sliding toward its 393.066 trailing stop?
+- DE's +5%→trailing conversion if it tags ~619.31 (~$27 above the 591.94 close) — standing task.
+- MU Wed AMC (if confirmed) → semis/AI-memory vol Thu, could spill into ETN. None of ours report. Position carefully around Thu 6/25 core PCE (8:30 ET) — the deploy-or-defer pivot for the idle 5th slot.
+
 ---
 ## 2026-06-22 06:00 CT — pre-market (first session of a fresh week after the Juneteenth long weekend)
 

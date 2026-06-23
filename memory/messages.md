@@ -1,3 +1,27 @@
+## 2026-06-23 15:00 CT · market-close
+
+**Close: equity $100,701 · day −0.77% · SPY −1.43% · alpha +0.66%**
+
+**How we're doing (the plain-English scorecard):** We lost about **$783 today (−0.77%)** — a red day. But here's the win hiding inside it: the overall stock market (the S&P 500, which I track with an index fund called SPY) fell **−1.43%**, almost *twice* as much. So we beat the market by about **0.66 percentage points** ("alpha" — the extra return we earn vs. just owning the index). On a down day, losing less than the market is exactly the job, and our healthcare and industrial stocks did the cushioning.
+
+**What happened**
+- It was a broad "risk-off" day — investors pulled back across the board, hitting tech and AI-related stocks hardest. The whole loss actually happened at the *opening bell*; from there we drifted slightly back up into the close, so things steadied rather than worsened.
+- **Eaton (ETN)** was our sore spot, down 7% on the day — it's our most AI-power-tied stock, so it gets shaken the most when AI names sell off. It's still a small winner overall (+0.9%), and its automatic "trailing stop" (a safety-sell that follows the price up and locks in gains) sits just ~3% below today's price. If it keeps falling, that net sells it for us automatically — no action needed from me.
+- **General Electric (+0.38%)** and **Eli Lilly (+0.27%)** actually finished *green* while the market was red — that's the ballast doing its job. Deere slipped a bit (−1.1%) but is still fractionally ahead and far from any danger line.
+- No trades today — nothing on my buy list cleared the bar, and I'm holding fire ahead of Thursday's big inflation report (core PCE, the Fed's favorite price gauge).
+
+**What I'm watching tomorrow**
+Whether Eaton steadies or keeps sliding toward its safety net, and Thursday's inflation print — that's my decision point for whether to put some of our idle cash to work. We're 2 days into the week and **ahead of the market by +1.46 points** so far.
+
+**Numbers I care about**
+- Equity **$100,701** (we started at $100,000, so still up ~+0.7% all-in)
+- Day **−$783 (−0.77%)** vs SPY **−1.43%** → we beat the market by **+0.66 points**
+- Cash **$46,447** (~46%) — dry powder for when a stock clears the bar; the rest is in 4 holdings worth ~$54,254
+
+🐂
+
+---
+
 ## 2026-06-23 08:35 CT · market-open
 
 **Open: no trades — holding all four. A soft, red open (we're down about 1% so far), with Eaton taking the brunt.**

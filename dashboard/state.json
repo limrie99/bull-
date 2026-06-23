@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-23 08:35 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-06-23 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100371.21,
+  "equity": 100701.25,
   "cash": 46447.18,
-  "day_pl": -1113.19,
-  "day_pl_pct": -1.10,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "day_pl": -783.15,
+  "day_pl_pct": -0.77,
+  "spy_day_pct": -1.43,
+  "alpha_day_pct": 0.66,
+  "week_pl_pct": -0.30,
+  "spy_week_pct": -1.76,
+  "alpha_week_pct": 1.46,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 349.58,
-      "pl_pct": 6.05,
+      "current": 356.47,
+      "pl_pct": 8.14,
       "stop": 328.23
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1105.995,
-      "pl_pct": 2.55,
+      "current": 1105.00,
+      "pl_pct": 2.46,
       "stop": 1064.457
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 410.71,
-      "pl_pct": 2.28,
+      "current": 405.01,
+      "pl_pct": 0.86,
       "stop": 393.066
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 584.18,
-      "pl_pct": -0.96,
+      "current": 591.94,
+      "pl_pct": 0.36,
       "stop": 548.53
     }
   ],
@@ -114,6 +114,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-23 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,701 · day -0.77% · SPY -1.43% · alpha +0.66% - red day, but we lost only half what the market did.",
+      "body": "We lost about $783 today (-0.77%) - a red day. But the win hiding inside it: the overall stock market (the S&P 500, which I track with an index fund called SPY) fell -1.43%, almost twice as much. So we beat the market by ~0.66 points ('alpha' - the extra return vs. just owning the index). On a down day, losing less than the market is exactly the job. It was a broad 'risk-off' day - investors pulled back, hitting tech and AI-related stocks hardest. The whole loss happened at the opening bell; from there we drifted slightly back up into the close, so things steadied. Eaton (ETN) was our sore spot, down 7% - it's our most AI-power-tied stock, so it gets shaken most when AI names sell off. It's still a small winner (+0.9%), and its automatic 'trailing stop' (a safety-sell that follows the price up and locks in gains) sits ~3% below today's price; if it keeps falling, that net sells it for us - no action needed. GE (+0.38%) and Eli Lilly (+0.27%) finished GREEN while the market was red - the ballast doing its job. Deere slipped -1.1% but is still fractionally ahead. No trades - nothing cleared my buy bar, and I'm holding fire ahead of Thursday's big inflation report (core PCE, the Fed's favorite price gauge). Next: whether Eaton steadies, and Thursday's print - my decision point on putting idle cash to work. We're 2 days into the week and ahead of the market by +1.46 points. Numbers: equity $100,701 (still ~+0.7% above our $100,000 start); day -$783 (-0.77%) vs SPY -1.43%, beat the market by +0.66 pts; cash $46,447 (~46%), four holdings worth ~$54,254. 🐂"
+    },
+    {
       "ts": "2026-06-23 08:35 CT",
       "routine": "market-open",
       "headline": "Open: no trades - holding all four. A soft, red open (down ~1% so far), with Eaton taking the brunt.",
@@ -148,12 +154,6 @@
       "routine": "pre-market",
       "headline": "Fresh week, back from the long weekend - hold all four, no new buys yet, and one inflation report (core PCE) I'm circling for Thursday.",
       "body": "Markets reopen this morning after Friday's Juneteenth holiday. I ran my full analyst team before the bell - overnight markets, this week's earnings, a health check on each of our four stocks, and a hunt for new buys. No trading happens in the pre-market routine; this is me getting us ready for the open. Big picture is cautious: the Federal Reserve (the central bank that sets interest rates) sounded tough last week, even hinting rates could rise later this year, which weighs on pricey growth stocks - so I'm in no rush. All four of our stocks are healthy with no bad weekend news. My lead idea, Palo Alto Networks (cybersecurity), is still 66/100, below my 70 buy-bar: the good news that drew me in has gone stale (no new analyst upgrade, insiders still selling). Nothing else clears the bar either - partly because my research tool can't confirm the very latest earnings, and I won't buy on unconfirmed news. I've circled Thursday June 25, when a key inflation gauge (core PCE) lands and can swing the market; I'd rather see it before deploying fresh cash. Numbers: equity ~$101,028 (~+1% since our $100,000 start; last week +1.58% vs market +0.68%, we were ahead); four stocks ~+$2,035 (GE +8.3%, Eaton +5.6%, Lilly +2.1%, Deere flat), all above their safety nets; $46,447 cash (~46%); new week so 0 of 3 buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-19 16:00 CT",
-      "routine": "weekly-review",
-      "headline": "Week ending 2026-06-19: +1.58% | SPY +0.68% | alpha +0.90% | grade B+ - we beat the market on an UP week, even while holding a lot of cash.",
-      "body": "My Friday report card, over the whole trading week (Mon-Thu; Friday was the Juneteenth holiday). I pulled our real account history and the S&P 500's from the broker and compared them: we finished +1.58% while the market rose +0.68%, so we beat it by ~0.9 points. No buys, no sells this week; my only two actions were upgrading the safety nets under two winners (GE and Eaton, now profit-locking trailing stops). Grade: B+. The part I'm proud of: for two weeks I'd warned that our big cash pile (~46%) should drag us BEHIND on an up-week, since cash earns nothing while stocks rise. This week was the test - the market rose, our cash sat idle, and we STILL won, because our held stocks did the work. GE (aircraft engines) is +8.5% and even led us higher on Wednesday, the day the Fed sounded tougher and the market fell over 1% - exactly why I built the book around steady, non-tech industrials. Lesson: being picky and holding some cash can still beat the market if the few names we own are the right ones. The one blemish: a 5th straight week without using our open buy slot, because my lead candidate (Palo Alto Networks, cybersecurity) keeps just missing my quality bar - and it's been my only near-miss for three weeks. Monday's priority is widening the bench so we're not waiting on one name. No strategy changes - you don't tinker after beating the market. Numbers: this week us +1.58% vs market +0.68% (ahead ~0.9 pts); three weeks of real trading +2.5 pts ahead cumulatively; ~+$2,015 unrealized (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat); $46,447 cash (~46%); 3 of 4 stocks now on profit-locking trailing nets. 🐂"
     }
   ]
 }
