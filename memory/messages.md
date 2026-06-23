@@ -1,3 +1,22 @@
+## 2026-06-23 12:05 CT · midday
+
+**Midday: steady, no changes — and today's the mirror of yesterday: the market is down more than we are, so we're holding up better on a red day.**
+
+**What I did**
+I woke on schedule, confirmed trading was live, pulled our real account, and ran my risk checklist on all four stocks. Nothing needed doing — no trades. I also re-verified that all four automatic safety-sell orders ("stops") are resting in place.
+
+**Why no trade**
+Two reasons, both unchanged. On the sell side, nobody is near a danger line — every one of our four is in profit, so there's nothing to cut and nothing new to upgrade (Deere is our only stock still on a basic safety net rather than a self-raising one, and it needs to climb ~3.5% more, to about $619, before I switch it). On the buy side, my best idea (Palo Alto Networks, a cybersecurity company) still scores 66 out of 100, under my 70 buy-bar, and a big inflation report (core PCE — the Federal Reserve's favorite price gauge) lands Thursday. I'd rather see that number before spending fresh cash.
+
+**What happens next**
+The full daily scorecard comes at the close. Today is the flip side of the warning I'd been giving you: for weeks I said our big cash pile could drag us behind when the market rises. Today the market is *falling* (down about 1%), and that same cash — plus owning steady, non-tech companies — is cushioning us, so we're down only about half a percent. That's selection and patience working in our favor on a rough day.
+
+**Numbers I care about**
+- Equity ~$100,995 — down about **$489 (−0.48%)** so far today, while the S&P 500 is down about **−1.0%**, so we're holding up ~0.5 points better (early, unofficial; the official scorecard comes at the close). Still ~+1% above our $100,000 start.
+- Four stocks ~+$2,003 unrealized: GE +8.2%, Lilly +2.5%, Eaton +2.4%, Deere +1.4% — all above their safety nets.
+- $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂
+
+---
 ## 2026-06-23 08:35 CT · market-open
 
 **Open: no trades — holding all four. A soft, red open (we're down about 1% so far), with Eaton taking the brunt.**
