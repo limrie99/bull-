@@ -1,4 +1,7 @@
-## 2026-06-23 17:08 CT · PUSH FAILED — memory not persisted this run. Investigate.
+## 2026-06-23 12:05 CT · ⚠️ ops note — midday memory is on the working branch, NOT yet on `main`
+
+**Heads-up on plumbing, not the portfolio:** this midday run's memory writes are safely committed and pushed to the working branch `claude/dazzling-hawking-5eand7`, but the direct push to `main` was denied (HTTP 403 — this session's credentials are scoped to the working branch). Every prior routine advanced `main` by a direct push; this one can't, so the writes won't compound to `main` until the open PR is merged. **No trading impact** — the portfolio is unchanged and the close routine re-pulls live data from Alpaca regardless. Action needed: merge the PR for `claude/dazzling-hawking-5eand7` (or restore main-push permission for routine sessions) so memory keeps compounding.
+
 ## 2026-06-23 12:05 CT · midday
 
 **Midday: steady, no changes — and today's the mirror of yesterday: the market is down more than we are, so we're holding up better on a red day.**
