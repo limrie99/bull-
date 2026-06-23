@@ -1,3 +1,54 @@
+## 2026-06-23 06:00 CT — pre-market (Tue, day 2 of the week; market opens 09:30 ET)
+
+**Setup:** All 4 required keys present (+ Telegram). Market **CLOSED pre-market** (clock `is_open:false`, next_open **2026-06-23 09:30 ET**, next_close 16:00 ET) — opens in ~3.5h. Inbox: **nothing pending.** Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$100,934.04**, last_equity **$101,484.40** (Alpaca's 6/22 official close — note this differs slightly from our internally-computed $101,516.04 close mark; use Alpaca's $101,484.40 as the authoritative 6/22 base), cash **$46,447.18** (unchanged), long_market_value **$54,486.86** (~54.0% invested / ~46.0% cash), daytrade_count 0, PDT false. Same week as 6/22 → weekly buy cap **0 of 3**; **4 of 5 slots** (1 open). All 4 GTC stops re-verified RESTING (status `new`) via open-orders query. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity; real-time retrieval again capped ~early-to-mid June 2026 — everything flagged V/UNVERIFIED and grounded against Alpaca.
+
+### Live position marks (pre-market, UNAUTHORITATIVE)
+| Sym | Qty | Avg | Current | P/L $ | P/L % | Stop |
+|---|---|---|---|---|---|---|
+| GE | 45 | 329.63 | 350.5663 | +942.13 | +6.35% | 10% trailing GTC, floor 328.23 (hwm 364.7) |
+| ETN | 24 | 401.5425 | 420.01 | +443.22 | +4.60% | 10% trailing GTC, floor **393.066** (hwm 436.74) |
+| LLY | 14 | 1078.46 | 1104.44 | +363.72 | +2.41% | 10% trailing GTC, floor 1064.457 (hwm 1182.73) |
+| DE | 22 | 589.82 | 598.59 | +192.94 | +1.49% | −7% hard GTC, 548.53 |
+
+Net open unrealized **+$1,942.01**. Note ETN ticked back to **+4.60%** (mark 420.01, below the +5% line) but is **already on a 10% trailing stop** (converted 6/18) — a trailing stop never reverts to a hard stop, so no action; floor stays 393.066 (~6.4% below mark). All 4 theses intact.
+
+### Market context — CAUTIOUS "wait, don't chase"; hawkish-hold/PCE overhang
+- **Tape soft, tech-led:** ES closed 6/22 **−0.47% ~7,506 (VERIFIED for 6/22)**; overnight read into 6/23 mixed/soft (precise % UNV); NQ UNV. S&P −0.37%, Nasdaq-100 −0.19%, VIX 17.28 on 6/22 (VERIFIED). Drivers: AI-valuation concerns + higher yields + pre-PCE caution.
+- **Rates steady (not spiking):** 10y **4.51% close 6/22 → 4.50% on 6/23 (−1bp, VERIFIED)** — still pinned in the hawkish-hold ~4.5% zone, no breakout. 2y "near multi-year highs" (level UNV). Rates being *steady* means no acute pressure on rate-sensitive longs (LLY, ETN) today.
+- **FX/global:** USD firm near cycle highs (VERIFIED-directional); Europe bid on "peace hopes" (VERIFIED-directional); Asia/DXY/Brent/WTI/gold levels UNV.
+- **Headlines since 6/22 close:** (1) Wall St closed lower, tech the drag (V); (2) US-Iran negotiation headlines + Pentagon flagged possible ~$80B emergency war funding (V, 6/22); (3) NY Fed/Fed dollar conference 6/22–23 with Gov. Waller remarks listed (event V, content UNV) — no market-moving Fed speak confirmed; (4) **core PCE Thu 6/25 8:30 ET (VERIFIED earlier this week)** = the week's marquee landmine.
+- **Gap risk into open: MEDIUM** — soft futures + tech softness + firm dollar + Iran/PCE overhang, but 10y steady (−1bp) and Europe bid; no confirmed overnight shock. Main risk is positioning into Thu PCE.
+
+### Portfolio watch — all 4 THESES INTACT (no verifiable 24–72h breaker)
+- **GE** +6.35%. Mild *positive*: CEO Larry Culp (Bloomberg ~6/22) reiterated mid-teens services growth in 2026, constructive through 2027 (VERIFIED). Low-beta industrial — best-positioned for a hawkish/soft-tech tape; book's strongest. Floor 328.23 (~6.4% below). Earnings ~Jul 16 — no blackout.
+- **ETN** +4.60%. No verifiable news/rating change (lowest-confidence no-news of the four — retrieval gap). AI-power/electrification intact. Already on 10% trailing (floor 393.066, ~6.4% below). Most exposed to multiple compression on a yields-up day.
+- **LLY** +2.41%. No verifiable 24–72h news; thesis intact. Most rate-sensitive (long-duration growth) — but rates steady today eases that. Carry standing CAVEAT: the $50/mo Medicare + July-1 Part D detail still UNVERIFIED (documented $25/mo insured / $149 cash). Floor 1064.457 (~3.6% below).
+- **DE** +1.49%. No fresh news; Q2 beat (5/21) stands. One soft (UNV-timing) macro flag: Deere previously signaled a bigger 2026 tariff hit — narrative headwind, not new. Lone name still on a −7% hard stop (548.53, ~8.4% cushion); +5% conversion trigger ~619.31 (~$21 above mark). INTACT.
+- **Portfolio-level risk:** a yields-up turn would pressure LLY + ETN most, GE/DE least — the diversification the book is built on. No sector-wide breaker found.
+
+### Buy candidates — NOTHING clears the gate (2+ signals AND Conviction ≥70)
+- **PANW — Conviction 66 (unchanged), THESIS-RISK / lead.** Scout re-screen confirmed **NO fresh (<2wk, after ~June 9) analyst upgrade or insider OPEN-MARKET BUY**: the most recent verifiable PT actions both pre-date the cutoff (Evercore Street-high $375 on 6/3; Oppenheimer $245→$275 early June). The 6/2 beat-and-raise (EPS $0.85 vs $0.80, rev $3.0B vs ~$2.94B, raised FY26) is now ~21d stale and already baked into the 66. Stays the lead; does NOT buy at 66. Re-clears 70 only on a fresh upgrade or insider buy.
+- **JPM — Conviction 65 (unchanged), NEAR-TRIGGER.** No fresh JPM-specific catalyst confirmable this cycle; last report ~mid-April Q1, next real trigger earnings ~Jul 14 (>3wk out). Clean uptrend (prior cycles verified) but only ~1 fresh signal. Backup.
+- **AVGO 58 / PWR 52 / ORCL 48** — unchanged; no new data. AVGO high-beta semis, overlaps ETN.
+- **New candidates: NONE verifiable.** Broad beat-and-raise screen + targeted June-reporter check returned only aggregate season commentary ("~84% beating"), no ticker-level dated beat-and-raise above the 50d in the ~June 9–23 window. Only VERIFIED report *today* is Cerebras (CBRS, AMC) — not a Bull name, recently public. Honest blocker is **data recency (retrieval capped ~early-to-mid June)**, not absence of quality. No fabrication, no new name added.
+
+### Earnings / blackout — clean for new buys this week (retrieval-gap caveat)
+- **Reporting today (Tue 6/23):** CBRS AMC (VERIFIED, not a Bull name). FDX/CCL floated for today but UNVERIFIED. Nothing material/held confirmable.
+- **This week (all UNV/tentative):** FDX Tue AMC, **MU Wed 6/24 AMC (semis/AI-memory bellwether → expect sector vol Thu, conditional on MU date)**, DRI Thu 6/25 BMO.
+- **Blackout check — NO confirmable flags** for GE/LLY/DE/ETN/PANW/JPM/AVGO within 6/23–6/26. Caveat: this is a retrieval gap, not a positive confirmation. Pattern = all report late-Jul/Aug (JPM ~Jul 14). Verify the exact date at IR before any actual buy.
+
+### Sell candidates — NONE
+- (a) −7% drawdown: worst is DE +1.49% — all four green, nowhere near −7%. HOLD.
+- (b) +5%→trailing: GE/ETN/LLY already on 10% trailing; DE +1.49% far below its +5% (~619.31). Nothing pending. (ETN at +4.60% stays on trailing — no reversion.)
+- (c) Daily loss cap: N/A pre-market (re-check at open/midday).
+- No thesis-breaker for any holding. No sells.
+
+### Decision & plan handed to market-open
+- **NO TRADES** (pre-market routine — market closed; we don't trade here regardless). Hold all 4; stops resting GTC.
+- **Cash-drag:** day 2 of the week at 0/3 buys, ~46% cash — BUT ~54% invested (NOT the 100%-cash trap), 3 of 4 names on profit-locking trailing stops, beat SPY last week (+1.58% vs +0.68%) and on 6/22. With **core PCE Thu 6/25** on a hawkish-hold tape, waiting for the print before deploying a fresh rate-sensitive name is *prudent*, not paralysis. Deploy the moment a name clears 2 signals + Conviction ≥70 on a constructive base.
+- **Market-open priorities:** (1) act only if the open hands a genuine ≥70 setup (none in hand); (2) re-confirm daily loss-cap clean; (3) watch DE toward ~619.31 +5% conversion trigger; (4) PANW/JPM stay the watch — neither buys without a fresh verifiable catalyst. Position carefully around Thu 6/25 PCE.
+
+---
 ## 2026-06-22 08:35 CT (09:35 ET) — market-open (first session of the new week)
 
 **Setup:** Keys present (all 4 + Telegram). Market **OPEN** (clock `is_open:true`, 09:35 ET, next_close 16:00 ET, next_open 2026-06-23 09:30 ET — confirms Fri 6/19 was the Juneteenth closure). Inbox: **nothing pending.** Live Alpaca: equity **$101,618.81**, last_equity **$101,006.72** (6/18 base — `balance_asof:2026-06-18`, no 6/19 session), cash **$46,447.18** (unchanged), long_market_value **$55,171.63** (~54.3% invested / ~45.7% cash), daytrade_count 0, PDT false. **Day P/L +$612.09 / +0.61%** (intraday, UNAUTHORITATIVE — close routine owns official). SPY last trade **748.29** vs 6/18 official close 746.75 = **+0.21%** → intraday **day alpha ~+0.40 pts, AHEAD.** Weekly buy cap **0 of 3**; **4 of 5 slots** (1 open).

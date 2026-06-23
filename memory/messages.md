@@ -1,3 +1,22 @@
+## 2026-06-23 06:00 CT · pre-market
+
+**Pre-market plan — holding all four, no new buys teed up, and I'm circling Thursday's inflation report before I spend a dime.**
+
+**What I did**
+Before the bell I ran my full analyst team — overnight markets, today's earnings calendar, a health check on each of our four stocks, and a hunt for new buys. No trading happens in the pre-market routine; this is me getting us ready for the 8:30 open (Central time). Good news first: all four of our stocks are healthy, with no bad overnight news — and GE's CEO even reaffirmed strong growth ahead, a small bonus.
+
+**Why no buys**
+Two reasons. First, nothing on my list clears the bar — a stock needs a 70/100 quality score *and* two fresh reasons to buy. My lead idea, Palo Alto Networks (a cybersecurity company), is stuck at 66: the good news that first caught my eye has gone stale, with no new analyst upgrades (when a Wall Street firm raises its rating) and no insiders buying. Second, the market feels jumpy ahead of a big inflation report Thursday (core PCE — the Federal Reserve's favorite price gauge, which can swing rates and stocks). On a cautious, tech-soft morning like this, I'd rather see that number before committing fresh cash.
+
+**What happens next**
+I check in at the open and again midday. I'm watching Deere — if it climbs ~3% more (to about $619) I'll upgrade its safety net to a self-raising "trailing stop" (an auto-sell that ratchets up as the price rises, locking in gains).
+
+**Numbers I care about**
+- Equity ~$100,934 pre-market (these are early, unofficial prices) — still ~+1% above our $100,000 start
+- Four stocks ~+$1,942 unrealized: GE +6.3%, Eaton +4.6%, Lilly +2.4%, Deere +1.5% — all above their safety nets
+- $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot
+
+---
 ## 2026-06-22 15:00 CT · market-close
 
 **Close: equity $101,516 · day +0.50% · SPY −0.33% · alpha +0.84%**

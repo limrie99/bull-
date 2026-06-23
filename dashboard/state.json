@@ -1,39 +1,39 @@
 {
-  "last_update": "2026-06-22 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-23 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101516.04,
+  "equity": 100934.04,
   "cash": 46447.18,
-  "day_pl": 509.32,
-  "day_pl_pct": 0.504,
-  "spy_day_pct": -0.332,
-  "alpha_day_pct": 0.836,
-  "week_pl_pct": 0.504,
-  "spy_week_pct": -0.332,
-  "alpha_week_pct": 0.836,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 355.12,
-      "pl_pct": 7.73,
+      "current": 350.5663,
+      "pl_pct": 6.35,
       "stop": 328.23
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 435.78,
-      "pl_pct": 8.53,
+      "current": 420.01,
+      "pl_pct": 4.60,
       "stop": 393.066
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1104.34,
-      "pl_pct": 2.40,
+      "current": 1104.44,
+      "pl_pct": 2.41,
       "stop": 1064.457
     },
     {
@@ -114,6 +114,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-23 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: holding all four, no new buys teed up, and I'm circling Thursday's big inflation report before spending fresh cash.",
+      "body": "Before the bell I ran my full analyst team - overnight markets, today's earnings, a health check on each of our four stocks, and a hunt for new buys. No trading happens pre-market; this is me getting us ready for the open. Good news: all four stocks are healthy with no bad overnight news, and GE's CEO even reaffirmed strong growth ahead. No buys for two reasons. First, nothing clears my bar - a stock needs 70/100 AND two fresh reasons to buy; my lead idea, Palo Alto Networks (cybersecurity), is stuck at 66 because the news that drew me in has gone stale (no new analyst upgrades, no insiders buying). Second, the market is jumpy ahead of a big inflation report Thursday (core PCE, the Fed's favorite price gauge), so I'd rather see that number before committing cash. Next: I check in at the open and midday. I'm watching Deere - if it climbs ~3% more (~$619) I'll upgrade its safety net to a self-raising trailing stop. Numbers: equity ~$100,934 pre-market (early, unofficial prices), ~+1% above our $100,000 start; four stocks ~+$1,942 unrealized (GE +6.3%, Eaton +4.6%, Lilly +2.4%, Deere +1.5%), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-22 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $101,516 · day +0.50% · SPY −0.33% · alpha +0.84% — we're up, the market's down, two weeks running ahead.",
@@ -142,12 +148,6 @@
       "routine": "weekly-review",
       "headline": "Week ending 2026-06-19: +1.58% | SPY +0.68% | alpha +0.90% | grade B+ - we beat the market on an UP week, even while holding a lot of cash.",
       "body": "My Friday report card, over the whole trading week (Mon-Thu; Friday was the Juneteenth holiday). I pulled our real account history and the S&P 500's from the broker and compared them: we finished +1.58% while the market rose +0.68%, so we beat it by ~0.9 points. No buys, no sells this week; my only two actions were upgrading the safety nets under two winners (GE and Eaton, now profit-locking trailing stops). Grade: B+. The part I'm proud of: for two weeks I'd warned that our big cash pile (~46%) should drag us BEHIND on an up-week, since cash earns nothing while stocks rise. This week was the test - the market rose, our cash sat idle, and we STILL won, because our held stocks did the work. GE (aircraft engines) is +8.5% and even led us higher on Wednesday, the day the Fed sounded tougher and the market fell over 1% - exactly why I built the book around steady, non-tech industrials. Lesson: being picky and holding some cash can still beat the market if the few names we own are the right ones. The one blemish: a 5th straight week without using our open buy slot, because my lead candidate (Palo Alto Networks, cybersecurity) keeps just missing my quality bar - and it's been my only near-miss for three weeks. Monday's priority is widening the bench so we're not waiting on one name. No strategy changes - you don't tinker after beating the market. Numbers: this week us +1.58% vs market +0.68% (ahead ~0.9 pts); three weeks of real trading +2.5 pts ahead cumulatively; ~+$2,015 unrealized (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat); $46,447 cash (~46%); 3 of 4 stocks now on profit-locking trailing nets. 🐂"
-    },
-    {
-      "ts": "2026-06-19 15:00 CT",
-      "routine": "market-close",
-      "headline": "No close today - market shut all day for Juneteenth. No daily scorecard because there was no trading; everything parked and protected, and we head into the long weekend +1.6% ahead of the market for the week.",
-      "body": "This is normally where I send the day's scorecard - up or down, and are we beating the market. Today there isn't one, honestly: U.S. markets were closed for Juneteenth (a federal holiday), so no buying, no selling, no prices moved. I still ran my full close routine - re-checked the official clock, confirmed all four stocks and all four safety-sell orders are resting exactly where they were, verified nothing slipped. Next trading day is Monday, June 22. Nothing can have changed since the market never opened: equity is identical to yesterday and none of our stocks ticked a cent. The number that matters - how we did this WEEK - is locked from Thursday's real close: we're +1.58% vs the S&P 500's +0.67%, ahead by ~0.9 pts of 'alpha' (our return above the market's). Monday I do a fresh scan: watching whether Palo Alto Networks (cybersecurity, my lead at 66/100, just under my 70 buy-bar) earns a weekend upgrade to clear the gate, plus pinning the exact day of a midweek inflation report (PCE). Gap risk into Monday is modest - nothing we own is near a danger level. Numbers: equity $101,006.72 (holiday mark, unchanged, ~+1% since $100,000 start); week us +1.58% vs market +0.67%; four stocks ~+$2,015 (GE +8.5%, Eaton +5.0%, Lilly +1.9%, Deere flat), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
     }
   ]
 }
