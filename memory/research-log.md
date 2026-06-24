@@ -1,3 +1,30 @@
+## 2026-06-24 15:00 CT (16:00 ET) — market-close (Wed, day 3 of the week) — OFFICIAL SCORECARD
+
+**Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 16:04 ET, next_open 2026-06-25 09:30 ET). Inbox: **nothing pending.** Alpaca official close: equity **$101,683.58**, last_equity **$100,736.85** (6/23 official close = base), cash **$46,447.18** (unchanged), long_market_value **$55,236.40** (~54.3% invested / ~45.7% cash), daytrade_count 0, PDT false. Closed-orders query for 6/24 (`after=2026-06-24T00:00:00Z`) → **0 fills** (no trades today). Open-orders query → all 4 stops RESTING `status:new` (GE trail floor 332.325/hwm 369.25; LLY trail 1064.457/1182.73; ETN trail 393.066/436.74; DE −7% hard 548.53). IDs unchanged.
+
+### Day summary
+- **Closing equity:** $101,683.58 (cash $46,447.18 + LMV $55,236.40).
+- **Day P/L:** **+$946.73 / +0.94%** (vs 6/23 base $100,736.85).
+- **SPY day:** **+0.12%** — 734.50 (latest trade 16:02 ET / closing print) vs 733.62 (6/23 close). *(Caveat: IEX daily bar closed 733.32 = −0.04%; the consolidated 16:02 ET print 734.50 is the better close, so primary read is +0.12%. Either way SPY was roughly flat and we beat it.)*
+- **Day alpha:** **+0.82 pts, AHEAD** (using SPY +0.12%; +0.98 pts on the IEX-bar read).
+- **Week-to-date** (base 6/18 close: equity $101,006.72 / SPY 746.75): portfolio **+0.67%** vs SPY **−1.64%** → **week alpha +2.31 pts, AHEAD** (day 3 of 4; Fri 6/19 Juneteenth).
+- **Trades placed:** none. Buys used 0 of 3. 4 of 5 slots.
+- **Closing position marks:** GE 365.88 (+11.00%, +$1,631.25) · LLY 1117.26 (+3.60%, +$543.20) · DE 610.00 (+3.42%, +$443.96) · ETN 404.59 (+0.76%, +$73.14). Net open unrealized **+$2,691.55**.
+
+**What worked:**
+- The non-AI ballast (GE/DE/LLY) carried the book up +0.94% on a tape where SPY was essentially flat — second straight day of positive alpha into a risk-off backdrop. GE alone is +11.00% / +$1,631.
+- Discipline held: no forced buy into Thursday's PCE; ~46% cash stays a cushion, not a drag, on an up day where selection (not cash) drove the gain.
+
+**What didn't / watch:**
+- ETN faded intraday from +1.58% (midday) to +0.76% (close) — narrowest trailing cushion (~2.85%) right as MU reports AMC. If semis re-rate lower Thursday, ETN's trailing stop (floor 393.066, still above entry) does the work automatically; no manual action, but it's the most exposed name.
+- DE got within ~$9.72 of its +5% trailing-conversion trigger at midday (609.59) but closed at 610.00 — **did not tag ~619.31**, so no conversion today. It stays on the −7% hard stop.
+
+**Open questions for tomorrow:**
+- **Core PCE Thu 6/25 8:30 ET** (prior 3.3% YoY, ~3.2% expected) — the deploy-or-defer pivot for the idle 5th slot. A hot print pressures the rate-sensitive names (LLY most); an in-line/soft print could be the green light to put cash to work *if* a name clears the gate.
+- **MU's AMC print + semis reaction** — does the 6/23 AI/semis de-rating resume (pressuring ETN) or stabilize?
+- **DE +5% conversion** — most likely near-term mechanical action if it tags ~619.31.
+
+---
 ## 2026-06-24 12:00 CT (13:00 ET) — midday (Wed, day 3 of the week)
 
 **Setup:** All 4 keys present (+ Telegram). Market **OPEN** (clock `is_open:true`, 13:03 ET, next_close 16:00 ET, next_open 2026-06-25 09:30 ET). Inbox: **nothing pending.** Live Alpaca: equity **$101,711.19**, last_equity **$100,736.85** (Alpaca's 6/23 official close = 6/23 base), cash **$46,447.18** (unchanged), position market value **$55,264.01** (~54.3% invested / ~45.7% cash), daytrade_count 0, PDT false. **Day P/L +$974.34 / +0.97%** (intraday, UNAUTHORITATIVE — close routine owns official). SPY last **736.34** vs 6/23 close **733.62** = **+0.37% intraday** → intraday day alpha **~+0.60 pts, AHEAD**. Weekly buy cap **0 of 3**; **4 of 5 slots** (1 open).
