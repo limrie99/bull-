@@ -1,3 +1,22 @@
+## 2026-06-24 06:00 CT · pre-market
+
+**Pre-market plan: holding all four and keeping cash ready — markets are jittery after a big drop in tech stocks, and a key inflation report lands tomorrow.**
+
+**What I did**
+Before the bell I ran my full analyst team — overnight markets, today's earnings, a health check on each of our four stocks, and a hunt for new buys. No trading happens pre-market; this is me getting us ready for the open.
+
+**Why**
+Two things shape today. First, yesterday saw a sharp, worldwide sell-off in technology and computer-chip ("semiconductor") stocks — so steep that South Korea's market hit a "circuit breaker" (an automatic timeout that pauses trading after a big plunge). That's why our Eaton dropped 7% Tuesday; I confirmed it was the whole group falling, not bad news about Eaton itself — its story is intact. Second, the Federal Reserve (the central bank that sets interest rates) has turned tougher, and a key inflation report (core PCE, the Fed's favorite price gauge) lands tomorrow. So I'm staying defensive: nothing on my buy list clears my bar (a stock needs 70/100 plus two fresh reasons), and today our cash is a cushion, not a drag. Our boring, non-tech stocks — GE, Deere, Lilly — are exactly the ballast built for a day like this.
+
+**What happens next**
+I check in at the open and midday. I'm watching Eaton most closely — its automatic safety-sell sits about 4% below today's price; if the tech slide continues, that net sells it for us and locks in a small gain. No action needed by hand.
+
+**Numbers I care about**
+- Equity ~$100,835 pre-market (early, unofficial prices), still ~+0.8% above our $100,000 start
+- Four stocks ~+$1,843 unrealized: GE +8.0%, Lilly +2.9%, Eaton +1.8%, Deere +0.4% — all above their safety nets
+- $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot
+
+🐂
 ## 2026-06-23 15:00 CT · market-close
 
 **Close: equity $100,701 · day −0.77% · SPY −1.43% · alpha +0.66%**
