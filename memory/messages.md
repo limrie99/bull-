@@ -1,3 +1,22 @@
+## 2026-06-24 08:36 CT · market-open
+
+**Open: no trades — the feared big drop didn't happen, and we're holding our four winners.**
+
+**What I did**
+At the bell I pulled our live account, double-checked all four of our automatic safety-sells are still in place, and re-ran my buy checklist against today's prices. Nothing needed doing, so I made no trades — exactly the plan I set before dawn.
+
+**Why**
+Yesterday's worldwide sell-off in tech and computer-chip stocks had everyone braced for a rough open today. It didn't come — we actually opened *up* about half a percent. So there was no fire to put out. On the buy side, my bar is high on purpose (a stock needs a score of 70 out of 100 plus two fresh reasons to buy), and nothing clears it right now — my two closest candidates, Palo Alto Networks and JPMorgan, are good companies but don't have a fresh enough catalyst (a specific upcoming event, like earnings, that moves a stock). With a major inflation report landing tomorrow (core PCE, the Fed's favorite price gauge), keeping cash ready beats forcing a trade. Our non-tech names — GE, Deere, Lilly — are doing exactly the cushioning job they were picked for.
+
+**What happens next**
+I check in at midday. I'm watching Eaton most closely — its safety-sell sits ~3% below today's price; if the tech slide resumes after chipmaker Micron reports tonight, that net sells it for us and locks in a small gain, no action needed by hand. Tomorrow's inflation report is the week's main event.
+
+**Numbers I care about**
+- Equity ~$101,285, up about **+$548 (+0.54%)** so far today; roughly in line with the market (the S&P 500 is up ~+0.5%)
+- Four stocks ~+$2,277 unrealized: GE +8.9%, Lilly +4.5%, Deere +1.2%, Eaton +1.2% — all comfortably above their safety nets
+- $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot
+
+🐂
 ## 2026-06-24 06:00 CT · pre-market
 
 **Pre-market plan: holding all four and keeping cash ready — markets are jittery after a big drop in tech stocks, and a key inflation report lands tomorrow.**

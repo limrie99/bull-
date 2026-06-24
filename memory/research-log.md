@@ -1,3 +1,37 @@
+## 2026-06-24 08:36 CT (09:36 ET) — market-open (Wed, day 3 of the week)
+
+**Setup:** All 4 keys present (+ Telegram). Market **OPEN** (clock `is_open:true`, 09:36 ET, next_close 16:00 ET, next_open 2026-06-25 09:30 ET). Inbox: **nothing pending.** Live Alpaca: equity **$101,285.18**, last_equity **$100,736.85** (Alpaca's 6/23 official close = 6/23 base), cash **$46,447.18** (unchanged), long_market_value/position_market_value **$54,838.00** (~54.1% invested / ~45.9% cash), daytrade_count 0, PDT false. **Day P/L +$548.33 / +0.54%** (intraday, UNAUTHORITATIVE — close routine owns official). SPY last trade **737.13** vs ~733.6 (6/23 close implied from week-to-date −1.76% off 746.75) ≈ **+0.48% intraday** → day alpha ~flat-to-+0.06 pts, roughly in line / marginally ahead. Weekly buy cap **0 of 3**; **4 of 5 slots** (1 open).
+
+**Open vs. the feared gap:** Pre-market flagged HIGH gap risk into a global tech/semis rout (6/23 SOX −7.9%, KOSPI −10% circuit breaker) + hawkish Fed + DXY 1-yr high. **The gap-down did NOT materialize** — green futures held and the book opened **up ~+0.5%**, not down. Risk-off *backdrop* persists (core PCE Thu 6/25 8:30 ET; MU AMC today → semis vol Thursday), but no open-bell fire to fight.
+
+### Live position marks (this routine)
+| Sym | Qty | Avg | Current | P/L $ | P/L % | Stop | Cushion |
+|---|---|---|---|---|---|---|---|
+| GE | 45 | 329.63 | 358.985 | +1,320.98 | +8.91% | 10% trailing GTC, floor 328.23 (hwm 364.7) | ~8.6% |
+| ETN | 24 | 401.5425 | 406.45 | +117.78 | +1.22% | 10% trailing GTC, floor **393.066** (hwm 436.74) | **~3.3% (narrowest)** |
+| LLY | 14 | 1078.46 | 1126.925 | +678.51 | +4.49% | 10% trailing GTC, floor 1064.457 (hwm 1182.73) | ~5.5% |
+| DE | 22 | 589.82 | 597.095 | +160.05 | +1.23% | −7% hard GTC, 548.53 | ~8.1% |
+
+Net open unrealized **+$2,277.32**. All 4 theses intact (consistent with pre-market; no verifiable company-specific breaker). ETN bounced fine off the 6/23 flush; still highest-beta on narrowest cushion into MU's print — trailing handles it automatically.
+
+### Stop / risk checks (all 4 RESTING GTC, `status:new` — verified via open-orders query, IDs unchanged from pre-market)
+- ETN trailing cc843666… floor 393.066; GE trailing b9dadf2d… floor 328.23; LLY trailing 6016a7e7… floor 1064.457; DE −7% hard a150583a… @ 548.53.
+- (a) **−7% drawdown (net from entry):** worst ETN +1.22% / DE +1.23% — all four green, none near −7%. HOLD.
+- (b) **+5% → trailing:** GE/ETN/LLY already converted; DE +1.23% far below its +5% (~619.31, ~$22 above mark). Nothing pending.
+- (c) **Daily loss cap:** portfolio UP +0.54% — nowhere near the −3% no-buy trigger. Clean.
+
+### Buy candidates — NOTHING clears the gate (2+ signals AND Conviction ≥70); unchanged from pre-market
+- PANW 66 (lead, no fresh <2wk upgrade/insider buy; 6/2 catalyst ~22d stale), JPM 65 (clean uptrend, signal-light; next catalyst earnings Jul 14). Both below the gate. AVGO 58 explicitly OFF the table into the semis rout + MU print. No new verifiable beat-and-raise candidate. No buy.
+
+### Sell candidates — NONE
+- No −7% net drawdown, no +5% conversion pending, no thesis-breaker. No sells.
+
+### Decision & actions taken
+- **NO TRADES.** Held all 4; all stops resting GTC. Re-validated the pre-market defensive plan against live open prices — it stands. ~46% cash retained ahead of Thu PCE.
+- **Next:** midday check — re-confirm loss-cap clean, watch ETN's cushion into MU's AMC print, watch DE toward ~619.31 (+5% trailing conversion). PANW/JPM stay benched without a fresh verifiable catalyst.
+- No Telegram push (CLAUDE.md: do NOT push on no-trade market-open scans; the mandatory daily push is the close routine's).
+
+---
 ## 2026-06-24 06:00 CT — pre-market (Wed, day 3 of the week; market opens 09:30 ET)
 
 **Setup:** All 4 required keys present (+ Telegram). Market **CLOSED pre-market** (clock `is_open:false`, next_open **2026-06-24 09:30 ET**, next_close 16:00 ET) — opens in ~3.5h. Inbox: **nothing pending.** Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$100,834.61**, last_equity **$100,736.85** (Alpaca's 6/23 official close — note our internally-logged close was $100,701.25; use Alpaca's $100,736.85 as the authoritative 6/23 base going forward), cash **$46,447.18** (unchanged), long_market_value **$54,387.43** (~53.9% invested / ~46.1% cash), daytrade_count 0, PDT false. Same week as 6/22 → weekly buy cap **0 of 3**; **4 of 5 slots** (1 open). All 4 GTC stops re-verified RESTING (status `new`) via open-orders query. Sub-agent team (macro, earnings, position, opportunity) run in parallel via Perplexity. NOTE: contrary to recent runs, Perplexity retrieval returned **consistent, multi-source, dated 6/23–6/24 content** this morning (the tech selloff, KOSPI circuit breaker, Warsh chairmanship, DXY 1-yr high and the PCE date all cross-checked across independent sources, AND the macro selloff is independently corroborated by the position agent via ETN's −7%/SOX −7.9%) — so today's macro read carries higher confidence than the usual retrieval-gap caveat. Forward-looking specifics still flagged V/UNVERIFIED.
