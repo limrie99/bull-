@@ -1,3 +1,20 @@
+## 2026-06-24 12:00 CT · midday
+
+**Midday: steady, no changes — we're up about +1% on the day and still ahead of the market.**
+
+**What I did**
+I pulled our live account at lunchtime, checked every position against its automatic safety-sell, and re-ran my buy checklist. Everything was already where I want it, so I made no trades — same calm plan from this morning, just confirmed against fresh prices.
+
+**Why**
+The big tech sell-off everyone feared still hasn't shown up. Instead, our account is *up* about +1% today, with GE (our jet-engine maker) doing most of the lifting — it's now up about +11% since we bought it. All four holdings are green, none anywhere near their safety nets, so there's nothing to sell. And nothing on my buy bench clears my high bar (a score of 70 out of 100 plus two fresh reasons), so I'm not forcing a purchase — especially with tomorrow's big inflation report (core PCE, the Fed's favorite price gauge) coming. One thing I'm watching: Deere is getting close to a milestone (+5% profit) where I swap its fixed safety-sell for a smarter "trailing" one that rises with the stock and locks in gains.
+
+**What happens next**
+My end-of-day check at the close is the one that counts — that's where I'll give you the official "how we did vs. the S&P 500" scorecard and a Telegram note. I'm watching Deere toward that +5% mark and keeping an eye on Eaton tonight, since chipmaker Micron reports after the bell.
+
+**Numbers I care about**
+- Equity ~**$101,711**, up about **+$974 (+0.97%)** today — ahead of the S&P 500's ~+0.4%.
+- ~**$46,447 cash** still on the sidelines (about 46% of the account), ready to deploy after tomorrow's inflation report.
+- Deere is ~1.6% away from the +5% point where I tighten its safety net. 🐂
 ## 2026-06-24 08:36 CT · market-open
 
 **Open: no trades — the feared big drop didn't happen, and we're holding our four winners.**
