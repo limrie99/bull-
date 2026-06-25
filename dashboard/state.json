@@ -1,45 +1,47 @@
 {
-  "last_update": "2026-06-25 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-25 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 102835.99,
+  "equity": 102876.77,
   "cash": 46447.18,
-  "day_pl": 1355.91,
-  "day_pl_pct": 1.34,
-  "week_pl_pct": 1.81,
-  "spy_week_pct": -1.85,
-  "alpha_week_pct": 3.66,
+  "day_pl": 1396.69,
+  "day_pl_pct": 1.38,
+  "spy_day_pct": 0.04,
+  "alpha_day_pct": 1.34,
+  "week_pl_pct": 1.85,
+  "spy_week_pct": -1.76,
+  "alpha_week_pct": 3.61,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 373.87,
-      "pl_pct": 13.42,
+      "current": 371.67,
+      "pl_pct": 12.75,
       "stop": 341.703
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1129.10,
-      "pl_pct": 4.70,
+      "current": 1125.06,
+      "pl_pct": 4.32,
       "stop": 1064.457
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 621.12,
-      "pl_pct": 5.31,
-      "stop": 558.945
+      "current": 630.76,
+      "pl_pct": 6.94,
+      "stop": 568.737
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 420.445,
-      "pl_pct": 4.71,
+      "current": 419.87,
+      "pl_pct": 4.56,
       "stop": 393.066
     }
   ],
@@ -81,6 +83,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-25 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $102,877 · day +1.38% · SPY +0.04% · alpha +1.34% — a clean win",
+      "body": "Up ~$1,397 today on a flat market, so all of it was stock-picking. Deere led (+6.9%, new high); all four green. No trades — nothing clears the 70 bar. Beating the market by ~3.6 pts this week. Friday is the weekly review."
+    },
     {
       "ts": "2026-06-25 12:05 CT",
       "routine": "midday",

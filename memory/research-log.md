@@ -32,6 +32,40 @@
 - Market-open routine: re-validate on the live tape; only act if PCE+open hand a genuine 2-signal + ≥70 setup (none teed up).
 
 ---
+## 2026-06-25 15:00 CT (16:00 ET) — MARKET-CLOSE (Thu, day 4 of the week) — OFFICIAL SCORECARD + Day summary
+
+**Setup:** Market **CLOSED** (clock `is_open:false`, ts 16:04 ET, next_open 2026-06-26 09:30 ET). Inbox: **nothing pending.** Alpaca official close: equity **$102,876.77**, last_equity **$101,480.08** (6/24 official close = today's base), cash **$46,447.18** (unchanged), long_market_value **$56,429.59** (~54.8% invested / ~45.2% cash), daytrade_count 0, PDT false. Closed-orders query for 6/25 (`after=2026-06-25T00:00:00-04:00`) → **0 fills (no trades today).** Open-orders query → all 4 stops RESTING `status:new`: GE trail floor 341.703/hwm 379.67; LLY trail 1064.457/hwm 1182.73; ETN trail 393.066/hwm 436.74; **DE trail floor 568.737/hwm 631.93 (ratcheted up from midday's 558.945/621.05 — DE made a fresh high today).** *(Plumbing note: the 6/25 MARKET-OPEN research-log entry was appended out-of-order at the file tail (~line 2050), and no separate 6/25 midday research-log entry was written; midday's reasoning lives in portfolio.md/messages.md. Cosmetic only — memory persisted correctly; flagging so future-Bull isn't confused by the ordering.)*
+
+### Day summary (official close)
+- **Closing equity:** $102,876.77 | **cash** $46,447.18 | **long MV** $56,429.59.
+- **Day P/L:** **+$1,396.69 / +1.38%** (vs 6/24 base $101,480.08).
+- **SPY day:** 733.62 close vs 733.32 (6/24 close) = **+0.04% (flat).**
+- **Day alpha:** **+1.34 pts, AHEAD.** All of today's gain was stock selection — SPY went nowhere.
+- **Week-to-date** (base 6/18 close $101,006.72 / SPY 746.75): portfolio **+1.85%** vs SPY **−1.76%** → **week alpha +3.61 pts, AHEAD** (day 4 of 4; 6/26 Fri closes the week).
+- **Trades placed today:** **NONE** (0 fills). Only action all day was the midday DE −7%→10%-trailing conversion (no shares moved). daytrade_count 0.
+
+**Closing position marks:**
+- GE 45 @ 329.63 → 371.67, +$1,891.80 / +12.75%. Trail floor 341.703 (hwm 379.67). Eased off its 379.67 intraday high but still the book's biggest winner.
+- LLY 14 @ 1078.46 → 1125.06, +$652.40 / +4.32%. Trail floor 1064.457. Held up fine through PCE despite being most rate-sensitive.
+- DE 22 @ 589.82 → 630.76, +$900.68 / +6.94%. **Day's driver — fresh high 631.93, trail floor ratcheted up to 568.737.**
+- ETN 24 @ 401.5425 → 419.87, +$439.86 / +4.56%. Trail floor 393.066 (still below 436.74 hwm). Held its MU-driven bounce.
+- Net open unrealized **+$3,884.74**.
+
+**What worked (1–3):**
+- **DE breakout (+6.94%, +~$474 on the day alone)** — the ag/onshoring ballast name was the single biggest contributor today and made a fresh high; the midday +5% trailing-stop conversion was well-timed, ratcheting its floor up to 568.737 as it ran.
+- **Broad-based green on a flat-market day** — all four names finished higher while SPY was flat (+0.04%), so the +1.38% day is pure alpha (+1.34 pts), not beta. The defensive ballast book (GE/DE/LLY + ETN) is participating on up days, not just protecting on down days.
+- **PCE non-event handled cleanly** — the feared hawkish PCE shock never showed in price; staying defensive into the print cost nothing and the book gained.
+
+**What didn't / watch (1–3):**
+- **GE gave back ~$8/sh from its intraday high (379.67 → 371.67)** — still +12.75%, no action, but it's the name most extended and most likely to mean-revert; trailing floor 341.703 protects it.
+- **Cash-drag continues** — ~45% cash and an idle 5th slot meant we under-participated vs a fully-invested book on an up day. Defensible (no ≥70 setup, beat a falling SPY by +3.6 pts on the week) but the cost shows on green days.
+
+**Open questions for tomorrow (Fri 6/26 = weekly review):**
+- Does the full weekly-review re-score surface ANY name that clears 2 signals + Conviction ≥70, or does PANW (66) finally get a fresh <2wk upgrade/insider-buy to re-clear 70? The cash-drag posture is the central weekly-review question.
+- Did the actual PCE print confirm in-line/cool (tape behaved as if it did)? Re-verify the figure + any Fed-pricing reaction.
+- Week buy cap resets Mon 6/29; week alpha +3.61 pts is the number to lock in Friday.
+
+---
 ## 2026-06-24 15:00 CT (16:00 ET) — market-close (Wed, day 3 of the week) — OFFICIAL SCORECARD
 
 **Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 16:04 ET, next_open 2026-06-25 09:30 ET). Inbox: **nothing pending.** Alpaca official close: equity **$101,683.58**, last_equity **$100,736.85** (6/23 official close = base), cash **$46,447.18** (unchanged), long_market_value **$55,236.40** (~54.3% invested / ~45.7% cash), daytrade_count 0, PDT false. Closed-orders query for 6/24 (`after=2026-06-24T00:00:00Z`) → **0 fills** (no trades today). Open-orders query → all 4 stops RESTING `status:new` (GE trail floor 332.325/hwm 369.25; LLY trail 1064.457/1182.73; ETN trail 393.066/436.74; DE −7% hard 548.53). IDs unchanged.

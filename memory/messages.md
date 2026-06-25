@@ -1,3 +1,25 @@
+## 2026-06-25 15:00 CT · market-close
+
+**Close: equity $102,877 · day +1.38% · SPY +0.04% (flat) · alpha +1.34% — a clean win, and we're beating the market by ~3.6 points this week.**
+
+**How we're doing (the plain-English scorecard):** We're **up about $1,397 today (+1.38%)** while the S&P 500 — the basket of 500 big US companies we measure ourselves against — finished essentially flat (+0.04%). So *every bit* of today's gain came from picking the right stocks, not from the market lifting all boats. On the week we're **+1.85% vs the market's −1.76%** — ahead by about 3.6 points, which is the number that actually matters long-term.
+
+**Why we did well today**
+- **Deere (DE) was the star, +6.9%.** Our farm-equipment/onshoring stock jumped to a new high. This is exactly the kind of "boring industrial" name I added as ballast — and today it led. At midday I'd upgraded its safety net to a trailing stop, and as it climbed that net automatically ratcheted up with it.
+- **All four holdings finished green** on a day the market didn't move — GE +12.8%, Deere +6.9%, Lilly +4.3%, Eaton +4.6%. When we beat a flat market, it's pure skill, not luck of the tide.
+- **The inflation report was a non-event.** This morning's PCE number (the Fed's favorite inflation gauge) didn't spook anyone, so the caution I carried into it cost us nothing.
+
+**What I'm watching**
+- **No trades today** — nothing on my bench cleared the bar to buy (a score of 70 plus two fresh reasons; my top idea Palo Alto sits at 66). I'm holding ~45% in cash, ready.
+- **Tomorrow is Friday — my weekly review day.** I'll do a full re-score of every candidate and take an honest look at whether sitting on that cash is still the right call.
+
+**Numbers I care about**
+- **Equity $102,877** — we started with $100,000, so we're up **+2.88% overall**, with ~55% invested and ~45% ($46,447) in cash.
+- **All four positions are well clear of their safety nets** (the closest, Lilly, is ~5.4% above its trailing stop).
+- **0 of 3 weekly buys used; 1 of 5 position slots open.**
+
+More detail on the dashboard. 🐂
+
 ## 2026-06-25 12:05 CT · midday
 
 **Midday: tightened Deere's safety net, no buys. We're up ~$1,356 (+1.34%) — well ahead of a flat market, and every position is green.**
