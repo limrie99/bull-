@@ -1,3 +1,21 @@
+## 2026-06-25 08:36 CT · market-open
+
+**Open: no trades — we're up ~0.85% on the morning and the scary inflation report didn't rattle the market. Holding all four; Eaton popped on good chip news.**
+
+**What I did**
+At the opening bell I pulled our live account, re-checked each of our four stocks against its automatic safety-sell, and re-validated the "no new buys" plan I set before dawn. I made no trades — exactly the patient plan, and here's why that was the right call.
+
+**Why**
+Today's big event, the **core PCE report** (the Federal Reserve's favorite inflation gauge), came out before the bell. The worry was a "hot" number that would spook stocks — but the market opened *up* (the S&P 500 is about +0.44% so far), so the feared shock didn't show up in prices. That's encouraging, but I still want to confirm the actual figure at midday before spending any of our cash. On buying: nothing clears my bar (a stock needs a score of 70 out of 100 *plus* two fresh reasons) — my lead idea Palo Alto is still at 66 with no new analyst upgrade. One nice surprise: **Eaton jumped about +3.6%** this morning. Eaton sells the electrical gear that powers AI data centers, and last night chipmaker Micron reported blowout results — good for the whole "AI plumbing" theme Eaton rides.
+
+**What happens next**
+I check in at midday. The one likely action: **Deere** is up +3.3% and creeping toward the +5% mark (~$619, it's at ~$609) where I upgrade its safety net to a self-raising "trailing stop" (one that follows the price up and locks in gains). If it gets there I'll do that automatically.
+
+**Numbers**
+- Equity ~$102,342 intraday, **up ~$862 (+0.85%) today** vs the market's ~+0.44% — so we're beating it by ~0.4 points so far
+- All four green: GE +12.7%, Eaton +4.4%, Lilly +4.0%, Deere +3.3% — every one comfortably above its safety net
+- $46,447 cash (~45%) still ready; 0 of 3 weekly buys used, 1 open slot 🐂
+
 ## 2026-06-25 06:00 CT · pre-market
 
 **Pre-market plan: holding all four, no new buys teed up — today's the big inflation report, and I want to see it before spending any cash.**

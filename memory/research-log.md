@@ -2046,3 +2046,21 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - Does the SPY-soft / book-green pattern hold, or does a relief bounce flip the day-shape (cash drag costs us on green-index days)?
 - DE's +5%→trailing conversion if it tags ~619.31 (~$21 above the 598.59 close) — standing task.
 - Watch into Thu 6/25 core PCE (8:30 ET): the deploy-or-defer pivot for the idle 5th slot. FDX Tue AMC / MU Wed AMC (semis vol) on the calendar — none held/watchlist.
+
+## 2026-06-25 08:36 CT (09:36 ET) — MARKET-OPEN routine
+
+**State:** Market OPEN (clock is_open:true, next_close 16:00 ET). Account: equity $102,342.19, cash $46,447.18, long_market_value $55,895.01, last_equity $101,480.08 (6/24 base), daytrade_count 0. Day P/L +$862.11 / +0.85%. SPY 737.70 (latest trade) vs 734.50 6/24 close = +~0.44% → day alpha +0.41 pts AHEAD (intraday). Week-to-date (base 6/18 close $101,006.72 / SPY 746.75): portfolio +1.32% vs SPY −1.21% → week alpha +2.53 pts AHEAD.
+
+**Trades this routine: NONE.** Pre-market defensive plan executed as written — nothing cleared 2 signals + Conviction ≥70 (PANW 66, JPM 65). No sells (all 4 green, worst is DE +3.28% net — none near −7%). Daily loss cap clean (UP +0.85%).
+
+**Positions (intraday marks):**
+- GE 45 @ 329.63, mark 371.615, +$1,889.33 / +12.74%. Trailing floor ratcheted to 335.178 (hwm 372.42, fresh high today). ~9.8% cushion.
+- LLY 14 @ 1078.46, mark 1121.81, +$606.95 / +4.02%. Trailing floor 1064.457 (hwm 1182.73). ~5.1% cushion. Held up fine through PCE despite being most rate-sensitive.
+- DE 22 @ 589.82, mark 609.185, +$426.03 / +3.28%. −7% HARD stop 548.53 (~10.0% cushion). **+5% conversion trigger ~619.31 — mark ~$10.13 / ~1.66% below. NOT tagged.** Standing task: when DE tags ~619.31, cancel hard stop a150583a → place 10% trailing GTC.
+- ETN 24 @ 401.5425, mark 419.37, +$427.86 / +4.44%. Trailing floor 393.066 (hwm 436.74; current below hwm so floor unchanged). ~6.3% cushion. **Bounced +3.65% today** — MU's overnight blowout beat-and-raise lifted AI-memory/data-center complex, supportive read-through for ETN's AI-power thesis.
+
+**Stops:** all 4 re-verified RESTING GTC status:new via GET /v2/orders?status=open — ETN cc843666 (393.066), GE b9dadf2d (335.178), LLY 6016a7e7 (1064.457), DE a150583a (548.53 hard).
+
+**Macro/event:** core PCE released pre-open (8:30 ET); consensus was +3.4% YoY uptick (hawkish surprise feared). Tape opened constructive — SPY +~0.44%, all four holdings higher — so the feared hawkish shock did NOT show in price. NOT independently re-confirming the actual print figure this routine (no Perplexity call at the open); midday should re-verify the number + any Fed-pricing reaction before treating the idle 5th slot as deploy-clear. MU blowout AMC 6/24 VERIFIED (per pre-market) lifting AI-memory complex.
+
+**No Telegram push** (market-open with no trades is not a push event per CLAUDE.md). Next routine: midday 2026-06-25 — primary watch: DE toward ~619.31 conversion trigger; confirm PCE print; ETN strength.
