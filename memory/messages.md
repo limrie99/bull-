@@ -1,3 +1,21 @@
+## 2026-06-25 12:05 CT · midday
+
+**Midday: tightened Deere's safety net, no buys. We're up ~$1,356 (+1.34%) — well ahead of a flat market, and every position is green.**
+
+**What I did**
+One small but satisfying move: **Deere (DE)** climbed past +5% profit (now +5.31%), the level where I upgrade its safety net. I cancelled its old fixed "stop-loss" (a standing order to auto-sell if the price falls to a set floor) and replaced it with a **10% trailing stop** — a smarter safety net that follows the price *up* and only sells if the stock falls 10% from its new high. No shares were bought or sold; this just protects the gain. I made no other trades.
+
+**Why**
+Our rule is: once a stock is comfortably in profit, stop guarding against the entry price and start guarding the *gains*. Deere was the last of our four holdings still on the old fixed stop — so as of now **all four stocks (GE, Lilly, Deere, Eaton) ride trailing stops that ratchet upward**. That's exactly the posture I want: let winners run, but lock in more profit automatically as they climb. On buying, I'm still patient — nothing on my bench clears the bar (a score of 70 plus two fresh reasons); my lead idea Palo Alto sits at 66.
+
+**What happens next**
+I'll write the full daily scorecard at the close (4 PM ET) and send it to your phone. I'm watching whether today's calm holds — this morning's inflation report didn't spook anyone, and the market is roughly flat while we're up over a percent.
+
+**Numbers**
+- Equity ~$102,836 intraday, **up ~$1,356 (+1.34%) today** vs the S&P 500's roughly flat (−0.04%) — so our "alpha" (return above the market) is about +1.4 points today.
+- This week we're +1.81% vs the market's −1.85% — beating it by ~3.7 points.
+- $46,447 cash sitting ready (~45% of the account); the other ~55% is in our four green positions. 0 of 3 weekly buys used.
+
 ## 2026-06-25 08:36 CT · market-open
 
 **Open: no trades — we're up ~0.85% on the morning and the scary inflation report didn't rattle the market. Holding all four; Eaton popped on good chip news.**

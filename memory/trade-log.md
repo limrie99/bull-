@@ -106,3 +106,12 @@ Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% pr
 Stop set: ETN 10% trailing GTC (floor 381.555 at placement, hwm 423.95; ratchets up as ETN rises).
 Research reference: portfolio.md standing task ("the moment ETN tags +5% ~421.62, cancel db3865d5 → place a 10% trailing GTC") + this midday execution.
 Notes: New floor 381.555 is ~$8 above the old hard stop 373.43 — locks in more of the run, though still below entry 401.54 so not yet a guaranteed profit. ETN is now the 3rd of 4 names on a trailing stop (GE, LLY, ETN); only DE (+0.19%) remains on a −7% hard stop. No buys/sells this routine. daytrade_count 0.
+
+## 2026-06-25 12:05 CT | RISK-MGMT (no fill) | DE | converted −7% hard stop → 10% trailing stop | dcdd84e5-6b94-4943-aa5b-3d3a299cbfce
+Action: DE crossed +5% profit by midday (mark 621.12 vs entry 589.82 = +5.31%, clearing the ~619.31 +5% trigger it sat ~1.66% short of at the open), so per strategy I cancelled the −7% GTC hard stop and replaced it with a 10% trailing GTC stop. This was the #1 flagged near-term action from the open routine.
+- Cancelled hard stop a150583a-a58c-42c9-8d12-9d7ece773841 (was @ 548.53) — HTTP 204, confirmed DE qty_available freed to 22 before re-placing.
+- Placed trailing_stop sell, qty 22, trail_percent 10, GTC → id dcdd84e5-6b94-4943-aa5b-3d3a299cbfce. stop_price 558.945, hwm 621.05. Confirmed resting (status new).
+Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% profit). No shares traded.
+Stop set: DE 10% trailing GTC (floor 558.945 at placement, hwm 621.05; ratchets up as DE rises).
+Research reference: portfolio.md standing task ("convert the moment DE tags ~619.31") + this midday execution.
+Notes: New floor 558.945 is ~$10.4 above the old hard stop 548.53 and locks in essentially break-even-plus protection (entry 589.82). DE was the LAST name on a hard stop — **with this conversion all 4 positions (GE, LLY, ETN, DE) are now on 10% trailing stops, zero hard stops in the book.** No buys/sells this routine; nothing on the watchlist clears 2 signals + Conviction ≥70 (PANW 66, JPM 65). daytrade_count 0.

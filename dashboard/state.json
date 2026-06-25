@@ -1,158 +1,103 @@
 {
-  "last_update": "2026-06-25 08:36 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-06-25 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 102342.19,
+  "equity": 102835.99,
   "cash": 46447.18,
-  "day_pl": 862.11,
-  "day_pl_pct": 0.85,
-  "spy_day_pct": 0.44,
-  "alpha_day_pct": 0.41,
-  "week_pl_pct": 1.32,
-  "spy_week_pct": -1.21,
-  "alpha_week_pct": 2.53,
+  "day_pl": 1355.91,
+  "day_pl_pct": 1.34,
+  "week_pl_pct": 1.81,
+  "spy_week_pct": -1.85,
+  "alpha_week_pct": 3.66,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 371.615,
-      "pl_pct": 12.74,
-      "stop": 335.178
+      "current": 373.87,
+      "pl_pct": 13.42,
+      "stop": 341.703
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1121.81,
-      "pl_pct": 4.02,
+      "current": 1129.10,
+      "pl_pct": 4.70,
       "stop": 1064.457
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 609.185,
-      "pl_pct": 3.28,
-      "stop": 548.53
+      "current": 621.12,
+      "pl_pct": 5.31,
+      "stop": 558.945
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 419.37,
-      "pl_pct": 4.44,
+      "current": 420.445,
+      "pl_pct": 4.71,
       "stop": 393.066
     }
   ],
   "recent_trades": [
     {
+      "date": "2026-06-25 12:05",
+      "side": "RISK-MGMT",
+      "symbol": "DE",
+      "qty": 22,
+      "price": 621.12
+    },
+    {
       "date": "2026-06-18 12:05",
       "side": "RISK-MGMT",
       "symbol": "ETN",
       "qty": 24,
-      "price": null,
-      "note": "Converted -7% hard stop to 10% trailing (crossed +5%); floor now ratcheted to 393.066 (hwm 436.74)"
+      "price": 423.79
     },
     {
       "date": "2026-06-15 08:37",
       "side": "RISK-MGMT",
       "symbol": "GE",
       "qty": 45,
-      "price": null,
-      "note": "Converted -7% hard stop to 10% trailing (crossed +5%)"
+      "price": 346.64
     },
     {
       "date": "2026-06-08 08:38",
       "side": "BUY",
       "symbol": "ETN",
       "qty": 24,
-      "price": 401.54
+      "price": 401.5425
     },
     {
-      "date": "2026-06-08 08:36",
-      "side": "BUY",
-      "symbol": "GE",
-      "qty": 45,
-      "price": 329.63
-    },
-    {
-      "date": "2026-06-05 13:52",
+      "date": "2026-06-05 09:40",
       "side": "SELL",
       "symbol": "NVDA",
       "qty": 55,
-      "price": 204.72
-    },
-    {
-      "date": "2026-06-04 08:35",
-      "side": "BUY",
-      "symbol": "DE",
-      "qty": 22,
-      "price": 589.82
-    },
-    {
-      "date": "2026-06-01 10:46",
-      "side": "BUY",
-      "symbol": "LLY",
-      "qty": 14,
-      "price": 1078.46
-    },
-    {
-      "date": "2026-06-01 10:46",
-      "side": "BUY",
-      "symbol": "NVDA",
-      "qty": 55,
-      "price": 220.15
+      "price": 204.7158
     }
   ],
   "latest_messages": [
     {
-      "ts": "2026-06-25 08:36 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades - we're up ~0.85% on the morning and the scary inflation report didn't rattle the market. Holding all four; Eaton popped on good chip news.",
-      "body": "At the opening bell I pulled our live account, re-checked each of our four stocks against its automatic safety-sell, and re-validated the 'no new buys' plan I set before dawn. I made no trades - exactly the patient plan. Today's big event, the core PCE report (the Federal Reserve's favorite inflation gauge), came out before the bell. The worry was a 'hot' number that would spook stocks - but the market opened UP (the S&P 500 is about +0.44% so far), so the feared shock didn't show up in prices. Encouraging, but I still want to confirm the actual figure at midday before spending cash. On buying: nothing clears my bar (a stock needs 70/100 PLUS two fresh reasons) - my lead idea Palo Alto is still at 66 with no new analyst upgrade. One nice surprise: Eaton jumped about +3.6% this morning. Eaton sells the electrical gear that powers AI data centers, and last night chipmaker Micron reported blowout results - good for the whole 'AI plumbing' theme Eaton rides. Next: I check in at midday. The one likely action: Deere is up +3.3% and creeping toward the +5% mark (~$619, it's at ~$609) where I upgrade its safety net to a self-raising 'trailing stop' that follows the price up and locks in gains. Numbers: equity ~$102,342 intraday, up ~$862 (+0.85%) today vs the market's ~+0.44% - beating it by ~0.4 points so far; all four green (GE +12.7%, Eaton +4.4%, Lilly +4.0%, Deere +3.3%), every one above its net; $46,447 cash (~45%) still ready; 0 of 3 weekly buys used, 1 open slot. 🐂"
+      "ts": "2026-06-25 12:05 CT",
+      "routine": "midday",
+      "headline": "Equity $102,836 · day +1.34% · alpha +1.38% · all 4 on trailing stops",
+      "body": "Converted Deere's fixed stop to a 10% trailing stop after it crossed +5% — now all four holdings ride upward-ratcheting trailing stops. No buys (nothing clears the 70 bar). Up ~$1,356 today vs a flat market; +3.7 pts ahead this week."
     },
     {
-      "ts": "2026-06-25 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: holding all four, no new buys teed up - today's the big inflation report, and I want to see it before spending any cash.",
-      "body": "Before the bell I ran my full analyst team in parallel - overnight markets, last night's earnings, a health check on each of our four stocks, and a hunt for new buys. No trading happens pre-market; this is me getting us ready for the open in ~2.5 hours. Two things shape today. First, the core PCE report (the Federal Reserve's favorite inflation gauge) lands at 7:30 our time - and I corrected an assumption I'd been carrying: economists expect inflation to tick UP to 3.4% (from 3.3%), not down. A 'hot' number tends to push interest rates higher, which would pressure our most rate-sensitive stock, Eli Lilly. So I'd rather see the print than buy blind. Second, last night chipmaker Micron reported blowout results and jumped ~17% after hours - good news for our Eaton (it sells the electrical gear that powers AI data centers), though I can't yet confirm chip stocks are actually trading up this morning. On buying: nothing clears my bar (70/100 AND two fresh reasons) - my lead idea, Palo Alto Networks, is still stuck at 66 with no new analyst upgrade. Next: I check in at the open and midday, watching Eaton on the live tape after Micron's report, and Deere - if it climbs ~3% more (~$619) I'll upgrade its safety net to a self-raising trailing stop. Numbers: equity ~$101,702 pre-market (early, unofficial), ~+1.7% above our $100,000 start; four stocks ~+$2,710 unrealized (GE +11.3%, Lilly +3.6%, Eaton +2.6%, Deere +1.8%), all above their nets; $46,447 cash (~46%) ready after the report; 0 of 3 weekly buys used, 1 open slot. 🐂"
+      "ts": "2026-06-25 08:36 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades · day +0.85% · inflation report didn't rattle the market",
+      "body": "Held all four; re-validated the no-buy plan. Core PCE came out calm — market opened up. Eaton +3.6% on Micron's blowout chip results. Watching Deere toward its +5% trailing-stop upgrade."
     },
     {
       "ts": "2026-06-24 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $101,683 · day +0.94% · SPY +0.12% · alpha +0.82% - a green day, and we edged out the market two days running.",
-      "body": "I woke for the closing bell, pulled our official end-of-day account, checked all four positions against their automatic safety-sells, and confirmed today's trade tally: none. So I made no trades - the calm 'hold and stay ready' plan I set before dawn carried us through the whole day. This is the official scorecard the morning's numbers only previewed. We finished UP about $947 (+0.94%) while the overall market (the S&P 500, which I track with a fund called SPY) was basically flat at ~+0.12% - so we beat the market by roughly 0.82 points of 'alpha' (the extra return above just owning the index). The feared follow-through from this week's tech and computer-chip sell-off never arrived; our non-tech anchors did the work: GE (our jet-engine maker) is now up ~+11% since we bought it, with Eli Lilly and Deere both green. I held off buying because nothing clears my bar (70/100 plus two fresh reasons), and a big inflation report lands tomorrow - I'd rather see it than spend cash blind. Next: tomorrow's core PCE (the Fed's favorite inflation gauge) at 7:30 our time is my decide-or-wait moment for putting idle cash to work. I'm watching Eaton, our most chip-tied stock - it slipped a touch into the close and chipmaker Micron reported tonight, so tomorrow could be bumpy; if it falls far enough its self-raising safety-sell handles it automatically. Deere is still just below the +5% mark where I tighten its net. Numbers: equity $101,683, up +$947 (+0.94%) today vs the market's ~+0.12% - now ~+1.7% above our $100,000 start and +2.3 points ahead of the market for the week. Four stocks worth ~$55,236, up +$2,692 unrealized (GE +11.0%, Lilly +3.6%, Deere +3.4%, Eaton +0.8%), all above their nets. $46,447 cash (~46%) ready after tomorrow's report; 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-24 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes - we're up about +1% on the day and still ahead of the market.",
-      "body": "I pulled our live account at lunchtime, checked every position against its automatic safety-sell, and re-ran my buy checklist. Everything was already where I want it, so no trades - same calm plan from this morning, just confirmed against fresh prices. The big tech sell-off everyone feared still hasn't shown up; instead our account is UP about +1% today, with GE (our jet-engine maker) doing most of the lifting - now up ~+11% since we bought it. All four holdings are green, none near their safety nets, so nothing to sell. And nothing on my buy bench clears my high bar (70/100 plus two fresh reasons), so I'm not forcing a purchase - especially with tomorrow's big inflation report (core PCE, the Fed's favorite price gauge) coming. One thing I'm watching: Deere is getting close to a milestone (+5% profit) where I swap its fixed safety-sell for a smarter 'trailing' one that rises with the stock and locks in gains. Next: my end-of-day check at the close is the one that counts - that's where I give you the official scorecard vs. the S&P 500 and a Telegram note. I'm watching Deere toward that +5% mark and Eaton tonight, since chipmaker Micron reports after the bell. Numbers: equity ~$101,711, up ~+$974 (+0.97%) today - ahead of the S&P 500's ~+0.4%; ~$46,447 cash (~46%) ready to deploy after tomorrow's inflation report; Deere ~1.6% from the +5% point where I tighten its net. 🐂"
-    },
-    {
-      "ts": "2026-06-24 08:36 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades - the feared big drop didn't happen, and we're holding our four winners.",
-      "body": "At the bell I pulled our live account, double-checked all four automatic safety-sells are still in place, and re-ran my buy checklist against today's prices. Nothing needed doing, so no trades - exactly the plan I set before dawn. Yesterday's worldwide sell-off in tech and computer-chip stocks had everyone braced for a rough open; it didn't come - we actually opened UP about half a percent, so no fire to put out. On the buy side, my bar is high on purpose (a stock needs 70/100 plus two fresh reasons), and nothing clears it: my closest candidates, Palo Alto Networks and JPMorgan, are good companies but lack a fresh catalyst (a specific upcoming event, like earnings, that moves a stock). With a major inflation report tomorrow (core PCE, the Fed's favorite price gauge), keeping cash ready beats forcing a trade. Our non-tech names - GE, Deere, Lilly - are doing exactly the cushioning job they were picked for. Next: I check in at midday, watching Eaton most closely - its safety-sell sits ~3% below today's price; if the chip slide resumes after Micron reports tonight, that net sells it for us and locks a small gain, no action needed. Numbers: equity ~$101,285, up ~+$548 (+0.54%) so far, roughly in line with the market (S&P 500 up ~+0.5%); four stocks ~+$2,277 unrealized (GE +8.9%, Lilly +4.5%, Deere +1.2%, Eaton +1.2%), all comfortably above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-24 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: holding all four and keeping cash ready — markets are jittery after a big drop in tech stocks, and a key inflation report lands tomorrow.",
-      "body": "Before the bell I ran my full analyst team — overnight markets, today's earnings, a health check on our four stocks, and a hunt for new buys (no trading happens pre-market). Two things shape today. First, yesterday saw a sharp worldwide sell-off in technology and computer-chip ('semiconductor') stocks — so steep South Korea's market hit a 'circuit breaker' (an automatic timeout after a big plunge). That's why our Eaton fell 7% Tuesday; I confirmed it was the whole group dropping, not bad news about Eaton — its story is intact. Second, the Federal Reserve (the central bank that sets interest rates) has turned tougher, and a key inflation report (core PCE, the Fed's favorite price gauge) lands tomorrow. So I'm staying defensive: nothing clears my buy bar (70/100 plus two fresh reasons), and today our cash is a cushion, not a drag. Our non-tech stocks — GE, Deere, Lilly — are the ballast built for a day like this. Next: I check in at the open and midday, watching Eaton most closely — its automatic safety-sell sits ~4% below today's price; if the slide continues it sells for us and locks a small gain, no action needed. Numbers: equity ~$100,835 pre-market (early, unofficial), ~+0.8% above our $100,000 start; four stocks ~+$1,843 unrealized (GE +8.0%, Lilly +2.9%, Eaton +1.8%, Deere +0.4%), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-23 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $100,701 · day -0.77% · SPY -1.43% · alpha +0.66% - red day, but we lost only half what the market did.",
-      "body": "We lost about $783 today (-0.77%) - a red day. But the win hiding inside it: the overall stock market (the S&P 500, which I track with an index fund called SPY) fell -1.43%, almost twice as much. So we beat the market by ~0.66 points ('alpha' - the extra return vs. just owning the index). On a down day, losing less than the market is exactly the job. It was a broad 'risk-off' day - investors pulled back, hitting tech and AI-related stocks hardest. The whole loss happened at the opening bell; from there we drifted slightly back up into the close, so things steadied. Eaton (ETN) was our sore spot, down 7% - it's our most AI-power-tied stock, so it gets shaken most when AI names sell off. It's still a small winner (+0.9%), and its automatic 'trailing stop' (a safety-sell that follows the price up and locks in gains) sits ~3% below today's price; if it keeps falling, that net sells it for us - no action needed. GE (+0.38%) and Eli Lilly (+0.27%) finished GREEN while the market was red - the ballast doing its job. Deere slipped -1.1% but is still fractionally ahead. No trades - nothing cleared my buy bar, and I'm holding fire ahead of Thursday's big inflation report (core PCE, the Fed's favorite price gauge). Next: whether Eaton steadies, and Thursday's print - my decision point on putting idle cash to work. We're 2 days into the week and ahead of the market by +1.46 points. Numbers: equity $100,701 (still ~+0.7% above our $100,000 start); day -$783 (-0.77%) vs SPY -1.43%, beat the market by +0.66 pts; cash $46,447 (~46%), four holdings worth ~$54,254. 🐂"
-    },
-    {
-      "ts": "2026-06-23 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades - holding all four. A soft, red open (down ~1% so far), with Eaton taking the brunt.",
-      "body": "The bell rang at 8:30 our time. I confirmed trading was live on the official clock, pulled our real account, and re-checked my pre-market plan against the live opening prices. The plan held: no buying, no selling, and all four automatic safety-sell orders are resting in place. Why no trade: nothing clears my bar (a stock needs 70/100 AND two fresh reasons to buy) - my lead idea, Palo Alto Networks (cybersecurity), is stuck at 66 with no new analyst upgrades and no insiders buying. And the market is jumpy ahead of Thursday's big inflation report (core PCE, the Fed's favorite price gauge), so I'd rather see it first. On the sell side, nobody is near a danger line - our weakest, Deere, is only fractionally red. Next: I check in at midday. I'm watching Eaton, which opened down ~6% on a soft day for tech-and-power stocks; it's still a winner (+2.3%) and its self-raising safety net sits ~4% below today's price, so if it keeps sliding that net auto-sells and locks in a gain - nothing for me to do by hand. Numbers: equity ~$100,371 at the open, down ~$1,113 (-1.1%) so far today (early, unofficial; official scorecard at the close), still ~+1% above our $100,000 start. Four stocks ~+$1,379 unrealized: GE +6.1%, Lilly +2.6%, Eaton +2.3%, Deere -1.0%, all above their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
+      "headline": "Quiet close · holding four green positions · beating the market this week",
+      "body": "No trades. Defensive posture held into a risk-off tape; book ahead of SPY on the week."
     }
   ]
 }
