@@ -1,3 +1,37 @@
+## 2026-06-25 06:00 CT (07:00 ET) — pre-market (Thu, day 4 of the week)
+
+**Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 07:03 ET, next_open 2026-06-25 09:30 ET — opens in ~2.5h). Inbox: **nothing pending.** Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$101,702.45**, last_equity $101,480.08, cash **$46,447.18** (unchanged), long_market_value **$55,255.27** (~54.3% invested / ~45.7% cash), daytrade_count 0, PDT false. Open-orders query → **all 4 stops RESTING `status:new`**, IDs unchanged: GE trail floor 332.325/hwm 369.25; LLY trail 1064.457/1182.73; ETN trail 393.066/436.74; DE −7% hard 548.53. No trades placed (market closed; pre-market is research-only). Sub-agent team (macro, earnings, position, scout) run in parallel.
+
+### Market context
+- **THE day's pivot = Core PCE, 8:30 ET (today).** Macro analyst flagged a **material correction to our standing assumption:** consensus for May core PCE is **+3.4% YoY (+0.3% m/m), an UPTICK from the prior 3.3%** — NOT the ~3.2% softening our notes had assumed. So the bar is for inflation to tick *higher*, and surprise risk skews hawkish. In-line +3.4% is partly priced (confirms no-cuts path); a hot ≥3.5% pushes yields up and hits rate-sensitive/high-multiple names (LLY most exposed of ours); a cool ≤3.2% is the genuine dovish/risk-on surprise. **Gap risk HIGH and event-driven — nothing should be acted on before the 8:30 print and the tape's reaction.**
+- **Futures:** ES (S&P 500) **~+0.6% green** (verified). NQ (Nasdaq) not verifiable this morning. Modestly green but fragile into the print.
+- **Rates/FX/commodities, global indices, Fed pricing:** macro analyst **could NOT verify** live 10Y/2Y/DXY/oil/gold quotes, Asia/Europe closing levels, or fed-funds pricing this morning (Perplexity retrieval gap past mid-June — a recurring limit, treat as "unconfirmed," not as confirmed calm). **Status of the 6/23 semis rout (SOX −7.9%, KOSPI −10% circuit breaker) is UNKNOWN — a real open-question risk today.** Do not assume it reversed.
+- **MU (Micron) reported AMC 6/24 — blowout beat-and-raise (VERIFIED by earnings analyst across sources):** fiscal Q3 non-GAAP **EPS $25.11 vs ~$20.98**, **revenue $41.46B vs ~$35.91B**, both clean beats; Q4 guide well above Street (~$30–32 EPS / ~$49–51B rev, direction well-supported, exact ranges lower-confidence); stock **+16.9% AH**. Pre-market move for 6/25 not verifiable. Read-through: bullish for the AI-memory/data-center demand theme → **qualitatively supportive for ETN's AI-power thesis**, but with semis pre-market tape unconfirmed, do NOT assume the rout reversed — manage ETN on the actual open tape, not the inference. (Note: the scout's separate call could not independently verify the MU print; the earnings analyst's multi-source verification is the one I'm trusting, with the caveat flagged.)
+
+### Portfolio watch (all 4 theses INTACT — no broken thesis, no buy-blocking news; position analyst)
+- **GE** +11.33% (mark 366.99) — no verifiable 24h news; aerospace/defense aftermarket intact. Book anchor. Earnings ~Jul 16. **HOLD.**
+- **LLY** +3.57% (mark 1117.00) — no verifiable GLP-1/pipeline news; thesis intact. **Most rate-sensitive holding → the name most exposed to a HOT PCE print this morning** (macro, not fundamental). Trailing floor 1064.457 (~4.7% below). **HOLD.**
+- **DE** +1.82% (pre-market mark 600.56) — no verifiable news; ag/onshoring thesis intact. Lone name on the −7% hard stop (548.53). **+5% trailing-conversion trigger ~619.31 — pre-market mark ~3.1% / ~$18.75 below; NOT tagged.** HOLD; convert the moment it tags ~619.31 (cancel a150583a → place 10% trailing GTC). *(Pre-market 600.56 < yesterday's 610.00 close is thin/stale pre-market quoting; reassess on the real open tape.)*
+- **ETN** +2.63% (pre-market mark 412.10) — no ETN-specific news; thesis intact, **sentiment improving on MU's beat-and-raise** (AI data-center power tailwind). Highest-beta name; trailing floor 393.066 (~4.6% below the 412.10 pre-market mark — wider than yesterday's ~2.85% as ETN ticked up). If semis re-rate lower post-MU/post-PCE, the trailing stop auto-sells above entry; no manual action. **HOLD.**
+- Risk checks: (a) −7% net drawdown — worst is DE/LLY, all 4 green, none near −7%; (b) +5% conversions — GE/LLY/ETN done, DE pending at ~619.31 (not tagged); (c) daily loss cap — n/a pre-market.
+
+### Buy candidates — NOTHING clears the gate (2+ signals AND Conviction ≥70); scores unchanged
+- **PANW 66** (lead) — the missing piece STILL did not appear: **no fresh <2wk analyst upgrade and no insider open-market BUY** (last real upgrade Guggenheim Jan 5 stale; all PT actions cluster 6/1–6/3 around the 6/2 beat, now ~23d stale; insiders net sellers). Uptrend + cybersecurity secular hold, but the 6/2 beat-and-raise is well outside the "last week" window for signal #1. Stays lead, no buy at 66.
+- **JPM 65** — clean uptrend, financials sleeve, but no dated <2wk catalyst; next trigger Q2 earnings **Jul 14** (re-screen Jul 7–14). No buy.
+- **AVGO 58** — high-beta semis, overlaps ETN. MU's print does NOT lift the score: even if AI-semis read improves, adding high-beta semis into a hawkish PCE print + an unconfirmed-status rout is the wrong posture. **Explicitly OFF the table today.**
+- **PWR 52 / ORCL 48** — unchanged, no new data.
+- **New beat-and-raise candidate?** **None verifiable** in the 6/18–24 window (both scout and earnings analyst declined to name one rather than fabricate; data-recency the honest blocker). Today's large-cap reporters (DRI, MKC, SNX — all AM) are consumer/IT-distribution names with no buy catalyst.
+
+### Sell candidates — NONE
+- No −7% net drawdown, no thesis-breaker, no fundamentals deterioration. All 4 HOLD.
+
+### Plan for the open / decision
+- **No trades pre-market (market closed).** Posture stays **defensive into the 8:30 PCE print** — do not deploy the idle 5th slot before the number and the tape's reaction. Cash (~46%) is a cushion today, not a drag (up-week, 3 of 4 on trailing stops, ballast book built for exactly this tape; beat SPY last week + 6/22/23/24).
+- **DE +5% conversion** is the most likely near-term mechanical action — watch for ~619.31 at open/midday.
+- **ETN** is the name to watch on the open tape — narrowest-beta exposure into the MU/semis read + PCE; trailing stop handles a downside auto-exit.
+- Market-open routine: re-validate on the live tape; only act if PCE+open hand a genuine 2-signal + ≥70 setup (none teed up).
+
+---
 ## 2026-06-24 15:00 CT (16:00 ET) — market-close (Wed, day 3 of the week) — OFFICIAL SCORECARD
 
 **Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 16:04 ET, next_open 2026-06-25 09:30 ET). Inbox: **nothing pending.** Alpaca official close: equity **$101,683.58**, last_equity **$100,736.85** (6/23 official close = base), cash **$46,447.18** (unchanged), long_market_value **$55,236.40** (~54.3% invested / ~45.7% cash), daytrade_count 0, PDT false. Closed-orders query for 6/24 (`after=2026-06-24T00:00:00Z`) → **0 fills** (no trades today). Open-orders query → all 4 stops RESTING `status:new` (GE trail floor 332.325/hwm 369.25; LLY trail 1064.457/1182.73; ETN trail 393.066/436.74; DE −7% hard 548.53). IDs unchanged.

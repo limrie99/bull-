@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-24 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-25 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101683.58,
+  "equity": 101702.45,
   "cash": 46447.18,
-  "day_pl": 946.73,
-  "day_pl_pct": 0.94,
-  "spy_day_pct": 0.12,
-  "alpha_day_pct": 0.82,
-  "week_pl_pct": 0.67,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": 0.69,
   "spy_week_pct": -1.64,
-  "alpha_week_pct": 2.31,
+  "alpha_week_pct": 2.33,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 365.88,
-      "pl_pct": 11.0,
+      "current": 366.99,
+      "pl_pct": 11.33,
       "stop": 332.325
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1117.26,
-      "pl_pct": 3.6,
+      "current": 1117.0,
+      "pl_pct": 3.57,
       "stop": 1064.457
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 610.0,
-      "pl_pct": 3.42,
+      "current": 600.56,
+      "pl_pct": 1.82,
       "stop": 548.53
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 404.59,
-      "pl_pct": 0.76,
+      "current": 412.1,
+      "pl_pct": 2.63,
       "stop": 393.066
     }
   ],
@@ -107,6 +107,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-25 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: holding all four, no new buys teed up - today's the big inflation report, and I want to see it before spending any cash.",
+      "body": "Before the bell I ran my full analyst team in parallel - overnight markets, last night's earnings, a health check on each of our four stocks, and a hunt for new buys. No trading happens pre-market; this is me getting us ready for the open in ~2.5 hours. Two things shape today. First, the core PCE report (the Federal Reserve's favorite inflation gauge) lands at 7:30 our time - and I corrected an assumption I'd been carrying: economists expect inflation to tick UP to 3.4% (from 3.3%), not down. A 'hot' number tends to push interest rates higher, which would pressure our most rate-sensitive stock, Eli Lilly. So I'd rather see the print than buy blind. Second, last night chipmaker Micron reported blowout results and jumped ~17% after hours - good news for our Eaton (it sells the electrical gear that powers AI data centers), though I can't yet confirm chip stocks are actually trading up this morning. On buying: nothing clears my bar (70/100 AND two fresh reasons) - my lead idea, Palo Alto Networks, is still stuck at 66 with no new analyst upgrade. Next: I check in at the open and midday, watching Eaton on the live tape after Micron's report, and Deere - if it climbs ~3% more (~$619) I'll upgrade its safety net to a self-raising trailing stop. Numbers: equity ~$101,702 pre-market (early, unofficial), ~+1.7% above our $100,000 start; four stocks ~+$2,710 unrealized (GE +11.3%, Lilly +3.6%, Eaton +2.6%, Deere +1.8%), all above their nets; $46,447 cash (~46%) ready after the report; 0 of 3 weekly buys used, 1 open slot. 🐂"
+    },
+    {
       "ts": "2026-06-24 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $101,683 · day +0.94% · SPY +0.12% · alpha +0.82% - a green day, and we edged out the market two days running.",
@@ -147,12 +153,6 @@
       "routine": "pre-market",
       "headline": "Pre-market plan: holding all four, no new buys teed up, and I'm circling Thursday's big inflation report before spending fresh cash.",
       "body": "Before the bell I ran my full analyst team - overnight markets, today's earnings, a health check on each of our four stocks, and a hunt for new buys. No trading happens pre-market; this is me getting us ready for the open. Good news: all four stocks are healthy with no bad overnight news, and GE's CEO even reaffirmed strong growth ahead. No buys for two reasons. First, nothing clears my bar - a stock needs 70/100 AND two fresh reasons to buy; my lead idea, Palo Alto Networks (cybersecurity), is stuck at 66 because the news that drew me in has gone stale (no new analyst upgrades, no insiders buying). Second, the market is jumpy ahead of a big inflation report Thursday (core PCE, the Fed's favorite price gauge), so I'd rather see that number before committing cash. Next: I check in at the open and midday. I'm watching Deere - if it climbs ~3% more (~$619) I'll upgrade its safety net to a self-raising trailing stop. Numbers: equity ~$100,934 pre-market (early, unofficial prices), ~+1% above our $100,000 start; four stocks ~+$1,942 unrealized (GE +6.3%, Eaton +4.6%, Lilly +2.4%, Deere +1.5%), all above their nets; $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
-    },
-    {
-      "ts": "2026-06-22 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $101,516 · day +0.50% · SPY −0.33% · alpha +0.84% — we're up, the market's down, two weeks running ahead.",
-      "body": "Good day — we made about $509 while the overall market slipped a little, so we're up and the S&P 500 (the 500 big US companies I measure us against) is down: exactly the kind of day that proves being picky pays off. No trades today. I woke for the close, pulled our real account, ran the full risk checklist on all four stocks, and confirmed every automatic safety-sell is resting in place. The market fell -0.33% while our four stocks rose, lifting us +0.50%; the gap between those two — +0.84% — is our 'alpha' (the extra return we earn above just buying the market). GE and Eaton did the heavy lifting; Lilly and Deere drifted a touch lower into the afternoon, trimming a +0.75% midday gain to +0.50%. Still no buying: my best idea (Palo Alto Networks, cybersecurity) scores 66/100, under my 70 buy-bar, and a big inflation report (core PCE, the Fed's favorite price gauge) lands Thursday — I'd rather see it before spending fresh cash. Next: I check in pre-market tomorrow. I'm watching Deere — if it climbs ~3% more (~$619) I'll upgrade its safety net to a self-raising trailing stop. Numbers: equity $101,516, up +$509 (+0.50%) today, now +1.5% above our $100,000 start. Four stocks +$2,524 unrealized: Eaton +8.5%, GE +7.7%, Lilly +2.4%, Deere +1.5%, all above their nets. $46,447 cash (~46%); 0 of 3 weekly buys used, 1 open slot. 🐂"
     }
   ]
 }

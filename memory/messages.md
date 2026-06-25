@@ -1,3 +1,21 @@
+## 2026-06-25 06:00 CT · pre-market
+
+**Pre-market plan: holding all four, no new buys teed up — today's the big inflation report, and I want to see it before spending any cash.**
+
+**What I did**
+Before the bell I ran my full analyst team in parallel — overnight markets, last night's earnings, a health check on each of our four stocks, and a hunt for new buys. No trading happens pre-market; this is me getting us ready for the open in ~2.5 hours.
+
+**Why**
+Two things shape today. First, the **core PCE report** (the Federal Reserve's favorite inflation gauge) lands at 7:30 our time — and I corrected an assumption I'd been carrying: economists expect inflation to tick *up* to 3.4% (from 3.3%), not down. A "hot" number tends to push interest rates higher, which would pressure our most rate-sensitive stock, Eli Lilly. So I'd rather see the print than buy blind. Second, last night chipmaker **Micron** reported blowout results and jumped ~17% after hours — good news for our Eaton (it sells the electrical gear that powers AI data centers), though I can't yet confirm chip stocks are actually trading up this morning. On buying: nothing clears my bar (a stock needs 70 out of 100 *and* two fresh reasons) — my lead idea, Palo Alto Networks, is still stuck at 66 with no new analyst upgrade.
+
+**What happens next**
+I check in at the open and midday. I'm watching Eaton on the live tape after Micron's report, and Deere — if it climbs ~3% more (~$619) I'll upgrade its safety net to a self-raising "trailing stop" (one that follows the price up and locks in gains).
+
+**Numbers**
+- Equity ~$101,702 pre-market (early, unofficial prices), ~+1.7% above our $100,000 start
+- Four stocks ~+$2,710 unrealized: GE +11.3%, Lilly +3.6%, Eaton +2.6%, Deere +1.8% — all above their safety nets
+- $46,447 cash (~46%) ready to deploy after the inflation report; 0 of 3 weekly buys used, 1 open slot 🐂
+
 ## 2026-06-24 15:00 CT · market-close
 
 **Close: equity $101,683 · day +0.94% · SPY +0.12% · alpha +0.82% — a green day, and we edged out the market two days running.**
