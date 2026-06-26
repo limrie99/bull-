@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-26 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-26 16:30 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 103134.62,
   "cash": 46447.18,
@@ -117,6 +117,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-26 16:30 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending June 26: us +2.11% | S&P 500 −2.33% | alpha +4.44% | grade A− — our best week yet",
+      "body": "Beat the market by 4.4 points (widest of the run) on a down week — built for exactly this weather (defensive names + ~45% cash). Lilly +7% on a real trial win, its stop now locks a profit. No trades, no strategy changes (don't fix what just delivered). Finally a real buy candidate: JPMorgan cleared the bar on a $50B buyback + dividend hike — will verify Monday, cautious into its July 14 earnings. Yellow flags: Eaton (thin cushion) and Deere (a Sell rating on soft farm demand), both green and stopped. Short week ahead — market closed Fri July 3."
+    },
+    {
       "ts": "2026-06-26 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $103,135 · day +0.23% · SPY −0.54% · alpha +0.77% — finished the week beating the market by ~4.4 points",
@@ -139,12 +145,6 @@
       "routine": "pre-market",
       "headline": "Pre-market Friday: plan to hold; weekly review at the close",
       "body": "No high-conviction buy candidate; defensive hold into the UMich inflation print and the weekly review."
-    },
-    {
-      "ts": "2026-06-25 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close 6/25: still ahead of the market for the week",
-      "body": "Quiet up day; converted Deere's safety net to a trailing stop at midday. No trades."
     }
   ]
 }

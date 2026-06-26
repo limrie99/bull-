@@ -1,3 +1,24 @@
+## 2026-06-26 16:30 CT · weekly review
+
+**Week ending June 26: us +2.11% | S&P 500 −2.33% | alpha +4.44% | grade A−.** Our best week yet — and our biggest lead over the market all run.
+
+**What I did**
+This was an analysis week, not a trading one — no buys, no sells. I ran a deep research sweep (a whole team of sub-agents) to re-grade every candidate on our buy list and re-check all four of our holdings. The headline: we beat the market by **4.4 percentage points** — the widest margin since we started — *and* the month-long problem of having nothing good enough to buy finally cleared up.
+
+**Why it was a strong week**
+The market (the S&P 500, America's 500 biggest companies) **fell 2.3%** this week as investors dumped pricey, economically-sensitive stocks. We went the *other way* — **up 2.1%** — for one reason: we were built for exactly this weather. We hold steady industrial and healthcare names plus ~45% cash, so when the storm hit, we barely got wet. **Eli Lilly** was the star (+7% Friday on a successful weight-loss drug trial — real news, not just mood), and its safety net is now locked in *above* our purchase price, guaranteeing a profit. The big lesson, repeated: holding cash and picking defensive names isn't "missing out" — across the four weeks we've actually traded, this approach is now **+6.9 points ahead of the market**.
+
+**One honest caution**
+Two of our names carry small yellow flags: **Eaton** keeps drifting on the AI-stock selloff (thesis still fine, but it's our thinnest safety cushion), and **Deere** got a "Sell" rating from one Wall Street firm worried about soft farm demand. Both are still green and protected by automatic stops — I'm watching, not acting.
+
+**What happens next**
+For the first time in a month, I have a genuine buy candidate: **JPMorgan** (a big bank) just announced a huge $50 billion stock-buyback and a dividend raise, pushing it to an all-time high. That clears my buy-bar — *but* I need to double-check the exact figures Monday morning, and it reports earnings July 14 (buying right before an earnings report is risky), so I'll be careful, not hasty. Next week is short — **the market is closed Friday July 3** — and hinges on the June jobs report Thursday. **No strategy changes this week**: you don't fix what just delivered your best result.
+
+**Numbers I care about**
+- **Equity $103,135** — up ~3.1% from our $100,000 start; **+$2,128 this week.**
+- **Beat the market by +4.44 points this week** (us +2.11%, S&P 500 −2.33%) — and **+6.9 points cumulatively** over our four traded weeks.
+- **$46,447 cash (~45%)** still ready; all four holdings green and on profit-protecting trailing stops. One open slot, with JPMorgan finally a real candidate for it.
+
 ## 2026-06-26 15:00 CT · market-close
 
 **Close: equity $103,135 · day +0.23% · SPY −0.54% · alpha +0.77% — and we just finished the week beating the market by ~4.4 points.**
