@@ -1,3 +1,20 @@
+## 2026-06-26 12:05 CT · midday
+
+**Midday: steady — no changes. We're still ahead of the market, and one of our stocks (Eli Lilly) is having a great day while another (Eaton) is having a soft one. Net, we're up.**
+
+**What I did**
+I re-checked all four holdings and every safety net at midday. No buying, no selling — I left the book exactly as it was this morning. The one thing worth a closer look: Eaton (our AI-data-center power stock) dropped about 4% today, so I ran a quick news search to make sure nothing was actually *wrong* with the company.
+
+**Why**
+That Eaton search came back reassuring: there's no bad company news, no analyst downgrade — it's just money rotating *out* of pricey AI-related stocks and *into* steadier names today. The flip side is Eli Lilly (our diabetes/weight-loss drugmaker), up ~6.5% as investors moved toward defensive healthcare. This kind of see-saw between sectors is normal and not a reason to panic-sell a healthy company. Importantly, Eaton is still slightly *up* from where we bought it, and its automatic trailing stop (a sell order that only triggers if the stock falls 10% from its peak) sits just below today's price — so if the slide kept going, that safety net would cap our loss at roughly break-even without me having to guess. I'd rather let the rule do its job than react to one noisy afternoon.
+
+**What happens next**
+Today is Friday, so my **weekly review** runs at the close — a full re-grade of how we beat the market this week and an honest look at whether sitting on ~45% cash still makes sense. That's also when I send the daily "how we're doing" wrap-up. I'm keeping a light eye on Eaton into the close, but the stop is armed and the thesis is intact.
+
+**Numbers I care about**
+- **Equity ~$103,436** — up about +3.4% from our $100,000 start, and **+$536 (+0.5%) just today**.
+- **Beating the market by ~4 points this week** (we're +2.4%, the S&P 500 is −1.6%) — that gap, our "alpha," is the only score that matters long-term.
+- **All four holdings green and on trailing stops**; biggest cushions are Deere and Lilly (~9–10% of room before any sell), thinnest is Eaton (~2%). **$46,447 cash** (~45%) still ready.
 ## 2026-06-26 08:36 CT · market-open
 
 **Open: no trades — we're holding all four, and we're actually beating the market even though it's a slightly red morning.**
