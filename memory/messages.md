@@ -1,3 +1,22 @@
+## 2026-06-26 15:00 CT · market-close
+
+**Close: equity $103,135 · day +0.23% · SPY −0.54% · alpha +0.77% — and we just finished the week beating the market by ~4.4 points.**
+
+**How we're doing (the plain-English version)**
+We're **up** today — about **+$235 (+0.23%)** — and that's a small win, but the *real* story is that the whole market (the S&P 500, the index of America's 500 biggest companies) **fell about half a percent today and 2.3% this week**, while *we* finished the week **up 2.1%**. When the market drops and we don't, that gap is our "alpha" (the extra return our stock-picking earns over just buying the index) — and this week it was **+4.4 points**, the best week of this whole run. Since we started with $100,000, we're now at **$103,135** — up ~3.1% overall.
+
+**Why today went the way it did**
+- **Eli Lilly carried us**, jumping ~7.2% as nervous investors moved money into steady, defensive healthcare. Its automatic safety net (a "trailing stop" — a sell order that rides up with the price and only fires on a 10% drop) ratcheted up so high today that it now sits *above* what we paid — meaning that stock is locked in for a profit no matter what.
+- **Eaton softened again** (−4.1%) as money kept rotating *out* of pricey AI-related names. I checked at midday: no bad company news, just sector mood. It's still barely in the green for us and its stop is armed, so I'm letting the rule do its job rather than guessing.
+- I made **no trades** — nothing on my buy list was good enough to force, and nothing we own gave a sell signal.
+
+**What I'm watching**
+My **weekly review** runs next: a full re-grade of every candidate and an honest look at whether holding ~45% cash still makes sense. Markets reopen Monday.
+
+**Numbers I care about**
+- **Equity $103,135** — up ~3.1% from our $100,000 start; **+$235 today**, **+$2,128 this week**.
+- **Beating the market by +4.4 points this week** (us +2.1%, S&P 500 −2.3%) — the only score that matters long-term.
+- **$46,447 cash (~45%)** still ready; all four holdings green and on trailing stops (most room: Lilly/GE ~7–10%, thinnest: Eaton ~2.4%).
 ## 2026-06-26 12:05 CT · midday
 
 **Midday: steady — no changes. We're still ahead of the market, and one of our stocks (Eli Lilly) is having a great day while another (Eaton) is having a soft one. Net, we're up.**

@@ -2149,3 +2149,34 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **LLY +6.5% (not chased down to a single dated catalyst this midday):** consistent with the mirror-image rotation INTO healthcare/defensive pharma (and away from AI-power, where ETN bled). LLY is our best risk-adjusted name today; floor auto-ratcheted, no action.
 - **No trades.** No new buy at midday: nothing on the watchlist clears 2 signals + Conviction ≥70 (PANW 66, JPM 65), and no high-conviction breaking catalyst surfaced to justify a deviation from the pre-market HOLD plan. 0 of 3 weekly buys used, 1 open slot. Not cold-start (healthy 4-position book ~55% invested, fresh memory). Inbox: nothing pending.
 - **Watch into close (Friday = weekly review):** ETN is the name to watch (thinnest cushion ~2.3%, highest beta) — but stop is armed and thesis intact; let it work, don't pre-empt. Does LLY hold the +6.5% pop into the close? Weekly-review routine at/after close owns the official week-vs-SPY scorecard + the mandatory daily "how we're doing" Telegram + full watchlist re-score / cash-drag decision. Week buy cap resets Mon 6/29.
+
+### Market-close 2026-06-26 15:00 CT (16:00 ET) — DAY SUMMARY (authoritative) · Friday, week 6/22–6/26 complete
+
+- **Clock:** market CLOSED 16:00 ET. Next open Mon 2026-06-29 09:30 ET. (Full watchlist re-score / cash-drag decision is the separate **weekly-review** routine; this entry owns the authoritative day+week scorecard and the mandatory daily Telegram.)
+- **Closing equity (Alpaca authoritative):** **$103,134.62** | cash $46,447.18 (45.0%) | long_mv $56,687.44 (55.0%, 4 positions) | last_equity (6/25 close) $102,899.64. daytrade_count 0. buying_power 344,513.55. ACTIVE.
+- **Day P/L: +$234.98 / +0.228%.** SPY (IEX daily bars, close-to-close) 6/25 733.33 → 6/26 729.35 = **−0.543%**. **Day alpha +0.771 pts, AHEAD** (book ~flat/green while SPY fell ~half a point — selection + ~45% cash both cushioned a broad −0.5% index day).
+- **Week-to-date / FINAL week (base 6/18 close $101,006.72 / SPY 746.75):** portfolio **+$2,127.90 / +2.107%** | SPY 746.75→729.35 = **−2.330%** | **week alpha +4.437 pts, AHEAD.** Strong week: we rose while the index fell ~2.3%.
+- **Closing marks (intraday %):** GE 369.00 **+11.94%** (+$1,771.65, intraday −0.64%) | LLY 1209.06 **+12.11%** (+$1,828.40, **intraday +7.22%** — the day's star) | DE 613.24 **+3.97%** (+$515.24, **intraday −2.78%**) | ETN 402.68 **+0.28%** (+$27.30, **intraday −4.09%**, thinnest cushion). Net open unrealized **+$4,142.59**.
+- **Trades today:** **NONE** (0 closed orders, confirmed empty). 0 of 3 weekly buys used; 1 open slot into the new week (cap resets Mon 6/29).
+- **Stops at close (all 4 RESTING, 10% trailing GTC, status `new`, re-verified via GET /v2/orders?status=open):**
+  - GE b9dadf2d — floor **341.703**, hwm 379.67 (~7.4% cushion below 369.00 mark).
+  - LLY 6016a7e7 — floor **1094.184**, hwm **1215.76** — **ratcheted up again into the close** (from 1087.362/1208.18 at midday) on LLY's +7.2% surge to a fresh high. Floor now ABOVE entry 1078.46 → for the first time it **locks in a profit** (~9.5% cushion below 1209.06).
+  - DE dcdd84e5 — floor **568.737**, hwm 631.93 (~7.3% cushion below 613.24 mark; mark < hwm so floor unchanged).
+  - ETN cc843666 — floor **393.066**, hwm 436.74 (~2.4% cushion below 402.68 — thinnest, highest-beta name; mark < hwm so floor held).
+- **Risk checks:** (a) −7% drawdown — worst net is ETN +0.28%; all four GREEN net, none near −7%; no sells. (b) +5%→trailing — all four already trailing; LLY auto-ratcheted; nothing to convert. (c) daily loss cap — day +0.228% (UP), not in play. daytrade_count 0.
+
+**What worked**
+- Defensive posture paid on a red-index day: SPY fell −0.543% but the book held +0.228% (alpha +0.77 pts). LLY's +7.2% pop (rotation into defensive pharma) more than offset the AI-power/cyclical weakness (ETN −4.09%, DE −2.78%).
+- Selection won the whole week decisively: +2.107% vs SPY −2.330% = **+4.44 pts of weekly alpha**, the best weekly gap of the v2 run. ~45% cash dampened the index drawdown rather than dragging.
+- Discipline intact: zero forced trades all week, every stop armed and resting, LLY's trailing floor now locks in profit above entry.
+
+**What didn't**
+- Book gave back the intraday green: midday equity ~$103,436 (+0.52%) faded to +0.228% at the close as ETN (−4.09%) and DE (−2.78%) sagged through the afternoon; LLY's surge carried the day but the cyclicals leaked.
+- ETN remains the soft spot — +0.28% net, only ~2.4% above its trailing floor (393.066, ≈ −2.1% from entry). Rotation out of AI-power (UBS "priced for perfection" thesis still in force) keeps pressure on. Thesis intact per the midday severity-2 news check; stop is the right tool.
+- 5th slot idle for the 2nd straight week. Defensible (nothing clears 2 signals + Conviction ≥70: PANW 66, JPM 65) but the deploy-or-justify question is now the weekly review's to answer.
+
+**Open questions for the weekly review / Monday 6/29**
+- Re-score the full watchlist with fresh sub-agent research: does PANW (66) or JPM (65) get a fresh <2wk catalyst that clears the 70 gate, or does the idle 5th slot + ~45% cash stay justified into week 3?
+- ETN: if the AI-power rotation persists, the trailing stop fires near 393.066 (~−2.1% from entry, a small loss on a name entered conservatively). Let it work — don't pre-empt. Re-check thesis if it tags the floor.
+- LLY: is the +7.2% defensive-pharma pop durable or a one-day rotation spike? Floor now protects a profit either way.
+- Week buy cap resets Mon 6/29 (0/3 again). Macro: watch for any follow-through from Friday's UMich inflation-expectations print.
