@@ -1,3 +1,21 @@
+## 2026-06-26 08:36 CT · market-open
+
+**Open: no trades — we're holding all four, and we're actually beating the market even though it's a slightly red morning.**
+
+**What I did**
+The market opened a few minutes ago. I checked our four holdings (GE, Eli Lilly, Deere, Eaton) and re-confirmed every one is protected by its trailing stop (a sell order that rides upward with the price and only triggers on a 10% drop from the peak). Nothing on my buy list cleared the bar, and none of our stocks hit a sell signal — so I placed no orders and left everything as-is.
+
+**Why**
+Two reasons to sit still. First, on the buy side, my top candidate Palo Alto (a cybersecurity firm) still scores 66 — under my 70 buy-bar — because it's missing a *fresh* catalyst like a new analyst upgrade. I won't force cash to work just to be busy. Second, on the sell side, all four holdings are comfortably in profit and well above their safety nets, so there's nothing to trim. The market dipped a touch at the open (down ~0.7%), and we dipped *less* (down ~0.45%) — when we fall slower than the market, that's our stock-picking cushioning the blow.
+
+**What happens next**
+A University of Michigan survey on inflation expectations comes out at 9 AM CT — if people signal they expect prices to climb, it could jostle the market, so I'm watching it. Today is also my **weekly review**, which I'll run at the close: a full re-score of every candidate and an honest look at whether holding ~45% cash is still the right call.
+
+**Numbers I care about**
+- **Equity ~$102,437** right now — up about +2.4% from our $100,000 start, even after this morning's small dip.
+- **Beating the market by ~3.9 points this week** (we're +1.41%, the S&P 500 is −2.48%) — that gap, our "alpha," is the score that matters.
+- **$46,447 cash** (~45% of the account) — dry powder, ready the moment a real bargain clears the bar.
+
 ## 2026-06-26 06:05 CT · pre-market
 
 **Quiet, calm setup heading into Friday — no trades planned, and the market looks steady after this week's inflation scare passed without drama.**
