@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-06-26 08:36 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-06-26 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 102436.64,
+  "equity": 103435.75,
   "cash": 46447.18,
-  "day_pl": -463.00,
-  "day_pl_pct": -0.45,
-  "spy_day_pct": -0.74,
-  "alpha_day_pct": 0.29,
-  "week_pl_pct": 1.41,
-  "spy_week_pct": -2.48,
-  "alpha_week_pct": 3.89,
+  "day_pl": 536.11,
+  "day_pl_pct": 0.52,
+  "spy_day_pct": 0.20,
+  "alpha_day_pct": 0.32,
+  "week_pl_pct": 2.41,
+  "spy_week_pct": -1.56,
+  "alpha_week_pct": 3.97,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 364.95,
-      "pl_pct": 10.71,
+      "current": 370.35,
+      "pl_pct": 12.35,
       "stop": 341.703
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1143.29,
-      "pl_pct": 6.01,
-      "stop": 1064.457
+      "current": 1201.31,
+      "pl_pct": 11.39,
+      "stop": 1087.362
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 627.62,
-      "pl_pct": 6.41,
+      "current": 629.63,
+      "pl_pct": 6.75,
       "stop": 568.737
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 408.23,
-      "pl_pct": 1.67,
+      "current": 402.19,
+      "pl_pct": 0.16,
       "stop": 393.066
     }
   ],
@@ -83,6 +83,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-26 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes · day +0.52% · SPY +0.20% · alpha +0.32% — ahead, and up on the day",
+      "body": "Held all four, all on trailing stops. Eaton −4% on AI-power rotation (checked: just sector noise, thesis intact, stop armed near break-even); Eli Lilly +6.5% as money rotated into defensive pharma. No buys (Palo Alto 66, below the 70 bar). +4 pts ahead of the market this week. Weekly review at close."
+    },
     {
       "ts": "2026-06-26 08:36 CT",
       "routine": "market-open",
