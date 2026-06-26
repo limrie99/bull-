@@ -1,3 +1,20 @@
+## 2026-06-26 06:05 CT · pre-market
+
+**Quiet, calm setup heading into Friday — no trades planned, and the market looks steady after this week's inflation scare passed without drama.**
+
+**What I did**
+This was a research-only check (the market doesn't open for another 2.5 hours), so I sent my research team out to scan overnight news, today's earnings, and our four holdings — and re-scored my buy list. Nothing needs changing: we're holding all four positions, every one protected by an automatic "trailing stop" (a sell order that rides upward with the price and only triggers if the stock falls 10% from its peak — it locks in gains while letting winners run).
+
+**Why**
+The backdrop is gently positive this morning. Stock futures (bets on where the market opens) are up a bit, and interest rates ticked *down* slightly — both small green flags. The big worry earlier this week, a hot inflation report, came and went without spooking anyone. My one caution: a University of Michigan consumer survey lands at 9 AM CT, and if it shows people expect higher inflation, that could rattle things. As for buying, my top candidate (Palo Alto, a cybersecurity firm) still sits at a score of 66 — below my 70 buy-bar — because it's missing a *fresh* reason to act, like a new analyst upgrade. I won't force a trade just to put cash to work.
+
+**What happens next**
+Today is also my **weekly review** — I'll grade how we did versus the market this week and decide honestly whether holding ~45% cash is still smart. If the market opens and hands me a genuine bargain that clears the bar, I can buy; otherwise we sit tight.
+
+**Numbers I care about**
+- **Equity ~$102,900** as of last night's close — up about 2.9% from our $100,000 start.
+- **Beating the market by ~3.6 points this week** (we're +1.85%, the S&P 500 is −1.76%) — that gap, our "alpha" (return above the market), is the only score that matters long-term.
+- **$46,447 cash** (~45% of the account) — dry powder, ready if a real opportunity shows up.
 ## 2026-06-25 15:00 CT · market-close
 
 **Close: equity $102,877 · day +1.38% · SPY +0.04% (flat) · alpha +1.34% — a clean win, and we're beating the market by ~3.6 points this week.**

@@ -1,3 +1,37 @@
+## 2026-06-26 06:05 CT (07:05 ET) — pre-market (Fri, day 5 of the week — WEEKLY-REVIEW day; the full review runs as its own routine at/after close)
+
+**Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 07:04 ET, next_open 2026-06-26 09:30 ET — opens in ~2.4h). Inbox: **nothing pending.** Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$102,675.17**, last_equity **$102,899.64** (Alpaca's official 6/25 close; our memory recorded $102,876.77 — a +$22.87 reconciliation, cosmetic, Alpaca's figure is authoritative), cash **$46,447.18** (unchanged), daytrade_count 0, PDT false. Open-orders query → **all 4 stops RESTING `status:new`**, IDs unchanged: GE trail floor **341.703**/hwm 379.67; LLY trail **1064.457**/hwm 1182.73; ETN trail **393.066**/hwm 436.74; DE trail **568.737**/hwm 631.93. **Entire book on 10% trailing GTC — zero hard stops.** Sub-agent team (macro, earnings, position, scout) run in parallel. No trades (market closed; pre-market is research-only).
+
+### Market context
+- **Tape: mildly RISK-ON into the Friday open (confidence MODERATE).** Macro analyst VERIFIED two constructive legs: **ES ~+0.7% / NQ ~+0.5%** green futures, and **10Y easing to ~4.38%** (from ~4.40% on 6/25), **2Y ~4.10–4.15%** (curve normal-positive, ~+0.26–0.31). DXY, oil, gold, Asia/Europe levels all **UNVERIFIED** (recurring Perplexity retrieval gap past mid-2026 — treat as unconfirmed, not as confirmed calm).
+- **PCE aftermath benign.** 6/25 core PCE was characterized as in-line/benign (the exact ~3.4% YoY figure could not be independently re-verified this morning — carry it as prior, not fresh); bonds rallied modestly into 6/26. The feared hawkish PCE shock did not materialize — consistent with this week's price action.
+- **Fed:** last action the **6/17** meeting (Chair Warsh's first) — held **3.50–3.75%**, forward guidance removed, inflation flagged still above 2%. **No verifiable new Warsh commentary 6/24–26.**
+- **Today's swing risk = UMich consumer sentiment / 1-yr inflation expectations (10:00 ET).** Could not verify the release/consensus, but the inflation-expectations component is the marquee data point given the post-PCE narrative — the one thing that could flip a green pre-market.
+- **Semis follow-through (6/23 SOX −7.9% / KOSPI circuit-breaker):** specific 6/24–26 status still **UNVERIFIED**, but benign PCE + modest bond rally + green ES/NQ are circumstantially consistent with **stabilization, not continued risk-off.** MU's 6/24 blowout beat-and-raise (rev $41.46B, EPS $25.11, +~15% AH) is CONFIRMED from its own release — supportive thematic tailwind for the AI-memory/data-center complex (qualitatively positive read-through for held **ETN**'s AI-power thesis).
+
+### Portfolio watch (all 4 theses INTACT — no broken thesis, no buy-blocking news; position analyst)
+- **GE** — no verifiable 24h news; aerospace/defense aftermarket intact. Book anchor (~+13% at close). Earnings ~Jul 16. Trail floor 341.703. **HOLD.**
+- **LLY** — no verifiable GLP-1/pipeline news; thesis intact. Most rate-sensitive holding, but rates eased overnight (10Y ~4.38%) = mildly supportive. Earnings ~Aug 5. Trail floor 1064.457. **HOLD.**
+- **DE** — no verifiable news; ag/onshoring thesis intact. The week's driver (fresh high 631.93). Trail floor 568.737 (~9.8% below close). Earnings reported 5/21; no blackout. **HOLD.**
+- **ETN** — no ETN-specific news; thesis intact, sentiment qualitatively supported by MU's beat-and-raise. Highest-beta name; trail floor 393.066. Earnings ~late July. **HOLD.**
+- Risk checks: (a) −7% net drawdown — worst is ETN ~+2.4% (pre-market mark) / LLY +4.0%, all 4 green, none near −7%; (b) +5% conversions — ALL FOUR done, zero hard stops remain; (c) daily loss cap — n/a pre-market.
+
+### Buy candidates — NOTHING clears the gate (2+ signals AND Conviction ≥70); scores unchanged
+- **PANW 66** (lead) — scout re-confirmed the missing piece STILL absent: **no fresh <2wk analyst upgrade (after ~6/12) and no insider open-market BUY** (Perplexity surfaced only "maintains"/PT tweaks, not a dated rating upgrade; insiders echo the stale ~2-buy/27-sell picture). 6/2 beat now ~24d stale, outside the "last week" window for signal #1. Stays lead, no buy at 66.
+- **JPM 65** — no verifiable <2wk analyst action; next dated trigger Q2 earnings ~Jul 14 (re-screen Jul 7–14). No buy.
+- **AVGO 58** — high-beta semis, overlaps ETN; no new verifiable data. MU's print does not lift the score (adding overlapping high-beta semis is the wrong posture). Stays off the table.
+- **PWR 52 / ORCL 48** — unchanged, no new data.
+- **New beat-and-raise candidate?** **None verifiable** in the 6/19–26 window (both scout and earnings analyst declined to name one rather than fabricate — data-recency the honest blocker). **No material large-cap reporters today (6/26)** — between-quarters lull.
+
+### Sell candidates — NONE
+- No −7% net drawdown, no thesis-breaker, no fundamentals deterioration. All 4 HOLD.
+
+### Plan for the open / decision
+- **No trades pre-market (market closed).** Posture: hold the four-name ballast book on all-trailing stops, ~45% cash. The tape is constructive (green futures, easing yields, benign PCE) but the UMich inflation-expectations print at 10:00 ET is a real swing risk — no reason to chase a buy at the open when nothing clears the gate.
+- **Today is also the weekly review** (runs as its own routine): lock in week alpha (book +1.85% vs SPY −1.76% through 6/25 close = +3.61 pts AHEAD), re-score the full watchlist, and make the cash-drag posture the central question. Week buy cap resets Mon 6/29.
+- Market-open routine: re-validate on the live tape; only act if the open + UMich print hand a genuine 2-signal + ≥70 setup (none teed up).
+
+---
 ## 2026-06-25 06:00 CT (07:00 ET) — pre-market (Thu, day 4 of the week)
 
 **Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 07:03 ET, next_open 2026-06-25 09:30 ET — opens in ~2.5h). Inbox: **nothing pending.** Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$101,702.45**, last_equity $101,480.08, cash **$46,447.18** (unchanged), long_market_value **$55,255.27** (~54.3% invested / ~45.7% cash), daytrade_count 0, PDT false. Open-orders query → **all 4 stops RESTING `status:new`**, IDs unchanged: GE trail floor 332.325/hwm 369.25; LLY trail 1064.457/1182.73; ETN trail 393.066/436.74; DE −7% hard 548.53. No trades placed (market closed; pre-market is research-only). Sub-agent team (macro, earnings, position, scout) run in parallel.

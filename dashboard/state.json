@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-06-25 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-06-26 06:05 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 102876.77,
+  "equity": 102899.64,
   "cash": 46447.18,
-  "day_pl": 1396.69,
-  "day_pl_pct": 1.38,
-  "spy_day_pct": 0.04,
-  "alpha_day_pct": 1.34,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
   "week_pl_pct": 1.85,
   "spy_week_pct": -1.76,
   "alpha_week_pct": 3.61,
@@ -83,6 +83,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-26 06:05 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: no trades planned · calm tape after the inflation scare · weekly review later today",
+      "body": "Research-only check. Holding all four (GE, LLY, DE, ETN), all on trailing stops. Futures up, rates eased, PCE was benign — gently positive. Nothing clears the 70 buy-bar (Palo Alto 66). Watching the 9 AM CT UMich inflation survey. Weekly review runs at/after close."
+    },
     {
       "ts": "2026-06-25 15:00 CT",
       "routine": "market-close",

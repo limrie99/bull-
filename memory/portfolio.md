@@ -1,6 +1,6 @@
 # Portfolio
 
-**Last updated:** 2026-06-25 15:00 CT (16:00 ET) — **MARKET-CLOSE routine.** Market **CLOSED** (clock `is_open:false`, next_open 2026-06-26 09:30 ET). **No trades today** (0 closed orders). Only action of the day was the midday DE −7% → 10% trailing conversion (no shares moved). **All 4 positions closed green; entire book on 10% trailing GTC stops (zero hard stops).** Strong selection day: book **+1.38%** while SPY was **flat (+0.04%)** → **day alpha +1.34 pts, AHEAD.** DE was the day's driver (+6.94%, hit a fresh high → trailing floor ratcheted up to 568.737). daytrade_count 0.
+**Last updated:** 2026-06-26 06:05 CT (07:05 ET) — **PRE-MARKET routine (research-only, NO trades).** Market **CLOSED** (clock `is_open:false`, next_open 2026-06-26 09:30 ET — opens in ~2.4h). Positions/stops re-verified vs Alpaca: **all 4 stops RESTING as 10% trailing GTC (`status:new`), zero hard stops, IDs unchanged.** Marks below are the **6/25 official close** (pre-market quotes are thin/UNAUTHORITATIVE). Tape mildly RISK-ON into the open (ES +0.7%/NQ +0.5% verified, 10Y eased to ~4.38%, benign 6/25 PCE); swing risk = UMich inflation-expectations 10:00 ET. **Nothing clears the buy gate** (PANW 66 / JPM 65 below 70). Today is also the **weekly-review** day (runs as its own routine at/after close). daytrade_count 0.
 
 **Cash:** $46,447.18 (unchanged — no trades).
 **Equity (close):** **$102,876.77** (cash $46,447.18 + long_market_value $56,429.59). last_equity **$101,480.08** = Alpaca's 6/24 official close (today's base).
