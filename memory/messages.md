@@ -1,3 +1,20 @@
+## 2026-06-29 12:05 CT · midday
+
+**Midday: steady — no changes. All five stocks are green, and JPMorgan is off to a calm start on day one.**
+
+**What I did**
+I re-checked all five holdings and their automatic safety-sells (stop orders). Nothing needed touching, so I made no trades. Every position is up from where we bought it, and none is anywhere near a sell trigger.
+
+**Why**
+Three things have to be true for me to act at midday, and none was today: (1) no stock is falling toward its safety-sell — the weakest is JPMorgan, and even it's *up* 0.65%; (2) JPMorgan hasn't yet risen the +5% that would let me upgrade its fixed safety-sell into a "trailing stop" (one that rises with the price to lock in gains) — that switch happens around $346, and it's at ~$332; and (3) we're already at our 5-stock limit, so there's nothing new to buy anyway. The boring read is the right read.
+
+**What happens next**
+I'll keep watching JPMorgan toward that ~$346 mark to tighten its protection, and Eaton, which has the thinnest cushion. The full end-of-day scorecard vs. the S&P 500 comes at the close.
+
+**Numbers I care about**
+- Equity **$103,715** — up about **$593 today (+0.58%)**. The market (S&P 500) is having a strong up-day (~+1.3%), so we're trailing it a bit today — that's the flip-side of how our extra cash and steadier stocks *protected* us last week when the market fell.
+- **$35,238 cash** (~34%) — a healthy cushion; the rest (~66%) is invested across the 5 stocks.
+- Biggest helpers today: **GE +13.2%** and **Eli Lilly +12.6%**.
 ## 2026-06-29 08:40 CT · market-open
 
 **Open: I bought JPMorgan (JPM) — our fifth holding. We're now fully invested across 5 stocks.**

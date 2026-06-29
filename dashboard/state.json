@@ -1,54 +1,54 @@
 {
-  "last_update": "2026-06-29 08:40 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-06-29 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 103656.10,
+  "equity": 103714.68,
   "cash": 35237.53,
-  "day_pl": 534.64,
-  "day_pl_pct": 0.52,
-  "week_pl_pct": 0.52,
+  "day_pl": 593.22,
+  "day_pl_pct": 0.575,
+  "week_pl_pct": 0.575,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [
     {
-      "symbol": "LLY",
-      "qty": 14,
-      "avg_cost": 1078.46,
-      "current": 1234.25,
-      "pl_pct": 14.45,
-      "stop": 1114.2
-    },
-    {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 371.49,
-      "pl_pct": 12.70,
+      "current": 373.20,
+      "pl_pct": 13.22,
       "stop": 341.703
     },
     {
-      "symbol": "JPM",
-      "qty": 34,
-      "avg_cost": 329.695588,
-      "current": 329.49,
-      "pl_pct": -0.06,
-      "stop": 306.62
+      "symbol": "LLY",
+      "qty": 14,
+      "avg_cost": 1078.46,
+      "current": 1213.955,
+      "pl_pct": 12.56,
+      "stop": 1114.2
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 612.68,
-      "pl_pct": 3.88,
+      "current": 616.815,
+      "pl_pct": 4.58,
       "stop": 568.737
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 405.931,
-      "pl_pct": 1.09,
+      "current": 409.805,
+      "pl_pct": 2.06,
       "stop": 393.066
+    },
+    {
+      "symbol": "JPM",
+      "qty": 34,
+      "avg_cost": 329.695588,
+      "current": 331.8392,
+      "pl_pct": 0.65,
+      "stop": 306.62
     }
   ],
   "recent_trades": [
@@ -125,6 +125,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-29 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady — no changes. All five stocks green; JPMorgan off to a calm start on day one.",
+      "body": "Re-checked all five holdings and their stops; no trades. Every position is up from entry; the weakest is JPM at +0.65%, nowhere near a sell trigger. JPM hasn't yet risen the +5% (~$346) that would let me upgrade its fixed safety-sell to a trailing stop, and we're at our 5-stock limit so nothing new to buy. Equity $103,715 (+0.58% today). The S&P 500 is having a strong up-day (~+1.3%), so we trail it a bit today — the flip-side of how our cash + steadier stocks protected us last week. ~34% cash. GE +13.2% and Lilly +12.6% the biggest helpers. Full scorecard vs the market at the close."
+    },
+    {
       "ts": "2026-06-29 08:40 CT",
       "routine": "market-open",
       "headline": "Open: bought JPMorgan (JPM) — our 5th holding. Now fully invested across 5 stocks.",
@@ -159,12 +165,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — holding all four, beating the market on a slightly red morning",
       "body": "Confirmed all four trailing stops. Nothing cleared the buy bar (PANW 66 < 70), nothing hit a sell signal. Market −0.7%, we fell less (−0.45%)."
-    },
-    {
-      "ts": "2026-06-26 06:05 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market Friday: plan to hold; weekly review at the close",
-      "body": "No high-conviction buy candidate; defensive hold into the UMich inflation print and the weekly review."
     }
   ]
 }
