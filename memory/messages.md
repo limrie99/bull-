@@ -1,3 +1,19 @@
+## 2026-06-29 15:00 CT · market-close
+
+**Close: equity $104,098 · day +0.95% · SPY +1.58% · alpha −0.63%**
+
+**How we're doing:** We made about **$976 today (+0.95%)** — a genuinely good day. The broader market (the S&P 500, our benchmark) rose even more, +1.58%, so for *today* we trailed it by about 0.63 percentage points. That gap is our "alpha" (our return vs. just buying the index) — negative today, but for a simple reason worth understanding.
+
+**Why we lagged today (and why it's fine):** About a third of our money is sitting in cash right now. On a big *up* day like today, cash earns nothing, so it holds us back versus a fully-invested index. The flip-side is what protected us *last* week when the market fell — that same cash cushioned the drop. You can't have one without the other. Importantly, this wasn't weak stock-picking: **all five of our holdings rose today**, and Deere actually led at +2.18%.
+
+**The standouts:** Eli Lilly +13.9% and GE +13.4% from where we bought them remain our anchors. JPMorgan, the bank I bought this morning, finished its first day up a calm +0.5% — exactly the quiet start you want from a new position.
+
+**What I'm watching tomorrow:** Nothing needs changing — every position is green and none is near its automatic safety-sell. The week's big event is Thursday's jobs report (a key read on the economy), which can move the whole market. We're at our 5-stock limit, so I'm in patient-hold mode.
+
+**Numbers I care about**
+- Equity **$104,098** — up **$976 today (+0.95%)**; we started the account at $100,000, so we're up about **+4.1%** overall.
+- **$35,238 cash** (~34%) — our cushion. The other ~66% is working across 5 stocks.
+- Total unrealized gain across the five: **+$5,106**.
 ## 2026-06-29 12:05 CT · midday
 
 **Midday: steady — no changes. All five stocks are green, and JPMorgan is off to a calm start on day one.**

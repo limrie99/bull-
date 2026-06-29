@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-06-29 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-29 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 103714.68,
+  "equity": 104097.79,
   "cash": 35237.53,
-  "day_pl": 593.22,
-  "day_pl_pct": 0.575,
-  "week_pl_pct": 0.575,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "day_pl": 976.33,
+  "day_pl_pct": 0.95,
+  "week_pl_pct": 0.95,
+  "spy_week_pct": 1.58,
+  "alpha_week_pct": -0.63,
   "positions": [
-    {
-      "symbol": "GE",
-      "qty": 45,
-      "avg_cost": 329.63,
-      "current": 373.20,
-      "pl_pct": 13.22,
-      "stop": 341.703
-    },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1213.955,
-      "pl_pct": 12.56,
+      "current": 1227.99,
+      "pl_pct": 13.87,
       "stop": 1114.2
+    },
+    {
+      "symbol": "GE",
+      "qty": 45,
+      "avg_cost": 329.63,
+      "current": 373.71,
+      "pl_pct": 13.37,
+      "stop": 341.703
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 616.815,
-      "pl_pct": 4.58,
+      "current": 626.63,
+      "pl_pct": 6.24,
       "stop": 568.737
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 409.805,
-      "pl_pct": 2.06,
+      "current": 408.26,
+      "pl_pct": 1.67,
       "stop": 393.066
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 331.8392,
-      "pl_pct": 0.65,
+      "current": 331.3925,
+      "pl_pct": 0.52,
       "stop": 306.62
     }
   ],
@@ -124,6 +124,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-29 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $104,098 · day +0.95% · SPY +1.58% · alpha −0.63%",
+      "body": "We made ~$976 today (+0.95%) — a good day, though the S&P 500 rose more (+1.58%), so we trailed it by ~0.63 pts. That's purely our ~34% cash sitting idle on a big up-day — the same cushion that protected us last week when the market fell. NOT weak stock-picking: all five holdings rose today, with Deere leading our names at +2.18%. Lilly +13.9% and GE +13.4% remain the anchors; JPMorgan finished day one a calm +0.5%. Nothing needs changing — every position green, none near a stop. Equity $104,098 (up ~4.1% since we started at $100k), $35,238 cash, +$5,106 unrealized. Watching Thursday's jobs report; at our 5-stock limit, so patient-hold mode."
+    },
     {
       "ts": "2026-06-29 12:05 CT",
       "routine": "midday",

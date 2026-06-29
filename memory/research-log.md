@@ -1,3 +1,37 @@
+## 2026-06-29 15:00 CT (16:04 ET) — MARKET-CLOSE (Mon, day 1 of a SHORT week — CLOSED Fri 7/3) — Day summary / official scorecard
+
+**Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 16:04 ET, next_open 2026-06-30 09:30 ET). Inbox: **nothing pending.** Pulled official close from Alpaca.
+
+### Closing scorecard (official)
+- **Equity $104,097.79** (cash $35,237.53 + long MV $68,860.26). last_equity $103,121.46 (Alpaca's 6/26 official close = today's base).
+- **Day P/L +$976.33 / +0.95%.**
+- **SPY day +1.58%** (6/26 close 729.35 → 6/29 latest trade 740.86, IEX daily bars). 
+- **Alpha today −0.63%.** Week-to-date (today = Mon, day 1): P/L +0.95%, SPY +1.58%, **alpha WTD −0.63%.**
+- daytrade_count 0. ~66.15% invested, ~33.85% cash.
+
+### Trades today
+- **1 trade, at the open:** JPM starter buy, 34 @ 329.695588 = $11,209.65 (~10.8%), id 701356fd — already logged in trade-log + the 09:40 research entry. **No close-routine trades.**
+
+### Stop-management at close
+- All 5 stops re-confirmed RESTING `status:new`: LLY trail 1114.2/hwm 1238; GE 341.703/hwm 379.67; DE 568.737/hwm 631.93; ETN 393.066/hwm 436.74; JPM −7% hard stop 306.62.
+- **No floors ratcheted** — every closing mark printed below its hwm (LLY 1227.99<1238, GE 373.71<379.67, DE 626.63<631.93, ETN 408.26<436.74).
+- **JPM +5% conversion NOT triggered** — close 331.39 vs entry 329.6956, +0.52%; trigger ~$346.18 (~4.5% above). Hard stop @ 306.62 stays.
+- **−7% drawdown check:** worst is JPM +0.52% — all 5 green, none near a stop. No sells.
+
+### Position day moves (close P/L%, day%)
+- LLY +13.87% (day +1.65%) · GE +13.37% (+1.28%) · DE +6.24% (+2.18%, best level since entry) · ETN +1.67% (+1.39%) · JPM +0.52% (+0.71%, calm day-1). Net open unrealized **+$5,105.76**.
+
+### What worked / didn't
+- **Worked:** broad participation — all 5 names green on the day, DE (the book's WATCH/weakest thesis) led our names +2.18%, JPM opened green on day 1. The capital we put to work this morning (JPM) is contributing rather than dragging.
+- **Didn't:** absolute alpha negative on the day (−0.63%) — purely a function of ~34% cash on a +1.58% SPY tape. This is the mechanical cost of the cash buffer that paid off LAST week when we beat SPY on the down-tape. Not a stock-selection problem (our stocks beat their weights), purely allocation.
+
+### Open questions for tomorrow (pre-market Tue 6/30)
+- Does ETN's thin cushion (~3.7%) hold, or does it become the squeeze candidate? Watch.
+- Any JPM follow-through toward the $346.18 trailing-conversion trigger.
+- Pre-positioning for the **Thu 7/2 jobs report** in thin pre-holiday liquidity — at the 5-cap so no new size, but watch for any thesis-breakers that would free a slot. No fresh-size initiation Wed 7/1.
+- DE's soft thesis (unrefuted Jefferies Sell) vs. its strong price — still HOLD on the trailing stop; re-examine if a higher-conviction swap candidate clears the gate.
+
+---
 ## 2026-06-29 08:40 CT (09:40 ET) — MARKET-OPEN (Mon, day 1 of a SHORT week — market CLOSED Fri 7/3) — JPM STARTER BUY EXECUTED
 
 **Setup:** All 4 keys present (+ Telegram). Market **OPEN** (clock `is_open:true`, ts 09:35 ET, next_close 16:00 ET). Inbox: **nothing pending.** Alpaca pre-trade: equity $103,829.47, last_equity $103,121.46 (6/26 official close = today's base), cash $46,447.18, daytrade_count 0, PDT false, not blocked. All 4 prior stops re-verified RESTING `status:new` (LLY trail floor ratcheted up to 1114.2/hwm 1238; GE 341.703; DE 568.737; ETN 393.066). Daily-loss-cap check: equity +0.52–0.68% intraday, nowhere near −3% → new buys allowed.
