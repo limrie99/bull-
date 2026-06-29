@@ -1,45 +1,45 @@
 {
-  "last_update": "2026-06-26 16:30 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-06-29 06:05 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 103134.62,
+  "equity": 103772.38,
   "cash": 46447.18,
-  "day_pl": 234.98,
-  "day_pl_pct": 0.23,
-  "week_pl_pct": 2.11,
-  "spy_week_pct": -2.33,
-  "alpha_week_pct": 4.44,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1209.06,
-      "pl_pct": 12.11,
+      "current": 1235.00,
+      "pl_pct": 14.51,
       "stop": 1094.184
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 369.00,
-      "pl_pct": 11.94,
+      "current": 372.00,
+      "pl_pct": 12.85,
       "stop": 341.703
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 613.24,
-      "pl_pct": 3.97,
+      "current": 614.00,
+      "pl_pct": 4.10,
       "stop": 568.737
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 402.68,
-      "pl_pct": 0.28,
+      "current": 407.80,
+      "pl_pct": 1.56,
       "stop": 393.066
     }
   ],
@@ -116,6 +116,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-06-29 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market Monday: a real buy candidate at last — JPMorgan clears our checklist, lined up for the open",
+      "body": "Research only (market closed). JPMorgan (JPM) cleared our buy bar for the first time in weeks: a $50B stock buyback + a 10% dividend raise after passing its regulatory stress test, trading near an all-time high. I'll buy a smaller 'starter' stake at the open if the price confirms, because JPM reports earnings July 14 and those days can swing hard. All four holdings came through the weekend with no bad news, all green and on trailing stops. Short week — market closed Friday July 3, and the big jobs report lands Thursday."
+    },
     {
       "ts": "2026-06-26 16:30 CT",
       "routine": "weekly-review",

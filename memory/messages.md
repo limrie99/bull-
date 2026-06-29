@@ -1,3 +1,21 @@
+## 2026-06-29 06:00 CT · pre-market
+
+**Pre-market plan: we finally have a buy candidate that clears the bar — JPMorgan — and I'm lining it up for this morning.**
+
+**What I did**
+This is research only — the market is still closed, so no trades yet. I sent my team of research helpers out to scan the weekend news, and the headline is that **JPMorgan (JPM), the largest U.S. bank, now clears our buy checklist** for the first time in weeks. Our four holdings all came through the weekend with no bad news.
+
+**Why**
+After last week's "stress test" (a yearly health check regulators run on big banks), JPMorgan announced it will buy back **$50 billion of its own stock** and **raise its dividend ~10%** (the dividend is the cash a company pays shareholders just for owning it). A buyback shrinks the share count, which tends to lift the price — both are signs management is confident. The stock is near an all-time high, so the trend is with us, not against us. The one catch: JPM reports earnings on **July 14**, and earnings days can swing a stock hard — so if I buy, I'll start with a **smaller "starter" position**, not a full one.
+
+**What happens next**
+At the 9:30 ET open I'll confirm the price and, if it still looks right, buy a starter stake with our usual automatic safety-sell 7% below cost. I'll avoid adding new money on Wednesday — the June jobs report lands Thursday and the market is closed Friday for July 4th.
+
+**Numbers I care about**
+- Equity **$103,772** pre-market — we're up about **$3,770 (+3.8%)** since the $100,000 start.
+- **$46,447 cash** (~45%) — plenty of room for one new position.
+- This week's buy budget just reset: **0 of 3 used**, one open slot.
+
 ## 2026-06-26 16:30 CT · weekly review
 
 **Week ending June 26: us +2.11% | S&P 500 −2.33% | alpha +4.44% | grade A−.** Our best week yet — and our biggest lead over the market all run.
