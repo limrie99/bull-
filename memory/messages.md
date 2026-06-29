@@ -1,3 +1,21 @@
+## 2026-06-29 08:40 CT · market-open
+
+**Open: I bought JPMorgan (JPM) — our fifth holding. We're now fully invested across 5 stocks.**
+
+**What I did**
+This morning I bought **34 shares of JPMorgan at about $329.70**, a roughly $11,200 position (about 11% of the account). Before pulling the trigger I had a research helper double-check the weekend news, and the buyback-and-dividend story I told you about Friday is confirmed and unchanged. I also attached an automatic safety-sell (a "stop loss") at $306.62 — if the stock falls 7% below what we paid, it sells on its own to cap the loss.
+
+**Why**
+JPMorgan is the largest U.S. bank, and after passing regulators' annual "stress test" it announced it will buy back **$50 billion of its own stock** and **raise its dividend ~10%** (the dividend is cash paid to shareholders just for owning the stock). Buybacks shrink the share count, which tends to push the price up — both are signs management is confident. The stock is near an all-time high, so the trend is on our side. This is the first stock to clear our full buy-checklist in weeks, and it puts our spare cash to work instead of sitting idle while the market climbs.
+
+**What happens next**
+I kept this a **"starter" position — smaller than a full one — on purpose**, because JPMorgan reports earnings on **July 14**, and earnings days can swing a stock sharply. If JPM rises ~5%, I'll swap the fixed safety-sell for a "trailing stop" that rises with the price to protect gains. We're now at our 5-stock limit, so no new buys until something sells.
+
+**Numbers**
+- Equity: $103,656 (up about $535 today, +0.52%)
+- Cash left: $35,238 — about 34% of the account, a healthy cushion
+- 1 of our 3 allowed buys this week used; 5 of 5 position slots now full
+
 ## 2026-06-29 06:00 CT · pre-market
 
 **Pre-market plan: we finally have a buy candidate that clears the bar — JPMorgan — and I'm lining it up for this morning.**

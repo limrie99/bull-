@@ -1,39 +1,42 @@
 # Portfolio
 
-**Last updated:** 2026-06-29 ~06:05 CT — **PRE-MARKET routine (research-only). Market CLOSED** (`is_open:false`, next_open Mon 2026-06-29 09:30 ET). Start of a **SHORT week** (market CLOSED Fri 7/3, Independence Day). **NO trades** (market closed). Sub-agent team (macro/earnings/position/scout) run in parallel. **Weekly buy cap RESET today: 0 of 3.** All 4 held names green, all on 10% trailing GTC (zero hard stops), re-verified RESTING (`status:new`) via open-orders query — IDs/floors unchanged from the 6/26 close. **HEADLINE: JPM finally clears the gate (~74 conviction, 4 of 6 signals) — teed up as a STARTER buy for the market-open routine today.** Marks below are **live pre-market (UNAUTHORITATIVE)**. daytrade_count 0.
+**Last updated:** 2026-06-29 ~08:40 CT — **MARKET-OPEN routine. Market OPEN** (`is_open:true`, next_close 16:00 ET). **TRADE PLACED: BOUGHT JPM — 34 sh @ 329.695588** (the pre-market lead, ~74 conviction, 4 of 6 signals). Sub-agent re-confirmed the $50B buyback + 10% dividend hike STILL LIVE (no weekend walk-back), no negative 72h news; live price re-validated via Alpaca (~$329.70, uptrend near ATH). Sized as a conservative STARTER (~10.8%, NOT full 15%) because Q2 earnings is a binary print Tue Jul 14 (~11 trading days out). −7% hard stop @ 306.62 placed as GTC (3e8fe4ea), confirmed RESTING. **Weekly buys now 1 of 3. Book AT the 5-position cap (5 of 5).** Other 4 stops re-verified RESTING (LLY floor ratcheted up to 1114.2). daytrade_count 0.
 
-**Cash:** $46,447.18 (unchanged — no trades).
-**Equity (pre-market 6/29):** **$103,772.38** (cash $46,447.18 + long_market_value ~$57,325.20). last_equity **$103,121.46** = Alpaca's 6/26 official close (today's base; memory had $103,134.62 → −$13.16 cosmetic reconciliation, Alpaca authoritative).
-**Buys used this week:** **0 of 3** (RESET today). 1 open slot (4 of 5). ~44.8% cash.
+**Cash:** $35,237.53 (down from $46,447.18 after the ~$11,209.65 JPM buy).
+**Equity (intraday 6/29 ~09:40 ET):** **$103,656.10** (cash $35,237.53 + long_market_value ~$68,420.51). last_equity **$103,121.46** = Alpaca's 6/26 official close (today's base). Day P/L so far **+$534.64 / +0.52%** (intraday; the close routine owns the official scorecard vs SPY).
+**Buys used this week:** **1 of 3.** **0 open slots — AT the 5-position cap.** ~34.0% cash.
 
-## Open positions (4 of 5) — live pre-market marks (UNAUTHORITATIVE, market closed)
+## Open positions (5 of 5 — AT CAP) — intraday marks ~09:40 ET
 
 | Symbol | Shares | Avg Cost | Current | P/L $ | P/L % | Stop | Cushion | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|---|
-| LLY | 14 | 1078.46 | 1235.00 | +2,191.56 | +14.5% | **10% TRAILING (GTC)**, floor **1094.184** (above entry → locks a profit), hwm **1215.76** | ~11.4% | 2026-06-01 | Eli Lilly — Q1 beat + raised guide + oral GLP-1 (orforglipron/Foundayo). Biggest winner. **MEMORY UPGRADE: the $50/mo Medicare GLP-1 / July 1 Part D claim is now CONFIRMABLE** — CMS "Medicare GLP-1 Bridge" demo, $50/mo for eligible Part D, effective **Jul 1, 2026** (mild tailwind, not fresh catalyst). Earnings ~early Aug (UNVERIFIED). Thesis INTACT. |
-| GE | 45 | 329.63 | 372.00 | +1,906.65 | +12.85% | **10% TRAILING (GTC)**, floor 341.703, hwm 379.67 | ~8.1% | 2026-06-08 | GE Aerospace — record commercial-aircraft demand + high-margin engine aftermarket + defense; pure industrial, ZERO AI overlap, lower beta. Book's anchor. No verifiable 72h news. Earnings ~Jul 16 (UNVERIFIED). Thesis INTACT. |
-| DE | 22 | 589.82 | 614.00 | +531.96 | +4.1% | **10% TRAILING (GTC)**, floor 568.737, hwm 631.93 | ~7.4% | 2026-06-04 | Deere — Q2 beat (5/21); ag-equipment/onshoring; NON-AI diversifier. **WATCH (book's weakest — soft, not broken):** Jefferies Sell/$550 + weak ag volumes unchanged (not worsened) over the weekend; no fresh 72h news. HOLD on trailing. |
-| ETN | 24 | 401.5425 | 407.80 | +150.18 | +1.56% | **10% TRAILING (GTC)**, floor 393.066, hwm 436.74 | ~3.7% | 2026-06-08 | Eaton — electrical "picks-and-shovels" for AI data-center power + electrification. Highest-beta name, thinnest cushion. No ETN-specific 72h news, no downgrade; MU's 6/24 print a supportive AI-power read-through (prior event). Earnings ~late July (UNVERIFIED). Thesis INTACT. |
+| LLY | 14 | 1078.46 | 1234.25 | +2,181.06 | +14.45% | **10% TRAILING (GTC)**, floor **1114.2** (above entry → locks a profit), hwm **1238** | ~9.7% | 2026-06-01 | Eli Lilly — Q1 beat + raised guide + oral GLP-1 (orforglipron/Foundayo). Biggest winner. CMS "Medicare GLP-1 Bridge" $50/mo (eligible Part D) effective Jul 1, 2026 = mild tailwind. Earnings ~early Aug (UNVERIFIED). Thesis INTACT. |
+| GE | 45 | 329.63 | 371.49 | +1,883.70 | +12.70% | **10% TRAILING (GTC)**, floor 341.703, hwm 379.67 | ~8.0% | 2026-06-08 | GE Aerospace — record commercial-aircraft demand + high-margin engine aftermarket + defense; pure industrial, ZERO AI overlap, lower beta. Book's anchor. Earnings ~Jul 16 (UNVERIFIED). Thesis INTACT. |
+| JPM | 34 | 329.695588 | 329.49 | −6.99 | −0.06% | **−7% HARD STOP (GTC)** @ **306.62** | ~7.0% | 2026-06-29 | JPMorgan — post-CCAR capital return: $50B buyback (eff Jul 1) + div hike $1.50→$1.65/qtr (+10%); largest US bank, near ATH. **NEW STARTER** (~10.8%). Q2 earnings **CONFIRMED Tue Jul 14** = binary print ~11 trading days out → kept it a starter, not full size. Thesis INTACT. |
+| DE | 22 | 589.82 | 612.68 | +502.92 | +3.88% | **10% TRAILING (GTC)**, floor 568.737, hwm 631.93 | ~7.2% | 2026-06-04 | Deere — Q2 beat (5/21); ag-equipment/onshoring; NON-AI diversifier. **WATCH (book's weakest — soft, not broken):** Jefferies Sell/$550 + weak ag volumes unchanged (not worsened); no fresh 72h news. HOLD on trailing. |
+| ETN | 24 | 401.5425 | 405.931 | +105.32 | +1.09% | **10% TRAILING (GTC)**, floor 393.066, hwm 436.74 | ~3.2% | 2026-06-08 | Eaton — electrical "picks-and-shovels" for AI data-center power + electrification. Highest-beta name, thinnest cushion. No ETN-specific 72h news, no downgrade. Earnings ~late July (UNVERIFIED). Thesis INTACT. |
 
-**Open positions: 4 of 5.** **Buys used this week: 0 of 3** (1 free slot, reset today). **Cash buffer: ~44.8%** (~55.2% invested, ~$57,325.20 market value). Net open unrealized **+$4,780.35** (LLY +2,191.56, GE +1,906.65, DE +531.96, ETN +150.18).
+**Open positions: 5 of 5 (AT CAP).** **Buys used this week: 1 of 3** (0 free slots). **Cash buffer: ~34.0%** (~66% invested, ~$68,420.51 market value). Net open unrealized **+$4,666.01** (LLY +2,181.06, GE +1,883.70, DE +502.92, ETN +105.32, JPM −6.99).
 
-## Stop-management state (all 4 confirmed RESTING as 10% TRAILING GTC, status `new` — re-verified this run via open-orders query)
+## Stop-management state (all 5 confirmed RESTING via open-orders query, status `new`)
 
-- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1094.184**, hwm **1215.76** (above entry 1078.46 → locks a profit). ~11.4% below the 1235.00 mark.
-- **GE 10% trailing** `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` — floor **341.703**, hwm **379.67**. ~8.1% below the mark.
-- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **568.737**, hwm **631.93**. ~7.4% below the mark.
-- **ETN 10% trailing** `cc843666-7e63-462a-82d4-57cc3e826ead` — floor **393.066**, hwm **436.74**. ~3.7% below the mark (thinnest cushion).
-- (a) **−7% drawdown check (net from entry):** worst is ETN +1.56% — all four green, none near −7%. HOLD. No sells.
-- (b) **+5% → trailing:** all four already on trailing. **Zero hard stops remain.**
-- (c) **Daily loss cap:** n/a (market closed, pre-market; equity up vs 6/26 close). Not near the −3% cap.
-- daytrade_count 0. No trades this run; all stops resting.
+- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1114.2**, hwm **1238** (ratcheted up from 1094.184 as LLY hit a fresh high; above entry 1078.46 → locks a profit). ~9.7% below the 1234.25 mark.
+- **GE 10% trailing** `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` — floor **341.703**, hwm **379.67**. ~8.0% below the mark.
+- **JPM −7% HARD STOP** `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` — stop **306.62** (GTC), entry 329.695588. Converts to a 10% trailing the moment JPM tags +5% (~$346.18). ~7.0% below the mark.
+- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **568.737**, hwm **631.93**. ~7.2% below the mark.
+- **ETN 10% trailing** `cc843666-7e63-462a-82d4-57cc3e826ead` — floor **393.066**, hwm **436.74**. ~3.2% below the mark (thinnest cushion).
+- (a) **−7% drawdown check (net from entry):** worst is JPM −0.06% (just bought) / ETN +1.09% — all in range, none near −7%. HOLD. No sells.
+- (b) **+5% → trailing:** 4 of 5 already on trailing; **JPM is the lone name on a −7% hard stop** (converts at ~$346.18).
+- (c) **Daily loss cap:** equity +0.52% on the day — not near the −3% cap. New buys still allowed today (but we're at the position cap and weekly buys are 1/3).
+- daytrade_count 0.
 
-## Watch / next (next routine: **market-open Mon 6/29** — execute the JPM starter buy if the tape confirms)
+## Watch / next (next routine: **midday Mon 6/29**)
 
-- **JPM — LEAD, CLEARS THE GATE (~74 conviction, 4 of 6 signals): EXECUTE A STARTER BUY AT THE OPEN if the tape confirms.** Verified (CNBC + JPM 8-K): **$50B buyback** (new authorization, eff. Jul 1) + **dividend hike $1.50→$1.65/qtr (+10%)**, price ~$328.73 (6/26 close), near 52-wk high. Signals: (2) catalyst ≤30d, (3) financials/CCAR tailwind, (4) capital-return = upgrade-equivalent (cautious), (6) uptrend near ATH. **Execution checklist:** (1) confirm live price vs 50dMA; (2) re-confirm no weekend walk-back of the buyback/div; (3) **size as a STARTER ~10–12% (~$10–12.5k), NOT full 15%** — Q2 earnings **CONFIRMED Tue Jul 14** is a binary ~11-trading-days out (3-day no-open rule does NOT block, but argues for conservative size); (4) OTO market buy + **−7% hard stop** (entry × 0.93), convert leg to GTC after fill; (5) uses 1 of 3 weekly buys, fills the 5th slot. JPM is a financial, NOT high-beta semis → ≤10% beta-override does not apply. **Timing:** prefer Mon/Tue, NOT Wed 7/1 (day before the Thu jobs print).
-- **Bench (all WATCH or stale):** GE-as-fresh-buy ~55 (no <2wk catalyst), PANW ~55 (recovered to new high but CFO SOLD 6/23, analyst note stale, overlaps our tilt), AMGN/CVS/VST all **UNVERIFIED** this run — do not act.
-- **Stops to watch:** ETN thinnest cushion (~3.7% above floor 393.066); DE the lone WATCH (soft thesis, unrefuted Jefferies Sell). All others ≥7.4%. Let them work.
-- **Macro week ahead (6/29–7/2; CLOSED Fri 7/3):** **June JOBS REPORT Thu 7/2 8:30 ET** (consensus +114k / 4.3%, pulled forward a day) is THE event, in thin pre-holiday liquidity — don't initiate fresh size Wed 7/1. ISM Manufacturing Wed 7/1 (cons. 53.7). Friday's global semis selloff (Kospi −5%+) is the open's swing risk; ES ~+0.6% pre-market (low confidence). **Data flags:** Powell-vs-Warsh Fed-chair identity UNRESOLVED (don't build rate assumptions on it); 2Y/DXY/oil/gold/funds-rate UNVERIFIED this run.
+- **JPM +5% → trailing conversion (NEW standing task):** the moment JPM tags **~$346.18** (+5% from entry 329.695588), cancel the −7% hard stop `3e8fe4ea` and place a **10% trailing GTC** (same workflow as the other four). Until then the −7% hard stop @ 306.62 protects it.
+- **At the 5-position cap, 1 of 3 weekly buys used.** No new buys possible without a sell first. Any new idea this week is a *candidate swap* to reason about (does it out-score a held name?), not an automatic action. DE (book's weakest, soft thesis) is the natural swap target if a higher-conviction name appears.
+- **Stops to watch:** ETN thinnest cushion (~3.2% above floor 393.066); JPM on the only hard stop; DE the lone WATCH (soft thesis, unrefuted Jefferies Sell). LLY/GE ≥8%. Let them work.
+- **Macro week ahead (6/29–7/2; CLOSED Fri 7/3):** **June JOBS REPORT Thu 7/2 8:30 ET** (consensus +114k / 4.3%) is THE event, in thin pre-holiday liquidity. ISM Manufacturing Wed 7/1. **Do NOT initiate fresh size Wed 7/1** (day before the jobs print) — moot anyway at the position cap. **JPM Q2 earnings Tue Jul 14** is the key position-level event.
+- **Data flags:** Powell-vs-Warsh Fed-chair identity UNRESOLVED (don't build rate assumptions on it); SPY 6/26 close not cleanly verified this run (SIP bars blocked) → close routine owns the official benchmark scorecard. SPY intraday ~737.11.
 
 ## Recent closes (last 5)
 

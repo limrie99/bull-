@@ -1,3 +1,25 @@
+## 2026-06-29 08:40 CT (09:40 ET) — MARKET-OPEN (Mon, day 1 of a SHORT week — market CLOSED Fri 7/3) — JPM STARTER BUY EXECUTED
+
+**Setup:** All 4 keys present (+ Telegram). Market **OPEN** (clock `is_open:true`, ts 09:35 ET, next_close 16:00 ET). Inbox: **nothing pending.** Alpaca pre-trade: equity $103,829.47, last_equity $103,121.46 (6/26 official close = today's base), cash $46,447.18, daytrade_count 0, PDT false, not blocked. All 4 prior stops re-verified RESTING `status:new` (LLY trail floor ratcheted up to 1114.2/hwm 1238; GE 341.703; DE 568.737; ETN 393.066). Daily-loss-cap check: equity +0.52–0.68% intraday, nowhere near −3% → new buys allowed.
+
+### Execution — JPM starter buy (the pre-market lead)
+- **Re-validation gate (pre-market checklist):** (1) live JPM ~$329.90 (latest trade), bid 329.83/ask 345.58 — uptrend near ATH confirmed, above 6/26 close $328.73; (2) sub-agent (Perplexity sonar-pro) re-confirmed the **$50B buyback (eff Jul 1) + dividend hike $1.50→$1.65/qtr (+10%) STILL LIVE — no weekend walk-back, no Fed objection, no negative 72h JPM news** (litigation/guidance/exec/downgrade all NONE FOUND; caveat: absence-of-evidence, no real-time IR feed). Price confirmed via Alpaca, not Perplexity (its only figure was a stale 10-Q table value).
+- **Order:** OTO market buy, qty 34, day TIF + stop_loss leg @ 306.81 (provisional). Filled in fragments (thin paper liquidity): 31 @ 329.70 → **34 @ 329.695588 = $11,209.65 (~10.8% of equity)**. Order id 701356fd-d56a-48c1-a2c2-1b57ed8dcce3, status filled.
+- **Stop swap:** cancelled the inherited day-TIF stop leg 48b76978 (HTTP 204, confirmed zero open JPM orders) → re-placed standalone **−7% HARD STOP GTC @ 306.62** (= fill 329.695588 × 0.93), id 3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670, confirmed RESTING `status:new`.
+- **Sizing rationale:** Conviction ~74 (Grade B+, band 10–15%), but Q2 earnings CONFIRMED Tue Jul 14 (binary, ~11 trading days out) → deliberately kept it a conservative STARTER (~10.8%, not full 15%). JPM is a financial, NOT high-beta AI/semis → the ≤10% beta-override does NOT apply; the Jul 14 print is the reason for the starter size. 1st of 3 weekly buys; fills the 5th/last slot → **book now AT the 5-position cap.**
+
+### Post-trade book (intraday marks ~09:40 ET)
+- Equity **$103,656.10**, cash **$35,237.53** (~34% buffer), long MV ~$68,420.51 (~66% invested). Day P/L **+$534.64 / +0.52%** intraday (close routine owns the official SPY scorecard; SPY intraday ~737.11, 6/26 close not cleanly verifiable — SIP bars blocked).
+- 5 positions: LLY +14.45% (trail 1114.2), GE +12.70% (trail 341.703), DE +3.88% (trail 568.737, lone WATCH), ETN +1.09% (trail 393.066, thinnest cushion ~3.2%), JPM −0.06% (−7% hard stop 306.62). Net open unrealized +$4,666.01.
+
+### Sells — NONE. No −7% drawdown, no thesis-breaker. All HOLD.
+
+### Next / standing tasks
+- **JPM +5% conversion trigger ~$346.18** — the moment JPM tags it, cancel hard stop 3e8fe4ea → place 10% trailing GTC (same workflow as the other 4).
+- At the 5-position cap, 1/3 weekly buys used: no new buys without a sell first; new ideas this week are candidate-swaps to reason about (DE the natural swap target). 
+- Macro: jobs report Thu 7/2 (don't add fresh size Wed 7/1 — moot at cap); JPM Q2 earnings Tue Jul 14 the key position-level event. Telegram push sent (trade placed).
+
+---
 ## 2026-06-29 06:00 CT (07:05 ET) — pre-market (Mon, day 1 of a SHORT week — market CLOSED Fri 7/3)
 
 **Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 07:04 ET, next_open 2026-06-29 09:30 ET — opens in ~2.4h). Inbox: **nothing pending.** Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$103,772.38**, last_equity **$103,121.46** (Alpaca's official 6/26 close = today's base; our memory recorded $103,134.62 — a −$13.16 reconciliation, cosmetic, Alpaca's figure is authoritative), cash **$46,447.18** (unchanged), daytrade_count 0, PDT false. Open-orders query → **all 4 stops RESTING `status:new`**, IDs unchanged: LLY trail **1094.184**/hwm 1215.76; GE trail **341.703**/hwm 379.67; DE trail **568.737**/hwm 631.93; ETN trail **393.066**/hwm 436.74. **Entire book on 10% trailing GTC — zero hard stops.** Sub-agent team (macro, earnings, position, scout) run in parallel. No trades (market closed; pre-market is research-only). **Weekly buy cap RESETS today: 0 of 3. One open slot (4 of 5). ~44.8% cash.**
