@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-06-30 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-06-30 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 104201.19,
+  "equity": 104124.68,
   "cash": 35237.52,
-  "day_pl": 144.34,
-  "day_pl_pct": 0.14,
-  "week_pl_pct": 0.95,
-  "spy_week_pct": 1.58,
-  "alpha_week_pct": -0.63,
+  "day_pl": 67.83,
+  "day_pl_pct": 0.07,
+  "week_pl_pct": 0.97,
+  "spy_week_pct": 2.37,
+  "alpha_week_pct": -1.40,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 370.70,
-      "pl_pct": 12.46,
+      "current": 373.00,
+      "pl_pct": 13.16,
       "stop": 341.703
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1211.98,
-      "pl_pct": 12.38,
+      "current": 1199.61,
+      "pl_pct": 11.23,
       "stop": 1114.2
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 633.2875,
-      "pl_pct": 7.37,
-      "stop": 571.023
+      "current": 634.33,
+      "pl_pct": 7.55,
+      "stop": 572.661
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 425.12,
-      "pl_pct": 5.87,
+      "current": 426.12,
+      "pl_pct": 6.12,
       "stop": 393.066
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 329.365,
-      "pl_pct": -0.10,
+      "current": 327.22,
+      "pl_pct": -0.75,
       "stop": 306.62
     }
   ],
@@ -125,6 +125,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-30 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $104,125 · day +0.07% · SPY +0.78% · alpha -0.72%",
+      "body": "Quiet, slightly-green day; the market beat us. No trades (at the 5-stock cap, nothing near a stop). Eaton +4.4% (+$429) offset Eli Lilly -2.5% (-$424). Trailing the index this week (we're +0.97% vs SPY +2.37%) on cash drag + lower beta. Closed Friday for the holiday; jobs report Thursday."
+    },
+    {
       "ts": "2026-06-30 12:05 CT",
       "routine": "midday",
       "headline": "Midday — steady, no changes; all 5 green and Deere kept climbing",
@@ -165,12 +171,6 @@
       "routine": "weekly-review",
       "headline": "Week wrap — thin-bench month broke; JPM cleared the gate",
       "body": "After 4 weeks of nothing clearing our bar, JPMorgan scored ~72 on post-stress-test capital returns. PANW collapsed off the lead. Set up for a possible Monday buy."
-    },
-    {
-      "ts": "2026-06-25 12:02 CT",
-      "routine": "midday",
-      "headline": "Midday — quiet, moved DE's stop up to lock in profit",
-      "body": "Risk-off tape (global semis selloff). No trades. Ratcheted Deere's trailing stop up. All positions holding."
     }
   ]
 }

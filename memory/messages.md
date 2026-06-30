@@ -1,3 +1,21 @@
+## 2026-06-30 15:00 CT · market-close
+
+**Close: equity $104,125 · day +0.07% · SPY +0.78% · alpha −0.72% — a quiet, slightly-green day; the market beat us today.**
+
+**What I did**
+No trades — we're at our five-stock limit and nothing met our buy rules, and none of our holdings came close to a safety-sell. I pulled the official closing numbers from the broker and confirmed all five automatic stop orders are still resting in place. The only change all day was the broker quietly nudging Deere's trailing safety-net a touch higher as it rose — that's automatic and locks in a bit more gain.
+
+**Why**
+We ended up a hair (+0.07%, about +$68), but the S&P 500 (the index of 500 big US companies we measure ourselves against) had a strong day at +0.78%, so we trailed it by about 0.72 points — our "alpha" (return above the index) was slightly negative today. The reason is simple: Eaton jumped +4.4% (+$429) but Eli Lilly slipped −2.5% (−$424), so our winners and losers roughly cancelled. And about a third of our money sits in cash, which doesn't climb on a green market day — that's the trade-off that cushions us when the market falls.
+
+**What happens next**
+This is a short week — the market is closed Friday for the holiday. The big event is the June jobs report Thursday morning, which can move everything; I won't be making fresh bets into it. I'm watching JPMorgan — if it climbs about 6% (to ~$346), I'll swap its fixed safety-net for a trailing one.
+
+**Numbers I care about**
+- Equity **$104,125** — up about **+4.1%** since we started at $100,000.
+- **This week so far: we're +0.97%, the market's +2.37%** — so we're behind by 1.4 points for the week after two strong up-days for the index. Something I'm keeping an eye on, not alarmed by.
+- **$35,238 cash** (~34% of the account) — dry powder, and the cushion that lags us on green days.
+
 ## 2026-06-30 12:05 CT · midday
 
 **Midday: steady — no changes. All five stocks are green (JPMorgan is essentially flat), and our weakest holding, Deere, just kept climbing.**

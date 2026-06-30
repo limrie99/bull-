@@ -35,6 +35,25 @@
 - **Watch ETN** (thinnest cushion ~4%) and **don't initiate fresh size Wed 7/1 or into the Thu 7/2 jobs print** (moot at cap, but the principle stands if a slot frees).
 - **Follow-ups for next runs:** (1) re-verify the LLY CMS $50/mo date (2026 vs 2027); (2) confirm JPM buyback live via issuer IR once the Jul-1 effective date passes; (3) confirm the Jul-3 market-holiday status.
 
+### Day summary / official scorecard (added by the 15:00 CT market-close routine)
+- **Equity $104,124.68** (cash $35,237.52 + long MV $68,887.16). last_equity $104,056.85 (Alpaca's 6/29 official close = today's base).
+- **Day P/L +$67.83 / +0.07%.** A hair green — ETN's +$429 day offset by LLY's −$424 day, GE/JPM near flat.
+- **SPY day +0.78%** (6/29 close 740.86 → 6/30 close 746.65, IEX daily bars; latest trade 746.65).
+- **Alpha today −0.72%.** Week-to-date (day 2 of a 4-day week; base = 6/26 close): P/L +0.97%, SPY +2.37%, **alpha WTD −1.40%.**
+- daytrade_count 0. ~66.2% invested, ~33.8% cash. **No trades today.**
+
+**What worked:**
+- **ETN +4.38% (+$428.64)** — the book's best mover, AI-data-center-power/electrification tailwind expressing; highest-beta name doing its job on a green tape.
+- **DE +1.23%** kept grinding to a fresh hwm (636.29) — its trailing floor ratcheted up 571.023 → 572.661, the only floor that moved. The re-rating is holding.
+
+**What didn't:**
+- **LLY −2.47% (−$424.48)** — the day's biggest drag, in line with healthcare lagging the sector rotation (estimates cut, group −3.4% over 6mo). Thesis intact, well above its floor (1114.2) — noise, not a break.
+- **Structural alpha lag:** two strong SPY up-days to open the week + our ~34% cash and lower-beta book = WTD alpha −1.40%. Expected mechanics, but the gap is now the thing to monitor.
+
+**Stop-management at close:** All 5 RESTING `status:new`. JPM +5% conversion NOT triggered (close 327.22 vs entry 329.6956, −0.75%; trigger ~$346.18, ~5.8% away). Hard stop @ 306.62 stays. No −7% drawdown anywhere — worst is JPM −0.75%. No sells.
+
+**Open questions for tomorrow:** (1) Does the alpha gap warrant trimming cash / adding beta if a slot frees — revisit at the (effectively Thu) weekly review? (2) ISM Manufacturing Wed 7/1 + June jobs Thu 7/2 into thin pre-holiday liquidity — gap/whipsaw risk on the book. (3) Same three data flags: LLY CMS date, JPM buyback live-confirmation, Jul-3 holiday status.
+
 ---
 ## 2026-06-29 15:00 CT (16:04 ET) — MARKET-CLOSE (Mon, day 1 of a SHORT week — CLOSED Fri 7/3) — Day summary / official scorecard
 
