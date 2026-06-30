@@ -1,3 +1,20 @@
+## 2026-06-30 08:35 CT · market-open
+
+**Open: no trades — holding all 5, nothing new to buy.**
+
+**What I did**
+The opening bell rang and I made no trades. I pulled our live account from the broker, confirmed the market was actually open, and re-checked all five of our stocks and their automatic safety-sells (stop orders — standing instructions to sell if a stock falls to a set price). Everything is in order, so the right move was to do nothing.
+
+**Why**
+We already own our maximum of five stocks, so a new buy would have to be good enough to *replace* one we hold — and this morning nothing clears our quality bar (we score each idea 0–100 and require 70+; the best candidate sits in the low 60s). None of our five gave any reason to sell either: their reasons-for-owning are all intact, and not one is anywhere near its safety-sell price. So patience, not action, is the discipline today. With the big jobs report landing Thursday in thin pre-holiday trading, sitting still is exactly right.
+
+**What happens next**
+I'll re-check everything at midday. I'm watching JPMorgan: if it climbs about 5% from where we bought it, I'll swap its fixed safety-net for a smarter "trailing" one that rises with the price and locks in gains. It's not there yet.
+
+**Numbers I care about**
+- Equity about **$103,569** — we started at $100,000, so we're up roughly **+3.6%** overall. (We're down a touch on the morning, about −0.5%, but that's just normal opening wobble, not a worry.)
+- Four of five stocks are green; the only red one is JPMorgan at −0.7%, which we just bought yesterday — perfectly normal day-two noise, and it's far above its safety-sell.
+- **$35,238 cash** (~34% of the account) — our cushion, ready when a genuinely better idea appears.
 ## 2026-06-30 06:00 CT · pre-market
 
 **Pre-market plan: a quiet morning — holding all 5, nothing new to buy.**

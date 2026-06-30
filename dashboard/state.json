@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-06-30 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-06-30 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 104094.72,
+  "equity": 103568.92,
   "cash": 35237.52,
-  "day_pl": 37.87,
-  "day_pl_pct": 0.04,
+  "day_pl": -487.93,
+  "day_pl_pct": -0.47,
   "week_pl_pct": 0.95,
   "spy_week_pct": 1.58,
   "alpha_week_pct": -0.63,
   "positions": [
     {
-      "symbol": "LLY",
-      "qty": 14,
-      "avg_cost": 1078.46,
-      "current": 1224.0,
-      "pl_pct": 13.50,
-      "stop": 1114.2
-    },
-    {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 375.0,
-      "pl_pct": 13.76,
+      "current": 372.389,
+      "pl_pct": 12.97,
       "stop": 341.703
+    },
+    {
+      "symbol": "LLY",
+      "qty": 14,
+      "avg_cost": 1078.46,
+      "current": 1212.85,
+      "pl_pct": 12.46,
+      "stop": 1114.2
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 626.63,
-      "pl_pct": 6.24,
+      "current": 618.99,
+      "pl_pct": 4.95,
       "stop": 568.737
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 410.0,
-      "pl_pct": 2.11,
+      "current": 410.25,
+      "pl_pct": 2.17,
       "stop": 393.066
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 330.01,
-      "pl_pct": 0.10,
+      "current": 327.28,
+      "pl_pct": -0.73,
       "stop": 306.62
     }
   ],
@@ -125,21 +125,27 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-06-30 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades \u2014 holding all 5, nothing new clears the buy bar",
+      "body": "Made no trades at the bell. At our 5-stock max, and nothing new scores high enough to replace a holding. No sells either \u2014 all five theses intact, none near a safety-sell. JPM (day-2 starter) is the lone red at \u22120.7%, normal noise. ~34% cash. Re-check at midday."
+    },
+    {
       "ts": "2026-06-30 06:00 CT",
       "routine": "pre-market",
-      "headline": "Quiet pre-market — holding all 5, nothing new clears the buy bar",
-      "body": "No bad news on any holding and no earnings on the book this week. Nothing scores high enough to buy (best idea Amgen at 62/100, plus a downgrade). Re-rated Deere UP — it's stronger than I'd flagged, not our weak link. Watching Thursday's jobs report; won't add risk into it."
+      "headline": "Quiet pre-market \u2014 holding all 5, nothing new clears the buy bar",
+      "body": "No bad news on any holding and no earnings on the book this week. Nothing scores high enough to buy (best idea Amgen at 62/100, plus a downgrade). Re-rated Deere UP \u2014 it's stronger than I'd flagged, not our weak link. Watching Thursday's jobs report; won't add risk into it."
     },
     {
       "ts": "2026-06-29 15:00 CT",
       "routine": "market-close",
-      "headline": "Equity $104,098 · day +0.95% · we lagged a strong market (+1.58%)",
-      "body": "All 5 positions green. JPM starter buy from the open is contributing. We lagged SPY today purely because ~34% of the account is in cash — the flip-side of cushioning down-days. No trades at the close."
+      "headline": "Equity $104,098 \u00b7 day +0.95% \u00b7 we lagged a strong market (+1.58%)",
+      "body": "All 5 positions green. JPM starter buy from the open is contributing. We lagged SPY today purely because ~34% of the account is in cash \u2014 the flip-side of cushioning down-days. No trades at the close."
     },
     {
       "ts": "2026-06-29 08:38 CT",
       "routine": "market-open",
-      "headline": "Bought JPMorgan (JPM) — a starter position in the biggest US bank",
+      "headline": "Bought JPMorgan (JPM) \u2014 a starter position in the biggest US bank",
       "body": "Added 34 shares of JPM at ~$329.70 (~10.8% of the account) with a -7% safety-net stop. Post-stress-test $50B buyback + 10% dividend hike. Kept it a starter because earnings land Jul 14. Book now full at 5 positions."
     },
     {
@@ -151,26 +157,20 @@
     {
       "ts": "2026-06-26 16:30 CT",
       "routine": "weekly-review",
-      "headline": "Week wrap — thin-bench month broke; JPM cleared the gate",
+      "headline": "Week wrap \u2014 thin-bench month broke; JPM cleared the gate",
       "body": "After 4 weeks of nothing clearing our bar, JPMorgan scored ~72 on post-stress-test capital returns. PANW collapsed off the lead. Set up for a possible Monday buy."
     },
     {
       "ts": "2026-06-25 12:02 CT",
       "routine": "midday",
-      "headline": "Midday — quiet, moved DE's stop up to lock in profit",
+      "headline": "Midday \u2014 quiet, moved DE's stop up to lock in profit",
       "body": "Risk-off tape (global semis selloff). No trades. Ratcheted Deere's trailing stop up. All positions holding."
     },
     {
       "ts": "2026-06-18 12:05 CT",
       "routine": "midday",
-      "headline": "Midday — ETN converted to a profit-locking trailing stop",
+      "headline": "Midday \u2014 ETN converted to a profit-locking trailing stop",
       "body": "Eaton crossed +5%, so I swapped its -7% safety net for a 10% trailing stop that follows the price up."
-    },
-    {
-      "ts": "2026-06-15 08:37 CT",
-      "routine": "market-open",
-      "headline": "GE converted to a trailing stop",
-      "body": "GE Aerospace comfortably in profit; moved to a 10% trailing stop to protect gains while letting it run."
     }
   ]
 }
