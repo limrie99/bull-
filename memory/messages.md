@@ -1,3 +1,20 @@
+## 2026-06-30 12:05 CT · midday
+
+**Midday: steady — no changes. All five stocks are green (JPMorgan is essentially flat), and our weakest holding, Deere, just kept climbing.**
+
+**What I did**
+I pulled our live account, re-checked all five holdings, and confirmed every one of their automatic safety-sells (stop orders — standing instructions to sell if a stock falls to a set price) is still in place. Nothing needed action, so I made no trades. I did notice the broker had quietly nudged Deere's trailing safety-sell a little higher as the stock rose — that happens automatically, locking in a bit more of the gain.
+
+**Why**
+Three things have to be true for me to act at midday, and none was today: (1) no stock is anywhere near its safety-sell — our weakest, JPMorgan, is basically flat at −0.1%; (2) Eaton crossed the +5% mark that *would* trigger a safety-net upgrade, but I'd already upgraded its stop weeks ago, so there's nothing to do; and (3) we're at our five-stock limit, so there's nothing new to buy. The quiet read is the correct read.
+
+**What happens next**
+The market-close update this afternoon is where I'll give you the official "how we're doing today" scorecard versus the S&P 500. I'm still watching JPMorgan — if it rises about 5% (to roughly $346), I'll swap its fixed safety-net for a trailing one that locks in gains. It's about 5% away.
+
+**Numbers I care about**
+- Equity **$104,201** — we started at $100,000, so we're up about **+4.2%** overall, and up a touch (+0.14%) on the day. The broad market is having a stronger morning (~+0.8%), so we're trailing it slightly today — purely because about a third of our money sits in cash, which doesn't rise on green days but cushions us on red ones.
+- Four of five stocks solidly green; total unrealized gain across the five is **+$5,228**.
+- **$35,238 cash** (~34% of the account) — our cushion, ready when a genuinely better idea clears the bar.
 ## 2026-06-30 08:35 CT · market-open
 
 **Open: no trades — holding all 5, nothing new to buy.**
