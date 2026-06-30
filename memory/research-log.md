@@ -1,3 +1,41 @@
+## 2026-06-30 06:00 CT (07:05 ET) — pre-market (Tue, day 2 of a SHORT week — market CLOSED Fri 7/3)
+
+**Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 07:04 ET, next_open 2026-06-30 09:30 ET — opens in ~2.4h). Inbox: **nothing pending.** Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$104,094.72**, last_equity **$104,056.85** (Alpaca's official 6/29 close = today's base; our memory recorded $104,097.79 — a −$40.94 cosmetic reconciliation, Alpaca's figure is authoritative), cash **$35,237.52**, daytrade_count 0, PDT false, not blocked. Open-orders query → **all 5 stops RESTING `status:new`**, IDs unchanged: LLY trail 1114.2/hwm 1238; GE trail 341.703/hwm 379.67; DE trail 568.737/hwm 631.93; ETN trail 393.066/hwm 436.74; JPM **−7% HARD STOP 306.62** (lone hard stop). 4 of 5 on 10% trailing, JPM on its −7% hard stop. Sub-agent team (macro, earnings, position, scout) run in parallel. No trades (market closed; pre-market is research-only). **Weekly buys 1 of 3. Book AT the 5-position cap (5 of 5). ~33.85% cash.**
+
+### Market context
+- **Tape: risk-on LEAN, confidence LOW (macro analyst).** ES (S&P 500 Sep) **7,507.50, +7.25 — VERIFIED** (MarketWatch, 30 Jun 02:44 ET) — modestly green, calm overnight. NQ up but UNVERIFIED. Asia/Europe indices all UNVERIFIED. Treat risk-on as a lean, not a fact — only one live data point.
+- **Rates/FX/commodities:** 10Y, 2Y, DXY, WTI, gold all **UNVERIFIED** this morning (recurring Perplexity retrieval gap past mid-2026). Context-only (UNVERIFIED): long-end yields grinding higher, energy elevated on Middle East/Iran. Do not treat absence of data as confirmed calm.
+- **Week-ahead calendar:** SHORT week, **market CLOSED Fri Jul 3** (note: holiday status itself flagged UNVERIFIED by earnings agent — working assumption). **ISM Manufacturing Wed Jul 1.** **June JOBS REPORT Thu Jul 2, 8:30 ET** (pulled forward a day) — THE swing event of the week, landing into thin pre-holiday liquidity = elevated gap/whipsaw risk. Consensus numbers UNVERIFIED.
+- **Fed status:** **Powell-vs-Warsh STILL UNRESOLVED.** One mid-2026 calendar labels "Fed Chairman Kevin Warsh" + a Jun 24 broadcast discusses Warsh; suggestive but NOT confirmed. **Do NOT build rate assumptions on the chair identity.**
+
+### Portfolio watch (all 5 theses checked; position analyst — NO thesis-breakers; severe live-window retrieval gap, most-recent dated items are pre-window and corroborate theses)
+- **LLY** (~+13.5%, biggest winner) — no material 24-48h news (window UNVERIFIED). Pre-window corroborates: strong FY26 guide ~$80-83B rev, Goldman Buy $1,283 (Jun 9), MS OW ~$1,344. **DATA FLAG (downgrade in confidence):** position agent could NOT confirm the CMS Medicare GLP-1 $50/mo Zepbound demo effective **Jul 1, 2026** — the only dated Medicare obesity-coverage rollout it found is **Jul 1, 2027**, not 2026. Our memory's Jul-1-2026 catalyst is now UNVERIFIED and may be a year off. **Do not lean on it; re-verify against CMS independently.** Thesis still **INTACT (sev 3)** on the core GLP-1 franchise. Trail floor 1114.2 (locks a profit). HOLD.
+- **GE** (~+13.8%) — no dated 24-48h news/orders/analyst action (window UNVERIFIED). Aero/defense aftermarket intact. Earnings ~Jul 16 (UNVERIFIED date). Trail floor 341.703. **INTACT (sev 3). HOLD.**
+- **DE** (~+6.2%) — **MATERIAL RE-RATING: NOT the soft/weakest thesis we've been carrying.** Scout VERIFIED a strongly bullish picture: last-Q EPS $6.55 vs $5.70 + rev $13.37B vs $11.55B (big beat), FY26 guidance raised then maintained, **JPM PT raised $560→$590 (6/4)**, Buy consensus with **0 Sells (6/29)**, price well above 50dMA ~$573 (clear uptrend). **The "Jefferies Sell/$550" overhang we've cited could NOT be found/verified this run** — it may be stale or mis-recorded. DE out-scores every bench candidate. **Removing the WATCH tag → INTACT.** No longer the natural swap target. Trail floor 568.737. HOLD.
+- **ETN** (~+1.7-2.1%) — no ETN-specific 24-48h news, no downgrade (window UNVERIFIED). Data-center power/electrification tailwind intact. Highest beta, **thinnest cushion (~4% above floor 393.066)** — the squeeze candidate if the tape rolls. Earnings ~late Jul (UNVERIFIED). Trail floor 393.066. **INTACT (sev 3). HOLD, watch beta.**
+- **JPM** (~+0.1-0.5%, day-2) — no 24-48h news (window UNVERIFIED); buyback/div **NOT independently confirmable externally BUT no walk-back found** (treat capital-return as UNVERIFIED-but-uncontradicted; the $50B buyback's stated Jul-1 effective date is today/tomorrow). Q2 earnings **CONFIRMED Tue Jul 14** (JPM IR, VERIFIED) — ~10 trading days out, outside the 3-day no-open window. **−7% HARD STOP @ 306.62** until it tags +5% (~$346.18) → then convert to 10% trailing. **INTACT (sev 3). HOLD.**
+- Risk checks: (a) −7% net drawdown — worst is JPM ~+0.1%, all 5 green, none near −7%; (b) +5%→trailing conversions — 4 of 5 done; **JPM the lone hard stop**, not yet at +5% trigger ~$346.18; (c) daily loss cap — n/a pre-market. daytrade_count 0.
+
+### Buy candidates — NOTHING CLEARS THE GATE (scout); at the 5-cap anyway → any name would be a candidate-swap, and none out-scores DE
+- **GATE RESULT: ZERO candidates clear ≥70 with 2+ verified signals.** Perplexity's mid-2026 gap was *severe* today — it refused to confirm ANY live beat-and-raise, ANY current price/50dMA, ANY fresh bench catalyst, and even **confabulated a fake "JPMorgan upgrades DK $116"** (real action TD Cowen Buy $58; DK is a sub-$10B refiner, off-mandate anyway). Every score is capped — nothing scored UP on unverifiable data.
+- **AMGN ~62** (was ~70) — only 1 signal (stale Apr-30 beat-raise) + a **Bernstein DOWNGRADE** noting no near-term catalyst. EARNINGS ~Aug 4. Demoted.
+- **CVS ~60** — 1 thin signal (managed-care rotation), no fresh dated catalyst. EARNINGS ~Jul 30.
+- **V ~58** — the BofA upgrade (6/25) that would give a 2nd signal could NOT be confirmed live. Quality payments name on hold.
+- **VST ~55** (THESIS-RISK) — MS PT-trim unrefuted, KKR Helix 6/11 stale, higher-risk merchant-power utility.
+- **MS ~55** — favored financials sector but CCAR buyback/div UNVERIFIED.
+- **CB ~54** — 0 verified signals; quality P&C insurer, no fresh catalyst.
+- **Sector rotation (verified-ish):** INTO Tech/Industrials/Materials/Utilities (AI-infra) + Financials (value-led). **Healthcare LAGGING** (estimates cut, −3.4% 6mo) — a direct headwind for the AMGN/CVS theses. Supports holding our industrials (GE/DE/ETN) + JPM tilt.
+- **Earnings (today):** NKE + STZ report (neither a holding); no other material large-caps. No fresh verifiable beat-and-raise in the 6/23–30 window. No holding reports within ~5 trading days — no imminent earnings risk on the book.
+
+### Sell candidates — NONE. No −7% drawdown, no thesis-breaker, no qualifying swap. All 5 HOLD.
+
+### Plan into the open / standing tasks
+- **No buys possible** (at the 5-cap). Hold all 5. Any new idea this week is a candidate-swap — and after DE's re-rating, the book has no obvious weak link to swap out. Nothing clears ≥70 anyway.
+- **JPM +5% conversion ~$346.18** (standing): the moment JPM tags it, cancel hard stop 3e8fe4ea → place 10% trailing GTC.
+- **Watch ETN** (thinnest cushion ~4%) and **don't initiate fresh size Wed 7/1 or into the Thu 7/2 jobs print** (moot at cap, but the principle stands if a slot frees).
+- **Follow-ups for next runs:** (1) re-verify the LLY CMS $50/mo date (2026 vs 2027); (2) confirm JPM buyback live via issuer IR once the Jul-1 effective date passes; (3) confirm the Jul-3 market-holiday status.
+
+---
 ## 2026-06-29 15:00 CT (16:04 ET) — MARKET-CLOSE (Mon, day 1 of a SHORT week — CLOSED Fri 7/3) — Day summary / official scorecard
 
 **Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 16:04 ET, next_open 2026-06-30 09:30 ET). Inbox: **nothing pending.** Pulled official close from Alpaca.
