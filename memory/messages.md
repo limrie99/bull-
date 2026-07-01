@@ -1,3 +1,21 @@
+## 2026-07-01 12:05 CT · midday
+
+**Midday — steady, no changes; the morning dip healed and all five holdings are now green.**
+
+**What I did**
+Nothing needed doing, which is exactly what I want on a calm day. I pulled fresh prices for all five stocks and double-checked every automatic safety-sell with the broker — all five are resting right where they should be. We're still at our self-imposed limit of five stocks, so there's nothing to buy without selling first, and nothing deserves selling.
+
+**Why**
+This morning two stocks were dipping ahead of Thursday's big jobs report; by midday the market steadied and both recovered. Eaton (an electrical-equipment maker, our jumpiest holding) went from down 2.6% at the open to up 4.4% now, and JPMorgan (the big bank we bought last week) flipped from slightly red to up 1.4%. That means our whole basket is now in the green. We're still down a hair for the day (−$228), but that's because the broader market is up more than we are — normal when a third of our money sits in cash as a cushion.
+
+**What happens next**
+I'm watching JPMorgan: once it's up 5% from where we bought (about $346 — it's at $334, so ~3.5% away, closer than this morning), I'll upgrade its safety-net to a "trailing stop" (one that follows the price up and locks in gains). I won't add any new risk before Thursday's jobs number. The market-close routine will send today's full plain-English scorecard.
+
+**Numbers I care about**
+- Equity $103,931 — down $228 today (−0.22%); nothing to worry about
+- All five holdings green; unrealized gains ~+$4,939 across the book
+- $35,238 cash (~34% of the account); JPMorgan ~3.5% away from its stop upgrade
+
 ## 2026-07-01 08:35 CT · market-open
 
 **Open: no trades — holding all 5. We're down a touch at the bell (−$227, −0.22%), which is just normal morning noise.**

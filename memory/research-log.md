@@ -2430,3 +2430,13 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **No trades.** No new buy at midday: book is **AT the 5-position cap (5 of 5)** and no high-conviction breaking catalyst surfaced — moot regardless of the gate. 1 of 3 weekly buys used (JPM at the open 6/29). Not cold-start (fully invested 5-position book, fresh memory). Inbox: nothing pending.
 - **Notable:** Whole book green-from-entry except JPM, which is flat (−0.10%, day-2 starter) — clean. GE (+12.46%) and LLY (+12.38%) remain the anchors. DE recovered/ran to +7.37% (best since entry), ratcheting its trailing floor up. ETN crossed +5% to +5.87% — already trailing, just a healthier cushion now. Quiet, constructive midday; the book holds modestly green while SPY runs harder (cash-drag, expected).
 - **Watch into close:** JPM +5%→trailing conversion if it tags **~$346.18** (standing task: cancel hard stop 3e8fe4ea → place 10% trailing GTC). Close routine owns the authoritative day-vs-SPY scorecard + the **mandatory daily "how we're doing" Telegram**. **Macro:** ISM Mfg Wed 7/1; **June JOBS REPORT Thu 7/2 8:30 ET** (the swing event, thin pre-holiday liquidity — don't initiate fresh size, moot at cap); market CLOSED Fri 7/3. JPM Q2 earnings Tue Jul 14 the key position-level event.
+
+## 2026-07-01 12:05 CT · MIDDAY (market OPEN)
+**No action — quiet, healthy midday.** Pulled account + positions + open orders from Alpaca (live).
+- **Account:** equity $103,931.09, last_equity (6/30 close) $104,158.75 → day **−$227.66 / −0.22%**, well inside the −3% daily loss cap. Cash $35,237.52 (~33.9%), LMV $68,693.57. daytrade_count 0. status ACTIVE.
+- **Marks / P&L:** GE 373.86 +13.42% | LLY 1183.32 +9.72% | DE 630.575 +6.91% | ETN 419.285 +4.42% | JPM 334.35 +1.41%. Net unrealized ~+$4,939.07. Whole book green (JPM flipped positive intraday).
+- **Risk (a) −7% check:** worst = JPM +1.41%; none near −7% → no sells.
+- **Risk (b) +5%→trailing:** 4 of 5 already on 10% trailing; JPM (+1.41%) still on its −7% hard stop @ 306.62, converts at ~$346.18 (now ~3.5% away, closer than the open's ~5.9%). No conversion this run.
+- **Risk (c) daily loss cap:** −0.22%, inside −3% (moot — at 5/5 cap, no buys possible).
+- **Open orders verified RESTING (status `new`, IDs unchanged):** JPM stop 306.62 `3e8fe4ea`; DE trail10 572.661 `dcdd84e5`; ETN trail10 393.066 `cc843666`; GE trail10 341.703 `b9dadf2d`; LLY trail10 1114.2 `6016a7e7`.
+- **Intraday read:** morning dip reversed — ETN open −2.6% → +4.42% (cushion above floor back to ~6.3% from ~5.3%); JPM −0.83% → +1.41%. No new buys (at cap, nothing on bench ≥70). No Telegram push (quiet midday, per CLAUDE.md skip rule).
