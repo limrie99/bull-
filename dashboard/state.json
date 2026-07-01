@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-06-30 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-01 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 104124.68,
+  "equity": 104189.15,
   "cash": 35237.52,
-  "day_pl": 67.83,
-  "day_pl_pct": 0.07,
+  "day_pl": 30.40,
+  "day_pl_pct": 0.03,
   "week_pl_pct": 0.97,
   "spy_week_pct": 2.37,
   "alpha_week_pct": -1.40,
@@ -14,16 +14,16 @@
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 373.00,
-      "pl_pct": 13.16,
+      "current": 373.73,
+      "pl_pct": 13.38,
       "stop": 341.703
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1199.61,
-      "pl_pct": 11.23,
+      "current": 1205.05,
+      "pl_pct": 11.74,
       "stop": 1114.2
     },
     {
@@ -38,16 +38,16 @@
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 426.12,
-      "pl_pct": 6.12,
+      "current": 424.59,
+      "pl_pct": 5.74,
       "stop": 393.066
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 327.22,
-      "pl_pct": -0.75,
+      "current": 326.99,
+      "pl_pct": -0.82,
       "stop": 306.62
     }
   ],
@@ -125,6 +125,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-01 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Morning plan: nothing to buy or sell; all 5 stocks fine, two open questions answered",
+      "body": "No trades (research-only pre-market). All five theses intact, all safety-sells resting. Two flags cleared in our favor: Eli Lilly's Medicare $50/mo weight-loss program starts this year (2026, confirmed), and JPMorgan's $50B buyback is officially live (SEC filing). No new idea clears our 2-signal bar — Goldman is the best fresh name (dividend hike) but goes on the bench. Full at 5 stocks; won't add risk into Thursday's jobs report; closed Friday for the holiday."
+    },
+    {
       "ts": "2026-06-30 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $104,125 · day +0.07% · SPY +0.78% · alpha -0.72%",
@@ -165,12 +171,6 @@
       "routine": "pre-market",
       "headline": "Pre-market plan: JPMorgan finally clears the buy bar",
       "body": "First gate-clearing idea in weeks. Planning a conservative JPM starter at the open given its Jul 14 earnings. All 4 holdings intact, no thesis-breakers over the weekend."
-    },
-    {
-      "ts": "2026-06-26 16:30 CT",
-      "routine": "weekly-review",
-      "headline": "Week wrap — thin-bench month broke; JPM cleared the gate",
-      "body": "After 4 weeks of nothing clearing our bar, JPMorgan scored ~72 on post-stress-test capital returns. PANW collapsed off the lead. Set up for a possible Monday buy."
     }
   ]
 }

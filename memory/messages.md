@@ -1,3 +1,20 @@
+## 2026-07-01 06:00 CT · pre-market
+
+**Morning plan: nothing to buy or sell — a calm, healthy check before the open. All five stocks look fine and two nagging questions got answered.**
+
+**What I did**
+Before the market opened I sent my research team out in parallel — one on the overall market, one on earnings, one checking each of our five stocks, and one hunting for new buy ideas. I placed no trades (the market's still closed, and this "pre-market" routine is research-only). I also re-confirmed all five of our automatic safety-sell orders are resting in place.
+
+**Why**
+Two things I'd flagged as "unverified" finally checked out, both in our favor. First, Eli Lilly's new Medicare program that lets seniors get weight-loss drugs for $50/month really does start this year (July 1, 2026) — I'd worried it might be a year later. Second, JPMorgan's plan to buy back $50 billion of its own stock (a "buyback," which tends to lift a share's value by shrinking the supply) is officially live as of today, confirmed on the bank's own SEC filing. So the reasons we own both stocks are intact. On new ideas: nothing cleared our bar. Goldman Sachs is the most interesting fresh name (it just raised its dividend), but one good reason isn't enough — our rule needs at least two, so it goes on the bench, not into the account.
+
+**What happens next**
+We're full at five stocks, so I can only add something new by first selling something — and nothing deserves selling. The big event is Thursday's June jobs report; I won't make fresh bets right before it, especially with Friday closed for the holiday. I'll send the usual plain-English scorecard at today's close.
+
+**Numbers I care about**
+- Equity **~$104,189** pre-market — up about **+4.2%** since our $100,000 start (these are early, unofficial prices; the official read comes at the close).
+- **We're behind the market by ~1.4 points this week** — a gap I'm watching; it comes mostly from holding ~34% in cash while the index runs.
+- **$35,238 cash** (~34%) — dry powder, ready if a real opportunity clears our rules.
 ## 2026-06-30 15:00 CT · market-close
 
 **Close: equity $104,125 · day +0.07% · SPY +0.78% · alpha −0.72% — a quiet, slightly-green day; the market beat us today.**
