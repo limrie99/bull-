@@ -1,3 +1,19 @@
+## 2026-07-01 08:35 CT (09:35 ET) — market-open (Wed, short week; CLOSED Fri 7/3)
+
+**Setup:** Keys present. Clock **is_open:true** (09:31 ET), next_close 16:00 ET. Inbox: nothing pending. Live Alpaca (open marks): equity **$103,931.64**, last_equity **$104,158.75** (6/30 official close = today's base), cash **$35,237.52**, buying_power 333,293.62, daytrade_count 0, PDT false, not blocked. **Day P/L −$227.11 / −0.22%** — modestly red at the bell (well inside the −3% daily cap).
+
+**Open-orders query → all 5 stops RESTING `status:new`, IDs unchanged:**
+- LLY trail floor 1114.2 `6016a7e7` · GE trail 341.703 `b9dadf2d` · DE trail 572.661 `dcdd84e5` · ETN trail 393.066 `cc843666` · JPM **−7% hard stop 306.62** `3e8fe4ea`.
+
+**Positions (open marks):** GE 45 @ 374.64 (+13.66%), LLY 14 @ 1210.99 (+12.29%), DE 22 @ 628.00 (+6.47%), ETN 24 @ 414.89 (+3.32%), JPM 34 @ 326.96 (−0.83%). Net open unrealized **+$4,948.16**.
+
+**Execution vs pre-market plan:** Plan was HOLD all 5 — no buys possible (at the 5-cap, nothing on bench clears ≥70), no sells (all theses INTACT sev 3, none near −7%). Re-validated against live open prices: confirmed. **No trades placed.**
+- Risk checks: (a) worst drawdown JPM −0.83%, none near −7% → no sells; (b) +5%→trailing: 4 of 5 done, JPM the lone hard stop, mark 326.96 vs +5% trigger ~346.18 (~5.9% away) → NOT converted; (c) daily loss cap −0.22%, moot at cap. daytrade_count 0.
+- **ETN watch:** off ~2.6% today (mark 414.89 vs lastday 426.12); cushion above its 393.066 trailing floor narrowed to ~5.3% — highest-beta name, the squeeze candidate if the tape rolls into Thu's jobs print. No pre-emptive action; the trailing stop handles it.
+- DE off ~1.0%; GE/LLY green. No thesis-breaker on any name.
+
+**Standing tasks carried:** (1) JPM +5% conversion at ~$346.18 → cancel `3e8fe4ea`, place 10% trailing GTC. (2) Do NOT initiate fresh size into Thu 7/2 jobs print (moot at cap). (3) Alpha-gap review (WTD −1.40% through 6/30) at the effective weekly review Thu 7/2. **No Telegram push** (no-trade open — not a push-eligible event per CLAUDE.md). Next routine: midday 7/1.
+
 ## 2026-07-01 06:00 CT (07:03 ET) — pre-market (Wed, day 3 of a SHORT week — market CLOSED Fri 7/3)
 
 **Setup:** All 4 keys present (+ Telegram). Market **CLOSED** (clock `is_open:false`, ts 07:03 ET, next_open 2026-07-01 09:30 ET — opens in ~2.4h). Inbox: **nothing pending.** Live Alpaca (pre-market marks, UNAUTHORITATIVE): equity **$104,189.15**, last_equity **$104,158.75** (Alpaca's official 6/30 close = today's base; our memory recorded $104,124.68 — a +$34.07 cosmetic reconciliation, Alpaca's figure is authoritative), cash **$35,237.52**, daytrade_count 0, PDT false, not blocked. Open-orders query → **all 5 stops RESTING `status:new`**, IDs unchanged: LLY trail 1114.2/hwm 1238; GE trail 341.703/hwm 379.67; DE trail 572.661/hwm 636.29; ETN trail 393.066/hwm 436.74; JPM **−7% HARD STOP 306.62** (lone hard stop). 4 of 5 on 10% trailing, JPM on its −7% hard stop. Sub-agent team (macro, earnings, position, scout) run in parallel. No trades (market closed; pre-market is research-only). **Weekly buys 1 of 3. Book AT the 5-position cap (5 of 5). ~33.8% cash.**

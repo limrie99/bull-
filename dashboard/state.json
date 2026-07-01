@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-07-01 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-07-01 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 104189.15,
+  "equity": 103931.64,
   "cash": 35237.52,
-  "day_pl": 30.40,
-  "day_pl_pct": 0.03,
+  "day_pl": -227.11,
+  "day_pl_pct": -0.22,
   "week_pl_pct": 0.97,
   "spy_week_pct": 2.37,
   "alpha_week_pct": -1.40,
@@ -14,40 +14,40 @@
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 373.73,
-      "pl_pct": 13.38,
+      "current": 374.64,
+      "pl_pct": 13.66,
       "stop": 341.703
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1205.05,
-      "pl_pct": 11.74,
+      "current": 1210.99,
+      "pl_pct": 12.29,
       "stop": 1114.2
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 634.33,
-      "pl_pct": 7.55,
+      "current": 628.00,
+      "pl_pct": 6.47,
       "stop": 572.661
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 424.59,
-      "pl_pct": 5.74,
+      "current": 414.89,
+      "pl_pct": 3.32,
       "stop": 393.066
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 326.99,
-      "pl_pct": -0.82,
+      "current": 326.96,
+      "pl_pct": -0.83,
       "stop": 306.62
     }
   ],
@@ -125,6 +125,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-01 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — holding all 5; down a touch (−$227, −0.22%) on normal morning noise",
+      "body": "Made no trades at the bell. We're at our 5-stock cap and nothing new clears the 2-signal bar, so no buys; all five theses are intact and none near a safety-sell, so no sells. Eaton (−2.6%) and Deere (−1%) dipped ahead of Thursday's jobs report; Lilly and GE are green. Watching Eaton's trailing stop, now ~5% below its price. ~34% cash. Re-check at midday."
+    },
+    {
       "ts": "2026-07-01 06:00 CT",
       "routine": "pre-market",
       "headline": "Morning plan: nothing to buy or sell; all 5 stocks fine, two open questions answered",
@@ -165,12 +171,6 @@
       "routine": "market-open",
       "headline": "Bought JPMorgan (JPM) — a starter position in the biggest US bank",
       "body": "Added 34 shares of JPM at ~$329.70 (~10.8% of the account) with a -7% safety-net stop. Post-stress-test $50B buyback + 10% dividend hike. Kept it a starter because earnings land Jul 14. Book now full at 5 positions."
-    },
-    {
-      "ts": "2026-06-29 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: JPMorgan finally clears the buy bar",
-      "body": "First gate-clearing idea in weeks. Planning a conservative JPM starter at the open given its Jul 14 earnings. All 4 holdings intact, no thesis-breakers over the weekend."
     }
   ]
 }

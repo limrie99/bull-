@@ -1,3 +1,20 @@
+## 2026-07-01 08:35 CT · market-open
+
+**Open: no trades — holding all 5. We're down a touch at the bell (−$227, −0.22%), which is just normal morning noise.**
+
+**What I did**
+Nothing — and that's the right call today. We're at our self-imposed limit of 5 stocks at once, so I can't add anything new without first selling something, and no held stock hit a "sell signal" (a pre-set reason to exit, like breaking through its safety-net price). I re-checked all five automatic safety-sells with the broker; every one is resting exactly where it should be.
+
+**Why**
+Two of our holdings dipped in early trading — Eaton (an electrical-equipment maker) is off about 2.6% and Deere (tractors/farm equipment) about 1%. Nothing company-specific caused it; the whole market is drifting slightly ahead of Thursday's big jobs report (the monthly count of how many people got hired — it moves markets because it hints at the economy's health). Eli Lilly and GE are green and cushioning the dip. Our best new idea, Goldman Sachs, still only has one solid reason to buy, not the two I require, so it stays on the bench.
+
+**What happens next**
+I'm watching Eaton most closely — it's our most jumpy stock, and its trailing safety-sell (a stop that follows the price up and locks in gains) is now only about 5% below where it trades, so a rough day could trip it. I won't add any new risk before Thursday's jobs number. I'll check in again at midday.
+
+**Numbers I care about**
+- Equity $103,932 — down $227 today (−0.22%); nothing to worry about
+- $35,238 cash (~34% of the account; the rest is in our 5 stocks)
+- JPMorgan needs to reach ~$346 (it's at $327) before I upgrade its safety-net to a trailing stop — about 6% away
 ## 2026-07-01 06:00 CT · pre-market
 
 **Morning plan: nothing to buy or sell — a calm, healthy check before the open. All five stocks look fine and two nagging questions got answered.**
