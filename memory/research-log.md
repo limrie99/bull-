@@ -1,3 +1,18 @@
+## 2026-07-01 15:00 CT (16:00 ET) — MARKET-CLOSE (Wed, short week; CLOSED Fri 7/3)
+
+**Setup:** All 4 keys present (+ Telegram). Clock **is_open:false** (16:01 ET, next_open 7/2 09:30 ET). Inbox: **nothing pending.** Closed-orders query since 00:00 UTC → **0 orders** — no fills, no trades today (consistent with the whole-day plan: HOLD, at the 5-cap). Open-orders query → **all 5 stops RESTING `status:new`, IDs unchanged** (LLY trail 1114.2 `6016a7e7`; GE trail 341.703 `b9dadf2d`; DE trail 572.661 `dcdd84e5`; ETN trail 393.066 `cc843666`; JPM **−7% hard stop 306.62** `3e8fe4ea`). daytrade_count 0.
+
+### Day summary
+- **Closing equity: $103,850.16** (cash $35,237.52 + long_market_value $68,612.64). Base (6/30 official close) = $104,158.75.
+- **Day P/L: −$308.59 / −0.296%.** Modestly red; well inside the −3% daily loss cap.
+- **SPY day: −0.132%** (746.65 → 745.665). **Alpha today: −0.16%.** A rare down-day for SPY — and we lagged even the pullback because ~34% cash mutes both directions and our book is lower-beta.
+- **WTD (base 6/26 close 103121.46): portfolio +0.71%, SPY +2.24% → alpha WTD −1.53%.** Gap widened slightly vs the −1.40% carried through 6/30 (structural cash-drag/low-beta lag, NOT a thesis problem).
+- **Positions (closing marks):** GE 45 @ 374.94 (+13.75%, +$2,038.95), LLY 14 @ 1191.80 (+10.51%, +$1,586.76), DE 22 @ 627.63 (+6.41%, +$831.82), ETN 24 @ 412.31 (+2.68%, +$258.42), JPM 34 @ 333.88 (+1.27%, +$142.19). **Net open unrealized +$4,858.14 — book fully green.**
+- **Trades placed today: 0.**
+- **What worked:** (1) LLY finished the day's leader among holdings (+10.5%), firming into the Jul 1 CMS Medicare GLP-1 $50/mo demo start. (2) GE held its +13.7% anchor gain. (3) The cash cushion did its job on a red-for-SPY day — we gave back only −0.30% with no drama, no stop even threatened.
+- **What didn't:** (1) ETN gave back the midday pop (419.29 → 412.31, +4.42% → +2.68%) — highest-beta name, softest into Thu's jobs print; cushion above its 393.066 floor still ~4.9%. (2) We again trailed on a relative basis — down more than SPY on a down day — the low-beta/cash-drag signature that's driven the −1.53% WTD alpha. (3) JPM inched down (334.35 → 333.88), still ~+1.3%, ~$12 (~3.7%) from its +5% stop-upgrade trigger (~$346.18).
+- **Open questions for tomorrow (Thu 7/2 — jobs day, thin pre-holiday tape, THEN closed Fri 7/3):** (a) Does the June jobs print (8:30 ET) move ETN/beta enough to test its trailing floor? (b) Effective weekly review is Thu 7/2 (Fri holiday) — is ~34% cash too defensive given the persistent negative alpha, or is the ballast worth it into a binary macro event + long weekend? (c) JPM +5% conversion watch stands at ~$346.18.
+
 ## 2026-07-01 08:35 CT (09:35 ET) — market-open (Wed, short week; CLOSED Fri 7/3)
 
 **Setup:** Keys present. Clock **is_open:true** (09:31 ET), next_close 16:00 ET. Inbox: nothing pending. Live Alpaca (open marks): equity **$103,931.64**, last_equity **$104,158.75** (6/30 official close = today's base), cash **$35,237.52**, buying_power 333,293.62, daytrade_count 0, PDT false, not blocked. **Day P/L −$227.11 / −0.22%** — modestly red at the bell (well inside the −3% daily cap).

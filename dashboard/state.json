@@ -1,53 +1,55 @@
 {
-  "last_update": "2026-07-01 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-07-01 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 103931.09,
+  "equity": 103850.16,
   "cash": 35237.52,
-  "day_pl": -227.66,
-  "day_pl_pct": -0.22,
-  "week_pl_pct": 0.97,
-  "spy_week_pct": 2.37,
-  "alpha_week_pct": -1.40,
+  "day_pl": -308.59,
+  "day_pl_pct": -0.30,
+  "spy_day_pct": -0.13,
+  "alpha_day_pct": -0.16,
+  "week_pl_pct": 0.71,
+  "spy_week_pct": 2.24,
+  "alpha_week_pct": -1.53,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 373.86,
-      "pl_pct": 13.42,
+      "current": 374.94,
+      "pl_pct": 13.75,
       "stop": 341.703
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1183.32,
-      "pl_pct": 9.72,
+      "current": 1191.80,
+      "pl_pct": 10.51,
       "stop": 1114.2
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 630.575,
-      "pl_pct": 6.91,
+      "current": 627.63,
+      "pl_pct": 6.41,
       "stop": 572.661
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 419.285,
-      "pl_pct": 4.42,
+      "current": 412.31,
+      "pl_pct": 2.68,
       "stop": 393.066
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 334.35,
-      "pl_pct": 1.41,
+      "current": 333.88,
+      "pl_pct": 1.27,
       "stop": 306.62
     }
   ],
@@ -125,16 +127,22 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-01 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $103,850 · day -0.30% · SPY -0.13% · alpha -0.16%",
+      "body": "Quiet, do-nothing day; the market dipped and we dipped a touch more (cash cushion + steadier stocks mute both directions). No trades — at our 5-stock cap, nothing near a stop. Book fully green with +$4,858 unrealized: Eli Lilly led (+10.5%) as its Medicare weight-loss program starts today; GE held +13.7%. Still trailing the market this week (+0.71% vs SPY +2.24%) on cash drag. Jobs report Thursday, then closed Friday for July 4th; I won't add risk into that number."
+    },
+    {
       "ts": "2026-07-01 12:05 CT",
       "routine": "midday",
       "headline": "Midday — steady, no changes; the morning dip healed and all 5 holdings are now green",
-      "body": "Re-checked all five holdings and every safety-sell; nothing needed action. The morning dip reversed — Eaton went from −2.6% to +4.4%, and JPMorgan flipped from red to +1.4%, so the whole book is green (unrealized ~+$4,939). Still −$228 on the day (−0.22%) as the broader market outpaces our ~34% cash cushion. JPM now ~3.5% from its stop-upgrade trigger. At the 5-stock cap; won't add risk into Thursday's jobs report. Close routine owns the official scorecard."
+      "body": "Re-checked all five holdings and every safety-sell; nothing needed action. The morning dip reversed — Eaton went from -2.6% to +4.4%, and JPMorgan flipped from red to +1.4%, so the whole book is green (unrealized ~+$4,939). Still -$228 on the day (-0.22%) as the broader market outpaces our ~34% cash cushion. JPM now ~3.5% from its stop-upgrade trigger. At the 5-stock cap; won't add risk into Thursday's jobs report. Close routine owns the official scorecard."
     },
     {
       "ts": "2026-07-01 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — holding all 5; down a touch (−$227, −0.22%) on normal morning noise",
-      "body": "Made no trades at the bell. We're at our 5-stock cap and nothing new clears the 2-signal bar, so no buys; all five theses are intact and none near a safety-sell, so no sells. Eaton (−2.6%) and Deere (−1%) dipped ahead of Thursday's jobs report; Lilly and GE are green. Watching Eaton's trailing stop, now ~5% below its price. ~34% cash. Re-check at midday."
+      "headline": "Open: no trades — holding all 5; down a touch (-$227, -0.22%) on normal morning noise",
+      "body": "Made no trades at the bell. We're at our 5-stock cap and nothing new clears the 2-signal bar, so no buys; all five theses are intact and none near a safety-sell, so no sells. Eaton (-2.6%) and Deere (-1%) dipped ahead of Thursday's jobs report; Lilly and GE are green. Watching Eaton's trailing stop, now ~5% below its price. ~34% cash. Re-check at midday."
     },
     {
       "ts": "2026-07-01 06:00 CT",
@@ -152,25 +160,19 @@
       "ts": "2026-06-30 12:05 CT",
       "routine": "midday",
       "headline": "Midday — steady, no changes; all 5 green and Deere kept climbing",
-      "body": "Re-checked all five holdings and their safety-sells; nothing needed action. Deere's trailing stop auto-ratcheted higher as it rose. JPM is flat (−0.1%), nothing near a stop, at our 5-stock cap so nothing to buy. Up +0.14% on the day; trailing a stronger market purely on cash drag. Close routine owns today's official scorecard."
+      "body": "Re-checked all five holdings and their safety-sells; nothing needed action. Deere's trailing stop auto-ratcheted higher as it rose. JPM is flat (-0.1%), nothing near a stop, at our 5-stock cap so nothing to buy. Up +0.14% on the day; trailing a stronger market purely on cash drag. Close routine owns today's official scorecard."
     },
     {
       "ts": "2026-06-30 08:35 CT",
       "routine": "market-open",
       "headline": "Open: no trades — holding all 5, nothing new clears the buy bar",
-      "body": "Made no trades at the bell. At our 5-stock max, and nothing new scores high enough to replace a holding. No sells either — all five theses intact, none near a safety-sell. JPM (day-2 starter) is the lone red at −0.7%, normal noise. ~34% cash. Re-check at midday."
+      "body": "Made no trades at the bell. At our 5-stock max, and nothing new scores high enough to replace a holding. No sells either — all five theses intact, none near a safety-sell. JPM (day-2 starter) is the lone red at -0.7%, normal noise. ~34% cash. Re-check at midday."
     },
     {
       "ts": "2026-06-30 06:00 CT",
       "routine": "pre-market",
       "headline": "Quiet pre-market — holding all 5, nothing new clears the buy bar",
       "body": "No bad news on any holding and no earnings on the book this week. Nothing scores high enough to buy (best idea Amgen at 62/100, plus a downgrade). Re-rated Deere UP — it's stronger than I'd flagged, not our weak link. Watching Thursday's jobs report; won't add risk into it."
-    },
-    {
-      "ts": "2026-06-29 15:00 CT",
-      "routine": "market-close",
-      "headline": "Equity $104,098 · day +0.95% · we lagged a strong market (+1.58%)",
-      "body": "All 5 positions green. JPM starter buy from the open is contributing. We lagged SPY today purely because ~34% of the account is in cash — the flip-side of cushioning down-days. No trades at the close."
     }
   ]
 }

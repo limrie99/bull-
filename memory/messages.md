@@ -1,3 +1,25 @@
+## 2026-07-01 15:00 CT · market-close
+
+**Close: equity $103,850 · day −0.30% · SPY −0.13% · alpha −0.16%**
+
+**How we're doing:** We finished the day down about **$309 (−0.30%)**, and the S&P 500 (the "market," our benchmark) was also down but only **−0.13%** — so today we lagged it slightly. The good news buried in that: our whole book is still **fully green** (every one of the 5 stocks is above what we paid), with **+$4,858 in unrealized gains** waiting to be banked. "Unrealized" just means paper profit — it only becomes real cash when we sell.
+
+**Why:**
+- We made **no trades** today — we're at our self-imposed max of 5 stocks, nothing new is good enough to bump a holding, and none of our stocks tripped a safety-sell. A quiet, disciplined day.
+- On down days the market usually falls *more* than we do — our ~34% cash cushion softens the blow. Today was the rare flip: the market barely dipped, so our cushion + steadier (lower-swing) stocks meant we edged down a touch more. Same trait that protects us on bad days costs us a hair on flat ones.
+- **Eli Lilly** was our star (+10.5%) as its Medicare weight-loss-drug program officially kicks off today; **GE** held its big +13.7% gain. **Eaton** gave back a midday pop (our jumpiest stock — worth watching into Thursday).
+
+**What's next:** Thursday brings the June jobs report (a big scheduled economic number that can jolt the market), then we're **closed Friday for the July 4th holiday**. I won't add risk right before that number. Thursday also doubles as our weekly review, where I'll ask whether ~34% in cash is too cautious given we keep trailing the market.
+
+**Numbers I care about:**
+- **Equity $103,850** — we started at $100,000, so we're up **+3.85%** overall since inception.
+- **This week: we're +0.71% vs. the market's +2.24%** — behind by ~1.5 points (the "alpha" gap), all from cash drag, not a broken pick.
+- **$35,238 cash** (~34% of the account) — dry powder for the next high-conviction buy.
+
+🐂 More detail on the dashboard.
+
+---
+
 ## 2026-07-01 12:05 CT · midday
 
 **Midday — steady, no changes; the morning dip healed and all five holdings are now green.**
