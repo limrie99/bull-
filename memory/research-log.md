@@ -1,3 +1,33 @@
+## 2026-07-02 12:00 CT (13:00 ET) — MIDDAY (Thu, JOBS DAY; CLOSED Fri 7/3)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:true** (13:02 ET, next_close 7/2 16:00 ET; next_open **Mon 7/6** → confirms Fri 7/3 CLOSED). Inbox: **nothing pending.** No trades this routine. Account reconciles: equity **$103,544.61** (live midday marks), cash **$35,237.52** (~34.0%), long_market_value **$68,307.09** (~66.0%), last_equity/7-1-close **$103,855.86**, daytrade_count 0. **All 5 positions present, all 5 stops RESTING `status:new`, IDs unchanged.**
+
+### Intraday P/L & benchmark
+- Equity **$103,544.61** vs 7/1 close $103,855.86 = **−$311.25 (−0.30%)** intraday. Well inside the −3% daily loss cap.
+- SPY **741.71** vs 7/1 close 745.665 = **−0.53%**. → **Alpha today ≈ +0.23 pts** (we're down less than the market). Low-beta/industrials-ballast book doing its job on a soft, thin pre-holiday tape.
+- Note vs the open: we've given back ~$510 since the 8:35 open snapshot ($104,055) — ETN flipped red, DE/JPM/GE eased — but still beating SPY on the day. Official day P/L + WTD alpha recompute at the close (which owns today's scorecard + the effective weekly review).
+
+### Risk management (priority order)
+- **(a) −7% drawdown-from-entry check:** worst is **ETN −1.93%** (mark 393.775). Nothing anywhere near −7%. No news trigger, no sell. HOLD all.
+- **(b) +5% → trailing conversion:** **JPM is the lone name on a −7% hard stop** (306.62 `3e8fe4ea`), at **+1.45%** (mark 334.47) — needs ~+3.5% to tag the +5% trigger (~$346.18). NOT converted this routine. (DE at +5.33% is already on a 10% trailing, so no action.) The other 4 are all already on 10% trailing.
+- **(c) Daily loss cap:** N/A — GREEN-ish at −0.30% intraday, well inside −3%.
+- daytrade_count 0.
+
+### Stop-management state (all 5 RESTING `status:new`, IDs unchanged)
+- **LLY** trail 10% `6016a7e7` — floor **1114.2**, hwm 1238, mark 1207.05 → cushion ~8.3%. +11.92%.
+- **GE** trail 10% `b9dadf2d` — floor **344.673** (RATCHETED UP from 343.373; hwm 382.97), mark 375.96 → cushion ~8.3%. +14.06%.
+- **DE** trail 10% `dcdd84e5` — floor **575.073**, hwm 638.97, mark 621.255 → cushion ~8.0%. +5.33% (pulled back from hwm ~639).
+- **ETN** trail 10% `cc843666` — floor **393.066**, hwm 436.74, mark 393.775 → cushion **~0.18%** (sitting ON its floor — highest-beta name; a small further slip auto-fires the stop. By design, no pre-emptive action). −1.93%.
+- **JPM** −7% HARD STOP `3e8fe4ea` @ **306.62** (GTC), entry 329.695588, mark 334.47 = +1.45%; converts to trailing at ~$346.18.
+
+### Buys
+**NONE.** At the 5-position cap (5 of 5), 1/3 weekly buys used. Nothing on the bench clears 2+ VERIFIED signals AND Conviction ≥70 (GS 58 top idea = 1 signal). No high-conviction breaking catalyst this midday, and per plan no fresh size into the jobs-print session anyway. No natural swap target — book intact.
+
+### Plan into the close
+- **HOLD all 5.** Close routine owns today's mandatory daily scorecard + the effective weekly review (Fri is the holiday) — recompute official day P/L, WTD alpha, and revisit whether ~34% cash is too defensive.
+- **Standing task: JPM +5% → trailing** at ~$346.18 (cancel `3e8fe4ea`, place 10% trailing GTC). ~+3.5% away.
+- **Watch ETN** — right on its 393.066 trailing floor; let the stop work.
+
 ## 2026-07-02 06:00 CT (07:00 ET) — PRE-MARKET (Thu, JOBS DAY; CLOSED Fri 7/3)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false** (07:09 ET, next_open 7/2 09:30 ET). Inbox: **nothing pending.** No trades this routine (pre-market, market closed). Full 4-agent sub-agent sweep (macro, earnings, position, scout). Account reconciles cleanly with 7/1 close: equity **$103,944.45** (pre-market marks; last_equity/7-1-close $103,855.86), cash **$35,237.52** (~33.9%), daytrade_count 0. **All 5 positions present, all 5 stops RESTING `status:new`, IDs unchanged** (LLY trail 1114.2 `6016a7e7`; GE trail 341.703 `b9dadf2d`; DE trail 572.661 `dcdd84e5`; ETN trail 393.066 `cc843666`; JPM **−7% hard stop 306.62** `3e8fe4ea`).
