@@ -1,3 +1,39 @@
+## 2026-07-02 15:00 CT (16:00 ET) — MARKET CLOSE (Thu, JOBS DAY; effective WEEKLY REVIEW — CLOSED Fri 7/3)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false** (16:01 ET, next_open **Mon 7/6** 09:30 ET → confirms Fri 7/3 CLOSED). Inbox: **nothing pending.** Account: equity **$103,646.96**, cash **$44,663.52** (~43.1%), long_market_value **$58,983.44** (~56.9%), last_equity/7-1-close $103,855.86, daytrade_count 0. **1 sell today (ETN, auto stop). 4 of 5 positions now; 4 stops resting `status:new`, IDs unchanged.**
+
+### Day summary
+- **Closing equity:** $103,646.96. **Day P/L: −$208.90 (−0.20%)** vs 7/1 close $103,855.86.
+- **SPY:** 744.86 close vs 7/1 close 745.665 = **−0.11%**. → **Day alpha ≈ −0.09 pts** (we lagged the market by a hair today — the ETN stop-out sale near the lows + our few green names easing offset the low-beta cushion that had us ahead at midday).
+- **Trades placed:** 1 — **ETN 10% trailing stop AUTO-FIRED**, sold 24 @ 392.75, realized **−$211.02 (−2.19%)**. Position CLOSED. No buys.
+- **What worked:** (1) The trailing-stop discipline did exactly its job — capped ETN's give-back at −2.2% instead of letting the book's highest-beta name round-trip deeper; (2) GE (+14.5%) and LLY (+12.2%) both firmed into the close, holding the book's core gains; (3) stayed inside the −3% daily loss cap with room to spare.
+- **What didn't:** (1) ETN stopped out on beta/tape, not a thesis break — a modest realized loss and a reminder that AI-power names carry shake-out risk; (2) we LAGGED SPY today (−0.09 pts) after leading at midday — cash drag + the forced sale near the lows; (3) freeing ETN's ~$9.4K pushed cash to ~43%, deepening the very cash-drag the week has been penalizing us for.
+- **Open questions for Mon 7/6:** redeploy the freed cash or hold? At 4/5 positions + ~43% cash + a fresh weekly buy budget (resets Mon), finding ONE qualifying 2-signal / Conviction ≥70 name is the run's priority — the structural under-exposure is now the main alpha leak.
+
+### Effective WEEKLY REVIEW (week of 6/29–7/2; Fri 7/3 holiday)
+- **WTD portfolio:** +0.51% (base 6/26 close $103,121.46 → $103,646.96). **WTD SPY:** +2.13% (729.35 → 744.86). → **WTD alpha ≈ −1.62 pts.**
+- **Diagnosis:** third straight week of low-beta/cash-drag lag. The book is quality-heavy and defensive (GE, LLY, DE = industrials/pharma ballast; JPM starter) with ~43% cash after the ETN exit. In a broadly rising tape (+2.1% SPY on the week) that under-exposure mechanically caps upside. The stops are working and unrealized is healthy (+$4,858 across 4 names), but we are not keeping pace with a rising index.
+- **Action for next week:** treat cash redeployment as priority #1. Do NOT force a trade (still need 2+ VERIFIED signals AND Conviction ≥70) — but run a full sub-agent scout Mon pre-market with the explicit goal of surfacing a qualifying name to refill the 5th slot and trim cash toward the 10–20% buffer. GS (58, 1 signal) remains the closest bench name but needs a verified 2nd signal. If two more weeks pass with no qualifying setup while SPY keeps rising, escalate the guardrail question (is the Conviction ≥70 bar too tight for this tape?) in a flagged user message.
+
+### Stop-management state (4 RESTING `status:new`, IDs unchanged)
+- **GE** trail 10% `b9dadf2d` — floor **344.673**, hwm 382.97, mark 377.52 → cushion ~8.7%. +14.53%.
+- **LLY** trail 10% `6016a7e7` — floor **1114.2** (locks profit), hwm 1238, mark 1210.49 → cushion ~8.0%. +12.24%.
+- **DE** trail 10% `dcdd84e5` — floor **575.073**, hwm 638.97, mark 621.27 → cushion ~8.0%. +5.33%.
+- **JPM** −7% HARD STOP `3e8fe4ea` @ **306.62**, entry 329.695588, mark 334.47 = +1.45%; converts to 10% trailing at ~$346.18 (+5%), ~3.5% away. Still the lone name on a hard stop.
+- **ETN** — CLOSED (trailing stop fired). No open order.
+
+### Risk checks
+- **(a) −7% drawdown-from-entry:** worst live name is JPM at +1.45% — all 4 green, none anywhere near −7%. HOLD all.
+- **(b) +5% → trailing:** JPM the only name on a hard stop, +1.45%, not yet at the +5% trigger. No conversion.
+- **(c) Daily loss cap:** N/A — day −0.20%, well inside −3%.
+- daytrade_count 0.
+
+### Plan into Mon 7/6
+- **HOLD all 4.** Market CLOSED Fri 7/3.
+- **Priority: redeploy cash.** Full scout Mon pre-market for one qualifying name to refill slot 5 and cut the ~43% cash drag.
+- **Standing task: JPM +5% → trailing** at ~$346.18 (cancel `3e8fe4ea`, place 10% trailing GTC). ~+3.5% away.
+- Event risk: JPM Q2 earnings ~Jul 14 (held); GE call ~Jul 16. Re-verify dates ~Jul 10.
+
 ## 2026-07-02 12:00 CT (13:00 ET) — MIDDAY (Thu, JOBS DAY; CLOSED Fri 7/3)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:true** (13:02 ET, next_close 7/2 16:00 ET; next_open **Mon 7/6** → confirms Fri 7/3 CLOSED). Inbox: **nothing pending.** No trades this routine. Account reconciles: equity **$103,544.61** (live midday marks), cash **$35,237.52** (~34.0%), long_market_value **$68,307.09** (~66.0%), last_equity/7-1-close **$103,855.86**, daytrade_count 0. **All 5 positions present, all 5 stops RESTING `status:new`, IDs unchanged.**

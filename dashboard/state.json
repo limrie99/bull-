@@ -1,38 +1,38 @@
 {
-  "last_update": "2026-07-02 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-07-02 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 103544.61,
-  "cash": 35237.52,
-  "day_pl": -311.25,
-  "day_pl_pct": -0.30,
-  "spy_day_pct": -0.53,
-  "alpha_day_pct": 0.23,
-  "week_pl_pct": 0.71,
-  "spy_week_pct": 2.24,
-  "alpha_week_pct": -1.53,
+  "equity": 103646.96,
+  "cash": 44663.52,
+  "day_pl": -208.90,
+  "day_pl_pct": -0.20,
+  "spy_day_pct": -0.11,
+  "alpha_day_pct": -0.09,
+  "week_pl_pct": 0.51,
+  "spy_week_pct": 2.13,
+  "alpha_week_pct": -1.62,
   "positions": [
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 375.96,
-      "pl_pct": 14.06,
+      "current": 377.52,
+      "pl_pct": 14.53,
       "stop": 344.673
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1207.05,
-      "pl_pct": 11.92,
+      "current": 1210.49,
+      "pl_pct": 12.24,
       "stop": 1114.2
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 621.255,
+      "current": 621.27,
       "pl_pct": 5.33,
       "stop": 575.073
     },
@@ -43,17 +43,16 @@
       "current": 334.47,
       "pl_pct": 1.45,
       "stop": 306.62
-    },
-    {
-      "symbol": "ETN",
-      "qty": 24,
-      "avg_cost": 401.5425,
-      "current": 393.775,
-      "pl_pct": -1.93,
-      "stop": 393.066
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-07-02 13:36",
+      "side": "SELL",
+      "symbol": "ETN",
+      "qty": 24,
+      "price": 392.75
+    },
     {
       "date": "2026-06-29 08:38",
       "side": "BUY",
@@ -116,16 +115,15 @@
       "symbol": "DE",
       "qty": 22,
       "price": 589.82
-    },
-    {
-      "date": "2026-06-01 10:46",
-      "side": "BUY",
-      "symbol": "LLY",
-      "qty": 14,
-      "price": 1078.46
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-02 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $103,647 · day -0.20% · SPY -0.11% · alpha -0.09% · Eaton safety-sell fired",
+      "body": "Eaton's 10% trailing stop auto-fired, selling 24 @ $392.75 for a small -$211 loss (-2.2%) — the safety net working on our most volatile name, not a thesis break. Everything else held; the 4 remaining stocks are all green (+$4,858 unrealized: GE +14.5%, Lilly +12.2%). We now hold 4 of 5 slots and ~43% cash — too much on the sidelines, which is why we trail the market (+0.51% WTD vs SPY +2.13%). Priority Monday: redeploy cash. Closed Friday for July 4th."
+    },
     {
       "ts": "2026-07-02 12:00 CT",
       "routine": "midday",
@@ -167,12 +165,6 @@
       "routine": "pre-market",
       "headline": "Morning plan: nothing to buy or sell; all 5 stocks fine, two open questions answered",
       "body": "No trades (research-only pre-market). All five theses intact, all safety-sells resting. Two flags cleared in our favor: Eli Lilly's Medicare $50/mo weight-loss program starts this year (2026, confirmed), and JPMorgan's $50B buyback is officially live (SEC filing). No new idea clears our 2-signal bar — Goldman is the best fresh name (dividend hike) but goes on the bench. Full at 5 stocks; won't add risk into Thursday's jobs report; closed Friday for the holiday."
-    },
-    {
-      "ts": "2026-06-30 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $104,125 · day +0.07% · SPY +0.78% · alpha -0.72%",
-      "body": "Quiet, slightly-green day; the market beat us. No trades (at the 5-stock cap, nothing near a stop). Eaton +4.4% (+$429) offset Eli Lilly -2.5% (-$424). Trailing the index this week (we're +0.97% vs SPY +2.37%) on cash drag + lower beta. Closed Friday for the holiday; jobs report Thursday."
     }
   ]
 }
