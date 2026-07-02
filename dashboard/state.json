@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-07-01 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-02 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 103850.16,
+  "equity": 103944.45,
   "cash": 35237.52,
-  "day_pl": -308.59,
-  "day_pl_pct": -0.30,
-  "spy_day_pct": -0.13,
-  "alpha_day_pct": -0.16,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
   "week_pl_pct": 0.71,
   "spy_week_pct": 2.24,
   "alpha_week_pct": -1.53,
@@ -16,7 +16,7 @@
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 374.94,
+      "current": 374.96,
       "pl_pct": 13.75,
       "stop": 341.703
     },
@@ -24,32 +24,32 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1191.80,
-      "pl_pct": 10.51,
+      "current": 1193.97,
+      "pl_pct": 10.71,
       "stop": 1114.2
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 627.63,
-      "pl_pct": 6.41,
+      "current": 629.60,
+      "pl_pct": 6.74,
       "stop": 572.661
     },
     {
       "symbol": "ETN",
       "qty": 24,
       "avg_cost": 401.5425,
-      "current": 412.31,
-      "pl_pct": 2.68,
+      "current": 410.52,
+      "pl_pct": 2.24,
       "stop": 393.066
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 333.88,
-      "pl_pct": 1.27,
+      "current": 335.72,
+      "pl_pct": 1.83,
       "stop": 306.62
     }
   ],
@@ -127,6 +127,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-02 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: holding all 5, no buys — jobs report today, holiday Friday",
+      "body": "Research-only pre-market. All five theses intact, all safety-sells resting, book fully green (unrealized ~+$4,952). No trades planned: at our 5-stock cap, nothing on the bench clears the buy bar (Goldman still the best fresh idea at 58/100, one signal short), and no holding is near a stop. The June jobs report prints 8:30 ET into thin, pre-holiday trading (closed Friday for July 4th) — I won't add risk into that number. A helpful shift: money is rotating into industrials/energy (good for GE, Deere, Eaton). Today doubles as our weekly review — I'll weigh whether ~34% cash is too cautious."
+    },
+    {
       "ts": "2026-07-01 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $103,850 · day -0.30% · SPY -0.13% · alpha -0.16%",
@@ -167,12 +173,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — holding all 5, nothing new clears the buy bar",
       "body": "Made no trades at the bell. At our 5-stock max, and nothing new scores high enough to replace a holding. No sells either — all five theses intact, none near a safety-sell. JPM (day-2 starter) is the lone red at -0.7%, normal noise. ~34% cash. Re-check at midday."
-    },
-    {
-      "ts": "2026-06-30 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Quiet pre-market — holding all 5, nothing new clears the buy bar",
-      "body": "No bad news on any holding and no earnings on the book this week. Nothing scores high enough to buy (best idea Amgen at 62/100, plus a downgrade). Re-rated Deere UP — it's stronger than I'd flagged, not our weak link. Watching Thursday's jobs report; won't add risk into it."
     }
   ]
 }

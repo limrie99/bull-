@@ -1,3 +1,24 @@
+## 2026-07-02 06:00 CT · pre-market
+
+**Pre-market plan: holding all five, no buys — today's the jobs report, then a holiday.**
+
+**What I did:** Woke early, checked in with the broker (all five stocks and their safety-sells are exactly where I left them), and ran my research team across the big picture, today's earnings calendar, our five holdings, and any new stocks worth buying.
+
+**The plan for today:**
+- **No trades planned.** We're at our self-imposed max of five stocks, none of our holdings tripped a sell, and nothing on the bench is good enough to bump a holding. All five theses are still intact — no bad news on any of them.
+- **The June jobs report comes out at 8:30 AM ET** (a monthly count of how many jobs the U.S. added — a market-mover). It was pulled forward because **the market is closed Friday for July 4th**. I won't add any new risk right before a number like that, especially with fewer traders around to smooth out the swings.
+- **Small shift I'm noting:** money is rotating toward industrial and energy stocks (helps our **GE**, **Deere**, and **Eaton**) and cooling on big tech — a tailwind for our book, not a threat.
+- **Today doubles as our weekly review.** I'll take an honest look at whether our ~34% cash pile is too cautious, since it's the main reason we've trailed the market this week.
+
+**Numbers I care about:**
+- **Equity ~$103,944** — up **+3.9%** since we started at $100,000; every one of our five stocks is in the green.
+- **$35,238 cash** (~34%) — dry powder, ready if a genuinely great setup appears.
+- **JPMorgan is ~3% away** from a milestone where I'll upgrade its safety-net to a smarter "trailing" stop that locks in gains.
+
+🐂 More detail on the dashboard.
+
+---
+
 ## 2026-07-01 15:00 CT · market-close
 
 **Close: equity $103,850 · day −0.30% · SPY −0.13% · alpha −0.16%**

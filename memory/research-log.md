@@ -1,3 +1,45 @@
+## 2026-07-02 06:00 CT (07:00 ET) — PRE-MARKET (Thu, JOBS DAY; CLOSED Fri 7/3)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false** (07:09 ET, next_open 7/2 09:30 ET). Inbox: **nothing pending.** No trades this routine (pre-market, market closed). Full 4-agent sub-agent sweep (macro, earnings, position, scout). Account reconciles cleanly with 7/1 close: equity **$103,944.45** (pre-market marks; last_equity/7-1-close $103,855.86), cash **$35,237.52** (~33.9%), daytrade_count 0. **All 5 positions present, all 5 stops RESTING `status:new`, IDs unchanged** (LLY trail 1114.2 `6016a7e7`; GE trail 341.703 `b9dadf2d`; DE trail 572.661 `dcdd84e5`; ETN trail 393.066 `cc843666`; JPM **−7% hard stop 306.62** `3e8fe4ea`).
+
+### Market context
+
+- **THE event: June jobs report (nonfarm payrolls) prints TODAY 8:30 ET** — pulled forward from Friday ahead of the 7/3 holiday close. Consensus **~+110–114K payrolls, unemployment 4.3%** (VERIFIED-ish: Trading Economics 110K/4.3%, Investing.com 114K). Into **thin pre-holiday liquidity** — a hot print (>130K) risks a rate/risk-off wobble; a soft one (<90K) could revive cut hopes. **Market CLOSED Fri 7/3.**
+- **Rates:** 10Y ~**4.48–4.49%** (VERIFIED-ish, YCharts 7/1 close + MarketWatch 7/2 03:04 ET). 2Y ~4.16% (UNVERIFIED) → modestly positive curve.
+- **Futures/global/DXY/oil/gold:** **could not confirm** — Perplexity hit the mid-2026 retrieval wall hard and explicitly refused live 7/2 quotes. Gold ~$4,047 CONFABULATION-RISK. Trade the actual 8:30 print; confirm all prices via Alpaca.
+- **Fed:** hold / wait-and-see per stale commentary (UNVERIFIED); no confirmable cut odds; **no verified Powell-vs-Warsh chair development this run** (Warsh lean from prior runs stays UNVERIFIED — keep rate assumptions light).
+- **Sector rotation (MODERATE conf, partial SHIFT from 7/1):** LEADING = **Industrials + Energy** (AI data-center buildout, defense capex) + select higher-beta financials seeing accumulation; LAGGING = **mega-cap AI/Tech** (profit-taking/digesting), **Utilities** (stretched), **broad Financials now softer** on a 6-mo basis despite CCAR pops, **Healthcare** neutral-defensive. Durable through-line: industrials/energy leadership + mega-cap-tech de-rating. **Note:** this partly reverses 7/1's "financials favored" read — financials look broadly softer now (a mild headwind for the GS/MS/V bench, tailwind-neutral for held JPM which is idiosyncratic on its buyback). Industrials/energy leadership is a direct tailwind for held **GE, DE, ETN (AI-power)**.
+- **Earnings:** **NO large-cap US reporter confirmable today** (VERIFIED negative — Interactive Investor calendar "No noteworthy announcements" for 7/2; between-quarters, pre-holiday lull). **No holding or watchlist name reports within ~5 trading days.** First real event risk = bank earnings cluster **JPM Tue Jul 14** (held) + GS/MS ~Jul 14–15 (bench). GE call confirmed ~Jul 16. Re-verify all mid-July dates closer to Jul 10.
+
+### Portfolio watch (all 5 INTACT — no thesis-breakers, all severity 3)
+
+- **GE** +13.75% (mark 374.96) — no material 24-48h news; Q2 call VERIFIED Jul 16. Industrials leadership = tailwind. Trailing floor 341.703, cushion ~8.9%. HOLD.
+- **LLY** +10.71% (mark 1193.97) — no confirmable 24-48h news; Perplexity could NOT freshly re-verify the CMS Medicare GLP-1 $50/mo demo launch (treat as assumed-from-thesis, our memory had it VERIFIED 7/1). Trailing floor 1114.2 (locks profit), cushion ~6.7%. HOLD.
+- **DE** +6.74% (mark 629.6) — no rating/PT/guidance change in-window; re-rated-up thesis intact, industrials tailwind. Trailing floor 572.661, cushion ~9.1%. HOLD.
+- **ETN** +2.24% (mark 410.52) — weakest retrieval (no fresh order/backlog data), no negative signal; AI-power/data-center rotation is exactly where money is flowing IN = thesis marginally stronger. Highest-beta name, trailing floor 393.066, cushion **~4.4%** (softest name into the jobs print — let the trailing stop work). HOLD.
+- **JPM** +1.83% (mark 335.72) — **$50B buyback VERIFIED effective Jul 1** (8-K); div $1.50→$1.65 (+10%) Q3'26 prospective; capital ratios intact; mildly thesis-POSITIVE. Q2 earnings ~Jul 14 (UNVERIFIED exact date, plausible). On **−7% hard stop 306.62**; converts to 10% trailing at ~$346.18 (+5%), now **~3.1% away**. HOLD.
+
+### Buy candidates
+
+**NOTHING clears the gate (2+ VERIFIED signals AND Conviction ≥70).** At the 5-position cap, 1/3 weekly buys used — any bench name is a candidate-swap, and none is strong enough to displace a green, intact holding. Scout re-score (highest first):
+- **GS 58** (unch) — 1 VERIFIED signal (6/24 CCAR div hike); no confirmable 2nd (upgrade/insider/earnings-date). ~12 pts short.
+- **VST 48 → 50** (0 verified signals, but thesis marginally stronger) — AI-power/data-center rotation IN its favor; mild overlap with held ETN. No dated catalyst → sub-gate.
+- **AMGN 55 → 52** (0 verified) — healthcare the laggard sector this week; trimmed on unfavorable sector read.
+- **MS 52 / V 52 / CB 50 / CVS 50** (all unch, 0 verified fresh signals) — financials now broadly softer (headwind for MS/V), healthcare lagging (CVS).
+- **PANW 35** (unch) — mega-cap-tech pressure zone; an unanchored "triple beat" mention was UNVERIFIED/discarded.
+- **NEW candidate:** none confirmable — no US large-cap beat-and-raise verifiable in the last 7 days, no dated product/FDA/contract catalyst 7/2–8/1. Scout declined to surface a fabricated name.
+
+### Sell candidates
+
+**None.** All 5 theses intact, no thesis-breaker, worst drawdown-from-entry is JPM at +1.83% (nowhere near −7%). Day-1-of-week P/L well inside the −3% daily loss cap. No sell signal on any name.
+
+### Plan for the open (market-open routine)
+
+- **HOLD all 5.** No new buys — at the 5-cap, nothing clears ≥70, and **do NOT initiate fresh size into the 8:30 jobs print** on thin pre-holiday liquidity (moot at the cap, principle stands).
+- **Standing task: JPM +5% → trailing conversion.** The moment JPM tags **~$346.18** (+5% from 329.695588), cancel the −7% hard stop `3e8fe4ea` and place a 10% trailing GTC. Mark 335.72 → ~3.1% away.
+- **Watch ETN** — thinnest cushion (~4.4%) above its 393.066 floor, highest beta into the jobs print. Let the trailing stop do its job; no pre-emptive action.
+- **Effective weekly review is TODAY (Thu 7/2; Fri is the holiday)** — revisit whether ~34% cash is too defensive given the persistent WTD alpha lag (−1.53% through 7/1, structural cash-drag/low-beta).
+
 ## 2026-07-01 15:00 CT (16:00 ET) — MARKET-CLOSE (Wed, short week; CLOSED Fri 7/3)
 
 **Setup:** All 4 keys present (+ Telegram). Clock **is_open:false** (16:01 ET, next_open 7/2 09:30 ET). Inbox: **nothing pending.** Closed-orders query since 00:00 UTC → **0 orders** — no fills, no trades today (consistent with the whole-day plan: HOLD, at the 5-cap). Open-orders query → **all 5 stops RESTING `status:new`, IDs unchanged** (LLY trail 1114.2 `6016a7e7`; GE trail 341.703 `b9dadf2d`; DE trail 572.661 `dcdd84e5`; ETN trail 393.066 `cc843666`; JPM **−7% hard stop 306.62** `3e8fe4ea`). daytrade_count 0.
