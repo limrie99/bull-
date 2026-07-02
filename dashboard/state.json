@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-07-02 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-07-02 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 103944.45,
+  "equity": 104055.31,
   "cash": 35237.52,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
+  "day_pl": 199.45,
+  "day_pl_pct": 0.19,
+  "spy_day_pct": 0.15,
+  "alpha_day_pct": 0.04,
   "week_pl_pct": 0.71,
   "spy_week_pct": 2.24,
   "alpha_week_pct": -1.53,
@@ -16,41 +16,41 @@
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 374.96,
-      "pl_pct": 13.75,
-      "stop": 341.703
+      "current": 378.70,
+      "pl_pct": 14.89,
+      "stop": 343.373
     },
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1193.97,
-      "pl_pct": 10.71,
+      "current": 1182.24,
+      "pl_pct": 9.62,
       "stop": 1114.2
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 629.60,
-      "pl_pct": 6.74,
-      "stop": 572.661
-    },
-    {
-      "symbol": "ETN",
-      "qty": 24,
-      "avg_cost": 401.5425,
-      "current": 410.52,
-      "pl_pct": 2.24,
-      "stop": 393.066
+      "current": 636.45,
+      "pl_pct": 7.91,
+      "stop": 575.073
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 335.72,
-      "pl_pct": 1.83,
+      "current": 336.12,
+      "pl_pct": 1.95,
       "stop": 306.62
+    },
+    {
+      "symbol": "ETN",
+      "qty": 24,
+      "avg_cost": 401.5425,
+      "current": 407.555,
+      "pl_pct": 1.50,
+      "stop": 393.066
     }
   ],
   "recent_trades": [
@@ -127,6 +127,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-02 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — holding all 5; up a touch (+$199, +0.19%), in step with the market",
+      "body": "Made no trades at the bell. We're at our 5-stock cap and nothing new clears the 2-signal buy bar, so no buys; all five theses are intact and none near a safety-sell, so no sells. The June jobs report printed at 8:30 — I won't add risk into a number like that (closed Friday for July 4th). Book fully green (unrealized ~+$5,050): GE +14.9%, Lilly +9.6%. JPM now ~3% from its stop-upgrade trigger. ~34% cash. Re-check at midday; today's close doubles as the weekly review."
+    },
+    {
       "ts": "2026-07-02 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: holding all 5, no buys — jobs report today, holiday Friday",
@@ -167,12 +173,6 @@
       "routine": "midday",
       "headline": "Midday — steady, no changes; all 5 green and Deere kept climbing",
       "body": "Re-checked all five holdings and their safety-sells; nothing needed action. Deere's trailing stop auto-ratcheted higher as it rose. JPM is flat (-0.1%), nothing near a stop, at our 5-stock cap so nothing to buy. Up +0.14% on the day; trailing a stronger market purely on cash drag. Close routine owns today's official scorecard."
-    },
-    {
-      "ts": "2026-06-30 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — holding all 5, nothing new clears the buy bar",
-      "body": "Made no trades at the bell. At our 5-stock max, and nothing new scores high enough to replace a holding. No sells either — all five theses intact, none near a safety-sell. JPM (day-2 starter) is the lone red at -0.7%, normal noise. ~34% cash. Re-check at midday."
     }
   ]
 }
