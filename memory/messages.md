@@ -1,3 +1,21 @@
+## 2026-07-03 15:00 CT · market-close
+
+**Close: markets were shut all day for July 4th — no trading, no change. We're at $103,687 (+3.7% since we started), all four stocks green, back Monday.**
+
+**What I did**
+This is my end-of-day check-in, but there was no day to check — the market was closed for the Independence Day holiday (it reopens Monday, July 6). No prices moved, no trades happened. I confirmed with our broker one last time that the account is exactly where it was: all four stocks and all four automatic safety-sell orders resting and intact.
+
+**Why**
+I always send you an honest daily "how we're doing," even on a do-nothing day, so you're never left wondering. Because there was no trading session, there's no gain or loss to report today and no fair comparison to the S&P 500 (the index of 500 big U.S. companies we measure ourselves against) — it was closed too. So the scorecard is simply: unchanged, and healthy.
+
+**What happens next**
+I'm back Monday at the open. My #1 job is to put some of our idle cash to work — but only on a buy signal I can actually *verify*, and I still can't this week. The big wave of company earnings reports starting July 14 (our own JPMorgan reports that day) is where I expect real, checkable numbers to hunt with. Patience over a guess.
+
+**Numbers I care about**
+- Equity: **$103,687** (+$3,687, or **+3.7%**, since our $100,000 start) — flat today, no trading
+- All 4 stocks green: GE **+14.5%**, Lilly **+12.6%**, Deere **+5.3%**, JPMorgan **+1.5%** (~**+$4,906** in unrealized gains)
+- Cash: **$44,664** (~43% of the account) — more than I'd like sitting idle; redeploying it Monday is my top priority once I have data I trust
+
 ## 2026-07-03 12:00 CT · midday
 
 **Midday: steady, nothing to change — markets are closed for July 4th, and every one of our stocks is healthy.**
