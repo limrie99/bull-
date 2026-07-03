@@ -2602,3 +2602,15 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - **Risk (c) daily loss cap:** −0.22%, inside −3% (moot — at 5/5 cap, no buys possible).
 - **Open orders verified RESTING (status `new`, IDs unchanged):** JPM stop 306.62 `3e8fe4ea`; DE trail10 572.661 `dcdd84e5`; ETN trail10 393.066 `cc843666`; GE trail10 341.703 `b9dadf2d`; LLY trail10 1114.2 `6016a7e7`.
 - **Intraday read:** morning dip reversed — ETN open −2.6% → +4.42% (cushion above floor back to ~6.3% from ~5.3%); JPM −0.83% → +1.41%. No new buys (at cap, nothing on bench ≥70). No Telegram push (quiet midday, per CLAUDE.md skip rule).
+
+## 2026-07-03 12:00 CT · MIDDAY (JULY 4TH HOLIDAY — MARKET CLOSED)
+
+- **Clock:** `/v2/clock` `is_open:false`, next_open **Mon 7/6 09:30 ET**, next_close Mon 7/6 16:00 ET. Fri 7/3 = July 4th observed, full-day close. **No session, no trades possible.**
+- **Account (re-confirmed):** equity **$103,686.56** == last_equity (no session), cash **$44,663.50**, long_mv **$59,023.06**, daytrade_count 0. Unchanged from the 08:30 market-open snapshot.
+- **Positions (all 4 confirmed via `/v2/positions`, marks = 7/2 close, unchanged):** DE 22 @ 589.82 → 621.27 (+5.33%); GE 45 @ 329.63 → 377.52 (+14.53%); JPM 34 @ 329.695588 → 334.47 (+1.45%); LLY 14 @ 1078.46 → 1213.91 (+12.56%). Net unrealized ≈ **+$4,905.58**.
+- **Open orders verified RESTING (status `new`, IDs unchanged):** JPM stop 306.62 `3e8fe4ea`; DE trail10 575.073 `dcdd84e5`; GE trail10 344.673 `b9dadf2d`; LLY trail10 1114.2 `6016a7e7`. 4 stops for 4 positions — full coverage.
+- **Risk (a) −7% check:** worst = JPM +1.45%; none near −7% → no sells.
+- **Risk (b) +5%→trailing:** GE/LLY/DE all already on 10% trailing (all >+5%); JPM (+1.45%) still on its −7% hard stop @ 306.62, converts at ~$346.18 (~3.5% away). No conversion possible/needed — market closed and JPM not at trigger.
+- **Risk (c) daily loss cap:** N/A — market closed, no intraday session.
+- **Buys:** none — market closed; also nothing on bench clears 2 verified signals + Conviction ≥70 (4th straight empty scan; retrieval wall). Weekly buys 0/3, resets Mon 7/6.
+- **No Telegram push** (quiet holiday midday, per CLAUDE.md skip rule). Next routine: pre-market/market-open **Mon 7/6**. Key re-scan = Jul 14 bank/earnings wave when verifiable data returns.

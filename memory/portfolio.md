@@ -1,6 +1,6 @@
 # Portfolio
 
-**Last updated:** 2026-07-03 08:30 CT (09:30 ET) — **MARKET-OPEN routine, JULY 4TH HOLIDAY. Market CONFIRMED CLOSED** via `/v2/clock` (`is_open:false`, next_open **Mon 7/6** 09:30 ET). No bell, **NO trades placed or possible.** Account re-confirmed via Alpaca: equity **$103,686.56** (== last_equity, no session), cash **$44,663.50**, daytrade_count 0. Book **4 of 5 positions** (one slot OPEN); marks & P/L unchanged from the 7/2 close. **All 4 remaining theses INTACT (all sev 3, no thesis-breaker).** **All 4 stops RESTING `status:new`, IDs unchanged** — 3 on 10% trailing (GE, LLY, DE), JPM on its −7% hard stop (+1.45%, ~3.5% from its +5% conversion trigger ~$346.18). **Weekly buys reset Mon 7/6 (0/3).** **Inbox: nothing pending.**
+**Last updated:** 2026-07-03 12:00 CT (13:00 ET) — **MIDDAY routine, JULY 4TH HOLIDAY. Market CONFIRMED CLOSED** via `/v2/clock` (`is_open:false`, next_open **Mon 7/6** 09:30 ET). **NO trades placed or possible.** Account re-confirmed via Alpaca: equity **$103,686.56** (== last_equity, no session), cash **$44,663.50**, daytrade_count 0. Book **4 of 5 positions** (one slot OPEN); marks & P/L unchanged from the 7/2 close (== 08:30 open snapshot). **All 4 theses INTACT (all sev 3, no thesis-breaker).** **All 4 stops RESTING `status:new`, IDs unchanged** — 3 on 10% trailing (GE, LLY, DE), JPM on its −7% hard stop (+1.45%, ~3.5% from its +5% conversion trigger ~$346.18). **Weekly buys reset Mon 7/6 (0/3).** **Inbox: nothing pending.**
 
 **Cash:** $44,663.50 (~43.1%).
 **Equity:** **$103,686.56** (cash $44,663.50 + long_market_value $59,023.06). last_equity $103,686.56 (== equity; no session today).
@@ -18,9 +18,9 @@
 
 **Open positions: 4 of 5 (one slot OPEN).** **Buys used this week: 0 of 3** (cap reset Mon 7/6). **Cash buffer: ~43.1%** (~56.9% invested, ~$59,023 market value — above the 10–20% target buffer; redeploy priority, but gated on verifiable data). Net open unrealized **≈ +$4,905.58** (GE +2,155, LLY +1,896, DE +692, JPM +162).
 
-## Today (2026-07-03) — NO trades (market closed, holiday)
+## Today (2026-07-03) — NO trades (market closed, holiday) — reconfirmed at midday
 
-- Research-only holiday scan. Nothing to buy (no name clears 2 VERIFIED signals + Conviction ≥70 — 4th straight empty scan; retrieval wall) and nothing to sell (all 4 green, intact, none near a stop). Book unchanged since the 7/2 close.
+- Research-only holiday scan. Nothing to buy (no name clears 2 VERIFIED signals + Conviction ≥70 — 4th straight empty scan; retrieval wall) and nothing to sell (all 4 green, intact, none near a stop). Book unchanged since the 7/2 close. Midday re-check (12:00 CT) re-confirmed clock closed, positions/stops/equity all identical to the 08:30 open snapshot — no action.
 
 ## Stop-management state (all 4 confirmed RESTING via open-orders query, status `new`, IDs unchanged)
 
