@@ -1,11 +1,11 @@
 # Portfolio
 
-**Last updated:** 2026-07-03 15:00 CT (16:00 ET) — **MARKET-CLOSE routine, JULY 4TH HOLIDAY. Market CONFIRMED CLOSED** via `/v2/clock` (`is_open:false`, next_open **Mon 7/6** 09:30 ET, next_close Mon 7/6 16:00 ET). **NO session today — no trades placed or possible.** Account re-confirmed live via Alpaca at the close: equity **$103,686.56** (== last_equity, no session), cash **$44,663.50**, long_mv **$59,023.06**, daytrade_count 0. Book **4 of 5 positions** (one slot OPEN); marks & P/L identical to the 7/2 close (unchanged all day: 06:00 pre-market == 08:30 open == 12:00 midday == 15:00 close snapshot). **All 4 theses INTACT.** **All 4 stops RESTING `status:new`, IDs unchanged** — 3 on 10% trailing (GE, LLY, DE), JPM on its −7% hard stop (+1.45%, ~3.5% from its +5% conversion trigger ~$346.18). **Weekly buys reset Mon 7/6 (0/3).** **Inbox: nothing pending.**
+**Last updated:** 2026-07-03 16:00 CT (17:00 ET) — **WEEKLY-REVIEW routine, JULY 4TH HOLIDAY. Market CONFIRMED CLOSED** via `/v2/clock` (`is_open:false`, next_open **Mon 7/6** 09:30 ET, next_close Mon 7/6 16:00 ET). **NO session today.** Account re-confirmed live via Alpaca: equity **$103,686.56** (== last_equity, no session), cash **$44,663.50**, long_mv **$59,023.06**, daytrade_count 0. Book **4 of 5 positions** (one slot OPEN); marks & P/L identical to the 7/2 close. **All 4 theses re-verified INTACT** (sub-agent thesis check this run). **All 4 stops RESTING `status:new`, IDs unchanged** — 3 on 10% trailing (GE, LLY, DE), JPM on its −7% hard stop (+1.45%, ~3.5% from its +5% conversion trigger ~$346.18). **Weekly review DONE:** week (Mon 6/29→Thu 7/2) **+0.55% vs SPY +2.13% → alpha −1.58 pts** (first sub-SPY week since resume; cash-drag flip-side on an up-week; cumulative +5.37 pts still AHEAD). **Grade B.** **One strategy change:** graduated the ≤10% high-beta starter SIZING cap to a STANDING RULE (see strategy.md). **Weekly buys reset Mon 7/6 (0/3).** **Inbox: nothing pending.**
 
 **Cash:** $44,663.50 (~43.1%).
 **Equity:** **$103,686.56** (cash $44,663.50 + long_market_value $59,023.06). last_equity $103,686.56 (== equity; no session today).
 **Day P/L:** **N/A — market CLOSED for the July 4th holiday, no session.** Day return, SPY day return, and daily alpha are all N/A today (no bars).
-**Prior completed week (6/29–7/2):** port **+0.51%** vs **SPY +2.13%** → **WTD alpha ≈ −1.62 pts** (3rd straight week of low-beta/cash-drag lag). New week's clock starts Mon 7/6. **Redeploying cash remains priority #1 — but gated on verifiable data (see below).**
+**Completed week (Mon 6/29–Thu 7/2, FINALIZED this weekly review):** port **+0.548%** vs **SPY +2.127%** → **alpha −1.58 pts** (first sub-SPY *week* since resume; the miss was all Mon+Tue's risk-on rally vs our ~34→43% cash). Cumulative since 5/29: **+5.37 pts AHEAD** (port +3.85% vs SPY −1.52%). New week's clock starts Mon 7/6. **Redeploying cash remains priority #1 — but gated on verifiable data; the honest answer is likely "wait for the Jul 14 earnings wave" (bench re-score this run found NOTHING clearing the gate).**
 
 ## Open positions (4 of 5 — one slot OPEN) — marks = last trade (7/2 close, unchanged)
 
@@ -33,7 +33,9 @@
 - (c) **Daily loss cap:** N/A — market closed.
 - daytrade_count 0.
 
-## Watch / next (next routine: **pre-market / market-open Mon 7/6**)
+## Watch / next (next routine: **pre-market Mon 7/6**)
+
+- **Weekly review filed** (see `memory/weekly-review.md` — week ending 7/3, grade **B**, alpha −1.58). Strategy change logged: high-beta ≤10% starter SIZING cap graduated to a standing rule. No change to gate/cash/stops.
 
 - **HOLD all 4.** Market reopens Mon 7/6 09:30 ET.
 - **PRIORITY #1: redeploy cash — but GATED on verifiable data.** At 4/5 positions and ~43% cash with a fresh weekly buy budget, the intent is to refill slot 5 — BUT 4 straight scans have found nothing clearing the gate, and the blocker is the **data-verification wall**, not the ≥70 bar. Do NOT buy an unverifiable catalyst. **Key re-scan = the Jul 14 bank/earnings wave** (JPM + GS Tue Jul 14, GE Jul 16), when dated beat/miss data finally exists. Hunt hard then.

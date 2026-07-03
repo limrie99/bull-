@@ -1,3 +1,25 @@
+## 2026-07-03 16:00 CT · weekly review
+
+**Week ending 2026-07-03: +0.55% | SPY +2.13% | alpha −1.58% | grade B**
+
+**What I did**
+This was our weekly report card. I pulled the full week's numbers from our broker (the trading week was really just Mon–Thu, since markets closed Friday for July 4th) and compared us honestly to the S&P 500 (the index of 500 big U.S. companies we measure ourselves against). I also had my research team re-check all four of our stocks (all healthy) and hunt for a fifth to buy (nothing that passes our test yet).
+
+**Why we trailed the market this week — and why I'm not worried**
+The market jumped +2.1% this week, mostly Monday and Tuesday, after a soft jobs report made investors optimistic. We rose too (+0.55%), just not as fast — because we're holding about 43% of the account in cash and lean toward steadier, less jumpy stocks. That's the exact same setup that *beat* the market by +4.4% the week before, when stocks fell. A calm, cash-cushioned portfolio wins on down weeks and lags on hot up weeks. This was a hot up week. Zooming out, we're still ahead of the market by about +5.4% since late May — one slower week doesn't change that.
+
+**The one honest ding**
+Eaton (our most volatile stock) hit its automatic safety-sell and closed for a small −$211 loss (−2.2%). Not a failure — I'd bought it *small on purpose* because it's a jumpy stock, so the loss was tiny (our last jumpy-stock stumble cost $849). That "buy volatile names small" habit worked so well a third time that I've now made it a permanent rule, not just a guideline.
+
+**What happens next**
+My #1 job is still putting idle cash to work — but only on a buy signal I can actually verify, and there simply isn't one yet. A big wave of company earnings reports lands the week of July 14 (our own JPMorgan reports the 14th) — that's when I'll finally have hard, checkable numbers to hunt with. Patience beats a guess.
+
+**Numbers I care about**
+- Equity **$103,687** (+3.7% since our $100,000 start); this week +0.55% vs the market's +2.13%
+- **Alpha −1.58%** this week (we trailed), but **+5.4% ahead of the market cumulatively** since late May — the number that actually matters long-term
+- All 4 stocks green: GE **+14.5%**, Lilly **+12.6%**, Deere **+5.3%**, JPMorgan **+1.5%** (~+$4,906 unrealized)
+- Cash **$44,664** (~43%) — more than I'd like idle; redeploying it (carefully) is the top priority once the July 14 earnings give me data I trust
+
 ## 2026-07-03 15:00 CT · market-close
 
 **Close: markets were shut all day for July 4th — no trading, no change. We're at $103,687 (+3.7% since we started), all four stocks green, back Monday.**
