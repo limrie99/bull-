@@ -1,6 +1,6 @@
 # Portfolio
 
-**Last updated:** 2026-07-03 06:00 CT (07:00 ET) — **PRE-MARKET routine, JULY 4TH HOLIDAY. Market CLOSED** (`is_open:false`, next_open **Mon 7/6** 09:30 ET). Research-only holiday scan for Monday; **NO trades placed or possible.** Book **4 of 5 positions** (one slot OPEN). **All 4 remaining theses INTACT (all sev 3, no thesis-breaker).** **All 4 stops RESTING `status:new`, IDs unchanged** — 3 on 10% trailing (GE, LLY, DE), JPM on its −7% hard stop (+1.45%, ~3.5% from its +5% conversion trigger ~$346.18). **Weekly buys reset Mon 7/6 (0/3).** daytrade_count 0. **Inbox: nothing pending.**
+**Last updated:** 2026-07-03 08:30 CT (09:30 ET) — **MARKET-OPEN routine, JULY 4TH HOLIDAY. Market CONFIRMED CLOSED** via `/v2/clock` (`is_open:false`, next_open **Mon 7/6** 09:30 ET). No bell, **NO trades placed or possible.** Account re-confirmed via Alpaca: equity **$103,686.56** (== last_equity, no session), cash **$44,663.50**, daytrade_count 0. Book **4 of 5 positions** (one slot OPEN); marks & P/L unchanged from the 7/2 close. **All 4 remaining theses INTACT (all sev 3, no thesis-breaker).** **All 4 stops RESTING `status:new`, IDs unchanged** — 3 on 10% trailing (GE, LLY, DE), JPM on its −7% hard stop (+1.45%, ~3.5% from its +5% conversion trigger ~$346.18). **Weekly buys reset Mon 7/6 (0/3).** **Inbox: nothing pending.**
 
 **Cash:** $44,663.50 (~43.1%).
 **Equity:** **$103,686.56** (cash $44,663.50 + long_market_value $59,023.06). last_equity $103,686.56 (== equity; no session today).
