@@ -1,3 +1,42 @@
+## 2026-07-03 06:00 CT (07:00 ET) — PRE-MARKET (Fri, JULY 4TH HOLIDAY — MARKET CLOSED)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false**, timestamp 07:09 ET, **next_open Mon 2026-07-06 09:30 ET** → confirms **Fri 7/3 CLOSED for July 4th** (observed). This is a research-only holiday scan for Monday's open; **NO trades placed or possible.** Inbox: **nothing pending.** Account: equity **$103,686.56**, cash **$44,663.50** (~43.1%), long_market_value **$59,023.06** (~56.9%), last_equity **$103,686.56** (== equity; no session), daytrade_count 0. **4 of 5 positions; all 4 stops RESTING `status:new`, IDs unchanged** (GE `b9dadf2d`, LLY `6016a7e7`, DE `dcdd84e5` on 10% trailing; JPM `3e8fe4ea` on −7% hard stop @ 306.62).
+
+### Sub-agent digests (macro / position / scout — all 3 returned)
+
+**MACRO (mildly risk-on but rotational; moderate confidence):**
+- **June jobs = +57K payrolls (BIG MISS vs ~113–115K consensus), U/E 4.2%** (VERIFIED, Yahoo day-wrap). Cooler-but-not-disastrous read → reinforces a Fed "hold." **Dow closed 7/2 at a record +1.14%; S&P ~flat; Nasdaq ~−0.8%** (semis/tech drag) — VERIFIED-ish (directions; exact S&P/Nasdaq levels UNVERIFIED).
+- **10Y ~4.50%** pre-jobs (VERIFIED-ish); post-jobs 10Y + 2Y UNVERIFIED. Fed chair **Warsh** urged "watch the data, not our guidance." No FOMC this window.
+- **Week of 7/6 is DATA-LIGHT / catalyst-light:** no CPI/PPI/PCE/FOMC/minutes (VERIFIED — CPI 7/14, PPI 7/15, FOMC 7/29 all OUTSIDE). Only 2nd-tier releases (Trade 7/7, Wholesale 7/8). Market drifts on momentum until CPI 7/14.
+- **Sector rotation — MIXED / CONFLICTING & STALE across the two agents:** macro's recent (~wk-ending 7/2) snapshot had **Healthcare LEADING** (+3.2%, good for LLY), **Industrials the WEAKEST** (−1.5%, caution flag on GE/DE), Tech soft, Financials/Utilities modest. Scout's trailing-6-mo (FactSet 6/25) had the OPPOSITE tilt: **Financials −2.7% & Healthcare −3.4% both LAGGING**, leaders Energy/Tech/**Industrials**. Net read: the sector signal is too noisy/stale this week to lean on — **no clean, verifiable rotation tailwind into any bench name.**
+
+**POSITION (all 4 INTACT, no thesis-breakers — all severity 3):**
+- **GE** — INTACT, quiet. Only item: $0.47 div declared 6/25 (record 7/6, pay 7/27) — routine. **Q2 earnings VERIFIED Jul 16, 2026** (GE IR). sev 3.
+- **LLY** — INTACT, strong. Closed **$1,213.91 on 7/2 (+3.06%/+$22.17)** (VERIFIED, CNBC/Investing). Cantor reiterated Overweight $1,230 (not a fresh action). **HOUSEKEEPING FLAG:** the CMS Medicare GLP-1 $50/mo demo (our thesis catalyst) could NOT be re-verified against an authoritative CMS source this run — traces only to social; **our memory had it VERIFIED 7/1 via a named CMS "Medicare GLP-1 Bridge" page** → carry as intact (assume-from-thesis), re-verify at a future run. sev 3.
+- **DE** — INTACT, quiet. No dated analyst action 6/30–7/2; only immaterial product/brand stories. RBC Buy/$752 referenced. sev 3.
+- **JPM** — INTACT, quiet. **Q2 earnings VERIFIED Jul 14, 2026** (~7:00am ET release / 8:30 call; JPM IR + Business Wire). IR references upcoming Q3 dividend + buyback + capital-requirement update (consistent w/ thesis). **HOUSEKEEPING FLAG:** the specific **"$50B" buyback figure could NOT be re-verified this run** — the program is real, the amount unconfirmed today; **our memory had it VERIFIED via SEC EX-99 6/24 (eff Jul 1)** → carry as intact. sev 3 (would be sev 2 only if the buyback itself were wrong, which it is not).
+
+**SCOUT (another "NOTHING qualifies" week — blunt):**
+- **No large-cap surfaced with 2 VERIFIED signals + Conviction ≥70.** ZERO verifiable fresh beat-and-raise (last 7–10d), ZERO verifiable analyst upgrade/insider buy (last 2wk — only PT *reiterations*, high confabulation risk), ZERO verifiable dated catalyst (next 30d). Perplexity's mid-2026 retrieval wall firmly in effect; it correctly refused to confabulate.
+- **GS (top bench name):** at most **ONE soft/aging signal.** Q2 earnings VERIFIED **Jul 14** — but an earnings date is a binary two-way event, NOT a clean favorable buy-signal. Post-CCAR GS-specific buyback = NOT FOUND. The 6/24 div hike ($4.50→$5.00) could NOT be re-verified this run (carry as VERIFIED-ish from prior). Sector tape (financials lagging on trailing basis) argues AGAINST it. **Does not clear the gate.**
+- **Scout recommendation:** do NOT force slot 5 into an unverifiable buy (the confabulation trap). Hold cash, keep GS benched, **re-scan around Jul 14 (JPM/GS + the mid-July bank/earnings wave)** when verifiable, dated beat/miss data finally exists.
+
+### Buy candidates
+**NONE clear the gate** (need 2+ VERIFIED signals AND Conviction ≥70). GS ~58 (≤1 soft signal), then V/AMGN/MS/CB/CVS/VST all 50–52 (0 fresh verified signals). See watchlist for the scored table.
+
+### Sell candidates
+**NONE.** All 4 holdings green, intact, none near a stop (worst is JPM at +1.45%, far above its −7% hard stop). No thesis-breaker surfaced.
+
+### Cash-drag / escalation read
+- Cold-start flat-book rule does **NOT** trigger: we hold 4 positions (~57% invested), not 100% cash. But this is now the ~4th consecutive scan and 3rd straight week lagging SPY on cash drag (~43% cash vs the 10–20% target).
+- **Diagnosis (important refinement):** the recurring "nothing qualifies" is driven far more by the **data-verification wall** (we literally cannot confirm fresh signals in this retrieval window) than by the Conviction ≥70 bar being too tight. The disciplined response is therefore NOT to lower the gate — it is to **wait for the mid-July earnings wave (Jul 14–16), when verifiable dated data returns**, and scan hard then. Buying on unverifiable catalysts is exactly the trap that has cost us before. If, once verifiable data returns post-Jul-14, we still find nothing while SPY keeps rising, THEN escalate the "is ≥70 too tight?" guardrail question to the user.
+
+### Plan into Mon 7/6 (market reopens)
+- **HOLD all 4.** No buy unless Monday's open hands a genuine, verifiable 2-signal / ≥70 setup (unlikely given the retrieval wall).
+- **Standing task — JPM +5% → trailing conversion:** the moment JPM tags **~$346.18** (+5% from 329.695588), cancel the −7% hard stop `3e8fe4ea` and place a 10% trailing GTC. Mark 334.47 → ~+3.5% away.
+- **Key re-scan date = Jul 14** (JPM Q2 + GS Q2, then GE ~Jul 16). Re-verify all mid-July dates ~Jul 10. This is the natural point to hunt for a slot-5 name with real data.
+- Book posture is defensible for a rising tape only if it's temporary — treat the Jul-14 wave as the deadline to either deploy or escalate.
+
 ## 2026-07-02 15:00 CT (16:00 ET) — MARKET CLOSE (Thu, JOBS DAY; effective WEEKLY REVIEW — CLOSED Fri 7/3)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false** (16:01 ET, next_open **Mon 7/6** 09:30 ET → confirms Fri 7/3 CLOSED). Inbox: **nothing pending.** Account: equity **$103,646.96**, cash **$44,663.52** (~43.1%), long_market_value **$58,983.44** (~56.9%), last_equity/7-1-close $103,855.86, daytrade_count 0. **1 sell today (ETN, auto stop). 4 of 5 positions now; 4 stops resting `status:new`, IDs unchanged.**
