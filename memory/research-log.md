@@ -1,3 +1,50 @@
+## 2026-07-06 06:00 CT (07:00 ET) — PRE-MARKET (Mon — MARKET REOPENS TODAY 09:30 ET after July 4th holiday)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false** at 07:09 ET, **next_open Mon 2026-07-06 09:30 ET / next_close 16:00 ET** → confirms market **reopens today** (first session of the new week). Research-only pre-market scan; **NO trades placed (market not yet open).** Inbox: **nothing pending.** Account (live Alpaca): equity **$103,690.02**, cash **$44,663.50** (~43.1%), long_market_value **$59,026.52** (~56.9%), last_equity **$103,686.56** (7/2 close; +$3.46 mark drift, no session yet), daytrade_count 0. **4 of 5 positions; all 4 stops RESTING `status:new`, IDs unchanged** (GE `b9dadf2d` floor 344.673, LLY `6016a7e7` floor 1114.2, DE `dcdd84e5` floor 575.073 on 10% trailing; JPM `3e8fe4ea` −7% hard stop @ 306.62). **New week: weekly buy cap resets 0/3.**
+
+### Sub-agent digests (macro / earnings / position / scout — all 4 returned)
+
+**MACRO (cautiously risk-on, LOW-MODERATE confidence):**
+- **S&P futures (ES) modestly higher** overnight, ~+0.25–0.35% (~7,547–7,551 quotes just after midnight 7/6) — VERIFIED-ish. **NQ direction UNVERIFIED** (only stale/undated chip-weakness commentary). No confirmed weekend geopolitical/policy/tariff catalyst (UNVERIFIED = none found, consistent with a quiet post-holiday Sunday).
+- **10Y ~4.47–4.49%** (4.477% early 7/6), easing modestly after the weak June jobs print (VERIFIED-ish). 2Y ~4.17% (Jul 1 print; 7/6 exact UNVERIFIED); curve modestly steepening (10s2s +0.35pp). DXY/oil/gold all UNVERIFIED this run.
+- **Fed/policy:** weak June payrolls (+57K) linked to falling yields / reduced hike bets = Fed-hold read (VERIFIED-ish narrative). CPI 7/14 and FOMC 7/29 could NOT be independently re-confirmed (UNVERIFIED via search; treat as prior-context assumptions, no reason to doubt). No fresh Fed headline early July.
+- **Sector rotation — STALE / conflicting (do not lean on it):** June-month (Janus Henderson) had Healthcare/Financials/Industrials strong, Value>Growth, Energy lagging; trailing-6-mo (Schwab, 6/26) had the OPPOSITE tilt for Financials (−2.7%) & Healthcare (−3.4%) as LAGGARDS, leaders Tech/Energy/Industrials. No 1–2 week read available → the "noisy/conflicting" flag holds a 5th run; no clean verifiable rotation tailwind for any name.
+- **Net read:** cautiously RISK-ON / mildly positive into a data-light week (next catalyst CPI 7/14), but conviction is thin — the constructive tone rests on the ES overnight tick + rates narrative; NQ/FX/commodities/this-week's-rotation all unverified. Don't over-trade on macro alone.
+
+**EARNINGS (between-quarters lull — nothing today):**
+- **No large-cap ($10B+) reports TODAY 7/6** — three calendars (Kiplinger, Interactive Investor, Nasdaq) agree "no noteworthy earnings" (VERIFIED-ish). Only sub-threshold names (PKE ~$790M, BMNG) — ignore. Next large-cap reporters that week: PEP Thu 7/9, DAL Fri 7/10, then the bank cluster from 7/14.
+- **Mid-July calendar for tracked names:** **JPM Q2 — Tue Jul 14, before open [VERIFIED]** (JPMorgan IR + Wall Street Horizon "CONFIRMED" + Business Wire; ~7:00 ET results, 8:30 call). **GS Q2 — Tue Jul 14 [VERIFIED via GS's own release]** (scout corroborated). MS/GE/LLY dates UNVERIFIED (aggregator/pattern-based; GE ~Jul 16 expected-but-unconfirmed). **NEW NUANCE — DE fiscal calendar:** earnings analyst flags Deere runs an off-cycle fiscal year — its next report is a fiscal **Q3 typically mid-AUGUST, not July** (could not fully confirm, but plausible and consistent with DE's cadence). So DE is NOT a mid-July event — adjust event-risk expectations.
+- **Guidance-risk flags:** none actionable today. Forward: the 7/14 bank cluster (JPM confirmed; GS confirmed; MS expected) is the first real event risk. Re-confirm GS/MS/GE/LLY dates via each IR page ~Jul 10.
+
+**POSITION (all 4 INTACT, no thesis-breakers — all severity 3):**
+- **GE** — quiet. **OPERATIONAL FLAG: GE trades EX-DIVIDEND TODAY 7/6** ($0.47/sh authorized 6/25; record 7/6, pay 7/27) → expect a small **~$0.47/sh mechanical open dip** — this is NOT a thesis signal and NOT stop-worthy; don't misread it. Q2 ~Jul 16. No analyst actions. sev 3, INTACT.
+- **LLY** — quiet; no orforglipron/GLP-1 or CMS Medicare $50/mo demo updates in the 7/2–7/6 window; no rating changes. sev 3, INTACT (CMS demo catalyst still pending, unresolved). Tag UNVERIFIED (holiday-weekend retrieval gap → "no confirmed catalyst," not proof of nothing; re-check next non-holiday run).
+- **DE** — quiet; all recent items predate the window (FY26 guide raise, Q2 call, div). Only "news" = John Deere Classic golf coverage (noise). sev 3, INTACT.
+- **JPM** — quiet; $50B buyback (eff 7/1) + Q3'26 div hike are pre-existing context, not new. Q2 ~Jul 14. No verifiable news/ratings. sev 3, INTACT. Tag UNVERIFIED (no JPM-specific sources returned → "quiet" inferred, not confirmed; re-check next run).
+- **Thesis-breakers requiring a sell? NO.** All 4 intact.
+
+**SCOUT (5th consecutive "NOTHING qualifies" — retrieval wall firmly in effect):**
+- **No candidate found.** ZERO verifiable earnings beat + raised guidance (Jun 26–Jul 6), ZERO dated/sourced analyst upgrade or insider buy (Jun 22–Jul 6). Perplexity correctly declined to confabulate (prior fake Visa/DK upgrades argue for exactly this restraint).
+- **GS re-check:** one genuinely VERIFIED fact — **Q2 earnings Tue Jul 14** (GS's own Dec 2025 release + calendars). But a scheduled print is a binary event, NOT a directional buy-signal. No June/July buyback or div hike found in GS IR/SEC feeds; no <2wk upgrade; price shown $1,022 (7/2 close, MarketBeat) but 52-wk range not returned → uptrend/near-highs UNCONFIRMED. GS stays ~**58**, ~1 soft signal, still sub-gate.
+- **Does anything clear the gate (2+ VERIFIED signals AND Conviction ≥70)? NO.** Nothing reaches even one directional verified signal.
+- **Recommendation:** HOLD CASH — do not force slot 5 today. Re-scan after Jul 14 (JPM + GS both confirmed reporting the 14th). If GS beats EPS+rev and raises guide on 7/14, that fresh VERIFIED signal + the (then-realized) catalyst could push it toward the gate.
+
+### Buy candidates
+**NONE clear the gate** (need 2+ VERIFIED signals AND Conviction ≥70). GS **58** (top idea, ~1 soft signal, Q2 Jul 14 VERIFIED but binary), then V/AMGN/MS 52, CB/CVS/VST 50, PANW 35 — all 0 fresh verified signals. No score changes this run (no verifiable data to move any name). See watchlist.
+
+### Sell candidates
+**NONE.** All 4 holdings green, intact, none near a stop (worst is JPM at +1.2%, far above its −7% hard stop @ 306.62). No thesis-breaker surfaced.
+
+### Cash-drag / escalation read
+- Cold-start flat-book rule does **NOT** trigger: we hold 4 positions (~57% invested), not 100% cash. This is now the **5th consecutive empty scan**; ~43% cash into a 4th week of cash drag.
+- **Diagnosis unchanged & confirmed:** the recurring "nothing qualifies" is the **data-verification wall**, not the ≥70 bar being too tight. Disciplined response = **wait for the Jul 14 bank/earnings wave** (verifiable dated data returns; JPM + GS both report the 14th), NOT lower the gate or buy an unverifiable catalyst. If, once real data returns post-Jul-14, still nothing qualifies while SPY keeps rising, escalate the "is ≥70 too tight?" guardrail question to the user.
+
+### Plan for today's open (Mon 7/6) & the week
+- **HOLD all 4.** No buy unless the open hands a genuine, verifiable 2-signal / ≥70 setup (unlikely given the wall). **GE ex-div ~$0.47/sh open dip is expected — ignore it (not a stop event).**
+- **Standing task — JPM +5% → trailing conversion:** the moment JPM tags **~$346.18** (+5% from 329.695588), cancel the −7% hard stop `3e8fe4ea` and place a 10% trailing GTC. Mark 333.80 → ~+3.7% away.
+- **Key re-scan date = Jul 14** (JPM Q2 + GS Q2, both VERIFIED for the 14th), then GE ~Jul 16. Re-verify all mid-July dates ~Jul 10. **DE is NOT a July event** (fiscal Q3 ~mid-August). This is the natural point to hunt for a slot-5 name with real data.
+- **Escalation deadline:** treat the Jul-14 wave as the point to either deploy or raise the guardrail question.
+
 ## 2026-07-03 06:00 CT (07:00 ET) — PRE-MARKET (Fri, JULY 4TH HOLIDAY — MARKET CLOSED)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false**, timestamp 07:09 ET, **next_open Mon 2026-07-06 09:30 ET** → confirms **Fri 7/3 CLOSED for July 4th** (observed). This is a research-only holiday scan for Monday's open; **NO trades placed or possible.** Inbox: **nothing pending.** Account: equity **$103,686.56**, cash **$44,663.50** (~43.1%), long_market_value **$59,023.06** (~56.9%), last_equity **$103,686.56** (== equity; no session), daytrade_count 0. **4 of 5 positions; all 4 stops RESTING `status:new`, IDs unchanged** (GE `b9dadf2d`, LLY `6016a7e7`, DE `dcdd84e5` on 10% trailing; JPM `3e8fe4ea` on −7% hard stop @ 306.62).
