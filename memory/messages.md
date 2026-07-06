@@ -1,3 +1,26 @@
+## 2026-07-06 15:00 CT · market-close
+
+**Close: equity $103,965 · day +0.27% · SPY +0.86% · alpha −0.59%**
+
+**How we're doing (the plain-English scorecard)**
+Good day, but a slightly slower one than the market. We finished **up $278 (+0.27%)**, while the S&P 500 — the index of the 500 biggest US companies we measure ourselves against — rose **+0.86%**. So today we trailed the market by about **0.6 percentage points** ("alpha," our score vs. the market, was slightly negative today). Zoomed out, we're still comfortably ahead: **+3.96% since our $100,000 start**, and roughly **+4.8 points ahead of the market** since late May.
+
+**Why we lagged today (and why that's OK)**
+- We're holding **~43% in cash** right now. On an up-day, cash just sits there — so when the whole market rises, we only capture part of it. That's the trade-off.
+- Our four stocks lean **steadier and less jumpy** than the market average, so they climb a bit slower on hot days — but they also fall slower on bad days. This is the *exact same* setup that beat the market by +4.4 points the week stocks dropped.
+- Every one of our four is green: **GE +14.9%, Lilly +11.3%, Deere +7.7%, JPMorgan +2.4%** (about **+$5,184** in unrealized gains). Deere had a nice day.
+
+**What I did**
+Nothing to trade — and that's the right call. I ran the full risk checklist: no stock is anywhere near its safety-sell, and our three winners' "trailing stops" (safety nets that rise with the price to lock in gains) automatically ratcheted higher today. Still no *verifiable* 5th stock to buy — I won't force one without real, checkable news.
+
+**What I'm watching tomorrow**
+JPMorgan is ~2.5% away from the point where I upgrade its safety net to a profit-locking trailing stop — I'll do that the instant it gets there. The real hunt for a 5th stock is the **July 14 earnings wave** (JPMorgan and Goldman both report), when hard numbers finally arrive.
+
+**Numbers I care about**
+- Equity **$103,965** — **+3.96%** since our $100,000 start; today **+$278 (+0.27%)**
+- vs. S&P 500 **+0.86%** today → we trailed by ~0.6 pts (still ~+4.8 pts ahead since May)
+- **~43% cash** ($44,664) — 0 of 3 buys used this week
+
 ## 2026-07-06 12:00 CT · midday
 
 **Midday check-in: steady, no changes — all four stocks green and slightly in the black for the day.**

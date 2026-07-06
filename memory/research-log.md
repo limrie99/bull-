@@ -19,6 +19,26 @@
 
 **Actions taken:** none (HOLD all 4). 0 closed orders today. Memory/portfolio/dashboard written; message prepended. No Telegram push (quiet midday, no trade — per CLAUDE.md push rules).
 
+### Day summary (2026-07-06 CLOSE, 16:01 ET — appended by market-close routine)
+
+**Closing equity:** $103,964.95 (cash $44,663.50 / ~43.0%, long_mv $59,301.45 / ~57.0%). last_equity $103,686.56 (7/2 close). Total since $100K: +3.96%.
+**Day P/L:** **+$278.39 / +0.27%**. **SPY:** 744.86 (7/2 close) → 751.27 (7/6 close, latest trade 19:59:59Z) = **+0.86%**. **Alpha today: −0.59 pts.**
+**WTD (this week = only 7/6 so far):** port +0.27% vs SPY +0.86% → −0.59 pts. Cumulative since 5/29 now ≈ +4.78 pts ahead (was +5.37 at the 7/2 weekly review).
+**Closing marks:** GE 378.73 (+14.90%, +$2,209.50) · LLY 1200.06 (+11.28%, +$1,702.40) · DE 635.24 (+7.70%, +$999.24) · JPM 337.72 (+2.43%, +$272.83). Net unrealized ≈ +$5,183.97.
+**Stops (all resting, status `new`, IDs unchanged, hwm ratcheted up intraday):** GE `b9dadf2d` floor 344.673 (hwm 382.97) · LLY `6016a7e7` floor 1114.2 (hwm 1238) · DE `dcdd84e5` floor 575.073 (hwm 638.97) · JPM −7% hard stop `3e8fe4ea` @ 306.62. JPM +5%→trailing trigger $346.18, ~+2.5% away — not tagged.
+**Trades placed today:** 0 (HOLD all 4; 0 closed orders).
+
+**What worked:**
+- All 4 held green and participated in the up-tape — DE set a fresh intraday hwm 638.97 (+7.70% net), GE +14.90%, LLY +11.28%. Trailing floors ratcheted up on all three winners, locking more profit at zero effort.
+- Discipline held: no forced 5th buy just to chase an up-day. Correct given the data-verification wall — no dated beat/miss data exists until Jul 14.
+
+**What didn't (honest):**
+- Lagged SPY by 0.59 pts on a solid up-day — the mechanical cost of ~43% cash + four lower-beta names. This is the known cash-drag; it's the *same* posture that beat SPY by +4.44 the week stocks fell. Not a mistake, but it's the second consecutive up-window where cash cost us alpha — worth watching if it compounds.
+
+**Open questions for tomorrow (7/7):**
+- Does JPM keep climbing toward the $346.18 (+5%) trailing-conversion trigger? (mark 337.72, ~+2.5% away — standing task to convert the instant it tags.)
+- Cash-drag is the running theme two up-windows running. Still parked behind the pre-committed forward trigger: re-evaluate the Conviction ≥70 gate / cash level ONLY if the Jul 14 data wave yields no qualifier while SPY keeps rising. Not yet — no verifiable data until Jul 14. Re-verify all mid-July earnings dates ~Jul 10.
+
 ## 2026-07-06 06:00 CT (07:00 ET) — PRE-MARKET (Mon — MARKET REOPENS TODAY 09:30 ET after July 4th holiday)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false** at 07:09 ET, **next_open Mon 2026-07-06 09:30 ET / next_close 16:00 ET** → confirms market **reopens today** (first session of the new week). Research-only pre-market scan; **NO trades placed (market not yet open).** Inbox: **nothing pending.** Account (live Alpaca): equity **$103,690.02**, cash **$44,663.50** (~43.1%), long_market_value **$59,026.52** (~56.9%), last_equity **$103,686.56** (7/2 close; +$3.46 mark drift, no session yet), daytrade_count 0. **4 of 5 positions; all 4 stops RESTING `status:new`, IDs unchanged** (GE `b9dadf2d` floor 344.673, LLY `6016a7e7` floor 1114.2, DE `dcdd84e5` floor 575.073 on 10% trailing; JPM `3e8fe4ea` −7% hard stop @ 306.62). **New week: weekly buy cap resets 0/3.**
