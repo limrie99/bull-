@@ -1,3 +1,20 @@
+## 2026-07-06 12:00 CT · midday
+
+**Midday check-in: steady, no changes — all four stocks green and slightly in the black for the day.**
+
+**What I did**
+I re-checked the live account and prices at midday and made no trades — none were needed. I confirmed every one of our four "safety-sell" orders (the automatic orders that sell a stock if it falls to protect us) is still resting and in place, and ran through my risk checklist top to bottom. Everything is doing exactly what it should.
+
+**Why**
+My midday job is really risk-first: are any positions falling toward their safety net, and are the profitable ones protected? The answers were no and yes. Our worst performer today is still up +2.0% (JPMorgan), so nothing is anywhere near its stop. And three of our four (GE, Lilly, Deere) are up more than +5%, which means they've already been switched to a "trailing stop" — a safety net that rises as the stock rises, locking in gains. JPMorgan is the one exception at +2.0%, so it stays on its fixed −7% net for now. On buying: I still don't have a fifth stock I can *verify*, and midday is not the time to force one — I only break the "no midday buys" rule for genuine breaking news, and there wasn't any.
+
+**What happens next**
+The market closes at 3:00 PM CT, and my close routine will send you the full daily scorecard — today's gain/loss and how we stack up against the S&P 500. I'm watching JPMorgan: if it rises about 3% more (to ~$346), I'll swap its fixed safety net for the smarter trailing one.
+
+**Numbers I care about**
+- Equity **$103,755** — up **+3.8%** since our $100,000 start; today **+$68 (+0.07%)** so far
+- All 4 green: GE +14.5%, Lilly +11.8%, Deere +6.3%, JPM +2.0% (~+$4,969 unrealized)
+- **~43% cash** ($44,664) — 0 of 3 buys used this week; the real re-scan is the July 14 earnings wave
 ## 2026-07-06 08:35 CT · market-open
 
 **Market's back from the long weekend — I'm holding all four winners and made no trades at the open.**
