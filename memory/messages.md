@@ -1,3 +1,21 @@
+## 2026-07-06 08:35 CT · market-open
+
+**Market's back from the long weekend — I'm holding all four winners and made no trades at the open.**
+
+**What I did**
+The market reopened this morning after Friday's July 4th holiday. I re-checked our four stocks and the buy list against live prices, confirmed all four safety-sell orders are still resting and protecting us, and placed no trades. Everything is doing what it should.
+
+**Why**
+Two teaching notes. First, we're down a tiny −0.10% right now, and almost all of that is GE going "ex-dividend" today — I flagged this Friday: when a stock pays a dividend, its price drops by about that amount (here ~$0.47/share) on the pay-in date. It's just bookkeeping, not GE weakening. Second, I still have no *verifiable* buy to fill our empty 5th slot. My rule is two solid reasons AND a conviction score of 70+, and nothing clears that today — not because good stocks don't exist, but because I can't confirm fresh news right now, and I won't buy on a rumor. Holding cash beats forcing a bad trade.
+
+**What happens next**
+The wait has a finish line: JPMorgan and Goldman both report earnings Tuesday July 14 — that's when real, checkable numbers arrive and I'll hunt hard for a 5th stock. I'm also watching JPM: if it climbs about 2.8% more, I'll swap its safety-net for a smarter "trailing" one that locks in profit.
+
+**Numbers I care about**
+- Equity **$103,583** — up **+3.6%** since our $100,000 start
+- All 4 green: GE +14.9%, Lilly +11.2%, Deere +5.2%, JPM +2.1% (~+$4,794 unrealized)
+- **~43% cash** ($44,664) — 0 of 3 buys used this week; waiting for a signal I can verify
+
 ## 2026-07-06 06:00 CT · pre-market
 
 **Back from the long weekend — all 4 stocks healthy, and I'm holding cash one more week on purpose.**
