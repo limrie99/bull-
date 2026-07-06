@@ -1,3 +1,24 @@
+## 2026-07-06 12:00 CT (13:01 ET) — MIDDAY (Mon, market OPEN)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 13:01 ET, next_close today 16:00 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$103,754.63**, cash **$44,663.50** (~43.0%), long_market_value **$59,091.13** (~57.0%), last_equity **$103,686.56** (7/2 close) → **day +$68.07 / +0.07%** (turned slightly positive from the −0.10% open as GE recovered part of its ex-div drift). buying_power $344,109.16, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.**
+
+**Live marks (13:01 ET):** GE 377.26 (+14.45%, +$2,143.35) · LLY 1205.97 (+11.82%, +$1,785.14) · DE 627.015 (+6.31%, +$818.29) · JPM 336.22 (+1.98%, +$221.83). Net open unrealized **≈ +$4,968.61**.
+
+**Open orders verified (status `new`, IDs unchanged):**
+- GE 10% trailing `b9dadf2d` floor 344.673 (cushion ~8.6%)
+- LLY 10% trailing `6016a7e7` floor 1114.2 (cushion ~7.6%, above entry → locks profit)
+- DE 10% trailing `dcdd84e5` floor 575.073 (cushion ~8.3%)
+- JPM −7% hard stop `3e8fe4ea` @ 306.62 (entry 329.695588)
+
+**Risk checks (priority order):**
+- (a) **−7% drawdown:** all 4 green; worst JPM +1.98%. None near −7%. No sells. No position triggered rule 3a (down −7% news check).
+- (b) **+5% → trailing:** GE/LLY/DE all ≥+5% and already on 10% trailing. JPM +1.98% correctly still on −7% hard stop; conversion trigger ~$346.18 (+5% from 329.695588), mark 336.22, ~+2.96% away — NOT triggered. No action.
+- (c) **Daily loss cap:** day +0.07%, positive. Not in play.
+
+**Buy decision:** NO midday buy. Midday buys require a high-conviction *breaking* catalyst (per routine rule 4) AND weekly<3 AND positions<5. Position/weekly caps have room (4/5, 0/3) but there is **no breaking catalyst** — still the data-verification wall (no dated beat/miss data until the Jul 14 bank wave). No deviation from the pre-market/open plan warranted. Cash stays ~43%; redeploy remains PRIORITY #1 but gated on verifiable data at the Jul 14 re-scan (JPM Q2 + GS Q2 both VERIFIED Tue Jul 14; GE ~Jul 16).
+
+**Actions taken:** none (HOLD all 4). 0 closed orders today. Memory/portfolio/dashboard written; message prepended. No Telegram push (quiet midday, no trade — per CLAUDE.md push rules).
+
 ## 2026-07-06 06:00 CT (07:00 ET) — PRE-MARKET (Mon — MARKET REOPENS TODAY 09:30 ET after July 4th holiday)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock **is_open:false** at 07:09 ET, **next_open Mon 2026-07-06 09:30 ET / next_close 16:00 ET** → confirms market **reopens today** (first session of the new week). Research-only pre-market scan; **NO trades placed (market not yet open).** Inbox: **nothing pending.** Account (live Alpaca): equity **$103,690.02**, cash **$44,663.50** (~43.1%), long_market_value **$59,026.52** (~56.9%), last_equity **$103,686.56** (7/2 close; +$3.46 mark drift, no session yet), daytrade_count 0. **4 of 5 positions; all 4 stops RESTING `status:new`, IDs unchanged** (GE `b9dadf2d` floor 344.673, LLY `6016a7e7` floor 1114.2, DE `dcdd84e5` floor 575.073 on 10% trailing; JPM `3e8fe4ea` −7% hard stop @ 306.62). **New week: weekly buy cap resets 0/3.**
