@@ -2818,3 +2818,44 @@ Net unrealized **≈ +$4,181.94** (LLY +2,115.58, GE +1,684.91, JPM +259.57, DE 
 **Standing task — JPM +5%→trailing conversion:** NOT triggered (mark 337.33 = +2.32%, trigger $346.18). Pulled back from the open (was +3.39% at 09:32). Watch at close/tomorrow.
 
 **Next routine: market-close 7/7** — owns the mandatory daily "How we're doing" scorecard + Telegram. Re-check DE, JPM +5% trigger.
+
+---
+
+### Day summary — 2026-07-07 MARKET-CLOSE (16:01 ET)
+
+**Verified live vs Alpaca at close:** account (equity **$103,262.16**, cash **$44,663.50**, long_mv **$58,598.66**, last_equity $103,962.70, buying_power $342,730.25, ACTIVE, daytrade_count 0), all 4 positions, open orders (4 stops RESTING `status:new`, IDs unchanged), 0 closed orders today.
+
+**Scorecard:**
+- **Closing equity:** $103,262.16
+- **Day P/L:** −$700.54 / **−0.67%** (vs 7/6 close $103,962.70)
+- **SPY day:** 747.77 vs 751.27 (7/6) = **−0.47%**
+- **Alpha today: −0.21 pts**
+- **WTD (baseline 7/2 close $103,686.56 / SPY 744.86):** port **−0.41%** vs SPY **+0.39%** → **week alpha −0.80 pts**
+- **Since $100K inception:** +3.26% (account); cumulative still ahead of SPY per prior tracking.
+
+**Positions at close (from ENTRY / intraday):**
+| Sym | Qty | Entry | Close | P/L% (entry) | Intraday% | Stop | Cushion→floor |
+|---|---|---|---|---|---|---|---|
+| LLY | 14 | 1078.46 | 1235.56 | +14.57% | **+2.96%** | 10% TRAIL floor 1124.505, hwm 1249.45 | ~9.0% |
+| GE | 45 | 329.63 | 366.98 | +11.33% | −3.09% | 10% TRAIL floor 344.673, hwm 382.97 | ~6.1% |
+| DE | 22 | 589.82 | 603.61 | +2.34% | **−4.98%** (bounced off midday −6.28%) | 10% TRAIL floor 575.073, hwm 638.97 | ~4.7% |
+| JPM | 34 | 329.695588 | 338.45 | +2.66% | +0.22% | −7% HARD 306.62 | far |
+
+Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM +297.65).
+
+**Trades placed today:** NONE (0 closed orders; no buys, no sells, no stop conversions). Quiet all four routines (pre-market, open, midday, close).
+
+**What worked:**
+- **LLY (+2.96%)** — healthcare/GLP-1 strength led the book and cushioned the industrials drag; day's best contributor (~+$425).
+- **DE discipline** — the midday −6.28% scare on a *confabulated* (calendar-verified-false) "guidance cut" narrative was correctly HELD, not sold into; DE recovered to close −4.98% (+2.34% from entry). Selling on the unverifiable rumor would have been a mistake.
+- **Stops all held resting** — no premature fires; DE's floor (575.073) never threatened despite the intraday dip.
+
+**What didn't:**
+- **GE (−3.09%) + DE (−4.98%)** — the two industrials both sold off with no dated catalyst, the whole reason we lagged SPY today (−0.21 alpha) and this week (−0.80 alpha WTD).
+- **~43% idle cash** — with nothing clearing the gate, the cash drag amplifies down-days like today (invested book fell but cash earned nothing while SPY was only mildly negative). The redeploy is gated on the Jul 14 data wave.
+
+**Open questions for tomorrow / this week:**
+1. Does GE's/DE's industrials softness continue or was it one-day noise? Re-verify any real dated catalyst (none found today).
+2. JPM approaches its +5% trailing-conversion trigger ($346.18, ~2.3% away) — watch for the standing conversion task.
+3. The **Jul 14 bank/earnings wave** (JPM Q2, GS Q2 both verified Tue Jul 14; GE ~Jul 16) is the next real chance to redeploy cash on verifiable data. Everything until then holds on the verification wall.
+4. Week-alpha is −0.80 WTD but it's early-week industrials noise + cash drag, not a gate failure — do not over-tune; the pre-committed escalation trigger (post-Jul-14 verifiable data still yielding no qualifier while SPY rises) is the right place to revisit the Conviction ≥70 / cash-level question.

@@ -1,3 +1,23 @@
+## 2026-07-07 15:00 CT · market-close
+
+**Close: equity $103,262 · day −0.67% · SPY −0.47% · alpha −0.21%**
+
+**How we're doing (plain English):** We're **down about $700 today (−0.67%)**, and the overall market (the S&P 500, which we measure ourselves against) was also down, but a touch less (−0.47%). So we lagged the market by a small **−0.21%** today — call it roughly a tie, tilted slightly against us. Zooming out, we're still **+3.26% since we started with $100,000**.
+
+**What I did**
+Nothing — no buying or selling all day. I checked the account four times (pre-market, open, midday, and now) and every time the disciplined move was to hold.
+
+**Why**
+Today was a "boring is fine" day. Two of our industrial stocks — **GE (−3.1%)** and **Deere/DE (−5.0%)** — drifted lower, but on **no real news** (I checked Deere's earlier ~6% dip against the calendar; there was no announcement behind it, and it actually bounced back to close down "only" 5%). Our health-care winner **Eli Lilly (+3.0%)** rose and cushioned the blow. The one honest drag is that we're still holding **~43% in cash** — on a down day, cash doesn't fall, but it doesn't help us keep pace with the market either. I'm keeping that cash parked on purpose until I can verify a genuinely strong new idea.
+
+**What happens next**
+The big date is **Tuesday, July 14** — JPMorgan and Goldman both report earnings (their quarterly report cards), and that's my next real shot to put cash to work on facts, not rumors. I'm also watching **JPMorgan**: it's about 2.3% away from the price where I upgrade its safety net to a "trailing stop" (an auto-sell that follows the price up and only triggers on a real pullback).
+
+**Numbers I care about**
+- Equity **$103,262** — down **$700 (−0.67%)** today; **+3.26%** since our $100,000 start.
+- This week so far: **−0.41%** vs the market's **+0.39%** — we're behind by about 0.8% for the week, mostly the two industrials + idle cash. Early-week noise, not a broken plan.
+- Cash **$44,664 (~43%)**; four positions open, one slot free, no new buys used this week (0 of 3).
+
 ## 2026-07-07 12:00 CT · midday
 
 **Midday: holding all four — Deere dropped ~6% today, but on no real news, so I'm not selling into it.**
