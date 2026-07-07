@@ -1,3 +1,34 @@
+## 2026-07-07 08:35 CT (09:32 ET) — MARKET-OPEN (Tue, market OPEN)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 09:31:43 ET, next_close today 16:00 ET → live session, trades possible. Inbox: **nothing pending.** Account (live Alpaca): equity **$104,278.13**, cash **$44,663.50** (~42.8%), long_market_value **$59,614.63** (~57.2%), last_equity $103,686.56 (7/2 close). vs 7/6 official close ($103,964.95) → day P/L ≈ **+$313 / +0.30%** (early session). buying_power $345,574.96, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.**
+
+**Live open marks (09:32 ET):** LLY 1231.18 (+14.16%, +$2,138.08) · GE 377.04 (+14.38%, +$2,133.45) · DE 628.245 (+6.52%, +$845.35; −1.10% intraday, noise) · JPM 340.88 (+3.39%, +$380.27). Net open unrealized ≈ **+$5,497.15**.
+
+**SPY:** 750.94 (live 09:32 ET) vs 751.27 (7/6 close) ≈ −0.04% early. Early intraday alpha ≈ +0.34 pts — noisy, minutes into the session; close routine owns the official daily scorecard.
+
+**Open orders verified (status `new`, IDs unchanged):**
+- LLY 10% trailing `6016a7e7` floor 1114.2, hwm 1238 (mark 1231.18, cushion ~9.5%; floor above entry → locks profit)
+- GE 10% trailing `b9dadf2d` floor 344.673, hwm 382.97 (mark 377.04, cushion ~8.6%)
+- DE 10% trailing `dcdd84e5` floor 575.073, hwm 638.97 (mark 628.245, cushion ~9.3%)
+- JPM −7% hard stop `3e8fe4ea` @ 306.62 (entry 329.695588; conversion to trailing at $346.18 = +5%, mark 340.88 → ~+1.56% away, NOT triggered)
+
+**Executing the pre-market plan against live open prices:**
+
+**Buy candidates:** **NOTHING clears 2 VERIFIED signals + Conviction ≥70 — 7th straight empty scan (pre-market + open).** No breaking catalyst appeared at the open to justify a deviation. The pre-market 4-agent scan stands: scout found ZERO verifiable fresh beat-and-raise (genuine between-quarters lull — Q2 large-cap season doesn't begin until the Jul 14 bank wave), ZERO verifiable upgrade/insider buy, ZERO verifiable dated buy-catalyst. GS holds 58 (top idea, ~1 soft signal; Q2 VERIFIED Tue Jul 14 = binary event not a buy-signal). V 52 / AMGN 52 / MS 52 / CB 50 / CVS 50 / VST 50 / PANW 35 unchanged. No NEW candidate. At 4/5 positions, weekly buys 0/3 — any bench name is a candidate-swap, none clears ≥70.
+
+**Sell candidates:** NONE. All 4 green, all theses intact (sev 3), all stops resting. Worst is JPM at +3.39% — nowhere near the −7% hard stop @ 306.62.
+
+**Standing-task check — JPM +5% → trailing conversion:** NOT triggered. Trigger $346.18 (+5% from 329.695588); mark 340.88 = +3.39%, ~+1.56% away — the closest it has been. No cancel/replace action this run; watch at midday/close and convert the instant it tags.
+
+**Risk checks (live open marks):**
+- (a) −7% drawdown: all 4 green, worst JPM +3.39% — none near −7%. No sells.
+- (b) +5% → trailing: LLY/GE/DE all ≥+5% and already on 10% trailing (floors ratcheted). JPM +3.39% correctly still on −7% hard stop; conversion at $346.18, not tagged.
+- (c) Daily loss cap: day +0.30%, positive. Not in play.
+
+**Decision & plan:** NO trades (nothing clears the gate; JPM conversion not yet triggered). HOLD all 4. Blocker remains the **data-verification wall, NOT the ≥70 bar** — disciplined move is to WAIT for the **Jul 14 bank/earnings wave** (JPM Q2 + GS Q2 both VERIFIED Tue Jul 14; GE ~Jul 16) rather than lower the gate or buy an unverifiable catalyst. Cash-drag note: ~43% cash, above the 10–20% target — redeploy stays PRIORITY #1, gated on verifiable data at Jul 14. Escalation watch: if verifiable data returns post-Jul-14 and STILL nothing qualifies while SPY keeps rising, raise the guardrail question to the user.
+
+**Actions taken:** none (HOLD all 4; 0 orders placed, 0 closed). Memory/portfolio/dashboard written; message prepended. No Telegram push (market-open scan, no trade — per CLAUDE.md push rules).
+
 ## 2026-07-07 06:00 CT (07:09 ET) — PRE-MARKET (Tue, market CLOSED pre-open; opens 09:30 ET)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:false`, timestamp 07:09 ET, next_open today 09:30 ET → research-only, NO trades. Inbox: **nothing pending.** Account (live Alpaca, pre-open indicative marks): equity **$104,246.10**, cash **$44,663.50** (~42.8%), long_market_value **$59,582.60** (~57.2%), last_equity field $103,686.56 (7/2). vs 7/6 official close ($103,964.95) pre-open drift ≈ +$281 (indicative only — session not open). buying_power $345,485.28, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3** (fresh week reset Mon 7/6).
