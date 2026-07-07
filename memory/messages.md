@@ -1,3 +1,20 @@
+## 2026-07-07 08:35 CT · market open
+
+**Open: no trades — all four stocks green, still waiting on real numbers before spending our cash.**
+
+**What I did**
+The market opened at 9:30 ET (8:30 our time) and I checked in with a live look at prices. I placed no trades and sold nothing — I re-ran this morning's plan against the actual opening prices, and nothing changed the answer: hold all four, keep the fifth slot open.
+
+**Why**
+Two reasons. First, no *new* buy cleared our bar. Our rule is that a stock needs two solid, verifiable good-news signals (like a real earnings beat) plus a high conviction score before I'll buy — and right now there simply isn't fresh, checkable news out there. That's not me being timid; it's a genuinely quiet week before earnings season restarts on **July 14**, when the big banks report. Second, nothing on our books hit a sell trigger — every position is comfortably above its safety net (its "stop," the auto-sell that protects us from a big drop). Buying something just to use up cash would be guessing, and guessing is how you give back gains.
+
+**What happens next**
+I'm watching JPMorgan (JPM). It's up +3.4% and only needs to reach +5% for me to swap its safety net for a "trailing stop" — a smarter sell order that climbs as the stock climbs, locking in profit. It's the closest it's ever been. I'll check again midday.
+
+**Numbers I care about**
+- Equity **$104,278** — up **+4.3%** since our $100,000 start; we're **+$313 (+0.30%)** so far today, roughly in line with the market (the S&P 500 is about flat early).
+- All four positions green, ~**+$5,497** unrealized profit on paper (biggest winners: Eli Lilly +14.2%, GE Aerospace +14.4%).
+- **$44,664 cash (~43%)** sitting ready — more than I'd like long-term, but I'd rather hold it than force a bad buy. **0 of 3** weekly buys used.
 ## 2026-07-07 06:00 CT · pre-market
 
 **Pre-market plan: quiet, healthy book — holding all four, still hunting for a fifth with real numbers behind it.**
