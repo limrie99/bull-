@@ -1,3 +1,29 @@
+## 2026-07-07 06:00 CT (07:09 ET) — PRE-MARKET (Tue, market CLOSED pre-open; opens 09:30 ET)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:false`, timestamp 07:09 ET, next_open today 09:30 ET → research-only, NO trades. Inbox: **nothing pending.** Account (live Alpaca, pre-open indicative marks): equity **$104,246.10**, cash **$44,663.50** (~42.8%), long_market_value **$59,582.60** (~57.2%), last_equity field $103,686.56 (7/2). vs 7/6 official close ($103,964.95) pre-open drift ≈ +$281 (indicative only — session not open). buying_power $345,485.28, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3** (fresh week reset Mon 7/6).
+
+**Pre-open indicative marks:** GE 376.40 (+14.19%, +$2,104.59) · LLY 1219.00 (+13.03%, +$1,967.56) · DE 635.28 (+7.71%, +$1,000.12) · JPM 341.25 (+3.51%, +$392.85). Net open unrealized ≈ **+$5,465.12**.
+
+**Open orders verified (status `new`, IDs unchanged):**
+- GE 10% trailing `b9dadf2d` floor 344.673 (mark 376.40, cushion ~8.4%)
+- LLY 10% trailing `6016a7e7` floor 1114.2 (above entry → locks profit; cushion ~8.6%)
+- DE 10% trailing `dcdd84e5` floor 575.073 (cushion ~9.5%)
+- JPM −7% hard stop `3e8fe4ea` @ 306.62 (entry 329.695588; conversion to trailing at $346.18 = +5%, mark 341.25 → ~+1.44% away, NOT triggered)
+
+**4-agent scan (macro / earnings / position / scout):**
+
+**Market context:** Macro bias NEUTRAL, mildly RISK-OFF, LOW confidence. ES ~−0.25% overnight [stale ~1am print, VERIFIED-ish]; NQ [UNVERIFIED]; Japan Nikkei −1.8% on 7/7 [VERIFIED] = the one solid, negative overnight read. Rates/FX/commodities (10Y, 2Y, DXY, oil, gold) ALL [UNVERIFIED] — do not build on any rate/FX assumption. **This week is LOW-CATALYST/data-light** [VERIFIED]: Tue 7/7 trade balance (minor), Wed 7/8 wholesale inventories (minor), Thu 7/9 jobless claims — **no CPI/PPI/PCE/FOMC** (CPI 7/14, PPI 7/15, FOMC 7/29 all outside the week). No verifiable market-moving macro headline isolable overnight.
+
+**Portfolio watch:** All 4 holdings severity 3, theses INTACT (verified via absence given retrieval limits). GE — no news in window; ex-div $0.47 hit 7/6 (routine, done); Q2 ~Jul 16. LLY — no news in window; prior-week flow all thesis-positive (7/1 oral GLP-1 orforglipron T2D data + EBGLYSS FDA dosing; 6/24 Centessa; CMS "Bridge" ~Jul 1). DE — confirmed off-cycle, next report fiscal Q3 ~mid-AUGUST, NOT July; quiet. JPM — no company news in window; Q2 confirmed Tue Jul 14 (~7am ET release / 8:30 call), **cost/expense guidance (~$105B 2026 opex) is the key debate into the print** (not a breaker, a watch item). Only near-term event risk = JPM Jul 14 + GE Jul 16.
+
+**Buy candidates:** **NOTHING clears 2 VERIFIED signals + Conviction ≥70 — 6th straight empty scan.** Scout confirmed ZERO verifiable fresh beat-and-raise (last ~5 sessions, ~Jun 30–Jul 3 — genuine between-quarters lull, not just a data gap), ZERO verifiable upgrade/insider buy, ZERO verifiable dated buy-catalyst; correctly declined to confabulate (prior runs caught fake BofA-on-V and fake JPM-on-DK upgrades). **GS holds 58** (top idea; Q2 earnings VERIFIED Tue Jul 14 = a binary timing event, NOT a favorable buy-signal; post-CCAR buyback/upgrade could-not-verify; uptrend unconfirmed — scout's conservative read was ~55, but no verified data moved it either way so hold 58 for continuity). **V 52 / AMGN 52 / MS 52 / CB 50 / CVS 50 / VST 50 / PANW 35** all unchanged (0 fresh verified signals each). No NEW candidate. **Sector rotation:** current 1-month read [UNVERIFIED] — Perplexity refused to guess; only stale/dated points (Reuters 7/2: S&P first monthly decline since March in June, still +14% Q2 / +9.5% H1; Schwab 4/20 trailing-6mo: Tech/Energy/Industrials/Materials leaders, Healthcare/Cons-Disc/Financials −2.7% laggards) → no clean, current rotation tailwind; financials-as-6mo-laggard is a mild, STALE yellow flag for the GS/MS/V/CB bench.
+
+**Sell candidates:** NONE. All 4 green, all theses intact, all stops resting. Worst is JPM at +3.51% — nowhere near the −7% stop.
+
+**Decision & plan:** No trades (market closed; and nothing clears the gate regardless). This is the 6th straight empty scan — the blocker remains the **data-verification wall, NOT the ≥70 bar**; the disciplined move is to WAIT for the **Jul 14 bank/earnings wave** (JPM Q2 + GS Q2 both VERIFIED Tue Jul 14; GE ~Jul 16), when dated beat/miss data finally exists, rather than lower the gate or buy an unverifiable catalyst. **Standing task — JPM +5% → trailing conversion:** the moment JPM tags **$346.18** (+5% from 329.695588), cancel −7% hard stop `3e8fe4ea` and place a 10% trailing GTC; mark 341.25 pre-open, ~+1.44% away — the closest it has been, watch at the open/midday. **Escalation watch:** if verifiable data returns post-Jul-14 and STILL nothing qualifies while SPY keeps rising, raise the guardrail question (is Conviction ≥70 too tight?) in a flagged user message. **Cash-drag note:** ~43% cash, above the 10–20% target buffer — redeploy stays PRIORITY #1, gated on verifiable data at Jul 14.
+
+**Actions taken:** none (research-only, market closed). Memory/watchlist/portfolio/dashboard written; message prepended. No Telegram push (pre-market scan, no trade — per CLAUDE.md push rules).
+
 ## 2026-07-06 12:00 CT (13:01 ET) — MIDDAY (Mon, market OPEN)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 13:01 ET, next_close today 16:00 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$103,754.63**, cash **$44,663.50** (~43.0%), long_market_value **$59,091.13** (~57.0%), last_equity **$103,686.56** (7/2 close) → **day +$68.07 / +0.07%** (turned slightly positive from the −0.10% open as GE recovered part of its ex-div drift). buying_power $344,109.16, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.**

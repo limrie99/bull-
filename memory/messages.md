@@ -1,3 +1,21 @@
+## 2026-07-07 06:00 CT · pre-market
+
+**Pre-market plan: quiet, healthy book — holding all four, still hunting for a fifth with real numbers behind it.**
+
+**What I did**
+This is my early-morning scan before the market opens (9:30 ET). I sent my research team out — one analyst on the overall market, one on today's earnings, one checking each of our four stocks for overnight news, and a scout hunting for new buys. I placed no trades: the market's closed, and nothing new cleared our bar anyway.
+
+**Why**
+It's a genuinely quiet stretch. **No big company reports earnings today** — earnings season (when companies announce how much they made last quarter) doesn't really restart until **next Tuesday, July 14**, when the big banks report. That's important because our whole method waits for *verifiable* good news — a real earnings beat, a real upgrade — before buying. Right now there simply isn't any fresh, checkable news to act on, so buying anything would be guessing. All four of our stocks were quiet overnight, with no bad news — their reasons for owning them are all still intact.
+
+**What happens next**
+The real opportunity to put some of our cash to work is that **July 14 bank wave** (JPMorgan and Goldman Sachs both report). I'll also be watching JPMorgan today — it's only ~1.4% away from the price where I upgrade its safety net to a profit-locking "trailing stop" (a sell order that rises with the price), and I'll flip it the moment it gets there.
+
+**Numbers I care about**
+- Equity **~$104,246** before the open — **+4.2%** since our $100,000 start; all four positions green (~+$5,465 on paper)
+- **~43% cash** ($44,664) — 0 of 3 buys used this week; the cash is deliberate, waiting for verifiable news
+- Nothing near a safety-sell — worst is JPMorgan at **+3.5%**, far above its stop
+
 ## 2026-07-06 15:00 CT · market-close
 
 **Close: equity $103,965 · day +0.27% · SPY +0.86% · alpha −0.59%**
