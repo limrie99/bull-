@@ -2783,3 +2783,38 @@ Week baseline Mon 6/1 = $99,840.95 (5/29 close). Current equity $100,454.11 → 
 - *Bench re-score for Monday 7/6 (refill slot 5):* **DATA WALL CONFIRMED — nothing clears 2 dated signals + Conviction ≥70.** No large-cap has a fresh (last-7-day), dated, verifiable catalyst in the 6/26→7/3 window (no earnings beat+raise, no dated analyst upgrade, no insider-buy filing). Ranked: **AMGN ~68** (top of bench, but last real news Apr 30 beat-and-raise is stale, next earnings est. ~Aug 4 = just outside 30d, model-based not IR-confirmed) · V ~58–62 (late-Jul print ~Jul 28 est., unconfirmed) · MS ~56–58 (rides same bank wave but adds financials concentration) · CVS/VST <60 (no dated catalyst). **The Jul 14 bank-earnings wave is genuinely the next real catalyst window** (only JPM's Tue Jul 14 date is IR-confirmed; GS/C/WFC/MS pattern-estimated for that week). Recommendation: HOLD slot 5 open through Jul 13–14, re-scan when dated beat/raise data lands. Forcing a buy now = inventing catalysts.
 
 **Strategy decision: ONE surgical change.** Graduated the **≤10% high-beta AI/semis starter SIZING cap from advisory/probation → STANDING RULE** (pre-committed 3rd-strike escalation from the 6/05 note; ETN was the 3rd high-beta shake-out — NVDA ×2, ETN — and its −$211 loss vs NVDA's −$849 is the proof smaller size limits damage). Honest nuance: ETN was a *trailing*-stop giveback on a matured position, not the identical NVDA fresh-entry *hard*-stop pattern, so only the mechanism-agnostic sizing half graduates; entry-timing guidance stays advisory. **No other changes** — deliberately did NOT touch the gate or cash level despite the −1.58 alpha (same book won +4.44 the week before; one sub-SPY week is noise). Cash-drag stays a "watch" with a sharpened forward trigger: escalate the gate/cash question to the user ONLY if the Jul 14 data wave still yields no qualifier while SPY keeps rising. **Data-integrity carry-forwards:** GE Jul 16 / JPM Jul 14 dates + JPM buyback/div figures unverified this pass (re-verify ~Jul 10); "Kevin Warsh as Fed Chair" framing still unconfirmed.
+
+## 2026-07-07 12:00 CT — MIDDAY routine (market OPEN)
+
+**Clock:** `is_open:true`, 13:02 ET, next_close 16:00 ET. **NO trades this run.**
+
+**Verified live vs Alpaca:** account (equity **$102,959.21**, cash **$44,663.50**, long_mv **$58,295.71**, last_equity $103,686.56 [balance_asof 7/2], buying_power 341,881.97, status ACTIVE, daytrade_count 0), all 4 positions, open orders (4 stops all RESTING `status:new`).
+
+**Day P/L:** equity $102,959.21 vs 7/6 official close $103,964.95 = **−$1,005.74 / −0.97%** (sum of per-position unrealized_intraday_pl = −$999.78 corroborates). **Daily loss cap (−3%) NOT triggered** → but midday has no new-buy mandate anyway.
+**SPY:** 749.06 (live trade) vs 751.27 (7/6 close) = **−0.29%**. Intraday alpha ≈ **−0.68 pts** (noisy; close routine owns the official scorecard). We're trailing today because our two industrials sold off (DE, GE) while ~43% cash sat idle.
+
+**Positions (from ENTRY / intraday):**
+| Sym | Qty | Entry | Mark | P/L% (entry) | Intraday% | Stop | Cushion→stop |
+|---|---|---|---|---|---|---|---|
+| LLY | 14 | 1078.46 | 1229.5725 | +14.01% | **+2.46%** | 10% TRAIL floor **1124.505** (RATCHETED UP today, hwm **1249.45**) | ~9.3% |
+| GE | 45 | 329.63 | 367.0725 | +11.36% | −3.07% | 10% TRAIL floor 344.673, hwm 382.97 | ~6.5% |
+| JPM | 34 | 329.695588 | 337.33 | +2.32% | −0.12% | −7% HARD 306.62 | far |
+| DE | 22 | 589.82 | 595.36 | **+0.94%** | **−6.28%** | 10% TRAIL floor 575.073, hwm 638.97 | ~3.5% |
+
+Net unrealized **≈ +$4,181.94** (LLY +2,115.58, GE +1,684.91, JPM +259.57, DE +121.88).
+
+**Risk checks (priority order):**
+- (a) **Down −7%+ from ENTRY:** NONE. Worst-from-entry is DE at +0.94%. No forced sell.
+- (b) **+5%+ profit still on −7% hard stop → convert:** JPM is the only hard-stop position, at **+2.32%** (trigger $346.18, needs +2.62% more) → NOT converted. LLY/GE/DE already on 10% trailing. **LLY's trailing floor auto-ratcheted UP today** to 1124.505 (order updated 13:50Z, new hwm 1249.45; memory had 1114.2/1238) — mechanical, locks more profit. No action.
+- (c) **Daily loss cap:** −0.97% intraday, under −3%. Not in play.
+
+**DE −6.28% intraday — INVESTIGATED, NOT a verified thesis-breaker (HOLD):**
+- Perplexity Q1 (generic "why is DE down") returned a narrative of "fiscal 2026 outlook below expectations, P&PA sales −5-10%, net income $4.00-4.75B vs $5.19B expected, low point of the large ag cycle, tariff margin pressure" and rated it a possible thesis-breaker. **This is CONFABULATION** — that language matches Deere's real-world 2024–25 ag-downturn guidance, surfaced as if current. Exactly the trap prior logs flagged (fake BofA-on-V, fake JPM-on-DK).
+- Perplexity Q2 (targeted verification): **NO DE-specific event dated July 6–7 2026** — no earnings call, no press release, no conference, no rating change. DE's Q2 was May 21; next event is the **fiscal Q3 call Aug 20 2026** (matches our memory's "off-cycle, mid-August"). Peers CAT/CNH/AGCO had normal, non-Deere-linked moves; broad market ~flat.
+- **Conclusion:** DE's −6.28% is an unexplained stock-specific move (likely profit-taking on a +42% YTD name / low-volume July drift) with **zero verifiable dated catalyst**. Thesis (RE-RATED UP: Q2 beat, FY26 guide raised, JPM PT $590; next report Aug 20) stays **INTACT sev 3**. Per strategy, do NOT sell on unverified/confabulated news; the 10% trailing stop (floor 575.073, ~3.5% cushion) is the discipline and will auto-exit at a small gain if this is the start of a real leg down. Watch at close.
+
+**New buys:** NONE. No high-conviction breaking catalyst at midday; watchlist top (GS 58) doesn't clear 2-signal + ≥70 gate; data-verification wall holds until the Jul 14 bank wave. 4/5 positions, 0/3 weekly buys.
+
+**Standing task — JPM +5%→trailing conversion:** NOT triggered (mark 337.33 = +2.32%, trigger $346.18). Pulled back from the open (was +3.39% at 09:32). Watch at close/tomorrow.
+
+**Next routine: market-close 7/7** — owns the mandatory daily "How we're doing" scorecard + Telegram. Re-check DE, JPM +5% trigger.

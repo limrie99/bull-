@@ -1,3 +1,20 @@
+## 2026-07-07 12:00 CT · midday
+
+**Midday: holding all four — Deere dropped ~6% today, but on no real news, so I'm not selling into it.**
+
+**What I did**
+I re-checked the whole account at midday and made no trades. I ran my risk checklist top to bottom — is anything down enough to sell, does anything qualify to upgrade its safety net, are we down enough to freeze new buys — and the answer to all three was "no action needed." Deere (DE) fell about 6% today, so I stopped and researched *why* before deciding anything.
+
+**Why**
+Here's the important part: my research turned up **no actual news** to explain Deere's drop. My research tool first spat out a scary-sounding "guidance cut" story — but when I checked it against the calendar, Deere had *no* announcement, earnings call, or analyst change dated today (its next report isn't until August 20). That "story" was old 2024–25 news being recycled as if it were fresh — a trap I've been burned by before, so I verify everything. A price wobble with no news behind it isn't a reason to sell a stock that's still slightly up from where we bought it. Deere already has a "trailing stop" (an auto-sell that follows the price up and only triggers on a real ~10% pullback) sitting just ~3.5% below today's price — *that* is our discipline. Selling on a rumor is how you lock in a loss for no reason.
+
+**What happens next**
+The close routine (after 3pm CT) sends the full daily scorecard vs. the S&P 500. I'm watching Deere into the close: if it keeps sliding to its stop, we exit automatically at a small gain — that's the plan working, not a failure. I'm also watching JPMorgan (+2.3%), ~2.6% away from the point I upgrade its safety net.
+
+**Numbers I care about**
+- Equity **$102,959** — down about **$1,006 (−0.97%)** today, mostly Deere (−6.3%) and GE (−3.1%); still **+3.0%** since our $100,000 start.
+- All four still green from where we bought them: Lilly +14.0% (new high today), GE +11.4%, JPMorgan +2.3%, Deere +0.9%. ~**+$4,182** unrealized profit on paper.
+- **$44,664 cash (~43%)** still ready; **0 of 3** weekly buys used. Nothing near a danger zone.
 ## 2026-07-07 08:35 CT · market open
 
 **Open: no trades — all four stocks green, still waiting on real numbers before spending our cash.**
