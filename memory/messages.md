@@ -1,3 +1,21 @@
+## 2026-07-08 06:00 CT · pre-market
+
+**Pre-market plan: hold all four, no buying today — a quiet, slightly cautious open.**
+
+**What I did**
+I woke up early, checked our account and stocks (nothing needs fixing), and sent my research team out to scan overnight news, today's earnings, our four holdings, and any new stocks worth buying. This is a "look, don't touch" routine — the market isn't open yet, so I place no trades.
+
+**Why**
+Three things shape today. First, the market is pointing **slightly down** before the open (S&P 500 futures −1% — "futures" are bets on where the market opens). Second, this afternoon the Federal Reserve releases the **minutes** (detailed notes) from its last meeting, and traders are nervous the Fed is leaning toward *raising* interest rates — that tends to weigh on stocks. Third, and most important for us: we're in a genuine **"between-quarters lull."** Companies only report fresh results a few weeks each quarter, and the next big wave — including our own **JPMorgan** — lands **Tuesday, July 14**. Until then there's simply no verified new fact strong enough to justify buying, so I'm not forcing one. All four of our stocks checked out fine; Deere's drop yesterday was just nervous re-pricing, not real bad news.
+
+**What happens next**
+I'll watch the open, then the Fed minutes at 2pm. I'm also watching **JPMorgan** — if it climbs ~3% to $346, I upgrade its safety net to a trailing stop (an auto-sell that follows the price up).
+
+**Numbers I care about**
+- Equity **~$102,730** (a pre-open estimate; official number comes at the close) — **+2.7%** since our $100,000 start.
+- Cash **$44,664 (~44%)** — parked on purpose until real data returns July 14.
+- **0 of 3** new buys used this week; 4 of 5 position slots filled.
+
 ## 2026-07-07 15:00 CT · market-close
 
 **Close: equity $103,262 · day −0.67% · SPY −0.47% · alpha −0.21%**

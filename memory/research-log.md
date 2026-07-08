@@ -1,3 +1,35 @@
+## 2026-07-08 06:00 CT (07:09 ET) — PRE-MARKET (Wed, market CLOSED pre-open; opens 09:30 ET)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:false`, timestamp 07:09 ET, next_open today 09:30 ET → research-only, NO trades. Inbox: **nothing pending.** Account (live Alpaca, pre-market indicative marks): equity **$102,730.06**, cash **$44,663.50** (~43.5%), long_market_value ~$58,066.56 (~56.5%), last_equity (7/7 close) $103,288.34, buying_power $341,240.37, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** (Equity is a pre-market indicative mark — GE quoting 359 vs 366.98 close, LLY 1229.76, JPM 335.75, DE 603.61 — softer with the ES −1% tape; the close routine owns the official daily scorecard.)
+
+**Full 4-agent scan (macro / earnings / position / scout). NOTHING clears 2 VERIFIED signals + Conviction ≥70 — 7th straight empty scan.** Consistent with the genuine between-quarters lull (Q2 large-cap season doesn't start until the Jul 14 bank wave). Scout correctly declined to confabulate.
+
+### Market context
+- **Macro: MILDLY RISK-OFF, LOW-MED conf.** The one hard live read: **ES ~7,477, −0.98% pre-open [VERIFIED, CME 05:00 CT]**. NQ, Asia (Nikkei/HSI/KOSPI), Europe, rates/DXY/gold all **[UNVERIFIED/STALE]** — retrieval wall, agent declined to guess.
+- **Today's marquee event: FOMC MINUTES 2pm ET** (Warsh Fed's first meeting; described as a close hike-vs-hold call — hawkish backdrop, hawkish read pressures stocks). [VERIFIED schedule]
+- **Iran/energy:** US canceled an Iranian-oil license + reports of a Strait-of-Hormuz ship attack → crude firmer [VERIFIED as Jul 7 headline; live price UNVERIFIED].
+- **SpaceX fast-tracked into the Nasdaq-100** → est. $4.3–10B forced passive buying into a thin float; may whip QQQ/NQ/large-cap tech early — treat early tech quotes with caution. [VERIFIED Jul 7]
+- **Data:** June jobs (out 7/7) soft-but-stable +57k, U/E 4.2% [VERIFIED]; Q1 GDP revised UP to 2.1% [VERIFIED]. Week is DATA-LIGHT — FOMC minutes today, June existing-home-sales Thu 7/9; **CPI Jul 14, FOMC Jul 29 both OUTSIDE this week.**
+- **Earnings: NONE large-cap today [VERIFIED]** (calendars: "no noteworthy"). This week only **PEP Thu 7/9** (cons EPS ~$2.19) + **DAL Fri 7/10** (cons EPS ~$1.49) — neither ours. **Bank wave Tue Jul 14 [VERIFIED]: JPM, GS, BAC, C, WFC (all BMO); GE ~Jul 16 [UNVERIFIED].**
+
+### Portfolio watch — all 4 INTACT (LLY/GE/JPM sev 1, DE sev 2)
+- **LLY** — INTACT sev 1. No fresh dated 7/6–8 catalyst; latest GLP-1 news (orforglipron/retatrutide) is early-June, not this window. CMS Medicare GLP-1 ~$50/mo coverage is LIVE (tailwind in effect, not new). Mark 1229.76 (+14.03%). Trailing floor 1124.505, cushion ~9.4%.
+- **GE** — INTACT sev 1. Quiet; ex-div $0.47 hit 7/6 (mechanical, done). Q2 ~Jul 16. Mark 359 pre-mkt (+8.91%). Trailing floor 344.673, cushion ~4.0% at the soft pre-mkt mark (~6.1% off the 366.98 close).
+- **JPM** — INTACT sev 1. $50B buyback eff Jul 1 + Q3 div hike intact; Q2 **VERIFIED Tue Jul 14 ~7am ET.** Mark 335.75 (+1.84%). −7% hard stop @ 306.62; **+5%→trailing conversion trigger $346.18, ~3.1% away** (softer than 7/7 as JPM eased pre-mkt).
+- **DE** — INTACT but WATCH, sev 2. The 7/7 −4.98% slide had **NO fresh dated catalyst — CONFABULATION CHECK PASSED**: no 7/6–7 downgrade, no guidance cut, no USDA/farm-income print. Framed by MarketBeat + Morningstar/DJ (both dated 7/7) as investors "revisiting" existing large-ag weakness + valuation — a re-pricing, not new information. The negative themes (farmer sentiment, used-equipment overhang) are STALE 2024–25/early-2026 narratives, NOT current news. Off-cycle → fiscal Q3 ~mid-AUGUST, not July. Mark 603.61 (+2.34%). Trailing floor 575.073, cushion ~4.7%. Governed by the trailing stop; no reason to act on a confabulated narrative.
+
+### Buy candidates — NONE clear the gate
+- **NO new large-cap** with a July-2026-VERIFIED beat-and-raise, dated upgrade, or insider buy for Jun 24–Jul 8. Expected in the lull — not a failure.
+- **GS ~58 (unchanged, top idea):** now carries **2 VERIFIED signals** — #2 Q2 earnings **Tue Jul 14 [VERIFIED]** and #6 uptrend (~$1,021, near record highs, not at lows) [VERIFIED]. BUT Conviction ~58 < 70 → **does NOT buy** (both conditions required; 2 signals with sub-70 conviction = watchlist only per strategy). Also: earnings is a coin-flip, not an edge — do NOT pre-position into the print; reassess Jul 14 after the report.
+- **V/AMGN/MS 52 · CB/CVS/VST 50 · PANW 35** — unchanged, 0 fresh verified signals each. Sector rotation UNVERIFIED (no dated flow data) → no rotation signal to lean on for anyone.
+
+### Sell candidates — NONE
+- No thesis-breaker on any holding. All 4 stops RESTING (`status:new`, IDs unchanged): LLY/GE/DE on 10% trailing, JPM on −7% hard stop. Discipline holds; nothing to sell.
+
+**Cash-drag note:** ~43.5% cash, 7th empty scan — blocker is the data-verification wall, NOT the ≥70 bar. Disciplined move = WAIT for the **Jul 14 bank/earnings wave** when verifiable data returns, rather than lower the gate or buy an unverifiable catalyst. If nothing qualifies post-Jul-14 while SPY keeps rising, escalate the guardrail question to the user. **Standing task: JPM +5%→trailing conversion at $346.18** (cancel hard stop `3e8fe4ea`, place 10% trailing GTC) — watch at open/midday.
+
+---
+
 ## 2026-07-07 08:35 CT (09:32 ET) — MARKET-OPEN (Tue, market OPEN)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 09:31:43 ET, next_close today 16:00 ET → live session, trades possible. Inbox: **nothing pending.** Account (live Alpaca): equity **$104,278.13**, cash **$44,663.50** (~42.8%), long_market_value **$59,614.63** (~57.2%), last_equity $103,686.56 (7/2 close). vs 7/6 official close ($103,964.95) → day P/L ≈ **+$313 / +0.30%** (early session). buying_power $345,574.96, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.**
