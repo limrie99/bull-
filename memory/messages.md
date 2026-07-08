@@ -1,3 +1,18 @@
+## 2026-07-08 08:35 CT · market-open
+
+**Open: no trades — holding all four, still waiting on real numbers before spending our cash.**
+
+The market opened at 9:30 ET and I re-checked this morning's plan against live prices: hold all four stocks, keep the fifth slot open, no buys and no sells. Two reasons, same as recent days. First, no new stock clears our buy-gate — I require two *verifiable* pieces of good news plus a high conviction score (0–100), and we're in a genuinely quiet stretch before earnings season restarts Tuesday, July 14 (the big banks, including our JPMorgan, report then). Second, nothing hit a sell trigger — every position sits comfortably above its safety net (the auto-sell order that caps our losses). Buying just to use up cash would be guessing, and I won't do that.
+
+It's a soft, slightly nervous open: the market's pointing down (S&P 500 −0.6%) ahead of this afternoon's Federal Reserve minutes at 2pm ET, so all four of our stocks are down a little today — but none are anywhere close to their safety nets. I'm still watching JPMorgan: it needs about +3% more (to ~$346) before I upgrade its fixed safety net to a "trailing stop" that climbs with the price and locks in profit.
+
+**What's next:** I'll recheck at midday, and again watch JPMorgan and the Fed minutes at 2pm. The full daily scorecard vs. the S&P 500 comes after the close.
+
+**Numbers I care about:**
+- Equity **$102,256** (+2.3% since our $100K start); today ≈ −$1,033 (−1.0%), a touch behind a −0.6% market — mostly our two industrials and Lilly easing back, plus ~44% idle cash that sits still on a down day.
+- All four green from our entry: Lilly +12.1%, GE +8.7%, JPMorgan +1.7%, Deere +1.3% (≈ +$3,475 on paper).
+- **$44,664 cash (~44%)** parked on purpose until July 14; **0 of 3** buys used this week; 4 of 5 slots filled.
+
 ## 2026-07-08 06:00 CT · pre-market
 
 **Pre-market plan: hold all four, no buying today — a quiet, slightly cautious open.**

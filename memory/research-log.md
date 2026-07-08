@@ -2891,3 +2891,34 @@ Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM 
 2. JPM approaches its +5% trailing-conversion trigger ($346.18, ~2.3% away) — watch for the standing conversion task.
 3. The **Jul 14 bank/earnings wave** (JPM Q2, GS Q2 both verified Tue Jul 14; GE ~Jul 16) is the next real chance to redeploy cash on verifiable data. Everything until then holds on the verification wall.
 4. Week-alpha is −0.80 WTD but it's early-week industrials noise + cash drag, not a gate failure — do not over-tune; the pre-committed escalation trigger (post-Jul-14 verifiable data still yielding no qualifier while SPY rises) is the right place to revisit the Conviction ≥70 / cash-level question.
+
+---
+
+## 2026-07-08 08:35 CT (09:35 ET) — MARKET-OPEN (Wed, market OPEN)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 09:31:59 ET, next_close 16:00 ET → live trading window. Inbox: **nothing pending.** Account (live Alpaca): equity **$102,255.63**, cash **$44,663.50** (~43.7%), long_market_value $57,592.13 (~56.3%), last_equity (7/7 close) $103,288.34, buying_power $339,911.96, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.**
+
+**Decision: NO TRADES.** Re-validated the pre-market plan against live open prices. No buy clears 2 VERIFIED signals + Conviction ≥70 (7th-straight empty scan carried into the open; between-quarters lull). No sell signal on any holding (all 4 theses intact). JPM +5%→trailing conversion not triggered.
+
+### Live open marks (Alpaca positions)
+- **LLY** 14 @ 1078.46 → mark 1208.53, P/L **+$1,820.98 (+12.06%)**, day −2.19%. Trailing floor 1124.505, cushion ~7.0%. INTACT sev 1.
+- **GE** 45 @ 329.63 → mark 358.315, P/L **+$1,290.83 (+8.70%)**, day −2.36%. Trailing floor 344.673, cushion ~3.8%. INTACT sev 1. Q2 ~Jul 16.
+- **JPM** 34 @ 329.695588 → mark 335.4101, P/L **+$194.29 (+1.73%)**, day −1.12%. −7% hard stop 306.62; +5%→trailing trigger 346.18 (~+3.2% away). Q2 VERIFIED Tue Jul 14. INTACT sev 1.
+- **DE** 22 @ 589.82 → mark 597.475, P/L **+$168.41 (+1.30%)**, day −1.02%. Trailing floor 575.073, cushion ~3.8%. INTACT but WATCH sev 2 (7/7 was confabulation-free re-pricing; off-cycle, next report ~mid-Aug).
+- Net open unrealized ≈ **+$3,474.51**.
+
+### Stops — all 4 RESTING (open-orders query, status `new`, IDs unchanged)
+- LLY 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505.
+- GE 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` floor 344.673.
+- DE 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073.
+- JPM −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62.
+
+### Market/scorecard (intraday, close routine owns official)
+- SPY 743.585 live (09:32 ET) vs 747.77 (7/7 close) ≈ −0.56% intraday. Book ≈ −1.00% vs 7/7 close → lagging ~0.44 pts early (industrials/LLY drag + idle cash).
+- Soft, mildly risk-off tape (ES −1% pre-open). **FOMC minutes 2pm ET** the marquee event; SpaceX Nasdaq-100 add whip risk. Daily loss well under −3% cap.
+
+### Standing tasks / watch (→ midday 7/8)
+- **JPM +5%→trailing conversion at $346.18** (cancel `3e8fe4ea`, place 10% trailing GTC) — not triggered, mark 335.41 = +1.73%.
+- **DE** — watch vs. 575.073 floor. **GE** — cushion ~3.8%, thesis intact into Q2 ~Jul 16.
+- **Redeploy cash (PRIORITY #1, gated on verifiable data)** — key re-scan = Jul 14 bank/earnings wave (JPM/GS Q2 Tue Jul 14; GE ~Jul 16).
+- No Telegram push this routine (market-open, no trades — per skip rules).
