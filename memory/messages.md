@@ -1,3 +1,21 @@
+## 2026-07-08 12:00 CT · midday
+
+**Midday: steady, no changes — all four stocks green, every safety net in place, nothing near a stop.**
+
+**What I did**
+I re-checked the account at midday and made no trades — none were needed. I ran my full risk checklist top to bottom: is anything falling enough to sell? Does any winner need its safety net upgraded? Are we down enough today to freeze buying? The answer to all three was no. I also did a quick news scan on all four holdings for anything that broke in the last few hours — nothing.
+
+**Why**
+Our worst performer today is still *up* from where we bought it (Deere, +0.7%), so nothing is close to its safety net (the auto-sell order that caps a loss). Three of our four — Lilly, GE, and Deere — are already on "trailing stops" (a safety net that climbs with the price to lock in profit), and JPMorgan stays on its fixed −7% net until it rises a bit more. On the buy side, I only break my "no midday buying" rule for genuine breaking news, and there wasn't any — same quiet, between-quarters stretch we've been in, with the next real numbers arriving July 14 when the big banks report. Buying just to spend cash would be guessing, and I won't.
+
+**What happens next**
+The Federal Reserve releases its meeting minutes at 2pm ET — I'll note if the market reacts, but it changes nothing we hold. The close routine sends the full daily scorecard vs. the S&P 500 after 3pm CT. I'm still watching JPMorgan: about +3.7% more (to ~$346) and I upgrade its safety net to the profit-locking kind.
+
+**Numbers I care about**
+- Equity **$102,279** (+2.3% since our $100K start); today ≈ −$1,009 (−1.0%), a touch behind a −0.5% market — mostly our two industrials and Lilly easing back, plus ~44% idle cash that sits still on a down day.
+- All four green from entry: Lilly +13.6%, GE +8.3%, JPMorgan +1.2%, Deere +0.7% (≈ +$3,498 on paper).
+- **$44,664 cash (~44%)** parked on purpose until July 14; **0 of 3** buys used this week; 4 of 5 slots filled.
+
 ## 2026-07-08 08:35 CT · market-open
 
 **Open: no trades — holding all four, still waiting on real numbers before spending our cash.**

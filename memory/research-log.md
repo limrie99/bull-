@@ -2922,3 +2922,44 @@ Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM 
 - **DE** — watch vs. 575.073 floor. **GE** — cushion ~3.8%, thesis intact into Q2 ~Jul 16.
 - **Redeploy cash (PRIORITY #1, gated on verifiable data)** — key re-scan = Jul 14 bank/earnings wave (JPM/GS Q2 Tue Jul 14; GE ~Jul 16).
 - No Telegram push this routine (market-open, no trades — per skip rules).
+
+---
+
+## 2026-07-08 12:00 CT (13:02 ET) — MIDDAY (Wed, market OPEN)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 13:01:53 ET, next_close 16:00 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$102,279.29**, cash **$44,663.50** (~43.7%), long_market_value $57,615.79 (~56.3%), last_equity (7/7 close) $103,288.34, buying_power $339,978.21, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.**
+
+**Decision: NO TRADES.** Full risk checklist clean; no breaking buy catalyst. Steady midday.
+
+### Risk checklist (priority order per routine)
+- **(a) Any position ≤ −7%?** NO. Live P/L: LLY +13.55%, GE +8.31%, JPM +1.22%, DE +0.65% — all green. No Perplexity news-check required (only mandated for a −7% name).
+- **(b) Any position ≥ +5% still on a −7% hard stop (needs conversion)?** NO. LLY/GE/DE already on 10% trailing stops; JPM (+1.22%) is the only hard-stop name and is not yet at +5% (trigger $346.18, ~+3.7% away). No conversion executed.
+- **(c) Daily loss cap:** day move −$1,009.05 / −0.98% vs 7/7 close — well under the −3% cap. (No new buys planned regardless.)
+
+### Breaking-catalyst check (Perplexity sonar-pro, last 4 hrs, all 4 holdings)
+- **LLY / GE / JPM / DE → NONE.** No dated downgrade, guidance cut, litigation, or exec departure timestamped to 7/8. Only near-window item: incremental Morgan Stanley PT reiteration on LLY (~$1,347, Buy maintained) = a reiteration, NOT a buy-signal, no action. All 4 theses INTACT.
+- (First sonar-pro call format error `model:sonnet` → corrected to `sonar-pro` per scripts/perplexity.md; second call succeeded.)
+
+### Live midday marks (Alpaca positions)
+- **LLY** 14 @ 1078.46 → mark 1224.54, P/L **+$2,045.12 (+13.55%)**. Trailing floor 1124.505, hwm 1249.45 (below hwm, no ratchet), cushion ~8.2%. INTACT sev 1.
+- **GE** 45 @ 329.63 → mark 357.03, P/L **+$1,233.00 (+8.31%)**. Trailing floor 344.673, cushion ~3.5%. INTACT sev 1. Q2 ~Jul 16.
+- **JPM** 34 @ 329.695588 → mark 333.70, P/L **+$136.15 (+1.22%)**. −7% hard stop 306.62; +5%→trailing trigger 346.18 (~+3.7% away). Q2 VERIFIED Tue Jul 14. INTACT sev 1.
+- **DE** 22 @ 589.82 → mark 593.64, P/L **+$84.04 (+0.65%)**. Trailing floor 575.073, cushion ~3.1%. INTACT but WATCH sev 2 (off-cycle, next report ~mid-Aug).
+- Net open unrealized ≈ **+$3,498.31**.
+
+### Stops — all 4 RESTING (open-orders query, status `new`, IDs unchanged)
+- LLY 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505.
+- GE 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` floor 344.673.
+- DE 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073.
+- JPM −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62.
+
+### Market/scorecard (intraday, close routine owns official)
+- SPY 744.135 live (13:02 ET) vs 747.77 (7/7 close) ≈ −0.49% intraday. Book ≈ −0.98% vs 7/7 close → lagging ~0.49 pts (industrials/LLY drag + ~44% idle cash).
+- WTD (baseline 7/2 close $103,686.56 / SPY 744.86): port ≈ −1.36% vs SPY ≈ −0.10% → week alpha ≈ −1.26 pts.
+- Soft, mildly risk-off tape; **FOMC minutes 2pm ET still ahead** (marquee event). Daily loss well under −3% cap.
+
+### Standing tasks / watch (→ market-close 7/8)
+- **Close routine: mandatory daily "How we're doing" scorecard + Telegram push** (vs SPY), non-negotiable even on a no-trade day.
+- **JPM +5%→trailing conversion at $346.18** (cancel `3e8fe4ea`, place 10% trailing GTC) — not triggered, mark 333.70 = +1.22%.
+- **Redeploy cash (PRIORITY #1, gated on verifiable data)** — key re-scan = Jul 14 bank/earnings wave.
+- No Telegram push this routine (midday, no trades — per skip rules).
