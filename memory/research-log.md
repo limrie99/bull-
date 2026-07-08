@@ -1,3 +1,30 @@
+## 2026-07-08 15:00 CT (16:01 ET) — MARKET-CLOSE (Wed, market CLOSED; next_open 7/9 09:30 ET)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:false`, timestamp 16:01 ET. Inbox: **nothing pending.** Account (live Alpaca, official close): equity **$102,116.45**, cash **$44,663.50** (~43.7%), long_market_value **$57,452.95** (~56.3%), last_equity (7/7 close) $103,288.34, buying_power $339,522.25, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. NO trades today.**
+
+**Closed orders today:** NONE (`GET /v2/orders?status=closed&after=2026-07-08` → empty). No stop fired. Open orders re-verified: all 4 stops `status:new`, IDs unchanged (LLY `6016a7e7`, GE `b9dadf2d`, DE `dcdd84e5` on 10% trailing; JPM `3e8fe4ea` −7% hard @ 306.62).
+
+### Closing marks (official 16:01 ET)
+- LLY 14 @ 1078.46 → 1215.83 (+$1,923.18 / +12.74%), mv 17,021.62. Intraday −1.60%.
+- GE 45 @ 329.63 → 356.9326 (+$1,228.62 / +8.28%), mv 16,061.97. Intraday −2.74%.
+- JPM 34 @ 329.695588 → 330.62 (+$31.43 / +0.28%), mv 11,241.08. Intraday −2.54%.
+- DE 22 @ 589.82 → 596.74 (+$152.24 / +1.17%), mv 13,128.28. Intraday −1.14%.
+- Net open unrealized ≈ **+$3,335.47**.
+
+### GE "guidance cut" confabulation — CHECKED, CLEARED
+First-pass Perplexity breaking-news sweep returned: *"GE Aerospace: guidance slowdown for 2026 due to tempered growth + fuel cost risks, shares down ~6%."* Two red flags forced a verify: (1) GE reports Q2 ~Jul 16 — no official guidance vehicle exists on 7/8; (2) our GE fell −2.74%, not ~6%. Targeted verification query confirmed: **GE did NOT cut 2026 financial guidance on/around 7/8.** Full-year guide MAINTAINED (adj EPS $7.10–7.40, op profit $9.85–10.25B, FCF $8.0–8.4B), last confirmed Apr 21 Q1 release. GE only trimmed an operational *global-departures outlook* (mid-single-digit → flat-to-low-single-digit) citing macro/Middle-East — explicitly "holding full year guidance across the board." The ~6% and "guidance cut" framing were a confabulation blending the departures-outlook trim with the day's macro move. **GE thesis INTACT sev 1.** Another catch for the confabulation-discipline log (cf. the 7/7 DE "guidance cut" false alarm).
+
+### Day summary
+- **Closing equity: $102,116.45.** Day P/L **−$1,171.89 / −1.13%** vs 7/7 close $103,288.34 (from Alpaca `last_equity`; portfolio-history base 7/2 = $103,686.56).
+- **SPY day: −0.33%** (7/7 close 747.77 → 7/8 close 745.28, Alpaca daily bars). **Alpha today ≈ −0.80 pts.**
+- **Week-to-date (baseline 7/2 close port $103,686.56 / SPY 744.86):** port **−1.51%** vs SPY **+0.06%** → **week alpha ≈ −1.57 pts.** Since inception **+2.12%.**
+- **Trades placed today:** 0 (0 buys, 0 sells; no stop fired).
+- **What worked:** (1) Risk discipline held — nothing near a stop, no forced action on a down day. (2) LLY (+12.74%) and GE (+8.28%) cushions kept the book well clear of every trailing floor despite the risk-off tape. (3) Caught and killed the GE "guidance cut" confabulation before it could contaminate the thesis or trigger a panic sell.
+- **What didn't:** (1) Higher-beta industrials/financials (GE −2.74%, JPM −2.54%) fell more than SPY (−0.33%), driving the −0.80 alpha day. (2) ~44% idle cash provides no cushion on a down day and no lift on an up day — the persistent WTD alpha drag. (3) Week is now −1.57 alpha; the cash-deployment blocker (data-verification wall) remains unresolved until the Jul 14 wave.
+- **Open questions for tomorrow (7/9):** (a) Does the FOMC-minutes reaction extend or was 7/8 a one-day flush? (b) GE cushion thinnest at ~3.4% to floor — watch for follow-through weakness vs. a bounce. (c) June existing-home-sales Thu 7/9 (minor). (d) JPM +5% conversion trigger $346.18 now ~4.7% away after the pullback — no urgency. (e) Nothing new clears the buy-gate; hold the line to the Jul 14 bank wave rather than lower the bar.
+
+---
+
 ## 2026-07-08 06:00 CT (07:09 ET) — PRE-MARKET (Wed, market CLOSED pre-open; opens 09:30 ET)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:false`, timestamp 07:09 ET, next_open today 09:30 ET → research-only, NO trades. Inbox: **nothing pending.** Account (live Alpaca, pre-market indicative marks): equity **$102,730.06**, cash **$44,663.50** (~43.5%), long_market_value ~$58,066.56 (~56.5%), last_equity (7/7 close) $103,288.34, buying_power $341,240.37, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** (Equity is a pre-market indicative mark — GE quoting 359 vs 366.98 close, LLY 1229.76, JPM 335.75, DE 603.61 — softer with the ES −1% tape; the close routine owns the official daily scorecard.)
