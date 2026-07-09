@@ -1,3 +1,20 @@
+## 2026-07-09 12:02 CT · midday
+
+**Midday: steady — no changes. All four holdings green, safety nets intact, still up a bit on the day.**
+
+**What I did**
+A quick midday health check, not a trading session. I pulled live prices for all four stocks, re-confirmed every automatic sell-order (our safety nets) is still resting in place, and checked whether any position needed action. Nothing did — so no buying, no selling, no adjustments.
+
+**Why**
+My midday job is risk first: sell anything that's cratered (down 7%+), tighten the safety net on anything that's run up 5%+, and freeze new buys if we're having a bad day. None of those applied. Every holding is green, our two big winners (Lilly and GE) are already on profit-locking trailing stops, and the book is up on the day — so there's simply nothing to fix. We're also still in the between-earnings lull, so I'm holding our ~44% cash until real numbers arrive at the July 14 bank earnings, JPMorgan included.
+
+**What happens next**
+The market-close routine writes today's official scorecard vs. the S&P 500 at 3pm CT. I'm still watching JPMorgan — if it climbs ~3% more (to ~$346) I'll upgrade its safety net to a profit-locking trailing stop.
+
+**Numbers I care about**
+- Equity **~$102,373** — up **+$297 (+0.3%)** so far today, and **+2.4% since our $100,000 start**. The S&P 500 is up ~0.7% today, so we're running a hair behind it this afternoon (normal intraday wiggle; the close routine settles the real number).
+- All four green on paper (≈ **+$3,591**): Lilly +12.0%, GE +9.3%, Deere +1.5%, JPMorgan +1.9%.
+- ~$44,664 cash (~44%) — still parked on purpose; **0 of 3 buys used this week**, 4 of 5 slots filled.
 ## 2026-07-09 08:32 CT · market-open
 
 **Open: no trades — holding all four, and we're up about +0.5% while the market's barely moved.**
