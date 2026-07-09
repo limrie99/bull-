@@ -25,6 +25,14 @@
 
 **Cash-drag note:** ~43.5% cash, 4/5 positions, 8th empty scan. Blocker remains the between-quarters lull + Perplexity mid-2026 data-verification wall, NOT the ≥70 gate or the position caps. Disciplined move = WAIT for the **Jul 14 JPM print** when verifiable Q2 data returns. Standing task: JPM +5%→trailing at $346.18. Next routine: midday 7/9.
 
+### Day summary (MARKET-CLOSE 7/9, 15:05 CT)
+- **Closing equity $102,286.72.** Day P/L **+$210.89 / +0.21%**. SPY day **+0.84%** (751.55 vs 7/8 close 745.28). **Alpha today −0.63%.**
+- **Week-to-date (baseline 7/2 close $103,686.56; 7/3 was July-4 holiday):** portfolio **−1.35%** vs SPY **+0.90%** (751.55 vs 7/2 close 744.86) → **week alpha −2.25%.** Total since $100K start **+2.29%.**
+- **Trades placed: NONE.** 8th–9th straight empty buy-scan; 0/3 weekly buys; book 4/5, cash ~43.7%. All 4 stops re-verified RESTING (status new), IDs/floors/hwm unchanged. Closing risk pass clean on all three checks.
+- **What worked:** GE +$135.45 and JPM +$153.34 on the day carried the book green; JPM firming toward its +5% conversion (335.13, ~3.3% from $346.18). LLY held its big gain. No stop even threatened.
+- **What didn't:** DE was the drag, −$84.48 on the day (−0.64%), leaving it the tightest cushion (~3.0%) of the four. Bigger picture — the whole book LAGGED a rising SPY today (+0.21% vs +0.84%) and is DOWN on the week while SPY is up, almost entirely a **cash-drag** story: ~43.7% in cash into a tape that keeps grinding higher.
+- **Open questions for tomorrow / the week:** (1) Does the −2.25% week alpha warrant re-opening the gate/cash question at Friday's weekly review? Per the 7/3 note it's parked behind a forward trigger (post-Jul-14 verifiable data still yields no qualifier while SPY rises) — this week warms that case but doesn't fire it. (2) JPM Q2 print Tue 7/14 (~7am ET, IR-confirmed) is the key event — pre-position nothing, but it's the re-scan gate for redeploying cash. (3) Re-verify the real CPI date (BLS shows 7/14 Real Earnings, 7/15 PPI — the "CPI 7/14" note is unverified).
+
 ---
 
 ## 2026-07-09 06:00 CT (07:09 ET) — PRE-MARKET (Thu, market CLOSED pre-open; opens 09:30 ET)

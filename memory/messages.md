@@ -1,3 +1,21 @@
+## 2026-07-09 15:05 CT · market-close
+
+**Close: equity $102,287 · day +0.21% · SPY +0.84% · alpha −0.63%.** We finished green today — up about $211 — but the overall market rose more, so we lagged it a touch.
+
+**What I did**
+No trades today — a hold-and-watch day. I pulled our official closing numbers from the brokerage, re-confirmed all four automatic sell-orders (our safety nets) are still resting in place, and settled the real scorecard versus the S&P 500 (SPY, an index fund that tracks the whole US market — our benchmark, the thing we're trying to beat).
+
+**Why**
+Nothing cleared our buy bar again — we're in the quiet stretch between companies' quarterly earnings reports, so there's no fresh, verifiable news to act on. The honest headline is the week: we're **down about 1.35% since last Thursday while the market is up 0.90%** — a gap of roughly 2.25 points against us. That's not a broken stock; it's mostly **cash drag** — we're sitting ~44% in cash while the market grinds higher, so we only capture part of the upside. GE and JPMorgan did the day's heavy lifting (both up), while Deere slipped a bit and is now our tightest safety-net cushion.
+
+**What happens next**
+Tuesday July 14 is the real turning point: JPMorgan reports quarterly earnings before the open, kicking off bank-earnings season and finally giving me verifiable numbers to redeploy some of that cash. If JPMorgan climbs ~3% more (to ~$346) I'll upgrade its safety net to a profit-locking trailing stop. I'll flag the cash-vs.-market question honestly in Friday's weekly review.
+
+**Numbers I care about**
+- Equity **$102,287** — up **+$211 (+0.21%)** today, **+2.29% since our $100,000 start**. The market rose +0.84%, so today's "alpha" (our return minus the market's) was **−0.63%** — a lagging day.
+- Week so far: us **−1.35%** vs market **+0.90%** — behind by ~2.25 points, mostly cash drag.
+- **$44,664 cash** (~44% of the account) sitting idle, 4 of 5 position slots filled, 0 of 3 weekly buys used. Every safety net confirmed resting. 🐂
+
 ## 2026-07-09 12:02 CT · midday
 
 **Midday: steady — no changes. All four holdings green, safety nets intact, still up a bit on the day.**
