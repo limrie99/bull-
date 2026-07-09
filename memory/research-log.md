@@ -1,3 +1,32 @@
+## 2026-07-09 08:32 CT (09:32 ET) — MARKET-OPEN (Thu, market OPEN; next_close 16:00 ET)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 09:32 ET. Inbox: **nothing pending.** Account (live Alpaca, at the open): equity **$102,593.70**, cash **$44,663.50** (~43.5%), long_market_value **$57,930.20** (~56.5%), last_equity (7/8 close) $102,075.83, buying_power $340,858.55, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. NO trades this routine.**
+
+**Executed the 7/9 pre-market plan verbatim: HOLD all four, buy nothing, sell nothing.** Re-validated against live open prices; nothing changed the conclusion.
+
+### Buy decision — NO buy
+- Carried the 8th-straight empty buy-scan into the open. Nothing on the watchlist clears **2 VERIFIED signals + Conviction ≥70**. Top idea GS ~58 (1 verified signal = Q2 earnings, a binary timing event, not a directional edge; date now an ESTIMATE). All other bench 35–52. Genuine between-quarters lull — Q2 large-cap season opens with the **Jul 14 JPM print (IR-confirmed)**. No verifiable fresh beat-and-raise / dated upgrade / insider buy to move any name, so no re-score and no candidate qualifies.
+- Guardrail check for a hypothetical buy anyway: at 4/5 positions (slot open), 0/3 weekly buys, cash ~43.5%, daily loss cap NOT hit (book +0.51% intraday) — capacity exists; the block is the empty scan + data-verification wall, NOT caps. Hawkish-Fed/rising-10Y backdrop adds a reason for patience on fresh (esp. higher-beta) buys.
+
+### Sell decision — NO sell
+- No overnight/at-open thesis-breaker on any of the 4 holdings (LLY/GE/JPM sev 1, DE sev 2). Nothing to sell discretionarily.
+- **No stop fired:** `GET /v2/orders?status=closed&after=2026-07-09T00:00:00Z` → empty (0 orders). No fills today.
+
+### Stops — all 4 RESTING, re-verified via open-orders query (`status:new`, IDs & trail state unchanged)
+- **LLY** 10% trailing `6016a7e7` — floor 1124.505, hwm 1249.45. Mark 1219.50 (+13.08%), cushion ~7.8%.
+- **GE** 10% trailing `b9dadf2d` — floor 344.673, hwm 382.97. Mark 360.90 (+9.49%), cushion ~4.5% (bounced +1.4% off the open, widened from pre-open's ~3.2%).
+- **DE** 10% trailing `dcdd84e5` — floor 575.073, hwm 638.97. Mark 605.01 (+2.58%), cushion ~5.0%.
+- **JPM** −7% hard stop `3e8fe4ea` @ 306.62 (GTC), entry 329.695588. Mark 331.955 (+0.69%). **+5%→trailing conversion trigger $346.18 — NOT triggered (~4.3% away).** Standing task carries forward.
+
+### Intraday tape (indicative, ~09:32 ET; close routine owns the official scorecard)
+- Book GREEN: equity $102,593.70 vs 7/8 close $102,075.83 = **+$517.87 / +0.51%.** Since $100K start **+2.59%.**
+- SPY ~746.02 (+0.10% vs 7/8 close 745.28) → **beating SPY by ~+0.4 pts intraday.** Intraday only — not the official daily/weekly alpha.
+- Net open unrealized ≈ **+$3,792.71** (LLY +1,974.56, GE +1,407.15, DE +334.18, JPM +76.82).
+
+**Cash-drag note:** ~43.5% cash, 4/5 positions, 8th empty scan. Blocker remains the between-quarters lull + Perplexity mid-2026 data-verification wall, NOT the ≥70 gate or the position caps. Disciplined move = WAIT for the **Jul 14 JPM print** when verifiable Q2 data returns. Standing task: JPM +5%→trailing at $346.18. Next routine: midday 7/9.
+
+---
+
 ## 2026-07-09 06:00 CT (07:09 ET) — PRE-MARKET (Thu, market CLOSED pre-open; opens 09:30 ET)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:false`, timestamp 07:09 ET, next_open today 09:30 ET → research-only, NO trades. Inbox: **nothing pending.** Account (live Alpaca, pre-market indicative marks): equity **$101,992.31**, cash **$44,663.50** (~43.8%), long_market_value **$57,328.81** (~56.2%), last_equity (7/8 close) $102,075.83, buying_power $339,174.67, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** (Equity is a pre-market indicative mark — GE 356.01, LLY 1211.50, JPM 331.06, DE 595.06; the close routine owns the official daily scorecard.)
