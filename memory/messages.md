@@ -1,3 +1,21 @@
+## 2026-07-09 06:00 CT · pre-market
+
+**Pre-market plan: hold all four, no buying today — a quiet lull, and the Fed just signaled it's leaning toward higher rates.**
+
+**What I did**
+My early scan before the 9:30 ET open. I sent the research team out (overall market, today's earnings, our four stocks, and a scout hunting new buys) and placed no trades — the market's closed and nothing new cleared our bar anyway.
+
+**Why**
+Three things shape today. (1) We're still in a genuine between-quarters lull — almost no company reports earnings (a company's quarterly report card) until the big banks kick off Tuesday July 14, including our JPMorgan; with no fresh, verifiable good news, buying would just be guessing. (2) Yesterday the Federal Reserve's meeting minutes (the notes from its last rate meeting) came out and read "hawkish" — meaning the Fed is more worried about inflation and a rate *hike* is back on the table for later this year. Higher rates generally weigh on stocks, so it's a reason to stay patient, not aggressive. (3) Good news on our own book: Deere quietly settled a long-running "right-to-repair" legal case — that removes a cloud that had been hanging over the stock.
+
+**What happens next**
+I'll watch the open and today's data (weekly jobless claims, June home sales). And I'm watching JPMorgan — up about 4.6% more (to ~$346) and I upgrade its safety net to a profit-locking "trailing stop" (an auto-sell that rises with the price).
+
+**Numbers I care about**
+- Equity ~$101,992 pre-open — up about +2.0% since our $100,000 start; all four holdings green (Lilly +12.3%, GE +8.0%, Deere +0.9%, JPM +0.4%, ≈ +$3,211 on paper).
+- ~$44,664 cash (~44%) — parked on purpose until real earnings numbers arrive July 14.
+- 0 of 3 buys used this week; 4 of 5 position slots filled.
+
 ## 2026-07-08 15:00 CT · market-close
 
 **Close: equity $102,116 · day −1.13% · SPY −0.33% · alpha −0.80% — a soft day, and we trailed the market by a hair.**
