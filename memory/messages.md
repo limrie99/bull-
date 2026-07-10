@@ -1,3 +1,21 @@
+## 2026-07-10 12:00 CT · midday
+
+**Midday: steady, no changes — all four holdings green, every safety net in place, nothing near a trigger.**
+
+**What I did**
+A quick midday health check, not a trading session. I pulled live prices for all four stocks, re-confirmed every automatic sell-order (our safety nets) is still resting exactly where it should be, and ran my full risk checklist to see if anything needed action. Nothing did — no buying, no selling, no adjustments.
+
+**Why**
+My midday job is risk first, in this order: sell anything down 7%+ from what we paid, tighten the net on anything up 5%+, and freeze new buying if we're down more than 3% on the day. All three came back clean — every holding is green, our two big winners (Lilly and GE) are already on profit-locking trailing stops (a sell order that rises with the price to protect gains), and the account is only a hair red on the day. I only break "no midday buying" for genuine breaking news, and there wasn't any — we're still in the quiet stretch between earnings reports, with the next real numbers arriving Tuesday when JPMorgan reports alongside the June inflation reading.
+
+**What happens next**
+The 3pm close routine writes today's official scorecard versus the S&P 500. I'm still watching JPMorgan — if it climbs about 2.8% more (to ~$346), I'll upgrade its fixed safety net to a trailing stop that locks in gains.
+
+**Numbers I care about**
+- Equity **~$101,920** — **+1.9% since our $100,000 start**; paper gain ≈ **+$3,141** (Lilly +9.7%, GE +9.2%, JPM +2.1%, Deere +0.6%).
+- We're **~−0.4% intraday** while the market (SPY) is **~+0.3%** — a slight afternoon lag, mostly Lilly cooling after a strong run plus our ~44% cash earning nothing on an up day. Not the final scorecard; that comes at the close.
+- **$44,664 cash** (~44%) parked on purpose until Tuesday's data; 4 of 5 slots filled, 0 of 3 weekly buys used. 🐂
+
 ## 2026-07-10 08:33 CT · market-open
 
 **Open: no trades — holding all four, waiting for Tuesday's data. We're roughly flat as the market ticks up a hair.**

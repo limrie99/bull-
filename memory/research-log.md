@@ -3097,3 +3097,43 @@ Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM 
 - **JPM +5%→trailing conversion at $346.18** (cancel `3e8fe4ea`, place 10% trailing GTC) — not triggered, mark 333.70 = +1.22%.
 - **Redeploy cash (PRIORITY #1, gated on verifiable data)** — key re-scan = Jul 14 bank/earnings wave.
 - No Telegram push this routine (midday, no trades — per skip rules).
+
+---
+
+## 2026-07-10 12:00 CT (13:01 ET) — MIDDAY (Fri, market OPEN)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 13:01:28 ET, next_close 16:00 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,919.72**, cash **$44,663.50** (~43.8%), long_market_value $57,256.22 (~56.2%), last_equity (7/9 close) $102,307.38, buying_power $338,971.42, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.**
+
+**Decision: NO TRADES.** Full risk checklist clean; no breaking buy catalyst; nothing on the bench clears the gate (9th-straight empty scan, top name GS 60<70). Steady midday.
+
+### Risk checklist (priority order per routine)
+- **(a) Any position ≤ −7%?** NO. Live P/L: LLY +9.66%, GE +9.21%, JPM +2.12%, DE +0.61% — all green. No Perplexity 4-hr news-check required (only mandated for a −7% name).
+- **(b) Any position ≥ +5% still on a −7% hard stop (needs conversion)?** NO. LLY/GE/DE already on 10% trailing stops; JPM (+2.12%) is the only hard-stop name and is not yet at +5% (trigger $346.18, ~2.8% away). No conversion executed.
+- **(c) Daily loss cap:** day move −$387.66 / −0.38% vs 7/9 close — well under the −3% cap. (No new buys planned regardless.)
+
+### Breaking-catalyst check (midday buy gate)
+- No high-conviction breaking catalyst on any bench name; between-quarters lull holds into the Jul 14 JPM print + June CPI. Watchlist top name GS = 60 (<70), 1 solid signal only. No deviation from the pre-market no-buy plan warranted. (Held-book thesis check folded into the risk pass — no −7% name, so no mandated 4-hr news pull; all 4 theses carried INTACT sev 1 from the 06:00 pre-market scan.)
+
+### Live midday marks (Alpaca positions)
+- **LLY** 14 @ 1078.46 → mark 1182.64, P/L **+$1,458.52 (+9.66%)**. Trailing floor 1124.505, hwm 1249.45 (below hwm, no ratchet), cushion ~4.9%. INTACT sev 1.
+- **GE** 45 @ 329.63 → mark 359.98, P/L **+$1,365.75 (+9.21%)**. Trailing floor 344.673, cushion ~4.3%. INTACT sev 1. Q2 ~Jul 16.
+- **JPM** 34 @ 329.695588 → mark 336.68, P/L **+$237.47 (+2.12%)**. −7% hard stop 306.62; +5%→trailing trigger 346.18 (~2.8% away). Q2 VERIFIED Tue Jul 14. INTACT sev 1.
+- **DE** 22 @ 589.82 → mark 593.43, P/L **+$79.42 (+0.61%)**. Trailing floor 575.073, cushion ~3.1%. INTACT sev 1 (off-cycle, next report ~mid-Aug).
+- Net open unrealized ≈ **+$3,141.16**.
+
+### Stops — all 4 RESTING (open-orders query, status `new`, IDs unchanged)
+- LLY 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505.
+- GE 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` floor 344.673.
+- DE 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073.
+- JPM −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62.
+
+### Market/scorecard (intraday, close routine owns official)
+- SPY 753.88 live (13:01 ET) vs 751.55 (7/9 close) ≈ +0.31% intraday. Book ≈ −0.38% vs 7/9 close → lagging ~0.69 pts (LLY intraday cooling + ~44% idle cash on a green tape).
+- Mildly green tape; daily loss well under −3% cap. Total since $100K start +1.92%.
+
+### Standing tasks / watch (→ market-close 7/10)
+- **Close routine: mandatory daily "How we're doing" scorecard + Telegram push** (vs SPY), non-negotiable even on a no-trade day.
+- **JPM +5%→trailing conversion at $346.18** (cancel `3e8fe4ea`, place 10% trailing GTC) — not triggered, mark 336.68 = +2.12%.
+- **DE** — watch vs. 575.073 floor (tightest cushion ~3.1%). **GE** cushion ~4.3%, thesis intact into Q2 ~Jul 16.
+- **Redeploy cash (PRIORITY #1, gated on verifiable data)** — key re-scan = Jul 14 JPM Q2 print + June CPI.
+- No Telegram push this routine (midday, no trades — per skip rules).
