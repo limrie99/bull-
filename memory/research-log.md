@@ -3137,3 +3137,34 @@ Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM 
 - **DE** — watch vs. 575.073 floor (tightest cushion ~3.1%). **GE** cushion ~4.3%, thesis intact into Q2 ~Jul 16.
 - **Redeploy cash (PRIORITY #1, gated on verifiable data)** — key re-scan = Jul 14 JPM Q2 print + June CPI.
 - No Telegram push this routine (midday, no trades — per skip rules).
+
+---
+
+## 2026-07-10 15:00 CT (16:00 ET) — MARKET-CLOSE (Fri, market CLOSED)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:false`, next_open Mon 2026-07-13 09:30 ET. Inbox: **nothing pending.** Account (live Alpaca, official close): equity **$101,813.69**, cash **$44,663.50** (~43.9%), long_market_value **$57,150.19** (~56.1%), last_equity (7/9 close) $102,307.38, buying_power $338,674.53, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. Zero closed orders today.**
+
+**Decision: NO TRADES** (quiet close, no fills, no adjustments). Risk pass clean; JPM +5% conversion not triggered; all 4 stops resting IDs unchanged.
+
+### Closing marks (Alpaca positions)
+- **LLY** 14 @ 1078.46 → close 1188.01, P/L **+$1,533.70 (+10.16%)**. Trailing floor 1124.505, cushion ~5.3%. INTACT sev 1.
+- **GE** 45 @ 329.63 → close 359.27, P/L **+$1,333.80 (+8.99%)**. Trailing floor 344.673, cushion ~4.1%. INTACT sev 1. Q2 ~Jul 16.
+- **JPM** 34 @ 329.695588 → close 336.47, P/L **+$230.33 (+2.05%)**. −7% hard stop 306.62; +5%→trailing trigger 346.18 (~2.9% away). Q2 VERIFIED Tue Jul 14. INTACT sev 1.
+- **DE** 22 @ 589.82 → close 586.86, P/L **−$65.12 (−0.50%)**. Trailing floor 575.073, cushion ~2.0% (tightest). INTACT sev 1 (off-cycle, next report ~mid-Aug).
+- Net open unrealized ≈ **+$3,032.71**.
+
+### Stops — all 4 RESTING (open-orders query, status `new`, IDs unchanged)
+- LLY 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505, hwm 1249.45.
+- GE 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` floor 344.673, hwm 382.97.
+- DE 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073, hwm 638.97.
+- JPM −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62.
+
+### Day summary (OFFICIAL scorecard)
+- **Closing equity: $101,813.69.** Day P/L **−$493.69 / −0.48%** (vs 7/9 close $102,307.38, = account last_equity, authoritative).
+- **SPY day: +0.45%** (754.94 vs 7/9 close 751.55). **Alpha today: −0.93 pts.**
+- **Week-to-date (baseline 7/2 close $103,686.56; 7/3 was the July-4 observed holiday):** port **−1.81%** ($−1,872.87) vs **SPY +1.35%** (754.94 vs 744.86) → **week alpha −3.16 pts.**
+- **Total since $100K start: +1.81%.**
+- **Trades placed today:** 0.
+- **What worked:** LLY firmed into the close (+10.16%, new book high mark 1188.01, still below 1249.45 hwm so no ratchet); GE held its gains (+8.99%); every safety net stayed exactly in place — zero stop drama.
+- **What didn't:** cash drag — ~44% idle into a green tape (SPY +0.45% day, +1.35% WTD) meant we could not keep up; DE slipped fractionally red (−0.50%) and now carries the tightest cushion (~2.0% to its 575.073 floor); JPM flat-ish (+2.05%) ahead of its binary Tue print.
+- **Open questions for tomorrow/Monday:** (1) Does verifiable data + a gate-clearing candidate finally arrive at/after the **Jul 14 JPM Q2 + June CPI** double-header so we can redeploy the cash? (2) Week alpha −3.16 pts is a genuine miss — is the −7% hard-stop / conviction-gate cash posture too conservative for a persistently rising, hawkish-but-grinding-up tape? **Parked behind the post-Jul-14 forward trigger; escalate explicitly at Friday's weekly review.** (3) Watch DE's 2.0% cushion — governed by the trailing stop, no discretionary move.

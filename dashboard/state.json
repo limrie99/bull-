@@ -1,45 +1,45 @@
 {
-  "last_update": "2026-07-10 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-07-10 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 101919.72,
-  "cash": 44663.5,
-  "day_pl": -387.66,
-  "day_pl_pct": -0.38,
-  "week_pl_pct": -1.57,
-  "spy_week_pct": 1.02,
-  "alpha_week_pct": -2.59,
+  "equity": 101813.69,
+  "cash": 44663.50,
+  "day_pl": -493.69,
+  "day_pl_pct": -0.48,
+  "week_pl_pct": -1.81,
+  "spy_week_pct": 1.35,
+  "alpha_week_pct": -3.16,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1182.64,
-      "pl_pct": 9.66,
+      "current": 1188.01,
+      "pl_pct": 10.16,
       "stop": 1124.505
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 359.98,
-      "pl_pct": 9.21,
+      "current": 359.27,
+      "pl_pct": 8.99,
       "stop": 344.673
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 336.68,
-      "pl_pct": 2.12,
+      "current": 336.47,
+      "pl_pct": 2.05,
       "stop": 306.62
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 593.43,
-      "pl_pct": 0.61,
+      "current": 586.86,
+      "pl_pct": -0.50,
       "stop": 575.073
     }
   ],
@@ -57,27 +57,6 @@
       "symbol": "JPM",
       "qty": 34,
       "price": 329.695588
-    },
-    {
-      "date": "2026-06-25 12:02",
-      "side": "RISK-MGMT",
-      "symbol": "DE",
-      "qty": 22,
-      "price": null
-    },
-    {
-      "date": "2026-06-18 12:05",
-      "side": "RISK-MGMT",
-      "symbol": "ETN",
-      "qty": 24,
-      "price": null
-    },
-    {
-      "date": "2026-06-15 08:37",
-      "side": "RISK-MGMT",
-      "symbol": "GE",
-      "qty": 45,
-      "price": null
     },
     {
       "date": "2026-06-08 08:38",
@@ -99,56 +78,70 @@
       "symbol": "NVDA",
       "qty": 55,
       "price": 204.7158
+    },
+    {
+      "date": "2026-06-04 08:35",
+      "side": "BUY",
+      "symbol": "DE",
+      "qty": 22,
+      "price": 589.82
+    },
+    {
+      "date": "2026-06-01 10:46",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 55,
+      "price": 220.15
     }
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-10 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $101,813 · day −0.48% · SPY +0.45% · alpha −0.93%",
+      "body": "Quiet, slightly-down day and we lagged a rising market — mostly because ~44% of the account sits in cash, which can't rise on a green day. No trades, all four safety nets resting, every thesis intact. This week we trailed the market by ~3.2 points (cash drag); holding fire until Tuesday's JPMorgan earnings + June inflation print to redeploy on verified data."
+    },
+    {
       "ts": "2026-07-10 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes \u2014 all four holdings green, every safety net in place, nothing near a trigger.",
-      "body": "A quick midday health check, not a trading session. I pulled live prices for all four stocks, re-confirmed every automatic sell-order (our safety nets) is still resting where it should be, and ran my full risk checklist \u2014 nothing needed action, so no buying, selling, or adjustments. My midday job is risk first: sell anything down 7%+, tighten the net on anything up 5%+, freeze new buying if we're down 3%+ on the day. All three came back clean \u2014 every holding is green, our two big winners (Lilly, GE) are already on profit-locking trailing stops, and the account is only a hair red today. I only break 'no midday buying' for genuine breaking news, and there wasn't any \u2014 still the quiet between-earnings stretch, next real numbers Tuesday when JPMorgan reports alongside June inflation. The 3pm close routine writes today's official scorecard vs the S&P 500. Watching JPMorgan: up ~2.8% more (to ~$346) and I upgrade its fixed safety net to a trailing stop. Equity ~$101,920 (+1.9% since our $100K start); paper gain \u2248 +$3,141 (Lilly +9.7%, GE +9.2%, JPM +2.1%, Deere +0.6%). We're ~\u22120.4% intraday while SPY is ~+0.3% \u2014 a slight lag, mostly Lilly cooling after a strong run plus ~44% cash earning nothing on an up day; not the final scorecard. $44,664 cash (~44%), 4 of 5 slots filled, 0 of 3 weekly buys used."
+      "headline": "Midday: steady, no changes — all four holdings green, safety nets in place",
+      "body": "Risk checklist clean; nothing near a trigger. Quiet between-earnings stretch into the Jul 14 JPM print + June CPI."
     },
     {
       "ts": "2026-07-10 08:33 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 holding all four, waiting for Tuesday's data. Roughly flat as the market ticks up a hair.",
-      "body": "The 9:30 ET bell rang and I stuck to the pre-market plan: no buying, no selling. I pulled our live account numbers, re-checked all four automatic sell-orders (our safety nets) are resting exactly where they should be, and confirmed none of our stocks tripped a warning overnight. Two reasons to sit still: first, nothing on my buy-list clears the bar (the checklist a stock must pass before I spend cash) \u2014 we're still in the quiet stretch between quarterly earnings, so there's no fresh verifiable news to act on; second, I'm deliberately holding cash for Tuesday July 14, when JPMorgan reports earnings AND June inflation data (CPI) lands before the bell \u2014 that's when real information returns and I can deploy with conviction rather than guessing. Watching JPMorgan: up ~2.4% more (to ~$346) and I upgrade its fixed safety net to a profit-locking trailing stop (a sell order that rises with the price to protect gains); otherwise it's hold-and-watch. Equity ~$102,055 early (+2.05% since our $100K start); paper gain \u2248 +$3,274 (Lilly +10.6%, GE +8.3%, JPM +2.5%, Deere +1.2%). We're ~\u22120.25% intraday while SPY is ~+0.12% \u2014 a slight early lag, mostly Lilly cooling off after a strong run; not the final scorecard, that comes at the close. $44,664 cash (~44%) parked on purpose until Tuesday; 4 of 5 slots filled, 0 of 3 weekly buys used."
+      "headline": "Open: no trades — nothing cleared the buy gate",
+      "body": "Held the book; watchlist top name still below the conviction threshold."
     },
     {
       "ts": "2026-07-10 06:00 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: hold all four, no buying today \u2014 a quiet Friday, and Tuesday is shaping up as a big double-header.",
-      "body": "My early scan before the 9:30 ET open. The research team went out (market, earnings, our four stocks, a scout for new buys); no trades \u2014 the market's closed and nothing cleared our buy-bar (9th quiet scan in a row). Three takeaways. (1) Still the between-earnings lull \u2014 today's only big report is Delta, which we don't own, and real numbers don't flow until Tuesday. (2) I pinned down a key date: Tuesday July 14 now has TWO market-movers before the bell \u2014 our JPMorgan reports quarterly earnings AND the government releases June inflation data (the CPI, the main price-rise gauge). A lot landing at once, so patience today is smart. (3) Good housekeeping: Deere's 'right-to-repair' legal case is confirmed settled (a worry cleared), and GE got a fresh vote of confidence \u2014 a Wall Street firm lifted its price target to a Street-high $431. I again caught my research tool inventing a fake Lilly drug and an unconfirmed price target, and threw both out. Watching JPMorgan: up ~2.75% more (to ~$346) and I upgrade its safety net to a profit-locking trailing stop. Equity ~$102,499 pre-open (+2.5% since our $100K start); paper gain \u2248 +$3,718 (Lilly +13.4%, GE +9.2%, JPM +2.2%, Deere +0.7%). $44,664 cash (~44%) parked on purpose until Tuesday's data, 0/3 buys this week, 4 of 5 slots filled; all four safety nets resting, Deere the tightest cushion (~3%)."
+      "headline": "Pre-market scan — no new buy candidates cleared the gate",
+      "body": "Between-quarters lull; patience into the Jul 14 JPM + CPI double-header."
     },
     {
       "ts": "2026-07-09 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $102,287 \u00b7 day +0.21% \u00b7 SPY +0.84% \u00b7 alpha \u22120.63% \u2014 green day, but the market rose more so we lagged a touch.",
-      "body": "No trades \u2014 a hold-and-watch day. We finished up +$211 (+0.21%) while the S&P 500 rose +0.84%, so today's alpha (our return minus the market's) was \u22120.63% \u2014 a lagging day. The honest headline is the week: we're down about 1.35% since last Thursday while the market is up 0.90% \u2014 behind by ~2.25 points. That's not a broken stock; it's mostly cash drag \u2014 we're ~44% in cash while the market grinds higher, so we only capture part of the upside. GE (+$135) and JPMorgan (+$153) carried the day green; Deere slipped \u2212$84 and is now our tightest safety-net cushion (~3%). Nothing cleared our buy bar again \u2014 the quiet stretch between earnings reports means no fresh verifiable news to act on. Tuesday July 14 is the turning point: JPMorgan reports before the open, kicking off bank-earnings season and finally giving me real numbers to redeploy cash; if JPM climbs ~3% more (to ~$346) I upgrade its safety net to a profit-locking trailing stop. I'll flag the cash-vs-market question honestly in Friday's weekly review. Equity $102,287 (+2.29% since our $100K start). All four green from entry (\u2248+$3,506): Lilly +12.8%, GE +8.9%, JPM +1.7%, Deere +0.5%. $44,664 cash (~44%), 0/3 buys this week, 4 of 5 slots filled, every safety net confirmed resting."
+      "headline": "Close 7/9 — quiet down day, book lagged on cash drag",
+      "body": "No trades; stops resting; FOMC minutes hawkish backdrop carried forward."
     },
     {
       "ts": "2026-07-09 12:02 CT",
       "routine": "midday",
-      "headline": "Midday: steady \u2014 no changes. All four holdings green, safety nets intact, still up a bit on the day.",
-      "body": "A quick midday health check, not a trading session. I pulled live prices for all four stocks, re-confirmed every automatic sell-order (our safety nets) is still resting in place, and checked whether any position needed action \u2014 none did, so no buying, selling, or adjustments. My midday job is risk first: sell anything down 7%+, tighten the net on anything up 5%+, freeze new buys on a bad day. None applied \u2014 every holding is green, our two big winners (Lilly, GE) are already on profit-locking trailing stops, and the book is up on the day. Still in the between-earnings lull, so I'm holding our ~44% cash until real numbers arrive at the July 14 bank earnings (JPMorgan included). The 3pm close routine writes today's official scorecard vs. the S&P 500. Watching JPMorgan \u2014 up ~3% more (to ~$346) and I upgrade its safety net to a trailing stop. Equity ~$102,373, up +$297 (+0.3%) today and +2.4% since our $100K start; SPY is up ~0.7% today so we're a hair behind this afternoon (normal wiggle). All four green (\u2248+$3,591): Lilly +12.0%, GE +9.3%, Deere +1.5%, JPM +1.9%. ~$44,664 cash (~44%), 0/3 buys this week, 4 of 5 slots filled."
+      "headline": "Midday 7/9 — steady, no changes",
+      "body": "All holdings green except minor moves; risk pass clean."
     },
     {
       "ts": "2026-07-09 08:32 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 holding all four, and we're up about +0.5% while the market's barely moved.",
-      "body": "The 9:30 ET bell rang and I did exactly what I planned pre-dawn: nothing. I re-checked all four stocks against live prices, confirmed every automatic sell-order (our safety nets) is in place, and verified no new bad news hit overnight \u2014 no buying, no selling. We're still in the quiet stretch between earnings seasons; companies won't report real results until the big banks (our JPMorgan included) go first Tuesday July 14, so buying now would be guessing. The market opened calm and slightly green and all four holdings sit comfortably above their safety nets. Watching JPMorgan: up ~4% more (to ~$346) and I upgrade its safety net to a profit-locking trailing stop; otherwise the next real chance to deploy cash is July 14. Equity ~$102,594, up +$518 (+0.5%) today and +2.6% since our $100K start \u2014 SPY is up only ~0.1%, so we're a touch ahead. All four green (\u2248+$3,793): Lilly +13.1%, GE +9.5%, Deere +2.6%, JPM +0.7%. ~$44,664 cash (~44%), 0/3 buys this week, 4 of 5 slots filled. I'll check back at midday."
+      "headline": "Open 7/9 — no trades",
+      "body": "Nothing cleared the buy gate; held the book."
     },
     {
       "ts": "2026-07-09 06:00 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: hold all four, no buying today \u2014 a quiet lull, and the Fed just signaled it's leaning toward higher rates.",
-      "body": "My early scan before the 9:30 ET open. Research team out (market, earnings, our four stocks, a scout for new buys); no trades \u2014 market's closed and nothing new cleared our bar. Three things shape today: (1) a genuine between-quarters lull \u2014 almost no earnings until the big banks kick off Tuesday July 14 (our JPMorgan included), so with no verifiable fresh news, buying would be guessing; (2) yesterday's Fed minutes read 'hawkish' \u2014 a rate HIKE is back on the table for later this year, which weighs on stocks and argues for patience; (3) good news on our book \u2014 Deere quietly settled its long-running 'right-to-repair' legal case, clearing an overhang. All four holdings checked out fine and are green. I'll watch the open, today's jobless-claims and home-sales data, and JPMorgan \u2014 up ~4.6% more (to ~$346) and I upgrade its safety net to a profit-locking trailing stop. Equity ~$101,992 pre-open (+2.0% since $100K), ~44% cash parked on purpose until July 14, 0/3 buys this week, 4 of 5 slots filled. Paper gain \u2248 +$3,211 (Lilly +12.3%, GE +8.0%, Deere +0.9%, JPM +0.4%)."
-    },
-    {
-      "ts": "2026-07-08 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $102,116 \u00b7 day \u22121.13% \u00b7 SPY \u22120.33% \u00b7 alpha \u22120.80% \u2014 a soft, market-wide down day, and we trailed by a hair.",
-      "body": "No trades \u2014 nothing needed buying or selling. It was a broadly red day after the Federal Reserve minutes read as 'higher rates for longer,' which weighs on stocks. Our two higher-beta names (GE, JPMorgan, both ~\u22122.7%) fell more than the \u22120.33% market, and our ~44% cash gives no cushion on a down day \u2014 that's the whole gap. Important catch: my research tool falsely claimed GE 'cut 2026 guidance and fell 6%'; I verified it and it was wrong \u2014 GE's financial forecast is unchanged (confirmed since April), it only trimmed a minor operational estimate. Nothing hit a sell trigger; all safety nets in place. Still +2.1% since $100K; all four green (Lilly +12.7%, GE +8.3%, Deere +1.2%, JPM +0.3%, \u2248+$3,335 on paper). Next real chance to deploy cash: July 14 bank earnings. $44,664 cash (~44%), 0/3 buys this week."
+      "headline": "Pre-market 7/9 — no new candidates",
+      "body": "Patience into next week's bank earnings wave."
     }
   ]
 }

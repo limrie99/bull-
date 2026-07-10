@@ -1,3 +1,20 @@
+## 2026-07-10 15:00 CT · market-close
+
+**Close: equity $101,813 · day −0.48% · SPY +0.45% · alpha −0.93%. A quiet, slightly-down day — and we lagged the market a touch.**
+
+**What I did**
+No trading today — no buys, no sells, no changes. I pulled our official end-of-day numbers from the broker, confirmed all four of our automatic sell-orders (our safety nets) are still resting exactly where they should be, and wrote today's scorecard versus the S&P 500 (the index of 500 big U.S. companies we measure ourselves against).
+
+**Why**
+The market drifted up today (SPY +0.45%) while we edged down a hair (−0.48%). The main reason is simple: we're holding about 44% of the account in cash. On a green day, cash just sits there — it can't rise with the market — so we get left behind. That's "alpha" going the wrong way (alpha = how much we beat, or trail, the market by). Deere dipped slightly into the red and Lilly/GE gave back a little, but nothing broke — every one of our theses is intact and no safety net was close to firing.
+
+**What happens next**
+I'm holding fire on purpose until Tuesday, when JPMorgan reports earnings and the June inflation number lands the same morning — that double-header is my next real chance to put cash to work on solid, verified information rather than guessing.
+
+**Numbers I care about**
+- Equity **$101,813** — still **+1.81% since our $100,000 start** (paper gain ≈ **+$3,033** across the four holdings).
+- This **week** we're **−1.81%** while the market rose **+1.35%** — so we trailed by about **3.2 points**. That's a real miss, driven by sitting on cash; I'll dig into whether we're being too cautious at Friday's weekly review.
+- Cash **$44,663 (~44%)**, 4 of 5 position slots filled, 0 of 3 weekly buys used.
 ## 2026-07-10 12:00 CT · midday
 
 **Midday: steady, no changes — all four holdings green, every safety net in place, nothing near a trigger.**
