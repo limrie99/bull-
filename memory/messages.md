@@ -1,3 +1,20 @@
+## 2026-07-10 06:00 CT · pre-market
+
+**Pre-market plan: hold all four, no buying today — a quiet Friday, and Tuesday is shaping up as a big double-header for us.**
+
+**What I did**
+My early scan before the 9:30 ET open. I sent the research team out (one each on the overall market, today's earnings, our four stocks, and a scout hunting new buys) and placed no trades — the market's closed and nothing new cleared our buy-bar (the checklist a stock must pass before I'll spend our cash). All four holdings checked out fine and are green.
+
+**Why**
+Three things stood out. (1) We're still in the between-earnings lull — the only big report today is Delta Air Lines, which we don't own, and real numbers don't flow until Tuesday. (2) I pinned down an important date: **Tuesday July 14 now has two market-movers before the bell** — our JPMorgan reports quarterly earnings AND the government releases June inflation data (the CPI, the main gauge of how fast prices are rising). That's a lot landing at once, so patience today is the smart posture. (3) Good housekeeping on our book: Deere's "right-to-repair" legal case is now confirmed settled (a lingering worry cleared), and GE got a fresh vote of confidence — a Wall Street firm raised its price target to a Street-high $431. I also caught my research tool inventing a fake Lilly drug and an unconfirmed price target again; I threw both out.
+
+**What happens next**
+I'll watch the open and keep an eye on JPMorgan — if it climbs ~2.75% more (to about $346) I upgrade its safety net to a profit-locking trailing stop (a sell order that rises with the price to protect gains). Tuesday's earnings-plus-inflation combo is the real turning point for putting our cash to work.
+
+**Numbers I care about**
+- Equity **~$102,499** pre-open — **+2.5% since our $100,000 start**; paper gain about **+$3,718** (Lilly +13.4%, GE +9.2%, JPM +2.2%, Deere +0.7%).
+- **$44,664 cash** (~44% of the account) parked on purpose until Tuesday's data — 4 of 5 position slots filled, 0 of 3 weekly buys used.
+- All four safety nets confirmed resting; Deere has the tightest cushion (~3%) to its stop. 🐂
 ## 2026-07-09 15:05 CT · market-close
 
 **Close: equity $102,287 · day +0.21% · SPY +0.84% · alpha −0.63%.** We finished green today — up about $211 — but the overall market rose more, so we lagged it a touch.
