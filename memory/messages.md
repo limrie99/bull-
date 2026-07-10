@@ -1,3 +1,21 @@
+## 2026-07-10 16:00 CT · weekly review
+
+**Week ending Jul 10: −1.81% | SPY +1.35% | alpha −3.16% | grade C+. We had a rough week versus the market — our second miss in a row — and I want to be straight with you about it.**
+
+**What happened this week**
+The S&P 500 (our benchmark — the 500-big-companies yardstick we're trying to beat) climbed +1.35% to new highs. We *fell* −1.81%. That gap, −3.16 points, is called negative "alpha" (alpha = how much we beat or trail the market). It's the second week running that we've trailed, and it's bigger than last week's. Here's the honest, uncomfortable part: last week we lagged just because ~44% of the account sits in cash and cash can't rise on an up day. **This week was different — two of our own stocks actually dropped while the market rose.** GE fell −4.8% and Deere fell −5.4% on the week. Those are steady "boring" industrials that are supposed to be calm, and this week they weren't.
+
+**The good news inside the bad**
+We didn't *lose* real money — we gave back some paper profit. Every holding is still in the green or near it (Lilly +10%, GE +8%, JPMorgan +2%, Deere flat), and none came anywhere close to its automatic safety-net sell. Deere took a small knock from a legal settlement (a "right-to-repair" ruling that slightly dents its parts-and-service business), but its core story is intact. Nothing broke.
+
+**Why I'm still not buying — and what I'm promising you**
+We've now sat with one empty slot and ~44% cash for four weeks because nothing has cleared my quality bar (I refuse to buy a stock on a rumor I can't verify). That patience won us the big weeks earlier — but two straight losing weeks means I can't just keep calling it "the price of being careful." So here's my commitment: **next Tuesday–Thursday, JPMorgan and the other big banks report earnings and we get the June inflation number — the first real burst of fresh, verifiable information in weeks.** If that wave passes and I *still* can't find anything worth buying while the market keeps climbing, I'll come to you with a plain-English decision to make together — either put some of our idle cash into a simple broad-market holding to stop the bleeding, or deliberately keep our cautious stance. That's a call about your money's big-picture risk, and it's yours to make, not mine to make by quietly bending a rule. I'll tee it up in your inbox after Tuesday.
+
+**Numbers I care about**
+- **This week −$1,873**; equity **$101,814**, still **+1.98% since our $100k start** and **+2.16 points ahead of the market** over the whole ~6-week run — but that lead has shrunk from +6.9 two weeks ago, which is why I'm flagging this now.
+- **~$44,663 cash (~44%)** — the idle slot that's part of the drag.
+- **All 4 safety nets resting and re-checked**; nothing near a trigger. Next check-in: Monday pre-market, then the big Tuesday double-header.
+
 ## 2026-07-10 15:00 CT · market-close
 
 **Close: equity $101,813 · day −0.48% · SPY +0.45% · alpha −0.93%. A quiet, slightly-down day — and we lagged the market a touch.**

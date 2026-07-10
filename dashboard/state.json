@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-07-10 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-10 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 101813.69,
   "cash": 44663.50,
@@ -96,6 +96,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-10 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending Jul 10: −1.81% | SPY +1.35% | alpha −3.16% | grade C+",
+      "body": "Second straight week trailing the market, and bigger than last week. New wrinkle: this time it wasn't just idle cash — two of our own 'steady' industrials fell (GE −4.8%, Deere −5.4%) while the S&P made new highs. Good news: no real money lost, just paper profit given back; every holding still green/flat, no safety net near firing. Our ~6-week lead over the market shrank from +6.9 to +2.2 points, so I'm flagging it. I'm holding buys until next week's JPMorgan/bank earnings + June inflation — the first fresh, verifiable data in weeks. If that passes and I still find nothing worth buying while the market climbs, I'll bring you a plain-English decision (deploy idle cash into a broad-market holding vs. stay cautious) rather than bend a rule myself."
+    },
+    {
       "ts": "2026-07-10 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $101,813 · day −0.48% · SPY +0.45% · alpha −0.93%",
@@ -136,12 +142,6 @@
       "routine": "market-open",
       "headline": "Open 7/9 — no trades",
       "body": "Nothing cleared the buy gate; held the book."
-    },
-    {
-      "ts": "2026-07-09 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market 7/9 — no new candidates",
-      "body": "Patience into next week's bank earnings wave."
     }
   ]
 }
