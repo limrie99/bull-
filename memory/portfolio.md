@@ -1,49 +1,48 @@
 # Portfolio
 
-**Last updated:** 2026-07-13 06:00 CT (07:10 ET) — **PRE-MARKET routine (Mon, market CLOSED pre-open; opens 09:30 ET).** Research-only, **NO trades.** Live Alpaca pre-market indicative: equity **$101,793.29**, cash **$44,663.50** (~43.9%), long_market_value **$57,129.79** (~56.1%), last_equity (7/10 close) $101,821.67. Book **4 of 5 positions** (one slot OPEN). **All 4 stops RE-VERIFIED RESTING via open-orders query `status:new`, IDs/floors/hwm unchanged** — 3 on 10% trailing (LLY, GE, DE), JPM on its −7% hard stop. **JPM +5%→trailing conversion NOT triggered** (mark 337.49 = +2.36%, trigger $346.18, ~2.6% away). **Weekly buys 0/3** (cap reset today). **Inbox: nothing pending.** All 4 theses INTACT (LLY sev 1, GE sev 2 [earnings binary; the "Citi $431 PT" is now UNVERIFIED — SCRUB unless a dated source reappears], JPM sev 2 [reports TOMORROW], DE sev 1). **10th straight empty buy-scan** — genuine between-quarters lull; all 4 sub-agents converged on PATIENCE into the Jul 14 CPI + JPM double-header. (Marks in the tables below are still the 7/10 official close — the close routine owns the daily scorecard; header carries the live pre-market marks.)
+**Last updated:** 2026-07-13 08:33 CT (09:33 ET) — **MARKET-OPEN routine (Mon, market OPEN).** Clock `is_open:true`, next_close 16:00 ET. **NO TRADES** — executed the pre-market plan verbatim (10th-straight empty buy-scan; nothing clears 2 signals + Conviction ≥70; no sell signal on any holding). Live Alpaca at the open: equity **$101,509.79**, cash **$44,663.50** (~44.0%), long_market_value **$56,846.29** (~56.0%), last_equity (7/10 close) $101,821.67 → day so far **−$311.88 / −0.31%** (well under the −3% cap). Book **4 of 5 positions** (one slot OPEN). **All 4 stops RE-VERIFIED RESTING** via open-orders query `status:new`, IDs/floors/hwm unchanged — 3 on 10% trailing (LLY, GE, DE), JPM on its −7% hard stop. **JPM +5%→trailing conversion NOT triggered** (mark 337.01 = +2.22%, trigger $346.18, ~2.7% away). **Weekly buys 0/3.** **Inbox: nothing pending.** All 4 theses INTACT (LLY sev 1, GE sev 2 [Q2 ~Jul 16 ESTIMATE; "Citi $431 PT" SCRUBBED as unverified], JPM sev 2 [reports TOMORROW], DE sev 1). Zero closed orders today. (Marks below are live at-the-open; the close routine owns the official daily scorecard.)
 
-**KEY EVENT — Tue Jul 14 (tomorrow):** June CPI 8:30am ET (VERIFIED date; consensus UNVERIFIED) + **JPM Q2 ~7am release / 8:30 call (IR-CONFIRMED)** [cons EPS ~$5.58–5.59, rev ~$49–51B, PLAUSIBLE] + possible Warsh testimony. Wed 7/15 PPI. This is the pre-committed re-scan gate for redeploying cash. Pre-market macro: mild RISK-OFF (ES ~−0.4/−0.5%, NQ ~−0.9%), 10Y ~4.57–4.58% biased up into CPI.
+**KEY EVENT — Tue Jul 14 (TOMORROW):** June CPI 8:30am ET (VERIFIED date; consensus UNVERIFIED) + **JPM Q2 ~7am release / 8:30 call (IR-CONFIRMED)** [cons EPS ~$5.58–5.59, rev ~$49–51B, PLAUSIBLE] + possible Warsh testimony. Wed 7/15 PPI. This is the pre-committed re-scan gate for redeploying cash. Pre-market macro read: mild RISK-OFF (ES ~−0.4/−0.5%, NQ ~−0.9%), 10Y ~4.57–4.58% biased up into CPI.
 
-## Daily scorecard (OFFICIAL — close 7/10)
-- **Day P/L: −$493.69 / −0.48%** (equity $101,813.69 vs 7/9 close $102,307.38).
-- **SPY day: +0.45%** (754.94 vs 7/9 close 751.55).
-- **Alpha today: −0.93 pts** (we lagged the market on a green tape — mostly ~44% idle cash giving no cushion, plus DE dipping negative and LLY/GE giving a little back).
-- **Week-to-date (baseline 7/2 close $103,686.56):** port **−1.81%** vs **SPY +1.35%** → **week alpha −3.16 pts.**
-- **Total since $100K start: +1.81%** (equity $101,813.69).
+## Intraday scorecard (at the open — official belongs to the close routine)
+- **Day P/L: −$311.88 / −0.31%** (equity $101,509.79 vs 7/10 close $101,821.67, per Alpaca last_equity).
+- **SPY intraday: −0.18%** (753.62 live 09:33 ET vs 754.94 7/10 close). **Alpha so far ≈ −0.13 pts** (roughly in line; soft invested sleeve — LLY/GE fractionally lower — offset by ~44% idle cash on a slightly red tape).
+- **Week-to-date (baseline 7/2 close $103,686.56):** port **−2.10%** vs SPY **+1.17%** → week alpha **−3.27 pts** (early — one session in; the close routine reconciles).
+- **Total since $100K start: +1.51%** (equity $101,509.79).
 
 ## Macro backdrop (carried, VERIFIED 7/8–7/9; re-verify near the print)
-The 7/8 FOMC minutes read HAWKISH — 2026 PCE forecast raised 2.7%→3.6%, a 2026 net hike back on the table (Sept priced on CME FedWatch), cuts pushed to 2027–28, 9-8 split. 10Y ~4.56–4.58%, drifting up. **Tuesday Jul 14 stacks TWO pre-open events: JPM Q2 (~7am ET, IR-confirmed) + June CPI (8:30am ET, VERIFIED).** Near-term skew toward a hike = a headwind for risk assets and a reason for patience on fresh buys into the print.
+The 7/8 FOMC minutes read HAWKISH — 2026 PCE forecast raised 2.7%→3.6%, a 2026 net hike back on the table (Sept priced on CME FedWatch), cuts pushed to 2027–28, 9-8 split. 10Y ~4.57–4.58%, drifting up. **Tuesday Jul 14 stacks TWO pre-open events: JPM Q2 (~7am ET, IR-confirmed) + June CPI (8:30am ET, VERIFIED).** Near-term skew toward a hike = a headwind for risk assets and a reason for patience on fresh buys into the print.
 
-**Cash:** $44,663.50 (~43.9%).
-**Equity:** **$101,813.69** (cash $44,663.50 + long_market_value $57,150.19), 7/10 official close mark.
-**SPY reference:** 754.94 (7/10 close).
+**Cash:** $44,663.50 (~44.0%).
+**Equity:** **$101,509.79** (cash $44,663.50 + long_market_value $56,846.29), live at-the-open mark.
+**SPY reference:** 753.62 (live 09:33 ET; 754.94 was the 7/10 close).
 
-## Open positions (4 of 5 — one slot OPEN) — marks = Alpaca 7/10 official close
+## Open positions (4 of 5 — one slot OPEN) — marks = Alpaca live at the open 09:33 ET
 
-| Symbol | Shares | Avg Cost | Close | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
+| Symbol | Shares | Avg Cost | Mark | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| LLY | 14 | 1078.46 | 1188.01 | +1,533.70 | +10.16% | **10% TRAILING (GTC)**, floor **1124.505**, hwm **1249.45** | 2026-06-01 | Eli Lilly — Q1 beat + raised guide + oral GLP-1 (orforglipron, EBGLYSS). CMS Medicare GLP-1 "Bridge" ~$50/mo LIVE. No fresh dated catalyst. Thesis INTACT sev 1; cushion ~5.3% to floor. |
-| GE | 45 | 329.63 | 359.27 | +1,333.80 | +8.99% | **10% TRAILING (GTC)**, floor **344.673**, hwm 382.97 | 2026-06-08 | GE Aerospace — record commercial-aircraft demand + high-margin engine aftermarket + defense; lower beta. Q2 ~Jul 16 (provisional). Citi Street-high PT→$431 (7/8, single-source). INTACT sev 1; cushion ~4.1% to floor. |
-| JPM | 34 | 329.695588 | 336.47 | +230.33 | +2.05% | **−7% HARD STOP (GTC)** @ **306.62** | 2026-06-29 | JPMorgan — $50B buyback (eff Jul 1) + Q3 div hike; largest US bank. STARTER (~11%). **Q2 earnings IR-CONFIRMED Tue Jul 14 (~7am ET), straight into June CPI (8:30am)** — the one near-term event-risk. Far above stop. INTACT sev 1. |
-| DE | 22 | 589.82 | 586.86 | −65.12 | −0.50% | **10% TRAILING (GTC)**, floor **575.073**, hwm 638.97 | 2026-06-04 | Deere — RE-RATED UP: big Q2 beat (May 21), FY26 guide raised, JPM PT $560→$590. **Off-cycle fiscal — next report fiscal Q3 ~mid-AUGUST.** 7/8 FTC right-to-repair SETTLEMENT = overhang cleared. INTACT sev 1; cushion tightest ~2.0% to floor. |
+| LLY | 14 | 1078.46 | 1173.77 | +1,334.34 | +8.84% | **10% TRAILING (GTC)**, floor **1124.505**, hwm **1249.45** | 2026-06-01 | Eli Lilly — Q1 beat + raised guide + oral GLP-1 (orforglipron, EBGLYSS). CMS Medicare GLP-1 "Bridge" ~$50/mo LIVE. No fresh dated catalyst. Thesis INTACT sev 1; cushion ~4.4% to floor. |
+| GE | 45 | 329.63 | 357.60 | +1,258.65 | +8.48% | **10% TRAILING (GTC)**, floor **344.673**, hwm 382.97 | 2026-06-08 | GE Aerospace — record commercial-aircraft demand + high-margin engine aftermarket + defense; lower beta. Q2 ~Jul 16 (ESTIMATE). ("Citi $431 PT" SCRUBBED — unverified.) INTACT sev 2 (earnings binary); cushion ~3.6% to floor. |
+| JPM | 34 | 329.695588 | 337.01 | +248.69 | +2.22% | **−7% HARD STOP (GTC)** @ **306.62** | 2026-06-29 | JPMorgan — $50B buyback (eff Jul 1) + Q3 div hike; largest US bank. STARTER (~11%). **Q2 earnings IR-CONFIRMED Tue Jul 14 (~7am ET), straight into June CPI (8:30am)** — the one near-term event-risk. Far above stop. INTACT sev 2 (reports tomorrow). |
+| DE | 22 | 589.82 | 586.15 | −80.63 | −0.62% | **10% TRAILING (GTC)**, floor **575.073**, hwm 638.97 | 2026-06-04 | Deere — RE-RATED UP: big Q2 beat (May 21), FY26 guide raised, JPM PT $560→$590. **Off-cycle fiscal — next report fiscal Q3 ~mid-AUGUST.** 7/8 FTC right-to-repair SETTLEMENT = overhang cleared. INTACT sev 1; cushion tightest ~1.9% to floor. |
 
-**Open positions: 4 of 5 (one slot OPEN).** **Buys used this week: 0 of 3.** **Cash buffer: ~43.9%** (~56.1% invested, ~$57,150 market value — above the 10–20% target; redeploy priority, gated on verifiable data at the Jul 14 JPM print + CPI). Net open unrealized **≈ +$3,032.71** (LLY +1,533.70, GE +1,333.80, JPM +230.33, DE −65.12) at close.
+**Open positions: 4 of 5 (one slot OPEN).** **Buys used this week: 0 of 3.** **Cash buffer: ~44.0%** (~56.0% invested, ~$56,846 market value — above the 10–20% target; redeploy priority, gated on verifiable data at the Jul 14 JPM print + CPI). Net open unrealized **≈ +$2,761.05** (LLY +1,334.34, GE +1,258.65, JPM +248.69, DE −80.63) at the open.
 
 ## Stop-management state (all 4 confirmed RESTING via open-orders query, status `new`, IDs unchanged)
 
-- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1124.505**, hwm **1249.45**. Close 1188.01 (below hwm, no ratchet), cushion ~5.3%.
-- **GE 10% trailing** `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` — floor **344.673**, hwm 382.97. Close 359.27 (below hwm, no ratchet), cushion ~4.1%.
-- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **575.073**, hwm 638.97. Close 586.86 (below hwm, no ratchet), cushion ~2.0% (tightest in book).
-- **JPM −7% HARD STOP** `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` — stop **306.62** (GTC), entry 329.695588. Converts to a 10% trailing the moment JPM tags +5% ($346.18); close 336.47 = +2.05%, so ~2.9% away.
+- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1124.505**, hwm **1249.45**. Mark 1173.77 (below hwm, no ratchet), cushion ~4.4%.
+- **GE 10% trailing** `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` — floor **344.673**, hwm 382.97. Mark 357.60 (below hwm, no ratchet), cushion ~3.6%.
+- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **575.073**, hwm 638.97. Mark 586.15 (below hwm, no ratchet), cushion ~1.9% (tightest in book).
+- **JPM −7% HARD STOP** `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` — stop **306.62** (GTC), entry 329.695588. Converts to a 10% trailing the moment JPM tags +5% ($346.18); mark 337.01 = +2.22%, so ~2.7% away.
 
-## Watch / next (next routine: **market-open Mon 7/13**)
+## Watch / next (next routine: **midday Mon 7/13**)
 
-- **JPM +5% → trailing conversion (standing task):** the moment JPM tags **$346.18** (+5%), cancel the −7% hard stop `3e8fe4ea` and place a **10% trailing GTC**. Close 336.47 = +2.05%, ~2.9% away.
-- **DE:** cushion tightest at ~2.0% and now fractionally red (−0.50%); off-cycle (next report mid-Aug), governed by the trailing stop — no discretionary action, just watch the 575.073 floor.
-- **GE:** cushion ~4.1%; thesis intact into Q2 ~Jul 16 (provisional).
-- **LLY:** cushion ~5.3%, book's strongest name (+10.16%), most room.
-- **PRIORITY #1: redeploy cash — GATED on verifiable data.** ~43.9% cash, 4/5 positions. Key re-scan = the **Jul 14 JPM Q2 print** (the one IR-confirmed date) **+ June CPI 8:30am**. Do NOT buy an unverifiable catalyst; hawkish-Fed/rising-10Y adds a reason for patience.
-- **ESCALATION WATCH (elevated — SURFACED at the 7/10 weekly review):** **week alpha −3.16 pts, 2nd straight sub-SPY week, cumulative cushion HALVED (+5.37→+2.16 in two weeks).** Honest update from the review: this week's miss was driven **mostly by the invested sleeve FALLING** (GE −4.82%, DE −5.44% while SPY rose), not primarily cash drag — a change from the 7/3 week. **NO rule changed** (pre-committed: the gate/cash re-evaluation is gated to POST-Jul-14 — loosening now, 2 sessions before the catalyst wave, is the over-fit trap). **Escalation teed up for Lauren:** if the Jul 14–17 bank-earnings wave + CPI passes and STILL nothing clears 2 signals + Conviction ≥70 while SPY keeps rising, put a plain-English A/B decision in the **inbox** (deploy idle ~44% cash into a broad/index-like holding vs. hold the defensive posture) — a mandate-level risk tradeoff that's hers, not a guardrail to bend. Already flagged to her in the 7/10 weekly message.
+- **JPM +5% → trailing conversion (standing task):** the moment JPM tags **$346.18** (+5%), cancel the −7% hard stop `3e8fe4ea` and place a **10% trailing GTC**. Mark 337.01 = +2.22%, ~2.7% away. Likely to move on tomorrow's Q2 print — watch closely at midday and at/around the Tue open.
+- **DE:** cushion tightest at ~1.9% and fractionally red (−0.62%); off-cycle (next report mid-Aug), governed by the trailing stop — no discretionary action, just watch the 575.073 floor.
+- **GE:** cushion ~3.6%; thesis INTACT into Q2 ~Jul 16 (ESTIMATE date — verify vs GE IR mid-week). Earnings are the real near-term risk to the +8.5% cushion.
+- **LLY:** cushion ~4.4%, book's strongest name (+8.84%), most room.
+- **PRIORITY #1: redeploy cash — GATED on verifiable data.** ~44.0% cash, 4/5 positions. Key re-scan = the **Jul 14 JPM Q2 print** (the one IR-confirmed date) **+ June CPI 8:30am**. Do NOT buy an unverifiable catalyst; hawkish-Fed/rising-10Y adds a reason for patience.
+- **ESCALATION WATCH (elevated — SURFACED at the 7/10 weekly review):** **week alpha −3.16 pts (7/6–7/10), 2nd straight sub-SPY week, cumulative cushion HALVED (+5.37→+2.16 in two weeks).** The 7/10 miss was driven mostly by the invested sleeve FALLING (GE, DE) on an up-tape, not primarily cash drag. **NO rule changed** (pre-committed: the gate/cash re-evaluation is gated to POST-Jul-14 — loosening now, into the catalyst wave, is the over-fit trap). **Escalation teed up for Lauren:** if the Jul 14–17 bank-earnings wave + CPI passes and STILL nothing clears 2 signals + Conviction ≥70 while SPY keeps rising, put a plain-English A/B decision in the **inbox** (deploy idle ~44% cash into a broad/index-like holding vs. hold the defensive posture) — a mandate-level risk tradeoff that's hers, not a guardrail to bend. Already flagged to her in the 7/10 weekly message.
 
 ## Recent closes (last 5)
 

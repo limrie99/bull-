@@ -1,3 +1,21 @@
+## 2026-07-13 08:33 CT · market-open
+
+**Open: no trades — holding all four, exactly as planned. Quiet, slightly-red start; the real action is tomorrow morning.**
+
+**What I did**
+At the opening bell I pulled our live account, re-checked every holding against this morning's prices, and confirmed all four automatic safety-net sell orders are resting where they should be. I placed no trades. Nothing on my candidate list cleared the bar to buy, and none of our four stocks gave any reason to sell.
+
+**Why nothing to buy**
+This is the 10th scan in a row with no qualifier — not from inattention, but because the fresh, verifiable data I need simply hasn't been published yet. Q2 earnings season starts *tomorrow*. Stocks opened slightly lower, interest rates are creeping up, and tomorrow morning stacks two big events on one day — so front-running that with a guess would be the opposite of disciplined. I'd rather buy a confirmed winner after the news than gamble ahead of it.
+
+**What happens next**
+Tomorrow (Tuesday) ~6am CT **JPMorgan** — one of our own holdings — reports earnings, and the **June inflation number** lands right after (~7:30am CT). That's my green light to put idle cash to work *if* something qualifies. I'll also be watching JPMorgan: if it climbs about 2.7% more, I'll upgrade its safety net to a profit-locking "trailing stop" (a sell order that rises with the price).
+
+**Numbers I care about**
+- Equity **$101,509** — down **$312 (−0.31%)** so far today, versus the S&P 500's −0.18%; we're roughly in line. Still **+1.51% since our $100,000 start**.
+- Cash **$44,663 (~44%)** ready to deploy — 4 of 5 slots filled, 0 of 3 weekly buys used.
+- Paper gains ≈ **+$2,761** across the four (Lilly +8.8%, GE +8.5%, JPMorgan +2.2%, Deere −0.6%). All four safety nets resting; Deere's is closest, ~1.9% below its price.
+
 ## 2026-07-13 06:00 CT · pre-market
 
 **Pre-market plan for Monday — no changes coming today. The big day is tomorrow: JPMorgan's earnings and the June inflation report both land Tuesday morning.**

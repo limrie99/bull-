@@ -1,3 +1,43 @@
+## 2026-07-13 08:33 CT (09:33 ET) — MARKET-OPEN (Mon, market OPEN; next_close 16:00 ET)
+
+**Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 09:32 ET. Inbox: **nothing pending.** Account (live Alpaca, at the open): equity **$101,509.79**, cash **$44,663.50** (~44.0%), long_market_value **$56,846.29** (~56.0%), last_equity (7/10 close) $101,821.67, buying_power $337,823.61, status ACTIVE, daytrade_count 0. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. NO trades this routine.**
+
+**Executed the 7/13 pre-market plan verbatim: HOLD all four, buy nothing, sell nothing.** Re-validated against live open prices; nothing changed the conclusion. 10th-straight empty buy-scan carried into the open.
+
+### Buy decision — NO buy
+- Nothing on the watchlist clears **2 VERIFIED signals + Conviction ≥70**. Genuine between-quarters lull; Q2 large-cap season opens with the **Jul 14 JPM print (IR-confirmed) + June CPI (8:30am)**. Watch names all single PLAUSIBLE signal, gated out: NVDA ~62 (wait 8/5), TSM ~58 (wait 7/16), MSFT ~60 (wait 7/28), ETN ~55 (wait 7/28). No verifiable fresh beat-and-raise / dated upgrade / insider buy to re-score any name.
+- Guardrail check for a hypothetical buy: 4/5 positions (slot open), 0/3 weekly buys, cash ~44.0%, daily loss cap NOT hit (book −0.31% intraday) — capacity exists; the block is the empty scan + data-verification wall, NOT caps. Mild risk-off tape + hawkish-Fed/rising-10Y + a binary CPI/JPM print tomorrow = two aligned reasons for patience. Buying a confirmed beat post-print > front-running into a CPI/Fed risk event.
+
+### Sell decision — NO sell
+- No overnight/at-open thesis-breaker on any of the 4 holdings (LLY sev 1, GE sev 2, JPM sev 2, DE sev 1). Nothing to sell discretionarily.
+- **No stop fired:** `GET /v2/orders?status=closed&after=2026-07-13T00:00:00Z` → empty (0 orders). No fills today.
+
+### Live at-the-open marks (Alpaca positions)
+- **LLY** 14 @ 1078.46 → mark 1173.77, P/L **+$1,334.34 (+8.84%)**. Trailing floor 1124.505, hwm 1249.45 (below hwm, no ratchet), cushion ~4.4%. INTACT sev 1. Book's strongest name, most room.
+- **GE** 45 @ 329.63 → mark 357.60, P/L **+$1,258.65 (+8.48%)**. Trailing floor 344.673, cushion ~3.6%. INTACT sev 2 (Q2 ~Jul 16 ESTIMATE — earnings binary). "Citi $431 PT" stays SCRUBBED (unverified).
+- **JPM** 34 @ 329.695588 → mark 337.01, P/L **+$248.69 (+2.22%)**. −7% hard stop 306.62; +5%→trailing trigger 346.18 (~2.7% away). **Q2 IR-CONFIRMED Tue Jul 14 ~7am** straight into CPI. INTACT sev 2 (thinnest cushion; a miss bites fastest, but stop far below).
+- **DE** 22 @ 589.82 → mark 586.15, P/L **−$80.63 (−0.62%)**. Trailing floor 575.073, cushion ~1.9% (tightest). INTACT sev 1 (off-cycle, next report ~mid-Aug); governed by the trailing stop.
+- Net open unrealized ≈ **+$2,761.05**.
+
+### Stops — all 4 RESTING, re-verified via open-orders query (`status:new`, IDs & trail state unchanged)
+- **LLY** 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor 1124.505, hwm 1249.45.
+- **GE** 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` — floor 344.673, hwm 382.97.
+- **DE** 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor 575.073, hwm 638.97.
+- **JPM** −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62 (GTC), entry 329.695588. **+5%→trailing conversion trigger $346.18 — NOT triggered (~2.7% away).** Standing task carries forward; likely to move on tomorrow's print.
+
+### Market/scorecard (intraday, close routine owns official)
+- SPY 753.62 live (09:33 ET) vs 754.94 (7/10 close) ≈ −0.18% intraday. Book ≈ −0.31% vs 7/10 close → lagging ~0.13 pts (soft invested sleeve, LLY/GE fractionally lower; ~44% cash gives no cushion but also no drag on a slightly red tape). Daily loss well under −3% cap.
+- WTD (baseline 7/2 close $103,686.56 / SPY 744.86): port ≈ −2.10% vs SPY ≈ +1.17% → week alpha ≈ −3.27 pts (early, one session in).
+
+### Standing tasks / watch (→ midday 7/13)
+- **JPM +5%→trailing conversion at $346.18** (cancel `3e8fe4ea`, place 10% trailing GTC) — not triggered, mark 337.01 = +2.22%. Watch at midday and around tomorrow's Q2 print.
+- **DE** — watch vs. 575.073 floor (tightest cushion ~1.9%). **GE** cushion ~3.6%, thesis intact into Q2 ~Jul 16 (ESTIMATE). **LLY** cushion ~4.4%.
+- **Redeploy cash (PRIORITY #1, gated on verifiable data)** — key re-scan = Jul 14 JPM Q2 print + June CPI.
+- **ESCALATION WATCH** — if the Jul 14–17 bank wave + CPI passes empty while SPY keeps rising, put the A/B cash-deployment decision in Lauren's inbox (per 7/10 weekly review). Not yet — the catalyst window opens tomorrow.
+- No Telegram push this routine (market-open, no trades — per skip rules).
+
+---
+
 ## 2026-07-13 06:00 CT (07:10 ET) — PRE-MARKET (Mon, market CLOSED pre-open; opens 09:30 ET)
 
 **Setup:** All 4 required keys present (ALPACA `PK…`, secret, base `https://paper-api.alpaca.markets`, PERPLEXITY `pplx-…`) + Telegram set. Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → research-only, NO trades. Inbox: **nothing pending.** Account (live Alpaca, pre-market indicative marks): equity **$101,793.29**, cash **$44,663.50** (~43.9%), long_market_value **$57,129.79** (~56.1%), last_equity (7/10 close per Alpaca) $101,821.67, buying_power $338,617.40, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3** (cap reset today Mon 7/13). (Pre-market indicative marks: LLY 1188.79, GE 357.98, JPM 337.49, DE 586.50 — the close routine owns the official daily scorecard.)
