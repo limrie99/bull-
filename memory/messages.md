@@ -1,3 +1,21 @@
+## 2026-07-13 15:00 CT · market-close
+
+**Close: equity $101,410 · day −0.40% · SPY −0.77% · alpha +0.37% — a red day where we lost less than the market. That's a win for the defense.**
+
+**How we're doing today**
+We finished down **$412 (−0.40%)**, but the S&P 500 (the index of the 500 biggest US companies — our benchmark) fell more, **−0.77%**. So even on a down day we came out **ahead of the market by about +0.37%** — that gap is our "alpha" (the extra return we earn versus just owning the index). This is exactly what our ~44% cash position is designed to do: on a broadly red day, the money sitting in cash doesn't fall, so we drop less than a fully-invested account would.
+
+**Why**
+There were no trades — nothing on my list cleared the bar to buy, and none of our four stocks gave a reason to sell. It was a quiet, slightly-down session for stocks generally, with everyone waiting on tomorrow's two big events. Our winners held: Lilly is still +9.8% and GE +7.2%. Deere dipped a hair (−0.7%) and has the tightest safety net, but its automatic sell order is doing its job.
+
+**What happens next — tomorrow is the day that matters**
+Tuesday morning stacks two market-movers: **JPMorgan** (one of ours) reports earnings ~6am CT, and the **June inflation report** lands right after (~7:30am CT). That's my green light to finally put some idle cash to work — *if* a stock clears the bar. I'll also be watching JPMorgan: if it climbs ~3.5% more, I'll upgrade its safety net to a profit-locking "trailing stop" (a sell order that ratchets up as the price rises).
+
+**Numbers I care about**
+- Equity **$101,410** — down **$412 (−0.40%)** today, but **beating the S&P 500 by +0.37%**. Still **+1.41% since our $100,000 start**.
+- Cash **$44,664 (~44%)** ready to deploy — 4 of 5 slots filled, 0 of 3 weekly buys used.
+- Paper gains ≈ **+$2,629** across the four (Lilly +9.8%, GE +7.2%, JPMorgan +1.5%, Deere −0.7%). All four safety nets resting and re-checked.
+
 ## 2026-07-13 12:00 CT · midday
 
 **Midday check — steady, nothing to change. We're down a hair today but holding up better than the market, which is exactly what a cash cushion is for.**

@@ -1,3 +1,35 @@
+## 2026-07-13 15:00 CT (16:00 ET) — MARKET-CLOSE (Mon, market CLOSED)
+
+**Setup:** 4 required keys present (+ Telegram set). Clock `is_open:false`, next_open Tue 2026-07-14 09:30 ET. Inbox: **nothing pending.** Account (live Alpaca, official close): equity **$101,409.76**, cash **$44,663.50** (~44.0%), long_market_value **$56,746.26** (~56.0%), last_equity (7/10 close) $101,821.67, buying_power $337,543.53, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. Zero closed orders today.**
+
+**Decision: NO TRADES** (quiet close, no fills, no adjustments). Risk pass clean; JPM +5% conversion not triggered (~3.5% away); all 4 stops resting, IDs/floors/hwm unchanged.
+
+### Closing marks (Alpaca positions)
+- **LLY** 14 @ 1078.46 → close 1184.59, P/L **+$1,485.82 (+9.84%)**. Trailing floor 1124.505, hwm 1249.45, cushion ~5.1%. INTACT sev 1. Book's strongest name.
+- **GE** 45 @ 329.63 → close 353.42, P/L **+$1,070.55 (+7.22%)**. Trailing floor 344.673, hwm 382.97, cushion ~2.5%. INTACT sev 2 (Q2 ~Jul 16 ESTIMATE — earnings binary this week).
+- **JPM** 34 @ 329.695588 → close 334.53, P/L **+$164.37 (+1.47%)**. −7% hard stop 306.62; +5%→trailing trigger 346.18 (~3.5% away). **Q2 IR-CONFIRMED Tue Jul 14 ~7am / 8:30 call, into June CPI 8:30am.** INTACT sev 2 (thinnest cushion; reports tomorrow).
+- **DE** 22 @ 589.82 → close 585.64, P/L **−$91.96 (−0.71%)**. Trailing floor 575.073, hwm 638.97, cushion ~1.8% (tightest). INTACT sev 1 (off-cycle, next report ~mid-Aug); governed by the trailing stop.
+- Net open unrealized ≈ **+$2,628.78**. Sizes: LLY 16.4% / GE 15.7% / DE 12.7% / JPM 11.2% — all < 20% cap. Cash ~44.0%.
+
+### Stops — all 4 RESTING (open-orders query `status:new`, nested, IDs/floors/hwm unchanged)
+- LLY 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505, hwm 1249.45.
+- GE 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` floor 344.673, hwm 382.97.
+- DE 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073, hwm 638.97.
+- JPM −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62.
+
+### Day summary (OFFICIAL scorecard)
+- **Closing equity: $101,409.76.** Day P/L **−$411.91 / −0.40%** (vs 7/10 close $101,821.67 = account last_equity, authoritative).
+- **SPY day: −0.77%** (749.13 close vs 754.94 7/10 close, IEX bars). **Alpha today: +0.37 pts** — we fell LESS than the market on a red tape; the ~44% cash cushion did its job today.
+- **Week-to-date (Monday = first session; baseline 7/10 close $101,821.67):** port **−0.40%** ($−411.91) vs **SPY −0.77%** → **week alpha +0.37 pts** (one session in).
+- **Total since $100K start: +1.41%.**
+- **Trades placed today:** 0. **Weekly buys used:** 0 of 3.
+- **What worked:** on a broadly red day (SPY −0.77%) we outperformed by +0.37 pts — the defensive/cash posture cushioned the downside exactly as designed; LLY (+9.84%) and GE (+7.22%) held their gains; every safety net stayed exactly in place, zero stop drama.
+- **What didn't:** the invested sleeve gave back a touch (GE −0.10%, LLY −0.36%, JPM −0.01%, DE fractionally red −0.71%); DE again carries the tightest cushion (~1.8% to its 575.073 floor); JPM flat (+1.47%) into its binary Tue print.
+- **Open questions for tomorrow (7/14 = the pivot):** (1) Does JPM Q2 (~7am ET, IR-confirmed) + June CPI (8:30am) finally deliver verifiable, gate-clearing data so we can redeploy the ~44% idle cash? (2) JPM +5% conversion ($346.18) likely to be tested on the print — watch at the open and place the 10% trailing GTC the moment it tags. (3) A hot CPI / hawkish surprise is the main downside risk into a rising-10Y tape; a cool print + a clean bank beat is the upside setup. (4) DE 1.8% cushion — governed by the trailing stop, no discretionary move.
+- **Note on alpha trend:** +0.37 pts today is a small positive after two sub-SPY weeks — the escalation watch (7/10 weekly review) stays teed up: if the Jul 14–17 bank wave + CPI passes empty while SPY rises, the A/B cash-deployment decision goes to Lauren's inbox. Not yet — the catalyst window opens tomorrow.
+
+---
+
 ## 2026-07-13 12:00 CT (13:02 ET) — MIDDAY (Mon, market OPEN; next_close 16:00 ET)
 
 **Setup:** 4 required keys present (+ Telegram set). Clock `is_open:true`. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,475.58**, cash **$44,663.50** (~44.0%), long_market_value **$56,812.08** (~56.0%), last_equity (7/10 close) $101,821.67, buying_power $337,727.82. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. Zero closed orders today.**
