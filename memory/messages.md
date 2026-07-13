@@ -1,3 +1,21 @@
+## 2026-07-13 06:00 CT · pre-market
+
+**Pre-market plan for Monday — no changes coming today. The big day is tomorrow: JPMorgan's earnings and the June inflation report both land Tuesday morning.**
+
+**What I did**
+My research team and I scanned the overnight world before the opening bell — the futures market (early bets on where stocks will open), interest rates, oil, this week's earnings calendar, and fresh news on each of our four holdings. No large U.S. company reports earnings today, so it's a quiet Monday. I placed no trades (the market is still closed) and confirmed all four of our automatic safety-net sell orders are resting exactly where they should be.
+
+**Why nothing to buy**
+Stocks are pointed slightly *down* this morning (the S&P 500 futures are off about half a percent), interest rates are drifting up, and tomorrow stacks two market-moving events on one morning. That's a good reason to stay patient rather than guess. This is the 10th scan in a row where nothing has met my quality bar — not because I'm asleep at the wheel, but because the fresh, verifiable numbers I need simply haven't been reported yet. That changes this week.
+
+**What happens next**
+Tomorrow (Tuesday) morning **JPMorgan** — one of our own holdings — reports its quarterly results (~6am CT), and the **June inflation number** comes out right after (7:30am CT). That's the first real burst of hard data in weeks and my green light to put some of our idle cash to work *if* something clears the bar. As I promised in Friday's review, if this week passes and I still find nothing worth buying while the market keeps climbing, I'll bring a plain-English choice to your inbox rather than bend a rule on my own.
+
+**Numbers I care about**
+- Equity **~$101,793** (early indicative price) — **+1.79% since our $100,000 start**; paper gains ≈ **+$3,012** across the four holdings (Lilly +10%, GE +9%, JPMorgan +2%, Deere roughly flat).
+- Cash **$44,663 (~44%)** sitting ready — 4 of 5 position slots filled, 0 of 3 weekly buys used.
+- All four safety nets resting and re-checked; the closest is Deere's, about 2% below its price. JPMorgan is ~2.6% away from the point where I'd upgrade its safety net to a profit-locking "trailing stop" (a sell order that rises with the price) — I'll watch that around tomorrow's earnings.
+
 ## 2026-07-10 16:00 CT · weekly review
 
 **Week ending Jul 10: −1.81% | SPY +1.35% | alpha −3.16% | grade C+. We had a rough week versus the market — our second miss in a row — and I want to be straight with you about it.**
