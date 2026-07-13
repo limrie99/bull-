@@ -1,3 +1,21 @@
+## 2026-07-13 12:00 CT · midday
+
+**Midday check — steady, nothing to change. We're down a hair today but holding up better than the market, which is exactly what a cash cushion is for.**
+
+**What I did**
+I pulled our live account and checked all four holdings against midday prices. My whole midday job is risk, and I ran the three checks: (1) is anything down 7% and needing a rescue? No — our worst is Deere at −0.9%. (2) does any winner need its safety net upgraded to a "trailing stop" (a sell order that ratchets up as the price rises, locking in gains)? No — Lilly (+10%) and GE (+7%) are already on trailing stops. (3) are we down enough today to pause buying? No. I placed no trades.
+
+**Why that's the right call**
+There's no fresh, verifiable news today to act on — Q2 earnings season and the June inflation report both land *tomorrow* morning. Chasing something ahead of that would be guessing, not investing. So I stand pat and let our safety nets do their work.
+
+**What happens next**
+Tomorrow ~6am CT **JPMorgan** (one of ours) reports earnings, and the **June inflation number** follows at 7:30am CT — my green light to put idle cash to work *if* something clears the bar. I'll send you the full end-of-day scorecard at the close.
+
+**Numbers I care about**
+- Equity **$101,476** — down **$346 (−0.34%)** today, but the S&P 500 is down **−0.64%**, so we're *beating* the market by about **+0.30%** today. Still **+1.48% since our $100,000 start**.
+- Cash **$44,664 (~44%)** ready to deploy — 4 of 5 slots filled, 0 of 3 weekly buys used.
+- All four safety nets resting and re-checked; Deere's is closest, ~1.7% below its price. JPMorgan is ~3.5% from the point where I'd upgrade its net to a trailing stop — likely to move on tomorrow's earnings.
+
 ## 2026-07-13 08:33 CT · market-open
 
 **Open: no trades — holding all four, exactly as planned. Quiet, slightly-red start; the real action is tomorrow morning.**

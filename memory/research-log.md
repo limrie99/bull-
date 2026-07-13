@@ -1,3 +1,26 @@
+## 2026-07-13 12:00 CT (13:02 ET) — MIDDAY (Mon, market OPEN; next_close 16:00 ET)
+
+**Setup:** 4 required keys present (+ Telegram set). Clock `is_open:true`. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,475.58**, cash **$44,663.50** (~44.0%), long_market_value **$56,812.08** (~56.0%), last_equity (7/10 close) $101,821.67, buying_power $337,727.82. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. Zero closed orders today.**
+
+**Risk sweep (priority order):**
+- (a) **−7% check:** none. Worst = DE −0.86% (mark 584.74). No sell trigger. All 4 theses INTACT.
+- (b) **+5% → trailing conversion:** LLY +10.24% and GE +7.32% already on 10% trailing stops (no action). JPM +1.47%, mark 334.54, +5% trigger $346.18 → ~3.5% away, no conversion. DE −0.86%, n/a.
+- (c) **Daily loss cap:** portfolio day −$346.09 / −0.34% vs 7/10 close — well under −3% cap. No buy-block.
+
+**Stops (open-orders `status:new`, nested — all RESTING, IDs/floors/hwm unchanged):**
+- LLY trailing `6016a7e7` floor 1124.505 hwm 1249.45 (cushion ~5.4%)
+- GE trailing `b9dadf2d` floor 344.673 hwm 382.97 (cushion ~2.6%)
+- DE trailing `dcdd84e5` floor 575.073 hwm 638.97 (cushion ~1.7%, tightest)
+- JPM hard stop `3e8fe4ea` @ 306.62
+
+**Marks:** LLY 1188.88 (+1,545.88), GE 353.775 (+1,086.53), JPM 334.54 (+164.71), DE 584.74 (−111.76). Net unrealized ≈ +$2,685.36. Sizes: LLY 16.4% / GE 15.7% / DE 12.7% / JPM 11.2% — all < 20% cap.
+
+**Benchmark (intraday):** SPY 750.14 live vs 754.94 (7/10 close) = −0.64%. Port −0.34% → **alpha ≈ +0.30 pts** (cash cushion cushioning a red tape; invested sleeve ~flat-to-soft).
+
+**Buys:** NONE. No high-conviction breaking catalyst at midday; watchlist top (GS 60) does not clear 2 signals + Conviction ≥70. Redeploy stays gated on the Jul 14 JPM print + June CPI. Between-quarters lull holds into tomorrow's data wave.
+
+**Actions this run:** none (no trades, no stop changes). Memory + dashboard written; HEAD:main push. No Telegram (quiet midday, per CLAUDE.md skip rules).
+
 ## 2026-07-13 08:33 CT (09:33 ET) — MARKET-OPEN (Mon, market OPEN; next_close 16:00 ET)
 
 **Setup:** All 4 required keys present (+ Telegram set). Clock `is_open:true`, timestamp 09:32 ET. Inbox: **nothing pending.** Account (live Alpaca, at the open): equity **$101,509.79**, cash **$44,663.50** (~44.0%), long_market_value **$56,846.29** (~56.0%), last_equity (7/10 close) $101,821.67, buying_power $337,823.61, status ACTIVE, daytrade_count 0. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. NO trades this routine.**

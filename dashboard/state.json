@@ -1,147 +1,81 @@
 {
-  "last_update": "2026-07-13 08:33 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-07-13 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 101509.79,
+  "equity": 101475.58,
   "cash": 44663.50,
-  "day_pl": -311.88,
-  "day_pl_pct": -0.31,
-  "week_pl_pct": -2.10,
-  "spy_week_pct": 1.17,
-  "alpha_week_pct": -3.27,
+  "day_pl": -346.09,
+  "day_pl_pct": -0.34,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1173.77,
-      "pl_pct": 8.84,
+      "current": 1188.88,
+      "pl_pct": 10.24,
       "stop": 1124.505
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 357.60,
-      "pl_pct": 8.48,
+      "current": 353.775,
+      "pl_pct": 7.32,
       "stop": 344.673
-    },
-    {
-      "symbol": "JPM",
-      "qty": 34,
-      "avg_cost": 329.695588,
-      "current": 337.01,
-      "pl_pct": 2.22,
-      "stop": 306.62
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 586.15,
-      "pl_pct": -0.62,
+      "current": 584.74,
+      "pl_pct": -0.86,
       "stop": 575.073
+    },
+    {
+      "symbol": "JPM",
+      "qty": 34,
+      "avg_cost": 329.695588,
+      "current": 334.54,
+      "pl_pct": 1.47,
+      "stop": 306.62
     }
   ],
   "recent_trades": [
-    {
-      "date": "2026-07-02 13:36",
-      "side": "SELL",
-      "symbol": "ETN",
-      "qty": 24,
-      "price": 392.75
-    },
-    {
-      "date": "2026-06-29 08:38",
-      "side": "BUY",
-      "symbol": "JPM",
-      "qty": 34,
-      "price": 329.695588
-    },
-    {
-      "date": "2026-06-08 08:38",
-      "side": "BUY",
-      "symbol": "ETN",
-      "qty": 24,
-      "price": 401.5425
-    },
-    {
-      "date": "2026-06-08 08:36",
-      "side": "BUY",
-      "symbol": "GE",
-      "qty": 45,
-      "price": 329.63
-    },
-    {
-      "date": "2026-06-05 13:52",
-      "side": "SELL",
-      "symbol": "NVDA",
-      "qty": 55,
-      "price": 204.7158
-    },
-    {
-      "date": "2026-06-04 08:35",
-      "side": "BUY",
-      "symbol": "DE",
-      "qty": 22,
-      "price": 589.82
-    },
-    {
-      "date": "2026-06-01 10:46",
-      "side": "BUY",
-      "symbol": "NVDA",
-      "qty": 55,
-      "price": 220.15
-    }
+    {"date": "2026-07-02 13:36", "side": "SELL", "symbol": "ETN", "qty": 24, "price": 392.75},
+    {"date": "2026-06-29 08:38", "side": "BUY", "symbol": "JPM", "qty": 34, "price": 329.695588},
+    {"date": "2026-06-08 08:38", "side": "BUY", "symbol": "ETN", "qty": 24, "price": 401.5425},
+    {"date": "2026-06-08 08:36", "side": "BUY", "symbol": "GE", "qty": 45, "price": 329.63},
+    {"date": "2026-06-05 13:52", "side": "SELL", "symbol": "NVDA", "qty": 55, "price": 204.7158},
+    {"date": "2026-06-04 08:35", "side": "BUY", "symbol": "DE", "qty": 22, "price": 589.82},
+    {"date": "2026-06-01 10:46", "side": "BUY", "symbol": "NVDA", "qty": 55, "price": 220.15}
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-13 12:00 CT",
+      "routine": "midday",
+      "headline": "Equity $101,476 · day −0.34% · beating SPY (−0.64%) by ~+0.30% · no changes",
+      "body": "Steady midday. Risk sweep clean: nothing near the −7% stop (worst DE −0.9%), both winners (LLY +10%, GE +7%) already on trailing stops, daily loss cap not hit. No trades — no fresh data to act on; JPMorgan earnings + June inflation both land tomorrow morning. ~44% cash ready. Full scorecard at the close."
+    },
+    {
       "ts": "2026-07-13 08:33 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — holding all four; the real action is tomorrow (JPM earnings + June inflation)",
-      "body": "Quiet, slightly-red start. 10th straight scan with nothing clearing the buy bar — the fresh verifiable data starts tomorrow. Held all four (Lilly +8.8%, GE +8.5%, JPMorgan +2.2%, Deere −0.6%), all safety nets resting. Equity $101,509, down $312 (−0.31%) so far vs SPY −0.18% — roughly in line. ~44% cash ready. Tomorrow AM JPMorgan reports + June inflation prints — my green light to redeploy if something qualifies. Watching JPM for the +5% point where I upgrade its safety net to a trailing stop."
+      "headline": "Open: no trades — holding all four, exactly as planned",
+      "body": "Quiet, slightly-red start. 10th straight scan with no qualifier — real action is tomorrow (JPM Q2 + June CPI). Equity $101,509, −0.31% vs SPY −0.18%. Cash ~44%, 0/3 weekly buys. All four stops resting."
     },
     {
       "ts": "2026-07-13 06:00 CT",
       "routine": "pre-market",
-      "headline": "Pre-market: no changes today — the big day is Tuesday (JPM earnings + June inflation)",
-      "body": "Quiet Monday, no large-cap reports today, and stocks point slightly down into a two-event Tuesday. 10th straight scan with nothing clearing my quality bar — the fresh verifiable data starts this week. Holding all four (Lilly +10%, GE +9%, JPMorgan +2%, Deere flat), ~44% cash ready. Tomorrow AM JPMorgan reports and the June inflation number lands — my green light to redeploy cash if something qualifies. All four safety nets resting."
+      "headline": "Pre-market plan for Monday — no changes today; big day is Tuesday",
+      "body": "Quiet Monday, no US large-cap earnings. JPMorgan Q2 + June inflation both land Tuesday morning — the green light to redeploy idle cash if something qualifies. Cash ~44%, all four safety nets re-checked."
     },
     {
       "ts": "2026-07-10 16:00 CT",
-      "routine": "weekly-review",
+      "routine": "weekly review",
       "headline": "Week ending Jul 10: −1.81% | SPY +1.35% | alpha −3.16% | grade C+",
-      "body": "Second straight week trailing the market, and bigger than last week. New wrinkle: this time it wasn't just idle cash — two of our own 'steady' industrials fell (GE −4.8%, Deere −5.4%) while the S&P made new highs. Good news: no real money lost, just paper profit given back; every holding still green/flat, no safety net near firing. Our ~6-week lead over the market shrank from +6.9 to +2.2 points, so I'm flagging it. I'm holding buys until next week's JPMorgan/bank earnings + June inflation — the first fresh, verifiable data in weeks. If that passes and I still find nothing worth buying while the market climbs, I'll bring you a plain-English decision (deploy idle cash into a broad-market holding vs. stay cautious) rather than bend a rule myself."
-    },
-    {
-      "ts": "2026-07-10 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $101,813 · day −0.48% · SPY +0.45% · alpha −0.93%",
-      "body": "Quiet, slightly-down day and we lagged a rising market — mostly because ~44% of the account sits in cash, which can't rise on a green day. No trades, all four safety nets resting, every thesis intact. This week we trailed the market by ~3.2 points (cash drag); holding fire until Tuesday's JPMorgan earnings + June inflation print to redeploy on verified data."
-    },
-    {
-      "ts": "2026-07-10 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — all four holdings green, safety nets in place",
-      "body": "Risk checklist clean; nothing near a trigger. Quiet between-earnings stretch into the Jul 14 JPM print + June CPI."
-    },
-    {
-      "ts": "2026-07-10 08:33 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — nothing cleared the buy gate",
-      "body": "Held the book; watchlist top name still below the conviction threshold."
-    },
-    {
-      "ts": "2026-07-10 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market scan — no new buy candidates cleared the gate",
-      "body": "Between-quarters lull; patience into the Jul 14 JPM + CPI double-header."
-    },
-    {
-      "ts": "2026-07-09 15:05 CT",
-      "routine": "market-close",
-      "headline": "Close 7/9 — quiet down day, book lagged on cash drag",
-      "body": "No trades; stops resting; FOMC minutes hawkish backdrop carried forward."
+      "body": "Rough week vs the market — second miss in a row. Honest about it. Escalation teed up: if next week's bank-earnings wave + CPI passes and still nothing qualifies while SPY climbs, I'll bring a plain-English cash-deployment choice to your inbox."
     }
   ]
 }
