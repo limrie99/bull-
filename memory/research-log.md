@@ -3355,3 +3355,48 @@ Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM 
 **Decision — NO strategy change (pre-committed):** the 7/3 forward trigger gated the gate/cash re-evaluation to POST-Jul-14 ("if verifiable data returns and STILL nothing clears 2 signals + Conviction ≥70 while SPY keeps rising"). Jul 14 (JPM Q2 + CPI + bank wave) is 2 sessions out — the exact catalyst window that broke the thin bench on 6/24 (CCAR). Loosening the gate / force-deploying now, on a 2-week sample, 2 sessions before the data wave, is the over-fit trap. All guardrails stay as written. **Escalation to Lauren teed up:** if the Jul 14–17 wave passes empty while SPY rises, bring her a plain-English A/B decision (deploy idle cash into a broad/index-like holding to cut structural under-exposure vs. hold the defensive posture) — a mandate-level risk tradeoff that's hers, not a guardrail to bend unilaterally. Surfaced in her 7/10 weekly message; the actual inbox decision-prompt goes up AFTER Tuesday if the wave is empty.
 
 **Grade: C+.** 2nd straight sub-SPY week, double the prior miss, cushion halved, and the miss was our own holdings falling on an up-tape (not just cash) — a real named pattern, not noise. Above C: no rule broken, no stop mismanaged, all theses re-verified, correctly refused to force a buy into a data wall, losses are unrealized give-backs from a still-profitable book, still +2.16 cumulative. Below the prior B: two widening misses + compressing lead = time to escalate, which I did without knee-jerking a rule change.
+
+---
+
+## 2026-07-14 08:36 CT (09:36 ET) — MARKET-OPEN (Tue, market OPEN; next_close 16:00 ET). THE PRE-COMMITTED RE-SCAN GATE DAY
+
+**Setup:** 4 required keys present (cloud mode, no `.env` on disk; Telegram set). Clock `is_open:true`, timestamp 09:32 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,357.63**, cash **$44,663.50** (~44.1%), long_market_value **$56,694.13** (~55.9%), last_equity (7/13 close) $101,371.68, buying_power $337,397.56, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. Zero closed orders today (`status=closed&after=2026-07-14` → 0). NO trades this routine.**
+
+**Decision: NO TRADES — 12th straight empty scan.** Nothing clears 2 VERIFIED signals + Conviction ≥70. The pre-committed gate arrived; the data did not verify.
+
+### The gate arrived, the data didn't verify
+- Two research sub-agents (bank-earnings + CPI) both hit the **Perplexity mid-2026 retrieval wall**: NO confirmed JPM Q2 actual EPS/rev, NO confirmed CPI print, NO confirmed GS/C/WFC/BAC beat-and-raise, NO dated analyst upgrade today. Both correctly declined to confabulate; flagged mismatched/undated figures (a GS "+6.56% surprise" tied to the Toronto GS.TO listing, an undated JPM "−2.47%" move) as likely confabulation — discarded.
+- **What IS verifiable (Alpaca live tape, authoritative):** SPY ~749.78 (+0.09% vs 7/13 close 749.13) = essentially FLAT — the feared hot-core risk-off FLUSH did NOT materialize (calm tape). JPM live trade 336.69–337.00 vs 7/13 close 334.53 = **+~0.65–0.7% intraday** = a MILD POSITIVE reaction to its print (not a big beat pop, not a miss selloff). NOTE: the `/v2/positions` snapshot briefly showed a stale JPM mark 330.79; the trades/latest feed (336.69→337.00) is the live truth — reconciled.
+- A mild drift-up is **not** a "confirmed beat-and-raise" (buy-signal #1). No bench name (GS/AXP) picked up a verifiable 2nd signal. So the buy-gate stays unmet: capacity exists (slot open, 0/3 buys, cash ~44%, daily loss cap NOT hit), the block is the verification wall — NOT caps.
+
+### Buy decision — NO buy
+- Watchlist top unchanged and sub-gate: **AXP 62** (1 solid signal — VERIFIED JPM upgrade 7/13; needs a 2nd), **GS 60** (Q2 reported today, actuals unverifiable — re-check when confirmable). MS 52, V/AMGN/CB/CVS/VST 50, PANW 35.
+- Do NOT buy an unverifiable catalyst; do NOT chase JPM's mild pop. A confirmed post-print beat-and-raise (when it becomes verifiable) > front-running.
+
+### Sell decision — NO sell
+- No holding at/below −7%; no thesis-breaker; no stop fired (0 closed orders today). LLY/GE/DE on 10% trailing stops, JPM on −7% hard stop @306.62.
+- **JPM +5%→trailing conversion NOT triggered:** trigger $346.18, mark 337.00 = +2.22%, ~2.7% away (closer post-print). Standing task carries to midday.
+
+### Live at-the-open marks (Alpaca positions)
+- **LLY** 14 @ 1078.46 → mark 1148.93, P/L **+$986.58 (+6.53%)**. Trailing floor 1124.505, hwm 1249.45, cushion **~2.1% (TIGHTEST — pulled back today from ~5% Fri)**. INTACT sev 1.
+- **GE** 45 @ 329.63 → mark 355.42, P/L **+$1,160.55 (+7.82%)**. Trailing floor 344.673, cushion ~3.0%. INTACT sev 1 (Q2 VERIFIED Thu Jul 16 7:30am EDT — earnings binary).
+- **JPM** 34 @ 329.695588 → mark 337.00, P/L **+$248.35 (+2.22%)**. −7% hard stop 306.62; +5%→trailing trigger 346.18 (~2.7% away). Q2 reported today, mild positive reaction. INTACT sev 2.
+- **DE** 22 @ 589.82 → mark 598.395, P/L **+$188.65 (+1.45%)**. Trailing floor 575.073, cushion ~3.9% (IMPROVED — DE +1.45% today). INTACT sev 1 (off-cycle, next ~Aug 20).
+- Net open unrealized ≈ **+$2,584.13**. Sizes: LLY 15.9% / GE 15.8% / DE 13.0% / JPM 11.3% — all < 20% cap.
+
+### Stops — all 4 RESTING (open-orders `status:new`, IDs/floors/hwm unchanged)
+- LLY 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505, hwm 1249.45.
+- GE 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` floor 344.673, hwm 382.97.
+- DE 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073, hwm 638.97.
+- JPM −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62.
+
+### Market/scorecard (intraday; close routine owns official)
+- Day: equity $101,357.63 vs 7/13 close $101,371.68 = **−$14.05 / −0.01%** (flat). SPY +0.09% → **alpha today ≈ −0.10 pts** (flat/flat).
+- WTD (baseline 7/10 close $101,821.67 / SPY 754.94): port **−0.46%** vs SPY **−0.68%** → **week alpha ≈ +0.22 pts** (2 sessions in).
+- Total since $100K start: **+1.36%.**
+
+### Escalation watch — HELD (still mid-window)
+- Trigger = "Jul 14–17 bank wave + CPI passes with STILL nothing clearing 2 signals + Conviction ≥70 WHILE SPY keeps rising." Today's data was **unverifiable, not confirmed-empty**; GE Q2 (Thu 7/16) still pending; SPY is **flat, not rising**. So the escalation does NOT fire today — stays teed up for the back half of this window (post-GE Thu / Fri weekly review). If the window closes empty with SPY higher, the A/B cash-deployment decision (deploy idle ~44% into a broad/index-like holding vs. hold defensive) goes to Lauren's inbox then.
+
+### Actions this run
+- No trades, no stop changes. Memory (portfolio/messages/watchlist-state) + dashboard written; commit + HEAD:main push. **No Telegram** (market-open with no trades — per CLAUDE.md skip rules: "Do NOT push on pre-market scans with no trades"; a no-trade open is the same class). Next routine: midday ~12:00 CT — re-scan bench post-bank-prints, watch JPM 346.18 conversion trigger.
