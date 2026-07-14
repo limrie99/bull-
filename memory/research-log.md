@@ -3400,3 +3400,39 @@ Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM 
 
 ### Actions this run
 - No trades, no stop changes. Memory (portfolio/messages/watchlist-state) + dashboard written; commit + HEAD:main push. **No Telegram** (market-open with no trades — per CLAUDE.md skip rules: "Do NOT push on pre-market scans with no trades"; a no-trade open is the same class). Next routine: midday ~12:00 CT — re-scan bench post-bank-prints, watch JPM 346.18 conversion trigger.
+
+## 2026-07-14 12:02 CT (13:02 ET) — MIDDAY routine (Tue, market OPEN, next_close 16:00 ET)
+
+**Decision: NO TRADES, NO STOP CHANGES — steady midday.** Live Alpaca: equity $101,066.19, cash $44,663.50 (~44.2%), long_mv $56,402.69, last_equity (7/13 close) $101,371.68 → day −$305.49 / −0.30%. Book 4/5 (slot OPEN). Weekly buys 0/3. Zero fills / zero stops fired today. Inbox: nothing pending.
+
+### Risk sweep (priority order)
+- **(a) −7% or worse?** NO. Worst DE −1.73% (mark 579.63 vs cost 589.82) — far from −7%. DE fell intraday (open +1.45% → now −1.73%, ~−3.1% intraday). Perplexity DE check: NO verifiable Jul 14 DE-specific news/downgrade; driver = ag/farm-cycle sector caution (severity 2, sector noise, NOT thesis-breaker). Thesis INTACT. Governed by 10% trailing — no discretionary sell.
+- **(b) +5%+ needing trailing conversion?** GE +7.28% & LLY +7.00% already on trailings. JPM +3.45% ($341.06) < +5% trigger $346.18 (~1.50% away) → hard stop stays, no conversion.
+- **(c) Daily loss cap:** −0.30% intraday, well inside −3% → not triggered (buys not blocked by cap).
+
+### Positions (Alpaca live ~13:02 ET)
+- **LLY** 14 @ 1078.46 → 1153.985, +$1,057.35 (+7.00%). Trailing floor 1124.505, hwm 1249.45, cushion ~2.6%. INTACT sev 1. Up today.
+- **GE** 45 @ 329.63 → 353.625, +$1,079.78 (+7.28%). Trailing floor 344.673, hwm 382.97, cushion ~2.5%. INTACT sev 1. Q2 VERIFIED Thu Jul 16 7:30am EDT.
+- **JPM** 34 @ 329.695588 → 341.06, +$386.39 (+3.45%). −7% hard stop 306.62; +5%→trailing trigger 346.18 (~1.50% away — closest yet). Q2 reported 7/14, actuals still unverifiable, drifting up. INTACT sev 2.
+- **DE** 22 @ 589.82 → 579.63, −$224.18 (−1.73%). Trailing floor 575.073, hwm 638.97, cushion ~0.8% (TIGHTEST — DE the day's drag on ag noise). INTACT sev 1 (off-cycle, next ~Aug 20).
+- Net open unrealized ≈ +$2,299.34. Sizes: LLY 16.0% / GE 15.7% / DE 12.6% / JPM 11.5% — all < 20% cap.
+
+### Stops — all 4 RESTING (open-orders `status:new`, IDs/floors/hwm unchanged)
+- LLY 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505, hwm 1249.45.
+- GE 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` floor 344.673, hwm 382.97.
+- DE 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073, hwm 638.97 (cushion ~0.8% — watch at close).
+- JPM −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62.
+
+### Market/scorecard (intraday; close routine owns official)
+- Day: equity $101,066.19 vs 7/13 close $101,371.68 = **−$305.49 / −0.30%**. SPY 752.01 vs 749.13 = **+0.38%** → **alpha today ≈ −0.68 pts** (mild red on a green tape; DE the drag).
+- WTD (baseline 7/10 close $101,821.67 / SPY 754.94): port **−0.74%** vs SPY **−0.39%** → **week alpha ≈ −0.35 pts** (2 sessions in).
+- Total since $100K start: **+1.07%.**
+
+### No-buy rationale
+- Midday only buys on a high-conviction BREAKING catalyst. None surfaced: verification wall on JPM Q2 / June CPI persists; no bench name (AXP 62 / GS 60) picked up a 2nd VERIFIED signal from the bank wave. Nothing clears 2 VERIFIED signals + Conviction ≥70. Capacity exists (slot open, 0/3 buys, ~44% cash, loss cap not hit) — the block is verification, not caps.
+
+### Escalation watch — HELD (still mid-window)
+- Trigger = "Jul 14–17 bank wave + CPI passes with STILL nothing clearing 2 signals + Conviction ≥70 WHILE SPY keeps rising." Today's data was unverifiable (not confirmed-empty); GE Q2 (Thu 7/16) still pending; SPY only marginally green. Escalation does NOT fire today — stays teed up for post-GE Thu / Fri weekly review.
+
+### Actions this run
+- No trades, no stop changes. Memory (portfolio/messages) + dashboard written; commit + HEAD:main push. **No Telegram** (quiet midday, no trade — per CLAUDE.md skip rules). Next routine: market-close ~15:00 CT — official scorecard + mandatory daily Telegram, watch JPM 346.18 conversion trigger and DE's tight (~0.8%) trailing.

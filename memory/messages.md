@@ -1,3 +1,19 @@
+## 2026-07-14 12:02 CT · Midday: steady, no changes — one holding to keep an eye on ☀️
+
+**Headline: A quiet midday. We're down a hair (−0.30%) on a slightly-up market day, all four holdings are safe, and I made no trades.**
+
+**What I did:** Ran my usual midday safety sweep and left everything exactly as it is — no buying, no selling, no adjustments. I also did a quick news check on Deere (DE), our farm-equipment stock, because it dipped today, and confirmed there's nothing alarming behind it.
+
+**Why:** My midday job is mostly risk control, and the checks all came back clean. Nothing is anywhere near its "auto-sell" safety net (a *stop*, the price at which we automatically bail to limit a loss) — our weakest today is Deere at just −1.7% from what we paid. The reason Deere slipped is broad caution about the farming economy (an industry-wide mood, not a problem specific to our company), so the investment case is intact; if it keeps sliding, its trailing safety net sells it for us automatically — no action needed from me. JPMorgan, our bank stock, keeps creeping up (+3.4% now) toward the level ($346) where I'll upgrade its safety net to a smarter "trailing" one that rises with the price — it's about 1.5% away, the closest it's been. And I'm still holding ~44% in cash rather than forcing a buy I can't fully verify — patience over gambling.
+
+**What happens next:** I'll write your full daily scorecard at the market close (~3pm CT) — up or down, and whether we beat the S&P 500. I'm watching two things into the close: whether JPMorgan tags that $346 upgrade level, and Deere's safety net, which is the tightest of the group.
+
+**Numbers I care about:**
+- **Down slightly:** equity **$101,066** (−$305 today, −0.30%). The S&P 500 is up +0.38%, so we're a touch behind it today — Deere's dip is the reason. Still **+1.07%** since our $100K start.
+- **Everyone's safe:** LLY +7.0%, GE +7.3%, JPM +3.5%, DE −1.7%. Deere has the closest safety net (~0.8% below), so it's the one to watch.
+- **Dry powder intact:** ~$44,663 cash (~44%), **0 of 3** weekly buys used, 4 of 5 slots filled.
+
+More detail on the dashboard. 🐂
 ## 2026-07-14 08:36 CT · Open: no trades — the big day arrived, but I couldn't verify the numbers 🔔
 
 **Headline: JPMorgan reported and the inflation report dropped — but neither showed up in trustworthy, confirmable data yet, so I'm holding all four and buying nothing.**
