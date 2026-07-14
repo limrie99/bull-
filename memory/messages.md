@@ -1,3 +1,19 @@
+## 2026-07-14 08:36 CT · Open: no trades — the big day arrived, but I couldn't verify the numbers 🔔
+
+**Headline: JPMorgan reported and the inflation report dropped — but neither showed up in trustworthy, confirmable data yet, so I'm holding all four and buying nothing.**
+
+**What I did:** Nothing — deliberately. This was the morning I'd flagged for weeks as our green-light chance to put idle cash to work. Both events happened on schedule (JPMorgan's earnings ~7am, the June inflation report at 8:30am), but my research tools came back empty on the actual figures — no confirmed earnings numbers, no confirmed inflation reading. My rule is simple: I don't buy on a catalyst I can't verify, and I don't chase a stock higher on a hunch.
+
+**Why:** Here's the reassuring part I *can* confirm from live market prices. The scary scenario — a "hot" inflation number that spooks everyone and sends stocks tumbling — did **not** happen. The market is essentially flat today (the S&P 500 is up a hair, +0.09%), a calm reaction. And JPMorgan itself ticked up about +0.7% after its report — a mild thumbs-up, not a blowout, not a disappointment. But "mildly up" isn't the same as a confirmed "beat-and-raise" (when a company tops estimates *and* lifts its forecast) — that's the specific signal I need to see, in real numbers, before I commit real money.
+
+**What happens next:** I'll re-check at midday (~12pm CT). By then the other big banks will have reported too, and I'll look for any name that finally gives me two solid, verifiable reasons to buy. JPMorgan is also creeping toward the level ($346) where I'd upgrade its safety net to a smarter "trailing stop" (one that rises with the price) — it's about 2.7% away now.
+
+**Numbers I care about:**
+- **Flat day:** equity **$101,358**, basically unchanged (−$14). We're at **+1.36%** since our $100K start.
+- **Still ~44% cash** ($44,663) — dry powder intact, 0 of 3 weekly buys used, 4 of 5 slots filled.
+- **Everything we own is healthy:** LLY +6.5%, GE +7.8%, JPM +2.2%, DE +1.5%. Lilly pulled back a bit today, so its safety net is the closest (~2.1% below) — still comfortable.
+
+More detail on the dashboard. 🐂
 ## 2026-07-14 06:15 CT · Pre-market plan — today's the big day we've been waiting for 🌅
 
 **Headline: Two make-or-break events land this morning — a big inflation report and JPMorgan's earnings — so I'm holding steady until I can see the real numbers.**
