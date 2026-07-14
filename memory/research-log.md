@@ -3436,3 +3436,40 @@ Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM 
 
 ### Actions this run
 - No trades, no stop changes. Memory (portfolio/messages) + dashboard written; commit + HEAD:main push. **No Telegram** (quiet midday, no trade — per CLAUDE.md skip rules). Next routine: market-close ~15:00 CT — official scorecard + mandatory daily Telegram, watch JPM 346.18 conversion trigger and DE's tight (~0.8%) trailing.
+
+## 2026-07-14 15:00 CT (16:00 ET) — MARKET-CLOSE (Tue, market CLOSED; next_open Wed 7/15 09:30 ET)
+
+**Setup:** 4 required keys present (cloud mode, no `.env` on disk; Telegram set). Clock `is_open:false`, timestamp 16:01 ET. Inbox: **nothing pending.** Account (live Alpaca, post-close): equity **$101,208.93**, cash **$44,663.50** (~44.1%), long_market_value **$56,545.43** (~55.9%), last_equity (7/13 close) $101,371.68, buying_power $336,981.20, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. Zero closed orders today (`status=closed&after=2026-07-14` → 0). NO trades this routine — 3rd consecutive no-trade session in the Jul 14 window.**
+
+### Data provenance
+- Equity/cash/positions = live Alpaca. Day-baseline = account `last_equity` $101,371.68 (7/13 close, authoritative). SPY = IEX daily bars: 7/14 close **751.94**, 7/13 close **749.13**, 7/10 close **754.94** (latest-trade 751.94 confirms the 7/14 bar). SIP feed denied on this key (subscription) — IEX is the consistent series we've used all run.
+- Portfolio-history (`5D/1D`) logged only through 7/13 ($101,371.68); today's point not yet posted — used `last_equity` as authoritative, as in prior closes.
+
+### Day summary (OFFICIAL scorecard)
+- **Closing equity: $101,208.93.** Day P/L **−$162.75 / −0.16%** (vs 7/13 close $101,371.68 = account last_equity, authoritative).
+- **SPY day: +0.38%** (751.94 vs 749.13). **Alpha today: −0.54 pts.**
+- **Week-to-date (baseline 7/10 close $101,821.67 / SPY 754.94; 2 sessions Mon 7/13 + Tue 7/14):** port **−0.60%** (−$612.74) vs **SPY −0.40%** (751.94 vs 754.94) → **week alpha −0.20 pts.**
+- **Total since $100K start: +1.21%.**
+- **Trades placed today:** 0. No fills, no stops fired, no conversions.
+- **What worked:** (1) DE recovered off its midday lows — closed −0.92% (mark 584.40) vs the midday −1.73% (579.63); its trailing cushion widened from the ~0.8% midday scare back to ~1.6%, so the tightest-in-book worry eased into the bell. (2) GE (+7.31%) and LLY (+7.03%) both firmed and held their gains; JPM ticked up to +3.58%. (3) Every safety net stayed exactly in place — zero stop drama, IDs/floors/hwm unchanged.
+- **What didn't:** (1) Cash drag again — ~44% idle vs SPY +0.38% is the whole −0.54 alpha; the invested sleeve was roughly flat-to-mixed (DE red, others up small), so today's miss is pure cash drag, not the sleeve falling (contrast last week). (2) The Jul 14 gate day produced no verifiable qualifier for the 3rd straight session — JPM Q2 actuals + June CPI still unconfirmable via Perplexity; the redeploy stays blocked by the verification wall, not by caps.
+- **Open questions for tomorrow:** (1) Does GE's Q2 print (VERIFIED Thu 7/16 7:30am EDT) and the rest of the bank wave finally deliver confirmable data + a gate-clearing candidate so we can put the ~44% cash to work? (2) Week alpha only −0.20 (2 sessions) — much milder than last week's −3.16; the escalation trigger is NOT met yet (SPY basically flat WTD −0.40%, data unverifiable rather than confirmed-empty, GE print still pending) — carries to Thu/Fri. (3) JPM 1.37% from its $346.18 +5%→trailing conversion — closest yet; watch at Wed open/midday.
+
+### Positions — CLOSING marks (Alpaca live, 16:01 ET)
+- **LLY** 14 @ 1078.46 → 1154.27, **+$1,061.34 (+7.03%)**. Trailing floor 1124.505, hwm 1249.45, cushion **~2.6%**. INTACT sev 1. Earnings ~Aug 5 (est).
+- **GE** 45 @ 329.63 → 353.73, **+$1,084.50 (+7.31%)**. Trailing floor 344.673, hwm 382.97, cushion **~2.6%**. INTACT sev 1. **Q2 VERIFIED Thu Jul 16 7:30am EDT — the near-term binary.**
+- **JPM** 34 @ 329.695588 → 341.50, **+$401.35 (+3.58%)**. −7% hard stop 306.62; +5%→trailing trigger 346.18 (**~1.37% away — closest yet**). Q2 reported 7/14, actuals still unverifiable, drifting up. INTACT sev 2.
+- **DE** 22 @ 589.82 → 584.40, **−$119.24 (−0.92%)**. Trailing floor 575.073, hwm 638.97, cushion **~1.6%** (recovered from midday ~0.8%). INTACT sev 1 (off-cycle, next ~Aug 20; Jul 14 dip was ag-sector noise, no verifiable catalyst).
+- Net open unrealized **≈ +$2,427.95**. Sizes: LLY 16.0% / GE 15.7% / DE 12.7% / JPM 11.5% — all < 20% cap. Cash ~44.1%.
+
+### Stops — all 4 RESTING (open-orders `status:new`, IDs/floors/hwm unchanged all day)
+- LLY 10% trailing `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505, hwm 1249.45.
+- GE 10% trailing `b9dadf2d-b6f5-49e7-8cc9-b3eb8b07aa6c` floor 344.673, hwm 382.97.
+- DE 10% trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073, hwm 638.97.
+- JPM −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` @ 306.62.
+
+### Escalation watch — HELD (still mid-window)
+- Trigger = "Jul 14–17 bank wave + CPI passes with STILL nothing clearing 2 signals + Conviction ≥70 WHILE SPY keeps rising." As of the 7/14 close: data still unverifiable (not confirmed-empty), GE Q2 (Thu 7/16) pending, SPY WTD −0.40% (NOT rising) → escalation does NOT fire. Carries to post-GE Thu / Fri weekly review. If the window closes empty with SPY higher, the A/B cash-deployment decision goes to Lauren's inbox then.
+
+### Actions this run
+- No trades, no stop changes. Memory (portfolio/messages/research-log) + dashboard written; commit + HEAD:main push. **Telegram PUSHED** (mandatory daily market-close scorecard — the one push never skipped). Next routine: pre-market Wed 7/15.
