@@ -1,3 +1,38 @@
+## 2026-07-14 06:15 CT (07:10 ET) — PRE-MARKET (Tue, market CLOSED pre-open; opens 09:30 ET). THE PRE-COMMITTED RE-SCAN GATE (JPM Q2 + June CPI day)
+
+**Setup:** 4 required keys present in env (cloud mode — no `.env` on disk, vars pre-set; Telegram set). Clock `is_open:false`, timestamp 07:09 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative marks — NOT official): equity **$100,836.64**, cash **$44,663.50** (~44.3%), long_market_value **$56,173.14**, last_equity (7/13 close) $101,371.68, buying_power $335,938.79, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** All 4 stops RESTING (open-orders `status:new`, IDs/floors/hwm unchanged: LLY 6016a7e7 f1124.505, GE b9dadf2d f344.673, DE dcdd84e5 f575.073, JPM hard 3e8fe4ea @306.62).
+
+**Decision: NOTHING CLEARS 2 VERIFIED signals + Conviction ≥70 — 11th straight empty scan.** No trades (also market closed). Full 4-agent scan (macro / earnings / position / scout). The key nuance TODAY: the pre-committed re-scan gate has ARRIVED but the two catalysts (JPM Q2, June CPI) both land AFTER this routine — JPM ~7am release/8:30 call not yet in research feeds, CPI at 8:30am. So the verifiable data we've waited for is still ~2 hours out; the decision moves to the market-open/midday routines.
+
+### Market context — RISK-OFF into 8:30 CPI (moderate-high conf)
+- **June CPI [8:30am ET today — NOT yet released]:** consensus headline ~−0.1% MoM / ~3.9% YoY (down from 4.2%), **core ~+0.2% MoM / ~2.8–2.9% YoY** [VERIFIED consensus, MUFG/BMO/Bloomberg median]. Skew: soft headline (gasoline) already expected → limited dovish payoff; a **hot core (0.3%+) hits risk assets hardest** and reinforces the 2026-hike narrative.
+- **Futures [VERIFIED overnight]:** ES ~−0.57% (~7,577), NQ ~−1.37% (~29,620) — chips-led weakness. **Nikkei −2.41% [VERIFIED].** Gold −1.3%, **WTI +4.4% (~$74.55) [VERIFIED ~1am]** — the inflationary tell into a CPI print. 10Y/2Y exact levels UNVERIFIED (carry 10Y ~4.57–4.58% drifting up).
+- **Fed:** Waller (Mon) — Fed may need to hike soon if inflation disappoints [VERIFIED headline]. FedWatch: futures "more than fully price" a 25bp hike to 3.75–4.00% by year-end, Sept still base case [%UNVERIFIED]. Hawkish backdrop intact.
+- **Posture:** rising WTI + hawkish Fed + low core-surprise tolerance = asymmetric downside into 8:30. **Favor WAITING until after the CPI print before any new buy** — a clean soft CORE + a clean bank beat is the only combination that turns the tape constructive.
+
+### Portfolio watch — all 4 INTACT, no thesis-breakers
+- **LLY sev 1** — no verifiable 24-48h news. **CONFABULATION CHECK: the phantom drug "Foundayo" resurfaced AGAIN — discarded** (same fake caught repeatedly). An unverified single-source "JPMorgan PT $1,400 (Schott ~7/7)" also surfaced → NOT acted on. Next earnings ~Aug 5. Book's strongest (+8.8% pre-mkt).
+- **GE sev 1** — **Q2 earnings CONFIRMED Thu Jul 16, 7:30am EDT per GE IR [VERIFIED — resolves the prior "estimate"]**. No new dated news in window. Old BNP Exane underperform/$270 (May) = background only. Earnings the real near-term risk to the ~2.5% trailing cushion.
+- **JPM sev 2 (event pending)** — **Q2 reports TODAY ~7am / 8:30 call; NOT yet in research feeds.** Consensus EPS ~$5.59–5.61 (range $5.43–5.67), rev ~$50–51B; Q1'26 was a beat ($5.94 vs $5.50). Pre-market mark ~326.51 (−0.97%, soft into the print). **The market-open routine MUST pull the actual print + reaction before any action, and watch the +5%→trailing conversion trigger $346.18.**
+- **DE sev 1** — no verifiable 24-48h news. FTC right-to-repair settlement + tariff cut (25%→15%, eff 6/8) = pre-window support. Off-cycle; next report ~Aug 20 (est). Tightest cushion (~1.7–1.8% to floor 575.073); governed by the trailing stop.
+
+### Buy candidates — nothing clears; one new bench lead
+- **AXP (American Express) — NEW BENCH ~62.** [VERIFIED] JPMorgan UPGRADE Neutral→Overweight, PT $328→$400, **dated Jul 13** (2-source Benzinga) = signal #4. Not near lows (~$316 vs 52-wk $281–387) = weak signal #6. Earnings Jul 24 = binary event, NOT counted as a signal (same logic that keeps GS off). **1 solid + 1 weak = ~62 < 70, does not clear.** Best real dated catalyst this window; ranks above GS/MS on the bench. Revisit if a 2nd signal lands (a bank beat-and-raise confirming financials rotation, or its own Jul 24 print).
+- **GS 60** — its Q2 prints TODAY (binary, not an edge until known); 1 solid signal (CCAR div hike). Re-check post-print.
+- **DAL (Delta)** — [VERIFIED] beat-and-raise 7/9 (EPS $1.56 vs $1.49, rev $17.67B vs $17.43B, FY guide affirmed/raised $6.50–7.50) = the ONLY verifiable beat-and-raise Jul 7–14 = signal #1. But 1 signal only, airline = cyclical/higher-beta, no dated 2nd signal → NOT a buy, NOT added to active bench (noted only).
+- **Rejected — confabulation/exclusion:** HUM "Wells Fargo PT $227→$502" (implausible, unverifiable — FAKE); AIG "Cantor Overweight 7/9" (single-source, unverifiable); BIIB "Truist Buy" (VERIFIED but biotech — excluded by universe). Banks GS/C/WFC/BAC had NOT released as of ~7am → no beat-and-raise to act on yet; re-check post-print.
+- **Bench unchanged otherwise:** GS 60, AXP 62 (new), MS 52, V/AMGN/CB/CVS/VST 50, PANW 35.
+
+### Sell candidates — none
+No holding at/below −7%; no thesis-breaker; no +5% conversion pending except the standing JPM trigger. LLY/GE/DE governed by 10% trailing stops; JPM on the −7% hard stop @306.62 until it tags +5% ($346.18).
+
+### Standing tasks into the open
+- **JPM +5% → trailing conversion at $346.18** — cancel hard stop 3e8fe4ea, place 10% trailing GTC the moment it tags. Likely tested on today's print. Pre-market ~326.51 (−0.97%), ~6% away pre-print.
+- **Redeploy ~44% idle cash — GATED on the Jul 14 verifiable data** (JPM print + CPI), which lands post-routine. Do NOT front-run into a CPI/hawkish risk event. A confirmed bank beat post-print > front-running.
+- **ESCALATION WATCH (teed up 7/10):** if this Jul 14–17 bank wave + CPI passes with STILL nothing clearing 2 signals + Conviction ≥70 while SPY keeps rising, put the A/B cash-deployment decision (deploy into a broad/index-like holding vs. hold defensive) into Lauren's inbox. Not yet — the catalyst window opens at 8:30 today.
+
+---
+
 ## 2026-07-13 15:00 CT (16:00 ET) — MARKET-CLOSE (Mon, market CLOSED)
 
 **Setup:** 4 required keys present (+ Telegram set). Clock `is_open:false`, next_open Tue 2026-07-14 09:30 ET. Inbox: **nothing pending.** Account (live Alpaca, official close): equity **$101,409.76**, cash **$44,663.50** (~44.0%), long_market_value **$56,746.26** (~56.0%), last_equity (7/10 close) $101,821.67, buying_power $337,543.53, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3. Zero closed orders today.**

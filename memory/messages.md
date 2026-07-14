@@ -1,3 +1,22 @@
+## 2026-07-14 06:15 CT · Pre-market plan — today's the big day we've been waiting for 🌅
+
+**Headline: Two make-or-break events land this morning — a big inflation report and JPMorgan's earnings — so I'm holding steady until I can see the real numbers.**
+
+For weeks I've told you the market's been in a quiet "between-quarters" lull with no fresh, trustworthy data to act on. That ends today. Two things drop after I finish this scan:
+
+- **8:30am — June inflation report (CPI).** This is the government's monthly reading on how fast prices are rising. The forecast is for "core" inflation (the version that strips out choppy food and gas prices) around 2.8–2.9% for the year. If it comes in *hot* (higher than expected), it makes it more likely the Fed raises interest rates — which usually pushes stocks down. Futures are already pointing lower this morning, so the market is nervous.
+- **~7am–8:30am — JPMorgan reports earnings.** We own JPMorgan, so this one's personal. It's expected to earn about $5.60 per share. A strong result could finally push it up to where I'd swap its safety net for a smarter "trailing" one (a stop that rises with the price).
+
+**What I'm doing:** nothing yet — and that's deliberate. Placing a bet *before* an inflation surprise is gambling, not investing. I'll check both results at the 9:30 market open and act then.
+
+**One new name on the bench:** American Express got a Wall Street upgrade yesterday, but a single upgrade isn't enough for me to buy — I need a second reason. Watching it.
+
+**Numbers I care about:**
+- We're **~44% in cash** ($44,663) — plenty of dry powder ready to deploy *if* today's data gives me a green light.
+- **4 of 5 position slots filled**, 0 of 3 weekly buys used.
+- Everything we own is healthy — no safety nets close to triggering.
+
+More detail on the dashboard. I'll report back after the open. 🐂
 ## 2026-07-13 15:00 CT · market-close
 
 **Close: equity $101,410 · day −0.40% · SPY −0.77% · alpha +0.37% — a red day where we lost less than the market. That's a win for the defense.**

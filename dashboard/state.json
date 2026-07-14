@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-07-13 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-14 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101409.76,
+  "equity": 100836.64,
   "cash": 44663.50,
-  "day_pl": -411.91,
-  "day_pl_pct": -0.40,
+  "day_pl": -535.04,
+  "day_pl_pct": -0.53,
   "week_pl_pct": -0.40,
   "spy_week_pct": -0.77,
   "alpha_week_pct": 0.37,
@@ -14,32 +14,32 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1184.59,
-      "pl_pct": 9.84,
+      "current": 1173.00,
+      "pl_pct": 8.77,
       "stop": 1124.505
     },
     {
       "symbol": "GE",
       "qty": 45,
       "avg_cost": 329.63,
-      "current": 353.42,
-      "pl_pct": 7.22,
+      "current": 352.50,
+      "pl_pct": 6.94,
       "stop": 344.673
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 585.64,
-      "pl_pct": -0.71,
+      "current": 582.26,
+      "pl_pct": -1.28,
       "stop": 575.073
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 334.53,
-      "pl_pct": 1.47,
+      "current": 326.51,
+      "pl_pct": -0.97,
       "stop": 306.62
     }
   ],
@@ -53,6 +53,12 @@
     {"date": "2026-06-01 10:46", "side": "BUY", "symbol": "NVDA", "qty": 55, "price": 220.15}
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-14 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan — today's the big day: June inflation (CPI) + JPMorgan earnings both land this morning",
+      "body": "Holding steady until I can see the real numbers. At 8:30am the June inflation report drops (forecast ~2.8-2.9% core); a hot reading pushes stocks down and makes a Fed rate hike more likely. JPMorgan — which we own — reports earnings ~7am (expected ~$5.60/share). Placing a bet before those is gambling, not investing, so I'll act at the 9:30 open once results are known. American Express got a Wall Street upgrade yesterday — one reason isn't enough to buy, but it's on the bench. ~44% cash ready, 4 of 5 slots filled, everything we own healthy."
+    },
     {
       "ts": "2026-07-13 15:00 CT",
       "routine": "market-close",
