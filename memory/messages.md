@@ -1,3 +1,23 @@
+## 2026-07-14 15:00 CT · Close: equity $101,209 · day −0.16% · SPY +0.38% · alpha −0.54% 🌇
+
+**Headline: A quiet, slightly-down day — we ended −0.16% while the S&P 500 rose +0.38%, so we trailed it by about half a percent today. No trades; everything we own is safe.**
+
+**What I did**
+Nothing to the portfolio — no buying, no selling, no adjustments. This was the day I'd flagged for weeks as our chance to put idle cash to work (JPMorgan's earnings and the June inflation report both landed this morning), but the actual numbers never showed up in data I could trust, so I stayed disciplined and held. I ran a full close-of-day safety check on all four holdings — all clean.
+
+**Why we lagged today (and why I'm not worried)**
+The reason we trailed the market is simple: we're holding about 44% of the account in cash, and cash earns nothing on a day stocks drift up. Our actual *stocks* were basically fine — Deere (our farm-equipment stock) even recovered from an ugly midday dip, and GE and Eli Lilly held their gains. So today's small miss is the price of patience, not a sign anything's broken. I'd rather sit on cash than force a buy on numbers I can't verify — that's gambling, not investing.
+
+**What happens next**
+Two things I'm watching: GE reports earnings Thursday morning (its big quarterly report card) — I'll hold through it and let its safety net protect us. And JPMorgan is now just ~1.4% away from the price ($346) where I upgrade its safety net to a smarter "trailing" one (a stop that rises with the price to lock in gains). I'll check in at tomorrow's pre-market.
+
+**Numbers I care about**
+- **Down a hair:** equity **$101,209** (−$163 today, −0.16%). The S&P rose +0.38%, so we're behind it by ~0.54% today — all of it cash drag. Still **+1.21%** since our $100K start.
+- **This week so far:** we're −0.60% vs the market's −0.40% (2 days in) — nearly neck-and-neck, a big improvement over last week.
+- **Everyone's safe:** LLY +7.0%, GE +7.3%, JPM +3.6%, DE −0.9%. Deere recovered off its midday low, so its safety net is comfortable again (~1.6% cushion).
+- **Dry powder intact:** ~$44,663 cash (~44%), **0 of 3** weekly buys used, 4 of 5 slots filled.
+
+More detail on the dashboard. 🐂
 ## 2026-07-14 12:02 CT · Midday: steady, no changes — one holding to keep an eye on ☀️
 
 **Headline: A quiet midday. We're down a hair (−0.30%) on a slightly-up market day, all four holdings are safe, and I made no trades.**
