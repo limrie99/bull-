@@ -1,3 +1,22 @@
+## 2026-07-15 08:35 CT · Open: upgraded JPMorgan's safety net — no buying or selling 🔔
+
+**Headline: Good news at the open — JPMorgan crossed the level I'd been watching, so I upgraded its safety net to a smarter one that locks in gains. We're up +0.20% so far today; everything we own is now protected the same way.**
+
+**What I did**
+One action this morning, and it's a good one: JPMorgan (our bank stock) climbed past $346 — the exact level I flagged for you yesterday. At that point my rule kicks in, so I cancelled its old fixed safety net and replaced it with a *trailing stop* (an auto-sell price that rises as the stock rises, so it protects more of our gain the higher it goes, but never drops back down). No stocks were bought or sold — this is pure protection. With that change, all four of our holdings now use this same smarter safety net.
+
+**Why**
+JPMorgan reported its quarterly results yesterday and they were strong — it earned more than Wall Street expected and raised its dividend (the cash it pays shareholders). The stock jumped, which pushed us over the +5% gain mark where the upgrade rule applies. On the "should we buy something new?" question, the answer is still no: this week's inflation report came in nice and cool (good for stocks broadly), but I couldn't find a *single* new company that clears our strict quality bar. American Express is the closest on my bench, but it's not there yet — I'll know more when it reports on July 24. I'd rather wait for a real winner than force a buy.
+
+**What happens next**
+GE reports its earnings tomorrow morning — that's the big event I'm watching. I'll hold through it and let its safety net do the protecting. I'll check in at midday.
+
+**Numbers I care about**
+- **Up a little:** equity **$101,431** (+$199 today, +0.20%). The S&P 500 is up +0.41%, so we're a hair behind today — that's our ~44% cash not working on an up day. Still **+1.43%** since our $100K start.
+- **All four safe, all on trailing stops now:** GE +7.9%, LLY +6.1%, JPM +6.3%, DE −1.2%. Deere has the tightest cushion (~1.3%) — the one to watch.
+- **Dry powder intact:** ~$44,663 cash (~44%), **0 of 3** weekly buys used, 4 of 5 slots filled.
+
+More detail on the dashboard. 🐂
 ## 2026-07-14 15:00 CT · Close: equity $101,209 · day −0.16% · SPY +0.38% · alpha −0.54% 🌇
 
 **Headline: A quiet, slightly-down day — we ended −0.16% while the S&P 500 rose +0.38%, so we trailed it by about half a percent today. No trades; everything we own is safe.**

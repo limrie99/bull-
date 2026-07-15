@@ -130,3 +130,12 @@ Signals matched: sell-signal #2 mechanics (10% trailing stop). This is the SYSTE
 Stop set: none (position closed). Freed ~$9,426 cash.
 Research reference: 7/2 midday research-log flagged ETN "sitting ON its 393.066 trailing floor (~0.18% cushion) — a small further slip auto-fires the stop. By design; no pre-emptive action."
 Notes: Book now **4 of 5 positions** (GE, LLY, DE, JPM). Cash → $44,663.52 (~43.1%). Weekly buys still 1 of 3 (a stop-out is not a buy). Realized YTD stop-outs now: NVDA ×2 (−$159, −$849), ETN (−$211). daytrade_count 0. Redeploying the freed cash is the priority for Mon 7/6 pre-market (market CLOSED Fri 7/3).
+
+## 2026-07-15 08:35 CT (09:35 ET) | RISK-MGMT (no fill) | JPM | converted −7% hard stop → 10% trailing stop | 8a937ff6-164c-4384-8cf8-c000d4106a60
+Action: JPM crossed +5% profit at the open (mark ~348.51→350.32 vs entry 329.695588 = +5.7%, clearing the +5% conversion trigger $346.18 it had sat ~1.4% short of at the 7/14 close), so per strategy I cancelled the −7% GTC hard stop and replaced it with a 10% trailing GTC stop. This was THE standing task teed up since the 6/29 buy.
+- Cancelled hard stop 3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670 (was @ 306.62) — HTTP 204, confirmed zero open JPM orders + qty_available 34 before re-placing.
+- Placed trailing_stop sell, qty 34, trail_percent 10, GTC → id 8a937ff6-164c-4384-8cf8-c000d4106a60. stop_price 315.288, hwm 350.32. Confirmed resting (status new).
+Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% profit). No shares traded.
+Stop set: JPM 10% trailing GTC (floor 315.288 at placement, hwm 350.32; ratchets up as JPM rises).
+Research reference: portfolio.md + research-log standing task ("the moment JPM tags $346.18 (+5%), cancel 3e8fe4ea → place a 10% trailing GTC") + this market-open execution.
+Notes: New floor 315.288 is ~$8.7 above the old hard stop 306.62 (still below entry 329.70, so not yet locking a profit, but it ratchets up with the price). **With this conversion all 4 positions (LLY, GE, DE, JPM) are back on 10% trailing stops — zero hard stops in the book.** JPM Q2 (7/14) was a verified beat (adj EPS $6.14 vs $5.59 cons) + div hike to $1.65/qtr + positive reaction — thesis STRENGTHENED. No buys/sells this routine. daytrade_count 0.

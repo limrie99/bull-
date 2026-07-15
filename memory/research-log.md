@@ -1,3 +1,42 @@
+## 2026-07-15 08:35 CT (09:35 ET) — MARKET-OPEN (Wed, market OPEN; next_close 16:00 ET)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`, timestamp 09:32 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,430.79**, cash **$44,663.50** (~44.0%), long_market_value **$56,767.29** (~56.0%), last_equity (7/14 close) $101,231.97, buying_power $337,511.45, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** NOTE: no 7/15 pre-market research entry persisted (last was 7/14 pre-market) → per cold-start rule, ran a genuine fresh 2-agent scan this run rather than defer.
+
+**Decision: NO BUYS, NO SELLS. ONE risk-mgmt action — JPM +5% → 10% trailing conversion (standing task fired).**
+
+### ACTION — JPM +5% trailing conversion (executed)
+JPM opened at +5.7% (mark ~348.51→350.32 vs entry 329.695588), clearing the +5% trigger $346.18 it sat ~1.4% short of at the 7/14 close. Per strategy sell-signal #2 mechanics:
+- Cancelled −7% hard stop `3e8fe4ea-d95c-4e6c-82e1-ff66f0d56670` (@306.62) — HTTP 204, verified 0 open JPM orders + qty_available 34.
+- Placed trailing_stop sell qty 34 trail_percent 10 GTC → `8a937ff6-164c-4384-8cf8-c000d4106a60`, stop_price 315.288, hwm 350.32, status new (RESTING, re-verified).
+- **Result: all 4 positions (GE, LLY, JPM, DE) now on 10% trailing stops — zero hard stops in the book.**
+
+### Buy scan — NOTHING CLEARS (12th straight effectively-empty scan). 2-agent fresh scan (buy-candidate + held-book).
+- **June CPI (released 7/14 8:30am) — VERIFIED, DOVISH:** headline −0.4% MoM / +3.5% YoY (vs cons −0.1% / +3.8%), core 0.0% MoM / +2.6% YoY (vs cons +0.2% / +2.8%) — softer across the board; largest 1-mo decline since Apr 2020. Reaction: stocks up, CME "hold" odds for late-July FOMC jumped to ~83–86% (from ~60%), DXY −0.6%. Supportive/risk-on tape, but a macro tailwind, NOT a single-name buy trigger.
+- **Bank Q2 scorecard:** **JPM (held) — VERIFIED BEAT** (adj EPS $6.14 vs $5.59 cons; revenue strong ~$57B but the exact figure is NOT trustworthy as reported — a ~13% mega-bank rev beat is implausible, likely a data artifact/one-off mislabel, DO NOT publish the number; div raised to $1.65/qtr; +2.46% on 7/14). **NO verified guidance raise** → a beat, NOT a confirmed beat-and-raise → does not itself qualify as a fresh buy signal for adding. **WFC/GS/C/BAC/MS — UNVERIFIABLE** (only single-source/unsourced fragments; treat as noise).
+- **AXP (bench lead) 62** — 2 VERIFIED signals (JPMorgan upgrade Neutral→OW PT $400 dated 7/13 [#4]; Q2 earnings ~Jul 24 [#2]) BUT conviction ~62 < 70 → HOLD on watchlist, do not buy. HSBC PT $329 (7/13) was a *maintain*, not a fresh upgrade — weak corroborator only. Jul 24 print is the decision point.
+- **Everything else:** broad 7-day large-cap scan returned ZERO verifiable beat-and-raise / dated upgrade / Form-4 insider buy. Q2 season just starting (Jul 13–17 wave). Scout correctly declined to confabulate.
+- **Confabulations caught & discarded:** LLY "Foundayo (orforglipron FDA approval)" — the known fake, resurfaced AGAIN; LLY "$1,336.12 PT" (undated); an isolated "IBM −20%" side-detail inside CPI coverage (uncorroborated).
+
+### Held-book thesis check — all 4 INTACT, sev 1, no action
+- **GE sev 1** — Q2 CONFIRMED Thu Jul 16 before open (multi-source), cons EPS ~$1.86 (+12% YoY) / rev ~$11.86B (+17% YoY), >$170B services backlog, prior FY26 guide (EPS $7.10–7.40) intact. Bullish previews exist but none carry a verifiable 7/13–15 timestamp. The one live near-term binary. +7.89%, trailing cushion ~3.1%.
+- **JPM sev 1 STRENGTHENED** — Q2 beat + div hike + positive reaction (see above). +6.35%; converted to trailing this run.
+- **LLY sev 1** — no verifiable window news; pulled back +9.8%(7/13)→+6.1%; governed by trailing, cushion ~1.75%. Foundayo ignored.
+- **DE sev 1** — no verifiable negative window news; −1.21% = ag-sector noise (large-ag equipment −15–20% 2026, already in guidance). Off-cycle ~Aug 20. Cushion ~1.3% (tightest); governed by trailing.
+
+### Sell candidates — none
+No holding at/below its stop; no thesis-breaker. All 4 on 10% trailing stops now.
+
+### Scorecard (intraday)
+- Day P/L **+$198.82 / +0.20%** (equity $101,430.79 vs 7/14 close $101,231.97). SPY intraday **+0.41%** (755.01 vs 751.94) → alpha today **≈ −0.21 pts** (cash drag). WTD (baseline 7/10 close $101,821.67): port **−0.38%** vs SPY **+0.01%** → week alpha **≈ −0.39 pts** (3 sessions in). Total since $100K: **+1.43%.** Net unrealized ≈ +$2,649.81.
+
+### Standing tasks into midday/close
+- **GE Q2 Thu Jul 16 AM** — hold through, let the 10% trailing (floor 344.673) govern. No pre-earnings action.
+- **JPM conversion — CLOSED** (done this run). Only normal trailing mechanics remain.
+- **Redeploy ~44% cash — GATED**, 12th empty scan. AXP the only 2-signal bench name (sub-70); its Jul 24 print is the next real single-name catalyst.
+- **ESCALATION WATCH — HELD, does NOT fire:** nothing clears, but SPY is ~flat WTD (NOT rising) and the window is open (GE Thu, Fri weekly review). Re-evaluate post-GE / at Fri weekly review; if window closes empty with SPY higher, A/B cash-deployment decision → Lauren's inbox.
+- **No Telegram this run** (market-open with no buy/sell; a risk-mgmt stop conversion is not a "trade placed/stop fired" per CLAUDE.md push rules; the mandatory daily push is the close routine's).
+
+---
 ## 2026-07-14 06:15 CT (07:10 ET) — PRE-MARKET (Tue, market CLOSED pre-open; opens 09:30 ET). THE PRE-COMMITTED RE-SCAN GATE (JPM Q2 + June CPI day)
 
 **Setup:** 4 required keys present in env (cloud mode — no `.env` on disk, vars pre-set; Telegram set). Clock `is_open:false`, timestamp 07:09 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative marks — NOT official): equity **$100,836.64**, cash **$44,663.50** (~44.3%), long_market_value **$56,173.14**, last_equity (7/13 close) $101,371.68, buying_power $335,938.79, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** All 4 stops RESTING (open-orders `status:new`, IDs/floors/hwm unchanged: LLY 6016a7e7 f1124.505, GE b9dadf2d f344.673, DE dcdd84e5 f575.073, JPM hard 3e8fe4ea @306.62).
