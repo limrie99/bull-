@@ -1,3 +1,22 @@
+## 2026-07-15 15:00 CT · Close: equity $101,813 · day +0.57% · SPY +0.38% · alpha +0.20% 🌇
+
+**Headline: A good day — we're up +0.57% and we beat the S&P 500 (which rose +0.38%). That means we made money AND we outran the market today. Every one of our four holdings is safe.**
+
+**What I did**
+Nothing to the portfolio today — no buying, no selling, no adjustments. I ran my open, midday, and now closing safety checks, and everything stayed clean all day. This morning I'd upgraded JPMorgan's safety net; by the close it's quietly doing its job, and no stock came anywhere near an emergency exit.
+
+**Why we beat the market today**
+Here's the encouraging lesson: on a mixed day, our *specific* stocks did the work. The market as a whole barely nudged up (+0.38%), but General Electric and Eli Lilly — two of our biggest holdings — climbed harder than that, so our money outran the average. That's the whole point of owning a few high-quality companies instead of the whole market. Our one soft spot, Deere, even recovered from a small dip to finish essentially flat.
+
+**What happens next**
+GE reports its quarterly earnings (its official results) tomorrow morning before the market opens — the one big event I'm watching. I'll hold through it; GE is up +9.3% for us and its trailing safety net (an auto-sell that rises with the stock to lock in gains) will protect that profit if the news disappoints. I'll be back with the pre-market read tomorrow.
+
+**Numbers I care about**
+- **Up and ahead today:** equity **$101,813** (+$581, +0.57%) vs S&P 500 +0.38% — we beat the market by about 0.2 points. **+1.81%** since our $100K start.
+- **All four safe on trailing stops:** GE +9.3%, LLY +7.2%, JPM +5.2%, DE −0.2%. Deere has the tightest cushion (~2.3%) but is holding fine.
+- **Dry powder intact:** ~$44,663 cash (~44%), **0 of 3** weekly buys used, 4 of 5 slots filled. Still hunting for a company good enough to put that cash to work.
+
+More detail on the dashboard. 🐂
 ## 2026-07-15 12:02 CT · Midday: steady, no changes — and we nudged ahead of the market ☀️
 
 **Headline: Quiet, healthy midday — nothing to buy or sell, and we're actually a touch ahead of the S&P 500 today (+0.16% for us vs the market roughly flat). All four holdings are safe.**

@@ -3548,3 +3548,33 @@ Net unrealized **≈ +$4,481.18** (LLY +2,199.40, GE +1,680.75, DE +303.38, JPM 
 
 ### Actions this run
 - No trades, no stop changes. Memory (portfolio/messages/research-log) + dashboard written; commit + HEAD:main push. **No Telegram** (quiet midday, no trade — per CLAUDE.md skip rules: "Do NOT push on quiet midday checks"). Next routine: market-close ~15:00 CT — official scorecard + mandatory daily Telegram, watch DE's tight (~1.7%) trailing and GE into tomorrow's print.
+
+### Day summary — 2026-07-15 15:00 CT (16:00 ET) MARKET CLOSE (official)
+**Closing equity $101,812.91** | cash $44,663.50 (43.9%) | long_mv $57,149.41 (56.1%) | last_equity (7/14 close) $101,231.97.
+- **Day P/L: +$580.94 / +0.574%.** SPY: 754.77 close vs 7/14 close 751.94 = **+0.376%**. **Alpha today = +0.198 pts (we BEAT the market today).**
+- **WTD (baseline 7/10 close $101,821.67 / SPY 754.94; 4 sessions in):** port **−$8.76 / −0.009%** (essentially flat) vs SPY **−0.023%** → **week alpha ≈ +0.014 pts** (nudged a hair ahead WTD — flipped from −0.03 at midday as our invested sleeve outran a slightly-up SPY into the close).
+- **Total since $100K start: +1.813%.**
+- **Trades placed: 0.** No fills, no stops fired, no stop changes today. daytrade_count 0. Book 4/5 (one slot OPEN), weekly buys 0/3. Inbox: nothing pending.
+
+**Closing positions (Alpaca live 16:00 ET):**
+- **GE** 45 @ 329.63 → 360.35, **+$1,382.40 (+9.32%)** — best performer today, firmed into its Q2 print. Trailing floor 344.673, hwm 382.97, cushion **4.35%**. Size 15.9%.
+- **LLY** 14 @ 1078.46 → 1156.19, **+$1,088.22 (+7.21%)**. Trailing floor 1124.505, hwm 1249.45, cushion **2.74%**. Size 15.9%.
+- **JPM** 34 @ 329.695588 → 346.91, **+$585.29 (+5.22%)**. Trailing floor 316.116, hwm 351.24, cushion **8.88%** (widest). Size 11.6%.
+- **DE** 22 @ 589.82 → 588.73, **−$23.98 (−0.18%)** — recovered from midday −0.82%. Trailing floor 575.073, hwm 638.97, cushion **2.32%** (tightest). Size 12.7%.
+- Net open unrealized **+$3,031.93** (up from +$2,602 midday).
+
+**Stops — all 4 RESTING (open-orders status:new), all 10% trailing, zero hard stops:**
+GE `b9dadf2d` floor 344.673 · LLY `6016a7e7` floor 1124.505 · JPM `8a937ff6` floor 316.116 · DE `dcdd84e5` floor 575.073.
+
+**What worked:**
+- Quality held on a mixed tape — GE (+~1.3% on the day intraday) and LLY led as SPY only added ~0.38%; our invested sleeve did the heavy lifting and flipped WTD alpha positive.
+- All-trailing discipline: every winner is governed by a 10% trailing floor that ratchets on its own — no hard stops, no discretionary babysitting needed.
+
+**What didn't / watch:**
+- ~44% idle cash still a drag on up days (we captured +0.57% vs SPY +0.38% today *despite* the cash, because the sleeve outperformed — but on a bigger SPY up-day the cash bites). Redeploy still gated: nothing clears 2 VERIFIED signals + Conviction ≥70.
+- DE cushion tightest at 2.32% — still governed cleanly, no action.
+
+**Open questions for tomorrow (Thu 7/16):**
+- **GE Q2 earnings ~7:30am EDT — the book's one dated binary.** Cons EPS ~$1.86 / rev ~$11.86B. GE +9.32% on a 4.35%-cushion trailing: a beat lets it run, a miss is caught by the floor (344.673). No pre-earnings action — hold and let the stop work.
+- Escalation watch (cash-deploy A/B decision) still teed up for the back half of the Jul 14–17 window: post-GE Thu + Fri weekly review. SPY roughly flat WTD (−0.02%), so the "SPY keeps rising while we sit in cash" trigger has NOT fired.
+- AXP 62 leads the bench (JPM upgrade 7/13 + Jul 24 earnings = 2 signals, conviction <70). Decision point is its Jul 24 print.
