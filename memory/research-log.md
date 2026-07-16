@@ -3668,3 +3668,14 @@ LLY `6016a7e7` floor 1124.505 (hwm 1249.45; mark 1171, cushion ~4.1%) · JPM `8a
 
 ### Actions this run
 - Reconciled GE trailing-stop fill (+$670.95). No new trades, no stop changes on the 3 remaining. Memory (portfolio/trade-log/messages/research-log) + dashboard written; commit + HEAD:main push. **Telegram PUSHED** — position auto-closed is a listed push event. Next routine: **market-close ~15:00 CT (official scorecard + mandatory daily Telegram).**
+
+### Day summary (market-close 15:00 CT / 16:00 ET — OFFICIAL scorecard)
+**Closing snapshot (Alpaca):** equity **$101,399.24** | cash **$60,167.80** (~59.3%) | long_mv **$41,231.44** (~40.7%). last_equity (7/15 close) $101,835.57.
+- **Day P/L: −$436.33 / −0.43%.** SPY 750.87 close vs 754.77 (7/15) = **−0.52%.** **Alpha today = +0.09%** (we fell less than the market — in line, marginally ahead).
+- **Week-to-date (from 7/10 close $101,821.67 / SPY 754.94):** port −$422.43 / **−0.41%**, SPY **−0.54%**, **alpha WTD +0.12%.**
+- **Total since $100K start: +1.40%.**
+- **Trades placed today: 1 sell** — GE trailing stop fired 09:53 ET, 45 sh @ 344.54, realized **+$670.95 / +4.52%** (reconciled midday). No buys, no stop changes.
+- **Closing marks:** LLY 14 @ 1078.46 → 1170.50, **+$1,288.56 / +8.53%** (floor 1124.505); JPM 34 @ 329.6956 → 343.15, **+$457.45 / +4.08%** (floor 316.116, JPM −1.08% on the day); DE 22 @ 589.82 → 598.97, **+$201.30 / +1.55%** (floor 575.073). Net open unrealized **+$1,947.31.**
+- **What worked:** (1) GE trailing stop banked a +$671 realized win before the earnings give-back could round-trip it — sell-signal #2 exactly as designed. (2) LLY (+8.5%) and DE (+1.5% up on the day) cushioned the tape; we edged SPY on a red day.
+- **What didn't / watch:** (1) JPM was the day's drag, −1.08%, slipping to +4.08% (cushion still ~9%+, no action — normal trailing mechanics). (2) Cash ~59.3% remains ELEVATED (target 10–20%); redeploy still gated on a verifiable 2-signal + Conviction≥70 setup — none found, 14th straight effectively-empty scan.
+- **Open questions for tomorrow (Fri 7/17 = weekly review):** Escalation-watch window CLOSES tomorrow. Trigger was "post-Jul-14 wave + CPI passes with nothing clearing the gate while SPY keeps rising." Reality: nothing cleared, BUT SPY is roughly flat-to-DOWN WTD (−0.54%), so the "SPY keeps rising" half did NOT fire. GE's exit + ~59% cash strengthens the case to put the A/B cash-deployment question to Lauren tomorrow. AXP 62 still the top bench name (Jul 24 earnings = the real decision point). Stops all resting, all trailing, zero hard stops.
