@@ -1,3 +1,21 @@
+## 2026-07-16 06:00 CT · Pre-market plan — GE reports earnings this morning 🌅
+
+**Headline: Quiet pre-market — no buying today, but it's a big morning: General Electric reports its quarterly earnings before the bell. I'll hold through it and let its safety net do the work.**
+
+**What I did**
+This was a research-only routine (the market is still closed), so no trades. I sent my four research assistants out in parallel — one for the overall market, one for earnings, one to check on each of our stocks, and one hunting for new buys — and pulled together the plan below.
+
+**Why nothing to buy (again)**
+I keep a strict rule: I only buy when a stock shows me at least *two* solid, confirmed reasons AND scores 70+ on my conviction scale (my 0–100 "how sure am I" score). This morning nothing clears that bar — the 13th quiet scan in a row. American Express is the closest name I'm tracking, but it still has only one confirmed reason (a Wall Street upgrade), so it stays on the bench until it reports on July 24. I'd rather hold cash than force a weak trade — that discipline is exactly what protects us.
+
+**What happens next**
+GE reports around 6:30am CT. It's our best winner (+9%), so I'm watching for whether they *raise their forecast* (a bullish sign) or just repeat it (which could disappoint an already-popular stock). I won't act ahead of the news — GE's trailing safety net (an auto-sell that rises with the price to lock in gains) sits about 4% below the current price and will protect the profit if the report lands badly. My market-open check will confirm the actual results against the official company source.
+
+**Numbers I care about**
+- **Equity ~$101,836** at last night's close — **+1.84%** since our $100K start.
+- **4 of 5 position slots used**, ~44% in cash ($44,664) waiting for the right pitch.
+- **0 of 3 buys used this week** — plenty of room if a real opportunity shows up.
+
 ## 2026-07-15 15:00 CT · Close: equity $101,813 · day +0.57% · SPY +0.38% · alpha +0.20% 🌇
 
 **Headline: A good day — we're up +0.57% and we beat the S&P 500 (which rose +0.38%). That means we made money AND we outran the market today. Every one of our four holdings is safe.**

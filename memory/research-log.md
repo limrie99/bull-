@@ -1,3 +1,44 @@
+## 2026-07-16 06:00 CT (07:10 ET) — PRE-MARKET (Thu, market CLOSED pre-open; opens 09:30 ET). **GE Q2 EARNINGS MORNING (~7:30am EDT / 6:30am CT, before open).**
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official): equity **$101,192.56**, cash **$44,663.50** (~44.1%), long_market_value **$56,529.06**, last_equity (7/15 close) **$101,835.57**, buying_power $336,935.37, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** All 4 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops): GE b9dadf2d f344.673/hwm382.97, LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.
+
+**DATA-INTEGRITY NOTE (important):** the positions feed marked **GE ~$345–347**, but that is a **stale end-of-session junk quote** (GE closing quote was a wide 336.34/375.40 @ 40×40; midpoint noise). GE's **true 7/15 close = $360.35** (`lastday_price`). So GE's real trailing cushion is **~4.3%** (360.35 vs floor 344.673), **NOT** the ~0.1% the junk mark implied. No live pre-market GE trades have printed yet. The market-open routine MUST re-mark GE off a clean quote / the actual print, not the closing-quote artifact.
+
+**Decision: NO TRADES (market closed). NOTHING clears 2 VERIFIED signals + Conviction ≥70 — 13th straight effectively-empty scan.** Full 4-agent scan (macro / earnings / position / scout).
+
+### Market context — MILD RISK-ON, low-to-moderate confidence
+- **Inflation regime softening [VERIFIED]:** June CPI came in soft (headline ~+3.5% YoY, released 7/14) AND June PPI soft (~−0.3% MoM / core +0.2%). Two consecutive cool prints pulled yields down and removed most July-hike risk. **10Y ~4.57% (−4bp), 2Y ~4.19% (−7bp)** post-CPI [VERIFIED dated 7/14, directionally latest].
+- **Fed [VERIFIED]:** FOMC **Jul 29**; funds target **3.50–3.75%**. FedWatch: **no-change ~84–89%**, hike ~11%; **no July cut priced** (cuts priced Sept+). Chair **Warsh** testified Wed, cautioned "a single month of positive data" doesn't end the inflation fight → still a restrictive/hawkish-hold regime, this is a relief rally, not a green light.
+- **Futures/global [UNVERIFIED levels]:** ES/NQ constructive after soft inflation but no clean overnight % (Perplexity retrieval wall on live quotes); Asia/Europe, DXY, WTI, gold all UNVERIFIED this run.
+- **Today's US data:** **Retail Sales (June)** cons ~+0.3% headline / −0.1% core; **Initial Jobless Claims** ~215k [UNVERIFIED figure]. A hot retail-sales print could revive hike chatter and reverse the tone.
+
+### Portfolio watch — all 4 INTACT, sev 1, no dated negative catalyst in 24h
+- **GE sev 1 — THE binary today.** Q2 reports ~7:30am EDT / 6:30am CT (before open). **Consensus [VERIFIED multi-source]: adj EPS ~$1.86, revenue ~$11.79–11.9B.** Prior FY26 guide **$7.10–7.40 adj EPS / $8.0–8.4B FCF**, mgmt said "trending toward the high end" on the Q1 call (services rev +~$4B YoY the driver). **CONFABULATION CAUGHT:** an "already-reported EPS $1.86 / rev $11.61B" surfaced from low-quality aggregators (Meyka/Stock Events) — the "actual" EPS was *identical to consensus* (classic pre-fill artifact) and the rev was *below* the consensus range; **no GE press release / 8-K / transcript corroborated it → discarded, GE has NOT printed yet.** Bull case = a guidance RAISE toward/above the high end + strong >$170B services backlog; risk = an in-line print with merely-reiterated guidance disappointing an already-run-up (+9%) stock. NO pre-earnings action — the 10% trailing (floor 344.673, real cushion ~4.3%) governs. **Market-open routine: verify the print against a PRIMARY source (GE IR / Bloomberg / Alpaca news), not aggregators.**
+- **JPM sev 1 STRENGTHENED** — 7/14 Q2 was a VERIFIED beat (adj EPS $6.14 vs cons; div hike to $1.65/qtr; +buyback). No negative post-earnings follow-through in 24h. On 10% trailing floor 316.116 (widest cushion).
+- **LLY sev 1** — no verifiable 24h news. "Foundayo" fake drug confabulation surfaced AGAIN and was DISCARDED. Next earnings ~Aug 5. Trailing floor 1124.505.
+- **DE sev 1** — no verifiable 24h ag-sector/analyst news. Off-cycle, next report ~Aug 20. Trailing floor 575.073 (tightest cushion).
+
+### Buy candidates — NOTHING CLEARS (13th straight empty scan)
+- **AXP (bench lead) 62 — UNCHANGED.** Only **1 clean VERIFIED signal**: JPMorgan upgrade Neutral→Overweight PT $328→$400 dated **7/13** (#4). Re-check found **NO 2nd verified signal** — Evercore's $345→$380 (7/6) was a PT bump on a *maintained* "In Line" rating (not an upgrade) + single-source; no dated July Form-4 insider buy. Q2 earnings **Jul 24** = binary event, NOT a signal. **~62 < 70 → HOLD on bench, do not pre-position; Jul 24 print is the decision point.**
+- **Bank wave (Jul 14–15) — no fresh 2-signal setup.** JPM (held) beat EPS+rev but **no VERIFIED guidance raise** and fell ~2% into the print reaction → a beat, not a clean beat-and-raise, does not qualify to add. GS/C/WFC/BAC/MS all **UNVERIFIABLE** (single-source/retrieval wall) → noise.
+- **Scout returned ZERO corroborated beat-and-raise.** A Jul-7 "upgrade cluster" (NET/META/WM/FSLR/DELL) all traced to a **single roundup source** → UNVERIFIED, not counted, no 2nd signals. Correctly declined to confabulate.
+- **Bench (unchanged):** AXP 62, GS 60, MS 52, V/AMGN/CB/CVS/VST 50, PANW 35.
+
+### Sell candidates — none
+No holding at/below its stop; no thesis-breaker. All 4 on 10% trailing stops.
+
+### Scorecard (baseline; pre-market indicative unreliable this run)
+- 7/15 close of record (Alpaca last_equity): **$101,835.57.** Total since $100K start: **+1.84%.** SPY 7/15 close **754.77.**
+- Pre-market indicative equity ($101,192.56 / ~−0.63%) is **NOT official and is distorted by the GE closing-quote artifact** — no day P/L reported here; the market-open routine owns the real intraday scorecard once GE re-marks off a clean quote/print.
+
+### Standing tasks into market-open / midday
+- **GE Q2 (~7:30am EDT) — verify the actual print vs a PRIMARY source at market-open.** Hold through; let the 10% trailing (floor 344.673, real cushion ~4.3%) govern. A guidance raise → let it run; a gap-down >~4.3% → the trailing does its job (no discretionary sell).
+- **Re-mark GE off a clean quote at open** — the ~345 closing-quote junk mark is NOT a real move; don't act on it.
+- **Redeploy ~44% cash — GATED**, 13th empty scan. AXP the only 2-signal-*eligible* bench name but sub-70; its Jul 24 print is the next real single-name catalyst.
+- **ESCALATION WATCH — HELD, does NOT fire.** Trigger = "Jul 14–17 window closes empty with SPY rising." Still open (GE Q2 today, Fri weekly review) and SPY ~flat WTD, not clearly rising. Re-evaluate at Fri weekly review; if window closes empty with SPY higher, the A/B cash-deployment decision → Lauren's inbox then.
+- **No Telegram this run** (pre-market scan, no trades — per CLAUDE.md do-not-push list).
+
+---
 ## 2026-07-15 08:35 CT (09:35 ET) — MARKET-OPEN (Wed, market OPEN; next_close 16:00 ET)
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`, timestamp 09:32 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,430.79**, cash **$44,663.50** (~44.0%), long_market_value **$56,767.29** (~56.0%), last_equity (7/14 close) $101,231.97, buying_power $337,511.45, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** NOTE: no 7/15 pre-market research entry persisted (last was 7/14 pre-market) → per cold-start rule, ran a genuine fresh 2-agent scan this run rather than defer.
