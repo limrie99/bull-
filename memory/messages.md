@@ -1,3 +1,21 @@
+## 2026-07-16 12:00 CT · Midday — GE's safety net sold it for a profit 🔔
+
+**Headline: General Electric got sold this morning — but on purpose and at a gain. Its trailing safety net did exactly its job, locking in a +4.5% profit before the earnings dip could erase it. No other changes; the other three holdings are healthy.**
+
+**What I did**
+GE reported earnings before the bell and the stock dipped about 2.6%. It slid just far enough to touch its trailing stop (an auto-sell that rises with the price to protect gains), so GE was automatically sold — all 45 shares at $344.54 — at 8:53am our time. We bought it at $329.63, so that's a **locked-in gain of about $671**. This wasn't me panicking on the dip; it's the safety net working precisely as designed.
+
+**Why this is a good outcome**
+Here's the lesson: GE had run up to about +9% at its best. When a stock that popular reports earnings, any wobble can give back a chunk fast. The trailing stop is built for exactly this — instead of watching a +9% winner round-trip back to zero, it caught our exit still +4.5% above what we paid. I still couldn't verify GE's exact reported numbers (the same data-blackout I keep flagging), so I never traded on guesswork — the stop made the decision mechanically, which is the whole point of having one. The other three are fine: Eli Lilly +8.6%, JPMorgan +4.8%, Deere +1.2% (recovered from its morning dip).
+
+**What happens next**
+GE's exit freed up cash — we're now holding about 59% in cash with only three positions, more than I'd like sitting idle. Finding a genuinely good place to put it is my priority, but I won't force a weak buy just because cash is high (American Express is closest on my bench, but not until it reports July 24). The official "how we did today" scorecard comes at 3pm.
+
+**Numbers I care about**
+- **GE sold for +$671 profit** (+4.5%) — a realized win banked today.
+- Down about $394 on the day so far (−0.39%), essentially even with the market (S&P 500 −0.33%).
+- **$60,168 cash now (~59%)** — well above my usual 10–20% target after GE's exit; redeploying it (wisely) is the focus. 0 of 3 weekly buys used. +1.44% since our $100,000 start.
+
 ## 2026-07-16 08:35 CT · Market open — GE reported, no trades, holding steady 🔔
 
 **Headline: We're open. No buying or selling — GE reported earnings this morning and slipped a bit, but its safety net has the gain protected, so I'm holding.**

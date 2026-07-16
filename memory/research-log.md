@@ -3641,3 +3641,30 @@ LLY `6016a7e7` floor 1124.505 (cushion ~2.12%) · GE `b9dadf2d` floor 344.673 (c
 
 ### Actions this run
 - No trades, no fills, no stops fired, no stop changes. Memory (portfolio/messages/research-log) + dashboard written; commit + HEAD:main push. **No Telegram** (market-open with no trade / no stop fired / not the daily close — per CLAUDE.md push rules this event class is not pushed). Next routine: midday ~12:00 CT (retry GE verification; watch GE ~1.75% and DE ~1.89% cushions), then market-close ~15:00 CT (official scorecard + mandatory daily Telegram).
+
+## 2026-07-16 12:00 CT (13:02 ET) — MIDDAY (Thu, market OPEN; next_close 16:00 ET). **GE trailing stop FIRED at the open — profit-protecting exit.**
+
+**Alpaca live ~13:02 ET:** equity $101,441.59 | cash $60,167.80 (59.3%) | long_mv $41,273.79 (40.7%) | last_equity (7/15 close) $101,835.57 → day so far −$393.98 / −0.39%. Clock is_open=true. Book **3/5 (two slots OPEN)**, weekly buys 0/3, loss cap NOT hit (−0.39% ≪ −3%).
+
+### GE — trailing stop fired (reconciled this run)
+- GE's 10% trailing stop (`b9dadf2d`, floor 344.673) auto-SOLD all 45 shares at **344.54**, filled 2026-07-16T13:53:09Z (09:53 ET). Entry 329.63 → **realized +$670.95 / +4.52%**. GE printed Q2 ~7:30am EDT (result still UNVERIFIABLE — Perplexity retrieval wall, same as open), traded −2.6% on the reaction, and drifted through the trailing floor ~18 min after the open routine's 09:35 snapshot. This is sell-signal #2 mechanics working exactly as designed: a matured winner (+9% at its peak) gave back on its earnings reaction and the trailing floor caught the exit +4.5% above cost instead of letting the gain round-trip. No VERIFIED thesis break was ever established; discretionary action was neither needed nor possible.
+- Did NOT re-query Perplexity for GE post-mortem — position is closed, no decision hinges on the unverifiable print, and the retrieval wall has been consistent all week. Nothing to act on.
+
+### Risk sweep (priority order per midday routine)
+- **(a) Any position ≤ −7%?** NO. All three green: DE +1.21% (mark 596.945), JPM +4.77% (345.43), LLY +8.58% (1171). No news check triggered.
+- **(b) Any position +5%+ needing conversion?** LLY +8.58% already on 10% trailing; JPM +4.77% (slipped just under 5% from open's +5.13%) already on 10% trailing since 7/15. No conversions — all remaining stops are already trailing, zero hard stops.
+- **(c) Daily loss cap:** equity −0.39% vs 7/15 close — well inside −3%. No buy restriction from loss cap.
+
+**Stops — all 3 RESTING (open-orders status:new), all 10% trailing, zero hard stops:**
+LLY `6016a7e7` floor 1124.505 (hwm 1249.45; mark 1171, cushion ~4.1%) · JPM `8a937ff6` floor 316.116 (hwm 351.24; mark 345.43, cushion ~9.3%) · DE `dcdd84e5` floor 575.073 (hwm 638.97; mark 596.945, cushion ~3.7%).
+
+### Buy decision (midday)
+- NO buy. Midday rule: no new buys unless a high-conviction BREAKING catalyst AND caps allow. Capacity is wide open now (2 free slots, 0/3 weekly buys, ~59% cash, loss cap clear) — the block is verification, not caps. Nothing broke intraday; AXP 62 still leads the bench (1 clean VERIFIED signal, Jul 24 earnings = binary; ~62 < 70). No breaking catalyst → no deviation from the pre-market plan.
+- **Cash now ELEVATED at ~59.3%** after GE's exit (target buffer 10–20%). Not a cold-start trigger (still 3 positions, not flat), but redeploy is now a sharper priority. Escalation watch (cash-deploy A/B to Lauren) window still open through Fri 7/17 weekly review; trigger ("nothing clears while SPY keeps rising") has NOT fired — SPY roughly flat WTD (752.34 vs 754.94 on 7/10, and −0.33% today).
+
+### Scorecard (early midday read — close routine owns official)
+- Day so far **−$393.98 / −0.39%** (equity $101,441.59 vs last_equity $101,835.57). **SPY 752.34 vs 754.81 (7/15 close) = −0.33%** → we're within ~0.06pt of SPY intraday, essentially in line. Too early to call; official alpha at close.
+- Total since $100K start: **+1.44%.** Net open unrealized ≈ +$1,987.28 (LLY +1,295.56, JPM +534.97, DE +156.75). Plus today's realized +$670.95 from GE.
+
+### Actions this run
+- Reconciled GE trailing-stop fill (+$670.95). No new trades, no stop changes on the 3 remaining. Memory (portfolio/trade-log/messages/research-log) + dashboard written; commit + HEAD:main push. **Telegram PUSHED** — position auto-closed is a listed push event. Next routine: **market-close ~15:00 CT (official scorecard + mandatory daily Telegram).**
