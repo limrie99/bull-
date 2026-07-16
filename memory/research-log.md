@@ -3619,3 +3619,25 @@ GE `b9dadf2d` floor 344.673 · LLY `6016a7e7` floor 1124.505 · JPM `8a937ff6` f
 - **GE Q2 earnings ~7:30am EDT — the book's one dated binary.** Cons EPS ~$1.86 / rev ~$11.86B. GE +9.32% on a 4.35%-cushion trailing: a beat lets it run, a miss is caught by the floor (344.673). No pre-earnings action — hold and let the stop work.
 - Escalation watch (cash-deploy A/B decision) still teed up for the back half of the Jul 14–17 window: post-GE Thu + Fri weekly review. SPY roughly flat WTD (−0.02%), so the "SPY keeps rising while we sit in cash" trigger has NOT fired.
 - AXP 62 leads the bench (JPM upgrade 7/13 + Jul 24 earnings = 2 signals, conviction <70). Decision point is its Jul 24 print.
+
+---
+
+## 2026-07-16 08:35 CT (09:35 ET) — MARKET-OPEN (Thu, market OPEN; next_close 16:00 ET). **GE Q2 earnings-day open.**
+
+**Alpaca live ~09:32 ET:** equity $101,213.37 | cash $44,663.50 (44.1%) | long_mv $56,549.87 (55.9%) | last_equity (7/15 close) $101,835.57 → day so far −$622.20 / −0.61%. daytrade_count 0. Clock is_open=true. Book 4/5 (one slot OPEN), weekly buys 0/3, loss cap NOT hit.
+
+**Stops — all 4 confirmed RESTING (open-orders status:new), all 10% trailing, zero hard stops:**
+LLY `6016a7e7` floor 1124.505 (cushion ~2.12%) · GE `b9dadf2d` floor 344.673 (cushion ~1.75%) · JPM `8a937ff6` floor 316.116 (cushion ~8.80%) · DE `dcdd84e5` floor 575.073 (cushion ~1.89%). No +5% conversions needed — all already trailing.
+
+### GE Q2 print — UNVERIFIABLE (retrieval wall)
+- Perplexity (sonar-pro) could NOT confirm actual reported Q2 2026 EPS/revenue/guidance action. It explicitly flagged that several aggregator "Q2 2026" numbers are mislabeled prior quarters (Q1 2026 EPS $1.86; Q2 2025 EPS $1.66 / rev ~$10.2B) and declined to confabulate. Consensus carried: adj EPS ~$1.86 / rev ~$11.86B; prior FY26 guide $7.10–7.40 EPS / $8.0–8.4B FCF "trending high end."
+- **Market reaction:** GE −2.65% intraday (mark ~350.81 vs 7/15 close 360.35). A modest give-back on a +9% winner. NO VERIFIED thesis break → sell signal #3 does NOT fire. GE governed by trailing floor 344.673 (~1.75% cushion). No discretionary action; do not trade on unverified numbers. Retry verification at midday.
+
+### Buy decision
+- Per pre-market plan: NOTHING clears 2 VERIFIED signals + Conviction ≥70 (14th straight effectively-empty scan). AXP 62 leads bench (JPMorgan upgrade 7/13 = 1 clean signal + Jul 24 earnings binary; ~62 < 70). Capacity exists (open slot, 0/3 buys, ~44% cash, loss cap clear) — the block is verification, not caps. No buy.
+
+### Sell decision
+- No verifiable sell signal on any name. All 4 theses INTACT sev 1 (JPM STRENGTHENED post-7/14 beat). All governed by resting trailing stops. No sells.
+
+### Actions this run
+- No trades, no fills, no stops fired, no stop changes. Memory (portfolio/messages/research-log) + dashboard written; commit + HEAD:main push. **No Telegram** (market-open with no trade / no stop fired / not the daily close — per CLAUDE.md push rules this event class is not pushed). Next routine: midday ~12:00 CT (retry GE verification; watch GE ~1.75% and DE ~1.89% cushions), then market-close ~15:00 CT (official scorecard + mandatory daily Telegram).
