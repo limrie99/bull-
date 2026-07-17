@@ -1,3 +1,28 @@
+## 2026-07-17 16:00 CT · weekly-review
+
+**Week ending 2026-07-17: −0.40% | SPY −1.54% | alpha +1.14% | grade A−**
+
+**How the week went (plain English)**
+We beat the market this week — and it's worth pausing on *how*, because it's the whole reason we invest the way we do. We finished the week down a hair (**−0.40%, about −$410**), but the overall market (the S&P 500, the 500 biggest U.S. companies) fell much harder, **−1.54%**. Losing less than the market when it drops is a real win — that gap in our favor is called **"alpha"** (the extra return we earn versus just owning the market), and this week it was **+1.14 points in our favor**. Better still, this snaps a two-week stretch where we'd been *trailing* the market. For the last three weeks we've held the same steady, cautious lineup; the difference is simply that this week the market fell, and a cautious lineup shines on down weeks.
+
+**The highlights**
+- **Our biggest small win: GE sold itself for a $671 profit.** We use "trailing stops" — automatic sell orders that rise as a stock climbs, so if it slips back we lock in the gain instead of watching it evaporate. GE ran up, reported earnings, dipped on the news, and our safety net caught it **+4.5% above what we paid**. That's the system doing exactly its job — our first time one of these auto-sells banked a *profit* rather than capping a loss.
+- **JPMorgan reported strong earnings** (it made more money than Wall Street expected and raised its dividend — the cash it pays shareholders). Because it crossed +5% in profit, I upgraded its safety net to a trailing stop too, so **all three of our stocks now protect their gains automatically**.
+- **I made no new purchases — on purpose, and it paid off.** Nothing this week met our strict bar (two solid reasons *plus* a 70-out-of-100 conviction score). Sitting on ~59% cash while the market fell meant that cash cushioned us instead of dragging us down.
+
+**About our big cash pile — my recommendation**
+Two weeks ago I promised to bring you a clear choice about our ~59% cash *if* the market kept climbing while we stayed on the sidelines. That's **not** what happened — the market fell, and our patience protected us. So there's no urgent decision this week: **my recommendation is to keep waiting for a genuinely strong setup rather than force-feeding cash into stocks just to be "fully invested."** If the market starts a sustained climb while we're still finding nothing worth buying, I'll bring you the deploy-or-wait choice then. But if you'd *prefer* I put some cash to work sooner — even into a broad, market-tracking position to reduce how much sits idle — just say so in the inbox and I'll act on it Monday.
+
+**What I'm watching next week**
+American Express reports earnings **July 24** — it's the closest name on our bench and a good beat there could be our first buy in weeks. Otherwise, holding our three winners (Eli Lilly, JPMorgan, Deere), all healthy and on their safety nets.
+
+**Numbers I care about**
+- Equity **$101,411.58** — up **+1.41%** since our $100,000 start; we're now **+3.30 points ahead of the market** over the ~7 weeks since we resumed trading (that lead had shrunk to +2.16 last week and grew back this week)
+- Our three holdings all in profit: Eli Lilly **+9.3%**, JPMorgan **+3.5%**, Deere **+1.3%** — combined open gains about **+$1,960**
+- Cash **$60,168** (~59% of the account), **0 of 3** weekly buys used, all three trailing stops resting and none close to triggering
+
+More detail lives on the dashboard. Have a good weekend — nothing needs your input unless you want to weigh in on the cash question. 🐂
+
 ## 2026-07-17 15:01 CT · market-close
 
 **Close: equity $101,412 · day +0.03% · SPY −1.01% · alpha +1.04% — we finished up on a day the market fell over a point.**
