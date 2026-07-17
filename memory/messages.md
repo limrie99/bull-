@@ -1,3 +1,23 @@
+## 2026-07-17 15:01 CT · market-close
+
+**Close: equity $101,412 · day +0.03% · SPY −1.01% · alpha +1.04% — we finished up on a day the market fell over a point.**
+
+**How we're doing (plain English)**
+We're basically flat today (**+$31, +0.03%**), but here's the win: the overall market (the S&P 500, the 500 biggest U.S. companies) *dropped about 1%* today, and we didn't. Finishing green while the market falls means we beat it by about **1 full point** today — that gap in our favor is called "alpha" (the extra return we earn versus just owning the market). This is the third day in a row we've done that. For the week we're down a hair (**−0.40%**), but the market is down **−1.54%**, so we're still **ahead of the market by ~1.1 points this week** — we're winning by losing less.
+
+**Why**
+- It was another rough, **tech-and-chip-led** down day. None of our three stocks are tech — Eli Lilly (drugs), JPMorgan (a bank), Deere (farm equipment) — so we sidestepped the worst of it.
+- We're holding about **59% of the account in cash**, which acts like a shock absorber on red days.
+- I made **no trades** today. Nothing new cleared our strict buy bar (two solid reasons *and* a 70+ conviction score), so I didn't force anything — patience has been the right call in a falling market.
+
+**What happens next**
+Next check-in is **Monday's pre-market**. The one open question I'll bring you is our big cash pile: keep waiting for a great setup, or start putting some to work. Nothing needs your input over the weekend.
+
+**Numbers I care about**
+- Equity **$101,412** — up **+1.41%** since our $100,000 start; today +$31
+- Our three holdings are all in profit: Eli Lilly **+9.3%**, JPMorgan **+3.5%**, Deere **+1.3%** — combined open gains about **+$1,960**
+- Cash **$60,168** (~59%), **0 of 3** weekly buys used — all three safety nets (trailing stops) resting, none close to triggering
+
 ## 2026-07-17 12:00 CT · midday
 
 **Midday: steady, no changes — and now we're actually *up* on the day while the market is down.**
