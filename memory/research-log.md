@@ -3718,3 +3718,29 @@ LLY `6016a7e7` floor 1124.505 (hwm 1249.45; mark 1171, cushion ~4.1%) · JPM `8a
 - **What worked:** (1) GE trailing stop banked a +$671 realized win before the earnings give-back could round-trip it — sell-signal #2 exactly as designed. (2) LLY (+8.5%) and DE (+1.5% up on the day) cushioned the tape; we edged SPY on a red day.
 - **What didn't / watch:** (1) JPM was the day's drag, −1.08%, slipping to +4.08% (cushion still ~9%+, no action — normal trailing mechanics). (2) Cash ~59.3% remains ELEVATED (target 10–20%); redeploy still gated on a verifiable 2-signal + Conviction≥70 setup — none found, 14th straight effectively-empty scan.
 - **Open questions for tomorrow (Fri 7/17 = weekly review):** Escalation-watch window CLOSES tomorrow. Trigger was "post-Jul-14 wave + CPI passes with nothing clearing the gate while SPY keeps rising." Reality: nothing cleared, BUT SPY is roughly flat-to-DOWN WTD (−0.54%), so the "SPY keeps rising" half did NOT fire. GE's exit + ~59% cash strengthens the case to put the A/B cash-deployment question to Lauren tomorrow. AXP 62 still the top bench name (Jul 24 earnings = the real decision point). Stops all resting, all trailing, zero hard stops.
+
+---
+
+## 2026-07-17 12:00 CT · MIDDAY (Fri, market OPEN)
+
+**Live Alpaca snapshot (~13:02 ET):** equity **$101,484.49** | cash **$60,167.78** (~59.3%) | long_mv **$41,316.71** (~40.7%). last_equity (7/16 close) $101,380.60. Book **3 of 5** (two slots OPEN), weekly buys **0/3**. Clock: is_open=true, close 16:00 ET.
+
+### Risk sweep (priority order per midday routine)
+- **(a) Any position ≤ −7%?** NO. All three green: LLY +9.29% (mark 1178.65), JPM +4.18% (343.47), DE +1.32% (597.59). No 4-hour news check triggered.
+- **(b) Any position +5%+ needing conversion?** All three ALREADY on 10% trailing (zero hard stops in the book). LLY +9.29% trailing; DE +1.32% trailing; JPM +4.18% (below +5% now but already trailing since 7/15). No conversions needed.
+- **(c) Daily loss cap:** equity **+0.10%** vs 7/16 close — book is UP, nowhere near −3%. No buy restriction.
+
+**Stops — all 3 RESTING (open-orders status:new), all 10% trailing, zero hard stops:**
+LLY `6016a7e7` floor 1124.505 (hwm 1249.45; mark 1178.65, cushion ~4.6%) · JPM `8a937ff6` floor 316.116 (hwm 351.24; mark 343.47, cushion ~8.0%) · DE `dcdd84e5` floor 575.073 (hwm 638.97; mark 597.59, cushion ~3.8%).
+
+### Buy decision (midday)
+- **NO buy.** Midday rule: no new buys unless a high-conviction BREAKING catalyst AND caps allow. Capacity is wide open (2 free slots, 0/3 weekly, ~59% cash, loss cap clear) — the block is verification, not caps. Nothing broke intraday. AXP 62 still leads the bench (1 clean VERIFIED JPMorgan upgrade 7/13, Jul 24 earnings = binary; ~62 < 70). JNJ ~58 (beat-and-raise 7/16, 1 signal). No breaking catalyst → no deviation from the pre-market/open plan (16th straight effectively-empty scan).
+- Cash ~59.3% remains ELEVATED (target 10–20%). Escalation-watch window closes at TODAY's weekly review; the A/B cash-deployment decision for Lauren is owned by the weekly review, not midday.
+
+### Scorecard (midday indicative — market-close owns official)
+- Day so far **+$103.89 / +0.10%** (equity $101,484.49 vs 7/16 close $101,380.60). **SPY 746.74 vs 750.87 (7/16 close) = −0.55%** → **alpha today ~+0.65%.** We are GREEN while the market is red — non-tech, cash-heavy book outperforming a tech-led risk-off tape (2nd day running).
+- Total since $100K start: **+1.48%.** Net open unrealized **+$2,041.93** (LLY +1,402.66, JPM +468.33, DE +170.94).
+- Note: JPM recovered from the morning laggard (open mark 335.99 / +1.91% → 343.47 / +4.18%) as banks bounced; LLY strengthened to +9.29%.
+
+### Actions this run
+- NONE — no buys, no sells, no stop changes. Memory (portfolio/messages/research-log) + dashboard written; commit + HEAD:main push. **No Telegram** (quiet midday is a skip-push event per CLAUDE.md). Next routine: **Fri 7/17 WEEKLY REVIEW** (official week scorecard + escalation-window closes + A/B cash decision to Lauren), then Fri close.

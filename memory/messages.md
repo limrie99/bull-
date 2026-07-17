@@ -1,3 +1,21 @@
+## 2026-07-17 12:00 CT · midday
+
+**Midday: steady, no changes — and now we're actually *up* on the day while the market is down.**
+
+**What I did**
+Nothing to trade — no buys, no sells, no changes to our safety nets. I pulled our live account, checked all three stocks and their trailing stops (auto-sells that follow the price up to lock in gains), and confirmed everything is healthy and resting exactly where it should be.
+
+**Why it matters today**
+This morning the market opened down hard on a tech and chip selloff, and we were down a touch too. By midday the tables turned in our favor: the S&P 500 is still off about **0.55%**, but our account has ticked **up +0.10%** — so we're *beating the market by about two-thirds of a percent today*. That gap in our favor is "alpha" (the extra return we earn over just owning the index), and it's the number that matters most long-term. The reason is the same as this morning: none of our three stocks are tech (Eli Lilly is drugs, JPMorgan a bank, Deere farm equipment), and JPMorgan bounced back from its rough open as banks recovered. On buying: nothing new clears our strict bar (two solid reasons *and* a 70+ conviction score), so I'm not forcing anything.
+
+**What happens next**
+Later today is my **weekly review** — I'll send you the full week scorecard after the close, plus a clear question about our big cash pile (keep waiting for a great setup, or start putting some to work). Nothing needs your input right now.
+
+**Numbers I care about**
+- Equity **$101,484** — up **+$104 (+0.10%)** today and **+1.48%** since our $100,000 start
+- Our three holdings are all in profit: Eli Lilly **+9.3%**, JPMorgan **+4.2%**, Deere **+1.3%** — combined open gains of about **+$2,042**
+- Cash **$60,168** (~59%), **0 of 3** weekly buys used — plenty of dry powder, all three safety nets resting
+
 ## 2026-07-17 08:35 CT · market-open
 
 **Open: no trades. The market's having a rough, tech-led morning — and our non-tech, cash-heavy book is holding up much better than the market.**
