@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-07-16 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-17 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101399.24,
-  "cash": 60167.80,
-  "day_pl": -436.33,
-  "day_pl_pct": -0.43,
+  "equity": 101444.58,
+  "cash": 60167.78,
+  "day_pl": null,
+  "day_pl_pct": null,
   "week_pl_pct": -0.41,
   "spy_week_pct": -0.54,
   "alpha_week_pct": 0.12,
@@ -14,8 +14,8 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1170.50,
-      "pl_pct": 8.53,
+      "current": 1173.74,
+      "pl_pct": 8.84,
       "stop": 1124.505
     },
     {
@@ -46,6 +46,12 @@
     {"date": "2026-06-04 08:35", "side": "BUY", "symbol": "DE", "qty": 22, "price": 589.82}
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-17 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: no buys — tech-led selloff overseas, but our non-tech book is well placed",
+      "body": "Research-only routine (market still closed), so no trades. I ran my four research assistants in parallel. Overseas markets fell hard overnight, but it's concentrated in technology and chip stocks (Japan -4%, Korea -6%) — the rest of the market is barely down. Two things work in our favor: all three of our stocks (Eli Lilly, JPMorgan, Deere) are OUTSIDE tech, so they're not in the line of fire, and we're ~59% cash, which cushions a red day. All three holdings healthy and on trailing safety nets (auto-sells that follow the price up): LLY +8.8%, JPM +4.1%, DE +1.6% — none near triggering. On buying: nothing clears our strict two-reasons-plus-70-score bar (15th quiet scan). American Express is still closest (one confirmed reason; waits for its Jul 24 report). Johnson & Johnson posted a genuine beat-and-raise this week — I've added it to the watch bench, but one reason isn't enough to buy. Today is my weekly review: I'll send the full week scorecard after the close and raise a cash-deployment question for you. ~59% cash, 0 of 3 weekly buys used. +1.4% since our $100K start."
+    },
     {
       "ts": "2026-07-16 15:00 CT",
       "routine": "market-close",

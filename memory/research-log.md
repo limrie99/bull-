@@ -1,3 +1,42 @@
+## 2026-07-17 06:00 CT (07:10 ET) — PRE-MARKET (Fri, market CLOSED pre-open; opens 09:30 ET). **WEEKLY-REVIEW day + ESCALATION-WINDOW closes at today's review.**
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official): equity **$101,444.58**, cash **$60,167.78** (~59.3%), long_market_value ~$41,276.80, last_equity (7/16 close) **$101,380.60**, buying_power $356,246.16, status ACTIVE. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.** All 3 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops): LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.
+
+**Decision: NO TRADES (market closed). NOTHING clears 2 VERIFIED signals + Conviction ≥70 — 15th straight effectively-empty scan.** Full 4-agent scan (macro / earnings / position / scout). **Notable context: today's tape is RISK-OFF and tech/AI-led — and our book is 100% non-tech (LLY pharma / JPM bank / DE industrial) sitting on ~59% cash, i.e. defensively positioned exactly right for this kind of day.**
+
+### Market context — RISK-OFF, tech/AI-led (moderate-high confidence)
+- **Global semiconductor/AI unwind is the primary driver [VERIFIED directionally].** Nikkei 225 closed **−4.03%** (intraday −6.18%, into correction) [VERIFIED, Reuters], KOSPI **−6.37%** (7/16) [VERIFIED]. US futures: ES only ~**−0.2%**, NQ ~**−1.66%** [UNVERIFIED level, directionally corroborated] — the weakness is concentrated in tech/semis, NOT a broad-market panic.
+- **This is a valuation/rate unwind, NOT a flight-to-safety [VERIFIED directionally]:** yields drifting HIGHER (10Y ~**4.58%**, 2Y ~4.21% [VERIFIED 7/16]) and DXY UP as equities fell — bonds did not catch a safety bid. Stagflation-ish/valuation risk-off rather than a growth scare.
+- **Fed hawkish tilt [VERIFIED]:** Dallas Fed's Lorie Logan (7/16) said rates may need to go "modestly higher." FOMC **Jul 29**; a July HIKE is being priced ~33% [UNVERIFIED %, consistent with rising yields]. June retail sales (7/16) came in **stronger than expected** [VERIFIED directionally] — supports yields.
+- **WTI $78.95 (7/16 settle) [VERIFIED].** Gold/DXY exact levels not retrievable — not fabricated. "Middle East escalation" cited as a secondary driver but sources conflicted (one stale "US-Iran ceasefire" thread) → [UNVERIFIED, FLAG].
+- **Today's US data (7/17):** UMich prelim consumer sentiment (10:00 ET), housing starts/permits, import prices, industrial production [VERIFIED calendar].
+- **Net read:** defensive day. Don't chase semis/AI weakness; new buys into the open are risky. Our non-tech, cash-heavy book should hold up relatively well; the >3% daily-loss-cap is worth watching only if the US follows Asia sharply down.
+
+### Portfolio watch — all 3 INTACT, sev 1, no dated negative catalyst in 24h
+- **LLY sev 1** — thesis fully intact (GLP-1 franchise). **[UNVERIFIED] "AtaiBeckley" acquisition rumor (~$2.8B, psychedelic/mental-health biotech, ~7/16)** — single-source-flavored, could NOT corroborate → NOT actioned; if real it's a neuroscience pipeline add, thesis-NEUTRAL (not GLP-1). "Foundayo" fake drug did NOT appear this run. Undated PT grab-bag ($1,233–$1,600) ignored. Next earnings ~Aug 5. +8.84%, trailing floor 1124.505 (mark 1173.74; cushion ~4.2%).
+- **JPM sev 1 STRENGTHENED** — 7/14 Q2 VERIFIED beat (adj EPS $6.14). Post-earnings PT hikes 7/15–16 (HSBC $369, RBC $370, KBW $384, Barclays $420, etc.) [UNVERIFIED but plausible, directionally bullish]. NI/rev figures muddled in retrieval → EPS $6.14 the only anchor. +4.08%, trailing floor 316.116 (widest cushion ~7.9%).
+- **DE sev 1** — FTC/5-state right-to-repair settlement (+$99M class fund) still a positive; Citi PT →$610 (Neutral) [UNVERIFIED/undated]. No dated ag-sector shock. Off-cycle, next report ~Aug 20. +1.55%, trailing floor 575.073 (cushion ~4.0%).
+
+### Buy candidates — NOTHING CLEARS (15th straight empty scan)
+- **AXP (bench lead) 62 — UNCHANGED.** JPMorgan upgrade Neutral→Overweight PT $328→$400 dated **7/13** now [VERIFIED by 3 sources] (signal #4). Q2 earnings **Jul 24** [VERIFIED] = binary event, NOT a signal. Uptrend soft-verified (#6). **1 firm + 1 soft = short of 2 clean, ~62 < 70 → HOLD on bench, do NOT pre-position; Jul 24 print is the decision point.**
+- **JNJ — NEW bench name ~58.** **[VERIFIED beat-and-raise 7/16]** (adj EPS $2.90 vs $2.84 cons; rev $25.31B vs $25.18B; raised FY26 guide to sales $100.8–101.4B / adj EPS $11.60–11.75) = signal #1. Only 1 clean signal (no confirmable 2nd — defensive-rotation tailwind is weak/thematic, not dated) → watchlist only, ~58 < 70. A quality, low-beta name worth tracking, esp. on a tech-led risk-off tape.
+- **Scout: ZERO names with 2+ VERIFIED signals.** Bench GS/MS/V/AMGN/CB/CVS/VST/PANW — no fresh dated signal (AMGN only PT bumps on *maintained* ratings, not upgrades). Fresh screens (beat-and-raise / upgrades / catalysts) returned nothing verifiable beyond JNJ. Correctly declined to confabulate.
+- **Bench (re-sorted):** AXP 62, GS 60, JNJ 58 (NEW), MS 52, V/AMGN/CB/CVS/VST 50, PANW 35.
+
+### Sell candidates — none
+No holding at/below its stop; no thesis-breaker. All 3 on 10% trailing stops.
+
+### Scorecard (baseline; pre-market indicative unreliable)
+- 7/16 close of record (Alpaca last_equity): **$101,380.60.** Total since $100K start: **+1.38%.** SPY 7/16 close **750.87.**
+- Pre-market indicative equity $101,444.58 (~+0.06%) is NOT official (thin pre-market marks; LLY has a pre-open print 1173.74 vs 1169.17 lastday) — market-close/weekly-review owns the real scorecard.
+
+### Standing tasks into weekly review (today) / market-open
+- **WEEKLY REVIEW today** owns the official week scorecard + alpha vs SPY + the escalation-window decision.
+- **ESCALATION WATCH — window CLOSES at today's weekly review.** Trigger = "Jul 14–17 window closes empty with STILL nothing clearing 2 signals + Conviction ≥70 **while SPY keeps rising.**" At this scan: nothing cleared (15th empty) — but with today's RISK-OFF tape SPY is set to open DOWN and was ~flat-to-down WTD, so the **"SPY keeps rising" half does NOT fire.** HOWEVER: GE's exit pushed cash to ~59% (well above the 10–20% target) and freed a 2nd slot — that operational fact strengthens the case to raise the A/B cash-deployment question to Lauren's inbox at the weekly review regardless of the SPY condition. **Decide at the weekly review.**
+- **Redeploy ~59% idle cash — GATED**, 15th empty scan. AXP the only 2-signal-*eligible* bench name (sub-70); its Jul 24 print is the next real single-name catalyst. JNJ now the fundamentals-quality alternative to track.
+- **No Telegram this run** (pre-market scan, no trades — per CLAUDE.md do-not-push list).
+
+---
 ## 2026-07-16 06:00 CT (07:10 ET) — PRE-MARKET (Thu, market CLOSED pre-open; opens 09:30 ET). **GE Q2 EARNINGS MORNING (~7:30am EDT / 6:30am CT, before open).**
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official): equity **$101,192.56**, cash **$44,663.50** (~44.1%), long_market_value **$56,529.06**, last_equity (7/15 close) **$101,835.57**, buying_power $336,935.37, status ACTIVE. **4 of 5 positions; one slot OPEN. Weekly buys 0/3.** All 4 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops): GE b9dadf2d f344.673/hwm382.97, LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.

@@ -1,3 +1,21 @@
+## 2026-07-17 06:00 CT · pre-market
+
+**Quiet pre-market plan — no changes coming at the open. The market's having a rough tech-led morning, and we're sitting in a good spot for it.**
+
+**What I did**
+I ran the full morning research sweep (my team of sub-analysts checked overnight markets, today's earnings, each of our three stocks, and fresh buy ideas). No trades — the market's still closed, and nothing new clears our strict buy bar anyway. This is the 15th straight morning that no candidate has passed the gate, and that's fine.
+
+**Why it matters today**
+Stock markets overseas fell hard overnight, but it's very concentrated in *technology and chip* stocks (Japan's market −4%, Korea's −6%). The rest of the market is barely down. Two things are working in our favor: (1) all three of our stocks — Eli Lilly (drugs), JPMorgan (a bank), and Deere (farm equipment) — are *outside* tech, so they're not in the line of fire; and (2) we're holding about 59% of the account in cash, which acts like a shock absorber on a red day. Our positions are all healthy — each has a "trailing stop" (an automatic sell that follows the price up and locks in gains if it reverses), and none are anywhere near triggering.
+
+**What happens next**
+Today is my **weekly review** — I'll send you the full scorecard (how we did this week vs. the S&P 500) after the close. I'm also going to raise a question for you then: we're carrying a lot of cash, and I want your steer on how patient to be about putting it to work.
+
+**Numbers I care about**
+- Equity ~$101,445 — up about 1.4% since our $100,000 start
+- Cash ~$60,168 (~59% of the account) — deliberately high after we sold GE yesterday for a profit
+- 3 of 5 position slots used; 0 of 3 weekly buys — plenty of dry powder, waiting for a genuinely good setup
+
 ## 2026-07-16 15:00 CT · market-close
 
 **Close: equity $101,399 · day −0.43% · SPY −0.52% · alpha +0.09% — a red day, but we beat the market.**
