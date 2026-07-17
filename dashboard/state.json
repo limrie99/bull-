@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-07-17 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-07-17 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 101444.58,
+  "equity": 101002.07,
   "cash": 60167.78,
-  "day_pl": null,
-  "day_pl_pct": null,
+  "day_pl": -378.53,
+  "day_pl_pct": -0.37,
   "week_pl_pct": -0.41,
   "spy_week_pct": -0.54,
   "alpha_week_pct": 0.12,
@@ -14,24 +14,24 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1173.74,
-      "pl_pct": 8.84,
+      "current": 1158.81,
+      "pl_pct": 7.45,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 343.15,
-      "pl_pct": 4.08,
+      "current": 335.99,
+      "pl_pct": 1.91,
       "stop": 316.116
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 598.97,
-      "pl_pct": 1.55,
+      "current": 598.785,
+      "pl_pct": 1.52,
       "stop": 575.073
     }
   ],
@@ -47,6 +47,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-17 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — tech-led selloff, but our non-tech, cash-heavy book is beating the market",
+      "body": "No trades at the open — no buys, no sells, no changes. The market opened down hard, led by tech and chip stocks (S&P 500 off ~1.2% early), but we're down only ~0.37% — none of our three holdings are tech (Eli Lilly drugs, JPMorgan bank, Deere farm equipment) and we're ~60% cash, which cushions a red day. Falling far less than the market is exactly the point of being selective. JPM is today's soft spot (−2% with the banks) but still in profit and nowhere near its safety net. Nothing new clears our strict buy bar (two solid reasons + score 70+, the 16th straight quiet scan), so I didn't force anything. Later today is my weekly review: full week scorecard after the close, plus a clear question for you about our big cash pile — keep waiting or start deploying. Nothing needs your input right now. Equity ~$101,002 (+1.0% since our $100K start), cash ~$60,168 (~60%), 0 of 3 weekly buys used, all three stops resting."
+    },
+    {
       "ts": "2026-07-17 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: no buys — tech-led selloff overseas, but our non-tech book is well placed",
@@ -57,36 +63,6 @@
       "routine": "market-close",
       "headline": "Close: equity $101,399 · day -0.43% · SPY -0.52% · alpha +0.09% — a red day, but we beat the market",
       "body": "It was a down day for stocks across the board and we dipped too, finishing at $101,399, off about $436 (-0.43%). The good news: the S&P 500 fell more, -0.52%, so even on a losing day we lost LESS than the market — that gap in our favor is our alpha (extra return vs. just owning the index), +0.09% today. Small, but it's the number that matters long-term, and it's green. What moved us: GE was sold this morning for a +$671 profit — its trailing stop (an auto-sell that rises with the price to lock in gains) did its job before the earnings dip could erase the win, and that cash is banked. Eli Lilly (+8.5%) and Deere (+1.5% on the day) held us up; JPMorgan was the soft spot, down ~1%, but still +4% for us and nowhere near its safety net. We're sitting on ~59% cash — more than I like idle. I'm hunting for a strong place to put it but won't force a weak buy just to be invested. Tomorrow is my weekly review: full week scorecard, and I'll decide whether to bring you a clear cash-deployment question. Nothing needs your input tonight; all three holdings have resting safety nets. Equity +1.40% since our $100K start; open gains total +$1,947 across LLY, JPM, DE."
-    },
-    {
-      "ts": "2026-07-16 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: GE's safety net sold it for a +$671 profit · equity $101,442 · day -0.39% · SPY -0.33%",
-      "body": "General Electric got sold this morning — on purpose and at a gain. GE reported earnings, dipped ~2.6%, and slid just far enough to touch its trailing stop (an auto-sell that rises with the price to protect gains), so all 45 shares sold automatically at $344.54 at 8:53am our time. We bought at $329.63, so that's a locked-in +$671 gain (+4.5%). Not panic — the safety net working exactly as designed: GE had run to +9%, and rather than let a popular stock's earnings wobble round-trip the gain, the stop caught our exit +4.5% above cost. I still couldn't verify GE's exact reported numbers (same data-blackout), so I never traded on guesswork — the stop decided mechanically. Other three healthy: LLY +8.6%, JPM +4.8%, DE +1.2% (recovered from its AM dip). GE's exit freed cash — we're now ~59% cash with 3 positions, more than I like idle; redeploying it wisely is the priority, but I won't force a weak buy (AXP closest but not until its Jul 24 report). Down ~$394 on the day (-0.39%), essentially even with the market (SPY -0.33%). 0 of 3 weekly buys used. +1.44% since our $100K start. Official scorecard at 3pm."
-    },
-    {
-      "ts": "2026-07-16 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: GE reported, no trades, holding · equity $101,213 · day -0.61% · SPY ~-0.2%",
-      "body": "No buying or selling — a hold-and-monitor open. I checked GE closely because it reported quarterly earnings before the bell (the one event that could have forced my hand). GE is down ~2.6% after the report — but that's a small give-back on a stock that had run +9%, normal earnings wobble, not a broken story. Honest part: I couldn't verify GE's exact reported numbers through my research tool (same data-blackout I've flagged), and I caught + discarded a fake 'already-reported' figure from a low-quality source. I never trade on numbers I can't confirm, so I'm not reacting to the dip — GE's trailing safety net at $344.67 protects the gain if it keeps falling. On buying: still nothing clears our strict two-reasons-plus-70-score bar, so cash stays put. All four holdings healthy: LLY +6.5%, GE +6.4%, JPM +5.1%, DE -0.6%. I'll retry verifying GE's results at midday; official scorecard at 3pm. Down ~$622 (-0.61%) so far vs market ~-0.2% (mostly GE's dip; very early). ~44% cash, 0 of 3 weekly buys used. +1.21% since our $100K start."
-    },
-    {
-      "ts": "2026-07-16 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: no buys — big morning, GE reports earnings before the bell",
-      "body": "Research-only routine (market still closed), so no trades. I ran my four research assistants in parallel and here's the plan. GE reports its quarterly results around 6:30am CT — it's our best winner (+9%), and I'm watching whether they RAISE their forecast (bullish) or just repeat it (which could disappoint an already-popular stock). I won't act ahead of the news: GE's trailing safety net sits ~4% below the price and protects the gain if the report lands badly. My market-open check will confirm the actual numbers against the official company source (I caught a fake 'already-reported' figure from a low-quality data source this morning — discarded it). On buying: nothing clears our strict two-reasons-plus-70-score bar (13th quiet scan). American Express is closest but has only one confirmed reason, so it waits for its July 24 report. Cool June inflation is a nice tailwind for stocks broadly but isn't a single-name buy signal. All 4 holdings healthy and on trailing safety nets: GE +9.3%, LLY +7.2%, JPM +5.2%, DE -0.2%. ~44% cash, 0 of 3 weekly buys used. +1.84% since our $100K start."
-    },
-    {
-      "ts": "2026-07-15 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $101,813 · day +0.57% · SPY +0.38% · alpha +0.20% — up AND beat the market",
-      "body": "A good day — we finished +0.57% while the S&P 500 rose +0.38%, so we made money AND outran the market by about 0.2 points. No trades: no buying, selling, or adjustments; every safety check stayed clean all day. Why we won today: our specific stocks did the work — GE and Eli Lilly, two of our biggest holdings, climbed harder than the market average, which is the whole point of owning a few high-quality names. Deere even recovered from a small dip to finish essentially flat. All four holdings are on trailing safety nets: GE +9.3%, LLY +7.2%, JPM +5.2%, DE -0.2% (Deere's cushion tightest at ~2.3% but holding fine). GE reports earnings tomorrow morning — the one event I'm watching; I'll hold through it and let its trailing stop protect the +9.3% gain. Still ~44% cash (0 of 3 weekly buys used) — hunting for a company good enough to deploy it. +1.81% since our $100K start."
-    },
-    {
-      "ts": "2026-07-15 12:02 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — nudged ahead of the market · equity $101,391 · day +0.16% · SPY ~flat",
-      "body": "Quiet, healthy midday — no buying or selling, all four holdings safe. Risk sweep clean: nothing near its -7% exit (worst is DE -0.8%), and all four winners are already on the smarter trailing safety net — nothing to fix. JPMorgan's trailing stop (upgraded at the open) is already ratcheting up as the stock climbs. Encouraging detail: the market gave back its morning pop and drifted to flat, while GE and JPMorgan firmed — so we edged a hair ahead today. Still no new company clears our strict quality bar, so I'm not forcing a buy (AXP is closest, but not until its Jul 24 report). GE reports tomorrow morning — the event I'm watching; I'll hold through it. Deere has the tightest cushion (~1.7%) — watching into the close. Full scorecard at 3pm. +1.39% since our $100K start."
     }
   ]
 }

@@ -1,3 +1,21 @@
+## 2026-07-17 08:35 CT · market-open
+
+**Open: no trades. The market's having a rough, tech-led morning — and our non-tech, cash-heavy book is holding up much better than the market.**
+
+**What I did**
+Nothing at the open — no buys, no sells, no changes. I checked that the market was really open, pulled our live account, and confirmed all three of our stocks are healthy with their safety nets resting in place. This matches the plan I set in this morning's research: nothing new clears our strict buy bar (two solid reasons *and* a conviction score of 70+), so I didn't force anything.
+
+**Why it matters today**
+The market opened down hard, led by technology and chip stocks (the S&P 500 is off about **1.2%** so far). We're down only about **0.37%** — because none of our three holdings are tech (Eli Lilly is drugs, JPMorgan is a bank, Deere is farm equipment) and we're holding ~60% of the account in cash, which cushions a red day. That gap in our favor — falling far less than the market — *is* the whole point of being selective and disciplined. JPMorgan is our soft spot today (down ~2% with the banks), but it's still in profit and nowhere near its safety net.
+
+**What happens next**
+Later today is my **weekly review** — I'll send you the full week scorecard (how we did vs. the S&P 500) after the close, and I'll bring you a clear question about our big cash pile: keep waiting for a great setup, or start putting some to work. Nothing needs your input right now.
+
+**Numbers I care about**
+- Equity ~**$101,002** — up about **1.0%** since our $100,000 start (early mark; it'll move with the day)
+- Cash **$60,168** (~60% of the account) — deliberately high, ready to deploy when something earns it
+- 3 of 5 position slots used; **0 of 3 weekly buys** — all three holdings on trailing safety nets, none close to triggering
+
 ## 2026-07-17 06:00 CT · pre-market
 
 **Quiet pre-market plan — no changes coming at the open. The market's having a rough tech-led morning, and we're sitting in a good spot for it.**
