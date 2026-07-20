@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-07-17 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-07-20 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101411.58,
+  "equity": 101475.04,
   "cash": 60167.78,
-  "day_pl": 30.98,
-  "day_pl_pct": 0.03,
-  "week_pl_pct": -0.40,
-  "spy_week_pct": -1.54,
-  "alpha_week_pct": 1.14,
+  "day_pl": 63.04,
+  "day_pl_pct": 0.06,
+  "week_pl_pct": 0.06,
+  "spy_week_pct": 0.0,
+  "alpha_week_pct": 0.06,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1179.08,
-      "pl_pct": 9.33,
+      "current": 1180.71,
+      "pl_pct": 9.48,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 341.10,
-      "pl_pct": 3.46,
+      "current": 341.81,
+      "pl_pct": 3.67,
       "stop": 316.116
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 597.24,
-      "pl_pct": 1.26,
+      "current": 597.99,
+      "pl_pct": 1.39,
       "stop": 575.073
     }
   ],
@@ -46,6 +46,12 @@
     {"date": "2026-06-04 08:35", "side": "BUY", "symbol": "DE", "qty": 22, "price": 589.82}
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-20 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: no buys — a new week starts calm, and our lineup is sitting in exactly the right spot",
+      "body": "Research-only routine (market still closed, opens 8:30 CT), so no trades. I ran my four research assistants in parallel and pulled them into one view. Friday's big overseas drop was really a tech-and-chip-stock selloff (fear that AI stocks got too expensive), and this morning it's calming down. The helpful part for us: money is rotating INTO the kinds of stocks we own -- healthcare, banks, industrials. All three holdings (Eli Lilly, JPMorgan, Deere) checked out healthy with no bad news, and none report earnings this week. On buying: still nothing clears our strict bar -- two solid verified reasons AND a conviction score of 70+ (my 0-100 confidence rating). This is the 17th quiet scan in a row, and quiet has been the right call while the market chops sideways. The one name close to qualifying is American Express, which reports earnings Friday (7/24). I'm deliberately NOT buying ahead of it -- an earnings report is a coin-flip moment (stock can jump or drop hard), so I'd rather see the result first, then decide. That report is the week's key event for us. Equity ~$101,475 (+1.4% since our $100K start), cash ~$60,168 (~59% -- still a big cushion I'm hunting to deploy, not force), 0 of 3 weekly buys used, all three trailing stops resting."
+    },
     {
       "ts": "2026-07-17 16:00 CT",
       "routine": "weekly-review",
@@ -75,12 +81,6 @@
       "routine": "pre-market",
       "headline": "Pre-market plan: no buys — tech-led selloff overseas, but our non-tech book is well placed",
       "body": "Research-only routine (market still closed), so no trades. I ran my four research assistants in parallel. Overseas markets fell hard overnight, but it's concentrated in technology and chip stocks (Japan -4%, Korea -6%) -- the rest of the market is barely down. Two things work in our favor: all three of our stocks (Eli Lilly, JPMorgan, Deere) are OUTSIDE tech, so they're not in the line of fire, and we're ~59% cash, which cushions a red day. All three holdings healthy and on trailing safety nets (auto-sells that follow the price up): LLY +8.8%, JPM +4.1%, DE +1.6% -- none near triggering. On buying: nothing clears our strict two-reasons-plus-70-score bar (15th quiet scan). American Express is still closest (one confirmed reason; waits for its Jul 24 report). Johnson & Johnson posted a genuine beat-and-raise this week -- I've added it to the watch bench, but one reason isn't enough to buy. Today is my weekly review: I'll send the full week scorecard after the close and raise a cash-deployment question for you. ~59% cash, 0 of 3 weekly buys used. +1.4% since our $100K start."
-    },
-    {
-      "ts": "2026-07-16 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $101,399 · day -0.43% · SPY -0.52% · alpha +0.09% — a red day, but we beat the market",
-      "body": "It was a down day for stocks across the board and we dipped too, finishing at $101,399, off about $436 (-0.43%). The good news: the S&P 500 fell more, -0.52%, so even on a losing day we lost LESS than the market -- that gap in our favor is our alpha (extra return vs. just owning the index), +0.09% today. Small, but it's the number that matters long-term, and it's green. What moved us: GE was sold this morning for a +$671 profit -- its trailing stop (an auto-sell that rises with the price to lock in gains) did its job before the earnings dip could erase the win, and that cash is banked. Eli Lilly (+8.5%) and Deere (+1.5% on the day) held us up; JPMorgan was the soft spot, down ~1%, but still +4% for us and nowhere near its safety net. We're sitting on ~59% cash -- more than I like idle. I'm hunting for a strong place to put it but won't force a weak buy just to be invested. Tomorrow is my weekly review: full week scorecard, and I'll decide whether to bring you a clear cash-deployment question. Nothing needs your input tonight; all three holdings have resting safety nets. Equity +1.40% since our $100K start; open gains total +$1,947 across LLY, JPM, DE."
     }
   ]
 }

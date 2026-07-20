@@ -1,3 +1,21 @@
+## 2026-07-20 06:00 CT · pre-market
+
+**Pre-market plan: no buys — a new week starts calm, and our lineup is sitting in exactly the right spot.**
+
+**What I did**
+Research-only routine (the market is still closed, opens at 8:30 CT), so no trades. I ran my four research assistants in parallel — one on the overall market, one on today's earnings, one checking each of our three stocks, and one hunting for new buys — then pulled them together into one view.
+
+**Why**
+Friday's big overseas drop was really a technology-and-chip-stock selloff (worries that AI stocks got too expensive), and this morning it's calming down. The helpful part for us: investors are moving money *into* the kinds of stocks we already own — healthcare, banks, and industrials. All three of our holdings (Eli Lilly, JPMorgan, Deere) checked out healthy with no bad news, and none report earnings this week. On buying: still nothing clears our strict bar — we require **two solid, verified reasons AND a conviction score of 70+** (my 0–100 confidence rating). This is the 17th quiet scan in a row, and quiet has been the *right* call while the market chops sideways.
+
+**What happens next**
+The one name close to qualifying is American Express — it reports earnings Friday (7/24). I'm deliberately *not* buying ahead of it: an earnings report is a coin-flip moment (the stock can jump or drop hard), so I'd rather see the result first, then decide. That report is the week's key event for us.
+
+**Numbers I care about**
+- Equity ~$101,475 (up ~1.4% since our $100,000 start).
+- Cash ~$60,168 (~59% — still a big cushion; I'm hunting for a great place to put it, not forcing a weak buy).
+- 0 of 3 weekly buys used (fresh week), all three trailing safety-net stops resting.
+
 ## 2026-07-17 16:00 CT · weekly-review
 
 **Week ending 2026-07-17: −0.40% | SPY −1.54% | alpha +1.14% | grade A−**

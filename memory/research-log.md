@@ -1,3 +1,42 @@
+## 2026-07-20 06:00 CT (07:10 ET) — PRE-MARKET (Mon, market CLOSED pre-open; opens 09:30 ET). **NEW WEEK — weekly buy cap resets to 0/3.**
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official): equity **$101,475.04**, cash **$60,167.78** (~59.3%), long_market_value **$41,307.26** (~40.7%), last_equity (7/17 close) **$101,412.00**, buying_power $356,331.45, status ACTIVE. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3 (fresh week).** All 3 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops): LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.
+
+**Decision: NO TRADES (market closed). NOTHING clears 2 VERIFIED signals + Conviction ≥70 — 17th straight effectively-empty scan.** Full 4-agent scan (macro / earnings / position / scout). **Notable: Friday's global tech/AI/semi rout (Nikkei −4.03%) is STABILIZING overnight; the rotation is INTO defensives + cyclicals — our exact book (LLY pharma / JPM bank / DE industrial). Non-tech, ~59% cash = defensively placed again.**
+
+### Market context — MIXED, leaning cautiously constructive (moderate confidence)
+- **Friday's selloff was a tech/AI-valuation unwind, NOT a growth scare, and it's stabilizing [VERIFIED directionally].** Nikkei 7/17 −4.03% (5th-largest point drop) [VERIFIED, Reuters/TradingEconomics]; Topix only −2.7% (concentrated high-multiple-tech). Overnight into Mon: US futures roughly FLAT-to-slightly-up, Asia/Europe stabilizing. ES ~+0.02%, NQ ~+0.12% [UNVERIFIED levels — live-quote wall, direction only].
+- **Rates/curve [VERIFIED 7/17]:** 10Y **4.55%**, 2Y ~4.18% (stale 7/10) — curve near flat. DXY / WTI / gold hit a **retrieval wall — NOT fabricated.** Oil biased up on US-Iran tension [UNVERIFIED].
+- **Fed [UNVERIFIED single-source]:** FOMC **Jul 29** (next week); Dallas Fed Logan "modestly higher," Warsh testimony — hawkish tilt. No decision this week.
+- **This week's US data — LIGHT [VERIFIED calendar]:** Thu 7/23 initial jobless claims; Fri 7/24 S&P Global flash PMIs, new home sales, LEI, regional Fed surveys. The week's real driver is EARNINGS (peak Q2), not macro.
+- **Net read:** unsettled but stabilizing tape; rotation favors our sectors. No macro trigger to deploy cash aggressively pre-open. Mild watch: higher oil/rates a small headwind for DE; flat curve neutral-to-mild-negative for JPM near-term NIM. LLY cleanest.
+
+### Portfolio watch — all 3 INTACT, severity 3 (no material 72h news), no dated negative catalyst
+- **LLY sev 3** — thesis fully intact (GLP-1 franchise). No dated verifiable 72h event. **DISCARDED the recurring "Foundayo / orforglipron FDA approval" confabulation AGAIN** (not multi-source; treated as fake). Analyst PTs (~$1,232–1,233) tied to earlier Q1, undated → ignored. Next earnings **~Aug 5**. +9.48% (mark 1180.71), trailing floor 1124.505, cushion ~4.8%. Best relative performer on the risk-off tape.
+- **JPM sev 3 (mildly positive)** — post-7/14 Q2 beat (record profit, EPS beat); PT raises 7/15–17 (Evercore $368, HSBC $369, RBC $370, BofA $420) [UNVERIFIED but directionally bullish]. Watch (noise, not breaker): mgmt flagged higher 2026 expenses (~$107.5B) + rising card charge-offs. No dated catalyst next 30d (next earnings ~Oct). +3.67% (mark 341.81), trailing floor 316.116, widest cushion ~7.5%.
+- **DE sev 3** — no dated DE/ag-sector event in window. Analyst PTs (DA Davidson/UBS $775, Truist $793, Citi $610) undated → ignored. Off-cycle, next report **~Aug 20**. +1.39% (mark 597.99), trailing floor 575.073, cushion ~3.9% (tightest).
+
+### Buy candidates — NOTHING CLEARS (17th straight empty scan)
+- **AXP (bench lead) — the ONLY name with ≥2 VERIFIED dated signals, but Conviction ~65 < 70 → HOLD, do NOT pre-position.** Signals: #4 JPMorgan upgrade Neutral→OW PT $400 dated **7/13** [VERIFIED]; #2 Q2 earnings **Fri 7/24 BMO** (cons EPS ~$4.40, rev ~$19.69B) [VERIFIED date] — a catalyst <30d; #5 financials institutional inflows (+$3B July) [VERIFIED Reuters/State Street]; #6 uptrend, ~$355 close, above 50-day, well above 52-wk low $288 [VERIFIED]. **Conviction ~65** (Fund ~70 · Thesis ~62 [the "catalyst" is a BINARY print in 4 days = gap risk both ways, not directional edge → caps asymmetry] · Sent ~70 · Risk ~55 [elevated near-term event risk] · Tech ~72 → 0.30·70+0.30·62+0.20·70+0.12·55+0.08·72 = **~65.9**). **Buy-gate needs BOTH ≥2 signals AND ≥70 — AXP has the signals but not the score. The Jul 24 print IS the decision point; buying into a binary 4 days out is exactly the gap risk the gate protects against.**
+- **JNJ ~58 — beat-and-raise VERIFIED but catalyst SPENT.** Reported **7/15** (bench date 7/16 was WRONG — corrected): adj EPS $2.90 vs $2.84, rev $25.3B beat, raised FY26 guide to EPS $11.60–11.75 / sales $100.8–101.4B [VERIFIED Zacks/MarketBeat/JNJ IR]. Only ~1.5 usable signals now (catalyst passed; healthcare rotation conflicting). Quality name, watchlist only.
+- **New single-signal monitors (VERIFIED upgrades ~7/6–7/7, sub-2-signal):** WM (CIBC Neutral→Outperform 7/7 + industrials inflows), TMUS (BofA Hold→Buy 7/6), GILD (HSBC Hold→Buy 7/6, large-cap pharma).
+- **Confabulations caught & discarded:** LLY "Foundayo" (fake, recurring); MS/BLK/PNC "beat-and-raise" (beats real but NO guidance raise found — not beat-and-raise); AMD/DELL/ZS/KSS/FRT upgrades (dates INFERRED not stamped → UNVERIFIED); BLK/ABT/ABBV "beats" (guidance unconfirmed). Scout correctly declined to confabulate.
+- **Bench (re-sorted):** AXP 65 (2-signal, sub-70; 7/24 print = decision point), GS 60, JNJ 58, MS 52, V/AMGN/CB/CVS/VST 50, +monitors WM/TMUS/GILD (1 signal each), PANW 35.
+
+### Sell candidates — none
+No holding at/below its stop; no thesis-breaker. All 3 on 10% trailing stops.
+
+### Scorecard (baseline; pre-market indicative unreliable)
+- 7/17 close of record (Alpaca last_equity): **$101,412.00.** Total since $100K start: **+1.41%.** SPY 7/17 close **743.28.**
+- Pre-market indicative equity $101,475.04 (~+0.06% vs 7/17 close) is NOT official (thin pre-market marks) — market-open/close owns the real intraday scorecard.
+
+### Standing tasks into market-open / this week
+- **AXP Q2 Fri 7/24 BMO = THE decision point for the bench lead.** Do NOT pre-position; let the print resolve the binary, then re-score against the gate. A clean beat-and-raise would add signal #1 AND likely lift Thesis/Risk scores over 70.
+- **Redeploy ~59.3% idle cash — the sharper priority, STILL GATED (17th empty scan).** AXP the only 2-signal-eligible name (sub-70). No qualifier — do not force a buy. Lauren was given the A/B cash question as an FYI at Fri's weekly review with a HOLD recommendation; **no inbox override received** → continue patient-hold, keep watching.
+- **Big earnings week (peak Q2):** Tue GM/MMM; Wed GOOGL/TSLA/NOW/IBM (mega-cap tech — watch for renewed AI-valuation volatility that could ripple to the tape); Thu INTC; Fri AXP. None of our holdings report this week (LLY ~Aug 5, DE ~Aug 20, JPM ~Oct).
+- **No Telegram this run** (pre-market scan, no trades — per CLAUDE.md do-not-push list).
+
+---
 ## 2026-07-17 06:00 CT (07:10 ET) — PRE-MARKET (Fri, market CLOSED pre-open; opens 09:30 ET). **WEEKLY-REVIEW day + ESCALATION-WINDOW closes at today's review.**
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official): equity **$101,444.58**, cash **$60,167.78** (~59.3%), long_market_value ~$41,276.80, last_equity (7/16 close) **$101,380.60**, buying_power $356,246.16, status ACTIVE. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.** All 3 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops): LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.
