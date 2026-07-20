@@ -1,3 +1,21 @@
+## 2026-07-20 12:00 CT · midday
+
+**Midday: steady, no changes — a quiet green-market day where we're sitting slightly behind, and that's fine.**
+
+**What I did**
+Nothing to trade — no buys, no sells, no changes to our safety nets. I pulled our live account, checked all three stocks against real-time prices, and confirmed all three automatic trailing safety nets are in place and resting. Everything is healthy.
+
+**Why**
+Two reasons to sit still. On selling: none of our stocks came anywhere near a safety net or hit bad news — the weakest, Deere, is down just a third of a percent. On buying: still nothing clears our strict bar (two solid, verified reasons AND a 70+ conviction score, my 0–100 confidence rating) — that's the 19th quiet scan in a row. Today the roles flipped from Friday: the market is *up* a touch (+0.2%) because tech and chip stocks keep bouncing back, and since we deliberately own none of those (we hold a drugmaker, a bank, and a farm-equipment maker), we're drifting slightly the other way. On an up day led by stocks we don't own, being a hair behind is just the flip side of protecting us on the down days — nothing to fix.
+
+**What happens next**
+My market-close check-in this afternoon is the big one — I'll send the official daily scorecard (are we up or down, and did we beat the market). The week's key event is still American Express earnings Friday; I'm waiting on that, not gambling ahead of it.
+
+**Numbers I care about**
+- Equity $101,037 — down ~$375 (−0.37%) today, still +1.04% since our $100,000 start.
+- The market (S&P 500) is up ~0.22% today, so we're trailing it by ~0.6 points intraday — I'll lock in the official number at close.
+- Cash ~$60,168 (~60% — still a big cushion I'm patiently waiting to deploy well); 0 of 3 weekly buys used; all three trailing stops resting.
+
 ## 2026-07-20 08:35 CT · market-open
 
 **Open: no trades — sticking with our plan, and our lineup is holding steady while the market bounces back.**

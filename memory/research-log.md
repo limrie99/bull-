@@ -1,3 +1,20 @@
+## 2026-07-20 12:00 CT (13:01 ET) — MIDDAY (Mon, market OPEN, verified `is_open:true`)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`, next_close 16:00 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,037.05**, cash **$60,167.78** (~59.6%), long_market_value **$40,869.27** (~40.4%), last_equity (7/17 close) **$101,412.00** → **day so far −$374.95 / −0.37%**. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
+
+**Decision: NO TRADES — no buys, no sells, no stop changes.** Risk sweep clean on all three priorities:
+- **(a) Nothing ≤ −7%:** worst is DE at −0.32%. No thesis-check/forced-sell trigger.
+- **(b) +5% conversions already done:** LLY +8.42% and JPM +3.17% (JPM below +5% anyway) — both already on 10% trailing from prior routines; nothing to convert. All three stops confirmed RESTING via open-orders query (`status:new`, ALL 10% TRAILING, zero hard stops), IDs unchanged: LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.
+- **(c) Daily loss cap:** −0.37% intraday, far inside the −3% cap → not tripped (moot anyway, no qualifier).
+
+**No new buys.** Nothing clears 2 VERIFIED signals + Conviction ≥70 (19th straight effectively-empty scan; carrying the 06:00 pre-market 4-agent scan — no verifiable new catalyst since). AXP (bench lead ~65) Q2 is **Fri 7/24 BMO** — a binary print 4 days out; do NOT pre-position, per the gate. Held book unchanged, all 3 INTACT sev 3.
+
+**Live marks (13:01 ET):** LLY 1169.23 (+8.42%, +$1,270.78; floor 1124.505, cushion ~3.8%); JPM 340.145 (+3.17%, +$355.28; floor 316.116, cushion ~7.1%); DE 587.96 (−0.32%, −$40.92; floor 575.073, cushion ~2.2%). Net open unrealized **+$1,585.14**.
+
+**Tape:** SPY ~744.95 vs 743.28 (7/17 close) ≈ **+0.22%**; we're −0.37% → trailing SPY by ~0.6 pts today. Same story as the open: tech-led bounce (Friday's AI/semi rout recovering) in names we don't hold; our non-tech book flat-to-slightly-red while the rebound runs elsewhere. Alpha set officially at close. No Telegram push (quiet midday, no trade — per CLAUDE.md skip rule).
+
+---
+
 ## 2026-07-20 06:00 CT (07:10 ET) — PRE-MARKET (Mon, market CLOSED pre-open; opens 09:30 ET). **NEW WEEK — weekly buy cap resets to 0/3.**
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official): equity **$101,475.04**, cash **$60,167.78** (~59.3%), long_market_value **$41,307.26** (~40.7%), last_equity (7/17 close) **$101,412.00**, buying_power $356,331.45, status ACTIVE. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3 (fresh week).** All 3 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops): LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.
