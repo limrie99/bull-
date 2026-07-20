@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-07-20 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-07-20 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 101037.05,
+  "equity": 100630.54,
   "cash": 60167.78,
-  "day_pl": -374.95,
-  "day_pl_pct": -0.37,
-  "week_pl_pct": -0.37,
-  "spy_week_pct": 0.22,
-  "alpha_week_pct": -0.59,
+  "day_pl": -781.46,
+  "day_pl_pct": -0.77,
+  "week_pl_pct": -0.77,
+  "spy_week_pct": -0.15,
+  "alpha_week_pct": -0.62,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1169.23,
-      "pl_pct": 8.42,
+      "current": 1146.37,
+      "pl_pct": 6.30,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 340.145,
-      "pl_pct": 3.17,
+      "current": 338.87,
+      "pl_pct": 2.78,
       "stop": 316.116
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 587.96,
-      "pl_pct": -0.32,
+      "current": 586.00,
+      "pl_pct": -0.65,
       "stop": 575.073
     }
   ],
@@ -46,6 +46,12 @@
     {"date": "2026-06-04 08:35", "side": "BUY", "symbol": "DE", "qty": 22, "price": 589.82}
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-20 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,631 · day -0.77% · SPY -0.15% · alpha -0.62%",
+      "body": "We had a down day -- the account slipped about $781 (-0.77%) to $100,631. The overall US market (the S&P 500) was also down but only a little (-0.15%), so today we lagged it by roughly 0.6 points. We're still +0.63% since our $100,000 start, so overall we're in the green -- just a step back today. Nothing to trade -- no buys, no sells, no changes to our three automatic safety nets (trailing stops -- sell orders that follow the price up and only trigger if a stock falls a set amount from its high). That's the 19th quiet scan in a row where nothing cleared our strict buy bar. Why we fell more than the market: the last few days tech and chip stocks bounced and we drifted behind because we don't own them; today that flipped -- tech held up while the steadier names we DO own (Eli Lilly drugs, JPMorgan bank, Deere tractors) all sold off together, with Lilly (-2.8%) doing most of the damage. Owning just three stocks means they can move as a pack -- great on up days, painful on days like today. What's next: two of our stocks now sit closer to their safety nets than usual -- Lilly's cushion is ~1.9% and Deere's ~1.9% (the room before the auto-sell triggers). I'm not touching them; the stops exist so I don't have to react emotionally. If a second down day pushes either to its floor, it sells automatically and locks in the result. I'll check pre-market tomorrow. The week's real decision point is American Express earnings Friday, which could finally green-light putting some of our big cash pile to work. Equity $100,631 (down $781 / -0.77% today; +0.63% since the $100K start). Winners still winning: Lilly +6.3%, JPMorgan +2.8%; Deere basically flat at -0.7%. Net unrealized gain across the three: +$1,179. Cash $60,168 (~60%), 0 of 3 weekly buys used, all 3 trailing stops resting."
+    },
     {
       "ts": "2026-07-20 12:00 CT",
       "routine": "midday",

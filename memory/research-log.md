@@ -1,3 +1,38 @@
+## 2026-07-20 15:00 CT (16:01 ET) — MARKET-CLOSE (Mon) · OFFICIAL DAY SCORECARD
+
+**Live Alpaca close read.** Clock `is_open:false` (next open 7/21 09:30 ET). Account: equity **$100,630.54**, cash **$60,167.78** (59.79%), long_market_value **$40,462.76** (40.21%), last_equity (7/17 close) **$101,412.00**. daytrade_count n/a; trading_blocked false.
+
+**Day performance (official):**
+- Day P/L = 100,630.54 − 101,412.00 = **−$781.46 / −0.7706% → −0.77%**.
+- SPY: 7/20 close **742.15** (latest trade + daily bar agree) vs 7/17 close **743.28** → **−0.1520% → −0.15%**.
+- **Alpha today = −0.77 − (−0.15) = −0.62%** (we lagged; both down, we more).
+- Total since $100K start: **+0.63%**.
+
+**Week-to-date (Mon = first trading day; base = 7/17 close equity 101,412.00 / SPY 743.28):** WTD portfolio **−0.77%**, SPY **−0.15%**, **alpha WTD −0.62%**. One day into the week.
+
+**Positions at close (marks live):**
+| Sym | Qty | Avg | Close | P/L $ | P/L % | Intraday % | Weight | Trail floor | Cushion |
+|---|---|---|---|---|---|---|---|---|---|
+| LLY | 14 | 1078.46 | 1146.37 | +950.74 | +6.30% | −2.78% | 15.95% | 1124.505 | 1.91% |
+| JPM | 34 | 329.6956 | 338.87 | +311.93 | +2.78% | −0.65% | 11.45% | 316.116 | 6.71% |
+| DE | 22 | 589.82 | 586.00 | −84.04 | −0.65% | −1.88% | 12.81% | 575.073 | 1.86% |
+
+Net open unrealized **+$1,178.63**. Cash 59.79%.
+
+**Trades placed today:** NONE (closed-orders query empty). Buys used this week **0 of 3**. Positions **3 of 5** (two slots open). All 3 trailing stops (10% GTC) confirmed RESTING via open-orders, status `new`, IDs unchanged (LLY 6016a7e7, JPM 8a937ff6, DE dcdd84e5). Zero hard stops. Daily loss cap −0.77% intraday — inside −3%, never tripped.
+
+**What worked:**
+- Discipline held: no forced buy on the 19th straight empty scan; cash preserved into a down tape.
+- LLY (+6.30%) and JPM (+2.78%) still net winners; trailing floors did their job — nothing near a trigger.
+
+**What didn't:**
+- Whole book red today — LLY −2.78% intraday drove most of the −$781 as the tech/AI bounce reversed and defensives/pharma sold off. LLY cushion compressed from ~3.8% (midday) to **1.91%**; DE tightest at **1.86%**.
+- We lagged SPY on a down day: SPY only −0.15% (mega-cap tech steadier) while our concentrated 3-name non-tech book fell harder. Concentration cuts both ways.
+
+**Open questions for tomorrow (Tue 7/21):**
+- LLY & DE cushions now <2% — a second down day could arm those trailing stops. Watch both at pre-market/open; no action unless a floor is actually breached (mechanics only, no thesis break on either).
+- Big earnings week continues: Tue GM/MMM, Wed GOOGL/TSLA/NOW/IBM (mega-cap tech — AI-valuation volatility could whip the tape), Thu INTC, Fri AXP (BMO). None of our holdings report this week.
+- AXP (bench lead, ~65) Q2 Fri 7/24 = the decision point for redeploying idle cash. Do not pre-position into the binary print.
 ## 2026-07-20 12:00 CT (13:01 ET) — MIDDAY (Mon, market OPEN, verified `is_open:true`)
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`, next_close 16:00 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,037.05**, cash **$60,167.78** (~59.6%), long_market_value **$40,869.27** (~40.4%), last_equity (7/17 close) **$101,412.00** → **day so far −$374.95 / −0.37%**. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**

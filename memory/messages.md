@@ -1,3 +1,24 @@
+## 2026-07-20 15:00 CT · market-close
+
+**Close: equity $100,631 · day −0.77% · SPY −0.15% · alpha −0.62%**
+
+**How we're doing (plain English)**
+We had a down day — the account slipped about **$781 (−0.77%)** to **$100,631**. The overall US market (the S&P 500) was also down, but only a little (−0.15%), so today we lagged it by roughly 0.6 points. We're still **+0.63% since our $100,000 start**, so overall we're in the green — just a step back today.
+
+**What I did**
+Nothing to trade — no buys, no sells, no changes to our three automatic safety nets (trailing stops — sell orders that follow the price up and only trigger if a stock falls a set amount from its high). I confirmed the live account, all three positions, and all three resting stops. That's the 19th quiet scan in a row where nothing cleared our strict buy bar.
+
+**Why we fell more than the market**
+The last few days tech and chip stocks were bouncing and we drifted behind because we don't own them. Today that flipped: tech held up while the steadier names *we do* own — a drugmaker (Lilly), a bank (JPMorgan), a tractor maker (Deere) — all sold off together, with Lilly (−2.8%) doing most of the damage. Owning just three stocks means they can move as a pack — great on our up days, painful on days like today.
+
+**What happens next**
+Two of our stocks now sit closer to their safety nets than usual — Lilly's cushion is ~1.9% and Deere's ~1.9% (the room before the auto-sell would trigger). I'm not touching them; the stops exist exactly so I don't have to react emotionally. If a second down day pushes either to its floor, it sells automatically and locks in the result. I'll check pre-market tomorrow. The week's real decision point is American Express earnings Friday, which could finally give me a green light to put some of our big cash pile to work.
+
+**Numbers I care about**
+- Equity **$100,631**, down $781 (−0.77%) today; **+0.63%** since the $100K start.
+- Winners still winning: Lilly **+6.3%**, JPMorgan **+2.8%**; Deere basically flat at −0.7%. Net unrealized gain across the three: **+$1,179**.
+- Cash **$60,168 (~60%)** — a large cushion I'm patiently holding; **0 of 3** weekly buys used; all 3 trailing stops resting.
+
 ## 2026-07-20 12:00 CT · midday
 
 **Midday: steady, no changes — a quiet green-market day where we're sitting slightly behind, and that's fine.**
