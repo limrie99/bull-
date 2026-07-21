@@ -1,3 +1,41 @@
+## 2026-07-21 08:35 CT (09:32 ET) — MARKET-OPEN (Tue, market OPEN; verified is_open:true)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`, ts 09:31:56 ET, next_close 16:00 ET. Inbox: **nothing pending.** Account (LIVE): equity **$100,956.62**, cash **$60,167.78** (~59.6%), long_market_value **$40,788.84** (~40.4%), last_equity (7/20 close) **$100,637.96** → intraday **+$318.66 / +0.32%**, buying_power $354,879.87, status ACTIVE, trading_blocked false. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
+
+**Decision: NO TRADES — executed the pre-market plan verbatim after re-validating against live opening prices.** No buy clears 2 VERIFIED signals + Conviction ≥70 (21st consecutive effectively-empty scan); no thesis break / no floor breach on any holding. All 3 stops RESTING and unchanged.
+
+### Live position marks (09:32 ET)
+- **LLY** 14 @ 1078.46 → 1149.02, **+$987.84 (+6.54%)**, intraday +0.19%. Floor 1124.505 → **cushion ~2.13%** (widened from pre-mkt 1.88%). MV $16,086.28 (15.9%). INTACT sev 3.
+- **DE** 22 @ 589.82 → 595.11, **+$116.38 (+0.90%)**, intraday **+1.56%** (best mover today). Floor 575.073 → **cushion ~3.37%** (widened from pre-mkt 1.86%). MV $13,092.42 (13.0%). INTACT sev 3. Tariff-expiry 7/24 the name to watch.
+- **JPM** 34 @ 329.695588 → 341.52, **+$402.03 (+3.59%)**, intraday +0.78%. Floor 316.116 → cushion ~7.44% (widest). MV $11,611.68 (11.5%). Thesis STRENGTHENED sev 3.
+- Net open unrealized **+$1,506.25**.
+
+### Stops re-confirmed RESTING (open-orders status:new, all 10% TRAILING, zero hard stops), IDs unchanged
+- LLY `6016a7e7-faac-4e93-82e7-851abf30eca8` floor 1124.505 / hwm 1249.45.
+- JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` floor 316.116 / hwm 351.24.
+- DE `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` floor 575.073 / hwm 638.97.
+
+### Buy check — NOTHING CLEARS (no re-scan this routine; carried the pre-market 4-agent scan verbatim, re-validated the lead)
+- The pre-market scan (4 agents, ~09 Perplexity calls incl. 2nd-source verification) found ZERO names with 2+ verified dated signals + Conviction ≥70. Nothing changed pre-open → open to justify a fresh scan this run.
+- **AXP (bench lead ~65)** — VERIFIED JPMorgan upgrade Neutral→OW PT $400 (7/13) = 1 clean signal; Q2 **Fri 7/24 BMO** = binary event/decision point (NOT a directional signal). Conviction ~65 < 70 → does not clear; do NOT pre-position into a binary print 3 trading days out.
+- **JNJ ~58** — 7/15 beat-and-raise, catalyst spent (~1 usable signal); watchlist.
+- No qualifier → cash-drag persists by discipline, not paralysis. Two dated overhangs (tariff 7/24, FOMC 7/28–29) independently argue for keeping dry powder into week's end.
+
+### Sell check — none
+No holding at/below its floor; no thesis-breaker. The two pre-market sub-2% cushions (LLY, DE) both RESOLVED UP at the open (LLY +0.19%, DE +1.56% intraday) — mechanics-only concern cleared. All 3 on 10% trailing stops.
+
+### Scorecard
+- 7/20 close of record: equity **$100,637.96** (last_equity) / $100,630.54 close mark. SPY 7/20 close 742.15 (iex).
+- 7/21 intraday (~09:32 ET, PROVISIONAL): equity $100,956.62 = **+0.32%** vs 7/20; SPY 745.39 = **~+0.44%** vs 742.15 → running slightly behind SPY intraday (expected on ~60% cash; close routine owns the official number). Total since $100K start ~+0.96%.
+
+### Standing tasks into midday / this week
+- **Cushions all fine** (LLY 2.13%, DE 3.37%, JPM 7.44%) — mechanics only; re-check midday, no thesis break on any.
+- **AXP Q2 Fri 7/24 BMO = decision point for the bench lead.** Let it resolve, then re-score against the gate. A clean beat-and-raise adds signal #1 and could lift it over 70.
+- **Redeploy ~59.6% idle cash — sharper priority, STILL GATED.** No qualifier — do not force. Lauren given A/B cash question at 7/17 review with HOLD rec; no inbox override → continue patient-hold.
+- **Earnings week:** Wed GOOGL AC (mega-cap tech swing factor), Fri AXP BMO. None of our holdings report this week.
+- **No Telegram this run** (market-open, no trades — per CLAUDE.md do-not-push list). Next mandatory Telegram = today's market-close daily update.
+
+---
 ## 2026-07-21 06:00 CT (07:10 ET) — PRE-MARKET (Tue, market CLOSED pre-open; opens 09:30 ET)
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official): equity **$100,620.60**, cash **$60,167.78** (~59.8%), long_market_value **$40,452.82** (~40.2%), last_equity (7/20 close) **$100,637.96**, buying_power $353,939.02, status ACTIVE, trading_blocked false. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.** All 3 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops): LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.

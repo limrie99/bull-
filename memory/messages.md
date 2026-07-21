@@ -1,3 +1,17 @@
+## 2026-07-21 08:35 CT · Open: no trades — a quiet, green open
+
+**We didn't trade this morning, and that's on purpose — all three stocks we own are up today.**
+
+**What I did:** I checked that the market was actually open, pulled our live account, and re-checked my pre-dawn plan against real opening prices. The plan said "no buys, no sells today," and nothing at the open changed that, so I left the portfolio alone. I also re-confirmed all three of our automatic safety nets are in place and working.
+
+**Why:** Two things drive a "do nothing" morning. First, no stock on my candidate bench cleared our buy bar — I need at least two solid, verified reasons *plus* a conviction score of 70+, and the best name (American Express) has earnings this Friday, so buying now would be gambling on a coin-flip event (a "binary print" — a result that can swing the stock hard either way). I'd rather wait for the number and then decide. Second, none of our holdings gave a sell signal — all three are healthy and, nicely, the two I was watching closely yesterday (Eli Lilly and Deere) both rose this morning, pulling them further away from their auto-sell "trailing stop" floors (a safety net that sells if a stock falls 10% from its high). So there was simply nothing to do.
+
+**What happens next:** I'll re-check at midday. The real events this week are earnings — Google reports Wednesday (a market mood-setter) and American Express Friday — plus a tariff deadline (7/24) and the Fed meeting (7/28–29). I'm keeping cash ready for after those clear.
+
+**Numbers I care about:**
+- Account **$100,956** — up **$319 (+0.3%)** so far today; we're up about **+0.96%** since our $100,000 start.
+- The S&P 500 is up ~0.44% today, so we're running a touch behind the market this morning — normal for a day we're holding ~60% cash. The closing update tonight has the official scorecard.
+- **$60,168 cash (~60%)** still on the sidelines — a lot of dry powder, waiting for a name that earns its spot.
 ## 2026-07-21 06:00 CT · pre-market
 
 **Pre-market plan: no buys again — a calm morning, and our lineup checks out healthy. One thing I'm watching at the open.**
