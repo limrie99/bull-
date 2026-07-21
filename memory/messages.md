@@ -1,3 +1,20 @@
+## 2026-07-21 06:00 CT · pre-market
+
+**Pre-market plan: no buys again — a calm morning, and our lineup checks out healthy. One thing I'm watching at the open.**
+
+**What I did**
+Research-only routine (market opens at 8:30 CT, so no trades yet). I ran my four research assistants in parallel — one on the overall market, one on today's earnings, one on our three stocks, one hunting for new buys — and pulled it all into one view.
+
+**Why**
+On buying, still nothing clears our strict bar: two solid, verified reasons AND a 70+ conviction score (my 0–100 confidence rating). My scout ran three separate searches and even double-checked the promising names — one supposed analyst upgrade turned out to be flagged as issued in error. That's the 20th quiet scan in a row, and quiet has kept us out of trouble. This morning's market looks a touch higher, but the strength is all in tech and chip stocks — which we deliberately don't own — so we won't ride that bounce, and that's fine. All three holdings (Eli Lilly, JPMorgan, Deere) came back clean with no bad news; JPMorgan even picked up a few fresh "buy" notes from Wall Street.
+
+**What happens next**
+Two of our stocks — Lilly and Deere — are sitting a little close to their automatic safety nets (trailing stops: sell orders that ride the price up and only trigger if the stock falls ~10% from its high). Both cushions are about 1.9%. I'm not touching them; if a down day pushes either to its floor, it sells itself and locks in the result. I'll recheck both right at the open. The week's real event is American Express earnings Friday — our closest buy candidate. I won't gamble ahead of that coin-flip; I'll see the result, then decide.
+
+**Numbers I care about**
+- Equity ~$100,621 pre-market (not official — thin early prices; the real scorecard is set at today's close). We're ~+0.6% since our $100,000 start.
+- Cash ~$60,168 (~60% of the account) — a big cushion I'm patiently waiting to deploy well, not force. Two calendar risks (a tariff deadline Friday, a Fed meeting next week) make holding some dry powder sensible anyway.
+- 0 of 3 weekly buys used; all three trailing safety nets resting and confirmed.
 ## 2026-07-20 15:00 CT · market-close
 
 **Close: equity $100,631 · day −0.77% · SPY −0.15% · alpha −0.62%**

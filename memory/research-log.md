@@ -1,3 +1,44 @@
+## 2026-07-21 06:00 CT (07:10 ET) — PRE-MARKET (Tue, market CLOSED pre-open; opens 09:30 ET)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, timestamp 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official): equity **$100,620.60**, cash **$60,167.78** (~59.8%), long_market_value **$40,452.82** (~40.2%), last_equity (7/20 close) **$100,637.96**, buying_power $353,939.02, status ACTIVE, trading_blocked false. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.** All 3 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops): LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97.
+
+**Decision: NO TRADES (market closed). NOTHING clears 2 VERIFIED signals + Conviction ≥70 — 20th straight effectively-empty scan.** Full 4-agent scan (macro / earnings / position / scout). **Net: tape is neutral-to-mildly-constructive but the strength is TECH-LED (GOOGL/TSLA/mega-cap tech report this week) — we hold none of it; our non-tech book (LLY pharma / JPM bank / DE industrial) + ~60% cash is defensively placed but won't capture the leadership.**
+
+### Market context — NEUTRAL to mildly constructive (moderate confidence)
+- **Overnight futures modestly HIGHER, tech-led [UNVERIFIED levels — direction only].** ES ~+0.4–0.6%, NQ ~+0.6–1.3%; Asia reportedly strong but magnitudes suspect/uncorroborated (Nikkei/HangSeng prints looked confabulated) → **trust direction, not magnitude.** Europe ~flat.
+- **Rates [VERIFIED 7/17 FRED]:** 10Y ~4.55% (drifted down from ~4.62% over the week); intraday 4.59% [UNVERIFIED]. DXY / WTI / gold / 2Y hit a **retrieval wall — NOT fabricated.** Oil risk skewed UP on US–Iran weekend escalation (Hormuz tail-risk chatter) [UNVERIFIED level].
+- **Fed [VERIFIED]:** FOMC **Jul 28–29** (~6 trading days out); funds 3.50–3.75%; June CPI cooled (headline 3.5%, core 2.6% y/y) → hold likely priced, cuts a later-2026 story.
+- **Two dated overhangs before deploying:** (1) **Section 122 10% blanket tariff expires Jul 24** [UNVERIFIED but flagged] — a live headline risk for **DE** (trade/industrial-sensitive) and risk sentiment; (2) **FOMC 7/28–29.** This week's US macro calendar is LIGHT (flash PMIs the main print); the real driver is EARNINGS.
+- **Net read:** no macro trigger to force deployment; no risk-off reason to reduce. Fine to add to a top-conviction name if one qualified — none does. Keep dry powder into tariff-expiry + FOMC. **LLY most macro-insulated; DE most tariff/oil-exposed.**
+
+### Portfolio watch — all 3 INTACT, severity 3 (no material 72h news), no dated negative catalyst
+- **LLY sev 3** — thesis fully intact (GLP-1 franchise). No new company news/FDA/dated analyst move in 24h; flow is recycled themes. Citi $1,600 PT [UNVERIFIED/UNDATED] ignored. **No "Foundayo" / fake orforglipron-approval confabulation this run.** Next earnings ~Aug 5. Pre-mkt mark 1146.00 (+6.26%), floor 1124.505, **cushion ~1.88% (still tight).**
+- **JPM sev 3 (mild positive drift)** — fresh dated analyst tailwind 7/20: Seaport Global PT→$372 (Buy), Citi PT→$360 (Neutral), KBW Buy $384; IB win (Coca-Cola India IPO mandate). Overhangs (noise, not breakers): raised FY expense guide ~$107.5B, refiling-expected harassment suit (7/17), Dimon macro caution. No dated catalyst next 30d (next earnings ~Oct). Mark 338.73 (+2.74%), floor 316.116, **cushion ~6.68% (widest).**
+- **DE sev 3** — no material 24h news, no new tariff/ag development. DA Davidson reiterated Buy $685 (7/17); Citi Neutral $610 [undated PTs, informational]. Dated event: $1.62 dividend payable Aug 10 (neutral/positive). Off-cycle, next report ~Aug 20. Mark 586.00 (−0.65%), floor 575.073, **cushion ~1.86% (tightest).** **Tariff-expiry 7/24 is the name to watch on this book.**
+
+### Buy candidates — NOTHING CLEARS (20th straight empty scan)
+- **AXP (bench lead ~65) — the only name near the gate, but HOLD, do NOT pre-position.** VERIFIED: JPMorgan upgrade Neutral→OW PT $400 dated **7/13** (signal #4, 1 clean signal); Q2 earnings **Fri 7/24 BMO** (cons EPS **~$4.40–4.41**, rev **~$19.69–19.7B** [VERIFIED Zacks/MarketBeat]) = a BINARY event / decision point, NOT a directional signal. Conviction ~65 < 70 → does not clear. The 7/24 print IS the decision point — buying into a binary 3 days out is exactly the gap risk the gate protects against.
+- **JNJ ~58** — beat-and-raise VERIFIED 7/15, catalyst SPENT (~1 usable signal). Quality name, watchlist only.
+- **Scout ran 3 screens (~6 Perplexity calls incl. 2nd-source verification):** earnings beat-and-raise → NONE auditable (couldn't confirm beat-both + guide-raise for any large-cap in window); catalyst (next 30d) → NONE confirmable; upgrades (2wk) → produced names but ALL failed 2nd-source verification: **WM** CIBC Neutral→Outperform 7/7 CONTESTED (a source flags the note "issued in error") + earnings 7/28 AMC (binary) → disqualified; **BK/BLK** "JPMorgan upgrade 7/16" UNCONFIRMED (screen even confused BLK↔BK); **AIG/AMT/META/FIVE** single-source/off-mandate → UNVERIFIED. **ZERO names with 2+ verified dated signals.**
+- **Monitors (1 signal each, not buyable):** WM (secular moat + uptrend; contested upgrade; earnings 7/28), AMT (5G/data secular; unverified upgrade; earnings imminent), TMUS/GILD (older single upgrades). Best next look is post-earnings week of 7/28.
+- **Bench (re-sorted):** AXP 65 (JPMorgan upgrade 7/13; 7/24 print = decision point), GS 60, JNJ 58, MS 52, V/AMGN/CB/CVS/VST 50; monitors WM/AMT/TMUS/GILD (1 signal each); PANW 35.
+
+### Sell candidates — none
+No holding at/below its stop; no thesis-breaker. All 3 on 10% trailing stops. **LLY (~1.88%) and DE (~1.86%) cushions remain under 2% on pre-market indicative marks — a real down day at the open could arm those trailing stops. Mechanics only; sell only if a floor is actually breached (neither thesis is broken). Re-check both at market-open.**
+
+### Scorecard (baseline; pre-market indicative unreliable)
+- 7/20 close of record (Alpaca last_equity): **$100,637.96** (portfolio close mark $100,630.54). Total since $100K start: **~+0.63%.** SPY 7/20 close **742.15** (iex; sip 742.09), week base (7/17 close) **743.28.**
+- Pre-market indicative equity $100,620.60 is NOT official (thin pre-market marks) — market-open/close owns the real intraday scorecard.
+- WTD (one day in, base 7/17 close): portfolio −0.77%, SPY −0.15%, alpha −0.62% (carried from Mon official).
+
+### Standing tasks into market-open / this week
+- **Re-check LLY (~1.88%) & DE (~1.86%) cushions at market-open** — both under 2%; mechanics only, no thesis break on either.
+- **AXP Q2 Fri 7/24 BMO = THE decision point for the bench lead.** Do NOT pre-position into the binary; let it resolve, then re-score against the gate. A clean beat-and-raise adds signal #1 and likely lifts Thesis/Risk over 70.
+- **Redeploy ~59.8% idle cash — sharper priority, STILL GATED (20th empty scan).** No qualifier — do not force. Lauren given the A/B cash question at the 7/17 review with a HOLD rec; no inbox override → continue patient-hold. Two dated overhangs (tariff 7/24, FOMC 7/28–29) argue for keeping dry powder into week's end anyway.
+- **Big earnings week (peak Q2):** Tue NOC (BMO, defense) + GM/MMM [dates unconfirmed]; **Wed GOOGL AC = the mega-cap tech swing factor** (an AI-capex/valuation surprise could ripple to the broad tape Thu); Thu INTC [unconfirmed]; Fri AXP (BMO). None of our holdings report this week (LLY ~Aug 5, DE ~Aug 20, JPM ~Oct).
+- **No Telegram this run** (pre-market scan, no trades — per CLAUDE.md do-not-push list).
+
+---
 ## 2026-07-20 15:00 CT (16:01 ET) — MARKET-CLOSE (Mon) · OFFICIAL DAY SCORECARD
 
 **Live Alpaca close read.** Clock `is_open:false` (next open 7/21 09:30 ET). Account: equity **$100,630.54**, cash **$60,167.78** (59.79%), long_market_value **$40,462.76** (40.21%), last_equity (7/17 close) **$101,412.00**. daytrade_count n/a; trading_blocked false.
