@@ -35,6 +35,17 @@ No holding at/below its floor; no thesis-breaker. The two pre-market sub-2% cush
 - **Earnings week:** Wed GOOGL AC (mega-cap tech swing factor), Fri AXP BMO. None of our holdings report this week.
 - **No Telegram this run** (market-open, no trades — per CLAUDE.md do-not-push list). Next mandatory Telegram = today's market-close daily update.
 
+### Day summary (market-close 15:00 CT / 16:14 ET — OFFICIAL scorecard)
+**Closing snapshot (Alpaca, clock is_open:false):** equity **$101,231.28** | cash **$60,167.78** (~59.4%) | long_mv **$41,063.50** (~40.6%). last_equity (7/20 close) $100,637.96. Portfolio-history 2D confirms 7/20 close eq $100,637.96 (base 7/17 $101,412.00).
+- **Day P/L: +$593.32 / +0.59%.** SPY 748.155 close (iex daily bar; latest trade 747.95 @ 16:17 ET) vs 742.15 (7/20) = **+0.81%.** **Alpha today = −0.22%** (both green; SPY rose more — we lagged on an up day, the expected cost of ~59% cash + zero tech on a tech-led up tape).
+- **Week-to-date (from 7/17 close $101,412.00 / SPY 743.28):** port **−$180.72 / −0.18%**, SPY **+0.66%**, **alpha WTD −0.84%.** (Mon −0.77% then Tue +0.59% → still slightly red WTD while SPY turned positive; we trail WTD after two days.)
+- **Total since $100K start: +1.23%.**
+- **Trades placed today: 0.** No buys, no sells, no stops fired, no stop changes. Confirmed via closed-orders query (count 0) and open-orders query (all 3 trailing stops resting, status `new`, IDs unchanged: LLY 6016a7e7, JPM 8a937ff6, DE dcdd84e5). Zero hard stops. Daily loss cap never in play (book was UP).
+- **Closing marks:** LLY 14 @ 1078.46 → 1173.01, **+$1,323.70 / +8.77%** (floor 1124.505, cushion ~4.14%, +2.3% intraday — rebounded hard from yesterday's −2.8% dip, the day's biggest contributor); JPM 34 @ 329.6956 → 345.00, **+$520.35 / +4.64%** (floor 316.116, cushion ~8.37%, +1.8% intraday); DE 22 @ 589.82 → 586.88, **−$64.68 / −0.50%** (floor 575.073, cushion ~2.01%, +0.15% intraday, roughly flat). Net open unrealized **+$1,779.37.**
+- **What worked:** (1) LLY snapped back +2.3% intraday and did most of the +$593 heavy lifting — patience through yesterday's compression to a ~1.9% cushion paid off; the trailing floor never came close to arming. (2) JPM extended to +4.64% on the fresh 7/20 PT-raise tailwind. (3) Discipline held again — no forced buy on the 21st straight empty scan.
+- **What didn't / watch:** (1) We lagged SPY by 0.22pt on an UP day — the structural cost of ~59% cash + owning zero tech while a tech/mega-cap-led tape rallies. Same mechanism that protects us on down days (won +1.04 alpha Fri) works against us on green days; it's symmetric, not a flaw, but it's why WTD alpha is now −0.84. (2) DE remains the tightest cushion (~2.01%) and roughly flat on a green day — most tariff-exposed name into the 7/24 Section 122 expiry; watch pre-market Wed. (3) Cash ~59.4% ELEVATED — redeploy still gated on a 2-signal + Conviction≥70 setup; none found.
+- **Open questions for tomorrow (Wed 7/22 pre-market):** (a) Wed GOOGL AC (after close) = the mega-cap tech swing factor — an AI-capex/valuation surprise could whip the broad tape Thu and either help (rotation into our defensives) or hurt sentiment broadly. (b) DE cushion ~2.01% into the 7/24 tariff expiry — mechanics only, no thesis break; sells itself if a floor is tagged. (c) AXP Q2 Fri 7/24 BMO stays THE decision point for redeploying idle cash; do not pre-position into the binary. Stops all resting, all trailing, zero hard stops.
+
 ---
 ## 2026-07-21 06:00 CT (07:10 ET) — PRE-MARKET (Tue, market CLOSED pre-open; opens 09:30 ET)
 

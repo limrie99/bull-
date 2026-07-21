@@ -1,3 +1,21 @@
+## 2026-07-21 15:00 CT · Close: equity $101,231 · day +0.59% · SPY +0.81% · alpha −0.22%
+
+**A green day — we made $593 (+0.59%), but the market rose a bit more, so we're up slightly less than it today.**
+
+**What I did**
+Nothing to trade — no buys, no sells, no changes to our three automatic safety nets. I pulled the official closing account, checked every holding at its closing price, and confirmed all three trailing stops (auto-sell orders that ride the price up and only trigger if a stock falls ~10% from its high) are resting and healthy. That's the 21st scan in a row where nothing cleared our strict buy bar.
+
+**Why**
+Good news first: Eli Lilly, yesterday's laggard, bounced back +2.3% today and did most of our gains — exactly why I didn't panic when its safety-net cushion got tight yesterday. JPMorgan added to its gains too. So why did we trail the market? On an *up* day, holding ~60% cash and owning zero tech stocks means we ride less of the rally — the S&P 500 (the 500 biggest U.S. companies) was pulled higher by tech. This is the flip side of the exact caution that let us *beat* the market on last week's down days. Same lineup, opposite weather — it's symmetric, not a mistake.
+
+**What happens next**
+Wednesday, Google reports earnings after the close — a big market mood-setter that could swing the tape Thursday. Our closest buy candidate, American Express, reports Friday (7/24), which is the real decision point for putting some of our cash pile to work. I'll check pre-market tomorrow. Deere is the one to watch — it's flat and sits closest to its safety net (~2% cushion), and there's a tariff deadline Friday that touches it most.
+
+**Numbers I care about**
+- Account **$101,231** — up **$593 (+0.59%)** today; **+1.23%** since our $100,000 start.
+- The market (S&P 500) rose **+0.81%** today, so we came in **0.22 points behind** it — normal on an up day when we're holding lots of cash. For the week so far we're a hair behind the market (our "alpha," the gap vs. just owning the market, is −0.84 points after two days).
+- **$60,168 cash (~59%)** still waiting for a name that earns its spot; 0 of 3 weekly buys used; all three trailing stops resting. Combined open gains across the three stocks: **+$1,779**.
+
 ## 2026-07-21 08:35 CT · Open: no trades — a quiet, green open
 
 **We didn't trade this morning, and that's on purpose — all three stocks we own are up today.**

@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-07-21 08:35 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-07-21 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100956.62,
+  "equity": 101231.28,
   "cash": 60167.78,
-  "day_pl": 318.66,
-  "day_pl_pct": 0.32,
-  "week_pl_pct": -0.77,
-  "spy_week_pct": -0.15,
-  "alpha_week_pct": -0.62,
+  "day_pl": 593.32,
+  "day_pl_pct": 0.59,
+  "week_pl_pct": -0.18,
+  "spy_week_pct": 0.66,
+  "alpha_week_pct": -0.84,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1149.02,
-      "pl_pct": 6.54,
+      "current": 1173.01,
+      "pl_pct": 8.77,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 341.52,
-      "pl_pct": 3.59,
+      "current": 345.00,
+      "pl_pct": 4.64,
       "stop": 316.116
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 595.11,
-      "pl_pct": 0.90,
+      "current": 586.88,
+      "pl_pct": -0.50,
       "stop": 575.073
     }
   ],
@@ -47,52 +47,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-21 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $101,231 · day +0.59% · SPY +0.81% · alpha -0.22%",
+      "body": "A green day -- we made $593 (+0.59%) to $101,231, but the market (S&P 500) rose a bit more (+0.81%), so we came in 0.22 points behind it today. Good news: Eli Lilly, yesterday's laggard, bounced +2.3% and did most of our gains -- exactly why I didn't panic when its safety-net cushion got tight yesterday; JPMorgan added to its gains too. Why we trailed: on an UP day, holding ~60% cash and owning zero tech stocks means we ride less of the rally (tech pulled the market higher). That's the flip side of the same caution that let us BEAT the market on last week's down days -- symmetric, not a mistake. No trades -- 21st straight scan with nothing clearing our strict buy bar (two solid verified reasons + a 70+ conviction score). What's next: Google reports Wednesday after close (a market mood-setter), and American Express reports Friday (7/24) -- the real decision point for putting some cash to work. Deere is the one to watch: flat today, closest to its safety net (~2% cushion), and a tariff deadline Friday touches it most. Numbers: equity $101,231 (+1.23% since our $100K start); for the week we're a hair behind the market (alpha -0.84 pts after two days). $60,168 cash (~59%) still waiting for a name that earns its spot; 0 of 3 weekly buys used; all three trailing stops resting; combined open gains +$1,779 (LLY +8.8%, JPM +4.6%, DE -0.5%)."
+    },
+    {
       "ts": "2026-07-21 08:35 CT",
       "routine": "market-open",
       "headline": "Open: no trades — a quiet, green open with all three stocks up",
-      "body": "We didn't trade this morning, and that's on purpose -- all three stocks we own are up today. I confirmed the market was open, pulled our live account, re-checked my pre-dawn plan against real opening prices (it said no buys, no sells), and left the portfolio alone. Two things make it a do-nothing morning. First, no candidate cleared our strict buy bar -- two solid verified reasons AND a 70+ conviction score -- and the best name, American Express, reports earnings this Friday, so buying now would be gambling on a coin-flip result; I'd rather see the number first. Second, none of our holdings gave a sell signal, and nicely, the two I was watching closely (Eli Lilly and Deere) both rose this morning, pulling further away from their auto-sell 'trailing stop' floors (a safety net that sells if a stock falls ~10% from its high). So there was simply nothing to do. I re-confirmed all three safety nets are resting and working. What's next: I'll re-check at midday. The week's real events are earnings -- Google Wednesday (a market mood-setter) and American Express Friday -- plus a tariff deadline (7/24) and the Fed meeting (7/28-29); I'm keeping cash ready for after those clear. Equity $100,956 -- up $319 (+0.3%) so far today, about +0.96% since our $100,000 start. The S&P 500 is up ~0.44% today, so we're running a touch behind the market this morning -- normal on a day we hold ~60% cash; tonight's close has the official scorecard. $60,168 cash (~60%) still on the sidelines, waiting for a name that earns its spot. 0 of 3 weekly buys used, all three trailing stops resting."
+      "body": "We didn't trade this morning, and that's on purpose -- all three stocks we own are up today. I confirmed the market was open, pulled our live account, re-checked my pre-dawn plan against real opening prices (it said no buys, no sells), and left the portfolio alone. Two things make it a do-nothing morning. First, no candidate cleared our strict buy bar -- two solid verified reasons AND a 70+ conviction score -- and the best name, American Express, reports earnings this Friday, so buying now would be gambling on a coin-flip result; I'd rather see the number first. Second, none of our holdings gave a sell signal, and nicely, the two I was watching closely (Eli Lilly and Deere) both rose this morning, pulling further away from their auto-sell 'trailing stop' floors. So there was simply nothing to do."
     },
     {
       "ts": "2026-07-21 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: no buys (20th quiet scan) — lineup healthy; watching Lilly & Deere cushions at the open",
-      "body": "Research-only routine (market opens 8:30 CT), so no trades. I ran my four research assistants in parallel and pulled it into one view. On buying, still nothing clears our strict bar (two solid verified reasons + a 70+ conviction score) -- the 20th quiet scan in a row; my scout even double-checked the promising names and one supposed upgrade was flagged as issued in error. This morning's market looks a touch higher, but the strength is all in tech/chip stocks we deliberately don't own, so we won't ride it -- and that's fine. All three holdings (Eli Lilly, JPMorgan, Deere) checked out clean with no bad news; JPMorgan even picked up fresh Wall Street 'buy' notes. What I'm watching: Lilly and Deere are sitting a little close to their automatic safety nets (trailing stops -- sell orders that ride the price up and only trigger on a ~10% fall from the high), both cushions ~1.9%. I'm not touching them; if a down day tags a floor it sells itself and locks the result. I'll recheck at the open. The week's real event is American Express earnings Friday -- our closest buy candidate -- and I won't gamble ahead of that coin-flip. Equity ~$100,621 pre-market (not official -- thin early prices; real scorecard set at today's close), ~+0.6% since our $100K start. Cash ~$60,168 (~60%) -- a cushion I'm patiently deploying, not forcing; a tariff deadline Friday and a Fed meeting next week make dry powder sensible anyway. 0 of 3 weekly buys used, all three trailing stops resting."
+      "body": "Research-only routine (market opens 8:30 CT), so no trades. I ran my four research assistants in parallel and pulled it into one view. On buying, still nothing clears our strict bar (two solid verified reasons + a 70+ conviction score) -- the 20th quiet scan in a row. This morning's market looks a touch higher, but the strength is all in tech/chip stocks we deliberately don't own. All three holdings checked out clean. Watching: Lilly and Deere are sitting a little close to their automatic safety nets (both cushions ~1.9%). I'm not touching them; if a down day tags a floor it sells itself. The week's real event is American Express earnings Friday -- our closest buy candidate."
     },
     {
       "ts": "2026-07-20 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $100,631 · day -0.77% · SPY -0.15% · alpha -0.62%",
-      "body": "We had a down day -- the account slipped about $781 (-0.77%) to $100,631. The overall US market (the S&P 500) was also down but only a little (-0.15%), so today we lagged it by roughly 0.6 points. We're still +0.63% since our $100,000 start, so overall we're in the green -- just a step back today. Nothing to trade -- no buys, no sells, no changes to our three automatic safety nets (trailing stops -- sell orders that follow the price up and only trigger if a stock falls a set amount from its high). That's the 19th quiet scan in a row where nothing cleared our strict buy bar. Why we fell more than the market: the last few days tech and chip stocks bounced and we drifted behind because we don't own them; today that flipped -- tech held up while the steadier names we DO own (Eli Lilly drugs, JPMorgan bank, Deere tractors) all sold off together, with Lilly (-2.8%) doing most of the damage. Owning just three stocks means they can move as a pack -- great on up days, painful on days like today. What's next: two of our stocks now sit closer to their safety nets than usual -- Lilly's cushion is ~1.9% and Deere's ~1.9% (the room before the auto-sell triggers). I'm not touching them; the stops exist so I don't have to react emotionally. If a second down day pushes either to its floor, it sells automatically and locks in the result. I'll check pre-market tomorrow. The week's real decision point is American Express earnings Friday, which could finally green-light putting some of our big cash pile to work. Equity $100,631 (down $781 / -0.77% today; +0.63% since the $100K start). Winners still winning: Lilly +6.3%, JPMorgan +2.8%; Deere basically flat at -0.7%. Net unrealized gain across the three: +$1,179. Cash $60,168 (~60%), 0 of 3 weekly buys used, all 3 trailing stops resting."
+      "body": "We had a down day -- the account slipped about $781 (-0.77%) to $100,631. The overall US market (the S&P 500) was also down but only a little (-0.15%), so today we lagged it by roughly 0.6 points. We're still +0.63% since our $100,000 start. Nothing to trade -- no buys, no sells, no changes to our three trailing stops. That's the 19th quiet scan in a row. Why we fell more than the market: today tech held up while the steadier names we DO own (Lilly, JPMorgan, Deere) all sold off together, with Lilly (-2.8%) doing most of the damage. What's next: two of our stocks now sit closer to their safety nets than usual -- Lilly ~1.9% and Deere ~1.9%. I'm not touching them. The week's real decision point is American Express earnings Friday."
     },
     {
       "ts": "2026-07-20 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — a quiet green-market day where we're sitting slightly behind, and that's fine",
-      "body": "Nothing to trade -- no buys, no sells, no changes to our safety nets. I pulled our live account, checked all three stocks against real-time prices, and confirmed all three automatic trailing safety nets are resting and healthy. Two reasons to sit still: on selling, none of our stocks came near a safety net or hit bad news (the weakest, Deere, is down just a third of a percent); on buying, still nothing clears our strict bar -- two solid verified reasons AND a 70+ conviction score (my 0-100 confidence rating), the 19th quiet scan in a row. Today the roles flipped from Friday: the market is UP a touch (+0.22%) because tech and chip stocks keep bouncing back, and since we deliberately own none of those (we hold a drugmaker, a bank, a farm-equipment maker), we're drifting slightly the other way. On an up day led by stocks we don't own, being a hair behind is just the flip side of protecting us on down days -- nothing to fix. My market-close check-in this afternoon is the big one: the official daily scorecard (are we up or down, did we beat the market). The week's key event is still American Express earnings Friday -- I'm waiting on that, not gambling ahead of it. Equity $101,037 (down ~$375 / -0.37% today, still +1.04% since our $100K start); the S&P 500 is up ~0.22%, so we're trailing it by ~0.6 points intraday (official number set at close). Cash ~$60,168 (~60% -- a big cushion I'm patiently waiting to deploy well), 0 of 3 weekly buys used, all three trailing stops resting."
+      "body": "Nothing to trade -- no buys, no sells, no changes to our safety nets. I pulled our live account, checked all three stocks against real-time prices, and confirmed all three automatic trailing safety nets are resting and healthy. Two reasons to sit still: on selling, none of our stocks came near a safety net or hit bad news; on buying, still nothing clears our strict bar, the 19th quiet scan in a row. Today the market is UP a touch (+0.22%) because tech and chip stocks keep bouncing back, and since we deliberately own none of those, we're drifting slightly the other way. My market-close check-in this afternoon is the official daily scorecard."
     },
     {
       "ts": "2026-07-20 08:35 CT",
       "routine": "market-open",
       "headline": "Open: no trades — sticking with our plan, and our lineup is holding steady while the market bounces back",
-      "body": "The market opened at 8:30 CT and I placed no orders -- no buys, no sells. I re-checked our three stocks against live prices, confirmed all three automatic safety-net sell orders are resting, and confirmed nothing new qualified to buy. In short, I executed exactly the plan I laid out this morning. Two reasons to sit still: on buying, nothing clears our strict bar -- two solid verified reasons AND a conviction score of 70+ (my 0-100 confidence rating), now the 18th quiet scan in a row; on selling, none of our stocks tripped a safety net or hit bad news. Meanwhile the broad market is bouncing this morning (about +0.6%) as tech and chip stocks recover from Friday's drop -- but that rebound is in stocks we deliberately don't own, so we're roughly flat while it happens. That's fine; we don't chase. Next up: American Express reports earnings Friday (7/24) -- the closest name to qualifying, and I'm waiting for that result before deciding rather than gambling ahead of a coin-flip moment. I'll check back midday. Equity ~$101,415 (+1.4% since our $100K start; dead flat so far today), cash ~$60,168 (~59% -- still a big cushion I'm patiently waiting to deploy well), 0 of 3 weekly buys used (fresh week), all three trailing stops resting and confirmed."
+      "body": "The market opened at 8:30 CT and I placed no orders -- no buys, no sells. I re-checked our three stocks against live prices, confirmed all three automatic safety-net sell orders are resting, and confirmed nothing new qualified to buy. On buying, nothing clears our strict bar -- the 18th quiet scan in a row; on selling, none of our stocks tripped a safety net or hit bad news. Meanwhile the broad market is bouncing this morning (about +0.6%) as tech and chip stocks recover from Friday's drop -- but that rebound is in stocks we deliberately don't own. American Express reports earnings Friday (7/24) -- the closest name to qualifying, and I'm waiting for that result."
     },
     {
       "ts": "2026-07-20 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: no buys — a new week starts calm, and our lineup is sitting in exactly the right spot",
-      "body": "Research-only routine (market still closed, opens 8:30 CT), so no trades. I ran my four research assistants in parallel and pulled them into one view. Friday's big overseas drop was really a tech-and-chip-stock selloff (fear that AI stocks got too expensive), and this morning it's calming down. The helpful part for us: money is rotating INTO the kinds of stocks we own -- healthcare, banks, industrials. All three holdings (Eli Lilly, JPMorgan, Deere) checked out healthy with no bad news, and none report earnings this week. On buying: still nothing clears our strict bar -- two solid verified reasons AND a conviction score of 70+ (my 0-100 confidence rating). This is the 17th quiet scan in a row, and quiet has been the right call while the market chops sideways. The one name close to qualifying is American Express, which reports earnings Friday (7/24). I'm deliberately NOT buying ahead of it -- an earnings report is a coin-flip moment (stock can jump or drop hard), so I'd rather see the result first, then decide. That report is the week's key event for us. Equity ~$101,475 (+1.4% since our $100K start), cash ~$60,168 (~59% -- still a big cushion I'm hunting to deploy, not force), 0 of 3 weekly buys used, all three trailing stops resting."
+      "body": "Research-only routine (market still closed, opens 8:30 CT), so no trades. I ran my four research assistants in parallel. Friday's big overseas drop was really a tech-and-chip-stock selloff, and this morning it's calming down. The helpful part for us: money is rotating INTO the kinds of stocks we own -- healthcare, banks, industrials. All three holdings checked out healthy with no bad news, and none report earnings this week. On buying: still nothing clears our strict bar. This is the 17th quiet scan in a row. The one name close to qualifying is American Express, which reports earnings Friday (7/24)."
     },
     {
       "ts": "2026-07-17 16:00 CT",
       "routine": "weekly-review",
       "headline": "Week ending 2026-07-17: -0.40% | SPY -1.54% | alpha +1.14% | grade A-",
-      "body": "We beat the market this week by losing less. We finished down a hair (-0.40%, ~-$410), but the S&P 500 fell -1.54% -- so the gap in our favor ('alpha', the extra return vs. just owning the market) was +1.14 points. That snaps a two-week stretch where we'd been trailing the market: same steady, cautious lineup for three weeks, but this week the market fell and a cautious lineup shines on down weeks. Highlights: (1) GE sold itself for a +$671 profit -- its trailing stop (an auto-sell that rises with the price to lock in gains) caught the post-earnings dip +4.5% above cost; our first time one banked a profit rather than capping a loss. (2) JPMorgan reported strong earnings and raised its dividend, so I upgraded its safety net to a trailing stop too -- all three stocks now protect their gains automatically. (3) No new buys, on purpose: nothing met our strict bar (two solid reasons + a 70+ conviction score), and ~59% cash cushioned us on a falling week. On the cash pile: two weeks ago I promised a deploy-or-wait choice IF the market kept climbing while we sat out -- it didn't, the market fell and patience protected us, so no forced decision. My recommendation: keep waiting for a genuinely strong setup; but if you'd rather I put some cash to work sooner, say so in the inbox. Watching American Express earnings Jul 24 -- our closest bench name. Equity $101,411.58 (+1.41% since our $100K start; +3.30 points ahead of the market over ~7 weeks, up from +2.16 last week). LLY +9.3%, JPM +3.5%, DE +1.3% (~+$1,960 open gains); cash ~$60,168 (~59%), 0 of 3 weekly buys used, all stops resting."
-    },
-    {
-      "ts": "2026-07-17 15:01 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $101,412 · day +0.03% · SPY -1.01% · alpha +1.04% — we finished up on a day the market fell over a point",
-      "body": "We're basically flat today (+$31, +0.03%), but the market (the S&P 500, the 500 biggest U.S. companies) DROPPED about 1% -- so finishing green means we beat it by ~1 full point today. That gap in our favor is 'alpha' (extra return vs. just owning the market), and it's the 3rd day running we've done it. For the week we're down a hair (-0.40%), but the market is down -1.54%, so we're still ahead of the market by ~1.1 points this week -- winning by losing less. Why: another tech-and-chip-led down day, and none of our three stocks are tech (Eli Lilly drugs, JPMorgan bank, Deere farm equipment); plus ~59% cash cushions red days. No trades today -- nothing cleared our strict buy bar (two solid reasons + a 70+ conviction score), so I didn't force anything. Next check-in is Monday's pre-market; the one open question I'll bring you is our big cash pile -- keep waiting for a great setup, or start putting some to work. Nothing needs your input over the weekend. Equity $101,412 (+1.41% since our $100K start); LLY +9.3%, JPM +3.5%, DE +1.3% (combined open gains ~+$1,960); cash ~$60,168 (~59%), 0 of 3 weekly buys used, all three trailing stops resting."
+      "body": "We beat the market this week by losing less. We finished down a hair (-0.40%, ~-$410), but the S&P 500 fell -1.54% -- so the gap in our favor ('alpha') was +1.14 points. That snaps a two-week stretch where we'd been trailing. Highlights: (1) GE sold itself for a +$671 profit via its trailing stop. (2) JPMorgan reported strong earnings and raised its dividend, so I upgraded its safety net to a trailing stop too. (3) No new buys, on purpose. On the cash pile: my recommendation is keep waiting for a genuinely strong setup; but if you'd rather I put some cash to work sooner, say so in the inbox. Watching American Express earnings Jul 24."
     }
   ]
 }
