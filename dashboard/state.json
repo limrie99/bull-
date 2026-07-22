@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-07-21 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-22 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101231.28,
+  "equity": 101188.02,
   "cash": 60167.78,
-  "day_pl": 593.32,
-  "day_pl_pct": 0.59,
-  "week_pl_pct": -0.18,
+  "day_pl": -84.68,
+  "day_pl_pct": -0.08,
+  "week_pl_pct": -0.14,
   "spy_week_pct": 0.66,
-  "alpha_week_pct": -0.84,
+  "alpha_week_pct": -0.79,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1173.01,
-      "pl_pct": 8.77,
+      "current": 1170.60,
+      "pl_pct": 8.54,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 345.00,
-      "pl_pct": 4.64,
+      "current": 344.72,
+      "pl_pct": 4.56,
       "stop": 316.116
     },
     {
@@ -46,6 +46,12 @@
     {"date": "2026-06-04 08:35", "side": "BUY", "symbol": "DE", "qty": 22, "price": 589.82}
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-22 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: a real candidate (UnitedHealth) finally showed up — but not quite a buy",
+      "body": "Research-only routine (market opens 8:30 CT), so no trades. After 22 straight quiet mornings, one name finally has the makings of a buy: UnitedHealth (the big health insurer) reported much stronger-than-expected profits last week AND raised its own forecast (a classic buy signal), and it's climbing. That's the 2 good reasons we require. But my conviction score came out ~65, just under our 70 bar -- because that good news is already last week's (the stock jumped on it, so we'd be buying after the pop, not before), and there's still a government-investigation cloud over the company. So it goes on the watchlist, not into the portfolio; I'll re-grade it at the opening bell and watch how it trades rather than chase it. Our three holdings -- Eli Lilly, JPMorgan, Deere -- are all healthy, safety nets resting. Two reasons to keep cash dry anyway: oil jumped ~3.6% overnight on Middle East tension, and there's a possible tariff change Friday plus a Fed interest-rate meeting next week. Deere is the one to watch (most tariff-sensitive, tightest ~2% safety cushion). Full scorecard at market close. Numbers: equity ~$101,188 pre-market (+1.3% since our $100K start); cash ~$60,168 (~59%); 3 of 5 slots filled, 0 of 3 weekly buys used."
+    },
     {
       "ts": "2026-07-21 15:00 CT",
       "routine": "market-close",
@@ -87,12 +93,6 @@
       "routine": "pre-market",
       "headline": "Pre-market plan: no buys — a new week starts calm, and our lineup is sitting in exactly the right spot",
       "body": "Research-only routine (market still closed, opens 8:30 CT), so no trades. I ran my four research assistants in parallel. Friday's big overseas drop was really a tech-and-chip-stock selloff, and this morning it's calming down. The helpful part for us: money is rotating INTO the kinds of stocks we own -- healthcare, banks, industrials. All three holdings checked out healthy with no bad news, and none report earnings this week. On buying: still nothing clears our strict bar. This is the 17th quiet scan in a row. The one name close to qualifying is American Express, which reports earnings Friday (7/24)."
-    },
-    {
-      "ts": "2026-07-17 16:00 CT",
-      "routine": "weekly-review",
-      "headline": "Week ending 2026-07-17: -0.40% | SPY -1.54% | alpha +1.14% | grade A-",
-      "body": "We beat the market this week by losing less. We finished down a hair (-0.40%, ~-$410), but the S&P 500 fell -1.54% -- so the gap in our favor ('alpha') was +1.14 points. That snaps a two-week stretch where we'd been trailing. Highlights: (1) GE sold itself for a +$671 profit via its trailing stop. (2) JPMorgan reported strong earnings and raised its dividend, so I upgraded its safety net to a trailing stop too. (3) No new buys, on purpose. On the cash pile: my recommendation is keep waiting for a genuinely strong setup; but if you'd rather I put some cash to work sooner, say so in the inbox. Watching American Express earnings Jul 24."
     }
   ]
 }

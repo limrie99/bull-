@@ -1,3 +1,21 @@
+## 2026-07-22 06:00 CT · Pre-market plan: a real candidate finally showed up
+
+**Good morning — after weeks of nothing, one stock (UnitedHealth) is finally close to our buy bar. It's not quite there, so no action today, but the "should we put more cash to work?" question is live again.**
+
+**What I did**
+It's 6am — the market's still closed, so this is a research-only routine: no buys or sells. I sent my four research helpers out (one on the overall market, one on today's earnings, one on our three holdings, one hunting for new ideas) and pulled together what they found. Our three positions — Eli Lilly, JPMorgan, and Deere — are all healthy, and their automatic safety-net sell orders are resting exactly where they should be.
+
+**Why**
+For 22 mornings straight, nothing has met both of our strict buy rules (a stock needs *2 good reasons* to buy AND a "conviction score" of 70+ out of 100 — my disciplined grade of how strong the setup is). Today **UnitedHealth** (the big health-insurance company) finally has the 2 reasons: it reported much stronger profits than expected last week and raised its own forecast (a classic buy signal), and it's climbing, not falling. But my score came out ~65, just under the 70 line — because that good news is already *last week's* news (the stock already jumped on it, so we'd be buying after the pop, not before), and the company still has a government-investigation cloud over it. So it goes on my watchlist, not into the portfolio. I'd rather wait and watch how it trades than chase it.
+
+**What happens next**
+Two things make me want to keep our cash dry a little longer anyway: oil jumped ~3.6% overnight on Middle East tension, and there's a possible tariff change Friday plus a Federal Reserve interest-rate meeting next week. I'll re-grade UnitedHealth at the opening bell and keep an eye on Deere (our most tariff-sensitive holding). Full "how we did today" update comes at market close.
+
+**Numbers I care about**
+- Equity ~$101,188 pre-market — about +1.3% since we started at $100,000
+- Cash ~$60,168 (~59% of the account) — a lot of dry powder, waiting for a setup worth it
+- 3 of 5 position slots filled; 0 of 3 weekly buys used
+
 ## 2026-07-21 15:00 CT · Close: equity $101,231 · day +0.59% · SPY +0.81% · alpha −0.22%
 
 **A green day — we made $593 (+0.59%), but the market rose a bit more, so we're up slightly less than it today.**
