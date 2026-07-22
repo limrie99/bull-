@@ -3980,3 +3980,29 @@ LLY `6016a7e7` floor 1124.505 (hwm 1249.45; mark 1178.65, cushion ~4.6%) · JPM 
 - **What worked:** (1) Zero tech exposure + ~59% cash = the book finished UP on a day SPY dropped >1% (tech/chip-led selloff). Being selective and holding dry powder is exactly why we're beating the market this week. (2) LLY (+9.33%) kept strengthening and carried the book. (3) All exits over the prior sessions were mechanical trailing-stop discipline — no forced trades, no chasing.
 - **What didn't / watch:** (1) JPM gave back its midday bank bounce to finish −0.7% (still +3.46% overall, cushion ~7.3%, no action — normal trailing mechanics). (2) Cash ~59.3% remains ELEVATED (target 10–20%) — 16th straight scan with nothing clearing the 2-signal + Conviction≥70 gate. In a falling market this restraint has been correct, but the A/B redeploy question is now overdue for Lauren.
 - **Open questions for next week (Mon 7/20 pre-market):** (a) The A/B cash-deployment decision is owned by the weekly review — put it to Lauren: keep waiting for a Grade-B+ setup, or deploy a starter into the top bench name. (b) AXP (bench leader, 62) reports Jul 24 — that earnings print is the real near-term decision point for the 4th slot. (c) Watch whether the tech-led risk-off spills into our names Monday; all three governed by resting trailing stops (LLY 4.6% / JPM 7.3% / DE 3.7% cushion). Stops all resting, all trailing, zero hard stops.
+
+---
+
+## 2026-07-22 08:35 CT · MARKET-OPEN (Wed, market OPEN)
+
+**Clock:** `is_open:true`, opened 09:30 ET, closes 16:00 ET. **Live Alpaca:** equity **$101,354.54** | cash **$60,167.78** (~59.4%) | long_mv **$41,186.76** (~40.6%). last_equity (7/21 close) $101,272.70 → day so far **+$81.84 / +0.08%**. Book **3 of 5** (two slots OPEN), weekly buys **0/3**.
+
+### Plan execution vs pre-market
+Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty scan); UNH ~65 the sole gate-adjacent name, to be **re-scored at open vs live price** with an explicit "do NOT chase a post-print run." Re-validated at open — nothing changed the plan.
+
+### Buy decision (re-scored UNH at open)
+- **UNH live $433.97 (~09:32 ET) vs 7/21 close $436.19 → DOWN ~0.5%.** It pulled back at the open rather than extending — constructive behavior (not chasing), but it did NOT firm the score. 2 verified signals (7/16 beat-and-raise adj EPS $6.38 / rev $112.0B / FY guide → $19.50–20.00; + prior uptrend) but conviction holds **~65 < 70** — catalyst SPENT, turnaround-off-a-cut-base, DOJ/regulatory overhang cap Thesis/Risk. **Does NOT clear the gate → watchlist, no buy. 23rd straight effectively-empty scan on the strict 2-signal + Conviction≥70 gate.**
+- No other bench name clears (AXP 65 — 7/24 binary earnings, do not pre-position; GS 60; JNJ 58; rest ≤55). Capacity is wide open (2 free slots, 0/3 weekly, ~59% cash, loss cap clear) — the block is verification/conviction, not caps.
+- Calendar argues for patience: Section 122 tariff expiry 7/24, AXP Q2 7/24 BMO, FOMC 7/28–29. Dry powder into week's end is the deliberate posture. A/B cash-deployment question was put to Lauren at the 7/17 weekly review (HOLD rec); no inbox override → continue patient-hold.
+
+### Sell / stop check
+- **No sell signals overnight.** All 3 theses INTACT sev 3 (no thesis-breaking news; pre-market confirmed the same, nothing new pre-open). No position at/near the −7% zone — all green.
+- **Stops all 3 RESTING** (open-orders `status:new`, ALL 10% trailing, zero hard stops, IDs unchanged): LLY `6016a7e7` floor 1124.505 hwm 1249.45 (mark 1167.25, cushion ~3.66%); JPM `8a937ff6` floor 316.116 hwm 351.24 (mark 346.39, cushion ~8.74%); DE `dcdd84e5` floor 575.073 hwm 638.97 (mark 594.00, cushion ~3.19%, tightest).
+- **+5% conversion check:** JPM is now +5.06% and LLY +8.23% — both ALREADY on 10% trailing stops (converted earlier). No hard stops remain in the book → no conversion action needed. DE +0.71% (trailing since entry-management, below +5% but already trailing). No changes.
+- **Daily loss cap:** equity +0.08% vs 7/21 close — book UP, nowhere near −3%. No buy restriction (moot — no buy anyway).
+
+### Scorecard (open indicative — market-close owns official)
+- Day so far **+$81.84 / +0.08%.** SPY 747.22 vs 748.155 (7/21 close) = **−0.12%** → **alpha today ~+0.20%** (early, not meaningful). Total since $100K start **+1.35%.** Net open unrealized **+$1,902.63** (LLY +1,243.06, JPM +567.61, DE +91.96).
+
+### Actions this run
+- NONE — no buys, no sells, no stop changes. Memory (portfolio/messages/research-log) + dashboard written; commit + HEAD:main push. **No Telegram** (no-trade open is a skip-push event per CLAUDE.md — Telegram fires on trades/stops/close/weekly/urgent only). Inbox: nothing pending. Next routine: **Wed 7/22 midday.**

@@ -1,3 +1,21 @@
+## 2026-07-22 08:35 CT · market-open
+
+**Open: no trades — the account is up a touch, and I'm still holding my cash until a better setup shows up.**
+
+**What I did**
+The market opened at 8:30 my time and I checked everything first thing. No buying, no selling — we're steady with our three companies (Eli Lilly, JPMorgan, and Deere). I re-checked the one candidate I've been circling, UnitedHealth, and it isn't ready to buy yet.
+
+**Why**
+My rule before buying anything is two solid reasons *and* a conviction score of at least 70 out of 100 (my own 0–100 grade for how strong an idea is). UnitedHealth scores about 65 — the good earnings news that lifted it has already been "spent" (priced in), and it still has a legal/regulatory cloud over it. At the open it actually slipped a little, so I'm certainly not chasing it higher. Nothing else on my bench clears the bar either. There are also three known events crowding the calendar — a tariff deadline Friday, American Express earnings Friday, and a Federal Reserve meeting next week — so keeping some dry powder (uninvested cash ready to deploy) is the smart, patient move.
+
+**What happens next**
+I'll check again at midday. If UnitedHealth settles down calmly instead of spiking, its score can improve toward a buy. Our automatic sell orders (trailing stops — they sell a winner if it drops 10% off its high) are all in place and working.
+
+**Numbers I care about**
+- Equity **$101,354** — up **$82 (+0.08%)** so far today; the S&P 500 is down about 0.12%, so we're a hair ahead early.
+- Our winners: Lilly **+8.2%**, JPMorgan **+5.1%**, Deere **+0.7%** — total unrealized gain **+$1,903**.
+- Cash **$60,168** — about 59% of the account, still parked and ready.
+
 ## 2026-07-22 06:00 CT · Pre-market plan: a real candidate finally showed up
 
 **Good morning — after weeks of nothing, one stock (UnitedHealth) is finally close to our buy bar. It's not quite there, so no action today, but the "should we put more cash to work?" question is live again.**
