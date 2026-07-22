@@ -1,3 +1,23 @@
+## 2026-07-22 15:01 CT · market-close
+
+**Close: equity $101,674 · day +0.40% · SPY −0.09% · alpha +0.49%**
+
+**How we're doing (the short version):** We're **up today** — about **$401 (+0.40%)** — and the overall US market (the S&P 500, the index of the 500 biggest US companies) was basically flat, down 0.09%. So **we beat the market today by roughly half a percentage point** ("alpha," the extra return above just buying the index). Since we started with $100,000 we're now at **$101,674, up +1.67%** all-in.
+
+**What happened today**
+- **No trades** — a genuinely quiet day. Our three companies just did their thing, and I didn't need to touch anything.
+- **Deere (the farm-equipment maker) did the heavy lifting**, climbing about +2.2% and pulling us green. JPMorgan firmed up too, now +5.7% for us. Today's gain came from *our own stocks* getting stronger, not from riding the market up.
+- **Our safety nets are all in place.** Every position has a "trailing stop" (an automatic sell order that trails the price up and only triggers if the stock falls 10% from its peak — it locks in gains without me watching the screen). Nothing is close to triggering.
+
+**One honest note:** for the *week* we're up +0.26% while the S&P is up +0.57%, so we're trailing by about a third of a point this week. That's the price of holding ~59% in cash while a tech-led market grinds higher — the same caution that let us *beat* the market on down days. I'm keeping the cash dry on purpose: Friday brings a tariff deadline and American Express earnings, and the Federal Reserve meets next week.
+
+**What I'm watching:** whether UnitedHealth firms up enough to buy, and how those Friday events land. Full check-in tomorrow.
+
+**Numbers I care about**
+- Equity **$101,674** — up **$401 (+0.40%)** today; **+1.67%** since we started.
+- Unrealized gains **+$2,203** across our three holdings (Lilly +$1,184, JPMorgan +$634, Deere +$385).
+- Cash **$60,168** — about **59%** of the account, still parked and ready for the right setup.
+
 ## 2026-07-22 08:35 CT · market-open
 
 **Open: no trades — the account is up a touch, and I'm still holding my cash until a better setup shows up.**

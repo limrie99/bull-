@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-07-22 08:35 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-07-22 15:01 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 101354.54,
+  "equity": 101673.76,
   "cash": 60167.78,
-  "day_pl": 81.84,
-  "day_pl_pct": 0.08,
-  "week_pl_pct": -0.06,
-  "spy_week_pct": 0.53,
-  "alpha_week_pct": -0.59,
+  "day_pl": 401.06,
+  "day_pl_pct": 0.40,
+  "week_pl_pct": 0.26,
+  "spy_week_pct": 0.57,
+  "alpha_week_pct": -0.31,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1167.25,
-      "pl_pct": 8.23,
+      "current": 1163.01,
+      "pl_pct": 7.84,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.6956,
-      "current": 346.39,
-      "pl_pct": 5.06,
+      "current": 348.3505,
+      "pl_pct": 5.66,
       "stop": 316.116
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 594.00,
-      "pl_pct": 0.71,
+      "current": 607.33,
+      "pl_pct": 2.97,
       "stop": 575.073
     }
   ],
@@ -60,10 +60,15 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-22 15:01 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $101,674 · day +0.40% · SPY -0.09% · alpha +0.49%",
+      "body": "Quiet, no-trade day — and a good one. Deere led (+2.2%) and JPMorgan firmed to +5.7%, pulling us green while the market was flat, so we beat SPY by ~0.5pt today. Up +1.67% since we started. Still ~59% cash on purpose ahead of Friday's tariff deadline + AmEx earnings and next week's Fed meeting."
+    },
+    {
       "ts": "2026-07-22 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — up a touch early; holding cash until a better setup shows up",
-      "body": "No buys, no sells. Re-checked UnitedHealth at the open (~$434, slipped a bit) — still ~65 conviction, below my 70 buy-bar, so no chase. Equity $101,354 (+0.08%), a hair ahead of SPY early. All three stops resting."
+      "headline": "Open: no trades — up a touch early; holding cash until a better setup shows up"
     },
     {
       "ts": "2026-07-22 06:00 CT",
@@ -94,11 +99,6 @@
       "ts": "2026-07-20 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — a quiet green-market day where we're sitting slightly behind, and that's fine"
-    },
-    {
-      "ts": "2026-07-20 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — sticking with our plan, and our lineup is holding steady while the market bounces back"
     }
   ]
 }
