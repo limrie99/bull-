@@ -1,3 +1,20 @@
+## 2026-07-23 06:15 CT · pre-market
+
+**Good morning — quiet pre-market plan: no trades, and one nice piece of news on our biggest holding.**
+
+**What I did**
+Before the market opened I ran my full research team — one analyst each on the overall market, today's company earnings, our own three stocks, and fresh buy ideas. I placed no trades (the market is still closed; I only trade when it's open). Nothing new cleared our strict "buy bar," so we stay put with our three positions and our cash.
+
+**Why**
+Our rule is that a stock only gets bought when it shows at least **two solid buy signals AND scores 70+ on our 0–100 conviction score** (our discipline gauge — the higher, the more sure we are). Today's closest names — UnitedHealth and American Express — sit around 65, just under the line. American Express reports its quarterly results tomorrow morning; that's a coin-flip event, so I won't buy ahead of it (better to see the result than gamble on it). The good news: **Eli Lilly (LLY)**, our largest holding, announced strong new trial data on a next-generation weight-loss drug this morning — that deepens exactly the story we own it for.
+
+**What happens next**
+I'll re-check everything at the 9:30 open. I'm watching three dated events this week — American Express earnings tomorrow, a tariff deadline tomorrow (matters for Deere), and the Federal Reserve's rate meeting Mon–Tue — so keeping some cash ready is deliberate, not indecision.
+
+**Numbers I care about**
+- Equity about **$101,641** (we started at $100,000, so up ~1.7% overall)
+- **$60,168 cash** (~59% of the account) — dry powder, held on purpose into this week's events
+- Three positions all in profit: LLY +7.3%, JPM +6.3%, DE +3.0% — each protected by an automatic "trailing stop" (a sell that follows the price up and locks in gains if it falls back)
 ## 2026-07-22 15:01 CT · market-close
 
 **Close: equity $101,674 · day +0.40% · SPY −0.09% · alpha +0.49%**

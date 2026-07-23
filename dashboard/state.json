@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-07-22 15:01 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-23 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101673.76,
+  "equity": 101641.10,
   "cash": 60167.78,
-  "day_pl": 401.06,
-  "day_pl_pct": 0.40,
+  "day_pl": null,
+  "day_pl_pct": null,
   "week_pl_pct": 0.26,
   "spy_week_pct": 0.57,
   "alpha_week_pct": -0.31,
@@ -14,16 +14,16 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1163.01,
-      "pl_pct": 7.84,
+      "current": 1156.77,
+      "pl_pct": 7.26,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
-      "avg_cost": 329.6956,
-      "current": 348.3505,
-      "pl_pct": 5.66,
+      "avg_cost": 329.70,
+      "current": 350.51,
+      "pl_pct": 6.31,
       "stop": 316.116
     },
     {
@@ -37,68 +37,59 @@
   ],
   "recent_trades": [
     {
-      "date": "2026-07-16 09:33",
+      "date": "2026-07-16 09:53",
       "side": "SELL",
       "symbol": "GE",
       "qty": 45,
       "price": 344.54
     },
     {
-      "date": "2026-07-02 10:00",
+      "date": "2026-07-15 09:35",
+      "side": "RISK-MGMT",
+      "symbol": "JPM",
+      "qty": 34,
+      "price": 315.288
+    },
+    {
+      "date": "2026-07-02 14:36",
       "side": "SELL",
       "symbol": "ETN",
       "qty": 24,
       "price": 392.75
     },
     {
-      "date": "2026-06-05 12:00",
-      "side": "SELL",
-      "symbol": "NVDA",
-      "qty": 55,
-      "price": 204.7158
+      "date": "2026-06-29 09:38",
+      "side": "BUY",
+      "symbol": "JPM",
+      "qty": 34,
+      "price": 329.70
+    },
+    {
+      "date": "2026-06-25 12:05",
+      "side": "RISK-MGMT",
+      "symbol": "DE",
+      "qty": 22,
+      "price": 558.945
     }
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-23 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Quiet pre-market plan · no trades · LLY got good drug-trial news",
+      "body": "Ran the full research team pre-open; nothing cleared our 2-signal + 70-conviction buy bar (25th straight). UNH & AXP still ~65; AXP reports tomorrow so I won't buy ahead of it. LLY (our biggest position) announced strong retatrutide trial data — thesis strengthened. Holding 3 positions, all in profit, ~59% cash into a busy events week (AXP earnings + tariff deadline Fri, Fed Mon-Tue)."
+    },
+    {
       "ts": "2026-07-22 15:01 CT",
       "routine": "market-close",
-      "headline": "Close: equity $101,674 · day +0.40% · SPY -0.09% · alpha +0.49%",
-      "body": "Quiet, no-trade day — and a good one. Deere led (+2.2%) and JPMorgan firmed to +5.7%, pulling us green while the market was flat, so we beat SPY by ~0.5pt today. Up +1.67% since we started. Still ~59% cash on purpose ahead of Friday's tariff deadline + AmEx earnings and next week's Fed meeting."
-    },
-    {
-      "ts": "2026-07-22 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — up a touch early; holding cash until a better setup shows up"
-    },
-    {
-      "ts": "2026-07-22 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: a real candidate (UnitedHealth) finally showed up — but not quite a buy"
+      "headline": "Equity $101,674 · day +0.40% · alpha +0.49% (beat a flat market)",
+      "body": "Quiet up day — we made $401 while the S&P was flat-to-down, so we edged the market. No trades; three positions all in profit. 24th straight empty scan on the strict buy gate."
     },
     {
       "ts": "2026-07-21 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $101,231 · day +0.59% · SPY +0.81% · alpha -0.22%"
-    },
-    {
-      "ts": "2026-07-21 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — a quiet, green open with all three stocks up"
-    },
-    {
-      "ts": "2026-07-21 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: no buys (20th quiet scan) — lineup healthy; watching Lilly & Deere cushions at the open"
-    },
-    {
-      "ts": "2026-07-20 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $100,631 · day -0.77% · SPY -0.15% · alpha -0.62%"
-    },
-    {
-      "ts": "2026-07-20 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — a quiet green-market day where we're sitting slightly behind, and that's fine"
+      "headline": "Equity $101,231 · day +0.59% · alpha -0.22%",
+      "body": "Green day (+$593) but SPY rose more on a tech-led tape — the expected cost of ~59% cash and no tech. LLY snapped back +2.3%. No trades."
     }
   ]
 }
