@@ -4086,3 +4086,25 @@ Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty sc
 **No Telegram this run** (market-open with no trades = do-NOT-push list per CLAUDE.md). Next mandatory Telegram = today's market-close daily update.
 
 **Standing tasks into midday / this week:** (1) AXP Q2 tomorrow 7/24 BMO = THE bench decision point — let it resolve, re-score after. (2) Section 122 tariff 7/24 expiry — watch DE headlines (base case sunset = mild tailwind). (3) LLY tightest cushion ~1.80% — mechanics only, thesis strengthened. (4) FOMC 7/28–29. (5) Redeploy ~59% idle cash — live priority but STILL GATED; patient-hold per Lauren's 7/17 HOLD, no inbox override. Dry powder into week's end (tariff + AXP Fri, Fed Mon–Tue).
+
+---
+## 2026-07-23 12:05 CT (13:05 ET) — MIDDAY (Thu, market OPEN, is_open:true, next_close 16:00 ET)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`. Inbox: **nothing pending.** Account (live Alpaca): equity **$102,066.58**, cash **$60,167.78** (~59.0%), long_market_value **$41,898.80** (~41.0%), buying_power $60,167.78, status ACTIVE, trading_blocked false. `last_equity` again "0" (Alpaca quirk) → baseline = 7/22 close of record $101,673.76. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
+
+**Risk management (priority order):**
+- **(a) Any position ≤ −7%?** NO — all three green (LLY +9.48%, JPM +5.60%, DE +4.27%). No news check triggered.
+- **(b) Any position ≥ +5% still on a −7% hard stop?** NO conversion needed — LLY & JPM are ≥+5% and BOTH already on 10% trailing stops; DE +4.27% (below +5%) also already trailing. **Zero hard stops remain in the book.** All 3 stops RESTING (open-orders `status:new`, all 10% trailing, IDs unchanged): LLY `6016a7e7` floor 1124.505 / hwm 1249.45 (mark 1180.74, cushion ~4.76%); JPM `8a937ff6` floor 316.116 / hwm 351.24 (mark 348.17, cushion ~9.21%); DE `dcdd84e5` floor 575.073 / hwm 638.97 (mark 615.03, cushion ~6.50%).
+- **(c) Daily loss cap:** equity +$392.82 / +0.39% vs 7/22 close — book UP, nowhere near −3%. No buy restriction (moot — no buy anyway).
+
+**Buy decision: NO TRADES.** No high-conviction breaking catalyst at midday; nothing clears 2 verified signals + Conviction ≥70. **27th straight effectively-empty scan.** AXP Q2 is tomorrow (7/24 BMO) = binary, do NOT pre-position. Capacity wide open (2 free slots, 0/3 weekly, ~59% cash, loss cap clear) — the block is verification/conviction, not caps. Bench unchanged from open: UNH ~65, AXP ~65, GS ~63, JNJ 58, ABT 55, OXY 55, STX 53, MS 52, V/AMGN/CB/CVS/VST 50, PANW 35.
+
+**Positions (live marks 7/23 ~13:03 ET):** LLY 14 @ 1078.46 → 1180.74 (+$1,431.92 / +9.48%) — up +3.3% intraday, retatrutide follow-through, biggest mover; JPM 34 @ 329.695588 → 348.17 (+$628.13 / +5.60%); DE 22 @ 589.82 → 615.03 (+$554.62 / +4.27%). Net unrealized +$2,614.67.
+
+**Scorecard (intraday indicative; close owns official):** equity $102,066.58 = +0.39% / +$392.82 vs 7/22 close $101,673.76. SPY 738.61 (~13:03 ET) vs 747.49 (7/22 close) = −1.19% → **intraday alpha ~+1.58%** (we're UP while the tech-led tape is down ~1.2% — ~59% cash + zero tech + LLY strengthening on its own = the defensive posture doing exactly its job: GOOGL/TSLA/IBM AI-capex selloff, none of it ours). WTD (base 7/17 eq $101,411.58 / SPY 743.28): port +0.65%, SPY −0.63%, alpha WTD ~+1.27%.
+
+**Memory writes:** portfolio.md overwritten (live midday snapshot); messages.md prepended (teacher-voice midday update); dashboard/state.json overwritten (day_pl +392.82, latest_messages ≤8, recent_trades ≤10). No trade-log entry (no buy/sell/risk-mgmt action). Inbox: nothing to move.
+
+**No Telegram this run** (quiet midday, no trades = do-NOT-push list per CLAUDE.md). Next mandatory Telegram = today's market-close daily "How we're doing" update.
+
+**Standing tasks into close / this week:** (1) AXP Q2 tomorrow 7/24 BMO = THE bench decision point — let it resolve, re-score after. (2) Section 122 tariff 7/24 expiry — watch DE headlines (base case sunset = mild tailwind). (3) LLY strengthened +9.48%, cushion ~4.76% above floor — mechanics only. (4) FOMC 7/28–29. (5) Redeploy ~59% idle cash — live priority but STILL GATED; patient-hold per Lauren's 7/17 HOLD, no inbox override. Dry powder into week's end.

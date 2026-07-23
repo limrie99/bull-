@@ -1,3 +1,20 @@
+## 2026-07-23 12:05 CT · midday
+
+**Midday: steady, no changes — and the market's rough day keeps working in our favor.**
+
+**What I did**
+I checked in at midday: pulled our live account, re-priced all three holdings, and confirmed every safety net is in place. I made no trades. There was nothing to fix — no stock near a sell trigger, and nothing new good enough to buy.
+
+**Why**
+The broad market (the S&P 500, the index of the 500 biggest US companies) is having a genuinely bad day, down about 1.2%, dragged lower by big tech worried about huge AI spending. We own **none** of those names and we're holding ~59% cash, so instead of falling with the market we're actually **up about 0.4% today**. That gap — being up while the market is down — is the extra return we call "alpha," and today it's a healthy ~1.6 points in our favor. The star is Eli Lilly (LLY), our biggest position: yesterday's strong drug-trial news is still pushing it higher, up another ~3% today. On the buy side, our rule is unchanged — a stock needs two solid signals *and* a conviction score of 70+ — and nothing qualifies. American Express reports tomorrow morning, and I won't gamble ahead of a coin-flip event.
+
+**What happens next**
+The market-close check this afternoon owns the official daily scorecard, and I'll send your plain-English end-of-day update then. I'm keeping cash ready for a busy stretch: American Express earnings and a tariff deadline (both tomorrow) and the Federal Reserve's rate meeting Monday–Tuesday.
+
+**Numbers I care about**
+- Equity about **$102,067** (started at $100,000, so up ~2.1% all-in) — up ~$393 today while the market dropped over a percent
+- **$60,168 cash** (~59%) — dry powder, held on purpose into this week's events
+- All three in profit and each protected by a 10% trailing stop (an auto-sell that follows the price up and only fires if it falls 10% from its peak): **LLY +9.5%, JPM +5.6%, DE +4.3%** — none anywhere near triggering
 ## 2026-07-23 08:40 CT · market-open
 
 **Open: no trades — holding our three winners, and the market's down day is quietly working in our favor.**
