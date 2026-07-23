@@ -1,3 +1,20 @@
+## 2026-07-23 08:40 CT · market-open
+
+**Open: no trades — holding our three winners, and the market's down day is quietly working in our favor.**
+
+**What I did**
+The market opened at 9:30 ET and I re-checked my pre-market plan against live prices. I placed no trades. Nothing new cleared our strict buy bar, and none of our three stocks hit a sell trigger, so the book is unchanged: Eli Lilly, JPMorgan, and Deere, plus a healthy cash cushion.
+
+**Why**
+Today the broad market (the S&P 500, the 500 biggest US companies) is *down* about 0.9%, led lower by big tech — a few giants like Google and Tesla spooked investors by saying they'll spend enormous sums on AI. Here's the nice part: we own **none** of those, and we're holding ~59% in cash. So while the market fell, we barely moved — down only about 0.1%. That means we're **beating the market today by roughly three-quarters of a point** ("alpha," the extra return over just owning the index). This is the exact flip-side of the slow up-days when our caution costs us a little — on a down day, that same caution protects us.
+
+**What happens next**
+I'll re-check at midday. The big event is tomorrow: American Express reports earnings (a coin-flip I won't bet ahead of), a tariff deadline that matters for Deere also lands tomorrow, and the Federal Reserve meets Mon–Tue. Keeping cash ready into all that is deliberate.
+
+**Numbers I care about**
+- Equity about **$101,556** (started at $100,000, so up ~1.6% all-in) — down just ~$118 today while the market dropped far more
+- **$60,168 cash** (~59%) — dry powder held on purpose into this week's events
+- All three positions in profit: **LLY +6.2%, JPM +5.7%, DE +4.1%** — each protected by an automatic trailing stop (a sell order that follows the price up and only fires if it falls 10% from its peak); none is anywhere near triggering
 ## 2026-07-23 06:15 CT · pre-market
 
 **Good morning — quiet pre-market plan: no trades, and one nice piece of news on our biggest holding.**

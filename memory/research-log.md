@@ -4062,3 +4062,27 @@ Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty sc
 - **What worked:** (1) DE rallied ~+2.2% today (biggest single-name mover) and JPM firmed to +5.66% — the book's gain came from our own holdings strengthening, not the tape. (2) Being green while SPY was −0.09% = +0.49% alpha on the day; the selective, cash-heavy posture keeps edging a flat-to-soft market. (3) All stops trailing, zero hard stops, zero forced action — pure discipline.
 - **What didn't / watch:** (1) LLY cushion tightened to ~3.31% (now the tightest in the book) as it eased off its high water mark — no action, normal trailing mechanics, thesis intact. (2) Cash ~59.2% remains ELEVATED (target 10–20%) — 24th straight scan with nothing clearing the 2-signal + Conviction≥70 gate; WTD we trail SPY by ~0.31pt because of it. Correct in a choppy tape, but the redeploy question stays live (A/B put to Lauren 7/17, HOLD rec, no override).
 - **Open questions for tomorrow (Thu 7/23 pre-market):** (a) Does UNH (~65) firm toward 70, or stay a watchlist name? (b) Position ahead of the 7/24 triple event — Section 122 tariff expiry (DE-relevant), AXP Q2 BMO (bench decision point), then FOMC 7/28–29. Deliberate posture: keep dry powder into week's end, do NOT pre-position into AXP's binary print. (c) LLY's tightening cushion (~3.31%) — mechanics only, a floor tag sells itself +8% above cost. Stops all resting, all trailing, zero hard stops.
+
+---
+## 2026-07-23 08:40 CT (09:40 ET) — MARKET-OPEN (Thu, market OPEN, is_open:true, next_close 16:00 ET)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`. Inbox: **nothing pending.** Account (live Alpaca): equity **$101,556.15**, cash **$60,167.78** (~59.2%), long_market_value **$41,388.37** (~40.8%), buying_power $60,167.78, status ACTIVE, trading_blocked false. `last_equity` still "0" (Alpaca quirk) → baseline = 7/22 close of record $101,673.76. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
+
+**Decision: NO TRADES.** Executed the market-open routine = re-validate the pre-market plan against live prices. Pre-market plan (today 06:00 CT) was NO TRADES / 25th empty scan; re-validation confirms it. **26th straight effectively-empty scan.** No buy qualifier at ≥70; no floor tags; no thesis-breaker.
+
+**Stops re-confirmed RESTING (open-orders status:new, all 10% trailing, zero hard stops), IDs unchanged:**
+- LLY `6016a7e7` floor 1124.505 / hwm 1249.45 — mark 1145.12, cushion ~1.80% (tightest; down −1.54% intraday, comfortably above floor).
+- JPM `8a937ff6` floor 316.116 / hwm 351.24 — mark 348.355, cushion ~9.26% (widest).
+- DE `dcdd84e5` floor 575.073 / hwm 638.97 — mark 614.21, cushion ~6.37% (watch into 7/24 tariff expiry).
+
+**Positions (live marks):** LLY 14 @ 1078.46 → 1145.12 (+$933.24 / +6.18%); JPM 34 @ 329.695588 → 348.355 (+$634.42 / +5.66%); DE 22 @ 589.82 → 614.21 (+$536.58 / +4.14%). Net unrealized +$2,104.24.
+
+**Bench re-score at open (vs live prices):** no change from pre-market. Nothing clears 2 verified signals + Conviction ≥70. UNH ~65 (beat-raise spent + regulatory overhang), AXP ~65 (JPMorgan OW 7/13; **Q2 tomorrow 7/24 BMO = binary decision point, do NOT pre-position**), GS ~63 (blowout Q2 but catalyst spent, chasing near ATH), JNJ 58, ABT 55, OXY 55, STX 53, MS 52, V/AMGN/CB/CVS/VST 50, PANW 35.
+
+**Scorecard (intraday indicative; close owns official):** equity $101,556.15 = ~−0.12% vs 7/22 close $101,673.76. SPY 740.43 (~09:35 ET) vs 747.49 (7/22 close) = ~−0.94% → **intraday alpha ~+0.8%** (we're down far less than the tech-led tape — ~59% cash + zero tech doing exactly what it's meant to on a down day: GOOGL/TSLA/IBM AI-capex selloff, none of it ours). WTD (base 7/17 eq $101,411.58 / SPY 743.28): port +0.14%, SPY −0.38%, alpha WTD ~+0.53% (flipped positive intraday).
+
+**Memory writes:** portfolio.md overwritten (live snapshot); messages.md prepended (teacher-voice market-open update); dashboard/state.json overwritten (day_pl −117.61, latest_messages ≤8, recent_trades ≤10). No trade-log entry (no buy/sell/risk-mgmt action). Inbox: nothing to move.
+
+**No Telegram this run** (market-open with no trades = do-NOT-push list per CLAUDE.md). Next mandatory Telegram = today's market-close daily update.
+
+**Standing tasks into midday / this week:** (1) AXP Q2 tomorrow 7/24 BMO = THE bench decision point — let it resolve, re-score after. (2) Section 122 tariff 7/24 expiry — watch DE headlines (base case sunset = mild tailwind). (3) LLY tightest cushion ~1.80% — mechanics only, thesis strengthened. (4) FOMC 7/28–29. (5) Redeploy ~59% idle cash — live priority but STILL GATED; patient-hold per Lauren's 7/17 HOLD, no inbox override. Dry powder into week's end (tariff + AXP Fri, Fed Mon–Tue).
