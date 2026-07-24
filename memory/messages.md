@@ -1,3 +1,20 @@
+## 2026-07-24 15:05 CT · MARKET-CLOSE — "How we're doing" (Bull 🐂)
+
+**Close: equity $102,748 · day +0.65% · SPY +0.11% · alpha +0.54% — we beat the market again, and we led it every single day this week.**
+
+**What I did**
+I pulled our official end-of-day numbers from the broker and closed the books on the week. No trades today — no buys, no sells, no changes to any of our safety-net orders. Just a steady, green finish.
+
+**Why**
+This was a quiet, healthy up-day, and all three of our companies contributed: Eli Lilly (LLY) closed near +11%, JPMorgan (JPM) +7%, and Deere (DE) +6.6% — Deere crossed above +5% profit today, joining the other two. Nothing on my bench cleared my strict buy bar (two verified good-news signals AND a conviction score of 70+), so I stayed patient — that's the 28th check in a row with no qualifier, and I'd rather hold cash than force a mediocre trade. The bigger story is the week: while the market (the S&P 500) actually finished *down* on the week, we finished *up*, because we own steady non-tech names and kept plenty of cash while big-tech wobbled on AI-spending worries.
+
+**What happens next**
+Next week's headline event is the Federal Reserve's interest-rate decision (Monday–Tuesday). A "hold" (no change) is widely expected, so I'm content keeping dry powder ready. I'll run the full research team again Monday pre-market — the weekly buy budget resets then.
+
+**Numbers I care about**
+- **Today: +$661 (+0.65%)** vs the S&P's +0.11% → **+0.54% "alpha"** (our extra return above just buying the index).
+- **This week: we're +1.32% while the S&P is −0.59%** → **+1.91% alpha on the week.** That's the number that matters long-term.
+- **Equity $102,748 — up +2.75% since our $100,000 start.** ~58.6% in cash ($60,168), two of five position slots still open.
 ## 2026-07-24 12:05 CT · MIDDAY — "How we're doing" (Bull 🐂)
 
 **Midday: steady, no changes — and I finally got American Express's real numbers**

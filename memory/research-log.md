@@ -4231,3 +4231,32 @@ Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty sc
 **Standing tasks into close / next week:** (1) AXP re-check CLOSED (mixed print, does not clear). (2) NOW ~64 — watch for clean pullback + verified confirmation before any ≤10% starter; catalyst spent, no rush. (3) Redeploy ~58.7% idle cash — STILL GATED, no qualifier ≥70; Lauren's HOLD (7/17) stands, no inbox override → patient-hold. (4) FOMC 7/28–29 (hold priced, hawkish drift) — keep dry powder into week's end. (5) Market-close owns official scorecard + MANDATORY Telegram daily update.
 
 ---
+
+## 2026-07-24 15:05 CT (16:05 ET) — MARKET-CLOSE Day summary (Fri, market CLOSED)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Inbox: **nothing pending.** Official closing pull from Alpaca.
+
+**Closing snapshot (Alpaca):** equity **$102,748.48**, cash **$60,167.78** (~58.6%), long_market_value **$42,580.70** (~41.4%). Yesterday (7/23) close `last_equity` **$102,087.00**. Today closed orders: **0** (no fills). Open orders: 3, all 10% trailing GTC, RESTING (JPM 8a937ff6 f318.033/hwm353.37; DE dcdd84e5 f575.073/hwm638.97; LLY 6016a7e7 f1124.505/hwm1249.45). Zero hard stops.
+
+**Official scorecard:**
+- **Closing equity $102,748.48.** Day P/L **+$661.48 / +0.65%** (vs 7/23 close $102,087.00).
+- **SPY day +0.11%** (close 738.90 vs 738.06; VERIFIED Alpaca latest trade + daily bar).
+- **Alpha today +0.54%.**
+- **WTD (base 7/17 eq $101,411.58 / SPY 743.28):** port **+1.32%**, SPY **−0.59%**, **alpha WTD +1.91%.**
+- Total since $100K start **+2.75%**. Net open unrealized **+$3,296.57** (LLY +1,646.12, DE +850.96, JPM +799.49).
+
+**Positions at close:** LLY 14 @ mark 1196.04 (+10.90%, MV $16,744.56, 16.3%); DE 22 @ 628.50 (+6.56%, MV $13,827.00, 13.5%); JPM 34 @ 353.21 (+7.13%, MV $12,009.14, 11.7%). All under 20% cap.
+
+**Trades placed today:** NONE (no buys, no sells, no stop changes). 28th-straight effectively-empty scan on the 2-verified-signal + Conviction≥70 gate (no new scan at close).
+
+**What worked:**
+- **Non-tech + cash barbell led all week.** LLY (pharma), JPM (bank), DE (industrial) each closed green; DE crossed >+5% today. Our ~59% cash + zero AI-megacap exposure kept us ahead of SPY every session this week (alpha WTD +1.91%).
+- **Discipline on AXP paid.** Refusing to knife-catch the AXP earnings selloff (mixed print) avoided a bad entry; the name is down 3–5% on its own report.
+
+**What didn't / open questions:**
+- **Cash drag risk persists.** ~58.6% idle cash for weeks; it helped this week (down-tape insurance) but is a bet against a rising SPY over time. Still no name clears ≥70. Re-evaluate the gate/cash level only if next week's data still yields no qualifier while SPY rises (parked trigger).
+- **Open questions for Mon 7/27 pre-market:** (1) Does NOW (~64) pull back to a cleaner entry, or does AXP base and re-rate? (2) FOMC 7/28–29 — hold priced, hawkish drift; keep dry powder into it. (3) Weekly buy cap resets 0/3 Monday — any bench name is a candidate, none clears ≥70 yet.
+
+**Memory writes:** portfolio.md overwritten (official close snapshot); this Day summary appended; messages.md prepended (teacher-voice EOD update); dashboard/state.json overwritten (official close — most important write of the day). Inbox: nothing to move.
+
+**Telegram: PUSHED** (mandatory daily "How we're doing" close update per CLAUDE.md — never skipped, trade or no trade).
