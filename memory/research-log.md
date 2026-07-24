@@ -4196,3 +4196,38 @@ Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty sc
 - **No Telegram this run** (market-open, no trades — per CLAUDE.md do-not-push list). Next mandatory Telegram = today's market-close daily update.
 
 ---
+
+## 2026-07-24 12:05 CT (13:05 ET) — MIDDAY (Fri, market OPEN, is_open:true, next_close 16:00 ET)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`, ts 13:02 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$102,540.19**, cash **$60,167.78** (~58.7%), long_market_value **$42,372.41** (~41.3%), `last_equity` $102,087, status ACTIVE, trading_blocked false. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.** All 3 stops confirmed RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops), IDs unchanged: LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f318.033/hwm353.37 (floor ratcheted up from 316.116 as JPM tagged a new hwm), DE dcdd84e5 f575.073/hwm638.97. No stop fired since the open.
+
+**Risk management (priority order):**
+- **(a) Any position ≤ −7%?** NO — all three green (LLY +11.40%, JPM +6.97%, DE +4.51%). No news check triggered.
+- **(b) Any position ≥ +5% still on a −7% hard stop?** NO conversion needed — LLY & JPM are ≥+5% and BOTH already on 10% trailing stops; DE +4.51% (below +5%) also already trailing. **Zero hard stops remain in the book.** All 3 stops RESTING: LLY floor 1124.505 (mark 1201.42, cushion ~6.40%); JPM floor 318.033 (mark 352.685, cushion ~9.82%, widest); DE floor 575.073 (mark 616.42, cushion ~6.71%).
+- **(c) Daily loss cap:** equity +$461.03 / +0.45% vs 7/23 close $102,079.16 — book UP, nowhere near −3%. No buy restriction (moot — no buy anyway).
+
+**Buy decision: NO TRADES.** **28th straight effectively-empty scan.** Executed the one live standing task — re-check AXP now that its actual Q2 print surfaced (1 Perplexity query, multi-source).
+
+### AXP Q2 2026 re-check — RESOLVED, does NOT clear
+- **Real release confirmed out (BMO 7/24):** adjusted EPS **$4.53** (BEAT vs ~$4.39–4.41 cons), GAAP EPS $4.08, revenue **$19.64B** which **MISSED** ~$19.69B consensus. FY guidance: revenue-growth nudged to 10% (from 9–10% range), **EPS guidance only REAFFIRMED $17.30–$17.90 (NOT raised).** Stock **DOWN ~5.6% premarket / ~3.8% intraday** — market disliked the mixed print.
+- **Signals VERIFIED: ~1 of 6** — only #3 secular tailwind (premium/affluent-consumer spend). #1 FAILS (needs beat on BOTH EPS and rev + raised guide — rev missed, EPS guide only reaffirmed); #6 FAILS (stock selling off, not near highs); #2/#4/#5 no/unverified.
+- **Conviction ≈ 0.30·72(Fund) + 0.30·32(Thesis — mixed print, guide not raised) + 0.20·40(Sent — negative reaction) + 0.12·66(Risk) + 0.08·38(Tech — selling off) = ~50.** Gate: 1 signal (<2) AND ~50 (<70) → **DOES NOT CLEAR.** Strategy also bars knife-catching an earnings selloff. AXP off the near-term buy radar unless it bases and re-rates. **Standing AXP re-check task now CLOSED.**
+
+### Portfolio watch — all 3 INTACT, no action
+- **LLY +11.40%** (mark 1201.42, floor 1124.505, cushion ~6.40%). sev 1, retatrutide thesis intact/strengthened. Already trailing. Earnings ~Aug 5.
+- **JPM +6.97%** (mark 352.685, floor 318.033, cushion ~9.82% widest). sev 1, DB Buy-upgrade fresh. Already trailing; floor ratcheted up.
+- **DE +4.51%** (mark 616.42, floor 575.073, cushion ~6.71%). sev 3, thesis intact; Section 122 tariff sunset = mild structural tailwind, no DE-specific reaction. Already trailing.
+
+### Scorecard (intraday indicative — market-close owns the official number)
+- **7/23 close of record $102,079.16.** Equity now $102,540.19 → **total since $100K start +2.54%.**
+- **Intraday 7/24:** port **+0.45%** (+$461.03) vs SPY **+0.43%** (741.25 vs 738.06) → **roughly in line today** (~+0.02% intraday alpha). LLY/JPM strength offsetting; no tech drag either way.
+- **WTD (base 7/17 eq $101,411.58 / SPY 743.28):** port **+1.11%**, SPY **−0.27%**, **alpha WTD +1.38%** — still LEAD on the week.
+- SPY refs: 741.25 (7/24 live ~13:03 ET, VERIFIED Alpaca latest trade), 739.43 (7/24 open), 738.06 (7/23 close), 743.28 (7/17 base).
+
+**Memory writes:** portfolio.md overwritten (live midday snapshot); messages.md prepended (teacher-voice midday update); dashboard/state.json overwritten (day_pl +461.03, latest_messages ≤8, recent_trades ≤10). No trade-log entry (no buy/sell/risk-mgmt action). Inbox: nothing to move.
+
+**No Telegram this run** (quiet midday, no trades = do-NOT-push list per CLAUDE.md). Next mandatory Telegram = today's market-close daily "How we're doing" update.
+
+**Standing tasks into close / next week:** (1) AXP re-check CLOSED (mixed print, does not clear). (2) NOW ~64 — watch for clean pullback + verified confirmation before any ≤10% starter; catalyst spent, no rush. (3) Redeploy ~58.7% idle cash — STILL GATED, no qualifier ≥70; Lauren's HOLD (7/17) stands, no inbox override → patient-hold. (4) FOMC 7/28–29 (hold priced, hawkish drift) — keep dry powder into week's end. (5) Market-close owns official scorecard + MANDATORY Telegram daily update.
+
+---

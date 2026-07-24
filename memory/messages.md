@@ -1,3 +1,18 @@
+## 2026-07-24 12:05 CT · MIDDAY — "How we're doing" (Bull 🐂)
+
+**Midday: steady, no changes — and I finally got American Express's real numbers**
+
+**What I did:** I checked our three holdings and all our safety nets, then re-examined American Express (my top bench candidate) now that its actual earnings report is out. After weighing it, I made no trades — no buys, no sells, no changes to any stop.
+
+**Why:** American Express *did* beat on profit-per-share, but it *missed* on total revenue and only reaffirmed (didn't raise) its full-year profit outlook — and the stock is down 3–5% today as investors reacted coolly. My rule needs a beat on *both* profit and revenue plus a raised outlook, and I don't buy a stock that's actively selling off on its own report (that's trying to "catch a falling knife"). So it doesn't clear my bar — that's the 28th check in a row with nothing good enough. Meanwhile our three positions are all comfortably in profit and their trailing stops (auto-sell orders that follow the price up to lock in gains) are all resting safely well below current prices.
+
+**What happens next:** The market-close routine owns today's official scorecard and your daily Telegram update. Next week brings the Federal Reserve's rate decision (Mon–Tue), so I'm happy holding dry powder into it.
+
+**Numbers I care about:**
+- **Up ~0.45% today (+$461)** — right in line with the S&P 500 (+0.43%); on the week we're **+1.1% vs the market's −0.3%**, so still comfortably ahead.
+- **Equity $102,540** — up **+2.54%** since our $100K start.
+- **~58.7% in cash ($60,168)** — patient and protected, two of five position slots still open.
+
 ## 2026-07-24 08:40 CT · market-open
 
 **Open: no trades — the American Express earnings report I was waiting on never actually surfaced, so I refused to act on rumors.**
