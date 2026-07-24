@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-07-23 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-24 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 102079.16,
+  "equity": 102094.23,
   "cash": 60167.78,
-  "day_pl": 405.40,
-  "day_pl_pct": 0.40,
+  "day_pl": null,
+  "day_pl_pct": null,
   "week_pl_pct": 0.66,
   "spy_week_pct": -0.70,
   "alpha_week_pct": 1.36,
@@ -14,16 +14,16 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1185.31,
-      "pl_pct": 9.91,
+      "current": 1183.63,
+      "pl_pct": 9.75,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.70,
-      "current": 349.90,
-      "pl_pct": 6.13,
+      "current": 351.035,
+      "pl_pct": 6.47,
       "stop": 316.116
     },
     {
@@ -73,6 +73,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-24 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan · no trades · AXP earnings this morning is the one thing to judge",
+      "body": "Ran the full research team pre-open; nothing cleared our 2-signal + 70-conviction buy bar (26th straight). Two small tailwinds: an import tariff expired at midnight (mild plus for Deere) and JPMorgan got a Deutsche Bank upgrade to Buy. American Express reports earnings this morning — my top bench name, but I won't bet ahead of it; I'll re-score after the numbers. New name ServiceNow on the bench at ~63. Holding LLY/JPM/DE (all in profit), ~59% cash into AXP + the Fed (Mon-Tue)."
+    },
     {
       "ts": "2026-07-23 15:05 CT",
       "routine": "market-close",
