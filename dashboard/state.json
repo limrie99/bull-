@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-07-24 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-24 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 102748.48,
   "cash": 60167.78,
@@ -74,6 +74,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-24 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-07-24: +1.32% | SPY -0.59% | alpha +1.91% | grade A",
+      "body": "Second straight week beating the market - and the best kind of win: instead of just losing less, all three of our stocks went UP while the S&P fell. Deere +5.2% (tariff tailwind), JPMorgan +3.5% (analyst upgrade), Lilly +1.5% (strong drug-trial data). So our stock-picking, not just our cash pile, earned the +1.91% edge. Zero trades - pure hold, everything green and protected. Our total lead over the S&P since resuming trading is now +5.22%, the 2nd-best ever. Top win: Deere. No real loss. Lesson: patience paid again. Strategy change: none - two good weeks don't rewrite the rules any more than two bad ones did. Watching the Fed decision (Tue-Wed) and Lilly earnings ~Aug 5. ~59% cash, 2 open slots waiting for a stock good enough to buy."
+    },
+    {
       "ts": "2026-07-24 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $102,748 · day +0.65% · SPY +0.11% · alpha +0.54%",
@@ -114,12 +120,6 @@
       "routine": "market-open",
       "headline": "Open: no trades · down market working in our favor (~+0.8% alpha intraday)",
       "body": "Re-validated the plan at the open; nothing cleared the 2-signal + 70-conviction buy bar (26th straight), no stops near triggering. Market down ~0.9% on big-tech AI-capex worries - we own none of it and hold ~59% cash, so we're down only ~0.1%, beating the tape today. Holding LLY/JPM/DE, all in profit. Dry powder into AXP earnings + tariff deadline (Fri) and the Fed (Mon-Tue)."
-    },
-    {
-      "ts": "2026-07-23 06:15 CT",
-      "routine": "pre-market",
-      "headline": "Quiet pre-market plan · no trades · LLY got good drug-trial news",
-      "body": "Ran the full research team pre-open; nothing cleared our 2-signal + 70-conviction buy bar (25th straight). UNH & AXP still ~65; AXP reports tomorrow so I won't buy ahead of it. LLY (our biggest position) announced strong retatrutide trial data - thesis strengthened. Holding 3 positions, all in profit, ~59% cash into a busy events week (AXP earnings + tariff deadline Fri, Fed Mon-Tue)."
     }
   ]
 }

@@ -1,3 +1,24 @@
+## 2026-07-24 16:00 CT · WEEKLY REVIEW (Bull 🐂)
+
+**Week ending 2026-07-24: +1.32% | SPY −0.59% | alpha +1.91% | grade A**
+
+**What I did**
+I closed the books on the full week (Mon 7/20–Fri 7/24) and graded our performance against the S&P 500 — the one number that matters long-term. I pulled our week's history and every position's move straight from the broker, double-checked we placed zero trades (we didn't — pure hold), and confirmed all three of our safety-net orders are still in place and green.
+
+**Why — the good stuff, explained**
+This was our **second straight week beating the market**, and it was the best *kind* of win. The market actually fell a bit this week (−0.59%), but instead of us just "losing less" like last week, **all three of our companies went UP**: Deere (DE) +5.2%, JPMorgan (JPM) +3.5%, Eli Lilly (LLY) +1.5%. That means our stock-picking — not just our big cash pile — did the heavy lifting. Each rose on real, dated news: Deere got a tariff tailwind, JPMorgan got an analyst upgrade (a Wall Street firm raising its rating), and Lilly reported strong new drug-trial data. "Alpha" (+1.91%) is simply how much we beat the index by. Our total lead over the S&P since we resumed trading is now **+5.22%** — the 2nd-best it's ever been.
+
+**Key points**
+- **Top win:** Deere +5.2% on the week — a domestic-tariff tailwind on a name I own precisely because it isn't a jumpy tech stock.
+- **Top "loss":** honestly, none — no trade lost money and nothing was sold. The only real caveat is we're still ~59% in cash with 2 empty slots, waiting for a stock good enough to clear my strict buy bar (28 checks now with no qualifier).
+- **Lesson:** patience paid again — deploying that cash into a down week would have hurt, and my "only rush to buy if I'm missing a rising market" rule correctly stayed quiet because the market fell, not rose.
+- **Strategy change:** none. Two good weeks are no more a reason to change the rules than two bad weeks were. Everything held and worked.
+
+**What happens next**
+Next week's big event is the Federal Reserve's interest-rate decision (Tue–Wed) — a "hold" is expected, so I'll keep dry powder ready. Lilly reports earnings ~Aug 5, the nearest event for a stock we own. I'll run the full research team Monday pre-market; the weekly buy budget resets then. More detail on the dashboard. 🐂
+
+---
+
 ## 2026-07-24 15:05 CT · MARKET-CLOSE — "How we're doing" (Bull 🐂)
 
 **Close: equity $102,748 · day +0.65% · SPY +0.11% · alpha +0.54% — we beat the market again, and we led it every single day this week.**
