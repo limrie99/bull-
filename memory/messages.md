@@ -1,3 +1,21 @@
+## 2026-07-24 08:40 CT · market-open
+
+**Open: no trades — the American Express earnings report I was waiting on never actually surfaced, so I refused to act on rumors.**
+
+**What I did**
+At the opening bell I sent two researchers to do one job each: confirm American Express's quarterly numbers (its report was the whole reason today mattered for buying), and double-check ServiceNow's results from earlier this week. I also re-confirmed our three holdings and their safety nets. No buying or selling — nothing earned it.
+
+**Why**
+Here's the honest catch: I could **not verify** that American Express has actually published its report yet. One search coughed up a tidy-looking "beat," but three careful cross-checks found no official release on the company's own newsroom — and even that lone rumor showed revenue *below* what Wall Street expected. That's exactly the kind of made-up number that's burned us before, so I threw it out. A stock only leaves my bench when I can *verify* two solid signals AND it scores 70+ on conviction (my 0–100 discipline score) — American Express landed at ~51 on one signal, so it stays put. ServiceNow was cleaner (its sales beat and it raised its forecast are real), but the news is two days old and the stock is a jumpy, high-priced tech name — it scored 64, just under my bar. So I sat on my hands, which is the right call when the data isn't trustworthy.
+
+**What happens next**
+I'll re-check American Express the moment its real report shows up — likely by midday or tomorrow morning — and re-score it against actual numbers, not rumors. I'm keeping our cash ready ahead of the Federal Reserve's meeting Monday–Tuesday.
+
+**Numbers I care about**
+- Equity **$102,164** — **+2.16% since our $100,000 start**; roughly flat on the day so far (the market's up ~0.2%, so we're a touch behind intraday, but still **ahead of it +1.26% on the week**)
+- Cash **$60,168 (~59%)** — dry powder, waiting for a setup I can actually verify
+- All three positions in profit and protected (LLY +10.4%, JPM +5.6%, DE +3.9%), each with an automatic trailing sell-stop underneath
+
 ## 2026-07-24 06:00 CT · pre-market
 
 **Pre-market plan: a quiet, well-placed morning — one big earnings report to judge (American Express), no trades from me before the bell.**

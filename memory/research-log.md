@@ -4161,3 +4161,38 @@ Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty sc
 - **What worked:** (1) LLY the standout — closed +9.91% (+$1,495.90 unrealized), retatrutide Phase-3 follow-through still lifting it; the book's gain was our own names strengthening, not the tape. (2) Being green (+0.40%) while SPY fell −1.26% = **+1.66% alpha on the day, the widest single-day edge in weeks** — the selective, ~59%-cash, zero-tech posture is exactly built for a megacap-AI-capex flush (GOOGL/TSLA/IBM), none of it ours. (3) All stops trailing, zero hard stops, zero forced action — pure discipline; closed-orders count 0 confirms a clean no-trade day.
 - **What didn't / watch:** (1) Cash ~58.9% remains ELEVATED (target 10–20%) — 28th straight scan with nothing clearing the 2-signal + Conviction≥70 gate. Today that cash was an asset (protected us on a down day), but it stays a live redeploy question (A/B put to Lauren 7/17, HOLD rec, no override). (2) LLY cushion ~5.13% above a static floor as it eased below its high-water mark — mechanics only, thesis strengthened. (3) DE the tariff watch into tonight's Section 122 expiry.
 - **Open questions for tomorrow (Fri 7/24 pre-market):** (a) AXP Q2 BMO (cons EPS ~$4.40 / rev ~$19.7B) = THE bench decision point — a clean beat-and-raise could lift it over 70; do NOT pre-position into the binary, re-score after the print. (b) Section 122 tariff auto-expires 12:01am 7/24 tonight — watch DE headlines Fri (base case sunset = mild tailwind). (c) FOMC 7/28–29 next week (hold priced, hike tail) — keep dry powder into week's end. Stops all resting, all trailing, zero hard stops.
+
+## 2026-07-24 08:40 CT (09:40 ET) — MARKET-OPEN (Fri, market OPEN, is_open:true, next_close 16:00 ET)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:true`, ts 09:32 ET. Inbox: **nothing pending.** Account (live Alpaca): equity **$102,163.81**, cash **$60,167.78** (~58.9%), long_market_value **$41,996.03** (~41.1%), last_equity $102,087. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.** All 3 stops confirmed RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops), IDs unchanged: LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f316.116/hwm351.24, DE dcdd84e5 f575.073/hwm638.97. No stop fired since pre-market.
+
+**Decision: NO TRADES.** Executed the pre-market plan's one live task — re-score AXP against its actual Q2 print, plus re-verify NOW's 7/22 figures (2 parallel research sub-agents). **Both bench leaders FAIL the gate → 27th straight effectively-empty scan.** No buys, no sells (no thesis break, none at/below floor), no stop conversions (all 3 already trailing; LLY/JPM >+5%, DE +3.92%).
+
+### AXP re-score — print UNVERIFIABLE, does NOT clear (sub-agent, 4 Perplexity queries)
+- **The Q2 2026 release cannot be confirmed to exist.** Three careful queries: AmEx IR shows only Q1 2026 materials, **no 8-K and no newsroom release dated 7/24** (latest tracked SEC filing 7/2, not an earnings 8-K); aggregators list 7/24 only as an *estimated* date. One query hallucinated a plausible "double-beat" (GAAP EPS $4.53 / rev $19.64B) — single-source, and even that figure **MISSED** the ~$19.69B rev consensus, while the "raise" was just the standing Q1 guidance ($17.30–$17.90 EPS, 9–10% rev growth, set 4/23). Classic confabulation pattern — DID NOT ACT.
+- **Signals VERIFIED: 1 of 6** — only #3 secular tailwind (premium/affluent-consumer spend, fee-mix). #1 (no confirmed beat-and-raise; rev missed even in the optimistic read), #2/#4/#5/#6 all unverified/no.
+- **Conviction = 0.30·72(Fund) + 0.30·30(Thesis) + 0.20·45(Sent) + 0.12·68(Risk) + 0.08·45(Tech) = ~51.** Gate: 1 signal (<2) AND 51 (<70) → **DOES NOT CLEAR.** Re-check when the real AmEx release surfaces (midday / next pre-market) and re-score then. Do not let a hallucinated beat drive a buy.
+
+### NOW (ServiceNow) re-verify — does NOT clear (sub-agent, Perplexity)
+- **Report date 7/22 CONFIRMED (multi-source). Revenue ~$3.987B = a beat (cons ~$3.92–3.97B) VERIFIED; FY subscription-rev guide raise to ~$15.76–15.78B VERIFIED (plausible).** BUT the recap's **adjusted EPS "$0.90" was a confabulation/misread** — NOW's real non-GAAP EPS runs ~$4/share (Perplexity returned ~$4.09); the "$0.8625 consensus" was fabricated-looking. Directionally still an EPS beat once corrected. Perplexity's live NOW price feed was CORRUPTED (returned ~$107 / 52wk $81–$210 for a ~$1,000 stock) → price/reaction/analyst-action UNVERIFIED this run.
+- **Signals VERIFIED: 2 of 6** — #1 beat-and-raise (rev + guide, dated 7/22, but SPENT ~2d) + #3 secular tailwind (enterprise-AI / Now Assist). #4 unverified (corrupted feed), #6 unverifiable (corrupted price).
+- **Conviction = 0.30·88(Fund) + 0.30·52(Thesis, docked for spent catalyst) + 0.20·62(Sent) + 0.12·48(Risk, high-beta) + 0.08·50(Tech, chasing 2d gap) = ~64.** Gate: 2 signals (meets) AND 64 (<70) → **DOES NOT CLEAR.** If wanted later: wait for a clean pullback + verified analyst/technical confirmation, size ≤10% starter (AI-adjacent high-beta rule).
+
+### Portfolio watch — all 3 INTACT, no action
+- **LLY +10.36%** (mark 1190.14, floor 1124.505, cushion ~5.52%). sev 1, retatrutide thesis intact. Already trailing.
+- **JPM +5.62%** (mark 348.225, floor 316.116, cushion ~9.22% widest). sev 1, DB Buy-upgrade fresh. Already trailing.
+- **DE +3.92%** (mark 612.915, floor 575.073, cushion ~6.17%). sev 3, thesis intact. **No Section 122 tariff-sunset reaction at the open** — mild structural tailwind only. Already trailing.
+
+### Scorecard (intraday indicative — market-close owns the official number)
+- **7/23 close of record $102,079.16.** Equity now $102,163.81 → **total since $100K start +2.16%.**
+- **Intraday 7/24:** port +0.08% (+$84.65) vs SPY +0.19% (739.43 vs 738.06) → mild lag today (open snapshot only).
+- **WTD (base 7/17 eq $101,411.58 / SPY 743.28):** port +0.74%, SPY −0.52%, **alpha WTD +1.26%** — still LEAD on the week.
+- SPY refs: 739.43 (7/24 live), 738.06 (7/23 close), 743.28 (7/17 base).
+
+### Standing tasks into midday / this week
+- **Re-check AXP when the actual newsroom/8-K release appears** and re-score (do NOT act on the retrieval-wall hallucination). Midday owns the next look.
+- **NOW: watch for a clean pullback + verified confirmation** before any ≤10% starter; catalyst spent, no rush.
+- **Redeploy ~58.9% idle cash — STILL GATED**, no qualifier at ≥70. Lauren's HOLD rec (7/17) stands, no inbox override → patient-hold. FOMC 7/28–29 argues for dry powder into week's end.
+- **No Telegram this run** (market-open, no trades — per CLAUDE.md do-not-push list). Next mandatory Telegram = today's market-close daily update.
+
+---

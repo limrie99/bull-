@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-07-24 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-07-24 08:40 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 102094.23,
+  "equity": 102163.81,
   "cash": 60167.78,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "week_pl_pct": 0.66,
-  "spy_week_pct": -0.70,
-  "alpha_week_pct": 1.36,
+  "day_pl": 84.65,
+  "day_pl_pct": 0.08,
+  "week_pl_pct": 0.74,
+  "spy_week_pct": -0.52,
+  "alpha_week_pct": 1.26,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1183.63,
-      "pl_pct": 9.75,
+      "current": 1190.14,
+      "pl_pct": 10.36,
       "stop": 1124.505
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.70,
-      "current": 351.035,
-      "pl_pct": 6.47,
+      "current": 348.225,
+      "pl_pct": 5.62,
       "stop": 316.116
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 610.02,
-      "pl_pct": 3.42,
+      "current": 612.915,
+      "pl_pct": 3.92,
       "stop": 575.073
     }
   ],
@@ -74,6 +74,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-24 08:40 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades · AXP earnings report couldn't be verified, so I refused to act on rumors",
+      "body": "At the bell I checked American Express's Q2 report — my top bench name — but three careful cross-checks found NO official release yet, and the one rumored 'beat' even showed a revenue miss. That's the confabulation pattern that's burned us before, so I tossed it (AXP scores ~51 on 1 signal). ServiceNow's beat-and-raise is real but 2 days stale and high-beta (scored 64, under my 70 bar). So no trades (27th straight empty scan). Holding LLY/JPM/DE, all in profit, ~59% cash. Roughly flat on the day, still +1.26% ahead of the market on the week. I'll re-check AXP when its real numbers post."
+    },
+    {
       "ts": "2026-07-24 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan · no trades · AXP earnings this morning is the one thing to judge",
@@ -108,12 +114,6 @@
       "routine": "market-close",
       "headline": "Equity $101,674 · day +0.40% · alpha +0.49% (beat a flat market)",
       "body": "Quiet up day — we made $401 while the S&P was flat-to-down, so we edged the market. No trades; three positions all in profit. 24th straight empty scan on the strict buy gate."
-    },
-    {
-      "ts": "2026-07-21 15:00 CT",
-      "routine": "market-close",
-      "headline": "Equity $101,231 · day +0.59% · alpha -0.22%",
-      "body": "Green day (+$593) but SPY rose more on a tech-led tape — the expected cost of ~59% cash and no tech. LLY snapped back +2.3%. No trades."
     }
   ]
 }
