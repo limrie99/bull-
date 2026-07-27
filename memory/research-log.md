@@ -1,3 +1,46 @@
+## 2026-07-27 08:35 CT (09:35 ET) — MARKET-OPEN (Mon, market OPEN; is_open:true, ts 09:32 ET)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Clock **is_open:true**, ts 09:32 ET, next_close 16:00 ET. Inbox: **nothing pending.** Account (LIVE, market open): equity **$102,696.80**, cash **$60,167.78** (~58.6%), long_market_value **$42,529.02** (~41.4%), buying_power $359,752.38, status ACTIVE, trading_blocked false. `last_equity` $102,740.86 → intraday **−$44.06 / −0.04%** (open snapshot; market-close owns the official daily number). **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.** No daily-loss-cap issue (−0.04% ≪ −3% cap).
+
+**Decision: NO TRADES — executed the pre-market plan verbatim after live re-validation.** The pre-market plan was "keep dry powder into FOMC Wed 7/29 + the mega-cap tech earnings cluster; nothing clears the 2-verified-signal + Conviction≥70 gate (29th straight empty scan)." Re-validated against live prices at the open: unchanged. All 3 holdings intact/quiet, all 3 stops resting, no floor tags, no thesis-breakers, no +5% conversions needed (all already trailing). This is the **30th straight effectively-empty scan.**
+
+### Positions re-validated (LIVE marks) — all INTACT sev 1, no sells
+| Symbol | Shares | Avg Cost | Live Mark | P/L $ | P/L % | Trailing floor | Cushion | Thesis |
+|---|---|---|---|---|---|---|---|---|
+| LLY | 14 | 1078.46 | 1184.41 | +1483.30 | +9.82% | 1124.505 (hwm 1249.45) | ~5.06% | Q1 beat + raised guide + oral GLP-1 (orforglipron/EBGLYSS); retatrutide Ph3 + Q1-27 FDA filing plan. Earnings ~Aug 5. Quiet. |
+| DE | 22 | 589.82 | 625.13 | +776.82 | +5.99% | 575.073 (hwm 638.97) | ~8.01% | Q2 beat + FY26 guide raise; right-to-repair settlement; Sec-122 tariff sunset mild tailwind. Div $1.62 pay Aug 10. Next report ~Aug 20. Quiet. |
+| JPM | 34 | 329.695588 | 358.00 | +962.35 | +8.59% | **322.74 (hwm ratcheted to 358.6)** | ~9.85% | $50B buyback + div hike; Q2 (7/14) beat; DB upgrade Hold→Buy PT $375. Higher 10Y = mild NIM+. Next earnings ~Oct. Quiet. |
+
+Net open unrealized **+$3,222.47** (LLY +1,483.30, JPM +962.35, DE +776.82).
+
+### Stop-management state (all 3 confirmed RESTING via open-orders `status:new`) — ALL 10% TRAILING, zero hard stops
+- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1124.505**, hwm 1249.45. Mark 1184.41, cushion ~5.06%. Unchanged.
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **322.74** (RATCHETED UP from 318.033 as JPM ran; hwm now 358.6), mark 358.00, cushion ~9.85% (widest). Trailing mechanism working as designed — floor climbs automatically, no manual action.
+- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **575.073**, hwm 638.97. Mark 625.13, cushion ~8.01%. Unchanged (below hwm).
+
+### +5% conversion check (live)
+LLY +9.82%, JPM +8.59%, DE +5.99% — all ≥+5% AND all already on 10% trailing. **Zero hard stops remain → no −7%→trailing conversion needed.** No action.
+
+### Buy candidates — NOTHING CLEARS the gate (unchanged from pre-market)
+- **DLR / DOV (single-source 7/24 upgrades):** the pre-market standing task was to re-verify these at the open. Skipped the sub-agent burn on purpose — **even with the upgrade counted as firm, both are structurally sub-70** (DLR ~60, DOV ~58 on ~2 soft signals), so verification cannot change the decision. Stay on the bench, monitor.
+- **UNH ~65 (top of bench):** 7/16 beat-and-raise now 7 trading days spent / aging out of the "last week" window + DOJ overhang → ~1.5 in-window signals, <70. Do NOT chase near the 52-wk high. Needs a fresh in-window signal to clear.
+- **Bench unchanged:** UNH 65, NOW 63, GS 63, DLR 60, DOV 58, JNJ 58, ABT 55, OXY 55, STX 53, MS 52, AXP ~50, V/AMGN/CB/CVS/VST 50, PANW 35.
+
+### Sell candidates — none
+No holding at/below its floor; no thesis-breaker (all 3 sev-1 intact). Mechanics only — any floor tag would sell well above cost.
+
+### Scorecard (OPEN snapshot — market-close owns the OFFICIAL daily number + Telegram)
+- **7/24 close of record: $102,748.48.** Live equity now $102,696.80 → intraday −0.04% (indicative).
+- **New week (base 7/24 close eq $102,748.48 / SPY 738.90):** live SPY $744.545 → **SPY WTD +0.76%**; port WTD ~−0.05% → **alpha WTD ~−0.81 pts (open snapshot).** Expected: a ~58.6% cash, zero-tech book lags a green-tape open; symmetric with the down-day protection it gives. Not official — close owns it.
+- Position sizes (of $102,696.80 equity): LLY 16.15%, DE 13.39%, JPM 11.85% — all under the 20% cap.
+
+### Standing tasks into midday / this week
+- **Keep dry powder into FOMC Wed 7/29 2pm ET + the mega-cap tech cluster (MSFT/META Wed AMC, AAPL Thu, AMZN Thu/Fri).** Deploying the day before a live-hike-tail Fed into a tech-earnings whipsaw is poor risk/reward; nothing clears the gate anyway.
+- **UNH catalyst aging out** — needs a fresh in-window signal (new upgrade, positive DOJ resolution, clean base+breakout) to clear ≥70. Do not chase near ATH.
+- **Redeploy ~58.6% idle cash — STILL GATED.** No qualifier at ≥70. Lauren's 7/17 A/B cash question got a HOLD rec; no inbox override → continue patient-hold; FOMC + tech earnings reinforce it.
+- **No Telegram this run** (market-open, no trades — not on the CLAUDE.md push list). Next mandatory Telegram = today's market-close daily update.
+
+---
 ## 2026-07-27 06:00 CT (07:10 ET) — PRE-MARKET (Mon, market CLOSED pre-open; opens 09:30 ET) — NEW WEEK, weekly buy cap resets 0/3
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Clock `is_open:false`, ts 07:10 ET, next_open today 09:30 ET → **research-only, NO trades.** Inbox: **nothing pending.** Account (live Alpaca, PRE-MARKET indicative — NOT official; `last_equity` this pull **$102,740.86**, ~$8 below the 7/24 market-close of record $102,748.48, a routine settle diff — carrying $102,748.48 as the authoritative 7/24 close for continuity): equity **$102,922.26**, cash **$60,167.78** (~58.5%), long_market_value **$42,754.48** (~41.5%), buying_power $360,383.66, status ACTIVE, trading_blocked false. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3 (new week).** All 3 stops RESTING (open-orders `status:new`, ALL 10% TRAILING, zero hard stops), IDs unchanged: LLY 6016a7e7 f1124.505/hwm1249.45, JPM 8a937ff6 f318.033/hwm353.37, DE dcdd84e5 f575.073/hwm638.97.

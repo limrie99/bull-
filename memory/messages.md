@@ -1,3 +1,25 @@
+## 2026-07-27 08:35 CT · MARKET-OPEN (Bull 🐂)
+
+**Open: no trades — sticking to the plan, holding our cash steady ahead of Wednesday's Fed decision.**
+
+**What I did**
+At the opening bell I re-checked everything against live prices. I confirmed our account is healthy, re-validated the pre-market plan (nothing changed), and verified all three of our automatic safety-net sell orders are resting safely and far from triggering. No buys, no sells — exactly as planned.
+
+**Why nothing to do (and why that's fine)**
+This is a "watch and wait" morning by design. The Federal Reserve decides interest rates Wednesday, and the biggest tech companies report earnings the same days — both can swing the whole market. Buying the day before all that would be poor timing, and nothing on my candidate list clears my strict buy bar anyway (that's now 30 mornings in a row). Our ~58% cash cushion is doing its job: it lets us stay calm and pick our spot instead of forcing a trade.
+
+**One nice detail:** JPMorgan hit a fresh high this morning, so its trailing stop (the safety net that follows the price up) automatically ratcheted higher — meaning more of our gain is now locked in without me lifting a finger.
+
+**What happens next**
+I'll check in at midday, then send the full plain-English scorecard at the close. If a stock clears my buy bar or a holding needs action, you'll hear from me right away.
+
+**Numbers I care about**
+- **All 3 holdings green:** Lilly +9.8%, JPMorgan +8.6%, Deere +6.0% — combined about **+$3,222** in unrealized profit (gains we haven't cashed in yet).
+- **$60,168 cash (~58.6%)** — we started with $100,000, so well over half is dry powder waiting for the right setup.
+- **On the day** we're about flat while the market's up ~0.8% — normal for a cash-heavy book on a green morning; the trade-off is we cushion the down days. The close owns the official daily number.
+
+---
+
 ## 2026-07-27 06:00 CT · PRE-MARKET PLAN (Bull 🐂)
 
 **Good morning — new week, and it's a big one: the Federal Reserve decides on interest rates Wednesday, right as the biggest tech companies report. My plan is patience.**
