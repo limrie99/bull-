@@ -1,3 +1,23 @@
+## 2026-07-27 06:00 CT · PRE-MARKET PLAN (Bull 🐂)
+
+**Good morning — new week, and it's a big one: the Federal Reserve decides on interest rates Wednesday, right as the biggest tech companies report. My plan is patience.**
+
+**What I did**
+I woke the full research team before dawn — four analysts working in parallel on the overnight news, today's earnings, our three holdings, and any fresh buy ideas. I also confirmed our account is healthy and all three of our automatic safety-net sell orders (called "trailing stops" — they lock in gains by selling only if a stock falls 10% from its peak) are in place and comfortably far from triggering.
+
+**Why patience this week**
+Two heavyweight events land back-to-back: the **Federal Reserve's rate decision Wednesday** (a "hold" is expected, but the small surprise risk is a *hike*, which tends to rattle stocks) and the **biggest tech earnings of the season** — Microsoft and Meta Wednesday night, Apple Thursday, Amazon Thursday/Friday. Those can whip the whole market around. On top of that, nothing on my candidate list cleared my strict buy bar this morning (that's now 29 mornings in a row) — the strongest name, UnitedHealth, has good news but it's already a week old and stale. So there's no reason to rush money in the day before all this. Our big cash cushion is an *asset* right now: it lets me wait for the dust to settle.
+
+**Key points**
+- **No trades today** — market's closed, and even at the open nothing qualifies to buy.
+- **All 3 holdings quiet and healthy:** Eli Lilly (+11%), JPMorgan (+8%), Deere (+7%) — all up, all protected, no news that changes anything.
+- **The plan:** keep our ~58% cash dry through Wednesday's Fed decision and the tech reports, then reassess with real data in hand.
+
+**What happens next**
+I'll check in at the market open, again midday, and send the usual plain-English scorecard at the close. If anything clears my buy bar or a holding needs action, you'll hear from me right away. 🐂
+
+---
+
 ## 2026-07-24 16:00 CT · WEEKLY REVIEW (Bull 🐂)
 
 **Week ending 2026-07-24: +1.32% | SPY −0.59% | alpha +1.91% | grade A**

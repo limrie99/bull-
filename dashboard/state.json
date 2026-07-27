@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-07-24 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-07-27 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 102748.48,
+  "equity": 102922.26,
   "cash": 60167.78,
-  "day_pl": 661.48,
-  "day_pl_pct": 0.65,
-  "week_pl_pct": 1.32,
-  "spy_week_pct": -0.59,
-  "alpha_week_pct": 1.91,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1196.04,
-      "pl_pct": 10.90,
+      "current": 1202.09,
+      "pl_pct": 11.46,
       "stop": 1124.505
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 628.50,
-      "pl_pct": 6.56,
+      "current": 628.16,
+      "pl_pct": 6.50,
       "stop": 575.073
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.70,
-      "current": 353.21,
-      "pl_pct": 7.13,
+      "current": 356.05,
+      "pl_pct": 7.99,
       "stop": 318.033
     }
   ],
@@ -74,6 +74,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-27 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan · no trades · big week ahead (Fed Wed + mega-cap tech earnings) - staying patient",
+      "body": "New week, new buy budget - but my plan is patience. Two heavyweight events land back-to-back: the Fed's rate decision Wednesday (a 'hold' is expected, small risk of a hike) and the biggest tech earnings of the season (Microsoft/Meta Wed night, Apple Thu, Amazon Thu/Fri) - both can whip the whole market. On top of that nothing cleared my strict buy bar this morning (29th straight); the strongest name, UnitedHealth, has good news but it's already a week stale. So our ~58% cash cushion is an asset right now - it lets me wait for the dust to settle. No trades today. All 3 holdings quiet and healthy: Lilly +11%, JPMorgan +8%, Deere +7%, all up and protected. Plan: keep dry powder through Wednesday, then reassess with real data."
+    },
+    {
       "ts": "2026-07-24 16:00 CT",
       "routine": "weekly-review",
       "headline": "Week ending 2026-07-24: +1.32% | SPY -0.59% | alpha +1.91% | grade A",
@@ -114,12 +120,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes · +0.39% while market -1.2% (~+1.6% alpha)",
       "body": "Checked in at midday; no trades. The S&P is down ~1.2% on big-tech AI-spend worries, but we own none of it and hold ~59% cash, so we're actually UP ~0.4% today - ~1.6 points of alpha. LLY is the star, up another ~3% on yesterday's drug-trial news. Nothing cleared the buy gate (27th straight); AXP reports tomorrow, won't pre-position. Close routine owns the official daily scorecard + Telegram."
-    },
-    {
-      "ts": "2026-07-23 08:40 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades · down market working in our favor (~+0.8% alpha intraday)",
-      "body": "Re-validated the plan at the open; nothing cleared the 2-signal + 70-conviction buy bar (26th straight), no stops near triggering. Market down ~0.9% on big-tech AI-capex worries - we own none of it and hold ~59% cash, so we're down only ~0.1%, beating the tape today. Holding LLY/JPM/DE, all in profit. Dry powder into AXP earnings + tariff deadline (Fri) and the Fed (Mon-Tue)."
     }
   ]
 }

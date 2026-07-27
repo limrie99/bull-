@@ -1,39 +1,39 @@
 # Portfolio
 
-**Last updated:** 2026-07-24 16:00 CT — **WEEKLY-REVIEW routine (Fri, market CLOSED for the week).** No actions this run (review only); snapshot below is the official market-close of record, re-verified against live Alpaca (live equity $102,722.70 = ~$26 post-close mark drift, immaterial). Week graded **A**: port **+1.32%** vs SPY **−0.59%** → **+1.91 alpha**, 2nd straight beat-SPY week; cumulative alpha since 5/29 now **+5.22 pts** (2nd-highest of run). All 3 holdings ROSE this week (DE +5.17%, JPM +3.53%, LLY +1.49%) — the beat was OFFENSE, not just cash defense. See `memory/weekly-review.md`. Original close-routine snapshot follows.
-**Prior header (MARKET-CLOSE 15:05 CT):** — **MARKET-CLOSE routine (Fri, market CLOSED for the day + weekend).** Official closing snapshot from Alpaca: equity **$102,748.48**, cash **$60,167.78** (~58.6%), long_market_value **$42,580.70** (~41.4%). Yesterday's close (Alpaca `last_equity`) **$102,087.00**. Book **3 of 5 positions** (two slots OPEN). **Weekly buys 0 of 3 — week is OVER, none used.** **ACTIONS THIS RUN: NONE — no buys, no sells, no stop changes.** All 3 stops confirmed RESTING (open-orders query, ALL 10% TRAILING, zero hard stops), IDs unchanged. **Inbox: nothing pending.** **Green close: day +0.65%, beat SPY (+0.11%) by +0.54% alpha; WTD +1.32% vs SPY −0.59% → +1.91% alpha on the week — we LED the market every day this week.** 28th-straight effectively-empty scan on the strict 2-verified-signal + Conviction≥70 gate (no new scan at close). **AXP re-check CLOSED (mixed Q2: EPS beat, rev miss, guide only reaffirmed, sold off → does not clear).**
+**Last updated:** 2026-07-27 06:00 CT — **PRE-MARKET routine (Mon, market CLOSED pre-open; opens 09:30 ET). NEW WEEK — weekly buy cap resets 0/3.** Research-only, NO trades. Snapshot below is live-Alpaca PRE-MARKET indicative (NOT official; market-open/close own the real intraday number). Account: equity **$102,922.26** (indicative), cash **$60,167.78** (~58.5%), long_market_value **$42,754.48** (~41.5%), buying_power $360,383.66, status ACTIVE. Alpaca `last_equity` this pull **$102,740.86** (~$8 settle diff vs the 7/24 market-close of record **$102,748.48**, which stays authoritative for continuity). Book **3 of 5 positions (two slots OPEN)**. **ACTIONS THIS RUN: NONE.** Full 4-agent scan (macro/earnings/position/scout) → **NOTHING clears the gate — 29th straight effectively-empty scan.** All 3 stops confirmed RESTING (open-orders query, ALL 10% TRAILING, zero hard stops), IDs unchanged. **Inbox: nothing pending.** All 3 holdings quiet (sev 1), theses INTACT, no sell triggers.
 
-## Scorecard (OFFICIAL daily — market-close owns this number)
-- **7/24 close of record: $102,748.48.** Yesterday (7/23) close $102,087.00 (Alpaca `last_equity`).
-- **Day P/L: +$661.48 / +0.65%.** SPY day **+0.11%** (738.90 vs 738.06). **Alpha today +0.54%.**
-- **Total since $100K start: +2.75%** (equity $102,748.48).
-- **Week-to-date (base 7/17 close eq $101,411.58 / SPY 743.28):** port **+1.32%**, SPY **−0.59%**, **alpha WTD +1.91%** — we LEAD SPY on the week.
-- **SPY refs:** 738.90 (7/24 close, VERIFIED Alpaca); 738.06 (7/23 close); 747.49 (7/22); 743.28 (7/17 = week base).
-- Net open unrealized (closing marks) **+$3,296.57** (LLY +1,646.12, DE +850.96, JPM +799.49).
+## Scorecard (baseline — market-close owns the OFFICIAL daily number)
+- **7/24 close of record: $102,748.48.** Alpaca `last_equity` this pull $102,740.86 (~$8 settle diff).
+- **Total since $100K start: +2.75%** (using 7/24 close of record).
+- **New week (base 7/24 close eq $102,748.48 / SPY 738.90):** WTD starts flat. Last week: port +1.32% vs SPY −0.59% → **+1.91 alpha**, 2nd straight beat-SPY week; cumulative alpha since 5/29 **+5.22 pts**.
+- **SPY refs (iex daily):** 738.90 (7/24 close = new-week base); 738.06 (7/23); 747.49 (7/22); 748.155 (7/21); 742.15 (7/20).
+- Net open unrealized (pre-mkt indicative marks) **+$3,470.35** (LLY +1,730.82, JPM +896.05, DE +843.48).
 
-## Open positions (3 of 5 — two slots OPEN) — CLOSING marks 7/24
+## Open positions (3 of 5 — two slots OPEN) — PRE-MARKET indicative marks 7/27
 
-| Symbol | Shares | Avg Cost | Mark (close) | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
+| Symbol | Shares | Avg Cost | Mark (pre-mkt) | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| LLY | 14 | 1078.46 | 1196.04 | +1646.12 | +10.90% | **10% TRAILING (GTC)**, floor **1124.505**, hwm **1249.45** | 2026-06-01 | Eli Lilly — Q1 beat + raised guide + oral GLP-1 (orforglipron, EBGLYSS). STRENGTHENED: retatrutide Phase 3 data + Q1-2027 FDA filing plan [VERIFIED 7/23]. Earnings ~Aug 5. sev 1. Most macro-insulated. **Cushion ~5.98% above floor.** |
-| DE | 22 | 589.82 | 628.50 | +850.96 | +6.56% | **10% TRAILING (GTC)**, floor **575.073**, hwm 638.97 | 2026-06-04 | Deere — big Q2 beat, FY26 guide raised, right-to-repair settlement cleared. $1.62 div payable Aug 10. Off-cycle; next report ~Aug 20. INTACT **sev 3.** Section 122 blanket tariff SUNSET confirmed 12:01am 7/24 (mild structural tailwind). Now ALSO >+5%. **Cushion ~8.50%.** |
-| JPM | 34 | 329.695588 | 353.21 | +799.49 | +7.13% | **10% TRAILING (GTC)**, floor **318.033**, hwm **353.37** | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 (7/14) VERIFIED BEAT. STRENGTHENED: Deutsche Bank UPGRADE Hold→Buy PT $375 [VERIFIED 7/24]. Higher 10Y = mild NIM+. sev 1. **Cushion ~9.96% (widest).** Next earnings ~Oct. |
+| LLY | 14 | 1078.46 | 1202.09 | +1730.82 | +11.46% | **10% TRAILING (GTC)**, floor **1124.505**, hwm **1249.45** | 2026-06-01 | Eli Lilly — Q1 beat + raised guide + oral GLP-1 (orforglipron, EBGLYSS). retatrutide Phase 3 data + Q1-2027 FDA filing plan [VERIFIED 7/23]. Earnings ~Aug 5. sev 1, quiet. Most macro-insulated. **Cushion ~6.45%.** |
+| DE | 22 | 589.82 | 628.16 | +843.48 | +6.50% | **10% TRAILING (GTC)**, floor **575.073**, hwm 638.97 | 2026-06-04 | Deere — big Q2 beat, FY26 guide raised, right-to-repair settlement cleared. $1.62 div payable Aug 10. Off-cycle; next report ~Aug 20. INTACT sev 1. Section 122 tariff sunset (7/24) = mild structural tailwind (couldn't re-confirm via news this run — prior sourcing stands). **Cushion ~8.45%.** |
+| JPM | 34 | 329.695588 | 356.05 | +896.05 | +7.99% | **10% TRAILING (GTC)**, floor **318.033**, hwm **353.37** | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 (7/14) beat; Deutsche Bank UPGRADE Hold→Buy PT $375 [VERIFIED, in-thesis]. Higher 10Y = mild NIM+. sev 1, quiet. Mark > hwm → trailing floor ratchets up at open. **Cushion ~10.68% (widest).** Next earnings ~Oct. |
 
-**Open positions: 3 of 5 (two slots OPEN).** **Buys used this week: 0 of 3 (week over).** **Cash buffer: ~58.6%.** Position sizes: LLY 16.3%, DE 13.5%, JPM 11.7% — all under the 20% cap.
+**Open positions: 3 of 5 (two slots OPEN).** **Buys used this week: 0 of 3 (new week).** **Cash buffer: ~58.5%.** Position sizes: LLY 16.4%, DE 13.4%, JPM 11.8% — all under the 20% cap.
 
 ## Stop-management state (all 3 confirmed RESTING via open-orders query) — ALL 10% TRAILING
-- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1124.505**, hwm **1249.45**. Mark 1196.04, **cushion ~5.98%.**
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **318.033**, hwm **353.37**. Mark 353.21, cushion ~9.96% (widest).
-- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **575.073**, hwm 638.97. Mark 628.50, cushion ~8.50%.
+- **LLY 10% trailing** `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1124.505**, hwm **1249.45**. Mark 1202.09, **cushion ~6.45%.**
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **318.033**, hwm **353.37**. Mark 356.05 (> hwm → floor ratchets at open), cushion ~10.68% (widest).
+- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a929cbfce` — floor **575.073**, hwm 638.97. Mark 628.16, cushion ~8.45%.
 
-## +5% conversion check (close)
-- LLY +10.90%, JPM +7.13%, DE +6.56% — ALL three now ≥+5% AND all already on 10% trailing stops. **Zero hard stops remain → no −7%→trailing conversion needed.** All three resting/trailing; no action.
+## +5% conversion check (pre-market)
+- LLY +11.46%, JPM +7.99%, DE +6.50% — ALL three ≥+5% AND all already on 10% trailing stops. **Zero hard stops remain → no −7%→trailing conversion needed.** All three resting/trailing; no action.
 
-## Watch / next (next routine: **Mon 7/27 pre-market** — new week, weekly buy cap resets 0/3)
-- **AXP — CLOSED, does NOT clear.** Real Q2: adj EPS $4.53 (beat) but rev $19.64B MISSED ~$19.69B, FY EPS guide only REAFFIRMED ($17.30–17.90), stock DOWN 3–5% on the print. Fails beat-on-both + raise; selloff = no knife-catch. Off near-term radar unless it bases and re-rates.
-- **NOW (ServiceNow) ~64** — rev beat + FY sub-guide raise VERIFIED (7/22) but catalyst SPENT + AI-adjacent high-beta → 2 signals, Conviction 64 < 70. Watchlist; if it clears, ≤10% starter per high-beta rule.
-- **FOMC 7/28–29** (hold priced, hawkish drift) — the week's marquee event. Keep dry powder into it.
-- **Bench:** UNH 65, AXP ~50 (post-print), GS 63, NOW 64, JNJ 58, ABT 55, OXY 55, STX 53, MS 52, V/AMGN/CB/CVS/VST 50; PANW 35.
+## Watch / next (next routine: **Mon 7/27 market-open**)
+- **BIG-EVENT WEEK — keep dry powder:** **FOMC decision Wed 7/29 2pm ET** (hold expected, live HIKE tail ~20–40%, hawkish drift) stacked on the **mega-cap tech peak** (MSFT + META Wed 7/29 AMC, AAPL Thu 7/30, AMZN Thu/Fri). No holding reports this week. Deploying fresh capital into this is poor risk/reward; nothing clears the gate anyway.
+- **UNH ~65 (top of bench):** 7/16 beat-and-raise + 52-wk high, but catalyst 7 trading days SPENT/aging out + DOJ overhang → ~1.5 in-window signals, <70. Needs a fresh signal to clear. Do NOT chase near ATH.
+- **DLR ~60 / DOV ~58 (NEW bench):** each = AI-infra/onshoring tailwind + a single-source 7/24 upgrade → 2 soft signals, <70. Re-verify the upgrades at market-open before either counts firm.
+- **AXP DEMOTED ~50** — Q2 (7/24) EPS beat but REV MISS + only reaffirmed EPS + stock −5.6% → not a clean beat-and-raise, off near-term radar.
+- **Bench:** UNH 65, NOW 63, GS 63, DLR 60, DOV 58, JNJ 58, ABT 55, OXY 55, STX 53, MS 52, AXP ~50, V/AMGN/CB/CVS/VST 50, PANW 35.
+- **Cash A/B question:** HOLD rec given to Lauren 7/17; no inbox override → continue patient-hold.
 
 ## Recent closes (last 5)
 
