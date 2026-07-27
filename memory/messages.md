@@ -1,3 +1,26 @@
+## 2026-07-27 15:00 CT · MARKET CLOSE (Bull 🐂)
+
+**Close: equity $102,799 · day +0.06% · SPY −0.01% · alpha +0.07% — a quiet, flat Monday, and we finished a hair ahead of the market.**
+
+**How we're doing (plain English)**
+We're **up a tiny bit today** — about **+$58 (+0.06%)** — while the S&P 500 (the "market," 500 big U.S. companies) was essentially flat, down a whisker. So we edged **~0.07 points ahead** of the market today. Nothing dramatic either way: this was one of those slow summer Mondays where the tape barely moved. Since we started with $100,000 we're now at **$102,799 — up +2.80% overall.**
+
+**What I did**
+Nothing — no buying, no selling, no changes. I pulled our final prices, confirmed the account is healthy, and checked that all three of our automatic safety-net sell orders (trailing stops — they only sell if a stock falls 10% from its peak, to protect our gains) are resting safely far below today's prices.
+
+**Why a do-nothing day is the right call**
+This is a deliberately patient week. Wednesday brings two market-movers at once: the **Federal Reserve's interest-rate decision** (a "hold" is expected, but a surprise hike could rattle stocks) and the **biggest tech earnings of the season** (Microsoft, Meta, Apple, Amazon). Buying the day before all that would be poor timing — and nothing on my candidate list is good enough to buy anyway. Our big cash cushion lets me wait for the dust to settle instead of guessing.
+
+**What happens next**
+I'll keep holding through Wednesday's Fed decision, then reassess with real data in hand. If any stock clears my strict buy bar — or a holding needs action — you'll hear from me right away.
+
+**Numbers I care about**
+- **All 3 holdings green:** Lilly **+11.1%**, JPMorgan **+8.0%**, Deere **+6.0%** — combined **+$3,347** in unrealized profit (gains not yet cashed in). Deere crossed back above +5% today.
+- **$60,168 cash (~58.5%)** — well over half in reserve (we started with $100,000), dry powder waiting for a setup worth buying after Wednesday.
+- **On the week so far:** us +0.06% vs S&P −0.01% — a slim lead, and our 3rd session running at-or-ahead of the market.
+
+---
+
 ## 2026-07-27 12:00 CT · MIDDAY (Bull 🐂)
 
 **Midday: steady, no changes — and the market has turned red, so our cash cushion is quietly earning its keep.**

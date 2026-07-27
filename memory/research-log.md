@@ -1,3 +1,34 @@
+## 2026-07-27 15:00 CT (16:00 ET) — MARKET-CLOSE (Mon) · OFFICIAL DAY SCORECARD
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Inbox: **nothing pending.** Official closing pull from Alpaca.
+
+**Closing snapshot (Alpaca):** equity **$102,799.27**, cash **$60,167.78** (~58.5%), long_market_value **$42,631.49** (~41.5%), buying_power $360,039.29, status ACTIVE. Yesterday (7/24) close `last_equity` **$102,740.86** (Alpaca; the 7/24 close-routine's "of record" $102,748.48 sits ~$8 higher on rounding — immaterial). Today closed orders: **0** (no fills). Open orders: 3, all 10% trailing GTC, RESTING (LLY 6016a7e7 f1124.505/hwm1249.45; JPM 8a937ff6 f323.145/hwm359.05; DE dcdd84e5 f575.073/hwm638.97). Zero hard stops.
+
+**Official scorecard:**
+- **Closing equity $102,799.27.** Day P/L **+$58.41 / +0.06%** (vs 7/24 close $102,740.86).
+- **SPY day −0.01%** (close 738.85 vs 738.90; VERIFIED Alpaca latest trade + daily bar).
+- **Alpha today +0.07 pts.**
+- **WTD (Mon = day 1; base 7/24 eq $102,740.86 / SPY 738.90):** port **+0.06%**, SPY **−0.01%**, **alpha WTD +0.07 pts.**
+- Total since $100K start **+2.80%.** Net open unrealized **+$3,347.36** (LLY +1,671.81, JPM +901.15, DE +774.40).
+
+**Positions at close:** LLY 14 @ 1197.875 (+11.07%, MV $16,770.25, 16.31%, cushion ~6.13%); DE 22 @ 625.02 (+5.97%, MV $13,750.44, 13.38%, cushion ~7.99%); JPM 34 @ 356.20 (+8.04%, MV $12,110.80, 11.78%, cushion ~9.28% widest). All under 20% cap. DE crossed back above +5% (was +4.5% midday) — already trailing, no action.
+
+**Trades placed today:** NONE (no buys, no sells, no stop changes). 30th-straight effectively-empty scan on the 2-verified-signal + Conviction≥70 gate (no new scan at close; pre-market/open already ran it).
+
+**What worked:**
+- **Near-flat day, small positive alpha.** A quiet Monday with SPY dead flat (−0.01%); our book squeaked out +0.06% on modest strength in JPM (mark to 356.20) and DE (back above +5%). Not a needle-mover, but a 3rd straight session at-or-ahead of SPY — the cash-heavy, no-megacap-tech book holds its small WTD edge going into the event risk.
+- **Discipline into the event stack held.** Kept ~58.5% dry powder ahead of Wed FOMC + the mega-cap tech earnings cluster rather than forcing a marginal entry the day before binary catalysts.
+
+**What didn't / open questions:**
+- **Cash drag persists** (~58.5% idle for weeks). Neutral-to-slightly-helpful in a flat tape, but a standing bet against a rising SPY. Still no bench name clears ≥70. The parked re-eval trigger (revisit gate/cash if post-FOMC data still yields no qualifier while SPY rises) is now days from firing — this week's data wave is the test.
+- **Open questions for Tue 7/28 pre-market:** (1) Does anything pre-position ahead of FOMC, or is Tue another dry-powder hold? (2) FOMC Wed 2pm ET — hold priced, hawkish-drift risk; the plan is to let it clear before deploying. (3) Mega-cap tech (MSFT/META Wed AMC, AAPL Thu, AMZN Thu/Fri) — not holdings, but sets the tape we'd be buying into. (4) Weekly buys 0/3 — two open slots, but the bar, not the budget, is the constraint.
+
+**Memory writes:** portfolio.md overwritten (official close snapshot); this Day summary prepended (newest-on-top); messages.md prepended (teacher-voice EOD update); dashboard/state.json overwritten (official close — most important write of the day). Inbox: nothing to move (nothing was pending).
+
+**Telegram: PUSHED** (mandatory daily "How we're doing" close update per CLAUDE.md — never skipped, trade or no trade).
+
+---
+
 ## 2026-07-27 08:35 CT (09:35 ET) — MARKET-OPEN (Mon, market OPEN; is_open:true, ts 09:32 ET)
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Clock **is_open:true**, ts 09:32 ET, next_close 16:00 ET. Inbox: **nothing pending.** Account (LIVE, market open): equity **$102,696.80**, cash **$60,167.78** (~58.6%), long_market_value **$42,529.02** (~41.4%), buying_power $359,752.38, status ACTIVE, trading_blocked false. `last_equity` $102,740.86 → intraday **−$44.06 / −0.04%** (open snapshot; market-close owns the official daily number). **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.** No daily-loss-cap issue (−0.04% ≪ −3% cap).
