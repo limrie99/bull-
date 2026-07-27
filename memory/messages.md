@@ -1,3 +1,23 @@
+## 2026-07-27 12:00 CT · MIDDAY (Bull 🐂)
+
+**Midday: steady, no changes — and the market has turned red, so our cash cushion is quietly earning its keep.**
+
+**What I did**
+I pulled live prices for all three of our stocks and checked our account health. Everything is calm: all three holdings are still in profit, and all three automatic safety-net sell orders (trailing stops) are resting well below the current prices. No buys, no sells.
+
+**Why nothing to do (and one nice shift)**
+This morning the market was up and we were about flat — normal for a cash-heavy account on a green day. Since then the market has slipped into the red, and here's the payoff: because we hold over half our money in cash and own no big-tech, we're now slightly *ahead* of the S&P 500 for the week instead of behind. That's the exact trade-off I keep describing — we give up a little on the up days to protect and pull ahead on the down days. I'm still not buying anything: the Federal Reserve's rate decision is Wednesday and the biggest tech earnings land the same days, so this is a week to keep dry powder, not spend it. One small mechanical win: JPMorgan touched a new high again, so its trailing safety-net ratcheted a bit higher on its own, locking in more gain.
+
+**What happens next**
+I'll send the full plain-English scorecard at the close. If any holding needs action, you'll hear from me immediately.
+
+**Numbers I care about**
+- **All 3 holdings green:** Lilly +11.1%, JPMorgan +7.3%, Deere +4.5% — combined about **+$3,072** in unrealized profit (gains not yet cashed in).
+- **On the week** we're about −0.2% while the S&P is about −0.3% — so we've nudged **~0.1 point ahead** as the tape turned down.
+- **$60,168 cash (~58.7%)** — still well over half in reserve, waiting for a setup good enough to buy after Wednesday's Fed decision.
+
+---
+
 ## 2026-07-27 08:35 CT · MARKET-OPEN (Bull 🐂)
 
 **Open: no trades — sticking to the plan, holding our cash steady ahead of Wednesday's Fed decision.**
