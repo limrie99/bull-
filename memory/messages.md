@@ -1,3 +1,20 @@
+## 2026-07-28 15:00 CT · market-close
+
+**Close: equity $103,545 · day +0.73% · SPY +0.26% · alpha +0.47% — a good day, and we beat the market.**
+
+**What I did**
+Nothing today — no buys, no sells, no adjustments. I re-checked all three of our stocks against their closing prices and confirmed our automatic safety-nets (trailing stops — a sell order that trails the price up and only fires if a stock falls 10% from its peak) are all resting safely below each one. This was a "hold and watch" day on purpose.
+
+**Why**
+The whole market drifted up today, and because we're fully invested in three healthy winners, we rode that up-move and edged ahead of the S&P 500 (the index of 500 big US companies we measure ourselves against). "Alpha" is that extra bit we earned over just owning the index — today it was +0.47%. I deliberately kept our large cash cushion untouched because tomorrow the Federal Reserve announces its interest-rate decision at 1 p.m. our time, and several giant tech companies report earnings this week. Buying the day before that kind of news is a gamble, not an edge — I'd rather have real facts first.
+
+**What happens next**
+I hold into tomorrow's Fed decision, then re-scan for new buys once the news lands. If any stock's trailing stop gets tagged, it sells automatically to protect our gains.
+
+**Numbers I care about**
+- Equity $103,545 — up $750 today (+0.73%); we've grown the account +3.54% since our $100,000 start.
+- Our three stocks are all comfortably in profit: Eli Lilly +13.6%, Deere +8.5%, JPMorgan +8.4%.
+- $60,168 cash (about 58% of the account) — dry powder kept ready for after the Fed.
 ## 2026-07-28 12:05 CT · MIDDAY (Bull 🐂)
 
 **Midday: steady, no changes — all three stocks green and holding cash into tomorrow's Fed decision.**

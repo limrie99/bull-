@@ -31,6 +31,23 @@ All 3 theses intact, all ≥+5% and already on 10% trailing stops. No thesis bre
 
 **Memory writes:** research-log prepended (this entry); watchlist re-scored (prepended); messages.md prepended (teacher-voice pre-market plan); portfolio.md refreshed (pre-market snapshot, close still owns official #); dashboard/state.json overwritten. Inbox: nothing to move. **No Telegram** (pre-market scan, no trades — per CLAUDE.md skip rule).
 
+### Day summary — 2026-07-28 MARKET-CLOSE (Tue) · OFFICIAL DAY SCORECARD (appended to today's entry)
+- **Closing equity: $103,544.71** (cash $60,167.78 / ~58.1%, long_market_value $43,376.93 / ~41.9%). `last_equity` (7/27 close) = $102,794.44. daytrade_count 0, status ACTIVE, buying_power $362,126.52.
+- **Day P/L: +$750.27 / +0.730%** (eq $103,544.71 − 7/27 close $102,794.44).
+- **SPY day: +0.263%** (7/28 close 740.795 IEX bar vs 7/27 close 738.85). Latest trade 740.67.
+- **Alpha today: +0.467 pts** (port +0.730 − SPY +0.263). Beat the market on an up day.
+- **Week-to-date (base 7/24 close eq $102,740.86 / SPY 738.90):** port WTD **+0.782%**, SPY WTD **+0.256%** → **alpha WTD +0.526 pts.**
+- **Trades placed today: NONE.** No buys, no sells, no stop conversions. Closed-orders query for 7/28 returned `[]`.
+- **Stops (all 3 RESTING, confirmed via open-orders query, all 10% trailing GTC, IDs unchanged):** LLY 6016a7e7 floor 1124.505 (hwm 1249.45, mark 1225.00, cushion ~8.20%); DE dcdd84e5 floor 579.591 (hwm 643.99, mark 639.84, cushion ~9.42%); JPM 8a937ff6 floor 323.307 (hwm 359.23, mark 357.3661, cushion ~9.53%). No floor moved at close (all marks closed below their intraday hwm). Zero hard stops in book.
+- **Positions (EOD marks):** LLY +$2,051.56/+13.59% (mark 1225.00), DE +$1,100.44/+8.48% (mark 639.84), JPM +$940.80/+8.39% (mark 357.3661). Net open unrealized **+$4,092.80**. Sizes on close eq: LLY 16.56%, DE 13.59%, JPM 11.73% — all under 20% cap.
+- **What worked:** (1) Broad-market risk-on lifted all 3 holdings green on the day — LLY and DE both ~+2.3% intraday carried the number. (2) Staying long+concentrated (not defensive-cash-heavy on the equity portion) captured the up day → beat SPY by ~0.47 pts. (3) Patience on the bench cost nothing — nothing that "cleared" would have beaten holding the winners.
+- **What didn't / watch:** (1) 58% cash again means we only captured ~42% of the market's up-move in dollar terms — the standing cash-drag question is still live; this week (post-FOMC) is the pre-committed test. (2) JPM nearly flat (+0.33%) — bank lagged the tape; fine, thesis intact, next catalyst ~Oct earnings.
+- **Open questions for Wed 7/29 (FOMC day):** (1) FOMC 2pm ET — hold base case but live-hike tail ~30–38% implied; a hawkish surprise hits rate-sensitive DE/LLY. Keep dry powder into the print. (2) MSFT AMC + META Wed, AAPL/AMZN Thu-Fri; Thu PCE + Q2 GDP. Re-scan for genuine beat-and-raise qualifiers AFTER the prints land, not before. (3) Cash-drag re-eval trigger armed for this week — if post-FOMC data still yields no ≥70 qualifier while SPY keeps rising, revisit gate/cash level in the weekly review.
+
+**Memory writes (close):** portfolio.md overwritten (official close snapshot); this Day summary appended to today's entry; messages.md prepended (teacher-voice EOD scorecard); dashboard/state.json overwritten (official close — most important write of the day). Inbox: nothing pending to move.
+
+**Telegram: PUSHED** (mandatory daily "How we're doing" close update per CLAUDE.md — never skipped, trade or no trade).
+
 ---
 
 ## 2026-07-27 15:00 CT (16:00 ET) — MARKET-CLOSE (Mon) · OFFICIAL DAY SCORECARD
