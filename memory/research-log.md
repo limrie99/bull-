@@ -1,3 +1,38 @@
+## 2026-07-28 06:00 CT — PRE-MARKET (Tue) · 4-agent scan · NOTHING CLEARS (31st straight)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market CLOSED (clock is_open:false, next_open 09:30 ET). Inbox: **nothing pending.** Account (LIVE, pre-market marks): equity **$103,113.69**, cash **$60,167.78** (~58.3%), long_market_value **$42,945.91** (~41.7%), buying_power $360,919.66, status ACTIVE. `last_equity` $102,794.44 → pre-market **+$319.25 / +0.31%** (PRE-MARKET marks — thin/unreliable; **market-close owns the official daily number**). **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
+
+**No trades this run (market closed — pre-market is research-only).** All 3 stops confirmed RESTING via open-orders query (all 10% trailing GTC, zero hard stops, IDs unchanged): LLY 6016a7e7 floor 1124.505; JPM 8a937ff6 floor 323.145; DE dcdd84e5 floor 575.073. All 3 holdings ≥+5% and already trailing → no −7%→trailing conversion needed.
+
+### Market context (macro agent)
+- **Posture: MIXED, defensive lean, event-risk-dominated.** Two crosscurrents: (+) **Iran de-escalation** — US paused strikes a 2nd night, Brent gapping from >$100 last week toward mid-$80s = risk-supportive AND inflation-relieving; (−) a **live FOMC hike tail** into Wed 7/29 2pm ET + mega-cap tech earnings landmines all week.
+- **FOMC Wed 7/29 2pm ET:** hold is base case (range 3.50–3.75%) BUT futures now price **~30–38% odds of a 25bp HIKE this week, up sharply from ~13–20% a week ago**; ~50bp tightening priced by year-end. Triple central-bank week (Fed/BoE/BoJ all expected to hold). Thu brings PCE + Q2 GDP.
+- **Futures/levels UNVERIFIED** (retrieval wall / stale timestamps): directional read ES ~flat-to-slightly-lower, NQ heavier (tech drag, Nvidia −5% Mon). Global mixed (Nikkei −1.27% VERIFIED, Hang Seng +1.14% VERIFIED). 10Y **4.69%** as of 7/24 (VERIFIED; briefly poked >4.7%; 2Y ~4.33% as hike odds rose) — same-day UNVERIFIED. Higher-for-longer = mild JPM NIM+.
+- **Read for our book:** cash-heavy (~58%), 100% non-tech (LLY/JPM/DE) is well-suited to this setup — dodges the mega-cap-tech earnings risk entirely; JPM/DE benefit if the hawkish-hold narrative holds. Main watch: a surprise hike/hawkish statement Wed lifts yields, pressures rate-sensitives. **No macro reason to force a trade today; hold fire until after 7/29.**
+
+### Portfolio watch (position agent) — all 3 INTACT sev 1, NO sell triggers
+- **LLY** — quiet/intact. No dated 48h catalyst. Recurring **"Foundayo" fake-drug confabulation caught & discarded AGAIN** (real asset is orforglipron); also discarded an implausibly precise "fair value $1,270.37" (no dated source). Real driver ahead is the **~Aug 5 earnings print**. Pre-mkt mark 1212.35, +12.42%, cushion ~7.28% over floor 1124.505.
+- **JPM** — quiet/intact. No new buyback/div/rating/regulatory/exec action in 48h. (Agent muddled earnings timing calling Q2 "upcoming" — stale model error; Q2 already reported 7/14.) Pre-mkt mark 359.50, +9.04%, cushion ~10.1% (widest) over floor 323.145.
+- **DE** — quiet/intact. No new earnings/guidance/tariff/right-to-repair/div/rating action in 48h. All thesis pillars unchanged. Div $1.62 payable Aug 10; next report ~Aug 20. Pre-mkt mark 625.00, +5.97%, cushion ~8.03% over floor 575.073.
+- **Sell-trigger flags: NONE** (no thesis break, guidance cut, exec departure, litigation).
+
+### Buy candidates — NOTHING CLEARS (2+ verified signals AND Conviction ≥70)
+- **Earnings agent:** no actionable fresh buy. Today: **KO** BMO (cons EPS ~$0.93 soft), **V (Visa)** AMC (cons EPS ~$3.22–3.23 / rev ~$11.35–11.38B; prior Q beat) — both PRE-PRINT, not actionable; do NOT initiate ahead of a print (earnings-gap risk). MSFT Wed 7/29 AMC VERIFIED. META/AAPL/AMZN dates UNVERIFIED but consistent with the assumed slots. No verifiable Mon-AMC/Tue-BMO clean beat-and-raise.
+- **Scout agent:** **NONE with ≥2 verified signals.** Mega-cap tech reports haven't happened yet (excluded per discipline). **UNH ~65 (top of bench):** 7/16 beat-and-raise (adj EPS $6.38 vs ~$4.90, rev ~$112B, FY26 EPS guide → $19.50–20.00) is now **outside the 7-day window / aging**, 1 in-window signal + DOJ overhang → holds ~65, do NOT chase near ATH. **DHR value-trap DISCARDED** — screen flagged it as a "beat-and-raise" (adj EPS $1.94 vs ~$1.84) but the stock fell ~10–15% on the print: bioprocessing segment MISSED, mgmt trimmed top-end core-rev growth (6%→4%), now well below 50dMA. Headline EPS masked a rev miss + guidance-quality cut. Not a buy.
+- **Bench unchanged (no fresh dated signal):** UNH 65, NOW 63, GS 63, DLR 60, DOV 58, JNJ 58, ABT 55, OXY 55, STX 53, MS 52, AXP ~50, V/AMGN/CB/CVS/VST 50, PANW 35.
+
+### Sell candidates — NONE
+All 3 theses intact, all ≥+5% and already on 10% trailing stops. No thesis breaks, no fundamentals deterioration.
+
+### Plan for the session (market-open 08:30 CT)
+- **HOLD dry powder into FOMC Wed 7/29.** Deploying fresh capital the day before a live-hike-tail Fed decision + the mega-cap tech earnings cluster is poor risk/reward, and nothing clears the gate anyway (31st straight empty scan). Cash is an ASSET into this event-risk week.
+- Market-open re-validates stops/theses against live prices; no buys planned. Re-scan for genuine beat-and-raise signals AFTER today's/Wed's prints land (KO/V today, MSFT/META Wed).
+- **Cash-drag re-eval trigger** (parked): revisit gate/cash level only if this week's post-FOMC data wave still yields no qualifier while SPY keeps rising. Not fired yet — this week is the test.
+
+**Memory writes:** research-log prepended (this entry); watchlist re-scored (prepended); messages.md prepended (teacher-voice pre-market plan); portfolio.md refreshed (pre-market snapshot, close still owns official #); dashboard/state.json overwritten. Inbox: nothing to move. **No Telegram** (pre-market scan, no trades — per CLAUDE.md skip rule).
+
+---
+
 ## 2026-07-27 15:00 CT (16:00 ET) — MARKET-CLOSE (Mon) · OFFICIAL DAY SCORECARD
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Inbox: **nothing pending.** Official closing pull from Alpaca.
