@@ -4492,3 +4492,30 @@ Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty sc
 **Memory writes:** portfolio.md overwritten (official close snapshot); this Day summary appended; messages.md prepended (teacher-voice EOD update); dashboard/state.json overwritten (official close — most important write of the day). Inbox: nothing to move.
 
 **Telegram: PUSHED** (mandatory daily "How we're doing" close update per CLAUDE.md — never skipped, trade or no trade).
+
+---
+
+## 2026-07-29 12:05 CT · MIDDAY (Wed · FOMC DAY, pre-decision) — no actions
+
+**Clock:** is_open=true, next_close 7/29 16:00 ET. **Account (LIVE):** equity $102,619.66, cash $60,167.78 (58.63%), long_mv $42,451.88, buying_power $359,536.38, daytrade_count 0. last_equity (7/28 close) $103,482.04 → intraday **−$862.38 / −0.833%**.
+
+**Positions (LIVE midday marks):**
+- LLY 14 @ 1078.46 → 1217.065, +$1,940.47 / +12.85%. Trailing floor 1124.505, hwm 1249.45, cushion ~7.61%.
+- JPM 34 @ 329.695588 → 349.415, +$670.46 / +5.98%. Trailing floor 323.307, hwm 359.23, cushion ~7.47%.
+- DE 22 @ 589.82 → 615.13, +$556.82 / +4.29%. Trailing floor 579.591, hwm 643.99, cushion ~5.78%. **Softest today: −3.86% intraday.**
+- Net open unrealized +$3,167.75.
+
+**Open orders query:** all three 10% trailing stops confirmed RESTING (status new/GTC), floors unchanged from 7/28 close — LLY 1124.505 (6016a7e7), JPM 323.307 (8a937ff6), DE 579.591 (dcdd84e5).
+
+**SPY:** latest trade 735.08 vs 7/28 close 740.795 → −0.77% intraday. Book −0.83% → lagging ~0.06 pts (in line). Provisional WTD (base 7/24 close eq 102,740.86 / SPY 738.90): port ≈−0.12%, SPY ≈−0.52%, alpha ≈+0.40 pts.
+
+**Risk-management pass (priority order per routine):**
+- (a) −7%-or-worse check: none. DE +4.29%, JPM +5.98%, LLY +12.85% — all green. No Perplexity news check required (only triggered by a −7% position). No sells.
+- (b) +5% conversion: LLY & JPM ≥+5% and already trailing. DE dipped below +5% (now +4.29%) BUT already on a 10% trailing stop — trailing stops are never reverted to hard stops. Zero hard stops remain across the book. No action.
+- (c) Daily loss cap: intraday −0.833% vs yesterday's close, well under −3%. Not tripped (and no buys planned regardless).
+
+**Buys:** NONE. It is FOMC day; the decision (1pm CT) lands AFTER this routine. Standing plan is to hold dry powder into the print and not deploy the day of the decision. Nothing clears the buy-gate anyway (2+ signals AND Conviction ≥70) — 33rd straight empty scan. Book stays 3 of 5, 0 of 3 weekly buys used, ~58.6% cash.
+
+**Inbox:** nothing pending.
+
+**Actions this run: NONE.** No Telegram push (quiet midday, no trade — per CLAUDE.md skip list). Next routine: market-close ~15:00 CT (owns the mandatory daily "How we're doing" update + Telegram), after the Fed decision + Powell presser and ahead of MSFT/META/QCOM AMC prints.

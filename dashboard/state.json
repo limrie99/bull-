@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-07-29 08:35 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-07-29 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 103048.88,
+  "equity": 102619.66,
   "cash": 60167.78,
-  "day_pl": -433.16,
-  "day_pl_pct": -0.42,
-  "week_pl_pct": 0.78,
-  "spy_week_pct": 0.26,
-  "alpha_week_pct": 0.52,
+  "day_pl": -862.38,
+  "day_pl_pct": -0.83,
+  "week_pl_pct": -0.12,
+  "spy_week_pct": -0.52,
+  "alpha_week_pct": 0.40,
   "positions": [
     {
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1215.9175,
-      "pl_pct": 12.75,
+      "current": 1217.065,
+      "pl_pct": 12.85,
       "stop": 1124.505
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 628.01,
-      "pl_pct": 6.48,
+      "current": 615.13,
+      "pl_pct": 4.29,
       "stop": 579.591
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 355.85,
-      "pl_pct": 7.93,
+      "current": 349.415,
+      "pl_pct": 5.98,
       "stop": 323.307
     }
   ],
@@ -43,6 +43,12 @@
     { "date": "2026-06-25 12:05", "side": "RISK-MGMT", "symbol": "DE", "qty": 22, "price": 558.945 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-29 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — all three green, holding cash into the Fed",
+      "body": "Re-checked live prices at lunch: no buys, no sells, no stop changes. All three holdings in profit (LLY +12.9%, JPM +6.0%, DE +4.3%) and resting above their 10% trailing stops. Book is soft (-0.8%) but in line with SPY (-0.8%) as rate-sensitive names get jittery ahead of the 1pm CT Fed decision + tonight's MSFT/META/QCOM earnings. Holding ~59% cash into two coin-flip events; nothing cleared the buy-gate (33rd straight empty scan). Full scorecard at the close."
+    },
     {
       "ts": "2026-07-29 08:35 CT",
       "routine": "market-open",
@@ -84,12 +90,6 @@
       "routine": "market-close",
       "headline": "Close: quiet green day, holding the winners",
       "body": "No trades. Three holdings green, all on trailing stops. New week began; kept cash into a heavy earnings + FOMC week."
-    },
-    {
-      "ts": "2026-07-27 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday check — nothing to change",
-      "body": "Live re-check clean; stops resting; no qualifier. Holding."
     }
   ]
 }

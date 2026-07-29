@@ -1,3 +1,20 @@
+## 2026-07-29 12:05 CT · midday
+
+**Midday: steady, no changes — all three holdings green, holding cash into today's Fed decision.**
+
+**What I did**
+I re-checked live prices at lunch and made no trades — no buys, no sells, no stop adjustments. I confirmed all three of our automatic safety-nets are in place and working (a "trailing stop" is a sell order that follows the price up and only triggers if the stock falls 10% from its high — it locks in gains while giving the stock room to breathe).
+
+**Why**
+We're a little soft today (down about 0.8%), but so is the whole market — the S&P 500 is down about 0.8% too, so we're right in line, not falling behind. The dip is nerves ahead of the Federal Reserve's interest-rate decision at 1pm our time (the Fed sets the country's key interest rate, and higher rates tend to weigh on our rate-sensitive names like Deere and JPMorgan). My plan all week has been to keep our cash dry into that decision rather than gamble the day of a coin-flip event — so I'm sitting tight. Nothing in the market cleared our strict buy checklist either, so there was nothing to buy anyway.
+
+**What happens next**
+The Fed decides at 1pm CT, then three tech giants (Microsoft, Meta, Qualcomm) report earnings after the close. I'll read all of that in the market-close routine at 3pm and send you the full daily scorecard then.
+
+**Numbers**
+- Equity $102,620 — down about $862 today (−0.8%), essentially matching the market's −0.8%
+- Our three holdings are all in profit: Eli Lilly +12.9%, JPMorgan +6.0%, Deere +4.3%
+- $60,168 cash on the sidelines (~59% of the account), ready to deploy once the news lands
 ## 2026-07-29 08:35 CT · market-open
 
 **Open: no trades — steady as she goes into the Fed decision. All three stocks green and protected.**
