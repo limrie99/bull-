@@ -1,95 +1,128 @@
 {
-  "last_update": "2026-07-29 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-07-29 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 102619.66,
+  "equity": 102256.39,
   "cash": 60167.78,
-  "day_pl": -862.38,
-  "day_pl_pct": -0.83,
-  "week_pl_pct": -0.12,
-  "spy_week_pct": -0.52,
-  "alpha_week_pct": 0.40,
+  "day_pl": -1225.65,
+  "day_pl_pct": -1.18,
+  "week_pl_pct": -0.47,
+  "spy_week_pct": -1.26,
+  "alpha_week_pct": 0.79,
   "positions": [
     {
       "symbol": "LLY",
-      "qty": 14,
+      "shares": 14,
       "avg_cost": 1078.46,
-      "current": 1217.065,
-      "pl_pct": 12.85,
-      "stop": 1124.505
+      "price": 1210.4394,
+      "pl_pct": 12.24,
+      "market_value": 16946.15,
+      "stop": "10% trailing @ 1124.505"
     },
     {
       "symbol": "DE",
-      "qty": 22,
+      "shares": 22,
       "avg_cost": 589.82,
-      "current": 615.13,
-      "pl_pct": 4.29,
-      "stop": 579.591
+      "price": 610.101,
+      "pl_pct": 3.44,
+      "market_value": 13422.22,
+      "stop": "10% trailing @ 579.591"
     },
     {
       "symbol": "JPM",
-      "qty": 34,
+      "shares": 34,
       "avg_cost": 329.695588,
-      "current": 349.415,
-      "pl_pct": 5.98,
-      "stop": 323.307
+      "price": 344.7128,
+      "pl_pct": 4.55,
+      "market_value": 11720.24,
+      "stop": "10% trailing @ 323.307"
     }
   ],
   "recent_trades": [
-    { "date": "2026-07-16 09:53", "side": "SELL", "symbol": "GE", "qty": 45, "price": 344.54 },
-    { "date": "2026-07-15 09:35", "side": "RISK-MGMT", "symbol": "JPM", "qty": 34, "price": 315.288 },
-    { "date": "2026-07-02 14:36", "side": "SELL", "symbol": "ETN", "qty": 24, "price": 392.75 },
-    { "date": "2026-06-29 09:38", "side": "BUY", "symbol": "JPM", "qty": 34, "price": 329.7 },
-    { "date": "2026-06-25 12:05", "side": "RISK-MGMT", "symbol": "DE", "qty": 22, "price": 558.945 }
+    {
+      "date": "2026-07-16 09:53",
+      "side": "SELL",
+      "symbol": "GE",
+      "qty": 45,
+      "price": 344.54
+    },
+    {
+      "date": "2026-07-15 09:35",
+      "side": "RISK-MGMT",
+      "symbol": "JPM",
+      "qty": 34,
+      "price": 315.288
+    },
+    {
+      "date": "2026-07-02 14:36",
+      "side": "SELL",
+      "symbol": "ETN",
+      "qty": 24,
+      "price": 392.75
+    },
+    {
+      "date": "2026-06-29 09:38",
+      "side": "BUY",
+      "symbol": "JPM",
+      "qty": 34,
+      "price": 329.7
+    },
+    {
+      "date": "2026-06-25 12:05",
+      "side": "RISK-MGMT",
+      "symbol": "DE",
+      "qty": 22,
+      "price": 558.945
+    }
   ],
   "latest_messages": [
     {
+      "date": "2026-07-29 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $102,256 \u00b7 day \u22121.18% \u00b7 SPY \u22121.52% \u00b7 alpha +0.33% \u2014 down day, but we lost less than the market.",
+      "summary": "Fed held rates but signaled a hawkish tilt (3 officials wanted a hike); markets sold off ~1.5%. Our ~59% cash cushion meant we fell less. No trades. All three holdings still green: LLY +12.2%, JPM +4.6%, DE +3.4%."
+    },
+    {
       "ts": "2026-07-29 12:05 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — all three green, holding cash into the Fed",
+      "headline": "Midday: steady, no changes \u2014 all three green, holding cash into the Fed",
       "body": "Re-checked live prices at lunch: no buys, no sells, no stop changes. All three holdings in profit (LLY +12.9%, JPM +6.0%, DE +4.3%) and resting above their 10% trailing stops. Book is soft (-0.8%) but in line with SPY (-0.8%) as rate-sensitive names get jittery ahead of the 1pm CT Fed decision + tonight's MSFT/META/QCOM earnings. Holding ~59% cash into two coin-flip events; nothing cleared the buy-gate (33rd straight empty scan). Full scorecard at the close."
     },
     {
       "ts": "2026-07-29 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — steady into the Fed; all three green and protected",
+      "headline": "Open: no trades \u2014 steady into the Fed; all three green and protected",
       "body": "Re-checked live open prices: no buys, no sells, no stop changes. All three holdings healthy and above their trailing stops (LLY +12.7%, JPM +7.9%, DE +6.5%). Opened a touch soft (-0.4%) as rate-sensitive names get jittery ahead of today's Fed decision (1pm CT) + tonight's MSFT/META/QCOM earnings. Holding ~58% cash as an asset into two coin-flip events; nothing cleared the buy-gate (33rd straight empty scan). Full scorecard at the close."
     },
     {
       "ts": "2026-07-29 06:00 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan — it's Fed day; holding steady, cash stays dry (32nd straight empty scan)",
+      "headline": "Pre-market plan \u2014 it's Fed day; holding steady, cash stays dry (32nd straight empty scan)",
       "body": "Research-only, no trades. 4-analyst scan cleared nothing (2 signals + Conviction >=70). FOMC decision 1pm CT with a live ~1-in-3 hike tail and no new forecast chart, plus MSFT/META/QCOM earnings tonight -- buying ahead of that is a gamble, so ~58% cash is an asset today. All three holdings green and intact on 10% trailing stops. Lone new idea LMT is a +14%/week defense spike on cooling geopolitics -> bench, not a buy."
     },
     {
       "ts": "2026-07-28 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $103,545 · day +0.73% · SPY +0.26% · alpha +0.47%",
-      "body": "A good, quiet up-day — no trades. All three holdings closed green (LLY +13.6%, DE +8.5%, JPM +8.4%) and we edged past the S&P 500. Kept ~58% cash as dry powder into tomorrow's Fed decision and this week's mega-cap tech earnings; will re-scan for buys once the news lands."
+      "headline": "Close: equity $103,545 \u00b7 day +0.73% \u00b7 SPY +0.26% \u00b7 alpha +0.47%",
+      "body": "A good, quiet up-day \u2014 no trades. All three holdings closed green (LLY +13.6%, DE +8.5%, JPM +8.4%) and we edged past the S&P 500. Kept ~58% cash as dry powder into tomorrow's Fed decision and this week's mega-cap tech earnings; will re-scan for buys once the news lands."
     },
     {
       "ts": "2026-07-28 12:05 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — all three green, holding cash into the Fed",
+      "headline": "Midday: steady, no changes \u2014 all three green, holding cash into the Fed",
       "body": "Re-checked live prices at lunch: no buys, no sells. All three trailing stops resting safely; Deere hit a fresh high so its stop ratcheted up. Patient with cash ahead of tomorrow's FOMC."
     },
     {
       "ts": "2026-07-28 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — holding into the Fed",
+      "headline": "Open: no trades \u2014 holding into the Fed",
       "body": "Validated stops and theses at the open; all intact. No qualifier cleared the buy-gate. Holding dry powder into FOMC Wed."
     },
     {
       "ts": "2026-07-28 06:00 CT",
       "routine": "pre-market",
-      "headline": "Pre-market scan — nothing clears the bar (31st straight)",
+      "headline": "Pre-market scan \u2014 nothing clears the bar (31st straight)",
       "body": "4-agent scan found no name clearing 2 signals + Conviction >=70. Big-event week (FOMC Wed + mega-cap tech earnings). Keeping cash ready."
-    },
-    {
-      "ts": "2026-07-27 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: quiet green day, holding the winners",
-      "body": "No trades. Three holdings green, all on trailing stops. New week began; kept cash into a heavy earnings + FOMC week."
     }
   ]
 }

@@ -1,3 +1,21 @@
+## 2026-07-29 15:05 CT · market-close
+
+**Close: equity $102,256 · day −1.18% · SPY −1.52% · alpha +0.33% — a down day for everyone, but we lost less than the market.**
+
+**What I did**
+No trades today — no buys, no sells, no changes to our safety nets. I pulled our official end-of-day numbers from the broker and confirmed all three of our stocks are still healthy and still safely above their automatic sell orders.
+
+**Why**
+Today was the Federal Reserve's big interest-rate decision (the Fed sets the country's key interest rate, which ripples through the whole market). It chose to **hold rates steady**, but three of its officials wanted to *raise* them — a more aggressive ("hawkish") signal than investors hoped for. Markets don't like the idea of rates staying high longer, so stocks sold off: the S&P 500 fell about 1.5%. We fell too (−1.2%), but less — because more than half our money is sitting safely in cash and we own none of the pricey tech giants that led the drop. That's the whole point of keeping dry powder into a coin-flip event: on a bad day, cash is a cushion.
+
+**What happens next**
+Three tech giants (Microsoft, Meta, Qualcomm) report earnings tonight, and tomorrow brings two big inflation/growth reports. I'll read all of it at dawn and only buy something new if it genuinely clears our strict checklist — no chasing.
+
+**Numbers I care about**
+- Equity **$102,256** — down $1,226 today, but still **+2.3%** since we started with $100,000.
+- We beat the market by **0.33%** today (down days count too — losing less is winning).
+- **$60,168 cash** on the sidelines (~59% of the account) — the buffer that softened today's drop.
+- All three holdings still green: Eli Lilly **+12.2%**, JPMorgan **+4.6%**, Deere **+3.4%**.
 ## 2026-07-29 12:05 CT · midday
 
 **Midday: steady, no changes — all three holdings green, holding cash into today's Fed decision.**

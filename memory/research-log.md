@@ -4519,3 +4519,35 @@ Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty sc
 **Inbox:** nothing pending.
 
 **Actions this run: NONE.** No Telegram push (quiet midday, no trade — per CLAUDE.md skip list). Next routine: market-close ~15:00 CT (owns the mandatory daily "How we're doing" update + Telegram), after the Fed decision + Powell presser and ahead of MSFT/META/QCOM AMC prints.
+
+## 2026-07-29 15:05 CT (16:05 ET) — MARKET-CLOSE Day summary (Wed · FOMC DAY, official)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Inbox: **nothing pending.** Official closing pull from Alpaca (clock is_open=false).
+
+**Closing snapshot (Alpaca):** equity **$102,256.39**, cash **$60,167.78** (~58.84%), long_market_value **$42,088.61** (~41.16%), buying_power $358,519.22. Yesterday (7/28) close `last_equity` **$103,482.04**. Today closed orders: **0** (no fills). Open orders: 3, all 10% trailing GTC, RESTING — LLY 6016a7e7 floor 1124.505/hwm 1249.45; JPM 8a937ff6 floor 323.307/hwm 359.23; DE dcdd84e5 floor 579.591/hwm 643.99. Floors unchanged from 7/28 (prices fell → no new highs → no ratchet). Zero hard stops.
+
+**FOMC (verified via Perplexity):** Fed **HELD** the funds rate at **3.50–3.75%** on a **hawkish 9–3 vote** (3 officials favored a 25bp hike). Risk-off reaction; rate-sensitive book softened into the close.
+
+**Official scorecard:**
+- **Closing equity $102,256.39.** Day P/L **−$1,225.65 / −1.184%** (vs 7/28 close $103,482.04).
+- **SPY day −1.52%** (close 729.57 vs 740.795; IEX daily bars). Note: SPY after-hours latest trade 728.00 @ 20:32Z — used the 16:00 ET regular-session daily-bar close 729.57 for the official close-to-close comparison.
+- **Alpha today +0.33 pts.**
+- **WTD (base 7/24 eq $102,740.86 / SPY 738.90):** port **−0.47%**, SPY **−1.26%**, **alpha WTD +0.79 pts.**
+- Total since $100K start **+2.26%**. Net open unrealized **+$2,804.48** (LLY +1,847.71, JPM +510.59, DE +446.18).
+
+**Positions at close:** LLY 14 @ 1210.4394 (+12.24%, MV $16,946.15, 16.57%); DE 22 @ 610.101 (+3.44%, MV $13,422.22, 13.13%); JPM 34 @ 344.7128 (+4.55%, MV $11,720.24, 11.46%). All under 20% cap. Cushions: LLY 7.10%, JPM 6.21%, DE 5.00% (tightest).
+
+**Trades placed today:** NONE (no buys, no sells, no stop changes). 34th-straight effectively-empty scan on the 2-verified-signal + Conviction≥70 gate (no new scan at close; FOMC day = intentional dry-powder hold).
+
+**What worked:**
+- **Cash barbell earned its keep on a down day.** With ~59% in cash and zero AI-megacap exposure, the −1.18% loss beat SPY's −1.52% — +0.33 alpha even as the tape fell. Holding dry powder INTO the Fed print (the standing plan) avoided buying into a hawkish surprise.
+- **Trailing stops held with room.** All three floors intact, tightest cushion (DE) still 5.0% — no shake-out risk from a single macro down day.
+
+**What didn't / open questions:**
+- **Rate-sensitive names took the brunt.** DE and JPM (and LLY off its highs) drove the day loss; JPM slipped back below +5% (+4.55%). No thesis break — this is the higher-for-longer macro tax on a rate-sensitive book, expected. Watch DE (tightest cushion) but act only on a verified thesis break.
+- **Cash drag persists.** ~59% idle for weeks; it helped again today but remains a bet against SPY over time. Still no name ≥70. Parked trigger: re-evaluate gate/cash in Friday's weekly review if post-FOMC data (Thu PCE/GDP + mega-cap prints) still yields no qualifier while SPY recovers.
+- **Open questions for Thu 7/30 pre-market:** (1) MSFT/META/QCOM AMC tonight — any clean beat-and-raise worth a ≤10% starter? (2) Thu PCE + Q2 GDP — macro risk that could extend the risk-off move. (3) Does the hawkish Fed keep pressuring DE/JPM, and is that price-only (hold) or thesis (act)? Weekly buy cap resets 0/3 Monday — still 0/3 this week.
+
+**Memory writes:** portfolio.md overwritten (official close snapshot); this Day summary appended; messages.md prepended (teacher-voice EOD update); dashboard/state.json overwritten (official close — most important write of the day). Inbox: nothing to move.
+
+**Telegram: PUSHED** (mandatory daily "How we're doing" close update per CLAUDE.md — never skipped, trade or no trade).
