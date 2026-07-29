@@ -1,3 +1,27 @@
+## 2026-07-29 08:35 CT — MARKET-OPEN (Wed · FOMC DAY) · execute pre-market plan · NO TRADES (33rd straight empty)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **OPEN** (clock is_open:true, timestamp 09:32:47 ET, next_close 2026-07-29 16:00 ET). Inbox: **nothing pending.** Account (LIVE open marks): equity **$103,048.88**, cash **$60,167.78** (~58.39%), long_market_value **$42,881.10** (~41.61%), buying_power $360,738.21, status ACTIVE, daytrade_count 0. `last_equity` (7/28 close) $103,482.04 → intraday **−$433.16 / −0.419%** (early FOMC-day open marks; market-close owns the official daily number). **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
+
+**Actions this run: NONE.** Executed the pre-market plan (HOLD dry powder into FOMC + tonight's mega-cap tech prints), re-validated against live open prices. No buys, no sells, no stop conversions. No sell triggers (no thesis break on any name).
+
+**Live re-validation vs pre-market plan:**
+- **Positions all 3 intact, all green, all ≥+5% and already on 10% trailing stops → zero hard stops, no −7%→trailing conversion needed.** All 3 stops confirmed RESTING via open-orders query (status new), floors unchanged from 7/28 close:
+  - **LLY** 14 @ 1078.46, mark 1215.9175, **+$1,924.41 / +12.75%.** Stop `6016a7e7` floor 1124.505 (hwm 1249.45) → cushion ~7.52%. Earnings ~Aug 5.
+  - **JPM** 34 @ 329.695588, mark 355.85, **+$889.25 / +7.93%.** Stop `8a937ff6` floor 323.307 (hwm 359.23) → cushion ~9.15% (widest). Next earnings ~Oct.
+  - **DE** 22 @ 589.82, mark 628.01, **+$840.18 / +6.48%.** Stop `dcdd84e5` floor 579.591 (hwm 643.99) → cushion ~7.71%. Div $1.62 payable Aug 10; next report ~Aug 20.
+  - Net open unrealized **+$3,653.84.** Sizes on open equity: LLY 16.52%, DE 13.41%, JPM 11.74% — all under 20% cap.
+- **No buys:** nothing on the bench clears 2 verified signals + Conviction ≥70 (33rd straight empty scan). Pre-market already ran the 4-agent deep scan; no re-scan warranted at open on FOMC day. Deploying fresh capital the day of a live-hike-tail (~1-in-3), no-dot-plot Fed decision + a mega-cap-tech earnings cluster (MSFT/META/QCOM AMC) is poor risk/reward. Cash is an asset into this event-risk day.
+- **No sells:** all 3 theses intact; no guidance cut, exec departure, litigation, or thesis break overnight. No stop near its floor.
+- **Daily loss cap:** intraday −0.42% — well inside the −3% cap; no cap breach, no carry from 7/28 (+0.73%).
+
+**Tape read:** SPY latest trade **739.81** vs 7/28 close 740.795 → **≈−0.13%.** Our book −0.42% → lagging the early dip ~0.29 pts as rate-sensitive DE/JPM/LLY soften into the Fed. Opening noise on FOMC day; the close owns the official alpha number. Broad market soft-open consistent with the pre-market risk-off-leaning-mixed read.
+
+**Plan into the rest of the session:** HOLD through FOMC 2pm ET + Powell 2:30pm + MSFT/META/QCOM AMC. Midday routine (~12:00 CT) re-checks stops/theses; market-close (~15:00 CT) owns the official day scorecard + mandatory Telegram. Re-scan for genuine beat-and-raise qualifiers AFTER the Fed + tonight's prints, not before. **Cash-drag re-eval trigger ARMED** — decide at Friday's weekly review if this week's post-FOMC data still yields no ≥70 qualifier while SPY keeps rising.
+
+**Memory writes:** research-log prepended (this entry); portfolio.md refreshed (open snapshot — close still owns official #); messages.md prepended (teacher-voice market-open update); dashboard/state.json overwritten. Inbox: nothing to move. **No Telegram** (market-open, no trades — per CLAUDE.md skip rule; the mandatory daily push is the close routine's).
+
+---
+
 ## 2026-07-29 06:00 CT — PRE-MARKET (Wed · FOMC DAY) · 4-agent scan · NOTHING CLEARS (32nd straight)
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Market CLOSED (clock is_open:false, next_open 2026-07-29 09:30 ET). Inbox: **nothing pending.** Account (LIVE pre-market marks — thin/unreliable; market-close owns the official daily number): equity **$103,421.84**, cash **$60,167.78** (~58.18%), long_market_value **$43,254.06** (~41.82%), buying_power $361,782.49, status ACTIVE. `last_equity` (7/28 close) $103,482.04 → pre-market **−$60.20 / −0.06%** (noise on thin marks). **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**

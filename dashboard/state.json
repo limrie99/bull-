@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-07-29 06:00 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-07-29 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 103421.84,
+  "equity": 103048.88,
   "cash": 60167.78,
-  "day_pl": -60.20,
-  "day_pl_pct": -0.06,
+  "day_pl": -433.16,
+  "day_pl_pct": -0.42,
   "week_pl_pct": 0.78,
   "spy_week_pct": 0.26,
   "alpha_week_pct": 0.52,
@@ -14,24 +14,24 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1225.19,
-      "pl_pct": 13.61,
+      "current": 1215.9175,
+      "pl_pct": 12.75,
       "stop": 1124.505
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 633.00,
-      "pl_pct": 7.32,
+      "current": 628.01,
+      "pl_pct": 6.48,
       "stop": 579.591
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 358.10,
-      "pl_pct": 8.62,
+      "current": 355.85,
+      "pl_pct": 7.93,
       "stop": 323.307
     }
   ],
@@ -43,6 +43,12 @@
     { "date": "2026-06-25 12:05", "side": "RISK-MGMT", "symbol": "DE", "qty": 22, "price": 558.945 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-29 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — steady into the Fed; all three green and protected",
+      "body": "Re-checked live open prices: no buys, no sells, no stop changes. All three holdings healthy and above their trailing stops (LLY +12.7%, JPM +7.9%, DE +6.5%). Opened a touch soft (-0.4%) as rate-sensitive names get jittery ahead of today's Fed decision (1pm CT) + tonight's MSFT/META/QCOM earnings. Holding ~58% cash as an asset into two coin-flip events; nothing cleared the buy-gate (33rd straight empty scan). Full scorecard at the close."
+    },
     {
       "ts": "2026-07-29 06:00 CT",
       "routine": "pre-market",
@@ -84,12 +90,6 @@
       "routine": "midday",
       "headline": "Midday check — nothing to change",
       "body": "Live re-check clean; stops resting; no qualifier. Holding."
-    },
-    {
-      "ts": "2026-07-27 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades, weekly buy cap reset 0/3",
-      "body": "New trading week. Stops and theses validated. No buy cleared the gate."
     }
   ]
 }
