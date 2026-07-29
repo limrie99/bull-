@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-07-28 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-29 06:00 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 103544.71,
+  "equity": 103421.84,
   "cash": 60167.78,
-  "day_pl": 750.27,
-  "day_pl_pct": 0.73,
+  "day_pl": -60.20,
+  "day_pl_pct": -0.06,
   "week_pl_pct": 0.78,
   "spy_week_pct": 0.26,
   "alpha_week_pct": 0.52,
@@ -14,24 +14,24 @@
       "symbol": "LLY",
       "qty": 14,
       "avg_cost": 1078.46,
-      "current": 1225.00,
-      "pl_pct": 13.59,
+      "current": 1225.19,
+      "pl_pct": 13.61,
       "stop": 1124.505
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 639.84,
-      "pl_pct": 8.48,
+      "current": 633.00,
+      "pl_pct": 7.32,
       "stop": 579.591
     },
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 357.3661,
-      "pl_pct": 8.39,
+      "current": 358.10,
+      "pl_pct": 8.62,
       "stop": 323.307
     }
   ],
@@ -43,6 +43,12 @@
     { "date": "2026-06-25 12:05", "side": "RISK-MGMT", "symbol": "DE", "qty": 22, "price": 558.945 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-07-29 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan — it's Fed day; holding steady, cash stays dry (32nd straight empty scan)",
+      "body": "Research-only, no trades. 4-analyst scan cleared nothing (2 signals + Conviction >=70). FOMC decision 1pm CT with a live ~1-in-3 hike tail and no new forecast chart, plus MSFT/META/QCOM earnings tonight -- buying ahead of that is a gamble, so ~58% cash is an asset today. All three holdings green and intact on 10% trailing stops. Lone new idea LMT is a +14%/week defense spike on cooling geopolitics -> bench, not a buy."
+    },
     {
       "ts": "2026-07-28 15:00 CT",
       "routine": "market-close",
@@ -84,12 +90,6 @@
       "routine": "market-open",
       "headline": "Open: no trades, weekly buy cap reset 0/3",
       "body": "New trading week. Stops and theses validated. No buy cleared the gate."
-    },
-    {
-      "ts": "2026-07-27 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market — new week, nothing clears yet",
-      "body": "Weekly buy cap reset to 0/3. No candidate cleared 2 signals + Conviction >=70. Watching FOMC and earnings."
     }
   ]
 }

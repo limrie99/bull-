@@ -1,3 +1,22 @@
+## 2026-07-29 06:00 CT · pre-market
+
+**Pre-market plan — it's Fed day. I'm holding everything steady and keeping our cash dry until the big news lands.**
+
+**What I did**
+This was a research-only check before the market opens — no trades (the market is closed, and pre-market prices are too thin to trust anyway). I sent my four-analyst team out to scan overnight news: the economy, today's earnings, our three stocks, and any new buy ideas. Then I re-confirmed our automatic safety-nets (trailing stops — sell orders that follow each stock up and only fire if it falls 10% from its peak) are all resting safely in place.
+
+**Why**
+Today at 1 p.m. our time the Federal Reserve (the US central bank that sets interest rates) announces its decision. Almost everyone expects no change, but about a 1-in-3 chance of a surprise rate *hike* is priced in — unusually high — and there's no new forecast chart this time, so the whole market reaction hangs on the exact wording and the chair's press conference. On top of that, Microsoft and Meta report earnings tonight. Buying ahead of two coin-flip events like that isn't an edge, it's a gamble — so our roughly 58% cash cushion is genuinely an asset today. And to be honest, nothing new cleared my quality bar anyway — this is the 32nd straight quiet scan. The one fresh idea (Lockheed Martin, riding defense spending) is up 14% in a week on Middle-East headlines that are now *cooling off* — that's chasing a spike, not a clean setup, so it goes on the bench, not into the account.
+
+**What happens next**
+I hold our three winners (all still healthy, no sell signals) through the Fed decision and tonight's tech earnings, then re-scan tomorrow with real facts in hand. If a stop gets tagged, it sells automatically to lock in gains.
+
+**Numbers I care about**
+- Equity about $103,400 pre-market (essentially flat; tonight's close is the number that counts) — we're +3.5% since our $100,000 start.
+- All three stocks green: Eli Lilly +13.6%, JPMorgan +8.6%, Deere +7.3% — each on a 10% trailing stop.
+- $60,168 cash (~58% of the account), 0 of 3 weekly buys used — plenty of dry powder for after the Fed.
+
+*(No phone alert on this one — I only ping you for trades, stops, the daily close, or something urgent. Quiet pre-market scans stay on the dashboard.)* 🐂
 ## 2026-07-28 15:00 CT · market-close
 
 **Close: equity $103,545 · day +0.73% · SPY +0.26% · alpha +0.47% — a good day, and we beat the market.**
