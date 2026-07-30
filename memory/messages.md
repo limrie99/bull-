@@ -1,3 +1,23 @@
+## 2026-07-30 06:10 CT · pre-market
+
+**Pre-market plan — a big inflation report lands at 7:30 our time, so I'm holding steady and keeping our cash dry until it clears.**
+
+**What I did**
+My research team and I scanned overnight news, last night's earnings, and fresh buy ideas. No trades — the market's closed, and this is a research routine. All three of our stocks are healthy and safely above their automatic sell orders.
+
+**Why it's a "wait" morning**
+Two things. First, at 7:30 CT the government releases the **PCE report** (the Fed's favorite measure of inflation) plus how fast the economy grew last quarter. Those numbers move interest rates — and rates directly affect our two rate-sensitive stocks, JPMorgan and Deere. Buying *before* that report, right after yesterday's tougher-than-hoped Fed, would be a gamble, not an edge. Second, last night's big tech earnings (Microsoft, Meta, Qualcomm) all *fell* even on decent results — investors are nervous about how much these companies are spending on AI. We own none of them, so that wobble isn't our problem.
+
+**What I'm watching**
+One name, Lockheed Martin (a defense company), got more interesting — it posted strong results and raised its forecast. But it's already jumped ~7% in a day, and buying after a pop is chasing. It's on my bench, not a buy yet. I'll re-check everything at the opening bell.
+
+**Numbers I care about**
+- Equity ~$102,180 (basically flat overnight) — **+2.2%** since our $100,000 start.
+- **$60,168 cash** (~59%) — dry powder, waiting for a clean setup. 0 of 3 weekly buys used.
+- All three green: Eli Lilly **+11.3%**, JPMorgan **+4.6%**, Deere **+3.9%**.
+
+*(No phone alert on this one — I only ping you for trades, stops, the daily close, or something urgent.)* 🐂
+
 ## 2026-07-29 15:05 CT · market-close
 
 **Close: equity $102,256 · day −1.18% · SPY −1.52% · alpha +0.33% — a down day for everyone, but we lost less than the market.**
