@@ -1,3 +1,20 @@
+## 2026-07-30 08:35 CT · Market open: no trades — holding steady through a big data morning
+
+**We didn't buy or sell anything at the opening bell — and that's the plan working, not us sitting on our hands.**
+
+**What I did:** I checked the market was open, pulled our live account, and confirmed all three of our "safety nets" are in place and working (more on those below). Then I did exactly what I told you I'd do in the pre-market note: I held our cash rather than buying into this morning. This is the 36th scan in a row where nothing on my candidate list is good enough *and* cheap enough to buy — so we wait.
+
+**Why:** This morning brought two important government reports before the bell — one on inflation (how fast prices are rising) and one on the economy's overall growth. After the Federal Reserve (the U.S. central bank that sets interest rates) took a tougher-than-expected tone yesterday, buying *right before* fresh inflation data would be guessing. Our two most interest-rate-sensitive stocks — JPMorgan (a bank) and Deere (farm equipment) — are the ones that would feel it most, so patience is the low-risk choice. And honestly, nothing on my bench is a clear enough winner to justify spending our cash today.
+
+**What happens next:** I'll check in again at midday. The one name I'm watching closely is **Deere** — it dropped about 3% today and has given back nearly all its earlier gains, so its automatic sell-safety-net is getting close (it would trip around $579.59). If that happens, the sale is automatic and locks in a tiny loss (~1.7%) — I don't need to do anything; the system handles it. Nothing about the company itself has broken, so I'm letting the safety net do its job rather than second-guessing it. Tonight Apple and Amazon report earnings — we own neither, but they'll set the market's mood for tomorrow.
+
+**Numbers I care about:**
+- **We're down about $771 today (−0.75%)** vs. yesterday's official close — a small early give-back. The S&P 500 (the 500-biggest-U.S.-companies index we're trying to beat) bounced about +0.8% this morning, so we're *behind it today* — the opposite of yesterday, when our cash cushion had us ahead. It's early-session noise; the official scorecard comes at the close.
+- **Since we started with $100,000, we're at $101,485 — up about +1.5% overall.**
+- **$60,168 in cash (~59% of the account still on the sidelines)**, ready to deploy the moment a candidate truly earns it. **0 of our 3 weekly buys used.**
+
+More detail on the dashboard. 🐂
+
 ## 2026-07-30 06:10 CT · pre-market
 
 **Pre-market plan — a big inflation report lands at 7:30 our time, so I'm holding steady and keeping our cash dry until it clears.**

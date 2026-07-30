@@ -1,3 +1,43 @@
+## 2026-07-30 08:35 CT (09:32 ET) — MARKET-OPEN (Thu) · execute pre-market plan · NO TRADES (36th straight empty)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **OPEN** (clock is_open:true, timestamp 09:32:15 ET, next_close 2026-07-30 16:00 ET). Inbox: **nothing pending.** Account (LIVE open marks): equity **$101,485.17**, cash **$60,167.78** (~59.3%), long_market_value **$41,317.39** (~40.7%), buying_power $356,359.80, status ACTIVE. **NB:** `last_equity` still reads the STALE **$103,482.04** (7/28 close — paper API hasn't rolled to the 7/29 official close $102,256.39), so day-P/L off `last_equity` (−$1,997/−1.93%) is misleading. Against the real 7/29 close ($102,256.39), open equity is **−$771.22 / −0.75%** — modest early give-back on thin open marks (market-close owns the official number). **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
+
+**No trades this run.** Executed the pre-market plan exactly: HOLD dry powder through the 8:30 ET PCE/GDP double-header (post-hawkish-Fed) + tonight's AAPL/AMZN prints; nothing clears the conviction gate (36th straight empty scan). No buys, no sells, no stop conversions, no fills.
+
+**Stops — all 3 confirmed RESTING via `GET /v2/orders?status=open&nested=true` (all 10% trailing GTC, IDs/floors/hwm unchanged from 7/29 close):**
+- LLY `6016a7e7-faac-4e93-82e7-851abf30eca8` — floor **1124.505**, hwm 1249.45. Live 1177.84 → cushion **~4.53%**.
+- JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **323.307**, hwm 359.23. Live 347.6499 → cushion **~7.00%**.
+- DE  `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **579.591**, hwm 643.99. Live 591.52 → cushion **~2.02% (tightest; tightened materially — DE −3.18% today).**
+- All positions show qty_available:0 → shares reserved by their resting trailing-stop sell orders (independent confirmation stops are live).
+
+**+5% conversion check:** JPM now **+5.45%** (crossed +5% intraday) but is ALREADY on a 10% trailing stop → trailing stops are never reverted, no action. LLY +9.22%, DE +0.29% — both already trailing. **Zero hard stops in book → no −7%→trailing conversion needed anywhere.**
+
+### Position marks (open, live)
+| Sym | Qty | Avg | Live | Unrl P/L | Unrl % | Intraday % | Floor | Cushion | Size % |
+|---|---|---|---|---|---|---|---|---|---|
+| LLY | 14 | 1078.46 | 1177.84 | +1391.32 | +9.22% | −2.66% | 1124.505 | ~4.53% | 16.25% |
+| JPM | 34 | 329.695588 | 347.6499 | +610.45 | +5.45% | +0.85% | 323.307 | ~7.00% | 11.65% |
+| DE  | 22 | 589.82 | 591.52 | +37.40 | +0.29% | −3.18% | 579.591 | ~2.02% | 12.82% |
+
+Net open unrealized **~+$2,039.17**. All position sizes < 20% cap. Long ~40.7% / cash ~59.3%.
+
+### Read for our book
+- **Book down modestly at the open** (LLY −2.66%, DE −3.18% giving back; JPM +0.85% green) while **SPY bounced to ~735.52 (+0.82% off the 7/29 close 729.57).** So intraday we're LAGGING SPY (~−0.75% vs +0.82% ≈ −1.6 pts) — a reversal of yesterday's dynamic where our cash was beating a falling SPY. This is early-session, thin-mark noise; the close owns the official read. Nothing here is a thesis event.
+- **DE watch escalates on price only (NOT thesis):** DE has round-tripped its whole run — hwm 643.99 (~+9.2%) back to +0.29% — and its trailing floor 579.591 now sits ~1.7% BELOW the 589.82 entry, so if the slide continues the trailing stop would exit at a **small loss (~−1.7%)**, not a gain. Still no thesis break (the right-to-repair re-framing remains sentiment, not a new legal action/guidance cut/exec change). Cushion ~2.02% — the one name to watch at midday. Let the mechanism work; do not pre-empt the stop.
+- **LMT re-verify (per pre-market plan):** not re-run this run — at ~63 (< 70) it does not buy regardless, and the disciplined call is to NOT chase a +14%-week pop into a post-hawkish-Fed, pre-digested-data tape. Deferred to the next scan / weekly review; no change to the HOLD.
+
+### Sell candidates — NONE
+All 3 theses intact, all on 10% trailing stops, none at its floor. No thesis breaks, no fundamentals deterioration.
+
+### Plan into midday (Thu 7/30 ~12:05 CT)
+- **HOLD.** Watch DE's ~2% cushion at midday — trailing stop handles a break automatically; only act manually on a real thesis break, which there is not.
+- Watch tonight's **AAPL + AMZN** AMC prints (we own neither — a read on tape sentiment, not a catalyst for our book).
+- **Cash-drag re-eval (ARMED — this IS the pre-committed test week):** TODAY's PCE/GDP is the input; DECISION at **Friday's weekly review.** Nuance flips intraday: SPY's bounce means the *"while SPY keeps rising"* half is momentarily firing again (SPY +0.82% today), unlike yesterday. Carry the full week's tape into Friday's decision, not one session.
+
+**Memory writes:** research-log prepended (this entry); portfolio.md refreshed (open snapshot); messages.md prepended (teacher-voice open update); dashboard/state.json overwritten. Inbox: nothing to move. **No Telegram** (market-open, no trades — per CLAUDE.md skip rule; not urgent: intraday −0.75% « −3% cap, no API failure, no decision needed).
+
+---
+
 ## 2026-07-30 06:10 CT — PRE-MARKET (Thu) · 4-agent scan · NOTHING CLEARS (35th straight)
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Market CLOSED (clock is_open:false, next_open 2026-07-30 09:30 ET). Inbox: **nothing pending.** Account (LIVE pre-market marks — thin/unreliable; market-close owns the official daily number): equity **$102,179.40**, cash **$60,167.78** (~58.9%), long_market_value **$42,011.62** (~41.1%), buying_power $358,303.67, status ACTIVE. **NB:** Alpaca `last_equity` still reads **$103,482.04** (the 7/28 close — the paper API hasn't rolled it to the 7/29 official close $102,256.39 yet pre-open), so a day-P/L off `last_equity` is misleading this morning. Against the real 7/29 close ($102,256.39), pre-market equity is **−$77 / −0.08%** = noise on thin marks. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
