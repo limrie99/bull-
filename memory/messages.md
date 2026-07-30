@@ -1,3 +1,18 @@
+## 2026-07-30 15:00 CT · Close: equity $101,483 · day −0.76% · SPY +1.65% · alpha −2.41%
+
+**A frustrating day — we slipped about $773 (−0.76%) while the market jumped +1.65%. We lagged badly today, and I want to be straight with you about why.**
+
+**What I did:** No trades. I pulled our final numbers, confirmed all three holdings and their automatic safety-net sell orders ("trailing stops" — they follow a stock up and only sell if it falls 10% from its peak) are resting where they should be, and locked in the official end-of-day scorecard.
+
+**Why:** The stock market had a strong, tech-led rally today — money rushed into big technology names. We don't own any of those; we own two "defensive" stocks (Eli Lilly, a drugmaker, and Deere, farm equipment) plus one bank (JPMorgan). On a day when investors chase tech, money rotates *out* of steady defensive names — so Eli Lilly fell −4.4% (that alone was most of our loss) even though nothing bad happened at the company. JPMorgan, our one bank, actually rose +1.8% and helped. Here's the honest lesson: the big pile of cash we're holding (~59%) *protected* us yesterday when the market fell — but today it did the opposite, keeping us on the sidelines of a rally. Cash cuts both ways.
+
+**What happens next:** Friday is my weekly review, and this is exactly the question I'll wrestle with then — are we holding too much cash for a rising market? Eli Lilly reports earnings around Aug 5; it's still up +7.3% for us, so no worry, just watching. Nothing needs action today — no stock is anywhere near its safety net (closest is Lilly, still ~2.8% above).
+
+**Numbers I care about:**
+- **Down $773 today (−0.76%); the S&P 500 rose +1.65%,** so we trailed the market by about 2.4 points — our worst gap in a while, and it's the price of holding so much cash on a big up day.
+- **We're still up +1.48% since we started** ($100k → $101,483), with ~$2,031 of unrealized gains across the three holdings.
+- **$60,168 cash (~59% on the sidelines), 0 of 3 weekly buys used** — I'll decide Friday whether that cash level still makes sense.
+
 ## 2026-07-30 12:05 CT · Midday: steady, no changes — all three green, Deere bounced back
 
 **Nothing to buy or sell at lunchtime — and the one stock I flagged this morning, Deere, has recovered nicely.**

@@ -4661,3 +4661,31 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Inbox:** nothing pending.
 
 **Actions this run: NONE.** No Telegram push (quiet midday, no trade — per CLAUDE.md skip list). Next routine: **market-close ~15:00 CT** (owns the mandatory daily "How we're doing" update + Telegram). Watch into the close: (1) DE cushion (3.90%, comfortably restored); (2) whether the SPY bounce holds or our non-tech book catches up; (3) AAPL + AMZN report AMC tonight — tape read only, we own neither.
+
+### Day summary (CLOSE 2026-07-30 15:00 CT — OFFICIAL)
+
+**Closing snapshot (Alpaca):** equity **$101,483.02**, cash **$60,167.78** (~59.29%), long_market_value **$41,315.24** (~40.71%), buying_power $356,353.79. Today closed orders: **0** (no fills). Open orders: 3, all 10% trailing GTC, RESTING — LLY 6016a7e7 floor 1124.505/hwm 1249.45; JPM 8a937ff6 floor 323.307/hwm 359.23; DE dcdd84e5 floor 579.591/hwm 643.99. No new highs today → no ratchet, floors unchanged. Zero hard stops. **Data note:** Alpaca `last_equity`/`sma`/portfolio-history are still frozen at the STALE 7/28 value $103,482.04 (never rolled to the 7/29 official close) — used the research-log's recorded 7/29 close $102,256.39 as the day-P/L base, exactly as the routine prompt permits.
+
+**Official scorecard:**
+- **Closing equity $101,483.02.** Day P/L **−$773.37 / −0.756%** (vs real 7/29 close $102,256.39).
+- **SPY day +1.653%** (close 741.63 vs 729.57; IEX daily bars; latest trade 741.63 @ 15:59 ET confirms).
+- **Alpha today −2.41 pts.** Worst-lag day of the stretch.
+- **WTD (base 7/24 eq $102,740.86 / SPY 738.90):** port **−1.224%**, SPY **+0.369%**, **alpha WTD −1.59 pts.**
+- Total since $100K start **+1.483%**. Net open unrealized **+$2,031.11** (LLY +1,099.56, JPM +719.25, DE +212.30).
+
+**Positions at close:** LLY 14 @ 1157.00 (+7.28%, MV $16,198.00, 15.96%, change_today −4.38%); DE 22 @ 599.47 (+1.64%, MV $13,188.34, 13.00%, change_today −1.88%); JPM 34 @ 350.85 (+6.42%, MV $11,928.90, 11.75%, change_today +1.78%). All under 20% cap. Cushions: JPM 7.85%, DE 3.32%, LLY 2.81% (tightest).
+
+**Trades placed today:** NONE (no buys, no sells, no stop changes). ~38th-straight effectively-empty scan on the 2-verified-signal + Conviction≥70 gate.
+
+**What worked:**
+- **JPM did its job as the one cyclical.** +1.78% on a risk-on tape — the financial in the book participated in the rally when the two defensives (pharma/ag) did not. Diversification within the book paid a little.
+- **Stops held with room, no forced action.** Even after a −0.76% down day, tightest cushion (LLY) still 2.81% above its floor — no shake-out, nothing to manage manually.
+
+**What didn't / open questions:**
+- **The cash barbell that saved us on 7/29 hurt us on 7/30.** Two-sided by construction: ~59% cash + zero mega-cap tech meant we barely felt SPY's +1.65% tech-led rip. −2.41 alpha today almost exactly reverses the reasoning that looked smart yesterday. This is the crux of Friday's cash-drag decision — cash dampens both directions, and over a rising tape that's a losing bet vs a beat-SPY mandate.
+- **LLY −4.38% is the day's single biggest drag** (−$742 of the −$773 loss). Cause: rotation OUT of defensive pharma INTO tech on a risk-on day — a sentiment/flow move, NOT a Lilly thesis break (no negative company news; earnings ~Aug 5 still the next catalyst). Cushion now tightest at 2.81%; trailing floor 1124.505 will handle any genuine break. Watch, don't pre-empt.
+- **Open questions for Fri 7/31 pre-market + weekly review:** (1) Cash-drag/gate re-eval is DUE Friday — two consecutive days now show the cost of sitting out (SPY +1.65% today, and WTD SPY +0.37% vs us −1.22%). Is the ≥70 gate too tight for this tape, or is the market just having a strong-tech week our fundamentals-first book shouldn't chase? (2) LLY into its ~Aug 5 print — hold-through or trim? (still +7.28%, well under the +20% take-profit rule). (3) Does the tech-led rally broaden or fade into month-end / Friday?
+
+**Memory writes:** portfolio.md overwritten (official close snapshot); this Day summary appended; messages.md prepended (teacher-voice EOD update); dashboard/state.json overwritten (official close — most important write of the day). Inbox: nothing to move.
+
+**Telegram: PUSHED** (mandatory daily "How we're doing" close update per CLAUDE.md — never skipped, trade or no trade).
