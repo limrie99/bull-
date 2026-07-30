@@ -1,3 +1,20 @@
+## 2026-07-30 12:05 CT · Midday: steady, no changes — all three green, Deere bounced back
+
+**Nothing to buy or sell at lunchtime — and the one stock I flagged this morning, Deere, has recovered nicely.**
+
+**What I did:** I pulled our live account at midday, re-checked all three holdings and their automatic safety-net sell orders (called "trailing stops" — they follow a stock up and only sell if it falls 10% from its peak). No trades, no changes. This is the plan from this morning still working.
+
+**Why:** The morning's inflation and growth reports (PCE and GDP) landed without a scare, so the market calmed down and drifted higher. Our two rate-sensitive names — JPMorgan (a bank) and Deere (farm equipment) — are steady. Deere is the good-news story: at the open it had dropped ~3% and was flirting with its safety net, but it's climbed back to +2.3%, so that worry has eased. There's still nothing on my candidate bench good enough *and* cheaply-priced enough to buy, so our cash stays dry.
+
+**What happens next:** I'll write the full end-of-day scorecard at the close (~3pm our time) — that's the official read on how we did versus the S&P 500. Tonight Apple and Amazon report their earnings; we don't own either, but they'll shape the market's mood tomorrow.
+
+**Numbers I care about:**
+- **We're down about $568 today (−0.56%)** vs. yesterday's close — a small give-back. The S&P 500 bounced ~+1.4%, so we're behind the market *today* while our steadier pharma/farm names sit out the tech-led rally. Early-day noise; the close is the number that counts.
+- **All three holdings are in profit:** Eli Lilly +7.9%, JPMorgan +6.7%, Deere +2.3% — a combined ~$2,232 in unrealized gains (paper profit we haven't locked in yet).
+- **$60,168 in cash (~59% still on the sidelines)**, 0 of 3 weekly buys used — ready the moment a candidate truly earns it.
+
+More detail on the dashboard. 🐂
+
 ## 2026-07-30 08:35 CT · Market open: no trades — holding steady through a big data morning
 
 **We didn't buy or sell anything at the opening bell — and that's the plan working, not us sitting on our hands.**

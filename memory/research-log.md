@@ -4628,3 +4628,36 @@ Pre-market plan (7/22 06:00) was: NO buys clear the gate (22nd straight empty sc
 **Memory writes:** portfolio.md overwritten (official close snapshot); this Day summary appended; messages.md prepended (teacher-voice EOD update); dashboard/state.json overwritten (official close — most important write of the day). Inbox: nothing to move.
 
 **Telegram: PUSHED** (mandatory daily "How we're doing" close update per CLAUDE.md — never skipped, trade or no trade).
+
+## 2026-07-30 12:05 CT — MIDDAY (Thu, market OPEN, is_open:true)
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Inbox: **nothing pending.** Live midday pull from Alpaca (clock is_open=true, next_close 16:00 ET).
+
+**Midday snapshot (Alpaca):** equity **$101,688.72**, cash **$60,167.78** (~59.17%), long_market_value **$41,520.94** (~40.83%), buying_power $356,929.75, status ACTIVE. `last_equity` still STALE **$103,482.04** (7/28 close, not rolled to the official 7/29 close $102,256.39) — do NOT use it for day-P/L. Book 3 of 5 (two slots OPEN), weekly buys 0/3.
+
+**Positions (live midday marks):**
+- LLY 14 @ 1078.46 → 1163.355, **+$1,188.53 / +7.87%**, MV $16,286.97 (16.02%). Trailing floor 1124.505 / hwm 1249.45 → cushion **3.34%**. (Pulled back from the +9.22% open mark; still well above floor. ~Aug 5 earnings.)
+- JPM 34 @ 329.6956 → 351.82, **+$752.23 / +6.71%**, MV $11,961.88 (11.76%). Trailing floor 323.307 / hwm 359.23 → cushion **8.10%**. (Firmed from +5.45% at open.)
+- DE 22 @ 589.82 → 603.08, **+$291.72 / +2.25%**, MV $13,267.76 (13.05%). Trailing floor 579.591 / hwm 643.99 → cushion **3.90%**. (RECOVERED from the open's −3.18%/+0.29% scare — the tightest-cushion worry at open eased; floor now ~2.2% above entry so a stop would exit near break-even/small gain.)
+
+All under the 20% cap. Net open unrealized **+$2,232.48**.
+
+**Risk management (priority order):**
+- (a) Any position ≤ −7% needing a news check + possible market sell: **NONE.** All three green (+2.25% to +7.87%). No thesis-break scan required.
+- (b) +5% conversion: LLY (+7.87%) & JPM (+6.71%) ≥+5% and already on 10% trailing; DE (+2.25%) below +5% but already trailing — **trailing stops are never reverted to hard stops.** Zero hard stops remain across the book. No action.
+- (c) Daily loss cap: intraday **−$567.67 / −0.56%** vs the real 7/29 close $102,256.39 — well under −3%. Not tripped (and no buys planned regardless).
+
+**HWM/floors:** No new highs today (all three below their hwm) → no trailing ratchet; floors unchanged from 7/29 close (LLY 1124.505, JPM 323.307, DE 579.591). All 3 confirmed RESTING (10% trailing GTC) via open-orders query (nested=true): LLY 6016a7e7, JPM 8a937ff6, DE dcdd84e5.
+
+**Scorecard (midday, provisional — close owns the official number):**
+- Open equity $101,688.72. Total since $100K start **+1.69%.**
+- Intraday **−0.56%** vs real 7/29 close. Recovered ~$203.55 from the 8:35 open mark ($101,485.17).
+- **SPY ~740.00** (live) = **+1.43%** off its 7/29 close 729.57 → we're **lagging SPY intraday ~2.0 pts** today (pharma/ag names lag while SPY rides a tech-led bounce; PCE/GDP digested benignly). Early-session divergence, close owns it.
+- **WTD** (base Fri 7/24 close eq $102,740.86 / SPY 738.90): port **−1.02%**, SPY **+0.15%**, alpha WTD **~−1.17 pts.** Official WTD lands Friday.
+- Cumulative alpha since 5/29 resume **~+5.7 pts** (SPY bounce narrowing it intraday).
+
+**Buys:** NONE. No high-conviction breaking catalyst at midday; nothing clears the gate (2+ verified signals AND Conviction ≥70) — ~37th straight effectively-empty scan. No midday deviation from the pre-market HOLD plan warranted. Book stays 3/5, 0/3 weekly buys, ~59.2% cash.
+
+**Inbox:** nothing pending.
+
+**Actions this run: NONE.** No Telegram push (quiet midday, no trade — per CLAUDE.md skip list). Next routine: **market-close ~15:00 CT** (owns the mandatory daily "How we're doing" update + Telegram). Watch into the close: (1) DE cushion (3.90%, comfortably restored); (2) whether the SPY bounce holds or our non-tech book catches up; (3) AAPL + AMZN report AMC tonight — tape read only, we own neither.
