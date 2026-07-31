@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-07-31 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-31 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 100893.16,
   "cash": 75893.56,
@@ -75,6 +75,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-31 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 7/31: -1.80% | SPY +1.07% | alpha -2.87% | grade C -- I need your call on our cash.",
+      "body": "Honest week: we fell -1.80% while the market rose +1.07%, lagging by ~2.87% (2nd-worst week of the run). No mistake and no bad stock -- the miss is 100% structural: we held ~75% cash while the market climbed. Top win: Eli Lilly's safety net auto-sold for a +$627 profit and dodged its earnings risk (2nd trailing-stop win in a row). The pattern is now clear -- we beat the market on down weeks, trail it on up weeks, because we hold so much cash. Three up-weeks now stung. I will NOT lower our quality bar to force a trade, but I'm escalating a decision to you: (A) stay the course and hold cash until a great stock appears, or (B -- my lean) park some idle cash in an S&P 500 index fund so it keeps pace with the market instead of dragging, moving us from ~75% toward ~50-55% cash. Reply in the inbox; default is A (hold) if you don't. We're still +0.89% since our $100k start and +2.3% ahead of the market overall, but that lead halved from +5.2%. JPM (+6.7%) and DE (+0.5%) hold, both protected."
+    },
+    {
       "ts": "2026-07-31 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $100,893 · day -0.55% · SPY +0.70% · alpha -1.25% -- cash sat out an up day.",
@@ -115,12 +121,6 @@
       "routine": "market-open",
       "headline": "Open: no trades -- holding steady through a big data morning",
       "body": "Confirmed the market open and all three safety-net stops resting, then held our cash exactly as the pre-market plan called for (36th straight empty scan -- nothing clears the buy-gate). Two government reports on inflation and growth hit before the bell right after a hawkish Fed, so buying ahead of them would be guessing -- especially for our rate-sensitive JPM/DE. We're down ~$771 (-0.75%) early while SPY bounced +0.8%, so we're behind the market intraday today (opposite of yesterday); it's early-session noise, official read at the close. Watching Deere at midday: it fell ~3% and its trailing stop (~579.59) is getting close -- automatic if it trips, no thesis break. ~59% cash still dry, 0/3 weekly buys used."
-    },
-    {
-      "ts": "2026-07-29 15:05 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $102,256 · day -1.18% · SPY -1.52% · alpha +0.33% -- down day, but we lost less than the market.",
-      "body": "Fed held rates but signaled a hawkish tilt (3 officials wanted a hike); markets sold off ~1.5%. Our ~59% cash cushion meant we fell less. No trades. All three holdings still green: LLY +12.2%, JPM +4.6%, DE +3.4%."
     }
   ]
 }

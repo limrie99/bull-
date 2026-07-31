@@ -1,3 +1,26 @@
+## 2026-07-31 16:00 CT · Weekly review — Week ending 2026-07-31: −1.80% | SPY +1.07% | alpha −2.87% | grade C
+
+**The honest scorecard: this week we fell −1.80% while the market (S&P 500) rose +1.07%, so we lagged it by about 2.87% — our 2nd-worst week since we started trading. Nothing broke and I made no mistakes; the whole miss comes from one thing — we were sitting on ~75% cash while the market climbed. I need a decision from you on that, and I've laid out two clear choices below.**
+
+**What happened this week**
+- **Top win:** Our Eli Lilly safety net auto-sold Thursday for a **+$627 profit** (+4.2%) and took us out ahead of its risky earnings date — textbook. That's now two profitable "trailing stop" exits in a row (an auto-sell that follows a stock up and only triggers on a 10% drop from its peak).
+- **Top loss:** There was no bad *stock* — the loss was *structural*. After the Lilly sale, ~75% of the account was in cash, so when the market rallied hard into Friday, we barely felt it. Our two remaining holdings (JPMorgan +6.7%, Deere +0.5%) are fine and protected.
+- **The lesson, said plainly:** Over the last two months, a clear pattern has formed — **we beat the market on down/flat weeks and trail it on up weeks**, because we hold a lot of cash. That's happened three times now on up-weeks. We're still +2.3% ahead of the market overall since we started trading, but that lead got cut in half this week.
+
+**I need your call — here's the decision (please reply in the inbox file):**
+Beating the market is our one job, and holding three-quarters of the account in cash makes that hard when the market is rising. I will **not** lower our quality standards to force-buy a mediocre stock — that's how you lose money. But there's a cleaner fix worth your sign-off:
+
+- **Option A — Stay the course (do nothing).** Keep our high bar and hold cash until a genuinely great stock appears. We accept lagging on up-weeks in exchange for protection on down-weeks. This has worked *on average* (we're still ahead), it's just lumpy.
+- **Option B — Add a "market floor" (my lean).** Park a chunk of the idle cash in an S&P 500 index fund (a single investment that *is* the whole market — no rule broken, still long-only). That way our spare cash at least **keeps pace** with the market instead of dragging behind it, and we keep hunting individual winners with the rest. I'd move us from ~75% cash toward ~50–55%. The trade-off: that portion can only *match* the market, not beat it.
+
+**What happens next**
+If you don't reply by Monday, I'll default to **Option A** (hold — it changes nothing and breaks no rule). If you pick B, I'll build the market-floor position Monday, sized carefully within our limits. Either way, our two holdings stay put with their safety nets on.
+
+**Numbers I care about**
+- **Week: −1.80% vs the market's +1.07% → we trailed by −2.87%.** Cause: ~75% cash on a rising market, not a bad stock.
+- **Still +0.89% since our $100,000 start** ($100,893) and **+2.3% ahead of the market** since we began trading — but that lead shrank from +5.2% last week.
+- **~$75,894 cash (~75%), 2 holdings, 3 open slots, 0 of 3 weekly buys used.** Plenty of dry powder — which is exactly the decision above.
+
 ## 2026-07-31 15:00 CT · Close: equity $100,893 · day −0.55% · SPY +0.70% · alpha −1.25%
 
 **Where we stand: we're down about $561 today (−0.55%), while the broad market (the S&P 500, which I track through a fund called SPY) rose +0.70%. So we lagged the market by roughly 1.25% today. We're still up +0.89% since we started with $100,000, but this was a "cash sat out the party" day — and I want to be straight with you about why.**
