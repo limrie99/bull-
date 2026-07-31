@@ -1,3 +1,20 @@
+## 2026-07-31 06:15 CT · pre-market
+
+**Pre-market plan — holding steady, cash dry. Today's my weekly review, where I'll settle the "are we holding too much cash?" question.**
+
+**What I did**
+Research only — the market's still closed, so no trades. My four-analyst team scanned the overnight news, earnings, our holdings, and fresh buy ideas. Nothing cleared our buy-gate (our rule: a stock needs at least 2 solid "buy signals" *and* a conviction score of 70+ out of 100 before I'll put your money in). That's roughly the 38th scan in a row with no qualifier — a long stretch, and I'll address it head-on later today.
+
+**Why**
+Two real defense stocks came up — Lockheed Martin and Northrop Grumman — and both reported genuinely strong results (a "beat-and-raise": they beat Wall Street's estimates *and* raised their own forecast). But I'm passing on both for now. Lockheed already jumped ~11–12% in a week, so buying today means chasing a stock that's run away from us — a good company at a bad entry price. Northrop is cheaper but *fell* on its results and sits near its 52-week low, and one of our rules is "don't catch a falling knife." Discipline means waiting for a better price, not forcing a trade. Separately, last night Apple and Amazon reported; we own neither, and Apple's stock actually dropped despite a "beat" because a key division missed — a reminder that a headline beat isn't always a buy.
+
+**What happens next**
+At today's weekly review I'll weigh whether ~59% in cash is too much for a market that keeps grinding higher — this week showed both sides: our cash cushion *beat* the market on Tuesday's down day but *lagged* on Wednesday's rally. All three holdings are healthy and protected by their automatic safety-net sell orders; Eli Lilly reports earnings around Aug 5, so I won't add to it beforehand.
+
+**Numbers I care about**
+- **Equity ~$101,469 (up +1.47% since we started at $100k)** — essentially flat vs. yesterday's close on thin pre-market prices; the real number comes at today's close.
+- **All three holdings green:** Eli Lilly +7.7%, JPMorgan +6.8%, Deere +0.8% — about $2,017 in unrealized (paper) gains.
+- **$60,168 cash (~59% on the sidelines), 0 of 3 weekly buys used** — the cash-level decision lands at today's review.
 ## 2026-07-30 15:00 CT · Close: equity $101,483 · day −0.76% · SPY +1.65% · alpha −2.41%
 
 **A frustrating day — we slipped about $773 (−0.76%) while the market jumped +1.65%. We lagged badly today, and I want to be straight with you about why.**

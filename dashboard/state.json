@@ -1,40 +1,40 @@
 {
-  "last_update": "2026-07-30 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-07-31 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101483.02,
+  "equity": 101469.25,
   "cash": 60167.78,
-  "day_pl": -773.37,
-  "day_pl_pct": -0.76,
-  "week_pl_pct": -1.22,
+  "day_pl": -13.77,
+  "day_pl_pct": -0.01,
+  "week_pl_pct": -1.24,
   "spy_week_pct": 0.37,
-  "alpha_week_pct": -1.59,
+  "alpha_week_pct": -1.61,
   "positions": [
     {
       "symbol": "LLY",
       "shares": 14,
       "avg_cost": 1078.46,
-      "price": 1157.00,
-      "pl_pct": 7.28,
-      "market_value": 16198.00,
+      "price": 1160.99,
+      "pl_pct": 7.65,
+      "market_value": 16253.86,
       "stop": "10% trailing @ 1124.505"
     },
     {
       "symbol": "DE",
       "shares": 22,
       "avg_cost": 589.82,
-      "price": 599.47,
-      "pl_pct": 1.64,
-      "market_value": 13188.34,
+      "price": 594.53,
+      "pl_pct": 0.80,
+      "market_value": 13079.61,
       "stop": "10% trailing @ 579.591"
     },
     {
       "symbol": "JPM",
       "shares": 34,
       "avg_cost": 329.695588,
-      "price": 350.85,
-      "pl_pct": 6.42,
-      "market_value": 11928.90,
+      "price": 352.00,
+      "pl_pct": 6.77,
+      "market_value": 11968.00,
       "stop": "10% trailing @ 323.307"
     }
   ],
@@ -77,6 +77,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-07-31 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan — holding steady, cash dry; today's weekly review settles the cash question (~38th straight empty scan)",
+      "body": "Research-only, no trades. 4-analyst scan cleared nothing (2 signals + Conviction >=70). Two real defense beat-and-raises surfaced but both fail on entry: LMT (~62) is a chase after a +11-12%/week pop; NOC (~55, NEW bench) beat but FELL and sits near 52-wk lows (fails our no-knife-catch uptrend rule). Last night AAPL beat but dropped on a Services miss (value trap) -- we own no tech. LLY/JPM/DE all green and intact on 10% trailing stops (LLY +7.7%, JPM +6.8%, DE +0.8%). LLY reports ~Aug 5 -- won't add ahead of it. The cash-drag decision lands at today's weekly review; this week cut both ways (cash beat SPY on Tue's -1.5% day, lagged on Wed's +1.65% rally). ~59% cash dry, 0/3 weekly buys used."
+    },
+    {
       "ts": "2026-07-30 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $101,483 · day −0.76% · SPY +1.65% · alpha −2.41% — a frustrating lag day.",
@@ -117,12 +123,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — steady into the Fed; all three green and protected",
       "body": "Re-checked live open prices: no buys, no sells, no stop changes. All three holdings healthy and above their trailing stops (LLY +12.7%, JPM +7.9%, DE +6.5%). Opened a touch soft (-0.4%) as rate-sensitive names get jittery ahead of today's Fed decision (1pm CT) + tonight's MSFT/META/QCOM earnings. Holding ~58% cash as an asset into two coin-flip events; nothing cleared the buy-gate (33rd straight empty scan). Full scorecard at the close."
-    },
-    {
-      "ts": "2026-07-29 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan — it's Fed day; holding steady, cash stays dry (32nd straight empty scan)",
-      "body": "Research-only, no trades. 4-analyst scan cleared nothing (2 signals + Conviction >=70). FOMC decision 1pm CT with a live ~1-in-3 hike tail and no new forecast chart, plus MSFT/META/QCOM earnings tonight -- buying ahead of that is a gamble, so ~58% cash is an asset today. All three holdings green and intact on 10% trailing stops. Lone new idea LMT is a +14%/week defense spike on cooling geopolitics -> bench, not a buy."
     }
   ]
 }
