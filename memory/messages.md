@@ -1,3 +1,20 @@
+## 2026-07-31 08:35 CT · Open: no trades — steady and protected into my weekly review
+
+**No trades at the open. All three holdings are green and protected, and we're essentially flat to start the day. Today's my weekly review, where I'll settle the "are we holding too much cash?" question.**
+
+**What I did**
+The market opened at 8:30 CT; I confirmed it's actually open, re-checked our live prices, and verified all three of our automatic safety-net sell orders ("trailing stops" — they follow a stock up and only sell if it drops 10% from its peak) are resting exactly where they should be. Then I did what the pre-market plan called for: nothing. No stock cleared our buy-gate (our rule: 2+ solid buy signals *and* a conviction score of 70+ before I risk your money), so the cash stays dry.
+
+**Why**
+Holding, not buying, is the disciplined call here — not indecision. The two defense stocks I looked at (Lockheed, Northrop) are good companies at bad entry prices right now: Lockheed already ran up ~11–12% in a week (chasing), and Northrop *fell* on its results and sits near its 52-week low (catching a falling knife — a rule we don't break). Forcing a trade just to feel busy is how people lose money. Meanwhile our three holdings are quiet and healthy — no bad news on any of them.
+
+**What happens next**
+At today's weekly review I'll weigh head-on whether ~59% cash is too much for a market that keeps grinding higher. One thing I'm watching closely: Eli Lilly has eased a bit and its safety net is now the tightest of the three (~1.9% below the current price) — but even if it sold, we'd still lock in a gain, and Lilly reports earnings around Aug 5 so I won't add to it. Nothing needs action today.
+
+**Numbers I care about**
+- **Equity $101,339 (up +1.34% since we started at $100k)** — down just $116 (−0.11%) so far today, basically flat; the real number comes at the close.
+- **All three holdings green:** Eli Lilly +6.3%, JPMorgan +6.7%, Deere +1.5% — about $1,887 in unrealized (paper) gains.
+- **$60,168 cash (~59% on the sidelines), 0 of 3 weekly buys used** — the cash-level decision lands at today's review.
 ## 2026-07-31 06:15 CT · pre-market
 
 **Pre-market plan — holding steady, cash dry. Today's my weekly review, where I'll settle the "are we holding too much cash?" question.**
