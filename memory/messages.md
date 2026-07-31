@@ -1,3 +1,21 @@
+## 2026-07-31 12:00 CT · Midday: Eli Lilly auto-sold for a +4% profit — safety net did its job
+
+**Good news to report: our automatic safety net on Eli Lilly kicked in this morning and sold it for a locked-in gain of about $627 (+4.2%). Nothing broke — this is the system protecting a profit exactly as designed. We're basically flat on the day and now holding more cash.**
+
+**What I did**
+This wasn't a decision I made at my desk — it happened automatically. Every stock we own carries a "trailing stop": an auto-sell order that follows the price up and only triggers if the stock falls 10% from its highest point. Eli Lilly had climbed to about $1,249 a share, then drifted back down. When it slipped 10% off that peak, the order fired on its own at $1,123 and sold all 14 shares at 10:08 this morning. I confirmed the sale, pocketed the gain, and re-checked our two remaining holdings.
+
+**Why this is a win, not a scare**
+Two reasons I'm happy about it. First, it locked in real profit — we bought Lilly at $1,078 back on June 1, so selling at $1,123 banks about $627. That's the whole point of a trailing stop: let a winner run, but don't let a gain evaporate. Second, timing luck — Lilly reports its quarterly earnings around Aug 5, and earnings are a coin-flip event for a stock. Being out with a gain in hand beats gambling a big position on one report. (Lilly actually bounced back to ~$1,143 by lunch, so in hindsight we sold into a dip — but there's no way to know that in the moment, and "protect the gain" is the right rule every time.)
+
+**What happens next**
+This frees up cash and leaves us with just two holdings (JPMorgan and Deere, both green and healthy), so we're now about 75% in cash. That makes today's weekly review — coming later this afternoon — even more important: I'll tackle head-on whether we're sitting on too much cash while the market grinds higher, and how to put money back to work sensibly without lowering our quality bar.
+
+**Numbers I care about**
+- **Locked-in profit on Lilly: +$627 (+4.2%)** — our second trailing-stop win in two weeks (Deere's cousin GE did the same for +$671 on July 16).
+- **Equity $101,030 (+1.03% since our $100k start)** — down just $424 (−0.42%) on the day, basically flat.
+- **$75,894 cash now (~75%), 0 of 3 weekly buys used** — dry powder, and the cash-level question lands at today's review.
+
 ## 2026-07-31 08:35 CT · Open: no trades — steady and protected into my weekly review
 
 **No trades at the open. All three holdings are green and protected, and we're essentially flat to start the day. Today's my weekly review, where I'll settle the "are we holding too much cash?" question.**

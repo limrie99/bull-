@@ -1,3 +1,39 @@
+## 2026-07-31 12:00 CT — MIDDAY (Fri, WEEKLY-REVIEW day) · LLY TRAILING STOP AUTO-FIRED (+$627 WIN) · no new buys
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **OPEN** (clock is_open:true, timestamp 13:03 ET, next_close 2026-07-31 16:00 ET). Inbox: **nothing pending.** Account (LIVE midday marks): equity **$101,030.27**, cash **$75,893.56** (~75.12%), long_market_value **$25,136.71** (~24.88%), buying_power $373,957.03, status ACTIVE. `last_equity` $101,454.60 → **day P/L −$424.33 / −0.42%** = mild give-back, « −3% loss cap. **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3.**
+
+**AUTO-EXECUTED THIS RUN (not discretionary): LLY 10% trailing stop `6016a7e7` FIRED at 10:08 ET — SOLD 14 @ 1123.27, realized +$627.34 / +4.15%.** Confirmed via closed-orders (status filled), FILL activities (partial_fill 8 @ 1123.27 T14:08:37Z + fill 6 @ 1123.27 T14:08:38Z), LLY absent from /v2/positions, and cash jump $60,167.78 → $75,893.56 (+$15,725.78 ≈ 14 × 1123.27). LLY had run to hwm 1249.45, gave back 10% to the floor 1124.505, stop executed 1123.27. **LLY bounced to ~1143 within hours → normal give-back, NOT a thesis break.** Bonus: exit removed LLY's ~Aug 5 Q2 earnings risk with a locked gain rather than riding a large position through a binary print. Filled ~93 min after the 08:35 CT open snapshot (which had flagged LLY as tightest cushion ~1.88%), so open didn't catch it — midday reconciled it.
+
+**Risk management (priority order per routine):**
+- **(a) Any position −7% or worse un-stopped → Perplexity news check + sell?** NONE. JPM +7.20%, DE +1.11%. No position anywhere near a hard-stop trigger. (LLY already auto-closed; a quick sanity read — LLY bouncing back to ~1143 same-day — confirms no company-specific break, so no discretionary follow-up needed.)
+- **(b) Any position +5%+ needing −7% hard → 10% trailing conversion?** JPM +7.20% ≥ +5% but ALREADY on a 10% trailing stop (never reverted). DE +1.11% below +5%, also already trailing. **Zero hard stops in book → no conversion needed.**
+- **(c) Daily loss cap:** day P/L −0.42% « −3% → cap NOT hit. (Moot for buys anyway.)
+
+**Remaining stops — both re-confirmed RESTING via `GET /v2/orders?status=open&nested=true` (all 10% trailing GTC, floors/hwm unchanged, no new highs → no ratchet):**
+- JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **323.307**, hwm 359.23. Midday 353.44 → cushion **~8.53%** (widest).
+- DE `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **579.591**, hwm 643.99. Midday 596.36 → cushion **~2.81%** (tightest). qty_available:0 → reserved by resting stop.
+
+### Position marks (midday, live)
+| Sym | Qty | Avg | Mark | Unrl P/L | Unrl % | Floor | Cushion | Size % |
+|---|---|---|---|---|---|---|---|---|
+| JPM | 34 | 329.695588 | 353.44 | +807.14 | +7.20% | 323.307 | ~8.53% | 11.89% |
+| DE  | 22 | 589.82 | 596.36 | +143.88 | +1.11% | 579.591 | ~2.81% | 12.99% |
+
+Net open unrealized **+$951.02**. Realized this run **+$627.34** (LLY). Both sizes « 20% cap. Long ~24.88% / cash ~75.12%.
+
+### New buys — NONE (per routine: no midday buys unless high-conviction BREAKING catalyst + weekly buys<3 + positions<5)
+- No breaking single-name catalyst surfaced at midday; nothing on the bench clears the 2-signal + Conviction ≥70 gate (~38th straight empty per pre-market). Weekly buys 0/3, positions 2/5 — capacity exists, but the bar is unmet. Cash stays dry until a qualifier appears. **No deviation from the pre-market plan warranted.**
+
+### Benchmark (intraday, unofficial — close owns it)
+- SPY **745.15** midday vs 7/30 close 741.63 → **≈ +0.47% intraday.** Our book **−0.42%** intraday → **lagging SPY by ~0.9 pts today**, largely the LLY give-back before it sold (we booked the gain, but the pre-sale slide is in today's mark). WTD: port ≈ −1.66% vs SPY ≈ +0.85% (base 7/24). Official WTD/alpha at today's close + weekly review.
+
+### Cash-drag / gate decision — ARMED, DECIDES AT TODAY'S WEEKLY REVIEW (owned by that routine, NOT midday) — NOW SHARPER
+- The LLY exit mechanically lifts us to **~75% cash, 2 positions, three open slots** — right as the pre-committed cash-drag test week comes to its decision. Honest framing to carry into the review: (1) the exit itself was a clean WIN (+$627, gain protected, earnings risk removed) — the trailing-stop mechanism working exactly as designed, same pattern as GE (+$671 on 7/16); (2) but it raises cash further, making "is 59%→75% too much dry powder for a market grinding up" the live question; (3) the gate is functioning (correctly held chase-entry LMT ~62 and fell-on-print NOC ~55) — the open question is **deployment/sizing, NOT lowering the ≥70 bar**; (4) this week's tape cut both ways (cash BEAT SPY on 7/29's −1.52% day, +0.33 alpha; LAGGED on 7/30's +1.65% rally, −2.41 alpha). **Do NOT pre-empt the call at midday.** Weekly buy cap 0/3; resets Monday.
+
+**Memory writes:** research-log prepended (this entry); trade-log appended (LLY sell leg); portfolio.md overwritten (midday snapshot, 2 positions); messages.md prepended (teacher-voice midday update); dashboard/state.json overwritten (LLY exit → recent_trades, positions to 2). Inbox: nothing to move. **Telegram: PUSHED** (stop triggered / position auto-closed = mandatory push event per CLAUDE.md).
+
+---
+
 ## 2026-07-31 06:15 CT — PRE-MARKET (Fri, WEEKLY-REVIEW day) · 4-agent scan · NOTHING CLEARS (~38th straight)
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Market CLOSED (clock is_open:false, next_open 2026-07-31 09:30 ET; timestamp 07:10 ET). Inbox: **nothing pending.** Account (LIVE pre-market marks — thin/unreliable; market-close owns the official daily number): equity **$101,469.25**, cash **$60,167.78** (~59.3%), long_market_value **$41,301.47** (~40.7%), buying_power $356,315.22, status ACTIVE. **NB:** `last_equity` has finally rolled to **$101,454.60** (≈ the 7/30 official close $101,483.02, thin pre-open marks), so day-P/L off `last_equity` is roughly usable this morning: vs the 7/30 official close, pre-market equity is **−$13.77 / −0.01%** = flat noise. **3 of 5 positions; TWO slots OPEN. Weekly buys 0/3.**
