@@ -1,3 +1,36 @@
+## 2026-07-31 15:00 CT — MARKET CLOSE (Fri, WEEKLY-REVIEW day) · Day summary · −0.55% vs SPY +0.70% (alpha −1.25%) · no afternoon trades
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **CLOSED** (clock is_open:false, timestamp 16:01 ET, next_open 2026-08-03 09:30 ET). Inbox: **nothing pending.** Account (OFFICIAL close marks): equity **$100,893.16**, cash **$75,893.56** (~75.22%), long_market_value **$24,999.60** (~24.78%), buying_power $373,573.12, status ACTIVE. Yesterday's close (last_equity / portfolio-history last point) **$101,454.60**. **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3.**
+
+**Positions at close (official marks):**
+- JPM 34 @ 351.79 → MV $11,960.86, +$751.21 (+6.70%), size 11.85%. Change today +0.27%. Trailing stop 323.307 (hwm 359.23), cushion ~8.10% (widest). RESTING.
+- DE 22 @ 592.67 → MV $13,038.74, +$62.70 (+0.48%), size 12.92%. Change today −1.13% (main drag). Trailing stop 579.591 (hwm 643.99), cushion ~2.21% (tightest). RESTING. Div $1.62 payable Aug 10.
+- Neither hwm exceeded today → no trailing ratchet; floors unchanged.
+
+**Today's orders:** ONE fill only — LLY trailing stop `6016a7e7` filled 14 @ 1123.27 at 14:08 UTC (10:08 ET), realized +$627.34 / +4.15% (already reconciled in the midday research-log + trade-log). No afternoon orders. daytrade_count 0.
+
+**Benchmark math:**
+- Yesterday's close equity $101,454.60 (Alpaca portfolio-history period=5D 1D last point, matches account last_equity).
+- Day return = (100,893.16 − 101,454.60) / 101,454.60 = **−0.5534% (−$561.44)**.
+- SPY: 7/30 close 741.63 → 7/31 close 746.79 (IEX daily bar; latest trade 746.79 @ 19:59:59 UTC) = **+0.6958%**.
+- **Alpha today = −0.5534 − 0.6958 = −1.25%.**
+- WTD (base 7/24 close eq 102,740.86 / SPY 738.90): port −1.80%, SPY +1.07%, **WTD alpha ≈ −2.87%** (official owned by today's weekly review).
+- Total since $100K start: **+0.89%.**
+
+**Day summary — closing equity $100,893.16, day P/L −$561.44 / −0.55%, SPY +0.70%, alpha −1.25%, 0 discretionary trades (1 auto stop-out earlier).**
+
+*What worked:*
+- LLY trailing stop banked +$627 and removed a binary ~Aug 5 earnings event — a clean, rules-driven win (this week's second trailing-stop profit alongside GE +$671).
+- Risk discipline intact: zero positions near a hard stop, both remaining stops resting correctly, no forced/panic moves. JPM steady and healthy (+6.70%).
+
+*What didn't:*
+- Cash drag bit today: ~75% cash can't ride a broad +0.70% SPY day, so we posted −0.55% while the market rose — a −1.25% alpha day driven almost entirely by NOT being invested, not by a bad holding.
+- DE softened −1.13% (ag-commodity sentiment), tightening its cushion to ~2.21% and dragging the book red on the day.
+
+*Open questions for tomorrow / weekly review:*
+- The central one, now sharper after a lagging week (WTD alpha ≈ −2.87%): is ~75% cash / 2 positions too much dry powder for a market grinding up? Deploy into a 3rd/4th position, or hold the bar? (Owned by TODAY's weekly review.)
+- Nothing on the bench clears the ≥70 gate (~38th straight empty scan) — the deployment question is about sourcing quality at the right entry, NOT lowering the bar. ETN reported 7/31 BMO — re-check post-print.
+- DE's tight cushion: let the trailing floor (579.591) work; no pre-emptive action on price. Watch for any VERIFIED thesis break vs. plain sentiment.
 ## 2026-07-31 12:00 CT — MIDDAY (Fri, WEEKLY-REVIEW day) · LLY TRAILING STOP AUTO-FIRED (+$627 WIN) · no new buys
 
 **Setup:** 4 required keys present (cloud mode; Telegram set). Market **OPEN** (clock is_open:true, timestamp 13:03 ET, next_close 2026-07-31 16:00 ET). Inbox: **nothing pending.** Account (LIVE midday marks): equity **$101,030.27**, cash **$75,893.56** (~75.12%), long_market_value **$25,136.71** (~24.88%), buying_power $373,957.03, status ACTIVE. `last_equity` $101,454.60 → **day P/L −$424.33 / −0.42%** = mild give-back, « −3% loss cap. **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3.**

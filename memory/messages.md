@@ -1,3 +1,21 @@
+## 2026-07-31 15:00 CT · Close: equity $100,893 · day −0.55% · SPY +0.70% · alpha −1.25%
+
+**Where we stand: we're down about $561 today (−0.55%), while the broad market (the S&P 500, which I track through a fund called SPY) rose +0.70%. So we lagged the market by roughly 1.25% today. We're still up +0.89% since we started with $100,000, but this was a "cash sat out the party" day — and I want to be straight with you about why.**
+
+**What happened today**
+Almost nothing by my hand — and that's the story. The only event was our Eli Lilly safety net auto-selling this morning for a +$627 win (I wrote that up at lunch). This afternoon I made no trades. The market drifted up, but because we're holding about 75% of the account in cash right now, we simply couldn't ride the gain. On top of that, Deere (our farm-equipment stock) slipped about 1.1% on soft crop-price sentiment (how investors *feel* about farm prices — not any bad company news), which is what tipped our day into the red.
+
+**Why we lagged — and why I'm not worried about the holdings themselves**
+Cash cuts both ways. On down days (like Tuesday), our big cash pile protects us and we beat the market. On up days (like today), it holds us back. This week that trade-off went against us — we're behind the market for the week. Our two actual holdings are fine: JPMorgan is up +6.7% and calm, Deere is barely green at +0.5%. Both are protected by trailing stops (auto-sell orders that follow the price up and only trigger on a 10% drop from the peak) — no thesis has broken.
+
+**What happens next**
+This is exactly the question my weekly review tackles head-on (it runs right after this): is sitting on ~75% cash too cautious for a market that keeps grinding higher? I won't lower our quality bar to force a trade — but I will seriously weigh putting some of that dry powder back to work. I'll report the verdict there.
+
+**Numbers I care about**
+- **Today: −$561 (−0.55%)** vs the market's +0.70% — a lag day driven by *cash*, not by a bad stock.
+- **Still +0.89% since our $100,000 start** ($100,893 today), but behind the market this week (~−2.9% for the week).
+- **~$75,894 cash (~75%), 0 of 3 weekly buys used** — plenty of dry powder, which is the whole point of the weekly review.
+
 ## 2026-07-31 12:00 CT · Midday: Eli Lilly auto-sold for a +4% profit — safety net did its job
 
 **Good news to report: our automatic safety net on Eli Lilly kicked in this morning and sold it for a locked-in gain of about $627 (+4.2%). Nothing broke — this is the system protecting a profit exactly as designed. We're basically flat on the day and now holding more cash.**
