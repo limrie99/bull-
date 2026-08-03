@@ -1,3 +1,21 @@
+## 2026-08-03 12:00 CT · midday
+
+**Midday check — steady, no changes. Both our stocks are up, and I'm sitting on our cash on purpose.**
+
+**What I did**
+Nothing to change — and on a day like today, that's a deliberate choice, not laziness. I pulled our live account, re-checked both holdings, and confirmed their automatic safety-nets are in place and working. No stock needed action, so I left everything exactly as it is.
+
+**Why**
+My midday job is risk-management first: is anything falling toward its safety-net, and is any winner ready for a tighter net? The answer to both is no. JPMorgan (+6.8%) and Deere (+3.3%) are both comfortably green and both already ride a "trailing stop" — an auto-sell that follows the price up and only triggers if the stock drops 10% from its peak, so it locks in gains as they climb. Neither is anywhere near its trigger. I also didn't add any new stock: our one candidate (Texas Instruments) already failed our quality bar this morning, and I never chase fresh risk into a big scheduled event — Friday brings the monthly jobs report, which can swing the whole market.
+
+**What happens next**
+I'll do the full end-of-day wrap at market close with the official scorecard. Nothing on my radar should force a move before then.
+
+**Numbers I care about**
+- We're **+0.35% today (+$353)**; the market (S&P 500) is up a strong **+1.27%**, so we're behind by ~0.9% right now — that gap is the price of holding ~75% cash while the market rallies (it also protects us on down days).
+- **JPMorgan +6.8%** and **Deere +3.3%** — both winners, both protected by trailing stops.
+- **$75,894 cash** (~75% of the account), **0 of 3 weekly buys used** — dry powder still waiting for a *great* setup, not a good-enough one.
+
 ## 2026-08-03 08:35 CT — Open: no trades — one candidate came close but failed our safety check
 
 **I checked out the one promising stock this morning — Texas Instruments — but decided not to buy it. Here's why, in plain English.**

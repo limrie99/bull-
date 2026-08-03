@@ -4856,3 +4856,35 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Memory writes:** portfolio.md overwritten (official close snapshot); this Day summary appended; messages.md prepended (teacher-voice EOD update); dashboard/state.json overwritten (official close — most important write of the day). Inbox: nothing to move.
 
 **Telegram: PUSHED** (mandatory daily "How we're doing" close update per CLAUDE.md — never skipped, trade or no trade).
+
+---
+
+## 2026-08-03 12:00 CT · MIDDAY (Mon)
+
+**Market:** CONFIRMED OPEN via /v2/clock (is_open:true, 13:01 ET). LIVE midday marks.
+
+**Account:** equity $101,246.70, cash $75,893.54 (74.96%), long_market_value $25,353.16 (25.04%), status ACTIVE. last_equity $100,893.14 → **day P/L +$353.56 / +0.35%.** Total since $100K start +1.25%.
+
+**SPY:** 756.24 live (Fri 8/1 close 746.79) → **+1.27% on the day. Alpha today ≈ −0.92%** — lagging on a strong up-tape, textbook cash-drag (~25% invested vs SPY ripping). Both holdings green but can't offset ~75% cash.
+
+**Positions (live midday):**
+- JPM 34 @ 352.085 (+$761.24 / +6.79%, MV $11,970.89, 11.82%). Trailing floor 323.307, hwm 359.23, cushion ~8.17% (widest). Below hwm → no ratchet.
+- DE 22 @ 608.98 (+$421.52 / +3.25%, MV $13,397.56, 13.23%). Trailing floor 579.591, hwm 643.99, cushion ~4.83%. Below hwm → no ratchet. Up +2.6%-ish on the day, cushion widened.
+- Net open unrealized +$1,182.76. Both under 20% cap.
+
+**Risk management (priority order per midday routine):**
+- (a) Any position −7% or worse un-stopped? **NO** — DE +3.25%, JPM +6.79%, both green. No −7% name → no Perplexity 4-hour news check triggered.
+- (b) Any +5%+ needing hard→trailing conversion? **NO** — JPM +6.79% ≥ +5% but already on 10% trailing (never reverted); DE +3.25% also already trailing. Zero hard stops in book.
+- (c) Daily loss cap: day P/L +0.35% (positive) — nowhere near −3%. No new-buy restriction from this (moot anyway).
+
+**Trades placed today (midday):** NONE (no buys, no sells, no stop changes). Both trailing stops re-confirmed RESTING via open-orders (nested=true), floors/hwm unchanged, qty_available:0 (shares reserved by stops).
+
+**New buys:** NONE. Midday-no-buy rule applies unless a high-conviction breaking catalyst — none present. TXN (watchlist top) failed the gate at open (~63, "beat-but-fell" value trap) and had no breaking catalyst midday. Nothing else clears ≥70. Also would not chase fresh exposure into Fri Aug 7 NFP. ~41st effectively-empty scan.
+
+**Open questions / carry to close:**
+- Today crystallizes the cash-drag cost again: SPY +1.27% vs us +0.35% = −0.92 alpha, purely because ~75% is in cash. This is the same structural drag the 7/31 weekly review escalated to Lauren (A/B decision). No inbox reply yet → Option A (hold the bar) stands. The answer is a *deployment* decision (owned by Lauren), NOT lowering the ≥70 gate.
+- Watch into the close: 2pm Senior Loan Officer Survey (JPM-relevant), and whether SPY holds the +1.27% into the bell (affects the day's official alpha the close routine will report).
+
+**Memory writes:** portfolio.md overwritten (midday snapshot); this entry appended; messages.md prepended (teacher-voice midday update); dashboard/state.json overwritten. Inbox: nothing pending to move.
+
+**Telegram: NOT pushed** (quiet midday, no trade, no urgent event — per CLAUDE.md, midday checks with no trades do not push; the mandatory daily update is owned by the close routine).
