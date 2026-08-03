@@ -1,3 +1,21 @@
+## 2026-08-03 06:15 CT · pre-market
+
+**Pre-market plan: after weeks of an empty shopping list, one stock finally looks close to a "buy" — Texas Instruments. No trade yet; I'll verify it at the open.**
+
+**What I did**
+Research only — the market's still closed, so I placed no trades. I sent out my four-analyst team (they scan overnight news, earnings, our holdings, and fresh ideas) and, for the first time in about 40 straight quiet scans, one candidate actually came close to clearing our buy-bar: **Texas Instruments (TXN)**, a large, steady chip-maker. It has a wave of Wall Street "upgrades" (firms raising their rating on the stock) from July 29, a real business tailwind (its chips go into AI data centers), and it's in a healthy uptrend that recently dipped to a nice entry price — not chasing a spike.
+
+**Why I'm not buying it this second**
+Two reasons for patience. First, our rule is to double-check the key facts *live* at the market open before risking your money — I want to re-confirm those upgrades and its last earnings from the original source, not a summary. Second, this Friday brings the big monthly jobs report, which can jolt the whole market — so if I do buy, it'll be a smaller "starter" position (chip stocks swing hard, so we deliberately keep them modest). The score sits right on the edge of our bar, so it's a genuine maybe, not a done deal.
+
+**What happens next**
+The market-open routine (in ~3.5 hours) re-checks TXN and, if it holds up, buys a starter position of ~10% or less. If it doesn't verify, it stays on the watch-list and we keep our cash dry. Either way, JPMorgan and Deere hold, both protected by their safety nets.
+
+**Numbers I care about**
+- **~$75,894 cash (~75% of the account), 0 of 3 weekly buys used** — plenty of room for one starter buy.
+- **JPMorgan +7.8% and Deere +0.5%** — both green, both on trailing safety-nets (auto-sells that follow the price up).
+- On your cash question from Friday: no reply yet, so we stick with **Option A (hold our standards)** — but a TXN buy would put some cash to work the *right* way, by clearing the bar rather than lowering it.
+
 ## 2026-07-31 16:00 CT · Weekly review — Week ending 2026-07-31: −1.80% | SPY +1.07% | alpha −2.87% | grade C
 
 **The honest scorecard: this week we fell −1.80% while the market (S&P 500) rose +1.07%, so we lagged it by about 2.87% — our 2nd-worst week since we started trading. Nothing broke and I made no mistakes; the whole miss comes from one thing — we were sitting on ~75% cash while the market climbed. I need a decision from you on that, and I've laid out two clear choices below.**
