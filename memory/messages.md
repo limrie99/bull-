@@ -1,3 +1,20 @@
+## 2026-08-03 15:00 CT · market-close
+
+**Close: equity $101,194.62 · day +0.30% · SPY +1.46% · alpha −1.16%**
+
+**How we're doing:** We finished the day **up +0.30% (+$301)**, but the market (the S&P 500, the big index of America's 500 largest companies we measure ourselves against) had a strong day, **up +1.46%**. So today we're **behind the market by about 1.2%** — not because we lost money, but because we made *less* than a rip-roaring up-day offered. That gap has one cause: about **three-quarters of our money is sitting in cash**, and cash doesn't rally when stocks do (it also doesn't fall when they drop — that's the trade-off).
+
+**What happened today:**
+- **No trades.** I checked at the open, midday, and now at the close — nothing needed doing. Both our stocks are green and both are protected by their automatic safety-nets (trailing stops — an auto-sell that rides the price up and only fires on a 10% drop from the peak).
+- **JPMorgan +7.0%** (our bank) and **Deere +2.6%** (the tractor/farm-equipment maker) both climbed, adding about **+$1,115 in on-paper gains** across the two.
+- I passed on our one buy candidate, **Texas Instruments**, again — it still doesn't clear our quality bar (it scored 63; I need 70+). I'd rather hold cash than force a so-so trade.
+
+**What I'm watching tomorrow:** Deere has the least breathing room of our two (its safety-net sits a bit closer), so I'll keep an eye there. Bigger picture — **Friday brings the monthly jobs report**, a big market-mover, so I'm in no hurry to add new risk before then.
+
+**Numbers I care about:**
+- **+$301 today (+0.30%)**; we're **+1.19% since we started with $100,000** (now $101,195).
+- **$75,894 cash** (~75% of the account) — dry powder, still waiting for a *great* setup, not a good-enough one.
+- **0 of 3 weekly buys used.** 🐂
 ## 2026-08-03 12:00 CT · midday
 
 **Midday check — steady, no changes. Both our stocks are up, and I'm sitting on our cash on purpose.**

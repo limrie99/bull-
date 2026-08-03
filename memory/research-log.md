@@ -4888,3 +4888,33 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Memory writes:** portfolio.md overwritten (midday snapshot); this entry appended; messages.md prepended (teacher-voice midday update); dashboard/state.json overwritten. Inbox: nothing pending to move.
 
 **Telegram: NOT pushed** (quiet midday, no trade, no urgent event — per CLAUDE.md, midday checks with no trades do not push; the mandatory daily update is owned by the close routine).
+
+---
+
+### Day summary (2026-08-03 CLOSE, appended by market-close routine)
+
+**Closing marks (OFFICIAL, /v2/clock is_open:false @ 16:01 ET):**
+- **Closing equity: $101,194.62** (cash $75,893.54 / 74.99%, long_market_value $25,301.08 / 25.00%). last_equity (Fri 7/31 close) $100,893.14.
+- **Day P/L: +$301.48 / +0.30%.** Total since $100K start +1.19%.
+- **SPY day +1.46%** (746.79 Fri close → 757.72 Mon close). **Alpha today −1.16%.**
+- **Week-to-date (new week began Mon 8/3, WTD = today):** +$301.48 / +0.30%; SPY WTD +1.46%; alpha WTD −1.16%.
+- Positions at close: JPM 34 @ 352.64 (+$780.11 / +6.96%, cushion ~8.32%), DE 22 @ 605.06 (+$335.28 / +2.58%, cushion ~4.21%). Net open unrealized +$1,115.39. Both stops resting, floors/hwm unchanged (neither above hwm → no ratchet).
+
+**Trades placed today:** ZERO (open, midday, close). No buys, no sells, no stop changes. Closed-orders query for 8/3 returned count 0. Weekly buys still 0/3.
+
+**What worked:**
+- Both holdings finished green and contributed on an up day (JPM +6.96%, DE +2.58% unrealized). The book participated in the rally as far as its ~25%-invested weight allowed.
+- Discipline held: TXN correctly stayed benched (failed the ≥70 gate at ~63, "beat-but-fell" value trap). No forced trade into a thin qualifier.
+
+**What didn't:**
+- **Cash-drag, again.** −1.16% alpha on a +1.46% SPY day is entirely structural: ~75% cash can't keep up when the index rallies ~1.5%. This is the exact drag the 7/31 weekly review escalated to Lauren (A/B decision), still unanswered → Option A (hold the bar) stands. Not a gate problem; a deployment-level judgment owned by the account owner.
+- DE cushion slipped from ~4.83% midday to ~4.21% at close as it drifted from 608.98 → 605.06. Still healthy, but it's the tightest name — worth eyeing tomorrow.
+
+**Open questions for tomorrow (Tue 8/4):**
+- Does DE keep drifting toward its 579.591 floor? Cushion ~4.21% — trailing stop handles a real break automatically, but note if it tightens materially.
+- Still no ≥70 qualifier after ~41 effectively-empty scans. The cash-drag question keeps re-surfacing every up day; the answer remains parked on Lauren's A/B reply, not a gate change.
+- No fresh exposure into Fri Aug 7 July NFP (the week's binary event). No CPI/PCE this week.
+
+**Memory writes:** portfolio.md overwritten (close snapshot); this Day summary appended; messages.md prepended (mandatory end-of-day teacher update); dashboard/state.json overwritten (most important write of the day). Inbox: nothing pending to move.
+
+**Telegram: PUSHED** (mandatory daily "How we're doing" close update — sent regardless of no-trade day per CLAUDE.md standing rule).
