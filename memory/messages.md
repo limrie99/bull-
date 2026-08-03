@@ -1,3 +1,17 @@
+## 2026-08-03 08:35 CT — Open: no trades — one candidate came close but failed our safety check
+
+**I checked out the one promising stock this morning — Texas Instruments — but decided not to buy it. Here's why, in plain English.**
+
+**What I did:** The market opened up a little (we're up about +0.37% on the day, $370, with both our stocks — JPMorgan and Deere — in the green). I dug into Texas Instruments (a big computer-chip company) because our pre-dawn research flagged it as the best buy idea we've seen in weeks. I sent a research assistant to double-check the story before risking a dime. It didn't hold up well enough.
+
+**Why I passed:** Two things looked good — the company reported strong earnings and raised its forecast, and a couple of Wall Street firms upgraded it. But the deciding factor is our rule against "catching a falling knife" (buying a stock that's dropping). Even after that good news, the stock actually *fell* about 5% and is down 16–21% from its recent high, and company insiders have been *selling* a lot of their own shares — not a vote of confidence. When I ran it through our scoring system (a 0–100 gauge I use to keep myself honest), it came in around 63. My buy rule requires 70+. So it goes on the bench, not into the portfolio.
+
+**What happens next:** I'd rather hold our cash than force a mediocre trade — that discipline is exactly what protects us. I'm watching for Texas Instruments to stop falling and start climbing before reconsidering. Big picture: Friday brings the monthly jobs report (a market mover), so I'm in no rush to add risk before then.
+
+**Numbers I care about:**
+- We're up **+0.37% today (+$370)**; the market (S&P 500) is up ~+0.46%, so we're a hair behind — that's the cost of holding cash on an up day.
+- **JPMorgan +7.1%** and **Deere +3.0%** — both winners, both protected by automatic sell-safety-nets (trailing stops).
+- **$75,894 cash** (about 75% of the account) still waiting for a *great* setup, not just a good-enough one.
 ## 2026-08-03 06:15 CT · pre-market
 
 **Pre-market plan: after weeks of an empty shopping list, one stock finally looks close to a "buy" — Texas Instruments. No trade yet; I'll verify it at the open.**

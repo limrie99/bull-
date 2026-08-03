@@ -1,43 +1,42 @@
 # Portfolio
 
-**Last updated:** 2026-07-31 16:00 CT — **WEEKLY REVIEW complete (Fri; market CONFIRMED CLOSED via /v2/clock, next_open 2026-08-03 09:30 ET).** Official end-of-day marks from Alpaca. Account: equity **$100,893.16** (official close scorecard), cash **$75,893.56** (~75.22%), long_market_value ~**$25,000**, status ACTIVE. **OFFICIAL WTD (base Fri 7/24 close $102,740.86 / SPY 738.90 → Fri 7/31 close $100,893.16 / SPY 746.79): port −1.80%, SPY +1.07% → WTD alpha −2.87% ❌** (2nd-worst week of run; cause = ~75% cash on a rising tape). Cumulative alpha since 5/29 now **+2.32 pts** (halved from +5.22). **Grade C.** Book **2 of 5 positions (three slots OPEN).** Only trade this week = LLY trailing-stop exit 7/31 (+$627 WIN). Both remaining stops re-confirmed RESTING. **ESCALATION: the pre-committed cash trigger FIRED (empty gate WHILE SPY rose) → I sent Lauren a forced A/B cash decision (A: hold; B: add S&P 500 market floor) in messages.md; awaiting her reply in inbox.md; default A (hold) if no answer by Mon.** **Inbox: nothing pending.**
+**Last updated:** 2026-08-03 08:35 CT — **MARKET OPEN (Mon, NEW WEEK).** Market CONFIRMED OPEN via /v2/clock (is_open:true, 09:32 ET). LIVE open marks from Alpaca. Account: equity **$101,263.31**, cash **$75,893.54** (~74.95%), long_market_value **$25,369.77** (~25.05%), status ACTIVE. `last_equity` $100,893.14 → **day P/L +$370.17 / +0.37%** (both holdings green). Book **2 of 5 positions (three slots OPEN).** **Weekly buys 0/3 (reset today).** **TXN (pre-market's conditional buy) VERIFIED at open → FAILED the gate (Conviction re-scored ~74→~63): real beat-and-raise but the "upgrade wave" is only 2 real upgrades (Seaport/KeyCorp confabulated), and the stock SOLD OFF on its own beat (−5%, death cross, 16–21% below highs, heavy insider selling) = classic "beat-but-fell" value trap, fails #6 uptrend. NO BUY — did not lower the bar to relieve cash-drag.** No sells (both intact). **Inbox: nothing pending** (Lauren did not reply to 7/31 A/B cash decision → Option A / hold-the-bar is the standing default).
 
-## Scorecard (CLOSE 2026-07-31 — OFFICIAL end-of-day number)
-- **Closing equity $100,893.16.** Total since $100K start: **+0.89%.**
-- **Day P/L −$561.44 / −0.55%** vs yesterday's close $101,454.60 — mild give-back (DE −1.13% on the day was the main drag; JPM +0.27% steady).
-- **SPY day +0.70%** (741.63 → 746.79). **Alpha today −1.25%** — we lagged. Cash drag: with ~75% in cash we can't keep pace on a broad up day, and DE softened.
-- **WTD (base Fri 7/24 close eq $102,740.86 / SPY 738.90 → 7/31 close $100,893.16 / SPY 746.79):** port **−1.80%**; SPY **+1.07%** → **WTD alpha −2.87% ❌ — FINALIZED by the weekly review (grade C).** Cumulative alpha since 5/29 halved +5.22 → **+2.32**.
-- **Realized this week: LLY +$627.34** (7/31 trailing-stop exit). **Net open unrealized: +$813.91** (JPM +751.21, DE +62.70 — official close marks).
-- **SPY refs:** 746.79 (close 7/31), 741.63 (7/30 close), new-week base 738.90 (7/24 close).
+## Scorecard (OPEN 2026-08-03 — live intraday, close owns official)
+- **Equity $101,263.31.** Total since $100K start: **+1.26%.**
+- **Day P/L +$370.17 / +0.37%** vs Friday's close $100,893.14 — both holdings up (DE +2.49%, JPM +0.38% on the day).
+- **SPY intraday +0.46%** (Fri 8/1 close 746.79 → 750.23 live). **Alpha today ≈ −0.09%** — lagging slightly, but cash-drag is LIGHT today because both holdings are participating in the up move.
+- **Realized this week: $0** (new week). **Net open unrealized: +$1,184.08** (JPM +796.77, DE +387.31).
+- **SPY refs:** 750.23 (live open 8/3), 746.79 (Fri 8/1 close), new-week base 746.79.
 
-## Open positions (2 of 5 — three slots OPEN) — OFFICIAL CLOSE marks 7/31
+## Open positions (2 of 5 — three slots OPEN) — LIVE OPEN marks 8/3
 
-| Symbol | Shares | Avg Cost | Mark (close) | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
+| Symbol | Shares | Avg Cost | Mark (live) | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 351.79 | +751.21 | +6.70% | **10% TRAILING (GTC)**, floor **323.307**, hwm 359.23 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 (7/14) beat; DB UPGRADE Hold→Buy PT $375. sev 2 (macro sector noise, not company). **Cushion ~8.10% (widest).** Next earnings ~Oct. |
-| DE | 22 | 589.82 | 592.67 | +62.70 | +0.48% | **10% TRAILING (GTC)**, floor **579.591**, hwm 643.99 | 2026-06-04 | Deere — Q2 beat, FY26 guide raised, right-to-repair settlement cleared (reaffirmed). $1.62 div payable Aug 10. Off-cycle; next report ~Aug 20. sev 2 (ag-commodity softness = sentiment; net-income outlook MAINTAINED). **Cushion ~2.21% (tightest); DE fell −1.13% today.** |
+| JPM | 34 | 329.695588 | 353.13 | +796.77 | +7.11% | **10% TRAILING (GTC)**, floor **323.307**, hwm 359.23 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 (7/14) beat; DB UPGRADE Hold→Buy PT $375. sev 1 (quiet). **Cushion ~8.45% (widest).** Today's 2pm Senior Loan Officer Survey is the one JPM-relevant data point. Next earnings ~Oct. |
+| DE | 22 | 589.82 | 607.425 | +387.31 | +2.99% | **10% TRAILING (GTC)**, floor **579.591**, hwm 643.99 | 2026-06-04 | Deere — Q2 beat, FY26 guide raised, right-to-repair settlement cleared. $1.62 div payable Aug 10. Off-cycle; next report ~Aug 20. sev 1 (soft ag demand + tariff overhang = SENTIMENT, not break). **DE +2.49% today → cushion widened 2.21%→~4.58%** (still 2nd-tightest but healthier). |
 
-**Open positions: 2 of 5 (three slots OPEN).** **Buys used this week: 0 of 3.** **Cash buffer: ~75.22%.** Position sizes (on closing equity $100,893.16): DE 12.92%, JPM 11.85% — both well under the 20% cap.
+**Open positions: 2 of 5 (three slots OPEN).** **Buys used this week: 0 of 3.** **Cash buffer: ~74.95%.** Position sizes (on equity $101,263.31): DE 13.20%, JPM 11.86% — both well under the 20% cap.
 
 ## Closed THIS WEEK
-- **LLY — 10% trailing stop AUTO-FIRED, sold 14 @ 1123.27 (order 6016a7e7), 10:08 ET 7/31.** Realized **+$627.34 / +4.15%** (entry 1078.46, 2026-06-01). LLY ran to hwm 1249.45, pulled back 10% to floor 1124.505, executed 1123.27. Bounced to ~1143 same day → **normal give-back, NOT a thesis break.** Bonus: removed LLY's ~Aug 5 earnings risk with a locked gain. Freed ~$15,726 cash. (Recorded in full at midday.)
+- **None yet** (new week began Mon 8/3). Last close: LLY trailing-stop exit 7/31 (+$627.34 / +4.15%), recorded in trade-log.
 
-## Stop-management state (both remaining re-confirmed RESTING via open-orders query, nested=true) — ALL 10% TRAILING GTC, floors/hwm UNCHANGED (no new highs today → no ratchet)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **323.307**, hwm 359.23, status new (resting). Close 351.79, cushion ~8.10% (widest).
-- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **579.591**, hwm 643.99, status new (resting). Close 592.67, cushion ~2.21% (tightest). Both positions show qty_available:0 → shares reserved by their resting stops.
-- **LLY stop `6016a7e7`** — FILLED/closed earlier today (see above); no longer resting.
+## Stop-management state (both re-confirmed RESTING via open-orders query, nested=true) — ALL 10% TRAILING GTC, floors/hwm UNCHANGED (neither above its hwm today → no ratchet)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **323.307**, hwm 359.23, status new (resting). Live 353.13, cushion ~8.45% (widest). Below hwm → no ratchet.
+- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — floor **579.591**, hwm 643.99, status new (resting). Live 607.425, cushion ~4.58%. Below hwm 643.99 → no ratchet, floor unchanged. Both positions show qty_available:0 → shares reserved by their resting stops.
 
-## Risk checks (close)
-- **(a) Any position −7% or worse un-stopped?** NO. JPM +6.70%, DE +0.48%. Nothing near a hard-stop trigger; both on trailing stops above their floors.
-- **(b) Any position +5%+ needing hard→trailing conversion?** JPM +6.70% ≥ +5% but ALREADY on a 10% trailing stop → trailing stops are never reverted. DE +0.48% below +5% and also already trailing. **Zero hard stops in book → no conversion needed.**
-- **(c) Daily loss cap:** day P/L −0.55% vs yesterday's close — well within the −3% cap. (Moot for new buys anyway — nothing clears the gate.)
+## Risk checks (open)
+- **(a) Any position −7% or worse un-stopped?** NO. DE +2.99%, JPM +7.11%. Nothing near a hard-stop trigger; both on trailing stops above their floors.
+- **(b) Any position +5%+ needing hard→trailing conversion?** JPM +7.11% ≥ +5% but ALREADY on a 10% trailing stop → trailing stops are never reverted. DE +2.99% below +5% and also already trailing. **Zero hard stops in book → no conversion needed.**
+- **(c) Daily loss cap:** day P/L +0.37% (positive) — nowhere near the −3% cap. (Moot for new buys anyway — nothing clears the gate.)
 
-## Watch / next (next routine: **weekly review** — owns cash-drag/gate/deployment decision + official WTD alpha)
-- **Cash-drag decision (ARMED — this IS the pre-committed test week):** the LLY exit + no redeployment leaves us **~75% cash, 2 positions, three open slots.** This week we lagged (WTD alpha ≈ −2.87%) precisely because cash can't ride a rising tape — the exact pattern the review must weigh. The gate is functioning (correctly held chase-entry LMT and fell-on-print NOC); the open question is deployment/sizing, NOT lowering the ≥70 bar. **Weekly review (owned by that routine) decides.** Weekly buy cap resets Monday 8/3 (0/3 → fresh 3).
-- **DE — cushion ~2.21% (tightest, tightened today on the −1.13% move)**, floor 579.591 sits ~1.7% BELOW the 589.82 entry (a continued slide exits near break-even). No thesis break (ag-commodity softness = sentiment; right-to-repair already settled/reaffirmed). Trailing floor handles any real break automatically; do NOT pre-empt on price. $1.62 div payable Aug 10; next report ~Aug 20.
-- **JPM — cushion ~8.10% (widest)**, healthy and quiet; thesis intact (record Q2, $50B buyback, DB Buy PT $375). Next earnings ~Oct.
-- **No buy candidate cleared the gate (~38th straight empty scan).** LMT ~62 (extended, wants a pullback to low-$540s) and NOC ~55 (fell on print, near 52-wk lows — fails uptrend/no-knife-catch) both fail on entry. ETN reported 7/31 BMO — re-check post-print at weekly review.
-- **Bench:** UNH ~64, NOW 63, GS 63, LMT ~62, DLR 60, DOV 58, JNJ 58, ETN 56, NOC ~55, ABT 55, OXY 55, STX 53, MS 52, AXP/V ~50, AMGN/CB/CVS/VST 50, PANW 35. None clears ≥70.
+## Watch / next (next routine: **midday check**)
+- **TXN — VERIFIED at open, FAILED gate (~63), → watchlist.** The first genuine gate-candidate in ~40 scans re-scored DOWN on verification: real Q2 beat-and-raise, but only 2 real upgrades (Arete/BofA; Seaport & KeyCorp confabulated), and — decisively — the stock SOLD OFF on its own beat (−5% on 7/23), sits 16–21% below its June high with a death cross + heavy insider selling ($88.9M/3mo). That's the "beat-but-fell" value trap, fails #6 uptrend. **Wants a base + 50dMA reclaim before it's a buy.** Opened today ~$269. Re-check at midday/pre-market.
+- **DE — cushion widened to ~4.58%** on today's +2.49%. Floor 579.591 still ~1.7% below the 589.82 entry (a full reversal exits near break-even). No thesis break (ag softness + tariff = sentiment). $1.62 div payable Aug 10; next report ~Aug 20. Trailing floor handles any real break automatically.
+- **JPM — cushion ~8.45% (widest)**, healthy and quiet; thesis intact. Today's 2pm Senior Loan Officer Survey is the one directly-relevant data point (bank lending conditions). Next earnings ~Oct.
+- **Macro:** do NOT chase fresh exposure into **Fri Aug 7 July NFP** (the week's binary event). No CPI/PCE this week. Today = ISM Mfg PMI 10:00 ET + Senior Loan Officer Survey 2:00pm.
+- **No buy candidate clears the gate (~41st effectively-empty scan).** Bench: TXN ~63 (new top, wants a base), RCL ~66 (thin rev beat, cyclical), GEV ~62 (figures unverified), UNH ~64, NOW 63, GS 63, DLR 60, DOV 58, JNJ 58, ETN ~56, NOC ~55, ABT 55, OXY 55, STX 53, MS 52. None clears ≥70.
+- **Cash-drag / Option A:** Lauren did not reply → Option A (hold the bar, keep cash dry) stands. TXN clearing at open would have been the disciplined organic resolution, but it didn't clear — so cash stays dry; NOT lowering the bar.
 
 ## Recent closes (last 5)
 
