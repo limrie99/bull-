@@ -4996,3 +4996,29 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Memory writes:** portfolio.md overwritten (midday snapshot); this entry appended; messages.md prepended (teacher-voice midday update); dashboard/state.json overwritten. Inbox: nothing pending to move. No trade-log append (zero trades).
 
 **Watch into the close:** whether SPY holds its +1.7% intraday into the bell (sets the day's official alpha the close routine reports); DE's cushion (much healthier now at ~6.67%); no fresh exposure into Fri NFP.
+
+### Day summary (CLOSE 2026-08-04, Tue — OFFICIAL EOD)
+- **Closing equity: $101,631.36** (cash $75,893.54 / 74.67%, long_market_value $25,737.82 / 25.32%). last_equity (Mon 8/3 close) $101,194.62.
+- **Day P/L: +$436.74 / +0.43%.** Total since $100K start +1.63%.
+- **SPY day +1.77%** (757.72 Mon close → 771.11 Tue close). **Alpha today −1.34%.**
+- **Week-to-date** (new week began Mon 8/3; WTD base = Fri 7/31 close $100,893.14): +$738.22 / +0.73%; SPY WTD +3.26% (746.79 → 771.11); **alpha WTD −2.53%.**
+- Positions at close: JPM 34 @ 357.52 (+$946.03 / +8.44%, cushion ~8.62%), DE 22 @ 617.37 (+$606.10 / +4.67%, cushion ~6.12%). Net open unrealized +$1,552.13. Both stops resting (JPM floor 326.70/hwm 363; DE floor 579.591/hwm 643.99). JPM hit a new intraday high (hwm→363, floor ratcheted to 326.70 earlier) then eased into the bell; DE eased 621→617.37, slipping back under +5% (mechanically irrelevant — already trailing).
+
+**Trades placed today:** ZERO (open, midday, close). No buys, no sells, no stop changes. Closed-orders query for 8/4 returned count 0. Weekly buys still 0/3.
+
+**What worked:**
+- Both holdings finished green on a strong up day (JPM +8.44%, DE +4.67% unrealized), contributing +$1,552 unrealized as far as the book's ~25%-invested weight allowed.
+- Discipline held: ETN (bench top ~68, ~$445, ~+23% off base) correctly stayed benched on entry quality; no forced trade into a thin qualifier ahead of Fri NFP. ~44th effectively-empty scan — the gate is functioning, not failing.
+
+**What didn't:**
+- **Cash-drag, again — and larger this week.** −1.34% alpha on a +1.77% SPY day; −2.53% alpha WTD after just two sessions. Entirely structural: ~75% cash can't keep up when the index rips ~1.8%/day. This is the exact drag the 7/31 weekly review escalated to Lauren (A/B decision), still unanswered → Option A (hold the bar) stands. Deployment-level judgment owned by the account owner, not a gate problem.
+- DE eased from +5.29% midday to +4.67% at close (621 → 617.37); cushion slipped ~6.67% → ~6.12%. Still healthy but the tightest name — worth eyeing tomorrow.
+
+**Open questions for tomorrow (Wed 8/5):**
+- Does DE keep drifting? Cushion ~6.12%, floor 579.591 — trailing stop handles a real break automatically, but note if it tightens materially.
+- SPY has ripped +3.26% in two sessions to start the week; the cash-drag gap is widening fast. The A/B answer remains parked on Lauren's reply — the gate stays at ≥70 regardless.
+- No fresh exposure into Fri Aug 7 July NFP (the week's binary event). No CPI/PCE this week. Aug 12 US-China tariff deadline = DE ag-export risk.
+
+**Memory writes:** portfolio.md overwritten (close snapshot); this Day summary appended; messages.md prepended (mandatory end-of-day teacher update); dashboard/state.json overwritten (most important write of the day). Inbox: nothing pending to move.
+
+**Telegram: PUSHED** (mandatory daily "How we're doing" close update — sent regardless of no-trade day per CLAUDE.md standing rule).

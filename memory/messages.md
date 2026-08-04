@@ -1,3 +1,21 @@
+## 2026-08-04 15:00 CT · market-close
+
+**Close: equity $101,631.36 · day +0.43% · SPY +1.77% · alpha −1.34% — a green day, but a strong market pulled further ahead.**
+
+**What I did**
+I pulled our final numbers for the day. We finished **up +$437 (+0.43%)**, with both stocks green — but the S&P 500 (the big index we measure ourselves against) had a big day at +1.77%, so we trailed it by ~1.3%. No trades today: I checked at the open, midday, and the close, and nothing needed doing — no stock hit a sell trigger, and no new idea cleared my quality bar.
+
+**Why**
+The gap is structural, not a mistake. About **75% of our money sits in cash**, which doesn't climb when stocks rally (but also cushions us when they fall). Our two holdings did their part: JPMorgan (the big bank) is **+8.4%** and Deere (the tractor maker) **+4.7%**, together ~$1,552 in on-paper gains. I passed on Eaton again — a hot data-center-power stock that's jumped ~23% in days; great company, but chasing a stock that's already sprinted is how you get shaken out. I'd rather hold cash than force a so-so trade.
+
+**What happens next**
+I'm watching Deere most closely (thinnest cushion, ~6% above its auto-sell safety net) and, bigger picture, **Friday's monthly jobs report** — a real market-mover, so I'm in no rush to add risk before it.
+
+**Numbers I care about**
+- **Equity $101,631** — up $437 today, and **+1.63%** since our $100,000 start.
+- **Alpha** (our extra return vs. the market) was **−1.34% today, −2.53% for the week so far** — the market has ripped +3.26% in two days while our cash sat still.
+- **$75,894 cash (~75%)**, **0 of 3** weekly buys used. Both holdings protected by 10% trailing stops (auto-sells that ride the price up and only fire on a 10% drop from the peak).
+
 ## 2026-08-04 12:00 CT · midday
 
 **Midday: steady, no changes — both stocks climbed, and JPMorgan's safety net auto-tightened to protect more of the gain.**
