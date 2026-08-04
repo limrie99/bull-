@@ -4942,3 +4942,28 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Memory writes:** portfolio.md overwritten (close snapshot); this Day summary appended; messages.md prepended (mandatory end-of-day teacher update); dashboard/state.json overwritten (most important write of the day). Inbox: nothing pending to move.
 
 **Telegram: PUSHED** (mandatory daily "How we're doing" close update — sent regardless of no-trade day per CLAUDE.md standing rule).
+
+---
+
+## 2026-08-04 08:35 CT — MARKET-OPEN (Tue) · No trades · Plan validated live · Book intact on trailing stops
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **CONFIRMED OPEN** via /v2/clock (is_open:true, timestamp 09:32 ET, next_close 16:00 ET, next_open 8/5 09:30 ET). Inbox: **nothing pending** (Lauren still has not replied to the 7/31 A/B cash decision → Option A / hold-the-bar remains the pre-committed default). Synced memory from origin/main before acting.
+
+**Account (live, open):** equity **$101,286.61**, cash **$75,893.54** (~74.93%), long_market_value **$25,393.07** (~25.07%), buying_power $374,674.74, status ACTIVE. `last_equity` (Mon 8/3 close) $101,194.62 → intraday **+$91.99 / +0.09%** (early/noisy; close owns official EOD). **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3** (last BUY was JPM 6/29; everything since is sells/risk-mgmt).
+
+**Positions (live marks):**
+- **JPM** 34 @ 329.695588, mark **357.14**, P/L **+$933.11 / +8.32%**, intraday +1.28%. Value $12,142.76 (11.99% of equity). Trailing floor 323.307, hwm 359.23 → mark below hwm, **no ratchet**. Cushion ~9.47%.
+- **DE** 22 @ 589.82, mark **602.36**, P/L **+$275.88 / +2.13%**, intraday −0.45%. Value $13,251.92 (13.08% of equity). Trailing floor 579.591, hwm 643.99 → mark below hwm, **no ratchet**. Cushion ~3.78% (tightest in book).
+
+**Stops re-confirmed RESTING** via /v2/orders?status=open&nested=true — both 10% trailing GTC, ids + floors + hwm unchanged from portfolio.md (JPM `8a937ff6…` floor 323.307/hwm 359.23; DE `dcdd84e5…` floor 579.591/hwm 643.99). qty_available 0 on both = shares correctly tied to resting stops.
+
+**Risk checks:** (a) No position −7% or worse un-stopped (JPM +8.32%, DE +2.13%) → no Perplexity news trigger. (b) JPM +8.32% ≥ +5% but ALREADY on a 10% trailing (never reverted); DE +2.13% below +5% and also trailing → zero hard stops in book, no conversion. (c) Daily loss cap N/A — no buys, portfolio +0.09% intraday.
+
+**Execution vs pre-market plan:** Pre-market plan was NO BUY (ETN bench top ~68, fails ≥70 gate on entry quality; extended +21%/3d). Re-validated live per routine:
+- **ETN latest trade $444.94** (Alpaca /v2/stocks/trades/latest) — MORE extended than pre-market's $438.23 close, now ~+23% off its $361.88 (7/29) base. No pullback to the $405–415 base it needs; a fresh −7% stop would sit ~$414 (near the 50dMA) into Fri NFP = shake-out-prone on the same name we trailing-stopped 7/2 (−$211). Score unchanged ~68 < 70. **CONFIRMED NO BUY** — good fundamentals, worse entry than pre-market.
+- No other bench name clears ≥70 (RCL ~66, UNH ~64, TXN ~63, NOW/GS 63, GEV/LMT ~62, DLR 60, DOV 58, JNJ 58, NOC ~55, OXY 55, STX 53, MS 52). ~42nd effectively-empty scan.
+- No overnight sell signal on either holding; no thesis break. No sells.
+
+**SPY ref:** live ~761.78 (Tue intraday, Alpaca latest-trade); Mon 8/3 close 757.67; Fri 7/31 close 747.03 (new-week base). SPY intraday ~+0.54% vs Mon close → we lag intraday (75% cash — expected structural drag; early/noisy, close owns official alpha).
+
+**Result: NO TRADES.** Book 2/5 (JPM, DE), three slots open, weekly buys 0/3, ~75% cash. Both positions healthy on resting trailing stops. Cash stays dry per Option A default (ETN fails on entry quality, not thesis). No Telegram push (market-open with no trade = quiet-check, per CLAUDE.md skip rule). Next routine: midday Tue 8/4.

@@ -1,3 +1,21 @@
+## 2026-08-04 08:35 CT · market-open
+
+**Open: no trades — sticking with our two holdings, keeping the cash dry.**
+
+**What I did**
+The market opened and I checked everything live against this morning's plan. Both our stocks — **JPMorgan** (the big bank) and **Deere** (the tractor maker) — are healthy and still protected by their automatic safety-net sells (a "trailing stop" — an order that follows the price up and only sells if it falls 10% from its peak, so we lock in gains). No stock hit a sell trigger overnight, and no new idea was good enough to buy. So I placed zero trades.
+
+**Why**
+I re-checked **Eaton (ETN)**, the data-center power stock that led my watchlist. It's now trading around **$445 — up about 23% in a few days**, even higher than at dawn. That's chasing a stock that's already sprinted, and it's the same jumpy name that shook us out of a small loss in July. It scores ~68 on my 0–100 quality gauge; I need **70+** to buy. Great company, wrong price. And **Friday brings the monthly jobs report** (a big market-mover) — I won't add risk right before it.
+
+**What happens next**
+I'll keep watching for Eaton to cool off to a calmer entry near $405–415, and I'll re-check both holdings at midday. Deere has the thinnest cushion (~3.8% above its safety net), so it's the one I'm watching closest.
+
+**Numbers I care about**
+- **$101,287 total** — up ~$92 (+0.09%) so far today, and +1.3% since we started with $100,000.
+- **$75,894 cash** (~75%) — waiting for a *great* setup, not a good-enough one.
+- **JPMorgan +$933 (+8.3%)** and **Deere +$276 (+2.1%)** in unrealized gains — both green.
+
 ## 2026-08-04 06:15 CT · pre-market
 
 **Pre-market plan: a new name (Eaton) leads the bench, but it's run up too fast to chase — no trade planned.**
