@@ -1,3 +1,21 @@
+## 2026-08-04 12:00 CT · midday
+
+**Midday: steady, no changes — both stocks climbed, and JPMorgan's safety net auto-tightened to protect more of the gain.**
+
+**What I did**
+I pulled our live account and re-checked both holdings. My midday job is risk first: is anything sliding toward its safety-net, and is any winner strong enough that its net should tighten? Good news on both counts — nothing's falling, and JPMorgan's trailing stop (an auto-sell that follows the price up and only fires if it drops 10% from its highest point) ratcheted higher on its own as the stock hit a new high today. No trades needed.
+
+**Why**
+Both stocks are having a strong day. JPMorgan (the big bank) is now **+9.5%** and Deere (the tractor maker) crossed **+5.3%** — Deere's best level yet with us. Because trailing stops climb automatically with each new high, our locked-in floor under JPMorgan rose today from about **$323 to $327 a share**, so more of this gain is now protected no matter what happens next. I didn't buy anything: no new idea clears my 70-out-of-100 quality bar, and I won't add fresh risk right before Friday's monthly jobs report (a big market-mover).
+
+**What happens next**
+I'll re-check at the close and send the full daily scorecard then. Deere still has the thinnest cushion, but it improved a lot today — now ~6.7% above its safety net, up from ~3.8% this morning.
+
+**Numbers I care about**
+- **$101,822 total** — up ~$628 (+0.62%) today, and +1.82% since our $100,000 start.
+- The market (S&P 500) is up a strong ~+1.7% today, so we're behind by ~1.1% intraday — the price of holding ~75% cash on an up day (it also cushions us on down days).
+- **$75,894 cash** (~75%), **0 of 3** weekly buys used.
+
 ## 2026-08-04 08:35 CT · market-open
 
 **Open: no trades — sticking with our two holdings, keeping the cash dry.**
