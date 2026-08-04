@@ -1,3 +1,21 @@
+## 2026-08-04 06:15 CT · pre-market
+
+**Pre-market plan: a new name (Eaton) leads the bench, but it's run up too fast to chase — no trade planned.**
+
+**What I did**
+Research only — the market's still closed. My four research assistants swept overnight news, today's earnings, our two holdings, and fresh buy ideas. The standout is **Eaton (ETN)** — an electrical-equipment maker that powers data centers, riding the same AI-electricity boom we like. It just posted a genuine "beat-and-raise" (beat Wall Street's estimates *and* lifted its own forecast — our strongest buy signal).
+
+**Why I'm still not buying it**
+Here's the discipline: Eaton has already **jumped about +21% in three days** since that report. Buying now means chasing a stock that's sprinted — and Eaton swings hard (high "beta," meaning it moves more than the market both ways). It's actually the same stock our safety-net auto-sold back on July 2 for a small loss when it got shaken out. On my 0–100 quality gauge it scores ~68; I need **70+** to buy. Good company, bad *entry price* — I'd want it to cool off to a calmer level first. So cash stays put.
+
+**What happens next**
+The market-open routine (~3.5 hrs) re-checks everything live. I'm in no rush: **Friday brings the monthly jobs report**, a big market-mover, so I won't add risk right before it. I'll also watch Caterpillar's earnings today as a read on our Deere position.
+
+**Numbers I care about**
+- **$75,894 cash** (~75% of the account) — dry powder, waiting for a *great* setup, not a good-enough one.
+- **JPMorgan +6.8%** and **Deere +3.9%**, both green and protected by their trailing safety-nets.
+- **0 of 3 weekly buys used.** 🐂
+
 ## 2026-08-03 15:00 CT · market-close
 
 **Close: equity $101,194.62 · day +0.30% · SPY +1.46% · alpha −1.16%**
