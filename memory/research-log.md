@@ -5098,3 +5098,30 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Telegram:** NOT pushed (quiet midday check with no trades = do-NOT-push per CLAUDE.md). The mandatory daily "how we're doing" push is owned by the market-close routine.
 
 **Next routine:** market-close Wed 8/5 — owns the official daily scorecard + mandatory Telegram push. Watch DE cushion (tightest ~5.65%), ADP/ISM Services read, confirm no thesis breaks. No new exposure into Fri NFP.
+
+### Day summary (market-close 2026-08-05)
+- **Closing equity: $101,581.56.** Total since $100K start +1.58%.
+- **Day P/L: −$49.80 / −0.05%** (vs Tue 8/4 close $101,631.36) — essentially flat, a hair red.
+- **SPY day −0.17%** (8/4 close 771.11 → 8/5 close 769.79). **Alpha today +0.12%** — we edged the market: the defensive ~25%-invested book held flat while SPY gave a little back.
+- **Week-to-date** (WTD base = Fri 7/31 close $100,893.14): +$688.42 / +0.68%; SPY WTD (746.79 → 769.79) +3.08%; **alpha WTD −2.40%** (narrowed from ~−2.62% midday / ~−3.08% at open, since SPY pulled back today).
+- Positions at close: JPM 34 @ 359.53 (+$1,014.37 / +9.05%, cushion ~9.13%), DE 22 @ 612.00 (+$487.96 / +3.76%, cushion ~5.30%). Net open unrealized +$1,502.33. Both stops resting (JPM floor 326.70/hwm 363; DE floor 579.591/hwm 643.99), both marks below hwm → no ratchet. JPM edged up ~+0.56%; DE eased ~−0.87% (617.37 → 612.00), third session of tightening cushion (~6.12 → ~5.65 → ~5.30).
+
+**Trades placed today:** ZERO (open, midday, close). No buys, no sells, no stop changes. Closed-orders query for 8/5 returned count 0. Weekly buys still 0/3. daytrade_count 0.
+
+**What worked:**
+- **The low-beta book beat SPY on a down day.** SPY dipped −0.17% (ADP/ISM Services digested, pre-NFP caution); our holdings sat flat, so alpha flipped POSITIVE today (+0.12%) for the first time this week. Concrete proof that cash-drag cuts both ways — it hurts on rally days, helps on red days.
+- Discipline held again: no forced trade into a thin qualifier the day before Fri NFP. ETN (~68, extended) correctly benched; PWR (~50, below 50dMA) correctly benched. ~45th effectively-empty scan — the gate is functioning, not failing.
+- Both stops confirmed resting and correct; no risk action required all day.
+
+**What didn't:**
+- **Cash-drag still owns the week.** Even after today's narrowing, alpha WTD is −2.40% on a book that's ~75% cash while SPY has run +3.08% in three sessions. Structural, not a gate problem — the deployment/cash-level A/B question escalated to Lauren on 7/31 remains unanswered → Option A (hold the bar) stands.
+- **DE cushion tightening three sessions running** (~6.12 → ~5.65 → ~5.30). Still healthy and above floor; not actionable, but the tightest name and worth eyeing. Aug-12 US-China tariff deadline is the sentiment overhang; next DE report ~Aug 20.
+
+**Open questions for tomorrow (Thu 8/6):**
+- Does DE keep drifting toward its floor? Cushion ~5.30%, floor 579.591 — trailing stop handles a real break automatically. Note if it tightens materially.
+- Pre-NFP positioning: Fri Aug 7 July NFP is the week's binary event. Hold cash, no fresh beta into the print. No CPI/PCE this week.
+- Cash-drag gap: SPY pulled back today; if NFP disappoints and SPY sells off, the low-beta book keeps its relative edge; if NFP is hot and SPY rips, the drag re-widens. Either way the gate stays ≥70 and the A/B answer is parked on Lauren.
+
+**Memory writes:** portfolio.md overwritten (close snapshot); this Day summary appended; messages.md prepended (mandatory end-of-day teacher update); dashboard/state.json overwritten (most important write of the day). Inbox: nothing pending to move.
+
+**Telegram: PUSHED** (mandatory daily "How we're doing" close update — sent regardless of no-trade day per CLAUDE.md standing rule).

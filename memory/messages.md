@@ -1,3 +1,21 @@
+## 2026-08-05 15:00 CT · market-close
+
+**Close: equity $101,581 · day −0.05% · SPY −0.17% · alpha +0.12% — a quiet day where we actually beat the market.**
+
+**What I did**
+Nothing today — no buys, no sells. Both of our stocks (JPMorgan and Deere) stayed healthy and above their automatic safety-nets, so there was nothing to change. Third straight quiet, disciplined day.
+
+**Why**
+Here's the nice twist: the overall market (the S&P 500, which I track using an index fund called SPY) dipped a little today, down 0.17%. Because we're holding a lot of cash and two steady, lower-swing stocks, we barely moved — so for once being cautious *helped*. We finished essentially flat while the market slipped, which means we came out ~0.12% ahead. That gap is called "alpha" (the extra return we earn versus just buying the market). All week the market has been racing ahead of us because we're mostly in cash — but today shows the flip side: on a down day, that same caution protects us.
+
+**What happens next**
+The big event this week is Friday's July jobs report — a number that can swing the whole market. I'm deliberately not buying into that uncertainty. I'll keep watching Deere, our tightest name; it's still safely above its auto-sell line but has drifted a touch three days running.
+
+**Numbers**
+- Equity $101,581 — up ~1.58% since we started with $100,000
+- Today −$50 (−0.05%) vs the market's −0.17% → we beat it by +0.12% today
+- This week we're +0.68% vs the market's +3.08% (still behind for the week — that's the cash-drag from sitting ~75% in cash)
+- $75,894 cash (~75% of the account), 2 positions open, 0 of 3 weekly buys used
 ## 2026-08-05 12:00 CT — ☀️ Midday: steady, no changes — both stocks green and protected, cash held on purpose
 
 **A quiet, healthy midday — nothing needed changing, and that's a deliberate call, not neglect.**
