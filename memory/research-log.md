@@ -5051,3 +5051,25 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Memory writes:** portfolio.md overwritten (close snapshot); this Day summary appended; messages.md prepended (mandatory end-of-day teacher update); dashboard/state.json overwritten (most important write of the day). Inbox: nothing pending to move.
 
 **Telegram: PUSHED** (mandatory daily "How we're doing" close update — sent regardless of no-trade day per CLAUDE.md standing rule).
+
+---
+
+## 2026-08-05 08:34 CT — MARKET OPEN (Wed) · Plan re-validated: NO trades · both holdings intact on trailing stops · hold cash into Fri NFP
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **CONFIRMED OPEN** via /v2/clock (is_open:true, timestamp 09:33:35 ET, next_close 16:00 ET). Inbox: **nothing pending**. Account (live): equity **$101,717.75**, cash **$75,893.54** (~74.61%), long_market_value **$25,824.21** (~25.39%), buying_power $375,881.95, status ACTIVE. `last_equity` (Tue 8/4 close) $101,631.36 → today **+$86.39 / +0.09%** (early, ~4 min after open). **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3.**
+
+**Plan execution (from 8/5 pre-market log):** The pre-market scan produced **NO buy candidate clearing the 2-signal + Conviction ≥70 gate** and **NO sell signals**. Re-validated against live open prices — nothing changed, so **no orders placed this routine**. This is the disciplined hold: buying strength one day before Friday's binary July NFP print, into a hawkish-Fed backdrop (~65% odds of a Sept hike), is poor risk/reward. Hold cash, wait for NFP + a confirmable setup.
+
+**Positions (live marks, both intact — no thesis break):**
+- **JPM** 34 @ 329.695588, mark **360.695**, **+$1,053.98 (+9.40%)**, lastday 357.52 (today ~+0.89%). Trailing 10% GTC `8a937ff6…` floor **326.70**, hwm **363** (mark below hwm → no ratchet), cushion **~9.42%**. sev 1 (quiet). Thesis intact ($50B buyback + div hike + largest-bank franchise; DB Hold→Buy $375). Next earnings ~Oct. Size 12.06% of equity.
+- **DE** 22 @ 589.82, mark **616.39**, **+$584.54 (+4.51%)**, lastday 617.37 (today flat-to-down). Trailing 10% GTC `dcdd84e5…` floor **579.591**, hwm **643.99** (below hwm → no ratchet), cushion **~5.97%** (tightest name in book). sev 2 (US-China Aug-12 + soft large-ag = SENTIMENT overhang, not break). CAT 8/4 blowout = constructive machinery-cycle read-across. $1.62 div payable Aug 10; next report ~Aug 20 (do NOT add ahead). Size 13.33% of equity.
+
+**Order/stop verification:** open-orders (status=open, nested=true) returns exactly the 2 resting trailing stops above — JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` (trail_percent 10, stop_price 326.7, hwm 363, gtc, new) and DE `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` (trail_percent 10, stop_price 579.591, hwm 643.99, gtc, new). No stray/partial orders. daytrade_count 0.
+
+**Scorecard:** Equity $101,717.75, +1.72% since $100K start. Today +$86.39/+0.09%. SPY last trade 775.88 vs Tue close 771.11 → SPY ~+0.62% today; SPY WTD (vs Fri 7/31 close 746.79) ~+3.90%. Equity WTD +$824.61/+0.82% → alpha WTD ≈ **−3.08%** (structural 75%-cash drag vs a strongly rallying SPY; the gate correctly benched every candidate — this is not a rules failure). Net open unrealized +$1,638.52.
+
+**Sell candidates: NONE.** Both holdings intact, above trailing floors. **Buy candidates: NONE clear the gate.** Bench unchanged from pre-market (ETN ~68 extended, PWR ~50 below 50dMA, etc.).
+
+**Telegram:** NOT pushed (open scan with no trades = do-NOT-push per CLAUDE.md). The mandatory daily "how we're doing" push is owned by the market-close routine.
+
+**Next routine:** midday Wed 8/5 — recheck DE cushion (tightest ~5.97%), watch ADP/ISM Services read, confirm no thesis breaks. No new exposure into Fri NFP.

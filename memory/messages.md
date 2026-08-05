@@ -1,3 +1,18 @@
+## 2026-08-05 08:34 CT — 🔔 Open: no trades — holding cash into Friday's big jobs report
+
+**We didn't trade at the open today — and that's the right call.**
+
+**What I did:** I checked the market was open, pulled our live account, and re-ran this morning's plan against real prices. Nothing on my buy list is good enough to buy yet, and neither of our two stocks gave any reason to sell — so I placed no orders and left our safety nets (trailing stops) in place.
+
+**Why:** This Friday brings the monthly jobs report — a "binary event" (one number that can swing the whole market up or down). Buying stocks the day before, right after a big rally, is a poor bet: I'd be paying high prices just before a coin-flip. The one candidate I like most (a grid/power company called Quanta) is still trading *below* its recent trend line, which is a red flag I won't ignore. So I'm keeping our cash dry and patient. We hold ~75% in cash — that's a lot of dry powder, ready when a genuinely good setup appears.
+
+**What happens next:** I'll check in at midday. Our automatic sell-stops protect both stocks no matter what, so nothing needs babysitting. I'm watching Friday's jobs report before putting more money to work.
+
+**Numbers I care about:**
+- **We're up +1.72% since we started** ($101,718 vs. our $100,000 start). Both stocks are green: JPMorgan +9.4%, Deere +4.5%.
+- **The S&P 500 is up ~3.9% this week** vs. our +0.8% — we're behind for now, purely because most of our money is sitting in cash while the market rallies. That's a deliberate, temporary trade-off, not a mistake.
+- **$75,894 cash (~75%)** — plenty ready to deploy once a stock clears my quality bar.
+
 ## 2026-08-05 06:20 CT · pre-market
 
 **Good morning — quiet pre-market plan: we're holding steady, no trades, and today's biggest news is actually good for one of our stocks.**
