@@ -5073,3 +5073,28 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Telegram:** NOT pushed (open scan with no trades = do-NOT-push per CLAUDE.md). The mandatory daily "how we're doing" push is owned by the market-close routine.
 
 **Next routine:** midday Wed 8/5 — recheck DE cushion (tightest ~5.97%), watch ADP/ISM Services read, confirm no thesis breaks. No new exposure into Fri NFP.
+
+## 2026-08-05 12:00 CT — MIDDAY (Wed) · No trades · all risk checks clear · both holdings intact on trailing stops · hold cash into Fri NFP
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **CONFIRMED OPEN** via /v2/clock (is_open:true, timestamp 13:02:04 ET, next_close 16:00 ET). Inbox: **nothing pending.** Account (live): equity **$101,660.54**, cash **$75,893.54** (~74.65%), long_market_value **$25,767.00** (~25.35%), buying_power $375,721.76, status ACTIVE. `last_equity` (Tue 8/4 close) $101,631.36 → today **+$29.18 / +0.03%** (flat, quiet midday). **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3.**
+
+**Risk management (the midday job, in priority order):**
+- **(a) Any position −7% or worse un-stopped?** NO. JPM **+9.30%**, DE **+4.15%** — both comfortably green, both above their trailing floors. No name required a 4-hour news check.
+- **(b) Any position +5%+ needing hard→trailing conversion?** JPM +9.30% ≥ +5% but is ALREADY on a 10% trailing GTC (no −7% hard stop to cancel). DE +4.15% is below +5% and also already on a 10% trailing. **No −7% hard stop exists anywhere in the book → no conversion action.**
+- **(c) Daily loss cap:** today +$29.18/+0.03% (not down) → cap not tripped. Moot anyway — no buys.
+
+**Positions (live marks, both intact — no thesis break):**
+- **JPM** 34 @ 329.695588, mark **360.3712**, **+$1,042.97 (+9.30%)**, lastday 357.52 (today ~+0.80%). Trailing 10% GTC `8a937ff6…` floor **326.70**, hwm **363** (mark below hwm → no ratchet), cushion **~9.34%**. sev 1 (quiet). Thesis intact ($50B buyback + div hike + largest-bank franchise; DB Hold→Buy $375). Next earnings ~Oct. Size 12.05% of equity.
+- **DE** 22 @ 589.82, mark **614.29**, **+$538.34 (+4.15%)**, lastday 617.37 (today flat-to-down). Trailing 10% GTC `dcdd84e5…` floor **579.591**, hwm **643.99** (below hwm → no ratchet), cushion **~5.65%** (tightest name in book). sev 2 (US-China Aug-12 + soft large-ag = SENTIMENT overhang, not break). CAT 8/4 blowout = constructive machinery-cycle read-across. $1.62 div payable Aug 10; next report ~Aug 20 (do NOT add ahead). Size 13.29% of equity.
+
+**Order/stop verification:** open-orders (status=open, nested=true) returns exactly the 2 resting trailing stops above — JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` (trail_percent 10, stop_price 326.7, hwm 363, gtc, new) and DE `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` (trail_percent 10, stop_price 579.591, hwm 643.99, gtc, new). No stray/partial orders.
+
+**New buys?** NO. Midday rule: no new buys unless a high-conviction BREAKING catalyst AND weekly buys <3 AND positions <5. No such catalyst emerged; the bench is unchanged from the pre-market/open scan (ETN ~68 extended, PWR ~50 below 50dMA, none ≥70). Deploying fresh cash the day before Friday's binary July NFP print, into a hawkish-Fed backdrop (~65% odds of a Sept hike), remains poor risk/reward. Cash stays dry — no deviation from the pre-market plan.
+
+**Scorecard:** Equity $101,660.54, +1.66% since $100K start. Today +$29.18/+0.03%. SPY last trade 772.06 vs Tue close 771.11 → SPY ~+0.12% today; SPY WTD (vs Fri 7/31 close 746.79) ~+3.38%. Equity WTD +$767.40/+0.76% → alpha WTD ≈ **−2.62%** (structural 75%-cash drag vs a rallying SPY; the gate correctly benched every candidate — not a rules failure). Net open unrealized +$1,581.31 (JPM +1,042.97, DE +538.34).
+
+**Sell candidates: NONE.** Both holdings intact, above trailing floors. **Buy candidates: NONE clear the gate.**
+
+**Telegram:** NOT pushed (quiet midday check with no trades = do-NOT-push per CLAUDE.md). The mandatory daily "how we're doing" push is owned by the market-close routine.
+
+**Next routine:** market-close Wed 8/5 — owns the official daily scorecard + mandatory Telegram push. Watch DE cushion (tightest ~5.65%), ADP/ISM Services read, confirm no thesis breaks. No new exposure into Fri NFP.
