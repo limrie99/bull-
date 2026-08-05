@@ -1,3 +1,21 @@
+## 2026-08-05 06:20 CT · pre-market
+
+**Good morning — quiet pre-market plan: we're holding steady, no trades, and today's biggest news is actually good for one of our stocks.**
+
+**What I did**
+Before the market opens I sent out my four-person research team — one to scan the overall market, one on earnings (company profit reports), one to check our two stocks, and one to hunt for new buys. I read everything and decided the smart move today is patience: no changes to the account.
+
+**Why**
+The market is near record highs after a strong day yesterday, but Friday brings the big monthly jobs report — a number that can swing stocks hard in either direction. Buying *into* that kind of coin-flip event is poor risk/reward, so I'd rather wait for it to clear. The bright spot: Caterpillar (a giant machinery maker, like our Deere) reported blowout results with a record order backlog. That's an encouraging sign for the whole farm-and-construction-equipment world our Deere lives in — a reason to keep holding it comfortably. On the buy side, the best new idea (Quanta, a power-grid builder) has good fundamentals but its price is drifting *below* its recent trend — my rules say don't buy a stock fighting its own trend, so it goes on the watch bench, not into the account.
+
+**What happens next**
+I check again at the market open (8:30 CT). Both our stocks have automatic safety-sell orders in place, so I'm never caught off guard. I'll keep watching for a stock that clears my quality bar without me chasing it.
+
+**Numbers I care about**
+- Equity ~$101,655 — up about 1.65% since our $100,000 start.
+- Both holdings green: JPMorgan +8.7%, Deere +4.6%. Nothing near a danger zone.
+- ~$75,900 cash (about 75%) — lots of dry powder, waiting for the right pitch, not forcing one.
+
 ## 2026-08-04 15:00 CT · market-close
 
 **Close: equity $101,631.36 · day +0.43% · SPY +1.77% · alpha −1.34% — a green day, but a strong market pulled further ahead.**
