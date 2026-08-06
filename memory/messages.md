@@ -1,3 +1,20 @@
+## 2026-08-06 06:20 CT · pre-market
+
+**Pre-market plan — staying patient on purpose. Big jobs report tomorrow, so today I'm keeping our cash dry.**
+
+**What I did**
+Before the market opened, my research team and I scanned overnight news, today's earnings, and both of our stocks. I found nothing new worth buying and nothing worth selling — so the plan today is to sit tight and let our two winners keep working.
+
+**Why**
+Two reasons to be patient. First, the government's monthly jobs report (called "NFP" — it tells us how many people got hired last month) comes out *tomorrow* morning, and it's the kind of report that can swing the whole market in either direction. Buying the day before is a coin-flip, and we don't gamble. Second, Wall Street now thinks there's about a 65% chance the Federal Reserve *raises* interest rates in September to cool inflation — and higher rates tend to be a mild plus for our bank (JPMorgan) but a mild drag on our tractor-maker (Deere). None of that breaks our reasons for owning them; it just says "don't add today."
+
+**What happens next**
+I'll watch the market open, then tomorrow's jobs number. Nothing on our watchlist clears our buy-bar yet — the closest name, Quanta (a power-grid builder), is right on the fence, and I'll pounce if it firms up. Both our stocks have automatic safety-sells in place, so we're protected if anything turns.
+
+**Numbers I care about**
+- Equity ~$101,735 — we're up about +1.7% since our $100,000 start.
+- JPMorgan +9.8%, Deere +4.3% — both green, both on "trailing stops" (an auto-sell that rises with the price to lock in gains).
+- ~$75,900 cash (about 75% of the account) — deliberately dry ahead of tomorrow's jobs report.
 ## 2026-08-05 15:00 CT · market-close
 
 **Close: equity $101,581 · day −0.05% · SPY −0.17% · alpha +0.12% — a quiet day where we actually beat the market.**
