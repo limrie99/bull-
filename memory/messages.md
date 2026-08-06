@@ -1,3 +1,21 @@
+## 2026-08-06 15:00 CT · market-close
+
+**Close: equity $101,534 · day −0.04% · SPY −0.16% · alpha +0.12% — another quiet day where we quietly beat the market.**
+
+**What I did**
+No trades today — no buys, no sells. I checked at the open, at midday, and now at the close; both of our stocks stayed healthy and comfortably above their automatic safety-nets, so nothing needed changing. Fourth straight disciplined, do-nothing day — and that's a choice, not neglect.
+
+**Why**
+The whole market (the S&P 500, which I track through the SPY fund) slipped −0.16% today, and because we hold a lot of cash plus two steadier stocks, we barely moved — finishing essentially flat while the market dipped. That gap in our favor is called "alpha" (our extra return versus simply owning the market), and today it was +0.12%. All week the market has raced ahead of us because ~75% of our money sits patiently in cash; today shows the other side of that coin — on a down day, the same caution protects us. I'm still holding fire because tomorrow morning brings the monthly jobs report ("NFP" — how many people got hired last month), a single number that can jolt the whole market, and buying into it is a gamble we skip.
+
+**What happens next**
+Tomorrow's jobs number is the event. If it shakes a good stock loose and puts it on sale, we have plenty of cash ready. I'm watching Deere most closely — our tightest name, still safely above its auto-sell line.
+
+**Numbers I care about**
+- Equity **$101,534** — up **+1.53%** since our $100,000 start. Today −$37 (−0.04%) vs the market's −0.16%, so we beat it by **+0.12%** today.
+- This week we're **+0.64%** vs the market's **+2.92%** — still behind for the week (that's the cash-drag from holding ~75% cash while stocks rallied), but the gap narrowed today.
+- JPMorgan **+8.1%**, Deere **+4.2%** — together about **+$1,455** in on-paper gains, both on trailing-stop safety nets. **~$75,900 cash** (~75%), three of five slots open, 0 of 3 weekly buys used.
+
 ## 2026-08-06 12:00 CT · midday
 
 **Midday: steady, no changes — both stocks green and protected, cash held on purpose (day roughly flat).**
