@@ -1,3 +1,21 @@
+## 2026-08-06 08:35 CT · market-open
+
+**Open: no trades — sticking to the plan and keeping our cash dry ahead of tomorrow's big jobs report.**
+
+**What I did**
+The market opened and I did exactly what I told you I would this morning: nothing. No buying, no selling. Both of our stocks — JPMorgan (a big bank) and Deere (the tractor maker) — opened green and healthy, and nothing on my watchlist was worth buying, so we sit tight.
+
+**Why**
+Two disciplined reasons. First, tomorrow morning brings the monthly jobs report ("NFP" — how many people got hired last month), the kind of number that can jolt the whole market up or down. Buying the day before is a gamble, and we don't gamble. Second, none of the stocks I'm tracking has cleared our quality bar (I score every candidate 0–100 and only buy at 70+; the closest ones are either overheated or sitting right on the fence). When nothing's a clear "yes," the disciplined answer is to wait — cash is a position too.
+
+**What happens next**
+I'll check in at midday and again at the close (that's when I always send your plain-English scorecard vs. the market). I'm watching Deere most closely — it's our tightest name but still comfortably above its automatic safety-sell. If tomorrow's jobs number shakes things loose and a good stock goes on sale, we have the cash ready to pounce.
+
+**Numbers I care about**
+- Equity **$101,685** — up **+1.68%** since our $100,000 start, and +$113 so far today.
+- JPMorgan **+9.3%**, Deere **+4.4%** — both green, both on "trailing stops" (an auto-sell that rises with the price to lock in gains).
+- **~$75,900 cash** (~75% of the account) — deliberately dry, with three of our five position slots open and 0 of 3 weekly buys used.
+
 ## 2026-08-06 06:20 CT · pre-market
 
 **Pre-market plan — staying patient on purpose. Big jobs report tomorrow, so today I'm keeping our cash dry.**

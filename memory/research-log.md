@@ -5155,3 +5155,30 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Memory writes:** portfolio.md overwritten (close snapshot); this Day summary appended; messages.md prepended (mandatory end-of-day teacher update); dashboard/state.json overwritten (most important write of the day). Inbox: nothing pending to move.
 
 **Telegram: PUSHED** (mandatory daily "How we're doing" close update — sent regardless of no-trade day per CLAUDE.md standing rule).
+
+## 2026-08-06 08:35 CT — MARKET-OPEN (Thu) · No trades · book intact on trailing stops · nothing clears the gate · hold cash into Fri NFP
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **CONFIRMED OPEN** via /v2/clock (is_open:true, timestamp 09:32:34 ET, next_close 16:00 ET, next_open 8/7 09:30 ET). Inbox: **nothing pending** (Lauren still has not replied to the 7/31 A/B cash decision → Option A / hold-the-bar remains the pre-committed default). Account (live open): equity **$101,684.70**, cash **$75,893.54** (~74.64%), long_market_value **$25,791.16** (~25.36%), buying_power $375,789.41, status ACTIVE. `last_equity` (Wed 8/5 close) $101,571.70 → **today +$113.00 / +0.11%**. **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3. daytrade_count 0.**
+
+**Executing the pre-market plan (re-validated against live open prices):**
+- **BUYS: NONE.** The 8/6 pre-market 4-agent scan cleared nothing — ~46th effectively-empty scan. Bench top ETN ~68 is EXTENDED (+9.84% above 50dMA, ran instead of basing; also the name we stopped 7/2 −$211); PWR ~55–60 sits right on its ~$679 50dMA (razor-thin, not a convincing reclaim; trigger = decisive ~$710+ reclaim on volume). None clears the 2-signals-AND-Conviction-≥70 gate. On top of the gate, deploying fresh cash the day before Friday's binary July NFP — into a hawkish backdrop (~65% odds of a Sept-16 Fed hike) — is exactly the poor risk/reward the gate is built to hold. Cash stays dry.
+- **SELLS: NONE.** No sell signal fired overnight. Both holdings green and above their trailing floors; no thesis break on either. Nothing to sell at the open.
+
+**Risk management (market-open job, priority order):**
+- **(a) Any position −7% or worse un-stopped?** NO. JPM **+9.28%**, DE **+4.41%** — both green, both above trailing floors. No name required a news check.
+- **(b) Any position +5%+ needing hard→trailing conversion?** JPM +9.28% ≥ +5% but ALREADY on a 10% trailing GTC (no −7% hard stop to cancel). DE +4.41% below +5% and also already trailing. **No −7% hard stop exists anywhere in the book → no conversion action.**
+- **(c) Daily loss cap:** today +$113.00 / +0.11% (not down) → cap not tripped. Moot — no buys anyway.
+
+**Positions (live open marks, both intact — no thesis break):**
+- **JPM** 34 @ 329.695588, mark **360.3007**, **+$1,040.57 (+9.28%)**, lastday 359.24 (today ~+0.30%). Trailing 10% GTC `8a937ff6…` floor **326.70**, hwm **363** (mark below hwm → no ratchet), cushion **~9.33%**. sev 1 (quiet). Thesis intact ($50B buyback + div hike + largest-bank franchise; DB Hold→Buy $375). Next earnings ~Oct. Size 12.05% of equity.
+- **DE** 22 @ 589.82, mark **615.82**, **+$572.00 (+4.41%)**, lastday 612.00 (today ~+0.62%). Trailing 10% GTC `dcdd84e5…` floor **579.591**, hwm **643.99** (below hwm → no ratchet), cushion **~5.88%** (tightest name in book, but firmed up vs Wed close 612.00). sev 2 (US-China Aug-12 + soft large-ag + senators' Sec-232 probe request = SENTIMENT overhang, not break). $1.62 div payable Aug 10; next report ~Aug 20 (do NOT add ahead). Size 13.32% of equity.
+
+**Order/stop verification:** open-orders (status=open, nested=true) returns exactly the 2 resting trailing stops — JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` (trail_percent 10, stop_price 326.70, hwm 363, gtc, new) and DE `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` (trail_percent 10, stop_price 579.591, hwm 643.99, gtc, new). No stray/partial orders.
+
+**Scorecard:** Equity $101,684.70, +1.68% since $100K start. Today +$113.00/+0.11%. SPY WTD (vs Fri 7/31 close 746.79 → Wed 8/5 close 769.79) ~+3.08%; Equity WTD +$791.56/+0.78% → alpha WTD ≈ **−2.30%** (structural ~75%-cash drag vs a rallying SPY; the gate correctly benched every candidate — not a rules failure; flips two-sided on red days, as Wed's +0.12 alpha showed). Net open unrealized +$1,612.57 (JPM +1,040.57, DE +572.00). Live intraday SPY/alpha is the market-close routine's job.
+
+**Sell candidates: NONE.** Both holdings intact, above trailing floors. **Buy candidates: NONE clear the gate.**
+
+**Telegram:** NOT pushed (market-open scan with NO trades = do-NOT-push per CLAUDE.md — the push events are trade placed / stop fired / daily close / weekly review / urgent, none of which occurred). The mandatory daily "how we're doing" push is owned by the market-close routine.
+
+**Next routine:** midday Thu 8/6 — recheck DE cushion (tightest ~5.88%), confirm no thesis breaks, no new exposure into Fri NFP. Then market-close owns the official daily scorecard + mandatory Telegram push.
