@@ -5182,3 +5182,27 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Telegram:** NOT pushed (market-open scan with NO trades = do-NOT-push per CLAUDE.md — the push events are trade placed / stop fired / daily close / weekly review / urgent, none of which occurred). The mandatory daily "how we're doing" push is owned by the market-close routine.
 
 **Next routine:** midday Thu 8/6 — recheck DE cushion (tightest ~5.88%), confirm no thesis breaks, no new exposure into Fri NFP. Then market-close owns the official daily scorecard + mandatory Telegram push.
+
+## 2026-08-06 12:00 CT — MIDDAY (Thu) · No trades · book intact on trailing stops · nothing clears the gate · hold cash into Fri NFP
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Market **CONFIRMED OPEN** (clock is_open:true, timestamp 13:01 ET, next_close 16:00 ET). Inbox: **nothing pending** (Lauren still has not replied to the 7/31 A/B cash decision → Option A / hold-the-bar remains the pre-committed default).
+
+**Account (live midday marks):** equity **$101,550.38**, cash **$75,893.54** (~74.74%), long_market_value **$25,656.84** (~25.26%), buying_power $375,413.31, status ACTIVE. `last_equity` (Wed 8/5 close) $101,571.70 → **today −$21.32 / −0.02%** (essentially flat). **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3.**
+
+**Positions (live):**
+- **JPM** 34 @ 329.695588 → 356.40, **+$907.95 / +8.10%**. Trailing 10% GTC, floor 326.70, hwm 363, resting. Cushion ~8.33%. Softened −0.79% today (sector-wide bank softness, thesis untouched; DB Buy $375 stands; next earnings ~Oct).
+- **DE** 22 @ 589.82 → 615.42, **+$563.20 / +4.34%**. Trailing 10% GTC, floor 579.591, hwm 643.99, resting. Cushion ~5.82%. Firmed +0.56% today. $1.62 div payable Aug 10; Q3 confirmed Thu Aug 20 9:00 CT — do NOT add ahead. Sec-232 probe request on Mexico-made equipment = future tariff tail (sentiment, not break).
+- Net open unrealized **+$1,471.15**.
+
+**Open orders (nested=true) re-confirmed:** JPM trailing `8a937ff6…` stop 326.70 hwm 363; DE trailing `dcdd84e5…` stop 579.591 hwm 643.99. Both status new (resting).
+
+**Risk checks:**
+- (a) Any −7% or worse un-stopped? NO (JPM +8.10%, DE +4.34%). No 4-hour news check triggered.
+- (b) Any +5%+ needing hard→trailing conversion? JPM ≥+5% but already trailing; DE <+5% and already trailing. No −7% hard stop exists → no action.
+- (c) Daily loss cap: today −0.02% (flat), not down >3% → cap not tripped. Moot (no buys).
+
+**Buys:** NONE. Nothing clears the gate (2+ signals AND Conviction ≥70); bench top ETN ~68 (extended). Firm discipline: do NOT deploy into Friday's July NFP (binary event, hawkish ~65% Sept-hike backdrop) — dry powder is the correct posture. Weekly buys 0/3, 2/5 positions.
+
+**Benchmark (midday, unofficial — close routine owns official):** SPY live ~768.86 vs Wed 8/5 close 769.79 → SPY ~−0.12% intraday; we ~−0.02% → intraday alpha ~+0.10%. WTD: equity +0.65% vs SPY +2.96% → alpha WTD ~−2.31% (cash-drag).
+
+**Persistence:** wrote portfolio.md (midday snapshot), prepended messages.md (teacher-voice midday), overwrote dashboard/state.json, this log. No Telegram push (quiet midday = do-not-push per CLAUDE.md). Commit + push HEAD:main.

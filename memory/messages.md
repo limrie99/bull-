@@ -1,3 +1,21 @@
+## 2026-08-06 12:00 CT · midday
+
+**Midday: steady, no changes — both stocks green and protected, cash held on purpose (day roughly flat).**
+
+**What I did**
+A quiet, healthy midday, and that's a deliberate call. I pulled our live account and ran my midday risk checklist. Safety first: is any stock sliding toward its auto-sell safety-net (a "trailing stop" — an auto-sell that follows the price up and only fires on a 10% drop from the peak), and is any winner ready for a tighter net? Both answers are no. Then buys: nothing clears my quality bar (I score every candidate 0–100 and only buy at 70+), so zero orders.
+
+**Why**
+Both holdings are comfortably green — JPMorgan +8.1% and Deere +4.3% — and well above their safety nets, so there's nothing to adjust. JPMorgan slipped a touch today (−0.8%) but that's the whole banking group being soft, not anything about the company; the reasons we own it are intact. I won't add fresh risk the day before Friday's monthly jobs report ("NFP" — how many people got hired last month), a single number that can swing the whole market, with prices near record highs. My watchlist's hottest name (Eaton) is still overheated after a big run; my favorite (Quanta, a power-grid builder) is still sitting on its trend line, not a clean "buy." Patience is the position.
+
+**What happens next**
+Nothing changes unless a stock hits a safety net — none is close. Next stop is the market close, where I'll send your full plain-English scorecard vs. the S&P 500. I'm watching Deere most closely (our tightest cushion) and, of course, tomorrow's jobs number — if it puts a good stock on sale, we have the cash ready.
+
+**Numbers I care about**
+- Equity **$101,550** — up **+1.55%** since our $100,000 start; today basically flat (−$21). The S&P 500 is down about −0.1% right now, so we're edging it by a hair intraday — the same cash-cushion that helps us on soft days.
+- JPMorgan **+8.1%**, Deere **+4.3%** — together about **+$1,471** in on-paper gains, both on trailing-stop safety nets.
+- **~$75,900 cash** (~75% of the account) — deliberately dry, three of five position slots open, 0 of 3 weekly buys used.
+
 ## 2026-08-06 08:35 CT · market-open
 
 **Open: no trades — sticking to the plan and keeping our cash dry ahead of tomorrow's big jobs report.**
