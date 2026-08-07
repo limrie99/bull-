@@ -1,3 +1,27 @@
+## 2026-08-07 12:02 CT — MIDDAY (Fri, market OPEN) · No trades · Steady — both holdings green, trailing stops resting, no gate-clearer
+
+**Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, timestamp 13:02 ET, next_close 16:00 ET). Inbox: **nothing pending**. 4 required keys present (cloud mode; Telegram set).
+
+**Account (live midday marks):** equity **$101,842.67**, cash **$75,893.54** (~74.52%), long_market_value **$25,949.13** (~25.48%), buying_power $376,231.72, status ACTIVE. `last_equity` (Thu 8/6 close) $101,534.22 → **day P/L +$308.45 / +0.304%** (midday, unofficial). **2 of 5 positions; THREE slots OPEN. Weekly buys 0/3.**
+
+**Both holdings rallied further since the open (dovish-NFP tape held risk-on into midday):**
+- **JPM** 34 @ 329.695588 → **357.795**, **+$955.38 / +8.52%** (was +7.78% at open). Trailing 10% GTC `8a937ff6…` stop 326.70, hwm 363, resting (mark below hwm → no ratchet yet). Cushion ~8.69%. Size ~11.94%.
+- **DE** 22 @ 589.82 → **626.55**, **+$808.06 / +6.23%** (was +5.11% at open). Trailing 10% GTC `dcdd84e5…` stop 579.591, hwm 643.99, resting (mark below hwm → no ratchet yet). Cushion ~7.49%. Size ~13.54%. $1.62 div payable Aug 10; Q3 CONFIRMED Thu Aug 20 9:00 CT — do NOT add ahead.
+- Net open unrealized **+$1,763.44** (up from +$1,535.21 at open).
+
+**Open orders (nested=true) re-confirmed:** JPM trailing `8a937ff6…` stop 326.70 hwm 363; DE trailing `dcdd84e5…` stop 579.591 hwm 643.99. Both status new (resting). No stray/partial orders. Neither mark has exceeded its hwm, so Alpaca's server-side ratchet hasn't lifted either floor since open — expected.
+
+**Risk checks (priority order):**
+- (a) Any −7% or worse un-stopped? **NO** (JPM +8.52%, DE +6.23%). No 4-hour news check triggered.
+- (b) Any +5%+ needing hard→trailing conversion? Both are ALREADY on 10% trailing GTC; there is **no −7% hard stop anywhere in the book** → no conversion action pending.
+- (c) Daily loss cap: day **+0.304%** (green), not down >3% → not tripped. Moot (no buys).
+
+**Buys:** NONE. Midday rule = no new buys unless a high-conviction breaking catalyst AND weekly buys <3 AND positions <5. No breaking catalyst surfaced since the 08:42 open scan; the dovish-NFP rally continued to push the bench MORE extended, not cheaper (ETN, PWR, CAT all richer, none clears ≥70). The 08:42 scan stands. Gate stays ≥70; no loosening.
+
+**Benchmark:** SPY 8/6 close 768.56 → **~772.175** midday = **~+0.47%**. We +0.304% → **intraday alpha ~−0.17%** (expected: ~74.5% cash lags a continuing up-tape; the cash cushion only helps on down-days). WTD (base Fri 7/31 close $100,893.14): equity +$949.53 / +0.94%; SPY WTD 746.79 → 772.175 ~+3.40%; **alpha WTD ~−2.46%** (structural cash-drag vs a rallying SPY; close routine resets official).
+
+**Next:** market-close routine (Fri 8/7) owns the mandatory daily "How we're doing" Telegram + official EOD scorecard and WTD alpha reset. Watch: **US-China Aug-12 tariff cliff** is the next live binary. No midday Telegram (quiet check — per CLAUDE.md, do NOT push on midday no-trade checks).
+
 ## 2026-08-07 08:42 CT — MARKET-OPEN (Fri, market OPEN) · No trades · July NFP MISS → dovish → tape rallied → nothing on sale · book intact on trailing stops
 
 **Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, timestamp 09:41 ET, next_close 16:00 ET, next_open 8/10 09:30 ET). Inbox: **nothing pending** (Lauren still has not replied to the 7/31 A/B cash decision → Option A / hold-the-bar remains the pre-committed default). 4 required keys present (cloud mode; Telegram set).

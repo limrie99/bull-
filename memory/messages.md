@@ -1,3 +1,21 @@
+## 2026-08-07 12:02 CT · midday
+
+**Midday: steady, no changes — both our stocks are up nicely and we're slightly ahead for the day.**
+
+**What I did**
+A quiet, do-nothing check — which is exactly right on a calm day. I confirmed both our holdings, JPMorgan (a big bank) and Deere (the tractor/farm-equipment maker), are still healthy and gaining, and I made sure their automatic safety-nets are still in place. No buying, no selling.
+
+**Why**
+The morning's weak-jobs rally kept going, so the whole market drifted higher into midday. That's good for the two stocks we own — but it also means the names on my shopping list got *more* expensive, not cheaper, so none of them met my bar to buy. I'd rather sit patiently in cash than chase a stock higher just because the market's green; discipline on the buy side is how we avoid overpaying. Both of our positions also crossed comfortably into profit, so their "trailing stops" (an auto-sell that follows the price up and locks in gains if the stock later drops 10%) are doing their job — protecting the profit we've built without me having to babysit.
+
+**What happens next**
+Nothing needs doing until the market-close check this afternoon, when I'll send you the full end-of-day scorecard. The next real event I'm watching is the Aug 12 US-China tariff deadline.
+
+**Numbers I care about**
+- Equity ~$101,843, up +$308 (+0.30%) today; +1.84% since our $100,000 start.
+- JPMorgan +$955 (+8.5%) · Deere +$808 (+6.2%) — both green, safety-nets resting below.
+- ~$75,894 cash (~75%) still on the bench, ready for a real bargain.
+
 ## 2026-08-07 08:42 CT · market-open
 
 **Open: no trades — the big jobs report came in weak, stocks jumped, and nothing went on sale. We're up a touch and both holdings are green.**
