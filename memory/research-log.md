@@ -1,3 +1,34 @@
+## 2026-08-07 15:02 CT — MARKET CLOSE (Fri) · No trades · Official EOD scorecard · Green day (+0.17%) but lagged an up SPY (+0.59%) on cash-drag · Book intact
+
+**Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, timestamp 16:01 ET, next_open Mon 8/10 09:30 ET). Inbox: **nothing pending** (Lauren still has not replied to the 7/31 A/B cash decision → Option A / hold-the-bar remains the default). 4 required keys present (cloud mode; Telegram set).
+
+**Account (OFFICIAL EOD):** equity **$101,707.48**, cash **$75,893.54** (~74.62%), long_market_value **$25,813.94** (~25.38%), buying_power $375,853.19, status ACTIVE. `last_equity` (Thu 8/6 close) $101,534.22.
+
+**Positions (official EOD marks):**
+- **JPM** 34 @ 329.695588 → **357.52**, **+$946.03 / +8.44%** (eased from midday 357.795). Trailing 10% GTC `8a937ff6…` stop 326.70, hwm 363, resting (mark below hwm → no ratchet). Cushion ~8.6%. Size ~11.95%. Thesis intact ($50B buyback + div hike + largest-bank franchise; DB Buy $375; next earnings ~Oct).
+- **DE** 22 @ 589.82 → **620.83**, **+$682.22 / +5.26%** (eased from midday 626.55 — gave back ~$5.70/sh into the bell). Trailing 10% GTC `dcdd84e5…` stop 579.591, hwm 643.99, resting (mark below hwm → no ratchet). Cushion ~6.6% (tightest name). Size ~13.43%. $1.62 div payable Aug 10; Q3 CONFIRMED Thu Aug 20 — do NOT add ahead. Section 232 probe REQUEST = future tariff tail (sentiment, not break).
+- Net open unrealized **+$1,628.25** (down from midday +$1,763.44 as both eased off highs).
+
+**Order/stop verification:** open-orders (status=open, nested=true) returns exactly the 2 resting trailing stops — JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` (trail 10%, stop 326.70, hwm 363, gtc, new) and DE `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` (trail 10%, stop 579.591, hwm 643.99, gtc, new). Closed-orders since 8/7T00:00Z = **empty** (zero trades today, confirmed). No stray/partial orders.
+
+**Risk checks (official EOD):**
+- (a) Any −7% or worse un-stopped? **NO** (JPM +8.44%, DE +5.26%). No news check triggered.
+- (b) Any +5%+ needing hard→trailing conversion? Both already on 10% trailing GTC; no −7% hard stop exists in the book → no conversion action.
+- (c) Daily loss cap: day **+0.171%** (green) → not tripped. Moot (no buys).
+
+### Day summary (OFFICIAL)
+- **Closing equity: $101,707.48.** Total since $100K start: **+1.71%.**
+- **Day P/L: +$173.26 / +0.171%** (vs Thu 8/6 close $101,534.22).
+- **SPY day: +0.588%** (8/6 close 768.64 → 8/7 close 773.16, from Alpaca latest trade 773.16 @ 20:00Z = the 4:00 ET close, cross-checked vs the 1Day bar close 773.16).
+- **Alpha today: −0.42%.**
+- **WTD:** base Fri 7/31 close $100,893.14 → equity +$814.34 / **+0.807%**; SPY WTD 746.79 → 773.16 = **+3.53%**; **alpha WTD −2.72%.**
+- **Trades placed today: 0.**
+- **What worked:** (1) Both holdings closed green and the trailing stops did their job silently — no babysitting needed. (2) Staying disciplined in cash meant we did NOT chase the NFP-rally names higher — the bench got richer, not cheaper, all week; not overpaying is a real (if invisible) win.
+- **What didn't:** (1) ~74.6% cash structurally capped our participation in a one-directional up-week — that's the entire −2.72% WTD alpha; on a rising SPY the cash cushion is pure drag (it only helps two-sided on red days). (2) Both names eased off midday highs into the bell, so a +$308 midday gain shrank to +$173 at the close — normal intraday noise, not a signal.
+- **Open questions for Monday / weekly review:** (1) 2nd straight structural-cash-drag week — the weekly review must re-confront the Option A/B deploy-or-hold question (own-the-index vs. hold-the-bar). Default stays A until Lauren replies. (2) **US-China Aug-12 tariff cliff** lands Wednesday — the next live binary; keep dry powder into it, do not initiate fresh exposure ahead. (3) DE is the tightest name (~6.6% cushion) with Q3 on 8/20 — trailing floor 579.591 handles any real break; do NOT add ahead of the print.
+
+**Persistence:** overwrote portfolio.md (official close snapshot), prepended messages.md (teacher-voice EOD scorecard), overwrote dashboard/state.json (the day's most important write), appended this Day summary. **Telegram: PUSHED** (mandatory daily close summary — the one push never skipped). Commit + push HEAD:main.
+
 ## 2026-08-07 12:02 CT — MIDDAY (Fri, market OPEN) · No trades · Steady — both holdings green, trailing stops resting, no gate-clearer
 
 **Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, timestamp 13:02 ET, next_close 16:00 ET). Inbox: **nothing pending**. 4 required keys present (cloud mode; Telegram set).

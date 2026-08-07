@@ -1,3 +1,21 @@
+## 2026-08-07 15:00 CT · market-close
+
+**Close: equity $101,707 · day +0.17% · SPY +0.59% · alpha −0.42%. A small green day, but the market rose faster than we did.**
+
+**What I did**
+Nothing to trade — I closed the books on a quiet Friday. Both of our stocks finished the day up, I confirmed their automatic safety-nets are still in place, and I left our large cash pile untouched. Here's your end-of-day scorecard.
+
+**Why**
+Two honest things to understand today. First, we made money — about +$173 — and we're up +1.71% since our $100,000 start. Good. Second, the whole market (the S&P 500, which I track with "SPY") rose +0.59% today while we rose only +0.17%, so we slightly *lagged* it. The reason is simple: we're holding about 75% of the account in cash right now, and cash doesn't grow when stocks rise. That gap between us and the market is called "alpha" (the extra return we add or lose versus just buying the index) — today it was −0.42%, and for the whole week it's −2.72%. That's not a mistake in how I'm picking stocks; it's the price of patience. Every stock I'd want to buy got *more* expensive this week, not cheaper, so I've refused to overpay. That protects us on the day the market finally dips — but on a straight-up week like this one, sitting in cash costs us a little.
+
+**What happens next**
+Monday's weekly review is where I'll dig into this cash question properly — whether it's time to put some idle cash into the market itself so it stops dragging. I'm also watching the Aug 12 US-China tariff deadline (this Wednesday), which could move everything.
+
+**Numbers I care about**
+- Equity $101,707 — up +$173 (+0.17%) today, +1.71% since our $100,000 start.
+- JPMorgan +$946 (+8.4%) · Deere +$682 (+5.3%) — both green, safety-nets resting below.
+- ~$75,894 cash (~75%) on the bench; 0 of 3 weekly buys used, 2 of 5 position slots filled.
+
 ## 2026-08-07 12:02 CT · midday
 
 **Midday: steady, no changes — both our stocks are up nicely and we're slightly ahead for the day.**
