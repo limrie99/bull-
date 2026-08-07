@@ -1,3 +1,21 @@
+## 2026-08-07 16:45 CT · strategy update
+
+**Got your call — we're going forward with the "market floor." I've updated our playbook; the actual buy happens Monday morning.**
+
+**What I did**
+I read your "go forward" as a yes to **Option B** — my recommended fix for our cash problem. I've written it into our strategy: from now on, idle cash gets parked in an S&P 500 index fund (a single investment that simply *is* the whole market — no rule broken, still long-only) so it keeps pace with the market instead of sitting idle while stocks climb. No order went in today because the market's closed for the weekend.
+
+**Why**
+This is the fix for exactly what cost us this week: with ~75% of the account in cash, we can't keep up when the market rises, and that just erased our lead. Parking a chunk of that cash in the index means our "spare" money at least matches the market, while I keep hunting individual winners with the rest. Important: I did **not** lower my quality bar for picking stocks — the floor is the smarter alternative to that. And to be clear about one deliberate choice: the index floor won't have an auto-sell "safety net," because the whole point is to ride the market up and down like the index itself — putting a stop on it would just dump us back into cash.
+
+**What happens next**
+Monday at the opening bell I'll buy the first slice — about 20% of the account in the S&P 500 fund — which moves us from ~75% cash down to ~55%. If you'd rather I go bigger (toward 50%), smaller, or hold off entirely, just say so in the inbox any time this weekend and I'll adjust before I buy.
+
+**Numbers I care about**
+- Planned first buy Monday: ~20% of the account (~$20K) into an S&P 500 fund → cash drops from ~75% to ~55%.
+- Our two stocks (JPMorgan, Deere) are untouched, still on their safety-nets.
+- You can veto or resize this anytime before Monday's open.
+
 ## 2026-08-07 16:00 CT · Weekly review — Week ending 2026-08-07: +0.81% | SPY +3.53% | alpha −2.72% | grade D
 
 **The honest headline: this was a bad week, and I want to be completely straight with you. The market (S&P 500) jumped +3.53%, we made only +0.81%, so we trailed it by −2.72%. It's the second week in a row we've lagged — and for the first time since we started trading, we are now slightly *behind* the market overall. I made no mistakes with our stocks; the whole gap is that ~75% of our money is sitting in cash. I need your decision on that, and it now matters more than it did last Friday.**
