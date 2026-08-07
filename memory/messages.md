@@ -1,3 +1,27 @@
+## 2026-08-07 16:00 CT · Weekly review — Week ending 2026-08-07: +0.81% | SPY +3.53% | alpha −2.72% | grade D
+
+**The honest headline: this was a bad week, and I want to be completely straight with you. The market (S&P 500) jumped +3.53%, we made only +0.81%, so we trailed it by −2.72%. It's the second week in a row we've lagged — and for the first time since we started trading, we are now slightly *behind* the market overall. I made no mistakes with our stocks; the whole gap is that ~75% of our money is sitting in cash. I need your decision on that, and it now matters more than it did last Friday.**
+
+**What happened this week (3–5 things)**
+- **Top "win" — nothing broke.** Both our stocks rose (Deere +4.8%, JPMorgan +1.6%) and their automatic safety-nets (trailing stops — an auto-sell that follows the price up and only fires on a 10% drop) are resting safely below. No errors, no bad news, nothing to fix.
+- **Top loss — it was structural, not a bad stock.** The market rallied hard on a weak jobs report (weak jobs → the Fed is likelier to *cut* interest rates → good for stocks). Our two holdings kept pace with that rally just fine — but they're only ~25% of the account. The other ~75% is cash, and cash earns nothing when stocks climb. That's the entire miss.
+- **The lesson, said plainly:** Over two months a clear pattern has formed — **we beat the market on flat/down weeks and trail it on up weeks, because we hold so much cash.** It's now happened four times on up-weeks, twice in a row, and this week it finally cost us our lead. We're up +1.87% since our $100,000 start, but the market is up +2.22%, so we've slipped just behind it.
+- **I stayed disciplined where it counts.** One stock (Texas Instruments) got close to a "buy" this week, but it had just *fallen* on its own good news and its own executives were selling shares — a warning sign — so it scored 63 out of 100 on my checklist and my rule needs 70+. I benched it. I will not lower my standards to force a trade; that's how people lose money.
+
+**I need your call — and this is the same decision from last Friday, now more urgent (please reply in the inbox file):**
+Beating the market is our one job, and holding three-quarters of the account in cash makes that impossible when the market is rising. Two clear choices:
+
+- **Option A — Stay the course (hold our cash, keep the high bar).** Wait for a genuinely great stock before buying. The honest update: this is **no longer a "do nothing, lose nothing" choice.** On the last two rising weeks, holding cash cost us about −5.6% combined and just turned our lead into a small deficit. You'd be choosing to trail the market whenever it rallies, in exchange for a cushion on down-days.
+- **Option B — Add a "market floor" (my recommendation, and I feel more strongly about it now).** Park a chunk of the idle cash in an S&P 500 index fund (a single investment that simply *is* the whole market — no rule broken, still long-only). Our spare cash would then at least **keep pace** with the market instead of dragging behind it, while we keep hunting individual winners with the rest. I'd move us from ~75% cash toward ~50–55%.
+
+**What happens next**
+This is genuinely your decision to make — it's a real shift (we'd be *owning* the market we're trying to *beat*), so I won't make it for you. If you don't reply, I'll again default to **Option A (hold)** — but I want to be honest that "no decision" now has a real cost: every week the market rises while we sit in cash, we fall a little further behind. A one-word "A" or "B" in the inbox is all I need. Either way, JPMorgan and Deere stay put with their safety-nets on.
+
+**Numbers I care about**
+- **Week: we made +0.81% vs the market's +3.53% → we trailed by −2.72%.** Cause: ~75% cash on a strongly rising market.
+- **Since our $100,000 start we're up +1.87% ($101,707)** — but the market is up +2.22%, so we're now about −0.35% *behind* it (we were +2.3% *ahead* a week ago).
+- **~$75,894 cash (~75%), 2 holdings, 3 open slots, 0 of 3 weekly buys used** — plenty of dry powder, which is exactly the decision above.
+
 ## 2026-08-07 15:00 CT · market-close
 
 **Close: equity $101,707 · day +0.17% · SPY +0.59% · alpha −0.42%. A small green day, but the market rose faster than we did.**
