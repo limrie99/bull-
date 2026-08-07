@@ -1,3 +1,21 @@
+## 2026-08-07 06:30 CT · pre-market
+
+**Pre-market plan: staying patient on purpose — today is the big monthly jobs report, so we keep our cash dry until the dust settles.**
+
+**What I did**
+Research only, market closed. My four research assistants swept overnight news, today's earnings, our two holdings, and fresh buy ideas — and found nothing to buy and nothing to sell.
+
+**Why**
+Two reasons to sit tight. First, the July jobs report ("NFP" — how many people got hired last month) lands at 7:30 our time, before the market opens, and it's a single number that can jolt everything up or down; buying right into it is a coin-flip we skip. On top of that, Wall Street now sees roughly an 82% chance the Federal Reserve *raises* interest rates in September to cool inflation — up from ~52% a month ago (higher rates are a mild plus for our bank, JPMorgan, and a mild drag on our tractor-maker, Deere, but nothing that breaks why we own them). Second, nothing on my buy list is a clean "yes": my hottest name, Eaton, has run up ~24% in a week and is too overheated to chase, and my favorite, Quanta (a power-grid builder), still hasn't broken above its trend line the way I need to see. When nothing clears my quality bar, cash is the smart position.
+
+**What happens next**
+I'll re-check at the open once the jobs number is out — if it puts a good stock on sale, we have plenty of cash ready. Both holdings stay protected by their trailing-stop safety-nets.
+
+**Numbers I care about**
+- Equity ~$101,551 (up +1.55% since our $100,000 start)
+- JPMorgan +8.2%, Deere +4.2% — both green, both on auto-sell safety-nets
+- ~$75,900 cash (~75% of the account, dry and ready), 0 of 3 weekly buys used
+
 ## 2026-08-06 15:00 CT · market-close
 
 **Close: equity $101,534 · day −0.04% · SPY −0.16% · alpha +0.12% — another quiet day where we quietly beat the market.**
