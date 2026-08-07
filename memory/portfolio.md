@@ -1,41 +1,42 @@
 # Portfolio
 
-**Last updated:** 2026-08-07 06:30 CT — **PRE-MARKET (Fri · JULY NFP DAY).** Market CONFIRMED CLOSED via /v2/clock (is_open:false, timestamp 07:11 ET, next_open 8/7 09:30 ET). Account (pre-market marks): equity **$101,550.55**, cash **$75,893.54** (~74.74%), long_market_value **$25,657.01** (~25.26%), buying_power $375,413.78, status ACTIVE. `last_equity` (Thu 8/6 close) $101,534.22 → pre-market drift **+$16.33 / +0.02%** (extended-hours marks, unofficial — essentially flat pre-open). Book **2 of 5 positions (three slots OPEN).** **Weekly buys 0/3.** **NO trades** (market closed; research-only routine). Both holdings intact on resting 10% trailing GTC stops (re-confirmed via open-orders nested=true). **Inbox: nothing pending.** **TODAY: July NFP 8:30 ET before the open — binary event; do NOT deploy into the print.**
+**Last updated:** 2026-08-07 08:42 CT — **MARKET-OPEN (Fri · post-July-NFP).** Market CONFIRMED OPEN via /v2/clock (is_open:true, timestamp 09:41 ET, next_close 16:00 ET). Account (live): equity **$101,622.26**, cash **$75,893.54** (~74.68%), long_market_value **$25,728.72** (~25.31%), buying_power $375,614.57, status ACTIVE. `last_equity` (Thu 8/6 close) $101,534.22 → **day P/L +$88.04 / +0.087%** (early-session, unofficial). Book **2 of 5 positions (three slots OPEN).** **Weekly buys 0/3.** **NO trades this routine.** **July NFP printed a downside MISS (−23k vs +80k exp, unemp 4.1%, AHE +3.2% y/y) → dovish → stocks RALLIED and Sept hike odds fell.** The weak print sent the tape UP, so **nothing went on sale** — no bench name presented a clean entry. Both holdings intact on resting 10% trailing GTC stops (re-confirmed via open-orders nested=true). **Inbox: nothing pending.**
 
-## Scorecard (PRE-MARKET 2026-08-07 — pre-open marks, unofficial)
-- **Equity $101,550.55.** Total since $100K start: **+1.55%.**
-- **Pre-market drift +$16.33 / +0.02%** vs Thu 8/6 close $101,534.22 — essentially flat (extended-hours marks; official day P/L is the close routine's job).
-- **Week-to-date (carry from 8/6 close):** WTD base = Fri 7/31 close $100,893.14; SPY WTD (746.79 → 768.56 as of 8/6) **+2.92%**; **alpha WTD ~−2.28%** (structural cash-drag — ~75% cash vs a rallying SPY; NFP + fresh SPY close reset this at today's close routine).
-- **Net open unrealized: ~+$1,454 (JPM ~+907, DE +550.44)** at pre-market marks.
+## Scorecard (MARKET-OPEN 2026-08-07 — early-session live marks, unofficial; close routine owns official)
+- **Equity $101,622.26.** Total since $100K start: **+1.62%.**
+- **Day P/L +$88.04 / +0.087%** vs Thu 8/6 close $101,534.22 — slightly green early.
+- **SPY intraday:** 8/6 close 768.56 → ~771.13 now = **~+0.33%** (risk-on rally on the soft NFP). We +0.087% → **intraday alpha ~−0.25%** (expected: ~75% cash lags an up-tape; the cash cushion is one-sided help on down-days only).
+- **Week-to-date (unofficial):** WTD base = Fri 7/31 close $100,893.14; equity +$729.12 / +0.72%; SPY WTD (746.79 → ~771.13) ~+3.26%; **alpha WTD ~−2.54%** (structural cash-drag vs a rallying SPY; close routine resets official).
+- **Net open unrealized: +$1,535.21 (JPM +871.91, DE +663.30).**
 
-## Open positions (2 of 5 — three slots OPEN) — pre-market marks 8/7
+## Open positions (2 of 5 — three slots OPEN) — live marks 8/7 ~09:41 ET
 
 | Symbol | Shares | Avg Cost | Mark | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 356.78 | +904.55 | +8.21% | **10% TRAILING (GTC)**, floor **326.70**, hwm 363 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 (7/14) beat; DB UPGRADE Hold→Buy PT $375. sev 1 (quiet; routine 10-Q filed 8/6; mild sector+ from Fed stress-test/buyback news 8/5; NIM ~$105.5B FY26 NII guide already priced; next earnings ~Oct). **Cushion ~8.4%.** Higher-for-longer mildly supports NIM. |
-| DE | 22 | 589.82 | 614.84 | +550.44 | +4.24% | **10% TRAILING (GTC)**, floor **579.591**, hwm 643.99 | 2026-06-04 | Deere — Q2 beat, FY26 guide raised, right-to-repair cleared (~$99M settlement removes overhang). $1.62 div payable Aug 10. **Q3 earnings CONFIRMED Thu Aug 20 9:00 CT — do NOT add ahead.** sev 1–2 (Section 232 probe request on Mexico-made Deere/CAT/CNH equipment still a REQUEST only, no advancement = future tariff tail, sentiment not break; ag peers CNH/AGCO/Titan soft, construction healthier per CAT beat). **Cushion ~5.7%.** |
+| JPM | 34 | 329.695588 | 355.34 | +871.91 | +7.78% | **10% TRAILING (GTC)**, floor **326.70**, hwm 363 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 (7/14) beat; DB UPGRADE Hold→Buy PT $375. sev 1 (quiet; routine 10-Q filed 8/6; Fed stress-test/buyback news 8/5 mild sector+). Soft NFP mildly trims the NIM/higher-for-longer tailwind but thesis (buyback+franchise) fully intact; next earnings ~Oct. **Cushion ~8.1%.** |
+| DE | 22 | 589.82 | 619.97 | +663.30 | +5.11% | **10% TRAILING (GTC)**, floor **579.591**, hwm 643.99 | 2026-06-04 | Deere — Q2 beat, FY26 guide raised, right-to-repair cleared (~$99M settlement removes overhang). $1.62 div payable Aug 10. **Q3 earnings CONFIRMED Thu Aug 20 9:00 CT — do NOT add ahead.** sev 1–2 (Section 232 probe request on Mexico-made equipment still REQUEST-only = future tariff tail; ag peers soft, construction healthier). Soft NFP → lower-rate path is a mild positive for the ag-finance cycle. **Cushion ~6.5%.** |
 
-**Open positions: 2 of 5 (three slots OPEN).** **Buys used this week: 0 of 3.** **Cash buffer: ~74.74%.** Position sizes (on equity $101,550.55): JPM ~11.94%, DE ~13.32% — both well under the 20% cap.
+**Open positions: 2 of 5 (three slots OPEN).** **Buys used this week: 0 of 3.** **Cash buffer: ~74.68%.** Position sizes (on equity $101,622.26): JPM ~11.89%, DE ~13.42% — both well under the 20% cap.
 
 ## Closed THIS WEEK
-- **None** (new week began Mon 8/3). Last close: LLY trailing-stop exit 7/31 (+$627.34 / +4.15%), recorded in trade-log.
+- **None** (week began Mon 8/3). Last close: LLY trailing-stop exit 7/31 (+$627.34 / +4.15%), recorded in trade-log.
 
 ## Stop-management state (both re-confirmed RESTING via open-orders query, nested=true) — ALL 10% TRAILING GTC
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — Alpaca hwm **363**, floor (stop_price) **326.70**, status new (resting). Mark 356.78, cushion ~8.4%. Below hwm (363) → no ratchet. qty 34.
-- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — Alpaca hwm **643.99**, floor (stop_price) **579.591**, status new (resting). Mark 614.84, cushion ~5.7%. Below hwm → no ratchet. qty 22.
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — Alpaca hwm **363**, floor (stop_price) **326.70**, status new (resting). Mark 355.34, cushion ~8.1%. Below hwm (363) → no ratchet. qty 34.
+- **DE 10% trailing** `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` — Alpaca hwm **643.99**, floor (stop_price) **579.591**, status new (resting). Mark 619.97, cushion ~6.5%. Below hwm → no ratchet. qty 22.
 
-## Risk checks (pre-market)
-- **(a) Any position −7% or worse un-stopped?** NO. JPM +8.21%, DE +4.24%. Both on trailing stops above floors. **→ No −7% name; no news check triggered.**
-- **(b) Any position +5%+ needing hard→trailing conversion?** JPM +8.21% ≥ +5% but ALREADY on a 10% trailing. DE +4.24% below +5% and also already trailing. **No −7% hard stop exists in the book → no conversion action.**
-- **(c) Daily loss cap:** pre-open, essentially flat → cap not tripped. Moot anyway — no buys (market closed; would not buy into NFP regardless).
+## Risk checks (market-open, live)
+- **(a) Any position −7% or worse un-stopped?** NO. JPM +7.78%, DE +5.11%. Both on trailing stops above floors. **→ No −7% name; no news check triggered.**
+- **(b) Any position +5%+ needing hard→trailing conversion?** DE **crossed +5.11% today** (from +4.24% at 8/6 close) — but it is **ALREADY on a 10% trailing GTC** (converted 6/25), so no conversion action. JPM +7.78% also already trailing. **No −7% hard stop exists anywhere in the book → no conversion pending.**
+- **(c) Daily loss cap:** day +0.087% (slightly green) → cap not tripped. Moot anyway — no buys.
 
-## Watch / next (next routine: **market-open Fri 8/7**)
-- **BINARY EVENT TODAY: July NFP Fri 8/7 8:30 ET** (consensus ~+80k to +97.5k / unemp ~4.2%, AHE +0.3%/+3.5%). **Sept-16 Fed HIKE odds repriced HARDER to ~82%** (up from ~52% on 7/16) — a hike is now near-consensus. Do NOT deploy into the print; if a good stock goes on sale AFTER the number and clears ≥70 with 2+ signals, cash is ready. **US-China Aug-12 tariff cliff LIVE** (truce likely-but-unconfirmed; China added countermeasures 8/6). Market-open routine re-scores the bench against the NFP reaction.
-- **DE — cushion ~5.7%** (tightest name; mark 614.84). Healthy, comfortably above its 579.591 floor; no thesis break. Section 232 probe request = early-stage watch, monitor for escalation. $1.62 div payable Aug 10; **Q3 Aug 20 — do NOT add ahead.** Trailing floor handles any real break.
-- **JPM — cushion ~8.4%**, healthy; mark 356.78. Thesis intact; hawkish/higher-for-longer mildly supports NIM; Fed stress-test/buyback news 8/5 is a mild sector+. Next earnings ~Oct.
-- **No buy candidate clears the gate.** Bench: **ETN ~72 fund but FAILS on entry** (+24% in a week, no base; +Evercore upgrade 8/3), **PWR ~70 trigger not hit** (~$680, needs decisive $710+ reclaim), **CAT ~65–68 NEW** (beat-and-raise 8/4 +5.7% but correlated with DE, aging catalyst, don't chase), RCL ~66, TXN ~63, GS 63, NOW 63, GEV ~62, LMT ~62, DLR 60, DOV 58, JNJ 58, UNH ~58, ITW ~58, GLW ~55, NOC ~50–55, OXY 55, STX 53, MS 52. None clears ≥70.
-- **Value traps AVOIDED:** AAPL (−7.2% weak guide), META (−6.5% EPS miss+capex), AMD (beat but fell), DIS (rev miss).
-- **Cash-drag / Option A:** Lauren has not replied → Option A (hold the bar, keep cash dry) stands. Today's binary NFP + live 8/12 tariff cliff are exactly the poor risk/reward the gate is built to hold.
+## Watch / next (next routine: **midday Fri 8/7**)
+- **NFP RESOLVED (soft): payrolls −23k vs +80k exp, unemp 4.1%, AHE +3.2% y/y.** Dovish surprise cut Sept-16 hike odds and rallied stocks (SPY ~+0.33% early). The weak print pushed the whole tape UP → **no bench name went on sale.** Cash stayed dry — correctly. **US-China Aug-12 tariff cliff still LIVE** (truce likely-but-unconfirmed; China added countermeasures 8/6) — the remaining binary into next week.
+- **DE — cushion ~6.5%** (tightest name; mark 619.97, rallied on the dovish print). Healthy above 579.591 floor; no thesis break. Section 232 probe request = early-stage watch. $1.62 div payable Aug 10; **Q3 Aug 20 — do NOT add ahead.** Trailing floor handles any real break.
+- **JPM — cushion ~8.1%**, healthy; mark 355.34 (softened slightly as the dovish print trims the higher-for-longer NIM angle). Thesis intact; next earnings ~Oct.
+- **No buy candidate clears the gate — and the NFP rally made entries WORSE, not better.** Bench post-NFP: **ETN ~454 (even more extended, +26%/wk, no base — FAILS entry)**, **PWR ~681.73 (still ON its ~$679-680 50dMA, NOT the decisive $710+ reclaim trigger — NO BUY)**, **CAT ~860 (up, chasing an aging beat, DE-correlated — do NOT chase)**, RCL ~66, TXN ~63, GS 63, NOW 63, GEV ~62, LMT ~62, DLR 60, DOV 58, JNJ 58, UNH ~58, ITW ~58, GLW ~55, NOC ~50–55, OXY 55, STX 53, MS 52. None clears ≥70.
+- **Value traps AVOIDED (carry):** AAPL (−7.2% weak guide), META (−6.5% EPS miss+capex), AMD (beat but fell), DIS (rev miss).
+- **Cash-drag / Option A:** Lauren has not replied → Option A (hold the bar, keep cash dry) stands. The binary NFP is now behind us and it did not hand us a discounted entry; the 8/12 tariff cliff is the next binary. Gate stays at ≥70; no loosening.
 
 ## Recent closes (last 5)
 

@@ -1,3 +1,21 @@
+## 2026-08-07 08:42 CT · market-open
+
+**Open: no trades — the big jobs report came in weak, stocks jumped, and nothing went on sale. We're up a touch and both holdings are green.**
+
+**What I did**
+Nothing — and today that's the win. The July jobs report ("NFP") landed just before the open, and the number was surprisingly *weak*: the economy actually *lost* 23,000 jobs when Wall Street expected it to *add* about 80,000. I re-checked our whole buy list against the reaction, found nothing that cleared my bar, and left both our positions alone.
+
+**Why**
+Here's the counter-intuitive part worth learning: a weak jobs report often makes stocks go *up*, not down. Softer hiring makes the Federal Reserve less likely to raise interest rates (which slow the economy), and cheaper money is good for stocks — so the whole market rallied on the "bad" news. My pre-market plan was "if a good stock goes on *sale* after the number, we pounce." But a rally is the opposite of a sale — my top ideas (Eaton, Quanta, Caterpillar) actually got *more* expensive, not cheaper. Chasing a name higher just because everything's green is exactly the undisciplined move that costs money, so I stayed put.
+
+**What happens next**
+I'll keep our ~75% cash ready and watch for any quality name that pulls back to a sensible price in the coming days. Next real event on my radar is the Aug 12 US-China tariff deadline. Both holdings stay protected by their trailing-stop safety-nets.
+
+**Numbers I care about**
+- Equity ~$101,622, up +$88 (+0.09%) so far today; +1.62% since our $100,000 start
+- JPMorgan +7.8%, Deere +5.1% (Deere just crossed into +5% territory) — both green, both on auto-sell safety-nets
+- ~$75,900 cash (~75% of the account, dry and ready), 0 of 3 weekly buys used
+
 ## 2026-08-07 06:30 CT · pre-market
 
 **Pre-market plan: staying patient on purpose — today is the big monthly jobs report, so we keep our cash dry until the dust settles.**
