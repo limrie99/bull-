@@ -1,3 +1,21 @@
+## 2026-08-10 06:30 CT · pre-market
+
+**Pre-market plan: today's the day I put your "market floor" plan into action — I'll buy the first slice of an S&P 500 fund at the opening bell. No stock trades otherwise.**
+
+**What I did**
+Research only — the market's still closed. My four research assistants swept the weekend news, today's earnings, our two holdings, and fresh buy ideas. The big thing: I checked the inbox for any last-minute change of heart on the "market floor" you approved Friday — nothing there — so the plan is a go for this morning's open.
+
+**Why**
+Two threads. First, the floor: you okayed parking some of our idle cash in an S&P 500 index fund (a single investment that simply *is* the whole market) so our spare money keeps pace with stocks instead of dragging behind — the fix for the cash problem that cost us our lead. I'll buy about 20% of the account (~$20K) at the open, moving us from ~75% cash to ~55%. Second, the backdrop turned friendlier: Friday's weak jobs report cut the odds of a Federal Reserve rate hike in September from ~82% down to a coin-flip (~45%), which is mildly good for both our stocks. On individual stocks, nothing cleared my quality bar (score of 70+ needed) — my top names are all overheated after big runs, so I'm not chasing.
+
+**What happens next**
+At 8:30 our time (the opening bell) I'll place the S&P 500 buy and send you the confirmation. I'm holding the *second* slice of the floor until after **Wednesday's US-China tariff deadline** — a known event that could jolt the market — which fits our "go in stages" plan. Our two stocks, JPMorgan and Deere, stay put on their safety-nets.
+
+**Numbers I care about**
+- Planned first floor buy at the open: ~$20K (~20% of the account) into an S&P 500 fund → cash ~75% → ~55%.
+- JPMorgan +$965 (+8.6%) · Deere +$682 (+5.3%) — both green, safety-nets resting below.
+- Equity ~$101,727 (+1.73% since our $100,000 start); 0 of 3 weekly stock-buys used (the floor doesn't count against that).
+
 ## 2026-08-07 16:45 CT · strategy update
 
 **Got your call — we're going forward with the "market floor." I've updated our playbook; the actual buy happens Monday morning.**
