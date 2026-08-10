@@ -1,3 +1,37 @@
+## 2026-08-10 08:40 CT — MARKET OPEN (Mon) · TRADE: bought 26 SPY (S&P 500 market-floor first tranche, index sleeve, NO STOP) · No conviction stock trades · Book intact
+
+**Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, timestamp 09:37 ET, next_close 16:00 ET). Inbox: **nothing pending** — weekend veto window on the floor decision closed with NO countermand → standing action executed. 4 required keys present (cloud mode; Telegram set). New week; weekly conviction buys 0/3.
+
+**Account (live open, pre-trade):** equity $101,662.36, cash $75,893.54 (~74.6%), long_market_value $25,768.82, buying_power $375,726.86, status ACTIVE. `last_equity` (Fri 8/7 close) $101,707.48 → day −$45.12 / −0.044% (flat). 2 of 5 stock positions; three slots OPEN.
+
+**Account (live, POST-trade):** equity **$101,665.32**, cash **$55,800.82** (~54.89%), long_market_value **$45,864.50** (~45.11%), buying_power $351,623.88. Day P/L −$42.16 / −0.041% (flat).
+
+**Positions (post-trade marks):**
+- **JPM** 34 @ 329.695588 → 358.04, **+$963.71 / +8.60%.** Trailing 10% GTC `8a937ff6…` stop 326.70, hwm 363, resting. Cushion ~8.7%. Size ~11.97%. Thesis intact; next earnings ~Oct.
+- **DE** 22 @ 589.82 → 618.13, **+$622.82 / +4.80%** (intraday −0.435%). Trailing 10% GTC `dcdd84e5…` stop 579.591, hwm 643.99, resting. Cushion ~6.2% (tightest). Size ~13.38%. $1.62 div payable today; Q3 CONFIRMED Thu Aug 20 — do NOT add ahead.
+- **SPY** 26 @ 772.796923 → 772.78, **−$0.57 / ~0.00%** (just filled). **NO STOP (index-floor sleeve carve-out).** Size ~19.76%.
+- Net open unrealized **+$1,586.53.**
+
+### THE TRADE — SPY MARKET-FLOOR, FIRST TRANCHE (executed per Lauren's approved Option B)
+- **Order:** plain market buy, 26 SPY, TIF day, `order_class` empty (NO oto/bracket, NO stop_loss leg). Order id `1fcbcfe3-cf01-41e0-a316-5c4d97942880`.
+- **Poll to fill:** partially_filled 20 @ 772.79 → **FILLED 26 @ 772.796923** (confirmed status=filled, filled_qty=26). Cost $20,092.72 (~19.8% of equity).
+- **Sizing rationale:** policy initial tranche ≈20% of equity ($101,726 pre-mkt → ~$20,345 target); at live SPY ~$772.92 that = ~26 sh. 26 × 772.80 = $20,093 ≈ 19.8% — on target. Moved cash ~74.6% → ~54.9% (well above the 10–20% minimum buffer).
+- **NO STOP (deliberate carve-out):** confirmed via open-orders (status=open, nested=true) → exactly 2 resting orders, the JPM & DE trailing stops; **zero SPY orders.** Index-sleeve exempt from ≤20%-single-position / max-5 / max-3-per-week caps and carries no −7%/trailing stop by policy (stopping out of the benchmark re-creates the cash drag).
+- **SECOND tranche HELD** until after the 8/12 US-China tariff cliff resolves, per policy's "further tranche only after the first settles" — aligns with the pre-market recommendation and the staged design. Do NOT add more floor before Wed's binary clears.
+
+### Conviction sleeve — NOTHING CLEARED THE GATE (unchanged from pre-market; ≥70 + 2 verified signals unmet, ~48th empty scan)
+- No individual-stock buy today. Bench top all fail on ENTRY not thesis: ETN ~65 (extended ~+41% YTD, chasing), PWR ~68 (UNVERIFIED this run — no sourceable data, do not act), CAT ~66 (extended +5.6% + correlated with DE). New names IR ~61 / LLY ~63 / LYB ~52 all single-signal or extended. Gate NOT lowered — the floor is the deployment mechanism, not a loosening of the bar.
+
+### Sell candidates
+- **NONE.** Both stock holdings green on resting 10% trailing GTC stops above floors; no thesis break; neither near its floor. SPY is buy-and-hold, no stop by design.
+
+### Risk checks (market-open)
+- (a) Any −7% or worse un-stopped? **NO** (JPM +8.60%, DE +4.80%, SPY ~flat).
+- (b) Any +5%+ needing hard→trailing conversion? Both stocks already on 10% trailing GTC; no −7% hard stop exists; SPY no-stop by policy → no conversion.
+- (c) Daily loss cap: day −0.041% (flat) → not tripped. Floor buy exempt (own sleeve) anyway.
+
+**Persistence:** appended this market-open entry to research-log.md; appended the SPY BUY to trade-log.md; overwrote portfolio.md (3 holdings + no-stop note on SPY); prepended a teacher-voice market-open message to messages.md; overwrote dashboard/state.json (fresh Alpaca positions/equity + SPY in recent_trades). Inbox unchanged (nothing pending). **Telegram: PUSH (trade placed — a buy is a Telegram-worthy event per CLAUDE.md).** Commit + push HEAD:main.
+
 ## 2026-08-10 06:20 CT — PRE-MARKET (Mon, market CLOSED pre-open, opens 09:30 ET) · No trades · NEW WEEK (weekly buys reset 0/3) · SPY MARKET-FLOOR first tranche TEED UP for the open (Lauren's approved Option B; weekend veto window CLOSED with empty inbox)
 
 **Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, timestamp 07:13 ET, next_open Mon 8/10 09:30 ET, next_close 16:00 ET). Inbox: **nothing pending** — the weekend veto window on the market-floor decision closed with NO countermand → **the standing action (build the S&P 500 floor at today's open) STANDS.** 4 required keys present (cloud mode; Telegram set). New week → weekly buy cap reset to 0/3.

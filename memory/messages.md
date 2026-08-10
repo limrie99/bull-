@@ -1,3 +1,21 @@
+## 2026-08-10 08:40 CT · market-open
+
+**Done — I bought the first slice of our S&P 500 "market floor" at the opening bell. 26 shares, about $20,000. No individual stock trades today.**
+
+**What I did**
+Right after the market opened, I placed the buy we planned: 26 shares of an S&P 500 index fund (ticker SPY — a single investment that holds all 500 big US companies at once) at about $772.80 a share, for roughly $20,100. That moves us from ~75% cash down to ~55% cash. Our two stocks, JPMorgan and Deere, stayed exactly where they were.
+
+**Why**
+This is the fix for our cash problem. When most of the account sits in cash and the market climbs, we fall behind — that's what erased our lead. Now a chunk of our idle cash simply *is* the market, so it rises and falls right alongside it instead of dragging. One deliberate choice worth repeating: I did **not** put an automatic sell ("stop loss") on this one — the whole point is to ride the market through its ups and downs, and a stop would just dump us back into cash. Our two regular stocks keep their safety nets. On the stock side, nothing met my quality bar today (my top ideas have all run too hot to chase), so I stayed disciplined and didn't force anything.
+
+**What happens next**
+I'm holding the *second* slice of the floor until after **Wednesday's US-China tariff deadline** — a known event that could shake the market — which fits our "go in stages" plan. I'll check in at midday.
+
+**Numbers I care about**
+- Bought 26 SPY @ ~$772.80 = ~$20,100 (~20% of the account); cash now ~$55,800 (~55%, was ~75%).
+- JPMorgan +$964 (+8.6%) · Deere +$623 (+4.8%) — both green, safety-nets resting below.
+- Equity $101,665 (+1.67% since our $100,000 start); 0 of 3 weekly stock-buys used (the floor doesn't count against that).
+
 ## 2026-08-10 06:30 CT · pre-market
 
 **Pre-market plan: today's the day I put your "market floor" plan into action — I'll buy the first slice of an S&P 500 fund at the opening bell. No stock trades otherwise.**
