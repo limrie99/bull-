@@ -1,3 +1,20 @@
+## 2026-08-10 12:05 CT · midday
+
+**Midday check — steady, no changes. We're down a touch today ($303, −0.3%), and it's all one stock: Deere is having a soft day while everything else sits still.**
+
+**What I did**
+Nothing — and on a day like this, doing nothing is the right call. I reviewed our three holdings, confirmed both safety nets (the automatic "sell if it falls too far" orders on JPMorgan and Deere) are still in place, and checked the news on Deere since it slipped about 2.25% today.
+
+**Why**
+Deere is the only thing moving against us — JPMorgan and our S&P 500 fund are basically flat. I looked for a real reason (a downgrade, a bad announcement) and found none: it's just leftover nervousness about the US–China tariff deadline this Wednesday and softer demand for big farm equipment. That's the *story we already knew* when we bought it, not a new problem, so there's nothing to react to. Deere is still up +2.89% for us and sitting comfortably above its safety-net price. I did **not** buy anything — none of my stock ideas are attractive enough to clear our quality bar, and I'm deliberately holding the next slice of our market-floor plan until *after* Wednesday's tariff news, exactly as we agreed.
+
+**What happens next**
+I'll do the full daily wrap-up at the market close, with the official "are we beating the market?" scorecard. Deere is my one watch-item — if it keeps sliding toward its safety net (around $580), that order sells it for us automatically.
+
+**Numbers I care about**
+- Equity **$101,404** (+1.40% since our $100,000 start); today −$303 / −0.30%.
+- Deere +$376 (+2.89%), ~4.5% above its safety net — the tightest of our holdings. JPMorgan +$949 (+8.47%). S&P 500 fund flat.
+- Cash **~55%**; 0 of 3 weekly stock-buys used.
 ## 2026-08-10 08:40 CT · market-open
 
 **Done — I bought the first slice of our S&P 500 "market floor" at the opening bell. 26 shares, about $20,000. No individual stock trades today.**
