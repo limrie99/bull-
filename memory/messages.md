@@ -1,3 +1,20 @@
+## 2026-08-10 15:05 CT · market-close
+
+**Close: equity $101,534.80 · day −0.17% · SPY −0.03% · alpha −0.14%**
+
+**How we're doing:** We're down a hair today — about $173, or −0.17% — while the S&P 500 (the "market," the benchmark we're trying to beat) was basically flat at −0.03%. So we lagged the market by a whisker today, and it's all one stock: Deere.
+
+**What I did:** Nothing new this afternoon. The only trade today was this morning's first slice of our "market floor" (parking idle cash in an S&P 500 index fund so it keeps pace with the market instead of sitting dead). I re-checked our two safety nets ("trailing stops" — auto-sell orders that follow a rising price and lock in gains if it falls back) and both are resting exactly where they should be.
+
+**Why the small dip:** Deere (a farm-equipment maker) slipped −1.86% on nerves about Wednesday's US-China tariff deadline — that's mood, not bad news about the company (I checked: no downgrade, no cut, no company event). JPMorgan actually rose +0.64%, and our new index slice ended a touch green. Add it up and Deere is the entire day's loss.
+
+**What happens next:** Wednesday's tariff decision is the week's big swing — I'm holding the second slice of the floor until it clears. I'm watching Deere most closely; its safety net at $579.59 catches any real break. Next check: tomorrow's pre-market.
+
+**Numbers I care about:**
+- **Equity $101,534.80** — up **+1.53%** since our $100K start.
+- **JPM +9.13%, DE +3.30%, SPY +0.02%** — total unrealized gain **+$1,455**.
+- **$55,801 cash (~55%)** — half still on the bench, deploying carefully after Wednesday.
+
 ## 2026-08-10 12:05 CT · midday
 
 **Midday check — steady, no changes. We're down a touch today ($303, −0.3%), and it's all one stock: Deere is having a soft day while everything else sits still.**

@@ -1,3 +1,34 @@
+## 2026-08-10 15:05 CT — MARKET CLOSE (Mon) · No trades · book intact · quiet down-tick (−0.17%), essentially all DE · DAILY "HOW WE'RE DOING" TELEGRAM PUSH (mandatory)
+
+**Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, timestamp 16:01 ET, next_open Tue 8/11 09:30 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). First trading day of the new week.
+
+**Account (live close):** equity **$101,534.80**, cash **$55,800.82** (~54.96%), long_market_value **$45,733.98** (~45.04%), buying_power $351,258.42, status ACTIVE. `last_equity` (Fri 8/7 close) **$101,707.48**.
+
+**Positions (closing marks):**
+- **JPM** 34 @ 329.695588 → **359.79**, **+$1,023.21 / +9.13%** (day +0.635%). Trailing 10% GTC `8a937ff6…` stop **326.70**, hwm 363, RESTING (below hwm → no ratchet). Cushion **~9.20%**. Size ~12.05%. Thesis intact; next earnings ~Oct.
+- **DE** 22 @ 589.82 → **609.28**, **+$428.12 / +3.30%** (day **−1.86%**, recovered from the midday low ~606.89). Trailing 10% GTC `dcdd84e5…` stop **579.591**, hwm 643.99, RESTING. Cushion **~4.87%** (tightest name). Size ~13.20%. $1.62 div payable today; Q3 CONFIRMED Thu Aug 20 — do NOT add ahead.
+- **SPY** 26 @ 772.796923 → **772.96** (close trade 773.02), **+$4.24 / +0.02%.** **NO STOP (index-floor sleeve carve-out).** Size ~19.79%.
+- Net open unrealized **+$1,455.57.**
+
+### Day summary
+- **Closing equity $101,534.80.** Total since $100K start: **+1.53%.**
+- **Day P/L −$172.68 / −0.170%** vs Fri 8/7 close $101,707.48. Composition: JPM +$77.18, DE −$254.10, SPY +$4.24 = −$172.68 — i.e. the whole day loss is DE; JPM and the new SPY floor were both slightly green.
+- **SPY day return:** Fri close 773.26 → today close 773.02 = **−0.031%** (broad tape essentially flat).
+- **Alpha today: −0.170% − (−0.031%) = −0.139% ≈ −0.14%.** We trailed SPY by ~0.14 pt, entirely on DE's ag/tariff softness.
+- **Week-to-date (week began today, Mon):** book −0.170%, SPY −0.031%, **alpha WTD −0.14%.**
+- **What worked:** (1) JPM firm again (+0.64% on the day, +9.13% from entry) — quality large-cap doing its job. (2) The SPY floor did exactly what it's for: on a flat tape it neither helped nor hurt, ending +$4.24 — proof the idle-cash drag is now neutralized rather than a headwind.
+- **What didn't:** (1) DE −1.86%, residual US-China tariff / large-ag overhang ahead of Wed's 8/12 cliff — sentiment, not a thesis break (news-checked at midday: no fresh downgrade/guide-cut/company event). (2) Cash still ~55% — half the book is idle; the 2nd floor tranche is deliberately held until after Wed, so the drag persists two more sessions by design.
+- **Open questions for tomorrow:** (1) Does DE's softness deepen or stabilize into Wed's cliff? Cushion ~4.87% — trailing floor 579.591 handles a real break, but it's the name to watch. (2) Any pre-cliff positioning on the broad tape? (3) Nothing on the bench clears ≥70 — keep scanning, don't chase (ETN/PWR/CAT all fail on ENTRY, not thesis).
+
+### Risk checks (market-close)
+- **(a) Any position −7% or worse un-stopped?** NO. JPM +9.13%, DE +3.30% (day −1.86% but ~4.87% above its trailing floor), SPY +0.02%. **→ No sell.**
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO. JPM ≥+5% but already on 10% trailing GTC; no −7% hard stop exists anywhere; SPY carries no stop by policy. **No conversion pending.**
+- **(c) Daily loss cap:** day −0.170% (well inside the −3% cap) → not tripped.
+
+**Stop-management state (re-confirmed RESTING via open-orders nested=true):** exactly 2 resting orders — JPM trailing (stop 326.70, hwm 363, qty 34) and DE trailing (stop 579.591, hwm 643.99, qty 22). Zero SPY orders (index sleeve, no stop by design). No ratchets today (both below their hwm).
+
+**Persistence:** overwrote portfolio.md (closing snapshot + day/week P/L + alpha); appended this Day-summary entry to research-log.md; prepended a teacher-voice market-close message to messages.md; overwrote dashboard/state.json (closing snapshot — the day's most important write). No new trades → no trade-log entry. Inbox unchanged (nothing pending). **Telegram: PUSH (mandatory daily "How we're doing" market-close summary — never skipped).** Commit + push HEAD:main.
+
 ## 2026-08-10 08:40 CT — MARKET OPEN (Mon) · TRADE: bought 26 SPY (S&P 500 market-floor first tranche, index sleeve, NO STOP) · No conviction stock trades · Book intact
 
 **Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, timestamp 09:37 ET, next_close 16:00 ET). Inbox: **nothing pending** — weekend veto window on the floor decision closed with NO countermand → standing action executed. 4 required keys present (cloud mode; Telegram set). New week; weekly conviction buys 0/3.
