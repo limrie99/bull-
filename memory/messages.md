@@ -1,3 +1,20 @@
+## 2026-08-11 08:47 CT · market-open
+
+**Open: I finished building our "market floor" — the trade deadline officially cleared, so I moved a bit more cash into the S&P 500.**
+
+**What I did**
+The market opened up today, and our account is worth about $101,799 — up ~$262 (+0.26%) on the day. I made one trade: I bought 6 more shares of SPY (the fund that tracks the whole S&P 500 index) at $773.46. That completes the two-step plan we approved for parking idle cash in the index so it *keeps pace with the market* instead of sitting still. I placed no individual-stock trades — nothing new cleared my strict buy bar.
+
+**Why it matters**
+Yesterday I told you I was holding this second purchase until the US–China trade deadline (Aug 12) was *officially* settled, not just rumored. This morning it became official — the White House signed an order extending the truce 90 days (to Nov 10). With that risk off the table, I finished the plan. This nudged our cash from ~55% down to ~50% of the account — still a healthy safety cushion, but with less money sitting idle. Good side effect: the tariff relief also lifted our Deere shares, so its safety cushion widened from ~4% to ~6%.
+
+**What happens next**
+The floor is now complete — no more index buys planned. Deere reports earnings next Thursday (Aug 20); that's the event I'm steering around now. I'll check in again at midday.
+
+**Numbers I care about**
+- Equity ~$101,799 — up ~1.8% since our $100,000 start.
+- All green: JPMorgan +9.8%, Deere +4.7%, the S&P 500 floor +0.0% (just topped up).
+- Cash ~$51,160 — about 50% of the account, our safety buffer (down from 55% after today's index top-up). Weekly stock-buy budget untouched (0 of 3 used — the index floor doesn't count against it).
 ## 2026-08-11 06:15 CT · pre-market
 
 **Good morning — quiet, healthy setup, and the big worry hanging over the week looks like it's clearing.**

@@ -1,3 +1,42 @@
+## 2026-08-11 08:47 CT — MARKET OPEN (Tue) · TRADE: bought 6 SPY (2nd/final S&P 500 market-floor tranche, index sleeve, NO STOP) · No conviction stock trades · Book intact · Tariff extension OFFICIALLY confirmed
+
+**Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, timestamp 09:44 ET, next_close 16:00 ET, next_open 8/12 09:30 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). Account (live open, POST-trade): equity **$101,798.76**, cash **$51,160.05** (~50.26%), long_market_value **$50,638.71** (~49.74%), buying_power $346,428.58, status ACTIVE. `last_equity` (Mon 8/10 close) $101,536.61 → **today +$262.15 / +0.258%.** 2 conviction stocks + 1 index floor; three conviction slots OPEN. Weekly conviction buys 0/3. daytrade_count 0.
+
+### THE TRADE — SPY MARKET-FLOOR, SECOND (FINAL) TRANCHE (executed per Lauren's approved Option B; trigger met)
+- **Trigger check (the gate the pre-market set):** the 2nd tranche was HELD "until AFTER the 8/12 US-China tariff cliff resolves / is formally confirmed." Perplexity(sonar-pro) this morning: a **White House executive order was signed Aug 11, 2026 extending the US-China tariff pause 90 days to Nov 10, 2026** — officially signed, not merely expected/pending (White House presidential action + Reuters/AP/BBC; Beijing confirmed in kind). The binary the tranche was waiting on RESOLVED FAVORABLY and is now official → tranche unlocked.
+- **Order:** plain market buy, 6 SPY, TIF day, `order_class` empty (NO oto/bracket, NO stop_loss leg). Order id `4a8e7ac7-fb3e-4438-ac22-e64792ba1efb`.
+- **Poll to fill:** FILLED 6 @ **773.46** on first poll (status=filled, filled_qty=6). Cost $4,640.76.
+- **Sizing rationale:** policy target = move total cash "toward ~50%." Pre-trade cash $55,800.81 (~54.8%); 50% of equity ≈ $50,903; deploy ≈ $4,898 → at SPY ~$773.5 that = 6 sh. Post-trade cash $51,160.05 = **50.26%** — on target, well above the 10–20% minimum buffer. SPY position 26 → 32 sh, blended avg cost **772.9212**. SPY sleeve now ~24.30% of equity (EXEMPT from the 20% single-position cap by policy — diversified index, not single-company risk).
+- **NO STOP (deliberate carve-out):** confirmed via open-orders (status=open, nested=true) → exactly 2 resting orders, the JPM & DE trailing stops; **zero SPY orders.** Index-sleeve exempt from ≤20%-single-position / max-5 / max-3-per-week caps and carries no −7%/trailing stop by policy.
+- **Floor is now COMPLETE** — both tranches deployed, cash at the ~50% target. No further floor adds planned; rebalance rule only fires if a new ≥70 conviction buy would push cash below the 10–20% buffer (trim floor first).
+
+### Conviction sleeve — NOTHING CLEARED THE GATE (unchanged from pre-market; ≥70 + 2 verified signals unmet, ~49th empty scan)
+- No individual-stock buy today. Bench top all below gate: TDG ~65 (best signal-match — beat+raise 8/5 + aero/defense tailwind, uncorrelated — but can't confirm a clean non-extended entry at ~$1,224; deeper-look bench add), ETN ~64 (chase ~+10% above 50dMA), NOC ~60 (below its 50dMA → fails uptrend signal #6). Gate NOT lowered — the floor is the deployment mechanism, not a loosening of the bar.
+
+### Sell candidates
+- **NONE.** Both stock holdings green on resting 10% trailing GTC stops above floors; no thesis break; neither near its floor. SPY is buy-and-hold, no stop by design.
+
+### Positions (live open marks, both stocks intact — no thesis break)
+- **JPM** 34 @ 329.695588 → **361.98**, **+$1,097.80 / +9.79%.** Trailing 10% GTC `8a937ff6…` floor **326.70**, hwm **363** (mark below hwm → no ratchet), cushion **~9.75%.** Thesis intact ($50B buyback + div hike + largest-bank franchise; DB Buy $375). Next earnings ~Oct. Size ~12.09%.
+- **DE** 22 @ 589.82 → **617.69**, **+$613.14 / +4.72%** (FIRMED on tariff relief). Trailing 10% GTC `dcdd84e5…` floor **579.591**, hwm **643.99** (below hwm → no ratchet), cushion **~6.17%** (tightest name, but widened from ~4.20% pre-market as the Aug-11 EO removed the export tail). **Q3 CONFIRMED Thu Aug 20 9:00 CT — do NOT add ahead.** Size ~13.35%.
+- **SPY** 32 @ 772.9212 → **773.19**, **+$8.60 / +0.03%.** Index-floor sleeve, NO stop by design. Size ~24.30% (exempt from 20% cap by policy).
+- Net open unrealized **+$1,719.54.**
+
+**Order/stop verification (POST-trade):** open-orders (status=open, nested=true) returns exactly the 2 resting trailing stops — JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` (trail 10%, stop 326.70, hwm 363, gtc, new) and DE `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` (trail 10%, stop 579.591, hwm 643.99, gtc, new). SPY has zero orders (qty_available 32, unencumbered). No stray/partial orders.
+
+### Risk checks (market-open)
+- (a) Any −7% or worse un-stopped? **NO** (JPM +9.79%, DE +4.72%, SPY +0.03%).
+- (b) Any +5%+ needing hard→trailing conversion? JPM ≥+5% but already on 10% trailing GTC; DE +4.72% (<+5%) already trailing; no −7% hard stop exists; SPY no-stop by policy → **no conversion.**
+- (c) Daily loss cap: today +0.258% (up) → not tripped. (Floor buy exempt anyway — own sleeve.)
+
+**Benchmark (open, unofficial — close routine owns official):** SPY mark ~773.19 vs Fri 8/7 close 773.26 → ~flat WTD; equity WTD (base Fri 8/7 close $101,707.48) +$91.28 / +0.09% → alpha WTD ~+0.10 pt. Now that the floor is complete (~24% of book tracks SPY 1:1), cash-drag alpha noise should compress materially vs prior ~75%-cash weeks.
+
+**Telegram:** PUSHED (trade placed — a buy is a Telegram-worthy event per CLAUDE.md; ok=true, msg_id 192). The mandatory daily "how we're doing" push remains owned by the market-close routine.
+
+**Persistence:** appended this market-open entry to research-log.md; appended the SPY BUY to trade-log.md; overwrote portfolio.md (3 holdings + no-stop note on SPY, cash ~50%); prepended a teacher-voice market-open message to messages.md; overwrote dashboard/state.json (fresh Alpaca positions/equity + SPY buy in recent_trades). Inbox unchanged (nothing pending). Commit + push HEAD:main.
+
+**Next routine:** midday Tue 8/11 — re-check DE cushion (~6.17%, firmed), confirm no thesis breaks; floor is complete so no further adds; then market-close owns the official daily scorecard + mandatory Telegram push.
+
 ## 2026-08-11 06:15 CT — PRE-MARKET (Tue, market CLOSED, opens 09:30 ET) · No trades · Book intact · KEY MACRO: Aug-12 US-China tariff cliff being EXTENDED ~90d (the week's binary resolving in our favor) · DE watch shifts to Q3 Aug 20
 
 **Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, timestamp 07:21 ET, next_open Tue 8/11 09:30 ET, next_close 16:00 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). Alpaca IEX bars endpoint was flaky (daily-bar pull failed) but snapshot + account/positions/orders all returned cleanly — live account state is verified.
