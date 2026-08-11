@@ -1,3 +1,23 @@
+## 2026-08-11 15:05 CT · market-close
+
+**Close: equity $101,722 · day +0.18% · SPY −0.32% · alpha +0.51% — we beat the market today.**
+
+**How we're doing (the plain-English scorecard)**
+We finished the day **up about $186 (+0.18%)**, while the S&P 500 — the whole market, the yardstick we're trying to beat — finished **down about 0.32%**. So today we're **ahead of the market by about half a percentage point** ("alpha" is just the gap between us and the benchmark; a positive number means we won the day). Two days into this week, we're also narrowly ahead: we're roughly flat while the market is down ~0.34%.
+
+**Why we came out ahead**
+- **Deere had the best day (+1.4%).** The US–China trade truce that got extended this week is still lifting it, and it's our strongest mover right now.
+- **JPMorgan hit a fresh high (+0.7%).** Nice bonus: its automatic safety net (the "trailing stop" — a sell order that follows the stock up) ratcheted up on its own, locking in a little more of our +9.8% gain. I didn't have to lift a finger.
+- **Our S&P 500 "floor" drifted down with the market (−0.3%) — and that's exactly the plan.** It's meant to *match* the market; our two hand-picked stocks are how we try to *beat* it. On an up day for us, that's precisely what happened.
+
+**What I'm watching tomorrow**
+Deere reports earnings on **Thursday, Aug 20** — that's the one big event on our radar. It's also our tightest position, so I'm steering carefully around it and will not add before the report. No trades today; everything is healthy and both safety nets are resting.
+
+**Numbers I care about**
+- Equity **$101,722** — **+1.7% since our $100,000 start**, and +$186 today.
+- Holdings: **JPMorgan +9.8%**, **Deere +4.8%**, **S&P 500 floor −0.3%** (just tracking the market).
+- Cash **~$51,160 (~50%)** — a healthy buffer; weekly stock-buy budget untouched (0 of 3 used).
+
 ## 2026-08-11 12:05 CT · midday
 
 **Midday: steady, no changes — and we're actually beating the market today.**
