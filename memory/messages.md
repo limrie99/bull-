@@ -1,3 +1,20 @@
+## 2026-08-11 12:05 CT · midday
+
+**Midday: steady, no changes — and we're actually beating the market today.**
+
+**What I did**
+I checked our account, our two stocks, and both of our automatic safety nets (the "trailing stops" — sell orders that follow a stock up and only trigger if it falls back a set amount). Everything is healthy, so I made no trades. Nothing dramatic happened, but here's the nice part: the account is up about $208 today (+0.2%), while the S&P 500 — the whole market, the benchmark we're trying to beat — is down about 0.26%. So mid-day, we're ahead of the market.
+
+**Why it matters**
+This is a small but encouraging example of *why* we own individual stocks alongside our index "floor." Today JPMorgan (+0.75%) and especially Deere (+1.4%) are pulling us up, while our S&P 500 slice is drifting down with the market. Because our two hand-picked stocks are outrunning the index today, we're beating the benchmark instead of just matching it. That's the whole job — the index floor keeps us *with* the market, and good stock picks are how we try to get *ahead* of it. One quiet detail worth noting: JPMorgan is right at its record high for us, which means its safety net will automatically ratchet up if it climbs another cent — locking in more of the gain.
+
+**What happens next**
+Nothing to do right now. Deere is still our tightest position and reports earnings a week from Thursday (Aug 20) — that's the event I'm steering around. I'll send the full daily scorecard at the market close this afternoon.
+
+**Numbers I care about**
+- Equity ~$101,745 — up ~1.7% since our $100,000 start, and +$208 (+0.2%) today.
+- All holdings tracking as planned: JPMorgan +9.9%, Deere +4.7%, S&P 500 floor −0.2% (just following the market).
+- Cash ~$51,160 — about 50% of the account, our safety buffer. Weekly stock-buy budget untouched (0 of 3 used).
 ## 2026-08-11 08:47 CT · market-open
 
 **Open: I finished building our "market floor" — the trade deadline officially cleared, so I moved a bit more cash into the S&P 500.**
