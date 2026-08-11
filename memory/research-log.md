@@ -1,3 +1,50 @@
+## 2026-08-11 06:15 CT — PRE-MARKET (Tue, market CLOSED, opens 09:30 ET) · No trades · Book intact · KEY MACRO: Aug-12 US-China tariff cliff being EXTENDED ~90d (the week's binary resolving in our favor) · DE watch shifts to Q3 Aug 20
+
+**Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, timestamp 07:21 ET, next_open Tue 8/11 09:30 ET, next_close 16:00 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). Alpaca IEX bars endpoint was flaky (daily-bar pull failed) but snapshot + account/positions/orders all returned cleanly — live account state is verified.
+
+**Account (live pre-market marks):** equity **$101,474.28**, cash **$55,800.81** (~55.0%), long_market_value **$45,673.47** (~45.0%), buying_power $351,088.94, status ACTIVE. `last_equity` (Mon 8/10 close) **$101,536.61** → nominal day −$62.33 / −0.061% (pre-market marks, not meaningful). **2 of 5 stock positions; THREE slots OPEN. Weekly conviction buys 0/3** (SPY floor exempt).
+
+**Positions (live pre-market marks):**
+- **JPM** 34 @ 329.695588 → **359.80**, **+$1,023.55 / +9.13%**. Trailing 10% GTC `8a937ff6…` stop **326.70**, hwm 363, RESTING (mark below hwm → no ratchet). Cushion **~9.2%**. Size ~12.06%. Thesis intact ($50B buyback + div hike + largest-bank franchise; DB Buy $375; next earnings ~Oct).
+- **DE** 22 @ 589.82 → **605.01**, **+$334.18 / +2.58%** (softened from Mon close 609.28). Trailing 10% GTC `dcdd84e5…` stop **579.591**, hwm 643.99, RESTING (below hwm → no ratchet). Cushion **~4.20%** (TIGHTEST name). Size ~13.12%. **Q3 CONFIRMED Thu Aug 20 9:00 CT — do NOT add ahead.**
+- **SPY** 26 @ 772.796923 → **774.23**, **+$37.33 / +0.19%.** **NO STOP (index-floor sleeve carve-out).** Size ~19.84%.
+- Net open unrealized **+$1,395.06.**
+
+**Order/stop verification:** open-orders (status=open, nested=true) returns exactly the 2 resting trailing stops — JPM `8a937ff6-164c-4384-8cf8-c000d4106a60` (trail 10%, stop 326.70, hwm 363, gtc) and DE `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` (trail 10%, stop 579.591, hwm 643.99, gtc). Zero SPY orders (index sleeve, no stop by design). No stray/partial orders. No trades placed (market closed).
+
+### Market context (4-agent scan: macro / earnings / position / scout)
+**Macro: MIXED, leaning RISK-ON — the week's binary is defusing in our favor.**
+- **US-CHINA AUG-12 TARIFF CLIFF being EXTENDED ~90 days (to ~Nov 10).** Multiple sources + a reported Aug-11 US executive order point to the truce being prolonged rather than the Aug-12 snapback firing; China reported to confirm in kind. Tariffs hold ~30% (China imports) / ~10% (US goods). [SEMI-VERIFIED — consistent across sources, but one source still framed it as "an option"/"mull," and the formal EO posting isn't cleanly confirmed as of 6 AM. Treat as expected-imminent → likely done mid-week, NOT yet 100% official.] **Net for DE: the scariest near-term ag-export tail risk is removed/removing — a sentiment tailwind, not a threat.**
+- **Futures ~flat, Asia risk-on:** ES (Sep) 7,784.75 +0.10% [VERIFIED]; NQ contradictory reads, ~flat [UNVERIFIED]; **Nikkei +2.08%** on the trade de-escalation [VERIFIED]. Europe/HangSeng/Shanghai levels hit retrieval WALL [UNVERIFIED].
+- **Rates / FX / commodities / Fed odds:** ALL failed retrieval this morning [UNVERIFIED] — no 10Y/2Y, DXY, gold, oil, or CME Sept-FOMC odds I can stand behind. Did NOT fabricate. (Prior context: Sept hike had repriced toward a coin-flip on the weak 8/7 NFP; no fresh repricing signal today.)
+- Top headlines: (1) US-China truce extended ~90d via Aug-11 EO — dominant story, removes 8/12 snapback [SEMI-VERIFIED]; (2) Asia rallied (Nikkei +2.08%) [VERIFIED]; (3) no cleanly-dated 2nd macro catalyst — tape driven almost entirely by the tariff story [VERIFIED-as-absence].
+
+### Portfolio watch
+- **JPM — sev 3 (quiet), thesis INTACT.** No dated analyst rating/PT change ON JPM, no regulatory/legal/large-bank-sector event in 24h [VERIFIED-as-absence]. Only dated item is a positive backdrop: JPM's own strategist raised the S&P 500 target to 8,000 from 7,800 (Aug 10) [SEMI-VERIFIED] — broad-market bull note, not a company event. Well above 326.70 floor. No action.
+- **DE — sev 2 (macro noise, resolving favorably), thesis INTACT.** Tariff overhang easing (see macro). **Q3 earnings CONFIRMED Thu Aug 20 9:00 CT** (Deere IR authoritative; ignore 3rd-party Aug 13/16 aggregator noise) [VERIFIED] — no date change, no pre-announcement/profit warning [VERIFIED-as-absence]. Section 232 farm-equipment probe NOT advanced beyond petition stage [VERIFIED-as-absence]. No dated downgrade/PT-cut across two sweeps [VERIFIED-as-absence]. **Cushion ~4.20% (tightest) — trailing floor 579.591 handles any real break.** **The watch item now SHIFTS from "tariff cliff tomorrow" to "DE Q3 Aug 20."** Decision to pre-commit by early next week: HOLD DE through the print vs tighten/exit — an earnings miss could gap through the 4% floor cushion. No thesis-breaker today; no action this run.
+
+### Buy candidates (signals matched + conviction) — NOTHING CLEARS THE GATE (2+ verified signals AND Conviction ≥70). ~49th effectively-empty conviction scan.
+- **TDG (TransDigm) ~$1,223.92 [VERIFIED price] — best signal-match, but below gate.** Signals: #1 (beat EPS+rev+raised FY guide on rev/EBITDA/EPS/FCF, reported 8/5 — within "last week") + #3 (aerospace/defense secular tailwind) = **2 valid signals**, AND uncorrelated with JPM(bank)/DE(ag). BUT conviction est **~65** (<70): can't confirm a clean non-extended uptrend / valuation edge at ~$1,224, and it's a high-priced, thinner-share name. **Watchlist add — deeper look needed, not a buy.** No earnings blackout (~Nov next print).
+- **ETN ~$445.07 [VERIFIED] — right name, still a CHASE.** #3 (power/electrification) + #4 (Citi maintained Buy, PT→$485 on 8/3) + #6 (uptrend) but **~+10% above its 50-day MA ($406)** — well above the desired $405–420 buy zone. Conviction ~64. Bench; wait for the pullback. (High-beta AI-power → ≤10% starter cap if it ever clears.)
+- **NOC (Northrop) ~$577.30 [SEMI] — 2 signals but FAILS uptrend.** #1 (beat + raised 2026 guide, 8/5) + #3 (defense) = 2 signals, but the sourceable read shows it **~2–3% below its ~$592 50-day MA** → fails signal #6 (no knife-catching / must be in uptrend). Conviction ~60. Below gate. Bench.
+- **PWR — DISQUALIFIED / DROPPED from active queue.** Fresh **JPMorgan DOWNGRADE to Neutral (7/21)** [VERIFIED] = opposite of signal #4. ~$666, next earnings Oct 29. Remove from bench.
+- **RTX ~58 / GE-Aero ~57 / HWM ~56** — defense/aero beat-and-raises but all reported 7/22–7/24 → signal #1 STALE (wants last week). Below gate.
+- **CAT / IR / LLY** — no fresh sourceable data this run [UNVERIFIED]; CAT also correlated with DE. Left parked, not scored.
+- **Earnings today:** none in-wheelhouse pre-open (SE, CAH — off-mandate/low-beta). **SMCI reports post-close** — marquee AI-server print, margin-guide is the risk; watch as a market-tone signal, NOT a position (do not chase into/after the print). Week's big cluster: **Thu 8/13** (AMAT, TPR).
+
+### Sell candidates
+- **NONE.** Both stock holdings green on resting 10% trailing GTC stops above floors; no thesis break; neither near its floor. SPY is buy-and-hold, no stop by design.
+
+### 2nd SPY floor tranche — STILL HELD (revisit at open once the extension is formally confirmed)
+- Policy: the 2nd tranche (toward ~50% cash) is held "until AFTER the 8/12 US-China tariff cliff resolves." The cliff is resolving toward an extension, but as of this 6 AM pre-market that is only SEMI-VERIFIED (formal EO not cleanly confirmed). **Keep the 2nd tranche HELD until the extension is officially confirmed** — the market-open/midday routine can act once verified. Cash ~55% is comfortably above the 10–20% buffer, so no urgency. Do NOT add floor on a not-yet-official headline.
+
+### Risk checks (pre-market)
+- (a) Any −7% or worse un-stopped? **NO** (JPM +9.13%, DE +2.58%, SPY +0.19%).
+- (b) Any +5%+ needing hard→trailing conversion? Both stocks already on 10% trailing GTC; no −7% hard stop exists; SPY no-stop by policy → no conversion.
+- (c) Daily loss cap: pre-market marks flat (−0.061%, not meaningful) → not tripped. No buys planned anyway (market closed).
+
+**Persistence:** prepended this pre-market entry to research-log.md; prepended a watchlist re-score; prepended a teacher-voice "pre-market plan" to messages.md; refreshed portfolio.md (pre-market snapshot) and dashboard/state.json (fresh Alpaca positions/equity). Inbox unchanged (nothing pending). **No Telegram** (pre-market scan, no trades — per CLAUDE.md). Commit + push HEAD:main.
+
 ## 2026-08-10 15:05 CT — MARKET CLOSE (Mon) · No trades · book intact · quiet down-tick (−0.17%), essentially all DE · DAILY "HOW WE'RE DOING" TELEGRAM PUSH (mandatory)
 
 **Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, timestamp 16:01 ET, next_open Tue 8/11 09:30 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). First trading day of the new week.

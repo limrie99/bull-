@@ -1,20 +1,20 @@
 {
-  "last_update": "2026-08-10 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-08-11 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101534.80,
-  "cash": 55800.82,
-  "day_pl": -172.68,
-  "day_pl_pct": -0.17,
-  "week_pl_pct": -0.17,
+  "equity": 101474.28,
+  "cash": 55800.81,
+  "day_pl": -62.33,
+  "day_pl_pct": -0.06,
+  "week_pl_pct": -0.23,
   "spy_week_pct": -0.03,
-  "alpha_week_pct": -0.14,
+  "alpha_week_pct": -0.20,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.70,
-      "current": 359.79,
+      "current": 359.80,
       "pl_pct": 9.13,
       "stop": 326.70
     },
@@ -22,16 +22,16 @@
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 609.28,
-      "pl_pct": 3.30,
+      "current": 605.01,
+      "pl_pct": 2.58,
       "stop": 579.591
     },
     {
       "symbol": "SPY",
       "qty": 26,
       "avg_cost": 772.80,
-      "current": 772.96,
-      "pl_pct": 0.02,
+      "current": 774.23,
+      "pl_pct": 0.19,
       "stop": null
     }
   ],
@@ -45,6 +45,12 @@
     {"date": "2026-06-25 12:05", "side": "RISK-MGMT", "symbol": "DE", "qty": 22, "price": 558.945}
   ],
   "latest_messages": [
+    {
+      "ts": "2026-08-11 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: quiet & healthy · the week's big trade-deadline worry looks to be clearing",
+      "body": "No trades (market closed). The US-China tariff deadline tomorrow (Aug 12) looks set to be extended ~90 days — so Deere's scariest near-term risk is easing, not firing. Both holdings quiet, thesis intact (JPM +9.1%, DE +2.6%, SPY floor +0.2%). Nothing cleared the ≥70 buy bar — best new idea (TransDigm) reached ~65, so it's benched. Deere's Q3 earnings Aug 20 is now the main event I'm steering around. Holding the 2nd index-floor slice until the deadline is officially settled."
+    },
     {
       "ts": "2026-08-10 15:05 CT",
       "routine": "market-close",

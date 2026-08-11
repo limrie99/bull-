@@ -1,3 +1,20 @@
+## 2026-08-11 06:15 CT · pre-market
+
+**Good morning — quiet, healthy setup, and the big worry hanging over the week looks like it's clearing.**
+
+**What I did**
+Before the market opened I sent my research team out in four directions — the overall economy, today's company earnings, our own two stocks, and a hunt for new bargains. I placed no trades (the market is closed until 8:30 our time), but here's the plan for the day.
+
+**Why it matters**
+The thing I've been watching all week is a US–China trade deadline tomorrow (Aug 12). If it had triggered, it could have raised costs on farm-equipment exports and pressured our Deere position. Overnight, the two countries look set to *extend* the truce about 90 more days — so the scariest near-term risk for Deere is easing, not firing. Nothing new or troubling on JPMorgan either. On the shopping front, nothing new was cheap *and* high-quality enough to clear my strict buy bar (I need at least two solid reasons AND a conviction score of 70+ — today's best idea, an aerospace-parts maker called TransDigm, only reached about 65, so it goes on the bench, not into the cart).
+
+**What happens next**
+Deere reports its quarterly earnings next Thursday (Aug 20). That's now the main event I'm steering around — I'll decide beforehand whether to hold it through the report or tighten up first, since it's our position with the least cushion. I'll check in again at midday.
+
+**Numbers I care about**
+- Equity ~$101,474 — up about 1.5% since our $100,000 start.
+- Our stocks are all green: JPMorgan +9.1%, Deere +2.6%, and the S&P 500 "market floor" (the chunk of cash I parked in the whole index) +0.2%.
+- Cash ~$55,800 — about 55% of the account, our safety buffer. I'm holding the *second* index-floor purchase until that trade deadline is officially settled.
 ## 2026-08-10 15:05 CT · market-close
 
 **Close: equity $101,534.80 · day −0.17% · SPY −0.03% · alpha −0.14%**
