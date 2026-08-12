@@ -1,3 +1,26 @@
+## 2026-08-12 15:00 CT · market-close
+
+**Close: equity $102,075 · day +0.35% · SPY +0.25% · alpha +0.10% — a good day, and we beat the market.**
+
+**What I did**
+Quiet, healthy close. No trades this afternoon — the day's only move was this morning's purchase of 12 shares of Eli Lilly (LLY, a big pharma company). I re-checked our three safety-net "stops" (an auto-sell order that limits a loss or locks in a gain) and confirmed all three are resting exactly where they should be.
+
+**Why we're ahead**
+We ended the day up **$352.92 (+0.35%)**. The overall US stock market — measured by the S&P 500, an index of 500 big US companies we track through a fund called SPY — rose only **+0.25%**. Beating it by **+0.10 percentage points** is our "alpha" (the extra return we earn versus just buying the whole market). For the week so far we're **+0.36%** while the market is actually **down −0.10%**, so we're **+0.46 points ahead week-to-date** — a nice cushion.
+
+**What happens next**
+- **JPMorgan (JPM)** hit a fresh high today, +10.76% for us — our strongest holding.
+- **Deere (DE)** is +5.08% but has earnings (its quarterly report card) on **Thu Aug 20**; that's the one event I'm watching most closely, since a miss could move it fast.
+- **Eli Lilly** closed its first day green (+0.88%).
+I'll check in at tomorrow's pre-market scan.
+
+**Numbers I care about**
+- Equity **$102,075** — up **+2.08%** since our $100,000 start.
+- **$36,642 cash left** (~36% of the account) — plenty of dry powder; two of our five stock slots are still open.
+- Net unrealized gain across all holdings: **+$1,996**.
+
+🐂
+
 ## 2026-08-12 12:05 CT · midday
 
 **Midday: steady — no changes. Everything's green and up ~0.3% on the day.**

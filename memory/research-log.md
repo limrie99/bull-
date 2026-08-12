@@ -1,3 +1,45 @@
+## 2026-08-12 15:00 CT — MARKET CLOSE (Wed) · Day summary · equity $102,075.14 · day +$352.92 / +0.35% · SPY +0.25% · alpha +0.10 pt · NO trades this routine · Book intact
+
+**Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, 16:01 ET, next_open 8/13 09:30 ET). Inbox: **nothing pending.** 6 keys present (cloud; Telegram set). No trades this routine.
+
+**Account (official close):** equity **$102,075.14**, cash **$36,641.96** (~35.90%), long_market_value **$65,433.18** (~64.10%), buying_power $329,780.74, status ACTIVE. `last_equity` (Tue 8/11 close) $101,722.22.
+
+### Day summary
+- **Closing equity:** $102,075.14. **Day P/L: +$352.92 / +0.347%** vs Tue 8/11 close $101,722.22.
+- **SPY day (official, Alpaca daily bars):** 8/11 close 770.56 → 8/12 close **772.47** = **+0.2479% (+0.25%)**. SPY latest trade 772.51.
+- **Alpha today: +0.347% − 0.248% = +0.10 pt.** Book edged the market today.
+- **Week-to-date (from Fri 8/7 close $101,707.48):** equity +$367.66 = **+0.361%.** SPY WTD: 8/7 close 773.26 → 772.47 = **−0.1021% (−0.10%)**. **WTD alpha +0.46 pt** — book ahead of the market for the week so far.
+- **Trades placed today:** 1 buy — LLY 12 @ 1209.84 (market-open routine; first conviction buy in ~50 scans) + its −7% hard stop @ 1125.15. NO trades this close routine.
+- **Net open unrealized: +$1,995.93** (JPM +1,206.47, DE +658.90, LLY +128.04, SPY +2.52).
+
+**What worked:**
+- JPM printed a fresh intraday high (hwm ratcheted 365.84→366.06, floor 327.213→329.454); +10.76%, the book's anchor. Thesis intact into ~Oct earnings.
+- LLY re-entry (8/12) closed green (+0.88%) on day one after the verified beat-and-raise — clean start.
+- SPY floor did its job: matched the market's small down-tick, so the index sleeve neither helped nor hurt materially.
+
+**What didn't / watch:**
+- DE cushion the tightest at ~6.48% (stop 579.591 vs 619.77) into **Q3 Thu Aug 20 9:00 CT** — the dominant near-term event risk (AGCO miss −11% on 8/6; DE ~238 layoffs). Pre-commit hold-vs-tighten decision due early next week.
+- Modest day; alpha thin (+0.10 pt). Nothing broke; just a quiet grind up.
+
+**Open questions for tomorrow (Thu 8/13):**
+- Does LLY hold above its 50dMA (~$1,160) and build toward the +5% (~$1,270.33) hard→trailing conversion trigger?
+- DE: pre-commit the Q3 (Aug 20) plan — hold through the print on the 10% trailing, or tighten/exit by early next week?
+- Two conviction slots still open, cash ~36%; any fresh ≥70 gate-candidate at Thu pre-market (AMGN ~71 backup, else TDG/ETN/NOC bench)?
+
+**Stops (re-confirmed RESTING via open-orders, nested=true):**
+- JPM 10% trailing `8a937ff6…` — hwm **366.06**, stop_price **329.454**, new. Mark 365.18, cushion ~9.78%. qty 34.
+- DE 10% trailing `dcdd84e5…` — hwm **643.99**, stop_price **579.591**, new. Mark 619.77, cushion ~6.48%. qty 22.
+- LLY −7% hard stop `f50e3c39…` — stop_price **1125.15**, gtc, new. Mark 1220.51 (+0.88%). Converts to 10% trailing at +5% (~$1,270.33). qty 12.
+- SPY — NO STOP by design (index-floor sleeve carve-out). qty_available 32.
+
+**Risk checks (close):** (a) any −7% un-stopped? NO. (b) any +5%+ needing hard→trailing conversion? NO — LLY +0.88% (<+5%) on its hard stop as designed; JPM & DE already trailing; SPY no-stop by policy. (c) daily loss cap: +0.347% up → not tripped.
+
+**Telegram:** PUSHED — mandatory daily "How we're doing" close summary (never skipped, trading day).
+
+**Persistence:** overwrote portfolio.md (close snapshot); prepended teacher-voice close message to messages.md; prepended this entry to research-log.md; overwrote dashboard/state.json; inbox unchanged (nothing pending). Commit + push HEAD:main.
+
+**Next routine:** pre-market Thu 8/13.
+
 ## 2026-08-12 08:45 CT — MARKET OPEN (Wed) · TRADE: bought 12 LLY @ 1209.84 (first conviction buy in ~50 scans) · −7% hard stop placed · CPI gate cleared, beat-and-raise primary-verified · Book intact
 
 **Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, 09:39 ET, next_close 16:00 ET, next_open 8/13 09:30 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). Account (live open, POST-trade): equity **$101,830.50**, cash **$36,641.96** (~35.98%), long_market_value **$65,188.54** (~64.02%), buying_power $329,095.75, status ACTIVE. `last_equity` (Tue 8/11 close) $101,722.22 → **today +$108.28 / +0.106%**. daytrade_count 0.
