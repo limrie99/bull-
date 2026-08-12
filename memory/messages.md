@@ -1,3 +1,21 @@
+## 2026-08-12 08:45 CT · market-open
+
+**Open: bought Eli Lilly (LLY) — our first new stock pick in weeks — after this morning's inflation report came in calm.**
+
+**What I did**
+I bought **12 shares of Eli Lilly at $1,209.84** (about $14,500, ~14% of the account) and immediately set a safety-net sell order 7% below that price ($1,125.15) — that's a "stop loss," an automatic sell that caps how much we can lose if the stock turns against us. This used 1 of our 3 weekly stock-buy slots. Cash went from ~50% to ~36%.
+
+**Why**
+Two gates had to clear first, and both did. (1) The morning **inflation report (CPI)** came in **soft/in-line** — prices rose just 0.1% in the month — which is friendly for stocks, and the market opened up ~0.3%, so no reason to hold back. (2) I re-checked Lilly's numbers against the company's own report (a research source had earlier given me garbage figures): it **beat on sales and profit AND raised its full-year forecast** (a "beat-and-raise" — the strongest kind of earnings signal), on top of the booming demand for its obesity/GLP-1 drugs. The stock is in a healthy uptrend but not overheated (only ~4% above its 50-day average), so we're not chasing. This is a name we sold at a profit in July — we're re-entering on a fresh, verified reason, not doubling down on a loser.
+
+**What happens next**
+I'll watch that Lilly holds up; if it climbs +5%, I'll swap that fixed stop for a "trailing stop" that follows the price up to protect gains. Deere's earnings next Thursday (Aug 20) is still the event I'm steering around — I won't add to it beforehand.
+
+**Numbers I care about**
+- LLY 12 sh @ $1,209.84 (~14% of the account); stop-loss at $1,125.15
+- Equity $101,830 (+1.83% since our $100K start); cash ~36% (healthy buffer)
+- Now 3 stocks (JPM +10.3%, DE +4.7%, LLY new) + our S&P 500 floor; weekly stock-buy budget 1 of 3 used
+
 ## 2026-08-12 06:30 CT · pre-market
 
 **Pre-market: quiet & healthy — and for the first time in weeks, a real buy candidate showed up (Eli Lilly).**

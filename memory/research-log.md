@@ -1,3 +1,48 @@
+## 2026-08-12 08:45 CT — MARKET OPEN (Wed) · TRADE: bought 12 LLY @ 1209.84 (first conviction buy in ~50 scans) · −7% hard stop placed · CPI gate cleared, beat-and-raise primary-verified · Book intact
+
+**Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, 09:39 ET, next_close 16:00 ET, next_open 8/13 09:30 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). Account (live open, POST-trade): equity **$101,830.50**, cash **$36,641.96** (~35.98%), long_market_value **$65,188.54** (~64.02%), buying_power $329,095.75, status ACTIVE. `last_equity` (Tue 8/11 close) $101,722.22 → **today +$108.28 / +0.106%**. daytrade_count 0.
+
+### GATE 1 — JULY CPI (the day's binary, resolved BEFORE any deploy)
+Per the pre-market pre-commit ("do NOT deploy fresh cash before the 8:30 ET print"), read CPI first. Perplexity(sonar-pro): **July CPI headline +0.1% m/m / 3.5% y/y; core +0.2% m/m / 2.5% y/y** — in-line on headline m/m, core y/y a touch COOLER than the ~2.6–2.7% expected = **soft/in-line-to-cool, NOT hot.** Tape reaction: SPY lastday 770.56 → live ~773.11 = **~+0.33% intraday = risk-ON, not risk-off.** CPI gate CLEARED → deployment unlocked.
+
+### GATE 2 — LLY buy-gate (2+ signals AND Conviction ≥70), all re-verified at open
+- **#1 earnings beat-and-raise — PRIMARY-SOURCE VERIFIED (corrects the pre-market's confabulated first pass).** Perplexity(sonar-pro) off Lilly's official Q2 press release: **revenue $22.974B, adj (non-GAAP) EPS $8.38, RAISED FY26 guidance to non-GAAP EPS $35.50–36.50 / revenue $85.0–87.0B**, beat both rev & EPS consensus. The pre-market's garbage first-pass figures ($1.24 EPS / $1.86B) are confirmed discarded. Signal #1 CONFIRMED.
+- **#3 GLP-1/obesity secular tailwind — VERIFIED** (unchanged, standing thesis).
+- **#6 uptrend, not extended — VERIFIED.** Computed 50dMA from Alpaca IEX daily bars = **$1,159.79**; live ~$1,204 at scan → **+3.82% above 50dMA** = clean uptrend, well under the ~10–12% "chase" band the pre-market benched other names at. Signal #6 CONFIRMED.
+- **Score:** provisional ~73 (0.30·78 + 0.30·75 + 0.20·72 + 0.12·62 + 0.08·68) HOLDS — the beat-and-raise moving from SEMI to primary-verified firms the fundamental/thesis legs. **B+, clears ≥70.** 3 verified signals ≥ the 2-signal floor. **Gate CLEARED.**
+- **Sizing rules check:** NOT high-beta AI/semi → standard B+ 10–15% band applies (the ≤10% starter cap does NOT). Earnings already passed (~8/5) → no 3-day earnings-window block. Caps: conviction sleeve 2/5 → 3/5 (under max 5) ✓; weekly conviction buys 0/3 → 1/3 ✓ (SPY floor exempt); position ~14.2% < 20% single-position cap ✓; post-buy cash ~36% > 10–20% buffer ✓; floor untouched.
+
+### THE TRADE — LLY (executed after both gates cleared)
+- **Order 1 (buy):** plain market buy, 12 LLY, TIF day, id `62556060-ccdf-4b68-a976-cb3ab8aba090`. **FILLED 12 @ 1209.84 on first poll** (status filled, filled_qty 12) = **$14,518.08**.
+- **Order 2 (stop):** placed a standalone GTC stop-loss AFTER the fill to nail exactly −7% from the actual entry: type=stop, sell, qty 12, stop_price **1125.15** (=1209.84×0.93), id `f50e3c39-0719-497e-8ccc-6006e6afa290`, status new (resting). Converts to a 10% trailing stop once LLY is +5% (trigger ~$1,270.33).
+- **Sizing:** 12 sh × 1209.84 = $14,518.08 = ~14.24% of equity (top of the B+ 10–15% band, disciplined mid-B+ size for the first buy in ~50 scans). Cash $51,160 → $36,641.96 (~50%→~36%).
+- **Re-entry note:** this is the same LLY we trailing-stopped 7/31 at 1123.27 (+$627/+4.15%). It has since run to ~$1,210 on the beat-and-raise — a re-entry into a winner on a fresh VERIFIED catalyst, explicitly allowed (momentum within a fundamentals frame; NOT averaging down).
+
+### Conviction sleeve / bench
+- AMGN ~71 (pre-market runner-up/backup) NOT needed — LLY cleared cleanly. Bench unchanged: TDG ~65, ETN ~64 (chase, high-beta ≤10% cap), NOC ~60 (below 50dMA → fails #6).
+
+### Sell candidates
+- **NONE.** All three stocks green/flat and above their stops (JPM +10.25%, DE +4.73%, LLY −0.11% fresh); no thesis break; none near a floor. SPY = buy-and-hold index floor, no stop by design.
+
+### Positions (live open marks)
+- **JPM** 34 @ 329.695588 → **363.50**, **+$1,149.35 / +10.25%.** Trailing 10% GTC `8a937ff6…` floor **327.213**, hwm **363.57** (ratcheted up on a NEW HIGH today), cushion **~9.98%.** Thesis intact; next earnings ~Oct. Size ~12.14%.
+- **DE** 22 @ 589.82 → **617.69**, **+$613.14 / +4.73%.** Trailing 10% GTC `dcdd84e5…` floor **579.591**, hwm **643.99** (below hwm → no ratchet), cushion **~6.17%** (tightest name). **Q3 CONFIRMED Thu Aug 20 9:00 CT — do NOT add ahead;** AGCO miss (−11%, 8/6) + DE ~238 layoffs raise gap-through-cushion odds on a miss. Size ~13.35%.
+- **LLY** 12 @ 1209.84 → **1208.48**, **−$16.28 / −0.11%** (fresh entry). −7% hard stop 1125.15 GTC. Size ~14.24%.
+- **SPY** 32 @ 772.9212 → **773.11**, **+$6.04 / +0.02%.** Index-floor sleeve, NO stop by design. Size ~24.30% (exempt from 20% cap by policy).
+- Net open unrealized **+$1,752.25.**
+
+**Order/stop verification:** open-orders (status=open, nested=true) returns exactly 3 resting orders — LLY hard stop `f50e3c39…` (stop 1125.15, gtc, new), JPM trailing `8a937ff6…` (trail 10, stop 327.213, hwm 363.57), DE trailing `dcdd84e5…` (trail 10, stop 579.591, hwm 643.99). SPY zero orders (qty_available 32). No stray/partial orders.
+
+**Risk checks (open):** (a) any −7% un-stopped? NO (JPM +10.25%, DE +4.73%, LLY −0.11%, SPY +0.02%). (b) any +5%+ needing hard→trailing conversion? NO (JPM already trailing; DE <+5% already trailing; LLY <+5% on its −7% hard stop as designed; SPY no-stop by policy). Standing task: convert LLY hard→trailing at ~+5% (~$1,270.33). (c) daily loss cap: +0.106% up → not tripped.
+
+**Benchmark (open, unofficial — close routine owns official):** SPY ~+0.33% vs book +0.106% → intraday alpha ~−0.22 pt (SPY rallying on soft CPI; LLY entered ~flat). Two-sided; close computes the day/WTD number.
+
+**Telegram:** PUSHED (trade placed = a push event per CLAUDE.md — beginner-friendly buy summary with jargon defined inline).
+
+**Persistence:** appended LLY buy to trade-log.md; overwrote portfolio.md (open snapshot, 3 stocks + floor); prepended teacher-voice market-open message to messages.md; prepended this entry to research-log.md; overwrote dashboard/state.json; watchlist.md — LLY moves from bench to portfolio (re-score at next pre-market). Inbox unchanged (nothing pending). Commit + push HEAD:main.
+
+**Next routine:** midday Wed 8/12 — confirm LLY holds above its 50dMA (~$1,160) and no thesis breaks; re-check DE cushion (~6.17%) into the Aug 20 Q3; watch for LLY tagging +5% to convert its hard stop to trailing. Close routine owns the official daily scorecard + mandatory Telegram push.
+
 ## 2026-08-12 06:30 CT — PRE-MARKET (Wed) · Full 4-agent scan · NO TRADES (market closed) · Book INTACT · FIRST real ≥70 gate-candidate in ~50 scans: LLY (~73, SEMI — verify at open, AFTER 8:30 ET CPI)
 
 **Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, 07:16 ET, next_open 8/12 09:30 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). No trades — pre-market research only.
