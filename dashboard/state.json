@@ -1,46 +1,46 @@
 {
-  "last_update": "2026-08-12 08:45 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-08-12 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 101830.50,
+  "equity": 102034.88,
   "cash": 36641.96,
-  "day_pl": 108.28,
-  "day_pl_pct": 0.11,
-  "spy_day_pct": 0.33,
-  "alpha_day_pct": -0.22,
-  "week_pl_pct": 0.12,
+  "day_pl": 312.66,
+  "day_pl_pct": 0.31,
+  "spy_day_pct": 0.32,
+  "alpha_day_pct": -0.01,
+  "week_pl_pct": 0.31,
   "spy_week_pct": 0.0,
-  "alpha_week_pct": 0.12,
+  "alpha_week_pct": 0.31,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 363.5,
-      "pl_pct": 10.25,
-      "stop": 327.213
+      "current": 364.96,
+      "pl_pct": 10.7,
+      "stop": 329.256
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 617.69,
-      "pl_pct": 4.73,
+      "current": 620.44,
+      "pl_pct": 5.19,
       "stop": 579.591
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1208.48,
-      "pl_pct": -0.11,
+      "current": 1215.98,
+      "pl_pct": 0.51,
       "stop": 1125.15
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 773.11,
+      "current": 773.05,
       "pl_pct": 0.02,
       "stop": null
     }
@@ -112,52 +112,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-12 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady \u2014 no changes. Everything's green and up ~0.3% on the day.",
+      "body": "Health check only \u2014 no trades. All four holdings green; today +$313 (+0.31%), +2.03% since our $100K start. Three safety-net stops re-confirmed resting; JPM hit a fresh high (nudged its trailing stop up). DE ticked >+5% but is already on a trailing stop, so nothing to change. No breaking catalyst = no midday buy. Cash ~36%; weekly buys 1 of 3."
+    },
+    {
       "ts": "2026-08-12 08:45 CT",
       "routine": "market-open",
-      "headline": "Open: bought Eli Lilly (LLY) — our first new stock pick in weeks — after this morning's inflation report came in calm",
-      "body": "I bought 12 shares of Eli Lilly at $1,209.84 (~$14,500, ~14% of the account) with a stop-loss safety net 7% below ($1,125.15). Two gates cleared first: (1) the morning inflation report (CPI) came in soft/in-line — prices up just 0.1% on the month — and the market opened up ~0.3%, so no reason to hold back; (2) I re-checked Lilly's numbers against the company's own report (a source earlier gave garbage figures) and confirmed a 'beat-and-raise' — beat sales & profit AND raised its full-year forecast — on top of booming obesity/GLP-1 drug demand. The stock is in a healthy uptrend but not overheated (~4% above its 50-day average), so we're not chasing. We sold LLY at a profit in July and are re-entering on a fresh, verified reason. If it climbs +5% I'll switch to a trailing stop to protect gains. Deere's Aug 20 earnings is still my watch item. Equity $101,830 (+1.83% since $100K start); cash ~36%; now 3 stocks + the S&P 500 floor; weekly stock-buy budget 1 of 3 used."
+      "headline": "Open: bought Eli Lilly (LLY) \u2014 our first new stock pick in weeks \u2014 after this morning's inflation report came in calm",
+      "body": "I bought 12 shares of Eli Lilly at $1,209.84 (~$14,500, ~14% of the account) with a stop-loss safety net 7% below ($1,125.15). Two gates cleared first: (1) the morning inflation report (CPI) came in soft/in-line \u2014 prices up just 0.1% on the month \u2014 and the market opened up ~0.3%, so no reason to hold back; (2) I re-checked Lilly's numbers against the company's own report (a source earlier gave garbage figures) and confirmed a 'beat-and-raise' \u2014 beat sales & profit AND raised its full-year forecast \u2014 on top of booming obesity/GLP-1 drug demand. The stock is in a healthy uptrend but not overheated (~4% above its 50-day average), so we're not chasing. We sold LLY at a profit in July and are re-entering on a fresh, verified reason. If it climbs +5% I'll switch to a trailing stop to protect gains. Deere's Aug 20 earnings is still my watch item. Equity $101,830 (+1.83% since $100K start); cash ~36%; now 3 stocks + the S&P 500 floor; weekly stock-buy budget 1 of 3 used."
     },
     {
       "ts": "2026-08-12 06:30 CT",
       "routine": "pre-market",
-      "headline": "Pre-market: quiet & healthy — first real buy candidate in weeks (Eli Lilly ~73), but we wait for today's inflation report",
-      "body": "No trades (market closed). Two things matter today: (1) a big inflation report (CPI) lands at 7:30 AM CT — a scheduled market-mover, so the rule is don't buy before we see it; (2) after ~50 quiet mornings, Eli Lilly (LLY) — the obesity-drug maker we sold at a profit in July — finally scored ~73, just over our 70 buy-bar, on a strong earnings beat + raised forecast. I'm not rushing: one research source gave garbage numbers, so market-open must re-verify against a primary source AND wait until after the CPI print before deciding on a ~15% starter. Deere is my watch item — rival AGCO missed and Deere just announced layoffs, so I'm careful into its Aug 20 earnings. Book intact: JPM +9.8%, DE +4.8%, both on trailing stops; equity ~$101,766 (+1.77% since $100K start); cash ~50%; weekly stock-buy budget 0/3."
+      "headline": "Pre-market: quiet & healthy \u2014 first real buy candidate in weeks (Eli Lilly ~73), but we wait for today's inflation report",
+      "body": "No trades (market closed). Two things matter today: (1) a big inflation report (CPI) lands at 7:30 AM CT \u2014 a scheduled market-mover, so the rule is don't buy before we see it; (2) after ~50 quiet mornings, Eli Lilly (LLY) \u2014 the obesity-drug maker we sold at a profit in July \u2014 finally scored ~73, just over our 70 buy-bar, on a strong earnings beat + raised forecast. I'm not rushing: one research source gave garbage numbers, so market-open must re-verify against a primary source AND wait until after the CPI print before deciding on a ~15% starter. Deere is my watch item \u2014 rival AGCO missed and Deere just announced layoffs, so I'm careful into its Aug 20 earnings. Book intact: JPM +9.8%, DE +4.8%, both on trailing stops; equity ~$101,766 (+1.77% since $100K start); cash ~50%; weekly stock-buy budget 0/3."
     },
     {
       "ts": "2026-08-11 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $101,722 · day +0.18% · SPY −0.32% · alpha +0.51% — we beat the market today",
-      "body": "We finished up ~$186 (+0.18%) while the S&P 500 fell ~0.32%, so we beat the market by about half a point today (and we're narrowly ahead week-to-date too). Deere led (+1.4%) on the extended US-China trade truce; JPMorgan hit a fresh high (+0.7%) and its trailing safety net ratcheted up on its own, locking in more of a +9.8% gain. The S&P 500 floor drifted down with the market (−0.3%) — exactly its job; our hand-picked stocks are how we get ahead. No trades today. Watching Deere's earnings next Thu (Aug 20) — our tightest position, steering around it. Equity +1.7% since our $100K start; cash ~50%; weekly stock-buy budget 0/3."
+      "headline": "Close: equity $101,722 \u00b7 day +0.18% \u00b7 SPY \u22120.32% \u00b7 alpha +0.51% \u2014 we beat the market today",
+      "body": "We finished up ~$186 (+0.18%) while the S&P 500 fell ~0.32%, so we beat the market by about half a point today (and we're narrowly ahead week-to-date too). Deere led (+1.4%) on the extended US-China trade truce; JPMorgan hit a fresh high (+0.7%) and its trailing safety net ratcheted up on its own, locking in more of a +9.8% gain. The S&P 500 floor drifted down with the market (\u22120.3%) \u2014 exactly its job; our hand-picked stocks are how we get ahead. No trades today. Watching Deere's earnings next Thu (Aug 20) \u2014 our tightest position, steering around it. Equity +1.7% since our $100K start; cash ~50%; weekly stock-buy budget 0/3."
     },
     {
       "ts": "2026-08-11 12:05 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — and we're beating the market today",
-      "body": "No trades — everything healthy, both trailing stops resting. The nice part: we're up ~$208 (+0.2%) today while the S&P 500 is down ~0.26%, so mid-session we're AHEAD of the market. JPM (+0.75%) and especially Deere (+1.4%) are pulling us up while the SPY floor drifts with the index — exactly why we own hand-picked stocks alongside the index. JPM sits right at its record high, so its safety net ratchets up on any further tick. Deere still the tightest name; Q3 earnings Aug 20 is the event I'm steering around. Full scorecard at the close. Equity ~$101,745, +1.7% since our $100K start; cash ~50%; weekly stock-buy budget 0/3."
+      "headline": "Midday: steady, no changes \u2014 and we're beating the market today",
+      "body": "No trades \u2014 everything healthy, both trailing stops resting. The nice part: we're up ~$208 (+0.2%) today while the S&P 500 is down ~0.26%, so mid-session we're AHEAD of the market. JPM (+0.75%) and especially Deere (+1.4%) are pulling us up while the SPY floor drifts with the index \u2014 exactly why we own hand-picked stocks alongside the index. JPM sits right at its record high, so its safety net ratchets up on any further tick. Deere still the tightest name; Q3 earnings Aug 20 is the event I'm steering around. Full scorecard at the close. Equity ~$101,745, +1.7% since our $100K start; cash ~50%; weekly stock-buy budget 0/3."
     },
     {
       "ts": "2026-08-11 08:47 CT",
       "routine": "market-open",
-      "headline": "Open: finished the S&P 500 'market floor' — bought 6 more SPY as the trade deadline cleared officially",
-      "body": "The US-China tariff deadline (Aug 12) became official this morning — the White House signed a 90-day extension (to Nov 10), so I completed our two-step index-floor plan: bought 6 more SPY @ $773.46. That moved cash from ~55% to ~50% (still a healthy buffer) so less money sits idle. No individual-stock trades — nothing cleared the ≥70 bar. Bonus: the tariff relief lifted Deere, widening its cushion from ~4% to ~6%. Equity ~$101,799, +0.26% on the day; JPM +9.8%, DE +4.7%, SPY floor +0.0%. Weekly stock-buy budget still 0/3 (the floor doesn't count against it)."
+      "headline": "Open: finished the S&P 500 'market floor' \u2014 bought 6 more SPY as the trade deadline cleared officially",
+      "body": "The US-China tariff deadline (Aug 12) became official this morning \u2014 the White House signed a 90-day extension (to Nov 10), so I completed our two-step index-floor plan: bought 6 more SPY @ $773.46. That moved cash from ~55% to ~50% (still a healthy buffer) so less money sits idle. No individual-stock trades \u2014 nothing cleared the \u226570 bar. Bonus: the tariff relief lifted Deere, widening its cushion from ~4% to ~6%. Equity ~$101,799, +0.26% on the day; JPM +9.8%, DE +4.7%, SPY floor +0.0%. Weekly stock-buy budget still 0/3 (the floor doesn't count against it)."
     },
     {
       "ts": "2026-08-11 06:15 CT",
       "routine": "pre-market",
-      "headline": "Pre-market: quiet & healthy · the week's big trade-deadline worry looks to be clearing",
-      "body": "No trades (market closed). The US-China tariff deadline tomorrow (Aug 12) looks set to be extended ~90 days — so Deere's scariest near-term risk is easing, not firing. Both holdings quiet, thesis intact (JPM +9.1%, DE +2.6%, SPY floor +0.2%). Nothing cleared the ≥70 buy bar — best new idea (TransDigm) reached ~65, so it's benched. Deere's Q3 earnings Aug 20 is now the main event I'm steering around. Holding the 2nd index-floor slice until the deadline is officially settled."
+      "headline": "Pre-market: quiet & healthy \u00b7 the week's big trade-deadline worry looks to be clearing",
+      "body": "No trades (market closed). The US-China tariff deadline tomorrow (Aug 12) looks set to be extended ~90 days \u2014 so Deere's scariest near-term risk is easing, not firing. Both holdings quiet, thesis intact (JPM +9.1%, DE +2.6%, SPY floor +0.2%). Nothing cleared the \u226570 buy bar \u2014 best new idea (TransDigm) reached ~65, so it's benched. Deere's Q3 earnings Aug 20 is now the main event I'm steering around. Holding the 2nd index-floor slice until the deadline is officially settled."
     },
     {
       "ts": "2026-08-10 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $101,535 · day −0.17% · SPY −0.03% · alpha −0.14%",
-      "body": "Quiet down-tick, and it's all one stock: Deere slipped −1.86% on nerves ahead of Wednesday's US-China tariff deadline (mood, not bad news — I checked). JPM rose +0.64% and our new S&P 500 floor slice ended a touch green, so Deere is the entire day's loss. No new trades. Both trailing stops resting; DE is the watch item (cushion ~4.87%). Holding the 2nd floor slice until Wednesday clears. Equity +1.53% since our $100K start."
-    },
-    {
-      "ts": "2026-08-10 12:05 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — day −0.30%, all of it Deere's soft tape",
-      "body": "No trades. JPM and SPY flat; DE −2.25% on residual US-China tariff / large-ag jitters ahead of Wed's cliff — Perplexity confirms no fresh downgrade or company event, so it's sentiment not a thesis break. DE still +2.89%, ~4.5% above its trailing floor (tightest name, my watch item). Nothing clears the ≥70 gate; 2nd floor tranche held until after Wed."
+      "headline": "Close: equity $101,535 \u00b7 day \u22120.17% \u00b7 SPY \u22120.03% \u00b7 alpha \u22120.14%",
+      "body": "Quiet down-tick, and it's all one stock: Deere slipped \u22121.86% on nerves ahead of Wednesday's US-China tariff deadline (mood, not bad news \u2014 I checked). JPM rose +0.64% and our new S&P 500 floor slice ended a touch green, so Deere is the entire day's loss. No new trades. Both trailing stops resting; DE is the watch item (cushion ~4.87%). Holding the 2nd floor slice until Wednesday clears. Equity +1.53% since our $100K start."
     }
   ]
 }
