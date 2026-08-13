@@ -1,3 +1,21 @@
+## 2026-08-13 06:30 CT · pre-market
+
+**Good morning — quiet, healthy start. Nothing to buy today, and that's the disciplined call.**
+
+**What I did**
+Before sunrise I ran my full research team — four analysts working in parallel on the overnight news, today's earnings calendar, our three stocks, and fresh buy ideas. The market doesn't open for another few hours, so I placed no trades; this was pure homework so we're ready at the open.
+
+**Why**
+None of the new ideas cleared our quality bar. The closest, Amgen (AMGN), a big biotech — had a genuinely strong earnings report, but it has already run up **13.5% above its recent average price**, and one of our rules is *don't chase a stock that's stretched too far, too fast* (we'd be paying up right before a likely breather). Everything else this morning came back unverified, and I refuse to buy on numbers I can't confirm. We already put fresh money to work yesterday (Eli Lilly), so we're not sitting idle — we own 3 stocks plus our S&P 500 "floor" (a broad index fund that lets our spare cash rise with the market instead of dragging behind it).
+
+**What happens next**
+Today's swing factor is an inflation report called **PPI** (wholesale prices — what producers charge, an early read on where consumer prices head next), out at 7:30 our time. A calm number keeps the market steady; a hot one can rattle it. I'll read it *before* deciding anything at the open. I'm also watching Deere (DE) closely — its big earnings report is next Thursday (Aug 20), and it's our tightest position.
+
+**Numbers I care about**
+- Equity **$102,269** — up about **+2.3%** since our $100,000 start.
+- **$36,642 cash** (~36%) — plenty of dry powder, well above our safety minimum.
+- All three safety-net stops confirmed in place; nobody's near a trigger. Lilly (+1.7%) needs to reach about **$1,270** before I upgrade its safety net to a smarter trailing one.
+
 ## 2026-08-12 15:00 CT · market-close
 
 **Close: equity $102,075 · day +0.35% · SPY +0.25% · alpha +0.10% — a good day, and we beat the market.**

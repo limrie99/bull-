@@ -1,3 +1,49 @@
+## 2026-08-13 06:30 CT — PRE-MARKET (Thu) · Full 4-agent scan · NO TRADES (market closed) · Book INTACT · Nothing clears the gate; AMGN ran to EXTENDED (+13.5% vs 50dMA), no qualifying buy
+
+**Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, 07:17 ET, next_open 8/13 09:30 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). No trades — pre-market research only.
+
+**Account (pre-open snapshot, marks = Wed close/last-trade):** equity **$102,269.11**, cash **$36,641.95** (~35.83%), long_market_value **$65,627.16** (~64.17%), buying_power $330,323.85, status ACTIVE. `last_equity` (Wed 8/12 close) $102,056.05. Day P/L not yet meaningful pre-open (close routine owns the official daily number). daytrade_count 0.
+
+**Stops re-confirmed RESTING (open-orders, nested=true):**
+- JPM 10% trailing `8a937ff6…` — hwm **366.06**, stop_price **329.454**, new. Mark ~366.51. qty 34.
+- DE 10% trailing `dcdd84e5…` — hwm **643.99**, stop_price **579.591**, new. Mark ~619.77, cushion ~6.5% (tightest). qty 22.
+- LLY −7% hard stop `f50e3c39…` — stop_price **1125.15**, gtc, new. Mark ~1230.40 (+1.70%). Converts to 10% trailing at +5% (~$1,270.33). qty 12.
+- SPY — NO STOP by design (index-floor sleeve carve-out). qty 32.
+
+### Market context (macro sub-agent)
+- **Tape: mixed / cautious risk-on into an 8:30 ET binary.** ES ~+0.2% [SEMI]; NQ [UNVERIFIED — one soft note had Sept e-mini −0.33%, do not trust]. Nikkei/HSI/Europe **[UNVERIFIED — retrieval wall]**. 10Y **4.69%** eased, 2Y **4.176%** −2bp [VERIFIED] = mild benign bull-flattening. DXY/gold/oil [UNVERIFIED].
+- **TODAY'S BINARY — July PPI 8:30 ET** [VERIFIED timing]. Consensus ~+0.2% headline m/m, +0.3% core m/m, ~+4.9%/+4.1% y/y [SEMI]. **Data-integrity flag:** one calendar (TradingEconomics) showed "actual" figures (−0.3% headline m/m but hot 5.5% headline / 4.7% core y/y) — could be a live print OR a stale placeholder; treated **[UNVERIFIED]** until the open confirms. If y/y truly ran that hot, it's a hawkish surprise (yields up, pressure on rate-sensitives). July CPI (Wed 8/12) actual not retrieved [UNVERIFIED]. Fed's Hammack speaks 12:15 ET [SEMI]. Sept-16 FOMC odds [UNVERIFIED — could not retrieve FedWatch].
+- **Tariff status:** the 8/11 EO extending the US-China pause to ~Nov 10 (logged VERIFIED at Tue open when I executed the 2nd SPY tranche off a sonar-pro confirmation) could NOT be re-confirmed this run [UNVERIFIED this morning] — treat as still-in-force per the prior verification, but do not re-assert as fresh news.
+- **Read:** JPM mildly constructive (flatter curve benign; a hot PPI steepening helps NIM). DE most exposed (rate-sensitive + tariff/input-cost read) — short leash into its own Aug 20 print. LLY defensive/low-beta — steadiest into the PPI coin-flip. SPY floor: genuine two-way 8:30 gap risk, no directional edge pre-print. **Market-open discipline: read PPI FIRST; do not deploy fresh cash before the 8:30 number.**
+
+### Portfolio watch (position sub-agent)
+- **JPM — sev 1 (quiet).** No material 24h news; no PT/rating change [VERIFIED-as-absence]. Only stale/immaterial items (Aug 5 LA28 PR, Aug 11 Asia-hiring piece). Thesis ($50B buyback + div hike, Q2 beat) intact; cushion ~9.8%; next earnings ~Oct.
+- **DE — sev 2 (watch, event risk).** **No Deere-specific pre-announcement, warning, or guidance update in 24h [VERIFIED-as-absence]** — the exact tail (a pre-print warning) did NOT appear. No fresh analyst action; Evercore trim-but-maintain (641→632) is still the last item. Sector: only AGCO's known Q2 miss/guide-cut + routine law-firm "investigation" trolling (Aug 10) — no NEW negative ag data. **Tightest name (~6.5% cushion) into Q3 Thu Aug 20 9:00 CT — primary daily watch; pre-commit hold-vs-tighten decision due early next week; do NOT add ahead.**
+- **LLY — sev 1 (quiet).** No material 24h news on Zepbound/Mounjaro/orforglipron/pipeline/FDA/competitors [VERIFIED-as-absence]. Fresh position +1.70%; beat-and-raise thesis intact. **50dMA computed from Alpaca IEX bars = $1,164.71; live ~$1,230 = +5.6% above = clean uptrend, not extended.** Standing task: convert −7% hard stop → 10% trailing once +5% (~$1,270.33).
+- **Any thesis-break risk? NO.** All three quiet-to-watch. (Caveat: Perplexity coverage unusually thin this run — read as "no confirmed catalyst found," not exhaustive all-clear.)
+
+### Buy candidates (scout sub-agent + Alpaca verification) — NOTHING CLEARS
+Low-confidence scout run (Perplexity declined to verify most figures). Only AMGN came back cleanly; I verified its 50dMA via Alpaca.
+- **AMGN (Amgen) ~$416.37 [VERIFIED] — ~70, FAILS on entry.** Signals #1 (Q2 beat-and-raise VERIFIED: adj EPS $6.29 vs $5.62, rev $10.05B vs $9.43B, raised FY26) + #3 (MariTide obesity/GLP-1 hook, SEMI) = 2 signals. BUT **Alpaca-verified 50dMA $366.87; close $416.37 = +13.5% above = EXTENDED (chase band).** Fails signal #6 (not-extended). Was the ~71 runner-up on 8/12; it has since run higher → **now bench-for-a-pullback, NOT a buy.** No distinct new <30d catalyst; not earnings-blocked (reported Aug 4).
+- **DDOG (Datadog) ~UNVERIFIED — ~70, does not clear.** ~Aug 6 beat-and-raise [SEMI, EPS-vs-cons UNVERIFIED] + AI/observability tailwind. High-beta software (≤10% starter cap if ever bought). Needs figure + 50dMA confirmation. Bench.
+- **ABT (Abbott) ~$111 [SEMI] — ~69, 1 verifiable signal → does NOT clear.** Double-beat claimed but EPS/rev/guide all UNVERIFIED. Bench.
+- **NET (Cloudflare) ~UNVERIFIED — ~68, high-beta, does not clear.** Aug 6 raise [SEMI], figures unverified. Bench.
+- **Prior bench TDG (~65) / ETN (~64, high-beta chase, ≤10% cap) / NOC (~60, was below 50dMA): ALL UNVERIFIED this run** — Perplexity returned zero usable data; pull from Alpaca before scoring next run. Carry at last-known scores, flagged stale.
+
+**Buy-gate result:** No name has 2+ VERIFIED signals AND a clean (non-extended) entry AND Conviction ≥70. **NO qualifying buy.** Not a cash-drag concern — bought LLY 8/12, sleeve is 3/5 (two slots open), cash ~36% above the 10–20% buffer, floor complete. Holding the bar is correct; nothing to force.
+
+### Sell candidates
+- **NONE.** All three stocks green/flat, above their stops, no thesis break, none near a floor. JPM +11.2%, DE +5.1%, LLY +1.7%, SPY +0.1%. SPY = buy-and-hold index floor (no stop by design).
+
+### Risk checks (pre-open snapshot)
+- (a) Any position −7% or worse un-stopped? **NO.** (b) Any +5%+ needing hard→trailing conversion? **NO** — JPM & DE already trailing; LLY +1.70% (<+5%) on its −7% hard stop as designed; SPY no-stop by policy. Standing task: convert LLY hard→trailing at ~+5% (~$1,270.33). (c) Daily loss cap: market not open → n/a.
+
+**Telegram:** NOT pushed — pre-market scan with no trades is a do-NOT-push event per CLAUDE.md.
+
+**Persistence:** prepended this entry to research-log.md; prepended pre-market re-score to watchlist.md; prepended teacher-voice pre-market message to messages.md; overwrote dashboard/state.json (pre-open snapshot); inbox unchanged (nothing pending). Commit + push HEAD:main.
+
+**Next routine:** market-open Thu 8/13 — **read July PPI (8:30 ET) FIRST; do not deploy before the print.** No conviction candidate qualifies pre-open (AMGN extended, others unverified/high-beta), so market-open likely a no-buy unless data materially changes. Watch LLY toward +5% (~$1,270.33) for the hard→trailing conversion; DE cushion (~6.5%) into Aug 20.
+
 ## 2026-08-12 15:00 CT — MARKET CLOSE (Wed) · Day summary · equity $102,075.14 · day +$352.92 / +0.35% · SPY +0.25% · alpha +0.10 pt · NO trades this routine · Book intact
 
 **Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, 16:01 ET, next_open 8/13 09:30 ET). Inbox: **nothing pending.** 6 keys present (cloud; Telegram set). No trades this routine.
