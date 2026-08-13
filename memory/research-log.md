@@ -5854,3 +5854,35 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Persistence:** wrote portfolio.md (midday snapshot), prepended messages.md (teacher-voice midday), overwrote dashboard/state.json, appended this log. No trade-log entry (no trades). Commit + push HEAD:main.
 
 **Next routine:** market-close Tue 8/11 — official daily scorecard vs SPY + mandatory Telegram push; re-check DE cushion (tightest ~6.16%) and confirm whether we hold the mid-session lead into the close.
+
+## 2026-08-13 12:15 CT — MIDDAY (Thu) · No trades · book intact & all green · all stops resting · nothing clears the gate
+
+**Setup:** 4 required keys present (cloud mode; Telegram set). Synced memory/dashboard from origin/main first (latest = market-open 8/13 13:38). Market **CONFIRMED OPEN** (clock is_open:true, 13:14 ET, next_close 16:00 ET). Inbox: **nothing pending** (Handled up to date).
+
+**Account (live midday):** equity **$101,942.96**, cash **$36,641.95** (~35.94%), long_market_value **$65,301.01** (~64.06%), buying_power $329,410.63, status ACTIVE. `last_equity` (Wed 8/12 close) $102,056.05 → **today −$113.09 / −0.111%** (essentially flat). **3 conviction stocks + 1 index floor; two conviction slots OPEN. Weekly conviction buys 1/3.**
+
+**Positions (live midday marks):**
+- **JPM** 34 @ 329.695588 → 363.32, **+$1,143.23 / +10.20%**. Softened intraday (open 363.71 → 363.32, ~−0.11%). Trailing 10% GTC `8a937ff6…` floor 329.85, hwm 366.5, resting. Mark below hwm → no ratchet this run. Cushion ~9.21%. Thesis intact ($50B buyback + div hike + largest-bank franchise; DB Buy $375). Next earnings ~Oct. Size 12.12% of equity.
+- **DE** 22 @ 589.82 → 612.96, **+$509.08 / +3.92%**. Softened intraday (open 616.27 → 612.96, ~−0.54%). Trailing 10% GTC `dcdd84e5…` floor 579.591, hwm 643.99, resting. Cushion ~5.44% (tightest name). Q3 confirmed Thu Aug 20 9:00 CT — do NOT add ahead. Size 13.23% of equity.
+- **LLY** 12 @ 1209.84 → 1216.74, **+$82.80 / +0.57%**. Softened intraday (open 1232.20 → 1216.74, ~−1.25%) — day-3 wiggle, no dated news. −7% hard stop `f50e3c39…` @ 1125.15 GTC, resting. Converts to 10% trailing at +5% (~$1,270.33, ~+4.4% away). Next earnings ~Nov. Size 14.32% of equity.
+- **SPY** 32 @ 772.921250 → 777.15, **+$135.32 / +0.55%**. Index-floor sleeve, NO stop by design — tracking SPY's intraday rise 1:1 (Wed close 772.49 → 777.15 = +0.603%). Size 24.40% of equity (exempt from 20% single-position cap by policy).
+- Net open unrealized **+$1,870.43**.
+
+**Open orders (nested=true) re-confirmed:** exactly the 3 resting stops — JPM trailing `8a937ff6-164c-4384-8cf8-c000d4106a60` (trail 10, stop 329.85, hwm 366.5, gtc, new), DE trailing `dcdd84e5-6b94-4943-aa5b-3d3a299cbfce` (trail 10, stop 579.591, hwm 643.99, gtc, new), LLY hard stop `f50e3c39-0719-497e-8ccc-6006e6afa290` (stop 1125.15, gtc, new). SPY has no order (unencumbered, qty_available 32). No stray/partial orders.
+
+**Risk checks:**
+- (a) Any −7% or worse un-stopped? NO (JPM +10.20%, DE +3.92%, LLY +0.57%, SPY +0.55%). **No mandatory 4-hour news check triggered; no sell.** (No discretionary check run either — no name moved materially against us; DE/LLY intraday dips are minor noise, both comfortably positive from entry.)
+- (b) Any +5%+ needing hard→trailing conversion? JPM ≥+5% but already on 10% trailing GTC; DE +3.92% already on 10% trailing GTC; LLY +0.57% (below +5%) correctly on its −7% hard stop; SPY carries no stop by policy. **No conversion action.** Standing task: convert LLY hard→trailing once it tags ~+5% (~$1,270.33).
+- (c) Daily loss cap: today −0.111% (essentially flat, well inside −3%) → cap not tripped. Moot — no buys planned at midday.
+
+**Buys:** NONE. Per the midday rule, no new buys unless a high-conviction breaking catalyst AND weekly buys <3 AND positions <5. No such catalyst exists; nothing clears the ≥70 gate (bench top AMGN ~70 EXTENDED +13.5% vs 50dMA = chase; DDOG/NET/ABT unverified). Floor COMPLETE — no index add either.
+
+**Benchmark (midday, unofficial — close routine owns official):** SPY 777.15 vs Wed 8/12 close 772.49 → SPY **+0.603%** today; book **−0.111%** → intraday alpha ~**−0.71 pt**. Source is name-specific: JPM/DE/LLY each softened a touch intraday while SPY rose; the ~24% SPY floor tracked the index up 1:1. This is stock-selection noise, NOT the ~75%-cash drag of prior weeks — the floor is doing its job. WTD (from Fri 8/7 close $101,707.48): equity +$235.48 / +0.231%.
+
+**Sell candidates: NONE.** All 3 stocks intact and green, above trailing floors / above hard stop; SPY buy-and-hold. **Buy candidates: NONE clear the gate.**
+
+**Telegram:** NOT pushed (quiet midday, no trade / stop / close / weekly-review / urgent event = do-NOT-push per CLAUDE.md). The mandatory daily "how we're doing" push is owned by the market-close routine.
+
+**Persistence:** wrote portfolio.md (midday snapshot), prepended messages.md (teacher-voice midday), overwrote dashboard/state.json, appended this log. No trade-log entry (no trades). Commit + push HEAD:main.
+
+**Next routine:** market-close Thu 8/13 — official daily scorecard vs SPY + mandatory Telegram push; re-check DE cushion (tightest ~5.44%) into its Aug 20 print, and whether LLY/DE recovered their small intraday dips into the close.

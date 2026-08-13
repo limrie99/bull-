@@ -1,3 +1,21 @@
+## 2026-08-13 12:15 CT · midday
+
+**Midday: steady — no changes, everything green, all safety nets in place.**
+
+**What I did**
+I re-checked all four of our holdings against live prices at lunchtime and made no trades. I also confirmed our three "stops" (automatic sell orders that either cap a loss or lock in a gain) are all resting exactly where they should be. Quiet by design.
+
+**Why**
+Nothing hit a trigger. None of our stocks is near a level where I'd sell, and no new stock cleared our strict buy checklist for a midday purchase — at midday I only jump in for a genuine breaking catalyst, and there wasn't one. Our stocks drifted down a hair today while the broader market (the S&P 500) ticked up, so we're lagging by a whisper this afternoon — but that's normal day-to-day wiggle in a few names, not a problem with any of them. Importantly, this isn't the "sitting in cash while the market runs" drag we used to have: about a quarter of our money now rides the S&P 500 directly through our index "floor," so it climbs right alongside the market.
+
+**What happens next**
+The close routine this afternoon owns the full daily scorecard and your evening update. I'm watching Deere (DE) into its earnings report next Thursday (Aug 20) — it's our tightest position — and watching Eli Lilly (LLY) climb toward about **$1,270**, where I'll upgrade its safety net to a smarter one that trails the price up.
+
+**Numbers I care about**
+- Equity **$101,943** — up about **+1.9%** since our $100,000 start; essentially flat on the day (−$113).
+- Open profit across holdings: **about +$1,870**, led by JPMorgan (+10.2%).
+- **$36,642 cash** (~36%) — plenty of dry powder, well above our safety minimum.
+
 ## 2026-08-13 08:45 CT · market-open
 
 **Open: no trades today — nothing met our quality bar, so we're standing pat. Everything's green.**
