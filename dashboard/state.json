@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-08-13 06:30 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-08-13 08:45 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 102269.11,
+  "equity": 102173.09,
   "cash": 36641.95,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
-  "week_pl_pct": 0.36,
-  "spy_week_pct": -0.1,
-  "alpha_week_pct": 0.46,
+  "day_pl": 117.04,
+  "day_pl_pct": 0.115,
+  "spy_day_pct": 0.42,
+  "alpha_day_pct": -0.3,
+  "week_pl_pct": 0.458,
+  "spy_week_pct": 0.34,
+  "alpha_week_pct": 0.12,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 366.51,
-      "pl_pct": 11.17,
-      "stop": 329.454
+      "current": 363.71,
+      "pl_pct": 10.32,
+      "stop": 329.85
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 619.77,
-      "pl_pct": 5.08,
+      "current": 616.27,
+      "pl_pct": 4.48,
       "stop": 579.591
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1230.4,
-      "pl_pct": 1.7,
+      "current": 1232.2,
+      "pl_pct": 1.85,
       "stop": 1125.15
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 773.94,
-      "pl_pct": 0.13,
+      "current": 775.7,
+      "pl_pct": 0.36,
       "stop": null
     }
   ],
@@ -101,16 +101,15 @@
       "symbol": "JPM",
       "qty": 34,
       "price": 329.7
-    },
-    {
-      "date": "2026-06-25 12:05",
-      "side": "RISK-MGMT",
-      "symbol": "DE",
-      "qty": 22,
-      "price": 558.945
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-08-13 08:45 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades today — nothing met our quality bar, so we're standing pat. Everything's green.",
+      "body": "Re-checked everything at the open; no buys, no sells. July wholesale-inflation (PPI) came in calm and the market drifted up, but a calm market isn't a reason to buy — no stock cleared our checklist (Amgen still too stretched to chase). We bought Eli Lilly yesterday, so we're not idle: 3 hand-picked stocks + the S&P 500 floor, ~36% cash. Open profit ~+$2,096, led by JPM +10.3% (fresh high). Watching Deere into its Aug 20 earnings and Lilly toward ~$1,270 for a smarter trailing stop."
+    },
     {
       "ts": "2026-08-13 06:30 CT",
       "routine": "pre-market",

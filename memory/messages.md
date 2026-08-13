@@ -1,3 +1,21 @@
+## 2026-08-13 08:45 CT · market-open
+
+**Open: no trades today — nothing met our quality bar, so we're standing pat. Everything's green.**
+
+**What I did**
+The market opened at 8:30 our time and I re-checked everything against live prices. No buys, no sells. I placed no new orders — the smart move today is patience. I did confirm all three of our safety-net "stops" (auto-sell orders that cap a loss or lock in a gain) are resting exactly where they should be.
+
+**Why**
+This morning's inflation report (PPI — wholesale prices) came out and the market took it calmly, drifting up a touch. But a calm market isn't a reason to buy; I only buy when a specific stock clears our checklist, and today none did. The closest candidate, Amgen, is still stretched too far above its recent average price to chase. We already put fresh money to work yesterday (Eli Lilly), so we're not sitting on our hands — we own 3 hand-picked stocks plus our S&P 500 "floor" (a broad index fund so our spare cash rises with the market). When there's no great pitch, the disciplined swing is to let it go by.
+
+**What happens next**
+I'll keep watching Deere (DE) — its earnings report is next Thursday (Aug 20) and it's our tightest position. And I'm watching Lilly climb toward about **$1,270**, where I'll upgrade its safety net to a smarter "trailing" one that follows the price up.
+
+**Numbers I care about**
+- Equity **$102,173** — up about **+2.2%** since our $100,000 start.
+- **$36,642 cash** (~36%) — plenty of dry powder, well above our safety minimum.
+- Open profit across our holdings: **about +$2,096**, led by JPMorgan (+10.3%, a fresh high).
+
 ## 2026-08-13 06:30 CT · pre-market
 
 **Good morning — quiet, healthy start. Nothing to buy today, and that's the disciplined call.**

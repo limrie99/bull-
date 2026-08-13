@@ -1,3 +1,39 @@
+## 2026-08-13 08:45 CT — MARKET OPEN (Thu) · NO TRADES · Book intact · Pre-market plan executed as written (no qualifying buy); PPI out, no risk-off shock, still nothing clears the gate · All stops resting
+
+**Setup:** Market CONFIRMED OPEN via /v2/clock (is_open:true, 09:35 ET, next_close 16:00 ET, next_open 8/14 09:30 ET). Inbox: **nothing pending.** 6 keys present (cloud; Telegram set). No trades this routine.
+
+**Account (live open):** equity **$102,173.09**, cash **$36,641.95** (~35.86%), long_market_value **$65,531.14** (~64.14%), buying_power $330,054.99, status ACTIVE. `last_equity` (Wed 8/12 close) $102,056.05 → **today +$117.04 / +0.115%** (early session). daytrade_count 0.
+
+### Executing the pre-market plan (re-validated at live open)
+Pre-market (06:30 CT) pre-committed: "read July PPI FIRST; do not deploy before the print… market-open likely a no-buy unless data materially changes." At the 09:35 ET open the tape is mildly constructive (SPY 772.49→775.70 = +0.42% intraday), **no risk-off shock** — but there is still **no qualifying buy candidate**, which is the binding constraint, not the tape. So the plan holds: **NO TRADES.**
+
+### Buy-gate result — NOTHING CLEARS (unchanged from pre-market)
+- **AMGN ~70 — FAILS on entry (extended).** Alpaca-verified 50dMA $366.87 vs close $416.37 = +13.5% above = chase band → fails signal #6 (not-extended). Was the runner-up; it ran higher → **bench-for-a-pullback, NOT a buy.**
+- **DDOG ~70 / ABT ~69 / NET ~68 / TDG ~65 / ETN ~64 (high-beta ≤10% cap) / NOC ~60** — all UNVERIFIED this cycle (Perplexity coverage thin on the pre-market run); none has 2+ VERIFIED signals AND a clean non-extended entry AND Conviction ≥70. Bench, carried stale.
+- **No name meets the buy-gate (2+ verified signals AND Conviction ≥70 AND not-extended). NO qualifying buy.** Not a cash-drag concern: bought LLY 8/12 (sleeve 3/5, two slots open), cash ~36% above the 10–20% buffer, floor complete, weekly conviction buys 1/3. Holding the bar is correct; nothing to force. Did NOT spin up a fresh 4-agent scan — the pre-market's full scan ran ~3h ago and its conclusion stands (no cold-start/stale-plan trigger: memory is fresh, we traded yesterday, not a 3+ day all-cash drag).
+
+### Sell candidates
+- **NONE.** All three stocks green/flat, above their stops, no thesis break, none near a floor. JPM +10.32%, DE +4.48%, LLY +1.85%, SPY +0.36%. SPY = buy-and-hold index floor (no stop by design).
+
+### Positions (live open marks)
+- **JPM** 34 @ 329.695588 → **363.71**, **+$1,156.49 / +10.32%.** Trailing 10% GTC `8a937ff6…` floor **329.85**, hwm **366.5** (ratcheted up on a fresh high overnight; was 366.06/329.454), cushion **~9.31%.** Thesis intact; next earnings ~Oct. Size ~12.10%.
+- **DE** 22 @ 589.82 → **616.27**, **+$581.90 / +4.48%.** Trailing 10% GTC `dcdd84e5…` floor **579.591**, hwm **643.99** (below hwm → no ratchet), cushion **~5.95%** (tightest; dipped intraday). **Q3 CONFIRMED Thu Aug 20 9:00 CT — do NOT add ahead;** AGCO miss (−11%, 8/6) + DE ~238 layoffs raise gap-through-cushion odds on a miss. Size ~13.27%.
+- **LLY** 12 @ 1209.84 → **1232.20**, **+$268.32 / +1.85%** (day 2, green). −7% hard stop 1125.15 GTC. Converts to 10% trailing at +5% (~$1,270.33, ~+3.1% away). Size ~14.47%.
+- **SPY** 32 @ 772.9212 → **775.70**, **+$88.92 / +0.36%.** Index-floor sleeve, NO stop by design. Size ~24.29% (exempt from 20% cap by policy).
+- Net open unrealized **+$2,095.63.**
+
+**Order/stop verification:** open-orders (status=open, nested=true) returns exactly 3 resting orders — LLY hard stop `f50e3c39…` (stop 1125.15, gtc, new), JPM trailing `8a937ff6…` (trail 10, stop 329.85, hwm 366.5), DE trailing `dcdd84e5…` (trail 10, stop 579.591, hwm 643.99). SPY zero orders (qty_available 32). No stray/partial orders.
+
+**Risk checks (open):** (a) any −7% un-stopped? NO (JPM +10.32%, DE +4.48%, LLY +1.85%, SPY +0.36%). (b) any +5%+ needing hard→trailing conversion? NO — JPM already trailing; DE +4.48% (<+5%) already trailing; LLY +1.85% (<+5%) on its −7% hard stop as designed; SPY no-stop by policy. Standing task: convert LLY hard→trailing at ~+5% (~$1,270.33). (c) daily loss cap: +0.115% up → not tripped.
+
+**Benchmark (open, unofficial — close routine owns official):** SPY ~+0.42% intraday vs book +0.115% → intraday alpha ~−0.30 pt (JPM/DE slightly red intraday while SPY up; two-sided). WTD unofficial from Fri 8/7 close: book +0.458%, close routine computes the official day/WTD.
+
+**Telegram:** NOT pushed — market-open with no trades is a do-NOT-push event per CLAUDE.md (only trades/stops/close/weekly/urgent push).
+
+**Persistence:** overwrote portfolio.md (open snapshot, 3 stocks + floor); prepended teacher-voice market-open message to messages.md; prepended this entry to research-log.md; overwrote dashboard/state.json (open snapshot); no trade-log append (no trade). Inbox unchanged (nothing pending). Commit + push HEAD:main.
+
+**Next routine:** midday Thu 8/13 — confirm LLY holds above its 50dMA (~$1,165) and builds toward the +5% (~$1,270.33) hard→trailing conversion; re-check DE cushion (~5.95%) into the Aug 20 Q3; no fresh buy expected unless a verified ≥70/non-extended setup materializes. Close routine owns the official daily scorecard + mandatory Telegram push.
+
 ## 2026-08-13 06:30 CT — PRE-MARKET (Thu) · Full 4-agent scan · NO TRADES (market closed) · Book INTACT · Nothing clears the gate; AMGN ran to EXTENDED (+13.5% vs 50dMA), no qualifying buy
 
 **Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, 07:17 ET, next_open 8/13 09:30 ET). Inbox: **nothing pending.** 4 required keys present (cloud mode; Telegram set). No trades — pre-market research only.
