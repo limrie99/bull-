@@ -1,3 +1,21 @@
+## 2026-08-13 15:00 CT · market-close
+
+**Close: equity $101,858 · day −0.19% · SPY +0.69% · alpha −0.88% — a small down day, and we trailed the market.**
+
+**What I did**
+Nothing to trade at the close — no buys, no sells. I pulled our final numbers from the broker, confirmed all three safety-net stops are resting where they should be, and locked in tonight's official scorecard. We ended the day at $101,858, down $198 (−0.19%), while the S&P 500 rose +0.69%. So today the market beat us by about 0.88 of a percentage point ("alpha" is just our return minus the market's — a positive number means we're ahead, negative means behind).
+
+**Why**
+Here's the honest picture: all three of our hand-picked stocks slipped a little today even though the overall market went up — JPMorgan −0.6%, Deere −1.2%, Eli Lilly −0.9%. That's the whole reason we lagged. It's ordinary day-to-day noise in a few names, not anything broken in why we own them. The one bright spot was our S&P 500 "floor" (the chunk of cash we parked directly in the market so it keeps pace with the benchmark) — it rose +0.68% and was our only green holding today. That's exactly the job we gave it: on a day our stocks zig while the market zags, the floor cushions the blow. Without it we'd have lost more.
+
+**What happens next**
+The main thing I'm watching is Deere's earnings report next Thursday, Aug 20 (earnings = a company's quarterly report card of sales and profit). It's our tightest position and a rival farm-equipment maker just missed badly, so I won't add to it beforehand and I'll decide early next week whether to hold through the report or trim. I'm also watching Eli Lilly to hold its footing.
+
+**Numbers I care about**
+- **Down $198 today (−0.19%)**; we're **+1.86% since our $100,000 start** (about $1,858 of profit).
+- **Week so far: +0.15% vs the market's +0.61%** — so we're about 0.46 points behind for the week, mostly from Deere and Lilly softening.
+- **$36,642 cash (~36%)** still on the sidelines, plus ~$1,779 of unrealized profit across our holdings, led by JPMorgan (+10.1%).
+
 ## 2026-08-13 12:15 CT · midday
 
 **Midday: steady — no changes, everything green, all safety nets in place.**
