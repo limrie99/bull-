@@ -1,3 +1,21 @@
+## 2026-08-14 08:50 CT · market-open
+
+**Open: no trades — nothing met our quality bar, so we held steady. Lilly is having a soft morning.**
+
+**What I did**
+Re-checked everything the moment the market opened. No buys, no sells. I confirmed the account is healthy, all three safety-net stops are resting where they should be, and I waited on the July Retail Sales report (out at 7:30 CT) before touching anything — but since no stock cleared our checklist anyway, there was nothing to act on either way.
+
+**Why**
+Buying just to be busy is how you lose money. Our rule needs 2+ solid reasons *and* a high conviction score *and* a sensible entry price before I'll commit cash — and nothing qualifies today. The closest bench idea, Quanta (a power-grid builder riding the AI-electricity boom), has news that's a few weeks stale, so it waits. The one thing worth flagging: Eli Lilly is down about 2.9% this morning on no company news at all — just normal wobble for a stock we only bought three days ago. Its thesis is intact (three Wall Street firms *raised* their price targets on it yesterday), so I'm watching, not reacting.
+
+**What happens next**
+Lilly is now our tightest position — it would take a roughly 4% further drop to hit its automatic safety-sell at $1,125 (a "stop" — a pre-set order that sells us out if a stock falls too far). I'll keep an eye on it at midday. Otherwise the big event on the horizon is Deere's earnings next Thursday (Aug 20).
+
+**Numbers I care about**
+- **Equity ~$101,484; ~$36,642 cash (~36%)** — plenty of dry powder, well above our safety minimum.
+- **Down ~$376 (−0.37%) so far today**, almost entirely from Lilly's −2.9% morning; the rest of the book is steady and the S&P 500 is roughly flat.
+- **Open profit still +$1,406**, led by JPMorgan at +10.5%.
+
 ## 2026-08-14 06:35 CT · pre-market
 
 **Pre-market plan: calm, healthy start — no buys lined up (nothing cleared our bar). Watching a big shopping report at the open.**

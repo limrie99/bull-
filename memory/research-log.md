@@ -1,3 +1,27 @@
+## 2026-08-14 08:50 CT — MARKET OPEN (Fri) · NO TRADES · Nothing cleared ≥70 gate · No sell trigger · LLY soft (−2.85% today, tightest cushion ~4.2%)
+
+**Market state:** /v2/clock is_open:true, timestamp 09:50 ET, next_close 16:00 ET. July Retail Sales (8:30 ET binary from pre-market) already released pre-snapshot; moot for action since no name qualified regardless.
+
+**Account (live):** equity $101,483.96, cash $36,641.95 (36.11%), long_market_value $64,842.01 (63.89%), buying_power $328,125.43, last_equity $101,860.21 → intraday −$376.25 / −0.37%. status ACTIVE, trading_blocked false, daytrade_count 0.
+
+**Positions (live marks):**
+- JPM 34 @ 329.695588 → 364.325, +$1,177.40 / +10.50%, +0.34% today. Cushion to trailing floor 329.85 ~9.46%.
+- DE 22 @ 589.82 → 612.20, +$492.36 / +3.79%, ~flat today. Cushion to trailing floor 579.591 ~5.33%. Q3 print Thu 8/20 9:00 CT.
+- LLY 12 @ 1209.84 → 1174.60, −$422.88 / −2.91%, **−2.85% today**. Cushion to −7% hard stop 1125.15 ~4.21% — **now tightest in book**.
+- SPY 32 @ 772.921250 → 777.8923, +$159.07 / +0.64%, ~flat. No stop (index-floor carve-out).
+- Net unrealized +$1,405.95.
+
+**Stops (open-orders nested=true, all RESTING/new):** LLY −7% hard `f50e3c39` @ 1125.15 GTC; JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5; DE 10% trailing `dcdd84e5` floor 579.591 / hwm 643.99. SPY none by design. Confirmed exactly 3 resting orders, zero SPY orders.
+
+**Decision logic:**
+- BUY? NO. Today's pre-market 4-agent scan returned nothing clearing 2+ verified signals AND Conviction ≥70. Bench top PWR ~68 (grid/power; best news 7/30 Q2 beat is stale/outside window, needs a fresh verified catalyst), AMGN ~70 EXTENDED (+13.5% vs 50dMA = chase), ABT ~64 (one signal short), MRK ~60 (FDA PDUFA 8/17 = binary, do-not-buy-pre-event). No new verified catalyst hit at the open to change this. Cold-start/anti-paralysis rule satisfied: fresh scan ran, genuinely nothing qualified → cash is fine for today (book is NOT idle — 3 conviction names + index floor deployed, ~36% cash by design). Weekly conviction buys 1/3.
+- SELL? NO. No position at/through a stop. LLY −2.91% from entry is well above its −7% hard stop; no verified thesis break (no company news; PT hikes 8/13 support thesis). DE not adding ahead of 8/20 print.
+- CONVERT hard→trailing? NO. LLY negative, not +5%. Standing task remains: convert LLY at ~$1,270.33.
+- Daily loss cap: −0.37% intraday, not tripped.
+
+**Watch into midday:** LLY tightest cushion (~4.2%) and the day's whole drag — monitor it holds above the ~$1,165 50dMA and far from the 1125.15 stop. DE into 8/20 print (pre-commit hold-vs-tighten decision due early next week). JPM/SPY healthy.
+
+**Telegram:** NOT pushed — a no-trade market-open is not on the push list (trade / stop-fire / daily-close / weekly / urgent). Nothing urgent (intraday drop −0.37%, no API failure, no user decision needed).
 ## 2026-08-14 06:35 CT — PRE-MARKET (Fri) · NO TRADES (market CLOSED, opens 09:30 ET) · Full 4-agent scan · NOTHING clears ≥70 gate · Book all sev-1 intact · Today's binary = 8:30 ET July Retail Sales
 
 **Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, 07:20 ET, next_open 8/14 09:30 ET). Inbox: **nothing pending.** 6 keys present (cloud; Telegram set). Pre-market = research only, **no trades placed.** Account (pre-open snapshot): equity **$101,872.53**, cash **$36,641.95** (~35.97%), long_market_value **$65,230.58** (~64.03%), buying_power $329,213.42, `last_equity` (8/13 close) $101,860.21. Sizes: JPM 12.10%, DE 13.28%, LLY 14.19%, SPY 24.45%. Three stops re-confirmed RESTING (open-orders nested=true): LLY hard `f50e3c39` @1125.15; JPM trailing `8a937ff6` floor 329.85 / hwm 366.5; DE trailing `dcdd84e5` floor 579.591 / hwm 643.99; SPY zero orders (qty_available 32). daytrade_count 0.

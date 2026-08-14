@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-08-14 06:35 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-08-14 08:50 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 101857.89,
+  "equity": 101483.96,
   "cash": 36641.95,
-  "day_pl": -198.16,
-  "day_pl_pct": -0.194,
-  "spy_day_pct": 0.686,
-  "alpha_day_pct": -0.88,
-  "week_pl_pct": 0.148,
-  "spy_week_pct": 0.605,
-  "alpha_week_pct": -0.457,
+  "day_pl": -376.25,
+  "day_pl_pct": -0.37,
+  "spy_day_pct": 0.0,
+  "alpha_day_pct": -0.37,
+  "week_pl_pct": -0.22,
+  "spy_week_pct": 0.61,
+  "alpha_week_pct": -0.83,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 363.11,
-      "pl_pct": 10.14,
+      "current": 364.325,
+      "pl_pct": 10.5,
       "stop": 329.85
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 612.38,
-      "pl_pct": 3.83,
+      "current": 612.2,
+      "pl_pct": 3.79,
       "stop": 579.591
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1209.10,
-      "pl_pct": -0.06,
+      "current": 1174.6,
+      "pl_pct": -2.91,
       "stop": 1125.15
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 777.77,
-      "pl_pct": 0.63,
+      "current": 777.8923,
+      "pl_pct": 0.64,
       "stop": null
     }
   ],
@@ -105,6 +105,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-14 08:50 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — nothing met our quality bar, so we held steady. Lilly is having a soft morning.",
+      "body": "Re-checked at the open; no buys, no sells. Nothing cleared our checklist (2+ reasons + high conviction + sensible entry), and I don't buy just to be busy. The one flag: Eli Lilly is down ~2.9% this morning on no company news — normal wobble for a 3-day-old position, and its thesis is intact (3 firms raised price targets yesterday). LLY is now our tightest position, ~4% above its $1,125 automatic safety-sell; I'll watch it at midday. Down ~$376 (-0.37%) today, almost all from Lilly; rest of the book steady, S&P 500 roughly flat. ~$36,642 cash (~36%). Deere's Aug 20 earnings is the key horizon event. Open profit still +$1,406, led by JPM +10.5%."
+    },
+    {
       "ts": "2026-08-14 06:35 CT",
       "routine": "pre-market",
       "headline": "Pre-market: calm, healthy start — no buys lined up (nothing cleared our bar). Watching July Retail Sales at the open.",
@@ -139,12 +145,6 @@
       "routine": "market-close",
       "headline": "Close: equity $102,075 · day +0.35% · SPY +0.25% · alpha +0.10% — we beat the market today.",
       "body": "Quiet, healthy close, no afternoon trades. Up $352.92 (+0.35%) vs SPY +0.25%. Week-to-date we're +0.36% while SPY is -0.10%, so +0.46 pts ahead. JPM +10.76% (fresh high), DE +5.08% (earnings Aug 20 = key watch), LLY closed its first day green. $36,642 cash, +2.08% since our $100K start."
-    },
-    {
-      "ts": "2026-08-12 12:05 CT",
-      "routine": "midday",
-      "headline": "Midday: steady — no changes. Everything's green and up ~0.3% on the day.",
-      "body": "Health check only — no trades. All four holdings green; today +$313 (+0.31%), +2.03% since our $100K start. Three safety-net stops re-confirmed resting; JPM hit a fresh high."
     }
   ]
 }
