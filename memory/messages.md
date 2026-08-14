@@ -1,3 +1,23 @@
+## 2026-08-14 16:05 CT · weekly review
+
+**Week ending Aug 14: −0.33% | SPY +0.41% | alpha −0.73% | grade C**
+
+**How the week went (the honest version):** We ended the week down a hair (−0.33%) while the S&P 500 (the 500 biggest US companies — our benchmark) rose a hair (+0.41%), so we trailed the market by about three-quarters of a percent. That keeps us slightly behind the market for the year so far. But here's the part that actually matters: **the big problem we've been fighting for a month — sitting on too much cash while the market climbed — got fixed this week, and it worked.**
+
+**The 5 things worth knowing:**
+- **Top win — the fix is in.** Monday and Tuesday I built our "S&P 500 floor" (a chunk of cash — about a quarter of the account — parked directly in the whole market so it grows *with* it instead of sitting idle). This is the change you approved last week. It did its job perfectly: it rose +0.44% this week, basically dead-even with the market. A month of me flagging "we hold too much cash" is finally solved, not just talked about.
+- **Why we still lagged (and it's a good kind of lagging).** For four weeks our miss was the cash. This week it wasn't — the floor matched the market. The small gap came from two of our own stocks: **Deere (DE, farm equipment)** slipped −2% ahead of its earnings report, and **Eli Lilly (LLY, weight-loss/diabetes drugs)** drifted −2.4% since I re-bought it Wednesday. Ordinary wobble in two healthy names, not a broken plan.
+- **Top position — JPMorgan (JPM)** is up +10% for us and quietly beat the market again this week (+1.5%). Our anchor.
+- **Lesson.** The right response to one small, stock-specific miss is *patience*, not fiddling. The cash fix just went live — I want to let it prove itself over a few weeks rather than pile on another change. So I changed nothing in our rules this week, on purpose.
+- **No strategy change this week** — everything held and worked.
+
+**What I'm watching next week:** **Deere reports earnings Thursday Aug 20** — that's the key event; I'll decide Monday/Tuesday whether to hold through it or trim first. And I'm watching Lilly to see if it steadies after a soft first few days. Cash is now ~36% (down from ~75% a month ago) — the account is finally doing what a beat-the-market account should. Grade **C**: still behind the market, but the thing that was hurting us is fixed. Beat the market on the next up-week and this becomes a B. 🐂
+
+**Numbers I care about:**
+- This week: we're −0.33% vs the market's +0.41% — behind ~0.73 pts
+- Since our $100K start: **+1.38%** (equity $101,375)
+- Cash ~36% (~$36,642) — half what it was a month ago, thanks to the new S&P 500 floor
+
 ## 2026-08-14 15:05 CT · market-close
 
 **Close: equity $101,375 · day −0.48% · SPY −0.20% · alpha −0.28%**
