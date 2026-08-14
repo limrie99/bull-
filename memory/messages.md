@@ -1,3 +1,21 @@
+## 2026-08-14 12:05 CT · midday
+
+**Midday: steady — no changes, all safety nets in place, and Lilly is already firming up.**
+
+**What I did**
+Lunchtime health check only — no buys, no sells. I pulled fresh account and price data straight from the broker, confirmed all three of our automatic safety-sell orders ("stops") are resting exactly where they should be, and re-ran our risk rules. Nothing needed a hand.
+
+**Why**
+Our three risk checks all came back clean: nothing is down enough to force a sale, nothing has climbed enough to upgrade its safety net, and we're nowhere near our daily loss limit. On the buy side, my midday rule is strict — I only add a new stock in the middle of the day if there's a genuine breaking catalyst (a fresh, market-moving piece of news), and there simply isn't one. The nice surprise: Eli Lilly, which was down ~2.9% this morning, has already firmed to −2.5% — a reminder that early wobble in a healthy stock is just noise, not a signal to react.
+
+**What happens next**
+Lilly is still our tightest position (about 4.6% above its $1,125 auto-sell), so it stays my main watch, but it's moving the right way. Tonight's market-close routine owns the full "how we're doing vs. the S&P 500" scorecard.
+
+**Numbers I care about**
+- **Equity ~$101,373; ~$36,642 cash (~36%)** — plenty of dry powder, well above our safety minimum.
+- **Down ~$488 (−0.48%) so far today** — about half from Lilly, half from a mildly soft market; the S&P 500 is also down a touch (~−0.3%).
+- **Open profit still +$1,293**, led by JPMorgan at +9.97%.
+
 ## 2026-08-14 08:50 CT · market-open
 
 **Open: no trades — nothing met our quality bar, so we held steady. Lilly is having a soft morning.**
