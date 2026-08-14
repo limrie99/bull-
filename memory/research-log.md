@@ -1,3 +1,37 @@
+## 2026-08-14 06:35 CT — PRE-MARKET (Fri) · NO TRADES (market CLOSED, opens 09:30 ET) · Full 4-agent scan · NOTHING clears ≥70 gate · Book all sev-1 intact · Today's binary = 8:30 ET July Retail Sales
+
+**Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, 07:20 ET, next_open 8/14 09:30 ET). Inbox: **nothing pending.** 6 keys present (cloud; Telegram set). Pre-market = research only, **no trades placed.** Account (pre-open snapshot): equity **$101,872.53**, cash **$36,641.95** (~35.97%), long_market_value **$65,230.58** (~64.03%), buying_power $329,213.42, `last_equity` (8/13 close) $101,860.21. Sizes: JPM 12.10%, DE 13.28%, LLY 14.19%, SPY 24.45%. Three stops re-confirmed RESTING (open-orders nested=true): LLY hard `f50e3c39` @1125.15; JPM trailing `8a937ff6` floor 329.85 / hwm 366.5; DE trailing `dcdd84e5` floor 579.591 / hwm 643.99; SPY zero orders (qty_available 32). daytrade_count 0.
+
+### Market context (macro analyst)
+- **Mixed, leaning mildly RISK-ON, but a BINARY-print morning.** Overnight ES ~+0.05–0.24% / NQ ~+0.04% [SEMI, late-8/13 snaps]; Asia/Europe retrieval wall [UNVERIFIED]. **10Y ~4.65%, DOWN from ~4.69–4.70% [VERIFIED]** (supportive), 2Y ~4.20% [SEMI]; DXY ~99.8–99.95 flat [VERIFIED]; gold ~$4,386–4,401 firm (mild hedging) [SEMI]; oil UNVERIFIED.
+- **⚠️ TODAY'S BINARY — 8:30 ET July Retail Sales, cons +0.3% m/m / core ~+0.2% [SEMI].** Secondary: **10:00 ET U.Mich sentiment prelim Aug, cons 68.5 [SEMI]**; Business Inventories (June) +0.2%. **Discipline: do NOT deploy before the 8:30 print — a hot/cold surprise can whipsaw rate-sensitives (JPM) and the tape.**
+- **Tariff:** US-China pause extension to ~Nov 10 (EO 8/11) could NOT be re-confirmed this run [UNVERIFIED retrieval wall] — no contradicting news; treat as still-in-force per prior verification, not fresh news.
+
+### Portfolio watch (position analyst — all sev 1)
+- **JPM — sev 1, INTACT.** No dated analyst/regulatory/legal news 24h [VERIFIED-as-absence]; only aggregator churn (MarketBeat "Moderate Buy" consensus). Prior real actions (UBS PT→$400, Jefferies→$370) dated 8/3, stale. DB Buy $375 stands. Cushion ~9.16%. Next earnings ~Oct.
+- **DE — sev 1, INTACT but WATCH (event risk).** **NO new pre-announcement/warning/downgrade in 24h [VERIFIED-as-absence].** **Q3 CONFIRMED Thu Aug 20 9:00 CT** — consensus clustering ~**$4.71–5.13 EPS / ~$10.8–10.9B rev [SEMI]**, whisper wants rev >$11B + FY26 guide raise. No fresh ag-peer print (CAT/AGCO/CNH) in window; AGCO −11% (8/6) + DE ~238 layoffs + Evercore trim 641→632 (maintain) remain the backdrop, NOT fresh news. Cushion ~5.35% (tightest). **Do NOT add ahead; pre-commit hold-through-print vs tighten/exit decision due early next week (Mon/Tue).**
+- **LLY — sev 1, INTACT (mild positive drift).** No material LLY-specific / FDA / GLP-1-competitive (Novo) news in strict 24h [VERIFIED-as-absence], BUT a cluster of **positive PT hikes dated 8/13 [VERIFIED]: Truist Buy $1,370→$1,376; Cantor OW $1,350→$1,410; Wells Fargo OW $1,280→$1,330** — all well above our ~$1,205 mark, reinforcing the Q2 beat-and-raise thesis. Day 3, ~flat (−0.06%). Cushion ~6.94% off the 1125.15 hard stop. **Standing task: convert −7% hard stop → 10% trailing once +5% (~$1,270.33, ~+5.4% away).**
+- **SPY floor** — buy-and-hold index sleeve, no stop by design; +0.63%; the day's cushion.
+
+### Buy candidates (opportunity scout + earnings) — NONE CLEARS
+Buy-gate = 2+ VERIFIED signals AND Conviction ≥70 AND clean non-extended entry. **Nothing meets it.**
+- **PWR (Quanta) ~$684 ~68 — bench top.** #3 grid/power-infrastructure secular (AI data-center power demand) [VERIFIED] + #6 clean non-extended entry (~+1% above / ~3% below 50dMA) [SEMI]; #1 Q2 beat (EPS $4.24 vs $3.31) but reported 7/30 = STALE / outside window, guidance-raise UNVERIFIED; KeyBanc OW $807 [UNVERIFIED]. Next earnings Oct 29 (safe). **Best structural story of the batch — WATCHLIST, needs a fresh verified catalyst to trigger.**
+- **ABT (Abbott) ~$111 ~64.** #5 healthcare rotation [VERIFIED] + #4 Wolfe → Outperform PT $130 ~8/13 [SEMI, single-source] = ~1.5 verified signals; low-beta defensive; next earnings Oct 21. **Watchlist, one verified signal short.**
+- **MRK (Merck) ~$135.55 ~60.** #2 FDA PDUFA Aug 17 (Keytruda QLEX bladder) [VERIFIED date] + healthcare rotation, BUT catalyst ~1 trading day out = **binary event risk, do-NOT-buy-pre-event** per rule. Watchlist, revisit after 8/17.
+- **ABBV (AbbVie) ~57.** Wolfe → Outperform PT $300 [SEMI]; price/technicals unverifiable. Bench pending verification.
+- **AMGN ~70 (carry) — still EXTENDED** (was +13.5% vs 50dMA 8/13); bench-for-a-pullback, not a buy unless it bases.
+- **Value trap flagged: CRL (Charles River)** — beat-and-raise headline but EXTENDED ~+36% vs 50dMA + conflicting EPS data → SIDELINE.
+- **Earnings tape (Fri 8/14):** light tail-of-Q2 day — BN/JD/NU/BAP/PAGP/ASND, all foreign, biotech, or sub-scale/off-mandate → none in-universe. **AMAT (Thu 8/13 AMC) = clear beat-but-FELL value trap** (rev $9.12B / EPS $3.50, both beat; shares −5% AH ~$506–508 — semis' bar too high, crowded trade) → do NOT chase; a cautious-risk-appetite tone signal only.
+
+### Sell candidates — NONE
+No position at a −7% trigger, none near a trailing floor, no VERIFIED thesis break. JPM +10.14%, DE +3.83%, LLY −0.06%, SPY +0.63% (marks 8/13 close). All three stops resting.
+
+### Plan for today's market-open
+1. **Read July Retail Sales (8:30 ET) FIRST; do NOT deploy before the print.** 10:00 ET U.Mich sentiment is a secondary check.
+2. Even post-print, **no name currently clears the ≥70 gate** — open is a likely no-buy unless a candidate materially changes at the open. Binding constraint is candidate quality, not the tape. Not a cash-drag concern: bought LLY 8/12 (sleeve 3/5, two slots open), cash ~36% above the 10–20% buffer, floor complete, weekly conviction buys 1/3. No cold-start/stale-plan trigger (memory fresh, traded 8/12, not a 3+ day all-cash drag).
+3. Standing tasks carried: (a) DE hold-vs-tighten pre-commit into Aug 20 Q3 (decide early next week); (b) convert LLY hard→trailing at +5% (~$1,270.33).
+
+**Persistence:** prepended this pre-market entry to research-log.md; prepended watchlist re-score; prepended teacher-voice pre-market message to messages.md; overwrote dashboard/state.json (last_routine pre-market; scorecard carries 8/13 official close — no new completed session yet); inbox unchanged (nothing pending). **Telegram: NOT pushed** (pre-market scan with no trades = do-NOT-push per CLAUDE.md). Commit + push HEAD:main.
 ## 2026-08-13 15:00 CT — MARKET CLOSE (Thu) · Day summary · NO TRADES · equity $101,857.89 · day −0.194% · SPY +0.686% · alpha −0.88 pt · All stops resting
 
 **Closing state (Alpaca):** equity **$101,857.89**, cash **$36,641.95** (~35.97%), long_market_value **$65,215.94** (~64.03%), buying_power $329,172.43. `last_equity` (Wed 8/12 close) $102,056.05. Today's closed orders: **NONE** (no fills). Open orders (nested=true): exactly 3 resting stops — JPM trailing `8a937ff6…` (hwm 366.5 / stop 329.85), DE trailing `dcdd84e5…` (hwm 643.99 / stop 579.591), LLY hard stop `f50e3c39…` (1125.15). SPY zero orders (qty_available 32). No stray/partial orders.

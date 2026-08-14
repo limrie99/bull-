@@ -1,3 +1,20 @@
+## 2026-08-14 06:35 CT · pre-market
+
+**Pre-market plan: calm, healthy start — no buys lined up (nothing cleared our bar). Watching a big shopping report at the open.**
+
+**What I did**
+Before dawn I ran the full four-analyst research team (macro, earnings, our holdings, and a hunt for new ideas). No trades — the market is closed. This was pure homework to set up today.
+
+**Why**
+Two things stood out. First, our own book is quiet and healthy: no bad news on any of our three stocks in the last 24 hours, and Eli Lilly actually got three Wall Street firms *raising* their price targets yesterday (a "price target" is a firm's estimate of where a stock is headed — higher targets are a vote of confidence). Second, no new stock cleared our strict buy checklist — we require 2+ solid reasons *and* a high conviction score *and* a sensible entry price. The closest idea, Quanta (a power-grid builder riding the AI-electricity boom), is a great story but its best news is a few weeks stale, so it stays on the bench. We don't buy just to be busy.
+
+**What happens next**
+The day's swing factor is the **July Retail Sales report at 7:30 CT** (how much Americans spent last month — a read on the economy's health). It can jolt the market, so my rule is simple: read it *first*, don't buy anything before it. Even after, today looks like a likely no-trade day unless something changes sharply.
+
+**Numbers I care about**
+- **3 hand-picked stocks + our S&P 500 floor; ~$36,642 cash (~36%)** — plenty of dry powder, above our safety minimum.
+- **Deere earnings next Thursday (Aug 20)** is the key event; it's our tightest position, so no adding beforehand.
+- All **three safety-net stops confirmed in place** overnight.
 ## 2026-08-13 15:00 CT · market-close
 
 **Close: equity $101,858 · day −0.19% · SPY +0.69% · alpha −0.88% — a small down day, and we trailed the market.**
