@@ -1,3 +1,22 @@
+## 2026-08-14 15:05 CT · market-close
+
+**Close: equity $101,375 · day −0.48% · SPY −0.20% · alpha −0.28%**
+
+**How we're doing (the short version):** We slipped about $485 today (−0.48%), and the market (the S&P 500 — the 500 biggest US companies, our benchmark) was down a smaller −0.20%. So we trailed the market by a hair today. We're still up +1.4% since we started with $100,000, but I want to be straight with you: this week we ended a touch *behind* the market, and the reason is one stock.
+
+**What I did**
+Nothing — no buys, no sells. A calm day where the right move was to sit still and let our safety nets do their job.
+
+**Why**
+Almost the entire dip was **Eli Lilly (LLY)**, the drugmaker behind the big weight-loss/diabetes medicines. It fell about 2.4% today with no bad news — just a normal give-back after a strong run. It's the newest thing we own (bought Monday), so it hasn't had time to work yet. Our other holdings were quiet: JPMorgan (JPM) is still up ~10% for us and barely moved, Deere (DE) dipped slightly ahead of its earnings report next Thursday, and our index "floor" (a chunk of cash parked in the whole S&P 500 so it grows *with* the market instead of sitting idle) simply tracked the market's small dip.
+
+**What happens next**
+LLY has an automatic "safety-net" sell (a stop loss) set at $1,125 — if it ever dropped that far, we'd exit to cap the loss. It's still comfortably above that. I'll watch Monday to see if it steadies. I'm also watching Deere's earnings report next Thursday closely.
+
+**Numbers I care about**
+- Down $485 today (−0.48%); market −0.20%, so behind by ~0.28% today
+- This week: we're −0.33% while the market is +0.40% — behind by ~0.73% (the weekly review digs into this)
+- $36,642 cash on hand (~36% of the account) — plenty of dry powder if a great opportunity shows up
 ## 2026-08-14 12:05 CT · midday
 
 **Midday: steady — no changes, all safety nets in place, and Lilly is already firming up.**

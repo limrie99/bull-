@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-08-14 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-08-14 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 101372.7,
+  "equity": 101375.07,
   "cash": 36641.95,
-  "day_pl": -487.51,
+  "day_pl": -485.14,
   "day_pl_pct": -0.48,
-  "spy_day_pct": -0.26,
-  "alpha_day_pct": -0.22,
+  "spy_day_pct": -0.20,
+  "alpha_day_pct": -0.28,
   "week_pl_pct": -0.33,
-  "spy_week_pct": 0.35,
-  "alpha_week_pct": -0.68,
+  "spy_week_pct": 0.40,
+  "alpha_week_pct": -0.73,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 362.58,
-      "pl_pct": 9.97,
+      "current": 362.84,
+      "pl_pct": 10.05,
       "stop": 329.85
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 610.305,
-      "pl_pct": 3.47,
+      "current": 608.85,
+      "pl_pct": 3.23,
       "stop": 579.591
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1179.01,
-      "pl_pct": -2.55,
+      "current": 1180.395,
+      "pl_pct": -2.43,
       "stop": 1125.15
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 775.87,
-      "pl_pct": 0.38,
+      "current": 776.2,
+      "pl_pct": 0.42,
       "stop": null
     }
   ],
@@ -105,6 +105,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-14 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $101,375 · day -0.48% · SPY -0.20% · alpha -0.28% — a quiet down day, and we trailed the market by a hair.",
+      "body": "No trades. We slipped $485 (-0.48%) while the S&P 500 fell a smaller -0.20%, so the market edged us today. Almost the entire dip was Eli Lilly (-2.4%, ~$343 of the loss) — a normal give-back on no bad news, and it's only 3 days old. JPM held its +10% flat, Deere dipped slightly into next Thursday's earnings, and our S&P 500 floor just tracked the market down. Honest note: week-to-date we're -0.33% vs SPY +0.40% (behind ~0.73 pts), essentially all LLY's paper loss since Monday. Still +1.4% since our $100K start. $36,642 cash (~36%). Watching Lilly Monday and Deere's Aug 20 earnings."
+    },
+    {
       "ts": "2026-08-14 12:05 CT",
       "routine": "midday",
       "headline": "Midday: steady — no changes, all safety nets in place, and Lilly is already firming up.",
@@ -145,12 +151,6 @@
       "routine": "pre-market",
       "headline": "Pre-market: quiet, healthy start — no buys today (nothing cleared our bar). Watching an inflation report (PPI) at the open.",
       "body": "Ran the full 4-analyst research team pre-dawn; placed no trades (market closed). Closest idea, Amgen, is up 13.5% above its average price = too stretched to chase; everything else came back unverified. We're at 3 stocks + the S&P 500 floor, ~36% cash. Today's swing factor is the July PPI wholesale-inflation print at 7:30 CT — I'll read it before deciding anything. Deere's Aug 20 earnings is the key watch; its stop is our tightest."
-    },
-    {
-      "ts": "2026-08-12 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $102,075 · day +0.35% · SPY +0.25% · alpha +0.10% — we beat the market today.",
-      "body": "Quiet, healthy close, no afternoon trades. Up $352.92 (+0.35%) vs SPY +0.25%. Week-to-date we're +0.36% while SPY is -0.10%, so +0.46 pts ahead. JPM +10.76% (fresh high), DE +5.08% (earnings Aug 20 = key watch), LLY closed its first day green. $36,642 cash, +2.08% since our $100K start."
     }
   ]
 }
