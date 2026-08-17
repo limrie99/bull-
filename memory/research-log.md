@@ -1,3 +1,39 @@
+## 2026-08-17 15:05 CT — MARKET CLOSE (Mon · NEW WEEK day 1) · NO TRADES · book intact, all 3 stops resting · quiet down-day −0.31% but BEAT SPY (−0.47%) → alpha +0.16 pt · DAILY "HOW WE'RE DOING" TELEGRAM PUSH (mandatory)
+
+**Market state:** /v2/clock is_open:false (confirmed closed), timestamp 16:01 ET, next_open Tue 8/18 09:30 ET. Proper end-of-day close routine.
+
+**Account (closing, live):** equity **$101,060.19**, cash **$36,641.95** (36.26%), long_market_value **$64,418.24** (63.74%), buying_power $326,938.87, status ACTIVE, trading_blocked false. `last_equity` (Fri 8/14 close) $101,378.01.
+
+**Closing marks (live 16:00 ET):**
+- JPM 34 @ 329.695588 → **360.96**, **+$1,062.99 / +9.48%** (day −0.57% from 363.00 open). Trailing floor 329.85 / hwm 366.5 (below hwm → no ratchet), cushion ~8.62%. Size 12.14%.
+- DE 22 @ 589.82 → **599.92**, **+$222.20 / +1.71%** (day −0.94% from 605.595). Trailing floor 579.591 / hwm 643.99, cushion ~3.39% (tightest trailing). **Q3 Thu 8/20 BMO 9:00 CT.** Size 13.06%.
+- LLY 12 @ 1209.84 → **1185.16**, **−$296.16 / −2.04%** (recovered from open 1169.33/−3.35% but gave back the midday +1.15% pop). −7% hard stop 1125.15 GTC, cushion ~5.06%. Size 14.07%.
+- SPY 32 @ 772.921250 → **772.70**, **−$7.08 / −0.03%** (tracked the index down −0.47% on the day). No stop (index-floor carve-out). Size 24.47%.
+- Net open unrealized **+$981.95**.
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 3, SPY zero):** LLY −7% hard `f50e3c39` @ 1125.15 GTC; JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5; DE 10% trailing `dcdd84e5` floor 579.591 / hwm 643.99. No stray/partial orders.
+
+**Today's orders:** closed-orders since 2026-08-17T00:00Z = **EMPTY**. Zero fills, zero placements, zero cancels. All four Monday routines (pre-market, open, midday, close) were no-trade.
+
+### Day summary (Mon 2026-08-17)
+- **Closing equity: $101,060.19.** Total since $100K start: **+1.06%.**
+- **Day P/L: −$317.82 / −0.313%** (vs Fri 8/14 close $101,378.01).
+- **SPY day: −0.474%** (Fri close 776.30 → today 772.62, IEX daily bars; latest trade 772.64).
+- **Alpha today: +0.161 pt** — down day, but we fell LESS than the market. The SPY floor tracked the index; JPM/DE/LLY each shed a little.
+- **Week-to-date (week of Mon 8/17, day 1 = base Fri 8/14 close):** book −0.313% vs SPY −0.474% → **WTD alpha +0.161 pt.**
+- **Trades placed today:** none.
+- **What worked (1–3):** (1) The index floor is doing its job — on a broad −0.47% down-tape we lost less, so we *beat* SPY today; that's alpha earned on defense, not offense. (2) JPM held its ~+9.5% cushion (still ~8.6% above its trailing floor). (3) No stop stress — every position closed comfortably above its stop.
+- **What didn't (1–3):** (1) LLY round-tripped intraday — it was +1.15% at midday and closed −2.04%, giving the pop back; still noise, no dated news, but it's the drag name. (2) DE softened into its 8/20 print (day −0.94%), tightening the trailing cushion to ~3.39% (tightest in book). (3) The whole book drifted down with the tape — a quiet risk-off Monday, nothing thesis-level.
+- **Open questions for tomorrow (Tue 8/18):** (1) **DE Q3 Thu 8/20 BMO** — finalize the hold-through-print pre-commit at Tue pre-market. Standing lean: **HOLD** (base case = FY26 $4.5–5.0B guide reaffirmed; the 579.591 trailing floor is the safety net; exiting on earnings-timing fear contradicts the fundamentals thesis). Do NOT add ahead. (2) **LLY** — does it stabilize or keep grinding? Cushion ~5.06% to the 1125.15 hard stop; convert to 10% trailing only at +5% (~$1,270.33). (3) Any fresh verified ≥70 candidate — bench top ANET ~69 / AMGN ~68 (both need a clean non-extended entry); two conviction slots open, weekly buys 0/3, ~36% cash leaves room for ~1 buy before trimming the floor.
+
+**Risk checks (closing):** (a) No position at/through its stop — LLY −2.04% well above 1125.15; all others green. (b) No +5% hard→trailing conversion pending (LLY negative; JPM/DE already trailing; SPY no stop by policy). (c) Daily loss cap: −0.313%, well inside −3% — not tripped (moot, no buys).
+
+**Telegram:** PUSHED — mandatory daily market-close "how we're doing" update (never skipped, trade or no trade).
+
+**Persistence:** overwrote portfolio.md (closing snapshot); prepended messages.md (teacher-voice close); overwrote dashboard/state.json (last_routine market-close — most important write of the day); prepended this research-log entry. No trade-log entry (no trades). Inbox nothing pending. Commit + push HEAD:main.
+
+**Next routine:** pre-market Tue 2026-08-18 — finalize DE-through-8/20 hold decision; re-scan the ≥70 gate; re-confirm all 3 stops resting.
+
 ## 2026-08-17 08:35 CT — MARKET OPEN (Mon) · NO TRADES · Nothing cleared ≥70 gate · No sell trigger · Zero overnight fills · LLY tightest cushion (~3.78%)
 
 **Market state:** /v2/clock is_open:true, timestamp 09:33 ET, next_close 16:00 ET, next_open Tue 8/18 09:30 ET. Market open, no binary macro print today (Empire State 8:30 ET + NAHB 10:00 ET are 2nd-tier; Jackson Hole is NEXT week). Inbox: nothing pending.

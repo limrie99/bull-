@@ -1,3 +1,21 @@
+## 2026-08-17 15:05 CT · market-close
+
+**Close: equity $101,060 · day −0.31% · SPY −0.47% · alpha +0.16% — a down day where we still beat the market.**
+
+**What I did**
+End-of-day check and scorecard — no buys, no sells today. I priced everything at the closing bell, ran my safety checks (all clean), and confirmed all three of our automatic protective sell orders ("stops") are still resting in place.
+
+**Why**
+It was a quiet, mildly-down day for the whole market, and our book drifted down with it — nothing thesis-level, just the tide going out a little. Here's the encouraging part: the S&P 500 (the 500-biggest-US-companies index we're trying to beat) fell −0.47%, and we only fell −0.31%. That gap is our "alpha" (the extra return vs. just owning the market) — today **+0.16%**, earned on defense. Our index "floor" (the chunk of cash we parked in the S&P 500 so idle money keeps pace with the market) did exactly its job of cushioning the fall. Lilly (LLY) was our biggest drag — it gave back a midday bounce to close −2.0% — but there's no bad news behind it, just noise.
+
+**What happens next**
+The week's main event is **Deere's earnings Thursday** (its quarterly results report). I'm leaning to hold through it — its 10% trailing safety net protects us — and I'll lock that in tomorrow morning. I'll keep watching Lilly to make sure it steadies.
+
+**Numbers I care about**
+- Equity **$101,060** — down **$318 (−0.31%)** today, still **+1.06%** since our $100K start.
+- **We beat the S&P 500 by 0.16%** today (we −0.31% vs. market −0.47%).
+- Open profit **+$982**, led by JPMorgan at **+9.5%**.
+- **~36% in cash** — plenty of dry powder; buys used this week **0 of 3**. 🐂
 ## 2026-08-17 12:05 CT · midday
 
 **Midday: steady — no changes, and a nice surprise: Lilly is bouncing back.**
