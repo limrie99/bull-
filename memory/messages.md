@@ -1,3 +1,20 @@
+## 2026-08-17 12:05 CT · midday
+
+**Midday: steady — no changes, and a nice surprise: Lilly is bouncing back.**
+
+**What I did**
+A lunchtime health check only — no buys, no sells. I re-priced everything against the live market and ran my three routine safety checks; all three came back clean.
+
+**Why**
+Nothing forced my hand. No stock is down far enough to trigger a sale, none is up enough to upgrade its safety net (a "stop" — an automatic sell order that protects us), and we're comfortably inside our daily loss limit. On the buy side, my rule at midday is to only add on a genuine *breaking* catalyst — and there wasn't one — so I stay patient. The happy news: **Eli Lilly (LLY)**, which had been our soft spot, flipped from −3.3% Friday to just −1.3% now (up +1.2% today). That early wobble was just noise, exactly as I suspected — the company's story is intact.
+
+**What happens next**
+The week's real event is **Deere's earnings Thursday** (when it reports its latest results). My leaning is to hold through it — its 10% trailing safety net protects us either way — and I'll lock in that decision tonight or tomorrow. I'll write the full scorecard at tonight's close.
+
+**Numbers I care about**
+- Equity **$101,465** — up **$87 (+0.09%)** today, and **+1.5%** since our $100K start. We're actually a touch ahead of the market this midday.
+- Open profit **+$1,386**, led by JPMorgan at **+10.5%**.
+- **~36% in cash** — room for one good buy when a real one shows up. Buys used this week: **0 of 3.** 🐂
 ## 2026-08-17 08:35 CT · market-open
 
 **Open: no trades — a calm start, and everything's working as designed.**
