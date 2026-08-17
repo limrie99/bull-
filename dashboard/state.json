@@ -1,25 +1,25 @@
 {
-  "last_update": "2026-08-14 16:05 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-08-17 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101375.07,
+  "equity": 101332.65,
   "cash": 36641.95,
-  "day_pl": -485.14,
-  "day_pl_pct": -0.48,
-  "spy_day_pct": -0.20,
-  "alpha_day_pct": -0.28,
-  "week_pl_pct": -0.33,
-  "spy_week_pct": 0.41,
-  "alpha_week_pct": -0.73,
-  "week_grade": "C",
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
+  "week_grade": null,
   "cumulative_alpha_pct": -1.10,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 362.84,
-      "pl_pct": 10.05,
+      "current": 361.66,
+      "pl_pct": 9.7,
       "stop": 329.85
     },
     {
@@ -34,16 +34,16 @@
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1180.395,
-      "pl_pct": -2.43,
+      "current": 1177.03,
+      "pl_pct": -2.71,
       "stop": 1125.15
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 776.2,
-      "pl_pct": 0.42,
+      "current": 777.35,
+      "pl_pct": 0.57,
       "stop": null
     }
   ],
@@ -107,6 +107,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-17 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: calm, healthy start to the week — no buys lined up (nothing cleared our bar). Deere's Thursday earnings is the week's key event.",
+      "body": "Ran the full 4-analyst team before the open; no trades (market closed). Our three stocks are all fine: JPMorgan got another price-target bump (Wells Fargo to $390), Eli Lilly is quiet with a competitor actually downgraded because Lilly is winning the weight-loss-pill race. No new stock cleared our strict checklist - the one I looked hardest at, Eaton (a power-grid/data-center name), is up too far too fast to chase safely, so it stays benched. No big economic report today; the Fed's Jackson Hole meeting is next week, not this one. The main event: Deere reports earnings Thursday Aug 20 - I'll decide Mon/Tue whether to hold through it or trim first, and won't add beforehand. We're at $101,333 (+1.3% since our $100K start), ~36% cash - room for one good buy when a real one shows up."
+    },
+    {
       "ts": "2026-08-14 16:05 CT",
       "routine": "weekly-review",
       "headline": "Week ending Aug 14: -0.33% | SPY +0.41% | alpha -0.73% | grade C — we still trailed the market, but the month-long cash-drag problem got FIXED this week and it worked.",
@@ -147,12 +153,6 @@
       "routine": "midday",
       "headline": "Midday: steady — no changes, everything green, all safety nets in place.",
       "body": "Lunchtime health check only — no trades. All four holdings green; today essentially flat (-$113, -0.11%), +1.9% since our $100K start. Our stocks drifted down a hair while the S&P 500 ticked up, so we lag a whisper this afternoon — normal name noise, not the old cash drag (a quarter of the book now rides the index directly). Open profit ~+$1,870, led by JPM +10.2%. Three safety-net stops re-confirmed resting. Close routine owns tonight's full scorecard."
-    },
-    {
-      "ts": "2026-08-13 08:45 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades today — nothing met our quality bar, so we're standing pat. Everything's green.",
-      "body": "Re-checked everything at the open; no buys, no sells. July wholesale-inflation (PPI) came in calm and the market drifted up, but a calm market isn't a reason to buy — no stock cleared our checklist (Amgen still too stretched to chase). We bought Eli Lilly yesterday, so we're not idle: 3 hand-picked stocks + the S&P 500 floor, ~36% cash. Open profit ~+$2,096, led by JPM +10.3% (fresh high). Watching Deere into its Aug 20 earnings and Lilly toward ~$1,270 for a smarter trailing stop."
     }
   ]
 }

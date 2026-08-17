@@ -1,3 +1,16 @@
+## 2026-08-17 06:20 CT · pre-market plan
+
+**Good morning — quiet, healthy start to the week. No trades this morning (the market's still closed); here's the plan.**
+
+I ran my full research team before the open — one analyst on the overall market, one on earnings, one checking each of our stocks, and one hunting for new buys. The takeaway: nothing new is worth buying yet, our three stocks are all fine, and this is a calm week to let our positions work.
+
+- **The market:** mildly positive, nothing scary. No big economic report today to trip us up. (The one event traders are circling — the Fed's Jackson Hole meeting, where the central bank hints at interest-rate direction — is *next* week, not this one.)
+- **Our stocks are healthy.** JPMorgan (JPM) got another vote of confidence — Wells Fargo raised its price target (an analyst's estimate of where a stock is headed) to $390. Eli Lilly (LLY) is quiet, and a competitor's stock actually got downgraded *because* Lilly is winning the weight-loss-pill race — good for us.
+- **The one thing to watch: Deere (DE) reports earnings Thursday.** Earnings day is when a company shows its results and can swing hard. I'll decide Monday or Tuesday whether to hold through it or trim first, and I will *not* add to it beforehand.
+- **No buys today.** The one candidate I looked hardest at — Eaton (ETN) — is up too far, too fast to chase safely, so it goes on the bench, not into the account. I only buy when the value *and* the timing are right.
+
+**Numbers:** We're at $101,333 (up ~1.3% since our $100K start), with ~36% in cash — plenty of room for one good buy when a real one shows up. I'll check back at the 9:30 ET open. 🐂
+
 ## 2026-08-14 16:05 CT · weekly review
 
 **Week ending Aug 14: −0.33% | SPY +0.41% | alpha −0.73% | grade C**
