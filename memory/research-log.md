@@ -1,3 +1,34 @@
+## 2026-08-17 08:35 CT — MARKET OPEN (Mon) · NO TRADES · Nothing cleared ≥70 gate · No sell trigger · Zero overnight fills · LLY tightest cushion (~3.78%)
+
+**Market state:** /v2/clock is_open:true, timestamp 09:33 ET, next_close 16:00 ET, next_open Tue 8/18 09:30 ET. Market open, no binary macro print today (Empire State 8:30 ET + NAHB 10:00 ET are 2nd-tier; Jackson Hole is NEXT week). Inbox: nothing pending.
+
+**Account (live):** equity **$101,170.68**, cash **$36,641.95** (36.22%), long_market_value **$64,528.73** (63.78%), buying_power $327,248.24, `last_equity` (Fri 8/14 close) $101,378.01 → intraday **−$207.33 / −0.20%**. status ACTIVE, trading_blocked false. daytrade_count 0.
+
+**Positions (live marks 09:33 ET):**
+- JPM 34 @ 329.695588 → 363.00, **+$1,132.35 / +10.10%**. Trailing floor 329.85 / hwm 366.5, cushion ~9.13%. Size 12.20%.
+- DE 22 @ 589.82 → 605.595, **+$347.05 / +2.68%**. Trailing floor 579.591 / hwm 643.99, cushion ~4.29% (tightest trailing). Q3 Thu 8/20 9:00 CT — inside window; do NOT add ahead. Size 13.17%.
+- LLY 12 @ 1209.84 → 1169.33, **−$486.12 / −3.35%**. −7% hard stop 1125.15 GTC, cushion ~3.78% (tightest in book). Day-4 drift, no dated company/FDA news; thesis intact, competitive read favorable. Size 13.87%.
+- SPY 32 @ 772.921250 → 775.97, **+$97.56 / +0.39%**. No stop (index-floor carve-out). Size 24.54%.
+- Net open unrealized **+$1,090.84**.
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 3, SPY zero):** LLY −7% hard `f50e3c39` @ 1125.15 GTC; JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5; DE 10% trailing `dcdd84e5` floor 579.591 / hwm 643.99. No stray/partial orders.
+
+**Overnight/today orders:** closed-orders since 2026-08-15T00:00Z = **EMPTY**. Zero fills, zero placements, zero cancels. No stop fired overnight.
+
+**Decision logic:**
+- **BUY? NO.** Today's pre-market 4-agent scan (and re-check at the live open) returned nothing clearing 2+ VERIFIED signals AND Conviction ≥70. Bench top: ETN ~66 (extended +9.24% vs 50dMA = chase, wait ~$420–430 base), ANET ~69 (50dMA unverified), AMGN ~68 (extended), ABT ~66 (borderline extended), PWR ~62 (one signal), ABBV ~58 (clean entry, one signal). No fresh verified catalyst hit at the open to change this. Cold-start/anti-paralysis rule SATISFIED: book is NOT idle (3 conviction + SPY floor deployed, ~36% cash by design), not defaulting into cash → no forced trade. Weekly conviction buys 0/3 (new week); two slots open; ~36% cash leaves room for ~1 conviction buy before the floor would need trimming.
+- **SELL? NO.** No position at/through a stop; no VERIFIED thesis break. LLY −3.35% from entry is well above its −7% hard stop @ 1125.15; DE not adding ahead of 8/20 print.
+- **CONVERT hard→trailing? NO.** LLY negative (−3.35%), not +5%. JPM/DE already trailing; SPY no stop by policy. Standing task: convert LLY at ~$1,270.33.
+- **Daily loss cap:** −0.20% intraday, not tripped. Moot — no buys.
+
+**Watch into midday:** LLY tightest cushion (~3.78%) and the intraday drag — monitor it holds well above the 1125.15 stop. DE into 8/20 print (pre-commit hold-vs-tighten decision due Mon/Tue). JPM/SPY healthy.
+
+**Telegram:** NOT pushed — a no-trade market-open is not on the push list (trade / stop-fire / daily-close / weekly / urgent). Nothing urgent (intraday drop −0.20%, no API failure, no user decision needed).
+
+**Persistence:** overwrote portfolio.md (live open snapshot); prepended messages.md (teacher-voice open); overwrote dashboard/state.json (last_routine market-open); prepended this research-log entry. No trade-log entry (no trades). Inbox nothing pending. Commit + push HEAD:main.
+
+**Next routine:** midday Mon 2026-08-17 — re-check LLY holds above its stop; set up the DE-through-8/20 decision.
+
 ## 2026-08-17 06:20 CT — PRE-MARKET (Mon · NEW WEEK, weekly conviction buys reset 0/3) · NO TRADES (market CLOSED, opens 09:30 ET) · Full 4-agent scan · NOTHING clears ≥70 gate · Book all sev-1/2 intact · No binary macro print today (JH is NEXT week)
 
 **Setup:** Market CONFIRMED CLOSED via /v2/clock (is_open:false, 07:15 ET, next_open 8/17 09:30 ET, next_close 16:00 ET). Inbox: **nothing pending.** 4 required keys present (cloud; Telegram set). Pre-market = research only, **no trades placed.** Account (pre-open snapshot): equity **$101,332.65**, cash **$36,641.95** (~36.16%), long_market_value **$64,690.70** (~63.84%), buying_power $327,701.76, `last_equity` (Fri 8/14 close) $101,378.01. Net open unrealized **+$1,253.45**. Sizes: JPM 12.13%, DE 13.22%, LLY 13.94%, SPY 24.55%. Three stops re-confirmed RESTING (open-orders nested=true): LLY hard `f50e3c39` @1125.15 GTC; JPM trailing `8a937ff6` floor 329.85 / hwm 366.5; DE trailing `dcdd84e5` floor 579.591 / hwm 643.99; SPY zero orders (index-floor carve-out). daytrade_count 0.

@@ -1,8 +1,8 @@
 {
-  "last_update": "2026-08-17 06:20 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-08-17 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 101332.65,
+  "equity": 101170.68,
   "cash": 36641.95,
   "day_pl": null,
   "day_pl_pct": null,
@@ -18,32 +18,32 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 361.66,
-      "pl_pct": 9.7,
+      "current": 363.0,
+      "pl_pct": 10.1,
       "stop": 329.85
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 608.85,
-      "pl_pct": 3.23,
+      "current": 605.595,
+      "pl_pct": 2.68,
       "stop": 579.591
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1177.03,
-      "pl_pct": -2.71,
+      "current": 1169.33,
+      "pl_pct": -3.35,
       "stop": 1125.15
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 777.35,
-      "pl_pct": 0.57,
+      "current": 775.97,
+      "pl_pct": 0.39,
       "stop": null
     }
   ],
@@ -107,6 +107,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-17 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — a calm start, everything working as designed. Lilly drifted a bit; still well above its safety net.",
+      "body": "Re-checked against live prices at the open; no buys, no sells, on purpose. Nothing cleared our buy bar (2+ reasons + high conviction + a sensible entry) - the closest name, Eaton, is up too far too fast to chase. On the sell side all three stocks sit comfortably above their automatic safety-sell stops, so none triggered. The one to watch is Eli Lilly, down to -3.3% since we bought it last week - ordinary early wobble, no bad news, still a healthy distance above its $1,125 stop. Equity $101,171 (+1.2% since our $100K start); today down a hair (-$207 / -0.2%), almost all Lilly. ~36% cash - room for one good buy when a real one shows up. Buys used this week: 0 of 3. Deere's Thursday earnings is the week's key event; I'll decide Mon/Tue whether to hold through it."
+    },
+    {
       "ts": "2026-08-17 06:20 CT",
       "routine": "pre-market",
       "headline": "Pre-market: calm, healthy start to the week — no buys lined up (nothing cleared our bar). Deere's Thursday earnings is the week's key event.",
@@ -147,12 +153,6 @@
       "routine": "market-close",
       "headline": "Close: equity $101,858 · day -0.19% · SPY +0.69% · alpha -0.88% — a small down day, and we trailed the market.",
       "body": "No trades at the close. We ended at $101,858, down $198 (-0.19%) while the S&P 500 rose +0.69%, so the market beat us by ~0.88 pts today. All three of our stocks slipped a touch on an up day (JPM -0.6%, DE -1.2%, LLY -0.9%) — ordinary name noise, not a broken thesis. Our S&P 500 floor was the one bright spot (+0.68%), doing exactly its cushioning job. Week-to-date +0.15% vs SPY +0.61%. +1.86% since our $100K start. Watching Deere's Aug 20 earnings closely."
-    },
-    {
-      "ts": "2026-08-13 12:15 CT",
-      "routine": "midday",
-      "headline": "Midday: steady — no changes, everything green, all safety nets in place.",
-      "body": "Lunchtime health check only — no trades. All four holdings green; today essentially flat (-$113, -0.11%), +1.9% since our $100K start. Our stocks drifted down a hair while the S&P 500 ticked up, so we lag a whisper this afternoon — normal name noise, not the old cash drag (a quarter of the book now rides the index directly). Open profit ~+$1,870, led by JPM +10.2%. Three safety-net stops re-confirmed resting. Close routine owns tonight's full scorecard."
     }
   ]
 }

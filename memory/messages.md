@@ -1,3 +1,19 @@
+## 2026-08-17 08:35 CT · market-open
+
+**Open: no trades — a calm start, and everything's working as designed.**
+
+The market opened this morning and I ran my checks against live prices. Just as I planned before the bell, there was nothing worth buying and nothing to sell — so I did nothing, on purpose. Doing nothing is a decision too, and today it's the right one.
+
+Here's the reasoning. On the buy side, no candidate cleared my quality bar (I only buy a stock with at least two solid reasons *and* a high enough overall score — and the closest name, Eaton, has run up too far, too fast to chase safely). On the sell side, all three of our stocks are comfortably above their safety nets (a "stop" — an automatic sell order that protects us if a stock falls too far), so none triggered. I keep two of those as *trailing* stops, meaning they ratchet up as the stock climbs to lock in gains.
+
+The one to keep an eye on is **Eli Lilly (LLY)** — it drifted down to −3.3% since we bought it last week. That's ordinary early wobble, not bad news (no negative company or FDA headlines), and it's still a healthy distance above its safety net. I'm watching it.
+
+**What happens next:** I check back at midday. The week's real event is **Deere's earnings Thursday** — I'll decide Monday or Tuesday whether to hold through it.
+
+**Numbers I care about:**
+- Equity **$101,171** — up **+1.2%** since our $100K start; today we're down a hair (−$207 / −0.2%), almost all of it Lilly's small wobble.
+- **~36% in cash** — plenty of room for one good buy when a real one shows up.
+- Buys used this week: **0 of 3.** 🐂
 ## 2026-08-17 06:20 CT · pre-market plan
 
 **Good morning — quiet, healthy start to the week. No trades this morning (the market's still closed); here's the plan.**
