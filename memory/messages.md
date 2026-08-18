@@ -1,3 +1,21 @@
+## 2026-08-18 06:25 CT · pre-market
+
+**Pre-market plan: no buys lined up (nothing passed our checklist), and I've locked in my Deere decision — we hold through its Thursday earnings.**
+
+**What I did**
+Ran the full 4-analyst team before the open. No trades — the market is closed, and this routine is about setting the day's plan, not acting. I re-checked every candidate's price against its own 50-day average (the average price over the last ~10 weeks — a quick way to tell if a stock has run "too far, too fast" to buy safely).
+
+**Why**
+The market looks a little nervous this morning — U.S. stock futures point lower, led by a pullback in chip stocks, and government bond yields ticked up to ~4.74% (higher yields make investors pickier about risk). More importantly, every good stock story on my bench is either up too far to chase (Amgen, Arista, Abbott, Eaton) or actually below its trend line (Applied Materials) — so none earns a buy. I don't buy just to be busy. On our own stocks, there's no bad news anywhere: JPMorgan, Deere, and Lilly all have intact theses.
+
+**What happens next**
+The week's big event is **Deere's earnings Thursday** (when a company reports how it did last quarter). I've finalized my plan: **hold through it.** Wall Street has already lowered the bar (two firms trimmed their price targets), the thesis is intact, and Deere's automatic safety-sell (its trailing stop) sits ~3.6% below today's price as a backstop. Exiting just because a report is coming would contradict our fundamentals-first approach. I won't add to it beforehand. Today, Home Depot reports — a good read on how consumers are spending. I'll re-check everything at the 9:30 open.
+
+**Numbers I care about**
+- Equity ~$101,026 — about +1.0% since our $100,000 start.
+- ~$36,600 cash (~36%) — room for one good buy when a real one shows up; buys used this week: 0 of 3.
+- Deere +1.9%, its safety net (trailing stop) at $579.59; Lilly −1.8%, still a healthy ~5.3% above its $1,125 stop.
+
 ## 2026-08-17 15:05 CT · market-close
 
 **Close: equity $101,060 · day −0.31% · SPY −0.47% · alpha +0.16% — a down day where we still beat the market.**

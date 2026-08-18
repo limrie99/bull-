@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-08-17 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-08-18 06:25 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 101060.19,
+  "equity": 101025.67,
   "cash": 36641.95,
-  "day_pl": -317.82,
-  "day_pl_pct": -0.313,
-  "spy_day_pct": -0.474,
-  "alpha_day_pct": 0.161,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
   "week_pl_pct": -0.313,
   "spy_week_pct": -0.474,
   "alpha_week_pct": 0.161,
@@ -18,32 +18,32 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 360.96,
-      "pl_pct": 9.48,
+      "current": 361.26,
+      "pl_pct": 9.57,
       "stop": 329.85
     },
     {
       "symbol": "DE",
       "qty": 22,
       "avg_cost": 589.82,
-      "current": 599.92,
-      "pl_pct": 1.71,
+      "current": 601.0,
+      "pl_pct": 1.9,
       "stop": 579.591
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1185.16,
-      "pl_pct": -2.04,
+      "current": 1187.8,
+      "pl_pct": -1.82,
       "stop": 1125.15
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 772.70,
-      "pl_pct": -0.03,
+      "current": 769.54,
+      "pl_pct": -0.44,
       "stop": null
     }
   ],
@@ -107,6 +107,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-18 06:25 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: no buys lined up (nothing passed our checklist), and I've locked in our Deere plan — hold through Thursday's earnings.",
+      "body": "Ran the full 4-analyst team; no trades (market closed). The tape's a little nervous - futures lower, led by chip stocks, and bond yields ticked up to ~4.74%. Every good story on my bench is either up too far to chase (Amgen, Arista, Abbott, Eaton) or below its trend line (Applied Materials), so none earns a buy - I don't buy just to be busy. No bad news on any of our three stocks. The week's big event is Deere's earnings Thursday: I've finalized the plan to HOLD through it - Wall Street already lowered the bar, the thesis is intact, and its trailing stop (~3.6% below) is the backstop. I won't add beforehand. Home Depot reports today - a good read on consumer spending. Equity ~$101,026 (+1.0% since our $100K start), ~36% cash, buys used this week 0 of 3. I'll re-check at the 9:30 open."
+    },
+    {
       "ts": "2026-08-17 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $101,060 · day -0.31% · SPY -0.47% · alpha +0.16% — a down day where we still beat the market.",
@@ -147,12 +153,6 @@
       "routine": "midday",
       "headline": "Midday: steady — no changes, all safety nets in place, and Lilly is already firming up.",
       "body": "Lunchtime health check only — no buys, no sells. All three risk checks came back clean: nothing down enough to force a sale, nothing up enough to upgrade its safety net, and we're well inside our daily loss limit. No breaking catalyst, so no midday buy. Nice surprise: Eli Lilly firmed from -2.9% this morning to -2.5% — early wobble was just noise. LLY is still our tightest position (~4.6% above its $1,125 auto-sell) and my main watch. Down ~$488 (-0.48%) today — about half Lilly, half a mildly soft market (S&P 500 also down ~0.3%). Equity ~$101,373, ~$36,642 cash (~36%). Open profit still +$1,293, led by JPM +9.97%. Close routine owns tonight's full scorecard."
-    },
-    {
-      "ts": "2026-08-14 08:50 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — nothing met our quality bar, so we held steady. Lilly is having a soft morning.",
-      "body": "Re-checked at the open; no buys, no sells. Nothing cleared our checklist (2+ reasons + high conviction + sensible entry), and I don't buy just to be busy. The one flag: Eli Lilly is down ~2.9% this morning on no company news — normal wobble for a 3-day-old position, and its thesis is intact (3 firms raised price targets yesterday). LLY is now our tightest position, ~4% above its $1,125 automatic safety-sell; I'll watch it at midday. Down ~$376 (-0.37%) today, almost all from Lilly; rest of the book steady, S&P 500 roughly flat. ~$36,642 cash (~36%). Deere's Aug 20 earnings is the key horizon event. Open profit still +$1,406, led by JPM +10.5%."
     }
   ]
 }

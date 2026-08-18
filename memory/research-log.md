@@ -1,3 +1,45 @@
+## 2026-08-18 06:25 CT — PRE-MARKET (Tue) · NO TRADES (market closed) · Nothing clears ≥70 gate (~52nd effectively-empty conviction scan) · All 3 stops resting · DE hold-through-print pre-commit FINALIZED = HOLD
+
+**Market state:** /v2/clock is_open:false, timestamp 07:12 ET, next_open Tue 8/18 09:30 ET. Pre-open indicative marks. Inbox: nothing pending.
+
+**Account (pre-open indicative):** equity $101,025.67, cash $36,641.95 (~36.3%), long_market_value $64,383.72, buying_power $326,842.22, status ACTIVE, trading_blocked false. last_equity (Mon 8/17 close) $101,036.19. daytrade_count 0.
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 3, SPY zero):** LLY −7% hard `f50e3c39` @ 1125.15 GTC; JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5; DE 10% trailing `dcdd84e5` floor 579.591 / hwm 643.99. No stray/partial orders. Zero overnight fills.
+
+### Market context (4-agent synthesis)
+- **Macro: RISK-OFF LEANING.** Futures lower on a semis/memory-led pullback (ES ~−0.4 to −0.6%, NQ ~−0.7 to −1.3% [SEMI]); Nikkei −2.54% [VERIFIED]; Europe soft (Stoxx −0.58% [SEMI]). **10Y ~4.74% near recent highs (+~1bp) [VERIFIED], 2Y ~4.20% [SEMI] — yields are the pressure point.** DXY ~99.6 flat, gold ~$4,400 −0.6%, WTI ~$85 +0.8% (rising oil feeds the rates/inflation narrative) [SEMI].
+- **No binary print today.** Only 2nd-tier data: July housing starts/permits 8:30 ET, industrial production 9:15 ET, pending home sales 10:00 ET [VERIFIED]; Fed's Bowman + Cook speak midday [SEMI]. **Jackson Hole is NEXT week (Aug 27–29).**
+- **Fed path (Sept 16–17):** cut ~0%, hold ~68%, one 25bp HIKE ~32% [SEMI] — hawkish tilt, not dovish.
+- **Tariff truce IN FORCE to Nov 10 2026 [VERIFIED]** — no fresh shock overnight.
+- **Earnings today:** HD BMO (call 9:00 ET), cons ~$4.73 EPS / ~$47.25–47.5B rev [VERIFIED] — the consumer read (ignore an unverified $4.92 leak until the official tape). TGT/LOW Wed 8/19; WMT + DE Thu 8/20. No large-cap beat-and-raise buy candidate qualified this week [VERIFIED].
+
+### Portfolio watch (all theses INTACT — position analyst)
+- **JPM** +9.5%, ~$361. No material 24–48h news [VERIFIED-as-absence]; consensus Buy avg PT ~$372–373; WF $390 OW stands. Cushion ~8.6% to trailing floor 329.85. Hold. Next earnings ~Oct.
+- **DE** +1.9%, ~$601 (Alpaca-verified 50dMA $602.48 → basically ON its average, soft into print). **Q3 CONFIRMED Thu 8/20 BMO 9:00 CT, cons ~$4.72 EPS / ~$10.8B rev (rev DOWN YoY = low bar).** NO pre-announcement/warning 48h [VERIFIED-as-absence]. Analysts trimmed into the print (JPMorgan $590→$570 Neutral 8/14; Evercore $641→$632 In-Line 8/11) = trims not downgrades; aggregate ~$642 Moderate Buy. Trailing floor 579.591, cushion ~3.6%. **HOLD-THROUGH-PRINT PRE-COMMIT FINALIZED = HOLD (decision below).**
+- **LLY** −1.8%, ~$1,188 (50dMA $1,170.75 → +1.2%, clean). No LLY-specific news / no Novo shock 48h [VERIFIED-as-absence]; drift = post-earnings consolidation, not deterioration. −7% hard stop 1125.15, cushion ~5.3%. Standing task: convert to 10% trailing at +5% (~$1,270.33). Hold.
+- **SPY floor** ~24% of book, no stop by policy. Tracks the index.
+
+### Buy candidates (signals + conviction) — Alpaca-verified 50dMA entry checks (primary = truth)
+- **AMGN ~$419 ~68 EXTENDED — NO.** 2–3 signals (prior Q2 beat-and-raise + MariTide GLP-1 + analyst PT-raise cluster) but **Alpaca 50dMA $371.67 → +12.8% above = chase.** Scout's "+1.3% clean" REFUTED by primary bars. Wait for a pullback.
+- **AMAT ~$535 ~66 BELOW-TREND — NO.** Freshest VERIFIED beat-and-raise (Q2 EPS $3.50 vs $3.40, rev $9.12B vs $8.99B, raised fwd-qtr; 8/13) + AI-semicap tailwind = 2 signals, BUT **Alpaca 50dMA $559.46 → −4.3% BELOW = not an uptrend (fails #6).** Scout's "on the 50dMA reclaiming" REFUTED. High-beta semi (≤10% cap) into a semis-led risk-off tape = double no. Watch for a 50dMA reclaim.
+- **ABBV ~$250 ~63 CLEAN entry (+2.2% vs 50dMA $244.92) but ~1 real signal — WATCHLIST.** Dense analyst PT-raise cluster (Evercore $260, MS $296, etc.) but maintains not upgrades; immunology/GLP-1 secular soft. Cleanest entry on the board; needs a 2nd verified catalyst.
+- **PWR ~$722 ~63 EXTENDED (+7.3% vs 50dMA $672.86) — WATCHLIST.** Now 2 signals (grid/power secular + analyst cluster incl UBS $900 8/17) but extended; next earnings Oct 29.
+- **ABT ~$110 ~66 EXTENDED (+12.6% vs 50dMA $98.01) — NO.** Analyst cluster (Wolfe/Citi/BofA) but extended; scout's "likely clean" used a stale May SMA. Next earnings Oct 21.
+- **ANET ~$202 ~68-on-merit EXTENDED (+15.6% vs 50dMA $174.61) — UNBUYABLE up here.** AI-networking + big PT cluster + Zacks Strong Buy = great story, textbook chase. Buy ONLY on a pullback toward the 50dMA.
+- **ETN ~$455 ~63 EXTENDED/MIXED — NO.** Grid/AI-electrification + a verified insider BUY (director, 8/12–13) but Wall Street Zen DOWNGRADE to Hold 8/16 + no clean base (50dMA $414.02, +10%); high-beta ≤10% cap, same name stopped 7/2. Wait for a base.
+
+**NONE clears 2+ VERIFIED signals AND Conviction ≥70 AND a clean (non-extended) entry.** The board is entry-blocked, not thesis-blocked: the best stories (AMGN, ANET, AMAT) are extended or below-trend. Cold-start/anti-paralysis SATISFIED — book is deployed (3 conviction + SPY floor, ~36% cash by design), not defaulting into cash. Weekly conviction buys 0/3; two slots open; ~36% cash = room for ~1 buy before trimming the floor.
+
+### Sell candidates
+- **NONE.** No position at/through a stop (LLY −1.8% well above 1125.15; JPM/DE green). No VERIFIED thesis break. No +5% hard→trailing conversion pending (LLY negative; JPM/DE already trailing; SPY no stop by policy).
+
+### DE hold-through-print DECISION (finalized this pre-market, per standing task)
+**HOLD through the Thu 8/20 Q3 print. Do NOT trim, do NOT add.** Rationale: (1) fundamentals-driven mandate — thesis intact, no pre-announcement/warning, so we do not exit on earnings-date fear; (2) expectations are de-risked (JPM/Evercore already trimmed PTs, revenue down YoY = a low bar → a reaffirmed FY26 $4.5–5.0B guide is the base case and the likely upside trigger); (3) the 10% trailing floor at 579.591 (~3.6% below) is the mechanical safety net for a normal move; (4) it is a single ~13%-of-book position at +1.9%. **Acknowledged tail risk:** a severe guide miss could gap DOWN through the stop overnight (a stop becomes a market order at the open and does not protect against a gap) — that is the accepted cost of holding a fundamentally-intact name through its own catalyst, and it is one contained ~13% position, not book-threatening. Do NOT add ahead (strategy: no new/added position within 3 trading days of earnings). Revisit at Wed pre-market/close if any warning surfaces.
+
+**Persistence:** prepended this research-log entry + watchlist re-score; prepended messages.md (teacher pre-market plan); refreshed portfolio.md (pre-open snapshot + DE decision + stops); overwrote dashboard/state.json (last_routine pre-market). No trade-log entry (no trades). Inbox nothing pending. NO Telegram (pre-market no-trade = skip per CLAUDE.md). Commit + push HEAD:main.
+
+**Next routine:** market-open Tue 8/18 — re-check the gate at live prices AFTER the 9:30 open; HD tape reaction is the consumer read; confirm all 3 stops resting; DE = HOLD (do not add).
+
 ## 2026-08-17 15:05 CT — MARKET CLOSE (Mon · NEW WEEK day 1) · NO TRADES · book intact, all 3 stops resting · quiet down-day −0.31% but BEAT SPY (−0.47%) → alpha +0.16 pt · DAILY "HOW WE'RE DOING" TELEGRAM PUSH (mandatory)
 
 **Market state:** /v2/clock is_open:false (confirmed closed), timestamp 16:01 ET, next_open Tue 8/18 09:30 ET. Proper end-of-day close routine.
