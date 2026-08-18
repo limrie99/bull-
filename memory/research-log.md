@@ -1,3 +1,49 @@
+## 2026-08-18 15:05 CT — MARKET CLOSE (Tue) · Day summary · NO TRADES all day · Book +0.064% vs SPY −0.680% → day alpha +0.74 pt · All 3 stops resting
+
+**Market state:** /v2/clock is_open:false, 16:01 ET, next_open Wed 8/19 09:30 ET. Closing marks. Inbox: nothing pending (handled: none). No trades today (closed-orders since 2026-08-18T00:00Z = 0; zero fills, zero placements, zero cancels).
+
+**Closing equity:** **$101,101.26** (cash $36,641.95 / 36.24%, long_market_value $64,459.31 / 63.76%, buying_power $327,053.87). `last_equity` (Mon 8/17 close) $101,036.19.
+
+**Day P/L:** **+$65.07 / +0.064%.** **SPY day −0.680%** (Mon 8/17 IEX close 772.62 → Tue 8/18 IEX close 767.365; latest trade 767.32). **Day alpha +0.74 pt.**
+
+**WTD (base Fri 8/14 close, portfolio $101,378.01 / SPY 776.30):** book −0.273% vs SPY −1.151% → **WTD alpha +0.88 pt.** Cumulative alpha since 5/29 base ≈ **−0.2 pt** (Fri 8/14 close was −1.10; this week's +0.88 WTD alpha is clawing it back).
+
+**Closing positions (marks 16:00 ET):**
+- JPM 34 @ 329.695588 → 360.9586, **+$1,062.94 / +9.48%.** Trailing floor 329.85 / hwm 366.5, cushion ~8.62%. Size 12.14%.
+- DE 22 @ 589.82 → 588.72, **−$24.20 / −0.19%.** Trailing floor 579.591 / hwm 643.99, cushion ~1.55% (tightest, tightened from ~3.4% at the open as DE drifted red into the print). **Q3 Thu 8/20 BMO — HOLD-THROUGH FINALIZED.** Size 12.81%.
+- LLY 12 @ 1209.84 → 1223.60, **+$165.12 / +1.14%.** −7% hard stop 1125.15 GTC, cushion ~8.05%. Fully recovered from the early-week wobble; no LLY-specific/Novo news. Size 14.52%.
+- SPY 32 @ 772.921250 → 767.24, **−$181.80 / −0.74%.** No stop (index-floor carve-out). Size 24.28%.
+- **Net open unrealized +$1,022.06.**
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 3, SPY zero):** LLY −7% hard `f50e3c39` @ 1125.15 GTC; JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5; DE 10% trailing `dcdd84e5` floor 579.591 / hwm 643.99. No ratchets today (JPM & DE both below their hwm). No stray/partial orders.
+
+**Risk checks:** (a) none at/through a stop (worst SPY −0.74%); (b) no +5% hard→trailing conversion pending (LLY +1.14% below +5%); (c) daily loss cap moot (day +0.064%, up). No sell trigger.
+
+**Trades placed today:** 0.
+
+**What worked (1–3):**
+- JPM anchored the book, closing +9.48% — carried the day again while the tape fell.
+- LLY firmed to +1.14% at the close, completing its recovery from the −3.3% Friday / −1.8% pre-open-Tue wobble — thesis intact, drift was pure noise.
+- The book finished green (+0.064%) on a −0.68% SPY day — beat the index by +0.74 pt today and +0.88 pt WTD. The SPY floor did its job (cushioned, tracked the index down at −0.74% instead of dragging as idle cash would).
+
+**What didn't (1–3):**
+- DE gave back its whole intraday gain (~+1.9% at the open → −0.19% at the close), the day's only negative rotation on our names, tightening its trailing cushion to ~1.55% right before Thursday's print.
+- SPY floor was the largest dollar drag (−$181.80 on the day's index dip) — expected and by design; it's a market-matching sleeve, not an alpha source.
+- Absolute return WTD is still slightly negative (−0.27%); we're winning on a relative (vs-SPY) basis, not yet on an absolute basis this week.
+
+**Open questions for tomorrow (Wed 8/19):**
+- **DE into the Thu print:** cushion is now the tightest in the book (~1.55%). Does a soft Wed tape risk tripping the 579.591 floor *before* the catalyst can play out? Decision stays HOLD unless a warning surfaces Wed; do NOT add. Accept the overnight-gap tail risk as the cost of holding a fundamentally-intact name through its own print (one contained ~13% position).
+- **TGT/LOW report Wed BMO** — a second consumer/retail read after HD; watch for any read-through to the broader consumer tape.
+- **Conviction gate still empty (~52nd scan).** Two slots open, ~36% cash — worth another fresh scan Wed pre-market for any name that has based/pulled back into a clean entry (AMGN/ANET/ABBV are the closest stories, all blocked on entry or a missing 2nd signal today).
+
+**Telegram:** PUSHED — mandatory daily market-close scorecard (never skipped per CLAUDE.md).
+
+**Persistence:** overwrote portfolio.md (closing snapshot); prepended this Day-summary research-log entry; prepended messages.md (teacher close scorecard); overwrote dashboard/state.json (last_routine market-close — the day's most important write). No trade-log entry (no trades). Inbox nothing pending → nothing to move to Handled. Commit + push HEAD:main.
+
+**Next routine:** pre-market Wed 8/19 — fresh 4-agent scan; confirm all 3 stops resting; DE = HOLD (do not add) into the 8/20 print; watch the DE cushion; TGT/LOW consumer read.
+
+---
+
 ## 2026-08-18 08:35 CT — MARKET OPEN (Tue) · NO TRADES · Nothing clears ≥70 gate at live open · No sell trigger · Zero overnight fills · Book +0.19% intraday, BEATING SPY (−0.52%)
 
 **Market state:** /v2/clock is_open:true, timestamp 09:32 ET, next_close 16:00 ET, next_open Wed 8/19 09:30 ET. Market open, no binary macro print today (housing starts/permits 8:30 ET + industrial production 9:15 ET are 2nd-tier; Jackson Hole is NEXT week). Inbox: nothing pending.

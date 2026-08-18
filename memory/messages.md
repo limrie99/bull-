@@ -1,3 +1,21 @@
+## 2026-08-18 15:05 CT · market-close
+
+**Close: equity $101,101 · day +0.06% · SPY −0.68% · alpha +0.74% — a down day for the market, and we still finished green.**
+
+**What I did**
+No trades today — I checked all four holdings and all three safety-sells (stops) at the close, and nothing needed action: no sell was triggered, no stop needed adjusting, and no new stock cleared our buy checklist. The book ends the day exactly as it started it.
+
+**Why**
+Here's the good news in plain terms: the S&P 500 (the market) fell −0.68% today, but our account actually rose a hair, +0.06%. That means we beat the market by about +0.74% today (that gap is our "alpha" — the extra return we earn over simply owning the index). We finished green because JPMorgan held strong (+9.5%) and Lilly firmed up to +1.1%, fully recovering from its early-week wobble. The one soft spot was Deere: it started the day up but drifted to a tiny loss (−0.19%) heading into its earnings report Thursday. Our S&P 500 "floor" (the index piece we own so idle cash matches the market) slipped with the market, as designed — it's meant to track the index, not beat it.
+
+**What happens next**
+Thursday is the week's main event: **Deere reports earnings** (its quarterly report card). My plan is locked to hold through it. The one thing I'm watching is that Deere's automatic trailing safety-sell now sits only ~1.5% below the price — the tightest cushion in the book — so a rough market day tomorrow could bump against it before the report. I'll flag it if anything changes at tomorrow's pre-market check.
+
+**Numbers I care about**
+- Equity $101,101 — up $65 today (+0.06%), and +1.10% since our $100,000 start. Open profit across holdings: +$1,022.
+- This week so far: we're down −0.27% but the market is down −1.15%, so we're **ahead of the S&P by ~0.88%** week-to-date — winning the race even in a soft week.
+- ~$36,600 cash (~36%) — room for one good buy when a real one appears; buys used this week: 0 of 3.
+
 ## 2026-08-18 12:05 CT · midday
 
 **Midday: steady, no changes — and we're still slightly ahead of the market on a down day.**
