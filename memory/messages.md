@@ -1,3 +1,21 @@
+## 2026-08-18 12:05 CT · midday
+
+**Midday: steady, no changes — and we're still slightly ahead of the market on a down day.**
+
+**What I did**
+I re-checked everything at live prices around noon: our four holdings, all three safety-sells (stops), and whether anything on my bench earned a buy. Nothing needed action — no sell was triggered, no stop needed adjusting, and no new stock cleared our buy checklist, so I made no trades. The book is exactly as we left it this morning.
+
+**Why**
+It's a quiet, slightly-down day for the market — the S&P 500 is off about half a percent (−0.55%) on soft, yield-pressured trading. Our own book is *up* about +0.13% because all three of our individual stocks are green: JPMorgan (+9.2%), Deere (+0.8%), and Lilly (+0.6%), while our S&P index piece simply drifts with the market. That small gap — us up while the index is down — is exactly the "alpha" (extra return vs. just owning the market) we're trying to earn. On the buy side, every good story on my bench is still priced too high to chase safely, so discipline says wait. I don't trade just to look busy.
+
+**What happens next**
+The week's headline is still **Deere's earnings Thursday** — my plan is locked to hold through it, with its automatic trailing safety-sell sitting ~2.5% below as a backstop (that cushion is the tightest in the book, so I'm watching it). I'll write the full daily scorecard at today's market close, and it'll come to your phone as usual.
+
+**Numbers I care about**
+- Equity ~$101,163 — about +1.2% since our $100,000 start, with +$1,084 in unrealized gains across the four holdings.
+- ~$36,600 cash (~36%) — plenty of room for one good buy when a real one appears; buys used this week: 0 of 3.
+- Deere +0.8% (safety net at $579.59, ~2.5% below); Lilly +0.6%; JPMorgan +9.2% — every stop resting comfortably below the price.
+
 ## 2026-08-18 08:35 CT · market-open
 
 **Open: no trades. We're green (+0.19%) while the market is red (−0.5%) — beating the S&P this morning by playing solid defense.**
