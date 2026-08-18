@@ -1,3 +1,38 @@
+## 2026-08-18 08:35 CT — MARKET OPEN (Tue) · NO TRADES · Nothing clears ≥70 gate at live open · No sell trigger · Zero overnight fills · Book +0.19% intraday, BEATING SPY (−0.52%)
+
+**Market state:** /v2/clock is_open:true, timestamp 09:32 ET, next_close 16:00 ET, next_open Wed 8/19 09:30 ET. Market open, no binary macro print today (housing starts/permits 8:30 ET + industrial production 9:15 ET are 2nd-tier; Jackson Hole is NEXT week). Inbox: nothing pending.
+
+**Account (live):** equity **$101,223.43**, cash **$36,641.95** (36.20%), long_market_value **$64,581.48** (63.80%), buying_power $327,395.94, `last_equity` (Mon 8/17 close) $101,036.19 → intraday **+$187.24 / +0.19%**. status ACTIVE, trading_blocked false. daytrade_count 0.
+
+**Positions (live marks 09:32 ET):**
+- JPM 34 @ 329.695588 → 361.94, **+$1,096.48 / +9.78%**. Trailing floor 329.85 / hwm 366.5, cushion ~8.87%. Size 12.16%.
+- DE 22 @ 589.82 → 600.23, **+$229.02 / +1.76%**. Trailing floor 579.591 / hwm 643.99, cushion ~3.44% (tightest trailing). **Q3 Thu 8/20 BMO 9:00 CT — inside window; do NOT add ahead.** Size 13.05%.
+- LLY 12 @ 1209.84 → 1202.86, **−$83.82 / −0.58%**. −7% hard stop 1125.15 GTC, cushion ~6.46%. Recovered from pre-open −1.82%; no dated company/FDA/Novo news; thesis intact. Size 14.26%.
+- SPY 32 @ 772.921250 → 768.75, **−$133.32 / −0.54%**. No stop (index-floor carve-out). Size 24.30%.
+- Net open unrealized **+$1,108.36**.
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 3, SPY zero):** LLY −7% hard `f50e3c39` @ 1125.15 GTC; JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5; DE 10% trailing `dcdd84e5` floor 579.591 / hwm 643.99. No stray/partial orders.
+
+**Overnight/today orders:** closed-orders since 2026-08-17T00:00Z = **EMPTY**. Zero fills, zero placements, zero cancels. No stop fired overnight. Positions/qty unchanged vs Mon close → confirmed no overnight activity.
+
+**Decision logic:**
+- **BUY? NO.** Pre-market 4-agent scan (re-validated here at the live open) returned nothing clearing 2+ VERIFIED signals AND Conviction ≥70 AND a clean (non-extended) entry — ~52nd effectively-empty scan. Board is entry-blocked, not thesis-blocked: AMGN (+12.8% ext), ANET (+15.6% ext), ABT (+12.6% ext), ETN (~+10% ext/mixed w/ WSZ downgrade), PWR (+7.3% ext) all chases; AMAT −4.3% below-trend + high-beta semi into a semis-led risk-off tape; ABBV cleanest (+2.2%) but only ~1 real signal. No fresh verified catalyst hit at the open to change this. Cold-start/anti-paralysis SATISFIED: book deployed (3 conviction + SPY floor, ~36% cash by design), not defaulting into cash → no forced trade. Weekly conviction buys 0/3; two slots open; ~36% cash = room for ~1 buy before trimming the floor.
+- **SELL? NO.** No position at/through a stop; no VERIFIED thesis break. LLY −0.58% well above its −7% hard stop @ 1125.15; JPM/DE green. DE = HOLD through 8/20 print (do NOT add/trim).
+- **CONVERT hard→trailing? NO.** LLY −0.58% (below +5%). JPM/DE already trailing; SPY no stop by policy. Standing task: convert LLY at ~$1,270.33.
+- **Daily loss cap:** +0.19% intraday, not tripped. Moot — no buys.
+
+**Benchmark (intraday):** book +0.19% (Mon close $101,036.19 → $101,223.43) vs SPY −0.52% (Mon close 772.62 → latest 768.61) → intraday alpha ~+0.70 pt. WTD (base Fri 8/14 close $101,378.01 / SPY 776.30): book −0.15% vs SPY −0.99% → WTD alpha ~+0.84 pt (intraday, week young).
+
+**DE hold-through-print:** FINALIZED = HOLD (do NOT trim, do NOT add). Re-affirmed at the open; no warning surfaced overnight. Trailing floor 579.591 (~3.4% below) is the mechanical safety net; single ~13% position. Revisit only if a warning surfaces Wed.
+
+**Watch into midday:** LLY holds above 1125.15 (cushion ~6.46%, improved); DE into 8/20 print (do not add); HD tape reaction as the consumer read; JPM/SPY healthy.
+
+**Telegram:** NOT pushed — a no-trade market-open is not on the push list (trade / stop-fire / daily-close / weekly / urgent). Nothing urgent (intraday +0.19%, no API failure, no user decision needed).
+
+**Persistence:** overwrote portfolio.md (live open snapshot); prepended messages.md (teacher-voice open); overwrote dashboard/state.json (last_routine market-open); prepended this research-log entry. No trade-log entry (no trades). Inbox nothing pending. Commit + push HEAD:main.
+
+**Next routine:** midday Tue 2026-08-18 — re-check LLY holds above its stop; DE = HOLD (do not add) into 8/20; re-scan the ≥70 gate.
+
 ## 2026-08-18 06:25 CT — PRE-MARKET (Tue) · NO TRADES (market closed) · Nothing clears ≥70 gate (~52nd effectively-empty conviction scan) · All 3 stops resting · DE hold-through-print pre-commit FINALIZED = HOLD
 
 **Market state:** /v2/clock is_open:false, timestamp 07:12 ET, next_open Tue 8/18 09:30 ET. Pre-open indicative marks. Inbox: nothing pending.

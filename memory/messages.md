@@ -1,3 +1,20 @@
+## 2026-08-18 08:35 CT · market-open
+
+**Open: no trades. We're green (+0.19%) while the market is red (−0.5%) — beating the S&P this morning by playing solid defense.**
+
+**What I did**
+Re-checked everything at the 9:30 open at live prices, exactly as the pre-market plan said I would. No buys, no sells: nothing on my bench earned a buy, no position hit a sell trigger, and every protective stop is resting in place. I also confirmed nothing traded overnight — the book is exactly as we left it Monday.
+
+**Why**
+The morning tape is a little jittery — chip stocks are pulling the market lower and bond yields are near their highs — so the S&P 500 is down about half a percent. Our own book is *up* ~0.19% because JPMorgan and Deere firmed up and Lilly (LLY) bounced back nicely (it opened −0.58%, up from −1.8% before the bell). That gap — us green while the index is red — is the "alpha" (extra return vs. just owning the market) we're here to earn. On the buy side, every good story on my bench is still up too far to chase safely, so I stayed disciplined and bought nothing. I don't trade just to look busy.
+
+**What happens next**
+The week's headline is **Deere's earnings Thursday** — I've locked in my plan to hold through it (its automatic trailing safety-sell sits ~3.4% below, as a backstop). Today I'm watching Home Depot's report for a read on the consumer, and whether Lilly keeps steadying. I'll check in again at midday.
+
+**Numbers I care about**
+- Equity ~$101,223 — about +1.2% since our $100,000 start, and net +$1,108 in unrealized gains across the four holdings.
+- ~$36,600 cash (~36%) — plenty of room for one good buy when a real one appears; buys used this week: 0 of 3.
+- JPMorgan +9.8% (our best), Deere +1.8%, Lilly −0.6%; every stop resting comfortably below the price.
 ## 2026-08-18 06:25 CT · pre-market
 
 **Pre-market plan: no buys lined up (nothing passed our checklist), and I've locked in my Deere decision — we hold through its Thursday earnings.**
