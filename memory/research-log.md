@@ -1,3 +1,49 @@
+## 2026-08-19 06:25 CT — PRE-MARKET (Wed) · NO TRADES (market closed) · Nothing clears ≥70 gate at pre-open, but ABBV surfaces as the first real NEAR-TRIGGER candidate in ~52 scans (~70 borderline) · All 3 stops resting · DE = HOLD into tomorrow's (Thu 8/20) print, no warning surfaced
+
+**Market state:** /v2/clock is_open:false, timestamp 07:12 ET, next_open Wed 8/19 09:30 ET. Pre-open indicative marks (will reset at the open). Inbox: nothing pending.
+
+**Account (pre-open indicative):** equity $101,244.21, cash $36,641.95 (~36.19%), long_market_value $64,602.26 (~63.81%), buying_power $327,454.13, status ACTIVE, trading_blocked false. `last_equity` (Tue 8/18 close) $101,036.19; pre-open indicative equity is drifting on quote updates, not an official mark.
+
+**Overnight orders:** closed-orders since 2026-08-18T20:00Z = 0. Zero fills, zero placements, zero cancels. No stop fired overnight. Positions/qty unchanged vs Tue close.
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 3, SPY zero):** LLY −7% hard `f50e3c39` @ 1125.15 GTC; JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5; DE 10% trailing `dcdd84e5` floor 579.591 / hwm 643.99. No stray/partial orders.
+
+### Market context (4-agent synthesis)
+**RISK-OFF / cautious tape, with a binary FOMC event at 2:00 PM ET today.**
+- **Futures/global:** ES ~flat (no clean live pre-open print) [UNVERIFIED]; NQ modestly lower (~−0.3%) [SEMI]. **Nikkei −3.16% [VERIFIED]** — the standout risk-off signal; Hang Seng ~flat [SEMI]; STOXX 600 ~flat [SEMI]. Global chip/AI selloff (SOXX reportedly ~−5%) on the yield backdrop.
+- **Rates = the stress point:** 10Y ~4.69% (−1–2bp, off the ~4.74% highs) [SEMI]; 2Y ~4.15% [SEMI]; **30Y ~5.32%, highest since ~2007 [SEMI]** — long-end at multi-decade highs is tightening conditions and driving the tech/chip selloff. DXY 99.41 −0.24% [VERIFIED]; gold ~$4,360 +0.7% [SEMI] (risk-off bid); WTI ~$85 +1.1% [SEMI] (Strait of Hormuz/US-Iran tension).
+- **Binary event TODAY:** **FOMC July 28–29 minutes @ 2:00 PM ET [VERIFIED as scheduled].** A hawkish read (with 30Y at 2007 highs) could extend the selloff. **Market-open discipline: hold new-buy conviction until AFTER the 2pm ET minutes.** No named Fed speakers today; Jackson Hole is NEXT week (Aug 27–29). Sept 16–17 Fed pricing skews hawkish (25bp HIKE ~45–80% across sources, cuts ~0%) [SEMI, conflicting] — no cuts priced; the tail is hawkish, argues against high-multiple/rate-sensitive names.
+- **Data today (2nd-tier):** MBA mortgage apps 7am ET; EIA crude inv 10:30am ET; 20Y auction 1pm ET (watch demand given the yield story). None top-tier equity movers except the auction feeding the yield narrative.
+
+### Portfolio watch (position analyst — all severity 1, thesis intact)
+- **JPM — sev 1.** No JPM-specific dated analyst/PT/regulatory news or new bank-sector action 24–48h [VERIFIED-as-absence]. Thesis ($50B buyback + div hike, Q2 beat) intact; consensus Buy avg PT mid-$370s; WF $390 OW stands. **Alpaca 50dMA $341.38, last $363.31 = +6.4% (healthy).** Cushion ~8.98%. Next earnings ~Oct.
+- **DE — sev 1, but THE event-risk name.** No pre-announcement / warning / guidance cut / new downgrade 24–48h ahead of tomorrow's (**Thu Aug 20 BMO ~9:00 CT**) fiscal Q3 print [no positive evidence of any; treat as clean-into-print]. Consensus EPS ~$4.70–4.85, rev ~$10.7–10.8B; YoY revenue direction CONTESTED/MIXED (one detailed preview −9.6% off $12.02B base; others imply modest growth off equipment-ops base) → do NOT state "rev down YoY / low bar" as settled. Setup = "show-me": modest numbers bar, higher narrative bar (needs FY26 guide reaffirm/raise + mid-cycle tone). Peer read mildly neutral-constructive (CNH India tractors +42% H1 [SEMI, regional]); prior trims (JPM $590→$570, Evercore $641→$632) stale/priced. **Alpaca 50dMA $602.57, last $588.52 = −2.3% (soft into print, as expected).** Cushion ~1.55% (tightest in book). **HOLD-THROUGH-PRINT FINALIZED = HOLD; do NOT trim, do NOT add.** Tail risk = a soft/unraised FY guide gapping down through the 579.591 floor overnight (one contained ~13% position, not book-threatening). Revisit ONLY if a warning surfaces intraday Wed.
+- **LLY — sev 1.** No LLY-specific FDA/trial/analyst news or Novo competitive shock 24–48h [VERIFIED-as-absence]; only a recap noting ~+3.7% on GLP-1/oral-obesity/retatrutide optimism. Q2 beat-and-raise (FY26 EPS $35.50–36.50) intact; latest Novo commentary (CEO "not winner-take-all", 8/13) outside window. **Alpaca 50dMA $1,172.63, last $1,226.66 = +4.6% (clean).** Cushion ~8.53%. Standing task: convert −7% hard → 10% trailing at +5% (~$1,270.33).
+
+### Buy candidates (scout + primary-source 50dMA verification from Alpaca IEX bars, as of 8/18 close)
+**Conviction = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech. Buy needs 2+ VERIFIED signals AND ≥70 AND a clean (non-extended) entry.**
+- **ABBV (AbbVie) ~$258.91 · 50dMA $245.56 = +5.4% CLEAN · Conviction ~70 (BORDERLINE) — TOP CANDIDATE / NEAR-TRIGGER.** First name to genuinely approach the gate in ~52 scans. Signals: **#4 analyst-upgrade cluster [VERIFIED-strong]** — Wolfe UPGRADE→Outperform PT $300 (8/13, a real rating change, not a maintain), Wells Fargo raised to $300 (8/17), plus Canaccord $290 / Cantor $285 / Leerink (8/3–5); **#2 near-term catalyst [SEMI, timing soft]** — Tavapadon approval/launch "expected Q3 2026", Skyrizi subcut Crohn's induction "this fall" (exact dates UNVERIFIED); immunology (Skyrizi/Rinvoq) secular support. Net = a solid #4 plus a soft #2/#3 → ~1.5–2 signals, score right on the 70 line. Low-beta defensive pharma (NOT high-beta → no ≤10% cap), ~3% below 52-wk high (near highs but not extended off the 50dMA). **→ WATCHLIST top, tag NEAR-TRIGGER. Market-open owns the decision: VERIFY the Wolfe upgrade + confirm at least one catalyst date is a real <30d event vs a primary source; confirm live 50dMA/entry still clean; and — given the RISK-OFF tape — act ONLY AFTER the 2pm ET FOMC minutes. If all hold (2 verified signals AND ≥70), a ≤15% B+ starter is in range. Do NOT auto-buy a borderline ~70 / soft-2nd-signal name into a risk-off binary day.**
+- **COR (Cencora) ~$316.11 · 50dMA $300.16 = +5.3% CLEAN · ~63 — WATCHLIST.** #1 beat-and-raise (Q3 8/5: EPS $4.48 vs $4.35, rev $84.75B vs $84.31B, raised FY26 to $17.75–17.95) [VERIFIED] BUT **8/5 is ~2 weeks stale = outside the "last week" window for signal #1** → effectively ~1 fresh signal (#4 WSZ upgrade 8/8 + JPM PT $390). Clean entry, defensive distributor; needs a 2nd FRESH catalyst to clear. Runner-up bench.
+- **HUBS (HubSpot) ~$226.45 · 50dMA $207.28 = +9.2% EXTENDED + trimmed rev guidance (Q2 8/13) — NO.** Fails "raised guidance" + at the chase line. ~1.5 signals.
+- **ON (ON Semi) ~$79.44 · 50dMA $95.21 = −16.6% BELOW-TREND — HARD REJECT.** Falling knife, fails #6 outright despite AI-datacenter tailwind.
+- **HAE (Haemonetics) — REJECT.** Beat-and-raise but +30.9% vs 50dMA (extreme chase) AND ~$4–6B market cap = fails the $10B large-cap gate.
+- **Prior bench, primary-50dMA re-verified 8/18 close — still entry-blocked:** AMGN +14.0% EXT, ABT +14.5% EXT, ANET +10.1% EXT, AMAT −8.3% BELOW-TREND (high-beta semi into a semis-led selloff = double-no), PWR +3.6% CLEAN but only ~2 stale signals (next earnings Oct 29), ETN +4.0% (**based down from ~+10%** — cleaner now, BUT WSZ downgrade→Hold 8/16, high-beta ≤10% cap, same name stopped 7/2 → watch, not a buy). **Aging carry (no fresh verified signal):** TDG ~65, TXN ~63, GS/NOW 63, GEV/LMT ~62, DLR 60, UNH ~58, DOV/JNJ/ITW ~58, GLW ~55, OXY 55, STX 53, MS 52. MRK ~53 SIDELINE.
+- **No clean large-cap beat-and-raise in the Aug 17–19 window** (HAE too small; TMO's beat-raise was late July, out of window; CRWV speculative/off-mandate).
+
+### Sell candidates
+- **NONE.** (a) No position at/through a stop (worst SPY ~−0.67%). (b) No +5% hard→trailing conversion pending (LLY +1.68%, below +5%). (c) Daily loss cap moot (pre-market, no trades). No VERIFIED thesis break on any holding. DE = HOLD through tomorrow's print.
+
+### Decision
+NO TRADES (market closed; pre-market never trades). Cold-start/anti-paralysis SATISFIED — book is deployed (3 conviction + SPY floor, ~36% cash by design), not defaulting into cash. Conviction sleeve 3/5 (two slots open); weekly conviction buys 0/3; ~36% cash = room for ~1 buy before trimming the floor. ABBV is a genuine, disciplined NEAR-TRIGGER hand-off to market-open (verify + act only after 2pm minutes), NOT a pre-market buy.
+
+**Telegram:** NOT pushed — pre-market scan with no trades is explicitly NOT on the push list (trade / stop-fire / daily-close / weekly / urgent). Nothing urgent (no >3% drop, no API failure, no user decision needed).
+
+**Persistence:** overwrote portfolio.md (pre-open indicative snapshot); prepended watchlist.md (fresh re-score, ABBV to top as NEAR-TRIGGER); prepended messages.md (teacher-voice pre-market plan); overwrote dashboard/state.json (last_routine pre-market); prepended this research-log entry. No trade-log entry (no trades). Inbox nothing pending → nothing to move to Handled. Commit + push HEAD:main.
+
+**Next routine:** market-open Wed 8/19 09:30 ET — re-validate at live prices; **ABBV is the lead: verify Wolfe upgrade + a real <30d catalyst date vs primary source, confirm clean entry, act ONLY AFTER the 2pm ET FOMC minutes if it still clears 2 signals AND ≥70 (≤15% B+ starter)**; confirm all 3 stops resting; DE = HOLD (do not add/trim) into the 8/20 print; watch TGT/LOW consumer read; convert LLY hard→trailing at ~$1,270.33.
+
+---
+
 ## 2026-08-18 15:05 CT — MARKET CLOSE (Tue) · Day summary · NO TRADES all day · Book +0.064% vs SPY −0.680% → day alpha +0.74 pt · All 3 stops resting
 
 **Market state:** /v2/clock is_open:false, 16:01 ET, next_open Wed 8/19 09:30 ET. Closing marks. Inbox: nothing pending (handled: none). No trades today (closed-orders since 2026-08-18T00:00Z = 0; zero fills, zero placements, zero cancels).

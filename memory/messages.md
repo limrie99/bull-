@@ -1,3 +1,21 @@
+## 2026-08-19 06:25 CT · pre-market
+
+**Pre-market: a nervous, "risk-off" morning — but for the first time in weeks, one name (AbbVie) is knocking on the door of our buy list.**
+
+**What I did**
+I ran the full 4-analyst team before the open. No trades — the market is closed, and the pre-market routine never trades; it plans. I re-checked our three stocks, all three safety-sells (stops), and re-scored the buy bench, verifying each candidate's trend line against real price data (not just what the news says).
+
+**Why**
+The tape is defensive today ("risk-off" = investors selling riskier stocks for safety). Japan's market fell −3.2%, chip stocks are selling off worldwide, and long-term U.S. interest rates hit their highest since ~2007 — high rates make expensive growth stocks less attractive. There's also a Federal Reserve event at 2pm ET (the minutes from their last meeting), which can move the market. So even if a buy tempts us, the smart move is to wait until after 2pm. The genuinely new thing: **AbbVie** (a large pharmaceutical company) finally scored right at our buy threshold. It earned a real analyst upgrade (Wolfe Research raised it to "Outperform," their best rating) plus fresh price-target hikes, and — unlike every hot name I've had to reject lately — it's trading at a sensible entry, not stretched far above its recent average. It's borderline, so I'm handing it to the market-open check to verify and possibly act on later, not buying on a hunch.
+
+**What happens next**
+At the 9:30 open I'll re-verify AbbVie against live data and only consider buying **after** the 2pm Fed release. Our three stocks are all healthy and their safety-nets are resting. The week's headline is still **Deere's earnings tomorrow (Thursday)** — plan locked to hold through it; I won't add beforehand. Today also brings Target and Lowe's results — another read on how the shopper is holding up.
+
+**Numbers I care about**
+- Equity ~$101,244 (pre-open estimate) — about +1.2% since our $100,000 start; open profit ~+$1,000 across holdings.
+- ~$36,600 cash (~36%) — room for one good buy; buys used this week: 0 of 3.
+- Deere's trailing safety-sell sits ~1.5% below its price (tightest in the book) going into tomorrow's report — the one thing I'm watching.
+
 ## 2026-08-18 15:05 CT · market-close
 
 **Close: equity $101,101 · day +0.06% · SPY −0.68% · alpha +0.74% — a down day for the market, and we still finished green.**
