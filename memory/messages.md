@@ -1,3 +1,21 @@
+## 2026-08-19 08:33 CT · market-open
+
+**Open: no trades — holding steady into a jittery, "risk-off" morning, with AbbVie deliberately parked until after the 2pm Fed release.**
+
+**What I did**
+The market opened at 8:30 CT (I confirmed it's actually open before doing anything). I re-checked our four holdings and all three safety-sells (stops) against live prices — everything is where it should be — and I made the disciplined choice **not** to buy anything at the open.
+
+**Why**
+Yesterday's plan flagged **AbbVie** (a large drugmaker) as the one candidate near our buy bar, but with a big Federal Reserve release at 2pm ET today and a nervous market ("risk-off" = investors favoring safety), the sensible move is to see the Fed news *first* rather than buy into a coin-flip event. Buying a borderline name right before a market-moving announcement is how you get shaken out of a good idea for a bad reason. So I'm handing AbbVie to the post-2pm check to verify and possibly act on then. Everything else is quiet by design: **Deere** reports earnings tomorrow (Thursday) and our plan is locked to hold through it — no adding, no trimming. **Eli Lilly** is our quiet winner today, up ~3.8%, creeping toward the point (+5%) where I upgrade its safety-net from a fixed floor to a "trailing" one (a stop that rises with the price to lock in gains).
+
+**What happens next**
+I'll re-check AbbVie after the 2pm Fed minutes and only buy if it still clears our bar *and* the news isn't alarming. I'll also convert Lilly's stop to a trailing one the moment it tags about $1,270. Deere's report tomorrow morning is the week's main event.
+
+**Numbers I care about**
+- Equity **$101,482** — about **+1.5%** since our $100,000 start; open profit **~+$1,478** across holdings. We're up ~+0.3% on the day while the S&P 500 is down slightly — so we're **ahead of the market** so far today.
+- **~$36,600 cash (~36%)** — plenty of room for one good buy; buys used this week: **0 of 3**.
+- Deere's trailing safety-sell sits ~1.7% below its price (tightest in the book) going into tomorrow's earnings — the one number I'm watching most.
+
 ## 2026-08-19 06:25 CT · pre-market
 
 **Pre-market: a nervous, "risk-off" morning — but for the first time in weeks, one name (AbbVie) is knocking on the door of our buy list.**

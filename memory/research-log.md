@@ -1,3 +1,41 @@
+## 2026-08-19 08:33 CT — MARKET-OPEN (Wed) · NO TRADES · Market CONFIRMED OPEN · All 3 stops resting · DE = HOLD into Thu 8/20 print · ABBV DEFERRED to post-2pm-ET FOMC minutes · LLY +3.82% (~1.14% from +5% hard→trailing conversion)
+
+**Market state:** /v2/clock is_open:true, timestamp 09:32 ET, next_close 16:00 ET, next_open Thu 8/20 09:30 ET. Live marks. Inbox: nothing pending.
+
+**Account (live):** equity $101,482.32, cash $36,641.95 (~36.11%), long_market_value $64,840.37 (~63.89%), buying_power $328,120.85, status ACTIVE, trading_blocked false. `last_equity` (Tue 8/18 close) $101,211.45 → intraday **+0.27%** (nowhere near the −3% daily loss cap; new buys permitted).
+
+**Overnight/open orders:** zero fills, zero placements, zero cancels since the pre-market snapshot. Positions/qty unchanged.
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 3, SPY zero):** LLY −7% hard `f50e3c39` @ 1125.15 GTC; JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5; DE 10% trailing `dcdd84e5` floor 579.591 / hwm 643.99. No stray/partial orders.
+
+### Positions (live 09:32 ET)
+| Sym | Qty | Avg | Px | P/L$ | P/L% | Stop | Cushion |
+|---|---|---|---|---|---|---|---|
+| JPM | 34 | 329.6956 | 359.46 | +1,011.99 | +9.03% | 10% trail floor 329.85 (hwm 366.5) | ~8.24% |
+| DE | 22 | 589.82 | 589.40 | −9.24 | −0.07% | 10% trail floor 579.591 (hwm 643.99) | ~1.66% (tightest) |
+| LLY | 12 | 1209.84 | 1256.00 | +553.92 | +3.82% | −7% hard @ 1125.15 | ~10.42% to hard; ~1.14% below +5% conv $1,270.33 |
+| SPY | 32 | 772.9212 | 770.46 | −78.76 | −0.32% | NONE (index floor carve-out) | n/a |
+
+Net open unrealized ≈ **+$1,478.** Sizes on equity $101,482.32: JPM 12.04%, DE 12.78%, LLY 14.85%, SPY 24.29% (index sleeve, exempt). Cash 36.11%.
+
+### Benchmark (intraday indicative — official mark owned by market-close)
+Base Fri 8/14 close: portfolio $101,378.01 / SPY 776.30. Now: book +0.10% vs SPY −0.81% (SPY $770.00) → **WTD alpha ≈ +0.91 pt** (ahead of SPY). Cumulative alpha since 5/29 base ≈ −0.2 pt.
+
+### Macro (unchanged from pre-market read)
+RISK-OFF: global chip/AI selloff, 30Y ~5.32% (highest since ~2007) the stress point; 10Y ~4.69%. **Binary event TODAY: FOMC July-minutes @ 2:00 PM ET.** No named Fed speakers; Jackson Hole next week (Aug 27–29). TGT/LOW reported Wed BMO (consumer read); WMT + DE Thu 8/20 BMO.
+
+### Decision — NO TRADES
+- **BUY:** none at the open. **ABBV (near-trigger ~70, live ~$260.45 = +6.1% vs 50dMA $245.56, still clean, ticked up from pre-open $258.91) is DEFERRED, per the pre-market plan's explicit discipline: act ONLY AFTER the 2pm ET FOMC minutes given the risk-off tape.** Market-open runs at 09:30 ET — over 4h before the minutes — so executing now would violate that discipline and buy a borderline name into a binary event. Handed to the post-2pm routine: re-verify Wolfe→Outperform (8/13) + a real <30d catalyst date vs primary source, confirm clean live entry, confirm a benign/neutral minutes read, then if 2 verified signals AND ≥70 → ≤15% B+ starter (low-beta, no ≤10% cap). Do NOT buy if the minutes read hawkish and the tape sells off. This is disciplined patience, not paralysis: cold-start rule satisfied (book is deployed — 3 conviction + SPY floor, ~36% cash by design), one buy of room remains before trimming the floor, weekly conviction buys 0/3.
+- **SELL:** none. (a) No position at/through a stop (worst SPY −0.32%). (b) LLY +3.82% is below the +5% hard→trailing conversion line ($1,270.33) — NO conversion yet; only ~1.14% away, so the midday/close routine should watch to convert. (c) Daily loss cap moot (intraday +0.27%). No VERIFIED thesis break on any holding.
+- **DE = HOLD through tomorrow's (Thu 8/20 BMO) print** — do NOT trim, do NOT add. No warning/pre-announcement surfaced. Tail risk = a soft/unraised FY guide gapping down through the 579.591 floor overnight (one contained ~13% position, not book-threatening). Revisit ONLY if a warning surfaces intraday.
+
+**Telegram:** NOT pushed — market-open with no trades is not on the push list (trade / stop-fire / daily-close / weekly / urgent). Nothing urgent (no >3% drop, no API failure, no user-decision-needed).
+
+**Persistence:** overwrote portfolio.md (live snapshot); prepended messages.md (teacher-voice market-open update); overwrote dashboard/state.json (last_routine market-open); prepended this research-log entry. No trade-log entry (no trades). Inbox nothing pending → nothing to move to Handled. Commit + push HEAD:main.
+
+**Next routine:** midday / post-2pm-ET FOMC Wed 8/19 — read the 2pm FOMC minutes; **decide ABBV** (verify + act only if benign read AND 2 signals AND ≥70); **convert LLY −7% hard → 10% trailing the moment it tags ~$1,270.33 (+5%)**; confirm all 3 stops resting; DE = HOLD (no add/trim) into the 8/20 print.
+
+---
 ## 2026-08-19 06:25 CT — PRE-MARKET (Wed) · NO TRADES (market closed) · Nothing clears ≥70 gate at pre-open, but ABBV surfaces as the first real NEAR-TRIGGER candidate in ~52 scans (~70 borderline) · All 3 stops resting · DE = HOLD into tomorrow's (Thu 8/20) print, no warning surfaced
 
 **Market state:** /v2/clock is_open:false, timestamp 07:12 ET, next_open Wed 8/19 09:30 ET. Pre-open indicative marks (will reset at the open). Inbox: nothing pending.
