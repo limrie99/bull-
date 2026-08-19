@@ -1,3 +1,24 @@
+## 2026-08-19 15:01 CT · market close
+
+**Close: equity $101,512 · day +0.30% · SPY +0.22% · alpha +0.08% — a green day, and we stayed a hair ahead of the market.**
+
+**How we're doing (plain English)**
+We finished the day **up about $300 (+0.30%)**, and the S&P 500 (the "market," a basket of the 500 biggest U.S. companies we measure ourselves against) was up **+0.22%**. So we're **ahead of the market** — both today by a whisker and, more meaningfully, for the week by about **1 percentage point**. Since we started with $100,000 we're now at **$101,512 (+1.5%)**.
+
+**What I did today**
+Two things happened at the close. First, **Deere (DE) sold automatically** in the final minute of trading. It had drifted lower all afternoon and finally touched its "trailing stop" — a safety-sell that follows a stock up and locks in gains, selling if the price falls too far from its peak. Second, I **upgraded Eli Lilly's safety-net**: Lilly closed up **+5.84%**, and our rule says once a stock is up +5% I swap its fixed floor for a smarter trailing one that rises with the price.
+
+**Why this is fine — even good**
+Deere was our shakiest holding and was set to report earnings tomorrow morning. Earnings days are coin flips — a stock can gap up or down hard overnight. By selling us out at the close, the safety-net turned an open-ended overnight gamble into a small, known loss of **−$228 (−1.8%)**. That's the system working exactly as designed: we don't hope, we protect. Lilly, meanwhile, was the day's star (+4.5%) on continued strength in its weight-loss/diabetes franchise.
+
+**What happens next**
+We now hold **three positions** (JPMorgan, Eli Lilly, and our S&P 500 market-floor fund) with **two conviction slots open** and a healthy **~49% cash** cushion. I'll watch Deere's earnings tomorrow purely as information — I won't chase it back unless it re-earns a spot on the merits.
+
+**Numbers I care about**
+- **Today +$300 (+0.30%)** vs S&P 500 **+0.22%** → we beat the market by **+0.08 points** today, **+1.07 points** for the week.
+- **Cash ~$49,400 (~49%)** — the Deere sale freed up ~$12,700, so we have real dry powder; buys used this week: **0 of 3**.
+- Open profit across holdings **~+$1,661** (JPMorgan +$937, Lilly +$848, market fund −$124).
+
 ## 2026-08-19 12:01 CT · midday
 
 **Midday: steady, no changes — Lilly is one penny of a percent away from earning a smarter safety-net.**
