@@ -6397,3 +6397,30 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Persistence:** wrote portfolio.md (midday snapshot), prepended messages.md (teacher-voice midday), overwrote dashboard/state.json, appended this log. No trade-log entry (no trades). Commit + push HEAD:main.
 
 **Next routine:** market-close Tue 8/18 — official daily scorecard vs SPY + mandatory Telegram push; re-check DE cushion (tightest ~2.51%) into its Aug 20 print, and confirm all three names held green into the close.
+
+---
+
+## 2026-08-19 12:01 CT · MIDDAY (Wed) — quiet, no changes
+
+**Market CONFIRMED OPEN** via /v2/clock (is_open:true, 13:01 ET, next_close 16:00 ET). Live marks pulled fresh from Alpaca.
+
+**Account (live):** equity **$101,576.89**, cash **$36,641.95** (~36.07%), long_market_value **$64,934.94** (~63.93%), buying_power $328,385.63, status ACTIVE. `last_equity` (Tue 8/18 close) $101,211.45 → intraday **+0.36%** (+$365.44) — nowhere near the −3% daily loss cap.
+
+**Positions (live 13:01 ET):** JPM +8.47% ($357.62), LLY +4.91% ($1,269.24 latest trade), DE −0.48% ($587.01), SPY −0.39% ($769.90). Net open unrealized ≈ **+$1,497.69** (JPM +949.43, LLY +706.86, DE −61.82, SPY −96.78).
+
+**Risk checks:**
+- (a) Any −7% or worse un-stopped? **NO** (JPM +8.47%, LLY +4.91%, DE −0.48%, SPY −0.39%). No mandatory 4-hour news check triggered; no discretionary check either — nothing moved materially against us. **No sell.**
+- (b) Any +5%+ needing hard→trailing conversion? **NO conversion yet.** LLY at **+4.91%** ($1,269.24), only ~$1.09 / ~0.09% short of the +5% conversion line ($1,270.33) — SO CLOSE but not tagged. Rule is strict (+5% or MORE), so the −7% hard stop @ 1125.15 stays for now. **Standing task passed to post-2pm / close routine: convert LLY hard→10% trailing the moment it tags ~$1,270.33.** JPM & DE already on 10% trailing GTC; SPY no stop by policy.
+- (c) Daily loss cap: intraday **+0.36%** (up) → not tripped. Moot for buys (none planned midday).
+
+**Stops re-confirmed RESTING (open-orders nested=true, exactly 3; SPY zero):** JPM trailing hwm 366.5 / floor 329.85; DE trailing hwm 643.99 / floor 579.591; LLY −7% hard @ 1125.15. All `new`/resting.
+
+**Buys:** NONE. Midday rule requires a high-conviction breaking catalyst AND weekly buys <3 AND positions <5 — no such catalyst. **ABBV stays DEFERRED to the post-2pm-ET routine** by design: it is 13:01 ET, the **FOMC July minutes drop at 2:00 PM ET** (not yet released), and the pre-market/open plan explicitly parks ABBV until after a benign/neutral minutes read on a risk-off binary day. Nothing to verify or act on at midday. Floor COMPLETE — no index add.
+
+**Benchmark (midday, unofficial — close owns official):** SPY 769.90 vs Fri 8/14 close 776.30 → SPY **−0.824% WTD**; book $101,576.89 vs $101,378.01 → **+0.196% WTD** → **WTD alpha ~+1.02 pt** (ahead). Cumulative alpha since 5/29 base ≈ roughly flat (was ~−0.2 at open; positive WTD still clawing back). All three conviction names green/near-flat while the SPY floor tracks the index dip — the lead is stock selection, not cash luck.
+
+**Telegram:** NOT pushed (quiet midday, no trade/stop/close/weekly-review/urgent = do-NOT-push per CLAUDE.md). Mandatory daily "how we're doing" push is owned by market-close.
+
+**Persistence:** overwrote portfolio.md (midday snapshot), prepended messages.md (teacher-voice), overwrote dashboard/state.json, appended this log. No trade-log entry (no trades). Commit + push HEAD:main.
+
+**Next routine:** post-2pm-ET FOMC-minutes / market-close (Wed 8/19) — read the 2pm minutes, then decide ABBV (verify Wolfe upgrade + a real <30d catalyst date + clean live entry + benign minutes read), convert LLY hard→trailing if it tags ~$1,270.33, and write the mandatory daily scorecard + Telegram push at the close. DE Q3 print Thu 8/20 BMO — HOLD-through-print finalized.

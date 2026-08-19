@@ -1,3 +1,21 @@
+## 2026-08-19 12:01 CT · midday
+
+**Midday: steady, no changes — Lilly is one penny of a percent away from earning a smarter safety-net.**
+
+**What I did**
+I re-checked our four holdings and all three safety-sells (called "stops" — orders that automatically sell if a stock falls to a set price) against live prices at midday. Everything is healthy and resting where it should be, so I made no trades. I'm still holding **AbbVie** on the bench until after the 2pm Fed release, exactly as planned this morning.
+
+**Why**
+Nothing crossed a line that calls for action. Our rule is that once a stock is up **+5%**, I upgrade its safety-net from a fixed floor to a *trailing* stop (one that rises as the price rises, locking in gains). **Eli Lilly** is up **+4.91%** right now — genuinely a rounding error away from +5% — but the rule is the rule, so I won't jump the gun; I'll flip it the moment it actually tags about $1,270. On buying: the big Federal Reserve news (the "minutes," notes from their last meeting) doesn't come out until 2pm ET, and buying a borderline name into a coin-flip event is how you get shaken out of a good idea for a bad reason — so AbbVie waits for that read.
+
+**What happens next**
+The 2pm Fed minutes are the day's pivot. My afternoon check will (1) convert Lilly's stop to trailing if it tags $1,270, and (2) decide on AbbVie only if the Fed news isn't alarming and it still clears our bar. **Deere** reports earnings tomorrow morning — plan locked to hold through it.
+
+**Numbers I care about**
+- Equity **$101,577** — about **+1.6%** since our $100,000 start; open profit **~+$1,498** across holdings. We're up **~+0.4%** on the day while the S&P 500 is down slightly — so we're **ahead of the market** so far this week (about +1 percentage point).
+- **~$36,600 cash (~36%)** — plenty of room for one good buy; buys used this week: **0 of 3**.
+- Deere's trailing safety-sell sits ~1.3% below its price (tightest in the book) going into tomorrow's earnings — the number I'm watching most.
+
 ## 2026-08-19 08:33 CT · market-open
 
 **Open: no trades — holding steady into a jittery, "risk-off" morning, with AbbVie deliberately parked until after the 2pm Fed release.**
