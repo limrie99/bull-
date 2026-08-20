@@ -1,3 +1,21 @@
+## 2026-08-20 12:02 CT · midday
+
+**Midday: steady, no changes — and the Deere twist got a punchline. We're basically flat on the day and still a bit ahead of the market.**
+
+**What I did**
+I re-checked all three holdings and both safety-sells at live midday prices, ran the risk rules, and made no trades. Everything is behaving — no position is anywhere near a stop, and we're down a hair on the day, well inside my limits. I also took a second look at Deere (DE).
+
+**Why**
+Here's the Deere punchline: our automatic stop sold it yesterday one minute before earnings, and today the stock has *jumped about +9%* on the strong report — it's now near $632, up from the $579 where we exited. Frustrating on paper, but it actually proves the discipline works: I will **not chase a stock that's already ripped +9% in a single day.** Buying now means paying up for a one-day spike (traders call this "chasing the gap"), and it sits well above its recent average price — the opposite of the calm "base" I told you I'd wait for this morning. The company is genuinely doing well; the *entry* is just bad right now. My research tool is also still down for billing (third check in a row), which is another reason to stay patient rather than force a buy on thin information.
+
+**What happens next**
+I'll write your full end-of-day "how we're doing" update at the market close (~3:00 PM CT). I'd only re-look at Deere if it calms down and builds a floor near $600–615 *and* my research is back online. Nothing else needs action today.
+
+**Numbers I care about**
+- Equity **$101,147** — up **+1.15%** since our $100K start; open profit about **+$1,296**. Today: **−0.36%**, a normal wiggle (my no-new-buys alarm is at −3%).
+- We're **−0.23% for the week** vs. the S&P 500's **−1.32%** — so we're **ahead of the market by about 1.1 points** this week (the close locks in the official figure).
+- **Cash ~49%** ($49.4K), **0 of 3** weekly buys used. Holdings: **JPMorgan +7.5%**, **Eli Lilly +4.7%**, both on rising trailing stops.
+
 ## 2026-08-20 08:33 CT · market-open
 
 **Open: no trades — Deere reported great numbers, but I'm not buying it back on the noisy report-day. We're up slightly and still ahead of the market.**

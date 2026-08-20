@@ -6564,3 +6564,36 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 **Persistence:** overwrote portfolio.md (close snapshot), appended trade-log (DE sell), appended this Day summary, prepended messages.md (teacher-voice close), overwrote dashboard/state.json. Commit + push HEAD:main.
 
 **Next routine:** pre-market / open Thu 8/20.
+
+## 2026-08-20 12:02 CT · MIDDAY (Thu)
+
+**State:** Market OPEN (Alpaca /v2/clock is_open:true, 13:02 ET, next_close 16:00 ET). Live marks. Account equity $101,147.35, cash $49,389.91 (~48.83%), long_mv $51,757.44 (~51.17%), buying_power $342,480.46, status ACTIVE. last_equity (Wed 8/19 close) $101,510.75 → intraday −0.36%. Inbox empty. Perplexity API STILL DOWN (401 insufficient_quota, 3rd routine straight) — buy-side blind again; Alpaca unaffected.
+
+**Positions (live 13:02 ET):**
+- JPM 34 @ 329.695588, px 354.28, P/L +$835.87 (+7.46%), stop 329.85 (10% trail, hwm 366.5), cushion ~6.90%.
+- LLY 12 @ 1209.84, px 1266.34, P/L +$678.00 (+4.67%), stop 1152.468 (10% trail, hwm 1280.52), cushion ~9.00%.
+- SPY 32 @ 772.921250, px 766.12, P/L −$217.64 (−0.88%), NO stop (index-floor sleeve carve-out).
+
+**Open orders confirmed:** JPM trailing_stop id 8a937ff6-164c-4384-8cf8-c000d4106a60 (hwm 366.5, stop 329.85, qty 34); LLY trailing_stop id d7eb221b-4d37-4dc6-bec2-b1de0dddd825 (hwm 1280.52, stop 1152.468, qty 12). SPY unencumbered by design.
+
+**Risk checks (all clear, all mechanical):**
+- (a) Any −7% un-stopped? NO. JPM +7.46, LLY +4.67, SPY −0.88 (index sleeve). → no sell.
+- (b) Any +5%+ needing hard→trailing conversion? NO pending — JPM & LLY already on 10% trailing (JPM since 7/15, LLY converted Wed 8/19 close). SPY exempt by policy.
+- (c) Daily loss cap: intraday −0.36% vs Wed close, far from −3% floor. Buys permitted (moot — no qualifying setup anyway).
+
+**DE re-look (the only live bench name):** DE last $632.62 @ 13:02 ET (Alpaca latest trade). Today's daily bar: o 591.17 / h 637.51 / l 588.40 / last ~632.62 = ~+9.2% intraday off Wed close $579.47. Now sits ~+5% above the ~$602 50dMA — extended, textbook post-earnings gap. This morning's DEFER was based on a borderline ~70 + no-confirmed-base; the midday reality is stronger — this is now a clear GAP-CHASE / extended entry, an easier NO. The pre-market plan was explicit: "confirmed base, do NOT chase the post-earnings gap." Discipline holds. Only re-consider if it pulls back and builds a base near ~$600–615 AND Perplexity restored to re-clear ≥70. Ironic note: our trailing stop exited us at Wed close for −$227.79 one minute before this print — a mechanical stop can't know the news is coming; that risk-transfer is the whole point of the stop rule, not a failure.
+
+**Bench (no fresh verified re-scores this run — Perplexity blind for 3rd straight routine):**
+- DE — no-buy, gap-chase (see above).
+- ABBV ~70 borderline / COR ~63 — WATCHLIST unchanged, need fresh 2-signal + ≥70 re-check on restored research.
+- Aging carry unchanged.
+
+**Benchmark (indicative — official mark owned by market-close):** SPY yesterday (8/19) close 769.09 → live 766.01 (13:02 ET) = day −0.40%. Portfolio day −0.36%. Alpha_day ≈ +0.04. WTD base Fri 8/14: SPY 776.34 → portfolio $101,378.01. Now: SPY 766.01 = −1.33% WTD; portfolio $101,147.35 = −0.23% WTD. Alpha_WTD ≈ +1.10 pt. Cumulative alpha since 5/29 base ≈ −0.2 pt (close will lock official).
+
+**Decisions:**
+- No trades (no risk trigger, no qualifying buy).
+- No stop adjustments (JPM & LLY resting correctly, SPY exempt).
+- Perplexity billing warning stays on the dashboard — 3rd routine blind is a real degradation, not noise; flagged again in messages.
+- Telegram: midday quiet check per CLAUDE.md rules → do NOT push.
+
+**Next:** market-close (~15:00 CT Thu 8/20). Close owns the mandatory "How we're doing" daily update (dashboard + Telegram push, non-negotiable). Watch DE tape into close for any base-building; watch cushion for both stops (nothing near a floor now).
