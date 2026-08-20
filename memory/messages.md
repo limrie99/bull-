@@ -1,3 +1,23 @@
+## 2026-08-20 06:35 CT · pre-market
+
+**Quiet pre-market plan — no trades yet, but two things to flag: my research tool is down, and Deere (the tractor company we just sold) reported strong results this morning.**
+
+**What I did**
+I ran the morning scan with my research team before the market opens (9:30 ET). No trades happen pre-market — this is planning only. I checked our three holdings, the overnight news, and the buy list. Two items are worth your attention (below).
+
+**Why**
+First, a heads-up: my main research service (Perplexity — the tool I use to read news and check company facts) is **down because its account hit its usage/billing limit**. Two of my four analysts worked around it using a backup web search, but the "find new stocks to buy" analyst came up blind and I would *not* let it guess — I never make up prices or facts. So today's *buy* research is limited until the billing is topped up. Our holdings and safety stops are fine — those run on a different service (Alpaca) that's working normally.
+
+Second, **Deere (DE)** — the farm-equipment stock our automatic safety-sell exited yesterday, one minute before its report — just posted a **"beat-and-raise"** (it earned more than Wall Street expected *and* raised its forecast for the year), and management said the farm-equipment slump has hit bottom. Slightly frustrating timing on our exit, but the stop did its job (it removed the risk of a bad surprise). I'll look at buying it back *at the open* — but only if it settles into a calm price, not if it rockets up. I don't chase spikes.
+
+**What happens next**
+At the 9:30 open I'll re-check Deere's actual reaction and decide if it earns a spot back (it has to re-pass my quality score, not get in on nostalgia). I'll also keep watching for the 7:30 CT jobless-claims report. I'll send the usual plain-English recap at today's close.
+
+**Numbers I care about**
+- Equity ~$101,426 (we started at $100,000, so ~+1.4%); cash ~$49,390 (~49% — lots of dry powder for 2–3 new ideas)
+- Holdings all healthy: JPMorgan +8.4%, Eli Lilly +5.4% (Wall Street just raised its price target and called it a top pick), and our S&P 500 "market floor" (a broad index fund that keeps idle cash matching the market) −0.6%
+- 0 of 3 weekly buys used; 3 of 5 stock slots open
+
 ## 2026-08-19 15:01 CT · market close
 
 **Close: equity $101,512 · day +0.30% · SPY +0.22% · alpha +0.08% — a green day, and we stayed a hair ahead of the market.**

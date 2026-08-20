@@ -1,3 +1,52 @@
+## 2026-08-20 06:35 CT — PRE-MARKET (Thu) · NO TRADES (market closed) · ⚠️ PERPLEXITY API DOWN (quota) — buy-side scan blind, WebSearch fallback used · DE reported BMO = BEAT & RAISED (re-entry candidate for open, do NOT chase gap) · Both stops resting · Positions intact→strengthening
+
+**Market state:** /v2/clock is_open:false, timestamp 07:12 ET, next_open Thu 8/20 09:30 ET. Pre-open indicative marks (reset at the open). Inbox: nothing pending.
+
+**Account (pre-open indicative):** equity $101,425.63, cash $49,389.91 (~48.70%), long_market_value $52,035.72 (~51.30%), buying_power $343,259.66, status ACTIVE, trading_blocked false. `last_equity` (Wed 8/19 close) $101,510.75; pre-open equity drifts on quotes, not an official mark.
+
+**Overnight orders:** zero fills, zero placements, zero cancels since Wed close. Positions/qty unchanged. DE stop CONSUMED yesterday (stopped out at close); no DE position or order remains.
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 2 conviction stops, SPY zero):** JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5, qty 34; LLY 10% trailing `d7eb221b` floor 1152.468 / hwm 1280.52, qty 12 (converted from −7% hard at Wed close after +5% cross). SPY — NO STOP by design (index-floor carve-out). No stray/partial orders.
+
+### ⚠️ API FAILURE — Perplexity down (logged per guardrail)
+- **Endpoint:** POST https://api.perplexity.ai/chat/completions
+- **Error:** HTTP 401, `type: insufficient_quota` — *"You exceeded your current quota, please check your plan and billing details."* Reproduced on retry with both `sonar-pro` and `sonar`. `PERPLEXITY_API_KEY` is present (len 53) — this is a BILLING/QUOTA problem, not a missing key.
+- **Impact:** the Opportunity Scout (buy-side discovery) was BLIND this run and correctly ABORTED rather than fabricate prices/50dMA/catalyst dates (guardrail: never fabricate). Macro, Earnings, and Position analysts fell back to WebSearch and returned usable (if less citation-dense) data. **All research-dependent routines (pre-market, weekly review) will stay degraded until Perplexity billing is topped up.** Alpaca-dependent routines (portfolio snapshot, stops, close scorecard) are UNAFFECTED. Flagged to Lauren in messages.md + urgent Telegram push.
+
+### Market context (macro analyst, WebSearch fallback — Perplexity down)
+**Tape: RISK-ON (modest).** Overnight the US Treasury (Bessent) stepped up 10/20/30Y buybacks to cap runaway long-end yields — markets bought it and the long end pulled back. Offset by Trump's "economic D-Day" Iran/Strait-of-Hormuz threat keeping oil bid.
+- **Futures:** ES ~+0.16%, NQ ~+0.42% (leading), Dow ~flat, RUT +0.24% [SEMI].
+- **Global:** Nikkei +1.21%; Hang Seng ~flat; STOXX 600 ~−0.4% (stale) [SEMI/UNVERIFIED].
+- **Rates (the story):** 30Y ~5.19%, DOWN ~9bp off this week's 5.34% 19-yr high — still elevated but stress EASING on the buyback. 10Y ~4.65% (−5bp). 2Y ~4.17% [SEMI].
+- **FX/commodities:** DXY / gold / WTI exact levels UNVERIFIED this run (Perplexity gap); WTI elevated on Iran tension; BTC reportedly +10% to ~$70k on the liquidity move [SEMI].
+- **Calendar:** TODAY — weekly initial jobless claims 8:30 ET [VERIFIED]; S&P Global flash PMI likely this window [UNCONFIRMED]. **Jackson Hole CONFIRMED Aug 27–29 next week** — keynote Fri 8/28. NOTE/CORRECTION [SEMI, WebSearch-only, Perplexity down — TREAT AS UNCONFIRMED until re-verified]: sub-agent reports the Fed chair is now **Kevin Warsh** (Powell's term ended May 2026), delivering his first Jackson Hole keynote — flagged for re-verification, do not act on it beyond noting the next macro binary is next week.
+
+### Portfolio watch (position analyst — all sev 1, thesis intact→strengthening)
+- **JPM — sev 1.** No JPM-specific breaking 24h headline. Analyst tone constructive-not-new (WF $390 OW, Evercore $360, Citi $360, DB→Buy). Consensus ~Buy avg PT ~$375. Thesis ($50B buyback + div hike, Q2 beat) intact; next earnings ~Oct. Pre-open px ~357.30, +8.37%, trailing floor 329.85 (below hwm → no ratchet). Cushion ~7.7%.
+- **LLY — sev 1, STRENGTHENING.** JPMorgan (Schott) RAISED PT to **$1,400 from $1,300, Overweight, named LLY top pick** (Mounjaro intl + Zepbound US demand, expects another 2026 guide raise). LLY hit a **52-wk high 8/19**; oral weight-loss pill got **first European approval** (recent). No Novo shock; Novo's CagriSema underperformed tirzepatide H2H. Beat-and-raise (FY26 EPS $35.50–36.50) intact. Pre-open px ~1275, +5.39%; now on 10% trailing (floor 1152.468). Cushion ~9.6%.
+- **SPY — sev 1.** No structural ETF news (expense ratio ~0.0945%, no reconstitution/halt). Index-floor sleeve, no stop by policy. Pre-open ~768.36, −0.59%.
+
+Net open unrealized ≈ **+$1,575** (JPM +938.55, LLY +781.92, SPY −145.96). Sizes on equity $101,425.63: JPM 11.98%, LLY 15.09%, SPY 24.24% (index sleeve, exempt). Cash ~48.70%.
+
+### Buy candidates
+- **DE (Deere) — REPORTED Q3 BMO TODAY = BEAT & RAISED. RE-ENTRY CANDIDATE for the OPEN (do NOT chase the gap).** EPS **$5.10** vs ~$4.67–4.79 consensus (BEAT) [VERIFIED]; total net sales/revenue **$12.608B, +5% YoY** [VERIFIED]; net income $1.379B +7% [VERIFIED]; **FY2026 guidance RAISED** (~$4.75–5.0B net income) [VERIFIED raise, SEMI on low end]; Construction & Forestry op profit **+84%**, Small Ag & Turf +28%; mgmt called 2026 **"the bottom of the ag-equipment cycle"** [VERIFIED]. Signals: **#1 beat-and-raise (fresh, today)** + **#3 ag/onshoring secular tailwind + cycle-bottom** → 2 signals cleanly. This is the same DE thesis that STRENGTHENED one minute after our mechanical stop-out at Wed close (−$227.79). BUT per strategy + prior notes: must re-clear the **≥70 gate FRESH, not on nostalgia**, and **do NOT chase a post-earnings gap** — enter only on a confirmed base at a clean (non-extended) entry. Pre-market reaction UNVERIFIED (Alpaca last trade 580.64 = Wed close; prints at the open). **HANDOFF to market-open: verify actual open reaction + 50dMA extension; if it settles into a clean base and clears ≥70, a starter is in range; if it gaps and runs, WAIT — do not chase.** Low-beta industrial (NOT the ≤10% high-beta cap).
+- **ABBV (AbbVie) ~$266.10 (Wed close) — WATCHLIST, UNVERIFIED this run.** Prior ~70 borderline (Wolfe→Outperform PT$300 8/13; WF $300 8/17; Tavapadon "Q3 2026" + Skyrizi subcut "this fall"). Could NOT verify a hard <30d catalyst date or fresh analyst action this week (Perplexity down). Carry forward; do NOT treat the soft "Q3 2026" language as trigger-qualifying until a hard date is confirmed.
+- **COR (Cencora) — WATCHLIST/below gate (~63), UNVERIFIED this run.** 8/5 beat-and-raise now stale (>1 wk); no fresh 2nd catalyst confirmable. Needs Perplexity back.
+- **Consumer tape read (from earnings analyst, context not a buy):** WMT beat-and-raise (adj EPS $0.81 vs $0.74, rev $187.9B, FY27 raised) but soft US comps +2.6%; TGT raised; Estée Lauder big beat (+8–18%). Constructive consumer backdrop — no direct mandate name, but supportive of the broad tape / SPY floor.
+
+### Sell candidates
+- **NONE.** (a) No position at/through a stop (worst SPY −0.59%). (b) No +5% hard→trailing conversion pending (LLY already converted Wed close; JPM already trailing; SPY no stop). (c) Daily loss cap moot (pre-market, no trades). No VERIFIED thesis break on any holding — both convictions intact→strengthening.
+
+### Decision — NO TRADES
+Pre-market never trades (market closed). Cold-start/anti-paralysis SATISFIED — book is deployed (2 conviction + SPY floor, ~48.7% cash), not defaulting into cash; conviction sleeve 2/5 (three open slots), weekly conviction buys 0/3, plenty of dry powder. Buy-side discovery was BLIND this run (Perplexity quota) so no new name could be verified to ≥70 — that is a data-availability NO, not a conviction NO. The one genuinely strengthened idea is **DE's fresh beat-and-raise**, correctly deferred to the market-open routine to evaluate on a confirmed base (no gap-chase). Nothing forced.
+
+**Telegram:** PUSHED — API failure is on the urgent push list (this overrides the "pre-market scan = no push" rule; the outage blinds the buy-side and needs Lauren to top up billing). Also a heads-up that DE (which we just stopped out of) beat-and-raised.
+
+**Persistence:** overwrote portfolio.md (pre-open snapshot); prepended messages.md (teacher-voice pre-market plan + API-failure notice); overwrote dashboard/state.json (last_routine pre-market); prepended watchlist.md (DE re-entry candidate to top; ABBV/COR carry as unverified); prepended this research-log entry. No trade-log entry (no trades). Inbox nothing pending. Commit + push HEAD:main.
+
+**Next routine:** market-open Thu 8/20 09:30 ET — (1) **DE: verify actual open reaction + 50dMA extension; re-score to ≥70; enter a starter ONLY on a clean/confirmed base, NOT a gap-chase**; (2) confirm both trailing stops resting + ratchet check; (3) re-attempt ABBV/COR verification IF Perplexity restored (else WebSearch); (4) watch 8:30 ET jobless claims for tape tone. **If Perplexity still down at the open, say so again — buy-side stays degraded.**
+
+---
 ## 2026-08-19 08:33 CT — MARKET-OPEN (Wed) · NO TRADES · Market CONFIRMED OPEN · All 3 stops resting · DE = HOLD into Thu 8/20 print · ABBV DEFERRED to post-2pm-ET FOMC minutes · LLY +3.82% (~1.14% from +5% hard→trailing conversion)
 
 **Market state:** /v2/clock is_open:true, timestamp 09:32 ET, next_close 16:00 ET, next_open Thu 8/20 09:30 ET. Live marks. Inbox: nothing pending.
