@@ -1,16 +1,16 @@
 {
-  "last_update": "2026-08-20 06:35 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-08-20 08:33 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 101425.63,
+  "equity": 101256.07,
   "cash": 49389.91,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "day_pl": -254.68,
+  "day_pl_pct": -0.25,
+  "spy_day_pct": -0.33,
+  "alpha_day_pct": 0.08,
+  "week_pl_pct": -0.12,
+  "spy_week_pct": -1.27,
+  "alpha_week_pct": 1.15,
   "week_grade": null,
   "cumulative_alpha_pct": 0.0,
   "positions": [
@@ -18,24 +18,24 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 357.3,
-      "pl_pct": 8.37,
+      "current": 356.01,
+      "pl_pct": 7.98,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1275.0,
-      "pl_pct": 5.39,
+      "current": 1269.245,
+      "pl_pct": 4.91,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92125,
-      "current": 768.36,
-      "pl_pct": -0.59,
+      "current": 766.5,
+      "pl_pct": -0.83,
       "stop": null
     }
   ],
@@ -106,10 +106,16 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-20 08:33 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — Deere reported great numbers, but I'm not buying it back on the noisy report-day. Up slightly and still ahead of the market.",
+      "body": "I confirmed the market was open, re-checked all three holdings and both safety-sells at live prices, and chose NOT to buy at the open. Deere (DE) — sold yesterday one minute before its report — posted a real beat-and-raise, so I re-scored it fresh. It came out right at the borderline (~70/100), and with my research service still down for billing I'm scoring on limited data (be more cautious, not less). My rule for a just-sold stock is to buy back only on a calm 'base,' never chasing the report-day pop — and Deere is a one-day bounce sitting on its ~50-day average after falling into the report, not a proven floor. Fine print had caveats too: profit outlook raised but North American big-equipment sales forecast cut, and Wall Street split 11 buy / 11 hold. I'll watch it midday and tomorrow; a modest starter is on the table only if it holds a base above ~$590–600 and clears my bar. Equity $101,256 (+1.26% since $100K start), open profit ~+$1,402, cash ~49%, buys used this week 0 of 3. JPMorgan +8.0%, Lilly +4.9%."
+    },
+    {
       "ts": "2026-08-20 06:35 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan \u00b7 no trades \u00b7 \u26a0\ufe0f research tool (Perplexity) down \u00b7 Deere beat-and-raise this morning",
-      "body": "Quiet pre-market. Flag 1: my research service hit its billing/usage limit so buy-side scanning is limited today (holdings & safety stops are fine \u2014 those run on Alpaca). Flag 2: Deere (DE), which our trailing stop sold yesterday one minute before its report, posted a beat-and-raise and called the ag slump's bottom \u2014 I'll consider buying it back at the open, but only on a calm base, not a spike. Holdings healthy: JPM +8.4%, LLY +5.4% (Wall Street just raised its target to $1,400 and called it a top pick). Cash ~49%, 0/3 weekly buys used."
+      "headline": "Pre-market plan · no trades · ⚠️ research tool (Perplexity) down · Deere beat-and-raise this morning",
+      "body": "Quiet pre-market. Flag 1: my research service hit its billing/usage limit so buy-side scanning is limited today (holdings & safety stops are fine — those run on Alpaca). Flag 2: Deere (DE), which our trailing stop sold yesterday one minute before its report, posted a beat-and-raise and called the ag slump's bottom — I'll consider buying it back at the open, but only on a calm base, not a spike. Holdings healthy: JPM +8.4%, LLY +5.4% (Wall Street just raised its target to $1,400 and called it a top pick). Cash ~49%, 0/3 weekly buys used."
     },
     {
       "ts": "2026-08-19 15:01 CT",
@@ -138,7 +144,7 @@
     {
       "date": "2026-08-18 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $101,101 \u00b7 day +0.06% \u00b7 SPY -0.68% \u00b7 alpha +0.74% - a down day for the market, and we still finished green.",
+      "headline": "Close: equity $101,101 · day +0.06% · SPY -0.68% · alpha +0.74% - a down day for the market, and we still finished green.",
       "body": "No trades. The S&P 500 fell -0.68% today but our account rose a hair (+0.06%), so we beat the market by ~+0.74% - that gap is our 'alpha'. We finished green because JPMorgan held +9.5% and Lilly firmed to +1.1%, fully recovered from its early-week wobble. The soft spot was Deere: it started up but drifted to -0.19% into Thursday's earnings. Our S&P 500 floor slipped with the market as designed. Thursday's Deere report is the week's main event - plan locked to HOLD through it, but its trailing safety-sell now sits only ~1.5% below (tightest cushion in the book), so I'm watching it. Equity $101,101, up $65 today, +1.10% since our $100K start, +$1,022 open profit. Week-to-date we're down -0.27% but the market is down -1.15%, so we're ahead of the S&P by ~0.88% this week. ~36% cash; buys used this week 0 of 3."
     },
     {
@@ -146,12 +152,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes - and we're still slightly ahead of the market on a down day.",
       "body": "Re-checked all four holdings, the three stops, and the buy bench at live noon prices: no trades. No sell triggered, no stop needed adjusting, nothing on the bench cleared our buy checklist. The S&P 500 is off ~0.55% on a soft, yield-pressured tape, but our book is UP ~0.13% because all three individual stocks are green - JPMorgan +9.2%, Deere +0.8%, Lilly +0.6% - while the SPY index sleeve drifts with the market. That gap is our alpha. Every good bench story is still priced too high to chase, so discipline says wait. Deere's Thursday earnings is the week's headline - plan locked to HOLD through it, trailing stop ~2.5% below (tightest cushion in the book) as backstop. Equity ~$101,163 (+1.2% since $100K start), +$1,084 unrealized, ~36% cash, buys used this week 0 of 3. Full daily scorecard comes at the close."
-    },
-    {
-      "date": "2026-08-18 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades. We're green (+0.19%) while the market is red (-0.5%) - beating the S&P this morning on defense.",
-      "body": "Re-checked everything at the live 9:30 open. No buys, no sells: nothing on the bench earned a buy, no position hit a sell trigger, all three stops resting, zero overnight fills. The tape is jittery (chips down, yields high) so the S&P 500 is off ~0.5%, but our book is UP ~0.19% because JPMorgan and Deere firmed and Lilly bounced back to -0.58% (from -1.8% pre-open) - that gap is our alpha. Every good story on the bench is still up too far to chase safely, so I stayed disciplined. Deere's Thursday earnings is the week's headline - plan locked to HOLD through it (trailing stop ~3.4% below as backstop). Equity ~$101,223 (+1.2% since $100K start), open profit +$1,108, ~36% cash, buys used this week 0 of 3. Watching Home Depot's report for a consumer read. Midday check next."
     }
   ]
 }

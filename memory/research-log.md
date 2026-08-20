@@ -1,3 +1,54 @@
+## 2026-08-20 08:33 CT — MARKET-OPEN (Thu) · NO TRADES · Market CONFIRMED OPEN · DE beat-and-raise re-scored FRESH = ~70.1 BORDERLINE on degraded research → DEFERRED (no gap-chase, no confirmed base yet) · Both stops resting · ⚠️ Perplexity STILL DOWN (2nd routine)
+
+**Market state:** /v2/clock is_open:true, timestamp 09:32 ET, next_close 16:00 ET, next_open Fri 8/21 09:30 ET. Live marks. Inbox: nothing pending.
+
+**Account (live 09:32 ET):** equity $101,256.07, cash $49,389.91 (~48.78%), long_market_value $51,866.16 (~51.22%), buying_power $342,784.89, status ACTIVE, trading_blocked false. `last_equity` (Wed 8/19 close) $101,510.75 → intraday **−0.25%** (far from the −3% daily loss cap; new buys permitted).
+
+**Overnight/open orders:** zero fills, zero placements, zero cancels since the pre-market snapshot. Positions/qty unchanged.
+
+**Stops (open-orders nested=true, all RESTING/new — exactly 2 conviction stops, SPY zero):** JPM 10% trailing `8a937ff6` floor 329.85 / hwm 366.5, qty 34 (px 356.01 < hwm → no ratchet); LLY 10% trailing `d7eb221b` floor 1152.468 / hwm 1280.52, qty 12 (px 1269.245 < hwm → no ratchet). SPY — NO STOP by design. No stray/partial orders.
+
+### Positions (live 09:32 ET)
+| Sym | Qty | Avg | Px | P/L$ | P/L% | Stop | Cushion |
+|---|---|---|---|---|---|---|---|
+| JPM | 34 | 329.6956 | 356.01 | +894.69 | +7.98% | 10% trail floor 329.85 (hwm 366.5) | ~7.35% |
+| LLY | 12 | 1209.84 | 1269.245 | +712.86 | +4.91% | 10% trail floor 1152.468 (hwm 1280.52) | ~9.20% |
+| SPY | 32 | 772.9212 | 766.50 | −205.48 | −0.83% | NONE (index floor carve-out) | n/a |
+
+Net open unrealized ≈ **+$1,402.** Sizes on equity $101,256.07: JPM 11.95%, LLY 15.04%, SPY 24.22% (index sleeve, exempt). Cash 48.78%.
+
+### Benchmark (intraday indicative — official mark owned by market-close)
+Base Fri 8/14 close: portfolio $101,378.01 / SPY 776.34. Now: portfolio −0.12% WTD vs SPY −1.27% WTD (SPY $766.50) → **WTD alpha ≈ +1.15 pt (ahead).** Cumulative alpha since 5/29 base ≈ −0.2 pt.
+
+### ⚠️ API FAILURE — Perplexity STILL down (2nd consecutive routine, logged per guardrail)
+- POST https://api.perplexity.ai/chat/completions → HTTP 401 `insufficient_quota` ("You exceeded your current quota"). Reproduced on `sonar`. Key present (billing/quota problem, not missing key). Buy-side discovery remains degraded; used WebSearch fallback + primary-verified earnings for the DE re-score. Alpaca-dependent routines unaffected. Already flagged to Lauren pre-market (Telegram push); not re-pushing same-day for the same known outage.
+
+### Macro (WebSearch fallback, unchanged from pre-market)
+RISK-ON (modest): Treasury stepped up long-bond buybacks, 30Y ~5.19% off the week's 5.34% 19-yr high; 10Y ~4.65%. Jobless claims 8:30 ET. Jackson Hole Aug 27–29 next week = next binary. (Prior-run "chair = Warsh" note remains UNCONFIRMED — not acted on.)
+
+### Buy candidate — DE (Deere): re-scored FRESH, DEFERRED
+**Print VERIFIED (WebSearch + primary):** EPS **$5.10 vs est $4.45** (big beat); revenue **$12.608B vs est $10.916B** (big beat); net income $1.379B; **FY26 net-income guide RAISED to $4.75–5B (from $4.5–5B)**; C&F op profit +84%; mgmt called 2026 "the bottom of the ag-equipment cycle." **CAVEATS:** regional forecasts CUT — **NA large-equipment sales projected −15% to −20%** (the raise is partly margin/cost-driven, not end-demand turning). Analyst tone **SPLIT: 11 Strong Buy / 2 Moderate Buy / 11 Hold, Moderate Buy avg PT $650.73 (~+7%)** — NO fresh post-print upgrade wave (pre-print had trims: JPM $590→$570 Neutral, Evercore trim).
+- **Signals:** #1 fresh beat-and-raise (strong) + #3 ag-cycle-bottom secular (moderate, undercut by the regional cut) = **2 signals, meets the minimum.** #6 uptrend is BORDERLINE (DE declined 619→580 into the print; today is a day-1 bounce back to trend, not a clear uptrend).
+- **Technical:** 50dMA (thru 8/19, Alpaca IEX daily closes) = **$602.28.** DE live ~$596–604 = **−1.0% to +0.3% vs 50dMA = right AT trend, NOT extended** (also not a fresh low). So it is NOT a "chase far above trend" — but it IS a print-day day-1 bounce, i.e. no confirmed base yet.
+- **Fresh Conviction (Perplexity DOWN → degraded, WebSearch-only):** Fund 74 · Thesis 70 · Sent 64 · Risk 72 · Tech 68 → **0.30·74 + 0.30·70 + 0.20·64 + 0.12·72 + 0.08·68 = ~70.1 (borderline B+).**
+- **DECISION: DEFER (no buy).** A borderline ~70 — computed on DEGRADED research (can't run the full multi-agent scan the ≥70 gate is designed around), with SPLIT sentiment and a quality-caveated guide — bought into **print-day day-1 volatility (bid 565 / ask 634 wide IEX spread)** is exactly the nostalgia/gap-chase the strategy + the pre-market handoff warn against for a name we stopped out of *yesterday*. The written rule for DE is explicit: **"enter ONLY on a confirmed base, do NOT chase the post-earnings gap."** Print-day is definitionally not a confirmed base. Zero cost to waiting: book is deployed (2 conviction + SPY floor, ~48.8% cash — cold-start rule satisfied, not defaulting into cash), 3 open slots, weekly buys 0/3.
+
+### Other candidates
+- **ABBV ~70 borderline / COR ~63** — WATCHLIST, UNVERIFIED (Perplexity down). Need fresh 2-signal + ≥70 re-check on restored research.
+
+### Sell candidates — NONE
+- (a) No position at/through a stop (worst SPY −0.83%). (b) No +5% hard→trailing conversion pending (LLY already converted Wed close; JPM already trailing; SPY no stop by policy). (c) Daily loss cap moot (intraday −0.25%, no trades). No VERIFIED thesis break — both convictions intact→strengthening.
+
+### Decision — NO TRADES
+No buy (DE deferred to a confirmed base + restored research; nothing else clears). No sell (no trigger). No stop change (both resting below hwm, no ratchet; no conversion pending). Disciplined patience, not paralysis — deployed book, dry powder, top idea correctly parked for a cleaner entry.
+
+**Telegram:** NOT pushed — market-open with no trades is not on the push list; the Perplexity outage was already pushed pre-market this morning (no same-day duplicate for the same known outage). Daily mandatory "how we're doing" update is owned by market-close.
+
+**Persistence:** overwrote portfolio.md (live snapshot); prepended messages.md (teacher-voice market-open); overwrote dashboard/state.json (last_routine market-open); prepended watchlist.md (DE top as NEAR-TRIGGER, ~70 borderline, deferred); prepended this research-log entry. No trade-log entry (no trades). Inbox nothing pending → nothing to move. Commit + push HEAD:main.
+
+**Next routine:** midday Thu 8/20 — re-check DE for a base holding above ~$590–600 (if it clears ≥70 on restored research + confirmed base → low-beta B+ starter 10–15% in range); confirm both trailing stops resting + ratchet check; re-attempt ABBV/COR verification IF Perplexity restored (else WebSearch); watch the tape. **If Perplexity still down, say so again — buy-side stays degraded.**
+
+---
 ## 2026-08-20 06:35 CT — PRE-MARKET (Thu) · NO TRADES (market closed) · ⚠️ PERPLEXITY API DOWN (quota) — buy-side scan blind, WebSearch fallback used · DE reported BMO = BEAT & RAISED (re-entry candidate for open, do NOT chase gap) · Both stops resting · Positions intact→strengthening
 
 **Market state:** /v2/clock is_open:false, timestamp 07:12 ET, next_open Thu 8/20 09:30 ET. Pre-open indicative marks (reset at the open). Inbox: nothing pending.
