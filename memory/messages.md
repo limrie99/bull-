@@ -1,3 +1,23 @@
+## 2026-08-20 15:05 CT · market-close
+
+**Close: equity $100,698 · day −0.80% · SPY −0.84% · alpha +0.04% — a down day for the whole market, and we finished a hair better than it.**
+
+Here's the plain-English scorecard: we're down about $813 today (−0.80%), but the S&P 500 fell a touch more (−0.84%), so we still edged the market by a sliver. Nothing broke — this was just a broadly red day, and every one of our three holdings drifted down with it. We made no trades.
+
+**Why we're down but not worried:**
+- It was mark-to-market only — the market dipped and our stocks dipped with it. JPMorgan is still up +6.6%, Eli Lilly +3.0%, and our S&P 500 "market-floor" fund (the piece of the account that just tracks the whole index) fell with the index by design. Open profit is still about +$848.
+- The Deere story got its final chapter. Our safety-sell (a "trailing stop" — an auto-sell that follows a stock up and cashes out if it falls too far from its peak) sold Deere yesterday, one minute before earnings. Today the stock jumped ~+9% on a strong report. Frustrating on paper — but buying it back now means chasing a one-day spike far above its normal price, exactly the mistake I refuse to make. I'll only re-look if it calms down and builds a floor near ~$600–615.
+- Zooming out to the week, we're down −0.67% while the market is down −1.77% — so we're **ahead of the S&P 500 by ~1.1 points this week.** On red weeks, our calmer mix (two quality stocks plus the index fund) is meant to lose less, and it is.
+
+**Heads-up:** my research tool (Perplexity) is still down for a billing/usage limit — 4th check in a row. Our holdings, safety-sells, and this close all run on the trading system (Alpaca) and are unaffected, but I can't run a full fresh hunt for new stocks until it's topped up. Worth a look when you get a chance.
+
+**What I'm watching tomorrow (Fri):** whether Deere settles into a base, whether the research tool comes back, and any new high in JPMorgan or Lilly that would let me raise their safety-nets. Next week's Fed gathering in Jackson Hole (Aug 27–29) is the next big market event.
+
+**Numbers I care about:**
+- Equity $100,698 — still **+0.70%** since our $100K start; open profit ~+$848.
+- Cash ~49% ($49.4K) — plenty of dry powder; we've used 0 of our 3 allowed buys this week.
+- JPMorgan +6.6%, Lilly +3.0% — both on rising trailing safety-nets; nothing anywhere near a stop.
+
 ## 2026-08-20 12:02 CT · midday
 
 **Midday: steady, no changes — and the Deere twist got a punchline. We're basically flat on the day and still a bit ahead of the market.**

@@ -48,6 +48,19 @@ No buy (DE deferred to a confirmed base + restored research; nothing else clears
 
 **Next routine:** midday Thu 8/20 — re-check DE for a base holding above ~$590–600 (if it clears ≥70 on restored research + confirmed base → low-beta B+ starter 10–15% in range); confirm both trailing stops resting + ratchet check; re-attempt ABBV/COR verification IF Perplexity restored (else WebSearch); watch the tape. **If Perplexity still down, say so again — buy-side stays degraded.**
 
+
+### Day summary (MARKET-CLOSE 2026-08-20 15:05 CT) — appended to today's entry
+- **Closing equity:** $100,698.21 (official /v2/account close mark). Cash $49,389.91 (49.05%), long_market_value $51,308.30 (50.95%).
+- **Day P/L:** **−$812.54 / −0.80%** (vs Wed 8/19 close last_equity $101,510.75).
+- **SPY day:** **−0.84%** (Wed close 769.09 → Thu close 762.62, Alpaca IEX 1D bars). **Day alpha +0.04 pt** — we edged the market on a broad down day (both down ~0.8%; entire move is mark-to-market on the 3 positions, no trades, cash flat).
+- **WTD (base Fri 8/14 close port $101,378.01 / SPY 776.30):** portfolio −0.67% vs SPY −1.77% → **WTD alpha +1.10 pt (ahead).**
+- **Trades placed today:** NONE. (DE was stopped out Wed 8/19; today it printed and ripped +9% post-earnings — correctly NOT re-bought as a gap-chase.)
+- **Positions at close:** JPM +$743.05 (+6.63%, close 351.55), LLY +$429.84 (+2.96%, close 1245.66), SPY −$324.52 (−1.31%, close 762.78). Net open unrealized ≈ **+$848.**
+- **Stops:** JPM 10% trailing floor 329.85 / hwm 366.5 (no ratchet, 351.55 < hwm); LLY 10% trailing floor 1152.468 / hwm 1280.52 (no ratchet, 1245.66 < hwm); SPY no stop by policy. Both resting/new, no fills.
+- **What worked:** (1) Discipline on DE — refusing the +9% gap-chase kept us out of a stretched entry; the stop-out one minute before the print was mechanical, not a stock-picking miss. (2) WTD alpha held at +1.10 pt — the book is defending the lead on down days, which is exactly what a lower-beta conviction+index mix should do.
+- **What didn't:** (1) Broad market down day dragged all three marks; JPM/LLY gave back a little intraday gain, SPY sleeve fell with the index (−$324 on the day is by design — the floor tracks the benchmark down as well as up). (2) Buy-side still degraded — 4th routine with Perplexity down means no fresh multi-agent scan; we cannot originate a new conviction name confidently until research is restored.
+- **Open questions for tomorrow (pre-market Fri 8/21):** (a) Does DE start building a base near ~$600–615, or keep running? Only re-consider on a base AND restored research. (b) Is Perplexity billing topped up? If still down, buy-side stays degraded — flag again. (c) Any JPM/LLY new high to ratchet the trailing floor? (d) Jackson Hole Aug 27–29 is the next macro binary — no fresh beta initiated into it.
+
 ---
 ## 2026-08-20 06:35 CT — PRE-MARKET (Thu) · NO TRADES (market closed) · ⚠️ PERPLEXITY API DOWN (quota) — buy-side scan blind, WebSearch fallback used · DE reported BMO = BEAT & RAISED (re-entry candidate for open, do NOT chase gap) · Both stops resting · Positions intact→strengthening
 
