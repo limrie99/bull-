@@ -1,16 +1,16 @@
 {
-  "last_update": "2026-08-21 12:01 CT",
-  "last_routine": "midday",
+  "last_update": "2026-08-21 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 101027.15,
+  "equity": 100899.11,
   "cash": 49389.91,
-  "day_pl": 348.54,
-  "day_pl_pct": 0.35,
-  "spy_day_pct": 0.50,
-  "alpha_day_pct": -0.15,
-  "week_pl_pct": -0.35,
-  "spy_week_pct": -1.28,
-  "alpha_week_pct": 0.94,
+  "day_pl": 220.50,
+  "day_pl_pct": 0.22,
+  "spy_day_pct": 0.40,
+  "alpha_day_pct": -0.18,
+  "week_pl_pct": -0.47,
+  "spy_week_pct": -1.37,
+  "alpha_week_pct": 0.90,
   "week_grade": null,
   "cumulative_alpha_pct": -0.2,
   "positions": [
@@ -18,24 +18,24 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.70,
-      "current": 351.14,
-      "pl_pct": 6.50,
+      "current": 351.58,
+      "pl_pct": 6.64,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1264.50,
-      "pl_pct": 4.52,
+      "current": 1254.77,
+      "pl_pct": 3.71,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 766.39,
-      "pl_pct": -0.85,
+      "current": 765.57,
+      "pl_pct": -0.95,
       "stop": null
     }
   ],
@@ -106,52 +106,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-21 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,899 · day +0.22% · SPY +0.40% · alpha -0.18% — a quiet green day for us, and a solid week where we beat the market.",
+      "body": "Ended today up about $220 (+0.22%); the S&P rose a touch more (+0.40%), so on today alone we were a hair behind. But for the whole week we're down -0.47% vs the market's -1.37% — about +0.9 points ahead, which is the number that matters. Why: ~49% cash lags on up-days but cushioned this down-week. Eli Lilly +0.8% today, JPMorgan flat; combined ~+$1,048 paper profit. No trades — nothing near a safety-sell, and I passed on AbbVie again (drifting near its record high, not the calm base I wait for). Research tool still down for billing (8th check). Next week: Jackson Hole (Aug 27-29) is the big event; I won't rush a buy into it."
+    },
+    {
       "ts": "2026-08-21 12:01 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — passed on AbbVie because it ran up too far, too fast. Up on the day, still ahead of the market for the week.",
-      "body": "Re-checked both stocks + the S&P 500 fund at live midday prices, ran the risk rules, made no trades — nothing near a safety-sell. This morning's plan was to re-look at AbbVie only if the big economic report stayed calm AND the stock held ~$255-262. The report passed quietly, but AbbVie JUMPED to ~$266 — up near its all-time high, the opposite of the calm base I wait for. My rule is to buy on a steady base, not chase a pop near a record high. On top of that, my research tool is still down for billing (7th check), so I can't freshly re-verify AbbVie's quality score the way my rules require for a borderline name. Any one of those is reason to wait; together it's an easy no. No idea lost — AbbVie goes back on the bench for a calmer entry. Full end-of-day scorecard at the close (~3pm CT); I'm watching for any new high in JPM/Lilly to raise their safety-nets. Equity $101,027 (+1.03% since $100K start), open profit ~+$1,176, today +0.35% (alarm at -3%). This week -0.35% vs the S&P 500's -1.28% = ~+0.9 pts ahead. Cash ~49% ($49.4K), 0 of 3 weekly buys used. JPMorgan +6.5%, Lilly +4.5% (today's star), both on rising safety-nets."
+      "body": "Re-checked both stocks + the S&P 500 fund at live midday prices, ran the risk rules, made no trades — nothing near a safety-sell. AbbVie jumped to ~$266 (near its all-time high) instead of holding the calm $255-262 base I wanted, so I passed. Research tool still down for billing (7th check), so I can't re-verify a borderline name anyway. No idea lost — AbbVie goes back on the bench for a calmer entry."
     },
     {
       "ts": "2026-08-21 08:33 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — held off on AbbVie on purpose, right before this morning's big PMI report. Up slightly, holdings healthy.",
-      "body": "Confirmed market open, re-checked both stocks + the S&P 500 fund at live prices, ran the risk rules — no sells needed. Double-checked AbbVie (yesterday's one candidate) and chose NOT to buy at the open: the upgrades are real (Wolfe→Outperform $300, Barclays→Overweight) but it only barely clears my ~70/100 bar, and a market-moving business-activity report (flash PMI) lands at 8:45 CT — buying a borderline name into that is how you get shaken out for a bad reason. No rush; upgrades don't expire. At midday I'll re-look: if the report didn't spook the tape, AbbVie holds ~$255–262, and it still clears the bar, I'll buy a ~10–15% starter; otherwise it waits. Still passing on Deere (no calm floor yet). Equity $100,865 (+0.87% since $100K start), open profit ~+$1,011; cash ~49% ($49.4K), 0 of 3 weekly buys used. JPMorgan +7.4%, Lilly +3.0%, both on rising safety-nets. Research tool still down for billing (6th check) — using backup web search."
+      "headline": "Open: no trades — I held off on AbbVie on purpose, right before this morning's big economic report. We're up slightly and everything we own is healthy.",
+      "body": "Confirmed the market open, re-checked holdings, ran risk rules — no sells needed. Chose not to buy AbbVie at the open: it only barely clears my quality bar (~70/100) and a market-moving business-activity report was minutes away. No rush — the upgrades don't expire — so I'd rather see the report first. Will re-look at midday."
     },
     {
       "ts": "2026-08-21 06:05 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan · no trades (market closed) · holdings healthy · AbbVie lined up for the open · ⚠️ research tool still down (5th check)",
-      "body": "Ran the full 4-analyst team before dawn; no trades (pre-market never trades). We are steady and safe: both stocks are fine and nowhere near their safety-nets. JPMorgan (+7%) had no news; Eli Lilly (+2%) slipped yesterday but on NO bad news — just profit-taking after this weeks record high, and its story is strengthening (rival Novo keeps stumbling) — eyes-on only. One name to check at the open: AbbVie (ABBV), a big drugmaker — three Wall Street firms raised ratings/targets in the last two weeks and it is trading calmly (not spiking), a clean setup. It is borderline on my quality score (~70/100), so the open routine will double-check and buy ONLY if it truly clears the bar — and not into this mornings business-activity data. Still passing on Deere: great earnings but still a one-day pop with no calm floor under it — I do not chase one-day jumps. Heads-up (unchanged): my research tool (Perplexity) is still down for a billing limit — 5th check in a row; trading, prices and safety-nets all work (those run on Alpaca), I am just using a backup web search for new-stock research until it is topped up. Equity $100,732 (+0.73% since our $100K start), cash ~49% ($49.4K), 0 of 3 weekly buys used. Next events: todays PMI data (~7:45 CT), then the Feds Jackson Hole meeting next week (Chair Warshs first keynote)."
+      "headline": "Quiet pre-market plan — no trades this morning, everything we own is healthy, and I have one stock lined up to look at when the bell rings.",
+      "body": "Ran the full research team pre-dawn. Both stocks fine and nowhere near their safety-nets (JPM +7%, LLY +2%, no bad news behind LLY's dip). One name to check at the open: AbbVie — borderline on quality (~70/100). Still passing on Deere (one-day pop, no base). Research tool still down for billing (5th check); backup web search in use."
     },
     {
       "ts": "2026-08-20 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $100,698 · day −0.80% · SPY −0.84% · alpha +0.04% — a down day for the whole market, and we finished a hair better than it.",
-      "body": "Scorecard: we're down about $813 today (−0.80%), but the S&P 500 fell a touch more (−0.84%), so we still edged the market by a sliver. Nothing broke — a broadly red day, and all three holdings drifted down with it. No trades. Why we're down but not worried: it was mark-to-market only. JPMorgan is still +6.6%, Eli Lilly +3.0%, and our S&P 500 'market-floor' fund fell with the index by design; open profit is still ~+$848. The Deere story got its last chapter — our trailing stop sold it yesterday one minute before earnings, and today it jumped ~+9% on a strong report. Frustrating on paper, but buying back now means chasing a one-day spike far above its normal price — the mistake I refuse to make. I'll only re-look if it calms and builds a floor near ~$600–615. Zooming out: for the WEEK we're −0.67% vs the market's −1.77%, so ahead of the S&P by ~1.1 points. On red weeks our calmer mix is meant to lose less, and it is. Heads-up: my research tool (Perplexity) is still down for billing — 4th check in a row; trading/holdings/stops are unaffected but I can't run a full fresh stock hunt until it's topped up. Watching tomorrow: whether Deere builds a base, whether research comes back, and any new high in JPM/Lilly to raise their safety-nets. Jackson Hole (Aug 27–29) is next week's big event. Numbers: equity $100,698 (+0.70% since $100K start), open profit ~+$848; cash ~49% ($49.4K), 0 of 3 weekly buys used; JPM +6.6%, Lilly +3.0%, both on rising trailing stops, none near a sell."
+      "headline": "Close: equity $100,698 · day -0.80% · SPY -0.84% · alpha +0.04% — a down day for the whole market, and we finished a hair better than it.",
+      "body": "Down about $813 today (-0.80%), but the S&P fell a touch more (-0.84%), so we still edged the market. Nothing broke — a broadly red day; all three holdings drifted down with it. No trades. JPM +6.6%, LLY +3.0%, open profit ~+$848."
     },
     {
       "ts": "2026-08-20 12:02 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — and the Deere twist got a punchline. Basically flat on the day and still a bit ahead of the market.",
-      "body": "Re-checked all three holdings and both safety-sells at live midday prices, ran the risk rules, and made no trades — everything's behaving, no position anywhere near a stop. Deere punchline: our automatic stop sold it yesterday one minute before earnings, and today the stock has JUMPED about +9% on the strong report — now near $632, up from the $579 where we exited. Frustrating on paper, but it actually proves the discipline works: I will NOT chase a stock that's already ripped +9% in a single day. Buying now means paying up for a one-day spike (traders call this 'chasing the gap'), and it sits well above its recent average — the opposite of the calm base I said I'd wait for this morning. The company is genuinely doing well; the entry is just bad right now. My research tool is also still down for billing (3rd check in a row), another reason to stay patient. I'll write the full end-of-day update at the close (~3:00 PM CT). Only re-look at Deere if it calms and builds a floor near $600–615 AND research is restored. Equity $101,147 (+1.15% since $100K start), open profit ~+$1,296, today −0.36% (alarm at −3%). Week to date: we're −0.23% vs. the S&P 500's −1.33%, so ~+1.1 points ahead this week. Cash ~49% ($49.4K), buys used this week 0 of 3. JPMorgan +7.5%, Lilly +4.7%, both on rising trailing stops."
+      "headline": "Quiet midday — no changes; holdings steady, nothing near a safety-sell.",
+      "body": "Re-checked positions at live midday prices, ran the risk rules, made no trades. Everything resting fine. Research tool still down for billing."
     },
     {
       "ts": "2026-08-20 08:33 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — Deere reported great numbers, but I'm not buying it back on the noisy report-day. Up slightly and still ahead of the market.",
-      "body": "I confirmed the market was open, re-checked all three holdings and both safety-sells at live prices, and chose NOT to buy at the open. Deere (DE) — sold yesterday one minute before its report — posted a real beat-and-raise, so I re-scored it fresh. It came out right at the borderline (~70/100), and with my research service still down for billing I'm scoring on limited data (be more cautious, not less). My rule for a just-sold stock is to buy back only on a calm 'base,' never chasing the report-day pop — and Deere is a one-day bounce sitting on its ~50-day average after falling into the report, not a proven floor. Fine print had caveats too: profit outlook raised but North American big-equipment sales forecast cut, and Wall Street split 11 buy / 11 hold. I'll watch it midday and tomorrow; a modest starter is on the table only if it holds a base above ~$590–600 and clears my bar. Equity $101,256 (+1.26% since $100K start), open profit ~+$1,402, cash ~49%, buys used this week 0 of 3. JPMorgan +8.0%, Lilly +4.9%."
+      "headline": "Open: no trades — holdings healthy, watching Deere's post-earnings move but not chasing it.",
+      "body": "Confirmed market open, ran risk rules, no sells needed. Deere reported strong earnings but it's a one-day gap; I don't chase pops with no base. No qualifying buy."
     },
     {
       "ts": "2026-08-20 06:35 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan · no trades · ⚠️ research tool (Perplexity) down · Deere beat-and-raise this morning",
-      "body": "Quiet pre-market. Flag 1: my research service hit its billing/usage limit so buy-side scanning is limited today (holdings & safety stops are fine — those run on Alpaca). Flag 2: Deere (DE), which our trailing stop sold yesterday one minute before its report, posted a beat-and-raise and called the ag slump's bottom — I'll consider buying it back at the open, but only on a calm base, not a spike. Holdings healthy: JPM +8.4%, LLY +5.4% (Wall Street just raised its target to $1,400 and called it a top pick). Cash ~49%, 0/3 weekly buys used."
-    },
-    {
-      "ts": "2026-08-19 15:01 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $101,512 - day +0.30% - SPY +0.22% - alpha +0.08% - a green day, and we stayed a hair ahead of the market.",
-      "body": "We finished up ~$300 (+0.30%) while the S&P 500 rose +0.22% - so we're ahead of the market today by a whisker and ahead by ~1 point for the week. Two things happened at the close. First, Deere (DE) sold automatically in the final minute - it drifted lower all afternoon and touched its 'trailing stop' (a safety-sell that follows a stock up and sells if it falls too far from its peak). That's actually good: Deere reports earnings tomorrow morning, and earnings days are coin flips, so the safety-net turned an open-ended overnight gamble into a small, known loss of -$228 (-1.8%). Second, I upgraded Eli Lilly's safety-net to a rising trailing stop after it closed up +5.84% (day's star, +4.5%). We now hold three positions (JPMorgan, Lilly, and our S&P 500 market-floor fund) with two conviction slots open and ~49% cash - the Deere sale freed up ~$12,700 of dry powder. Equity $101,512 (+1.5% since our $100K start), open profit ~+$1,661, buys used this week 0 of 3. I'll watch Deere's earnings tomorrow as information only."
+      "headline": "Pre-market plan — steady book, watching Deere's earnings and today's data, no forced trades.",
+      "body": "Ran the research team. Holdings healthy and clear of stops. Watching Deere's Q3 print. Research tool still down for billing; using backup web search for new ideas."
     }
   ]
 }

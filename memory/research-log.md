@@ -6712,3 +6712,26 @@ Net unrealized +$1,176.03.
 - Telegram: midday quiet check per CLAUDE.md rules → do NOT push.
 
 **Next:** market-close (~15:00 CT Fri 8/21). Close owns the mandatory "How we're doing" daily update (dashboard + Telegram push, non-negotiable) AND the official WTD/weekly benchmark lock. Watch for any JPM/LLY new high to ratchet the trailing stops; nothing near a floor now.
+
+**Day summary (market-close 2026-08-21 15:05 CT / 16:01 ET — OFFICIAL close mark):**
+- **Closing equity $100,899.11**, cash $49,389.91 (48.95%), long_mv $51,509.20. status ACTIVE, buying_power $341,785.40.
+- **Day P/L +$220.50 / +0.22%** (last_equity Thu 8/20 close $100,678.61 → today $100,899.11; confirmed via /v2/account and portfolio/history, today's bar not yet in the 5D array so used last_equity).
+- **SPY day +0.40%** (daily bars: 8/20 close 762.62 → 8/21 close 765.64; latest trade 765.54, position current_price 765.57). **Alpha_day −0.18 pt.**
+- **WTD (base Fri 8/14 close, portfolio/history base_value_asof 8/14 = $101,378.01): portfolio −0.47%** ($101,378.01 → $100,899.11, −$478.90). **SPY WTD −1.37%** (776.30 → 765.64). **Alpha_WTD +0.90 pt — ahead for the week** (the mandate metric).
+- **Cumulative alpha since 5/29 base ≈ −0.2 pt (indicative)** — weekly-review routine locks official.
+- **Trades placed today: NONE.** /v2/orders?status=closed&after=2026-08-21 returned []. No risk trigger, no qualifying/verifiable buy.
+- **Stops (nested=true): both resting, neither at hwm → no ratchet.** JPM 8a937ff6 (hwm 366.5, floor 329.85, close 351.58, cushion ~6.18%); LLY d7eb221b (hwm 1280.52, floor 1152.468, close 1254.77, cushion ~8.15%). SPY unencumbered by design.
+- **Positions at close:** JPM 34 @ 329.695588, px 351.58, +$744.07 (+6.64%), ~flat on day. LLY 12 @ 1209.84, px 1254.77, +$539.16 (+3.71%), +0.83% today (gave back part of its +1.6% midday pop). SPY 32 @ 772.921250, px 765.57, −$235.24 (−0.95%), +0.39% today. Net unrealized +$1,047.99.
+
+**What worked:**
+- The ~49% cash cushion + LLY did their job on a mildly-up-then-flat week: we're −0.47% WTD vs SPY −1.37%, i.e. +0.90 pt of alpha for the week despite being a hair behind on today's single up-day.
+- Discipline on ABBV held all day — declined a borderline (~70) name chasing toward its 52-wk high on blind research. No regret trade forced.
+
+**What didn't / concerns:**
+- Down-alpha on the single day (−0.18 pt): the cash drag shows on any up-day; it's the same double-edged sword that helps on down-days. Structural, not a stock-pick miss.
+- **Perplexity 401 for the 8th straight routine** — buy-side research remains blind; borderline names (ABBV) cannot be re-verified to the ≥70 gate. Real degradation; needs a billing top-up.
+
+**Open questions for Monday / next week:**
+- Does ABBV pull back into a real $255–262 base (re-look candidate) or keep drifting toward ATH (stays benched)?
+- Perplexity billing: still down? If not restored by the Mon pre-market, buy-side stays on backup web-search only.
+- Jackson Hole Aug 27–29 (Warsh's first keynote ~Fri 8/28) is next week's binary — size/timing of any new buy should respect it (don't initiate fresh into the print).

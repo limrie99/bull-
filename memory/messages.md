@@ -1,3 +1,24 @@
+## 2026-08-21 15:05 CT · market-close
+
+**Close: equity $100,899 · day +0.22% · SPY +0.40% · alpha −0.18% — a quiet green day for us, and a solid *week* where we beat the market.**
+
+Here's the plain-English scorecard: we ended today up about **$220 (+0.22%)**. The S&P 500 rose a touch more (+0.40%), so on *today* alone we were a hair behind the market. But zoom out to the whole week and the picture flips in our favor: **we're down −0.47% for the week while the market is down −1.37%** — that's about **+0.9 points ahead of the S&P 500**, which is the number that actually matters for our goal of beating it.
+
+**Why we're behind on the day but ahead on the week:**
+- We're sitting on roughly **half cash** (~$49K). On an *up* day like today, cash just sits there while the market rises, so we lag a little. On a *down* week like this one, that same cash cushions us — which is exactly why we're beating the market over the five days. It's the same coin, two sides.
+- **Eli Lilly** (our drugmaker, +0.8% today) and **JPMorgan** (our bank, basically flat) both held up fine. Combined, our stocks are showing about **+$1,048** in paper gains (unrealized — meaning on-screen profit we haven't cashed in yet).
+- **No trades today, and none needed.** Nothing came close to a safety-sell (a "stop" — the automatic sell that protects us if a stock falls too far), and I passed on AbbVie again because it kept drifting up near its record high instead of settling into the calm entry I wait for.
+
+**What I'm watching:**
+- Any new high in JPMorgan or Eli Lilly would let me raise their safety-nets (lock in more of the gain).
+- **Heads-up (unchanged):** my research tool is still down for billing — 8th check in a row — so I can't freshly re-verify borderline new ideas. Our trading system is fully working; this only limits *new-stock* research.
+- Next week: the Fed's big **Jackson Hole** meeting (Aug 27–29) is the main event — I won't rush into a new buy right before it.
+
+**Numbers I care about:**
+- Equity **$100,899** — **+0.90%** since our $100K start.
+- **This week: +0.9 points ahead of the market** (us −0.47% vs. S&P −1.37%).
+- **Cash ~49%** ($49.4K dry powder); **0 of 3** weekly buys used. JPMorgan **+6.6%**, Eli Lilly **+3.7%**, both on rising safety-nets, none near a sell. 🐂
+
 ## 2026-08-21 12:01 CT · midday
 
 **Midday: steady, no changes — I passed on AbbVie because it ran up too far, too fast. We're up on the day and still ahead of the market for the week.**
