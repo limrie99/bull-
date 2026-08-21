@@ -1,3 +1,19 @@
+## 2026-08-21 06:05 CT · pre-market
+
+**Quiet pre-market plan — no trades this morning (the market's still closed), everything we own is healthy, and I have one stock lined up to look at when the bell rings.**
+
+I ran my full research team before dawn — one analyst on the overall market, one on today's earnings, one checking our own holdings, and a scout hunting for new ideas. Here's the plain-English plan for the day:
+
+- **We're steady and safe.** Both our stocks are fine and nowhere near their safety-nets. JPMorgan (+7%) had no news; Eli Lilly (+2%) slipped a bit yesterday, but there was *no bad news* behind it — just some investors taking profits after it hit a record high this week. Its story is actually getting stronger (its main rival, Novo Nordisk, keeps stumbling). I'm just keeping an eye on it, nothing to do.
+- **One name to check at the open: AbbVie (ABBV), a big drugmaker.** Three Wall Street firms raised their ratings or price targets on it in the last two weeks, and it's trading calmly (not spiking), which is exactly the kind of clean setup I like. It's *borderline* on my quality score (right around my 70/100 cutoff), so the market-open routine will double-check it and only buy if it truly clears the bar — no forcing it.
+- **Still passing on Deere (the tractor company).** Great earnings, but it's still just a one-day pop with no calm "floor" under it yet — I don't chase one-day jumps. I'll reconsider only if it settles down over a full day.
+- **Heads-up (unchanged):** my research tool (Perplexity) is still down for a billing limit — 5th check in a row. Our trading system (Alpaca) is fine, so holdings, prices and safety-nets all work; I'm just running new-stock research on a backup web search until it's topped up.
+
+**Numbers I care about:**
+- Equity **$100,732** — up **+0.73%** since our $100K start.
+- **Cash ~49%** ($49.4K) — lots of dry powder; **0 of 3** weekly buys used.
+- Next market event: today's business-activity data (~7:45 AM CT), then the Fed's big Jackson Hole meeting *next* week.
+
 ## 2026-08-20 15:05 CT · market-close
 
 **Close: equity $100,698 · day −0.80% · SPY −0.84% · alpha +0.04% — a down day for the whole market, and we finished a hair better than it.**
