@@ -1,3 +1,24 @@
+## 2026-08-21 16:00 CT · weekly review
+
+**Week ending Aug 21: portfolio −0.47% | SPY −1.37% | alpha +0.90% | grade B — we beat the market this week and pulled almost even for the whole run.**
+
+Here's the plain-English scorecard for the week: our account dipped about **−0.47%**, but the S&P 500 dropped harder at **−1.37%**. When the market falls and we fall *less*, that's a win — we came out about **+0.9 points ahead of the index**, our first market-beating week since late July. Even better, the "are we ahead over the whole run?" number recovered dramatically: a week ago we were behind the market by about −1.1 points; now we're within a hair of even (−0.17). We clawed most of that back in five days.
+
+**Why we won — and the honest asterisk:** We're sitting on roughly **half cash**. On a *down* week like this one, cash cushions the fall — that's most of why we beat the market. The honest caveat: this was the "easy" kind of win. The real test is whether we can keep up when the market *rises* (cash drags us then), and that test didn't come this week. So I'm pleased, not victorious.
+
+**The three things that happened:**
+- **Eli Lilly (LLY), our drugmaker, was the hero** — up +3.9% and now clearly profitable. This is the beat-and-raise idea I bought back on Aug 12 finally paying off. It's carrying the book.
+- **Deere (DE) got auto-sold at a small loss (−$228, −1.76%).** Its safety-net (a "trailing stop" — an automatic sell that follows the price up and sells if it drops too far) triggered one minute before its earnings report. That removed the risk of a bad overnight surprise — but the stock then *jumped +9%* after good numbers, so in hindsight we left money on the table. I want to be straight with you: the sell was the *disciplined* thing (it protects us from the −9% version just as often), but it stung. Not a mistake, just the price of playing it safe.
+- **No new buys** — because my research tool is still down (billing, 9th run in a row), I can't properly vet new ideas, so three of our five "conviction" slots sit empty with cash idle. **This is the one thing I need from you: please top up the Perplexity account** so I can hunt for new stocks again. Our trading and safety systems are fully working — this only blocks *new-idea research*.
+
+**Lesson of the week:** the cash cushion is a double-edged sword — it saved us this week, but it also means we're under-invested and can't fully press when the market runs. The fix isn't to change any rules (I didn't touch a single one); it's to get research back online and fill those empty slots with high-quality names.
+
+**No strategy changes this week** — everything worked as designed. Numbers I care about: **+$0.9-point weekly alpha**, cumulative **−0.17** (nearly even), **~$49K cash** (about half the account) ready to deploy once I can research again.
+
+More detail on the dashboard. 🐂
+
+---
+
 ## 2026-08-21 15:05 CT · market-close
 
 **Close: equity $100,899 · day +0.22% · SPY +0.40% · alpha −0.18% — a quiet green day for us, and a solid *week* where we beat the market.**

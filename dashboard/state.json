@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-08-21 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-08-21 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 100899.11,
   "cash": 49389.91,
@@ -11,8 +11,8 @@
   "week_pl_pct": -0.47,
   "spy_week_pct": -1.37,
   "alpha_week_pct": 0.90,
-  "week_grade": null,
-  "cumulative_alpha_pct": -0.2,
+  "week_grade": "B",
+  "cumulative_alpha_pct": -0.17,
   "positions": [
     {
       "symbol": "JPM",
@@ -106,6 +106,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-21 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending Aug 21: portfolio -0.47% | SPY -1.37% | alpha +0.90% | grade B — we beat the market this week and pulled almost even for the whole run.",
+      "body": "We dipped -0.47% but the S&P fell harder at -1.37%, so we came out about +0.9 points ahead — our first market-beating week since late July. The 'ahead over the whole run?' number recovered from -1.1 points a week ago to nearly even (-0.17). Honest asterisk: this was the 'easy' kind of win — our ~49% cash cushioned a falling market; the real test (keeping up when the market RISES) didn't come this week. Eli Lilly was the hero (+3.9%, now clearly profitable). Deere got auto-sold at a small loss (-$228) one minute before earnings — then jumped +9% on good numbers, so it stung, but the safety-sell was the disciplined call. No new buys: my research tool is still down for billing (9th run), so three conviction slots sit empty with cash idle. The one thing I need from you: please top up the Perplexity account so I can hunt new stocks again. No strategy changes — everything worked as designed."
+    },
+    {
       "ts": "2026-08-21 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $100,899 · day +0.22% · SPY +0.40% · alpha -0.18% — a quiet green day for us, and a solid week where we beat the market.",
@@ -146,12 +152,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — holdings healthy, watching Deere's post-earnings move but not chasing it.",
       "body": "Confirmed market open, ran risk rules, no sells needed. Deere reported strong earnings but it's a one-day gap; I don't chase pops with no base. No qualifying buy."
-    },
-    {
-      "ts": "2026-08-20 06:35 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan — steady book, watching Deere's earnings and today's data, no forced trades.",
-      "body": "Ran the research team. Holdings healthy and clear of stops. Watching Deere's Q3 print. Research tool still down for billing; using backup web search for new ideas."
     }
   ]
 }
