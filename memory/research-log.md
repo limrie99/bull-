@@ -6683,3 +6683,32 @@ All under the 20% cap. Net open unrealized **+$2,232.48**.
 - Telegram: midday quiet check per CLAUDE.md rules → do NOT push.
 
 **Next:** market-close (~15:00 CT Thu 8/20). Close owns the mandatory "How we're doing" daily update (dashboard + Telegram push, non-negotiable). Watch DE tape into close for any base-building; watch cushion for both stops (nothing near a floor now).
+
+## 2026-08-21 12:01 CT · MIDDAY (Fri)
+
+**State:** Market OPEN (Alpaca /v2/clock is_open:true, 13:01 ET, next_close 16:00 ET). Live marks. Account equity $101,027.15, cash $49,389.91 (~48.89%), long_mv $51,637.24 (~51.11%), buying_power $342,143.91, status ACTIVE. last_equity (Thu 8/20 close) $100,678.61 → intraday +$348.54 / +0.346%. Inbox empty. Perplexity API STILL DOWN (401 insufficient_quota, 7th routine straight) — buy-side blind; Alpaca unaffected.
+
+**Positions (live 13:01 ET):**
+- JPM 34 @ 329.695588, px 351.14, P/L +$729.11 (+6.50%), stop 329.85 (10% trail, hwm 366.5), cushion ~6.06%. Intraday −0.117%.
+- LLY 12 @ 1209.84, px 1264.50, P/L +$655.92 (+4.52%), stop 1152.468 (10% trail, hwm 1280.52), cushion ~8.86%. Intraday +1.615% — day's mover.
+- SPY 32 @ 772.921250, px 766.39, P/L −$209.00 (−0.85%), NO stop (index-floor sleeve carve-out). Intraday +0.497%.
+Net unrealized +$1,176.03.
+
+**Open orders confirmed (nested=true):** JPM trailing_stop id 8a937ff6-164c-4384-8cf8-c000d4106a60 (hwm 366.5, stop 329.85, qty 34, status new); LLY trailing_stop id d7eb221b-4d37-4dc6-bec2-b1de0dddd825 (hwm 1280.52, stop 1152.468, qty 12, status new). SPY unencumbered by design. Neither at hwm → no ratchet.
+
+**Risk checks (all clear, all mechanical):**
+- (a) Any −7% un-stopped? NO. JPM +6.50, LLY +4.52, SPY −0.85 (index sleeve). → no sell.
+- (b) Any +5%+ needing hard→trailing conversion? NO pending — JPM & LLY already on 10% trailing (LLY converted 8/19; at +4.52% now, below +5%, but already trailing → no action). SPY exempt by policy.
+- (c) Daily loss cap: intraday +0.346% vs Thu close, far from −3% floor. Buys permitted (moot — no qualifying setup anyway).
+
+**Buy decision — NO buy (correct on three independent counts):** Midday rule permits a buy only on a high-conviction BREAKING catalyst with weekly buys <3 and positions <5. (1) No breaking catalyst exists. (2) ABBV — the sole live bench name and the open plan's midday candidate — is now $265.805 (Alpaca latest trade), ABOVE the $255–262 base the open plan required and ~$1.67 (~0.6%) off its 52-wk high $267.47. The plan's condition ("ABBV holds/builds ~$255–262 base") is FALSE; it has drifted toward extended/ATH, i.e. the clean-base window closed rather than confirmed. (3) Perplexity still 401 → the required "re-clear ≥70 with 2 VERIFIED signals" is unverifiable; scoring a borderline ~70 name into a buy on blind research would violate the buy-gate. Any one of these blocks the buy; all three hold. → ABBV back to watchlist, re-look only on a pullback into a real base AND restored research. DE unchanged (post-print gap-chase, defer). No pre-market-plan deviation to justify.
+
+**Benchmark (indicative — official mark owned by market-close):** SPY 766.39 (13:01 ET) vs Thu 8/20 close 762.60 = day +0.497%. Portfolio day +0.346%. Alpha_day ≈ −0.15 pt (a hair behind intraday — expected with ~49% cash and JPM flat while SPY rises; LLY carrying us). WTD base Fri 8/14 close: SPY 776.34 → 766.39 = −1.282% WTD; portfolio $101,378.01 → $101,027.15 = −0.346% WTD → Alpha_WTD ≈ +0.94 pt (ahead — the mandate metric). Cumulative alpha since 5/29 base ≈ −0.2 pt (close locks official).
+
+**Decisions:**
+- No trades (no risk trigger, no qualifying/verifiable buy).
+- No stop adjustments (JPM & LLY resting correctly, SPY exempt).
+- Perplexity billing warning stays on the dashboard — 7th routine blind; flagged again in messages.
+- Telegram: midday quiet check per CLAUDE.md rules → do NOT push.
+
+**Next:** market-close (~15:00 CT Fri 8/21). Close owns the mandatory "How we're doing" daily update (dashboard + Telegram push, non-negotiable) AND the official WTD/weekly benchmark lock. Watch for any JPM/LLY new high to ratchet the trailing stops; nothing near a floor now.

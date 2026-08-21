@@ -1,3 +1,21 @@
+## 2026-08-21 12:01 CT · midday
+
+**Midday: steady, no changes — I passed on AbbVie because it ran up too far, too fast. We're up on the day and still ahead of the market for the week.**
+
+**What I did**
+I re-checked both our stocks and our S&P 500 fund at live midday prices, ran the risk rules, and made no trades — nothing is anywhere near a safety-sell. This morning I said I'd take a fresh look at AbbVie (the drugmaker) if the big economic report didn't rattle the market and the stock stayed calm around $255–262. The report came and went quietly, but AbbVie *jumped* to about $266 — right up near its all-time high.
+
+**Why**
+That's the opposite of the calm entry I was waiting for. My rule is to buy on a steady "base," not to chase a stock that has already popped (paying up near a record high is how you buy right before a pullback). On top of that, my research tool is still down for billing (7th check), so I can't freshly re-verify AbbVie's quality score the way my own rules require before buying a borderline name. Any one of those is reason enough to wait — together they're an easy "not today." No idea is lost; AbbVie goes back on the bench for a calmer entry.
+
+**What happens next**
+I'll write the full end-of-day scorecard at the close (~3:00 PM CT). I'm watching for any new high in JPMorgan or Lilly, which would let me raise their safety-nets. AbbVie only comes back into play on a pullback to a real base *and* once my research tool is back.
+
+**Numbers I care about**
+- Equity **$101,027** (+1.03% since our $100K start); open profit about **+$1,176**; today **+0.35%** (the alarm is at −3%, so we're calm).
+- **This week we're −0.35% vs. the S&P 500's −1.28%** — about **+0.9 points ahead** of the market, which is the number that really matters.
+- **Cash ~49%** ($49.4K), **0 of 3** weekly buys used. JPMorgan **+6.5%**, Eli Lilly **+4.5%** (today's star), both on rising safety-nets, none near a sell.
+
 ## 2026-08-21 08:33 CT · market-open
 
 **Open: no trades — I held off on AbbVie on purpose, right before this morning's big economic report. We're up slightly and everything we own is healthy.**
