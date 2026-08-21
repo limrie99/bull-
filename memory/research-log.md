@@ -1,3 +1,44 @@
+## 2026-08-21 08:33 CT — MARKET-OPEN (Fri) · NO TRADES · Market CONFIRMED OPEN · ABBV held (borderline ~70, will not buy into the 9:45 ET flash PMIs) · Both stops resting · ⚠️ Perplexity STILL DOWN (6th routine) → WebSearch fallback
+
+**Market state:** /v2/clock is_open:true, timestamp 09:32 ET, next_close 16:00 ET, next_open Mon 2026-08-24 09:30 ET. Live marks. Inbox: nothing pending.
+
+**Account (live 09:32–09:33 ET):** equity **$100,865.12**, cash **$49,389.91 (~48.97%)**, long_market_value **$51,475.21 (~51.03%)**, buying_power $341,690.22, status ACTIVE, trading_blocked false. `last_equity` (Thu 8/20 close) $100,678.61 → intraday **+0.19% / +$186.51** (far from the −3% daily loss cap; new buys permitted). daytrade_count 0.
+
+**Overnight/open orders:** zero fills, zero placements, zero cancels since the pre-market snapshot. Positions/qty unchanged (JPM 34, LLY 12, SPY 32).
+
+### Positions (live open marks)
+| Symbol | Shares | Avg Cost | Price (09:33 ET) | P/L $ | P/L % | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 34 | 329.695588 | 354.1461 | +831.32 | +7.42% | 10% trailing GTC, floor **329.85**, hwm 366.5 (`8a937ff6`) |
+| LLY | 12 | 1209.84 | 1245.76 | +431.04 | +2.97% | 10% trailing GTC, floor **1152.468**, hwm 1280.52 (`d7eb221b`) |
+| SPY | 32 | 772.92125 | 765.08 | −250.92 | −1.01% | NONE — index-floor sleeve (deliberate no-stop carve-out) |
+
+Net open unrealized ≈ **+$1,011**. Conviction sleeve **2/5 (three slots OPEN)**; weekly conviction buys **0/3** (SPY floor exempt). Sizes on equity $100,865: JPM ~11.94%, LLY ~14.82%, SPY ~24.27% (index sleeve, exempt from 20% cap).
+
+### Stop-management state (open-orders nested=true, verified this run)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm 366.5, floor 329.85, status new. Current 354.15 < hwm → no ratchet. qty 34.
+- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm 1280.52, floor 1152.468, status new. Current 1245.76 < hwm → no ratchet. qty 12.
+- **SPY — NO STOP by design.** qty 32 unencumbered. Do NOT place a stop.
+
+### Sell candidates — NONE
+Risk checks (live open marks): (a) any position −7%+ un-stopped? NO (JPM +7.42%, LLY +2.97%, SPY −1.01%). (b) any +5%+ needing hard→trailing conversion? NO — JPM & LLY already on 10% trailing, SPY carries no stop by policy. (c) daily loss cap: intraday +0.19%, far from −3% → moot. No thesis breaks. Hold all three.
+
+### Buy decision — ABBV: HELD (no buy at the open)
+The pre-market handed market-open ONE live candidate — **ABBV ~$261.5, borderline ~70.6** — with an explicit condition: re-verify signals + clean entry, buy ONLY if 2 verified signals AND ≥70 hold, and **"do NOT auto-buy a borderline ~70 into a cautious tape ahead of the PMIs."**
+
+What I verified this run (Perplexity down 6th routine → WebSearch):
+- **Signal #4 (analyst cluster) VERIFIED.** Wolfe Research upgraded ABBV to **Outperform (from Peer Perform), $300 PT** (mid-Aug, part of a rare Biogen+AbbVie double upgrade, citing late-stage pipeline: ABBV-382 Crohn's, bretisilocin MDD, ABBV-619 in-vivo CAR-T + strong balance sheet). **Barclays** also upgraded to **Overweight (from Equal Weight)**. Confirms the pre-market's Wolfe/Wells Fargo $300/Piper $303 cluster. ✓
+- **Signal #6 (clean entry) VERIFIED.** Live $261.55, ~5.8% above Alpaca 50dMA 247.15, ~2% off ATH, no gap. ✓
+- **Signal #2 (hard-dated <30d catalyst) STILL UNVERIFIED.** Tavapadon "Q3 2026" / Skyrizi subcut "this fall" remain soft/undated — did not surface a hard date. Does NOT count.
+
+So ABBV = **~2 verified signals (#4 + #6), soft #3 tailwind, borderline ~70.6** — it *technically* touches the gate but on the thinnest possible margin, resting on analyst upgrades (days old, not a same-day catalyst that expires) rather than a fresh earnings beat-and-raise.
+
+**DECISION: NO BUY at the open.** The **S&P Global flash PMIs release at 9:45 ET today** (WebSearch confirmed; the week's most market-moving US print) — ~12 minutes after this snapshot. Buying a name that barely clears ≥70, on degraded research, in the minutes before a binary macro print is exactly the undisciplined entry-timing the pre-market told market-open to avoid. There is no urgency (the upgrades are not expiring), and this is NOT cash-drag paralysis — we're ~51% invested (2 conviction + a complete SPY floor), cash is a healthy ~49%, and the reason to wait is specific and dated, not vague hesitation.
+
+**STANDING TASK FOR MIDDAY (Fri 8/21):** re-check ABBV post-PMI. Buy a **≤15% low-beta B+ starter (no high-beta cap — pharma)** ONLY if: (1) the PMI print didn't trigger a risk-off tape, (2) ABBV holds/builds its ~$255–262 base (no PMI-driven breakdown), AND (3) it still re-clears ≥70 with 2 verified signals. If any fails, it stays on the watchlist. DE remains deferred (still a print-day gap, no confirmed base). Perplexity billing remains the one open blocker on full buy-side research — 6th routine blind.
+
+**Net:** Market open, book healthy, no trades. Held ABBV rather than chase a borderline entry into the 9:45 ET PMIs; teed it up for a disciplined midday re-check. All three positions intact, both trailing stops resting, SPY floor stopless by policy.
+
 ## 2026-08-21 06:05 CT — PRE-MARKET (Fri) · NO TRADES (market closed, opens 09:30 ET) · Full 4-agent scan (Perplexity DOWN 5th routine → WebSearch fallback) · Held book INTACT (JPM sev1, LLY sev2-watch) · ABBV = single live market-open candidate (~70 borderline, cleanest entry) · DE deferred (print-day gap, no base)
 
 **Market state:** /v2/clock is_open:false, next_open Fri 8/21 09:30 ET. Pre-open, no trades this routine. Inbox: nothing pending.

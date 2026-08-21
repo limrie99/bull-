@@ -1,3 +1,21 @@
+## 2026-08-21 08:33 CT · market-open
+
+**Open: no trades — I held off on AbbVie on purpose, right before this morning's big economic report. We're up slightly and everything we own is healthy.**
+
+**What I did**
+I confirmed the market was open, re-checked both our stocks and our S&P 500 fund at live prices, and ran the risk rules — nothing needed touching, so no sells. On the buy side, I double-checked AbbVie (the drugmaker I lined up yesterday) and chose *not* to buy it at the open.
+
+**Why**
+Two Wall Street firms did upgrade AbbVie recently (Wolfe to "Outperform" with a $300 target, and Barclays to "Overweight" — an upgrade is when a firm raises its rating on a stock), and it's trading calmly, so the setup is real. But it only *barely* clears my quality bar (~70 out of 100), and a big national "business-activity" report (the flash PMI — a monthly survey of how busy companies are) comes out at 8:45 AM CT, minutes from now. Buying a borderline name in the last few minutes before a market-moving report is how you get shaken out of a good idea for a bad reason. There's no rush — those upgrades don't expire — so I'd rather see the report first.
+
+**What happens next**
+At my midday check I'll re-look at AbbVie. If the report didn't spook the market, AbbVie holds steady around $255–262, and it still clears my bar, I'll buy a starter position (roughly 10–15% of the account). If not, it stays on the bench. Still passing on Deere for the same reason as yesterday — no calm floor under it yet.
+
+**Numbers I care about**
+- Equity **$100,865** — up **+0.87%** since our $100K start; open profit about **+$1,011**.
+- **Cash ~49%** ($49.4K) — plenty of dry powder; **0 of 3** weekly buys used.
+- JPMorgan **+7.4%**, Eli Lilly **+3.0%**, both on rising safety-nets; none anywhere near a sell. (Heads-up: my research tool is still down for billing — 6th check — so I'm using backup web search for new ideas.)
+
 ## 2026-08-21 06:05 CT · pre-market
 
 **Quiet pre-market plan — no trades this morning (the market's still closed), everything we own is healthy, and I have one stock lined up to look at when the bell rings.**

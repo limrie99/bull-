@@ -1,16 +1,16 @@
 {
-  "last_update": "2026-08-21 06:05 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-08-21 08:33 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100732.49,
+  "equity": 100865.12,
   "cash": 49389.91,
-  "day_pl": 53.88,
-  "day_pl_pct": 0.05,
-  "spy_day_pct": -0.84,
-  "alpha_day_pct": 0.04,
-  "week_pl_pct": -0.64,
-  "spy_week_pct": -1.76,
-  "alpha_week_pct": 1.12,
+  "day_pl": 186.51,
+  "day_pl_pct": 0.19,
+  "spy_day_pct": 0.33,
+  "alpha_day_pct": -0.14,
+  "week_pl_pct": -0.51,
+  "spy_week_pct": -1.44,
+  "alpha_week_pct": 0.93,
   "week_grade": null,
   "cumulative_alpha_pct": -0.2,
   "positions": [
@@ -18,24 +18,24 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.70,
-      "current": 353.53,
-      "pl_pct": 7.23,
+      "current": 354.15,
+      "pl_pct": 7.42,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1236.00,
-      "pl_pct": 2.16,
+      "current": 1245.76,
+      "pl_pct": 2.97,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92,
-      "current": 765.33,
-      "pl_pct": -0.98,
+      "current": 765.08,
+      "pl_pct": -1.01,
       "stop": null
     }
   ],
@@ -106,6 +106,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-21 08:33 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — held off on AbbVie on purpose, right before this morning's big PMI report. Up slightly, holdings healthy.",
+      "body": "Confirmed market open, re-checked both stocks + the S&P 500 fund at live prices, ran the risk rules — no sells needed. Double-checked AbbVie (yesterday's one candidate) and chose NOT to buy at the open: the upgrades are real (Wolfe→Outperform $300, Barclays→Overweight) but it only barely clears my ~70/100 bar, and a market-moving business-activity report (flash PMI) lands at 8:45 CT — buying a borderline name into that is how you get shaken out for a bad reason. No rush; upgrades don't expire. At midday I'll re-look: if the report didn't spook the tape, AbbVie holds ~$255–262, and it still clears the bar, I'll buy a ~10–15% starter; otherwise it waits. Still passing on Deere (no calm floor yet). Equity $100,865 (+0.87% since $100K start), open profit ~+$1,011; cash ~49% ($49.4K), 0 of 3 weekly buys used. JPMorgan +7.4%, Lilly +3.0%, both on rising safety-nets. Research tool still down for billing (6th check) — using backup web search."
+    },
+    {
       "ts": "2026-08-21 06:05 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan · no trades (market closed) · holdings healthy · AbbVie lined up for the open · ⚠️ research tool still down (5th check)",
@@ -146,12 +152,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes - Lilly is one hundredth of a percent away from earning a smarter safety-net.",
       "body": "Re-checked all four holdings and all three safety-sells (stops) at live midday prices: no trades. Nothing crossed a line. Our rule upgrades a stock's safety-net from a fixed floor to a rising 'trailing' stop once it's up +5% - Eli Lilly is up +4.91% right now, genuinely a rounding error away, but the rule is the rule so I won't jump the gun; I'll flip it the moment it tags about $1,270. On buying: the big Fed release (the 'minutes' from their last meeting) doesn't land until 2pm ET, and buying a borderline name into a coin-flip event is how you get shaken out of a good idea for a bad reason - so AbbVie stays parked for the afternoon check. We're up ~+0.4% on the day and ahead of the S&P 500 by ~1 point this week. Equity $101,577 (+1.6% since our $100K start), open profit ~+$1,498, ~36% cash, buys used this week 0 of 3. Deere reports tomorrow morning - plan locked to HOLD through it."
-    },
-    {
-      "ts": "2026-08-19 08:33 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades - holding steady into a jittery 'risk-off' morning, with AbbVie parked until after the 2pm Fed release.",
-      "body": "Confirmed the market is open, then re-checked all four holdings and all three safety-sells (stops) at live prices - everything's where it should be - and made the disciplined choice NOT to buy at the open. Yesterday flagged AbbVie (a large drugmaker) as our one near-bar candidate, but with a market-moving Fed release at 2pm ET today and a nervous tape, I want to see that news FIRST rather than buy into a coin-flip. Buying a borderline name right before a big announcement is how you get shaken out of a good idea for a bad reason - so AbbVie goes to the post-2pm check to verify and possibly act on then. Everything else is quiet by design: Deere reports tomorrow (Thu) and our plan is locked to HOLD through it (no adding/trimming); Eli Lilly is our quiet winner up ~3.8%, creeping toward the +5% point where I upgrade its stop to a rising 'trailing' one (~$1,270). We're up ~+0.3% on the day while the S&P 500 is down slightly, so ahead of the market so far. Equity $101,482 (+1.5% since our $100K start), open profit ~+$1,478, ~36% cash, buys used this week 0 of 3."
     }
   ]
 }
