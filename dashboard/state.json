@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-08-24 06:20 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-08-24 08:33 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100854.34,
+  "equity": 100791.43,
   "cash": 49389.91,
-  "day_pl": -57.13,
-  "day_pl_pct": -0.06,
+  "day_pl": -120.04,
+  "day_pl_pct": -0.12,
   "week_pl_pct": 0.0,
   "spy_week_pct": 0.0,
   "alpha_week_pct": 0.0,
@@ -14,24 +14,24 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 351.40,
-      "pl_pct": 6.58,
+      "current": 354.42,
+      "pl_pct": 7.50,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1257.39,
-      "pl_pct": 3.93,
+      "current": 1241.99,
+      "pl_pct": 2.66,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.921250,
-      "current": 763.38,
-      "pl_pct": -1.23,
+      "current": 763.97,
+      "pl_pct": -1.16,
       "stop": null
     }
   ],
@@ -46,6 +46,12 @@
     {"date": "2026-06-05 10:15", "side": "SELL", "symbol": "NVDA", "qty": 55, "price": 204.7158}
   ],
   "latest_messages": [
+    {
+      "ts": "2026-08-24 08:33 CT",
+      "routine": "market-open",
+      "headline": "Market open — no trades. Steady into a big-news week (Nvidia + inflation Wed, Fed Fri)",
+      "body": "Checked live prices at the open; placed no trades. No new stock passed the buy checklist (AbbVie hugging its record high, BJ's close but not convincing yet) and none of our holdings triggered a sell. Deliberately patient ahead of Wednesday's Nvidia earnings + inflation report and Friday's Fed Jackson Hole speech. Equity ~$100,791, basically flat today (-$120, -0.12%). JPMorgan +7.5% and Eli Lilly +2.7%, both green and comfortably above their auto-sell floors. ~$49K cash ready, 0 of 3 weekly buys used. Perplexity research tool still down (10th run) — trading/safety systems fully working."
+    },
     {
       "ts": "2026-08-24 06:20 CT",
       "routine": "pre-market",

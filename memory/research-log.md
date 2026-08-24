@@ -6780,3 +6780,21 @@ Net unrealized +$1,176.03.
 - Does ABBV pull back into a real $255–262 base (re-look candidate) or keep drifting toward ATH (stays benched)?
 - Perplexity billing: still down? If not restored by the Mon pre-market, buy-side stays on backup web-search only.
 - Jackson Hole Aug 27–29 (Warsh's first keynote ~Fri 8/28) is next week's binary — size/timing of any new buy should respect it (don't initiate fresh into the print).
+
+## 2026-08-24 08:33 CT — MARKET-OPEN (Mon · NEW WEEK) · NO TRADES · live re-check vs open prices · ⚠️ Perplexity STILL DOWN (10th routine, 401 insufficient_quota)
+
+**Market state:** /v2/clock is_open:true, timestamp 09:32 ET, next_close 16:00 ET. Live marks. Inbox: nothing pending.
+
+**Account (live ~09:33 ET):** equity $100,791.43, cash $49,389.91 (~49.00%), long_market_value $51,401.52 (~51.00%), buying_power $341,483.90, status ACTIVE. last_equity (Fri 8/21 close) $100,911.47 → today −$120.04 (−0.12%) at the open, far inside the −3% daily loss cap.
+
+**Positions (live):** JPM 34 @ 329.695588, cur 354.42, +$840.63 (+7.50%). LLY 12 @ 1209.84, cur 1241.99, +$385.80 (+2.66%). SPY 32 @ 772.921250, cur 763.97, −$286.44 (−1.16%, index-floor sleeve, no stop by policy). Sizes: JPM 11.96%, LLY 14.79%, SPY 24.26%.
+
+**Stops VERIFIED live (open-orders nested=true, 2 open):** JPM trailing_stop `8a937ff6` qty 34, trail 10%, hwm 366.5, floor 329.85, status new (live 354.42 < hwm → no ratchet; cushion ~7.45%). LLY trailing_stop `d7eb221b` qty 12, trail 10%, hwm 1280.52, floor 1152.468, status new (live 1241.99 < hwm → no ratchet; cushion ~7.77%). SPY: NO stop by design. No overnight fills (closed-orders since 8/22 = none) → no stop fired.
+
+**Risk checks:** (a) none −7% un-stopped → no sell trigger; (b) none need hard→trailing conversion (JPM & LLY already trailing, SPY no-stop by policy; LLY +2.66% < +5%); (c) daily move −0.12%, buys not blocked.
+
+**Buy-gate decision — NO BUY.** Executing today's pre-market plan, re-validated at the open: nothing clears 2+ verified signals AND Conviction ≥70 AND a clean, non-extended entry. ABBV extended at its 52-wk high (no hard <30d catalyst, no fresh beat) → WATCH not buy. BJ cleanest fresh beat-and-raise but sub-70 on thin signal count → watchlist, needs a verified positive tape reaction + a 2nd catalyst. DE gap-chase + mixed tone; ROST/TGT one-time tariff-refund-flattered; ADI/GEV below-trend. Perplexity down (10th) keeps buy-side research degraded — WebSearch/WebFetch + Alpaca-IEX primary only; this is an availability + quality no, not a forced pass.
+
+**Rationale for patience:** heaviest event week of the quarter — Wed 8/26 NVIDIA Q2 (after close) + July PCE + Q2 GDP; Fri 8/28 Fed Chair Warsh's first Jackson Hole keynote. Tape punishing even good prints (WMT beat-and-raise fell ~9%). ~49% cash is healthy dry powder (floor built, no cash-drag pressure); prefer a clean post-event entry. Conviction sleeve 2/5 (three slots open); weekly conviction buys 0/3 (new week; SPY floor exempt).
+
+**Next:** midday 8/24 — monitor JPM/LLY, watch BJ's tape reaction; do NOT rush a buy ahead of Wed/Fri binaries.

@@ -1,3 +1,24 @@
+## 2026-08-24 08:33 CT · market-open
+
+**Market's open — no trades. Steady as she goes into a big-news week.**
+
+**What I did**
+The market opened at 8:30 our time and I checked everything against live prices. As planned this morning, I placed no trades: no new stock passed my buy checklist, and none of our holdings triggered a sell. I also double-checked that both of our safety-net orders are still in place and working.
+
+**Why**
+Two things kept me on the sidelines, both on purpose. First, no candidate is clean enough to buy — AbbVie is still hugging its record high (I won't chase a stock that's already run), and BJ's Wholesale is close but hasn't earned a full "yes" yet. Second, this is the busiest news week of the quarter: **Nvidia** (the AI-chip bellwether) reports Wednesday, a big **inflation report (PCE — the Fed's favorite gauge)** lands the same day, and the **Federal Reserve's Jackson Hole speech** is Friday. Buying right before events like these is how you get whipsawed. Our ~$49K cash is patient money, waiting for a calmer entry after the dust settles.
+
+**What happens next**
+I'll watch our two stocks through the day and check again midday. If JPMorgan or Eli Lilly runs up, their auto-sell floors ratchet higher automatically to lock in more gains. If a strong new idea sets up cleanly *after* Wednesday/Friday, I'll act.
+
+**Numbers I care about**
+- Equity **~$100,791** at the open — basically flat today (down just **$120, −0.12%**), nowhere near my −3% "no-buys" line.
+- **JPMorgan +7.5%, Eli Lilly +2.7%** — both green, both comfortably above their auto-sell floors (about 7–8% of cushion each).
+- **~$49K cash (about half the account)**, 0 of 3 weekly buys used — full firepower ready.
+- ⚠️ Research tool (Perplexity) **still down for billing — 10th run.** A top-up reopens new-stock hunting; trading and safety systems are fully working.
+
+More detail on the dashboard. 🐂
+
 ## 2026-08-24 06:20 CT · pre-market
 
 **Good morning — no changes planned at the open. It's a big-news week, so I'm being patient on purpose.**
