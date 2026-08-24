@@ -6798,3 +6798,23 @@ Net unrealized +$1,176.03.
 **Rationale for patience:** heaviest event week of the quarter — Wed 8/26 NVIDIA Q2 (after close) + July PCE + Q2 GDP; Fri 8/28 Fed Chair Warsh's first Jackson Hole keynote. Tape punishing even good prints (WMT beat-and-raise fell ~9%). ~49% cash is healthy dry powder (floor built, no cash-drag pressure); prefer a clean post-event entry. Conviction sleeve 2/5 (three slots open); weekly conviction buys 0/3 (new week; SPY floor exempt).
 
 **Next:** midday 8/24 — monitor JPM/LLY, watch BJ's tape reaction; do NOT rush a buy ahead of Wed/Fri binaries.
+
+## 2026-08-24 12:02 CT · MIDDAY (Mon)
+
+**Market state:** /v2/clock is_open:true, timestamp 13:01 ET, next_close 16:00 ET. Live marks. Inbox: nothing pending.
+
+**Account (live ~13:02 ET):** equity $100,868.75, cash $49,389.91 (~48.96%), long_market_value $51,478.84 (~51.04%), buying_power $341,700.39, status ACTIVE. last_equity (Fri 8/21 close) $100,911.47 → today −$42.72 (−0.04%), far inside the −3% loss cap. SPY today −0.22% (snapshot prevClose 765.64 → last 763.95) → portfolio marginally ahead of tape intraday.
+
+**Positions (live):** JPM 34 @ 329.695588, cur 355.44, +$875.31 (+7.81%). LLY 12 @ 1209.84, cur 1245.33, +$425.88 (+2.93%). SPY 32 @ 772.921250, cur 764.06, −$283.56 (−1.15%, index-floor sleeve, no stop by policy). Sizes: JPM 11.98%, LLY 14.82%, SPY 24.24%.
+
+**Stops VERIFIED live (open-orders nested=true, 2 open):** JPM trailing_stop `8a937ff6` qty 34, trail 10%, hwm 366.5, floor 329.85, status new (live 355.44 < hwm → no ratchet; cushion ~7.20%). LLY trailing_stop `d7eb221b` qty 12, trail 10%, hwm 1280.52, floor 1152.468, status new (live 1245.33 < hwm → no ratchet; cushion ~7.46%). SPY: NO stop by design.
+
+**Risk checks:** (a) none −7% un-stopped → no sell trigger; (b) none need hard→trailing conversion (JPM & LLY already trailing, SPY no-stop by policy; LLY +2.93% < +5%); (c) daily move −0.04%, buys not blocked.
+
+**✅ PERPLEXITY RECOVERED.** After 10 routines of 401 insufficient_quota, the key now returns HTTP 200 with citations (confirmed: a 400 "max_tokens must be ≥16" validation error proved auth passed, then a valid call returned content + citations). Buy-side research is back online. Ran one focused breaking-news query (sonar) on JPM / LLY / broad market / BJ over the last 6h: **no downgrade, lawsuit, guidance cut, or thesis-breaking headline on JPM or LLY; nothing material on the S&P 500.** BJ = the same known positive beat-and-raise catalyst, not new.
+
+**Buy-gate decision — NO BUY.** Midday deviation from the pre-market plan requires a high-conviction *breaking* catalyst; none exists. BJ's beat/raise is the known (still-sub-70) catalyst that needs a verified positive tape reaction + a 2nd signal to clear ≥70 — not a midday-chase trigger, especially with the WMT precedent (beat-and-raise fell ~9%) and this week's binaries. Holding dry powder.
+
+**Rationale for patience:** heaviest event week of the quarter — Wed 8/26 NVIDIA Q2 (after close) + July PCE + Q2 GDP; Fri 8/28 Fed Chair Warsh's first Jackson Hole keynote. ~49% cash is healthy dry powder (floor built, no cash-drag pressure); prefer clean post-event entries.
+
+**Next:** market-close 8/24 — mandatory daily "How we're doing" scorecard + Telegram; re-score BJ now that research is back; verify stops; benchmark vs SPY for the day.
