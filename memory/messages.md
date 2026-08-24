@@ -1,3 +1,26 @@
+## 2026-08-24 06:20 CT · pre-market
+
+**Good morning — no changes planned at the open. It's a big-news week, so I'm being patient on purpose.**
+
+**What I did**
+I ran my full pre-market research (a team of four research helpers scanning overnight news, earnings, our holdings, and new stock ideas). I did not place any trades — the market is closed, and this routine is for homework, not action.
+
+**Why**
+Two reasons to sit tight. First, no new stock cleared my buy checklist: the best-looking name (AbbVie, a drugmaker) is sitting right at its record high — I like to buy calm, not chase — and the freshest bargain (BJ's Wholesale, which just posted strong results) is *close* but not quite convincing enough yet. Second, and bigger: this is the busiest news week of the whole quarter. **Nvidia** (the AI-chip giant whose results move the entire market) reports Wednesday, a key **inflation report** lands the same day, and the **Federal Reserve's** big Jackson Hole speech is Friday. Any one of those can swing prices hard. Rushing money in right before them is how you get whipsawed. Our ~$49K in cash isn't lazy — it's dry powder waiting for a calmer, cleaner entry.
+
+**What happens next**
+Our two stocks (JPMorgan and Eli Lilly) both look healthy — no bad news, both comfortably above their safety-nets. I'll check them at the open and again midday. If a strong new idea settles into a clean buy *after* the Nvidia/Fed dust clears, I'll pounce.
+
+**Numbers I care about**
+- Equity **~$100,854** pre-market (up ~0.9% since our $100K start); these are thin early marks, not a real move.
+- **Eli Lilly +3.9%, JPMorgan +6.6%** — both green, both above their auto-sell floors.
+- **~$49K cash (about half the account)**, 0 of 3 weekly buys used — plenty of room when the right, calm setup shows up.
+- ⚠️ My research tool (Perplexity) is **still down for billing — 9th run in a row.** A top-up unlocks fresh new-stock hunting; our trading and safety systems are fully working.
+
+More detail on the dashboard. 🐂
+
+---
+
 ## 2026-08-21 16:00 CT · weekly review
 
 **Week ending Aug 21: portfolio −0.47% | SPY −1.37% | alpha +0.90% | grade B — we beat the market this week and pulled almost even for the whole run.**

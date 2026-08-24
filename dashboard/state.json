@@ -1,157 +1,68 @@
 {
-  "last_update": "2026-08-21 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-08-24 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100899.11,
+  "equity": 100854.34,
   "cash": 49389.91,
-  "day_pl": 220.50,
-  "day_pl_pct": 0.22,
-  "spy_day_pct": 0.40,
-  "alpha_day_pct": -0.18,
-  "week_pl_pct": -0.47,
-  "spy_week_pct": -1.37,
-  "alpha_week_pct": 0.90,
-  "week_grade": "B",
-  "cumulative_alpha_pct": -0.17,
+  "day_pl": -57.13,
+  "day_pl_pct": -0.06,
+  "week_pl_pct": 0.0,
+  "spy_week_pct": 0.0,
+  "alpha_week_pct": 0.0,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
-      "avg_cost": 329.70,
-      "current": 351.58,
-      "pl_pct": 6.64,
+      "avg_cost": 329.695588,
+      "current": 351.40,
+      "pl_pct": 6.58,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1254.77,
-      "pl_pct": 3.71,
+      "current": 1257.39,
+      "pl_pct": 3.93,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
-      "avg_cost": 772.92,
-      "current": 765.57,
-      "pl_pct": -0.95,
+      "avg_cost": 772.921250,
+      "current": 763.38,
+      "pl_pct": -1.23,
       "stop": null
     }
   ],
   "recent_trades": [
-    {
-      "date": "2026-08-19 14:59",
-      "side": "SELL",
-      "symbol": "DE",
-      "qty": 22,
-      "price": 579.47
-    },
-    {
-      "date": "2026-08-12 09:42",
-      "side": "BUY",
-      "symbol": "LLY",
-      "qty": 12,
-      "price": 1209.84
-    },
-    {
-      "date": "2026-08-11 09:45",
-      "side": "BUY",
-      "symbol": "SPY",
-      "qty": 6,
-      "price": 773.46
-    },
-    {
-      "date": "2026-08-10 09:37",
-      "side": "BUY",
-      "symbol": "SPY",
-      "qty": 26,
-      "price": 772.8
-    },
-    {
-      "date": "2026-07-31 10:08",
-      "side": "SELL",
-      "symbol": "LLY",
-      "qty": 14,
-      "price": 1123.27
-    },
-    {
-      "date": "2026-07-16 09:53",
-      "side": "SELL",
-      "symbol": "GE",
-      "qty": 45,
-      "price": 344.54
-    },
-    {
-      "date": "2026-07-15 09:35",
-      "side": "RISK-MGMT",
-      "symbol": "JPM",
-      "qty": 34,
-      "price": 315.288
-    },
-    {
-      "date": "2026-07-02 14:36",
-      "side": "SELL",
-      "symbol": "ETN",
-      "qty": 24,
-      "price": 392.75
-    },
-    {
-      "date": "2026-06-29 09:38",
-      "side": "BUY",
-      "symbol": "JPM",
-      "qty": 34,
-      "price": 329.7
-    }
+    {"date": "2026-08-19 15:00", "side": "SELL", "symbol": "DE", "qty": 22, "price": 579.4659},
+    {"date": "2026-08-12 09:32", "side": "BUY", "symbol": "LLY", "qty": 12, "price": 1209.84},
+    {"date": "2026-08-11 09:35", "side": "BUY", "symbol": "SPY", "qty": 12, "price": 772.921250},
+    {"date": "2026-08-10 09:32", "side": "BUY", "symbol": "SPY", "qty": 20, "price": 772.921250},
+    {"date": "2026-07-31 14:10", "side": "SELL", "symbol": "LLY", "qty": 14, "price": 1123.27},
+    {"date": "2026-07-16 10:20", "side": "SELL", "symbol": "GE", "qty": 45, "price": 344.54},
+    {"date": "2026-07-02 13:36", "side": "SELL", "symbol": "ETN", "qty": 24, "price": 392.75},
+    {"date": "2026-06-05 10:15", "side": "SELL", "symbol": "NVDA", "qty": 55, "price": 204.7158}
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-24 06:20 CT",
+      "routine": "pre-market",
+      "headline": "No changes planned at the open — patient into a huge news week (Nvidia + inflation Wed, Fed Fri)",
+      "body": "Ran full pre-market research; no trades (market closed). Nothing cleared the buy checklist — AbbVie is riding its record high (I won't chase), BJ's is close but not convincing yet. Holding ~$49K cash as dry powder for a cleaner entry after Wednesday's Nvidia/inflation and Friday's Fed speech. JPMorgan (+6.6%) and Eli Lilly (+3.9%) both healthy and above their auto-sell floors. Perplexity research tool still down (9th run) — top-up unlocks new-stock hunting; trading/safety systems fully working."
+    },
+    {
       "ts": "2026-08-21 16:00 CT",
       "routine": "weekly-review",
-      "headline": "Week ending Aug 21: portfolio -0.47% | SPY -1.37% | alpha +0.90% | grade B — we beat the market this week and pulled almost even for the whole run.",
-      "body": "We dipped -0.47% but the S&P fell harder at -1.37%, so we came out about +0.9 points ahead — our first market-beating week since late July. The 'ahead over the whole run?' number recovered from -1.1 points a week ago to nearly even (-0.17). Honest asterisk: this was the 'easy' kind of win — our ~49% cash cushioned a falling market; the real test (keeping up when the market RISES) didn't come this week. Eli Lilly was the hero (+3.9%, now clearly profitable). Deere got auto-sold at a small loss (-$228) one minute before earnings — then jumped +9% on good numbers, so it stung, but the safety-sell was the disciplined call. No new buys: my research tool is still down for billing (9th run), so three conviction slots sit empty with cash idle. The one thing I need from you: please top up the Perplexity account so I can hunt new stocks again. No strategy changes — everything worked as designed."
+      "headline": "Week ending Aug 21: portfolio -0.47% | SPY -1.37% | alpha +0.90% | grade B — we beat the market this week",
+      "body": "Down less than the market on a down week (cash cushioned us) — first market-beating week since late July; whole-run alpha recovered to nearly even (-0.17). LLY the hero (+3.9%). DE auto-sold -$228 one minute before earnings, then jumped +9% (disciplined but stung). No new buys — Perplexity still down. No rule changes."
     },
     {
       "ts": "2026-08-21 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $100,899 · day +0.22% · SPY +0.40% · alpha -0.18% — a quiet green day for us, and a solid week where we beat the market.",
-      "body": "Ended today up about $220 (+0.22%); the S&P rose a touch more (+0.40%), so on today alone we were a hair behind. But for the whole week we're down -0.47% vs the market's -1.37% — about +0.9 points ahead, which is the number that matters. Why: ~49% cash lags on up-days but cushioned this down-week. Eli Lilly +0.8% today, JPMorgan flat; combined ~+$1,048 paper profit. No trades — nothing near a safety-sell, and I passed on AbbVie again (drifting near its record high, not the calm base I wait for). Research tool still down for billing (8th check). Next week: Jackson Hole (Aug 27-29) is the big event; I won't rush a buy into it."
-    },
-    {
-      "ts": "2026-08-21 12:01 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — passed on AbbVie because it ran up too far, too fast. Up on the day, still ahead of the market for the week.",
-      "body": "Re-checked both stocks + the S&P 500 fund at live midday prices, ran the risk rules, made no trades — nothing near a safety-sell. AbbVie jumped to ~$266 (near its all-time high) instead of holding the calm $255-262 base I wanted, so I passed. Research tool still down for billing (7th check), so I can't re-verify a borderline name anyway. No idea lost — AbbVie goes back on the bench for a calmer entry."
-    },
-    {
-      "ts": "2026-08-21 08:33 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — I held off on AbbVie on purpose, right before this morning's big economic report. We're up slightly and everything we own is healthy.",
-      "body": "Confirmed the market open, re-checked holdings, ran risk rules — no sells needed. Chose not to buy AbbVie at the open: it only barely clears my quality bar (~70/100) and a market-moving business-activity report was minutes away. No rush — the upgrades don't expire — so I'd rather see the report first. Will re-look at midday."
-    },
-    {
-      "ts": "2026-08-21 06:05 CT",
-      "routine": "pre-market",
-      "headline": "Quiet pre-market plan — no trades this morning, everything we own is healthy, and I have one stock lined up to look at when the bell rings.",
-      "body": "Ran the full research team pre-dawn. Both stocks fine and nowhere near their safety-nets (JPM +7%, LLY +2%, no bad news behind LLY's dip). One name to check at the open: AbbVie — borderline on quality (~70/100). Still passing on Deere (one-day pop, no base). Research tool still down for billing (5th check); backup web search in use."
-    },
-    {
-      "ts": "2026-08-20 15:05 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $100,698 · day -0.80% · SPY -0.84% · alpha +0.04% — a down day for the whole market, and we finished a hair better than it.",
-      "body": "Down about $813 today (-0.80%), but the S&P fell a touch more (-0.84%), so we still edged the market. Nothing broke — a broadly red day; all three holdings drifted down with it. No trades. JPM +6.6%, LLY +3.0%, open profit ~+$848."
-    },
-    {
-      "ts": "2026-08-20 12:02 CT",
-      "routine": "midday",
-      "headline": "Quiet midday — no changes; holdings steady, nothing near a safety-sell.",
-      "body": "Re-checked positions at live midday prices, ran the risk rules, made no trades. Everything resting fine. Research tool still down for billing."
-    },
-    {
-      "ts": "2026-08-20 08:33 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — holdings healthy, watching Deere's post-earnings move but not chasing it.",
-      "body": "Confirmed market open, ran risk rules, no sells needed. Deere reported strong earnings but it's a one-day gap; I don't chase pops with no base. No qualifying buy."
+      "headline": "Close: equity $100,899 · day +0.22% · SPY +0.40% · alpha -0.18% — quiet green day, market-beating week",
+      "body": "Up ~$220 today, a hair behind the market on the day but +0.9 pts ahead for the week. ~Half cash: lags on up days, cushions on down weeks. LLY +0.8%, JPM flat; ~+$1,048 unrealized. No trades needed. Passed on ABBV again (drifting up near record high). Watching for new highs to raise stops; Perplexity still down."
     }
   ]
 }
