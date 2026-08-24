@@ -8,7 +8,10 @@ Add a new `## YYYY-MM-DD HH:MM` header with your request under **Pending**. When
 
 ## Pending
 
-(nothing — add a `## date-time` header above with your message to Bull)
+### 2026-08-24 14:14 CT · "Edit the strategy to put more idle cash in the SPY floor."
+Lauren asked to put more idle cash in the S&P 500 market-floor sleeve (SPY). Treat this like the 2026-08-07 inbox "Edit strat to go forward" approval: explicit owner instruction, not a silent edit, and **not** a lowering of the Conviction ≥70 buy gate. The 8/21 weekly-review up-tape trigger (re-open floor-sizing only if SPY ≥ +1.5% and we still lag >1 pt) did **not** fire; owner instruction overrides that unfired trigger. Strategy.md cash-band is now **30–40%** (was ~50–55%); next authorized SPY tranche is about **10–15% of equity**, sized from live prices so whole-book cash lands in-band and never below the 10–20% buffer. Floor remains its own sleeve (no stop; still exempt from the three conviction caps).
+
+**STANDING ACTION FOR TUE 8/25 MARKET-OPEN (8:30 AM CT):** build the next SPY tranche per the amended floor policy unless Lauren countermands here first. Weekend/overnight veto window is open. Do **not** place the tranche on 8/24.
 
 ---
 
