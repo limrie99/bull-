@@ -6862,3 +6862,33 @@ Net unrealized +$1,176.03.
 **Rationale for patience:** heaviest event week of the quarter — Wed 8/26 NVIDIA Q2 (after close) + July PCE + Q2 GDP; Fri 8/28 Fed Chair Warsh's first Jackson Hole keynote. ~49% cash is healthy dry powder (floor built, no cash-drag pressure); prefer clean post-event entries.
 
 **Next:** market-close 8/24 — mandatory daily "How we're doing" scorecard + Telegram; re-score BJ now that research is back; verify stops; benchmark vs SPY for the day.
+
+## 2026-08-25 08:37 CT (09:37 ET) — MARKET-OPEN (Tue) · NO TRADES (executed pre-market's patience plan) · Alpaca-IEX primary
+
+**Market state:** /v2/clock is_open:true, timestamp 09:36 ET, next_close 16:00 ET. Inbox: nothing pending (standing 8/10 floor action long since executed). daytrade_count 0.
+
+**Account (live ~09:36 ET):** equity **$101,044.77**, cash **$49,389.91 (~48.9%)**, long_market_value **$51,654.86 (~51.1%)**, buying_power $342,193.25, status ACTIVE. `last_equity` (Mon 8/24 close) **$100,901.37** → intraday **+$143.40 (+0.14%)** early session. SPY intraday ~+0.39% (766.44 vs Mon 763.46) — slight early lag, but market-close owns the real scorecard.
+
+### Positions (live marks)
+- **JPM** 34 @ 329.695588, cur **355.31**, **+$870.79 (+7.77%)**. Trailing floor 329.85, hwm 366.5, cushion ~7.2%. INTACT.
+- **LLY** 12 @ 1209.84, cur **1253.27**, **+$521.10 (+3.59%)**. Trailing floor 1152.468, hwm 1280.52, cushion ~8.0%. INTACT. (+3.59% < +5% → no conversion.)
+- **SPY** 32 @ 772.921250, cur **766.49**, **−$205.83 (−0.83%)**. Index-floor sleeve, NO stop by policy.
+
+### Stop-management (open-orders nested=true, VERIFIED live)
+- JPM trailing `8a937ff6-…` hwm 366.5 floor 329.85 new (cur 355.31 < hwm → no ratchet). qty 34.
+- LLY trailing `d7eb221b-…` hwm 1280.52 floor 1152.468 new (cur 1253.27 < hwm → no ratchet). qty 12.
+- SPY — no stop by design. qty 32 unencumbered.
+
+### Buy decision — BJ re-validated live, PASSED (patience)
+Pre-market handed **BJ** as the ONE live candidate (~70–72 borderline, 3 signals) with an explicit instruction: "verify it hasn't chased further + still-positive tape; prefer a modest starter OR one-day patience into the Wed NVDA/PCE tape." Live re-validation at 09:35 ET:
+- **BJ last trade $97.16** — *below* Mon's $98.53 close → it did NOT chase further (good). But that's still **~+5.85% above its 50dMA (~91.79)** = extended, right at the no-chase line. (Alpaca IEX 50dMA bar-pull returned a single bar this run; used the pre-market's established Alpaca-IEX 50dMA 91.79 as truth — conclusion is insensitive to the last decimal.)
+- **Tape mixed/flat**, not clearly risk-on (SPY ~+0.39%, tech snapping back off Monday's AI-capex jitters but feeds disagree). Not the "based + clearly positive reaction" setup the modest-starter path required.
+- **Aging catalyst:** print was 8/21 (4 days old); no fresh dated <30d catalyst.
+- **Event asymmetry:** heaviest binary week of the quarter — **Wed 8/26 NVDA Q2 (AC) + July PCE + Q2 GDP; Fri 8/28 Warsh Jackson Hole** — all clustered, downside-skewed. Retail beat-and-raises being punished (WMT −9%, and BJ is exactly that category).
+- **No cash-drag pressure:** floor built, ~49% cash (NOT a 100%-cash cold-start; anti-paralysis rule not triggered).
+→ **VERDICT: NO BUY.** Waiting one-plus day for a cleaner post-event entry costs ~nothing (if BJ is a good buy Thu it's still a good buy; if it runs, we pass — we don't chase). Keeps BJ #1 on the watchlist for a based re-look after the NVDA/PCE tape clears.
+
+### Sell decision — NONE
+Risk checks: (a) any position −7%+ un-stopped? NO (JPM +7.77%, LLY +3.59%, SPY −0.83% no-stop sleeve). (b) any +5%+ needing hard→trailing conversion? NO (both already trailing; LLY <+5%). (c) daily loss cap: +0.14% intraday → not hit. No thesis breaks (position analyst verified pre-market). Hold all three.
+
+**BOTTOM LINE:** Executed the pre-market plan faithfully — **NO TRADES.** Both conviction stops resting and verified, no conversions due, no sells, and the one buy candidate (BJ) correctly passed on discipline (extended + aging catalyst + binary-event week + retail-print risk), held as #1 watch for a post-event entry. Conviction sleeve 2/5 (3 slots open); weekly conviction buys 0/3.

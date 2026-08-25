@@ -1,37 +1,37 @@
 # Portfolio
 
-**Last updated:** 2026-08-25 06:15 CT (07:15 ET) — **PRE-MARKET (Tue).** Market CLOSED pre-open (/v2/clock is_open:false, next_open 09:30 ET). Account: equity **$101,031.08**, cash **$49,389.91** (~48.9%), long_market_value **$51,641.17** (~51.1%), buying_power $342,154.91, status ACTIVE. `last_equity` (Mon 8/24 close) $100,901.37 → pre-market +$130 on thin/indicative marks (NOT a real day move — market closed). ✅ **Perplexity RECOVERED** (live-tested HTTP 200 w/ citations) — full 4-agent scan ran. **NO TRADES (research routine, market closed).** Conviction sleeve **2 of 5 (three slots OPEN); weekly conviction buys 0/3.** Two conviction trailing stops resting (JPM + LLY; SPY zero by policy) — **VERIFIED live via open-orders.** **Inbox: nothing pending.**
+**Last updated:** 2026-08-25 08:37 CT (09:37 ET) — **MARKET-OPEN (Tue).** Market CONFIRMED open (/v2/clock is_open:true, 09:36 ET, next_close 16:00 ET). Account: equity **$101,044.77**, cash **$49,389.91** (~48.9%), long_market_value **$51,654.86** (~51.1%), buying_power $342,193.25, status ACTIVE. `last_equity` (Mon 8/24 close) $100,901.37 → intraday **+$143 (+0.14%)** early session. ✅ **NO TRADES** — executed the pre-market plan: patience into the binary-event week; BJ (only gate-toucher) did not clear the "confirmed base + clearly positive tape" bar. Conviction sleeve **2 of 5 (three slots OPEN); weekly conviction buys 0/3.** Two conviction trailing stops resting (JPM + LLY; SPY zero by policy) — **VERIFIED live via open-orders.** **Inbox: nothing pending.**
 
-## Open decision (2026-08-25 pre-market)
-- **No sells.** No position at/through its −7% or trailing floor; position analyst (Perplexity) found no thesis break on JPM or LLY in the last 24–48h. LLY got a cosmetic WS Zen "strong buy"→"buy" nudge (8/23) + an Amazon Pharmacy distribution tailwind (8/24) — neither is a sell trigger.
-- **No buy (market closed anyway).** Only **BJ** touches the buy-gate (3 signals, ~70–72), but Alpaca-IEX primary puts it +7.35% above its 50dMA = right at the "no-chase" line, and the print-catalyst is aging. Hand market-open ONE live candidate (BJ) with a "verify it hasn't chased further + still-positive tape; prefer a modest starter or one-day patience into Wed" instruction.
-- **Patience into the heaviest binary-event week of the quarter:** Wed 8/26 NVIDIA Q2 (after close) + July PCE + Q2 GDP 2nd est; Fri 8/28 Fed Chair Warsh's first Jackson Hole keynote. ~49% cash is fine (floor built, no cash-drag pressure).
+## Open decision (2026-08-25 market-open)
+- **No sells.** No position at/through its −7% or trailing floor; no thesis break (position analyst verified pre-market on JPM/LLY). All three held.
+- **No buy.** BJ, the single live candidate handed by pre-market, was live at **$97.16** — *below* Mon's $98.53 close, so it did NOT chase further (good), but it's still **~+5.85% above its 50dMA (~91.79)** = extended, at the no-chase line, with the print-catalyst now 4 days old and no fresh dated <30d catalyst. Tape mixed/flat (SPY ~+0.39% intraday), not the "clearly positive, based" setup the modest-starter option required. Against the heaviest binary week of the quarter (Wed NVDA Q2 AC + July PCE + Q2 GDP; Fri Warsh Jackson Hole) with asymmetric downside and retail beat-and-raises being punished (WMT −9%), the disciplined call is **one-day-plus patience** for a cleaner post-event entry. No cash-drag pressure (floor built, ~49% cash).
+- **No conversions needed.** JPM & LLY already on 10% trailing; LLY +3.59% < the +5% conversion line; SPY carries no stop by policy.
 
-## Open positions (2 conviction stocks + 1 index-floor sleeve) — pre-market marks ~07:15 ET 8/25
+## Open positions (2 conviction stocks + 1 index-floor sleeve) — live marks ~09:36 ET 8/25
 | Symbol | Shares | Avg Cost | Price | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 357.50 | +944.90 | +8.43% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. No material 24–48h news (verified). Next earnings ~Oct. Alpaca 50dMA 344.80, +3.37% clean. Cushion ~7.0% to floor. |
-| LLY | 12 | 1209.84 | 1247.00 | +445.92 | +3.07% | **10% TRAILING (GTC)**, floor **1152.468**, hwm 1280.52 | 2026-08-12 | Eli Lilly — Q2 beat-and-raise + GLP-1/obesity lead (US share ~60.9% vs Novo 38.8%). WS Zen→"buy" 8/23 cosmetic; Amazon Pharmacy $50/mo distribution tailwind 8/24. Alpaca 50dMA 1181.39, +5.58% clean. Cushion ~7.6% to floor. |
-| SPY | 32 | 772.921250 | 766.32 | −211.49 | −0.85% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 2026-08-11 (t2) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week caps; NO −7%/trailing stop. Buy-and-hold-the-market. |
+| JPM | 34 | 329.695588 | 355.31 | +870.79 | +7.77% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. No material 24–48h news (verified pre-market). Next earnings ~Oct. Cushion ~7.2% to floor. |
+| LLY | 12 | 1209.84 | 1253.27 | +521.10 | +3.59% | **10% TRAILING (GTC)**, floor **1152.468**, hwm 1280.52 | 2026-08-12 | Eli Lilly — Q2 beat-and-raise + GLP-1/obesity lead. Amazon Pharmacy $50/mo distribution tailwind (8/24). WS Zen→"buy" 8/23 cosmetic. Cushion ~8.0% to floor. Next earnings ~late Oct. |
+| SPY | 32 | 772.921250 | 766.49 | −205.83 | −0.83% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 2026-08-11 (t2) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week caps; NO −7%/trailing stop. Buy-and-hold-the-market. |
 
-**Conviction sleeve: 2 of 5 (three slots OPEN).** **Conviction buys used this week: 0 of 3** (SPY floor does NOT consume this budget). **Cash buffer: ~48.9%.** Sizes on equity $101,031.08: JPM ~12.03%, LLY ~14.81%, SPY ~24.28% (index sleeve — exempt from the 20% cap by policy).
+**Conviction sleeve: 2 of 5 (three slots OPEN).** **Conviction buys used this week: 0 of 3** (SPY floor does NOT consume this budget). **Cash buffer: ~48.9%.** Sizes on equity $101,044.77: JPM ~11.96%, LLY ~14.88%, SPY ~24.27% (index sleeve — exempt from the 20% cap by policy).
 
-## Stop-management state (open-orders nested=true — VERIFIED live ~07:15 ET 8/25)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). Pre-market 357.50 < hwm → no ratchet. qty 34. Cushion ~7.0%.
-- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm **1280.52**, floor **1152.468**, status new (resting). Pre-market 1247.00 < hwm → no ratchet. qty 12. Cushion ~7.6%.
+## Stop-management state (open-orders nested=true — VERIFIED live ~09:36 ET 8/25)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). Cur 355.31 < hwm → no ratchet. qty 34. Cushion ~7.2%.
+- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm **1280.52**, floor **1152.468**, status new (resting). Cur 1253.27 < hwm → no ratchet. qty 12. Cushion ~8.0%.
 - **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 32 unencumbered. Do NOT place a stop.
 
-## Risk checks (pre-market marks)
-- **(a) Any position −7% or worse un-stopped?** NO. JPM +8.43%, LLY +3.07%, SPY −0.85% (index sleeve, no stop by policy). **→ No sell trigger.** (Position analyst: no thesis break on JPM/LLY 24–48h.)
-- **(b) Any position +5%+ needing hard→trailing conversion?** NO pending — JPM & LLY already on 10% trailing; SPY carries no stop by policy. (LLY +3.07% < +5%.)
-- **(c) Daily loss cap:** market closed → moot. No buys placed anyway.
+## Risk checks (live open marks)
+- **(a) Any position −7% or worse un-stopped?** NO. JPM +7.77%, LLY +3.59%, SPY −0.83% (index sleeve, no stop by policy). **→ No sell trigger.**
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM & LLY already on 10% trailing; LLY +3.59% < +5%; SPY carries no stop by policy.
+- **(c) Daily loss cap:** equity +0.14% intraday → cap not hit; buys would be allowed if a setup cleared. None did.
 
-## Watch / next (next routine: **market-open 8/25**)
-- **BJ (BJ's Wholesale) — SINGLE LIVE CANDIDATE, ~70–72 BORDERLINE.** 3 signals (beat-and-raise + Gordon Haskett→Buy PT $115 + held print gain) but +7.35% vs 50dMA = at the no-chase line, print-catalyst aging. Market-open: verify it hasn't chased further + still-positive tape; prefer a modest B+ starter or one-day patience into Wed NVDA/PCE.
-- **ABBV — WATCH, NO BUY.** +6.38% vs 50dMA, ~1% off 52-wk high, insider selling flagged, no dated <30d catalyst. Re-look on a pull to ~$248–252 + a dated catalyst.
-- **AMGN — WATCHLIST-sub70.** Beat-and-raise + GLP-1/MariTide but extension unverified/likely extended; verify entry before it qualifies.
-- **Tape caution:** WMT beat-and-raise yet fell ~9%; require a verified positive reaction, not just a good headline.
-- **Macro binaries this week:** Wed 8/26 NVDA + PCE + GDP; Fri 8/28 Warsh Jackson Hole. Do NOT rush a new buy ahead of them.
+## Watch / next (next routine: **midday 8/25**)
+- **BJ (BJ's Wholesale) — #1 WATCH, ~70–72 BORDERLINE, HOLD for a cleaner entry.** 3 signals (beat-and-raise + Gordon Haskett→Buy PT $115 + held print gain) but still ~+5.85% vs 50dMA and print-catalyst aging. Re-look after the Wed NVDA/PCE tape clears; require a based/confirmed setup + positive reaction, not a chase into the event.
+- **ABBV — WATCH, NO BUY.** Extended (~+6.4% vs 50dMA), ~1% off 52-wk high, insider selling flagged, no dated <30d catalyst. Re-look on a pull to ~$248–252 + a dated catalyst.
+- **AMGN — WATCHLIST-sub70.** Beat-and-raise + GLP-1/MariTide but likely extended; verify entry before it qualifies.
+- **Tape caution:** retail beat-and-raises being punished (WMT −9%) — require a verified positive reaction, not just a good headline.
+- **Macro binaries this week:** Wed 8/26 NVDA Q2 (AC) + July PCE + Q2 GDP; Fri 8/28 Warsh Jackson Hole. Do NOT rush a new buy ahead of them.
 
 ## Recent closes (last 5)
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |

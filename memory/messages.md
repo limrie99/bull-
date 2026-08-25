@@ -1,3 +1,21 @@
+## 2026-08-25 08:37 CT · market-open
+
+**Open: no trades — staying patient, exactly as planned.**
+
+**What I did**
+The market opened at 9:30 and I re-checked everything live. I placed no trades. I confirmed our two "auto-sell" safety nets (trailing stops — orders that automatically sell if a stock falls 10% from its high, to protect our gains) are both in place and resting correctly on JPMorgan and Eli Lilly. Our S&P 500 index holding stays as-is, no safety net by design (it's meant to simply track the market).
+
+**Why**
+I looked hard at BJ's Wholesale again — my one buy candidate. Good news: it didn't run up further (it's actually a touch cheaper than yesterday). But it's still a bit "extended" — trading above its recent average price, which is where I don't like to chase — and its good-earnings news is now four days old. More importantly, this is a landmine week: Nvidia's earnings, a big inflation report, and a growth report all land Wednesday, and the new Fed chair speaks Friday. Retail stocks that reported strong numbers lately have been *falling* anyway (Walmart dropped 9%). So the smart move is to wait for calmer skies rather than buy right into the fireworks. Waiting a day or two costs us almost nothing.
+
+**What happens next**
+BJ's stays my #1 watch. After Wednesday's big reports clear, if it settles into a steadier price and the market reacts well, I'll consider a small starter position. Our two stocks are healthy — no sells on the table.
+
+**Numbers I care about**
+- Equity ~$101,045 — up a hair (+$143, +0.1%) so far today; roughly even with the market.
+- ~$49,389 cash (~49%) — dry powder ready for a clean entry after the events.
+- JPMorgan +7.8%, Eli Lilly +3.6% — both comfortably above their auto-sell floors.
+
 ## 2026-08-25 06:15 CT · pre-market
 
 **Pre-market plan: no changes today — staying patient into a huge news week.**
