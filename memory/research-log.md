@@ -40,6 +40,17 @@ Risk checks (pre-market marks): (a) any position −7%+ un-stopped? NO — JPM +
 ### Data caveats this run
 - Perplexity RECOVERED and served all four agents with citations. Several macro tick-levels / some scout prices carried [SEMI] (feeds disagreed on exact ES/NQ magnitudes; scout's ABBV & BJ prices conflicted with Alpaca). ALL 50dMA/extension calls above are Alpaca-IEX PRIMARY (8/24 close) and override any conflicting web figure.
 
+### Day summary — 2026-08-25 market close (Tue)
+- **Closing equity:** $100,777.81 (cash $49,389.91 / ~49.0%, long_market_value $51,387.90). `last_equity` (Mon close) $100,901.37.
+- **Day P/L:** **−$123.56 (−0.12%)**. **SPY today +0.31%** (763.46 → 765.79). **Alpha today −0.43%.**
+- **Week-to-date** (from Fri 8/21 close $100,911.47): **−$133.66 (−0.13%)**. SPY WTD +0.02% (765.64 → 765.79). **Alpha WTD −0.15%.**
+- **Trades placed:** NONE. Confirmed zero closed orders today (GET /v2/orders?status=closed after 8/25 00:00Z = []). No inbox items. No stop actions (no ratchet, no conversion, no fire).
+- **What worked:** JPM firmed into the close (+7.93% midday → +8.19%, cur 356.69), still the account's anchor; buyback/div-hike thesis intact, no news. Cash discipline held into the pre-NVDA event week — no chase, no cash-drag pressure with the floor built.
+- **What didn't:** LLY faded its morning gain in the afternoon (+3.72% midday → +1.64% close, 1254.87 → 1229.62) with no company-specific news — just a broad-market/valuation drift day for the GLP-1 leader ahead of the event week. That single fade is essentially the whole day's −$124. SPY sleeve ~flat (−0.93% vs cost). We ended a hair behind a slightly-green tape.
+- **Open questions for tomorrow:** (1) **Wed 8/26 is the pivot** — NVIDIA Q2 (AC) + July PCE + Q2 GDP 2nd est all land; the whole AI-tape read-through plus the Fed's preferred inflation gauge. Pre-market/open should NOT initiate fresh risk ahead of it. (2) Does BJ base or keep extending? Re-look only after Wed's tape and only on a confirmed setup + positive reaction — no chase. (3) LLY: today's fade was newsless; watch it doesn't turn into a trend break (floor 1152.468, cushion ~6.3%). Fri 8/28 Warsh Jackson Hole carries hawkish-surprise risk.
+
+**Stop-management state at close (open-orders nested=true, VERIFIED live 16:01 ET):** JPM 10% trailing `8a937ff6…` hwm 366.5 / floor 329.85, no ratchet (356.69 < hwm); LLY 10% trailing `d7eb221b…` hwm 1280.52 / floor 1152.468, no ratchet (1229.62 < hwm); SPY NO STOP by design (index sleeve). Conviction sleeve 2/5 (3 open); weekly conviction buys 0/3.
+
 ---
 
 ## 2026-08-24 06:20 CT — PRE-MARKET (Mon · NEW WEEK — weekly conviction buys reset 0/3) · NO TRADES (market closed, opens 09:30 ET) · Full 4-agent scan · ⚠️ Perplexity STILL DOWN (9th routine straight, 401 insufficient_quota) → WebSearch/WebFetch fallback + Alpaca-IEX primary for all price/50dMA

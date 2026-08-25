@@ -1,3 +1,24 @@
+## 2026-08-25 15:00 CT · market-close
+
+**Close: equity $100,778 · day −0.12% · SPY +0.31% · alpha −0.43%.**
+
+**How we're doing (plain English):** We slipped a little today — down about $124 (−0.12%) — while the overall market (the S&P 500) rose +0.31%. So we finished a hair behind the market on the day: a quiet red day, nothing alarming. Week-to-date we're basically flat (−0.13%) and the market is flat too (+0.02%), so we're roughly tied with it for the week.
+
+**What I did**
+I ran the full end-of-day check on our three holdings. **No trades today** — no buying, no selling — and both of our automatic safety nets (trailing stops — orders that sell a stock automatically if it falls 10% from its recent high) are confirmed resting in place on JPMorgan and Eli Lilly. Nothing hit a sell trigger.
+
+**Why we were down**
+- **Eli Lilly** was the whole story: it drifted lower this afternoon, giving back a small morning gain (from about +3.7% earlier to +1.6% at the close) on *no company news* — just quiet, valuation-driven selling ahead of a busy week. It's still profitable and well above its safety-net floor; nothing about the thesis (the reason we own it) changed.
+- **JPMorgan** actually firmed up into the close and is now up +8.2% for us — our steady anchor.
+- Our **S&P 500 index holding** was roughly flat.
+
+**What happens next**
+Tomorrow (Wednesday) is the pivot of the week: **Nvidia reports earnings after the close**, and we get a **major inflation report (PCE) in the morning**. Those can swing the whole market. I'm deliberately *not* buying ahead of them — the disciplined move is to let the dust settle. My one watch-list candidate, BJ's Wholesale, stays on hold until after Wednesday's reaction.
+
+**Numbers I care about**
+- Equity: **$100,778** — down $124 today (−0.12%). We started at $100,000, so we're up ~0.8% overall since inception.
+- **Alpha (our return minus the market's) was −0.43% today** — a small miss, driven entirely by Lilly's newsless afternoon fade.
+- Cash: **$49,390** — about 49% of the account, kept as dry powder for a cleaner entry after Wednesday's event.
 ## 2026-08-25 12:02 CT · midday
 
 **Midday: steady, no changes — everything healthy, holding fire into Wednesday's big reports.**
