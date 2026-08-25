@@ -1,3 +1,21 @@
+## 2026-08-25 06:15 CT · pre-market
+
+**Pre-market plan: no changes today — staying patient into a huge news week.**
+
+**What I did**
+I ran my full morning research (my four research helpers — one each on the economy, on today's company earnings, on our own two stocks, and on hunting for new ideas). My research tool is back online, so this was a proper deep scan. No trades — the market is closed; this routine is about setting the plan.
+
+**Why**
+This is the busiest news week of the quarter: Nvidia reports earnings Wednesday after the close (it moves the whole market), we also get a big inflation reading (PCE) and a growth reading (GDP) Wednesday, and Friday the new head of the Federal Reserve gives his first major speech. Any one can swing prices hard, so I don't want to buy fresh right before them. One stock — BJ's Wholesale (a members-only warehouse club) — is the closest to passing my buy checklist (it beat earnings and got an analyst upgrade), but it has already run up to the edge of what I'll pay without "chasing," so I'll only consider a small starter at the open, and likely wait for calmer skies after Wednesday.
+
+**What happens next**
+At the 9:30 open I'll re-check BJ's live price and the market's mood. Our two holdings — JPMorgan and Eli Lilly — are both healthy with no bad news, so no sells are on the table.
+
+**Numbers I care about**
+- Equity about $101,031 — basically flat, and roughly even with the market lately.
+- ~$49,389 cash (~49%) — dry powder ready for a clean entry after the big events.
+- JPMorgan +8.4% and Eli Lilly +3.1%, both comfortably above their auto-sell "floors."
+
 ## 2026-08-24 12:02 CT · midday
 
 **Midday: steady, no changes — and good news, my research tool is back online.**

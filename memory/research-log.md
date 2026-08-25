@@ -1,3 +1,47 @@
+## 2026-08-25 06:15 CT — PRE-MARKET (Tue) · NO TRADES (market closed, opens 09:30 ET) · Full 4-agent scan · ✅ Perplexity RECOVERED (HTTP 200 w/ citations — confirmed live this run) · Alpaca-IEX primary for all price/50dMA
+
+**Market state:** /v2/clock is_open:false, next_open Tue 2026-08-25 09:30 ET, next_close 16:00 ET. Research routine — no trades. Inbox: nothing pending. Perplexity live-tested OK (was down 10 routines through 8/24 AM; portfolio.md confirmed recovery at 8/24 midday and it held today — full 4-agent Perplexity scan ran).
+
+**Account (live pre-market marks ~06:10 CT, thin/indicative):** equity **$101,031.08**, cash **$49,389.91 (~48.9%)**, long_market_value **$51,641.17 (~51.1%)**, buying_power $342,154.91, status ACTIVE. `last_equity` (Mon 8/24 close) **$100,901.37** → pre-market +$130 on thin marks; NOT a real day move (market closed). daytrade_count 0.
+
+### Market context (macro + earnings synthesis)
+- **Tape: MIXED / cautiously risk-on.** Tech snapping back off Monday's AI-capex-jitters selloff (Mon: Nasdaq −0.8%, S&P −0.3%, Dow +0.25%); ES ~flat to +0.15%, NQ +0.3–0.7% (feeds disagree) [SEMI]. Asia mixed (Nikkei +0.5%, Shanghai +0.19%, Hang Seng ~flat) [SEMI]; Europe ~flat [SEMI].
+- **Rates/FX/commodities:** 10Y ~4.71–4.72% (up slightly) [SEMI]; **30Y ~5.24%, near multi-decade highs** [VERIFIED] = standing headwind for high-multiple growth; DXY ~99.1 [SEMI]; gold ~$4,630–4,670 (−1% off record) [SEMI]; WTI ~$83.75 (−1%) [SEMI].
+- **THIS WEEK'S BINARIES (all clustered, asymmetric downside):** **Wed 8/26 AC — NVIDIA Q2 FY27** (cons ~$91.9B rev / ~$2.09 EPS, only ~1% above own guide — bar is very high, beat-and-raise already priced) [VERIFIED]; **Wed 8/26 — July PCE** (core ~3.3% y/y / +0.2% m/m; headline easing ~3.6%) + **Q2 GDP 2nd est** (uneventful) [SEMI]; **Fri 8/28 — Fed Chair Warsh's first Jackson Hole keynote** (69% expect neutral tone → neutral is priced; risk skews to a hawkish surprise) [SEMI].
+- **Open discipline:** HOLD new buys. No reason to deploy fresh capital ahead of three same-week binaries with asymmetric downside; retail prints have been punished (WMT beat-and-raise fell ~9%). ~49% cash is fine — floor built, no cash-drag pressure.
+- **Earnings today:** pre-open DKS (Dick's, ~$3.75 EPS/~$5.64B); after-close INTU (Intuit), ZM, HEI (Heico), SMTC (Semtech — the one same-day AI/data-center read-through into NVDA), BOX. No large-cap clean beat-and-raise buy candidate reporting today.
+
+### Portfolio watch (position analyst, 24–48h — Perplexity verified)
+- **JPM (sev 1, INTACT):** no material JPM-specific news 48h [VERIFIED]; consensus Moderate Buy, avg PT ~$360; no downgrade/cut/exec exit; background litigation all pre-existing, nothing newly crystallized; buyback+div hike (8/19) pre-window, pillars hold; bank sector calm. **Alpaca 50dMA 344.80, 8/24 close 356.42 = +3.37% CLEAN.** Trailing floor 329.85, cushion ~7.0%; next earnings ~Oct. → No sell trigger.
+- **LLY (sev 1, INTACT — minor amber):** one dated action — **Wall Street Zen trimmed LLY "strong buy"→"buy" 8/23** (minor, valuation-driven, non-brokerage; NOT a thesis break) [VERIFIED]; broad consensus Moderate Buy, 24 Buys, avg PT ~$1,292. No adverse GLP-1 safety/FDA news, no Novo shock, no guidance change. **8/24 tailwind: Amazon Pharmacy began offering Zepbound/Foundayo (and Novo's Wegovy) via the Medicare GLP-1 Bridge at $50/mo** = distribution positive. **Alpaca 50dMA 1181.39, close 1247.35 = +5.58% CLEAN.** Trailing floor 1152.468, cushion ~7.6%; next earnings ~late Oct. → No sell trigger.
+- **SPY (index-floor sleeve, no stop by policy):** broad-market caution into the event week; no structural news. 50dMA 752.23, close 763.46 = +1.49%.
+
+### Buy candidates (signals + conviction) — Alpaca-IEX 50dMA is the truth
+- **BJ (BJ's Wholesale) ~$98.5 — ~70–72 BORDERLINE, the only gate-toucher, but entry now AT the chase line:** #1 fresh beat-and-raise [VERIFIED: Q2 8/21 EPS $1.36 vs $1.17, rev $6.23B +15.7% vs $5.97B, raised FY EPS $4.60–4.80, NO one-time-refund asterisk] + #4 analyst upgrade [VERIFIED: Gordon Haskett→Buy, PT $115, within 2wks] + #6 uptrend, held its +5.6% print-day gain ($91.30→$96.42→$98.49) = **3 signals.** BUT **Alpaca-IEX primary 50dMA 91.79, 8/24 close 98.53 = +7.35% above** — right AT the ~7% no-chase line (scout's "+5.2%" used a different SMA; primary overrides). No fresh dated <30d catalyst — the print IS the catalyst, now days old and the stock is extending. Fund/Thesis moderate (thin secular), Sent good (beat+upgrade), Tech now borderline-extended. → **Conviction ~70–72 BORDERLINE. MARKET-OPEN owns it: verify it hasn't gapped further above the 50dMA (chase), require a still-positive tape, and prefer a modest B+ starter OR one-day patience into the NVDA/PCE (Wed) tape over a full-size chase into the event week.**
+- **ABBV (AbbVie) — WATCH, NO BUY (extended + insider selling):** Alpaca 50dMA 248.75, close 264.61 = **+6.38% above**, ~1% off the 52-wk/all-time high — riding the high, not a clean base. Scout also flags recent **insider selling** and no dated <30d catalyst. (Scout's "$246.20/−0.6%" price is stale/wrong — Alpaca primary $264.61 is truth.) → Re-look only on a pull toward ~$248–252 + a dated catalyst.
+- **AMGN (Amgen) ~$426 — ~69 WATCHLIST-sub70:** Q2 beat-and-raise (FY GAAP EPS $22.30–23.50 above ~$22.78 cons) + GLP-1/obesity secular (MariTide) = ~2 signals [SEMI], BUT extension unverified this run and prior bench had it +12.8% extended (8/18). → WATCHLIST; verify entry not extended before it can qualify.
+- **DE / NDSN / FICO — clean beat-and-raises but EXTENDED (gap-chased):** DE Alpaca 50dMA 606.93, close 648.76 = **+6.89%** (never based; tone turned mixed — WSZ→Sell 8/23, Bernstein PT→$580); NDSN +8.2% print-day (8/20); FICO jumped. → EXTENDED-wait.
+- **PFE (Pfizer) — WATCHLIST-sub70:** beat + raised FY rev to $60.5–62.5B, fresh 52-wk high, but ~2 signals and defensive/low-growth. → WATCH.
+- **ADI ~$371 — BELOW-TREND avoid:** Alpaca 50dMA 387.73, close 371.27 = **−4.24%** (beat-but-fell, fails #6) + high-beta semi into the NVDA-Wed binary. → NO.
+- **GEV ~$942 — BELOW-TREND knife:** Alpaca 50dMA 1035.71, close 942.27 = **−9.02%.** → SKIP until a base.
+- **TGT / ROST — one-time tariff-refund-flattered beats:** TGT Alpaca 50dMA 141.67, close 169.87 = **+19.9% VERY extended** (beat flattered by ~$1.65/sh refund, consensus Hold PT below spot); ROST +3.00% but ~$0.60/sh one-time refund flattered it. → AVOID/WATCH.
+- **Aging carry (no fresh verified signal):** TDG ~65, TXN ~63, GS/NOW 63, LMT ~62, DLR 60, UNH ~58, DOV/JNJ/ITW ~58, GLW ~55, OXY 55, STX 53, MS 52; ETN watch (high-beta ≤10% cap, stopped 7/2).
+
+**BOTTOM LINE:** **Only BJ touches the gate (2+ signals, ~70–72), but at +7.35% vs its 50dMA it is right at the no-chase line and the print-catalyst is aging.** Layered on top: the heaviest binary-event week of the quarter (NVDA + PCE/GDP Wed, Warsh Fri) with asymmetric downside argues for patience regardless. **Pre-market verdict: NO TRADES (market closed anyway). Hand market-open ONE live candidate — BJ — with an explicit "verify it hasn't chased further + still-positive tape; prefer a modest starter or one-day patience into the Wed NVDA/PCE tape" instruction.** Weekly conviction buys 0/3 (fresh-ish week). Conviction sleeve 2/5 (three slots open). No cash-drag pressure — hold dry powder for a clean post-event entry.
+
+### Sell candidates — NONE
+Risk checks (pre-market marks): (a) any position −7%+ un-stopped? NO — JPM +8.43%, LLY +3.07%, SPY −0.85% (index sleeve, no stop by policy). (b) any +5%+ needing hard→trailing conversion? NO — JPM & LLY already on 10% trailing; SPY carries no stop by policy. (c) daily loss cap: market closed → moot. No thesis breaks (position analyst verified). Hold all three.
+
+### Stop-management state (open-orders nested=true, verified live this run)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm 366.5, floor 329.85, status new. qty 34. No ratchet (pre-market 356 < hwm).
+- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm 1280.52, floor 1152.468, status new. qty 12. No ratchet (pre-market 1247 < hwm).
+- **SPY — NO STOP by design** (index-floor carve-out). qty 32 unencumbered.
+
+### Data caveats this run
+- Perplexity RECOVERED and served all four agents with citations. Several macro tick-levels / some scout prices carried [SEMI] (feeds disagreed on exact ES/NQ magnitudes; scout's ABBV & BJ prices conflicted with Alpaca). ALL 50dMA/extension calls above are Alpaca-IEX PRIMARY (8/24 close) and override any conflicting web figure.
+
+---
+
 ## 2026-08-24 06:20 CT — PRE-MARKET (Mon · NEW WEEK — weekly conviction buys reset 0/3) · NO TRADES (market closed, opens 09:30 ET) · Full 4-agent scan · ⚠️ Perplexity STILL DOWN (9th routine straight, 401 insufficient_quota) → WebSearch/WebFetch fallback + Alpaca-IEX primary for all price/50dMA
 
 **Market state:** /v2/clock is_open:false, next_open Mon 2026-08-24 09:30 ET, next_close 16:00 ET. Research routine — no trades. Inbox: nothing pending. Perplexity re-tested this run: still 401 insufficient_quota (9th consecutive routine blind on buy-side research; Alpaca portfolio/stops/prices UNAFFECTED).

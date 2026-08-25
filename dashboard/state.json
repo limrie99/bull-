@@ -1,43 +1,43 @@
 {
-  "last_update": "2026-08-24 12:02 CT",
-  "last_routine": "midday",
+  "last_update": "2026-08-25 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100868.75,
+  "equity": 101031.08,
   "cash": 49389.91,
-  "day_pl": -42.72,
-  "day_pl_pct": -0.04,
-  "week_pl_pct": -0.04,
-  "spy_week_pct": -0.22,
-  "alpha_week_pct": 0.18,
+  "day_pl": 129.71,
+  "day_pl_pct": 0.13,
+  "week_pl_pct": 0.13,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "JPM",
       "shares": 34,
       "avg_cost": 329.7,
-      "price": 355.44,
-      "pl_pct": 7.81,
-      "pl_dollar": 875.31,
-      "market_value": 12084.96,
+      "price": 357.5,
+      "pl_pct": 8.43,
+      "pl_dollar": 944.9,
+      "market_value": 12155.0,
       "stop": "10% trailing, floor 329.85"
     },
     {
       "symbol": "LLY",
       "shares": 12,
       "avg_cost": 1209.84,
-      "price": 1245.33,
-      "pl_pct": 2.93,
-      "pl_dollar": 425.88,
-      "market_value": 14943.96,
+      "price": 1247.0,
+      "pl_pct": 3.07,
+      "pl_dollar": 445.92,
+      "market_value": 14964.0,
       "stop": "10% trailing, floor 1152.47"
     },
     {
       "symbol": "SPY",
       "shares": 32,
       "avg_cost": 772.92,
-      "price": 764.06,
-      "pl_pct": -1.15,
-      "pl_dollar": -283.56,
-      "market_value": 24449.92,
+      "price": 766.32,
+      "pl_pct": -0.85,
+      "pl_dollar": -211.49,
+      "market_value": 24522.17,
       "stop": "none (index-floor sleeve)"
     }
   ],
@@ -60,15 +60,15 @@
       "date": "2026-08-11 09:35",
       "side": "BUY",
       "symbol": "SPY",
-      "qty": 12,
-      "price": 772.92125
+      "qty": 6,
+      "price": 773.46
     },
     {
       "date": "2026-08-10 09:32",
       "side": "BUY",
       "symbol": "SPY",
       "qty": 20,
-      "price": 772.92125
+      "price": 772.796923
     },
     {
       "date": "2026-07-31 14:10",
@@ -101,33 +101,39 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-25 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: no changes today — patient into a huge news week (Nvidia + inflation Wed, Fed Fri)",
+      "body": "Ran full pre-market research (tool back online); no trades (market closed). Only BJ's Wholesale is near the buy checklist (beat earnings + analyst upgrade) but it's already run to the edge of what I'll pay without chasing — so at most a small starter at the open, likely wait until after Wednesday's Nvidia/inflation and Friday's Fed speech. JPMorgan +8.4% and Eli Lilly +3.1% both healthy, no bad news, above their auto-sell floors. Equity ~$101,031, ~$49K cash (~49%), 0 of 3 weekly buys used."
+    },
+    {
       "date": "2026-08-24 12:02 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes \u2014 and my research tool is back online.",
-      "summary": "No trades. News scan (Perplexity recovered after 10 blind runs) found nothing thesis-breaking on JPM or LLY. Flat today (\u2212$43, \u22120.04%) vs SPY \u22120.22% \u2014 a hair ahead. Holding ~49% cash into Nvidia/PCE/GDP (Wed) and Jackson Hole (Fri). Both stops verified resting."
+      "headline": "Midday: steady, no changes — and my research tool is back online.",
+      "summary": "No trades. News scan (Perplexity recovered after 10 blind runs) found nothing thesis-breaking on JPM or LLY. Flat today (−$43, −0.04%) vs SPY −0.22% — a hair ahead. Holding ~49% cash into Nvidia/PCE/GDP (Wed) and Jackson Hole (Fri). Both stops verified resting."
     },
     {
       "ts": "2026-08-24 08:33 CT",
       "routine": "market-open",
-      "headline": "Market open \u2014 no trades. Steady into a big-news week (Nvidia + inflation Wed, Fed Fri)",
-      "body": "Checked live prices at the open; placed no trades. No new stock passed the buy checklist (AbbVie hugging its record high, BJ's close but not convincing yet) and none of our holdings triggered a sell. Deliberately patient ahead of Wednesday's Nvidia earnings + inflation report and Friday's Fed Jackson Hole speech. Equity ~$100,791, basically flat today (-$120, -0.12%). JPMorgan +7.5% and Eli Lilly +2.7%, both green and comfortably above their auto-sell floors. ~$49K cash ready, 0 of 3 weekly buys used. Perplexity research tool still down (10th run) \u2014 trading/safety systems fully working."
+      "headline": "Market open — no trades. Steady into a big-news week (Nvidia + inflation Wed, Fed Fri)",
+      "body": "Checked live prices at the open; placed no trades. No new stock passed the buy checklist (AbbVie hugging its record high, BJ's close but not convincing yet) and none of our holdings triggered a sell. Deliberately patient ahead of Wednesday's Nvidia earnings + inflation report and Friday's Fed Jackson Hole speech. Equity ~$100,791, basically flat today (-$120, -0.12%). JPMorgan +7.5% and Eli Lilly +2.7%, both green and comfortably above their auto-sell floors. ~$49K cash ready, 0 of 3 weekly buys used. Perplexity research tool still down (10th run) — trading/safety systems fully working."
     },
     {
       "ts": "2026-08-24 06:20 CT",
       "routine": "pre-market",
-      "headline": "No changes planned at the open \u2014 patient into a huge news week (Nvidia + inflation Wed, Fed Fri)",
-      "body": "Ran full pre-market research; no trades (market closed). Nothing cleared the buy checklist \u2014 AbbVie is riding its record high (I won't chase), BJ's is close but not convincing yet. Holding ~$49K cash as dry powder for a cleaner entry after Wednesday's Nvidia/inflation and Friday's Fed speech. JPMorgan (+6.6%) and Eli Lilly (+3.9%) both healthy and above their auto-sell floors. Perplexity research tool still down (9th run) \u2014 top-up unlocks new-stock hunting; trading/safety systems fully working."
+      "headline": "No changes planned at the open — patient into a huge news week (Nvidia + inflation Wed, Fed Fri)",
+      "body": "Ran full pre-market research; no trades (market closed). Nothing cleared the buy checklist — AbbVie is riding its record high (I won't chase), BJ's is close but not convincing yet. Holding ~$49K cash as dry powder for a cleaner entry after Wednesday's Nvidia/inflation and Friday's Fed speech. JPMorgan (+6.6%) and Eli Lilly (+3.9%) both healthy and above their auto-sell floors. Perplexity research tool still down (9th run) — top-up unlocks new-stock hunting; trading/safety systems fully working."
     },
     {
       "ts": "2026-08-21 16:00 CT",
       "routine": "weekly-review",
-      "headline": "Week ending Aug 21: portfolio -0.47% | SPY -1.37% | alpha +0.90% | grade B \u2014 we beat the market this week",
-      "body": "Down less than the market on a down week (cash cushioned us) \u2014 first market-beating week since late July; whole-run alpha recovered to nearly even (-0.17). LLY the hero (+3.9%). DE auto-sold -$228 one minute before earnings, then jumped +9% (disciplined but stung). No new buys \u2014 Perplexity still down. No rule changes."
+      "headline": "Week ending Aug 21: portfolio -0.47% | SPY -1.37% | alpha +0.90% | grade B — we beat the market this week",
+      "body": "Down less than the market on a down week (cash cushioned us) — first market-beating week since late July; whole-run alpha recovered to nearly even (-0.17). LLY the hero (+3.9%). DE auto-sold -$228 one minute before earnings, then jumped +9% (disciplined but stung). No new buys — Perplexity still down. No rule changes."
     },
     {
       "ts": "2026-08-21 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $100,899 \u00b7 day +0.22% \u00b7 SPY +0.40% \u00b7 alpha -0.18% \u2014 quiet green day, market-beating week",
+      "headline": "Close: equity $100,899 · day +0.22% · SPY +0.40% · alpha -0.18% — quiet green day, market-beating week",
       "body": "Up ~$220 today, a hair behind the market on the day but +0.9 pts ahead for the week. ~Half cash: lags on up days, cushions on down weeks. LLY +0.8%, JPM flat; ~+$1,048 unrealized. No trades needed. Passed on ABBV again (drifting up near record high). Watching for new highs to raise stops; Perplexity still down."
     }
   ]
