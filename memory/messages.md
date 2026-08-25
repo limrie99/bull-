@@ -1,3 +1,20 @@
+## 2026-08-25 12:02 CT · midday
+
+**Midday: steady, no changes — everything healthy, holding fire into Wednesday's big reports.**
+
+**What I did**
+I pulled our live account and every stock price at midday and ran the full risk check. No trades. Both of our "auto-sell" safety nets (trailing stops — orders that automatically sell a stock if it drops 10% from its recent high, locking in gains) are confirmed in place and resting on JPMorgan and Eli Lilly. Our S&P 500 index holding stays as-is with no safety net, by design (it's meant to simply track the market).
+
+**Why**
+Nothing on my checklist said "act." Neither stock is anywhere near its safety-net floor, so there's nothing to sell. Neither needs its floor adjusted right now. And I'm still not buying: my one candidate, BJ's Wholesale, is still trading a bit rich versus its recent average, and this is a landmine week — Nvidia's earnings plus a big inflation report land Wednesday, and the new Fed chair speaks Friday. The disciplined move is to wait for calmer skies rather than buy into the fireworks.
+
+**What happens next**
+The close routine will send the full daily scorecard around 3–4pm. I'll re-check BJ's after Wednesday's reports clear — I want it to settle and the market to react well before I'd take even a small starter.
+
+**Numbers I care about**
+- Equity ~$101,047 — up a hair today (+$146, +0.14%); the market (S&P 500) is up +0.30%, so we're a touch behind on the day, mostly because our index holding is slightly underwater and Lilly is flat.
+- JPMorgan +7.9% and Eli Lilly +3.7% — both green and comfortably above their auto-sell floors (about 7–8% of cushion each).
+- ~$49,389 cash (~49%) — dry powder ready for a clean entry after the events. 0 of 3 weekly buys used.
 ## 2026-08-25 08:37 CT · market-open
 
 **Open: no trades — staying patient, exactly as planned.**

@@ -6892,3 +6892,23 @@ Pre-market handed **BJ** as the ONE live candidate (~70–72 borderline, 3 signa
 Risk checks: (a) any position −7%+ un-stopped? NO (JPM +7.77%, LLY +3.59%, SPY −0.83% no-stop sleeve). (b) any +5%+ needing hard→trailing conversion? NO (both already trailing; LLY <+5%). (c) daily loss cap: +0.14% intraday → not hit. No thesis breaks (position analyst verified pre-market). Hold all three.
 
 **BOTTOM LINE:** Executed the pre-market plan faithfully — **NO TRADES.** Both conviction stops resting and verified, no conversions due, no sells, and the one buy candidate (BJ) correctly passed on discipline (extended + aging catalyst + binary-event week + retail-print risk), held as #1 watch for a post-event entry. Conviction sleeve 2/5 (3 slots open); weekly conviction buys 0/3.
+
+## 2026-08-25 12:02 CT — MIDDAY (Tue) · NO TRADES / NO CHANGES · Alpaca-IEX primary
+**Market:** /v2/clock is_open:true, 13:01 ET, next_close 16:00 ET. Inbox: nothing pending. Perplexity not queried this run — no −7% position and no thesis-break trigger to investigate (step 3a not fired).
+
+**Account (live ~13:01 ET):** equity $101,047.06, last_equity (Mon 8/24 close) $100,901.37 → intraday +$145.69 (+0.14%). cash $49,389.91 (~48.9%), long_market_value $51,657.15 (~51.1%), buying_power $342,199.67, ACTIVE.
+
+**Benchmark:** SPY Mon 8/24 close 763.46 → cur 765.74 = +0.30% today. Book +0.14% → ~−0.16 pt behind SPY intraday. Attribution: SPY sleeve mark (−0.94% vs avg cost) + LLY flat on the day drag; JPM (+7.93%) the carry. Not a close-routine benchmark call — that's owned by the 3–4pm close.
+
+**Positions / marks:** JPM 34 @ 329.695588, cur 355.855, +$889.42/+7.93%, mv $12,099.07 (~11.97%). LLY 12 @ 1209.84, cur 1254.87, +$540.36/+3.72%, mv $15,058.44 (~14.90%). SPY 32 @ 772.921250, cur 765.65, −$232.68/−0.94%, mv $24,500.80 (~24.25%, index sleeve, exempt from 20% cap).
+
+**Risk (priority order per midday prompt):**
+- (a) Any position −7% or worse un-stopped? NO. JPM +7.93%, LLY +3.72%, SPY −0.94% (index sleeve, no stop by policy). → No sell. Perplexity news check NOT triggered (nothing at/through floor).
+- (b) Any +5%+ needing hard→trailing conversion? NO. JPM & LLY already on 10% trailing (VERIFIED live, open-orders nested); LLY +3.72% < +5%; SPY no stop by policy. Neither trailing ratcheted (JPM cur 355.855 < hwm 366.5; LLY cur 1254.87 < hwm 1280.52).
+- (c) Daily loss cap: +0.14% intraday → not hit; buys allowed if a setup cleared.
+
+**Stops VERIFIED live (open-orders?status=open&nested=true):** JPM trailing 10% id 8a937ff6 hwm 366.5 floor 329.85 qty34 status new. LLY trailing 10% id d7eb221b hwm 1280.52 floor 1152.468 qty12 status new. SPY none by design. No orphan/duplicate/unexpected orders.
+
+**Buy decision:** NO midday buy. No high-conviction breaking catalyst. Conviction sleeve 2/5 (room), weekly conviction buys 0/3 (room) — capacity is NOT the constraint; catalyst quality + event risk is. BJ (#1 watch, ~70–72 borderline) stays HOLD: extended vs 50dMA, print-catalyst aging, and heaviest binary week of quarter (Wed 8/26 NVDA Q2 AC + July PCE + Q2 GDP; Fri 8/28 Warsh Jackson Hole). No deviation from pre-market patience plan warranted. No cash-drag pressure (floor built, ~49% cash, not the 3+ day all-cash anti-paralysis state).
+
+**Actions:** none (no orders placed/cancelled). Wrote portfolio.md midday snapshot, prepended messages.md teacher note, updated dashboard/state.json. No Telegram (quiet midday — per CLAUDE.md do-NOT-push list). Next: market-close 8/25 owns the mandatory daily "How we're doing" scorecard + Telegram push.
