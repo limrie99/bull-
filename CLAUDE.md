@@ -75,12 +75,14 @@ Required (halt if empty):
 
 Optional (silently skip if empty):
 - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` — push notifications
+- `EQUIBLES_API_KEY` — filing-grade research data (insider Form 4s, 13F holdings, short interest, real fundamentals). If empty, skip `scripts/equibles.md` entirely — Perplexity and the free EDGAR fallback still cover research.
 
 If a **required** var is empty, halt, write a clear error to `memory/messages.md`, and stop.
 
 Reference docs in `scripts/`:
 - `scripts/alpaca.md` — account, positions, orders
 - `scripts/perplexity.md` — research queries
+- `scripts/equibles.md` — filing-grade data: insider/13F/short-interest/fundamentals (+ free EDGAR fallback)
 - `scripts/dashboard.md` — how to write messages and the `state.json` schema
 - `scripts/telegram.md` — optional push notifications
 

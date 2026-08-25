@@ -12,7 +12,7 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
 1. Source ./.env and read CLAUDE.md, memory/strategy.md (note the **Conviction Score** rubric and buy-gate), memory/portfolio.md, memory/watchlist.md, memory/inbox.md (handle Pending), last 10 entries of memory/trade-log.md, and top 3 entries of memory/research-log.md.
 
-2. **Spin up your wealth-advisor sub-agent team in parallel** (Agent tool). Give each Perplexity access (scripts/perplexity.md). Batch tickers per call to control Perplexity cost. Each analyst that scores a candidate must return a **0–100 score on its own dimension** plus 2–3 bullets of evidence — those scores feed the Conviction Score in strategy.md.
+2. **Spin up your wealth-advisor sub-agent team in parallel** (Agent tool). Give each Perplexity access (scripts/perplexity.md). Batch tickers per call to control Perplexity cost. If EQUIBLES_API_KEY is set, ALSO give the fundamental analyst, sentiment analyst, and opportunity scout the Equibles sheet (scripts/equibles.md) — prefer its filing-cited numbers (insider Form 4s, 13F changes, short interest, real valuation multiples) over web-search guesses for those dimensions, and respect its 100-requests/day budget (batch; EDGAR fallback when spent). Each analyst that scores a candidate must return a **0–100 score on its own dimension** plus 2–3 bullets of evidence — those scores feed the Conviction Score in strategy.md.
    - **Macro analyst** — overnight futures (ES, NQ), global indices, Treasury yields, FX/commodities, top macro headlines since yesterday's close. Also: which 1–2 GICS sectors are catching rotation/flows today (this informs the technical-timing and sentiment dimensions).
    - **Earnings analyst** — companies reporting today (pre-open and post-close) relevant to our holdings/watchlist; consensus vs whisper, guidance risk, expected move. Flag any held or watched name reporting within 3 trading days.
    - **Fundamental analyst** — for each held name and each scout candidate, score **Fundamental quality (0–100)**: valuation vs sector (fwd P/E), revenue/EPS growth YoY, margin trend, debt/equity, moat.
@@ -23,6 +23,7 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
      - *Earnings-beat screen:* beat EPS in ≥3 of last 4 quarters, avg surprise >5%, guidance raised, estimates revised up last 30d.
      - *Growth screen:* revenue growth YoY >20%, earnings growth >15% and accelerating, fwd P/E < 50.
      - *Momentum-with-catalyst screen:* 3-mo return >15%, price above 50-day MA and **not** at fresh 52-wk lows, paired with a real catalyst in the next 30d (no momentum without a catalyst — strategy rule).
+     - *Smart-money screen (only if EQUIBLES_API_KEY is set):* top insider-sentiment scores with cluster buys (`clusterBuysOnly=true`, $10B+ cap), cross-checked against 13F top-buys — candidates here feed **signal #7** in strategy.md but still need a real catalyst and the full Conviction Score like everyone else.
      For each candidate, give the matched screen + the specific near-term catalyst.
 
    **Synthesize:** for every buy candidate, you (Bull) own the **Thesis & catalyst (0–100)** dimension and the light **Technical-timing (0–100)** dimension, then compute the **Conviction Score** = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech. Count buy signals separately.
