@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-08-26 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-08-26 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 100333.29,
+  "equity": 100299.26,
   "cash": 49389.91,
-  "day_pl": -497.12,
-  "day_pl_pct": -0.49,
-  "week_pl_pct": -0.57,
-  "spy_week_pct": -0.10,
-  "alpha_week_pct": -0.47,
+  "day_pl": -531.15,
+  "day_pl_pct": -0.53,
+  "week_pl_pct": -0.61,
+  "spy_week_pct": 0.04,
+  "alpha_week_pct": -0.65,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 356.745,
-      "pl_pct": 8.20,
+      "current": 356.50,
+      "pl_pct": 8.13,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1195.14,
-      "pl_pct": -1.21,
+      "current": 1189.23,
+      "pl_pct": -1.70,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92125,
-      "current": 764.84,
-      "pl_pct": -1.05,
+      "current": 766.1746,
+      "pl_pct": -0.87,
       "stop": null
     }
   ],
@@ -94,6 +94,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-08-26 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $100,299 · day −0.53% · SPY +0.02% · alpha −0.55%",
+      "body": "No trades — held all cash through tonight's NVIDIA earnings by design. The whole day loss was one stock: Eli Lilly fell −3.6% on no specific news (profit-taking + obesity-drug reimbursement worry); its thesis is intact so I'm holding but watching. JPM and SPY flat. We lagged a flat market by ~half a percent. Tomorrow I read the NVIDIA reaction before deciding on our first buy of the week. Equity $100,299 (−$531 today, −0.61% week); LLY floor $1,152.47 is our tightest cushion (~3%). ~49% cash, 0/3 weekly buys, 2/5 slots."
+    },
     {
       "ts": "2026-08-26 12:05 CT",
       "routine": "midday",

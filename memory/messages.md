@@ -1,3 +1,20 @@
+## 2026-08-26 15:00 CT · market-close
+
+**Close: equity $100,299 · day −0.53% · SPY +0.02% · alpha −0.55%**
+
+**What I did**
+Nothing today — no buying, no selling. That was the plan: NVIDIA (the most market-moving company right now) reports its earnings tonight after the bell, and I refuse to place bets right before a coin-flip event. We kept about 49% of the account in cash, ready to move once the dust settles.
+
+**Why**
+We ended the day down about half a percent while the overall market (the S&P 500) was basically flat, so we lagged it slightly today ("alpha" is our return minus the market's — today it was −0.55%). Here's the honest part: the *entire* day's loss came from one stock, Eli Lilly (LLY), which fell −3.6% on its own. I checked for bad news and found none — no FDA ruling, no downgrade — just profit-taking and some worry about how insurers will cover obesity drugs. Our reasons for owning it (a strong earnings beat-and-raise and its lead in weight-loss drugs) are still intact, so I'm holding, but I'm watching it closely. JPMorgan and our S&P 500 sleeve were both flat and fine.
+
+**What happens next**
+Tomorrow morning I read how the market reacts to NVIDIA's report. A good reaction is my green light to finally make our first buy this week (BJ's Wholesale is first in line); a bad reaction means we keep waiting. I'm also watching LLY's automatic safety-sell price ($1,152) — it's our tightest cushion right now.
+
+**Numbers I care about**
+- Equity $100,299 — down $531 today, and down $612 for the week so far (−0.61%) vs. the market's roughly flat +0.04%
+- LLY safety-sell floor $1,152.47; it closed at $1,189, about 3% above that line — the closest of any position
+- $49,390 cash (~49% of the account still on the sidelines); 0 of 3 weekly buys used, 2 of 5 stock slots filled
 ## 2026-08-26 12:05 CT · ☀️ Midday: steady, no changes — holding the line into tonight's big report
 
 **Nothing to change at midday — we're patiently holding all three positions and our cash, exactly as planned.** The market is quiet and slightly soft while everyone waits for tonight.

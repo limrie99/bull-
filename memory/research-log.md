@@ -7037,3 +7037,44 @@ LLY drifted +0.94% (open) → −1.21% (midday), tightest cushion in the book, s
 - LLY cushion ~3.6% — watch the newsless fade doesn't become a trend break (floor 1152.468). Fri 8/28 Warsh Jackson Hole hawkish risk.
 - BJ/ROST re-confirm window post-NVDA (likely Thu) on a still-clean entry + positive reaction. Conviction sleeve 2/5 (3 open); weekly buys 0/3.
 - Inbox: nothing pending. No Telegram this routine (quiet midday, no trades — per CLAUDE.md push policy).
+
+## 2026-08-26 15:00 CT (16:00 ET) — MARKET-CLOSE (Wed · THE BINARY DAY) · NO TRADES · Alpaca closing marks + Perplexity LLY-catalyst check
+
+**Clock:** is_open false (closed 16:00 ET), next_open 2026-08-27 09:30 ET. **Account (closing):** equity **$100,299.26**, cash **$49,389.91 (~49.24%)**, long_market_value **$50,909.35 (~50.76%)**, buying_power $340,105.81, status ACTIVE. `last_equity` (Tue 8/25 close) $100,830.41.
+
+### Actions taken this routine
+- **NO TRADES** (0 closed orders today — held all fresh capital through tonight's NVIDIA Q2 AMC print per the pre-market/open/midday plan). Weekly conviction buys 0/3. Conviction sleeve 2/5 (3 slots open).
+- **NO STOP ACTIONS.** Both trailing stops resting, unchanged, VERIFIED live (2 open orders total, nested). No ratchet (both below hwm), no hard→trailing conversion needed, no fire.
+- **NOTE:** NVIDIA reports AMC ~5pm ET **after** this close routine ran — we are deliberately holding through it. Tomorrow's pre-market/open assesses the reaction. No fresh risk taken pre-print.
+
+### Day summary
+- **Closing equity:** $100,299.26. **Day P/L: −$531.15 (−0.53%).**
+- **SPY day:** 765.79 (8/25 IEX close) → 765.94 (8/26 close) = **+0.02%** (essentially flat).
+- **Alpha today: −0.55%** (we lagged the flat market by about half a percent).
+- **Week-to-date (from Fri 8/21 close $100,911.47):** portfolio **−0.61%**, SPY **+0.04%** (765.64→765.94), **alpha WTD −0.65%.**
+- **Trades placed:** none.
+- **What worked:** (1) Discipline held — no capital committed into the NVDA binary; dry powder (~49% cash) intact for a post-event clean entry. (2) JPM anchor unbothered (−0.05% intraday), thesis intact, ~7.5% stop cushion.
+- **What didn't:** (1) LLY −3.60% intraday (−$533) — that single move IS essentially the entire day loss; SPY and JPM were flat. (2) LLY cushion to its trailing floor tightened from ~3.6% to **~3.09%** (floor 1152.468, cur 1189.23) — tightest in the book.
+- **LLY catalyst check (Perplexity sonar, live):** NO LLY-specific catalyst in last 24h — no FDA/trial/downgrade/safety headline. Attributed to profit-taking + obesity-drug reimbursement/coverage worries + valuation pressure. **Thesis INTACT (Q2 beat-and-raise + GLP-1 lead). Hold. Watch the floor.**
+- **Open questions for tomorrow:** (1) NVIDIA reaction — does a strong/weak print move the whole tape and our re-confirm timing for BJ/ROST? (2) Does LLY's newsless fade stabilize or turn into a trend break toward the 1152.468 floor? (3) Fri 8/28 Warsh Jackson Hole hawkish-surprise risk still ahead.
+
+### Positions (closing marks)
+- **JPM** 34 sh @ 329.695588, cur 356.50, mv $12,121.00, **+$911.35 (+8.13%)**, intraday −0.05%. 10% trailing floor 329.85 (hwm 366.5), cushion ~7.48%. ~12.09% of equity. Thesis intact. → Hold.
+- **LLY** 12 sh @ 1209.84, cur 1189.23, mv $14,270.76, **−$247.32 (−1.70%)**, intraday −3.60%. 10% trailing floor 1152.468 (hwm 1280.52), cushion ~3.09% (tightest). ~14.23% of equity. Thesis intact (verified live, newsless fade). → Hold, watch floor.
+- **SPY** 32 sh @ 772.92125, cur 766.1746, mv $24,517.59, **−$215.89 (−0.87%)**, intraday +0.04%. Index-floor sleeve, NO stop by policy. ~24.44% of equity (exempt from 20% cap). → Hold-the-market.
+
+### Risk checks (closing)
+- (a) Any position −7%+ un-stopped? NO — JPM +8.13%, LLY −1.70%, SPY −0.87%. → No sell trigger.
+- (b) Any +5%+ needing hard→trailing conversion? NO — JPM & LLY already on 10% trailing; SPY no stop by policy.
+- (c) Daily loss cap: day −0.53%, well inside −3%. Not triggered.
+
+### Stop-management state (open-orders nested=true, VERIFIED live at close)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm 366.5, floor 329.85, status new. qty 34. No ratchet (356.50 < hwm). Cushion ~7.48%.
+- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm 1280.52, floor 1152.468, status new. qty 12. No ratchet (1189.23 < hwm). Cushion ~3.09%.
+- **SPY — NO STOP by design.** qty 32 unencumbered. Confirmed only 2 open orders total.
+
+### Watch / next (pre-market 8/27)
+- **NVIDIA reaction is the first thing to read tomorrow** — it reported AMC tonight. Positive tape reaction is a green light to re-confirm BJ (#1, ~74 B+) / ROST (#2, ~72 borderline) for a possible first conviction buy this week; a sour reaction means keep waiting.
+- **LLY floor 1152.468** — watch the newsless fade doesn't become a trend break; tightest cushion in book (~3.09%). Thesis intact today.
+- Fri 8/28 Warsh Jackson Hole hawkish-surprise risk. Weekly buys 0/3, sleeve 2/5 (3 open), ~49% cash.
+- Mandatory daily "How we're doing" Telegram close update SENT this routine.
