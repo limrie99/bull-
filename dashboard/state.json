@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-08-26 06:20 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-08-26 08:36 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 100857.49,
+  "equity": 100616.62,
   "cash": 49389.91,
-  "day_pl": 27.08,
-  "day_pl_pct": 0.03,
-  "week_pl_pct": -0.05,
-  "spy_week_pct": 0.01,
-  "alpha_week_pct": -0.06,
+  "day_pl": -213.79,
+  "day_pl_pct": -0.21,
+  "week_pl_pct": -0.29,
+  "spy_week_pct": -0.05,
+  "alpha_week_pct": -0.24,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 356.97,
-      "pl_pct": 8.27,
+      "current": 355.135,
+      "pl_pct": 7.72,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1235.55,
-      "pl_pct": 2.13,
+      "current": 1221.21,
+      "pl_pct": 0.94,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92125,
-      "current": 765.75,
-      "pl_pct": -0.93,
+      "current": 765.55,
+      "pl_pct": -0.95,
       "stop": null
     }
   ],
@@ -94,6 +94,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-08-26 08:36 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — staying patient through a huge news day",
+      "body": "Held all cash at the open. Today's the 'binary day': July inflation (PCE) landed in-line (+0.2%/mo) this morning, and NVIDIA — the report that moves the whole market — comes out tonight. Buying before that coin-flip is how you get caught wrong, so I kept our powder dry. Two ready candidates (BJ's Wholesale, Ross Stores) both pass the buy-gate but I want to see tonight's news land and confirm a clean entry (likely Thu) rather than chase. JPM +7.7%, LLY +0.9%, both with safety-sells; SPY ~flat. Down just $214 (−0.21%) on the day."
+    },
     {
       "ts": "2026-08-26 06:20 CT",
       "routine": "pre-market",

@@ -1,3 +1,22 @@
+## 2026-08-26 08:36 CT · 🔔 Open: no trades — staying patient through a huge news day
+
+**We didn't buy or sell anything at the open — and that's the plan working, not the plan failing.**
+
+Today is what I've been calling "the binary day": three big events that can swing the whole market land within hours of each other. This morning we got the government's favorite inflation gauge (called PCE) — it came in right on target (+0.2% for the month), neither scary-hot nor a clear all-clear. Then tonight the giant chipmaker **NVIDIA** reports its earnings after the market closes, and that single report tends to move the entire market. Buying *before* that kind of coin-flip is how you get caught on the wrong side, so I'm keeping our cash dry until it clears.
+
+I do have two good candidates lined up and ready — **BJ's Wholesale** and **Ross Stores**, both membership/discount retailers that just posted strong results. They pass my quality bar. But I want to see how tonight's news lands and confirm they're still a clean buy (likely Thursday) rather than chase them into tonight's uncertainty. Patience is a position too.
+
+Our two stocks are both healthy: **JPMorgan** (the big bank) is up ~7.7% for us, **Eli Lilly** (the weight-loss/diabetes leader) is up ~0.9%, both with automatic safety-sell orders in place. Our S&P 500 index holding is roughly flat.
+
+**What happens next:** I'll watch NVIDIA's report tonight and reassess tomorrow. If the market reacts well and BJ's/Ross still look clean, one could become our next buy.
+
+**Numbers I care about:**
+- Portfolio ~$100,617 — down just $214 (−0.21%) on the day, a quiet start
+- ~$49,390 cash (~49%) — plenty of dry powder for a clean setup after tonight
+- 0 of 3 weekly buys used; 2 of 5 stock slots filled (3 open)
+
+More detail on the dashboard. 🐂
+
 ## 2026-08-26 06:20 CT · pre-market
 
 **Pre-market plan — a big "decision day" for the market, so I'm holding steady and staying patient.**

@@ -6964,3 +6964,38 @@ Risk checks: (a) any position −7%+ un-stopped? NO (JPM +7.77%, LLY +3.59%, SPY
 **Buy decision:** NO midday buy. No high-conviction breaking catalyst. Conviction sleeve 2/5 (room), weekly conviction buys 0/3 (room) — capacity is NOT the constraint; catalyst quality + event risk is. BJ (#1 watch, ~70–72 borderline) stays HOLD: extended vs 50dMA, print-catalyst aging, and heaviest binary week of quarter (Wed 8/26 NVDA Q2 AC + July PCE + Q2 GDP; Fri 8/28 Warsh Jackson Hole). No deviation from pre-market patience plan warranted. No cash-drag pressure (floor built, ~49% cash, not the 3+ day all-cash anti-paralysis state).
 
 **Actions:** none (no orders placed/cancelled). Wrote portfolio.md midday snapshot, prepended messages.md teacher note, updated dashboard/state.json. No Telegram (quiet midday — per CLAUDE.md do-NOT-push list). Next: market-close 8/25 owns the mandatory daily "How we're doing" scorecard + Telegram push.
+
+## 2026-08-26 08:36 CT — MARKET-OPEN (Wed · THE BINARY DAY) · ✅ NO TRADES (disciplined hold through the triple binary) · Market CONFIRMED open · Alpaca live marks + Perplexity for PCE result
+
+**Market state:** /v2/clock is_open:true (09:34 ET), next_close 16:00 ET. Inbox: nothing pending. Executed the pre-market plan verbatim: hold all fresh capital through today's binaries; no chase into event risk.
+
+**Account (live 09:36 ET):** equity **$100,616.62**, cash **$49,389.91 (~49.08%)**, long_market_value **$51,226.71 (~50.92%)**, buying_power $340,994.43, status ACTIVE. `last_equity` (Tue 8/25 close) $100,830.41 → day **−$213.79 (−0.21%)**. daytrade_count 0.
+
+### 8:30 ET macro prints (Perplexity sonar, live)
+- **July core PCE +0.2% m/m / +3.3% y/y** = IN-LINE with consensus (+0.2% / ~3.3%). The pre-market "if core PCE prints HOT (>+0.2% m/m) → stand down on new buys entirely today" clause did **NOT** trigger — it was AT +0.2%, not above. Headline PCE +0.2% m/m / +3.7% y/y (y/y a touch warm). Q2 GDP 2nd est +1.5% annualized (unchanged from advance). Tape opened flat-to-slightly-soft; hotter y/y kept rate-cut hopes in check.
+- **Decision unaffected:** even with an in-line PCE, the pre-market plan holds all fresh capital until AFTER tonight's **NVIDIA Q2 FY27 AMC (~5pm ET)** — the quarter's single biggest read-through for the whole AI tape, with an asymmetric bar (cons ~$92B rev / ~$2.09 EPS, only ~1% above own guide). Fri 8/28 Warsh Jackson Hole adds hawkish-surprise risk. Patience > chasing into a binary.
+
+### Actions taken this routine
+- **NO BUYS.** BJ (#1, ~74) and ROST (#2, ~72) both still clear the 2-signal + ≥70 gate on clean, non-extended entries, but both were explicitly handed to open with "do NOT initiate into today's binaries." Held. Re-confirm a still-clean entry + a positive post-event tape reaction AFTER NVDA (likely Thu) before deploying.
+- **NO SELLS.** Both conviction positions' theses INTACT (verified in pre-market, no adverse 24–48h news); neither hit a stop.
+- **NO STOP ACTIONS.** No ratchet (both below hwm), no hard→trailing conversion needed (both already trailing), no fire.
+
+### Positions (live open marks)
+- **JPM** 34 sh @ 329.695588, cur 355.135, mv $12,074.59, **+$864.94 (+7.72%)**. 10% trailing floor 329.85 (hwm 366.5), cushion ~7.1%. ~12.00% of equity. Thesis intact. → Hold.
+- **LLY** 12 sh @ 1209.84, cur 1221.21, mv $14,654.52, **+$136.44 (+0.94%)**. 10% trailing floor 1152.468 (hwm 1280.52), cushion ~5.6% (tightest in book). ~14.57% of equity. Thesis intact. → Hold.
+- **SPY** 32 sh @ 772.92125, cur 765.55, mv $24,497.60, **−$235.88 (−0.95%)**. Index-floor sleeve, NO stop by policy. ~24.35% of equity (exempt from 20% cap). → Hold-the-market.
+
+### Risk checks (live)
+- (a) Any position −7%+ un-stopped? NO — JPM +7.72%, LLY +0.94%, SPY −0.95% (index sleeve, no stop by policy). → No sell trigger.
+- (b) Any +5%+ needing hard→trailing conversion? NO — JPM & LLY already on 10% trailing; SPY carries no stop by policy.
+- (c) Daily loss cap: day −0.21%, well inside the −3% cap. Not triggered.
+
+### Stop-management state (open-orders nested=true, VERIFIED live 09:36 ET)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm 366.5, floor 329.85, status new. qty 34. No ratchet (355.135 < hwm). Cushion ~7.1%.
+- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm 1280.52, floor 1152.468, status new. qty 12. No ratchet (1221.21 < hwm). Cushion ~5.6%.
+- **SPY — NO STOP by design** (index-floor carve-out). qty 32 unencumbered. Confirmed only 2 open orders total (JPM + LLY stops); zero SPY orders.
+
+### Watch / next (midday 8/26)
+- The event is TONIGHT (NVDA AMC ~5pm ET). No fresh risk before it. BJ/ROST re-confirm window is post-NVDA (likely Thu) on a still-clean entry + positive reaction.
+- LLY cushion tightened to ~5.6% — watch the newsless fade doesn't become a trend break (floor 1152.468). Fri Warsh Jackson Hole hawkish risk.
+- Conviction sleeve 2/5 (3 open); weekly conviction buys 0/3. No cash-drag pressure — floor built, ~49% cash is fine for a binary day.
