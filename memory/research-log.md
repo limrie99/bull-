@@ -6999,3 +6999,41 @@ Risk checks: (a) any position −7%+ un-stopped? NO (JPM +7.77%, LLY +3.59%, SPY
 - The event is TONIGHT (NVDA AMC ~5pm ET). No fresh risk before it. BJ/ROST re-confirm window is post-NVDA (likely Thu) on a still-clean entry + positive reaction.
 - LLY cushion tightened to ~5.6% — watch the newsless fade doesn't become a trend break (floor 1152.468). Fri Warsh Jackson Hole hawkish risk.
 - Conviction sleeve 2/5 (3 open); weekly conviction buys 0/3. No cash-drag pressure — floor built, ~49% cash is fine for a binary day.
+
+---
+
+## 2026-08-26 12:05 CT · MIDDAY (Wed · binary day — NVDA AMC tonight)
+
+**Clock:** is_open true, next_close 16:00 ET. **Account (live 13:05 ET):** equity **$100,333.29**, cash **$49,389.91 (~49.23%)**, long_market_value **$50,943.38 (~50.77%)**, buying_power $340,201.10, status ACTIVE. `last_equity` (Tue 8/25 close) $100,830.41 → day **−$497.12 (−0.49%)**.
+
+### Actions taken this routine
+- **NO BUYS.** No high-conviction breaking catalyst that overrides the pre-market discipline; the plan holds all fresh capital until AFTER tonight's NVIDIA Q2 AMC (~5pm ET). BJ (#1) & ROST (#2) still clear the gate but their re-confirm window is post-NVDA (likely Thu). Weekly conviction buys 0/3; count-check moot (held).
+- **NO SELLS.** No position at/beyond −7%. Both conviction theses INTACT.
+- **NO STOP ACTIONS.** No ratchet (both below hwm), no hard→trailing conversion needed (both already trailing), no fire.
+
+### LLY thesis-break check (Perplexity sonar-pro, live) — precautionary, not mandated
+LLY drifted +0.94% (open) → −1.21% (midday), tightest cushion in the book, so I checked despite it being nowhere near the −7% trigger. **Result: NO material LLY-specific catalyst in the last 4h** — no FDA action, no new analyst downgrade, no drug-safety event. Recent Lilly regulatory news is from earlier in August (Q2 results/approvals). Weakness is characterized as part of a **broad pre-NVDA/Jackson-Hole pullback + ongoing valuation/reimbursement worries**, not a new negative. Broad tape: US stocks muted-to-slightly-down midday, NVDA itself ~−1%, everyone waiting on tonight's report. **Verdict: severity (2) sector/market noise → thesis INTACT, hold.**
+
+### Positions (live midday marks)
+- **JPM** 34 sh @ 329.695588, cur 356.745, mv $12,129.33, **+$919.68 (+8.20%)**. 10% trailing floor 329.85 (hwm 366.5), cushion ~7.5%. ~12.09% of equity. Thesis intact. → Hold.
+- **LLY** 12 sh @ 1209.84, cur 1195.14, mv $14,341.68, **−$176.40 (−1.21%)**. 10% trailing floor 1152.468 (hwm 1280.52), cushion ~3.6% (tightest in book). ~14.29% of equity. Thesis intact (verified live). → Hold.
+- **SPY** 32 sh @ 772.92125, cur 764.84, mv $24,474.88, **−$258.60 (−1.05%)**. Index-floor sleeve, NO stop by policy. ~24.39% of equity (exempt from 20% cap). → Hold-the-market.
+
+### Risk checks (live)
+- (a) Any position −7%+ un-stopped? NO — JPM +8.20%, LLY −1.21%, SPY −1.05% (index sleeve). → No sell trigger.
+- (b) Any +5%+ needing hard→trailing conversion? NO — JPM & LLY already on 10% trailing; SPY no stop by policy.
+- (c) Daily loss cap: day −0.49%, well inside the −3% cap. Not triggered.
+
+### Stop-management state (open-orders nested=true, VERIFIED live 13:05 ET)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm 366.5, floor 329.85, status new. qty 34. No ratchet (356.745 < hwm). Cushion ~7.5%.
+- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm 1280.52, floor 1152.468, status new. qty 12. No ratchet (1195.14 < hwm). Cushion ~3.6%.
+- **SPY — NO STOP by design** (index-floor carve-out). qty 32 unencumbered. Confirmed only 2 open orders total (JPM + LLY stops); zero SPY orders.
+
+### Week-to-date (approx, close routine does the authoritative pass)
+- SPY: 764.84 vs Fri 8/21 close 765.64 → **−0.10%**. Portfolio ≈ **−0.57%** (implied week-start equity ~$100,909). Alpha ≈ **−0.47%**. Small lag, driven by the pre-NVDA drift in LLY/SPY; JPM firming offsets some.
+
+### Watch / next (market-close 8/26)
+- Event TONIGHT (NVDA AMC ~5pm ET). No fresh risk before it. Close routine owes the mandatory daily "How we're doing" Telegram update.
+- LLY cushion ~3.6% — watch the newsless fade doesn't become a trend break (floor 1152.468). Fri 8/28 Warsh Jackson Hole hawkish risk.
+- BJ/ROST re-confirm window post-NVDA (likely Thu) on a still-clean entry + positive reaction. Conviction sleeve 2/5 (3 open); weekly buys 0/3.
+- Inbox: nothing pending. No Telegram this routine (quiet midday, no trades — per CLAUDE.md push policy).
