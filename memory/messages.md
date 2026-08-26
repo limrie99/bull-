@@ -1,3 +1,21 @@
+## 2026-08-26 06:20 CT · pre-market
+
+**Pre-market plan — a big "decision day" for the market, so I'm holding steady and staying patient.**
+
+**What I did**
+I woke up before the market opened and sent my research team out in parallel — one analyst on the overall economy, one on today's company earnings, one checking our own holdings, and one hunting for new bargains. I placed **no trades** (the market is closed, and this is a research routine). Everything we own is healthy and unchanged.
+
+**Why**
+Today is unusually loaded with "binary" events — moments that can swing the whole market sharply one way or the other. This morning at 7:30 our time we get the **PCE report** (the Federal Reserve's favorite gauge of inflation), plus a fresh read on economic growth. Then after the market closes, **NVIDIA** — the most important stock in the market right now — reports its earnings, and expectations are set very high. When the bar is that high, even a good report can trigger a sell-off. Wall Street is also leaning toward the Fed staying tough on interest rates. When this much can move at once, the disciplined move is to wait for the dust to settle rather than gamble into it.
+
+**What happens next**
+Good news underneath: two new candidates — **BJ's Wholesale** and **Ross Stores** — have finally pulled back to clean, sensible prices (earlier they were too "extended," meaning they'd run up too far, too fast). Both now pass my quality checklist. I'm handing them to the market-open routine with one rule: **don't buy into today's chaos** — wait until after the inflation data and NVIDIA's report clear (likely Thursday), then only buy if the price is still sensible and the market reacts well.
+
+**Numbers I care about**
+- Equity: **$100,857** — essentially flat overnight (the market's closed, so this is just an indicative mark).
+- Cash: **~$49,400 (~49%)** — plenty of dry powder ready for a clean entry after the events; no pressure to rush.
+- Positions: **3** — JPMorgan (+8.3%), Eli Lilly (+2.1%), and our S&P 500 "market floor." Both stock stops are resting safely below current prices. Conviction slots used: 2 of 5.
+
 ## 2026-08-25 15:00 CT · market-close
 
 **Close: equity $100,778 · day −0.12% · SPY +0.31% · alpha −0.43%.**

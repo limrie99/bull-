@@ -1,44 +1,38 @@
 {
-  "last_update": "2026-08-25 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-08-26 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100777.81,
+  "equity": 100857.49,
   "cash": 49389.91,
-  "day_pl": -123.56,
-  "day_pl_pct": -0.12,
-  "week_pl_pct": -0.13,
-  "spy_week_pct": 0.02,
-  "alpha_week_pct": -0.15,
+  "day_pl": 27.08,
+  "day_pl_pct": 0.03,
+  "week_pl_pct": -0.05,
+  "spy_week_pct": 0.01,
+  "alpha_week_pct": -0.06,
   "positions": [
     {
       "symbol": "JPM",
-      "shares": 34,
-      "avg_cost": 329.7,
-      "price": 356.69,
-      "pl_pct": 8.19,
-      "pl_dollar": 917.81,
-      "market_value": 12127.46,
-      "stop": "10% trailing, floor 329.85"
+      "qty": 34,
+      "avg_cost": 329.695588,
+      "current": 356.97,
+      "pl_pct": 8.27,
+      "stop": 329.85
     },
     {
       "symbol": "LLY",
-      "shares": 12,
+      "qty": 12,
       "avg_cost": 1209.84,
-      "price": 1229.62,
-      "pl_pct": 1.64,
-      "pl_dollar": 237.4,
-      "market_value": 14755.48,
-      "stop": "10% trailing, floor 1152.47"
+      "current": 1235.55,
+      "pl_pct": 2.13,
+      "stop": 1152.468
     },
     {
       "symbol": "SPY",
-      "shares": 32,
-      "avg_cost": 772.92,
-      "price": 765.76,
+      "qty": 32,
+      "avg_cost": 772.92125,
+      "current": 765.75,
       "pl_pct": -0.93,
-      "pl_dollar": -229.16,
-      "market_value": 24504.32,
-      "stop": "none (index-floor sleeve)"
+      "stop": null
     }
   ],
   "recent_trades": [
@@ -101,52 +95,28 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-26 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan — big 'decision day' (July PCE + NVIDIA tonight); holding steady, no trades",
+      "body": "Ran the full 4-agent scan. No trades (market closed, research routine). Both JPM (+8.3%) & LLY (+2.1%) intact, no thesis break; hold all 3. Good news: BJ's Wholesale and Ross Stores have BOTH pulled back to clean, non-extended prices and now clear the buy-gate (2+ signals + Conviction ≥70). Handed to market-open with one rule: do NOT buy into today's PCE/NVDA binaries — wait for the dust to settle (likely Thu), then confirm a clean entry + positive reaction. ~49% cash, no rush."
+    },
+    {
       "ts": "2026-08-25 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $100,778 · day -0.12% · SPY +0.31% · alpha -0.43%",
-      "body": "Quiet red day — down $124 (-0.12%) while the S&P 500 rose +0.31%, so a hair behind the market. No trades. The whole day's dip was Eli Lilly fading its morning gain in the afternoon (+3.7% to +1.6%) on NO company news — thesis intact, still well above its floor. JPMorgan firmed into the close (+8.2%, our anchor); the S&P 500 index sleeve was flat. Week-to-date we're basically tied with the market (-0.13% vs +0.02%). Deliberately NOT buying ahead of Wednesday's Nvidia earnings + PCE inflation report — letting the dust settle first. Equity $100,778, ~$49K cash (~49%), 0 of 3 weekly buys used. Both trailing stops verified resting."
-    },
-    {
-      "ts": "2026-08-25 12:02 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — everything healthy, holding fire into Wednesday's big reports",
-      "body": "Pulled live prices and ran the full risk check at midday; no trades. Both auto-sell safety nets (trailing stops) verified resting on JPMorgan and Eli Lilly; neither stock is near its floor, so nothing to sell and no floor to adjust. Still not buying: BJ's Wholesale is a touch rich and it's a landmine week (Nvidia earnings + inflation Wed, new Fed chair Fri) — wait for calmer skies. Equity ~$101,047 (+$146, +0.14% today); S&P 500 +0.30%, so a touch behind on the day (index sleeve slightly underwater + Lilly flat). JPM +7.9%, LLY +3.7%, both green with ~7–8% cushion. ~$49K cash (~49%), 0 of 3 weekly buys used. Full scorecard at the close."
-    },
-    {
-      "ts": "2026-08-25 08:37 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — staying patient, exactly as planned",
-      "body": "Market opened; I placed no trades. Re-checked BJ's Wholesale (my one candidate): it didn't chase higher (slightly cheaper than yesterday) but it's still above its recent average — where I won't chase — and its earnings news is 4 days old. With Nvidia earnings + inflation/GDP Wed and the new Fed chair Fri, and retail beat-and-raises getting punished lately (Walmart −9%), I'd rather wait for calmer skies; waiting costs almost nothing. Both stops (JPM, LLY) verified resting; no sells. BJ stays my #1 watch for a cleaner entry after Wednesday. Equity ~$101,045 (+$143, +0.1% today), ~$49K cash (~49%), 0 of 3 weekly buys used."
+      "headline": "Equity $100,778 · day −0.12% · alpha −0.43% · no trades",
+      "body": "Quiet down-day, a hair behind a slightly-green market. LLY faded its morning pop (the whole day's −$124); JPM firmed to +8.19%. No trades, no stop actions into the pre-NVDA event week. ~49% cash, floor built."
     },
     {
       "ts": "2026-08-25 06:15 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: no changes today — patient into a huge news week (Nvidia + inflation Wed, Fed Fri)",
-      "body": "Ran full pre-market research (tool back online); no trades (market closed). Only BJ's Wholesale is near the buy checklist (beat earnings + analyst upgrade) but it's already run to the edge of what I'll pay without chasing — so at most a small starter at the open, likely wait until after Wednesday's Nvidia/inflation and Friday's Fed speech. JPMorgan +8.4% and Eli Lilly +3.1% both healthy, no bad news, above their auto-sell floors. Equity ~$101,031, ~$49K cash (~49%), 0 of 3 weekly buys used."
-    },
-    {
-      "date": "2026-08-24 12:02 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — and my research tool is back online.",
-      "summary": "No trades. News scan (Perplexity recovered after 10 blind runs) found nothing thesis-breaking on JPM or LLY. Flat today (−$43, −0.04%) vs SPY −0.22% — a hair ahead. Holding ~49% cash into Nvidia/PCE/GDP (Wed) and Jackson Hole (Fri). Both stops verified resting."
-    },
-    {
-      "ts": "2026-08-24 08:33 CT",
-      "routine": "market-open",
-      "headline": "Market open — no trades. Steady into a big-news week (Nvidia + inflation Wed, Fed Fri)",
-      "body": "Checked live prices at the open; placed no trades. No new stock passed the buy checklist (AbbVie hugging its record high, BJ's close but not convincing yet) and none of our holdings triggered a sell. Deliberately patient ahead of Wednesday's Nvidia earnings + inflation report and Friday's Fed Jackson Hole speech. Equity ~$100,791, basically flat today (-$120, -0.12%). JPMorgan +7.5% and Eli Lilly +2.7%, both green and comfortably above their auto-sell floors. ~$49K cash ready, 0 of 3 weekly buys used. Perplexity research tool still down (10th run) — trading/safety systems fully working."
+      "headline": "Pre-market — no trades into the binary week; BJ the lone gate-toucher but extended",
+      "body": "Full scan. JPM & LLY intact. BJ ~70-72 but at +7.35% vs 50dMA (chase line) with an aging catalyst. Heaviest binary week of the quarter (NVDA Wed) → patience. No cash-drag pressure."
     },
     {
       "ts": "2026-08-24 06:20 CT",
       "routine": "pre-market",
-      "headline": "No changes planned at the open — patient into a huge news week (Nvidia + inflation Wed, Fed Fri)",
-      "body": "Ran full pre-market research; no trades (market closed). Nothing cleared the buy checklist — AbbVie is riding its record high (I won't chase), BJ's is close but not convincing yet. Holding ~$49K cash as dry powder for a cleaner entry after Wednesday's Nvidia/inflation and Friday's Fed speech. JPMorgan (+6.6%) and Eli Lilly (+3.9%) both healthy and above their auto-sell floors. Perplexity research tool still down (9th run) — top-up unlocks new-stock hunting; trading/safety systems fully working."
-    },
-    {
-      "ts": "2026-08-21 16:00 CT",
-      "routine": "weekly-review",
-      "headline": "Week ending Aug 21: portfolio -0.47% | SPY -1.37% | alpha +0.90% | grade B — we beat the market this week",
-      "body": "Down less than the market on a down week (cash cushioned us) — first market-beating week since late July; whole-run alpha recovered to nearly even (-0.17). LLY the hero (+3.9%). DE auto-sold -$228 one minute before earnings, then jumped +9% (disciplined but stung). No new buys — Perplexity still down. No rule changes."
+      "headline": "New week — nothing clears the gate at pre-open; patience into NVDA week",
+      "body": "Weekly buys reset 0/3. Nothing clears 2+ signals AND Conviction ≥70 on a clean entry. Held all three. Perplexity was down (fallback used)."
     }
   ]
 }
