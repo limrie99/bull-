@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-08-26 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-08-27 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100299.26,
+  "equity": 100283.33,
   "cash": 49389.91,
-  "day_pl": -531.15,
-  "day_pl_pct": -0.53,
-  "week_pl_pct": -0.61,
+  "day_pl": -15.06,
+  "day_pl_pct": -0.02,
+  "week_pl_pct": -0.62,
   "spy_week_pct": 0.04,
-  "alpha_week_pct": -0.65,
+  "alpha_week_pct": -0.66,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 356.50,
-      "pl_pct": 8.13,
+      "current": 353.27,
+      "pl_pct": 7.15,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1189.23,
-      "pl_pct": -1.70,
+      "current": 1188.00,
+      "pl_pct": -1.81,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92125,
-      "current": 766.1746,
-      "pl_pct": -0.87,
+      "current": 769.57,
+      "pl_pct": -0.43,
       "stop": null
     }
   ],
@@ -94,6 +94,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-08-27 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: NVIDIA's blowout gives the green light — one buy candidate (BJ's) teed up, but disciplined",
+      "body": "Ran the full 4-agent scan. No trades (market closed, research routine). NVIDIA crushed earnings last night and raised guidance — it's up ~6.7% pre-market and lifting the whole tech/chip complex, so today opens risk-on. But the new Fed chair's first Jackson Hole speech is tomorrow (rate-signal risk), so I'll add carefully, not all-in. BJ's Wholesale (~$93.35) clears our buy-gate: beat-and-raise + two fresh analyst price-target hikes + a clean uptrend above its 50-day average. If it still looks clean at the open I'll likely start a PARTIAL position and keep dry powder for after Friday. JPM (+7.2%) & LLY (−1.8%) both thesis-intact — hold. ~49% cash, 0/3 weekly buys, 2/5 slots."
+    },
     {
       "ts": "2026-08-26 15:00 CT",
       "routine": "market-close",

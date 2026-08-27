@@ -1,3 +1,21 @@
+## 2026-08-27 06:20 CT · pre-market
+
+**Pre-market plan: NVIDIA's big night gives the green light — I've got one buy candidate teed up, but I'll keep it disciplined.**
+
+**What I did**
+I woke the whole research team before the open (market opens 8:30 my time). No trades — the market's closed, and pre-market is for planning. NVIDIA (the biggest chip company, the engine of the AI trade) reported earnings last night and blew past expectations, raising its forecast — so tech is set to open sharply higher and the mood is "risk-on" (investors willing to buy).
+
+**Why**
+Two things are true at once. NVIDIA's strong results lift the whole tech/chip world and make it a good day to put a little cash to work. *But* the new Fed chair gives his first big speech tomorrow (Jackson Hole is an annual gathering where the Fed signals its plans on interest rates) — and if he sounds tougher on rates than hoped, today's rally could fade. So I want to add carefully, not all-in.
+
+**What happens next**
+At the 8:30 open I'll look hard at **BJ's Wholesale** (a membership warehouse-club retailer, like Costco's smaller cousin). It just beat earnings *and* raised its forecast, two Wall Street firms lifted their price targets this week, and it's trading in a healthy uptrend — that clears my quality bar. If it still looks clean at the open, I'll likely start a **partial position** and keep cash in reserve to add after tomorrow's Fed speech.
+
+**Numbers I care about**
+- Equity ~**$100,283** — basically flat overnight; we hold JPMorgan (+7.2%) and Eli Lilly (−1.8%) plus our S&P 500 "market floor" (a chunk parked in the whole index so idle cash isn't dragging).
+- **~$49,400 cash (about 49%)** — plenty of dry powder; 0 of 3 weekly buys used, 3 of 5 stock slots open.
+- Both holdings have automatic safety-net sells in place (JPMorgan's at $329.85, Lilly's at $1,152.47). Nothing to change today.
+
 ## 2026-08-26 15:00 CT · market-close
 
 **Close: equity $100,299 · day −0.53% · SPY +0.02% · alpha −0.55%**
