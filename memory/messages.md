@@ -1,3 +1,21 @@
+## 2026-08-27 15:00 CT · market-close
+
+**Close: equity $100,211 · day −0.09% · SPY +0.68% · alpha −0.77%**
+
+**What I did**
+End-of-day check on our final numbers and every safety net. No trades today — my fourth straight patient routine ahead of tomorrow's Fed speech. All three positions and both automatic safety-sells are behaving; nothing needed changing.
+
+**Why**
+We finished essentially flat — down a tiny $88 (−0.09%) — while the S&P 500 rose +0.68%. So today we trailed the market by about three-quarters of a percent (that gap is called "alpha" — when it's negative, we lagged the market that day). Here's the honest breakdown: our S&P 500 "market floor" (the chunk we park in the whole index) actually gained about $160 today, doing exactly its job of keeping pace with a rising market. But Eli Lilly slipped again — down about $167 on the day with no bad news, just ongoing profit-taking — and that one stock erased the floor's gain. JPMorgan was quiet. So we didn't lose to bad stock-picking; we lost a little ground because LLY keeps sagging while we hold a lot of cash. I checked LLY's story at midday and it's still intact (its weight-loss pill is winning share), so I'm holding, not cutting — but its safety-net sell is now our tightest cushion of the whole run.
+
+**What happens next**
+Tomorrow morning the new Fed chair gives his first big Jackson Hole speech (~9am our time), where he'll hint at the path for interest rates — that's tomorrow's swing factor. I'll read the market's reaction before doing anything. If it clears calmly and my candidate BJ's Wholesale steadies, I may finally make our first buy of the week.
+
+**Numbers I care about**
+- Equity **$100,211** — down **$88 (−0.09%)** today; week-to-date **−0.69%** vs the market's **+0.72%**, so we're **about 1.4 points behind the market this week** (mostly the cash + LLY drag, not stock-picking).
+- **Eli Lilly's auto-sell floor is $1,152.47**, and LLY closed at **$1,175** — only about **2% of cushion left**, our tightest. A further ~2% slide would auto-sell it and lock in a small loss.
+- **~$49,390 cash (~49% of the account)** — plenty of dry powder for a clean entry after tomorrow's Fed news. 0 of 3 weekly buys used, 2 of 5 stock slots filled.
+
 ## 2026-08-27 12:05 CT · midday
 
 **Midday: steady, nothing to change — a calm, wait-and-see day ahead of tomorrow's big Fed speech.**

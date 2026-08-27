@@ -7174,3 +7174,15 @@ LLY drifted +0.94% (open) → −1.21% (midday), tightest cushion in the book, s
 **Buy decision: NO midday buy.** No high-conviction breaking catalyst (midday buy-gate not met). BJ still not a clean entry (rolled onto/into its 50dMA on broad retail-sector weakness; thesis intact but timing poor — see market-open note). Consistent with pre-market/open plan: wait for Jackson Hole to clear, then re-evaluate BJ for a confirmed base / 50dMA reclaim before a ~12–15% starter. Conviction sleeve 2/5, weekly conviction buys 0/3, ~49% cash — no cash-drag emergency (invested via JPM+LLY+SPY floor), no anti-paralysis trigger.
 
 **Actions taken:** none (no trades, no stop changes). Memory written: messages.md (prepended), portfolio.md (overwritten), dashboard/state.json (overwritten). Inbox: nothing pending. No Telegram push (quiet midday — per CLAUDE.md do-not-push list).
+
+### Day summary (market-close 2026-08-27 · 16:00 ET)
+- **Closing equity:** $100,210.81. Cash $49,389.91 (~49.29%), long_mv $50,820.90 (~50.71%), buying_power $339,858.16, status ACTIVE.
+- **Day P/L: −$87.58 (−0.09%)** (vs last_equity $100,298.39). Small down-day.
+- **SPY day: +0.68%** (765.94 Wed 8/26 close → 771.18 Thu 8/27 close, IEX). **Alpha today: −0.77 pts.**
+- **Week-to-date (from Fri 8/21 close $100,911.47):** portfolio **−0.69%**, SPY **+0.72%** (765.64→771.18), **alpha WTD −1.42 pts.**
+- **Trades placed:** none (0 closed orders). Weekly conviction buys 0/3. Sleeve 2/5 (3 open).
+- **Stop actions:** none. Both trailing stops resting, VERIFIED (2 open orders, nested). No ratchet (both below hwm), no hard→trailing conversion needed, no fire.
+- **What worked:** (1) The SPY index floor did exactly its job — up ~+$160 on a +0.68% market day, offsetting most of the LLY drag. This is the point of Option B: idle cash *matches* the benchmark instead of dragging against it. (2) Discipline held a 4th straight routine — no chase into Fri's Jackson Hole binary; ~49% dry powder intact for a clean post-event entry.
+- **What didn't:** (1) LLY again the sole drag — intraday −1.17% (−$167), the entire day's loss; JPM (−$78) and SPY (+$160) roughly cancelled. (2) LLY's trailing-floor cushion tightened to **~1.95% (floor 1152.468, close 1175.345)** — the tightest of the run; a ~2% further slide auto-exits. (3) Lagged SPY today (−0.77) and WTD (−1.42) — same cash+LLY-sag pattern, not a stock-picking break (SPY floor + JPM were fine).
+- **Open questions for tomorrow:** (1) **Fri 8/28 Warsh Jackson Hole keynote ~10:00 ET** — hawkish-surprise binary; read the tape reaction before any buy. (2) Does LLY stabilize or trip the 1152.468 floor? Cushion under 2% now — watch for any overnight Novo/reimbursement/FDA headline. (3) BJ post-Jackson-Hole: confirmed base / 50dMA reclaim (~$92) with a positive reaction → possible first conviction buy of the week; continued slide → stay out.
+- Mandatory daily "How we're doing" close update SENT (dashboard + Telegram) this routine. Inbox: nothing pending.

@@ -1,37 +1,44 @@
 # Portfolio
 
-**Last updated:** 2026-08-27 12:05 CT (13:05 ET) — **MIDDAY (Thu · post-NVDA, pre-Jackson Hole).** Market CONFIRMED OPEN (/v2/clock is_open:true, next_close 16:00 ET). Account (live marks): equity **$100,359.93**, cash **$49,389.91 (~49.21%)**, long_market_value **$50,970.02 (~50.79%)**, buying_power $340,275.70, status ACTIVE. `last_equity` (Wed 8/26 close) $100,298.39 → intraday **+$61.54 (+0.06%)** — quiet and green, well inside the 3% daily loss cap, new buys allowed. **NO TRADES this midday** (steady; no risk trigger, no clean buy). Both conviction trailing stops VERIFIED resting (2 open orders, JPM + LLY). **Inbox: nothing pending.** Conviction sleeve **2 of 5 (three slots OPEN); weekly conviction buys 0/3.**
+**Last updated:** 2026-08-27 15:00 CT (16:00 ET) — **MARKET CLOSE (Thu · post-NVDA, pre-Jackson Hole).** Market CONFIRMED CLOSED (/v2/clock is_open:false, next_open 2026-08-28 09:30 ET). Account (closing marks): equity **$100,210.81**, cash **$49,389.91 (~49.29%)**, long_market_value **$50,820.90 (~50.71%)**, buying_power $339,858.16, status ACTIVE. `last_equity` (Wed 8/26 close) $100,298.39 → day **−$87.58 (−0.09%)**. **NO TRADES today** (0 closed orders). Both conviction trailing stops VERIFIED resting (2 open orders, JPM + LLY). **Inbox: nothing pending.** Conviction sleeve **2 of 5 (three slots OPEN); weekly conviction buys 0/3.**
 
-## Midday decision (2026-08-27) — steady, no changes
-- **Risk:** nothing at −7% (no sell). JPM already on trailing; no hard→trailing conversion needed. SPY carries no stop by policy. Daily loss cap not tripped (intraday +0.06%).
-- **LLY news check (Perplexity 12:00 CT):** thesis **INTACT**, no breaking negative catalyst in last 4–6h. Supportive if anything — oral GLP-1 (Foundayo) weekly scripts ~+14% w/w (~38,900) vs Novo's oral Wegovy ~−5%; positive Zepbound real-world cost study; Q2 beat-and-raise (FY rev $85–87B) intact; Novo on the defensive (weaker CagriSema/Wegovy pill). Recent softness = profit-taking/positioning, not thesis break. Keep trailing stop resting; do NOT cut.
-- **Buys:** NO midday buy. No high-conviction breaking catalyst. Broad tape modestly higher but in "wait-and-see" mode into **Fri 8/28 Warsh Jackson Hole keynote** (~10:00 ET, hawkish-surprise binary). BJ still not a clean entry (see market-open note); patience is free with ~49% cash. Consistent with the pre-market/open plan.
+## Today's scorecard (2026-08-27 close)
+- **Day P/L: −$87.58 (−0.09%).** Essentially flat — a small down-day.
+- **SPY day: +0.68%** (765.94 Wed close → 771.18 Thu close, IEX).
+- **Alpha today: −0.77 pts** (we lagged an up market by about three-quarters of a point).
+- **Week-to-date (from Fri 8/21 close $100,911.47):** portfolio **−0.69%**, SPY **+0.72%** (765.64→771.18), **alpha WTD −1.42 pts.**
+- **Driver:** LLY again — down −1.17% intraday (−$167), the entire day's loss and then some; the SPY floor (+~$160 on the up-tape) and JPM (−$78) roughly cancelled. The index floor did its job (matched the up market); the LLY sag is the alpha leak.
 
-## Open positions (2 conviction stocks + 1 index-floor sleeve) — live marks 13:05 ET 8/27
+## Close decision (2026-08-27) — steady, no changes
+- **Risk:** nothing at −7% (no sell). Both conviction names already on 10% trailing; no hard→trailing conversion needed. SPY carries no stop by policy. Daily loss cap not tripped (day −0.09%).
+- **Buys:** NO buy today across all four routines. Consistent with plan — hold fresh capital until **Fri 8/28 Warsh Jackson Hole keynote (~10:00 ET)** clears, then re-evaluate BJ on a confirmed base / 50dMA reclaim before a partial starter. ~49% cash, patience is free.
+- **LLY:** cushion now **~1.95% (tightest of the run so far)** — floor 1152.468, close 1175.345. Thesis verified INTACT at midday (oral Foundayo scripts +14% w/w, positive Zepbound cost study, Q2 beat-and-raise intact). Softness = profit-taking/positioning, not a thesis break. Keep the trailing stop resting; do NOT cut. Watch the floor tomorrow.
+
+## Open positions (2 conviction stocks + 1 index-floor sleeve) — closing marks 16:00 ET 8/27
 | Symbol | Shares | Avg Cost | Price | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 355.15 | +865.45 | +7.72% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. No material 24–48h news; Wells Fargo PT→$390 (8/24). Next earnings ~Oct. Cushion ~7.1% to floor. |
-| LLY | 12 | 1209.84 | 1182.23 | −331.32 | −2.28% | **10% TRAILING (GTC)**, floor **1152.468**, hwm 1280.52 | 2026-08-12 | Eli Lilly — Q2 beat-and-raise + GLP-1/obesity lead. Thesis INTACT (Perplexity 8/27 midday): oral Foundayo scripts +14% w/w vs Novo −5%, positive Zepbound cost study; softness = profit-taking, not thesis break. Cushion **~2.5% (tightest in book)**. Next earnings ~late Oct. |
-| SPY | 32 | 772.921250 | 772.13 | −25.32 | −0.10% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 2026-08-11 (t2) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week caps; NO −7%/trailing stop. Buy-and-hold-the-market. Intraday +0.79%. |
+| JPM | 34 | 329.695588 | 354.22 | +833.83 | +7.44% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. No material 24–48h news; Wells Fargo PT→$390 (8/24). Next earnings ~Oct. Intraday −0.64%. Cushion ~6.9% to floor. |
+| LLY | 12 | 1209.84 | 1175.345 | −413.94 | −2.85% | **10% TRAILING (GTC)**, floor **1152.468**, hwm 1280.52 | 2026-08-12 | Eli Lilly — Q2 beat-and-raise + GLP-1/obesity lead. Thesis INTACT (verified 8/27 midday). Intraday −1.17% — the day's drag. Cushion **~1.95% (tightest of the run)**. Next earnings ~late Oct. |
+| SPY | 32 | 772.921250 | 771.04 | −60.20 | −0.24% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 2026-08-11 (t2) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week caps; NO −7%/trailing stop. Buy-and-hold-the-market. Intraday +0.64% — offset most of the LLY drag today. |
 
-**Conviction sleeve: 2 of 5 (three slots OPEN).** **Conviction buys used this week: 0 of 3** (SPY floor does NOT consume this budget). **Cash buffer: ~49.21%.** Sizes on equity $100,359.93: JPM ~12.03%, LLY ~14.14%, SPY ~24.62% (index sleeve — exempt from the 20% cap by policy).
+**Conviction sleeve: 2 of 5 (three slots OPEN).** **Conviction buys used this week: 0 of 3** (SPY floor does NOT consume this budget). **Cash buffer: ~49.29%.** Sizes on equity $100,210.81: JPM ~12.02%, LLY ~14.08%, SPY ~24.62% (index sleeve — exempt from the 20% cap by policy).
 
-## Stop-management state (open-orders nested=true — VERIFIED live at 13:05 ET 8/27)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). Cur 355.15 < hwm → no ratchet. qty 34. Cushion ~7.1%.
-- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm **1280.52**, floor **1152.468**, status new (resting). Cur 1182.23 < hwm → no ratchet. qty 12. Cushion ~2.5% (tightest).
+## Stop-management state (open-orders nested=true — VERIFIED live at close 16:00 ET 8/27)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). Cur 354.22 < hwm → no ratchet. qty 34. Cushion ~6.9%.
+- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm **1280.52**, floor **1152.468**, status new (resting). Cur 1175.345 < hwm → no ratchet. qty 12. Cushion **~1.95% (tightest)**.
 - **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 32 unencumbered. Do NOT place a stop. Confirmed only 2 open orders total (JPM + LLY stops).
 
-## Risk checks (live midday marks)
-- **(a) Any position −7% or worse un-stopped?** NO. JPM +7.72%, LLY −2.28%, SPY −0.10%. **→ No sell trigger.**
+## Risk checks (closing marks)
+- **(a) Any position −7% or worse un-stopped?** NO. JPM +7.44%, LLY −2.85%, SPY −0.24%. **→ No sell trigger.**
 - **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM & LLY already on 10% trailing; SPY carries no stop by policy.
-- **(c) Daily loss cap:** intraday +0.06% (equity $100,359.93 vs last_equity $100,298.39). Well inside −3%. **→ New buys permitted** (none taken by choice).
+- **(c) Daily loss cap:** day −0.09% (equity $100,210.81 vs last_equity $100,298.39). Well inside −3%. **→ No new-buy block (none taken by choice).**
 
-## Watch / next (next routine: **market-close 8/27**)
-- **Close routine owes the mandatory daily "How we're doing" scorecard** (dashboard + Telegram) — day P/L vs SPY, are we ahead.
+## Watch / next (next routine: **pre-market Fri 8/28**)
+- **Fri 8/28: Warsh Jackson Hole keynote ~10:00 ET** — hawkish-surprise binary. Prefer waiting for this to clear before initiating any new buy. Pre-market/open reads the reaction.
+- **LLY:** cushion **~1.95% (tightest of the run)** — a drift to ~$1,152 trips the trailing stop and auto-exits. Thesis intact per today's check; watch for any fresh Novo/reimbursement/FDA headline overnight.
+- **JPM:** anchor, +7.44%, ~6.9% cushion; thesis intact.
 - **BJ — top watchlist name, still DON'T chase.** Re-evaluate post-Jackson Hole for a **confirmed base or reclaim above the 50dMA (~$92)** with a positive tape reaction, then a partial ~12–15% starter. Continued slide = stay out.
-- **LLY:** cushion **~2.5% (tightest)** — thesis intact per today's check; watch for any fresh Novo/reimbursement/FDA headline; floor 1152.468. A drift to ~$1,152 trips the trailing stop.
-- **JPM:** anchor, +7.72%, ~7.1% cushion; thesis intact.
-- **Fri 8/28:** Warsh Jackson Hole keynote ~10:00 ET — hawkish-surprise risk. Prefer waiting for this to clear before initiating any new buy.
+- Weekly buys 0/3, sleeve 2/5 (3 open), ~49% cash — no cash-drag emergency (invested via JPM+LLY+SPY floor), no anti-paralysis trigger.
 
 ## Recent closes (last 5)
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |
