@@ -7147,3 +7147,30 @@ LLY drifted +0.94% (open) → −1.21% (midday), tightest cushion in the book, s
 - **LLY floor 1152.468** — watch the newsless fade doesn't become a trend break; tightest cushion in book (~3.09%). Thesis intact today.
 - Fri 8/28 Warsh Jackson Hole hawkish-surprise risk. Weekly buys 0/3, sleeve 2/5 (3 open), ~49% cash.
 - Mandatory daily "How we're doing" Telegram close update SENT this routine.
+
+---
+
+## 2026-08-27 12:05 CT · MIDDAY (Thu · post-NVDA, pre-Jackson Hole)
+
+**Market:** CONFIRMED OPEN (/v2/clock is_open:true, next_close 16:00 ET).
+**Account (live):** equity $100,359.93 · cash $49,389.91 (49.21%) · long_mv $50,970.02 (50.79%) · buying_power $340,275.70 · last_equity (Wed 8/26 close) $100,298.39 → **intraday +$61.54 (+0.06%)**. Daily loss cap NOT tripped; new buys permitted.
+
+**Positions (live marks 13:05 ET):**
+- JPM 34 @ 329.695588 → 355.15 · +$865.45 (+7.72%) · 10% trailing hwm 366.5 floor 329.85 (resting, no ratchet) · cushion ~7.1% · size ~12.03%.
+- LLY 12 @ 1209.84 → 1182.23 · −$331.32 (−2.28%) · 10% trailing hwm 1280.52 floor 1152.468 (resting) · cushion ~2.5% (tightest) · size ~14.14%.
+- SPY 32 @ 772.92125 → 772.13 · −$25.32 (−0.10%) · NO STOP (index-floor carve-out) · intraday +0.79% · size ~24.62%.
+
+**Open orders (nested=true):** exactly 2 — JPM trailing `8a937ff6…` + LLY trailing `d7eb221b…`. SPY correctly unencumbered.
+
+**Risk checks:**
+- (a) −7%+ un-stopped? NO (JPM +7.72 / LLY −2.28 / SPY −0.10). No sell.
+- (b) +5%+ needing hard→trailing conversion? NO — both conviction names already on trailing; SPY no-stop by policy.
+- (c) Daily loss cap: intraday +0.06% → inside −3%, buys permitted.
+
+**LLY thesis check (Perplexity sonar-pro, ~12:00 CT):** No breaking negative catalyst in last 4–6h. Supportive datapoints: oral GLP-1 **Foundayo** weekly scripts ~+14% w/w (~38,900) vs Novo oral Wegovy ~−5%; positive Zepbound real-world cost study (lower healthcare costs in 55+ obesity — reimbursement-supportive); Q2 beat-and-raise intact (rev +48% YoY, FY guide $85–87B); Novo on the defensive (weaker CagriSema H2H, Wegovy pill miss). Pipeline adds (olomorasib BTD, Alzheimer's blood test). Conclusion: **thesis INTACT**; recent softness = profit-taking/positioning, not a thesis break. Keep trailing stop; do NOT cut. LLY remains tightest-cushion watch (floor 1152.468).
+
+**Market context:** S&P 500 modestly higher, "wait-and-see into Jackson Hole." No surprise afternoon catalyst. **Fri 8/28 Warsh Jackson Hole keynote (~10:00 ET)** is the next scheduled binary (hawkish-surprise risk).
+
+**Buy decision: NO midday buy.** No high-conviction breaking catalyst (midday buy-gate not met). BJ still not a clean entry (rolled onto/into its 50dMA on broad retail-sector weakness; thesis intact but timing poor — see market-open note). Consistent with pre-market/open plan: wait for Jackson Hole to clear, then re-evaluate BJ for a confirmed base / 50dMA reclaim before a ~12–15% starter. Conviction sleeve 2/5, weekly conviction buys 0/3, ~49% cash — no cash-drag emergency (invested via JPM+LLY+SPY floor), no anti-paralysis trigger.
+
+**Actions taken:** none (no trades, no stop changes). Memory written: messages.md (prepended), portfolio.md (overwritten), dashboard/state.json (overwritten). Inbox: nothing pending. No Telegram push (quiet midday — per CLAUDE.md do-not-push list).

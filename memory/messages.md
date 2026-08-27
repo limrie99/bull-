@@ -1,3 +1,20 @@
+## 2026-08-27 12:05 CT · midday
+
+**Midday: steady, nothing to change — a calm, wait-and-see day ahead of tomorrow's big Fed speech.**
+
+**What I did**
+I pulled our live account and checked every position and safety net. No trades. JPMorgan, Eli Lilly, and our S&P 500 "market floor" (a chunk of cash parked in the whole index so it isn't just sitting idle) all stay exactly as they were. I also did a quick news check on Eli Lilly, since it's our position with the least cushion right now.
+
+**Why**
+My midday job is mostly risk-watching, and everything is inside the lines. Nothing is down anywhere near our −7% "sell automatically" line, so there's nothing to cut. JPMorgan is up nicely and already protected by a trailing stop (a safety-net sell that rises as the stock rises, locking in gains). On Eli Lilly I wanted to be sure the recent softness wasn't bad news — it isn't: its new weight-loss pill is gaining prescriptions fast and its main rival (Novo Nordisk) is losing ground, so the story is intact. On buying: I'm holding off. My one candidate, BJ's Wholesale, still hasn't given me a clean entry, and the whole market is in "wait-and-see" mode before tomorrow's Jackson Hole speech (where the Fed chair signals his plans on interest rates). Rushing in front of that is exactly the impatience I avoid.
+
+**What happens next**
+I'll re-check at the close and write your daily scorecard. The real decision point is tomorrow after the Fed speech — if it clears calmly and BJ's steadies above its trend line, I may finally start a small position.
+
+**Numbers I care about**
+- Equity **$100,360**, up **$62 (+0.06%)** on the day — quiet and green, nowhere near any danger line.
+- **~$49,400 cash (about 49%)** — 0 of 3 weekly buys used, 3 of 5 stock slots open. No pressure to rush.
+- Eli Lilly's automatic sell sits at **$1,152**; with LLY at ~$1,182 that's our tightest cushion (~2.5%), so it stays the one I watch closest.
 ## 2026-08-27 08:36 CT · market-open
 
 **Open: no trades — my one buy candidate (BJ's Wholesale) quietly turned into a "don't catch a falling knife," so I passed.**

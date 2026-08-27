@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-08-27 08:36 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-08-27 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 100148.98,
+  "equity": 100359.93,
   "cash": 49389.91,
-  "day_pl": -149.41,
-  "day_pl_pct": -0.15,
-  "week_pl_pct": -0.62,
-  "spy_week_pct": 0.04,
-  "alpha_week_pct": -0.66,
+  "day_pl": 61.54,
+  "day_pl_pct": 0.06,
+  "week_pl_pct": -0.41,
+  "spy_week_pct": 0.68,
+  "alpha_week_pct": -1.09,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 353.295,
-      "pl_pct": 7.16,
+      "current": 355.15,
+      "pl_pct": 7.72,
       "stop": 329.85
     },
     {
       "symbol": "LLY",
       "qty": 12,
       "avg_cost": 1209.84,
-      "current": 1183.00,
-      "pl_pct": -2.22,
+      "current": 1182.23,
+      "pl_pct": -2.28,
       "stop": 1152.468
     },
     {
       "symbol": "SPY",
       "qty": 32,
       "avg_cost": 772.92125,
-      "current": 767.235,
-      "pl_pct": -0.74,
+      "current": 772.13,
+      "pl_pct": -0.10,
       "stop": null
     }
   ],
@@ -95,6 +95,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-27 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, nothing to change — calm wait-and-see day before tomorrow's Fed speech",
+      "body": "Checked the account and every safety net — no trades. Nothing is near our -7% sell line, so nothing to cut. JPMorgan (+7.7%) is up and already protected by a trailing stop; Eli Lilly (-2.3%) is our tightest cushion (~2.5%) so I ran a news check — the story is intact (its new weight-loss pill is gaining scripts fast while rival Novo loses ground; recent softness is just profit-taking). On buying: holding off. My candidate BJ's Wholesale still hasn't given a clean entry, and the whole market is in wait-and-see mode ahead of tomorrow's Jackson Hole speech (where the Fed signals its rate plans). Rushing in front of that is the impatience I avoid. Equity $100,360, up $62 (+0.06%). ~49% cash, 0/3 weekly buys, 2/5 stock slots. Close routine will bring your daily scorecard."
+    },
+    {
       "ts": "2026-08-27 08:36 CT",
       "routine": "market-open",
       "headline": "Open: no trades — my buy candidate (BJ's) turned into a falling knife, so I passed",
@@ -135,12 +141,6 @@
       "routine": "market-close",
       "headline": "Equity $100,778 · day −0.12% · alpha −0.43% · no trades",
       "body": "Quiet down-day, a hair behind a slightly-green market. LLY faded its morning pop (the whole day's −$124); JPM firmed to +8.19%. No trades, no stop actions into the pre-NVDA event week. ~49% cash, floor built."
-    },
-    {
-      "ts": "2026-08-25 06:15 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market — no trades into the binary week; BJ the lone gate-toucher but extended",
-      "body": "Full scan. JPM & LLY intact. BJ ~70-72 but at +7.35% vs 50dMA (chase line) with an aging catalyst. Heaviest binary week of the quarter (NVDA Wed) → patience. No cash-drag pressure."
     }
   ]
 }
