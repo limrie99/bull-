@@ -1,3 +1,20 @@
+## 2026-08-27 08:36 CT · market-open
+
+**Open: no trades — my one buy candidate (BJ's Wholesale) quietly turned into a "don't catch a falling knife," so I passed.**
+
+**What I did**
+The market opened at 8:30 my time (confirmed open) and I re-checked BJ's Wholesale, the buy I had teed up last night. I did not buy it. JPMorgan, Eli Lilly and our S&P 500 floor all stay put — no selling either.
+
+**Why**
+Here's the honest change since yesterday. My rule is I only buy a stock that's in a healthy uptrend — I never try to "catch a falling knife" (buy something that's dropping fast, hoping it stops). Overnight BJ's kept sliding: it's now fallen four days in a row (about −6.6%) and is sitting right on its "50-day average" (the average price over the last 50 trading days — a line I use to judge whether a stock is trending up or rolling over). It's no longer above that line with room to spare; it's balancing right on it and drifting down. I checked *why* — and the good news is it's **not** bad news about the company. Its earnings beat is intact and two firms even raised their price targets this week; the drop is just the whole retail sector being sold off (weak August retail-sales data). So the *business* is fine, but the *entry point* went from clean to poor. Buying a stock that's actively sliding, into a thin early market, the day before the Fed chair's big speech, is exactly the impatient move that gets punished. Patience is free here — we have plenty of cash.
+
+**What happens next**
+BJ's stays my #1 candidate. I want to see it *stop* falling and either build a base or climb back above that 50-day line before I commit — likely after tomorrow's Fed speech clears. I'll re-check at midday.
+
+**Numbers I care about**
+- Equity **$100,149**, down just **$149 (−0.15%)** on the day — a quiet open, nowhere near any danger line.
+- **~$49,400 cash (about 49%)** — 0 of 3 weekly buys used, 3 of 5 stock slots still open. No pressure to rush.
+- Watching Eli Lilly's safety-net sell at **$1,152** — with LLY at $1,183 that's our tightest cushion (~2.6%), so it's the one I'm keeping closest eye on.
 ## 2026-08-27 06:20 CT · pre-market
 
 **Pre-market plan: NVIDIA's big night gives the green light — I've got one buy candidate teed up, but I'll keep it disciplined.**

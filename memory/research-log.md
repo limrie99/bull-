@@ -1,3 +1,40 @@
+## 2026-08-27 08:36 CT — MARKET-OPEN (Thu · post-NVDA) · NO TRADES (BJ entry degraded to a knife-catch) · Market CONFIRMED OPEN · Alpaca-IEX primary for all price/50dMA · Perplexity live
+
+**Clock:** is_open TRUE, timestamp 09:32 ET, next_close 16:00 ET, next_open 8/28 09:30 ET. **Account (live open marks):** equity **$100,148.98**, cash **$49,389.91 (~49.32%)**, long_market_value **$50,759.07 (~50.68%)**, buying_power $339,685.04, status ACTIVE. `last_equity` (Wed 8/26 close) $100,298.39 → intraday **−$149.41 / −0.15%** — well inside the −3% daily loss cap, new buys permitted. **Inbox: nothing pending.** Conviction sleeve 2/5 (three open), weekly conviction buys 0/3. Both trailing stops VERIFIED resting (2 open orders total: JPM + LLY). SPY unencumbered by design.
+
+### Positions (live 09:33 ET, /v2/positions)
+- **JPM** 34 @ 329.695588, cur 353.295, +$802.38 / **+7.16%**. Trailing floor 329.85, hwm 366.5. Cushion ~6.6%. Size ~11.99%. Thesis intact.
+- **LLY** 12 @ 1209.84, cur 1183.00, −$322.08 / **−2.22%**. Trailing floor 1152.468, hwm 1280.52. Cushion **~2.6% (tightest)**. Size ~14.17%. Thesis intact/amber (retail... no — pharma; recent slide = profit-taking/reimbursement worry, no verified thesis break).
+- **SPY** 32 @ 772.92125, cur 767.235, −$181.96 / **−0.74%**. Index floor, NO stop by policy. Size ~24.52%.
+
+### Risk checks
+- (a) Any un-stopped position −7% or worse? NO (JPM +7.16, LLY −2.22, SPY −0.74). No sell trigger.
+- (b) Any +5%+ needing hard→trailing conversion? NO — both conviction names already on 10% trailing; SPY no stop by policy.
+- (c) Daily loss cap: intraday −0.15%. Clear. New buys allowed.
+- No overnight sell signal on any held name; no thesis break. **No sells.**
+
+### The buy decision — BJ NOT bought (entry gate failed on "clean, non-extended entry")
+Pre-market handed market-open a single live candidate: **BJ ~74, 3 signals, +1.56% above 50dMA at ~$93.35**, with the explicit conditional "re-verify above-50dMA + beat-and-raise intact + NOT gapping into a chase; ≤15% (Jackson Hole argues ~12–13% starter with room to add post-Fri)."
+
+**Live re-validation (Alpaca-IEX primary):**
+- **50dMA = $91.97** (last 50 daily closes, adj=all). **BJ last trade $92.02 = only +0.05% above the 50dMA** (vs +1.56% pre-market).
+- Last 5 daily closes: **96.68 → 98.53 → 94.42 → 93.35 → 92.02** = a **4-session ~6.6% slide**, now sitting **on** the 50dMA and still drifting down.
+- Open microstructure: bid $87.47 / ask $98.12 (very wide), ~200–360 sh/min at 09:32 = thin, bad-fill risk on a market order.
+- Tape NOT the blocker: SPY 767.86 (~+0.23% vs 766.08 prior close), QQQ green on NVDA blowout. Risk-on but capped by Fri 8/28 Warsh Jackson Hole keynote.
+
+**Perplexity (8/27) — why is BJ sliding?** No BJ-specific negative catalyst Aug 24–27. Slide = **broad retail-sector weakness** (US retail sales −0.6% in August, missed). Beat-and-raise intact (8/21: EPS $1.36 vs $1.17, rev $6.23B +15.7%, FY EPS raised $4.60–4.80). Analyst PTs raised 8/24: **UBS $115 Buy; Deutsche Bank $103 (from $94) but Hold.** (Minor: CCO Paul Cichocki retirement disclosed 8/21 — not thesis-material.)
+
+**Signal / gate re-count:**
+- #1 beat-and-raise → still valid.
+- #4 analyst PTs (UBS Buy $115; DB $103 Hold) → valid but softened (DB only Hold).
+- **#6 clean uptrend / not rolling over → NOW BROKEN.** 4-day slide into the 50dMA is the opposite of the +1.56%-above clean uptrend the pre-market scored. Technical-timing dimension drops materially → Conviction slips from ~74 to ~70-borderline, AND the third supporting signal is gone (down to 2).
+- **Buy-gate = 2+ signals AND Conviction ≥70 AND a clean, non-extended entry.** Even if conviction sat at ~70, the **clean-entry leg fails**: buying a name sliding into its 50dMA is the "we don't catch knives / confirmed base, not chasing" case the strategy explicitly forbids.
+
+**Decision: NO BUY.** Consistent with (i) the pre-market's own conditional (re-verify clean entry; keep dry powder for after Friday's Fed read), (ii) strategy discipline (no knife-catch, confirmed base), (iii) the thin illiquid open + binary Jackson Hole tomorrow. BJ remains #1 on the watchlist — re-arm ONLY on a confirmed base or a reclaim above the 50dMA ($91.97) with a positive reaction, likely post-Fri. ROST (#2) is lower quality (tariff-refund-flattered beat) and same retail-tape headwind — no better today. DE bench (gap-chase). No cash-drag concern: floor built, ~49% cash healthy, genuine fresh scan performed (anti-paralysis rule satisfied) — cash is the correct call for today.
+
+**Memory writes:** portfolio.md overwritten (live snapshot); this research-log entry appended; messages.md prepended (teacher-voice market-open); dashboard/state.json overwritten. No Telegram push (market-open, no trades → per CLAUDE.md do-not-push list). No trade-log entries (no buy/sell legs executed).
+
+---
 ## 2026-08-27 06:20 CT — PRE-MARKET (Thu · post-NVDA) · NO TRADES (market closed, opens 09:30 ET) · Full 4-agent scan · Perplexity live · Alpaca-IEX primary for all price/50dMA
 
 **Market state:** /v2/clock is_open:false, next_open Thu 2026-08-27 09:30 ET, next_close 16:00 ET. Research routine — no trades. Inbox: nothing pending. Account (pre-market marks): equity **$100,283.33**, cash **$49,389.91 (~49.25%)**, long_market_value **$50,893.42**, buying_power $340,061.22, status ACTIVE. Conviction sleeve **2 of 5 (three slots OPEN); weekly conviction buys 0/3.** Both trailing stops VERIFIED resting (2 open orders, JPM + LLY). All price/50dMA below are Alpaca-IEX PRIMARY (through 8/26 close) and override conflicting web figures.
