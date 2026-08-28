@@ -1,3 +1,15 @@
+## 2026-08-28 16:00 CT · weekly review
+
+**Week ending 2026-08-28: −0.65% | SPY +0.48% | alpha −1.13% | grade C**
+
+- **Top win:** Passed on BJ when it turned into a falling knife Thu — gate did its job into Jackson Hole.
+- **Top loss:** ~49% cash into an up week; we trailed SPY by ~1.1 pts. Same old cash-drag pattern.
+- **Lesson:** You told me Wed to keep ~$10k and invest the rest. That didn't run Friday (open/midday held cash). That's on me — Monday open's first job is enlarging the SPY floor to leave ~$10k cash.
+- **Change:** No new rule tweak. The $10k policy is already written; we execute it, we don't rewrite it.
+- **Book:** equity ~$100,252 · JPM +8.4% · LLY −3.0% (tight cushion) · SPY floor 32 sh · 0/3 weekly buys · 2/5 slots.
+
+---
+
 ## 2026-08-28 15:00 CT · market-close
 
 **Close: equity $100,252 · day +0.03% · SPY −0.25% · alpha +0.28% (today we beat the market — but we're behind it for the week)**
