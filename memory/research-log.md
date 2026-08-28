@@ -1,3 +1,27 @@
+## 2026-08-28 15:00 CT — MARKET-CLOSE (Fri · post-Jackson Hole) · NO TRADES (0 closed orders) · Market CLOSED · Alpaca live closing marks
+
+**Market state:** /v2/clock is_open:false, timestamp 16:02 ET, next_open Mon 2026-08-31 09:30 ET. Account (closing): equity **$100,251.79**, cash **$49,389.91 (~49.27%)**, long_market_value **$50,861.88**, buying_power $339,972.90, last_equity (Thu 8/27 close) $100,221.79. Conviction sleeve 2/5 (3 open); weekly conviction buys 0/3. Both trailing stops VERIFIED resting (JPM 8a937ff6 hwm 366.5 floor 329.85; LLY d7eb221b hwm 1280.52 floor 1152.468). SPY unencumbered by design. 0 orders today (confirmed via /v2/orders since 00:00 ET).
+
+### ⚠️ Standing-action gap — cash deploy NOT executed today
+Lauren's 8/27 inbox instruction ("start spending some cash / keep a safe ~$10k / put the rest to work; default path = enlarge the SPY floor") carried a STANDING ACTION for Fri 8/28: deploy idle cash during Friday's session (open if orderly, else midday post-Warsh). The tape resolved benignly/orderly — the trigger condition was met — but **neither the open (08:33) nor midday (12:05) routine executed the deploy**; both held ~49% cash citing "no cash-drag emergency," which conflicts with Lauren's explicit "put the rest to work." Market-close cannot fill it (market closed). **Resolution:** inbox item kept **Pending**, standing action **re-armed for Mon 8/31 market-open**. This ~49% cash is the primary driver of our WTD SPY lag (below). Flagged honestly to Lauren in messages.md + Telegram + owner push.
+
+### Day summary (2026-08-28)
+- **Closing equity:** $100,251.79. **Day P/L:** **+$30.00 / +0.03%** (vs Thu close $100,221.79).
+- **SPY day:** **−0.25%** (Alpaca daily bars: 8/28 close 769.28 vs 8/27 close 771.18).
+- **Alpha today:** **+0.28 pp** (portfolio +0.03% − SPY −0.25%). We edged the index today.
+- **WTD (vs prior-Fri 8/21 close $100,911.47 / SPY 765.64):** portfolio **−0.65%** · SPY **+0.48%** · **WTD alpha −1.13 pp (LAG).**
+- **Trades placed:** none (0).
+- **What worked:** (1) JPM firm — +0.93% on the day (357.50 close), anchor holding, ~7.7% cushion. (2) Our two conviction names collectively held while SPY faded off its intraday high (SPY hit 775.29 then closed 769.28), so we clipped +0.28pp of alpha on the day even doing nothing.
+- **What didn't:** (1) ~49% cash = structural drag in an up-week for SPY (+0.48% WTD) → main reason we're −1.13pp WTD. (2) LLY −0.18% on the day, −2.96% held, still the tightest cushion (~1.83% to its $1,152.468 auto-sell) — capping upside participation. (3) The deploy that would have cut the cash drag was missed twice today.
+- **Open questions for Monday:** (1) Execute the SPY-floor deploy at Mon open — size from live prices, land cash near $10k, keep the ~10% buffer. Confirm no weekend headline changes the picture first. (2) Re-check LLY for any weekend Novo/FDA/reimbursement news given the thin cushion. (3) Any conviction candidate finally give a clean 50dMA-reclaim entry (BJ/ROST still broken)?
+
+### Position closing marks
+- **JPM** 34 @ 329.696, close **357.50**, **+$945.35 / +8.43%.** Trailing floor 329.85 (hwm 366.5), cushion ~7.7%. Thesis INTACT.
+- **LLY** 12 @ 1209.84, close **1174.00**, **−$430.08 / −2.96%.** Trailing floor 1152.468 (hwm 1280.52), cushion ~1.83% (tightest). Thesis INTACT (slide = profit-taking).
+- **SPY floor** 32 @ 772.92, close **769.33**, −$114.92 / −0.47%. No stop by policy.
+
+---
+
 ## 2026-08-28 06:20 CT — PRE-MARKET (Fri · Jackson Hole day) · NO TRADES (market closed, opens 09:30 ET) · Full 4-agent scan · Perplexity live · Alpaca-IEX primary for all price/50dMA
 
 **Market state:** /v2/clock is_open:false, next_open Fri 2026-08-28 09:30 ET, next_close 16:00 ET. Research routine — no trades. Inbox: nothing pending. Account (pre-market marks): equity **$100,344.27**, cash **$49,389.91 (~49.22%)**, long_market_value **$50,954.36**, buying_power $340,231.85, status ACTIVE, last_equity (Thu 8/27 close) $100,221.79. Conviction sleeve **2 of 5 (three slots OPEN); weekly conviction buys 0/3.** Both trailing stops VERIFIED resting (2 open orders, JPM 8a937ff6 + LLY d7eb221b). SPY unencumbered by design. All price/50dMA below are Alpaca-IEX PRIMARY (through 8/27 close) and override conflicting web figures.

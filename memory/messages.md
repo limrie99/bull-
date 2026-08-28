@@ -1,3 +1,24 @@
+## 2026-08-28 15:00 CT · market-close
+
+**Close: equity $100,252 · day +0.03% · SPY −0.25% · alpha +0.28% (today we beat the market — but we're behind it for the week)**
+
+**How we're doing (plain English)**
+Today we finished basically flat but *green* — up $30 (+0.03%) — while the S&P 500 (the "market," 500 big U.S. companies) slipped −0.25%. So on the day we came out **a hair ahead** of the market, by about a quarter of a percent. The honest part: **for the week as a whole we're behind.** We're −0.65% since last Friday while the market is +0.48% — a gap of about 1.1 points. No trades today; that makes it four calm, do-nothing days in a row.
+
+**Why**
+- **The good:** our stocks held up while the market faded. JPMorgan ticked up (+0.9%) and both our safety-nets sat exactly where they should. Nothing broke.
+- **The drag (and it's on me to fix):** we're still holding about **49% of the account in cash**. In a week where the market drifted *up*, sitting in cash means we didn't earn what the market earned — that's the whole reason we're behind for the week.
+- **Eli Lilly** is still our soft spot: −3% and the tightest cushion (only ~1.8% above its automatic sell). I re-checked — no bad news, just profit-taking — so I'm holding, and the safety-net protects us if it slips.
+
+**One thing I owe you honestly:** you told me on Wednesday to *put more of that cash to work* (keep a safe ~$10k, invest the rest, default to adding to our S&P 500 "floor"). That was supposed to happen today, and it **didn't** — the earlier check-ins stayed parked in cash. The market was closed by the time this routine ran, so I can't place it now. **I've locked it in for Monday morning at the open** — that's the first thing Monday's routine will do, unless you tell me otherwise in the inbox this weekend. I'm sorry it slipped; that cash drag is exactly what cost us ground this week, and fixing it is the plan.
+
+**What I'm watching into Monday**
+Any weekend news on Eli Lilly (its cushion is thin), and then deploying that idle cash into our market floor at the open so we stop leaking ground to a rising market.
+
+**Numbers I care about**
+- Equity **$100,252** — up $30 today; we started at $100,000, so we're **+0.25% overall since day one**.
+- **Cash $49,390 (~49%)** — far more than the ~$10k buffer you asked for; Monday's job is to fix that.
+- JPMorgan **+8.4%** (safety-net $329.85, ~7.7% below). Eli Lilly **−3.0%** (auto-sell $1,152.47, tightest cushion ~1.8%). 0 of 3 weekly buys used, 2 of 5 stock slots filled.
 ## 2026-08-28 12:05 CT · midday
 
 **Midday: steady, no changes — the big Fed speech passed quietly.**
