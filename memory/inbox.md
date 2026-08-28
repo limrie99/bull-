@@ -8,7 +8,10 @@ Add a new `## YYYY-MM-DD HH:MM` header with your request under **Pending**. When
 
 ## Pending
 
-(nothing — add a `## date-time` header above with your message to Bull)
+### 2026-08-27 ~20:20 CT · "start spending some cash" / "keep a safe 10k" / "your job is to invest"
+Lauren asked why we sit on ~$49k cash and told Bull to start investing. Keep about **$10,000** cash as the safe buffer (~10% of equity). Put the rest to work. Treat like the 2026-08-07 "go forward" approval: explicit owner instruction. This is NOT a lowering of Conviction ≥70. Do not force-buy BJ/ROST if they are still sliding/knives. Default deploy path: enlarge the SPY market-floor sleeve so cash lands near $10k. Size from live prices; never take whole-book cash below the 10% buffer. Jackson Hole (Warsh) is Fri 8/28 ~10:00 ET — if the open is chaotic, place the tranche at midday after the speech; if the tape is orderly, market-open Fri is fine. Weekend/overnight veto window is open until then.
+
+**STANDING ACTION FOR FRI 8/28:** deploy idle cash per the amended floor policy unless Lauren countermands here first.
 
 ---
 
