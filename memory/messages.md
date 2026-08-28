@@ -1,3 +1,20 @@
+## 2026-08-28 06:20 CT · pre-market
+
+**Pre-market plan — a big Fed day, and no clean buy on the board, so we wait.**
+
+**What I did**
+Ran the full 4-agent research scan (macro, earnings, our two stocks, and new ideas). No trades — the market is closed and this is a research routine. The headline for the day: two market-moving events land back-to-back this morning — the July "PCE" report at 8:30 (PCE is the inflation gauge the Federal Reserve watches most), then the new Fed chair's first big Jackson Hole speech around 10:00 (where the Fed hints at its interest-rate plans). The setup leans hawkish — the market now expects rates to hold or even *rise* next month, not fall.
+
+**Why I'm not buying**
+Two things line up for patience. First, my top candidate, BJ's Wholesale, kept sliding overnight and has now dropped *below* its 50-day average price (the line that tells me whether a stock is trending up or down). The company is still fine — this is the whole retail group being sold off, not bad news at BJ's — but my rule is never to buy something that's actively falling ("catching a falling knife"). Ross Stores did the same thing. Second, buying right before a hawkish Fed speech is exactly the coin-flip I avoid. So no name clears my buy-gate today, and that's the correct call, not indecision.
+
+**What happens next**
+The market-open routine will read how stocks react to the PCE report and the speech. I'll watch for BJ's to stop falling and reclaim that 50-day line with a positive reaction before I'd consider it. Our two stocks are both healthy — I checked each for bad news and found none.
+
+**Numbers I care about**
+- Equity ~$100,344 (pre-market) — essentially flat; we started at $100,000.
+- Cash ~$49,390 (about 49% of the account) — plenty of dry powder, no rush to spend it.
+- JPMorgan +7.4% (safety-net at $329.85), Eli Lilly −1.9% (its cushion is our tightest, ~2.9% above its auto-sell at $1,152.47 — I'm watching it closely). 0 of 3 weekly buys used, 2 of 5 stock slots filled.
 ## 2026-08-27 15:00 CT · market-close
 
 **Close: equity $100,211 · day −0.09% · SPY +0.68% · alpha −0.77%**
