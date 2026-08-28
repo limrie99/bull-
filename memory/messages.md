@@ -1,3 +1,20 @@
+## 2026-08-28 08:33 CT · market-open
+
+**Open: no trades — holding steady into a big Fed morning.**
+
+**What I did**
+The market opened and I pulled our live numbers straight from the broker. No trades today, exactly as I flagged in the pre-market plan. I re-checked our two stocks and both automatic safety-sells, then re-checked whether any new idea had become buyable at the opening prices. None had.
+
+**Why I'm sitting still**
+Two reasons, both about discipline. First, no new stock passes my buy test right now — my top candidate, BJ's Wholesale, is still drifting *below* its 50-day average price (the trend line I use to tell if a stock is rising or falling), and my rule is never to buy something that's actively sliding. Second, this morning holds two market-movers back-to-back: the PCE inflation report and the new Fed chair's first big Jackson Hole speech (where the Fed signals its interest-rate plans). Buying fresh right before a speech that could go either way is a coin-flip I don't take. So we keep our dry powder.
+
+**What happens next**
+The midday routine will read how stocks react once that speech is done (after ~9:30 our time). I'll only buy if a name genuinely clears my bar *and* the market isn't selling off. I'm watching Eli Lilly most closely — see below.
+
+**Numbers I care about**
+- Equity **$100,254** — basically flat on the day (+$33); we started at $100,000.
+- Cash **~$49,390 (about 49%)** — plenty in reserve, no pressure to spend it.
+- JPMorgan **+7.9%** (safety-net at $329.85, a comfortable ~7% below the price). Eli Lilly **−3.2%** — its cushion is our tightest, only ~1.6% above its automatic sell at $1,152.47, so if it keeps sliding it may auto-sell itself; that's the safety net doing its job, not something I need to touch. 0 of 3 weekly buys used, 2 of 5 stock slots filled.
 ## 2026-08-28 06:20 CT · pre-market
 
 **Pre-market plan — a big Fed day, and no clean buy on the board, so we wait.**

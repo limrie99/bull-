@@ -7222,3 +7222,32 @@ LLY drifted +0.94% (open) → −1.21% (midday), tightest cushion in the book, s
 - **What didn't:** (1) LLY again the sole drag — intraday −1.17% (−$167), the entire day's loss; JPM (−$78) and SPY (+$160) roughly cancelled. (2) LLY's trailing-floor cushion tightened to **~1.95% (floor 1152.468, close 1175.345)** — the tightest of the run; a ~2% further slide auto-exits. (3) Lagged SPY today (−0.77) and WTD (−1.42) — same cash+LLY-sag pattern, not a stock-picking break (SPY floor + JPM were fine).
 - **Open questions for tomorrow:** (1) **Fri 8/28 Warsh Jackson Hole keynote ~10:00 ET** — hawkish-surprise binary; read the tape reaction before any buy. (2) Does LLY stabilize or trip the 1152.468 floor? Cushion under 2% now — watch for any overnight Novo/reimbursement/FDA headline. (3) BJ post-Jackson-Hole: confirmed base / 50dMA reclaim (~$92) with a positive reaction → possible first conviction buy of the week; continued slide → stay out.
 - Mandatory daily "How we're doing" close update SENT (dashboard + Telegram) this routine. Inbox: nothing pending.
+## 2026-08-28 08:33 CT — MARKET-OPEN (Fri · Jackson Hole day) · NO TRADES (nothing clears gate; hold through PCE→Warsh binary) · Market CONFIRMED OPEN · Alpaca live marks
+
+**Clock:** is_open TRUE, timestamp 09:32 ET, next_close 16:00 ET, next_open Mon 8/31 09:30 ET. **Account (live open marks):** equity **$100,254.65**, cash **$49,389.91 (~49.26%)**, long_market_value **$50,864.74 (~50.74%)**, buying_power $339,980.91, status ACTIVE. `last_equity` (Thu 8/27 close) $100,221.79 → intraday **+$32.86 / +0.03%** — well inside the −3% daily loss cap, new buys permitted. **Inbox: nothing pending.** Conviction sleeve 2/5 (three open), weekly conviction buys 0/3. Both trailing stops VERIFIED resting (2 open orders total: JPM 8a937ff6 + LLY d7eb221b). SPY unencumbered by design.
+
+### Positions (live 09:32 ET, /v2/positions)
+- **JPM** 34 @ 329.695588, cur 355.795, +$887.38 / **+7.92%**. Trailing floor 329.85, hwm 366.5. Cushion ~7.3%. Size ~12.07%. Thesis INTACT.
+- **LLY** 12 @ 1209.84, cur 1170.84, −$468.00 / **−3.22%**. Trailing floor 1152.468, hwm 1280.52. Cushion **~1.6% (tightest, slipped further overnight)**. Size ~14.01%. Thesis INTACT/AMBER — no fresh negative catalyst per pre-market; slide = profit-taking/reimbursement worry, no verified thesis break. A drift to ~$1,152 auto-exits on the trailing stop.
+- **SPY** 32 @ 772.92125, cur 771.91, −$32.36 / **−0.13%**. Index floor, NO stop by policy. Size ~24.64%.
+
+### Risk checks
+- (a) Any un-stopped position −7% or worse? NO (JPM +7.92, LLY −3.22 [on trailing stop], SPY −0.13). No sell trigger.
+- (b) Any +5%+ needing hard→trailing conversion? NO — both conviction names already on 10% trailing; SPY no stop by policy. Zero hard stops in book.
+- (c) Daily loss cap: intraday +0.03%. Clear. New buys allowed.
+- No overnight sell signal on any held name; no thesis break. **No sells.**
+
+### The buy decision — NO BUY (executed the pre-market plan, re-validated at open)
+Pre-market handed market-open an explicit **"expect NO BUY"** with two independent reasons, both re-confirmed at the open:
+1. **No name clears the gate.** The two closest candidates both remain below trend on sector-wide retail weakness: **BJ** (50dMA ~$91.94, last ~$90.50, −1.57% below and falling — signal #6 clean-uptrend BROKEN, down to 2 signals) and **ROST** (50dMA ~$234.43, ~$229.78, −1.98% below + tariff-refund-flattered beat). Buying a name sliding into/under its 50dMA is the knife-catch the strategy forbids. ADI/CRWD/DE remain sub-70 / extended / gap-chase — bench, not buys.
+2. **Event discipline.** It is 09:32 ET, before the ~10:30 ET post-Warsh tape. July PCE (8:30 ET) + Chair Warsh's first Jackson Hole keynote (~10:00 ET, neutral-to-hawkish setup, Sept priced hold-or-HIKE no cut) is a two-way binary; deploying fresh capital into it with tech soft and AI-semi beats being sold (MRVL −7–8% Thu) carries avoidable risk. ~49% cash + floor built = no cash-drag emergency, no anti-paralysis trigger (a genuine fresh scan ran pre-market; cash is the correct call).
+
+**Decision: NO BUY, NO SELL.** Weekly buys stay 0/3, sleeve 2/5 (3 open). BJ stays #1 on the watchlist — re-arm only on a confirmed base / 50dMA reclaim (~$92) with a positive tape, likely post-Fed.
+
+### Handoff to midday (8/28)
+- Read the post-PCE / post-Warsh tape (~after 10:30 ET). Still no buy unless a name clears 2+ signals AND ≥70 AND a clean entry AND the tape is not risk-off. Watch for BJ to base/reclaim its 50dMA.
+- **LLY cushion ~1.6% is the one live risk** — the trailing stop at $1,152.468 auto-exits if it drifts there; no manual action needed (mechanical protection working as designed). Thesis intact.
+- **Market-close owns today's mandatory plain-English "How we're doing" scorecard + Telegram** (never skipped, even on this no-trade day).
+
+**Memory writes:** portfolio.md overwritten (live snapshot); this research-log entry appended; messages.md prepended (teacher-voice market-open); dashboard/state.json overwritten. No Telegram push (market-open, no trades → per CLAUDE.md do-not-push list). No trade-log entries (no buy/sell legs executed).
+
