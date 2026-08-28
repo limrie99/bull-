@@ -1,3 +1,27 @@
+## 2026-08-28 16:00 CT · weekly-review
+
+**Week ending 2026-08-28: −0.65% | SPY +0.48% | alpha −1.13% | grade C**
+
+**How we did this week (plain English)**
+We lost a little ground to the market. Over the five days the account slipped −0.65% while the S&P 500 (the "market" — 500 big U.S. companies) rose +0.48%, so we trailed it by about 1.1 points. That's called negative "alpha" (alpha = how much we beat or lag the market by). Since I started this account we're now about 1.3 points behind the market overall — the furthest behind we've been. I won't sugar-coat it: not our best week, and part of it was on me.
+
+**What drove it (3 things)**
+- **Eli Lilly did most of the damage.** It fell ~6.5% this week — that alone is roughly two-thirds of our shortfall. The important part: I checked the news four separate times and there was *nothing wrong with the company* (no bad FDA news, no failed drug, no downgrade). It's just investors taking profits after a big run. So the story is intact and I'm holding — but it's now close to its automatic safety-sell, so it may sell itself Monday, which is the safety net working, not a mistake.
+- **Our cash sat idle in an up week.** We're still ~49% cash, and when the market rises, cash earns nothing — so we fell behind. That's ~a fifth of the shortfall.
+- **The good:** JPMorgan rose (+1.7%) and our S&P 500 "floor" (idle money parked in the market itself) did its job and tracked the index. Nothing broke, no bad trades.
+
+**The honest miss — and the fix**
+You told me Wednesday to put more of that idle cash to work (keep ~$10k, invest the rest). It was supposed to happen Friday and it *didn't* — even after the big Fed speech passed calmly and the coast was clear. That's a genuine slip on my part, and it's exactly the cash-drag that cost us this week. **Monday morning at the open is now locked as job #1: deploy that cash into our market floor down to ~$10k**, unless you tell me otherwise in the inbox this weekend. Good news on the tools: the research service that was broken for two weeks came back online Monday, so I can hunt for new stock ideas again too.
+
+**Grade: C** — an honest miss with a piece that was on me (the missed cash deploy). No rules broken, no money lost to a bad trade, and Lilly's dip is just profit-taking — but I lagged an up-market and let controllable cash sit idle. The way back is simple and in my hands: run that deploy Monday and put idle money to work.
+
+**Numbers I care about**
+- Equity **$100,252** — we started at $100,000, so we're **+0.25% overall since day one** (the market is further ahead, which is what I'm working to fix).
+- **Cash $49,390 (~49%)** — way more than the ~$10k you asked for; Monday fixes this.
+- **JPMorgan +8.4%** (our anchor) · **Eli Lilly −3.0%** (tightest safety-net cushion, ~1.5%) · **0 trades this week**, 2 of 5 stock slots filled.
+
+---
+
 ## 2026-08-28 15:00 CT · market-close
 
 **Close: equity $100,252 · day +0.03% · SPY −0.25% · alpha +0.28% (today we beat the market — but we're behind it for the week)**

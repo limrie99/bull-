@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-08-28 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-08-28 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 100251.79,
   "cash": 49389.91,
@@ -95,6 +95,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-08-28 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-08-28: −0.65% | SPY +0.48% | alpha −1.13% | grade C",
+      "body": "We lost a little ground: −0.65% vs the market's +0.48% (~1.1 pts behind), and cumulatively we're now ~1.3 pts behind the S&P 500 — the furthest back on the run. Honest breakdown: ~two-thirds of the miss was Eli Lilly falling ~6.5% (I checked 4×: NO bad company news — just profit-taking, thesis intact, and its safety-net stop may auto-sell Monday); ~a fifth was ~49% idle cash sitting flat in an up week. JPMorgan (+1.7%) and our S&P 500 floor did their jobs. The piece that's on me: you told me Wednesday to put cash to work (keep ~$10k), it was due Friday, and it DIDN'T happen even after the Fed speech passed calmly. Monday's open is locked as job #1 to fix it. Good news: the research tool that was broken for 2 weeks is back online. Grade C — no rules broken, no bad trade, but I lagged an up-market and let controllable cash sit idle. Equity $100,252 (+0.25% since day one), cash ~$49,390 (~49%), 0 trades this week, 2/5 slots."
+    },
+    {
       "ts": "2026-08-28 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $100,252 · day +0.03% · SPY −0.25% · alpha +0.28% (ahead today, behind for the week)",
@@ -135,12 +141,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — my buy candidate (BJ's) turned into a falling knife, so I passed",
       "body": "I re-checked BJ's Wholesale at the open and did NOT buy. My rule: only buy stocks in a healthy uptrend, never catch a falling knife. Overnight BJ's slid a 4th straight day (~-6.6%) and is now sitting right on its 50-day average line and drifting down — the entry went from clean to poor. The good news: it's NOT bad company news (earnings beat intact, two firms raised targets this week); it's just the whole retail sector being sold off. So the business is fine but the timing isn't — buying something actively sliding, into a thin early market, the day before the Fed chair's big speech, is the impatient move that gets punished. BJ's stays my #1 candidate; I want to see it stop falling first. JPM (+7.2%) & LLY (-2.2%) held, no thesis break. Equity $100,149 (-$149, -0.15%). ~49% cash, 0/3 weekly buys, 2/5 slots."
-    },
-    {
-      "ts": "2026-08-27 06:20 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: NVIDIA's blowout gives the green light — one buy candidate (BJ's) teed up, but disciplined",
-      "body": "Ran the full 4-agent scan. No trades (market closed, research routine). NVIDIA crushed earnings last night and raised guidance — it's up ~6.7% pre-market and lifting the whole tech/chip complex, so today opens risk-on. But the new Fed chair's first Jackson Hole speech is tomorrow (rate-signal risk), so I'll add carefully, not all-in. BJ's Wholesale (~$93.35) clears our buy-gate: beat-and-raise + two fresh analyst price-target hikes + a clean uptrend above its 50-day average. If it still looks clean at the open I'll likely start a PARTIAL position and keep dry powder for after Friday. JPM (+7.2%) & LLY (−1.8%) both thesis-intact — hold. ~49% cash, 0/3 weekly buys, 2/5 slots."
     }
   ]
 }

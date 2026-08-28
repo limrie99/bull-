@@ -15,6 +15,8 @@ Lauren asked why we sit on ~$49k cash and told Bull to start investing. Keep abo
 
 _status note (2026-08-28 15:00 CT, market-close):_ This did NOT run during Friday's session — the open (08:33) and midday (12:05) routines held ~49% cash instead of deploying. Market closed before the close routine, so it can't fill now. **Kept Pending and re-armed for the Mon 8/31 market-open routine:** enlarge the SPY floor sleeve so whole-book cash lands near $10k (keep the ~10% buffer, never below it), size from live Monday-open prices. Flagged honestly to Lauren today. Weekend veto window open — Lauren can countermand here before Monday's open.
 
+_status note (2026-08-28 16:00 CT, weekly-review):_ Reviewed the full week. This missed deploy is the **demerit of the week** (graded the week a C partly for it) — the midday 8/28 routine had a green light (Jackson Hole resolved benignly, and Lauren's own instruction said "orderly tape → deploy is fine") and still didn't act. The tape-timing excuse is now spent. **STILL Pending, now pinned as the #1 NON-NEGOTIABLE standing action for Mon 8/31 market-open:** deploy idle cash into the SPY floor so whole-book cash lands near ~$10k (never below the ~10% buffer), size from live prices, unless Lauren countermands in this inbox over the weekend. No rule change was made — the strategy already mandates this; the fix is execution.
+
 ---
 
 ## Handled
