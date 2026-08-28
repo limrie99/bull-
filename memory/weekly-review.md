@@ -33,6 +33,40 @@ Format:
 
 ---
 
+## Week ending 2026-08-28 (Friday) — UP-TAPE CASH DRAG RETURNS, AND WE MISSED THE FIX. Book **−0.65%** while SPY **+0.48%** → **−1.13 alpha ❌**. Mirror image of last week's down-tape beat (+0.90): cash ~49% helped when SPY fell, hurt when SPY rose. Zero trades all week (0 buys / 0 sells). BJ correctly passed as a knife Thu 8/27. The real miss is operational: Lauren's 8/27 instruction to keep ~$10k cash and invest the rest (default = enlarge SPY floor) was already written into strategy.md, but Fri 8/28 open and midday held ~49% cash anyway after an orderly Jackson Hole tape. Standing action re-armed for Mon 8/31 open. No new strategy tweak — the rule exists; Monday must execute it.
+
+_Run 2026-08-28 (Fri) 16:00 CT by Grok Bot weekly-review routine. Covers Mon 8/24 → Fri 8/28. Alpaca paper credentials were NOT available in this runner — numbers from the repo's official market-close Alpaca snapshots (portfolio.md / dashboard/state.json), not a live 1W history pull. Starting equity = prior-Fri 8/21 close $100,911.47; ending = Fri 8/28 close $100,251.79. SPY 8/21 close 765.64 → 8/28 close 769.28 (+0.48%). No fills this week (trade-log: zero buy/sell legs after 8/19 DE stop)._
+
+**Metrics**
+- Starting equity (Mon 8/24 open = Fri 8/21 close): **$100,911.47**
+- Ending equity (Fri 8/28 official close): **$100,251.79**
+- Week return: **−0.65%** (−$659.68)
+- SPY week return: **+0.48%** (765.64 → 769.28)
+- **Alpha vs SPY: −1.13 pts ❌** — a MISS; flips last week's +0.90 beat
+- Trades placed: **0 buys / 0 sells.** Weekly conviction buys 0/3. Stops: JPM + LLY 10% trailing resting; SPY no-stop by policy.
+- Win rate on closed trades this week: **N/A** (none closed).
+- Held sleeve at close: JPM +8.43%, LLY −2.96% (cushion ~1.83% to floor 1152.47), SPY floor −0.47%.
+
+**Wins**
+- Gate stayed honest under temptation: BJ cleared pre-market Thu then degraded into a 50dMA knife at the open — correctly passed (no falling-knife buy into Jackson Hole).
+- Risk plumbing clean all week: both trailing stops verified resting every routine; no −7% breaches; no thesis breaks on JPM/LLY.
+- Perplexity recovered mid-week (was 401 blind last week) so buy-side research was live again for the event-heavy week.
+
+**Losses**
+- Lagged SPY by ~1.1 pts on a mild up-week — classic cash-drag signature with ~49% idle.
+- Owner standing action MISSED: after Lauren said keep ~$10k / invest the rest (8/27), Fri open + midday still held ~$49k. Tape after Warsh was orderly; the deploy condition was met and not run. That is process failure, not noise.
+- LLY soft all week (−3% area, tightest cushion) on profit-taking with thesis intact — dollar drag vs the floor's small help.
+
+**Lessons**
+- Same pattern as 7/3–8/7 and the flip of 8/21: partly-cash book beats down tapes and lags up tapes. Floor (~25%) helped but cannot offset ~49% cash on an up week.
+- A written cash-band change that is not executed is still cash drag. Monday open must size the SPY floor to ~$10k cash from live prices unless Lauren countermands.
+- Patience on BJ/ROST was right; conflating "no ≥70 name" with "don't deploy the index floor" was wrong after the 8/27 owner instruction.
+
+**Strategy adjustments**
+- **NONE.** The 8/27 ~$10k cash / invest-the-rest amendment already addresses this week's miss. Do not lower ≥70. Do not force-buy BJ/ROST. Execute the existing floor deploy Mon 8/31.
+
+**Grade: C** — honest miss vs SPY (−1.13) on the known cash-drag pattern, plus a clear owner instruction we failed to run on Friday. Not a D: no bad fills, stops/gate behaved, research back online, and the fix is already written — it just has to fire Monday.
+
 ## Week ending 2026-08-21 (Friday) — WE BEAT THE MARKET, and the streak breaks. First positive-alpha week since 7/24: the book fell only **−0.47%** while SPY dropped **−1.37%** → **+0.90 alpha ✅**, ending three straight down-alpha weeks (7/31 −2.87, 8/7 −2.72, 8/14 −0.73). Cumulative alpha clawed back from −1.10 to **−0.17 pts** — we are now within a whisker of even with SPY on the run, from a −1.10 hole a week ago. Honest read on *how* we won: this was a **down-tape beat** — SPY fell and our ~49% cash + a strong LLY cushioned the drop. That's the "easy" edge for a partly-cash book, not proof we can lead an up-tape (the real test, still pending). One sting: **DE's trailing stop fired one minute before its Q3 print (8/19, −$227.79/−1.76%), then DE ripped ~+9% post-earnings** — the stop did its job (removed overnight gap risk, no thesis break) but in hindsight cost us a winner; that is the price of the discipline, not a rule failure. The real cloud over the week is **operational, not strategic: Perplexity has been down (401 insufficient_quota) for 9 straight routines**, so buy-side research is blind and three conviction slots sit empty with ~49% cash idle. No guardrail changed; the fix here is a billing top-up, not a strategy tweak.
 
 _Run 2026-08-21 (Fri) 16:00 CT, covers the full 5-session week Mon 8/17 → Fri 8/21. Numbers verified live against Alpaca this run: account (live post-close equity $100,932.07; official market-close scorecard of record $100,899.11, cash $49,389.91 ~48.95%, long_mkt_value $51,509.20), 1W portfolio history (1D, base_value $101,378.01 = confirmed Fri 8/14 close; logs Mon 8/17 $101,036.19 → Thu 8/20 close $100,678.61 = live last_equity; today's Friday close not yet posted — same one-day lag as every prior week, so I use the official market-close scorecard for Friday), open orders (nested=true: both remaining stops resting `new` — JPM 10% trailing floor 329.85/hwm 366.5, LLY 10% trailing floor 1152.468/hwm 1280.52; SPY carries no stop by policy), positions, SPY IEX daily bars 8/13→8/21 (8/14 close 776.30 → 8/21 close 765.64, verified live) and per-holding closing marks. Closed-orders query for the week (after 8/15) returned exactly 1 fill: DE sell trailing_stop 8/19 @ 579.465909 — 0 buys / 1 sell confirmed, one stop-fire. Perplexity re-tested live this run: still HTTP 401. Inbox: nothing pending._
