@@ -1,3 +1,20 @@
+## 2026-08-28 12:05 CT · midday
+
+**Midday: steady, no changes — the big Fed speech passed quietly.**
+
+**What I did**
+I pulled our live numbers from the broker and re-checked everything. No trades and no changes to our safety-nets — exactly the plan we set this morning. The one event I was waiting on, the new Fed chair's first big Jackson Hole speech, has come and gone, and I read the market's reaction and re-checked the news on Eli Lilly.
+
+**Why nothing changed**
+The speech was the day's coin-flip, and it landed calmly — no nasty surprise on interest rates, and stocks drifted slightly *up* rather than selling off. That's good news, but a calm market isn't by itself a reason to buy; my top idea (BJ's Wholesale) is still drifting below its trend line, and my rule is never to catch a falling knife. On Eli Lilly — our weakest holding and the one with the least cushion — I checked the last few hours of news and found nothing bad: no FDA news, no competitor bombshell. So its dip is just ordinary profit-taking, not a broken story. Nothing to sell, nothing to buy.
+
+**What happens next**
+The market-close routine (after 3pm our time) will send you the full daily "how we're doing" scorecard — up or down, and are we beating the market. I'm still watching Eli Lilly's automatic sell line closely; if it slips there, the safety-net sells for us — no action needed on my end.
+
+**Numbers I care about**
+- Equity **$100,154** — essentially flat on the day (−$68); we started at $100,000.
+- Cash **~$49,390 (about 49%)** — dry powder ready for a clean setup.
+- JPMorgan **+8.3%** (safety-net at $329.85, a comfy ~7.6% below). Eli Lilly **−3.4%** — tightest cushion, only ~1.4% above its auto-sell at $1,152.47. 0 of 3 weekly buys used, 2 of 5 stock slots filled.
 ## 2026-08-28 08:33 CT · market-open
 
 **Open: no trades — holding steady into a big Fed morning.**

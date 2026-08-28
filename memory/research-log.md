@@ -7251,3 +7251,35 @@ Pre-market handed market-open an explicit **"expect NO BUY"** with two independe
 
 **Memory writes:** portfolio.md overwritten (live snapshot); this research-log entry appended; messages.md prepended (teacher-voice market-open); dashboard/state.json overwritten. No Telegram push (market-open, no trades → per CLAUDE.md do-not-push list). No trade-log entries (no buy/sell legs executed).
 
+
+## 2026-08-28 12:05 CT · MIDDAY (Fri · post-Jackson-Hole / post-Warsh keynote)
+
+**Market:** CONFIRMED OPEN (/v2/clock is_open:true, 13:01 ET, next_close 16:00 ET).
+**Account (live):** equity $100,153.75 · cash $49,389.91 (49.31%) · long_mv $50,763.84 (50.69%) · buying_power $339,698.40 · last_equity (Thu 8/27 close) $100,221.79 → **intraday −$68.04 (−0.07%)**. Daily loss cap NOT tripped; new buys permitted.
+
+**Positions (live marks 13:01 ET):**
+- JPM 34 @ 329.695588 → 356.98 · +$927.67 (+8.28%) · 10% trailing hwm 366.5 floor 329.85 (resting, no ratchet: 356.98 < hwm) · cushion ~7.6% · size ~12.12%.
+- LLY 12 @ 1209.84 → 1169.12 · −$488.64 (−3.37%) · 10% trailing hwm 1280.52 floor 1152.468 (resting) · cushion **~1.42% (tightest of the run)** · size ~14.01%.
+- SPY 32 @ 772.92125 → 768.88 · −$129.32 (−0.52%) · NO STOP (index-floor carve-out) · size ~24.57%.
+
+**Open orders (nested=true):** exactly 2 — JPM trailing `8a937ff6…` + LLY trailing `d7eb221b…`. SPY correctly unencumbered.
+
+**Risk checks:**
+- (a) −7%+ un-stopped? NO (JPM +8.28 / LLY −3.37 / SPY −0.52). No sell.
+- (b) +5%+ needing hard→trailing conversion? NO — both conviction names already on trailing; SPY no-stop by policy. Zero hard stops in book.
+- (c) Daily loss cap: intraday −0.07% → inside −3%, buys permitted.
+
+**Tape read (Perplexity sonar-pro, ~12:00 CT):** Jackson Hole binary resolved **benignly / risk-on**. Chair Warsh's first Jackson Hole keynote (~10 ET) did NOT deliver a hawkish shock — S&P 500 modestly up intraday (~+0.1% to +0.3% late-morning snapshots), long-bond yields easing, Nasdaq softer but not selling off. The day's scheduled two-way risk (July PCE 8:30 + Warsh 10:00) passed without incident. (Note: our SPY position mark 768.88 is a thin IEX print showing −0.52% vs our 772.92 avg entry; authoritative SPY close + WTD alpha to be computed by the close routine.)
+
+**LLY thesis check (same query, last 4–6h):** No fresh, major negative headline on Eli Lilly — no FDA action, no GLP-1/obesity shock, no Novo H2H surprise, no reimbursement/downgrade catalyst in the news stream around today's session. **Thesis INTACT.** Recent softness = profit-taking/positioning, not a thesis break. Keep the trailing stop; do NOT cut. LLY remains the tightest-cushion watch (floor 1152.468, ~1.42% below cur) — mechanical protection working as designed; a drift to ~$1,152 auto-exits, no manual action needed.
+
+**Buy decision: NO midday buy.** Midday buy-gate requires a high-conviction breaking catalyst AND weekly buys <3 AND positions <5 — no breaking catalyst on the board. Consistent with the pre-market → market-open plan ("expect NO BUY"). BJ (#1 candidate) still below its 50dMA (~$92) on retail-sector weakness — the knife-catch the strategy forbids; ROST same broken chart. A benign Jackson Hole is not itself a buy trigger. Conviction sleeve 2/5, weekly conviction buys 0/3, ~49% cash + SPY floor invested — no cash-drag emergency, no anti-paralysis trigger.
+
+**Sell / stop decision:** NONE. No −7% trigger, no thesis break, no ratchet needed (both trailing floors below hwm), no hard→trailing conversion needed (zero hard stops in book).
+
+**Actions taken:** none (no trades, no stop changes). Memory written: portfolio.md (overwritten, live snapshot), this research-log entry (appended), messages.md (prepended, teacher-voice midday), dashboard/state.json (overwritten). Inbox: nothing pending. No Telegram push (quiet midday, no trades → per CLAUDE.md do-not-push list). No trade-log entries (no buy/sell legs executed).
+
+**Handoff to market-close (8/28):**
+- Run the **mandatory plain-English "How we're doing" scorecard + Telegram** (never skipped, even on this no-trade day). Compute authoritative SPY close and WTD alpha.
+- Confirm LLY stayed above 1152.468 (or note if the trailing stop fired). Re-verify 2 open orders resting.
+- BJ post-Fed: watch for a confirmed base / 50dMA reclaim (~$92) with a positive tape → possible first conviction buy; continued slide → stay out.
