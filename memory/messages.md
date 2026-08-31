@@ -1,3 +1,22 @@
+## 2026-08-31 06:20 CT · pre-market
+
+**Pre-market plan: today's the day I finally put your cash to work — and I found one clean new stock to consider.**
+
+**What I did**
+I woke before the market opened and ran my full research team (four assistants at once: one on the economy, one on earnings, one checking our stocks, one hunting for new ideas). No trades — the market is still closed; this is the plan I'll act on at the 8:30 CT open.
+
+**The plan, in plain English**
+- **Job #1 — deploy cash (the thing I owed you Friday).** You told me to keep about $10k and invest the rest. It didn't happen Friday and that's on me. This morning it's locked as my first action: move most of our ~$49k idle cash into our S&P 500 "floor" (a fund that simply owns the whole market) so our money stops sitting flat while the market rises. A mildly nervous market is *not* a reason to wait again — that floor is buy-and-hold, no safety-sell, exactly built for this.
+- **One clean new idea: ATI** (a US maker of specialty metals for jet engines and defense — riding the "build it in America" trend). It's the one candidate in a healthy uptrend at a fair entry, and it barely reacts to interest rates, which is handy in a week where the Fed is sounding tough. If it still checks out live, I may put a *starter* position in it and send the rest to the S&P floor.
+- **What I'm avoiding:** my old favorite BJ's Wholesale is still below its trend line (I don't buy falling stocks), and a wave of big tech earnings (CrowdStrike, Broadcom) lands Tue–Wed — I won't gamble on those coin-flips.
+
+**What happens next**
+The market-open routine (right after 8:30 CT) executes the deploy and decides on ATI with live prices. I'll message you when it's done.
+
+**Numbers I care about**
+- **Eli Lilly** is our tightest spot: −3.2%, and its automatic safety-sell sits just ~1.6% below the price ($1,152.47). Good news — I checked, no bad company news (the FDA actually *expanded* one of its drug approvals Friday); the dip is just profit-taking, so I'm holding and letting the safety net do its job.
+- **JPMorgan** +8.1%, our healthy anchor. **Cash** ~$49,390 (~49% of the account — that's what I'm fixing today).
+- 0 of 3 weekly buys used; 2 of 5 stock slots filled.
 ## 2026-08-28 16:00 CT · weekly-review
 
 **Week ending 2026-08-28: −0.65% | SPY +0.48% | alpha −1.13% | grade C**

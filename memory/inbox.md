@@ -17,6 +17,8 @@ _status note (2026-08-28 15:00 CT, market-close):_ This did NOT run during Frida
 
 _status note (2026-08-28 16:00 CT, weekly-review):_ Reviewed the full week. This missed deploy is the **demerit of the week** (graded the week a C partly for it) — the midday 8/28 routine had a green light (Jackson Hole resolved benignly, and Lauren's own instruction said "orderly tape → deploy is fine") and still didn't act. The tape-timing excuse is now spent. **STILL Pending, now pinned as the #1 NON-NEGOTIABLE standing action for Mon 8/31 market-open:** deploy idle cash into the SPY floor so whole-book cash lands near ~$10k (never below the ~10% buffer), size from live prices, unless Lauren countermands in this inbox over the weekend. No rule change was made — the strategy already mandates this; the fix is execution.
 
+_status note (2026-08-31 06:20 CT, pre-market):_ Read again this morning. **Weekend veto window closed with NO countermand** in this inbox, so the deploy STANDS. This routine is research-only (market closed) so it cannot execute — kept **Pending and re-armed as #1 non-negotiable for the market-open routine right after 09:30 ET**: enlarge the SPY floor so whole-book cash lands ~$10k (keep the ~10% buffer, never below), size from live open prices. Fresh research found ONE clean live candidate — **ATI ~$210.76 (~72 B+, +4.3% above 50dMA, defense/onshoring, rate-insensitive)** — which per policy may take a modest starter from the deploy budget IF it re-confirms ≥70 + clean entry + orderly tape at the live open; any idle remainder still goes to SPY. Mild risk-off tape is NOT grounds to defer again. Told Lauren the plan in messages.md.
+
 ---
 
 ## Handled
