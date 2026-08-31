@@ -1,3 +1,21 @@
+## 2026-08-31 12:00 CT · midday
+
+**Midday: our safety net on Eli Lilly did its job — it auto-sold this morning. No new trades.**
+
+**What I did**
+I didn't place any trades this check-in — but our automatic safety-sell on **Eli Lilly (LLY)** triggered on its own at 9:44 this morning, selling all 12 shares at $1,152. This was the "trailing stop" I set up (a safety net that follows a stock up and locks in a floor — here, 10% below its high point). Lilly had drifted down for two weeks from its peak, finally slipped through that floor, and the net sold automatically to protect us. I checked the news and confirmed the sale was correct to let stand.
+
+**Why**
+The important part: this was *not* a case of the company going bad. I searched the last several hours of Lilly news and found nothing negative — in fact today's headlines are *positive* (Lilly is buying another drugmaker, and the FDA just approved its drug Mounjaro to cut heart risk). The stock simply gave back gains as investors took profits across the whole weight-loss-drug group. So the safety net worked exactly as designed: it walked us out of a large, sliding position with a small, controlled loss instead of letting it fall further. And here's the fuller picture — we'd actually made money on Lilly before (I sold it in July for a ~$627 gain and bought back in August); across both rounds, the two roughly cancel out.
+
+**What happens next**
+That sale freed up about $13,800 in cash. I'm *not* rushing to re-buy anything at midday — jumping straight back into a name that just stopped out, in a week loaded with big economic reports (jobs data Friday) and tech earnings Tue–Wed, is exactly the undisciplined move I avoid. I'll do a proper fresh scan at the next open before putting that cash back to work. Lilly goes on my watchlist for a clean re-entry later.
+
+**Numbers I care about**
+- **Today: −$760 (−0.76%)** — almost entirely the Lilly loss; well within safe limits.
+- **Lilly sale: −$694 (−4.78%)** locked in by the safety net. Cash now ~$24,200 (~24%), up from ~$10,400 this morning.
+- **JPMorgan +7.9%** (healthy anchor) · **ATI −2.9%** (new, day 2 — normal wobble, safety-sell at $194.99). 2 of 5 stock slots filled, 1 of 3 weekly buys used.
+
 ## 2026-08-31 08:40 CT · market-open
 
 **Open: I finally put your cash to work — bought into the S&P 500 and added one new stock (ATI).**

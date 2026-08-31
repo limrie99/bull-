@@ -7344,3 +7344,35 @@ Pre-market handed market-open an explicit **"expect NO BUY"** with two independe
 - Run the **mandatory plain-English "How we're doing" scorecard + Telegram** (never skipped, even on this no-trade day). Compute authoritative SPY close and WTD alpha.
 - Confirm LLY stayed above 1152.468 (or note if the trailing stop fired). Re-verify 2 open orders resting.
 - BJ post-Fed: watch for a confirmed base / 50dMA reclaim (~$92) with a positive tape → possible first conviction buy; continued slide → stay out.
+
+
+## 2026-08-31 12:00 CT · MIDDAY (Mon) · LLY 10% TRAILING STOP FIRED (auto, 09:44 ET) · no manual trades · Market CONFIRMED OPEN · Alpaca live marks
+
+**Clock:** is_open TRUE, 13:01 ET, next_close 16:00 ET, next_open Tue 9/1 09:30 ET. **Account (live):** equity **$99,503.04**, cash **$24,238.51 (~24.36%)**, long_market_value **$75,264.53**, buying_power $307,694.72, last_equity (Fri 8/28 close) $100,263.51 → intraday **−$760.47 / −0.76%** (well inside −3% cap). **Inbox: nothing pending.** daytrade_count 0 (LLY held 19d — not a day trade).
+
+### KEY EVENT — LLY trailing stop fired
+- LLY 10% trailing stop `d7eb221b` FILLED 2026-08-31T13:44:39Z (09:44 ET): 12 sh @ avg **1152.00** (partial_fill 5 @ 1152 + fill 7 @ 1152). Confirmed via closed-orders (filled, filled_qty 12), FILL activities, LLY absent from /v2/positions, cash +~$13,824 (~10,414.51 → 24,238.51), open orders down to 2 (LLY stop gone).
+- **Realized P/L: (1152.00 − 1209.84) × 12 = −$694.08 (−4.78%)** from 8/12 entry 1209.84. Give-back from hwm 1280.52 (peak +5.8% over entry) after ~2 weeks of GLP-1-sector profit-taking. Floor was 1152.468; tagged and executed at 1152.00.
+- **Thesis-break check (Perplexity sonar-pro, ~12:00 CT):** NO breaking negative catalyst on LLY in last 6h. Today's LLY news is POSITIVE — "Lilly to acquire Merida Biosciences" (PRNewswire ~6:45-7:00 ET) + FDA approval of Mounjaro for CV-risk reduction in T2D + supportive 52-wk obesity data. Intraday weakness = broad sector/market profit-taking, NOT a company break. **Conclusion: the exit was pure trailing-stop mechanics protecting against further downside; no thesis break.** Correct to let stand (mechanical, GTC).
+- Round-trip note: RE-ENTRY of the 7/31 winner (trailing-stopped 7/31 @ 1123.27 for +$627.34, re-bought 8/12 @ 1209.84 on the verified beat-and-raise). Net across both LLY legs ≈ **−$66.74** (≈ wash). LLY → watchlist for a clean, non-extended re-entry on a fresh verified catalyst.
+
+### Positions (live 13:01 ET, /v2/positions)
+- **JPM** 34 @ 329.695588, cur 355.81, +$887.89 / **+7.92%**. Trailing floor 329.85, hwm 366.5, cushion ~7.3%. Size ~12.16%. Thesis INTACT.
+- **ATI** 47 @ 209.669787, cur 203.49, −$290.45 / **−2.95%**. −7% hard stop 194.99 (cushion ~4.2%). Size ~9.61%. Day-2 wobble on soft tape; thesis intact.
+- **SPY** 70 @ 769.348571, cur 765.79, −$249.10 / **−0.46%**. Index floor, NO stop by policy. Size ~53.87%.
+
+### Risk checks
+- (a) Any un-stopped position −7% or worse? NO (JPM +7.92, ATI −2.95 on −7% hard, SPY −0.46 index). No sell trigger. (LLY already auto-closed.)
+- (b) Any +5%+ needing hard→trailing conversion? NO — JPM already trailing; ATI −2.95% (far from +5%); SPY no stop by policy. Zero pending.
+- (c) Daily loss cap: intraday −0.76% → inside −3%, buys permitted. Open orders VERIFIED: exactly 2 (JPM trailing 8a937ff6 + ATI hard fabe11de); LLY stop correctly gone; SPY unencumbered.
+
+### Buy decision — NO midday buy
+Midday buy-gate requires a high-conviction BREAKING catalyst AND weekly buys <3 AND positions <5. Weekly buys 1/3 and 3 conviction slots open — capacity exists, but NO breaking catalyst on the board. Freed LLY cash (~$13.8k, cash now ~24.4%) is a redeploy question owned by pre-market/market-open with a full scan + clean-entry gate — NOT a midday chase, and explicitly NOT a same-session LLY re-buy (undisciplined; would also be a wash-sale-style round-trip with no fresh catalyst). Jobs-heavy week (Tue ISM/JOLTS, Wed ADP + AVGO/CRM, Fri NFP) + Tue/Wed tech prints = do NOT initiate into events. BJ still below 50dMA (knife-catch, no). **Decision: NO BUY, NO manual SELL.** Sleeve 2/5, weekly buys 1/3.
+
+### Actions taken
+No manual trades, no stop changes (LLY stop fired autonomously and correctly). Memory written: portfolio.md (overwritten, live snapshot), trade-log.md (LLY stop-out appended), this research-log entry (appended), messages.md (prepended, teacher-voice), dashboard/state.json (overwritten). Inbox: nothing pending. **Telegram push SENT** (position auto-closed / stop triggered = on the mandatory-push list). 
+
+### Handoff to market-close (8/31)
+- Run the **mandatory plain-English "How we're doing" scorecard + Telegram** (never skipped). Compute authoritative SPY close + WTD alpha (fresh week from Fri 8/28 close).
+- Confirm 2 open orders still resting (JPM trailing + ATI hard). Note the ~$14k-above-target cash from the LLY exit — flag redeploy for Tue pre-market/open (NOT a forced buy; jobs week + Tue/Wed prints argue for patience and a clean entry).
+- LLY on watchlist for a clean re-entry; ATI watch for base/turn-green (→ trailing at +5%); JPM anchor healthy.
