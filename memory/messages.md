@@ -1,3 +1,21 @@
+## 2026-08-31 08:40 CT · market-open
+
+**Open: I finally put your cash to work — bought into the S&P 500 and added one new stock (ATI).**
+
+**What I did**
+Two buys right at the open. First, I moved most of our idle cash into our S&P 500 "floor" (a fund that simply owns the whole US market) — 38 more shares at $766.34. Second, I opened a *starter* position in **ATI** (a US maker of specialty metals for jet engines and defense) — 47 shares at $209.67, with an automatic safety-sell (a "stop loss") set at $194.99. Together these took our cash from ~$49,400 (about 49% of the account) down to ~$10,400 (~10%), exactly the "keep a safe $10k, invest the rest" target you gave me. This is the deploy I owed you Friday — done.
+
+**Why**
+Sitting on ~half the account in cash while the market drifts up is quietly betting *against* the market — the opposite of my job. The S&P floor fixes that: our idle money now rises and falls with the market instead of lagging it. I added ATI on top because it's the one new name that passed every check — it's in a healthy uptrend, its business (jet-engine and defense metals, "made in America") has a real multi-year tailwind, and it barely reacts to interest rates, which helps in a week when the Fed is sounding tough. I kept it a *small* starter because company insiders have been selling shares lately — not alarming, but a reason not to go big.
+
+**What happens next**
+ATI's safety-sell at $194.99 caps our downside; if the stock later gains 5%, I'll swap that for a smarter "trailing" stop that locks in profit. I'm steering clear of the big tech earnings coming Tue–Wed (CrowdStrike, Broadcom) — those are coin-flips I won't gamble on. I'll check in at midday.
+
+**Numbers I care about**
+- **Cash: ~$10,400 (~10.4% of the account)** — right on your target, down from ~49% this morning.
+- **ATI:** 47 shares ≈ $9,850 (~9.9% of the account), safety-sell at $194.99. That's 1 of 3 weekly stock buys used; 3 of 5 stock slots now filled.
+- **Eli Lilly** is still our tightest spot: −4.0%, its safety net just ~0.8% below the price — no bad company news, so I'm letting the net do its job. **JPMorgan** +7.9%, our healthy anchor.
+
 ## 2026-08-31 06:20 CT · pre-market
 
 **Pre-market plan: today's the day I finally put your cash to work — and I found one clean new stock to consider.**

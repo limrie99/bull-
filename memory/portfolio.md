@@ -1,44 +1,44 @@
 # Portfolio
 
-**Last updated:** 2026-08-31 06:20 CT (pre-market research routine; live Alpaca pre-open marks) — **MARKET CLOSED** (/v2/clock is_open:false, next_open Mon 2026-08-31 09:30 ET). Live account: equity **$100,139.55**, cash **$49,389.91 (~49.32%)**, long_market_value **$50,749.64**, buying_power $339,658.63, last_equity (Fri close) $100,263.51, status ACTIVE. **NO TRADES this routine** (research only, market closed). Both conviction trailing stops VERIFIED resting (2 open orders, JPM + LLY); SPY unencumbered by design. Conviction sleeve **2 of 5 (three slots OPEN); weekly conviction buys 0/3** (fresh week).
+**Last updated:** 2026-08-31 08:40 CT (market-open routine; live Alpaca marks) — **MARKET OPEN** (/v2/clock is_open:true, next_close 16:00 ET). Live account: equity **$99,924.71**, cash **$10,414.51 (~10.42%)**, long_market_value **$89,510.20**, last_equity (Fri close) $100,263.51, status ACTIVE. **CASH DEPLOY EXECUTED (#1 non-negotiable — DONE).** Whole-book cash moved ~49.32% → **~10.42%**, on the ~$10k target and above the 10% floor. **2 BUYS this routine:** SPY floor +38 sh (index sleeve, no stop) and ATI 47 sh (conviction B+ starter, −7% hard stop). Conviction sleeve now **3 of 5 (two slots OPEN); weekly conviction buys 1/3** (SPY floor exempt). All three stops VERIFIED resting (JPM, LLY, ATI); SPY unencumbered by design.
 
-> **⚠️ #1 STANDING ACTION FOR THE MON 8/31 MARKET-OPEN (non-negotiable) — DEPLOY IDLE CASH.** Lauren's 8/27 instruction (keep ~$10k, invest the rest; default = enlarge the SPY floor) was due Fri 8/28 and was **missed twice** (open + midday held ~49% cash). Re-armed and pinned #1 for this morning's market-open routine: enlarge the SPY market-floor sleeve so whole-book cash lands near **~$10,000** (keep the ~10% buffer, never below it), size from live open prices, log as "MARKET-FLOOR / index sleeve, no stop." Weekend veto window closed with **no countermand** in inbox → the deploy stands. ~$39.4k to deploy. A conviction name that clears the gate on a clean entry (see **ATI** below, ~72 B+) may take part of the deploy budget; idle remainder → SPY. Mild risk-off tape is NOT a reason to defer again — the floor is buy-and-hold-the-market with no stop.
+## Intraday marks (2026-08-31 08:40 CT, live)
+- **Equity** $99,924.71 vs Fri close $100,263.51 = **−$338.80 (−0.34%)** intraday — mild risk-off, well under the 3% daily-loss cap. Buys allowed.
+- **SPY** ~766.24 (−0.40% today). Mild risk-off tape but orderly — not a reason to defer the deploy (floor is buy-and-hold, no stop).
 
-## Pre-market marks (2026-08-31 06:20 CT, indicative — thin pre-open)
-- **Equity** $100,139.55 vs Fri close $100,251.79 ≈ −$112 on indicative pre-open marks (LLY 1171.14 vs 1174, JPM 356.30 vs 357.50, SPY 768.18 vs 769.33). Official day move set at market-close.
-- **SPY** Fri close 769.35 (Alpaca daily bar). Week just reset (new week vs prior-Fri 8/28 close $100,251.79 baseline).
-
-## Open positions (2 conviction stocks + 1 index-floor sleeve) — pre-market marks 2026-08-31
+## Open positions (3 conviction stocks + 1 index-floor sleeve) — live marks 2026-08-31
 | Symbol | Shares | Avg Cost | Price | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 356.30 | +904.55 | +8.07% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT→mildly strengthening (no news since 8/28; incremental positives). Cushion ~7.4%. Next earnings ~Oct. |
-| LLY | 12 | 1209.84 | 1171.14 | −464.40 | −3.20% | **10% TRAILING (GTC)**, floor **1152.468**, hwm 1280.52 | 2026-08-12 | Eli Lilly — Q2 beat-and-raise + GLP-1/obesity lead. Thesis INTACT/leaning-strengthening (**NEW POSITIVE: FDA approved Mounjaro for CV-risk reduction 8/28**; slide = sector + profit-taking, no idiosyncratic negative). Cushion **~1.59% (TIGHTEST) — a drift to ~$1,152 auto-exits.** Next earnings ~late Oct. |
-| SPY | 32 | 772.921250 | 768.18 | −151.72 | −0.61% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 2026-08-11 (t2) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week caps; NO −7%/trailing stop. Buy-and-hold-the-market. |
+| JPM | 34 | 329.695588 | 355.61 | +881.09 | +7.86% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT. Cushion ~7.2%. Next earnings ~Oct. |
+| LLY | 12 | 1209.84 | 1161.80 | −576.54 | −3.97% | **10% TRAILING (GTC)**, floor **1152.468**, hwm 1280.52 | 2026-08-12 | Eli Lilly — Q2 beat-and-raise + GLP-1/obesity lead. Thesis INTACT (FDA CV-label positive 8/28; slide = sector + profit-taking, no idiosyncratic negative). Cushion **~0.80% (TIGHTEST) — a drift to ~$1,152 auto-exits at a locked ~−4.7%.** Next earnings ~late Oct. |
+| ATI | 47 | 209.669787 | 209.58 | −4.22 | −0.04% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aerospace/defense + onshoring secular (#3) + clean uptrend +~4% above 50dMA (#6). Q2 8/6 beat-and-raise (aging, supporting). Rate-insensitive. NEW B+ starter (~72). Watch: persistent insider selling (yellow flag → sized small). |
+| SPY | 70 | 769.348571 | 766.24 | −217.63 | −0.40% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / **08-31 (t3, +38 sh)** | S&P 500 market floor (Lauren-approved Option B; enlarged 8/31 per the "keep ~$10k, invest the rest" instruction). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week caps; NO −7%/trailing stop. Buy-and-hold-the-market. |
 
-**Conviction sleeve: 2 of 5 (three slots OPEN).** **Conviction buys used this week: 0 of 3** (SPY floor does NOT consume this budget). **Cash buffer: ~49.32%** (target per Lauren: ~$10k / ~10% once the floor deploy runs THIS morning). Sizes on equity $100,139.55: JPM ~12.10%, LLY ~14.03%, SPY ~24.55% (index sleeve — exempt from the 20% cap by policy).
+**Conviction sleeve: 3 of 5 (two slots OPEN).** **Conviction buys used this week: 1 of 3** (ATI; SPY floor does NOT consume this budget). **Cash buffer: ~10.42%** (on Lauren's ~$10k target; deploy complete). Sizes on equity $99,924.71: JPM ~12.10%, LLY ~13.95%, ATI ~9.86%, SPY ~53.68% (index sleeve — exempt from the 20% cap by policy).
 
-## Stop-management state (open-orders nested=true — VERIFIED live pre-market 2026-08-31)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). qty 34. No ratchet (356.30 < hwm). Cushion ~7.4%.
-- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm **1280.52**, floor **1152.468**, status new (resting). qty 12. No ratchet (1171.14 < hwm). Cushion **~1.59% (tightest)**.
-- **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 32 unencumbered. Confirmed only 2 open orders total (JPM + LLY stops).
+## Stop-management state (open-orders nested=true — VERIFIED live 2026-08-31 08:40 CT)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). qty 34. No ratchet (355.61 < hwm). Cushion ~7.2%.
+- **LLY 10% trailing** `d7eb221b-4d37-4dc6-bec2-b1de0dddd825` — hwm **1280.52**, floor **1152.468**, status new (resting). qty 12. No ratchet (1161.80 < hwm). Cushion **~0.80% (tightest)**.
+- **ATI −7% hard** `fabe11de-0bce-42db-b6d4-167e33fd639b` — stop **194.99**, status new (resting). qty 47. Converts to 10% trailing once +5% in profit.
+- **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 70 unencumbered. Confirmed 3 open orders total (JPM + LLY + ATI stops).
 
-## Risk checks (pre-market marks)
-- **(a) Any position −7% or worse un-stopped?** NO. JPM +8.07%, LLY −3.20% (on trailing stop), SPY −0.61%. **→ No sell trigger.**
-- **(b) Any position +5%+ needing hard→trailing conversion?** NO — both conviction names already on 10% trailing; SPY carries no stop by policy. Zero hard stops in book.
-- **(c) Daily loss cap:** n/a pre-open. **LLY's ~1.59% trailing cushion is the one mechanical watch** — a drift to ~$1,152 auto-exits at a locked ~−4.7% (protection working; thesis intact, no manual action).
+## Risk checks (live marks)
+- **(a) Any position −7% or worse un-stopped?** NO. JPM +7.86%, LLY −3.97% (on trailing), ATI −0.04% (on −7% hard), SPY −0.40%. **→ No sell trigger.**
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM/LLY already on trailing; ATI at −0.04% (far from +5%); SPY carries no stop by policy.
+- **(c) Daily loss cap:** intraday −0.34%, well under 3%. Buys were allowed and executed. **LLY's ~0.80% trailing cushion is the one mechanical watch** — a drift to ~$1,152 auto-exits at a locked ~−4.7% (protection working; thesis intact, no manual action).
 
-## Watch / next (next routine: **market-open Mon 2026-08-31**)
-- **MON 8/31 OPEN — EXECUTE THE CASH DEPLOY (#1 NON-NEGOTIABLE).** Enlarge SPY floor so whole-book cash lands ~$10k (keep ~10% buffer). Size from live open prices. Missed twice Friday; the tape-timing excuse is spent. Unless Lauren countermands in inbox first.
-- **ATI (ATI Inc.) ~$210.76 — the single LIVE borderline candidate (~72 B+).** 50dMA $202.01, +4.33% above = clean. Signals #3 (aerospace/defense + onshoring secular) + #6 (clean uptrend); #1 beat-and-raise real but aging (Q2 8/6). Rate-insensitive = a plus in a hawkish week. Large-cap ~$28–30B (confirm ≥$10B at exec). Market-open may take a modest ~10–13% B+ starter from the deploy budget IF ≥70 + clean entry + orderly tape re-confirm; idle remainder → SPY. Do NOT force.
-- **Macro:** mild risk-off into a jobs-heavy week (Tue ISM/JOLTS, Wed ADP, Thu ISM Svcs, **Fri NFP** — the gate to the Sep 16 FOMC). Warsh read hawkish. Earnings back-loaded: **do NOT initiate into Tue 9/1 (CRWD/PANW/DELL/MDB/MDT/BBY) or Wed 9/2 (AVGO/CRM) prints.**
-- **LLY:** cushion **~1.59% (tightest of the run)** — mechanical protection working, no manual action; thesis intact (FDA CV-label positive 8/28). Watch any Novo/reimbursement/FDA headline.
-- **JPM:** anchor, +8.07%, ~7.4% cushion; thesis intact.
-- **BJ — #1 watchlist, still DON'T buy (−1.5% below 50dMA ~$92).** Re-arm only on a decisive 50dMA reclaim + hold + positive reaction (likely post-Fed). **CRWD DISQUALIFIED** (−25% below 50dMA — broken chart, not a reclaim). **ADI** −5.8% below trend; **DE** gap-chase.
+## Watch / next (next routine: **midday Mon 2026-08-31**)
+- **Cash deploy DONE** — no further deploy needed today; cash at ~$10.4k / ~10.4% target. A further add is NOT warranted (already at the floor).
+- **LLY:** cushion **~0.80% (tightest of the run)** — mechanical protection working, no manual action; thesis intact (FDA CV-label positive 8/28). Any drift to ~$1,152 auto-exits with the gain-give-back locked; watch any Novo/reimbursement/FDA headline.
+- **ATI:** brand-new starter at ~$209.67; −7% hard stop at $194.99. Thesis intact; watch for it to build a base / turn green (converts to 10% trailing at +5%). Insider-selling flag noted — not a veto, but a reason we sized small.
+- **JPM:** anchor, +7.86%, ~7.2% cushion; thesis intact.
+- **Macro:** mild risk-off into a jobs-heavy, back-loaded week (Tue ISM/JOLTS, Wed ADP, Thu ISM Svcs, **Fri NFP** — the gate to the Sep 16 FOMC). **Do NOT initiate into Tue 9/1 (CRWD/PANW/DELL/MDB/MDT/BBY) or Wed 9/2 (AVGO/CRM) prints.**
+- **BJ — #1 watchlist, still DON'T buy (below 50dMA ~$92).** Re-arm only on a decisive 50dMA reclaim + hold + positive reaction (likely post-Fed). **CRWD DISQUALIFIED** (deep below 50dMA). ADI/DE below-trend or gap-chase.
 
 ## Recent closes (last 5)
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |
 |---|---|---|---|---|---|---|---|
-| DE | 2026-08-19 | 22 | 589.82 | 579.4659 | −227.79 | −1.76% | 10% trailing stop fired at close; exited one minute before the Thu 8/20 Q3 print — no thesis break. Post-print +9%, but entry now a gap-chase; NOT re-bought. |
+| DE | 2026-08-19 | 22 | 589.82 | 579.4659 | −227.79 | −1.76% | 10% trailing stop fired at close; exited one minute before the Thu 8/20 Q3 print — no thesis break. |
 | LLY | 2026-07-31 | 14 | 1078.46 | 1123.27 | +627.34 | +4.15% | 10% trailing stop fired (give-back; no thesis break). **RE-ENTERED 8/12** on the verified beat-and-raise. |
 | GE | 2026-07-16 | 45 | 329.63 | 344.54 | +670.95 | +4.52% | 10% trailing stop fired (post-Q2 give-back; no verified thesis break) |
 | ETN | 2026-07-02 | 24 | 401.5425 | 392.75 | −211.02 | −2.19% | 10% trailing stop fired (beta/thin pre-holiday tape, not thesis break) |
