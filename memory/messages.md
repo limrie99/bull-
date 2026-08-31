@@ -1,3 +1,21 @@
+## 2026-08-31 15:00 CT · market-close
+
+**Close: equity $99,659 · day −0.60% · SPY −0.32% · alpha −0.28% (small down day, a touch behind the market)**
+
+**How we're doing (plain English):** We finished down about $604 today (−0.60%), and the overall US market (the S&P 500, ticker SPY) was down −0.32%. So we're slightly *behind* the market today — by about 0.28 of a percentage point (that gap, good or bad, is our "alpha" — how much we beat or trailed just buying the index). It's a small, quiet loss, not a scare.
+
+**What drove it:**
+- Almost the whole day's dip was the Eli Lilly (LLY) auto-sale from *this morning* — our safety-net stop sold it at a small loss before I woke up for the close. Nothing new happened this afternoon.
+- Our newest stock, ATI (specialty metals for jets & defense), had a rough second day (−3.1%), which was the biggest single drag. It's still fine — down −2.6% from where we bought, with its safety-sell sitting ~4.5% below. I'm watching it settle.
+- JPMorgan (JPM), our anchor, held up well: +8.0% and healthy.
+- Our S&P 500 "floor" (a fund that owns the whole market) is now doing its job — last week's complaint that too much cash sat idle is fixed.
+
+**What I'm watching tomorrow (Tue):** We're holding ~$24,200 cash (~24%), about $14k more than your ~$10k target after the Lilly sale. I could redeploy some, but tomorrow brings big economic reports and Wednesday/Thursday tech earnings — so I'll only add on a *clean* setup, not force a buy into coin-flip events. Patience is the disciplined move here.
+
+**Numbers I care about:**
+- Equity $99,659 — essentially flat since day one (we started at $100,000, so −0.34% overall).
+- Cash $24,238 (~24% of the account); 2 of 5 stock slots filled, 1 of 3 weekly buys used.
+- Both safety-nets confirmed in place: JPM auto-sell trails at $329.85, ATI at $194.99.
 ## 2026-08-31 12:00 CT · midday
 
 **Midday: our safety net on Eli Lilly did its job — it auto-sold this morning. No new trades.**

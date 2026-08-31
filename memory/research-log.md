@@ -7376,3 +7376,44 @@ No manual trades, no stop changes (LLY stop fired autonomously and correctly). M
 - Run the **mandatory plain-English "How we're doing" scorecard + Telegram** (never skipped). Compute authoritative SPY close + WTD alpha (fresh week from Fri 8/28 close).
 - Confirm 2 open orders still resting (JPM trailing + ATI hard). Note the ~$14k-above-target cash from the LLY exit — flag redeploy for Tue pre-market/open (NOT a forced buy; jobs week + Tue/Wed prints argue for patience and a clean entry).
 - LLY on watchlist for a clean re-entry; ATI watch for base/turn-green (→ trailing at +5%); JPM anchor healthy.
+
+
+### Day summary — 2026-08-31 MARKET-CLOSE (Mon)
+
+**Clock:** market CLOSED (is_open false, 16:01 ET; next_open Tue 9/1 09:30 ET). Authoritative EOD pull.
+
+**Closing account (live /v2/account):** equity **$99,659.29** · cash **$24,238.51 (24.32%)** · long_market_value **$75,420.78** · last_equity (Fri 8/28 close) **$100,263.51** · portfolio_value 99,659.29 · daytrade_count 0 · status ACTIVE.
+
+**Day P/L:** 99,659.29 − 100,263.51 = **−$604.22 = −0.60%**.
+**SPY day:** Fri close 769.35 → today's closing trade **766.87** (data.alpaca latest trade, 15:59:59 ET; position mark 767.41 ≈ same) = **−0.32%**.
+**Alpha today = −0.60% − (−0.32%) = −0.28%** (trailed SPY by ~0.28pp).
+**Week-to-date (Mon = first trading day of the new week, base Fri 8/28 close 100,263.51):** WTD P/L **−0.60%**, SPY WTD **−0.32%**, **alpha WTD −0.28%**. (WTD = day, one session in.)
+**Since inception (start $100,000, 4/21):** equity 99,659.29 = **−0.34%**.
+
+**Closing positions (live marks):**
+- **JPM** 34 @ 329.695588 → 356.02 · +$895.03 (**+7.98%**) · 10% trailing floor 329.85, hwm 366.5 (resting, no ratchet: 356.02<hwm) · cushion ~7.4% · size ~12.15%. Intraday −0.45%.
+- **ATI** 47 @ 209.669787 → 204.20 · −$257.08 (**−2.61%**) · −7% hard stop 194.99 (cushion ~4.5%) · size ~9.63%. **Day-2 −3.11%** (the day's biggest single-name drag) on soft specialty-metals tape; thesis intact, insider-selling flag still noted.
+- **SPY** 70 @ 769.348571 → 767.41 · −$135.70 (**−0.25%**) · NO stop (index-floor carve-out) · size ~53.90%.
+
+**Open orders (nested, verified live):** exactly **2** — JPM trailing `8a937ff6…` (floor 329.85, hwm 366.5) + ATI hard `fabe11de…` (194.99). LLY stop gone (fired 09:44 ET). SPY unencumbered by design. ✅
+
+**Trades placed today (all this morning; already in trade-log):**
+1. LLY 10% trailing stop **FIRED** 09:44 ET — 12 sh @ 1152.00, realized **−$694.08 (−4.78%)**. No thesis break (positive LLY news today).
+2. SPY BUY 38 sh @ 766.34 (floor enlargement, no stop) — market-open cash deploy.
+3. ATI BUY 47 sh @ 209.669787, −7% hard stop 194.99 — new B+ starter.
+No trades or stop changes at the close.
+
+**What worked:**
+- JPM anchor held (+7.98%, ~7.4% cushion) — thesis intact, best performer.
+- The SPY floor did its job: with cash now deployed, the index sleeve is tracking the market instead of dragging idle (last week's #1 complaint is fixed).
+- Discipline held: no midday/close chase back into LLY after the stop-out, into a jobs-heavy week.
+
+**What didn't:**
+- ATI day-2 was rough (−3.11%), the largest single drag on today's move — a soft entry into a weak-tape start; cushion to its hard stop now ~4.5%. Watch it base.
+- LLY trailing stop locked a −4.78% give-back (though ~a wash across both LLY legs, net ≈ −$67).
+- We trailed SPY by ~0.28pp today and WTD — a small-loss day where our idiosyncratic names (ATI, the LLY exit) underperformed the index.
+
+**Open questions for tomorrow (Tue 9/1):**
+- Cash is ~$24.2k (~24.3%), ~$14k above Lauren's ~$10k target after the LLY exit. Redeploy is a pre-market/market-open decision with a full scan + clean-entry gate — NOT a forced buy. Tue brings ISM Mfg + JOLTS (10:00 ET) and after-close prints (CRWD/PANW/DELL/MDB); Wed AVGO/CRM; Fri NFP. Event discipline argues for patience / a clean entry, not initiating into prints.
+- ATI: does it base and hold above ~$202 (50dMA) or keep sliding toward the 194.99 stop? Converts to 10% trailing at +5%.
+- BJ (#1 watchlist) still below 50dMA (~$92) — re-arm only on a decisive reclaim + hold, likely post-Fed. LLY on watchlist for a clean, non-extended re-entry on a fresh verified catalyst — no same-week revenge buy.
