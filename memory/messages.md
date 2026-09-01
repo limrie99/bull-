@@ -1,3 +1,20 @@
+## 2026-09-01 12:05 CT · midday
+
+**Midday: steady, no changes. We're actually a hair *ahead* of the market today, even though it's a down day.**
+
+**What I did**
+Nothing to trade — and that's the right call at midday. I pulled fresh live numbers, double-checked both our safety-nets are resting where they should be, and ran a quick news check on ATI because it's slipped for a third day in a row. No changes to any position.
+
+**Why**
+The whole market is down a bit today, so a small dip for us is normal. The one thing I wanted to be sure about was ATI (a specialty-metals company that makes titanium for jet engines and defense) — it's now down about 4.4% since we bought it Monday, and I don't like a stock that keeps sliding. So I checked the news: no bad headlines, no analyst downgrade (when a Wall Street firm lowers its rating), no worrying company filing — and the aerospace-parts sector is actually holding firm. In other words, this is just a soft-tape wobble, not the *story* breaking. When the story is intact, the disciplined move is to hold and let its safety-net do its job, not panic-sell a brand-new position at a small loss (that "get scared out too early" mistake has cost us before). ATI's auto-sell sits at $194.99, about 2.7% below here — that's the line I'm watching.
+
+**What happens next**
+I'll do nothing unless a safety-net triggers on its own. At the close I'll send your full plain-English scorecard. I'm still steering clear of buying into tonight's tech earnings (CrowdStrike, Palo Alto, Dell), Broadcom Wednesday, and Friday's jobs report.
+
+**Numbers I care about**
+- We're −0.53% today vs the S&P 500's −0.64% — so we're beating the market by a hair (+0.11) on a soft day, mostly thanks to our index floor tracking along
+- JPMorgan +8.0% (our anchor, safety-net $329.85) · ATI −4.4% (safety-net $194.99, ~2.7% away — the one I'm watching)
+- Cash $10,524 (~10.6%) — on your ~$10k target; 2 of 5 stock slots used, 1 of 3 weekly buys
 ## 2026-09-01 08:40 CT · market-open
 
 **Open: put your idle cash back to work — topped up our S&P 500 floor. Cash now ~$10.5k (~10.6%), right on target.**

@@ -7452,3 +7452,35 @@ No trades or stop changes at the close.
 - Cash is ~$24.2k (~24.3%), ~$14k above Lauren's ~$10k target after the LLY exit. Redeploy is a pre-market/market-open decision with a full scan + clean-entry gate — NOT a forced buy. Tue brings ISM Mfg + JOLTS (10:00 ET) and after-close prints (CRWD/PANW/DELL/MDB); Wed AVGO/CRM; Fri NFP. Event discipline argues for patience / a clean entry, not initiating into prints.
 - ATI: does it base and hold above ~$202 (50dMA) or keep sliding toward the 194.99 stop? Converts to 10% trailing at +5%.
 - BJ (#1 watchlist) still below 50dMA (~$92) — re-arm only on a decisive reclaim + hold, likely post-Fed. LLY on watchlist for a clean, non-extended re-entry on a fresh verified catalyst — no same-week revenge buy.
+
+
+## 2026-09-01 12:05 CT — MIDDAY (Tue · jobs-heavy week; weekly conviction buys 1/3) · NO TRADES · steady, no changes
+
+**Clock:** market OPEN (is_open true, ts 13:02 ET, next_close 16:00 ET). Live pull.
+
+**Account (live /v2/account):** equity **$99,110.19** · cash **$10,523.64 (10.62%)** · long_market_value **$88,586.55** · last_equity (Mon 8/31 close) **$99,633.78** · status ACTIVE.
+**Day P/L:** 99,110.19 − 99,633.78 = **−$523.59 = −0.53%** — well under the 3% daily loss cap. No block.
+**SPY day:** Mon close (authoritative latest trade) 766.87 → midday latest trade **761.95** = **−0.64%**. **Intraday alpha = −0.53% − (−0.64%) = +0.11pp — slightly AHEAD of the market on a down day.**
+
+**Positions (live marks):**
+- **JPM** 34 @ 329.695588 → 356.11 · +$898.09 (**+8.01%**) · 10% trailing floor 329.85, hwm 366.5 (resting, no ratchet: 356.11<hwm) · cushion ~7.4% · size ~12.22%. Thesis INTACT.
+- **ATI** 47 @ 209.669787 → 200.45 · −$433.33 (**−4.40%**) · −7% hard stop 194.99 · **cushion to stop ~2.72%** · size ~9.51%. **Day-3 slide** on soft specialty-metals tape.
+- **SPY** 88 @ 767.829091 → 761.94 · −$518.24 (**−0.77%**) · NO stop (index-floor carve-out) · size ~67.65%.
+
+**Open orders (nested, verified live):** exactly **2** — ATI hard `fabe11de…` (194.99) + JPM trailing `8a937ff6…` (floor 329.85, hwm 366.5). SPY unencumbered by design. ✅
+
+### Risk checks
+- **(a) Any un-stopped position −7% or worse?** NO. Worst is ATI −4.40% (on a resting −7% hard stop). Rule 3a triggers only at −7%+, so no mandatory sell. **Still ran a diligence Perplexity check on ATI** (3rd down day, thin ~2.7% cushion): NO thesis-breaking news — no downgrade, no new adverse filing (only the already-known 8/24 Form 144 = planned 10b5-1 sale). Sector tone stable-to-firm (aerospace/defense demand strong, titanium supply tightness supportive). Slide is beta/soft-tape "price dropped," not thesis break → **HOLD; let the −7% hard stop do its job.** Selling a fresh starter at −4.4% on no news = the "too-tight scalp-out" mistake the strategy explicitly warns against.
+- **(b) Any +5%+ needing hard→trailing conversion?** NO — JPM already on trailing; ATI −4.40% (far from +5%); SPY no stop by policy. Zero conversions pending.
+- **(c) Daily loss cap:** intraday −0.53% → inside −3%. Not hit.
+
+### Buy decision — NO midday buy
+Midday buy-gate requires a high-conviction BREAKING catalyst AND weekly buys <3 AND positions <5. Capacity exists (buys 1/3, sleeve 2/5, 3 slots open) but there is NO breaking catalyst on the board, and cash is already on Lauren's ~$10.5k target (no deploy need). Jobs-heavy week (tonight CRWD/PANW/DELL/MDB; Wed AVGO/CRM + ADP; Fri NFP) → do NOT initiate into events. **Decision: NO BUY, NO manual SELL, no stop changes.**
+
+### Actions taken
+No trades, no stop changes. Memory written: portfolio.md (overwritten live snapshot), this research-log entry (appended), messages.md (prepended teacher-voice), dashboard/state.json (overwritten). Inbox: nothing pending. **No Telegram push** (quiet midday check, no trade — off the mandatory-push list per CLAUDE.md).
+
+### Handoff to market-close (9/1)
+- Run the **mandatory plain-English "How we're doing" scorecard + Telegram** (never skipped). Compute authoritative SPY close + WTD alpha (base Fri 8/28 close 100,263.51).
+- Confirm 2 open orders still resting (ATI hard 194.99 + JPM trailing). Cash on target ~$10.5k — no deploy unless a stop frees cash.
+- **ATI is the watch item:** down 3 straight days, cushion to its −7% hard stop now ~2.7%. Thesis intact as of midday. If it keeps sliding into the −7% stop, that's the beta/soft-tape shake-out risk flagged at entry — let the stop work, no averaging down.
