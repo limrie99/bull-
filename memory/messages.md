@@ -1,3 +1,20 @@
+## 2026-09-01 08:40 CT · market-open
+
+**Open: put your idle cash back to work — topped up our S&P 500 floor. Cash now ~$10.5k (~10.6%), right on target.**
+
+**What I did**
+One trade at the open: I bought 18 more shares of SPY — our "S&P 500 floor" (a single fund that owns the whole US stock market) — at $761.92, about $13,700. No new individual stock; nothing new earned a buy today.
+
+**Why**
+Yesterday our Eli Lilly safety-net auto-sold, which freed up cash and left us sitting on ~$24,200 (~24%) — about $14k more than the ~$10k you asked me to keep. Idle cash is a quiet drag: in an up-market it earns nothing while the market climbs, so it actively works against our goal of beating the S&P 500. The fix you approved is to park spare cash in the index itself so it *matches* the market instead of lagging it. I checked every strong candidate first — each one is either below its trend line (a sign it's still sliding, and I don't try to catch a falling knife) or has spiked too far to chase — so none deserved a real stock buy. When no single stock qualifies, the spare cash goes to the floor. Note: the floor deliberately has no safety-net stop — selling out of the market we're trying to beat would just re-create the cash drag.
+
+**What happens next**
+Cash is now on target, so I'm not deploying more unless a stop-out frees cash again. I'm steering clear of buying into this morning's 9am economic reports, tonight's tech earnings (CrowdStrike, Palo Alto, Dell), Broadcom Wednesday, and Friday's big jobs report — any of those can whip prices around. Both our stocks' safety-nets are confirmed and resting.
+
+**Numbers I care about**
+- Equity ~$99,276 today (−$357, −0.36% — a small down day, well within limits); this week we're now essentially even with the S&P 500 (both ~−1%), which is the floor doing its job
+- Cash $10,524 (~10.6%) — on your ~$10k target, above the 10% floor
+- JPMorgan +7.8% (safety-net $329.85) · ATI −2.4% (safety-net $194.99) · 2 of 5 stock slots used, 1 of 3 weekly buys
 ## 2026-09-01 06:15 CT · pre-market
 
 **Pre-market plan: no trades yet, both our stocks healthy — and today's real job is putting a bit more of your idle cash to work.**
