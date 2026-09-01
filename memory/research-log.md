@@ -1,3 +1,38 @@
+## 2026-09-01 06:15 CT — PRE-MARKET (Tue · jobs-heavy week; weekly conviction buys 1/3) · NO TRADES (market CLOSED, research routine) · Alpaca-IEX primary through 8/31 close
+
+**Market state:** /v2/clock is_open:false, next_open Tue 2026-09-01 09:30 ET (US markets OPEN today). Account (live pre-market): equity **$99,335.28**, cash **$24,238.20 (~24.4%)**, long_market_value $75,097.08, last_equity (Mon 8/31 close) $99,633.78, status ACTIVE. Conviction sleeve **2/5 (3 open)**; weekly conviction buys **1/3** (ATI, opened 8/31). Stops VERIFIED live resting (open-orders nested=true = 2 orders total): JPM trailing `8a937ff6` hwm 366.5 floor 329.85; ATI −7% hard `fabe11de` stop 194.99. SPY unencumbered by design. Perplexity LIVE (tested HTTP 200). Full 4-agent scan ran (macro/earnings/position/scout); all candidate price/50dMA re-verified against Alpaca-IEX daily bars (needs feed=iex + start date — raw limit call returns null).
+
+### Market context
+**Risk-off / defensive tape into a jobs-heavy, hawkish-Fed week.** Futures lower: ES ~−0.5%, NQ ~−0.9% (AI/tech softest). Europe soft (Stoxx −0.6/−0.7%, UK closed bank holiday); Asia mixed (Hang Seng −0.9%). **Rates bear-flattening: 2Y sharply higher, 10Y at a ~20-month high (~4.75% area), 30Y up.** WTI +1% ~$86.6 (US–Iran tension, 5th monthly gain) → inflation worry. **Fed repricing post-Jackson Hole:** market pricing **~57% chance of a 25bp HIKE Sept 16**, cut odds ~0–4% — i.e. NO easing coming, and the "hawkish Warsh→HOLD" framing is the dovish end, not the base case. **Today 10:00 ET: ISM Mfg PMI (cons ~55.0–55.2 vs 55.6) + JOLTS (cons ~7.3M vs ~7.36M)** — a hot print pushes yields higher / pressures rate-sensitive growth; a soft print is the friendlier setup and would justify getting more constructive. Feeds Fri's AUGUST NFP (the week's binary). **Earnings wall after close today: CRWD, PANW, DELL, MDB (+MDT pre-open, ZS timing unconfirmed); Wed AMC AVGO = the week's single biggest tape-mover (semis/AI-capex read).** Correction to prior notes: **CRM & DLTR already reported (8/26, 8/27) — only AVGO lands Wed.** Net read: poor backdrop to chase entries, especially high-multiple/AI names most exposed to the rate move; patience/clean-entry discipline, not force.
+
+### Portfolio watch
+- **JPM — thesis INTACT** (+~7.6%, ~$354 pre-mkt). Buyback + dividend-hike thesis freshly reaffirmed on IR; no fresh rating/PT change 24–48h. Sector watch (not a threat): Aug-27 SEC probe into Wall-St leverage/margin lending subpoenaed JPM/GS/C/BofA — no dated impact. Trailing floor 329.85, cushion ~7%. Next earnings ~mid-Oct.
+- **ATI — thesis INTACT (yellow flag persists)** (−~2.2%, ~$205 pre-mkt). Consensus Buy (10 firms); most recent PT KeyBanc→$258 (8/12, OW) well above spot. Insider selling continues BUT both recent sales are pre-arranged Rule 10b5-1 plans (CEO Fields 8/17, CDIO Harris 8/24 — Harris still holds 146,687 sh) — planned, not discretionary red flags. −7% hard stop 194.99 (cushion ~5%); converts to 10% trailing at +5%. **Watch: hold the ~$202 50dMA.** No fresh aerospace/defense sector headline in window.
+- **SPY floor** — −~0.8% (avg 769.35, ~$767). Alpaca 50dMA $754.31, last 766.87 = **+1.67% above** — healthy. No stop by policy. Broad tape tactically cautious (JPM strategists shifted cautious on US equities post-hawkish-Fed).
+- **Risk checks:** (a) none −7% un-stopped — NO. (b) none +5% needing hard→trailing conversion (JPM already trailing; ATI −2.2%) — NO. (c) daily loss cap n/a (closed). **No sell trigger.**
+
+### Buy candidates (signals matched + conviction)
+**LIVE candidate clearing 2+ signals AND ≥70 AND a clean non-extended entry at today's open: NONE.** Every fundamentally strong name is either below its 50dMA or extended by chasing a post-earnings spike — a poor combination with a risk-off, hawkish-Fed jobs week and an earnings wall.
+| Name | ~Price | 50dMA (Alpaca) | vs 50dMA | Signals | Conv | Earn this wk | Verdict |
+|---|---|---|---|---|---|---|---|
+| ADI | ~$362 | $382.41 | −5.3% | #1 beat+raise (Q3 rev +40%, first $4B qtr), #3 AI/data-center secular | ~67 (B) | N | BLOCKED — below trend (fails #6) |
+| ADSK | ~$259 | $226.97 | +13.9% | #1 beat+raise 8/27, #3 software/AI, #6 above trend | ~69 | N | BLOCKED — chasing +14% spike (fading 271→259) |
+| DE | ~$655 | $612.10 | +7.1% | #1 beat+raise 8/20, #6 above trend | ~65 | N | BLOCKED — gap-chase (+3.9% yest), valuation-full |
+| BJ | ~$90.7 | $92.13 | −1.6% | #1 beat+raise 8/21, #4 UBS Buy $115 | ~64 | N | BLOCKED — not reclaimed 50dMA (fading 98→90.7) |
+| ROST | ~$228 | $234.24 | −2.5% | #1 big beat+raise 8/20 | ~64 | N | BLOCKED — below trend, drifting |
+| LLY | ~$1,159 | $1,188.09 | −2.5% | Mounjaro CV approval thesis intact | ~63 | N (earn Oct 29) | Not clean — below trend, still bleeding post-8/31 stop; no same-week revenge buy |
+| CRWD | ~$231 | $197.41 | +17% | beat 8/26 | — | **Y (tonight)** | OFF-LIMITS (reports AC today). NOTE: actually +17% ABOVE 50dMA — prior "deep below" note was STALE/WRONG |
+
+Fresh-screen names above 50dMA but disqualified: WDAY (+24%, extreme gap), SNOW (reports 9/2 — earnings block), NTAP (imminent earnings/fading). Below trend: WMT (guide below cons), TJX, MRVL (−6.6% post-print), BURL.
+
+### Sell candidates
+**NONE.** Both holdings intact, no thesis break, no stop breach, no +5% conversion pending. SPY floor no-stop by design.
+
+### Plan for market-open (Tue) — teed up, NOT executed here
+1. **No forced stock buy** — nothing clears 2 signals + ≥70 + clean entry; do not chase into ISM/JOLTS (10:00 ET) + tonight's earnings wall + Fri NFP.
+2. **Cash redeploy decision:** ~$24.2k / ~24.4% is ~$14k above Lauren's ~$10k target (fresh from the 8/31 LLY stop-out). Standing policy authorizes idle cash above the band into the **SPY market-floor sleeve** (idle cash = the drag the floor exists to fix; the floor is buy-and-hold-the-index, NOT a timed entry). Market-open/midday should top up the SPY floor to bring whole-book cash toward ~$10k (keep the 10% floor). Given a risk-off open + 10:00 ET data, **midday-after-ISM/JOLTS is acceptable** if the 09:30 open is chaotic, but the floor should not sit idle for a "better price." No conviction name qualifies for the deploy budget today → the excess goes to SPY.
+3. **Watchlist near-triggers to arm:** ADI (best fundamentals; needs 50dMA ~$382 reclaim+hold), ADSK (needs a non-extended pullback), BJ (needs ~$92 reclaim+hold), ROST (needs ~$234 reclaim), LLY (needs ~$1,188 reclaim + stabilize before a clean re-entry). Do NOT initiate AVGO (reports Wed) or any name within 3 trading days of its print.
+
 ## 2026-08-31 06:20 CT — PRE-MARKET (Mon · new week; weekly conviction buys reset 0/3) · NO TRADES (market CLOSED, research routine) · Alpaca-IEX primary through 8/28 close
 
 **Market state:** /v2/clock is_open:false, next_open Mon 2026-08-31 09:30 ET (US markets OPEN today; Labor Day is Sep 7). Account (live pre-market): equity **$100,139.55**, cash **$49,389.91 (~49.32%)**, buying_power $339,658.63, last_equity (Fri close) $100,263.51, status ACTIVE. Conviction sleeve **2/5 (3 open)**; weekly conviction buys **0/3** (fresh week). Both trailing stops VERIFIED resting (JPM 8a937ff6 hwm 366.5 floor 329.85; LLY d7eb221b hwm 1280.52 floor 1152.468). SPY unencumbered by design. Full 4-agent Perplexity scan ran (macro/earnings/position/scout); all candidate price/50dMA re-verified against Alpaca-IEX daily bars (overrides web figures — the scout's 50dMA data was internally inconsistent and materially wrong on CRWD).

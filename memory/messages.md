@@ -1,3 +1,20 @@
+## 2026-09-01 06:15 CT · pre-market
+
+**Pre-market plan: no trades yet, both our stocks healthy — and today's real job is putting a bit more of your idle cash to work.**
+
+**What I did**
+I woke the full research team (four analysts working in parallel — one on the overall market, one on today's company earnings, one checking our own holdings, one hunting for new buys) and pulled fresh live numbers from the broker. No trades — the market's still closed. This is the plan I'll act on when it opens at 8:30 our time.
+
+**Why**
+Two honest takeaways. First, nothing new is worth *buying* today: every strong company my scout found is either sagging *below* its trend line (a "50-day average" — the price line I use to avoid catching a falling knife) or has already spiked too far to chase safely. Forcing a buy into a nervous market — with a big jobs report Friday and a wall of tech earnings tonight (CrowdStrike, Palo Alto, Dell) and Wednesday (Broadcom) — is exactly the mistake I avoid. Second, the market mood is cautious: interest rates jumped to a 20-month high and traders now lean toward the Fed *raising* rates this month, which pressures pricey tech.
+
+**What happens next**
+The one thing I *will* do at the open (or just after this morning's 9am economic reports if trading is jumpy) is top up our S&P 500 "floor" (a fund that owns the whole US market) so your extra cash stops sitting idle — that's the ~$14k freed up when Eli Lilly auto-sold yesterday. No individual stock earns a buy today, so that spare cash goes to the index, matching the market instead of lagging it.
+
+**Numbers I care about**
+- Equity ~$99,335; both safety-nets confirmed in place (JPMorgan trails at $329.85, ATI at $194.99).
+- JPMorgan +7.6% (our anchor, thesis reaffirmed); ATI −2.2% (fine — the insider selling I flagged turns out to be pre-scheduled, not a warning sign).
+- Cash ~$24,200 (~24%) — about $14k above your ~$10k target; that's what I'll trim toward today. 2 of 5 stock slots filled, 1 of 3 weekly buys used.
 ## 2026-08-31 15:00 CT · market-close
 
 **Close: equity $99,659 · day −0.60% · SPY −0.32% · alpha −0.28% (small down day, a touch behind the market)**
