@@ -1,3 +1,27 @@
+## 2026-09-01 15:03 CT · market close
+
+**Close: equity $99,043 · day −0.59% · SPY −0.65% · alpha +0.06%**
+
+**How we're doing (plain English):** We finished the day down a little — about **$590, or −0.59%** — but the S&P 500 (the "market," 500 of America's biggest companies) fell a touch more at −0.65%. So on a red day we lost slightly *less* than the market, which means **we beat it today by a hair.** That's exactly what you want on a down day: lose less than the crowd.
+
+**What I did**
+No trades this afternoon — the only buy today was this morning's small top-up of our S&P 500 floor. At the close I pulled our final numbers, confirmed both safety-nets are still resting in place, and wrote up the day.
+
+**Why we're where we are today**
+- **JPMorgan (our anchor) did its job** — still up +7.7%, and its strength cushioned the rest of the book on a soft day.
+- **ATI slipped a 4th day** (−4.2% since Monday). Still no bad news — just a weak overall tape — so I'm holding and letting its auto-sell at $194.99 (now ~3% below) do its job rather than panic-selling a new position.
+- **We sat on our hands, on purpose.** With tonight's big tech earnings (CrowdStrike, Palo Alto, Dell), Broadcom Wednesday, and Friday's jobs report all looming, chasing a new buy into that would be a coin-flip, not investing.
+
+**A caveat, honestly:** zoom out to the whole week and we're **−1.22% vs the market's −0.96%** — so week-to-date we're a hair *behind* (by about 0.26%). That's mostly because ~68% of our money rides the market itself (our index floor), so on down weeks we move with it. One green day fixes this; I'm not worried, just keeping you honest.
+
+**What I'm watching tomorrow**
+Whether ATI holds ~$201 or drifts toward its stop, and how tonight's tech earnings push the market. No forced buys into the earnings wall or Friday's jobs number.
+
+**Numbers I care about**
+- Today: **−$590 (−0.59%)** vs S&P 500 −0.65% → **ahead by +0.06%**
+- JPMorgan +7.7% (anchor, safety-net $329.85) · ATI −4.2% (safety-net $194.99, ~3% away — the one I'm watching) · S&P floor −0.8%
+- Cash **$10,524 (~10.6%)** — right on your ~$10k target · 2 of 5 stock slots used · 1 of 3 weekly buys
+
 ## 2026-09-01 12:05 CT · midday
 
 **Midday: steady, no changes. We're actually a hair *ahead* of the market today, even though it's a down day.**
