@@ -1,36 +1,36 @@
 {
-  "last_update": "2026-09-02 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-02 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 99368.32,
+  "equity": 99425.70,
   "cash": 10523.63,
-  "day_pl": 295.10,
-  "day_pl_pct": 0.30,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "day_pl": 352.48,
+  "day_pl_pct": 0.36,
+  "week_pl_pct": -0.84,
+  "spy_week_pct": -0.54,
+  "alpha_week_pct": -0.30,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 354.18,
-      "pl_pct": 7.43,
+      "current": 355.3387,
+      "pl_pct": 7.78,
       "stop": 329.85
     },
     {
       "symbol": "ATI",
       "qty": 47,
       "avg_cost": 209.669787,
-      "current": 201.27,
-      "pl_pct": -4.01,
+      "current": 201.69,
+      "pl_pct": -3.81,
       "stop": 194.99
     },
     {
       "symbol": "SPY",
       "qty": 88,
       "avg_cost": 767.829091,
-      "current": 765.26,
+      "current": 765.24,
       "pl_pct": -0.34,
       "stop": null
     }
@@ -66,6 +66,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-02 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,426 · day +0.36% · SPY +0.46% · alpha −0.10%",
+      "body": "Up $352 today, essentially a tie with the market (we trailed 0.10pp). JPM (anchor) sat flat on an up day, which is the whole gap; ATI firmed again to −3.8%; SPY floor caught the rise. No trades; both safety-sells resting. Cash ~$10.5k on target. Watching AVGO/CRM earnings tonight and Fri's jobs report."
+    },
     {
       "ts": "2026-09-02 12:05 CT",
       "routine": "midday",

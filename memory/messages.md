@@ -1,3 +1,22 @@
+## 2026-09-02 15:00 CT · market-close
+
+**Close: equity $99,426 · day +0.36% · SPY +0.46% · alpha −0.10%**
+
+**How we're doing**
+We finished up about **$352 today (+0.36%)**. The overall US stock market (the S&P 500) rose a touch more, **+0.46%**, so we trailed it by about a tenth of a percent today — essentially a tie. For the week so far we're down about 0.8% while the market is down about 0.5%, so we're a hair behind this week too. Nothing broke; this is normal day-to-day noise.
+
+**Why**
+- **JPMorgan (our anchor) sat still today** while the market drifted up. When your single biggest holding is flat on an up day, you naturally lag a bit — that's the whole story of today's small gap. It's still up a healthy +7.8% for us overall.
+- **ATI firmed up again** — it's been slowly climbing back (from −4.4% two days ago to −3.8% now). Its automatic safety-sell sits at $194.99, about 3.3% below today's price. No bad news, so I'm letting it work.
+- **Our S&P 500 holding** (the big index fund that makes up about two-thirds of the account) captured the market's rise, which is exactly its job.
+
+**What happens next**
+Broadcom and Salesforce both reported their earnings after the bell tonight — those can jolt the whole market tomorrow, so I'll be watching the open. Friday brings the big monthly jobs report, the week's main event. I won't rush into any new buys ahead of it.
+
+**Numbers I care about**
+- Equity **$99,426**, up **$352 (+0.36%)** today; the market rose +0.46%, so alpha (our extra return vs. the market) was **−0.10%** today, **−0.30%** for the week so far.
+- Cash **$10,524 (~10.6%)** — right on your ~$10k target.
+- No trades today; both safety-sells confirmed in place (JPMorgan and ATI). 🐂
 ## 2026-09-02 12:05 CT · midday
 
 **Midday: steady, no changes — up ~$295 on the day, a hair behind the market.**

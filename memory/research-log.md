@@ -7559,3 +7559,37 @@ No trades, no stop changes. Memory written: portfolio.md (overwritten live snaps
 - Confirm 2 open orders still resting (ATI hard 194.99 + JPM trailing). Cash on target ~$10.5k — no deploy unless a stop frees cash.
 - **ATI is the watch item:** cushion to its −7% hard stop ~3.1%; thesis intact as of midday. Let the stop work, no averaging down.
 - **AVGO/CRM after close tonight** set the AI-semi tape → watch gap-through risk on the SPY sleeve (no stop by design). Fri NFP is the week's binary.
+
+
+## 2026-09-02 15:00 CT — MARKET-CLOSE (Wed · jobs-heavy week; AVGO/CRM reported tonight, NFP Fri) · NO TRADES · Day summary
+
+**Clock:** market CLOSED (is_open false, ts 16:01 ET, next_open 09-03 09:30 ET). Live EOD pull.
+
+### Day summary
+- **Closing equity:** $99,425.70 · cash $10,523.63 (10.58%) · long_market_value $88,902.07.
+- **Day P/L:** $99,425.70 − $99,073.22 (Tue 9/1 close) = **+$352.48 = +0.36%**.
+- **SPY day (authoritative daily bars):** 9/1 close 761.63 → 9/2 close 765.13 = **+0.46%**. **Alpha today = +0.36% − (+0.46%) = −0.10pp — a hair BEHIND.**
+- **Week-to-date:** book base Fri 8/28 close $100,263.51 → $99,425.70 = **−0.84%**; SPY 8/28 close 769.28 → 765.13 = **−0.54%** → **WTD alpha −0.30pp — behind this week.**
+- **Trades placed today:** NONE (0 closed orders). Stops unchanged: 2 resting (ATI hard 194.99, JPM trailing floor 329.85 hwm 366.5). SPY unencumbered by design.
+
+**Closing marks:**
+- **JPM** 34 @ 329.695588 → 355.3387 · +$871.87 (**+7.78%**) · trailing floor 329.85, hwm 366.5 (no ratchet, 355.34<hwm) · cushion ~7.17% · size ~12.15%. Day +0.11% (basically flat).
+- **ATI** 47 @ 209.669787 → 201.69 · −$375.05 (**−3.81%**) · −7% hard stop 194.99 · cushion ~3.32% · size ~9.53%. Day +0.37% — recovered again (−4.40% Tue → −4.01% midday → −3.81% close).
+- **SPY** 88 @ 767.829091 → 765.24 · −$227.84 (**−0.34%**) · NO stop (index sleeve) · size ~67.73%. Day +0.45%.
+
+### What worked
+- **SPY sleeve did its job** — captured the +0.45% up day on ~68% of the book; the market-floor policy is exactly why we participated instead of dragging.
+- **ATI stabilized** for a third straight mark (−4.40% → −4.01% → −3.81%); cushion to the hard stop widened to ~3.3%. No stop-out, no need to touch it.
+- **Discipline held:** no forced buy into AVGO/CRM earnings tonight or Fri NFP; cash on Lauren's ~$10k target.
+
+### What didn't
+- **Slight lag, today (−0.10pp) and WTD (−0.30pp).** The alpha sleeve is neutral-to-negative right now: JPM (our biggest single-stock weight) was flat today while SPY rose, and ATI is still red. JPM's large *cumulative* gain isn't producing *daily* alpha at these levels.
+- **Cash (~10.6%)** is a small structural drag on up days — but it's on target and the policy floor, so acceptable.
+
+### Open questions for tomorrow (pre-market Thu 9/3)
+- **AVGO + CRM reported after the close tonight** — how does the AI-semi/networking tape gap Thu, and does it move the unstopped SPY sleeve (~68% of the book, no stop by design)? Watch gap-through risk.
+- **ATI:** does the recovery hold, or resume sliding toward 194.99 (cushion ~3.3%)? Still the watch item; let the stop work, no averaging down.
+- **Fri NFP** is the week's binary macro print — keep entry discipline, do not initiate into it.
+
+### Actions taken
+No trades, no stop changes. Memory written: portfolio.md (overwritten closing snapshot), this research-log entry (appended), messages.md (prepended teacher-voice end-of-day scorecard), dashboard/state.json (overwritten — most important write of the day). Inbox: nothing pending. **Telegram: MANDATORY daily-close push sent** (never skipped per CLAUDE.md).
