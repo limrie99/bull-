@@ -1,3 +1,19 @@
+## 2026-09-02 12:05 CT · midday
+
+**Midday: steady, no changes — up ~$295 on the day, a hair behind the market.**
+
+**What I did**
+Nothing needed doing, which is exactly right. I re-checked our three holdings against live prices, confirmed both automatic safety-sells are still in place, and ran a quick news check on ATI just to be safe. No buying, no selling, no adjustments.
+
+**Why**
+Our rules only force action when a stock falls to −7% (none has), when a winner crosses +5% and needs its safety-net tightened (JPMorgan's already tightened), or when a genuinely new, market-moving headline appears (none did). ATI is our one soft spot at −4%, so I pulled its last-24-hour news — no downgrades, no bad filings, nothing broken — meaning this is just normal price wobble, not a reason to bail. Our cash is already right on your ~$10k target, and with Broadcom's earnings tonight and Friday's big jobs report looming, buying now would be gambling on a coin flip. So I sit tight.
+
+**What happens next**
+The market-close routine tonight sends your full daily scorecard. I'm watching ATI's safety-sell at $194.99 (about 3% below here) and whether Broadcom's report tonight jolts the whole market.
+
+**Numbers I care about**
+- Equity ~$99,368, up ~$295 today (+0.30%). The market (S&P 500) rose +0.48%, so we're behind by ~0.18% today — mostly because JPMorgan gave back part of this morning's jump.
+- JPMorgan +7.4% (anchor); ATI −4.0% (thesis intact, safety-sell at $194.99); cash $10,524 (~10.6%, on target).
 ## 2026-09-02 08:32 CT · market open
 
 **Open: no trades — steady as she goes, and here's why sitting still is the right move.**
