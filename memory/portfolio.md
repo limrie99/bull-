@@ -1,39 +1,38 @@
 # Portfolio
 
-**Last updated:** 2026-09-01 15:03 CT (**MARKET CLOSE**; /v2/clock is_open:false, next_open Wed 09-02 09:30 ET). Live account: equity **$99,043.31**, cash **$10,523.64 (10.62%)**, long_market_value **$88,519.67**, last_equity (Mon 8/31 close) $99,633.78, status ACTIVE. Conviction sleeve **2 of 5 (JPM, ATI); three slots OPEN. Weekly conviction buys 1/3.** Two stops VERIFIED live resting (JPM 10% trailing, ATI −7% hard); SPY unencumbered by design. **NO TRADES this routine** (today's only fill was the morning SPY floor top-up +18 @ 761.92, already logged). Steady, disciplined hold into a jobs-heavy week + tonight's earnings wall.
+**Last updated:** 2026-09-02 06:15 CT (**PRE-MARKET**; /v2/clock is_open:false, next_open Wed 09-02 09:30 ET). Live account (pre-market, indicative marks): equity **$98,952.80**, cash **$10,523.63 (10.63%)**, long_market_value **$88,429.17**, last_equity (Tue 9/1 close) $99,073.22, status ACTIVE. Conviction sleeve **2 of 5 (JPM, ATI); three slots OPEN. Weekly conviction buys 1/3.** Two stops VERIFIED live resting (JPM 10% trailing, ATI −7% hard); SPY unencumbered by design. **NO TRADES this routine** (pre-market research; market closed). Cash already on Lauren's ~$10k target → no SPY floor top-up, no forced buy. Steady, disciplined hold into a risk-off, hawkish-Fed tape with AVGO tonight + Fri NFP.
 
-## Close read (2026-09-01)
-- **Day:** equity $99,043.31 vs Mon close $99,633.78 = **−$590.47 (−0.59%)** — well under the 3% daily loss cap.
-- **SPY day:** 766.87 (Mon close) → 761.90 (today) = **−0.65%.** **Alpha today = +0.06pp — we edged the market on a down day** (light SPY sleeve tilt + JPM strength vs a soft tape).
-- **Week-to-date (from Fri 8/28 close $100,263.51 / SPY 769.28):** portfolio **−1.22%** vs SPY **−0.96%** = **alpha −0.26pp WTD** (slightly behind on the week — the down tape drags our ~68% SPY sleeve, and ATI's slide adds to it; JPM cushions).
-- **ATI (down 4 straight days, −4.16%, ~3.0% cushion to stop):** thesis intact per midday news check; letting the −7% hard stop ($194.99) do its job. NO averaging down.
-- **No new buys:** no breaking catalyst; cash already on Lauren's ~$10.5k target; do NOT initiate into tonight's earnings (CRWD/PANW/DELL/MDB), AVGO/CRM Wed, or Fri NFP.
+## Pre-market read (2026-09-02)
+- **Tone: RISK-OFF.** US–Iran escalation overnight (Hormuz threat) → WTI ~+5–6% to ~$90–91 (5–6-wk high); ES ~−0.25/−0.5%, NQ lower; Asia/Europe down; 10Y ~4.80% (~3-yr high, rising); DXY firm; gold reported −2.5% (treat cautiously). **Fed Sept-16 now priced ~73–74% for a 25bp HIKE, ~0% cut** — hawkish; higher long yields help banks (JPM).
+- **Data wall:** ADP today 8:15 ET (cons ~+70k); ISM Svcs Thu 9/3; **AUGUST NFP Fri 9/4 = the gate** (cons ~+42k, prior July −23k, unemp 4.1%).
+- **Earnings:** **AVGO (Broadcom) after close TODAY** = most systemic AI-semi print (do NOT initiate). CRM & DLTR also report today (correction: they had NOT already reported). Last night: PANW EPS beat but muted AH; DELL/MDB details unverified; CRWD/ZS unconfirmed → neutral-to-soft tech tape.
+- **No new buys:** no name clears 2 signals + ≥70 + a clean entry; cash on target; do NOT initiate into AVGO tonight or Fri NFP.
 
-## Open positions (2 conviction stocks + 1 index-floor sleeve) — closing marks 2026-09-01
+## Open positions (2 conviction stocks + 1 index-floor sleeve) — pre-market marks 2026-09-02
 | Symbol | Shares | Avg Cost | Price | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 354.95 | +858.65 | +7.66% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT. Cushion ~7.1%. Next earnings ~mid-Oct. |
-| ATI | 47 | 209.669787 | 200.95 | −409.83 | −4.16% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aerospace/defense + onshoring secular (#3) + trend (#6). B+ starter (~72). Thesis INTACT (news check clean; sector firm). Day-4 slide on soft tape; **cushion to stop ~2.97% — key watch.** Insider sales are pre-arranged 10b5-1. |
-| SPY | 88 | 767.829091 | 761.44 | −562.24 | −0.83% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / 08-31 (t3, +38) / 09-01 (t4, +18) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO −7%/trailing stop. Buy-and-hold-the-market. |
+| JPM | 34 | 329.695588 | 354.98 | +859.67 | +7.67% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT/STRENGTHENING (Daiwa +2.4% stake; consensus Moderate Buy; near 52-wk high; rising yields = tailwind). 50dMA $348.28 (+1.90%). Cushion ~7.1%. Next earnings ~mid-Oct. |
+| ATI | 47 | 209.669787 | 200.95 | −409.83 | −4.16% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aerospace/defense + onshoring secular (#3) + trend (#6). B+ starter (~72). Thesis INTACT (no cancellation/cut/downgrade; naval-nuclear+Cameco contracts intact). Slide = profit-taking/positioning + TiO2-pigment guilt-by-association (NOT aero core). **Now −0.54% BELOW 50dMA $201.99 — technical watch.** Cushion to stop ~2.97%. Insider sales pre-arranged 10b5-1. Rate-insensitive plus. |
+| SPY | 88 | 767.829091 | 760.40 | −653.76 | −0.97% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / 08-31 (t3, +38) / 09-01 (t4, +18) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO −7%/trailing stop. Buy-and-hold-the-market. +0.92% vs 50dMA $754.66. |
 
-**Conviction sleeve: 2 of 5 (three slots OPEN).** **Conviction buys used this week: 1 of 3** (ATI; SPY floor does NOT consume this budget). **Cash buffer: 10.62%.** Sizes on equity $99,043.31: JPM ~12.19%, ATI ~9.54%, SPY ~67.65% (index sleeve — exempt from the 20% cap by policy).
+**Conviction sleeve: 2 of 5 (three slots OPEN).** **Conviction buys used this week: 1 of 3** (ATI; SPY floor does NOT consume this budget). **Cash buffer: 10.63%** (on Lauren's ~$10k target). Sizes on equity $98,952.80: JPM ~12.20%, ATI ~9.54%, SPY ~67.62% (index sleeve — exempt from the 20% cap by policy).
 
-## Stop-management state (open-orders nested=true — VERIFIED live 2026-09-01 close)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). qty 34. No ratchet (354.95 < hwm). Cushion ~7.1%.
+## Stop-management state (open-orders nested=true — VERIFIED live 2026-09-02 pre-market)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). qty 34. No ratchet (354.98 < hwm). Cushion ~7.1%.
 - **ATI −7% hard** `fabe11de-0bce-42db-b6d4-167e33fd639b` — stop **194.99**, status new (resting). qty 47. Cushion ~2.97%. Converts to 10% trailing once +5% in profit (currently −4.16%).
 - **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 88 unencumbered. Confirmed **2 open orders total** (JPM + ATI stops).
 
-## Risk checks (live closing marks)
-- **(a) Any position −7% or worse un-stopped?** NO. JPM +7.66%, ATI −4.16% (on −7% hard, floor 194.99; news check clean), SPY −0.83% (index, no stop). **→ No sell trigger.**
+## Risk checks (live pre-market marks)
+- **(a) Any position −7% or worse un-stopped?** NO. JPM +7.67%, ATI −4.16% (on −7% hard, floor 194.99; news clean), SPY −0.97% (index, no stop). **→ No sell trigger.**
 - **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM already on trailing; ATI −4.16% (far from +5%); SPY carries no stop by policy. Zero conversions pending.
-- **(c) Daily loss cap:** day −0.59%, well under 3%. Not hit → new buys were allowed (none qualified; cash on target).
+- **(c) Daily loss cap:** market closed pre-market; no intraday move yet. Not hit.
 
-## Watch / next (next routine: **pre-market Wed 2026-09-02**)
-- **ATI is the key watch:** down 4 straight days, cushion to its −7% hard stop ($194.99) now ~3.0%. Thesis intact as of today. If it slides into the stop, that's the beta/soft-tape shake-out risk flagged at entry — let the stop work, NO averaging down. Converts to 10% trailing at +5%.
-- **JPM:** anchor, +7.66%, ~7.1% cushion; thesis intact.
-- **Cash on target (~$10.5k / ~10.6%):** no deploy needed unless a stop-out frees cash. Do NOT force a buy into tonight's earnings (CRWD/PANW/DELL/MDB), AVGO/CRM Wed, or Fri NFP.
-- **Tonight's prints (CRWD/PANW/DELL/MDB) + Wed AVGO** set the tech/AI tape; Fri's August NFP is the week's binary. Watch for gap-through risk on the SPY sleeve (no stop by design — buy-and-hold).
-- **Watchlist near-triggers (all BLOCKED today):** ADI (needs 50dMA ~$382 reclaim+hold), ADSK (needs a non-extended pullback), BJ (needs ~$92 reclaim+hold), ROST (needs ~$234 reclaim), LLY (needs clean non-extended re-entry; earnings Oct 29; no same-week revenge buy). Do NOT initiate any name within 3 trading days of its print.
+## Watch / next (next routine: **market-open Wed 2026-09-02**)
+- **ATI is the key watch:** −4.16%, cushion to its −7% hard stop ($194.99) ~2.97%, and now just BELOW its 50dMA. Thesis intact (positioning/rotation, not fundamentals). If it slides into the stop, that's the beta/soft-tape shake-out risk flagged at entry — let the stop work, NO averaging down. Converts to 10% trailing at +5%.
+- **JPM:** anchor, +7.67%, ~7.1% cushion; thesis intact/strengthening; rising yields help.
+- **Cash on target (~$10.5k / ~10.6%):** no deploy needed unless a stop-out frees cash. Do NOT force a buy into AVGO tonight or Fri NFP.
+- **AVGO after close tonight** sets the AI-semi/networking tape; watch gap-through risk on the SPY sleeve (no stop by design). Fri's August NFP is the week's binary.
+- **Watchlist near-triggers (all BLOCKED today):** SNPS (NEW #1 — needs a decisive 50dMA reclaim >~$416–417), NDSN (clean but sub-70/unverified beat), ADI (needs 50dMA ~$381 reclaim), ADSK (extended +8.5%), DE (extended +10%, 52-wk high), BJ (needs ~$94 reclaim), ROST (needs ~$234 reclaim), LLY (needs clean non-extended re-entry; earnings Oct 29; no revenge buy). Do NOT initiate any name within 3 trading days of its print.
 
 ## Recent closes (last 5)
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |

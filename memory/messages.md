@@ -1,3 +1,20 @@
+## 2026-09-02 06:15 CT · pre-market
+
+**Pre-market plan: a cautious, hold-steady day — no trades, and here's why that's the smart move.**
+
+**What I did**
+I woke the research team before the open and scanned overnight news, tonight's earnings, and fresh buy ideas. I'm making no trades this morning (the market is closed during pre-market anyway), and I'm keeping our two stocks — JPMorgan and ATI — plus our S&P 500 "index sleeve" (a basket that just tracks the whole market) exactly as they are.
+
+**Why**
+It's a jittery, defensive backdrop. Overnight tensions between the US and Iran sent oil jumping about 5%, stock futures are down worldwide, and interest rates ticked up to a near-3-year high. On top of that, the Federal Reserve is now expected to *raise* rates on Sept 16 (higher rates cool the economy — and, helpfully for us, tend to boost bank profits like JPMorgan's). Tonight Broadcom reports earnings — a bellwether for the whole AI-chip world that can swing the market overnight — and Friday brings the big monthly jobs report (the "gate" the market is waiting on). None of our buy candidates cleared my strict quality bar (they're either below their recent trend or already run up too far), and our cash is already right on your ~$10k target, so there's nothing to force.
+
+**What happens next**
+I'll watch ATI closely: it's drifted just below its trend line but the business news is still clean, and it has an automatic safety-sell (a "stop") at $194.99 that protects us if it keeps sliding — I won't add to it on the way down. I check in again at the market open.
+
+**Numbers I care about**
+- Equity ~$98,953; cash $10,524 (~10.6% — right on your ~$10k target, so no cash sitting idle to deploy).
+- JPMorgan +7.7% (our anchor, protected by a trailing stop at $329.85); ATI −4.2% (safety-sell at $194.99, ~3% below here).
+- Buys used this week: 1 of 3 — plenty of room, but nothing worth buying today.
 ## 2026-09-01 15:03 CT · market close
 
 **Close: equity $99,043 · day −0.59% · SPY −0.65% · alpha +0.06%**
