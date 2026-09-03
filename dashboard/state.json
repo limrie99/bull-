@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-02 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-03 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99425.70,
+  "equity": 99476.74,
   "cash": 10523.63,
-  "day_pl": 352.48,
-  "day_pl_pct": 0.36,
-  "week_pl_pct": -0.84,
-  "spy_week_pct": -0.54,
-  "alpha_week_pct": -0.30,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "week_pl_pct": -0.78,
+  "spy_week_pct": -0.5,
+  "alpha_week_pct": -0.28,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 355.3387,
-      "pl_pct": 7.78,
+      "current": 356.4,
+      "pl_pct": 8.1,
       "stop": 329.85
     },
     {
@@ -30,8 +30,8 @@
       "symbol": "SPY",
       "qty": 88,
       "avg_cost": 767.829091,
-      "current": 765.24,
-      "pl_pct": -0.34,
+      "current": 765.41,
+      "pl_pct": -0.32,
       "stop": null
     }
   ],
@@ -67,21 +67,27 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-03 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: Synopsys (SNPS) cleared the buy-gate \u2014 armed for the open",
+      "body": "Research-only (market closed). My scan found Synopsys \u2014 chip-design software riding the AI wave \u2014 clearing our checklist for the first time in weeks (score ~80, clean entry right on its 50-day line). Armed a modest ~10% starter for the open, conditional on a clean live entry, funded by trimming a little SPY; small size because Friday's jobs report is a wildcard. JPM +8.1%, ATI -3.8%, both intact; cash on target."
+    },
+    {
       "ts": "2026-09-02 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $99,426 · day +0.36% · SPY +0.46% · alpha −0.10%",
-      "body": "Up $352 today, essentially a tie with the market (we trailed 0.10pp). JPM (anchor) sat flat on an up day, which is the whole gap; ATI firmed again to −3.8%; SPY floor caught the rise. No trades; both safety-sells resting. Cash ~$10.5k on target. Watching AVGO/CRM earnings tonight and Fri's jobs report."
+      "headline": "Close: equity $99,426 \u00b7 day +0.36% \u00b7 SPY +0.46% \u00b7 alpha \u22120.10%",
+      "body": "Up $352 today, essentially a tie with the market (we trailed 0.10pp). JPM (anchor) sat flat on an up day, which is the whole gap; ATI firmed again to \u22123.8%; SPY floor caught the rise. No trades; both safety-sells resting. Cash ~$10.5k on target. Watching AVGO/CRM earnings tonight and Fri's jobs report."
     },
     {
       "ts": "2026-09-02 12:05 CT",
       "routine": "midday",
-      "headline": "Steady, no changes · day +0.30% · SPY +0.48% · alpha −0.18pp",
-      "body": "No trades. All 3 holdings re-marked, both safety-sells confirmed resting. Ran a news check on ATI (−4.0%): thesis intact, no bad news — normal wobble, not a reason to sell. Cash on target ~$10.5k; no buys into AVGO tonight / Fri NFP."
+      "headline": "Steady, no changes \u00b7 day +0.30% \u00b7 SPY +0.48% \u00b7 alpha \u22120.18pp",
+      "body": "No trades. All 3 holdings re-marked, both safety-sells confirmed resting. Ran a news check on ATI (\u22124.0%): thesis intact, no bad news \u2014 normal wobble, not a reason to sell. Cash on target ~$10.5k; no buys into AVGO tonight / Fri NFP."
     },
     {
       "ts": "2026-09-02 08:32 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — steady as she goes",
+      "headline": "Open: no trades \u2014 steady as she goes",
       "body": "Executed the pre-market plan verbatim: no buys, no sells. Re-checked all three holdings at live prices, confirmed both safety-sells resting. Nothing cleared the buy bar; cash on ~$10k target; patient into AVGO tonight + Fri NFP."
     },
     {
@@ -94,7 +100,7 @@
       "ts": "2026-09-01 20:04 CT",
       "routine": "market-close",
       "headline": "Close: quiet down day, slightly behind SPY",
-      "body": "No trades. JPM anchor held +8%; ATI day-3 soft (−3.1%) but thesis intact; SPY floor tracking the market. Trailed SPY ~0.28pp WTD on idiosyncratic drag."
+      "body": "No trades. JPM anchor held +8%; ATI day-3 soft (\u22123.1%) but thesis intact; SPY floor tracking the market. Trailed SPY ~0.28pp WTD on idiosyncratic drag."
     }
   ]
 }

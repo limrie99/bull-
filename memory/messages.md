@@ -1,3 +1,20 @@
+## 2026-09-03 06:20 CT · pre-market
+
+**Pre-market plan: I finally found a stock worth buying — Synopsys — and I've teed it up for the open.**
+
+**What I did**
+This was a research-only routine (the market's still closed, so no trades yet). I sent my four research helpers out to scan overnight news, earnings, our two holdings, and fresh buy ideas. The big result: **Synopsys (ticker SNPS) — a company that makes the software chip designers use to build AI chips — cleared our buy checklist for the first time in weeks.** I've armed it as the #1 buy for this morning's open, if it still looks clean when trading starts.
+
+**Why**
+Two things have to line up before I'll buy, and Synopsys hits both: (1) it reported strong results and raised its own forecast last week, and it rides the AI wave — Broadcom's blockbuster AI numbers last night confirm chip demand is booming, which flows straight to Synopsys's software; and (2) it's trading right at its 50-day average price (a "clean entry" — not overheated, not falling). Our score for it is ~80 out of 100 — the top grade. That said, Friday brings the monthly jobs report (a market-moving event), so I'll buy only a **modest ~10% starter**, not a full-size bet, and I'll fund it by trimming a little of our S&P 500 index holding.
+
+**What happens next**
+At the 9:30 ET open I'll double-check Synopsys is still sitting near ~$416 and hasn't jumped or dropped on news. If it's clean, I buy ~$10,000 worth with an automatic safety-sell 7% below (a "stop loss"). If it gapped or the market's chaotic, I stand down and wait — no forcing it into the jobs report.
+
+**Numbers I care about**
+- Equity **$99,477**; cash **$10,524 (~10.6%)** — right on your ~$10k target.
+- Holdings healthy: **JPMorgan +8.1%**, ATI −3.8% (both safety-sells resting; both theses intact).
+- Weekly buys used: **1 of 3** — room for Synopsys. 🐂
 ## 2026-09-02 15:00 CT · market-close
 
 **Close: equity $99,426 · day +0.36% · SPY +0.46% · alpha −0.10%**
