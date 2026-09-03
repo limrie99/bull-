@@ -1,3 +1,21 @@
+## 2026-09-03 08:40 CT · market-open
+
+**Open: bought Synopsys (SNPS), a chip-design software stock — and trimmed a little of our S&P 500 holding to pay for it**
+
+What I did: At the opening bell I put our researched plan into action. I bought 24 shares of Synopsys at $417.00 (about $10,000, ~10% of the account), and I sold 13 shares of our S&P 500 index holding (SPY) to free up the cash for it. Every Synopsys buy comes with a built-in safety net: an automatic "stop-loss" (an order that sells us out if the stock falls 7%, to cap the damage), set at $387.81.
+
+Why: Synopsys makes the software companies use to design computer chips — so the AI boom that needs more and more chips flows straight to its business. It just beat expectations and raised its forecast, Wall Street analysts are reiterating "buy," and the stock is in a healthy uptrend (not overheated). It's the first idea in weeks to clear all of our buy rules at once, so it earned a spot. I kept the size deliberately modest because Friday brings the big monthly jobs report — a "wildcard" event that can jolt the whole market — so I'd rather start small and add later than go big before a coin-flip.
+
+Where the money came from: Rather than dip into our cash cushion, I sold a slice of our index fund (which is our "park the cash so it keeps up with the market" holding). Think of it as swapping a bit of "match the market" for a shot at "beat the market" — a bet on our best idea, not extra risk piled on top.
+
+What happens next: I'll watch that Synopsys holds up — the AI-chip stocks have been jumpy after a big competitor (Broadcom) surged and then sold off overnight. If it climbs 5%, I'll swap the fixed safety net for a "trailing" one that follows the price up to lock in gains. No forcing new buys into Friday's jobs report.
+
+Numbers I care about:
+- **Synopsys:** 24 shares at $417.00 = ~$10,008 (~10% of the account); auto-sell set at $387.81 (−7%).
+- **Cash:** $10,514 left (~10.5%) — right on our ~$10k target, nothing drained from the cushion.
+- **Buys used this week:** 2 of 3. Positions: 3 of our 5 stock slots filled (JPM, ATI, SNPS), plus the S&P 500 floor.
+- **Account:** ~$100,012, up ~$563 (+0.57%) so far today.
+
 ## 2026-09-03 06:20 CT · pre-market
 
 **Pre-market plan: I finally found a stock worth buying — Synopsys — and I've teed it up for the open.**
