@@ -7660,3 +7660,43 @@ NONE at midday. No high-conviction breaking catalyst crossed the wire; disciplin
 
 ### Actions taken
 No trades, no stop changes. Memory written: portfolio.md (overwritten midday snapshot), this research-log entry (appended), messages.md (prepended teacher-voice midday update), dashboard/state.json (overwritten). Inbox: nothing pending. **Telegram: NOT pushed** — quiet no-trade midday check (CLAUDE.md: do not push on quiet midday checks).
+
+## 2026-09-03 15:05 CT · market-close
+
+**Clock:** market CLOSED (is_open false, ts 16:01 ET, next_open 09-04 09:30 ET). Post-close pull.
+
+### Day summary
+- **Closing equity:** $100,415.97 · cash $10,514.60 (10.47%) · long_market_value $89,901.37.
+- **Day P/L:** $100,415.97 − $99,448.62 (Wed 9/2 close, account.last_equity) = **+$967.35 = +0.97%**.
+- **SPY day (authoritative daily bars):** 9/2 close 765.13 → 9/3 close 773.115 = **+1.04%**. **Alpha today = +0.97% − (+1.04%) = −0.07pp — a hair BEHIND.**
+- **Week-to-date:** book base Fri 8/28 close $100,263.51 → $100,415.97 = **+0.15%**; SPY 8/28 close 769.28 → 773.115 = **+0.50%** → **WTD alpha −0.35pp — behind this week.**
+- **Trades placed today:** 2, both at the open (already logged) — SPY trim −13 @ 769.15 (funding), SNPS buy +24 @ 417.00 (Grade-A conviction). Plus **1 close-routine stop action** (SNPS stop re-armed as GTC — see below). No new buys at close.
+
+**Closing marks:**
+- **JPM** 34 @ 329.695588 → 362.95 · +$1,130.65 (**+10.09%**) · 10% trailing floor 329.85, hwm 366.5 (no ratchet, 362.95<hwm) · cushion ~9.12% · size ~12.29%. Day roughly flat-to-up.
+- **SNPS** 24 @ 417.00 → 416.31 · −$16.56 (**−0.17%**) · −7% hard stop 387.81 (GTC, re-placed) · cushion ~6.85% · size ~9.95%. Held steady through the AI-semi tape on day 1.
+- **ATI** 47 @ 209.669787 → 204.54 · −$241.10 (**−2.45%**) · −7% hard stop 194.99 · cushion ~4.67% · size ~9.57%. Day **+1.41%** (201.69 → 204.54) — best relative mover; recovery held.
+- **SPY** 75 @ 767.829091 → 772.71 · +$366.07 (**+0.64%**) · NO stop (index sleeve) · size ~57.71%. Captured most of the up tape.
+
+### ⚠️ Bug caught & fixed: SNPS stop expired at close (tif=day, not gtc)
+- At the 09:34 ET SNPS buy, the stop was created via OTO (initial 387.11) then REPLACED to 387.81 to nail exactly −7% off the $417.00 fill. The trade-log called it "GTC-equivalent," but the **replaced order `664e29e7` carried `time_in_force: day`** (inherited from the OTO leg). It **expired at 2026-09-03T20:01:48Z (16:01 ET / market close)**, status `expired`.
+- **The other two stops are GTC** (JPM `8a937ff6`, ATI `fabe11de`) and survived — this was isolated to SNPS.
+- **Action:** placed a fresh standalone **GTC** hard stop for SNPS, `8b33dd45-04f5-450f-b0e1-096796af172c`, qty 24, stop 387.81, status accepted/resting — verified via /v2/orders?status=open (3 open orders total again: JPM+ATI+SNPS). Because market was closed, SNPS was never actually exposed during a tradeable session; caught at the first routine after expiry.
+- **Process fix for future routines:** when placing a stop, submit it as **GTC** and, at close, verify **time_in_force**, not just the order's presence. A day-tif stop silently disappears at 4pm ET and leaves the position naked overnight.
+
+### What worked
+- **SPY sleeve did its job** — captured ~+0.64% on ~58% of the book; the market-floor policy is exactly why we participated in the +1.04% tape instead of dragging.
+- **ATI recovery held** (+1.41% on the day, cushion to the hard stop widened to ~4.67%). Discipline of "let the stop work, don't average down" paid off again.
+- **Close routine caught the stop-tif bug** before it could matter — the risk plumbing self-checked and self-healed.
+
+### What didn't
+- **Slight lag, today (−0.07pp) and WTD (−0.35pp).** The alpha sleeve is neutral right now: JPM (biggest single-stock weight) roughly flat while SPY rose; SNPS flat on day 1; ATI still modestly red. Cumulative JPM gain isn't producing daily alpha at these levels.
+- **The day-tif stop should never have been written that way.** A replaced/OTO stop inherited a day tif — a latent gap in how the morning routine armed the SNPS stop.
+
+### Open questions for tomorrow (pre-market Fri 9/4)
+- **Fri NFP (8:30 ET)** — the week's binary macro print. Does the tape gap on August payrolls, and does it move the unstopped SPY sleeve (~58% of book)? Keep entry discipline; do NOT initiate fresh beta into it.
+- **SNPS:** does the new GTC stop `8b33dd45` still rest at the open (it should — GTC)? Re-verify tif at pre-market.
+- **ATI/SNPS:** watch for any move toward +5% that would trigger a hard→trailing conversion; neither is close yet.
+
+### Actions taken
+Re-armed SNPS GTC hard stop (`8b33dd45`, 387.81) after the morning day-tif stop expired at close. No new buys, no other stop changes. Memory written: portfolio.md (overwritten closing snapshot), this research-log entry (appended), messages.md (prepended teacher-voice end-of-day scorecard), dashboard/state.json (overwritten — most important write of the day). Inbox: nothing pending. **Telegram: MANDATORY daily-close push sent** (never skipped per CLAUDE.md).

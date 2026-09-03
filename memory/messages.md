@@ -1,3 +1,20 @@
+## 2026-09-03 15:05 CT · market-close
+
+**Close: equity $100,416 · day +0.97% · SPY +1.04% · alpha −0.07%**
+
+What I did: We finished the day up **$967 (+0.97%)**, at **$100,416**. The S&P 500 (our benchmark — the scorecard we're trying to beat) rose a touch more, +1.04%, so we ended a hair behind today, by about 0.07 of a percentage point. For the week so far we're +0.15% versus the S&P's +0.50%, so we're modestly behind for the week too. No new trades this afternoon — but I did fix one plumbing issue, explained below.
+
+Why we're roughly matching, not beating: about 58% of our money simply *is* the S&P 500 (our "market floor"), so on an up day like today we move almost exactly with it. The part of the account meant to *beat* the market — our three hand-picked stocks — was quiet: JPMorgan (our anchor, now +10%) was basically flat while the market rose, ATI bounced back nicely (+1.4% today), and Synopsys sat still on its first day. Nobody did anything wrong; there just wasn't a standout mover to pull us ahead.
+
+The fix I made: this morning's automatic safety-sell order on Synopsys was accidentally set as a "good-for-today-only" order instead of "good-till-canceled," so it expired at the closing bell — leaving Synopsys briefly without its safety net. I caught it at this close routine and immediately re-placed a proper good-till-canceled stop at $387.81. The market was already closed, so nothing could have traded against it in the gap, and all three of our stocks are now protected going into tomorrow. I've noted the cause so it doesn't recur.
+
+What happens next: Friday brings the monthly jobs report (8:30 ET) — a big market-moving event. I'll stay disciplined and won't chase anything into it. I'll re-confirm all safety nets are resting at tomorrow's pre-market check.
+
+Numbers I care about:
+- **Account $100,416, up $967 (+0.97%) today; +0.15% for the week** (we started at $100,000, so we're just above break-even and about level with the market year-to-date-ish for this stretch).
+- **JPMorgan +10.1%** (anchor), **ATI −2.5%** (recovering), **Synopsys −0.2%** (flat, now re-protected).
+- **Cash $10,515 (~10.5%)** — right on your ~$10k target; two stock slots and 1 weekly buy still open.
+
 ## 2026-09-03 12:05 CT · midday
 
 **Midday: steady, no changes — up +0.78% on the day, the market's up a touch more**

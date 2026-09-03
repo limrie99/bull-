@@ -1,39 +1,43 @@
 # Portfolio
 
-**Last updated:** 2026-09-03 12:05 CT (**MIDDAY routine**; /v2/clock is_open:true, next_close 09-03 16:00 ET). Live account: equity **$100,227.59**, cash **$10,514.60 (10.49%)**, long_market_value **$89,712.99**, last_equity (Wed 9/2 close) $99,448.62 → **day +$778.97 (+0.78%)**, status ACTIVE. Conviction sleeve **3 of 5 (JPM, ATI, SNPS); two slots OPEN. Weekly conviction buys 2/3.** Three stops VERIFIED live resting (JPM 10% trailing, ATI −7% hard, SNPS −7% hard); SPY unencumbered by design. **NO trades and NO stop changes at midday** — all risk checks clean.
+**Last updated:** 2026-09-03 15:05 CT (**MARKET-CLOSE routine**; /v2/clock is_open:false, next_open 09-04 09:30 ET). Live account: equity **$100,415.97**, cash **$10,514.60 (10.47%)**, long_market_value **$89,901.37**, last_equity (Wed 9/2 close) $99,448.62 → **day +$967.35 (+0.97%)**, status ACTIVE. Conviction sleeve **3 of 5 (JPM, ATI, SNPS); two slots OPEN. Weekly conviction buys 2/3.** **Three stops VERIFIED live resting** (JPM 10% trailing, ATI −7% hard, SNPS −7% hard). **⚠️ Fixed at close:** the SNPS stop set at this morning's buy was submitted as a `day` order (via the OTO-then-replace) and **expired at 16:01 ET / close** — I re-placed it as a proper **GTC** hard stop (`8b33dd45`, 387.81) minutes after close, so SNPS is protected again before the next open. No trades at close.
 
-## Midday read (2026-09-03)
-- **Steady, no changes.** No position is −7% or worse (no sell trigger, no news-check required); none is at +5% needing a hard→trailing conversion; daily loss cap not hit (up +0.78%). No high-conviction breaking catalyst → no midday buy; discipline holds into Friday's NFP.
-- **Intraday vs. tape:** book +0.78% vs **SPY +1.01%** (9/2 close 765.13 → 772.85) → **≈ −0.23pp, a hair behind at midday** — same shape as recent days (~58% is SPY so it matches the index; JPM's cumulative gain isn't producing daily alpha; ATI red is the drag). The close routine owns the official daily scorecard.
-- **JPM +9.63%,** trailing floor 329.85 (hwm 366.5), no ratchet (361.43<hwm), cushion ~8.74%; anchor, thesis intact (rising yields = NII tailwind). **SNPS −0.13%,** holding steady through the jumpy AI/semi tape; hard stop 387.81 cushion ~6.88%; thesis intact. **ATI −3.91%,** ticked back down from the open but well inside its −7% hard 194.99 (cushion ~3.22%), no adverse news; thesis intact — let the stop work, NO averaging down. **SPY floor +0.65%,** no stop by policy, catching the up tape.
+## Close read (2026-09-03)
+- **Up day, a hair behind the tape.** Book **+0.97%** vs **SPY +1.04%** → **alpha −0.07pp today.** Week-to-date **+0.15% vs SPY +0.50% → WTD alpha −0.35pp** (behind this week). Same shape all week: ~58% of the book is SPY (matches the index), JPM's large *cumulative* gain isn't throwing off *daily* alpha, and ATI's red (now much smaller) is the residual drag.
+- **The one real event today was a plumbing catch, not a market move:** the SNPS hard stop expired at the close because the morning routine wrote it with `time_in_force: day` instead of `gtc` (the two OTHER stops — JPM, ATI — are GTC and survived). Caught it at the first routine after expiry, re-armed a GTC stop before any next-session trading could occur. Lesson for future routines: **always place standalone stops as GTC and re-verify tif, not just presence, at close.**
+- **ATI recovered strongly** — closed −2.45% (204.54), up ~+1.41% on the day from 201.69; cushion to the −7% hard (194.99) widened to ~4.67%. Best relative mover in the sleeve today.
 
-## Open positions (3 conviction stocks + 1 index-floor sleeve) — live marks 2026-09-03 ~13:01 ET
-| Symbol | Shares | Avg Cost | Price | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
+## Open positions (3 conviction stocks + 1 index-floor sleeve) — closing marks 2026-09-03
+| Symbol | Shares | Avg Cost | Close | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 361.43 | +1078.97 | +9.63% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT (rising yields = tailwind; SEC margin probe early-stage/priced). Next earnings ~mid-Oct. |
-| SNPS | 24 | 417.00 | 416.46 | −12.96 | −0.13% | **−7% HARD (GTC)** `387.81` | 2026-09-03 | Synopsys — chip-design/EDA software; AI-infra buildout drives EDA demand (AVGO read-through). Beat+raised FY guide 8/29. Grade-A (~80), 3–4 signals. Conservative ~10% starter (Fri NFP + AVGO tape). Converts to 10% trailing once +5%. Next earnings ~Dec. |
-| ATI | 47 | 209.669787 | 201.475 | −385.15 | −3.91% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aerospace/defense + onshoring secular (#3) + trend (#6). B+ starter (~72). Thesis INTACT (no downgrade/cut/adverse filing). Cushion to stop ~3.22%. Converts to 10% trailing once +5%. |
-| SPY | 75 | 767.829091 | 772.79 | +372.08 | +0.65% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / 08-31 (t3) / 09-01 (t4) / 09-03 (trim −13) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO −7%/trailing stop. Buy-and-hold-the-market. |
+| JPM | 34 | 329.695588 | 362.95 | +1130.65 | +10.09% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT (rising yields = tailwind). Next earnings ~mid-Oct. Cushion ~9.12%. |
+| SNPS | 24 | 417.00 | 416.31 | −16.56 | −0.17% | **−7% HARD (GTC)** `387.81` — **RE-PLACED at close** (`8b33dd45`) | 2026-09-03 | Synopsys — chip-design/EDA software; AI-infra buildout drives EDA demand (AVGO read-through). Beat+raised FY guide 8/29. Grade-A (~80). Converts to 10% trailing once +5%. Next earnings ~Dec. Cushion ~6.85%. |
+| ATI | 47 | 209.669787 | 204.54 | −241.10 | −2.45% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aerospace/defense + onshoring secular. B+ starter (~72). Thesis INTACT. Recovered +1.41% today; cushion ~4.67%. Converts to 10% trailing once +5%. |
+| SPY | 75 | 767.829091 | 772.71 | +366.07 | +0.64% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / 08-31 (t3) / 09-01 (t4) / 09-03 (trim −13) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO −7%/trailing stop. Buy-and-hold-the-market. |
 
-**Conviction sleeve: 3 of 5 (two slots OPEN).** **Conviction buys used this week: 2 of 3** (ATI 8/31, SNPS 9/3; SPY floor does NOT consume this budget). **Cash buffer: 10.49%** (on Lauren's ~$10k target). Sizes on equity $100,227.59: JPM ~12.26%, SNPS ~9.97%, ATI ~9.45%, SPY ~57.83% (index sleeve — exempt from the 20% cap by policy).
+**Conviction sleeve: 3 of 5 (two slots OPEN).** **Conviction buys used this week: 2 of 3** (ATI 8/31, SNPS 9/3; SPY floor does NOT consume this budget). **Cash buffer: 10.47%** (on Lauren's ~$10k target). Sizes on equity $100,415.97: JPM ~12.29%, SNPS ~9.95%, ATI ~9.57%, SPY ~57.71% (index sleeve — exempt from the 20% cap by policy).
 
-## Stop-management state (open-orders nested=true — VERIFIED live 2026-09-03 ~13:01 ET)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, status new (resting). qty 34. No ratchet (361.43 < hwm). Cushion ~8.74%.
-- **SNPS −7% hard** `664e29e7-147d-4afb-a821-1623b0f279ed` — stop **387.81**, status new (resting). qty 24. Converts to 10% trailing once +5% in profit (currently −0.13%). Cushion ~6.88%.
-- **ATI −7% hard** `fabe11de-0bce-42db-b6d4-167e33fd639b` — stop **194.99**, status new (resting). qty 47. Cushion ~3.22%. Converts to 10% trailing once +5% (currently −3.91%).
-- **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 75 unencumbered. Confirmed **3 open orders total** (JPM + SNPS + ATI stops).
+## Performance
+- **Today:** equity $100,415.97 vs $99,448.62 (Wed 9/2 close) = **+$967.35 (+0.97%)**. SPY 765.13 → 773.115 (authoritative daily bars) = **+1.04%**. **Alpha today = −0.07pp.**
+- **Week-to-date** (base Fri 8/28 close $100,263.51 → $100,415.97) = **+0.15%**; SPY 769.28 → 773.115 = **+0.50%**. **WTD alpha = −0.35pp.**
 
-## Risk checks (live marks)
-- **(a) Any position −7% or worse un-stopped?** NO. JPM +9.63%, SNPS −0.13% (on −7% hard 387.81), ATI −3.91% (on −7% hard 194.99), SPY +0.65% (index, no stop). **→ No sell trigger; no news-check required.**
-- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM already on trailing; SNPS −0.13%, ATI −3.91% (both far from +5%); SPY carries no stop by policy. Zero conversions pending.
-- **(c) Daily loss cap:** day +0.78% (equity $100,227.59 vs $99,448.62). Up day, cap not hit.
+## Stop-management state (open-orders — VERIFIED live 2026-09-03 ~16:02 ET, post-close)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, GTC, status new (resting). qty 34. No ratchet (362.95 < hwm). Cushion ~9.12%.
+- **ATI −7% hard** `fabe11de-0bce-42db-b6d4-167e33fd639b` — stop **194.99**, GTC, status new (resting). qty 47. Cushion ~4.67%. Converts to 10% trailing once +5% (currently −2.45%).
+- **SNPS −7% hard** `8b33dd45-04f5-450f-b0e1-096796af172c` — stop **387.81**, GTC, status accepted (resting). qty 24. **NEW — replaces the expired `day`-tif stop `664e29e7`.** Converts to 10% trailing once +5% (currently −0.17%). Cushion ~6.85%.
+- **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 75 unencumbered. Confirmed **3 open orders total** (JPM + ATI + SNPS stops).
 
-## Watch / next (next routine: **market-close Thu 2026-09-03**)
-- **ATI:** −3.91%, ticked back down from the open; cushion to −7% hard (194.99) ~3.22%. Thesis intact, no adverse news. Still the watch item — let the stop work, NO averaging down.
-- **SNPS:** −0.13%, holding steady; −7% hard 387.81. Watch it holds through AVGO's jumpy AI tape; converts to 10% trailing at +5%.
-- **JPM:** anchor, +9.63%, ~8.74% cushion; thesis intact; rising yields help.
-- **Cash on target (~$10.5k / ~10.5%):** two conviction slots open and 1 weekly buy left, but do NOT force anything into Fri NFP. Only a clean ≥70 name earns a slot.
-- **Fri NFP (8:30 ET) is the week's gate.** Close routine owns today's mandatory plain-English scorecard + Telegram push.
+## Risk checks (closing marks)
+- **(a) Any position −7% or worse un-stopped?** NO. JPM +10.09%, SNPS −0.17% (on −7% hard 387.81, GTC), ATI −2.45% (on −7% hard 194.99), SPY +0.64% (index, no stop). **→ No sell trigger; no news-check required.**
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM already on trailing; SNPS −0.17%, ATI −2.45% (both far from +5%); SPY carries no stop by policy. Zero conversions pending.
+- **(c) Daily loss cap:** day +0.97% (up day). Cap (−3% intraday) NOT hit.
+
+## Watch / next (next routine: **pre-market Fri 2026-09-04**)
+- **SNPS stop tif:** re-verify the new GTC stop `8b33dd45` is still resting at the next open (it should survive overnight — GTC — unlike the expired day-order). Guard against a repeat: standalone stops go in as GTC.
+- **Fri NFP (8:30 ET) is the week's gate.** August payrolls — the binary macro print. Keep entry discipline; do NOT initiate fresh beta into it. Two conviction slots and 1 weekly buy remain, but only a clean ≥70 name earns a slot.
+- **ATI:** recovered to −2.45% (cushion ~4.67%); thesis intact, let the stop work, NO averaging down.
+- **JPM:** anchor, +10.09%, ~9.12% cushion; thesis intact (rising yields help).
+- **SPY sleeve** captured most of today's up tape as designed (~58% of book, no stop).
 
 ## Recent closes (last 5)
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |
