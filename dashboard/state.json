@@ -1,28 +1,28 @@
 {
-  "last_update": "2026-09-04 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-04 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 99711.45,
+  "equity": 99653.43,
   "cash": 19814.37,
-  "day_pl": -705.53,
-  "day_pl_pct": -0.70,
-  "week_pl_pct": 0.15,
-  "spy_week_pct": 0.50,
-  "alpha_week_pct": -0.35,
+  "day_pl": -763.55,
+  "day_pl_pct": -0.76,
+  "week_pl_pct": -0.61,
+  "spy_week_pct": 0.12,
+  "alpha_week_pct": -0.73,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.70,
-      "current": 358.535,
-      "pl_pct": 8.75,
+      "current": 358.64,
+      "pl_pct": 8.78,
       "stop": 329.85
     },
     {
       "symbol": "ATI",
       "qty": 47,
       "avg_cost": 209.67,
-      "current": 210.665,
+      "current": 210.65,
       "pl_pct": 0.47,
       "stop": 194.99
     },
@@ -30,8 +30,8 @@
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 770.505,
-      "pl_pct": 0.46,
+      "current": 769.93,
+      "pl_pct": 0.39,
       "stop": null
     }
   ],
@@ -80,6 +80,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-04 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,653 · day −0.76% · SPY −0.38% · alpha −0.38%",
+      "body": "A small down day, almost entirely the single Synopsys 7% stop (−$708). Rest of the book held: ATI +3% today (now green), JPM still +8.8%. Trailing SPY −0.61% vs +0.12% for the week. Holding ~$19.8k cash (~20%, ~$9.8k above target) into the Labor Day long weekend; next check-in Tue 9/8. No positions near their stops."
+    },
     {
       "ts": "2026-09-04 12:05 CT",
       "routine": "midday",

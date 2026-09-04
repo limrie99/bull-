@@ -1,3 +1,23 @@
+## 2026-09-04 15:05 CT · market-close
+
+**Close: equity $99,653 · day −0.76% · SPY −0.38% · alpha −0.38% — a small down day, and it was almost entirely one stop.**
+
+**How we're doing (plain English first)**
+We ended the day at **$99,653**, down **$764 (−0.76%)**. The broad market (the S&P 500, ticker SPY) was down **−0.38%**, so we trailed it by about a third of a percent today — that gap is our "alpha" (the extra return, good or bad, versus just owning the market). Nearly all of today's loss is the single Synopsys sale I told you about at midday, not a broad problem with our holdings.
+
+**Why**
+- **Synopsys (SNPS)** hit its automatic 7% safety-net sale this morning, locking in **−$708**. It wasn't bad news about the company — a hot jobs report spooked investors about interest rates and dragged down expensive tech stocks across the board. We bought it just the day before, so it never got a chance to prove itself before the market mood turned. The 7% cap is exactly what kept a rough day from becoming a real dent.
+- **The rest of the book held up.** ATI (our aerospace-metals stock) actually rose **+3%** today and is now green. JPMorgan is still up **+8.8%** since we bought it — and higher interest rates are usually *good* for banks, so its story is intact.
+- **We're carrying more cash than usual** (~$19,800, about 20%) after the Synopsys sale. I chose to hold it rather than rush it back into a jittery, falling market right before a 3-day weekend.
+
+**What happens next**
+Markets are **closed Monday for Labor Day**, so my next check-in is **Tuesday's open**. Then I'll decide whether to put that extra ~$9,800 to work — either topping up our S&P 500 holding or adding a new stock that truly earns its place. I'm in no rush: there's a Federal Reserve meeting on **Sept 16** that could move rates, so keeping some dry powder is sensible.
+
+**Numbers I care about**
+- **Equity $99,653** — down $764 today (−0.76%); for the week we're −0.61% vs. the market's +0.12%, so we're behind by ~0.73% this week, widened by the Synopsys stop.
+- **Cash $19,814 (~20%)** — about $9,800 above my ~$10k target, on purpose, waiting for a better entry.
+- **Two stops resting safely:** JPMorgan (auto-sells if it falls ~10% from its high) and ATI (auto-sells at $194.99). No position is anywhere near its safety net. 🐂
+
 ## 2026-09-04 12:05 CT · midday
 
 **Midday: our safety net sold Synopsys automatically for a small, capped loss — exactly as designed**

@@ -7786,3 +7786,34 @@ Equity −0.70% vs SPY −0.34% (770.505 vs 773.115 prev close) → behind SPY b
 
 ### Actions taken
 Investigated + logged the SNPS −7% stop-out (trade-log appended). Ran Perplexity severity check (→ factor noise, thesis intact). No new buys, no stop changes (JPM trailing + ATI hard both verified resting GTC). Memory written: portfolio.md (overwritten midday snapshot), this research-log entry (appended), messages.md (prepended teacher-voice midday message), dashboard/state.json (overwritten), watchlist.md (SNPS-back-on-bench note). Inbox: nothing pending. Telegram: pushed the stop-triggered/position-auto-closed alert (per CLAUDE.md push events).
+
+### Day summary (market-close 2026-09-04 15:05 CT)
+- **Closing equity:** $99,653.43 · cash $19,814.37 (19.88%) · long_market_value $79,839.06.
+- **Day P/L:** $99,653.43 − $100,416.98 (Thu 9/3 close, account.last_equity) = **−$763.55 = −0.76%**.
+- **SPY day (authoritative daily bars):** 9/3 close 773.115 → 9/4 close 770.18 = **−0.38%**. **Alpha today = −0.76% − (−0.38%) = −0.38pp — behind today.**
+- **Week-to-date:** book base Fri 8/28 close $100,263.51 → $99,653.43 = **−0.61%**; SPY 8/28 close 769.28 → 9/4 close 770.18 = **+0.12%** → **WTD alpha −0.73pp — behind this week.** (Week is Fri–Fri; Mon 9/7 = Labor Day holiday, so this Friday close is the full week.)
+- **Trades placed today:** 1 — SNPS −7% hard stop FIRED at 09:33 ET (24 @ $387.50, realized −$708.00 / −7.07%; already logged in trade-log at midday). NO new buys, NO stop changes at close.
+
+**Closing marks:**
+- **JPM** 34 @ 329.695588 → 358.64 · +$984.11 (**+8.78%**) · 10% trailing floor 329.85, hwm 366.5 (no ratchet, 358.64<hwm) · cushion ~8.0% · size ~12.24%. Softened a touch into the close (−$4.31/sh vs yesterday's mark) but anchor thesis intact — higher rates help banks.
+- **ATI** 47 @ 209.669787 → 210.65 · +$46.07 (**+0.47%**) · −7% hard stop 194.99 · cushion ~7.4% · size ~9.93%. Day **+2.99%** (204.54 → 210.65) — best relative mover; flipped green, cushion widened.
+- **SPY** 75 @ 766.968 → 769.93 · +$222.15 (**+0.39%**) · NO stop (index sleeve) · size ~57.95%. Down ~−0.38% on the day with the tape; the floor's job is to track, not beat.
+- **SNPS** — CLOSED at 09:33 ET (−7% stop, −$708). Proceeds (~$9,300) sit in cash; ~$9.8k above the ~$10k target.
+
+### What worked
+- **The −7% stop did its one job.** SNPS was a fresh 9/3 entry caught by a next-session macro rate shock (hot Aug NFP → rate-hike fear → high-multiple software sold off); the guardrail capped the loss at exactly −7% and yesterday's GTC re-arm is why it fired cleanly instead of leaving the position naked. Loss was bounded and small relative to the book.
+- **ATI recovery accelerated** (+2.99% on the day), flipping the position green and widening the hard-stop cushion to ~7.4% — "let the stop work, don't average down" paying off again.
+- **Risk plumbing clean** — 2 GTC stops verified resting at close (JPM trailing, ATI hard); SPY correctly unencumbered; no naked exposure into the 3-day weekend.
+
+### What didn't
+- **Down day and behind SPY** (−0.76% vs −0.38%; WTD −0.61% vs +0.12%). Almost the entire lag is the single SNPS stop — ex-SNPS the book roughly tracked the index. The alpha sleeve isn't producing daily alpha right now: JPM (biggest single-stock weight) softened while flat-ish, ATI green but small weight.
+- **A fresh Grade-A pick round-tripped to a stop in one session.** No execution error (entry was clean, sized conservatively at ~10%), but initiating a rate-sensitive high-multiple name the day before a binary NFP print is exactly the advisory-guidance pattern (enter on a confirmed base, don't initiate into a binary macro print). Worth noting for the weekly review — the entry-timing guidance is still advisory, and this is a data point for it (rate-duration rather than semis-beta flavor).
+
+### Open questions for next-open (Tue 9/8, after Labor Day)
+- **Redeploy the ~$9.8k excess cash?** SPY floor top-up toward the ~$10k cash target and/or a fresh conviction pick (ADSK/NDSN bench) that clears 2-signal + ≥70 on a CLEAN entry. Not forced — dry powder is fine into the 9/16 FOMC with rate-hike risk live.
+- **SNPS re-entry?** Only on a stabilize-and-reclaim on a calmer rates tape; no knife-catching.
+- **Rates/FOMC:** does the hot-NFP rate-hike narrative persist over the long weekend and into the 9/16 FOMC? It's the dominant driver for the unstopped SPY sleeve (~58% of book) and for any high-multiple pick.
+- **ATI:** watch for a move toward +5% that would convert its hard stop to a 10% trailing (currently +0.47%, not close).
+
+### Actions taken
+Pulled closing account/positions/orders + SPY daily bars from Alpaca; computed authoritative day/week/alpha. No trades, no stop changes (only SNPS' morning stop fired, already logged). Memory written: portfolio.md (overwritten closing snapshot), this research-log Day-summary (appended), messages.md (prepended teacher-voice end-of-day scorecard), dashboard/state.json (overwritten — most important write of the day). Inbox: nothing pending. **Telegram: MANDATORY daily-close push sent** (never skipped per CLAUDE.md).
