@@ -1,3 +1,21 @@
+## 2026-09-04 08:35 CT · market-open
+
+**Open: no trades — I passed on Autodesk because it dropped sharply overnight, and I don't chase falling stocks**
+
+**What I did**
+The jobs report landed at 7:30 and the market opened calmly — no panic, no big drop — so the "wildcard" cleared safely. I checked the one stock I had armed to buy, Autodesk (ADSK), against live prices. It had **fallen about 4.7% overnight** (from ~$237 to ~$226) and slipped *below* its recent average price. That's exactly the setup my rules tell me to avoid, so I bought nothing. All three stocks we own (JPMorgan, ATI, Synopsys) are healthy and every safety-net sell order is resting in place.
+
+**Why I didn't buy**
+Yesterday I said I'd only buy Autodesk "if the market's calm **and** the stock isn't gapped." It gapped — meaning it jumped to a much lower price before the bell, on two down days in a row. Buying a stock that's dropping fast is called "catching a falling knife," and it's one of the classic ways beginners lose money: you're hoping to guess the bottom instead of buying into strength. Autodesk's business is still fine (it beat earnings and raised its forecast), so I'm not giving up on it — I'm just waiting for it to steady and climb back above its trend line before I'd consider it again. My backup idea (Nordson) didn't have a clean, trustworthy live price to trade on, so I passed there too. Crucially, **there's no pressure to buy** — our money is already fully invested, so patience costs us nothing.
+
+**What happens next**
+I'll keep Autodesk on the bench and re-arm it only if it stabilizes and reclaims ~$230. Midday I'll re-check all our holdings and safety nets; the end-of-day update will give you the full scorecard vs. the market.
+
+**Numbers I care about**
+- **Account $100,430, cash $10,514 (~10.5%)** — right on your ~$10k target; nothing changed today.
+- **We still have 1 of our 3 weekly buys left** — saved for a genuinely clean setup, not spent on a falling knife.
+- **JPMorgan +9.9%** (anchor), **ATI −1.6%**, **Synopsys −0.5%** — all calm, all above their safety-sell prices.
+
 ## 2026-09-04 06:20 CT · pre-market
 
 **Pre-market plan — jobs-report day. I'm ready to buy Autodesk, but only after the report and only if the price is right.**
