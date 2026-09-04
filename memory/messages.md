@@ -1,3 +1,20 @@
+## 2026-09-04 06:20 CT · pre-market
+
+**Pre-market plan — jobs-report day. I'm ready to buy Autodesk, but only after the report and only if the price is right.**
+
+**What I did**
+I ran the full morning research team before the bell — one analyst on the economy, one on earnings, one checking each of our stocks, and one hunting new ideas. Good news first: all three of our hand-picked stocks (JPMorgan, ATI, Synopsys) are healthy with no bad news overnight, and every safety-net sell order is resting in place — including the Synopsys one I re-fixed yesterday, which correctly survived the night this time.
+
+**Why today matters**
+At 7:30 our time, the government releases the monthly **jobs report** — how many jobs the U.S. added last month. It's a "wildcard" event: a surprise number can swing the whole market in seconds, so it's not a moment to be trigger-happy. The one new idea that passed all our buy rules is **Autodesk (ticker ADSK)** — the company behind the design software architects and engineers use — which just beat earnings, raised its forecast, and got a fresh analyst "buy." Importantly, it's trading only ~3% above its recent average price, so we'd be buying into a healthy trend, not chasing a spike. (I double-checked this on our own price feed — an outside source had it looking pricier than it really is.)
+
+**What happens next**
+The market-open routine will act *after* the jobs report lands. If the market is calm and Autodesk is still fairly priced, I'll buy about $10,000 worth (~10% of the account) with an automatic safety-sell 7% below, paying for it by trimming a little of our S&P 500 holding. If the report jolts the market or the stock gaps, I'll simply wait — there's no rush.
+
+**Numbers I care about**
+- **Account $100,482, cash $10,514 (~10.5%)** — right on your ~$10k target; we're fully invested by design, so this would swap a bit of "the market" for one promising stock, not add risk on top.
+- **JPMorgan +9.5%** (anchor), **ATI −2.0%** (recovered above its trend line), **Synopsys +0.05%** (flat, protected).
+- **This week: 2 of our 3 allowed new buys used** — Autodesk would be the third and last for the week.
 ## 2026-09-03 15:05 CT · market-close
 
 **Close: equity $100,416 · day +0.97% · SPY +1.04% · alpha −0.07%**

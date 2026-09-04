@@ -1,43 +1,42 @@
 # Portfolio
 
-**Last updated:** 2026-09-03 15:05 CT (**MARKET-CLOSE routine**; /v2/clock is_open:false, next_open 09-04 09:30 ET). Live account: equity **$100,415.97**, cash **$10,514.60 (10.47%)**, long_market_value **$89,901.37**, last_equity (Wed 9/2 close) $99,448.62 → **day +$967.35 (+0.97%)**, status ACTIVE. Conviction sleeve **3 of 5 (JPM, ATI, SNPS); two slots OPEN. Weekly conviction buys 2/3.** **Three stops VERIFIED live resting** (JPM 10% trailing, ATI −7% hard, SNPS −7% hard). **⚠️ Fixed at close:** the SNPS stop set at this morning's buy was submitted as a `day` order (via the OTO-then-replace) and **expired at 16:01 ET / close** — I re-placed it as a proper **GTC** hard stop (`8b33dd45`, 387.81) minutes after close, so SNPS is protected again before the next open. No trades at close.
+**Last updated:** 2026-09-04 06:20 CT (**PRE-MARKET routine**; /v2/clock is_open:false, next_open 09-04 09:30 ET — market OPEN today, NFP 8:30 ET). Live account (~07:13 ET pre-market): equity **$100,481.74**, cash **$10,514.37 (10.46%)**, long_market_value **~$89,967.37**, last_equity (Thu 9/3 close) $100,416.98, status ACTIVE. Conviction sleeve **3 of 5 (JPM, ATI, SNPS); two slots OPEN. Weekly conviction buys 2/3 (1 left).** **All three stops VERIFIED live resting GTC** (JPM 10% trailing, ATI −7% hard, SNPS −7% hard). **SNPS stop `8b33dd45` (387.81, GTC) survived overnight — confirms yesterday's day→gtc fix worked.** **NO TRADES (research routine, market closed).** Pre-market marks are indicative (thin pre-open prints).
 
-## Close read (2026-09-03)
-- **Up day, a hair behind the tape.** Book **+0.97%** vs **SPY +1.04%** → **alpha −0.07pp today.** Week-to-date **+0.15% vs SPY +0.50% → WTD alpha −0.35pp** (behind this week). Same shape all week: ~58% of the book is SPY (matches the index), JPM's large *cumulative* gain isn't throwing off *daily* alpha, and ATI's red (now much smaller) is the residual drag.
-- **The one real event today was a plumbing catch, not a market move:** the SNPS hard stop expired at the close because the morning routine wrote it with `time_in_force: day` instead of `gtc` (the two OTHER stops — JPM, ATI — are GTC and survived). Caught it at the first routine after expiry, re-armed a GTC stop before any next-session trading could occur. Lesson for future routines: **always place standalone stops as GTC and re-verify tif, not just presence, at close.**
-- **ATI recovered strongly** — closed −2.45% (204.54), up ~+1.41% on the day from 201.69; cushion to the −7% hard (194.99) widened to ~4.67%. Best relative mover in the sleeve today.
+## Pre-market read (2026-09-04) — NFP DAY
+- **Coiled into the jobs report.** Book flat pre-open at ~$100,482 (last_equity $100,416.98). **THE GATE = August NFP, 8:30 ET / 7:30 CT** (consensus ~+53-65k, whisper HOT +65-95k, unemp ~4.1%, prior July −23k). Prints BEFORE the open, so the market-open routine acts with it known. **Discipline: no new buys until the print clears and only into an orderly tape.**
+- **All 3 conviction holdings INTACT** (position analyst: zero adverse overnight catalysts). JPM no news / SEC probe quiet; ATI recovered back above its 50dMA, slide was profit-taking; SNPS clean one day in, no China/EDA headlines.
+- **One clean live buy armed for the open: ADSK (~78, 3 signals, +3.19% above 50dMA = clean)** — conditional on a clean post-NFP entry; funded by a ~$10k SPY trim; uses the last weekly buy. NDSN (~73) is the fallback. CRM rejected (+39.55% extended on primary bars).
 
-## Open positions (3 conviction stocks + 1 index-floor sleeve) — closing marks 2026-09-03
-| Symbol | Shares | Avg Cost | Close | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
+## Open positions (3 conviction stocks + 1 index-floor sleeve) — pre-market marks 2026-09-04
+| Symbol | Shares | Avg Cost | Pre-mkt | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 362.95 | +1130.65 | +10.09% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT (rising yields = tailwind). Next earnings ~mid-Oct. Cushion ~9.12%. |
-| SNPS | 24 | 417.00 | 416.31 | −16.56 | −0.17% | **−7% HARD (GTC)** `387.81` — **RE-PLACED at close** (`8b33dd45`) | 2026-09-03 | Synopsys — chip-design/EDA software; AI-infra buildout drives EDA demand (AVGO read-through). Beat+raised FY guide 8/29. Grade-A (~80). Converts to 10% trailing once +5%. Next earnings ~Dec. Cushion ~6.85%. |
-| ATI | 47 | 209.669787 | 204.54 | −241.10 | −2.45% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aerospace/defense + onshoring secular. B+ starter (~72). Thesis INTACT. Recovered +1.41% today; cushion ~4.67%. Converts to 10% trailing once +5%. |
-| SPY | 75 | 767.829091 | 772.71 | +366.07 | +0.64% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / 08-31 (t3) / 09-01 (t4) / 09-03 (trim −13) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO −7%/trailing stop. Buy-and-hold-the-market. |
+| JPM | 34 | 329.695588 | 361.00 | +1064.35 | +9.50% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT (rising yields = tailwind). SEC margin-probe quiet. Next earnings ~mid-Oct. Cushion ~8.63%. |
+| SNPS | 24 | 417.00 | 417.20 | +4.80 | +0.05% | **−7% HARD (GTC)** `387.81` — survived overnight | 2026-09-03 | Synopsys — chip-design/EDA software; AI-infra buildout drives EDA demand. Beat+raised FY guide 8/26. INTACT (no China/EDA news). Converts to 10% trailing once +5%. Next earnings ~Dec. Cushion ~7.04%. |
+| ATI | 47 | 209.669787 | 205.56 | −193.16 | −1.96% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aerospace/defense + onshoring secular. B+ starter (~72). INTACT; recovered above 50dMA (+1.17%). Aug upgrades (Deutsche $262, KeyBanc $258). Converts to 10% trailing once +5%. Cushion ~5.14%. |
+| SPY | 75 | 766.968 | 773.59 | +496.65 | +0.86% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / 08-31 (t3) / 09-01 (t4) / 09-03 (trim −13) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO −7%/trailing stop. Buy-and-hold-the-market. |
 
-**Conviction sleeve: 3 of 5 (two slots OPEN).** **Conviction buys used this week: 2 of 3** (ATI 8/31, SNPS 9/3; SPY floor does NOT consume this budget). **Cash buffer: 10.47%** (on Lauren's ~$10k target). Sizes on equity $100,415.97: JPM ~12.29%, SNPS ~9.95%, ATI ~9.57%, SPY ~57.71% (index sleeve — exempt from the 20% cap by policy).
+**Conviction sleeve: 3 of 5 (two slots OPEN).** **Conviction buys used this week: 2 of 3** (ATI 8/31, SNPS 9/3; SPY floor does NOT consume this budget — 1 buy left). **Cash buffer: 10.46%** (on Lauren's ~$10k target). Sizes on equity $100,481.74: JPM ~12.21%, SNPS ~9.97%, ATI ~9.62%, SPY ~57.74% (index sleeve — exempt from the 20% cap by policy).
 
 ## Performance
-- **Today:** equity $100,415.97 vs $99,448.62 (Wed 9/2 close) = **+$967.35 (+0.97%)**. SPY 765.13 → 773.115 (authoritative daily bars) = **+1.04%**. **Alpha today = −0.07pp.**
-- **Week-to-date** (base Fri 8/28 close $100,263.51 → $100,415.97) = **+0.15%**; SPY 769.28 → 773.115 = **+0.50%**. **WTD alpha = −0.35pp.**
+- **Pre-market:** equity ~$100,481.74 vs last_equity (Thu 9/3 close) $100,416.98 — indicative only (pre-open, thin). Authoritative day P/L will be set at the open/close.
+- **Week-to-date (through Thu 9/3 close):** base Fri 8/28 close $100,263.51 → $100,416.98 = **+0.15%**; SPY 769.28 → 773.115 = **+0.50%**. **WTD alpha = −0.35pp** (behind this week — same shape: ~58% of book is SPY/matches index, JPM's big *cumulative* gain isn't a *daily* alpha driver, ATI's small red is residual drag). NFP + a potential ADSK add are today's swing factors.
 
-## Stop-management state (open-orders — VERIFIED live 2026-09-03 ~16:02 ET, post-close)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, GTC, status new (resting). qty 34. No ratchet (362.95 < hwm). Cushion ~9.12%.
-- **ATI −7% hard** `fabe11de-0bce-42db-b6d4-167e33fd639b` — stop **194.99**, GTC, status new (resting). qty 47. Cushion ~4.67%. Converts to 10% trailing once +5% (currently −2.45%).
-- **SNPS −7% hard** `8b33dd45-04f5-450f-b0e1-096796af172c` — stop **387.81**, GTC, status accepted (resting). qty 24. **NEW — replaces the expired `day`-tif stop `664e29e7`.** Converts to 10% trailing once +5% (currently −0.17%). Cushion ~6.85%.
+## Stop-management state (open-orders — VERIFIED live 2026-09-04 ~07:13 ET, pre-market)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, GTC, status new (resting). qty 34. Cushion ~8.63%.
+- **ATI −7% hard** `fabe11de-0bce-42db-b6d4-167e33fd639b` — stop **194.99**, GTC, status new (resting). qty 47. Cushion ~5.14%. Converts to 10% trailing once +5% (currently −1.96%).
+- **SNPS −7% hard** `8b33dd45-04f5-450f-b0e1-096796af172c` — stop **387.81**, GTC, status new (resting). qty 24. **Survived overnight (GTC) — the day→gtc fix held.** Converts to 10% trailing once +5% (currently +0.05%). Cushion ~7.04%.
 - **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 75 unencumbered. Confirmed **3 open orders total** (JPM + ATI + SNPS stops).
 
-## Risk checks (closing marks)
-- **(a) Any position −7% or worse un-stopped?** NO. JPM +10.09%, SNPS −0.17% (on −7% hard 387.81, GTC), ATI −2.45% (on −7% hard 194.99), SPY +0.64% (index, no stop). **→ No sell trigger; no news-check required.**
-- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM already on trailing; SNPS −0.17%, ATI −2.45% (both far from +5%); SPY carries no stop by policy. Zero conversions pending.
-- **(c) Daily loss cap:** day +0.97% (up day). Cap (−3% intraday) NOT hit.
+## Risk checks (pre-market marks)
+- **(a) Any position −7% or worse un-stopped?** NO. JPM +9.50%, SNPS +0.05% (on −7% hard 387.81), ATI −1.96% (on −7% hard 194.99), SPY +0.86% (index, no stop). **→ No sell trigger.**
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM already on trailing; SNPS +0.05%, ATI −1.96% (both far from +5%); SPY carries no stop by policy. Zero conversions pending.
+- **(c) Daily loss cap:** N/A pre-market (market closed). Re-check at the open; if down >3% intraday post-NFP, no new buys.
 
-## Watch / next (next routine: **pre-market Fri 2026-09-04**)
-- **SNPS stop tif:** re-verify the new GTC stop `8b33dd45` is still resting at the next open (it should survive overnight — GTC — unlike the expired day-order). Guard against a repeat: standalone stops go in as GTC.
-- **Fri NFP (8:30 ET) is the week's gate.** August payrolls — the binary macro print. Keep entry discipline; do NOT initiate fresh beta into it. Two conviction slots and 1 weekly buy remain, but only a clean ≥70 name earns a slot.
-- **ATI:** recovered to −2.45% (cushion ~4.67%); thesis intact, let the stop work, NO averaging down.
-- **JPM:** anchor, +10.09%, ~9.12% cushion; thesis intact (rising yields help).
-- **SPY sleeve** captured most of today's up tape as designed (~58% of book, no stop).
+## Watch / next (next routine: **market-open Fri 2026-09-04**)
+- **NFP 7:30 CT is the gate.** Act AFTER the print. If chaotic/down->3% tape → stand down on all new buys.
+- **ADSK — armed live buy (~78, 3 signals, +3.19% clean).** At the open, re-verify clean non-extended entry (~$235-240, not gapped) on an orderly post-NFP tape → buy ~10% (~$10k) starter, −7% hard stop ~$220-223, fund by trimming SPY ~$10k. Uses the last weekly buy. If not clean → keep as watchlist #1, no trade (no urgency — book fully deployed via SPY).
+- **NDSN (~73) fallback** only if ADSK disqualified AND tape clearly orderly.
+- **JPM** anchor +9.50%, ~8.63% cushion; thesis intact. **ATI** recovered above trend, let the stop work, NO averaging down. **SNPS** clean, re-verify GTC stop still resting at the open. **SPY sleeve** carries the market exposure with no stop by policy.
 
 ## Recent closes (last 5)
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |

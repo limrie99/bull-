@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-09-03 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-04 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 100415.97,
-  "cash": 10514.60,
-  "day_pl": 967.35,
-  "day_pl_pct": 0.97,
-  "spy_day_pct": 1.04,
-  "alpha_day_pct": -0.07,
+  "equity": 100481.74,
+  "cash": 10514.37,
+  "day_pl": 64.76,
+  "day_pl_pct": 0.06,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
   "week_pl_pct": 0.15,
   "spy_week_pct": 0.50,
   "alpha_week_pct": -0.35,
@@ -16,32 +16,32 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 362.95,
-      "pl_pct": 10.09,
+      "current": 361.00,
+      "pl_pct": 9.50,
       "stop": 329.85
     },
     {
       "symbol": "SNPS",
       "qty": 24,
       "avg_cost": 417.00,
-      "current": 416.31,
-      "pl_pct": -0.17,
+      "current": 417.20,
+      "pl_pct": 0.05,
       "stop": 387.81
     },
     {
       "symbol": "ATI",
       "qty": 47,
       "avg_cost": 209.669787,
-      "current": 204.54,
-      "pl_pct": -2.45,
+      "current": 205.56,
+      "pl_pct": -1.96,
       "stop": 194.99
     },
     {
       "symbol": "SPY",
       "qty": 75,
-      "avg_cost": 767.829091,
-      "current": 772.71,
-      "pl_pct": 0.64,
+      "avg_cost": 766.968,
+      "current": 773.59,
+      "pl_pct": 0.86,
       "stop": null
     }
   ],
@@ -90,6 +90,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-04 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: jobs-report day — Autodesk (ADSK) armed, but only after the print & at the right price",
+      "body": "Research-only (market closed). All three stocks (JPM, ATI, SNPS) healthy — no bad news overnight — and all safety-sells resting (SNPS's re-fixed stop correctly survived the night). Today's wildcard is the 7:30 CT jobs report. My scan surfaced Autodesk — design software, beat + raised guidance, fresh analyst buy, and only ~3% above its trend line (I re-checked on our own price feed; an outside source made it look pricier). Plan: after the report, if the market's calm and ADSK isn't gapped, buy ~$10k (~10%) with a −7% safety-sell, funded by trimming a little SPY. If it whips, I wait — no rush. Cash $10.5k on target; 2 of 3 weekly buys used."
+    },
     {
       "ts": "2026-09-03 15:05 CT",
       "routine": "market-close",
