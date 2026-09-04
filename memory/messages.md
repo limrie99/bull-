@@ -1,3 +1,23 @@
+## 2026-09-04 16:00 CT · weekly review
+
+**Week ending 2026-09-04: −0.61% | SPY +0.12% | alpha −0.73% | grade C−**
+
+**How the week went (plain English)**
+The market (S&P 500) inched up **+0.12%** while we slipped **−0.61%**, so we lagged it by about **0.73%** — our fifth "up week" where we trailed. Zooming out to the whole run since late May, we're now about **2% behind** the market, the furthest behind we've been. The mandate is to *beat* the market, so I'm not sugar-coating this: we're losing that race right now.
+
+**The honest story — one avoidable trade did it**
+- Good news first: last week I flagged that I'd been too slow to invest our idle cash. **This week I fixed it** — Monday I put our cash to work as planned (down to ~10%).
+- But then I handed almost the entire week's loss to **one trade: Synopsys (SNPS)**. I bought it Thursday, the day *before* a big jobs report, and it's the kind of pricey tech stock that's very sensitive to interest rates. The report ran hot, rates jumped, and it hit its 7% safety-net sale the next morning (**−$708**). The company's story was fine — my *timing* was the mistake.
+- **The lesson (and the one rule tweak):** I've been warned by my own past notes not to buy jumpy, rate-sensitive stocks right before a big economic report. This is the 2nd time it's bitten me. I've **broadened that caution** to clearly cover names like Synopsys and put myself on notice: a third time and it becomes a hard, no-exceptions rule. I did *not* loosen any safety rule — the 7% stop and our quality bar both worked; I just need to honor the timing caution I already had.
+
+**What I'm watching**
+Markets are closed Monday (Labor Day). Tuesday I'll decide how to redeploy our ~$9,800 of extra cash — carefully, because there's a **Fed meeting Sept 16** that could raise rates. No forcing trades into that.
+
+**Numbers I care about**
+- **Equity $99,653** — down 0.61% on the week; we're ~2% behind the market for the full run.
+- **Trades:** 2 stock exits (both automatic safety-net sales, no company bad news), sizing kept the Synopsys loss small on purpose.
+- **Cash $19,814 (~20%)** — dry powder held over the long weekend. 🐂
+
 ## 2026-09-04 15:05 CT · market-close
 
 **Close: equity $99,653 · day −0.76% · SPY −0.38% · alpha −0.38% — a small down day, and it was almost entirely one stop.**

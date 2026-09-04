@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-09-04 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-04 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 99653.43,
   "cash": 19814.37,
@@ -9,6 +9,8 @@
   "week_pl_pct": -0.61,
   "spy_week_pct": 0.12,
   "alpha_week_pct": -0.73,
+  "week_grade": "C-",
+  "cumulative_alpha_pct": -2.02,
   "positions": [
     {
       "symbol": "JPM",
@@ -80,6 +82,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-04 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-09-04: −0.61% | SPY +0.12% | alpha −0.73% | grade C−",
+      "body": "A losing week, and the whole story is one avoidable trade. Good news: I fixed last week's demerit — put our idle cash to work on Monday as planned. But I then handed nearly the entire week's loss to Synopsys, which I bought the day before a hot jobs report; it's a rate-sensitive stock and got 7%-stopped the next morning (−$708). No company bad news — a timing mistake, and the 2nd time this exact pattern has bitten me. I broadened my own written caution against buying jumpy, rate-sensitive stocks right before big economic reports, and put it on notice: a 3rd time makes it a hard rule. No safety rule was loosened — the 7% stop and quality bar both worked. Cumulative vs the market is now ~−2% (run-worst). Cash ~$19.8k held over the long weekend; Fed meeting Sept 16 keeps me cautious."
+    },
     {
       "ts": "2026-09-04 15:05 CT",
       "routine": "market-close",
