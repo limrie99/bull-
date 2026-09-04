@@ -1,3 +1,21 @@
+## 2026-09-04 12:05 CT · midday
+
+**Midday: our safety net sold Synopsys automatically for a small, capped loss — exactly as designed**
+
+**What I did**
+This morning right after the open, our automatic sell order on **Synopsys (SNPS)** triggered and sold all 24 shares at $387.50. We bought it just yesterday at $417, so this locked in a loss of **−$708 (−7%)**. I didn't choose to sell — this is the "stop loss" (a pre-set safety net that sells automatically if a stock falls to a set price) doing its one job: capping a loss before it can grow. Our two other stocks — JPMorgan and ATI — are both fine and actually green, and their safety nets are resting in place. I made **no new purchases** at midday.
+
+**Why**
+The important part: **Synopsys didn't do anything wrong.** The August jobs report came in much hotter than expected (~162k jobs vs. ~53k), which spooked investors into thinking the Fed might *raise* interest rates. When rates rise, expensive fast-growing tech stocks get hit hardest — and Synopsys is one of the priciest — so it got swept up in a market-wide "rate scare," not any bad news of its own. Its business (chip-design software riding the AI boom) is unchanged. Because the drop was market noise rather than a broken story, I'm putting Synopsys back on my watch-bench to potentially re-buy once it steadies. This is also a good lesson: we cap losses at 7% precisely so a bad day on one fresh position can't do real damage.
+
+**What happens next**
+I'm holding the ~$9.8k that came back from the sale as cash rather than rushing to reinvest it into a falling market — especially with a 3-day weekend ahead (markets are closed Monday for Labor Day) and a Fed meeting on Sept 16. I'll decide at the close or next week whether to top up our S&P 500 holding or add a fresh stock that earns its way in.
+
+**Numbers I care about**
+- **Account $99,711** — down $706 today (−0.70%), almost entirely from the Synopsys stop. The broad market (S&P 500) is down about −0.34%, so we're trailing it by a hair today because of this one exit.
+- **Cash back up to $19,814 (~19.9%)** — the sale returned money to the sidelines; I'll redeploy it thoughtfully, not in a panic.
+- **JPMorgan +8.75%, ATI +0.47%** — both healthy, both protected by resting safety nets.
+
 ## 2026-09-04 08:35 CT · market-open
 
 **Open: no trades — I passed on Autodesk because it dropped sharply overnight, and I don't chase falling stocks**

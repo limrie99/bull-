@@ -7753,3 +7753,36 @@ No trades, no stop changes. Memory written: portfolio.md (overwritten midday sna
 
 ### Actions taken
 Re-armed SNPS GTC hard stop (`8b33dd45`, 387.81) after the morning day-tif stop expired at close. No new buys, no other stop changes. Memory written: portfolio.md (overwritten closing snapshot), this research-log entry (appended), messages.md (prepended teacher-voice end-of-day scorecard), dashboard/state.json (overwritten — most important write of the day). Inbox: nothing pending. **Telegram: MANDATORY daily-close push sent** (never skipped per CLAUDE.md).
+
+---
+
+## 2026-09-04 ~12:05 CT · MIDDAY
+
+### State at wake
+- Clock: is_open true, next_close 09-04 16:00 ET, next_open 09-08 (Mon 9/7 = Labor Day, closed → 3-day weekend).
+- Account: equity $99,711.45, cash $19,814.37 (19.87%), long_mkt_val $79,897.08, last_equity (Thu 9/3 close) $100,416.98. Intraday −$705.53 (−0.70%).
+- **SNPS GONE from positions + SNPS stop GONE from open orders.** Investigated: stop `8b33dd45` (GTC 387.81, re-armed 9/3 16:02 CT) FILLED 24 @ $387.50 at 2026-09-04T14:33:06Z (09:33 ET). Realized −$708.00 (−7.07%). Cash reconciles: prior ~$10,514 + $9,300 SNPS proceeds = $19,814 ✓. The GTC re-arm from yesterday is exactly what made it fire correctly instead of leaving SNPS naked — process fix paid off.
+- Remaining: JPM (34, +8.75%, trailing 329.85 hwm 366.5), ATI (47, +0.47%, hard 194.99), SPY (75, +0.46%, no stop). 2 open orders confirmed.
+
+### SNPS severity check (Perplexity, sonar-pro)
+Rating **(2) sector/factor-driven noise**, NOT a thesis-breaker. Driver: hot August jobs report (~162k vs ~53k expected) → reignited Fed rate-hike fears → 10Y toward multi-year highs → high-multiple/long-duration software sold off (SNPS P/E >70 = very rate-sensitive). No China/EDA export headline, no downgrade, no guidance cut; 8/29 beat-and-raise intact. Amplifier: recent insider selling (Ghazi/Glaser/de Geus) gave a bearish narrative to lean on. SNPS was a fresh 9/3 entry caught by a macro rate move the next session — classic "stop caps a rate-beta shakeout," analogous to the high-beta learning but rate-duration rather than semis-beta. → SNPS returns to watchlist bench for a clean re-entry (stabilize + reclaim on a calmer rates tape).
+
+### Risk management (priority order per routine)
+- (a) Any un-stopped position −7% or worse? NO. JPM +8.75%, ATI +0.47%, SPY +0.46%. SNPS already stopped. → No sell.
+- (b) Any +5%+ needing hard→trailing conversion? NO. JPM already trailing; ATI +0.47% (far from +5%); SPY no-stop by policy. → Zero conversions.
+- (c) Daily loss cap: −0.70% intraday, well inside −3%. Not breached.
+
+### Buy decision
+NO new buys at midday. Justification: midday rule requires a high-conviction BREAKING catalyst — none exists; the tape is a rate-driven risk-off selloff (the worst backdrop to force a buy). Weekly buys 2/3 (SNPS stop-out does NOT refund). Cash ~$19.8k (~19.9%) is ~$9.8k above the ~$10k target, but redeploying into a rate selloff at midday lacks urgency and edge; better handled at close/next-open with a fresh read. Dry powder is also sensible into a 3-day weekend + the 9/16 FOMC (hot-NFP rate-hike risk live). Book still carries ~58% SPY beta + JPM/ATI — not cash-dragging dangerously for an afternoon.
+
+### Benchmark (intraday, authoritative at close)
+Equity −0.70% vs SPY −0.34% (770.505 vs 773.115 prev close) → behind SPY by ~0.36pp today, essentially all of it the single SNPS stop; ex-SNPS the book roughly tracks the index.
+
+### Watch / next
+- **SNPS (~$385):** re-arm only on stabilize + reclaim on a calmer rates tape. No knife-catching.
+- **Redeploy ~$9.8k:** close/next-open — SPY floor top-up toward ~$10k cash and/or a fresh conviction pick (ADSK/NDSN bench) clearing 2-signal + ≥70 on a clean entry. Not forced.
+- **JPM:** higher rates actually help banks (NII tailwind) — anchor intact, ~8.0% cushion. **ATI:** green, above trend, let the stop work. **SPY:** market beta, no stop by policy.
+- Close routine owns the mandatory daily "How we're doing" Telegram + authoritative scorecard.
+
+### Actions taken
+Investigated + logged the SNPS −7% stop-out (trade-log appended). Ran Perplexity severity check (→ factor noise, thesis intact). No new buys, no stop changes (JPM trailing + ATI hard both verified resting GTC). Memory written: portfolio.md (overwritten midday snapshot), this research-log entry (appended), messages.md (prepended teacher-voice midday message), dashboard/state.json (overwritten), watchlist.md (SNPS-back-on-bench note). Inbox: nothing pending. Telegram: pushed the stop-triggered/position-auto-closed alert (per CLAUDE.md push events).
