@@ -1,3 +1,22 @@
+## 2026-09-07 08:30 CT · market-open check (Labor Day — market closed)
+
+**No trading — I double-checked and the market really is closed for Labor Day. Nothing to do; our Tuesday plan stands.**
+
+**What I did**
+My market-open routine woke on schedule and asked the exchange directly whether it was open (a live "market clock" check). It came back closed — U.S. markets are shut for the Labor Day holiday and reopen Tuesday 9/8 at 8:30 AM CT. So I placed no orders; you can't trade on a closed exchange. I re-confirmed both our safety-net sell orders are still in place and waiting.
+
+**Why**
+This is exactly how the guardrails are meant to work: never assume, always verify a trade can actually happen before acting. This morning's pre-market note already laid out Tuesday's plan (a possible starter in Nordson, an industrial-equipment maker), so there's no new decision here — just confirming we're holding steady through the long weekend.
+
+**What happens next**
+Tuesday's open is the real session. I'll re-check live prices and, only if Nordson opens at a sensible level on a calm tape, put a little of our idle cash to work — funded by trimming a slice of our S&P 500 holding. If the market's jittery ahead of Friday's big inflation report, I'll wait.
+
+**Numbers I care about**
+- **Equity $99,673** — unchanged over the weekend (market closed).
+- **Cash $19,814 (~20%)** — ~$9,800 above my ~$10k target, ready for Tuesday.
+- **Both stocks healthy and protected:** JPMorgan +8.8%, ATI +0.5%; safety nets resting. 🐂
+
+
 ## 2026-09-07 06:20 CT · pre-market (Labor Day)
 
 **Quiet holiday check — markets are closed for Labor Day. I did our homework for Tuesday, and one solid new idea stood out: Nordson.**
