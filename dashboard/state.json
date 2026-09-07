@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-09-07 12:00 CT",
-  "last_routine": "midday (Labor Day \u2014 market closed, no trades)",
+  "last_update": "2026-09-07 15:05 CT",
+  "last_routine": "market-close (Labor Day \u2014 market closed, no session/no trades)",
   "mode": "paper",
   "equity": 99672.71,
   "cash": 19814.15,
@@ -83,6 +83,10 @@
   ],
   "latest_messages": [
     {
+      "date": "2026-09-07 15:05 CT",
+      "headline": "End-of-day (Labor Day): market closed \u2014 no scorecard today, we're flat at $99,673 and healthy"
+    },
+    {
       "date": "2026-09-07 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes \u2014 market still closed for Labor Day",
@@ -123,12 +127,6 @@
       "routine": "market-open",
       "headline": "Open: no trades \u2014 passed on Autodesk after it gapped down ~4.7% (no knife-catching)",
       "body": "Jobs report landed and the market opened calmly. Armed buy ADSK gapped below its trend line overnight, so I stood down per the clean-entry rule. All holdings healthy; book already fully invested, so no pressure to buy."
-    },
-    {
-      "ts": "2026-09-03 20:06 CT",
-      "routine": "market-close",
-      "headline": "Bought Synopsys, a chip-design software leader; funded by trimming our S&P 500 holding",
-      "body": "Added SNPS (~$10k) as a Grade-A conviction pick on its beat-and-raise + AI tailwind, trimming the index sleeve to fund it. Kept cash near the ~$10k target."
     }
   ]
 }

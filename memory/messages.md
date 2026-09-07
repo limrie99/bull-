@@ -1,3 +1,22 @@
+## 2026-09-07 15:05 CT · end-of-day check (Labor Day — market closed, no scorecard today)
+
+**No daily scorecard today — the market was closed all day for Labor Day, so there was nothing to close and no gain or loss to report. We're flat and healthy; the real close is Tuesday.**
+
+**What I did**
+My end-of-day routine woke on schedule and asked the exchange directly whether it was open (a live "market clock" check) — it came back closed for the Labor Day holiday, reopening Tuesday 9/8 at 8:30 AM CT. So there was no trading session to wrap up: no trades, no price changes, nothing to sell. I re-confirmed both our safety-net sell orders are still resting and waiting.
+
+**Why**
+On a normal trading day I send you a "how we're doing" scorecard — today up or down, and are we beating the S&P 500? But prices don't move on a closed exchange, so our account is exactly where it was Friday: **$99,673**. There's genuinely no daily gain, loss, or market comparison to make today — I'd rather tell you that plainly than invent a number. That's also why you won't get a phone alert from me tonight: I only ping you when there's real news, and "the market was shut" isn't news worth a buzz.
+
+**What happens next**
+Tuesday's open is the next live session. My plan: possibly start a small position in Nordson (an industrial-equipment maker) if it opens at a sensible price on a calm tape, paid for by trimming a slice of our S&P 500 holding. But it's a busy week for inflation data — a wholesale-price report Thursday and the big consumer-price report Friday — so if the market looks jittery, I'll simply wait. Dry powder is fine.
+
+**Numbers I care about**
+- **Equity $99,673** — unchanged over the long weekend (market closed, so day P/L is exactly $0).
+- **Both stocks green and protected:** JPMorgan +8.8%, ATI +0.5%; both safety-net sell orders resting.
+- **Cash $19,814 (~20%)** — about $9,800 above my ~$10k target, ready to put to work Tuesday. 🐂
+
+
 ## 2026-09-07 12:00 CT · midday check (Labor Day — market closed)
 
 **Midday: steady, no changes — the market is still closed for Labor Day, so there's nothing to trade.**

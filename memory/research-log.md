@@ -7869,3 +7869,22 @@ Pulled closing account/positions/orders + SPY daily bars from Alpaca; computed a
 - **Inbox:** nothing pending.
 - **No new research** — this morning's 06:20 CT pre-market scan set Tuesday's plan (NDSN ~75 as #1 clean gate-clearer if non-gapped/orderly; redeploy ~$9.8k excess cash; do NOT re-arm SNPS/ADSK into CPI week; PPI Thu 9/10, CPI Fri 9/11, FOMC 9/16 with live 25bp-hike risk). Nothing changed over the closed holiday.
 - **Actions taken:** clock/account/positions/orders pulled from Alpaca; memory written — portfolio.md header updated (midday holiday no-op note), this research-log entry appended, messages.md prepended (teacher-voice midday confirmation), dashboard/state.json overwritten (last_update/routine + prepended message, latest_messages ≤ 8). No Telegram push (midday holiday no-op is not a push event per CLAUDE.md — pre-market/midday quiet checks with no trades are explicitly do-NOT-push).
+
+## 2026-09-07 15:05 CT — MARKET-CLOSE routine (Labor Day, market CLOSED — no session to close)
+- **Clock check:** GET /v2/clock → `is_open:false`, ts 2026-09-07T16:01 ET, next_open 2026-09-08T09:30 ET, next_close 2026-09-08T16:00 ET. Market closed all day for Labor Day → **there was no trading session to close.** No trades possible, no orders placed.
+- **State (frozen at Fri 9/4 close):** account equity $99,672.71 = account.last_equity → **flat over the holiday.** cash $19,814.15 (19.88%), long_market_value $79,858.56 (=9,900.55 ATI + 12,193.76 JPM + 57,764.25 SPY), status ACTIVE. Positions: JPM 34 @ 329.695588 px 358.64 (+8.78%), ATI 47 @ 209.669787 px 210.65 (+0.47%), SPY 75 @ 766.968 px 770.19 (+0.42%). Open orders = 2, both resting GTC: ATI −7% hard `fabe11de` @194.99, JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5. No naked exposure.
+- **Risk checks:** (a) Any un-stopped position −7% or worse? NO — all green. → No sell. (b) Any +5%+ needing hard→trailing conversion? NO — JPM already trailing; ATI +0.47%; SPY no-stop by policy. → Zero conversions. (c) Daily loss cap: market closed, equity flat (0.00%), no intraday move → not applicable.
+- **Inbox:** nothing pending.
+- **Telegram:** NO push. The mandatory daily "How we're doing" scorecard is for *trading* days; Labor Day is a market holiday with no close to report (per CLAUDE.md; consistent with today's open/midday no-op routines). Pushing a holiday no-op would be exactly the noise the push rules warn against. The dashboard + messages.md still carry a plain-English note so Lauren isn't left wondering.
+
+### Day summary (market-close 2026-09-07 15:05 CT — HOLIDAY)
+- **Closing equity:** $99,672.71 · cash $19,814.15 (19.88%) · long_market_value $79,858.56. All identical to Fri 9/4 close (prices frozen; market closed).
+- **Day P/L:** $99,672.71 − $99,672.71 (account.last_equity) = **$0.00 = 0.00%.** No session → no move.
+- **SPY day:** N/A — market closed, no new bar. No benchmark move → **no alpha to score today.**
+- **Trades placed today:** 0 — market closed for Labor Day. No stops fired (nothing traded). No stop changes needed (both resting GTC).
+- **What worked:** Guardrail discipline held across all three of today's holiday wakes (open, midday, close) — verified a tradeable session before acting every time, placed nothing on a closed exchange, and kept both individual-stock stops resting GTC over the 3-day weekend so nothing was ever naked.
+- **What didn't:** Nothing to critique — no session. The only "cost" is the ~$9.8k excess cash sitting idle over the long weekend, which is a deliberate dry-powder choice into CPI week, not a miss.
+- **Open questions for next-open (Tue 9/8):** (1) Redeploy the ~$9.8k excess cash — NDSN ~75 starter if non-gapped/orderly (funded by a small SPY trim) and/or SPY floor top-up toward the ~$10k cash target? (2) Do the PPI (Thu 9/10) / CPI (Fri 9/11) prints keep the rate-hike narrative alive into the 9/16 FOMC — the dominant driver for the ~58% SPY sleeve and any high-multiple pick? (3) ATI toward +5% (currently +0.47%) that would convert its hard stop to a 10% trailing?
+
+### Actions taken
+Pulled clock/account/positions/orders from Alpaca; confirmed holiday no-op (equity flat, no session, no alpha). No trades, no stop changes. Memory written: portfolio.md (overwritten holiday-close snapshot), this research-log Day-summary (appended), messages.md (prepended teacher-voice holiday note), dashboard/state.json (overwritten). Inbox: nothing pending. Telegram: no push (holiday no-op — not a trading day).
