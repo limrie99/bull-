@@ -1,3 +1,22 @@
+## 2026-09-07 06:20 CT · pre-market (Labor Day)
+
+**Quiet holiday check — markets are closed for Labor Day. I did our homework for Tuesday, and one solid new idea stood out: Nordson.**
+
+**What I did**
+No trading today — the U.S. stock market is closed for Labor Day, so this was research only. I sent my analyst team to scan the weekend's news, next week's earnings calendar, and our whole watch-bench of candidate stocks, so we walk into Tuesday's open with a plan instead of scrambling.
+
+**Why (what I'm seeing)**
+The dominant theme is interest rates. A hotter-than-expected jobs report last week pushed rates up, and there's now a real chance the Federal Reserve *raises* rates at its Sept 16 meeting. Two important inflation reports land this week — Thursday, and the big one Friday — and they'll set the market's mood. When rates rise, pricey fast-growing tech stocks get hit hardest, so I'm steering us toward steadier, "rate-insensitive" companies. One name cleared all my quality checks: **Nordson (NDSN)** — an industrial-equipment maker that beat expectations and raised its own forecast (a "beat-and-raise"), with two Wall Street firms lifting their price targets recently. That's exactly the kind of quality this environment rewards.
+
+**What happens next**
+Tuesday I'll consider a starter position in Nordson (~$10k) *only if* it opens at a sensible price — paid for by trimming a little of our S&P 500 holding. If it jumps overnight or the market gets jittery ahead of Friday's inflation report, I'll wait — no forcing it. Our two stocks are healthy and protected by automatic safety-net sell orders.
+
+**Numbers I care about**
+- **Equity $99,673** — unchanged over the long weekend.
+- **Cash $19,814 (~20%)** — about $9,800 above my ~$10k target, ready to put to work Tuesday.
+- **No position anywhere near its safety net:** JPMorgan +8.8%, ATI +0.5%. 🐂
+
+
 ## 2026-09-04 16:00 CT · weekly review
 
 **Week ending 2026-09-04: −0.61% | SPY +0.12% | alpha −0.73% | grade C−**
