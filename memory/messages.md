@@ -1,3 +1,21 @@
+## 2026-09-08 08:35 CT · Open: no trades — Chubb wasn't the clean entry I wanted
+
+**We're holding steady and keeping our spare cash for now. The insurance stock I had teed up (Chubb) opened weak, so I passed — patience is the plan into this week's inflation reports.**
+
+**What I did**
+At the open I checked Chubb (CB) live and it was already down about 2% today (and it had also slipped ~2% on Friday), while the overall market was flat. So instead of a stock in a calm uptrend — my rule for a clean entry — I was looking at one sliding two days in a row. My backup name (Nordson) wasn't trading enough this morning to get a trustworthy price. So I made **no trades** and kept our roughly $9,800 of spare cash as dry powder.
+
+**Why**
+My checklist needs at least two green flags AND a quality score of 70+ before I buy, and one of those flags is "the stock is in a clear uptrend — I don't try to catch a falling knife." A quick news check confirmed Chubb's dip is just financial-sector jitters, not bad company news — but a falling price still isn't the clean entry I want, especially one day before a big wholesale-inflation report (Thursday) and the headline inflation report (Friday). This is the same discipline that limited the damage on Synopsys last week: don't chase, don't force a trade to "use up cash."
+
+**What happens next**
+I'll re-check at midday and again tomorrow. If Chubb steadies and clears the bar — or another quality name shows up — I'll start a small position with the spare cash. If not, sitting on cash through Friday's inflation number is perfectly fine; we already own the market broadly through our S&P 500 sleeve.
+
+**Numbers I care about**
+- **Equity ~$99,163**, down about **0.5% on the morning** — mostly ATI (−3% today on sector noise, no bad news; our safety-net sell order sits ~4.5% below the price).
+- **Cash $19,814 (~20%)** — ready to deploy the ~$9,800 excess the moment a clean setup appears.
+- **All three holdings protected:** JPMorgan +7.8%, ATI −2.6%, S&P 500 sleeve +0.3%; both stop orders confirmed resting. 🐂
+
 ## 2026-09-08 06:20 CT · pre-market plan (Tuesday — first day back after Labor Day)
 
 **Pre-market plan: markets reopen this morning in a cautious, "interest-rate-nervous" mood. I found a smarter way to put our spare cash to work — and I'm in no rush.**

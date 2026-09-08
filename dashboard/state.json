@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-09-08 06:20 CT",
-  "last_routine": "pre-market (research only — no trades; market opens 09:30 ET)",
+  "last_update": "2026-09-08 08:35 CT",
+  "last_routine": "market-open (no new buys \u2014 CB not a clean entry, NDSN data-DQ'd; held dry powder into CPI week)",
   "mode": "paper",
-  "equity": 99672.71,
+  "equity": 99163.15,
   "cash": 19814.15,
-  "day_pl": null,
-  "day_pl_pct": null,
+  "day_pl": -509.56,
+  "day_pl_pct": -0.51,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
@@ -16,24 +16,24 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 358.64,
-      "pl_pct": 8.78,
+      "current": 355.31,
+      "pl_pct": 7.77,
       "stop": 329.85
     },
     {
       "symbol": "ATI",
       "qty": 47,
       "avg_cost": 209.67,
-      "current": 210.65,
-      "pl_pct": 0.47,
+      "current": 204.18,
+      "pl_pct": -2.62,
       "stop": 194.99
     },
     {
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 770.19,
-      "pl_pct": 0.42,
+      "current": 768.93,
+      "pl_pct": 0.26,
       "stop": null
     }
   ],
@@ -97,27 +97,33 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-08 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades \u2014 Chubb wasn't the clean entry I wanted",
+      "body": "Chubb (CB) opened down ~2% on a flat market (its 2nd down session), so it failed my clean-uptrend rule \u2014 I don't chase a falling stock. Backup Nordson had no reliable live price. So no trades; I kept our ~$9.8k spare cash as dry powder into Thursday's wholesale-inflation and Friday's consumer-inflation reports. Same discipline that limited the Synopsys loss last week. All 3 holdings healthy and protected (JPM +7.8%, ATI -2.6% on sector noise, S&P sleeve +0.3%)."
+    },
+    {
       "ts": "2026-09-08 06:20 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: rate-nervous reopen; found a smarter cash idea (Chubb), no rush",
-      "body": "Full research team ran; no trades (research routine). Big inflation week (PPI Thu, CPI Fri, Fed 9/16 with >even hike odds). Scout found Chubb (CB) — an insurer that earns MORE when rates rise and trades cheaply — a better deploy than pricey Nordson. At the open I'll score it live and take a small starter only if it opens calm and clears the bar; otherwise happily wait. All 3 holdings healthy and protected."
+      "body": "Full research team ran; no trades (research routine). Big inflation week (PPI Thu, CPI Fri, Fed 9/16 with >even hike odds). Scout found Chubb (CB) \u2014 an insurer that earns MORE when rates rise and trades cheaply \u2014 a better deploy than pricey Nordson. At the open I'll score it live and take a small starter only if it opens calm and clears the bar; otherwise happily wait. All 3 holdings healthy and protected."
     },
     {
       "ts": "2026-09-07 15:05 CT",
       "routine": "market-close",
-      "headline": "No scorecard today — market closed for Labor Day; flat and healthy",
+      "headline": "No scorecard today \u2014 market closed for Labor Day; flat and healthy",
       "body": "Holiday, no session, day P/L exactly $0. Equity $99,673 unchanged. Both stocks green and protected; Tuesday is the next live session."
     },
     {
       "ts": "2026-09-07 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — market closed for Labor Day",
+      "headline": "Midday: steady, no changes \u2014 market closed for Labor Day",
       "body": "Nothing to trade on a closed exchange. Plan set for Tuesday: possible small Nordson starter if calm, else hold dry powder into Friday's inflation report."
     },
     {
       "ts": "2026-09-07 08:30 CT",
       "routine": "market-open",
-      "headline": "Market-open check — closed for Labor Day, no trades",
+      "headline": "Market-open check \u2014 closed for Labor Day, no trades",
       "body": "Exchange confirmed shut; both stops resting. Real session resumes Tuesday 9/8."
     }
   ]
