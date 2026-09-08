@@ -1,3 +1,47 @@
+## 2026-09-08 06:20 CT — PRE-MARKET (Tue · **first live session after Labor Day**; NEW week → weekly conviction buys reset 0/3) · NO TRADES (research routine, market opens 09:30 ET) · Alpaca marks = pre-open indicative
+
+**Market state:** /v2/clock is_open:false, **next_open Tue 2026-09-08 09:30 ET** (opens in ~2.3h). Account (live pre-open ~06:12 CT): equity **$99,306.85** (pre-market indicative; last_equity Fri/holiday $99,672.71), cash **$19,814.15 (~19.95%)**, long_market_value $79,492.70, buying_power $301,836, status ACTIVE. **NEW Mon–Fri week (9/7 holiday–9/11): weekly conviction buys RESET to 0/3.** Conviction sleeve **2/5 (JPM, ATI; 3 OPEN).** **Both stops VERIFIED live resting GTC** (open-orders nested: JPM trailing `8a937ff6` floor 329.85; ATI −7% hard `fabe11de` 194.99; SPY unencumbered by design — 2 open orders total). Ran full 4-agent scan (macro / earnings / position / opportunity-scout). Marks are pre-open indicative (JPM ~354.8, ATI ~210, SPY ~767.5) — re-verify live at the open before acting.
+
+### Market context
+- **Tape:** mildly risk-off into the post-holiday open. ES ~−0.3/−0.4%, NQ flat. Europe red (DAX −0.6%, CAC −0.5%); Asia split (Nikkei firm, Hang Seng −0.9%). VIX mid-teens (~14.5–15.6) — not stressed.
+- **Rates are the driver.** 2Y ~4.4%, 10Y ~4.8% (higher, +~3bp pre-open). Friday's HOT Aug NFP (~162k vs ~56k exp, u-rate 4.1%) revived rate-HIKE fears. FedWatch prices a **25bp HIKE at the Sep 16 FOMC at ~55–60%** (hold ~40–45%, cut ~0%; band 3.50–3.75%).
+- **Binary data week:** **PPI Thu 9/10, CPI Fri 9/11** (both consensus ~+0.2–0.3% m/m; core CPI low-to-mid 3% y/y). Soft prints → hike odds fall ~40–45% (relief rally); hot prints (core ≥+0.3%) → ~65–70% + extended bond selloff. Trade it hawkish-baseline, data-dependent.
+- **Commodities/FX:** Brent ~$96–97 / WTI ~$91–92 firm on Mideast/Hormuz tension (mild inflation impulse); gold soft (~$4,400) on real yields; DXY firm. ECB widely expected to hike Thursday.
+- **Earnings a NON-factor this week** (early-Sept between-quarters lull). Today 9/8: only Casey's (CASY, AMC) is $10B+ and it's outside our large-cap swing universe. Rest of week: retail mid-caps Wed; **Oracle (ORCL) Thu AMC is the lone marquee**; Fri quiet. Tape is macro/rates, not earnings.
+
+### Portfolio watch (all three theses INTACT — no action needed at the open)
+- **JPM** (34 @ 329.70, ~+7.6%, 10% trailing floor **329.85**): no fresh single-firm rating change 9/4–9/8; consensus Buy/Overweight, avg target ~$360 (~in line with ~$355 spot → limited baked-in upside near-term). "Higher-for-longer" rates = net-interest-income tailwind for the thesis (note JPM trimmed FY26 NII guide to ~$103B on markets mix; BAC *raised* its NII). Next earnings ~mid-Oct. Cushion comfortable above the trailing floor. INTACT.
+- **ATI** (47 @ 209.67, ~breakeven, −7% hard **194.99**): thesis arguably STRENGTHENING. Street all Buy/Strong Buy (KeyBanc $258 8/12, BTIG $265 8/7); FY26 guide raised on Q2 beat + record ~$4.4B backlog; aerospace-titanium tightening into Q3 and DLA probing defense-titanium stockpiling = structural supply squeeze / pricing power. Flow: Wellington added (9/7); one director sold ~$501k (9/7) — modest profit-taking, not thesis-changing. INTACT; hard stop well below spot.
+- **SPY** (75, index-floor sleeve, NO stop by policy): no crash-type red flag; VIX not stressed. Elevated index level = the one valuation/multiple headwind if the Fed leans more hawkish 9/16. Watch, don't worry. This ~58% sleeve carries the two-way binary CPI/FOMC risk.
+- **Net:** no stop at risk pre-market; no position needs action at the open. The dominant book-wide variable is the hawkish rate repricing into 9/16 — a read-through TAILWIND for JPM/ATI, a valuation HEADWIND for the SPY sleeve.
+
+### Buy candidates (signals matched + preliminary conviction — market-open routine confirms LIVE and computes final scores)
+Sector rotation leaders in a rising-rate/hike-risk tape: **Energy, Financials, Industrials/Defense** (Utilities/REITs/long-duration growth being sold). Deliberately tilted toward rate-DURABLE and rate-BENEFICIARY names.
+
+1. **CB — Chubb (P&C insurance / Financials), ~$342, ~$135B cap — NEW #1 clean gate-clearer.**
+   - **Signals (≥2 ✔):** #3 secular/rate-beneficiary (higher long yields lift insurer net investment income), #5 financials rotation leader, #6 clean uptrend near highs. **3 signals.**
+   - Catalyst: thematic (rising yields → rising NII), not a single dated event. Next earnings ~Oct 27 (safe, >3 trading days).
+   - **Rate-sensitivity: BENEFITS from CPI/PPI/FOMC** rather than being exposed to it; low ~12–13x multiple = defensive if a hike shock compresses multiples. This is the direct antidote to the SNPS/rate-shock stop-out pattern.
+   - **Preliminary conviction ≈ 74 (B+)** — my rough synthesis of the leans (Fund ~78·30% + Thesis ~68·30% + Sent ~72·20% + Risk ~82·12% + Tech ~75·8%). Clears the ≥70 gate on this estimate; CONFIRM live at the open.
+2. **NDSN — Nordson (Industrials/automation), ~$318, ~$18B cap — CONFIRMED clean gate-clearer, now ranked #2 (was yesterday's #1).**
+   - **Signals (≥2 ✔):** #4 rating upgrade (9/5), #6 uptrend at new 12-mo high, #1 beat-and-raise (8/19: EPS $3.25 vs $3.09, rev $818M vs $780M, FY raised $11.80–12.00) — but that beat is ~3 wks old, no longer "last week", so lean on #4+#6. **2–3 signals.**
+   - No binary event in next 3 trading days (next earnings ~late Nov). Rate-sensitivity: **moderate — ~26–27x fwd P/E carries multiple-compression risk in a hike scare.** A starter, NOT a rate hedge.
+   - **Preliminary conviction ≈ 69–70 (borderline B/B+)** — lower than CB precisely because the 26–27x multiple drags the Risk dimension. Confirm live; size small if taken.
+3. **CW — Curtiss-Wright (Defense/industrial), ~$566, ~$21B.** #3 defense secular + #6 uptrend (#1 Q2 beat 8/5 stale). Gov-contract cash flows rate-insensitive; flag rich ~37x. Next earnings ~Nov 4. Med lean.
+4. **PWR — Quanta (Industrials/electrification-grid), ~$625, ~$92B.** #3 power/electrification tailwind + #6 strong uptrend (+48% YTD; #1 Q2 blowout 7/30). Durable long-cycle backlog but ~37x = compression risk into the print. Next earnings ~Oct 29. Med lean.
+5. **XOM — Exxon (Energy), rotation leader (+44% YTD sector).** #5 sector rotation + #6 uptrend only; no fresh beat-raise → rotation play, not a catalyst name. Med-Low lean.
+
+**Read for the open:** CB is the standout *because* it benefits from this week's data risk rather than being exposed to it — the ideal way to deploy dry cash into a hawkish CPI week without repeating the SNPS mistake. NDSN, CW, PWR all clear/near-clear the 2-signal gate but carry 26–37x multiples → size smaller and don't chase into a hot print. None violate the 3-trading-day pre-earnings rule (all reported Q2; next prints late Oct/early Nov). **Do NOT re-arm SNPS or ADSK** (high-multiple software into a rate-hike week — the exact stopped-out pattern).
+
+### Sell candidates
+- **None.** No held position shows a thesis break, a −7% breach, or a +5%→trailing conversion pending. JPM already on trailing; ATI hard stop resting well below; SPY carries no stop by policy. Let the stops work.
+
+### Plan for the market-open routine (Tue 9/8, 08:30 CT)
+- **Redeploy call owns the open.** ~$9.8k cash sits above the ~$10k target. If the open is **orderly / non-gapped**, a **modest CB starter (~10%, B+ low-to-mid band)** is the preferred deploy — it's rate-beneficiary and defensive into CPI. NDSN #2 if CB gaps or the score doesn't confirm ≥70 live. Fund from cash (and/or a small SPY trim only if needed to stay near the ~$10k target). Compute the FULL conviction score live before any order; require 2+ signals AND ≥70.
+- **Patience is authorized.** Macro read is genuinely two-sided into CPI — deploying dry powder is NOT forced. A rate beneficiary (CB) is the exception that makes deploying *into* the scare sensible; do not force a rich-multiple name (NDSN/CW/PWR) in front of Thu/Fri prints. If nothing confirms clean at the open, holding the ~$9.8k as dry powder through CPI is fine for the day.
+- **Stops:** any new stock buy gets the standard −7% hard stop; SPY sleeve stays stop-less by policy. Keep JPM/ATI stops resting; convert ATI hard→10% trailing only if it reaches +5%.
+- Data week reminder: **PPI Thu 9/10, CPI Fri 9/11, FOMC 9/16 (live 25bp hike risk).**
+
 ## 2026-09-07 06:20 CT — PRE-MARKET (Mon · **LABOR DAY, US MARKET CLOSED** — prep for the Tue 9/8 open; weekly conviction buys 2/3) · NO TRADES (holiday + research routine) · Alpaca marks = Fri 9/4 close
 
 **Market state:** /v2/clock is_open:false, **next_open Tue 2026-09-08 09:30 ET** (Mon 9/7 is Labor Day — no US session today; "overnight" = the long holiday weekend). Account (live ~06:12 CT): equity **$99,672.71**, cash **$19,814.15 (19.88%)**, long_market_value $79,858.56, last_equity (Fri 9/4 close) $99,672.71 (unchanged — weekend), status ACTIVE. Conviction sleeve **2/5 (JPM, ATI; 3 OPEN)**; weekly conviction buys **2/3** (ATI 8/31, SNPS 9/3 — the SNPS stop-out does NOT refund it; **1 buy left**). **Both stops VERIFIED live resting GTC** (open-orders: JPM trailing `8a937ff6` floor 329.85 hwm 366.5; ATI −7% hard `fabe11de` 194.99). SPY unencumbered by design (2 open orders total). Full 4-agent scan ran (macro/earnings/position/scout); prices are Fri 9/4 closes (no fresher print exists — holiday), so re-verify live at the Tue open before acting.

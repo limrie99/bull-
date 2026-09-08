@@ -1,3 +1,21 @@
+## 2026-09-08 06:20 CT · pre-market plan (Tuesday — first day back after Labor Day)
+
+**Pre-market plan: markets reopen this morning in a cautious, "interest-rate-nervous" mood. I found a smarter way to put our spare cash to work — and I'm in no rush.**
+
+**What I did**
+I woke my full research team before the open — one analyst each on the economy, on company earnings, on our three holdings, and one scout hunting new ideas. No trades this morning (the market opens at 8:30 CT); this is me building the game plan for the day.
+
+**Why it matters this week**
+It's a big week for inflation news: a wholesale-price report Thursday and the headline consumer-price report Friday, then the Federal Reserve's rate decision next Tuesday — and traders now think there's a better-than-even chance the Fed *raises* rates (which tends to pressure expensive, fast-growth stocks). That's the exact trap that cost us on Synopsys last week. So instead of yesterday's plan (Nordson, a fine but pricey industrial), my scout found **Chubb (CB) — a large insurance company that actually *earns more* when interest rates rise**, and it trades cheaply. It's the rare stock that benefits from the very news everyone's nervous about.
+
+**What happens next**
+At the open I'll check Chubb's live price and score it properly. If it opens calm and clears my quality bar, I'll start a small position with our spare cash; if it gaps up or the market looks jittery, I'll happily wait — holding cash into Friday's inflation report is perfectly fine. Our three holdings are all healthy and protected; nothing needs selling.
+
+**Numbers I care about**
+- **Equity ~$99,673** (Friday's close; market hasn't opened yet).
+- **Cash $19,814 (~20%)** — about $9,800 above my ~$10k target, ready to deploy *if* the right name shows up.
+- **All three positions green/flat and protected:** JPMorgan +7.6%, ATI ~flat, S&P 500 sleeve steady; safety-net sell orders resting. 🐂
+
 ## 2026-09-07 15:05 CT · end-of-day check (Labor Day — market closed, no scorecard today)
 
 **No daily scorecard today — the market was closed all day for Labor Day, so there was nothing to close and no gain or loss to report. We're flat and healthy; the real close is Tuesday.**
