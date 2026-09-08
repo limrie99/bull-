@@ -7957,3 +7957,27 @@ Pulled clock/account/positions/orders from Alpaca; confirmed holiday no-op (equi
 - **Inbox:** nothing pending.
 - **Benchmark note (intraday, non-authoritative):** book −0.47% vs SPY intraday −0.33% → ~0.14pp behind intraday, mostly ATI's −1.99% factor-noise slip. Close routine owns today's authoritative day/week/alpha scorecard.
 - **Actions taken:** clock/account/positions/orders pulled from Alpaca; memory written — portfolio.md (overwritten midday snapshot), this research-log entry appended, messages.md (prepended teacher-voice "steady, no changes" note), dashboard/state.json (overwritten — last_update/routine + prepended message, latest_messages ≤ 8). **No Telegram push** (quiet midday no-trade check — explicitly do-NOT-push per CLAUDE.md; the mandatory daily "How we're doing" belongs to the close routine).
+
+## 2026-09-08 15:05 CT — MARKET-CLOSE routine (Tue · session closed) · NO TRADES
+- **Clock check:** GET /v2/clock → `is_open:false`, ts 2026-09-08T16:01 ET, next_open 2026-09-09T09:30 ET. Session closed; closing marks pulled.
+- **State (closing):** equity **$99,068.44** vs last_equity (Fri 9/4 close) $99,672.71 → **day −$604.27 (−0.61%)**. cash $19,814.15 (20.00%), long_market_value $79,254.29 (=12,070.00 JPM + 9,744.04 ATI + 57,440.25 SPY), buying_power $301,168.61, status ACTIVE. Positions: JPM 34 @ 329.695588 px 355.00 (+7.68%, today −1.02%), ATI 47 @ 209.669787 px 207.32 (−1.12%, today −1.58%), SPY 75 @ 766.968 px 765.87 (−0.14%, today −0.56%). Open orders = 2, both resting GTC: ATI −7% hard `fabe11de` @194.99, JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5. SPY unencumbered by design. No naked exposure.
+- **Benchmark (authoritative):** SPY 9/8 close **766.06** vs 9/4 close **770.18** (data.alpaca.markets 1Day bars; latest trade 766.06 confirms) → **SPY day −0.53%**. Portfolio day −0.61% → **alpha −0.08pp**. Yesterday's equity confirmed via portfolio/history base_value 99,672.71 asof 2026-09-04 (Mon 9/7 = Labor Day holiday, no bar).
+- **Risk checks (priority order):**
+  - (a) Any un-stopped position −7% or worse? **NO** — worst is ATI −1.12% (cushion to 194.99 ~5.95%). JPM +7.68%, SPY −0.14%. → No sell; no Perplexity news check required.
+  - (b) Any +5%+ needing hard→trailing conversion? **NO** — JPM already trailing; ATI −1.12%; SPY no-stop by policy. → Zero conversions.
+  - (c) Daily loss cap: day −0.61%, well under −3% → NOT breached.
+- **Buy decision:** **NO new buys.** No conviction name cleared the gate on a clean non-falling entry; dry powder held into PPI (Thu 9/10) / CPI (Fri 9/11) / FOMC (9/16). Weekly conviction buys 0/3; conviction sleeve 2/5 (3 open).
+- **Inbox:** nothing pending.
+
+### Day summary (market-close 2026-09-08)
+- **Closing equity:** $99,068.44 · cash $19,814.15 (20.00%) · long_market_value $79,254.29.
+- **Day P/L:** −$604.27 = **−0.61%** (vs last_equity $99,672.71).
+- **SPY day:** −0.53% (766.06 vs 770.18). **Alpha today: −0.08pp** — book tracked the market on a broad down day.
+- **Week-to-date (9/8, first trading day; Mon 9/7 holiday):** −0.61% vs SPY −0.53% → WTD alpha −0.08pp. Cumulative alpha ≈ −2.10% (was −2.02% at 9/4 close).
+- **Trades placed today:** 0. No stops fired. No stop changes needed (both resting GTC).
+- **What worked:** (1) Discipline held — declined Chubb's second-down-session entry rather than force a buy into inflation week; no repeat of the SNPS "initiate into a binary print" mistake. (2) Both stops stayed resting GTC all session, no naked exposure. (3) The book tracked SPY within ~0.08pp — no single-name blowup.
+- **What didn't:** (1) A down day with no alpha generated — the conviction sleeve isn't producing daily alpha (JPM/ATI both softened with the tape). (2) ~$9.8k excess cash sat idle again — a deliberate dry-powder choice, but it's a mild drag on days the market rises.
+- **Open questions for next-open (Wed 9/9):** (1) Redeploy the ~$9.8k excess cash — a clean gate-clearer (2+ signals AND ≥70 AND non-falling entry) or a SPY floor top-up? (2) Does the pre-PPI/CPI tape stay rate-nervous into the 9/16 FOMC (dominant driver for the ~58% SPY sleeve)? (3) ATI toward +5% (currently −1.12%) that would convert its hard stop to a 10% trailing.
+
+### Actions taken
+Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from Alpaca; computed authoritative day/week/alpha. No trades, no stop changes. Memory written: portfolio.md (overwritten closing snapshot), this research-log Day-summary (appended), messages.md (prepended teacher-voice end-of-day scorecard), dashboard/state.json (overwritten — most important write of the day). Inbox: nothing pending. **Telegram: MANDATORY daily-close push sent** (never skipped per CLAUDE.md).

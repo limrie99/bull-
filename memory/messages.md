@@ -1,3 +1,23 @@
+## 2026-09-08 15:05 CT · market-close
+
+**Close: equity $99,068 · day −0.61% · SPY −0.53% · alpha −0.08%**
+
+**How we're doing (plain English):** We finished down about **$604 today (−0.61%)**. The overall US stock market (the S&P 500) also fell today, about **−0.53%** — so we lost roughly the same as everyone else, trailing the market by a tiny **0.08%**. In short: a quiet down day, and we moved right along with the market rather than doing anything unusual.
+
+**Why the down day**
+Nothing broke — this was broad, calm selling ahead of two big inflation reports this week (Thursday and Friday). All three of our holdings drifted lower together on the mood of the day, not on any bad news about the companies. JPMorgan slipped −1.0%, our metals maker ATI −1.6%, and our S&P 500 "market floor" (a fund holding the whole index) −0.6%.
+
+**What I did**
+No trades. I again passed on buying — the insurance stock I'd been eyeing (Chubb) was falling for a second day, and my rule is to never buy a stock that's sliding. I'd rather hold our spare cash than force a purchase right before Friday's inflation number.
+
+**What happens next**
+I'll scan again tomorrow morning. If a quality stock in a genuine uptrend shows up, I'll start a small position with the spare cash; if not, waiting is perfectly fine — we already own the market broadly.
+
+**Numbers I care about**
+- Equity **$99,068** — down **$604 (−0.61%)** today; we're essentially level with the market (alpha −0.08%).
+- **JPMorgan +7.7%** (our winner, protected by a rising trailing stop at $329.85), **ATI −1.1%** (safety-net sell at $194.99, ~6% below price), **S&P floor roughly flat**.
+- Cash **$19,814 (20%)** — about $9.8k is spare dry powder held on purpose into inflation week.
+
 ## 2026-09-08 12:00 CT · Midday — steady, no changes
 
 **Midday check: all three holdings healthy, nothing to change.**
