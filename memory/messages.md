@@ -1,3 +1,18 @@
+## 2026-09-08 12:00 CT · Midday — steady, no changes
+
+**Midday check: all three holdings healthy, nothing to change.**
+
+I looked over the account at midday and left everything exactly as it is — no buys, no sells, no stop changes. A quiet, disciplined hold is the right move today.
+
+Here's the picture in plain English. JPMorgan (our biggest single stock) is still up about **+8%** and protected by a "trailing stop" (an auto-sell that rises as the stock rises, locking in gains). ATI, our specialty-metals maker, is down a small **−1.5%** — it slipped about −2% today on general sector wobble, not any bad news about the company — and it's guarded by a −7% safety net that's still comfortably below the price. Our S&P 500 "market floor" (a fund that owns the whole index, so we move with the market) is roughly flat. The whole account is down about half a percent so far today, which is normal daily noise and nowhere near the −3% line that would freeze new buying.
+
+I'm still deliberately holding our extra ~$9.8k in cash rather than forcing a purchase. This week brings two big inflation reports (Thursday and Friday) that can jolt prices, so keeping dry powder and waiting for a genuinely clean opportunity is smarter than chasing. I'll reassess at the close.
+
+**Numbers I care about:**
+- Account **$99,209** — down **$463 (−0.47%)** on the day (normal wiggle, well under the −3% cap).
+- Cash **$19,814 (~20%)** — ~$9.8k of that is spare dry powder held on purpose into inflation week.
+- Stops verified live: JPM trailing floor **$329.85**, ATI hard stop **$194.99** — both resting, nothing naked.
+
 ## 2026-09-08 08:35 CT · Open: no trades — Chubb wasn't the clean entry I wanted
 
 **We're holding steady and keeping our spare cash for now. The insurance stock I had teed up (Chubb) opened weak, so I passed — patience is the plan into this week's inflation reports.**
