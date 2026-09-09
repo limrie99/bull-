@@ -1,3 +1,33 @@
+## 2026-09-09 15:00 CT — MARKET-CLOSE (Wed · authoritative day/week/alpha scorecard; NO TRADES at close) · /v2/clock is_open:false (16:01 ET)
+
+**Market state (closing):** /v2/clock is_open:false, next_open Thu 2026-09-10 09:30 ET. Account (live 15:01 CT): equity **$98,687.72** vs last_equity (Tue 9/8 close) $99,024.53 → **day −$336.81 (−0.34%)**. cash **$10,025.15 (~10.16%)**, long_market_value **$88,662.57**, buying_power $288,355.80, portfolio_value $98,687.72, status ACTIVE. Conviction sleeve **3/5 (JPM, ATI, CFR); 2 slots OPEN.** Weekly conviction buys **1/3** (CFR; week 9/8–9/11, Mon 9/7 Labor Day).
+
+**Positions — closing marks (data.alpaca.markets current_price):**
+- JPM 34 @ 329.695588 → px **354.71** · +$850.49 / **+7.59%** · mv 12,060.14 (~12.22%) · 10% trailing floor 329.85 hwm 366.5 · today +0.34%.
+- CFR 60 @ 163.15 → px **161.88** · −$76.20 / **−0.78%** · mv 9,712.80 (~9.84%) · −7% hard 151.73 · today −1.06% (settling on 50dMA).
+- ATI 47 @ 209.669787 → px **206.54** · −$147.10 / **−1.49%** · mv 9,707.38 (~9.84%) · −7% hard 194.99 · today −0.38%.
+- SPY 75 @ 766.968 → px **762.43** · −$340.35 / **−0.59%** · mv 57,182.25 (~57.94%) · index-floor sleeve, NO stop by policy · today −0.46%.
+
+**Open orders (VERIFIED live, 3 total):** CFR −7% hard 151.73 `cd725e5b` (GTC exp 12/8) · ATI −7% hard 194.99 `fabe11de` (GTC exp 11/27) · JPM 10% trailing floor 329.85/hwm 366.5 `8a937ff6` (GTC exp 10/13). SPY unencumbered by design. No drift vs stop-management state.
+
+**Trades today:** 1 — BUY CFR 60 @ 163.15 (market-open redeploy, already logged). No stop changes, no sells. daytrade_count 0.
+
+**Risk checks (closing):**
+- (a) Any un-stopped position −7% or worse? **NO** — worst is ATI −1.49% (cushion to 194.99 ~5.6%), CFR −0.78% (cushion ~6.3%). JPM +7.59%, SPY −0.59%. → No sell trigger; no Perplexity news check required.
+- (b) Any +5%+ needing hard→trailing conversion? **NO** — JPM already trailing; ATI −1.49% / CFR −0.78% far from +5%; SPY no-stop by policy. → Zero conversions.
+- (c) Daily loss cap: day −0.34%, well under −3% → not breached.
+
+**Benchmark (authoritative):** SPY 9/8 close **765.96** (position lastday_price) vs EOD **762.43** (current_price; latest trade 762.4 confirms) → **SPY day −0.46%**. Portfolio day −0.34% → **alpha today +0.12pp (ahead).** Note: 1Day SIP bars endpoint returned "subscription does not permit querying recent SIP data" — fell back to position lastday_price/current_price + latest-trade, consistent across all three. Yesterday's equity confirmed via /v2/account last_equity $99,024.53 and portfolio/history base_value 99,672.71 asof 2026-09-04.
+
+### Day summary — 2026-09-09 (Wed)
+- **Closing equity:** $98,687.72. **Day P/L:** −$336.81 / **−0.34%**.
+- **SPY day:** −0.46%. **Alpha today: +0.12pp** — book held up a touch better than the market on a broad, rate-nervous down day into inflation week.
+- **Week-to-date (from Fri 9/4 close $99,672.71; Mon 9/7 holiday):** −0.99% vs SPY WTD −1.01% (762.43 vs 9/4 close 770.18) → **WTD alpha +0.02pp** (essentially even, marginally ahead). Cumulative alpha since inception ≈ **−1.98%** (narrowed ~0.12pp today from −2.10%).
+- **Trades placed:** 1 (BUY CFR at the open). No stop changes, no sells.
+- **What worked:** (1) JPM anchor firmed (+0.34% on a red tape, +7.59% total) — the largest single-name weight actually added while the market fell. (2) CFR's rate-beneficiary profile behaved as designed — the whole book softened less than SPY. (3) All 3 GTC stops resting all session, no naked exposure; discipline held (no forced 2nd-buy into CPI week).
+- **What didn't:** (1) CFR gave back another −1.06% on the day (still −0.78% vs entry) — consolidating on its 50dMA, patience required. (2) ATI drifted −0.38% (−1.49% vs entry, tightest cushion ~5.6%) — factor noise, thesis intact. (3) SPY sleeve (~58% of book) is the market-beta drag on a down day by construction.
+- **Open questions for next-open (Thu 9/10):** (1) PPI Thu 9/10 BMO + ORCL Thu AMC — does the rate-hike narrative into FOMC 9/16 (~56-59% 25bp) stay live, the dominant driver for the ~58% SPY sleeve? (2) Redeploy the last conviction slots only on a CLEAN gate-clearer AFTER CPI Fri — do NOT re-arm SNPS/ADSK; NDSN still needs a reliable live quote. (3) ATI/CFR cushions (~5.6% / ~6.3%) — watch, don't touch, NO averaging down.
+
 ## 2026-09-09 08:40 CT — MARKET-OPEN (Wed · executed the pre-market redeploy; weekly conviction buys 0/3 → 1/3) · TRADED: BUY CFR
 
 **Market state:** /v2/clock is_open:true (09:37 ET), next_close 16:00 ET. Account live ~08:40 CT: equity **$98,694.77**, last_equity (Tue 9/8 close) $99,024.53 → intraday **−$329.76 (−0.33%)**, cash **$10,025.15 (~10.16%)**, long_market_value $88,669.62, status ACTIVE. Conviction sleeve **3/5 (JPM, ATI, CFR; 2 OPEN)**. **3 stops VERIFIED live resting GTC** (CFR −7% hard `cd725e5b` 151.73; ATI −7% hard `fabe11de` 194.99; JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5; SPY unencumbered). Weekly conviction buys **1/3** (CFR; week 9/8–9/11).

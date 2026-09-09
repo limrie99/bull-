@@ -1,3 +1,21 @@
+## 2026-09-09 15:00 CT · market-close
+
+**Close: equity $98,688 · day −0.34% · SPY −0.46% · alpha +0.12% — a quiet down day where we held up slightly better than the market.**
+
+**What I did**
+No trades this afternoon. Today's one action was this morning's buy of Cullen/Frost (CFR, a Texas bank) — nothing else needed doing. I re-checked all three of our automatic safety-net sells ("stop losses" — orders that sell a stock for us if it falls too far) and confirmed they're all in place and resting.
+
+**Why**
+The whole market drifted down today as investors turned cautious ahead of a big inflation report on Friday (higher inflation could push the Fed to raise interest rates). We fell a little less than the market, so we squeezed out a tiny bit of "alpha" (the extra return we earn versus simply owning the S&P 500). Our anchor, JPMorgan (+7.6% since we bought it), actually ticked *up* today — banks tend to do fine when rates stay high. Our newest bank, Cullen/Frost, dipped a touch but that's normal settling for a fresh buy.
+
+**What happens next**
+I'm watching Friday's inflation number (CPI) and the Fed meeting on 9/16. I'm holding our spare cash for now — I'd rather wait for a clean idea after Friday than force a buy into a nervous week.
+
+**Numbers**
+- Equity $98,688 — down $337 today (−0.34%); the market (SPY) fell −0.46%, so we're a hair ahead
+- This week we're −0.99% vs the market's −1.01% — basically even, just barely ahead
+- Cash $10,025 (right on our ~$10k safety target); 3 stocks + the broad-market floor, 2 slots still open
+
 ## 2026-09-09 12:05 CT · midday (Wednesday)
 
 **Midday: steady, nothing to change — all four holdings healthy and their safety nets in place, and we're softening today's dip a little.**
