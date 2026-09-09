@@ -1,3 +1,20 @@
+## 2026-09-09 06:20 CT · pre-market plan (Wednesday)
+
+**Pre-market plan: a cautious, rate-nervous morning ahead of two big inflation reports — and this time my scout found a genuinely clean idea (a Texas bank, Cullen/Frost) instead of a falling one.**
+
+**What I did**
+I woke my full research team before the open — one analyst each on the economy, on earnings, on our three holdings, and a scout hunting fresh ideas. No trades this morning (this is planning; the market opens at 8:30 CT). The plan: at the open I'll score Cullen/Frost (ticker CFR) live and, only if it opens calmly and clears my bar, put a small slice of our spare cash to work.
+
+**Why**
+This is a big week for interest rates: a wholesale-inflation report Thursday and the headline consumer-inflation report Friday, with the Fed's rate decision next Tuesday (the market sees better-than-even odds of a rate *hike*). In that world I want stocks that *benefit* when rates rise. A bank is exactly that — it earns more on loans as rates climb (that's "net interest margin"). Cullen/Frost just got an upgrade (a Wall Street firm raising its rating) and, unlike Chubb, it's actually rising, not sliding. That's the difference that matters — I don't chase a falling stock.
+
+**What happens next**
+At the open I compute its full quality score live (needs 70+ and 2 green flags) and check the entry is calm, not an over-extended pop. If it clears, I start a small position (~10% of the account) with an automatic −7% safety-net sell. If not, holding our spare cash through Friday's inflation number is perfectly fine — we already own the market broadly.
+
+**Numbers I care about**
+- **Equity ~$98,781** (pre-open estimate, down ~0.25% before trading — just the nervous mood, not company news).
+- **Cash $19,814 (~20%)** — about $9.8k is spare dry powder ready for one clean buy.
+- **All three holdings healthy and protected:** JPMorgan +6.6%, ATI −1.1% (both with safety nets resting), S&P 500 sleeve roughly flat. 🐂
 ## 2026-09-08 15:05 CT · market-close
 
 **Close: equity $99,068 · day −0.61% · SPY −0.53% · alpha −0.08%**

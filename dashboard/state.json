@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-09-08 15:05 CT",
-  "last_routine": "market-close (down day in line with market; no trades, dry powder held into inflation week)",
+  "last_update": "2026-09-09 06:20 CT",
+  "last_routine": "pre-market (research; no trades; pre-open indicative marks)",
   "mode": "paper",
-  "equity": 99068.44,
+  "equity": 98780.90,
   "cash": 19814.15,
-  "day_pl": -604.27,
-  "day_pl_pct": -0.61,
+  "day_pl": -243.63,
+  "day_pl_pct": -0.25,
   "week_pl_pct": -0.61,
   "spy_week_pct": -0.53,
   "alpha_week_pct": -0.08,
@@ -16,8 +16,8 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 355.0,
-      "pl_pct": 7.68,
+      "current": 351.45,
+      "pl_pct": 6.6,
       "stop": 329.85
     },
     {
@@ -32,8 +32,8 @@
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 765.87,
-      "pl_pct": -0.14,
+      "current": 763.48,
+      "pl_pct": -0.46,
       "stop": null
     }
   ],
@@ -96,6 +96,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-09 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: rate-nervous morning; scout found a clean idea (Cullen/Frost bank)",
+      "body": "Full research team ran; no trades (research routine). Big inflation week (PPI Thu, CPI Fri, Fed 9/16 with >even hike odds). Scout surfaced Cullen/Frost (CFR) — a bank that earns more as rates rise, freshly upgraded, and actually rising (unlike Chubb, which I've passed three times for sliding). At the open I'll score it live and take a small ~10% starter only if it opens calm, isn't an over-extended pop, and clears the 70+ bar; otherwise I happily hold the ~$9.8k dry powder. All 3 holdings healthy and protected (JPM +6.6%, ATI -1.1%, S&P sleeve ~flat)."
+    },
     {
       "ts": "2026-09-08 15:05 CT",
       "routine": "market-close",
