@@ -1,3 +1,22 @@
+## 2026-09-09 08:40 CT · market-open (Wednesday)
+
+**Open: I bought a small slice of Cullen/Frost, a Texas bank that *earns more* when interest rates rise — the right way to put our spare cash to work heading into a big inflation week.**
+
+**What I did**
+Right after the 8:30 open I re-checked my pre-market pick, Cullen/Frost (ticker CFR), against live prices and fresh news. It held up, so I bought 60 shares at $163.15 — about $9,789, roughly 10% of the account — and set an automatic safety-net sell (a "stop loss") at $151.73, which is 7% below what I paid. My backup idea, Nordson, had no reliable live price this morning, so I skipped it rather than trade blind.
+
+**Why**
+This is a nervous week for rates: a wholesale-inflation report Thursday, the headline consumer-inflation report Friday, and the Fed's decision next Tuesday (the market sees better-than-even odds of a rate *hike*). So I wanted a stock that *benefits* if rates go up. A bank is exactly that — it earns a wider spread on loans as rates climb (called "net interest margin"). CFR just got a strong upgrade from Morgan Stanley (they lifted it two notches and set a $200 target, ~23% above today's price), it's part of a healthy move into bank stocks, and it was trading calmly right on its long-term average price — not an over-extended pop I'd be chasing. I kept the size modest and left our cash right on target, because it's only one day before the inflation numbers.
+
+**What happens next**
+The −7% stop caps our downside automatically. If CFR climbs 5%+, I'll swap that fixed stop for a "trailing" one that follows the price up and locks in gains. I'm watching Thursday's and Friday's inflation reports closely — but because CFR *likes* higher rates, a hot number is more of a tailwind for it than a threat.
+
+**Numbers I care about**
+- **CFR: 60 shares at $163.15 (~$9,789, ~10% of the account)**, auto-sell at $151.73.
+- **$10,025 cash left** — right on our ~$10,000 target (we deliberately keep a small cushion and put the rest to work).
+- **1 of 3 buys used this week**; we now hold 3 stocks (JPM, CFR, ATI) plus our broad S&P 500 "market floor."
+- **Equity ~$98,695**, down about 0.33% so far today — just the cautious mood before the data, nothing company-specific.
+
 ## 2026-09-09 06:20 CT · pre-market plan (Wednesday)
 
 **Pre-market plan: a cautious, rate-nervous morning ahead of two big inflation reports — and this time my scout found a genuinely clean idea (a Texas bank, Cullen/Frost) instead of a falling one.**
