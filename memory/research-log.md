@@ -8171,3 +8171,29 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 **Intraday alpha:** book −0.26% vs SPY ~−0.45% intraday → modestly ahead (softening the down-tape). Not the scorecard — close routine owns the official number. Cumulative alpha since inception ≈ −2.10% (~unchanged).
 
 **Next:** market-close Wed 9/9 — mandatory plain-English scorecard + Telegram (never skipped). Data ahead: ORCL Thu AMC, PPI Thu 9/10, CPI Fri 9/11, FOMC 9/16 (~56-59% 25bp-hike odds). No Telegram this midday (quiet check, per skip rules).
+
+---
+## 2026-09-10 12:05 CT · MIDDAY (Thursday) — steady, no trades
+
+**Env:** market open (/v2/clock is_open:true, 13:01 ET). Required Alpaca+Perplexity vars all present. EQUIBLES empty (skipped per policy). Synced origin/main memory at run start.
+
+**Live account:** equity $98,172.04 · last_equity (Wed 9/9 close) $98,685.46 → intraday **−$513.42 / −0.52%** · cash $10,025.14 (~10.21%) · long_mv $88,146.90 · status ACTIVE.
+
+**Live position marks (12:05 CT):**
+- JPM 34 @ 329.6956 → px 352.75 · +$783.85 / **+6.99%** · 10% trailing floor 329.85 (hwm 366.5), cushion ~6.5%.
+- CFR 60 @ 163.15 → px 162.13 · −$61.20 / −0.62% · −7% hard 151.73, cushion ~6.4%.
+- ATI 47 @ 209.6698 → px 201.885 · −$365.88 / **−3.71%** · −7% hard 194.99, cushion ~3.4% (tightest).
+- SPY 75 @ 766.968 → px 759.17 · −$584.85 / −1.02% · index-floor sleeve, NO stop by policy.
+
+**Open orders (VERIFIED, 3 total):** CFR hard 151.73 `cd725e5b` · ATI hard 194.99 `fabe11de` · JPM trailing floor 329.85/hwm 366.5 `8a937ff6`. SPY unencumbered by design. All match stop-management state — no drift.
+
+**Risk checks:**
+- (a) Any position −7%+ un-stopped? NO. Worst ATI −3.71% (cushion ~3.4%). No mandatory news check required (nothing at −7%). **Discretionary Perplexity 6hr check run on ATI anyway** (tightening cushion + intraday divergence: ATI −~2% since open while SPY +): result CLEAN — no downgrade, no guidance cut, no adverse headline; neutral-to-positive flow (raised FY26 guide, record $4.4B backlog, WFC OW PT $275, new BWXT Navy-nuclear supply deal to 2030). Slide = normal rotation/volatility, thesis intact. No sell.
+- (b) Any +5%+ needing hard→trailing conversion? NO. JPM (+6.99%) already trailing; ATI/CFR negative; SPY no stop by policy. Zero conversions.
+- (c) Daily loss cap: intraday −0.52% vs −3% threshold → NOT breached.
+
+**Decision:** NO trades, NO stop changes. No high-conviction breaking catalyst at midday; cash AT ~$10k floor (any add would trim the SPY CPI-shock-absorber — not justified for no clean name); patience through PPI(today)/CPI(Fri)/FOMC(9/16). Do NOT force into the print (SNPS lesson). ATI: HOLD, do not average down — the 194.99 hard stop is the protection if it keeps sliding; no thesis break means let the stop work, don't pre-empt.
+
+**Intraday alpha:** book −0.52% vs SPY ~−0.42% intraday → marginally behind today, ATI the drag. Not the scorecard — close routine owns the official number. Cumulative alpha since inception ≈ −2.0% (~unchanged).
+
+**Next:** market-close Thu 9/10 — mandatory plain-English scorecard + Telegram (never skipped). Watch ATI cushion into the close (let the stop fire if triggered; no thesis break). Data ahead: CPI Fri 9/11, FOMC 9/16 (~55–60% 25bp-hike odds). No Telegram this midday (quiet check, per skip rules).

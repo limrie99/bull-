@@ -1,3 +1,20 @@
+## 2026-09-10 12:05 CT · midday
+
+**Midday: steady, no changes — quick risk check, everything's safe. Our metals stock (ATI) dipped a bit, so I checked the news and there's nothing wrong.**
+
+**What I did**
+Lunchtime check-in, no trades. I re-confirmed all three of our automatic safety-net sells ("stop losses" — orders that sell a stock for us if it falls too far) are resting exactly where they should be. One of our stocks, ATI (a specialty-metals maker for jet engines and defense), slipped about 2% since this morning, so I ran a quick news scan on it to be sure nothing was breaking.
+
+**Why**
+The news came back clean — no analyst downgrades, no cut to the company's forecast, nothing bad. In fact the recent headlines are good: ATI raised its own profit outlook, has a record order backlog, and just signed a new long-term supply deal with the U.S. Navy's nuclear program. So today's dip looks like ordinary market shuffling, not a broken story — the kind of wiggle I let our safety net handle rather than panic-selling. I made no new buys because nothing urgent or high-quality appeared, and our cash is right at its ~$10,000 safety line; I'd rather hold that cushion through tomorrow's big inflation report than force a trade into a jittery day.
+
+**What happens next**
+I'll send the full daily scorecard at market close this afternoon. If ATI keeps sliding all the way to its safety-net price ($194.99), it sells automatically and caps the loss — but the story's intact, so I'm letting the stop do its job, not jumping the gun.
+
+**Numbers**
+- Equity ~$98,172 (down ~$513 / −0.52% today — a hair behind the market's ~−0.42%, with ATI the main drag)
+- JPMorgan is our winner at +7.0%; ATI −3.7%, Cullen/Frost −0.6% — all normal ranges
+- Cash $10,025 (~10%, right on target); 2 of our 5 stock slots still open for a clean idea after Friday's inflation report
 ## 2026-09-10 08:35 CT · market-open
 
 **Open: no trades — I looked hard at Deere and it wasn't a clean enough setup, so I kept our safety cash and stayed patient.**
