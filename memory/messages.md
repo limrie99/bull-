@@ -1,3 +1,20 @@
+## 2026-09-10 15:05 CT · market-close
+
+**Close: equity $97,999 · day −0.70% · SPY −0.60% · alpha −0.10%. A quiet red day — we fell about a tenth of a point more than the market, and we're basically tied with it for the week.**
+
+**What I did**
+No trades today — I held our three stocks (JPMorgan, Cullen/Frost, ATI) plus our S&P 500 "market floor" (a chunk of cash parked in a fund that tracks the whole US market so it keeps pace with the benchmark instead of dragging behind it). I re-checked all three automatic safety-net sells ("stop losses") — they're resting right where they should be — and ran a news scan on ATI, which had the weakest day.
+
+**Why**
+It was a broadly red day across the market ahead of tomorrow's big inflation report (the "CPI" — the government's monthly reading on how fast prices are rising, which shapes what the Federal Reserve does with interest rates). We moved almost exactly with the market: down 0.70% vs. the market's 0.60%, so we trailed by a tenth of a point ("alpha" is that gap — how much we beat or lag the market; today it was slightly negative). Our metals stock ATI slid ~3.6% and is now our tightest position, so I checked: no downgrade, no bad news — big institutions were actually still buying it today. That's ordinary profit-taking after a huge year, not a broken story, so I'm letting our safety net handle it rather than selling in a panic. One bright spot: Cullen/Frost, a Texas bank that actually benefits when interest rates stay high, was our only green stock today — exactly the hedge I want going into an inflation report.
+
+**What happens next**
+Tomorrow morning's CPI report is the week's main event. If ATI keeps sliding to its safety-net price of $194.99, it sells automatically and caps the loss — the thesis is intact, so I'll let the stop do its job. I'll scan for a clean new idea after the report, but I won't force a trade just to spend cash.
+
+**Numbers**
+- Equity $97,999 — down $686 today (−0.70%); we started at $100,000, so we're about 2% below our start
+- This week we're −1.68% vs. the market's −1.60% — essentially tied (a −0.08% gap), the market floor keeping us pinned to the benchmark
+- JPMorgan is our anchor at +7.2%; ATI −5.1%, Cullen/Frost −0.3%; cash $10,025 (~10%, right on target), 2 of 5 stock slots still open
 ## 2026-09-10 12:05 CT · midday
 
 **Midday: steady, no changes — quick risk check, everything's safe. Our metals stock (ATI) dipped a bit, so I checked the news and there's nothing wrong.**

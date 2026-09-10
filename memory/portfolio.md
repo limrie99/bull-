@@ -1,40 +1,42 @@
 # Portfolio
 
-**Last updated:** 2026-09-10 12:05 CT (**MIDDAY routine**, /v2/clock is_open:true, 13:01 ET). **NO TRADES, NO STOP CHANGES** — all risk checks clear. Account (live intraday): equity **$98,172.04** (last_equity Wed 9/9 close $98,685.46 → indicative intraday **−$513.42 / −0.52%**), cash **$10,025.14 (~10.21%)**, long_market_value **$88,146.90**, buying_power $286,911.87, status ACTIVE. **All three individual-stock stops VERIFIED live resting GTC** (3 open orders: CFR −7% hard `cd725e5b` @151.73; ATI −7% hard `fabe11de` @194.99; JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5; SPY unencumbered by design). Risk checks all clear (no −7% un-stopped, no +5% conversion pending, loss cap not breached). **Week (9/8–9/11): weekly conviction buys 1/3** (CFR). Conviction sleeve **3/5 (JPM, ATI, CFR); 2 slots OPEN.**
+**Last updated:** 2026-09-10 15:05 CT (**MARKET-CLOSE routine**, /v2/clock is_open:false, next_open Fri 2026-09-11 09:30 ET). **NO TRADES today.** Account (closing): equity **$97,999.03** (last_equity Wed 9/9 close $98,685.46 → **day −$686.43 / −0.70%**), cash **$10,025.14 (~10.23%)**, long_market_value **$87,973.89**, buying_power $286,427.45, status ACTIVE. **All three individual-stock stops VERIFIED live resting GTC** (3 open orders: CFR −7% hard `cd725e5b` @151.73; ATI −7% hard `fabe11de` @194.99; JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5; SPY unencumbered by design). Risk checks all clear (no −7% un-stopped, no +5% conversion pending, loss cap not breached). **Week (9/8–9/11, Mon 9/7 Labor Day): weekly conviction buys 1/3** (CFR). Conviction sleeve **3/5 (JPM, ATI, CFR); 2 slots OPEN.**
 
-## Indicative scorecard (2026-09-10 12:05 CT · intraday, NOT authoritative — close owns the day)
-- **Intraday P/L: −$513.42 / −0.52%.** SPY intraday ~−0.42% (759.17 vs 9/9 close ~762.40). **Indicative alpha today slightly negative (~−0.1pp)** — roughly tracking a mildly red PPI-morning tape into CPI; ATI's ~2% intraday slide is the main drag.
-- Authoritative day/week/alpha scorecard is written by the market-close routine.
+## Official close scorecard (2026-09-10 · AUTHORITATIVE — this routine owns the day)
+- **Day P/L: −$686.43 / −0.70%** (equity $97,999.03 vs 9/9 close $98,685.46).
+- **SPY day: −0.60%** (9/9 close 762.425 → 9/10 close 757.87).
+- **Alpha today: −0.10pp** (we lagged the market by about a tenth of a point — a red-tape day where our slightly-more-defensive book still fell a hair more, ATI the main drag).
+- **Week-to-date (base Fri 9/4 close $99,672.71): −$1,673.68 / −1.68%.** SPY week (770.18 → 757.87) **−1.60%** → **week alpha −0.08pp** (essentially tracking the index through the pre-CPI drift, a whisker behind).
 
-## Open positions (3 conviction stocks + 1 index-floor sleeve) — live marks 2026-09-10 12:05 CT
-| Symbol | Shares | Avg Cost | Px (live) | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
+## Open positions (3 conviction stocks + 1 index-floor sleeve) — closing marks 2026-09-10
+| Symbol | Shares | Avg Cost | Px (close) | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 352.75 | +783.85 | +6.99% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT/strengthening (higher rates = NII tailwind; Greece expansion 9/9). Next earnings ~10/13. Cushion ~6.5% to floor. |
-| CFR | 60 | 163.15 | 162.13 | −61.20 | −0.62% | **−7% HARD (GTC)** `151.73` | 2026-09-09 | Cullen/Frost — Texas regional bank; RATE-BENEFICIARY (higher rates → wider NIM); fresh 2-notch MS upgrade (OW, PT $200). B+ starter (~72). Consolidating on 50dMA; monitor Zacks FY26 EPS-cut divergence. Div $1.03 payable 9/15. Converts to 10% trailing once +5%. Cushion ~6.4%. |
-| ATI | 47 | 209.669787 | 201.885 | −365.88 | −3.71% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aero/defense + onshoring secular; rate-insensitive. B+ starter (~72). Thesis INTACT (record $4.4B backlog; raised FY26 guide; WFC OW PT $275; new BWXT Navy-nuclear supply deal to 2030). Midday dip is rotation/volatility, NO thesis break (Perplexity 4hr check clean). Converts to 10% trailing once +5%. Cushion ~3.4% (tightest — watch). |
-| SPY | 75 | 766.968 | 759.17 | −584.85 | −1.02% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / 08-31 (t3) / 09-01 (t4) / 09-03 (trim −13) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO −7%/trailing stop. Buy-and-hold-the-market. |
+| JPM | 34 | 329.695588 | 353.56 | +811.39 | +7.24% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT/strengthening (higher rates = NII tailwind; Greece expansion 9/9). Next earnings ~10/13. Cushion ~6.7% to floor. |
+| CFR | 60 | 163.15 | 162.66 | −29.40 | −0.30% | **−7% HARD (GTC)** `151.73` | 2026-09-09 | Cullen/Frost — Texas regional bank; RATE-BENEFICIARY (higher rates → wider NIM); fresh 2-notch MS upgrade (OW, PT $200). B+ starter (~72). Ticked green today (+0.48%). Div $1.03 payable 9/15. Converts to 10% trailing once +5%. Cushion ~6.7%. |
+| ATI | 47 | 209.669787 | 199.00 | −501.48 | −5.09% | **−7% HARD (GTC)** `194.99` | 2026-08-31 | ATI Inc. — specialty metals/titanium for jet engines & defense; aero/defense + onshoring secular; rate-insensitive. B+ starter (~72). Thesis INTACT (record $4.4B backlog; raised FY26 guide; WFC OW PT $275; BWXT Navy-nuclear deal to 2030). Slid −3.65% today; Perplexity close check = severity-3 ordinary profit-taking, NO thesis break, institutions still accumulating. Cushion ~2.0% (tightest — stop will fire automatically if it keeps sliding). |
+| SPY | 75 | 766.968 | 757.87 | −682.35 | −1.19% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10 (t1) / 08-11 (t2) / 08-31 (t3) / 09-01 (t4) / 09-03 (trim −13) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO −7%/trailing stop. Buy-and-hold-the-market. |
 
-**Conviction sleeve: 3 of 5 (two slots OPEN).** **Conviction buys used this week: 1 of 3** (CFR; week 9/8–9/11). **Cash buffer: ~10.21%** (right at the ~$10k / ~10% target — no excess deploy budget; any new conviction add would require trimming the SPY floor first). Sizes on live equity $98,172.04: JPM ~12.22%, CFR ~9.91%, ATI ~9.66%, SPY ~58.00% (index sleeve — exempt from the 20% cap by policy).
+**Conviction sleeve: 3 of 5 (two slots OPEN).** **Conviction buys used this week: 1 of 3** (CFR; week 9/8–9/11). **Cash buffer: ~10.23%** (right at the ~$10k / ~10% target — no excess deploy budget; any new conviction add would require trimming the SPY floor first). Sizes on closing equity $97,999.03: JPM ~12.27%, CFR ~9.96%, ATI ~9.54%, SPY ~58.00% (index sleeve — exempt from the 20% cap by policy).
 
-## Stop-management state (open-orders — VERIFIED live 2026-09-10 12:05 CT)
-- **CFR −7% hard** `cd725e5b-c593-4dde-8c72-1dda0cfbb8ae` — stop **151.73**, GTC (expires 2026-12-08), resting. qty 60. Cushion ~6.4% (px 162.13). Converts to 10% trailing once +5% (currently −0.62%).
-- **ATI −7% hard** `fabe11de-0bce-42db-b6d4-167e33fd639b` — stop **194.99**, GTC (expires 2026-11-27), resting. qty 47. Cushion ~3.4% (px 201.885, tightest). Converts to 10% trailing once +5% (currently −3.71%).
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, trail 10%, GTC (expires 2026-10-13), resting. qty 34. Cushion ~6.5% (px 352.75).
+## Stop-management state (open-orders — VERIFIED live 2026-09-10 15:05 CT)
+- **CFR −7% hard** `cd725e5b-c593-4dde-8c72-1dda0cfbb8ae` — stop **151.73**, GTC (expires 2026-12-08), resting. qty 60. Cushion ~6.7% (px 162.66). Converts to 10% trailing once +5% (currently −0.30%).
+- **ATI −7% hard** `fabe11de-0bce-42db-b6d4-167e33fd639b` — stop **194.99**, GTC (expires 2026-11-27), resting. qty 47. Cushion ~2.0% (px 199.00, tightest). Converts to 10% trailing once +5% (currently −5.09%).
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — hwm **366.5**, floor **329.85**, trail 10%, GTC (expires 2026-10-13), resting. qty 34. Cushion ~6.7% (px 353.56).
 - **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 75 unencumbered. Confirmed **3 open orders total** (CFR + ATI + JPM stops).
 
-## Risk checks (live 2026-09-10 12:05 CT)
-- **(a) Any position −7% or worse un-stopped?** NO. ATI −3.71% (worst, cushion ~3.4%), CFR −0.62% (cushion ~6.4%), SPY −1.02%, JPM +6.99%. **→ No sell trigger.** (ATI 4hr Perplexity news check run proactively given the tightening cushion → clean, thesis intact.)
+## Risk checks (close 2026-09-10 15:05 CT)
+- **(a) Any position −7% or worse un-stopped?** NO. ATI −5.09% (worst, cushion ~2.0%), CFR −0.30% (cushion ~6.7%), SPY −1.19%, JPM +7.24%. **→ No sell trigger.** (ATI Perplexity close check run given the tightening cushion → clean, severity-3 ordinary profit-taking, thesis intact.)
 - **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM already on trailing; ATI/CFR negative; SPY carries no stop by policy. Zero conversions pending.
-- **(c) Daily loss cap:** intraday −0.52%, well under −3% → NOT breached (moot — no buys planned).
+- **(c) Daily loss cap:** day −0.70%, well under −3% → NOT breached (moot — market closed, no buys).
 
-## Why NO TRADES at midday (2026-09-10)
-- **No high-conviction breaking catalyst** surfaced that would justify a midday deviation from the pre-market plan. Cash is AT the ~$10k floor — any add would require trimming the SPY shock-absorber into CPI (Fri). Book already ~58% market via SPY + 3 conviction names; weekly buys 1/3. Patience through the PPI (today) / CPI (Fri) / FOMC (9/16) gate is the base case — do NOT force a trade into the print (the SNPS lesson).
-- **ATI weakest (−3.71%, from −1.78% at the open)** — checked news (last 6hr): NO downgrade, NO guidance cut, NO adverse headline; coverage neutral-to-positive (raised FY26 guide, record backlog, WFC OW $275, BWXT Navy-nuclear deal to 2030). Slide reads as normal rotation/volatility, not a thesis break. **HOLD; do NOT average down.** Hard stop at 194.99 (~3.4% below) is the protection.
+## Why NO TRADES today (2026-09-10)
+- Market-close routine — no trading action taken (market closed at 16:00 ET; this routine reports the day). Through the session the pre-market/open/midday plan held: **patience through the inflation gauntlet** (PPI today, **CPI Fri 9/11**, **FOMC 9/16**), cash AT the ~$10k floor (no deploy budget without trimming the SPY CPI-shock-absorber), and no clean gate-clearer to justify that trim. The SNPS lesson (don't force beta into a binary print) held.
+- **ATI weakest (−5.09%, slid −3.65% on the day, cushion tightened to ~2.0%)** — Perplexity close check: NO downgrade, NO guidance cut, NO adverse ATI-specific headline; today's flow is institutional accumulation filings. Severity-3 ordinary profit-taking / rotation after an ~80% YTD run, NOT a thesis break. **HOLD; do NOT average down.** The 194.99 hard stop (~2.0% below) is the protection — if it keeps sliding it fires automatically; we let the stop work rather than pre-empt.
 
-## Watch / next (next routine: **market-close Thu 2026-09-10**)
-- **ATI tightest cushion (~3.4%)** — watch into the close; hard stop 194.99 will fire automatically if it keeps sliding (no thesis break = let the stop do its job, don't pre-empt). CFR (~6.4%), JPM anchor +6.99% on trailing. **SPY sleeve** ~58% market beta, two-way PPI/CPI/FOMC risk, no stop by policy.
-- **Cash on target (~$10k)** — no forced deploy; 2 conviction slots open for a CLEAN gate-clearer AFTER CPI Fri. Do NOT re-arm SNPS/ADSK. DE re-arms only on a base/reclaim (not the current fade); NDSN needs a reliable live quote.
-- **Data week:** PPI Thu 9/10 (out), ORCL + ADBE prints in play, **CPI Fri 9/11**, **FOMC 9/16** (~55–60% 25bp-hike risk). CFR is rate-BENEFICIARY — a hot CPI is a relative tailwind for it.
+## Watch / next (next routine: **pre-market Fri 2026-09-11**)
+- **CPI Fri 9/11** is the week's main event — a hot print raises Sept-hike odds (rate-BENEFICIARY CFR gets a relative tailwind; long-duration/high-multiple names get pressured). **ATI tightest cushion (~2.0%)** — the hard stop 194.99 will fire automatically on a further slide; no thesis break = don't pre-empt.
+- **Cash on target (~$10k)** — no forced deploy; 2 conviction slots open for a CLEAN gate-clearer AFTER CPI Fri. Do NOT re-arm SNPS/ADSK. DE re-arms only on a base/reclaim; NDSN needs a reliable live quote.
+- **SPY sleeve** ~58% market beta, two-way CPI/FOMC risk, no stop by policy — this is the deliberate index-tracking core.
 
 ## Recent closes (last 5)
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |

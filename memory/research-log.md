@@ -1,3 +1,28 @@
+## 2026-09-10 15:05 CT — MARKET-CLOSE (Thu · authoritative day scorecard; NO TRADES) · red pre-CPI tape, tracked the market
+
+**Market state (closing):** /v2/clock is_open:false, next_open Fri 2026-09-11 09:30 ET. Account (close): equity **$97,999.03** vs last_equity (Wed 9/9 close) $98,685.46 → **day −$686.43 (−0.70%)**. cash **$10,025.14 (~10.23%)**, long_market_value **$87,973.89**, buying_power $286,427.45, portfolio_value $97,999.03, status ACTIVE. Conviction sleeve **3/5 (JPM, ATI, CFR); 2 slots OPEN.** Weekly conviction buys **1/3** (CFR; week 9/8–9/11, Mon 9/7 Labor Day). daytrade_count 0.
+
+**Closing position marks (15:05 CT):**
+- JPM 34 @ 329.6956 → px 353.56 · +$811.39 / **+7.24%** · 10% trailing floor 329.85 (hwm 366.5), cushion ~6.7%.
+- CFR 60 @ 163.15 → px 162.66 · −$29.40 / −0.30% · −7% hard 151.73, cushion ~6.7%. (Only green name today, +0.48%.)
+- ATI 47 @ 209.6698 → px 199.00 · −$501.48 / **−5.09%** · −7% hard 194.99, cushion ~2.0% (tightest).
+- SPY 75 @ 766.968 → px 757.87 · −$682.35 / −1.19% · index-floor sleeve, NO stop by policy.
+
+**Open orders (VERIFIED, 3 total):** CFR hard 151.73 `cd725e5b` · ATI hard 194.99 `fabe11de` · JPM trailing floor 329.85/hwm 366.5 `8a937ff6`. SPY unencumbered by design. All match stop-management state — no drift. Today's closed orders: NONE.
+
+**Risk checks:**
+- (a) Any position −7%+ un-stopped? NO. Worst ATI −5.09% (cushion ~2.0%, above the −7% trigger). **Perplexity ATI close check** (tightening cushion + −3.65% day): CLEAN — no downgrade, no guidance cut, no adverse ATI-specific headline; today's ATI news is institutional ownership filings (accumulation). Severity **(3) ordinary profit-taking / rotation** after an ~80% YTD run, thesis intact. No sell.
+- (b) Any +5%+ needing hard→trailing conversion? NO. JPM (+7.24%) already trailing; ATI/CFR negative; SPY no stop by policy. Zero conversions.
+- (c) Daily loss cap: day −0.70% vs −3% threshold → NOT breached.
+
+### Day summary (2026-09-10 close)
+- **Closing equity: $97,999.03.** Day P/L **−$686.43 / −0.70%.** SPY day **−0.60%** (762.425 → 757.87). **Alpha today −0.10pp** (a whisker behind on a red tape). Week-to-date (base Fri 9/4 close $99,672.71): **−$1,673.68 / −1.68%**; SPY week (770.18 → 757.87) **−1.60%** → **week alpha −0.08pp**. Cumulative alpha since inception still ≈ −2%.
+- **Trades placed: NONE.** Held the whole session through the pre-CPI drift; cash AT the ~$10k floor, no clean gate-clearer to justify trimming the SPY shock-absorber into the print.
+- **What worked:** (1) CFR — the rate-beneficiary — was the lone green name (+0.48%) on a red day, as designed for a hot-CPI hedge. (2) JPM anchor held +7.24% on its trailing floor. (3) Discipline held: no forced beta into the CPI/FOMC gate (the SNPS lesson).
+- **What didn't:** (1) ATI dragged (−3.65% on the day, cushion now ~2.0%) — ordinary profit-taking, not a thesis break, but it's the position most likely to stop out on a further slide. (2) Book fell a touch more than SPY today (−0.70% vs −0.60%), so a fractionally negative day alpha; the SPY sleeve (~58%) means we largely move WITH the index on macro days.
+- **Open questions for tomorrow:** (1) CPI Fri 9/11 — hot vs cool sets the tone for CFR (beneficiary) vs long-duration names, and for FOMC 9/16 (~55–60% 25bp-hike odds). (2) Does ATI stabilize or tag the 194.99 stop? If it fires, that's the plan working (no thesis break = let the stop do its job). (3) With 2 conviction slots open and cash on target, watch for a CLEAN post-CPI gate-clearer — but no forced deploy.
+
+**Next:** pre-market Fri 9/11 (research routine). Mandatory daily Telegram close summary SENT this routine (never skipped).
 ## 2026-09-10 08:35 CT — MARKET-OPEN (Thu · executed the pre-market plan against LIVE data; NO TRADES) · patience held through the PPI/CPI gate
 
 **Market state:** /v2/clock is_open:true (09:32 ET), next_close 16:00 ET. Account live ~08:32 CT: equity **$98,249.57**, last_equity (Wed 9/9 close) $98,685.46 → indicative intraday **−$435.89 (−0.44%)**, cash **$10,025.14 (~10.20%)**, long_market_value $88,224.43, buying_power $287,128.97, status ACTIVE. Conviction sleeve **3/5 (JPM, ATI, CFR); 2 OPEN.** **3 stops VERIFIED live resting GTC** (CFR −7% hard `cd725e5b` 151.73; ATI −7% hard `fabe11de` 194.99; JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5; SPY unencumbered). Weekly conviction buys **1/3** (CFR; week 9/8–9/11). daytrade_count 0.
