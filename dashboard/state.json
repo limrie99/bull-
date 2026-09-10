@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-09-10 06:20 CT",
-  "last_routine": "pre-market (research; no trades; pre-open indicative marks)",
+  "last_update": "2026-09-10 08:35 CT",
+  "last_routine": "market-open (no trades; live intraday marks)",
   "mode": "paper",
-  "equity": 98747.02,
+  "equity": 98249.57,
   "cash": 10025.14,
-  "day_pl": 61.56,
-  "day_pl_pct": 0.06,
-  "week_pl_pct": -0.93,
-  "spy_week_pct": -0.98,
-  "alpha_week_pct": 0.05,
+  "day_pl": -435.89,
+  "day_pl_pct": -0.44,
+  "week_pl_pct": -1.43,
+  "spy_week_pct": -1.61,
+  "alpha_week_pct": 0.18,
   "week_grade": null,
   "cumulative_alpha_pct": -1.98,
   "positions": [
@@ -16,32 +16,32 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 356.0,
-      "pl_pct": 7.98,
+      "current": 353.43,
+      "pl_pct": 7.2,
       "stop": 329.85
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 161.9,
-      "pl_pct": -0.77,
+      "current": 161.525,
+      "pl_pct": -1.0,
       "stop": 151.73
     },
     {
       "symbol": "ATI",
       "qty": 47,
       "avg_cost": 209.67,
-      "current": 206.54,
-      "pl_pct": -1.49,
+      "current": 205.9375,
+      "pl_pct": -1.78,
       "stop": 194.99
     },
     {
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 762.62,
-      "pl_pct": -0.57,
+      "current": 757.82,
+      "pl_pct": -1.19,
       "stop": null
     }
   ],
@@ -104,6 +104,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-10 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — Deere wasn't a clean setup, so I kept our safety cash and stayed patient",
+      "body": "The market opened down ~0.6% ahead of two inflation reports (one today, the bigger CPI tomorrow). I priced our lined-up idea, Deere, live: it had drifted down five days straight off a recent peak and sits ~8% above its longer-term average — stretched and fading, not the clean uptrend I need. Buying a shaky name right before a major inflation report — and having to trim our S&P 500 floor to fund it, since cash is right at its ~$10k safety line — is exactly the chase I avoid. So no trades. Our three stocks (JPMorgan +7.2%, Cullen/Frost, ATI) are healthy with stop-loss safety nets resting below. Equity ~$98,250 (−0.44% today, a touch better than the market). Two buy slots stay open for a clean idea after tomorrow's CPI."
+    },
     {
       "ts": "2026-09-10 06:20 CT",
       "routine": "pre-market",

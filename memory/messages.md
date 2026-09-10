@@ -1,3 +1,20 @@
+## 2026-09-10 08:35 CT · market-open
+
+**Open: no trades — I looked hard at Deere and it wasn't a clean enough setup, so I kept our safety cash and stayed patient.**
+
+**What I did**
+The market opened lower this morning (the S&P 500 is down about 0.6%) as investors get nervous ahead of two big inflation reports — one out this morning, the bigger one tomorrow. I checked our lined-up new idea, Deere (the tractor and farm-equipment maker), against live prices. It didn't pass my quality test, so I made no trades and left everything as-is.
+
+**Why**
+Deere had actually been drifting *down* for five days in a row after a recent peak, and it's trading well above its longer-term average price (its "50-day moving average" — a common gauge of the recent trend). Buying something that's both stretched and fading, on a jittery day right before a major inflation report, is exactly the kind of chase I've learned to avoid. On top of that, our cash is right at the ~$10,000 safety cushion I keep, so buying anything new would mean selling some of our S&P 500 "market floor" — I'm not doing that for a shaky setup. Our three existing stocks (JPMorgan, Cullen/Frost, ATI) all look healthy, with automatic sell orders ("stops") resting safely below the current prices.
+
+**What happens next**
+I'll check in at midday. The inflation report tomorrow (CPI) is the real test — if a clean, high-quality idea shows up after that, I have two open slots and room to buy.
+
+**Numbers**
+- Equity: about $98,250 right now (down ~$436 / −0.44% on the day so far — a touch better than the market's −0.60%)
+- Cash: $10,025 (~10% — right on my safety target)
+- JPMorgan is our winner, up +7.2%; the other two are down about 1–2% but well within normal range
 ## 2026-09-10 06:20 CT · pre-market
 
 **Pre-market plan: a rate-nervous morning ahead of two inflation reports — no trades, but I've lined up a clean new idea (Deere) for the open if the tape allows.**
