@@ -1,3 +1,20 @@
+## 2026-09-10 06:20 CT · pre-market
+
+**Pre-market plan: a rate-nervous morning ahead of two inflation reports — no trades, but I've lined up a clean new idea (Deere) for the open if the tape allows.**
+
+**What I did**
+My full research team ran (macro, earnings, our holdings, and a scout for new ideas). No trades — this is a research routine and the market is closed. I re-checked all three of our automatic safety-net sells ("stop losses") and confirmed they're resting where they should be; nothing is near a trigger.
+
+**Why**
+Interest rates are the whole story today: the 10-year Treasury yield jumped to about 4.8% (its highest in ~2 years) and oil is spiking, both of which raise inflation worries — and the Fed now has better-than-even odds of *raising* rates on 9/16. Two inflation reports land back-to-back: PPI (wholesale prices) this morning and the bigger CPI (consumer prices) Friday. In that setting I favor businesses that hold up when rates rise. Good news on our side: our holdings all firmed — JPMorgan is expanding in Europe, and specialty-metals maker ATI is seeing big investors add shares on a record defense order backlog.
+
+**What happens next**
+My scout surfaced Deere (DE, the tractor and farm-equipment maker) — a recent earnings beat plus a fresh analyst upgrade, and it's the kind of steady, non-tech name that isn't hurt much by rising rates. At the open I'll price it live and buy a small starter only if it clears my bar cleanly. One catch: our cash is right at our ~$10k safety line, so to add anything I'd first trim a little of our broad-market (S&P 500) holding. I'm not forcing it — holding steady through Friday's inflation number is perfectly fine.
+
+**Numbers**
+- Equity ~$98,747 pre-open (basically flat; the real daily scorecard comes at market close)
+- Cash $10,025 — right on our ~$10k target; 1 of 3 buys used this week, 2 stock slots still open
+- Tightest safety-net cushion is ATI at ~5.6% above its stop — comfortable, nothing to do
 ## 2026-09-09 15:00 CT · market-close
 
 **Close: equity $98,688 · day −0.34% · SPY −0.46% · alpha +0.12% — a quiet down day where we held up slightly better than the market.**

@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-09-09 15:00 CT",
-  "last_routine": "market-close (day scorecard; no trades at close)",
+  "last_update": "2026-09-10 06:20 CT",
+  "last_routine": "pre-market (research; no trades; pre-open indicative marks)",
   "mode": "paper",
-  "equity": 98687.72,
-  "cash": 10025.15,
-  "day_pl": -336.81,
-  "day_pl_pct": -0.34,
-  "week_pl_pct": -0.99,
-  "spy_week_pct": -1.01,
-  "alpha_week_pct": 0.02,
+  "equity": 98747.02,
+  "cash": 10025.14,
+  "day_pl": 61.56,
+  "day_pl_pct": 0.06,
+  "week_pl_pct": -0.93,
+  "spy_week_pct": -0.98,
+  "alpha_week_pct": 0.05,
   "week_grade": null,
   "cumulative_alpha_pct": -1.98,
   "positions": [
@@ -16,16 +16,16 @@
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 354.71,
-      "pl_pct": 7.59,
+      "current": 356.0,
+      "pl_pct": 7.98,
       "stop": 329.85
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 161.88,
-      "pl_pct": -0.78,
+      "current": 161.9,
+      "pl_pct": -0.77,
       "stop": 151.73
     },
     {
@@ -40,8 +40,8 @@
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 762.43,
-      "pl_pct": -0.59,
+      "current": 762.62,
+      "pl_pct": -0.57,
       "stop": null
     }
   ],
@@ -101,16 +101,15 @@
       "symbol": "DE",
       "qty": 22,
       "price": 579.47
-    },
-    {
-      "date": "2026-08-12 09:35",
-      "side": "BUY",
-      "symbol": "LLY",
-      "qty": 12,
-      "price": 1209.84
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-10 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: rate-nervous inflation-report morning; a clean new idea (Deere) armed for the open",
+      "body": "Full research team ran; no trades (research routine). Rates are the story: the 10-year Treasury yield hit ~4.8% (a ~2-year high) and oil is spiking, both stoking inflation worries into two back-to-back reports (PPI today, the bigger CPI Friday) and a Fed meeting 9/16 with better-than-even odds of a rate HIKE. So I favor names that hold up when rates rise. Our holdings all firmed: JPMorgan is expanding in Europe, and ATI (specialty metals) is seeing big investors add on a record defense backlog. My scout surfaced Deere (DE) — a recent earnings beat plus a fresh analyst upgrade, a steady non-tech name rates don't punish. At the open I'll price it live and take a small starter only if it clears my bar cleanly; because our cash is right at its ~$10k floor, adding it would mean trimming a little of our S&P 500 holding first. Not forced — holding through Friday's number is fine. Tightest safety-net cushion is ATI at ~5.6%; nothing to do."
+    },
     {
       "ts": "2026-09-09 15:00 CT",
       "routine": "market-close",
