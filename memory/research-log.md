@@ -1,3 +1,29 @@
+## 2026-09-11 15:05 CT — MARKET-CLOSE (Fri · authoritative day scorecard; NO TRADES) · green day, but lagged a broad-market rally
+
+**Market state (closing):** /v2/clock is_open:false, next_open Mon 2026-09-14 09:30 ET. Account (close): equity **$98,579.10** vs last_equity (Thu 9/10 close) $97,996.03 → **day +$583.07 / +0.59%**. cash **$10,025.14 (~10.17%)**, long_market_value **$88,553.96**, buying_power $288,051.65, portfolio_value $98,579.10, status ACTIVE. Conviction sleeve **3/5 (JPM, ATI, CFR); 2 slots OPEN.** Weekly conviction buys **1/3** (CFR; week 9/8–9/11, Mon 9/7 Labor Day). daytrade_count 0. Inbox: no Pending items.
+
+**Closing position marks (15:05 CT):**
+- JPM 34 @ 329.6956 → px 356.23 · +$902.17 / **+8.05%** · 10% trailing floor 329.85 (hwm 366.5), cushion ~7.4%.
+- CFR 60 @ 163.15 → px 162.92 · −$13.80 / −0.14% · −7% hard 151.73, cushion ~6.9%.
+- ATI 47 @ 209.6698 → px 198.77 · −$512.29 / **−5.20%** · −7% hard 194.99, cushion ~1.90% (TIGHTEST). Essentially flat on the day (−0.12%); the cushion is tight because ATI has been at these levels since Wed, not because of a fresh drop today.
+- SPY 75 @ 766.968 → px 764.33 · −$197.85 / −0.34% · index-floor sleeve, NO stop by policy.
+
+**Open orders (VERIFIED, 3 total):** CFR hard 151.73 `cd725e5b` · ATI hard 194.99 `fabe11de` · JPM trailing floor 329.85/hwm 366.5 `8a937ff6`. SPY unencumbered by design. All match stop-management state — no drift. Today's closed orders: NONE.
+
+**Risk checks:**
+- (a) Any position −7%+ un-stopped? NO. Worst ATI −5.20% (cushion ~1.90%, above the −7% trigger). **Perplexity ATI close check CLEAN** — no downgrade, no guidance cut, no adverse ATI-specific catalyst in 24h; recent headlines are insider-selling / 13F position changes (neutral-to-mild), NOT thesis-breaking. Guidance is *raised* (FY26 EBITDA), record backlog, BWXT naval-propulsion deal — thesis INTACT. No sell.
+- (b) Any +5%+ needing hard→trailing conversion? NO. JPM (+8.05%) already trailing; ATI/CFR negative; SPY no stop by policy. Zero conversions.
+- (c) Daily loss cap: day +0.59% (green) vs −3% threshold → NOT breached.
+
+### Day summary (2026-09-11 close)
+- **Closing equity: $98,579.10.** Day P/L **+$583.07 / +0.59%.** SPY day **+0.86%** (757.83 → 764.33). **Alpha today −0.26pp** (green day, but lagged a broad rally). Week-to-date (base Fri 9/4 close $99,672.71): **−$1,093.61 / −1.10%**; SPY week (770.18 → 764.33) **−0.76%** → **week alpha −0.34pp** (behind on the week). Cumulative alpha since inception still ≈ −2%.
+- **Trades placed: NONE.** Benign CPI opened the tape green; ran the bench (MDT ~64, ETN ~63) against live data — nothing cleared the ≥70 gate, and cash is AT the ~$10k floor (no deploy budget without trimming the SPY shock-absorber). Held.
+- **What worked:** (1) JPM anchor held +8.05% on its trailing floor, our biggest single-name winner. (2) Discipline held again — no forced beta into the FOMC gate (SNPS lesson). (3) The −7% stop on ATI protected the book automatically; ATI barely moved despite the volatile week.
+- **What didn't:** (1) On a +0.86% broad-market up-day, our defensive conviction sleeve (banks + metals) didn't join the rally — ATI flat, CFR +0.16% — so we captured less upside than SPY and printed a fractionally negative day alpha. This is the flip side of the defensive tilt that helped on the red days. (2) Week alpha −0.34pp — the rate-driven red days early in the week plus today's under-captured rally. (3) ATI cushion tightened to ~1.90% (tightest) heading into the weekend + FOMC.
+- **Open questions for Monday/FOMC:** (1) FOMC 9/16 (Tue) — a 25bp hike (~56%+ odds) vs a hold sets the tone for the bank tilt (JPM/CFR beneficiaries) and for whether ATI's tight cushion holds. (2) Does ATI stabilize or tag the 194.99 stop? If it fires, that's the plan working (no thesis break = let the stop do its job; do not average down). (3) With 2 conviction slots open and cash on target, watch for a CLEAN ≥70 gate-clearer post-FOMC — but no forced deploy.
+
+**Next:** pre-market Mon 9/15 (research routine). Mandatory daily Telegram close summary SENT this routine (never skipped).
+
 ## 2026-09-11 08:35 CT — MARKET-OPEN (Fri · executed the pre-market plan against LIVE data; NO TRADES) · CPI printed benign, tape opened GREEN, patience held
 
 **Market state:** /v2/clock is_open:true (09:32 ET), next_close 16:00 ET. Account live ~08:33 CT: equity **$98,872.48**, last_equity (Thu 9/10 close) $97,996.03 → indicative intraday **+$876.45 / +0.89%**, cash **$10,025.14 (~10.14%)**, long_market_value $88,847.34, buying_power $288,873.10, status ACTIVE. Conviction sleeve **3/5 (JPM, ATI, CFR); 2 OPEN.** **3 stops VERIFIED live resting GTC** (CFR −7% hard `cd725e5b` 151.73; ATI −7% hard `fabe11de` 194.99; JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5; SPY unencumbered). Weekly conviction buys **1/3** (CFR; week 9/8–9/11). daytrade_count 0. Inbox: no Pending items.

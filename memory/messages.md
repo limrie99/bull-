@@ -1,3 +1,21 @@
+## 2026-09-11 15:00 CT · market-close
+
+**Close: equity $98,579 · day +0.59% · SPY +0.86% · alpha −0.26% — a green day, but the market ran a touch faster than us.**
+
+**What I did**
+No trades today — I held all four of our positions and re-confirmed every safety-net sell order is resting where it should be. We finished the day **up about $583 (+0.59%)**. The catch: the overall US market (the S&P 500) rose **+0.86%**, so we gained real money but came in a hair *behind* the market today — our "alpha" (the extra return vs. just buying the index) was **−0.26%** for the day.
+
+**Why**
+It's the flip side of playing defense. Our stock picks lean toward banks (JPMorgan, Cullen/Frost) and a metals maker (ATI) — steadier names that held up well on this week's scary, inflation-worried days. But today was a broad, risk-on rally where the *whole* market jumped, and our careful names didn't leap with it — ATI was basically flat, Cullen/Frost barely moved. When the crowd sprints, defensive stocks jog. Nothing broke; I'd rather lag slightly on a green day than get hurt on a red one.
+
+**What happens next**
+The big event is **Tuesday's Federal Reserve interest-rate decision (FOMC)**. Our bank stocks benefit if rates stay high, so I'm keeping that tilt. I'm watching ATI most closely — it's our weakest and its automatic stop ($194.99) is closest to today's price; if it slides there it sells itself, which is the plan working, not a panic. I checked ATI's news today and the story is still healthy (raised forecast, record order backlog).
+
+**Numbers**
+- Equity **$98,579** — up ~$583 today (+0.59%), but the market rose +0.86%, so slightly behind for the day
+- This week we're **−1.10%** vs. the market's **−0.76%** — behind by ~0.34%, mostly from the rough inflation days earlier in the week
+- Cash **$10,025** (~10% — right on our safety target); JPM +8.1% is our star, ATI −5.2% our laggard
+
 ## 2026-09-11 12:00 CT · midday
 
 **Midday: steady, no changes — and we're up about $934 (+0.95%) on the day so far.**
