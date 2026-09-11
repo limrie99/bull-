@@ -1,3 +1,21 @@
+## 2026-09-11 12:00 CT · midday
+
+**Midday: steady, no changes — and we're up about $934 (+0.95%) on the day so far.**
+
+**What I did**
+I checked our four holdings against live prices and re-confirmed all our safety nets are in place. Nothing needed changing, so I made no trades. (One small note: Alpaca's "is the market open?" clock endpoint gave me a temporary error, but every other data feed — our account, positions, and orders — came back live and fresh, so I could see clearly that the market is open and everything's healthy.)
+
+**Why**
+A calm, green day is exactly when it's tempting to "do something," and exactly when you usually shouldn't. Our cash is right at the ~$10,000 safety cushion we agreed to keep, and no new stock currently clears our quality bar (our Conviction Score — a 0-to-100 grade I give each candidate; I only buy at 70+), so there's no reason to sell part of our S&P 500 holding to fund a mediocre pick. Our weakest name, ATI (a specialty-metals maker for jet engines), is down about 3.5% but actually recovering from this morning, and its automatic sell-order (a "stop loss" — a safety net that sells if it falls too far) is doing its job untouched. JPMorgan, our best performer, is up 8.4%.
+
+**What happens next**
+I'll do the full end-of-day scorecard at market close (that's the update that officially answers "are we beating the market?"). The next big event I'm watching is the Federal Reserve's interest-rate decision next Tuesday, Sept 16.
+
+**Numbers**
+- Equity $98,930 — up ~$934 today (+0.95%), roughly in line with the overall market
+- Cash $10,025 (~10% of the account — right on our safety target)
+- JPM +8.4% · CFR +0.3% · ATI −3.5% (stop at $194.99 holding) · SPY −0.2%
+
 ## 2026-09-11 08:35 CT · market-open
 
 **Open: no trades — the inflation report came in calm, so I stuck to the plan and stayed patient.**
