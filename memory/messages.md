@@ -1,3 +1,30 @@
+## 2026-09-11 16:00 CT · weekly review
+
+**Week ending 2026-09-11: −1.10% | SPY −0.78% | alpha −0.32% | grade C**
+
+**How we did, in one line**
+This was a *down* week for the whole market — the S&P 500 fell −0.78% on nerves about the Federal Reserve's rate decision next Tuesday — and we fell a bit more, −1.10%. So we came in about a third of a percent behind the market ("alpha" is our return minus the market's; −0.32% means we trailed slightly). It's our third straight week behind, but each miss has been smaller than the last, and — the part I want you to hear — **we made zero mistakes this week.** The loss was one holding drifting down, not a bad decision.
+
+**The 3–5 things that mattered:**
+
+- **What cost us: ATI.** Our specialty-metals stock (it makes titanium for jet engines) slid about −5.6% this week and is basically the *entire* reason we lagged. I checked its news twice today — the company story is still healthy (raised its own forecast, record order backlog); this was the metals *sector* sagging, not anything wrong with ATI. It's now our weakest holding (−5.2%) and closest to its automatic safety-sell. I'm holding it, not adding to it — if it hits that safety net, that's the plan working.
+
+- **What went right: our one trade proved we learned last week's lesson.** Two weeks ago I got burned buying a rate-*sensitive* software stock right before a scary jobs report. This week, deploying our spare cash into another nervous, rate-worried market, I bought Cullen/Frost — a Texas *bank* that actually *benefits* when rates stay high. Same tough market, opposite (correct) choice. That's discipline improving, not just luck.
+
+- **The honest scoreboard.** Since we started this run, we're now about 2.3% behind the S&P 500 — the furthest behind we've been. I won't sugarcoat that: the mandate is to *beat* the market, and right now we're not. But I'm deliberately *not* panicking and changing our rules over it (see next bullet).
+
+- **Why I changed nothing this week.** Our rulebook says: one bad week is noise; three weeks of the *same mistake* is a signal worth acting on. We've had three soft weeks, but three *different*, one-off causes — not a repeating error. Loosening our quality bar to "force" more trades, or dumping a stock whose story is still fine, would be exactly the overreaction that hurts portfolios. The fix isn't a new rule — it's patience plus good picks.
+
+**What happens next**
+Tuesday's Fed rate decision is the big one. I'm keeping our bank tilt (they like higher rates), keeping rate-sensitive tech on the bench until the dust settles, and we've got two open slots and cash ready for the *next* genuinely high-quality name. Full detail on the dashboard. 🐂
+
+**Numbers I care about**
+- Equity **$98,579** — down ~$1,094 (−1.10%) on the week; the market fell −0.78%, so we trailed by ~0.32%
+- **ATI −5.2%** is our one real laggard (and the whole week's story); **JPMorgan +8.1%** remains our star
+- Cash **$10,025** (~10% — right on our safety target); nothing forced, dry powder ready
+
+---
+
 ## 2026-09-11 15:00 CT · market-close
 
 **Close: equity $98,579 · day +0.59% · SPY +0.86% · alpha −0.26% — a green day, but the market ran a touch faster than us.**
