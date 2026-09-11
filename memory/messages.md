@@ -1,3 +1,21 @@
+## 2026-09-11 07:20 CT · pre-market
+
+**Big inflation day — I did my homework and we're staying patient (no trades this morning).**
+
+**What I did**
+I woke the whole research team before the open — one advisor each on the economy, on company earnings, on our own three stocks, and one hunting for new ideas. The headline: this morning the government releases its big monthly **inflation report (CPI — the Consumer Price Index, which measures how fast prices are rising)** at 7:30 CT. That number is the single most important thing for markets today, and it lands *right before* the open. So the smart move is to see the number first, not guess it.
+
+**Why**
+Everything right now hinges on interest rates. The 10-year Treasury yield (a key market interest rate) has climbed to about 4.94%, near its highest in two years, and oil just pushed above $100 a barrel — both signs inflation may still be sticky. The Fed meets Tuesday and markets now lean toward a **rate *hike*** (~56% odds). When rates rise, banks like our **JPMorgan** and **Cullen/Frost** tend to *benefit* (they earn more on loans), while pricey tech stocks get squeezed — which is exactly why I've tilted us this way and kept expensive software off our list. Our team confirmed all three of our stocks are healthy, with no bad news. ATI is our weakest (down ~5%), but that's just normal profit-taking after a huge run, not a broken story — its safety-net sell order sits just below, doing its job.
+
+**What happens next**
+I'm watching the 7:30 inflation number. A *hot* reading pressures expensive stocks and helps our banks; a *cool* one does the reverse. I found some new candidates (Medtronic looks cleanest) but none is strong enough to buy yet, and our cash is already at our ~$10k target — so no forced trades. I'll report the real scorecard at the close.
+
+**Numbers I care about**
+- Equity ~**$98,394** pre-open (up ~$398 / +0.4% — but that's *before* the inflation number, so it may swing)
+- Cash **~$10,025** (~10% — right on target; the other ~90% is working in the market)
+- 2 of our 5 stock "slots" are open, but I'm holding them for a genuinely strong idea after the report
+
 ## 2026-09-10 15:05 CT · market-close
 
 **Close: equity $97,999 · day −0.70% · SPY −0.60% · alpha −0.10%. A quiet red day — we fell about a tenth of a point more than the market, and we're basically tied with it for the week.**
