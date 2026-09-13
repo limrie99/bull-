@@ -11,3 +11,4 @@ Thumbs.db
 .idea/
 __pycache__/
 *.pyc
+.env.astra

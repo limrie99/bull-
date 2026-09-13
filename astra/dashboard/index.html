@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Astra Strategy</title>
+  <style>
+    :root{--bg:#080b18;--card:#11172a;--line:#26304d;--ink:#edf2ff;--muted:#9da9c8;--violet:#9b8cff;--green:#5bd6a2;--red:#ff7890}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 20% 0,#211c52 0,transparent 35%),var(--bg);color:var(--ink);font:15px/1.55 system-ui,sans-serif}
+    .wrap{max-width:1100px;margin:auto;padding:28px}.top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:22px}.mark{font-size:44px}.title{flex:1}.title h1{margin:0;font-size:30px}.title p{margin:2px 0;color:var(--muted)}.pill{border:1px solid var(--line);border-radius:999px;padding:6px 11px;color:var(--muted)}
+    .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}.card{background:rgba(17,23,42,.92);border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px}.label{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}.value{font-size:25px;font-weight:750;margin-top:4px}.pos{color:var(--green)}.neg{color:var(--red)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}@media(max-width:780px){.grid{grid-template-columns:1fr}}h2{font-size:14px;text-transform:uppercase;letter-spacing:.1em;color:var(--violet);margin:0 0 12px}table{width:100%;border-collapse:collapse}th,td{text-align:left;border-bottom:1px solid var(--line);padding:9px 6px}th{font-size:11px;color:var(--muted)}.decision{border-left:3px solid var(--violet);padding:12px;margin:10px 0;background:#0c1122;border-radius:8px}.decision b{color:var(--violet)}.small{font-size:12px;color:var(--muted)}a{color:var(--violet)}
+  </style>
+</head>
+<body><div class="wrap">
+  <div class="top"><div class="mark">✨</div><div class="title"><h1>Astra Strategy</h1><p>Independent GPT-6 Astra paper portfolio · blind decisions before comparison</p></div><span class="pill" id="meta">not started</span></div>
+  <section class="stats">
+    <div class="card"><div class="label">Equity</div><div class="value" id="equity">–</div></div>
+    <div class="card"><div class="label">Cash</div><div class="value" id="cash">–</div></div>
+    <div class="card"><div class="label">Today</div><div class="value" id="day">–</div></div>
+    <div class="card"><div class="label">Since start</div><div class="value" id="ret">–</div></div>
+    <div class="card"><div class="label">Alpha vs SPY</div><div class="value" id="alpha">–</div></div>
+  </section>
+  <div class="grid">
+    <div><section class="card"><h2>Positions</h2><table><thead><tr><th>Symbol</th><th>Qty</th><th>Current</th><th>P/L</th></tr></thead><tbody id="positions"></tbody></table></section></div>
+    <div><section class="card"><h2>Independent decisions</h2><div id="decisions"></div></section></div>
+  </div>
+  <p class="small">Paper trading only. Model proposals pass through deterministic risk checks before execution. <a href="../../dashboard/">Back to Bull</a></p>
+</div>
+<script>
+const money=n=>n==null?'–':'$'+Number(n).toLocaleString(undefined,{maximumFractionDigits:2});
+const pct=n=>n==null?'–':`${n>=0?'+':''}${Number(n).toFixed(2)}%`;
+const sign=n=>n==null?'':n>=0?'pos':'neg';
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+async function load(){
+  const s=await fetch('./state.json?'+Date.now(),{cache:'no-store'}).then(r=>r.json());
+  document.querySelector('#meta').textContent=`${s.mode||'paper'} · ${s.model||'gpt-6-astra'} · ${s.last_update||'not started'}`;
+  for(const [id,val,kind] of [['equity',s.equity,'money'],['cash',s.cash,'money'],['day',s.day_pl_pct,'pct'],['ret',s.return_pct,'pct'],['alpha',s.alpha_pct,'pct']]){const e=document.querySelector('#'+id);e.textContent=kind==='money'?money(val):pct(val);if(kind==='pct')e.className='value '+sign(val)}
+  const p=document.querySelector('#positions');p.innerHTML=(s.positions||[]).map(x=>`<tr><td><b>${esc(x.symbol)}</b></td><td>${esc(x.qty)}</td><td>${money(x.current)}</td><td class="${sign(x.pl_pct)}">${pct(x.pl_pct)}</td></tr>`).join('')||'<tr><td colspan="4" class="small">No Astra positions yet.</td></tr>';
+  const d=document.querySelector('#decisions');d.innerHTML=(s.recent_decisions||[]).slice(0,8).map(x=>{const q=x.decision||{},e=x.execution||{};return `<article class="decision"><b>${esc(q.action)} ${esc(q.symbol||'')}</b> · confidence ${esc(q.confidence)}<div>${esc(q.thesis)}</div><div class="small">${esc(x.routine)} · ${esc(e.status)} — ${esc(e.reason)}</div></article>`}).join('')||'<p class="small">Waiting for the first scheduled run.</p>';
+}
+load().catch(console.error);setInterval(()=>load().catch(console.error),15000);
+</script></body></html>

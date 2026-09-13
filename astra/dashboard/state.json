@@ -1,0 +1,19 @@
+{
+  "last_update": null,
+  "last_routine": null,
+  "status": "setup-required",
+  "mode": "paper",
+  "model": "gpt-6-astra",
+  "equity": null,
+  "cash": null,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "return_pct": null,
+  "spy_baseline_price": null,
+  "spy_current_price": null,
+  "spy_return_pct": null,
+  "alpha_pct": null,
+  "positions": [],
+  "recent_decisions": [],
+  "recent_trades": []
+}

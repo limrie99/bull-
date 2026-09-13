@@ -92,3 +92,13 @@ Bull's `CLAUDE.md` refuses to trade live unless `strategy.md` says `mode: live`.
 ## Benchmark
 
 Only number that matters long-term: **alpha vs SPY**. Everything else is noise.
+
+## AI Trading League
+
+Bull now includes an isolated third lane under `astra/`:
+
+- **Bull** — Claude fundamentals-driven swing trader.
+- **Maverick** — Claude challenger with the additional copy-trade signal.
+- **Astra** — GPT-6 Astra independent portfolio manager, using its own Alpaca paper account and its own memory.
+
+Astra never reads Bull's or Maverick's current decisions before producing its own. Its model output is only a proposal; deterministic Python code enforces the paper-only URL, position/risk caps, price floor, confidence gate, daily loss cap, and permitted order types before Alpaca receives an order. See `astra/README.md` for setup.

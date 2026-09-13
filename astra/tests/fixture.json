@@ -1,0 +1,11 @@
+{
+  "account": {
+    "equity": "100000",
+    "cash": "100000",
+    "last_equity": "100000"
+  },
+  "positions": [],
+  "open_orders": [],
+  "clock": {"is_open": true},
+  "prices": {"MSFT": 500.0}
+}
