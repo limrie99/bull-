@@ -8377,3 +8377,27 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 **Intraday alpha:** book +0.95% vs SPY ~+1.0% intraday (SPY px 764.40 at open → 765.72 now) → roughly in line, marginally behind by a hair; ATI the small drag, JPM the anchor. Not the scorecard — close routine owns the official number. Cumulative alpha since inception ≈ −0.05% on the week (~in line with SPY).
 
 **Next:** market-close Fri 9/11 — mandatory plain-English scorecard + Telegram (never skipped). Watch ATI cushion into the close (let the 194.99 stop fire if triggered; no thesis break = don't pre-empt, don't average down). FOMC 9/16 is the next macro gate. No Telegram this midday (quiet check, per skip rules).
+
+## 2026-09-14 12:00 CT (13:01 ET) · MIDDAY (Monday, FOMC-eve) — steady, NO trades, NO stop changes
+
+**Env:** market OPEN (`/v2/clock` is_open:true, next_close 2026-09-14 16:00 ET). Required Alpaca+Perplexity vars present. EQUIBLES empty (skipped per policy). Synced origin/main memory at run start (built on the 08:35 market-open state; ATI already stopped out at the open). Inbox `## Pending`: none.
+
+**Live account (12:00 CT):** equity **$98,029.79** (last_equity Fri 9/11 close $98,576.10 → intraday **−$546.31 / −0.55%**), cash **$18,972.45 (~19.35%)**, long_market_value $79,057.34, buying_power $297,250.35, status ACTIVE. Whole-book cash ~$9k above the ~$10k target — the deliberate 1-day hold of the ATI proceeds through Tue's FOMC (per the 9/14 open decision), NOT multi-week cash-drag.
+
+**Live position marks (3 holdings — ATI exited at the open):**
+- JPM 34 @ 329.6956 → px 353.06 · +$794.39 / **+7.09%** · 10% trailing floor 329.85 (hwm 366.5), cushion ~6.6%. ~12.24% of equity.
+- CFR 60 @ 163.15 → px 164.13 · +$58.80 / **+0.60%** · −7% hard 151.73, cushion ~7.6%. ~10.05%. **Ex-div/pay 9/15 tomorrow ($1.03/sh ≈ $61.80).**
+- SPY 75 @ 766.968 → px 762.74 · −$317.10 / −0.55% · index-floor sleeve, NO stop by policy. ~58.36%.
+
+**Open orders (VERIFIED, 2 total):** CFR hard 151.73 `cd725e5b` · JPM trailing floor 329.85/hwm 366.5 `8a937ff6`. SPY unencumbered by design. ATI stop `fabe11de` consumed by the open fill. All match stop-management state — no drift.
+
+**Risk checks:**
+- (a) Any position −7%+ un-stopped? **NO.** Worst is SPY −0.55% (no stop by policy); CFR +0.60%, JPM +7.09%. Nothing at/near a trigger → no mandatory 4-hour news check required, no Perplexity spend this run. No sell.
+- (b) Any +5%+ needing hard→trailing conversion? **NO.** JPM (+7.09%) already on 10% trailing; CFR (+0.60%) below +5%; SPY no stop by policy. Zero conversions pending.
+- (c) Daily loss cap: intraday −0.55% vs −3% threshold → NOT breached. Moot anyway — no buys planned into FOMC-eve.
+
+**Decision:** NO trades, NO stop changes. No high-conviction breaking catalyst at midday. Per the 9/14 open plan, the freed ~$9k ATI proceeds stay as cash ONE day through **FOMC Tue 9/16** (~55–65% for a 25bp hike, two-sided) — re-adding fresh beta on an FOMC-eve tape is the SNPS-lesson mistake; redeploy (SPY floor and/or a clean ≥70 gate-clearer, MDT the top bench name) on a stabilized post-FOMC tape. Bank tilt (JPM/CFR = rate-hike beneficiaries) intact; long-duration software (SNPS/ADSK) shelved.
+
+**Intraday alpha:** book −0.55% vs SPY −0.18% intraday (SPY Fri close 764.14 → 762.745 now) → book modestly behind today, mostly the ATI gap-down slippage realized at the open (−$907 vs the −7% design). Not the scorecard — close routine owns the official number. Cumulative alpha since inception roughly flat-to-slightly-negative (~unchanged).
+
+**Next:** market-close Mon 9/14 — mandatory plain-English scorecard + Telegram (never skipped). Watch nothing at risk into the close (all cushions comfortable: JPM ~6.6%, CFR ~7.6%). CFR dividend hits 9/15. FOMC 9/16 is THE macro gate. No Telegram this midday (quiet check, per skip rules).
