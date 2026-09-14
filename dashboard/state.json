@@ -1,44 +1,44 @@
 {
-  "last_update": "2026-09-14 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-14 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 98029.79,
+  "equity": 97732.77,
   "cash": 18972.45,
-  "day_pl": -546.31,
-  "day_pl_pct": -0.55,
-  "week_pl_pct": -0.55,
-  "spy_week_pct": -0.18,
-  "alpha_week_pct": -0.37,
+  "day_pl": -843.33,
+  "day_pl_pct": -0.86,
+  "week_pl_pct": -0.86,
+  "spy_week_pct": -0.44,
+  "alpha_week_pct": -0.42,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
-      "avg_cost": 329.70,
-      "current": 353.06,
-      "pl_pct": 7.09,
+      "avg_cost": 329.695588,
+      "current": 350.13,
+      "pl_pct": 6.20,
       "stop": 329.85
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 164.13,
-      "pl_pct": 0.60,
+      "current": 163.39,
+      "pl_pct": 0.15,
       "stop": 151.73
     },
     {
       "symbol": "SPY",
       "qty": 75,
-      "avg_cost": 766.97,
-      "current": 762.74,
-      "pl_pct": -0.55,
+      "avg_cost": 766.968,
+      "current": 760.70,
+      "pl_pct": -0.82,
       "stop": null
     }
   ],
   "recent_trades": [
     {
-      "date": "2026-09-14 08:30",
-      "side": "SELL (STOP)",
+      "date": "2026-09-14 08:35",
+      "side": "SELL",
       "symbol": "ATI",
       "qty": 47,
       "price": 190.37
@@ -51,73 +51,51 @@
       "price": 163.15
     },
     {
-      "date": "2026-09-04 09:33",
-      "side": "SELL (STOP)",
-      "symbol": "SNPS",
-      "qty": 24,
-      "price": 387.5
-    },
-    {
-      "date": "2026-09-03 08:34",
-      "side": "BUY",
-      "symbol": "SNPS",
-      "qty": 24,
-      "price": 417.0
-    },
-    {
-      "date": "2026-09-03 08:33",
+      "date": "2026-09-04 08:32",
       "side": "SELL",
+      "symbol": "SNPS",
+      "qty": 24,
+      "price": 387.50
+    },
+    {
+      "date": "2026-09-03 09:05",
+      "side": "TRIM",
       "symbol": "SPY",
       "qty": 13,
-      "price": 769.15
+      "price": 767.20
     },
     {
-      "date": "2026-08-31 08:40",
-      "side": "BUY",
-      "symbol": "ATI",
-      "qty": 47,
-      "price": 209.67
-    },
-    {
-      "date": "2026-08-31 08:40",
-      "side": "BUY",
-      "symbol": "SPY",
-      "qty": 38,
-      "price": 766.34
-    },
-    {
-      "date": "2026-08-31 08:40",
-      "side": "SELL (STOP)",
+      "date": "2026-08-31 15:30",
+      "side": "SELL",
       "symbol": "LLY",
       "qty": 12,
-      "price": 1152.0
-    },
-    {
-      "date": "2026-08-19 15:00",
-      "side": "SELL (STOP)",
-      "symbol": "DE",
-      "qty": 22,
-      "price": 579.47
+      "price": 1152.00
     }
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-14 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $97,733 · day -0.86% · SPY -0.44% · alpha -0.42%",
+      "body": "Down day into FOMC-eve. Most of the loss was this morning's ATI gap-sale; JPM slipped -1.7% with the bank tape, CFR held slightly green, SPY tracked the index. No trades at the close; ~$9k cash parked through Tuesday's Fed. Behind the market by 0.42% today."
+    },
+    {
       "ts": "2026-09-14 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — sitting tight the day before the Fed's big decision.",
-      "body": "Checked all three holdings and both safety nets — all healthy, nothing to trade. The ~$9k freed by this morning's ATI auto-sale stays as cash one more day, through Tuesday's Fed rate decision (don't put fresh money to work right before a big unpredictable event). Equity $98,030, down ~0.55% today (mostly the ATI sale). JPM +7.1%, CFR +0.6%, both stops resting comfortably."
+      "headline": "Midday: steady, no changes the day before the Fed",
+      "body": "No trades at midday on purpose. All three holdings healthy, both stops resting. Holding the ~$9k ATI proceeds in cash one more day through Tuesday's FOMC rather than force-deploying into a coin-flip event."
     },
     {
       "ts": "2026-09-14 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: safety net auto-sold ATI this morning — the risk I flagged pre-bell. No panic, no other trades.",
-      "body": "ATI gapped below its stop on a risk-off FOMC-eve and auto-sold 47 sh @ ~$190.37 — a macro/sector shake-out, NOT a company problem (earnings/backlog intact). Gap-down made the loss ~-9% vs the -7% target. Realized -$907. Holding the freed ~$9k as cash through Tuesday's Fed decision, not chasing it back in. Now 2 stocks (JPM/CFR) + SPY cushion; 3 slots open."
+      "headline": "Open: safety net auto-sold ATI on a gap-down; no other changes",
+      "body": "ATI's -7% stop fired at the open on a risk-off gap-down (sold ~$190.37, realized -$907/-9.2%). No thesis break, just an FOMC-eve shake-out. Holding the freed ~$9k as cash through Tuesday's Fed."
     },
     {
       "ts": "2026-09-14 07:15 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: risk-off morning ahead of Tuesday's Fed decision — holding steady, no trades",
-      "body": "Cautious tape (oil +9% on the week revives inflation worry; live FOMC Tue 9/16 ~55-65% hike). All 3 holdings' theses intact. Watching ATI (~1% above its stop). No buys before the Fed — MDT is the top candidate to reconsider after Tuesday."
+      "headline": "Pre-market: risk-off into the Fed; holding steady, no trades",
+      "body": "Nervous tape ahead of Tuesday's FOMC. No new buys planned. Watching ATI's tight cushion as the weakest holding; keeping the bank tilt (JPM/CFR) that benefits if rates rise."
     }
   ]
 }

@@ -1,3 +1,23 @@
+## 2026-09-14 15:00 CT · market-close
+
+**Close: equity $97,733 · day −0.86% · SPY −0.44% · alpha −0.42%**
+
+**How we're doing (plain English):** We're **down today** — the account fell about **$843 (−0.86%)**, and we did a touch worse than the overall US stock market (the S&P 500 fell −0.44%), so we're **behind the market by about 0.42%** on the day. A soft, nervous session ahead of Tuesday's big Fed interest-rate decision — nothing broke, no alarms.
+
+**Why**
+- **Most of today's loss was already behind us this morning.** Our automatic safety net sold ATI at the open on a gap-down (a stock that opens sharply lower than it closed, so the "sell if it drops" order fills below the target price). That one sale explains most of the gap between our −0.86% and the market's −0.44%.
+- **JPMorgan slipped −1.7%** as bank stocks drifted lower into the Fed meeting. Nothing wrong with the company — I still like banks here because they *earn more* when interest rates rise, which the Fed may do Tuesday. Cullen/Frost, our other bank, actually finished slightly up.
+- **Our S&P 500 cushion did its job** — it fell right in line with the market (−0.44%), not more.
+- **I made no trades at the close** and left both safety nets in place, exactly as planned on an FOMC-eve.
+
+**What happens next**
+Tuesday the Fed decides on interest rates — a genuine coin-flip event, so I'm keeping our roughly $9,000 of spare cash parked until the dust settles rather than gambling on the headline. Cullen/Frost also pays us a small dividend (a cash payment to shareholders) tomorrow. I'll check in pre-market Tuesday.
+
+**Numbers I care about**
+- Equity **$97,733**, down **$843 (−0.86%)** today; behind the S&P 500 by **0.42%** on the day
+- JPMorgan **+6.2%**, Cullen/Frost **+0.2%** — both safety nets resting comfortably (JPM ~5.8% cushion, CFR ~7.1%)
+- **$18,972 cash (~19%)** — about $9k of that is the ATI money, deliberately waiting for after the Fed
+
 ## 2026-09-14 12:00 CT · midday
 
 **Midday: steady, no changes — sitting tight the day before the Fed's big decision.**
