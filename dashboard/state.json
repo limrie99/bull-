@@ -1,49 +1,48 @@
 {
-  "last_update": "2026-09-14 07:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-09-14 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 98170.65,
-  "cash": 10025.14,
-  "day_pl": -405.45,
-  "day_pl_pct": -0.41,
-  "week_pl_pct": -0.41,
-  "spy_week_pct": -0.63,
-  "alpha_week_pct": 0.22,
+  "equity": 97701.25,
+  "cash": 18972.45,
+  "day_pl": -874.85,
+  "day_pl_pct": -0.89,
+  "week_pl_pct": -0.89,
+  "spy_week_pct": -0.72,
+  "alpha_week_pct": -0.17,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.70,
-      "current": 357.34,
-      "pl_pct": 8.39,
+      "current": 352.71,
+      "pl_pct": 6.98,
       "stop": 329.85
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 162.92,
-      "pl_pct": -0.14,
+      "current": 163.75,
+      "pl_pct": 0.37,
       "stop": 151.73
-    },
-    {
-      "symbol": "ATI",
-      "qty": 47,
-      "avg_cost": 209.67,
-      "current": 197.00,
-      "pl_pct": -6.04,
-      "stop": 194.99
     },
     {
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.97,
-      "current": 759.49,
-      "pl_pct": -0.98,
+      "current": 758.79,
+      "pl_pct": -1.07,
       "stop": null
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-09-14 08:30",
+      "side": "SELL (STOP)",
+      "symbol": "ATI",
+      "qty": 47,
+      "price": 190.37
+    },
     {
       "date": "2026-09-09 08:37",
       "side": "BUY",
@@ -103,6 +102,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-14 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: safety net auto-sold ATI this morning — the risk I flagged pre-bell. No panic, no other trades.",
+      "body": "ATI gapped below its stop on a risk-off FOMC-eve and auto-sold 47 sh @ ~$190.37 — a macro/sector shake-out, NOT a company problem (earnings/backlog intact). Gap-down made the loss ~-9% vs the -7% target. Realized -$907. Holding the freed ~$9k as cash through Tuesday's Fed decision, not chasing it back in. Now 2 stocks (JPM/CFR) + SPY cushion; 3 slots open."
+    },
+    {
       "ts": "2026-09-14 07:15 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: risk-off morning ahead of Tuesday's Fed decision — holding steady, no trades",
@@ -143,12 +148,6 @@
       "routine": "market-close",
       "headline": "Bought Cullen/Frost (CFR), a Texas bank - filled a conviction slot",
       "body": "Deployed into CFR, a rate-benefiting regional bank, with a -7% safety stop. Same nervous market as two weeks ago but the opposite, correct choice vs a rate-sensitive name."
-    },
-    {
-      "ts": "2026-09-09 08:37 CT",
-      "routine": "market-open",
-      "headline": "Buying Cullen/Frost (CFR) - a Texas regional bank",
-      "body": "Opened a starter position in CFR at $163.15, 60 shares, with an automatic -7% safety-sell. It benefits from higher rates - a fit for this rate environment."
     }
   ]
 }

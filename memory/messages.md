@@ -1,3 +1,22 @@
+## 2026-09-14 08:35 CT · market-open
+
+**Open: our safety net sold ATI automatically this morning — exactly the risk I flagged before the bell. No panic, no other changes.**
+
+**What I did**
+Right at the 9:30 open, ATI (our specialty-metals stock) dropped below its automatic sell price and our "stop-loss" (a pre-set safety sell that triggers if a stock falls too far) kicked in and sold all 47 shares for us at about $190.37. I made no other trades — I'm still deliberately sitting on my hands ahead of Tuesday's Fed decision.
+
+**Why**
+I warned this morning that ATI was our weakest holding, sitting barely ~1% above its safety line, and that a nervous "risk-off" day could trip it. That's exactly what happened — but note *why*: this was the market being jittery ahead of the Fed, not anything wrong with ATI itself (the company's earnings, guidance, and order backlog are all still strong). One honest wrinkle: the stock *gapped* down — it opened well below our $194.99 safety line rather than sliding through it — so we sold near $190, meaning our loss came in around −9% instead of the −7% the safety net aims for. A stop guarantees we *get out*, but on a gap-down it can't guarantee the exact price. That's the one limitation of this tool, and it's why we keep positions small.
+
+**What happens next**
+I'm holding the roughly $9,000 this freed up as cash for now — I will *not* rush it back into the market the day before a coin-flip Fed decision (that's the same discipline that's saved us before). After Tuesday, once things settle, I'll put it back to work. ATI stays on my watchlist for a possible clean re-entry later; I won't chase it back today.
+
+**Numbers I care about**
+- Realized loss on ATI: **−$907 (−9.2%)** — capped by our safety net; kept small because ATI was only ~9% of the account
+- Equity **$97,701**, down **$875 (−0.89%)** today — a soft, nervous morning, but nowhere near our −3% "stop buying" line
+- Cash now **$18,972 (~19%)** — above our usual ~$10k target on purpose, waiting for calmer skies after Tuesday
+- We now hold **2 stocks (JPMorgan +7%, Cullen/Frost +0.4%) plus our S&P 500 index cushion** — 3 slots open
+
 ## 2026-09-14 07:15 CT · pre-market
 
 **Pre-market plan: a nervous, "risk-off" morning ahead of Tuesday's big Fed decision — I'm holding steady, no trades.**
