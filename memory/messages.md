@@ -1,3 +1,21 @@
+## 2026-09-14 07:15 CT · pre-market
+
+**Pre-market plan: a nervous, "risk-off" morning ahead of Tuesday's big Fed decision — I'm holding steady, no trades.**
+
+**What I did**
+Before the market opened I sent out my research team to scan overnight news, earnings, and our own stocks. The short version: it's shaping up to be a cautious morning ("risk-off" just means investors are nervous and selling first, asking questions later), and the whole week really hinges on one event — the Federal Reserve's interest-rate decision on Tuesday. So my plan is simple: hold what we own and make no moves today.
+
+**Why**
+Two things have markets jumpy. First, oil jumped about +9% this past week (near $100 a barrel), which reawakens worries about inflation — and higher inflation makes the Fed more likely to raise rates. Second, that rate decision Tuesday is a genuine coin-flip (markets put a rate *hike* at roughly 55–65%). I don't buy fresh stocks right before a big unknown like this — that's the exact mistake that cost us two weeks ago. Good news on our side: I checked all three of our stocks and every one is still healthy (no bad news, no downgrades).
+
+**What happens next**
+I'm watching ATI most closely — it's our weakest holding and sits just ~1% above its automatic safety-sell ($194.99), so a jittery day could trip it. If it does, that's our safety net working, not a panic. I found one promising new stock, Medtronic (a medical-device maker), that I'll reconsider *after* Tuesday's decision — not before.
+
+**Numbers I care about**
+- Pre-market equity ~$98,171 — down about $405 (−0.41%) from Friday, in step with a soft market open (these early numbers are rough; the real scorecard comes at today's close)
+- **JPMorgan +8.4%** is our star; **ATI −6.0%** is the one on watch (tightest safety net)
+- Cash **$10,025** (~10%) — right on our safety target, dry powder ready, but nothing worth buying into this uncertainty
+
 ## 2026-09-11 16:00 CT · weekly review
 
 **Week ending 2026-09-11: −1.10% | SPY −0.78% | alpha −0.32% | grade C**

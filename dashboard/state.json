@@ -1,154 +1,154 @@
 {
-    "last_update": "2026-09-11 16:00 CT",
-    "last_routine": "weekly-review",
-    "mode": "paper",
-    "equity": 98579.10,
-    "cash": 10025.14,
-    "day_pl": 583.07,
-    "day_pl_pct": 0.59,
-    "week_pl_pct": -1.10,
-    "spy_week_pct": -0.78,
-    "alpha_week_pct": -0.32,
-    "positions": [
-        {
-            "symbol": "JPM",
-            "qty": 34,
-            "avg_cost": 329.695588,
-            "current": 356.23,
-            "pl_pct": 8.05,
-            "stop": 329.85
-        },
-        {
-            "symbol": "CFR",
-            "qty": 60,
-            "avg_cost": 163.15,
-            "current": 162.92,
-            "pl_pct": -0.14,
-            "stop": 151.73
-        },
-        {
-            "symbol": "ATI",
-            "qty": 47,
-            "avg_cost": 209.669787,
-            "current": 198.77,
-            "pl_pct": -5.20,
-            "stop": 194.99
-        },
-        {
-            "symbol": "SPY",
-            "qty": 75,
-            "avg_cost": 766.968,
-            "current": 764.33,
-            "pl_pct": -0.34,
-            "stop": null
-        }
-    ],
-    "recent_trades": [
-        {
-            "date": "2026-09-09 08:37",
-            "side": "BUY",
-            "symbol": "CFR",
-            "qty": 60,
-            "price": 163.15
-        },
-        {
-            "date": "2026-09-04 09:33",
-            "side": "SELL (STOP)",
-            "symbol": "SNPS",
-            "qty": 24,
-            "price": 387.5
-        },
-        {
-            "date": "2026-09-03 08:34",
-            "side": "BUY",
-            "symbol": "SNPS",
-            "qty": 24,
-            "price": 417.0
-        },
-        {
-            "date": "2026-09-03 08:33",
-            "side": "SELL",
-            "symbol": "SPY",
-            "qty": 13,
-            "price": 769.15
-        },
-        {
-            "date": "2026-08-31 08:40",
-            "side": "BUY",
-            "symbol": "ATI",
-            "qty": 47,
-            "price": 209.67
-        },
-        {
-            "date": "2026-08-31 08:40",
-            "side": "BUY",
-            "symbol": "SPY",
-            "qty": 38,
-            "price": 766.34
-        },
-        {
-            "date": "2026-08-31 08:40",
-            "side": "SELL (STOP)",
-            "symbol": "LLY",
-            "qty": 12,
-            "price": 1152.0
-        },
-        {
-            "date": "2026-08-19 15:00",
-            "side": "SELL (STOP)",
-            "symbol": "DE",
-            "qty": 22,
-            "price": 579.47
-        }
-    ],
-    "latest_messages": [
-        {
-            "ts": "2026-09-11 16:00 CT",
-            "routine": "weekly-review",
-            "headline": "Week ending 2026-09-11: −1.10% | SPY −0.78% | alpha −0.32% | grade C",
-            "body": "A down week for the whole market (SPY −0.78%) and we fell a bit more (−1.10%), trailing by ~0.32%. But zero mistakes this week: the entire miss is one holding, ATI (−5.6%), sliding on metals-sector noise with its company story still healthy (verified). The one trade — buying CFR, a rate-BENEFITING bank into a rate-fear week — proves we absorbed last week's SNPS lesson. Cumulative alpha is a run-worst −2.3%, which is sobering, but three soft weeks with three DIFFERENT one-off causes is noise, not a pattern — so NO rule change (that would be overreacting). Path back: clean 70+ picks only, discipline through Tuesday's Fed decision, let the stops manage ATI. Grade C: clean process, losing scoreboard."
-        },
-        {
-            "ts": "2026-09-11 15:00 CT",
-            "routine": "market-close",
-            "headline": "Close: equity $98,579 · day +0.59% · SPY +0.86% · alpha −0.26%",
-            "body": "A green day — up ~$583 (+0.59%) — but the broad market rose +0.86%, so we lagged slightly. Our defensive banks + metals didn't join the risk-on rally (ATI flat, CFR barely up); JPM +8.1% led. No trades; cash on our ~$10k target and nothing cleared the 70+ gate. Watching ATI (tightest stop) and Tuesday's Fed decision."
-        },
-        {
-            "ts": "2026-09-11 12:00 CT",
-            "routine": "midday",
-            "headline": "Midday: steady, no changes · up ~$934 (+0.95%), roughly in line with the market",
-            "body": "Checked all four holdings live and re-confirmed every safety net is resting — no trades needed. Cash is right at our ~$10k cushion and no new stock clears our 70+ quality bar, so no reason to act. ATI is our weakest (−3.5%) but recovering, with its stop at $194.99 holding; JPM leads at +8.4%. Full scorecard at the close."
-        },
-        {
-            "ts": "2026-09-11 08:35 CT",
-            "routine": "market-open",
-            "headline": "Market open: no trades · CPI came in calm, tape opened green",
-            "body": "August inflation printed benign, so the market opened up and there was no rate shock to react to. Held all positions, made no buys — cash is at our ~$10k floor and nothing cleared our quality bar. All stops verified resting."
-        },
-        {
-            "ts": "2026-09-10 15:00 CT",
-            "routine": "market-close",
-            "headline": "Quiet close ahead of CPI · holding steady",
-            "body": "Ended the day roughly flat, in line with the market, ahead of Friday's big inflation report. No trades; kept our defensive bank tilt and cash cushion intact."
-        },
-        {
-            "ts": "2026-09-10 12:00 CT",
-            "routine": "midday",
-            "headline": "Midday: steady, no changes",
-            "body": "All risk checks clear, all stops resting. ATI weakest but thesis intact and stop protecting it. Patience through PPI/CPI into FOMC."
-        },
-        {
-            "ts": "2026-09-09 08:37 CT",
-            "routine": "market-open",
-            "headline": "Bought Cullen/Frost (CFR) — a Texas bank that benefits from higher rates",
-            "body": "Deployed our excess cash into a modest CFR starter after a two-notch Morgan Stanley upgrade. It benefits from higher rates rather than being hurt by them — the right way to add into a hawkish inflation week. Stop set at $151.73."
-        },
-        {
-            "ts": "2026-09-04 09:33 CT",
-            "routine": "market-open",
-            "headline": "Sold Synopsys (SNPS) — our safety net did its job",
-            "body": "A hot jobs report spiked rate fears and hit high-priced software; SNPS hit its −7% stop and sold automatically for a capped $708 loss. Not a thesis break — back on the watchlist for a clean re-entry."
-        }
-    ]
+  "last_update": "2026-09-14 07:15 CT",
+  "last_routine": "pre-market",
+  "mode": "paper",
+  "equity": 98170.65,
+  "cash": 10025.14,
+  "day_pl": -405.45,
+  "day_pl_pct": -0.41,
+  "week_pl_pct": -0.41,
+  "spy_week_pct": -0.63,
+  "alpha_week_pct": 0.22,
+  "positions": [
+    {
+      "symbol": "JPM",
+      "qty": 34,
+      "avg_cost": 329.70,
+      "current": 357.34,
+      "pl_pct": 8.39,
+      "stop": 329.85
+    },
+    {
+      "symbol": "CFR",
+      "qty": 60,
+      "avg_cost": 163.15,
+      "current": 162.92,
+      "pl_pct": -0.14,
+      "stop": 151.73
+    },
+    {
+      "symbol": "ATI",
+      "qty": 47,
+      "avg_cost": 209.67,
+      "current": 197.00,
+      "pl_pct": -6.04,
+      "stop": 194.99
+    },
+    {
+      "symbol": "SPY",
+      "qty": 75,
+      "avg_cost": 766.97,
+      "current": 759.49,
+      "pl_pct": -0.98,
+      "stop": null
+    }
+  ],
+  "recent_trades": [
+    {
+      "date": "2026-09-09 08:37",
+      "side": "BUY",
+      "symbol": "CFR",
+      "qty": 60,
+      "price": 163.15
+    },
+    {
+      "date": "2026-09-04 09:33",
+      "side": "SELL (STOP)",
+      "symbol": "SNPS",
+      "qty": 24,
+      "price": 387.5
+    },
+    {
+      "date": "2026-09-03 08:34",
+      "side": "BUY",
+      "symbol": "SNPS",
+      "qty": 24,
+      "price": 417.0
+    },
+    {
+      "date": "2026-09-03 08:33",
+      "side": "SELL",
+      "symbol": "SPY",
+      "qty": 13,
+      "price": 769.15
+    },
+    {
+      "date": "2026-08-31 08:40",
+      "side": "BUY",
+      "symbol": "ATI",
+      "qty": 47,
+      "price": 209.67
+    },
+    {
+      "date": "2026-08-31 08:40",
+      "side": "BUY",
+      "symbol": "SPY",
+      "qty": 38,
+      "price": 766.34
+    },
+    {
+      "date": "2026-08-31 08:40",
+      "side": "SELL (STOP)",
+      "symbol": "LLY",
+      "qty": 12,
+      "price": 1152.0
+    },
+    {
+      "date": "2026-08-19 15:00",
+      "side": "SELL (STOP)",
+      "symbol": "DE",
+      "qty": 22,
+      "price": 579.47
+    }
+  ],
+  "latest_messages": [
+    {
+      "ts": "2026-09-14 07:15 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: risk-off morning ahead of Tuesday's Fed decision — holding steady, no trades",
+      "body": "Cautious tape (oil +9% on the week revives inflation worry; live FOMC Tue 9/16 ~55-65% hike). All 3 holdings' theses intact. Watching ATI (~1% above its stop). No buys before the Fed — MDT is the top candidate to reconsider after Tuesday."
+    },
+    {
+      "ts": "2026-09-11 16:00 CT",
+      "routine": "weekly review",
+      "headline": "Week ending 2026-09-11: -1.10% | SPY -0.78% | alpha -0.32% | grade C",
+      "body": "Third soft week, but each smaller and zero mistakes made. ATI (-5.6% on the week) was the whole story - metals sector, not a company problem. Bought CFR (a rate-benefiting bank) - proof we learned last week's lesson. Holding into Tuesday's Fed decision."
+    },
+    {
+      "ts": "2026-09-11 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $98,579 · day +0.59% · SPY +0.86% · alpha -0.26%",
+      "body": "Green day but lagged a broad rally - our defensive bank/metals names didn't leap with the risk-on crowd. No trades; all stops resting. Watching ATI (weakest, stop nearest). FOMC Tuesday is the big event."
+    },
+    {
+      "ts": "2026-09-11 08:35 CT",
+      "routine": "market-open",
+      "headline": "CPI came in benign - market opened green - holding, no buys",
+      "body": "August inflation wasn't as hot as feared, so the tape opened up. Ran the bench (MDT, ETN) against live data - nothing cleared our 70 gate, and cash is at the ~$10k floor. Patience into FOMC 9/16."
+    },
+    {
+      "ts": "2026-09-11 07:20 CT",
+      "routine": "pre-market",
+      "headline": "CPI day - the week's binary event, hawkish setup",
+      "body": "August inflation report at 8:30 ET was the day's swing factor. Plan: react to the print, don't pre-position. No trades pre-market. Bank tilt kept; rate-sensitive software shelved."
+    },
+    {
+      "ts": "2026-09-10 15:00 CT",
+      "routine": "market-close",
+      "headline": "Quiet down day into CPI - no trades",
+      "body": "Market drifted lower ahead of inflation data. Held all positions; stops resting. ATI still our weakest, thesis intact."
+    },
+    {
+      "ts": "2026-09-09 15:00 CT",
+      "routine": "market-close",
+      "headline": "Bought Cullen/Frost (CFR), a Texas bank - filled a conviction slot",
+      "body": "Deployed into CFR, a rate-benefiting regional bank, with a -7% safety stop. Same nervous market as two weeks ago but the opposite, correct choice vs a rate-sensitive name."
+    },
+    {
+      "ts": "2026-09-09 08:37 CT",
+      "routine": "market-open",
+      "headline": "Buying Cullen/Frost (CFR) - a Texas regional bank",
+      "body": "Opened a starter position in CFR at $163.15, 60 shares, with an automatic -7% safety-sell. It benefits from higher rates - a fit for this rate environment."
+    }
+  ]
 }
