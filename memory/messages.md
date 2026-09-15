@@ -1,3 +1,23 @@
+## 2026-09-15 06:10 CT · pre-market
+
+**Pre-market plan: quiet, no trades today — we're waiting for tomorrow's big Fed decision.**
+
+**What I did**
+I ran the full research team this morning (one analyst each for the economy, earnings, our holdings, and new ideas) and pulled our live account. No trades — this is a research routine and the market is closed. Everything is healthy; both our automatic safety nets are resting in place.
+
+**Why**
+- **Tomorrow (Wednesday) the Federal Reserve decides on interest rates** — the one event that matters this week. The bond market is leaning toward a small rate hike, and interest rates on government bonds just hit their highest level in years. That's a nervous, cautious backdrop.
+- **A key lesson we paid for (the SNPS trade): don't buy fresh right before a big, unpredictable event.** So even though I found good candidates, I'm not opening anything today. I'll re-check them after the Fed and put our spare ~$9,000 cash to work on a calm tape.
+- **Our two banks (JPMorgan, Cullen/Frost) actually benefit if rates rise** — they earn more on loans — so I'm happy holding them into the decision. Cullen/Frost also pays us a small dividend (~$62) today.
+- **Best ideas on deck for after the Fed:** Lockheed and RTX (defense — barely affected by rates) and Medtronic (medical devices). I dropped Deere from the list — it's more sensitive to rising rates than I'd flagged.
+
+**What happens next**
+Holding steady through tomorrow's Fed decision, then I'll re-score the shortlist and deploy the spare cash if something clears our quality bar. Full daily scorecard comes at the close.
+
+**Numbers I care about**
+- Equity ~**$97,593** pre-open (a hair below yesterday; these early marks are thin — the real number comes at the close)
+- **$18,972 cash (~19%)** — about $9k of it deliberately parked for after the Fed
+- Holdings: **JPMorgan +5.6%**, **Cullen/Frost +0.2%**, S&P 500 cushion −0.9% — all safety nets resting comfortably
 ## 2026-09-14 15:00 CT · market-close
 
 **Close: equity $97,733 · day −0.86% · SPY −0.44% · alpha −0.42%**
