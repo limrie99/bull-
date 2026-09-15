@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-09-15 08:35 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-09-15 12:01 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 97681.84,
+  "equity": 97274.73,
   "cash": 18972.45,
-  "day_pl": -64.43,
-  "day_pl_pct": -0.07,
-  "week_pl_pct": -0.91,
-  "spy_week_pct": -0.68,
-  "alpha_week_pct": -0.23,
+  "day_pl": -471.54,
+  "day_pl_pct": -0.48,
+  "week_pl_pct": -1.32,
+  "spy_week_pct": -0.83,
+  "alpha_week_pct": -0.49,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 350.21,
-      "pl_pct": 6.22,
+      "current": 344.745,
+      "pl_pct": 4.57,
       "stop": 329.85
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 164.56,
-      "pl_pct": 0.86,
+      "current": 162.42,
+      "pl_pct": -0.45,
       "stop": 151.73
     },
     {
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 759.09,
-      "pl_pct": -1.03,
+      "current": 757.81,
+      "pl_pct": -1.19,
       "stop": null
     }
   ],
@@ -73,6 +73,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-15 12:01 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes the day before the Fed",
+      "body": "Quiet, on-purpose hold. Nothing to buy the session before Wednesday's FOMC (the SNPS lesson); nothing hit a sell trigger; no stop changes. JPM cooled to +4.6% (from +6.2% at the open) on a softer bank tape, CFR ~flat, SPY -1.2% tracking a cautious market. Equity $97,275, down -0.48% on the day vs SPY -0.4%. ~$9k cash parked for after the Fed."
+    },
     {
       "ts": "2026-09-15 08:35 CT",
       "routine": "market-open",

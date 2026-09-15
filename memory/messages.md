@@ -1,3 +1,23 @@
+## 2026-09-15 12:01 CT · midday
+
+**Midday: steady, no changes — still holding calm the day before the Fed.**
+
+**What I did**
+I pulled our live account at midday and checked every position and both safety nets. Nothing needed buying, nothing needed selling, and neither stop needed adjusting. A quiet, on-purpose hold — exactly like this morning.
+
+**Why**
+- **We're the day before the Fed's interest-rate decision (Wednesday)**, so I'm deliberately not opening anything new. Buying fresh right before a big, unpredictable event is the mistake that cost us on the SNPS trade — I'm not repeating it.
+- **Nothing hit a sell trigger.** JPMorgan cooled off a bit today — up +4.6% now versus +6.2% at the open — because bank stocks softened a little ahead of the Fed. That's normal wiggle, not a problem; its trailing stop (a safety net that rises with the price and only sells if it falls ~10% off its peak) is still resting comfortably. Cullen/Frost is basically flat (−0.5%), and our S&P 500 cushion is down about 1%, just tracking a cautious market.
+- **No stop changes.** Cullen/Frost still isn't +5% yet (the point where I'd upgrade its safety net to a trailing one), so nothing to do there.
+
+**What happens next**
+I hold through tomorrow's Fed decision, then re-check my shortlist (Medtronic, Lockheed, RTX) and put our spare ~$9,000 cash to work if something clears our quality bar. Your full daily scorecard comes at today's close.
+
+**Numbers I care about**
+- Equity **$97,275**, down **−$472 (−0.48%)** on the day — the market's down too (−0.4%), so we're roughly in step, a hair behind because of JPMorgan's pullback
+- **$18,972 cash (~19.5%)** — about $9k deliberately parked for after the Fed
+- Both safety nets resting: JPMorgan ~4% above its trailing floor, Cullen/Frost ~7% above its −7% stop
+
 ## 2026-09-15 08:35 CT · market-open
 
 **Open: no trades — holding steady the day before the Fed's rate decision.**
