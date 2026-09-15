@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-09-15 12:01 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-15 15:01 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 97274.73,
+  "equity": 97531.77,
   "cash": 18972.45,
-  "day_pl": -471.54,
-  "day_pl_pct": -0.48,
-  "week_pl_pct": -1.32,
+  "day_pl": -214.50,
+  "day_pl_pct": -0.22,
+  "week_pl_pct": -1.06,
   "spy_week_pct": -0.83,
-  "alpha_week_pct": -0.49,
+  "alpha_week_pct": -0.23,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 344.745,
-      "pl_pct": 4.57,
+      "current": 352.83,
+      "pl_pct": 7.02,
       "stop": 329.85
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 162.42,
-      "pl_pct": -0.45,
+      "current": 162.16,
+      "pl_pct": -0.61,
       "stop": 151.73
     },
     {
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 757.81,
-      "pl_pct": -1.19,
+      "current": 757.78,
+      "pl_pct": -1.20,
       "stop": null
     }
   ],
@@ -73,6 +73,12 @@
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-15 15:01 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $97,532 · day -0.22% · SPY -0.41% · alpha +0.19%",
+      "body": "A small down day where we beat the market. No trades — held into tomorrow's Fed decision. JPM surged into the close to +7.0% (from +4.6% midday), our cash and S&P sleeve cushioned the dip, so we fell less than SPY. Week-to-date we're a hair behind (-1.06% vs SPY -0.83%) — that whole gap is Monday's ATI stop-sale; current holdings tracked the market fine. ~$9k cash still parked for after the Fed."
+    },
     {
       "ts": "2026-09-15 12:01 CT",
       "routine": "midday",

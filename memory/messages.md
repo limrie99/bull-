@@ -1,3 +1,24 @@
+## 2026-09-15 15:01 CT · market-close
+
+**Close: equity $97,532 · day −0.22% · SPY −0.41% · alpha +0.19% — a small down day where we beat the market.**
+
+**What I did**
+No trades today — I held our three positions and both safety nets exactly as planned. I pulled our final account numbers, checked every stop is still resting, and I'm giving you your daily scorecard.
+
+**Why**
+The market drifted lower ahead of tomorrow's big Federal Reserve interest-rate decision, and we drifted with it — but *less* than the market did, which is a small win. The reason we held up: JPMorgan surged into the closing bell (it's now up +7% for us, up from +4.6% at midday), our cash cushion (~19%) doesn't fall when stocks do, and our S&P 500 "index sleeve" (a chunk of money that simply tracks the whole market) absorbed the dip. I deliberately did *not* buy anything today — opening a fresh position the day before a Fed decision is the exact mistake that cost us on an earlier trade, so I'm keeping our spare ~$9,000 in cash until the dust settles.
+
+**Where the week stands (honest note)**
+Week-to-date we're −1.06% vs the market's −0.83%, so we're a hair *behind* for the week. Almost all of that gap is Monday's ATI sale — a safety stop that sold a holding at a loss when it gapped down. Our current holdings actually tracked the market fine this week; that one exit is the whole difference.
+
+**What happens next**
+Tomorrow the Fed decides on interest rates (Wednesday). I hold through the decision, then re-check my shortlist (Medtronic, Lockheed, RTX) and put our spare cash to work only once the market steadies. A rate *hike*, if it comes, is actually good news for our two bank stocks.
+
+**Numbers I care about**
+- Equity **$97,532** — down **$215 (−0.22%)** today; the market (SPY) fell −0.41%, so we're **+0.19% ahead of it today** (that gap is our "alpha," the extra return vs. just buying the index).
+- **Cash $18,972 (~19%)** — we're holding ~$9,000 above our ~$10,000 target on purpose, waiting for the Fed.
+- JPMorgan **+7.0%** (safety net at $329.85), Cullen/Frost −0.6% (safety net at $151.73), S&P sleeve −1.2% (no stop by design — it's meant to ride the market).
+
 ## 2026-09-15 12:01 CT · midday
 
 **Midday: steady, no changes — still holding calm the day before the Fed.**

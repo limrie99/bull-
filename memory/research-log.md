@@ -8504,3 +8504,29 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 **Intraday alpha:** book **−0.48%** vs SPY **−0.40%** intraday (lastday 760.88 → 757.81) → book marginally behind today, entirely the JPM −1.54% bank-tape give-back into the Fed. Week-to-date (base Fri 9/11 close 98,576.10): book **−1.32%** vs SPY **−0.83%** → **alpha WTD ~−0.49%** (intraday estimate; the close/weekly routines own the authoritative scorecard).
 
 **Next:** market-close Tue 9/15 — mandatory plain-English scorecard + Telegram (never skipped). All cushions comfortable into the close (JPM ~4.3% to floor, CFR ~6.6% to hard stop). **FOMC Wed 9/16 is THE macro gate.** No Telegram this midday (quiet no-trade check, per skip rules).
+
+## 2026-09-15 15:01 CT — MARKET-CLOSE (Tue · market CONFIRMED closed via /v2/clock, is_open=false; NO TRADES) · FOMC-eve hold held; JPM rallied into the bell
+
+**Env:** market CLOSED (`/v2/clock` is_open=false, next_open 2026-09-16 09:30 ET, timestamp 16:01 ET). All 4 required Alpaca+Perplexity vars present; EQUIBLES empty (skipped by policy). Synced origin/main memory at run start. Inbox `## Pending`: none.
+
+**Live account (close, `/v2/account`):** equity **$97,531.77** vs last_equity (Mon 9/14 close, balance_asof 9/14) $97,746.27. cash **$18,972.45 (~19.45%)**, long_market_value $78,559.32, buying_power $295,855.90, status ACTIVE, trading_blocked false. Conviction sleeve **2/5 (JPM, CFR); 3 slots OPEN.** Weekly conviction buys **0/3** (week 9/14–9/18). CFR $1.03/sh dividend (pay date 9/15, ~$61.80) STILL NOT credited at the close (same $18,972.45 as open/midday — paper credit lag); reconcile next routine.
+
+**Positions (closing marks; theses ALL INTACT):**
+- **JPM** 34 @ 329.6956 → px **352.83** · **+$786.57 / +7.02%** · 10% trailing floor **329.85** (below hwm 366.5 → floor unchanged), cushion ~6.5%. Intraday +0.77% — **rallied into the close** (+4.57% midday → +7.02% close), reversing the earlier bank-tape give-back. No company news. Next earnings ~10/13. Now >+5% but already on trailing → no conversion, floor unchanged.
+- **CFR** 60 @ 163.15 → px **162.16** · **−$59.40 / −0.61%** · −7% hard 151.73, cushion ~6.4%. Intraday −0.75%. Converts to 10% trailing once +5% (currently −0.61%).
+- **SPY floor** 75 @ 766.968 → px **757.78** · **−$689.10 / −1.20%** · no stop by policy; tracked the index down on a cautious pre-FOMC tape, doing its shock-absorber job. ~58.3% of equity (index sleeve — exempt from the 20% cap).
+
+**Open orders VERIFIED (exactly 2, both live resting; no drift/orphan/duplicate):** JPM trailing `8a937ff6` floor 329.85 hwm 366.5 trail 10% GTC; CFR −7% hard `cd725e5b` 151.73 GTC. SPY unencumbered by design. **Closed orders today (`/v2/orders?status=closed&after=2026-09-15`): NONE — zero fills, confirming the no-trade day.**
+
+**Risk checks:** (a) any position −7%+ un-stopped? NO — worst SPY −1.20% (no stop by policy); CFR −0.61%, JPM +7.02%. (b) any +5%+ needing hard→trailing conversion? NO — JPM already on trailing; CFR −0.61% below +5%; SPY no stop by policy. (c) daily loss cap: day −0.22%, far inside −3%.
+
+### Day summary (2026-09-15 close)
+- **Closing equity:** $97,531.77. **Day P/L: −$214.50 / −0.22%** (vs Mon 9/14 close $97,746.27).
+- **SPY day: −0.41%** (yesterday close 760.88 → today 757.78 via position marks; IEX bars corroborate: 760.755 → 757.42 ≈ −0.44%). **Alpha today: +0.19%** — we fell less than the market, beating SPY on the day.
+- **Week-to-date (base Fri 9/11 close equity 98,576.10, from `/v2/account/portfolio/history`):** book **−1.06%** (97,531.77/98,576.10−1) vs **SPY −0.83%** (764.14 → 757.78) → **alpha WTD −0.23%.**
+- **Trades placed:** NONE (no fills; no entry window on the close; FOMC-eve near-veto held).
+- **What worked:** (1) **JPM's close rally** (+4.57% midday → +7.02% bell) turned a −0.48% midday book into a −0.22% close, the day's biggest positive swing. (2) **FOMC-eve discipline** — not force-deploying the ~$9k ATI proceeds into a two-sided pre-Fed tape kept us out of fresh risk. (3) The SPY floor tracked the index closely and the ~19% cash cushion damped the drawdown, so we finished ahead of SPY on the day (+0.19% alpha).
+- **What didn't:** (1) **Week-to-date we're −0.23% behind SPY**, and the entire lag is Monday's **ATI gap-down stop-out (realized −$907.17 / −9.21%)** — the live book (JPM/CFR/SPY) roughly tracked the index this week; the miss is that one realized loss, not stock-picking. (2) CFR stayed marginally red (−0.61%), still not converting to a trailing stop. (3) SPY −1.20% is the largest dollar drag by weight, but that's the index-floor sleeve doing exactly its job (track the market, no exit).
+- **Open questions for tomorrow (pre-market Wed 9/16):** (1) **FOMC decision is TODAY-plus-one (Wed 9/16)** — confirm the latest hike-odds read and hold the no-fresh-beta-into-the-print posture until the decision lands AND the tape stabilizes (SNPS/ATI lesson). (2) **CFR dividend ~$61.80** still uncredited — verify the cash credit posts and reconcile. (3) Stage the ~$9k redeploy for a **stabilized POST-FOMC tape**: SPY floor add vs a clean ≥70 gate-clearer (MDT ~78 / LMT ~75 / RTX ~72). (4) A 25bp hike, if it lands, confirms the JPM/CFR NII tailwind — watch how banks trade the decision.
+
+**Telegram:** PUSHED — the mandatory daily "How we're doing" close scorecard (never skipped, per CLAUDE.md), leading with day/SPY/alpha in plain English.
