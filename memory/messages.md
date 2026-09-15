@@ -1,3 +1,23 @@
+## 2026-09-15 08:35 CT · market-open
+
+**Open: no trades — holding steady the day before the Fed's rate decision.**
+
+**What I did**
+The market opened and I checked our live account: nothing to buy, nothing to sell, both safety nets confirmed resting in place. This is exactly the plan I set this morning — a calm, do-nothing open on purpose.
+
+**Why**
+- **Tomorrow (Wednesday) the Federal Reserve announces its interest-rate decision** — the biggest event of the week and genuinely a coin-flip. One of our hardest-learned lessons is *don't buy fresh right before a big, unpredictable event* (the SNPS trade taught us that the expensive way). So I'm not opening any new positions today; I'll re-check my shortlist after the Fed on a calmer tape.
+- **Nothing hit a sell trigger.** JPMorgan opened up nicely (+6.2%) and Cullen/Frost is slightly green (+0.9%) — both are banks that tend to *earn more* when rates rise, so I'm comfortable holding them into the decision. Our S&P 500 cushion is down about 1%, just tracking the market on a nervous morning — no alarm, that's its job.
+- **No stop changes needed.** Cullen/Frost isn't yet +5% (the point where I'd swap its safety net for a smarter trailing one), so its net stays put.
+
+**What happens next**
+I'm holding through tomorrow's Fed decision, then re-scoring my top ideas (Lockheed, RTX, Medtronic) and putting our spare ~$9,000 cash to work if something clears our quality bar. Full daily scorecard comes at today's close.
+
+**Numbers I care about**
+- Equity ~**$97,682**, essentially flat on the day (−$64, −0.07%) — and a hair *ahead* of the market so far
+- **$18,972 cash (~19%)** — about $9k deliberately parked for after the Fed
+- Cullen/Frost also pays us a small **~$62 dividend** today
+
 ## 2026-09-15 06:10 CT · pre-market
 
 **Pre-market plan: quiet, no trades today — we're waiting for tomorrow's big Fed decision.**

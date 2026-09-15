@@ -8451,3 +8451,28 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - **What worked:** (1) The FOMC-eve discipline — holding the ~$9k ATI proceeds in cash rather than force-deploying into a two-sided macro tape kept us out of fresh risk on a down day. (2) CFR held green (+0.15%) and the SPY sleeve tracked the index closely, so the index-floor carve-out did its shock-absorber job. (3) The ATI stop capped a real gap-down at ~9% of a ~9%-weight position — the loss was small in book terms.
 - **What didn't:** (1) JPM gave back −1.71% today (bank-tape softness ahead of the Fed), the main live-position drag. (2) The ATI gap-sale slippage (fill ~$190.37 vs the −7% $194.99 design) added ~$395 to the day's loss beyond the −7% intent — gap risk, not a process error, but it's the reason −0.86% book vs ~−0.45% live-position intraday. (3) We finished −0.42% behind SPY on the day; the ATI realized slippage is essentially the entire miss.
 - **Open questions for tomorrow (pre-market Tue 9/15):** (1) FOMC 9/16 is now ~24h out — confirm the latest hike-odds read and keep the no-fresh-beta-into-the-print posture (SNPS lesson). (2) CFR dividend posts 9/15 — verify the ~$61.80 cash credit lands and reconcile cash. (3) Redeploy plan for the ~$9k excess: SPY floor add vs a clean ≥70 gate-clearer (MDT ~72 top bench) — stage the decision for a stabilized POST-FOMC tape, not before. (4) Watch JPM cushion (~5.8% to floor) — comfortable, but a bank-tape leg-down into the Fed is the one thing that could pressure it.
+
+## 2026-09-15 08:35 CT — MARKET-OPEN (Tue · market CONFIRMED open via /v2/clock, is_open=true; NO TRADES) · executed the pre-market plan: no fresh beta the session before FOMC (Wed 9/16)
+
+**Routine:** Env loaded (all 4 required vars present; EQUIBLES empty → skipped by design). Inbox: no Pending items. Market confirmed OPEN (`/v2/clock` is_open=true, next_close 16:00 ET). Account live (`/v2/account`): equity **$97,681.84** vs last_equity (Mon 9/14 close) $97,746.27 → intraday **−$64.43 / −0.07%** (early-session mark; close routine owns the authoritative scorecard). cash **$18,972.45 (~19.42%)**, long_market_value $78,709.39, buying_power $296,276.08, status ACTIVE, trading_blocked false. Conviction sleeve **2/5 (JPM, CFR); 3 OPEN.** Weekly conviction buys **0/3** (week 9/14–9/18).
+
+**Open orders (`/v2/orders?status=open`) — exactly 2, both VERIFIED live resting:**
+- CFR −7% hard `cd725e5b-c593-4dde-8c72-1dda0cfbb8ae` stop 151.73, qty 60, GTC, status new.
+- JPM 10% trailing `8a937ff6-164c-4384-8cf8-c000d4106a60` floor 329.85, trail_percent 10, hwm 366.5, qty 34, GTC, status new.
+- SPY unencumbered by design (index-floor sleeve). No orphan/duplicate orders.
+
+**Positions (live open marks, theses ALL INTACT):**
+- **JPM** 34 @ 329.6956 → px **350.21** · **+$697.49 / +6.22%** · trailing floor 329.85 (below hwm 366.5 → floor unchanged), cushion ~5.5%. Firmed vs pre-market (348.29→350.21) on the bank tape. No company news. Next earnings ~10/13.
+- **CFR** 60 @ 163.15 → px **164.5564** · **+$84.38 / +0.86%** · −7% hard 151.73, cushion ~7.8%. $1.03/sh dividend PAY DATE today 9/15 (~$61.80 credits; not yet in cash balance; ex-div 8/31 already past). Converts to 10% trailing once +5% (currently +0.86%).
+- **SPY floor** 75 @ 766.968 → px **759.09** · **−$590.85 / −1.03%** · no stop by policy; tracking the index down on a risk-off open, doing its shock-absorber job.
+- **Sizes on equity $97,681.84:** JPM ~12.19%, CFR ~10.11%, SPY ~58.28% (index sleeve — exempt from 20% cap). All individual names within ≤20%.
+
+**Risk checks:** (a) any position −7%+ un-stopped? NO — worst SPY −1.03% (no stop by policy); JPM +6.22%, CFR +0.86%. Nothing at/near a trigger. (b) any +5%+ needing hard→trailing conversion? NO — JPM already trailing; CFR +0.86% (below +5%); SPY no-stop by policy. (c) daily loss cap: intraday −0.07%, far inside −3%. No buys today regardless.
+
+**Buys:** NONE. Executed the pre-market decision unchanged — the **near-veto entry-timing rule** governs: do not initiate fresh beta the session before a binary macro print, and today (Tue 9/15) IS the session before Wed 9/16 FOMC. Re-validated the bench against the open tape (rates still elevated, mild risk-off) — nothing changed the call. Top gate-clearers (MDT ~78 MED-sens, LMT ~75 LOW-sens, RTX ~72 LOW-sens) are all post-FOMC re-score candidates. Cash ~$18,972 (~19.4%), ~$9k above the ~$10k target held through the Fed by the 9/14 decision → no forced deploy; 3 slots open, weekly buys 0/3.
+
+**Sells:** NONE triggered. No thesis break on any holding; no position at/through its stop; no +5% conversion pending. Let the stops work.
+
+**Telegram:** NO push — market-open with no trades is not a push event (per CLAUDE.md: push on trade/stop/close-summary/weekly/urgent only; not on quiet no-trade routines). The mandatory daily "How we're doing" scorecard belongs to the market-close routine.
+
+**Watch / next (midday Tue 9/15, then FOMC Wed 9/16):** Hold pattern through the decision + a stabilized tape. Post-FOMC re-score the bench on a clean tape and deploy the ~$9k excess into a clean ≥70 gate-clearer and/or the SPY floor (LMT/RTX LOW rate-sens, MDT top conviction ~78 but MED-sens). A hike, if it lands, confirms the JPM/CFR NII tailwind. CFR ~$61.80 dividend credits today.
