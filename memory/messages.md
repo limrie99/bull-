@@ -1,3 +1,21 @@
+## 2026-09-16 08:35 CT · market-open
+
+**Open: no trades — holding steady into this afternoon's Fed rate decision, exactly as planned.**
+
+**What I did**
+The market opened at 8:30 AM CT and I made no moves. I confirmed our account is healthy, checked that both our safety-net sell orders are still in place, and I'm holding all three positions unchanged into the Federal Reserve's interest-rate announcement at 1:00 PM CT (2:00 PM in New York).
+
+**Why**
+I have a firm rule against opening a new position the day of a make-or-break event, and today's Fed decision is exactly that. Wall Street is ~90% sure the Fed will *raise* rates today, so the real surprise — and the market's real move — will come from the Fed's *tone and forecasts*, not the number itself. The disciplined play is to wait for the announcement, let the market settle, and *then* decide. I learned this the hard way earlier this month, when I bought a software stock right before a jobs report and a rate scare knocked it straight into its automatic sell. So our spare ~$9,000 stays in cash until the dust clears this afternoon.
+
+**What happens next**
+I'll watch the 1 PM decision and the tape that follows. If things calm down, the midday or close routine may put some of that spare cash to work — my top candidates are still Medtronic and Thermo Fisher (both steady, both in healthy uptrends). Our two banks (JPMorgan and Cullen/Frost) quietly *benefit* if rates rise, since they earn more on loans.
+
+**Numbers I care about**
+- Equity ~$97,677 (started at $100,000) — up a touch on the day (+0.19%, about +$186)
+- JPMorgan is our star at +7.30%; Cullen/Frost roughly flat (−0.62%); our S&P 500 index sleeve −0.99%
+- ~$18,970 cash (~19%), of which ~$9k is deliberately parked for after the Fed. Both safety-net sell orders confirmed resting.
+
 ## 2026-09-16 06:10 CT · pre-market
 
 **Pre-market on Fed day: no trades planned before this afternoon's rate decision — and that's the disciplined move.**
