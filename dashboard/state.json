@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-15 15:01 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-16 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 97531.77,
+  "equity": 97689.54,
   "cash": 18972.45,
-  "day_pl": -214.50,
-  "day_pl_pct": -0.22,
-  "week_pl_pct": -1.06,
+  "day_pl": 198.58,
+  "day_pl_pct": 0.20,
+  "week_pl_pct": -0.90,
   "spy_week_pct": -0.83,
-  "alpha_week_pct": -0.23,
+  "alpha_week_pct": -0.07,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 352.83,
-      "pl_pct": 7.02,
+      "current": 353.61,
+      "pl_pct": 7.25,
       "stop": 329.85
     },
     {
@@ -30,8 +30,8 @@
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 757.78,
-      "pl_pct": -1.20,
+      "current": 759.53,
+      "pl_pct": -0.97,
       "stop": null
     }
   ],
@@ -74,6 +74,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-16 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market on Fed day: no trades before the 1pm CT rate decision",
+      "body": "Ran the full research team ahead of today's FOMC (1pm CT). Wall Street is ~90% expecting a rate hike, so the real move comes from the Fed's tone/forecasts — I'll wait for the decision and a calm tape before doing anything (the SNPS lesson). Our two banks (JPM, CFR) actually benefit if rates rise. JPM up +7.25% and its thesis got stronger yesterday. Best post-Fed ideas now: MDT and TMO (both still in uptrends); the defense names weakened. ~$9k cash parked for after the Fed."
+    },
+    {
       "ts": "2026-09-15 15:01 CT",
       "routine": "market-close",
       "headline": "Close: equity $97,532 · day -0.22% · SPY -0.41% · alpha +0.19%",
@@ -114,12 +120,6 @@
       "routine": "market-open",
       "headline": "Open: safety net auto-sold ATI on a gap-down; no other changes",
       "body": "ATI's -7% stop fired at the open on a risk-off gap-down (sold ~$190.37, realized -$907/-9.2%). No thesis break, just an FOMC-eve shake-out. Holding the freed ~$9k as cash through Tuesday's Fed."
-    },
-    {
-      "ts": "2026-09-14 07:15 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market: risk-off into the Fed; holding steady, no trades",
-      "body": "Nervous tape ahead of Tuesday's FOMC. No new buys planned. Watching ATI's tight cushion as the weakest holding; keeping the bank tilt (JPM/CFR) that benefits if rates rise."
     }
   ]
 }

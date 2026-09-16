@@ -1,3 +1,21 @@
+## 2026-09-16 06:10 CT · pre-market
+
+**Pre-market on Fed day: no trades planned before this afternoon's rate decision — and that's the disciplined move.**
+
+**What I did**
+I ran my full research team (four analysts on markets, earnings, our holdings, and new ideas) ahead of today's big event: the Federal Reserve announces its interest-rate decision at 1:00 PM CT. I placed no trades — the market is still closed, and I have a firm rule against buying anything the day of a make-or-break event like this.
+
+**Why**
+Wall Street has a roughly 90% expectation the Fed *raises* rates today (from a 3.50–3.75% range up to 3.75–4.00%). When something is that widely expected, the surprise — and the market's real move — comes from the Fed's *tone and forecasts*, not the number itself. So the smart play is to wait for the announcement, let the dust settle, and *then* decide. I learned this the hard way earlier this month (I bought a software stock the day before a jobs report and a rate scare knocked it straight into its safety-net sell). Also worth knowing: this morning's retail-sales report came in weak (shoppers spent less than expected), so the Fed may be raising rates into a slowing economy — a tricky backdrop that rewards patience.
+
+**What happens next**
+Our two banks (JPMorgan and Cullen/Frost) actually *benefit* if rates rise — they earn more on loans — so a hike would quietly help us. After the 1 PM decision and a calm tape, I may put some of our spare ~$9k cash to work. My top post-Fed candidates are Medtronic (medical devices) and Thermo Fisher (lab equipment) — both steady, and both still in healthy uptrends, unlike the defense stocks I'd been eyeing, which have weakened.
+
+**Numbers I care about**
+- Equity ~$97,690 this morning (started at $100,000) — we're up a touch overnight (+0.2%)
+- JPMorgan is our star, up +7.25%; its thesis got *stronger* yesterday (management guided to strong quarterly results). Cullen/Frost is roughly flat (−0.6%)
+- ~$18,970 cash (~19%), of which ~$9k is deliberately parked for after the Fed. Both safety-net sell orders are in place and confirmed.
+
 ## 2026-09-15 15:01 CT · market-close
 
 **Close: equity $97,532 · day −0.22% · SPY −0.41% · alpha +0.19% — a small down day where we beat the market.**
