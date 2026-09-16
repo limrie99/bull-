@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-09-16 12:01 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-16 15:02 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 97494.23,
+  "equity": 96958.34,
   "cash": 18972.45,
-  "day_pl": 3.27,
-  "day_pl_pct": 0.003,
-  "week_pl_pct": -1.1,
-  "spy_week_pct": -0.62,
-  "alpha_week_pct": -0.48,
+  "day_pl": -532.62,
+  "day_pl_pct": -0.55,
+  "week_pl_pct": -1.64,
+  "spy_week_pct": -1.32,
+  "alpha_week_pct": -0.32,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 350.12,
-      "pl_pct": 6.2,
+      "current": 348.5511,
+      "pl_pct": 5.72,
       "stop": 329.85
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 160.995,
-      "pl_pct": -1.32,
+      "current": 159.44,
+      "pl_pct": -2.27,
       "stop": 151.73
     },
     {
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 759.44,
-      "pl_pct": -0.98,
+      "current": 754.25,
+      "pl_pct": -1.66,
       "stop": null
     }
   ],
@@ -74,6 +74,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-16 15:02 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $96,958 · day -0.55% · SPY -0.44% · alpha -0.10%",
+      "body": "Small down day on the Fed's rate-decision day. No trades — my rule is not to open positions on a make-or-break event day, and the market was closed by the time this ran. We lagged the market by a hair (-0.10%) because our two banks (JPM -1.1%, CFR -1.7%) faded a bit more than the index on a 'sell the news' wobble — not a thesis break; higher rates help banks long-term. ~$9k cash still dry; tomorrow I'll confirm what the Fed did and, if the tape calms, put it to work (MDT/TMO top ideas)."
+    },
+    {
       "ts": "2026-09-16 12:01 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes ~1hr before the Fed rate decision",
@@ -82,20 +88,20 @@
     {
       "ts": "2026-09-16 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 holding steady into this afternoon's Fed rate decision",
-      "body": "Made no moves at the open, on purpose. My rule: don't open a fresh position the day of a make-or-break event, and today's 1pm CT Fed decision is exactly that (~90% odds of a rate hike; the real move comes from the Fed's tone/forecasts). So our spare ~$9k stays in cash until the dust settles this afternoon \u2014 the SNPS lesson. Our banks (JPM +7.30%, CFR flat) benefit if rates rise. Best post-Fed ideas still MDT and TMO. Equity ~$97,677, +0.19% on the day; both stops resting."
+      "headline": "Open: no trades — holding steady into this afternoon's Fed rate decision",
+      "body": "Made no moves at the open, on purpose. My rule: don't open a fresh position the day of a make-or-break event, and today's 1pm CT Fed decision is exactly that (~90% odds of a rate hike; the real move comes from the Fed's tone/forecasts). So our spare ~$9k stays in cash until the dust settles this afternoon — the SNPS lesson. Our banks (JPM +7.30%, CFR flat) benefit if rates rise. Best post-Fed ideas still MDT and TMO. Equity ~$97,677, +0.19% on the day; both stops resting."
     },
     {
       "ts": "2026-09-16 06:10 CT",
       "routine": "pre-market",
       "headline": "Pre-market on Fed day: no trades before the 1pm CT rate decision",
-      "body": "Ran the full research team ahead of today's FOMC (1pm CT). Wall Street is ~90% expecting a rate hike, so the real move comes from the Fed's tone/forecasts \u2014 I'll wait for the decision and a calm tape before doing anything (the SNPS lesson). Our two banks (JPM, CFR) actually benefit if rates rise. JPM up +7.25% and its thesis got stronger yesterday. Best post-Fed ideas now: MDT and TMO (both still in uptrends); the defense names weakened. ~$9k cash parked for after the Fed."
+      "body": "Ran the full research team ahead of today's FOMC (1pm CT). Wall Street is ~90% expecting a rate hike, so the real move comes from the Fed's tone/forecasts — I'll wait for the decision and a calm tape before doing anything (the SNPS lesson). Our two banks (JPM, CFR) actually benefit if rates rise. JPM up +7.25% and its thesis got stronger yesterday. Best post-Fed ideas now: MDT and TMO (both still in uptrends); the defense names weakened. ~$9k cash parked for after the Fed."
     },
     {
       "ts": "2026-09-15 15:01 CT",
       "routine": "market-close",
-      "headline": "Close: equity $97,532 \u00b7 day -0.22% \u00b7 SPY -0.41% \u00b7 alpha +0.19%",
-      "body": "A small down day where we beat the market. No trades \u2014 held into tomorrow's Fed decision. JPM surged into the close to +7.0% (from +4.6% midday), our cash and S&P sleeve cushioned the dip, so we fell less than SPY. Week-to-date we're a hair behind (-1.06% vs SPY -0.83%) \u2014 that whole gap is Monday's ATI stop-sale; current holdings tracked the market fine. ~$9k cash still parked for after the Fed."
+      "headline": "Close: equity $97,532 · day -0.22% · SPY -0.41% · alpha +0.19%",
+      "body": "A small down day where we beat the market. No trades — held into tomorrow's Fed decision. JPM surged into the close to +7.0% (from +4.6% midday), our cash and S&P sleeve cushioned the dip, so we fell less than SPY. Week-to-date we're a hair behind (-1.06% vs SPY -0.83%) — that whole gap is Monday's ATI stop-sale; current holdings tracked the market fine. ~$9k cash still parked for after the Fed."
     },
     {
       "ts": "2026-09-15 12:01 CT",
@@ -106,20 +112,14 @@
     {
       "ts": "2026-09-15 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 holding steady the day before the Fed's rate decision",
+      "headline": "Open: no trades — holding steady the day before the Fed's rate decision",
       "body": "Calm, do-nothing open on purpose. Nothing to buy the session before Wednesday's FOMC (the SNPS lesson); nothing hit a sell trigger. JPM opened +6.2%, CFR +0.9% (both banks benefit if rates rise), SPY -1% just tracking the tape. Both stops resting; no conversions due. ~$9k cash parked for after the Fed. CFR pays a ~$62 dividend today."
     },
     {
       "ts": "2026-09-15 06:10 CT",
       "routine": "pre-market",
-      "headline": "Pre-market: quiet, no trades \u2014 waiting for tomorrow's Fed decision",
+      "headline": "Pre-market: quiet, no trades — waiting for tomorrow's Fed decision",
       "body": "Ran the full research team; all three holdings healthy, both stops resting. No buys the session before Wednesday's FOMC (the SNPS lesson). Bank tilt (JPM/CFR) benefits if rates rise; CFR pays a ~$62 dividend today. Best post-Fed ideas on deck: LMT, RTX, MDT. Dropped DE (too rate-sensitive)."
-    },
-    {
-      "ts": "2026-09-14 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $97,733 \u00b7 day -0.86% \u00b7 SPY -0.44% \u00b7 alpha -0.42%",
-      "body": "Down day into FOMC-eve. Most of the loss was this morning's ATI gap-sale; JPM slipped -1.7% with the bank tape, CFR held slightly green, SPY tracked the index. No trades at the close; ~$9k cash parked through Tuesday's Fed. Behind the market by 0.42% today."
     }
   ]
 }

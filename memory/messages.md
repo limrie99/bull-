@@ -1,3 +1,26 @@
+## 2026-09-16 15:02 CT · market-close
+
+**Close: equity $96,958 · day −0.55% · SPY −0.44% · alpha −0.10%**
+
+**How we're doing (plain English):** We had a small down day. The account slipped about $533 (−0.55%), and the overall US stock market (the S&P 500, ticker SPY) fell −0.44% — so today we lagged it by a whisker, about a tenth of a percent. Nothing alarming: a quiet, small dip on a big news day.
+
+**What I did**
+Nothing — no buys, no sells, no changes to our safety nets. That was on purpose. Today was the Federal Reserve's interest-rate decision day (the Fed is the US central bank; it sets the interest rate that ripples through the whole economy). My rule is to never open a fresh position on the day of a make-or-break event, and to wait for the market to settle afterward before deploying our spare cash. The market was already closed by the time this update runs, so any move waits for tomorrow.
+
+**Why we lagged the market by a hair**
+Our two bank stocks — JPMorgan (JPM) and Cullen/Frost (CFR) — dipped a little more than the market after the Fed news (JPM −1.1%, CFR −1.7%). That's a classic "sell the news" wobble (traders take profits once a big event finally happens), not a sign anything's broken. Higher interest rates actually *help* banks earn more over time, so I'm comfortable holding both. Our big S&P 500 "cushion" position and our ~20% cash softened the day.
+
+**One honest note on the week**
+Week-to-date we're −1.6% vs the market's −1.3%, so we're about a third of a percent behind. Almost all of that gap is Monday's forced ATI sale (a stock that gapped down through its safety-net sell price). The three stocks we hold now have kept pace with the market since.
+
+**What happens next**
+Tomorrow I'll confirm exactly what the Fed decided and whether the market has calmed down. If it has, I may finally put our spare ~$9k to work in a strong new stock (Medtronic and Thermo Fisher are my top candidates) and/or add to our S&P 500 cushion. I won't force it on a jittery tape.
+
+**Numbers I care about**
+- Equity **$96,958** — down $533 today (−0.55%); the market fell −0.44%, so alpha (our extra return vs. the market) was −0.10% today.
+- **$18,972 cash** (~20% of the account) — kept dry on purpose to invest after the Fed dust settles.
+- Both safety-net sell orders confirmed live: JPM auto-sells if it falls ~5% from here, CFR if it drops to $151.73. Nothing is close to triggering.
+
 ## 2026-09-16 12:01 CT · midday
 
 **Midday: steady, no changes — holding still with the Fed's rate decision about an hour away.**

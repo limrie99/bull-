@@ -36,6 +36,27 @@
 - **Pre-decision (open → ~1pm CT):** hold pattern. No fresh beta before 2pm. Keep the bank tilt (JPM/CFR, hike beneficiaries); keep high-multiple software (SNPS/ADSK) and financing-exposed cyclicals (DE/ETN) shelved.
 - **Post-decision (after 2pm ET + a *stabilized* tape):** the market-open/midday routine may redeploy the ~$9k excess into a clean ≥70 gate-clearer and/or the SPY floor. **Re-score the queue on live Alpaca prices first:** **MDT (~76, top, MED rate-sens, uptrend intact)** and **TMO (~74, LOW-MED, best technical but guidance only reaffirmed)** are the two clean gate-clearers; **LMT (~68) only if it reclaims its 50dMA.** A hike, if it lands, confirms the JPM/CFR tailwind; a hawkish dot-plot (dots >5%) argues to favor the shortest-duration / rate-beneficiary names and to size conservatively. **Reconcile the CFR dividend credit.**
 
+### Day summary — MARKET CLOSE 2026-09-16 15:02 CT (FOMC decision day)
+- **Closing equity: $96,958.34** (`/v2/account`). last_equity (Tue 9/15 close) $97,490.96 → **day −$532.62 / −0.55%**. Cash $18,972.45 (~19.57%), long_market_value $77,985.89, buying_power $294,250.28, status ACTIVE.
+- **SPY day −0.44%** (IEX daily bars: 9/15 close 757.42 → 9/16 close 754.05; SPY latest trade 754.05). **Alpha today −0.10 pts.** Position-level intraday attribution (sums to the −$532.62 equity change; no cash flows): SPY −$235.50 (−0.42%), CFR −$163.20 (−1.68%), JPM −$133.92 (−1.12%).
+- **Week-to-date (from Fri 9/11 close $98,576.10, portfolio-history base_value): −$1,617.76 / −1.64%. SPY week −1.32%** (9/11 close 764.14 → 754.05). **Week alpha −0.32 pts** — behind, and effectively ALL of it is Monday's ATI gap-stop (−$907). The three current holdings have tracked the tape since.
+- **Trades: NONE** (`/v2/orders?status=closed&after=2026-09-16` empty — zero fills). **Stops: 2 open orders VERIFIED** (CFR hard 151.73 gtc exp 12-08; JPM trailing floor 329.85 trail 10% hwm 366.5 gtc; SPY unencumbered). Market was CLOSED when this routine ran (16:01 ET) — no trading possible; the post-FOMC redeploy is a next-open decision.
+- **FOMC:** decision landed 1:00pm CT / 2:00pm ET (~90% priced for a 25bp hike into a quarterly meeting w/ new SEP/dot-plot + presser). **Perplexity's index had NOT caught up to the released statement by close** — it still returned the pre-meeting preview — so the exact rate action and dot-plot are NOT independently confirmed this run (deliberately not fabricated). Authoritative read = the tape: modest broad risk-off (SPY −0.44%) with banks giving back more (JPM −1.12%, CFR −1.68%), consistent with a "sell-the-news"/cautious-forward-path reaction. Reconfirm the decision + dot-plot from a caught-up source at the Thu pre-market.
+
+**What worked:**
+- The ~19.6% cash + no-stop SPY floor did their shock-absorber job again — a quiet, disciplined FOMC-day hold with no forced beta means the day's loss was only −0.55%, well inside any concern.
+- Discipline held: no fresh position was opened the day of a binary macro print (the SNPS/ATI entry-timing near-veto), and no thesis-less reaction to the intraday chop.
+
+**What didn't:**
+- The two banks (JPM, CFR) faded more than the index post-decision, so we trailed SPY by 0.10 pts on the day. CFR (−1.68%) was the softest holding; its stop cushion narrowed to ~4.8%.
+- Week alpha is −0.32 pts, dominated by Monday's ATI gap-stop — a reminder that a hard stop guarantees a trigger, not a fill price, on a gap-down.
+
+**Open questions for tomorrow:**
+1. What did the FOMC actually decide (rate action + dot-plot terminal median)? Reconfirm from a caught-up source before any redeploy — the forward path dictates whether to favor rate-beneficiary/short-duration names.
+2. Is the tape stabilized enough at Thu's open to redeploy the ~$9k excess into a ≥70 gate-clearer (MDT ~76 / TMO ~74) and/or the SPY floor? No forced deploy on a soft tape.
+3. Does CFR's post-FOMC bank fade continue? Watch the ~4.8% cushion to the 151.73 hard stop — thesis intact (a hike helps NIM), but the tape is the risk.
+4. Reconcile the CFR ~$61.80 dividend credit (still not posted to cash as of close). LEN + FDX report after today's close → set up Thursday.
+
 ## 2026-09-15 06:10 CT — PRE-MARKET (Tue · research routine; NO TRADES; market opens 09:30 ET) · RISK-OFF into a LIVE FOMC (Wed 9/16); 10Y at multi-year highs, oil still elevated
 
 **Routine:** full 4-agent Perplexity scan ran (macro / earnings / positions / opportunity scout). Env loaded, all 4 required vars present (EQUIBLES empty → skipped by design). Inbox: no Pending items. Account pre-open (~07:10 CT via /v2/account): equity **$97,592.96** vs last_equity (Mon 9/14 close) $97,746.27 → indicative pre-open **−$153.31 / −0.16%** (NOT authoritative — pre-market marks are thin; the close routine owns the scorecard). cash **$18,972.45 (~19.44%)**, long_market_value $78,620.51, buying_power $296,027.23, status ACTIVE. Conviction sleeve **2/5 (JPM, CFR); 3 OPEN.** Weekly conviction buys **0/3** (week 9/14–9/18). **2 stops VERIFIED live resting (status new/GTC):** CFR −7% hard `cd725e5b` 151.73; JPM 10% trailing `8a937ff6` floor 329.85 (trail 10%); SPY unencumbered by design. (ATI stop consumed by Mon's gap-sale fill.) **NO TRADES (research routine + market closed).**
