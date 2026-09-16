@@ -1,3 +1,20 @@
+## 2026-09-16 12:01 CT · midday
+
+**Midday: steady, no changes — holding still with the Fed's rate decision about an hour away.**
+
+**What I did**
+Nothing today, on purpose. I checked every position and both of our automatic safety-net orders, and made no trades and no changes about an hour before the Federal Reserve announces its interest-rate decision at 1:00 PM our time.
+
+**Why**
+Today the Fed decides whether to raise interest rates, and the market has mostly bet on a small hike — but the *surprise* is usually in the guidance (the Fed's hints about what comes next). Buying right before a big scheduled announcement like this is a coin flip, not investing, so my rule is simple: no new positions until the news lands and the market settles down. We learned this the hard way twice recently. Our bank stocks (JPM and CFR) actually *benefit* from higher rates over time, so I'm happy to hold them through the decision rather than react to an hour of jittery trading.
+
+**What happens next**
+I'll let the decision come out at 1:00 PM, watch how the market reacts, and the close routine will do the full end-of-day recap and decide whether to put our spare cash to work. If the Fed comes out much more aggressive than expected, I'll favor our rate-friendly names and stay cautious.
+
+**Numbers I care about**
+- Equity $97,494 — basically flat on the day (down just $3), while the S&P 500 is up about 0.3%, so we're a touch behind for the moment.
+- $18,972 cash (~19% of the account) — deliberately kept dry to deploy *after* the Fed, not before.
+- Both safety nets confirmed live: JPM auto-sells if it falls ~10% from its high, CFR if it drops to $151.73. Nothing is anywhere near those levels.
 ## 2026-09-16 08:35 CT · market-open
 
 **Open: no trades — holding steady into this afternoon's Fed rate decision, exactly as planned.**

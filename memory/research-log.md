@@ -8568,3 +8568,24 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - **Open questions for tomorrow (pre-market Wed 9/16):** (1) **FOMC decision is TODAY-plus-one (Wed 9/16)** — confirm the latest hike-odds read and hold the no-fresh-beta-into-the-print posture until the decision lands AND the tape stabilizes (SNPS/ATI lesson). (2) **CFR dividend ~$61.80** still uncredited — verify the cash credit posts and reconcile. (3) Stage the ~$9k redeploy for a **stabilized POST-FOMC tape**: SPY floor add vs a clean ≥70 gate-clearer (MDT ~78 / LMT ~75 / RTX ~72). (4) A 25bp hike, if it lands, confirms the JPM/CFR NII tailwind — watch how banks trade the decision.
 
 **Telegram:** PUSHED — the mandatory daily "How we're doing" close scorecard (never skipped, per CLAUDE.md), leading with day/SPY/alpha in plain English.
+
+## 2026-09-16 12:01 CT — MIDDAY (Wed · market CONFIRMED open via /v2/clock, is_open=true, 13:01 ET · NO TRADES, NO STOP CHANGES) · pre-FOMC hold held; decision ~1hr out (1pm CT)
+
+**Env:** market OPEN (`/v2/clock` is_open=true, next_close 2026-09-16 16:00 ET, timestamp 13:01 ET). All 4 required Alpaca+Perplexity vars present; EQUIBLES empty (skipped by policy). Synced origin/main memory at run start. Inbox `## Pending`: none.
+
+**Live account (`/v2/account`):** equity **$97,494.23** vs last_equity (Tue 9/15 close, balance_asof 9/15) $97,490.96 → intraday **+$3.27 / +0.003% (flat)**. cash **$18,972.45 (~19.46%)**, long_market_value $78,521.78, buying_power $295,750.78, status ACTIVE, trading_blocked false. Conviction sleeve **2/5 (JPM, CFR); 3 slots OPEN.** Weekly conviction buys **0/3** (week 9/14–9/18). CFR $1.03/sh dividend (pay date 9/15, ~$61.80) STILL NOT credited (same $18,972.45 as open/close — paper credit lag persists); reconcile next routine, immaterial to sizing.
+
+**Positions (live marks; theses ALL INTACT):**
+- **JPM** 34 @ 329.695588 → px **350.12** · **+$694.43 / +6.20%** · 10% trailing floor **329.85** (below hwm 366.5 → floor unchanged), cushion ~6.1%. Intraday −0.67% (bank tape soft into the Fed). >+5% but already on trailing → no conversion, floor unchanged. Next earnings ~10/13.
+- **CFR** 60 @ 163.15 → px **160.995** · **−$129.30 / −1.32%** · −7% hard 151.73, cushion ~5.8%. Intraday −0.72%. Converts to 10% trailing once +5% (currently −1.32%).
+- **SPY floor** 75 @ 766.968 → px **759.44** · **−$564.60 / −0.98%** · no stop by policy; intraday +0.27%, tracking the index. ~58.4% of equity (index sleeve — exempt from the 20% cap).
+
+**Open orders VERIFIED (exactly 2, both live resting; no drift/orphan/duplicate):** JPM trailing `8a937ff6` floor 329.85 hwm 366.5 trail 10% GTC; CFR −7% hard `cd725e5b` 151.73 GTC (exp 12-08). SPY unencumbered by design.
+
+**Risk checks:** (a) any position −7%+ un-stopped? NO — worst CFR −1.32%, SPY −0.98%, JPM +6.20%; nothing at/near a trigger → no Perplexity news check required, no sell trigger. (b) any +5%+ needing hard→trailing conversion? NO — JPM already on trailing; CFR −1.32% below +5%; SPY no stop by policy. Zero conversions pending. (c) daily loss cap: intraday +0.003% (flat), far inside the −3% cap → no restriction (and no new buys planned regardless, per the pre-FOMC near-veto).
+
+**Decision:** NO trades, NO stop changes. Held the FOMC-day plan — **no fresh beta before the 1pm CT decision** (~1hr out) per the SNPS/ATI entry-timing near-veto. No high-conviction breaking catalyst that would justify a midday deviation. The ~$9k excess cash stays parked; a post-FOMC redeploy into a stabilized tape (MDT ~76 / TMO ~74 clean gate-clearers; LMT ~68 only on a 50dMA reclaim) remains staged for the close routine.
+
+**Intraday alpha (estimate; close/weekly own the authoritative scorecard):** book **~flat (+0.003%)** vs SPY **+0.27%** intraday → book marginally behind today, entirely the JPM/CFR bank-tape softness into the Fed offsetting SPY's small gain. Week-to-date (base Fri 9/11 close 98,576.10): book **−1.10%** vs SPY **−0.62%** (764.14 → 759.44) → **alpha WTD ~−0.48%** (estimate).
+
+**Next:** **FOMC 2pm ET / 1pm CT** — the macro gate; hold no-fresh-beta until the decision lands AND the tape stabilizes. Then market-close Wed 9/16 owns the mandatory plain-English scorecard + Telegram (never skipped). All cushions comfortable into the decision (JPM ~6.1% to floor, CFR ~5.8% to hard stop). **No Telegram this midday** (quiet no-trade check, per skip rules).
