@@ -15,42 +15,123 @@ on:
           - closing-decision
           - risk-shutdown
   schedule:
-    # Both EDT and EST candidates. runner.py validates New York local time.
+    # Both EDT and EST candidates. runner.py validates New York local time
+    # with a 45-minute grace window for GitHub Actions cron delay.
     - cron: "0 12,13 * * 1-5"
     - cron: "25 13,14 * * 1-5"
     - cron: "15 14,15 * * 1-5"
     - cron: "30 16,17 * * 1-5"
     - cron: "0 19,20 * * 1-5"
     - cron: "50 19,20 * * 1-5"
+  pull_request:
+    paths:
+      - "astra/**"
+      - ".github/workflows/astra.yml"
 
 permissions:
   contents: write
 
-concurrency:
-  group: astra-paper-trader
-  cancel-in-progress: false
-
 jobs:
-  run:
+  fixture:
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      ASTRA_ALPACA_API_KEY: ${{ secrets.ASTRA_ALPACA_API_KEY }}
-      ASTRA_ALPACA_SECRET_KEY: ${{ secrets.ASTRA_ALPACA_SECRET_KEY }}
-      ASTRA_EXECUTION_ENABLED: ${{ secrets.ASTRA_EXECUTION_ENABLED }}
-      ASTRA_ALPACA_BASE_URL: https://paper-api.alpaca.markets
-      ASTRA_MODEL: gpt-6-astra
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    concurrency:
+      group: astra-fixture-${{ github.ref }}
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Unit tests
+        run: python -m unittest discover -s astra/tests -p "test_*.py" -v
+
+      - name: Fixture dry-run
+        run: |
+          python astra/runner.py --fixture astra/tests/fixture.json --routine entry-check
+          python astra/runner.py --fixture astra/tests/fixture.json --routine risk-shutdown
+
+  paper:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency:
+      group: astra-paper-trader
+      cancel-in-progress: false
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ASTRA_ALPACA_API_KEY: ${{ secrets.ASTRA_ALPACA_API_KEY }}
+      ASTRA_ALPACA_SECRET_KEY: ${{ secrets.ASTRA_ALPACA_SECRET_KEY }}
+      ASTRA_EXECUTION_ENABLED: ${{ secrets.ASTRA_EXECUTION_ENABLED || vars.ASTRA_EXECUTION_ENABLED }}
+      ASTRA_ALPACA_BASE_URL: https://paper-api.alpaca.markets
+      ASTRA_MODEL: gpt-6-astra
+    steps:
+      - name: Check required secrets
+        id: secrets
+        shell: bash
+        run: |
+          missing=()
+          [ -z "${OPENAI_API_KEY}" ] && missing+=("OPENAI_API_KEY")
+          [ -z "${ASTRA_ALPACA_API_KEY}" ] && missing+=("ASTRA_ALPACA_API_KEY")
+          [ -z "${ASTRA_ALPACA_SECRET_KEY}" ] && missing+=("ASTRA_ALPACA_SECRET_KEY")
+
+          {
+            echo "### Astra paper-trader secrets"
+            if [ ${#missing[@]} -eq 0 ]; then
+              echo "Required secrets are present. Paper URL is hard-coded to \`https://paper-api.alpaca.markets\`."
+              if [ "${ASTRA_EXECUTION_ENABLED}" = "true" ]; then
+                echo "Execution flag is on — proposed buys/sells that pass risk checks can be submitted to the **paper** account."
+              else
+                echo "\`ASTRA_EXECUTION_ENABLED\` is not \`true\`. Astra will research and propose only (no orders)."
+                echo "Set repo secret or variable \`ASTRA_EXECUTION_ENABLED=true\` when you want paper orders."
+              fi
+            else
+              echo "Blocked: these **repository secrets** are missing or empty."
+              echo
+              echo "Settings → Secrets and variables → Actions → New repository secret:"
+              echo
+              for name in "${missing[@]}"; do
+                echo "- \`$name\`"
+              done
+              echo
+              echo "Optional:"
+              echo "- \`ASTRA_EXECUTION_ENABLED\` = \`true\` (secret or variable) to allow paper orders"
+              echo
+              echo "Use a **dedicated Alpaca paper account**. Do not reuse Bull or Maverick keys. Never use live Alpaca."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ ${#missing[@]} -gt 0 ]; then
+            for name in "${missing[@]}"; do
+              echo "::error title=Missing GitHub Actions secret::${name} is empty. Add it under Settings → Secrets and variables → Actions. Dedicated Alpaca paper keys only."
+            done
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "Manual run halted: configure the secrets listed above, then re-run."
+              exit 1
+            fi
+            echo "Scheduled run skipped (fail closed, no trades). Configure the secrets above to enable Astra."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "configured=true" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.secrets.outputs.configured == 'true'
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        if: steps.secrets.outputs.configured == 'true'
+        with:
+          python-version: "3.12"
+
       - name: Run Astra
+        if: steps.secrets.outputs.configured == 'true'
         shell: bash
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -60,6 +141,7 @@ jobs:
           fi
 
       - name: Persist Astra memory
+        if: steps.secrets.outputs.configured == 'true'
         shell: bash
         run: |
           if git diff --quiet -- astra/memory astra/dashboard; then

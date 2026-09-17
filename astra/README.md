@@ -23,16 +23,27 @@ Astra is strategy #3 in Lauren's paper-trading league. It uses the OpenAI Respon
 
 ## Required GitHub Actions secrets
 
-Use a third Alpaca paper account; do not reuse Bull's or Maverick's keys.
+Astra will not talk to Alpaca or OpenAI until these exist as **repository secrets**
+(Settings → Secrets and variables → Actions → New repository secret).
+Use a third Alpaca **paper** account; do not reuse Bull's or Maverick's keys, and never paste live Alpaca keys.
 
 ```text
 OPENAI_API_KEY
 ASTRA_ALPACA_API_KEY
 ASTRA_ALPACA_SECRET_KEY
+```
+
+Optional (secret or Actions variable):
+
+```text
 ASTRA_EXECUTION_ENABLED=true
 ```
 
-The workflow supplies `ASTRA_ALPACA_BASE_URL=https://paper-api.alpaca.markets` and `ASTRA_MODEL=gpt-6-astra`. Until the secrets are present, scheduled runs fail closed and do not trade.
+Without the execution flag, Astra still researches and writes a decision, but the risk engine keeps orders at `PROPOSED_ONLY`.
+
+The workflow hard-codes `ASTRA_ALPACA_BASE_URL=https://paper-api.alpaca.markets` and `ASTRA_MODEL=gpt-6-astra`. Missing required secrets fail closed (no trades). A scheduled run stays green with a warning so the calendar is not a red X for an unconfigured repo; **Run workflow** still fails until the three secrets above are set.
+
+After adding secrets, verify with Actions → Astra paper trader → Run workflow → `entry-check` (or wait for the next weekday slot).
 
 ## Schedule
 
@@ -45,7 +56,7 @@ Weekdays in America/New_York:
 5. 15:00 — closing decision
 6. 15:50 — risk shutdown and journal
 
-GitHub cron is UTC-only, so the workflow schedules both daylight- and standard-time candidates. `runner.py --scheduled` checks New York local time and skips the wrong candidate.
+GitHub cron is UTC-only, so the workflow schedules both daylight- and standard-time candidates. `runner.py --scheduled` checks New York local time and skips the wrong candidate. It also allows up to 45 minutes of GitHub Actions start delay so a late cron still runs the intended slot without overlapping the next one.
 
 Manual dry run:
 
