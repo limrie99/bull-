@@ -1,3 +1,32 @@
+## 2026-09-17 15:04 CT — MARKET-CLOSE (Thu · scorecard routine; NO trades this run) · **Close $97,628.99 · day +0.69% · SPY +1.12% · alpha −0.43 pts** — tracked but lagged the post-FOMC risk-on bounce as a lower-beta/cash book (by design)
+
+**Routine:** Env loaded, all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Synced origin/main memory at run start. Market closed 16:00 ET; marks pulled ~16:02 ET (`/v2/account`, `/v2/positions`, `/v2/orders`, portfolio/history, SPY IEX daily bars + latest trade). Yesterday's (9/16) closing equity reconciled to **$96,955.88** = account.last_equity (portfolio-history 5D array [97746.27, 97490.96, 96955.88] maps to 9/14/9/15/9/16 closes; matches the 9/16 close routine's recorded $96,958.34 within settlement rounding).
+
+### Day summary — MARKET CLOSE 2026-09-17
+- **Closing equity: $97,628.99** (`/v2/account`). Cash **$10,076.13 (~10.32%)**, long_market_value **$87,552.86**, buying_power $285,452.53, status ACTIVE.
+- **Day P/L:** $97,628.99 − $96,955.88 (Wed 9/16 close, account.last_equity) = **+$673.11 / +0.69%.**
+- **SPY day:** 9/16 close **754.05** → 9/17 close **762.51** (IEX daily bar close 762.64 / latest trade 762.51) = **+1.12%.** **Alpha today −0.43 pts.**
+- **Attribution (day-over-day, sums ≈ +$673):** SPY floor **+$635** (75 sh × +$8.47, +1.12%) carried essentially the whole day's gain; the three lower-beta stocks barely moved d/d — MDT +$16 (bought today, +0.11% vs cost), JPM +$13 (+5.95% total), CFR +$12 (flat on day, −2.15% total). On a risk-on day a defensive/cash book trailing the index by a few tenths is expected, not a concern.
+- **Week-to-date (base Fri 9/11 close $98,576.10, portfolio-history base_value):** book **−0.96%** vs **SPY −0.21%** (9/11 close 764.14 → 762.51) → **week alpha −0.75 pts.** Today's bounce narrowed the book's WTD loss (−1.64% → −0.96%) but SPY rebounded harder (−1.32% → −0.21%), so week alpha widened from −0.32 to −0.75. Effectively all the week's shortfall is still Monday's ATI gap-stop (−$907); the current three holdings have tracked the tape since.
+- **Trades:** ONE fill today, all at the open — **BUY MDT 96 @ $92.67** (`49bf2b01`, ~9% starter, the ~$9k excess-cash redeploy into the pre-market #1). NO trades and NO stop changes at midday or at the close.
+- **Stops:** exactly **3 open orders VERIFIED** — MDT −7% hard `2768e81c` @86.18 gtc (exp 12-16), CFR −7% hard `cd725e5b` @151.73 gtc (exp 12-08), JPM 10% trailing `8a937ff6` floor 329.85 (trail 10%, hwm 366.5) gtc; SPY unencumbered by design.
+- **Risk checks:** (a) none −7%+ un-stopped (worst CFR −2.15%; SPY −0.58% no-stop by policy) → no sell; (b) no +5% hard→trailing conversion pending (JPM already trailing +5.95%; MDT +0.11%; CFR −2.15%) → zero conversions; (c) day +0.69% (up day) → loss cap N/A.
+- **Telegram:** mandatory daily close scorecard **PUSHED** (🌇 teacher-mode, msg_id 292, ok=true).
+- **CFR dividend:** ~$61.80 (paid 9/15) still NOT credited to cash all day (cash $10,076.13 unchanged open→midday→close — paper credit lag). Immaterial to sizing; reconcile next routine.
+
+**What worked:**
+- The SPY index floor did exactly its job on an up-tape — it turned idle cash into +1.12% index return and delivered the day's entire +$673 gain, instead of the old cash-drag that would have left us flat while SPY rose.
+- Discipline: the MDT redeploy (defensive, low-rate-sensitivity, Grade-A, entry-timing near-veto already satisfied by the FOMC print being behind us) was the right fit for a hawkish, higher-for-longer tape; no chasing, no averaging down.
+
+**What didn't:**
+- We lagged SPY by 0.43 pts on the day — the structural cost of a lower-beta/cash book on a sharp risk-on bounce. Acceptable and expected, but it widened week alpha to −0.75.
+- CFR faded its midday intraday pop back to flat-on-day; its stop cushion narrowed to ~4.95% (tightest in the book). Thesis intact (a hike helps NIM) but it's the position to watch.
+
+**Open questions for tomorrow (weekly review Fri 9/18):**
+1. Fill the two open conviction slots, or hold at 3? HPE (cleanest fresh AI-hardware beat-and-raise) needs a full conviction score; TMO wait for $600–620; LMT only on a $556 50dMA reclaim. Any fresh ≥70 buy would need an SPY trim to fund (cash is at the ~$10k floor).
+2. Does CFR's post-FOMC bank softness continue? Watch the ~4.95% cushion to 151.73 — thesis intact, tape is the risk.
+3. Reconcile the CFR ~$61.80 dividend (paid 9/15, still not credited to cash all day — paper lag).
+
 ## 2026-09-17 08:35 CT — MARKET-OPEN (Thu · executed the pre-market plan) · **BOUGHT MDT 96 @ $92.67** (deployed the ~$9k excess dry cash into the #1 bench name); day-after-FOMC hawkish tape, orderly open
 
 **Routine:** Env loaded, all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Market CONFIRMED open via /v2/clock (is_open=true, 09:32 ET; next_close 16:00 ET). Account pre-buy (/v2/account): equity $97,714.65, cash $18,972.45, last_equity (Wed 9/16 close) $96,955.88. Post-buy: equity **$97,640.24** (indicative intraday +$684.36 / +0.71%, NOT authoritative — close owns scorecard), cash **$10,076.13 (~10.32%)**, long_mv $87,564.11, buying_power $296,367.96, ACTIVE.

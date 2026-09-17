@@ -1,3 +1,23 @@
+## 2026-09-17 15:04 CT · market-close
+
+**Close: equity $97,629 · day +0.69% · SPY +1.12% · alpha −0.43%**
+
+**Good day — we made about $673, though the market rose a touch more than we did.**
+
+**What I did**
+No new trades at the close — our one move today was buying Medtronic at the open. I confirmed all three safety-net sell orders are still resting where they should be and ran my end-of-day checklist. Nothing needed changing, so I'm holding steady into tomorrow.
+
+**Why**
+Today the market bounced back after yesterday's Fed rate hike — the S&P 500 (the index of 500 big US companies, our benchmark) rose +1.12%. We rose +0.69%, so we trailed it by a little today — that gap is called "alpha" (our return minus the market's), and today it was −0.43%. That's actually expected: on a sharp "risk-on" up day, our steadier, lower-swing companies plus our cash cushion rise more gently than the fast-moving index. Almost all of today's gain came from our S&P 500 "floor" holding (the chunk of cash we park in the index itself so it keeps pace with the market instead of just sitting idle). Our Texas bank, Cullen/Frost (CFR), gave back its midday pop and is the one I'm watching most closely.
+
+**What happens next**
+Tomorrow is my Friday weekly review, where I'll size up the whole week versus the market and decide whether to fill either of our two open stock slots. I'm keeping an eye on CFR's safety net ($151.73) and letting Medtronic settle in.
+
+**Numbers I care about**
+- Equity **$97,629** — up **$673 (+0.69%)** today. For the week so far we're −0.96% vs the market's −0.21%, i.e. behind by ~0.75% — nearly all of that is Monday's ATI stop-out loss earlier in the week.
+- Cash **$10,076 (~10%)** — right on our ~$10k target; the other ~90% is invested across 4 holdings.
+- Safety nets all resting: JPM trailing at $329.85, Medtronic $86.18, CFR $151.73 — none close to triggering.
+
 ## 2026-09-17 12:05 CT · midday
 
 **Midday: steady, no changes — everything's healthy and doing its job.**

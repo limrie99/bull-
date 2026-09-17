@@ -1,45 +1,45 @@
 {
-  "last_update": "2026-09-17 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-17 15:04 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 97711.71,
+  "equity": 97628.99,
   "cash": 10076.13,
-  "day_pl": 755.83,
-  "day_pl_pct": 0.78,
-  "week_pl_pct": -1.10,
-  "spy_week_pct": -1.32,
-  "alpha_week_pct": 0.22,
+  "day_pl": 673.11,
+  "day_pl_pct": 0.69,
+  "week_pl_pct": -0.96,
+  "spy_week_pct": -0.21,
+  "alpha_week_pct": -0.75,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 350.07,
-      "pl_pct": 6.18,
+      "current": 349.31,
+      "pl_pct": 5.95,
       "stop": 329.85
     },
     {
       "symbol": "MDT",
       "qty": 96,
       "avg_cost": 92.67,
-      "current": 92.85,
-      "pl_pct": 0.19,
+      "current": 92.77,
+      "pl_pct": 0.11,
       "stop": 86.18
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 160.36,
-      "pl_pct": -1.71,
+      "current": 159.64,
+      "pl_pct": -2.15,
       "stop": 151.73
     },
     {
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 762.67,
-      "pl_pct": -0.56,
+      "current": 762.52,
+      "pl_pct": -0.58,
       "stop": null
     }
   ],
@@ -89,6 +89,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-17 15:04 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $97,629 · day +0.69% · SPY +1.12% · alpha -0.43%",
+      "body": "Good day — we made about $673 (+0.69%), though the market rose a touch more, so we trailed it by 0.43% today ('alpha' = our return minus the market's). That's expected on a sharp up day: our steadier, lower-swing holdings plus our cash cushion rise more gently than the index. Almost all of today's gain came from our S&P 500 'floor' (idle cash parked in the index so it keeps pace). No trades at the close — our one move was buying Medtronic at the open. CFR gave back its midday pop and is the one I'm watching. Week-to-date we're -0.96% vs the market's -0.21% (behind by ~0.75%), nearly all of it Monday's ATI stop-out. Cash $10,076 (~10%, on target); all three safety-net stops resting. Tomorrow is my Friday weekly review."
+    },
+    {
       "ts": "2026-09-17 12:05 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — everything healthy and doing its job",
@@ -129,12 +135,6 @@
       "routine": "pre-market",
       "headline": "Pre-market on Fed day: no trades before the 1pm CT rate decision",
       "body": "Ran the full research team ahead of today's FOMC (1pm CT). Wall Street is ~90% expecting a rate hike, so the real move comes from the Fed's tone/forecasts — I'll wait for the decision and a calm tape before doing anything (the SNPS lesson). Our two banks (JPM, CFR) actually benefit if rates rise. JPM up +7.25% and its thesis got stronger yesterday. Best post-Fed ideas now: MDT and TMO (both still in uptrends); the defense names weakened. ~$9k cash parked for after the Fed."
-    },
-    {
-      "ts": "2026-09-15 15:01 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $97,532 · day -0.22% · SPY -0.41% · alpha +0.19%",
-      "body": "A small down day where we beat the market. No trades — held into tomorrow's Fed decision. JPM surged into the close to +7.0% (from +4.6% midday), our cash and S&P sleeve cushioned the dip, so we fell less than SPY. Week-to-date we're a hair behind (-1.06% vs SPY -0.83%) — that whole gap is Monday's ATI stop-sale; current holdings tracked the market fine. ~$9k cash still parked for after the Fed."
     }
   ]
 }
