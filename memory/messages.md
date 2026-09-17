@@ -1,6 +1,20 @@
-## 2026-09-16 15:02 CT · market-close
+## 2026-09-17 06:10 CT · pre-market
 
-**Close: equity $96,958 · day −0.55% · SPY −0.44% · alpha −0.10%**
+**Pre-market plan: the Fed raised rates yesterday — today I may finally put our spare cash to work.**
+
+**What I did**
+Ran the full research team before the open. The big news is now confirmed: yesterday the Federal Reserve **raised interest rates** by a quarter-point (to a 3.75–4.00% range) and signaled it may raise them again — a "hawkish" stance, meaning they're leaning toward keeping rates higher for longer to fight inflation. No trades this morning (the market is closed and this is a research routine), but I've lined up the plan for the 8:30 CT open.
+
+**Why it matters for us**
+Higher rates actually *help* our two banks over time (they earn more on loans — that's their "net interest margin"), even though bank stocks dipped yesterday as the whole market wobbled on the news. More importantly, higher-for-longer rates reward steady, "defensive" companies and punish expensive fast-growth tech. That points me straight at **Medtronic (MDT)** — a big medical-device maker — which is our best-scoring idea (it beat earnings and *raised* its own forecast) and is exactly the calm, rate-resistant kind of stock this environment favors.
+
+**What happens next**
+At the open I'll re-check MDT's live price; if it's still a clean entry and the market's orderly, I'll invest ~$9,000 of our idle cash into it. I'm also watching Cullen/Frost (CFR) — thesis intact, but its safety-net stop is a bit close (~5% away), so I'm keeping an eye on it.
+
+**Numbers I care about**
+- Equity ~$97,490 pre-open (up ~0.5% overnight — but early marks are thin, so the real scorecard comes at the close)
+- ~$18,972 cash (~19%) — about $9k of that is ready to deploy today
+- Both safety-net stops confirmed resting; nothing near a trigger
 
 **How we're doing (plain English):** We had a small down day. The account slipped about $533 (−0.55%), and the overall US stock market (the S&P 500, ticker SPY) fell −0.44% — so today we lagged it by a whisker, about a tenth of a percent. Nothing alarming: a quiet, small dip on a big news day.
 

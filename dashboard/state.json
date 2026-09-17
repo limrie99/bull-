@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-16 15:02 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-17 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96958.34,
+  "equity": 97489.68,
   "cash": 18972.45,
-  "day_pl": -532.62,
-  "day_pl_pct": -0.55,
-  "week_pl_pct": -1.64,
+  "day_pl": 533.80,
+  "day_pl_pct": 0.55,
+  "week_pl_pct": -1.10,
   "spy_week_pct": -1.32,
-  "alpha_week_pct": -0.32,
+  "alpha_week_pct": 0.22,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 348.5511,
-      "pl_pct": 5.72,
+      "current": 350.37,
+      "pl_pct": 6.27,
       "stop": 329.85
     },
     {
@@ -30,8 +30,8 @@
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 754.25,
-      "pl_pct": -1.66,
+      "current": 760.51,
+      "pl_pct": -0.84,
       "stop": null
     }
   ],
@@ -74,6 +74,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-17 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: Fed raised rates yesterday — today I may put our spare cash to work (MDT)",
+      "body": "Confirmed the big news: the Fed raised interest rates a quarter-point yesterday and signaled more could come ('higher-for-longer'). No trades this morning (market closed, research routine), but the plan is set: higher rates reward steady, defensive companies, which points to Medtronic (MDT) — our best-scoring idea (beat earnings + raised its forecast, and low rate-sensitivity). At the open I'll re-check its live price and, if clean, invest ~$9k of idle cash. Higher rates help our two banks long-term; I'm watching CFR since its safety-net stop is ~5% away. Equity ~$97,490 pre-open (early marks are thin — real scorecard at the close); both stops resting."
+    },
+    {
       "ts": "2026-09-16 15:02 CT",
       "routine": "market-close",
       "headline": "Close: equity $96,958 · day -0.55% · SPY -0.44% · alpha -0.10%",
@@ -114,12 +120,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — holding steady the day before the Fed's rate decision",
       "body": "Calm, do-nothing open on purpose. Nothing to buy the session before Wednesday's FOMC (the SNPS lesson); nothing hit a sell trigger. JPM opened +6.2%, CFR +0.9% (both banks benefit if rates rise), SPY -1% just tracking the tape. Both stops resting; no conversions due. ~$9k cash parked for after the Fed. CFR pays a ~$62 dividend today."
-    },
-    {
-      "ts": "2026-09-15 06:10 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market: quiet, no trades — waiting for tomorrow's Fed decision",
-      "body": "Ran the full research team; all three holdings healthy, both stops resting. No buys the session before Wednesday's FOMC (the SNPS lesson). Bank tilt (JPM/CFR) benefits if rates rise; CFR pays a ~$62 dividend today. Best post-Fed ideas on deck: LMT, RTX, MDT. Dropped DE (too rate-sensitive)."
     }
   ]
 }
