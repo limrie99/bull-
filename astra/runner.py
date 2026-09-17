@@ -34,6 +34,11 @@ ROUTINE_TIMES = {
     (15, 50): "risk-shutdown",
 }
 
+# GitHub Actions cron is UTC-only and often starts 5–40 minutes late.
+# Keep this under 50 minutes so the 15:00 and 15:50 ET slots cannot collide,
+# and under 60 minutes so the EDT/EST candidate crons cannot double-fire.
+SCHEDULE_GRACE_MINUTES = 45
+
 DECISION_SCHEMA = {
     "type": "object",
     "additionalProperties": False,
@@ -157,10 +162,16 @@ def scheduled_routine(now: datetime | None = None) -> str | None:
     local = (now or utc_now()).astimezone(NY)
     if local.weekday() >= 5:
         return None
+    best_name = None
+    best_delta = None
     for (hour, minute), name in ROUTINE_TIMES.items():
-        if local.hour == hour and minute <= local.minute <= minute + 20:
-            return name
-    return None
+        start = local.replace(hour=hour, minute=minute, second=0, microsecond=0)
+        delta_min = (local - start).total_seconds() / 60.0
+        if 0 <= delta_min <= SCHEDULE_GRACE_MINUTES:
+            if best_delta is None or delta_min < best_delta:
+                best_name = name
+                best_delta = delta_min
+    return best_name
 
 
 def openai_decision(routine: str, snapshot: dict, history: list[dict], config: dict) -> dict:
