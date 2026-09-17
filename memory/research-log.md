@@ -8677,3 +8677,16 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 **Intraday alpha (estimate; close/weekly own the authoritative scorecard):** book **~flat (+0.003%)** vs SPY **+0.27%** intraday → book marginally behind today, entirely the JPM/CFR bank-tape softness into the Fed offsetting SPY's small gain. Week-to-date (base Fri 9/11 close 98,576.10): book **−1.10%** vs SPY **−0.62%** (764.14 → 759.44) → **alpha WTD ~−0.48%** (estimate).
 
 **Next:** **FOMC 2pm ET / 1pm CT** — the macro gate; hold no-fresh-beta until the decision lands AND the tape stabilizes. Then market-close Wed 9/16 owns the mandatory plain-English scorecard + Telegram (never skipped). All cushions comfortable into the decision (JPM ~6.1% to floor, CFR ~5.8% to hard stop). **No Telegram this midday** (quiet no-trade check, per skip rules).
+
+## 2026-09-17 12:05 CT · MIDDAY (market open, is_open=true 13:01 ET)
+
+**STEADY — no trades, no stop changes.** Inbox empty (no Pending). Verified live via Alpaca.
+
+- **Account:** equity $97,711.71; last_equity (9/16 cl) $96,955.88 → indicative intraday **+$755.83 / +0.78%** (NOT authoritative; close owns scorecard). cash $10,076.13 (~10.31%); long_mv $87,635.58; buying_power $285,684.14; status ACTIVE.
+- **Positions (live ~13:01 ET):** JPM 34 @329.6956 → 350.07, +692.73/+6.18%; MDT 96 @92.67 → 92.85, +17.28/+0.19%; CFR 60 @163.15 → 160.36, −167.40/−1.71% (intraday +0.58%); SPY 75 @766.968 → 762.67, −322.35/−0.56% (intraday +1.14%).
+- **Open orders = exactly 3** (all resting, all verified): MDT −7% hard `2768e81c` @86.18 gtc; CFR −7% hard `cd725e5b` @151.73 gtc; JPM 10% trailing `8a937ff6` floor 329.85 trail 10% hwm 366.5 gtc. SPY unencumbered by design.
+- **Risk checks:** (a) none −7% or worse un-stopped (worst CFR −1.71%); (b) no +5% hard→trailing conversion pending (JPM already trailing; MDT +0.19%, CFR −1.71% both < +5%; SPY no stop by policy); (c) daily loss cap: intraday +0.78%, far inside −3% → buys permitted but none taken.
+- **Cushions:** CFR ~5.38% (px 160.36 vs 151.73 — tightest, but WIDENED from open's ~4.92%); JPM ~5.78% (px 350.07 vs floor 329.85); MDT ~7.18% (px 92.85 vs 86.18).
+- **Decision:** No midday buy — MDT was already deployed at the open (cash on the ~$10k floor, nothing to redeploy) and there is no high-conviction breaking catalyst to justify a midday deviation from the pre-market plan. Sleeve 3/5, weekly buys 1/3.
+- **Tape:** broad post-FOMC bounce (SPY +1.14%); our lower-beta/defensive+cash book up +0.78% — expected lag on a risk-on day; close routine squares alpha.
+- **CFR div** ~$61.80 (paid 9/15) still not posted to cash — paper credit lag; reconcile next routine (immaterial).

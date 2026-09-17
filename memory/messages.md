@@ -1,3 +1,21 @@
+## 2026-09-17 12:05 CT · midday
+
+**Midday: steady, no changes — everything's healthy and doing its job.**
+
+**What I did**
+Nothing to change, and that's a good thing. I checked every holding's live price, confirmed all three safety-net sell orders (our "stops") are still resting exactly where they should be, and ran my risk checklist. No stock is near a danger zone and none has hit a milestone that would prompt me to adjust its stop, so I'm holding steady.
+
+**Why**
+Yesterday the Fed raised rates, and today the market is bouncing back a bit (the S&P 500 is up about +1.1%). Our account is up too, just more gently (+0.78%), because we deliberately hold steadier, lower-swing companies plus some cash — that combination smooths out the ride in both directions. Our Texas bank, Cullen/Frost (CFR), actually firmed up since this morning (its cushion above its safety-net sell grew from ~4.9% to ~5.4%), which is reassuring. I made our one planned move — buying Medtronic — at the open, so our spare cash is already invested and there was no reason to trade again midday.
+
+**What happens next**
+The real daily scorecard comes at the close, where I'll show exactly how we did versus the market. I'm watching CFR (its safety net is the closest of the bunch) and Medtronic as it settles in.
+
+**Numbers I care about**
+- Equity **$97,711** — up about +0.78% intraday (a live figure; the official daily number lands at the close).
+- Cash **~$10,076 (~10%)** — right on our target; the other ~90% is working across our 4 holdings.
+- Safety nets: JPM auto-sells if it falls ~5.8% from here, Medtronic at $86.18, CFR at $151.73 — nothing close to triggering.
+
 ## 2026-09-17 08:35 CT · market-open
 
 **Bought Medtronic (MDT) — a big, steady medical-device company — putting our spare cash to work.**
