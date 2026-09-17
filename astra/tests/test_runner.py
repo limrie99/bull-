@@ -43,7 +43,8 @@ class ScheduledRoutineTests(unittest.TestCase):
         self.assertIsNone(runner.scheduled_routine(est_candidate))
 
     def test_off_window_is_idle(self):
-        idle = datetime(2026, 9, 16, 11, 0, tzinfo=runner.NY)
+        # 11:10 ET is 55 minutes after 10:15 and still before the 12:30 slot.
+        idle = datetime(2026, 9, 16, 11, 10, tzinfo=runner.NY)
         self.assertIsNone(runner.scheduled_routine(idle))
 
 
