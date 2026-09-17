@@ -1,3 +1,31 @@
+## 2026-09-17 08:35 CT — MARKET-OPEN (Thu · executed the pre-market plan) · **BOUGHT MDT 96 @ $92.67** (deployed the ~$9k excess dry cash into the #1 bench name); day-after-FOMC hawkish tape, orderly open
+
+**Routine:** Env loaded, all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Market CONFIRMED open via /v2/clock (is_open=true, 09:32 ET; next_close 16:00 ET). Account pre-buy (/v2/account): equity $97,714.65, cash $18,972.45, last_equity (Wed 9/16 close) $96,955.88. Post-buy: equity **$97,640.24** (indicative intraday +$684.36 / +0.71%, NOT authoritative — close owns scorecard), cash **$10,076.13 (~10.32%)**, long_mv $87,564.11, buying_power $296,367.96, ACTIVE.
+
+### Execution — MDT re-score on LIVE data → CLEARED THE GATE → BOUGHT
+- **Live data (Alpaca):** MDT latest trade $92.70 (quote bid 92.62 / ask 92.78); 9/16 close (prevDailyBar) $92.625 → **NOT gapped** (opened $92.63, low $92.6). Computed from 61 daily bars: **50dMA $88.29 (px +4.9% above = clean uptrend, non-extended)**, 20dMA $92.31 (px sitting right on it). Ideal entry zone (~$92–94), exactly as the pre-market flagged.
+- **Signals (4–5 verified):** #1 beat + RAISED FY27 guide (9/1: Q1 FY27 EPS $1.45 vs ~$1.39, rev ~$9.8B +13.7% organic; raised FY27 organic ~7.25–7.75%, adj EPS ~$5.94–6.00 — Perplexity fresh-confirmed today); #2 near-term catalyst — MiniMed diabetes separation/exchange offer (9/14), no problems; #3 med-tech secular; #4 UBS Buy PT $100→$110 (9/3) + fresh POSITIVE 9/16 FDA clearance (LigaSure RAS on Hugo robotic system); #5 defensive rotation fits hawkish tape. Conviction ~80 (Grade A). LOW rate-sensitivity — right fit for higher-for-longer. Next earnings ~Nov 17 (no event risk in window).
+- **Perplexity fresh-news check CLEAN:** no downgrade / recall / guidance-cut / litigation / MiniMed problem in 48h; latest item POSITIVE (9/16 FDA clearance). Beat-and-raise + UBS $110 re-confirmed.
+- **Buy-gate:** ≥2 signals AND Conviction ≥70 → CLEARED (4–5 signals, ~80). Entry clean/non-extended. Tape orderly (whole-book +0.71%, well inside −3% loss cap). FOMC print behind us → entry-timing near-veto SATISFIED. High-beta/high-multiple entry-timing advisory does NOT apply (MDT is defensive LOW-rate-sens).
+- **Order:** market buy 96 MDT (order `49bf2b01`), filled first poll 96 @ **$92.67** = $8,896.32 (status=filled confirmed via /v2/orders/{id}, not assumed). Then STANDALONE GTC −7% hard stop (order `2768e81c`) @ **86.18** (=92.67×0.93=86.1831), tif=gtc VERIFIED (expires 2026-12-16) — the CFR-proven method, avoiding the 9/3 SNPS OTO day-tif bug. Converts to 10% trailing once +5%.
+- **Sizing:** CONSERVATIVE ~9% (~$8.9k), NOT the 15–20% Grade-A band — hawkish forward path (favor low rate-sens, size conservatively) + keep cash on the ~$10k floor. No SPY trim needed (cash was above floor). Cash after $10,076.13 (~10.32%), above the 10% floor ($9,764).
+
+### Post-buy state (VERIFIED)
+- **Open orders = exactly 3:** MDT hard 86.18 gtc, CFR hard 151.73 gtc, JPM trailing 329.85 gtc (hwm 366.5); SPY unencumbered.
+- **Positions:** JPM 34 @ 329.6956 → 351.745 (+6.69%); MDT 96 @ 92.67 → 92.80 (+0.14%); CFR 60 @ 163.15 → 159.585 (−2.19%); SPY 75 @ 766.968 → 761.725 (−0.68%).
+- **Conviction sleeve 3/5 (JPM, CFR, MDT) — 2 slots OPEN. Weekly conviction buys 1/3 (week 9/14–9/18).** Sizes on equity $97,640.24: JPM ~12.25%, MDT ~9.12%, CFR ~9.81%, SPY ~58.51% (index sleeve, exempt).
+- **Risk checks:** (a) none −7%+ un-stopped (worst CFR −2.19%); (b) no +5% hard→trailing conversion pending (JPM already trailing; MDT +0.14%; CFR −2.19%); (c) loss cap not tripped (+0.71%).
+
+### Telegram
+- **PUSHED** (trade placed) — 🔔 MDT buy, teacher-mode, msg_id 290, ok=true.
+
+### Sells / other
+- **NO sells** — no thesis break, nothing at/through a stop, no conversion pending. CFR remains the WATCH (tightest cushion ~4.92%, weakest post-FOMC sector, thesis intact — 151.73 stop is the net; do not pre-empt/average down).
+- **CFR ~$61.80 dividend** (paid 9/15) still not posted to cash — paper credit lag, immaterial; reconcile next routine.
+
+### Watch / next (midday Thu 9/17 → market-close scorecard → Fri 9/18 weekly review)
+- MDT settling; −7% stop 86.18 the net; converts to 10% trailing at +5%. CFR watch (bank tape). Cash ~$10k on target → no further redeploy; 2 slots open would need an SPY trim to fund a fresh ≥70 name. HPE needs a full conviction score; PANW lower priority; TMO wait for $600–620; LMT only on $556 50dMA reclaim.
+
 ## 2026-09-17 06:10 CT — PRE-MARKET (Thu · research routine; NO TRADES; market opens 09:30 ET) · **DAY AFTER FOMC** — Fed HIKED 25bp to 3.75–4.00% (hawkish, "higher-for-longer," ≥1 more hike signaled); financials sold off; 10Y ~5%, oil ~$102
 
 **Routine:** full 4-agent Perplexity scan ran (macro / earnings / positions / opportunity scout). Env loaded, all 4 required vars present (EQUIBLES empty → skipped by design). Inbox: **no Pending items.** Account pre-open (~07:10 CT via /v2/account): equity **$97,489.68** vs last_equity (Wed 9/16 close) $96,955.88 → indicative pre-open **+$533.80 / +0.55%** (NOT authoritative — pre-market marks thin; close routine owns the scorecard). cash **$18,972.45 (~19.46%)**, long_market_value $78,517.23, buying_power $295,738.04, status ACTIVE. Conviction sleeve **2/5 (JPM, CFR); 3 OPEN.** Weekly conviction buys **0/3** (week 9/14–9/18). **2 stops VERIFIED live resting (status new/GTC):** CFR −7% hard `cd725e5b` 151.73; JPM 10% trailing `8a937ff6` floor 329.85 (trail 10%, hwm 366.5); SPY unencumbered by design. Confirmed **exactly 2 open orders.** **NO TRADES (research routine + market closed, /v2/clock is_open=false, next_open 09:30 ET).**

@@ -1,3 +1,21 @@
+## 2026-09-17 08:35 CT · market-open
+
+**Bought Medtronic (MDT) — a big, steady medical-device company — putting our spare cash to work.**
+
+**What I did**
+At the open I bought 96 shares of Medtronic at $92.67 (about $8,900), using the ~$9,000 of spare cash we'd been holding. I immediately set an automatic safety-net sell (a "stop loss") at $86.18 — if the stock ever falls 7% below what we paid, it sells on its own to cap the loss.
+
+**Why**
+Yesterday the Fed raised interest rates and signaled rates will stay high for a while. In that kind of market, steady, defensive companies (ones people rely on no matter what the economy does — like heart devices and insulin pumps) tend to hold up better than fast-growing, expensive tech stocks. Medtronic is exactly that, and it was our best-scoring idea: it recently beat its earnings and raised its own forecast (a sign the business is healthier than expected), Wall Street's UBS just lifted its price target to $110, and it fits the market's mood. I re-checked its live price first — it was sitting in a healthy uptrend, not overheated — so I bought, keeping the position a conservative ~9% of the account.
+
+**What happens next**
+I'm watching that $86.18 stop. If Medtronic climbs +5%, I'll swap the fixed stop for a "trailing stop" that rises with the price to lock in gains. I'll check in at midday.
+
+**Numbers I care about**
+- Equity ~$97,640, up about +0.71% so far today (a live intraday figure — the real daily scorecard comes at the close).
+- Cash now ~$10,076 (~10% of the account) — right on our target; the rest is invested across 4 holdings.
+- 1 of 3 allowed new buys used this week; 3 of 5 stock slots filled.
+
 ## 2026-09-17 06:10 CT · pre-market
 
 **Pre-market plan: the Fed raised rates yesterday — today I may finally put our spare cash to work.**
