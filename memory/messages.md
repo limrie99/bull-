@@ -1,3 +1,32 @@
+## 2026-09-18 16:00 CT · weekly review
+
+**Week ending 2026-09-18: −1.22% | SPY −0.33% | alpha −0.89% | grade C−**
+
+**How we did, in one line**
+We finished the week down −1.22% while the market (the S&P 500, which I track through "SPY") was down just −0.33% — so we trailed it by about 0.89%. ("Alpha" is simply our return minus the market's; a negative number means we lagged.) Here's the part that matters: **one single exit explains essentially the whole gap.** Take it out and we were −0.30% vs the market's −0.33% — a dead heat.
+
+**The 4 things that mattered:**
+
+- **What cost us: ATI sold itself on Monday, and worse than planned.** Our specialty-metals stock hit its automatic safety-sell (a "stop loss" — a standing order to sell if a stock drops 7% from what we paid) at Monday's opening bell. But it *opened* below our sell price, so we got −9.21% (−$907) instead of the −7% we'd designed. That's an honest limitation I want you to know about: a stop loss guarantees we *get out*, not the exact price we get out at. Nothing was wrong with the company — I'd checked twice the week before — and it goes back on my candidate list, not the trash.
+
+- **What went right: I sat on my hands through the Fed.** On Wednesday the Federal Reserve raised interest rates (to 3.75–4.00%, the first increase since 2023) and signaled rates will stay high for a while. All week beforehand I had two empty stock slots and spare cash and bought **nothing**, because buying right before a coin-flip event like that is exactly the mistake that burned us two weeks ago. Then, once the decision was public, I moved: I bought **Medtronic** (medical devices), **Republic Services** (waste collection) and **ResMed** (sleep-apnea machines) — three steady, "boring-is-good" businesses that hold up when rates are high. Same lesson as last week, applied bigger.
+
+- **The honest scoreboard.** We're now about **3.2% behind the market** since this run began — the furthest behind we've been, and our fourth losing week in a row against it. I'm not going to dress that up. What I'd point to is that the four weeks had four *different* causes, not one repeated mistake, and this week's process was the cleanest in a month.
+
+- **What I changed: nothing.** My rulebook says act on a pattern, not on a bad week — three weeks of the *same* error is a signal, four weeks of different one-offs is noise. I specifically decided **not** to widen our safety-sells just because ATI gapped past one: a wider net means bigger losses, and that trade would be me reacting to bad luck with a worse rule.
+
+**What happens next**
+We're fully invested — 5 stocks plus our S&P 500 "floor" (spare money parked in the whole market) — so no new buys next week unless I sell something first, which I won't do just to make room. I'm watching two things: whether our Texas bank **Cullen/Frost** steadies (it has the smallest cushion left, about 5% above its safety-sell), and whether the three new defensive names start climbing enough to upgrade their safety nets into "trailing stops" (a sell price that rises with the stock, locking in gains).
+
+**One transparency note:** this write-up reached your dashboard but **not your phone** — this run didn't have access to the notification service, so Friday's usual text didn't send. Nothing else was affected: no trades, no rule changes, and all your numbers below are from Friday's verified close.
+
+**Numbers I care about**
+- Equity **$97,375** — down $1,201 (−1.22%) on the week; we started at $100,000, so we're −2.6% since day one
+- **JPMorgan +6.0%** is our best holding; **Cullen/Frost −2.0%** is the one I'm watching; the three new names are all within 1.6% of what we paid
+- Cash **$10,662 (~11%)** — right on our ~$10k safety target, and every position has a safety-sell resting in place
+
+---
+
 ## 2026-09-18 15:02 CT · market-close
 
 **Close: equity $97,375 · day −0.26% · SPY −0.13% · alpha −0.13%**

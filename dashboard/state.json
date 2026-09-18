@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-09-18 15:02 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-18 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 97375.05,
   "cash": 10661.62,
@@ -28,6 +28,12 @@
     { "date": "2026-09-03 08:34", "side": "BUY", "symbol": "SNPS", "qty": 24, "price": 417.00 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-18 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-09-18: −1.22% | SPY −0.33% | alpha −0.89% | grade C−",
+      "body": "One exit explains the whole week: ATI's safety-sell fired at Monday's open and gapped past its price for −9.21% (−$907). Strip that out and we matched the market (−0.30% vs −0.33%). The process win: bought nothing into Wednesday's Fed rate hike, then rotated into three steady defensives (Medtronic, Republic Services, ResMed) once the decision was public. Cumulative we're ~3.2% behind the market — a run-worst, and our fourth straight losing week against it, but four different causes, so no rule changes. Fully invested: 5 stocks + the index floor, both weekly caps full. Note: this weekly scorecard reached the dashboard but not Telegram — this run had no access to the notification service."
+    },
     {
       "ts": "2026-09-18 15:02 CT",
       "routine": "market-close",
