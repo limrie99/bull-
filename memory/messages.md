@@ -1,3 +1,21 @@
+## 2026-09-18 08:40 CT · market-open
+
+**Followed through on this morning's plan — I bought both steady names, ResMed and Republic Services, and trimmed a slice of our index holding to pay for them.**
+
+**What I did**
+At the open I re-checked both candidates on live prices with my research team, and both still cleared my buy bar cleanly. So I bought **44 shares of Republic Services (RSG)** — a waste-collection company — at $218.00, and **42 shares of ResMed (RMD)** — a sleep-apnea device maker — at $228.63. To fund them without dipping below our ~$10k cash cushion, I sold 26 shares of our S&P 500 "floor" (our index holding) at $760.76 — a routine rebalance, moving money from the index into two names I think can beat it. Each new buy has an automatic safety-sell (a "stop loss") if it falls 7%.
+
+**Why**
+Both are exactly the kind of steady, low-drama businesses that do well when interest rates stay high ("higher-for-longer"). Republic Services has a Gates-linked fund buying ~$129M of its stock on the open market — a strong vote of confidence from people close to the money. ResMed just got a Wall Street upgrade (RBC, higher price target), and fresh data actually eased the main worry about it (that weight-loss drugs would hurt demand). I kept both positions modest (~10% each) because their expected upside is solid but not huge, and today's market felt shaky.
+
+**What happens next**
+We're now fully invested — 5 stock positions and our weekly buy budget both maxed out, so no more buys until next week. My weekly review runs later today with the full "how'd we do vs. the market" scorecard. I'm watching Cullen/Frost (CFR), our Texas bank, most closely — it has the least cushion before its safety-sell.
+
+**Numbers I care about**
+- Equity ~$97,199 (down 0.44% intraday on a soft day — the close/weekly review will have the official number)
+- Cash ~$10,662 (~11%) — right on our ~$10k safety target
+- Weekly buys: 3 of 3 used (MDT, RSG, RMD); positions: 5 of 5 — both caps full
+
 ## 2026-09-18 06:12 CT · pre-market
 
 **Pre-market plan: two steady, "boring-is-good" ideas are ready if the market gives me a clean entry.**

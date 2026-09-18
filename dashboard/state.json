@@ -1,49 +1,86 @@
 {
-  "last_update": "2026-09-18 06:12 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-09-18 08:40 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 97559.37,
-  "cash": 10076.13,
-  "day_pl": -72.62,
-  "day_pl_pct": -0.07,
-  "week_pl_pct": -1.03,
-  "spy_week_pct": -0.20,
-  "alpha_week_pct": -0.83,
+  "equity": 97198.50,
+  "cash": 10661.62,
+  "day_pl": -433.49,
+  "day_pl_pct": -0.44,
+  "week_pl_pct": -1.40,
+  "spy_week_pct": -0.40,
+  "alpha_week_pct": -1.00,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 348.48,
-      "pl_pct": 5.70,
+      "current": 345.80,
+      "pl_pct": 4.88,
       "stop": 329.85
     },
     {
       "symbol": "MDT",
       "qty": 96,
       "avg_cost": 92.67,
-      "current": 92.77,
-      "pl_pct": 0.11,
+      "current": 92.67,
+      "pl_pct": 0.01,
       "stop": 86.18
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 159.60,
-      "pl_pct": -2.18,
+      "current": 158.00,
+      "pl_pct": -3.16,
       "stop": 151.73
     },
     {
+      "symbol": "RSG",
+      "qty": 44,
+      "avg_cost": 218.00,
+      "current": 217.56,
+      "pl_pct": -0.20,
+      "stop": 202.74
+    },
+    {
+      "symbol": "RMD",
+      "qty": 42,
+      "avg_cost": 228.627381,
+      "current": 227.03,
+      "pl_pct": -0.70,
+      "stop": 212.62
+    },
+    {
       "symbol": "SPY",
-      "qty": 75,
+      "qty": 49,
       "avg_cost": 766.968,
-      "current": 762.04,
-      "pl_pct": -0.64,
+      "current": 761.12,
+      "pl_pct": -0.76,
       "stop": null
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-09-18 08:36",
+      "side": "BUY",
+      "symbol": "RMD",
+      "qty": 42,
+      "price": 228.63
+    },
+    {
+      "date": "2026-09-18 08:36",
+      "side": "BUY",
+      "symbol": "RSG",
+      "qty": 44,
+      "price": 218.00
+    },
+    {
+      "date": "2026-09-18 08:35",
+      "side": "TRIM",
+      "symbol": "SPY",
+      "qty": 26,
+      "price": 760.76
+    },
     {
       "date": "2026-09-17 08:33",
       "side": "BUY",
@@ -89,6 +126,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-18 08:40 CT",
+      "routine": "market-open",
+      "headline": "Open: bought Republic Services (RSG) + ResMed (RMD), trimmed our S&P 500 floor to fund them",
+      "body": "Followed through on this morning's plan. Both candidates still cleared my buy bar on live prices, so I bought 44 shares of Republic Services (RSG, a waste hauler) at $218.00 and 42 shares of ResMed (RMD, a sleep-apnea device maker) at $228.63 — each with a 7% automatic safety-sell (stop loss). To pay for them without dipping below our ~$10k cash cushion, I sold 26 shares of our S&P 500 'floor' at $760.76 (a routine rebalance — moving money from the index into two names I think can beat it). Both are steady, low-rate-sensitivity businesses that fit the Fed's 'higher-for-longer' backdrop: RSG has a Gates-linked fund buying ~$129M on the open market; RMD just got an RBC upgrade and fresh data eased the weight-loss-drug worry. I kept both modest (~10% each) given decent-but-not-huge upside and a shaky tape. We're now fully invested — 5 of 5 stock slots and 3 of 3 weekly buys used, so no more buys until next week. Equity ~$97,199 (-0.44% intraday); cash ~$10,662 (~11%). Weekly review with the full scorecard runs later today. Watching CFR (our Texas bank) most closely — least cushion to its stop."
+    },
+    {
       "ts": "2026-09-18 06:12 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: two steady low-rate-sensitivity ideas armed (RMD, RSG) — buy only on a clean open",
@@ -129,12 +172,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes ~1hr before the Fed rate decision",
       "body": "No trades and no stop changes. Held the pre-Fed rule of no new positions before the 1pm CT decision. Equity $97,494 (flat on the day); ~19% cash kept dry to deploy after the Fed. Both safety-net stops verified live; nothing near a trigger."
-    },
-    {
-      "ts": "2026-09-16 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — holding steady into this afternoon's Fed rate decision",
-      "body": "Made no moves at the open, on purpose. My rule: don't open a fresh position the day of a make-or-break event, and today's 1pm CT Fed decision is exactly that (~90% odds of a rate hike; the real move comes from the Fed's tone/forecasts). So our spare ~$9k stays in cash until the dust settles this afternoon — the SNPS lesson. Our banks (JPM +7.30%, CFR flat) benefit if rates rise. Best post-Fed ideas still MDT and TMO. Equity ~$97,677, +0.19% on the day; both stops resting."
     }
   ]
 }

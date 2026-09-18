@@ -1,3 +1,44 @@
+# 2026-09-18 08:40 CT — MARKET-OPEN (Fri · executed the pre-market plan) · **BOUGHT RSG 44 @ $218.00 + RMD 42 @ $228.63** (filled both open conviction slots), funded by trimming SPY 26 @ $760.76 · fragile Friday tape faded to −0.44%
+
+**Routine:** Env loaded, all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Synced origin/main memory at run start. Market CONFIRMED open via /v2/clock (is_open=true, 09:32 ET; next_close 16:00 ET). Account pre-trade (/v2/account): equity $97,404.68, cash $10,076.13 (~10.34%, AT the ~$10k floor), last_equity (Thu 9/17 close) $97,631.99. Post-trade: equity **$97,198.50** (intraday −0.44%, NOT authoritative — close/weekly-review own the scorecard), cash **$10,661.62 (~10.97%)**, long_mv $86,536.88, ACTIVE.
+
+## Execution — pre-market armed RSG (~78) + RMD (~76); re-validated LIVE via 2 parallel sub-agents (Perplexity sonar-pro) + Alpaca bars → BOTH CLEARED THE GATE → BOUGHT BOTH
+- **Tape:** the pre-market's "fragile Friday bounce" gap-up faded — book opened −0.23% and drifted to −0.44% by ~09:36 ET (orderly, small move, well inside the −3% loss cap). No binary macro print today → FOMC entry-timing near-veto SATISFIED. Both names are LOW-rate-sensitivity defensives (not high-beta/high-multiple) → the high-beta/rate-sensitive entry-timing advisory does NOT apply.
+- **RSG live re-verify (sub-agent):** entry $218.00, right at 50dMA $218.38 = clean/non-extended. Fresh-news 48h CLEAN (Wolfe reiterated Peer Perform 9/15 — not a downgrade; RSG named to "100 Best Corporate Citizens"). **2 signals VERIFIED: #4** Cascade Investment (Gates vehicle, 10% owner) open-market Form 4 ~580.7k sh ($129.3M) on 9/10–11 @ ~$221–224 — the live edge; **#3** defensive non-cyclical waste/pricing power. #1 beat-and-raise supporting but not hard-confirmed this cycle. **Conviction ~76 (B+).** Caveat: modest ~10% upside to consensus PT $245 (buying near Cascade's cost) → size conservatively.
+- **RMD live re-verify (sub-agent):** entry $228.63, +4.16% above 50dMA $218.47 = clean/non-extended (confirmed via Alpaca 56-bar calc). Fresh-news 48h CLEAN (no downgrade/guidance cut/litigation; 9/15 first FY27 guide 5–7% rev / 12–14% EPS + a $42M Astral ventilator sunset charge, framed manageable). **3 signals VERIFIED: #4** RBC upgrade Sector Perform→Outperform 9/15, PT $244→$262 (multi-source); **#3** sleep-apnea/aging secular; **#6** uptrend >50dMA. #1 (Q4 FY26 beat 8/6, EPS $2.95 vs ~$2.89) supporting/stale. **GLP-1 overhang:** known/priced medium-long-term risk, but fresh 9/16 IQVIA data (2.59M patients) shows GLP-1 users ~10.7pts MORE likely to start PAP + higher resupply → de-risks the bear case near-term. **Conviction ~78 (B+).**
+- **Buy-gate:** both ≥2 verified signals AND Conviction ≥70 → CLEARED. Both clean/non-extended entries; tape orderly.
+
+## Orders (all VERIFIED filled via /v2/orders/{id}, not assumed)
+- **SELL SPY 26** (`ee62840a`) market/day → filled 26 @ **$760.763077** = $19,779.84. Index-floor rebalance to fund the two buys (floor = shock-absorber; conviction picks get the alpha budget). SPY sleeve 75 → 49 sh. Cash 10,076 → 29,856.
+- **BUY RSG 44** (`36293657`) market/day → filled 44 @ **$218.00** = $9,592.00 (~9.8% equity). Then STANDALONE GTC −7% hard stop (`93c80d32`) @ **202.74** (=218×0.93), tif=gtc VERIFIED (exp 2026-12-17).
+- **BUY RMD 42** (`ead0f047`) market/day → filled 42 @ **$228.627381** = $9,602.35 (~9.8% equity). Then STANDALONE GTC −7% hard stop (`91671fa4`) @ **212.62** (=228.627×0.93), tif=gtc VERIFIED (exp 2026-12-17).
+- **Stop method:** market buy → poll fill → standalone GTC −7% stop off filled_avg_price (the MDT/CFR-proven method; avoids the 9/3 SNPS OTO day-tif bug). Both convert to 10% trailing once +5%.
+
+## Sizing rationale
+- Both B+ (70–79 band → 10–15%). Sized at the **LOW end (~9.8% each)**, a deliberate call: modest ~10% upside on both + a fragile Friday tape (10Y ~5%, crude >$100, bounce faded). Neither is high-beta AI/semis, so the ≤10% override didn't force it — restraint was judgment, not rule.
+- Cash after both fills $10,661.62 (~10.97%) — above the ~$10k / 10% floor. Good.
+
+## Post-trade state (VERIFIED)
+- **Conviction sleeve 5/5 (JPM, MDT, CFR, RSG, RMD) — AT CAP, 0 slots open.** SPY floor exempt.
+- **Weekly conviction buys 3/3 (MDT, RSG, RMD) — CAP FULL** (week 9/14–9/18).
+- **Exactly 5 open orders = 5 individual stops** all resting GTC: MDT 86.18, CFR 151.73, JPM 10% trailing (floor 329.85, hwm 366.5), RSG 202.74, RMD 212.62. SPY unencumbered by design.
+- Sizes on equity $97,198.50: JPM ~12.1%, MDT ~9.1%, CFR ~9.7%, RSG ~9.8%, RMD ~9.8%, SPY ~38.3% (index sleeve — exempt from 20% cap).
+
+## Risk checks
+- (a) None −7%+ un-stopped (worst CFR −3.16%; SPY −0.76% no-stop by policy) → no sell.
+- (b) No +5% hard→trailing conversion pending (JPM already trailing +4.88%; others below +5%) → zero conversions.
+- (c) Day −0.44% → loss cap N/A; new buys were allowed and executed.
+
+## Telegram
+- Trade-placed push (🔔 teacher-mode, both buys) SENT — see below / messages.md.
+
+## Watch / next (weekly review Fri 9/18 later today)
+1. Weekly review owns the authoritative Fri day+week alpha-vs-SPY scorecard + the mandatory daily Telegram push. Note today's adds shift the book toward defensive stock exposure with a smaller (49-sh) index floor.
+2. CFR is the watch — tightest cushion (~4.0% to 151.73). Thesis intact (a hike helps NIM); hard stop is the net. Do not pre-empt / average down.
+3. RSG/RMD are day-1 entries; −7% hard stops the net; convert to 10% trailing at +5%.
+4. Caps FULL (5/5 sleeve, 3/3 weekly) — no more buys this week without a sell.
+5. Reconcile CFR ~$61.80 dividend (paid 9/15, was lagging into cash).
+
 # 2026-09-18 — pre-market (Fri · weekly-review day; research routine, NO TRADES; market opens 09:30 ET)
 
 **Routine:** pre-market · 4-agent parallel scan (macro / earnings / positions / opportunity scout) ran live via Perplexity sonar-pro. **ALL price + 50dMA re-verified Alpaca-IEX PRIMARY through 9/17 close (overrides web).** Conviction = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech. Buy needs 2+ VERIFIED signals AND Conviction ≥70 AND a clean, non-extended entry. **NO TRADES (market closed + research routine).** Account (live pre-open, thin marks): equity ~$97,559.37, cash $10,076.13 (~10.33% — AT the ~$10k floor, NO excess dry cash), long_mv $87,483.24, status ACTIVE. Conviction sleeve **3/5 (JPM, MDT, CFR); 2 slots OPEN.** Weekly conviction buys **1/3** (week 9/14–9/18; MDT). **All 3 individual stops VERIFIED live resting** (MDT −7% `2768e81c` @86.18; CFR −7% `cd725e5b` @151.73; JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5); SPY unencumbered by design. Inbox: **no Pending items.**
