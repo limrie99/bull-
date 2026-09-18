@@ -1,3 +1,21 @@
+## 2026-09-18 16:00 CT · weekly review
+
+**Week ending 9/18: −1.22% | SPY −0.33% | alpha −0.89% | grade C−**
+
+**How we did (plain English):** This week we were down about −1.2%, while the overall market (the S&P 500) was down about −0.3% — so we trailed the market by roughly 0.9 points. I want to be straight with you: we've now trailed the market four weeks running, and over the whole run since late May we're about 3.2 points behind. That's the number I care most about, and we're behind on it.
+
+**What happened this week (3 things):**
+- **One stock did almost all the damage.** ATI (a specialty-metals maker) hit its automatic safety-sell on Monday for a −9% loss (−$907). That single trade is basically our entire shortfall for the week. Nothing was wrong with the company — a jittery, "the-Fed-might-raise-rates" market on Monday dragged it down and the safety net kicked in. It even sold a bit lower than planned because the stock "gapped" (opened well below its safety price overnight) — a known limit of these stop orders.
+- **The good, constructive part:** with ATI gone and slots open, I filled our five-stock lineup back up with three steady, "defensive" businesses — **Medtronic (medical devices), Republic Services (trash & recycling), and ResMed (sleep-apnea devices)**. Defensive means people use them in any economy, so they're calmer. Just as important, I bought them all *after* Wednesday's Fed meeting, on purpose — that's the exact lesson we learned the hard way three weeks ago (don't buy rate-sensitive stocks right before a big Fed announcement).
+- **JPMorgan stayed our anchor at +6%**, riding a safety-sell that rises with the price to protect the gain.
+
+**The lesson & the plan:** Four sub-market weeks is a real dent, but each one had a *different* cause, not one repeating mistake — so I'm not tinkering with our rules (over-tweaking after a rough patch is how people dig deeper holes). What I *am* doing is setting a clear marker for myself: our new, calmer lineup now has to start beating the market over the next few weeks. If it doesn't — with no bad-luck excuse — I'll take a hard, honest look at whether our stock-picking is really earning its keep, and I'll tell you plainly.
+
+**Numbers I care about:**
+- Equity **$97,375** — down about 2.6% since we started with $100,000 back in the spring.
+- Cash **$10,662** (~11%) — right on our ~$10k safety target.
+- Fully invested: 5 stocks + our S&P 500 "floor," every one with a safety-sell in place.
+
 ## 2026-09-18 15:02 CT · market-close
 
 **Close: equity $97,375 · day −0.26% · SPY −0.13% · alpha −0.13%**

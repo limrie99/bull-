@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-09-18 15:02 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-18 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 97375.05,
   "cash": 10661.62,
@@ -28,6 +28,12 @@
     { "date": "2026-09-03 08:34", "side": "BUY", "symbol": "SNPS", "qty": 24, "price": 417.00 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-18 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 9/18: −1.22% | SPY −0.33% | alpha −0.89% | grade C−",
+      "body": "Trailed the market by ~0.9 pts this week — the 4th sub-market week in a row, and cumulative we're ~3.2 pts behind on the run (a new low). Almost the entire miss is one stock: ATI hit its safety-sell Monday for −9% (−$907) on Fed-jitters — thesis intact, just macro noise. The constructive side: I refilled our 5-stock lineup with 3 steady defensive names (Medtronic, Republic Services, ResMed), all bought AFTER Wednesday's Fed meeting — applying the SNPS lesson again. No rule changes (four misses, but four different causes — over-tweaking is how you dig deeper). Marker set: this calmer lineup now has to start beating the market over the next few weeks or I take a hard look at our stock-picking."
+    },
     {
       "ts": "2026-09-18 15:02 CT",
       "routine": "market-close",
