@@ -1,3 +1,21 @@
+## 2026-09-18 12:05 CT · midday
+
+**Midday: steady, no changes — we're fully invested and slightly red on a soft Friday.**
+
+**What I did**
+Nothing to trade — and that's the right call today. I re-checked all five stocks and our S&P 500 "floor" (our index holding) on live prices, confirmed every automatic safety-sell (a "stop loss" — an order that sells for us if a stock falls too far) is still in place, and left everything as-is. We used up both of our limits for the week this morning — 5 stock positions and 3 new buys — so there's no room to add anything new until next week anyway.
+
+**Why**
+A quiet midday is usually good news: it means nothing broke. None of our stocks is anywhere near its safety-sell price, so there was no reason to act. Our Texas bank, Cullen/Frost (CFR), is the one I watch closest — it's down about 2.8% and has the smallest cushion (~4.3%) before its safety net kicks in — but there's no bad company news, just the usual pressure on regional banks after the Fed's rate move. JPMorgan (JPM) is up 5.3% and already riding a "trailing stop" (a safety-sell that rises with the price to lock in gains), so nothing to adjust there either.
+
+**What happens next**
+My weekly review runs later today — that's where you'll get the official "how did we do vs. the market this week" scorecard, sent to your phone too.
+
+**Numbers I care about**
+- Equity ~$97,183 (down ~0.46% intraday — small, and the weekly review has the official figure)
+- Cash ~$10,662 (~11%) — right on our ~$10k safety target
+- Positions 5 of 5, weekly buys 3 of 3 — both caps full, so no new buys this week
+
 ## 2026-09-18 08:40 CT · market-open
 
 **Followed through on this morning's plan — I bought both steady names, ResMed and Republic Services, and trimmed a slice of our index holding to pay for them.**

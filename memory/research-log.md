@@ -8798,3 +8798,27 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - **Decision:** No midday buy — MDT was already deployed at the open (cash on the ~$10k floor, nothing to redeploy) and there is no high-conviction breaking catalyst to justify a midday deviation from the pre-market plan. Sleeve 3/5, weekly buys 1/3.
 - **Tape:** broad post-FOMC bounce (SPY +1.14%); our lower-beta/defensive+cash book up +0.78% — expected lag on a risk-on day; close routine squares alpha.
 - **CFR div** ~$61.80 (paid 9/15) still not posted to cash — paper credit lag; reconcile next routine (immaterial).
+
+## 2026-09-18 12:05 CT — MIDDAY (Fri · market CONFIRMED open via /v2/clock, is_open=true, 13:01 ET · NO TRADES, NO STOP CHANGES) · steady, caps full, weekly review owns the Fri scorecard
+
+**Env:** market OPEN (`/v2/clock` is_open=true, next_close 2026-09-18 16:00 ET, timestamp 13:01 ET). All 4 required Alpaca+Perplexity vars present; EQUIBLES empty (skipped by policy). Synced origin/main memory at run start. Inbox `## Pending`: none.
+
+**Live account (`/v2/account`):** equity **$97,183.39** vs last_equity (Thu 9/17 close, balance_asof 9/17) $97,631.99 → intraday **−$448.60 / −0.46%**. cash **$10,661.62 (~10.97%)**, long_market_value $86,521.77, buying_power $284,907.43, status ACTIVE, trading_blocked false. Conviction sleeve **5/5 (JPM, CFR, MDT, RSG, RMD) — AT CAP, 0 slots.** Weekly conviction buys **3/3 (CAP FULL** — week 9/14–9/18; MDT, RSG, RMD). CFR $1.03/sh div (~$61.80, pay 9/15): cash unchanged from the open ($10,661.62) → paper credit still not clearly posted; reconcile, immaterial to sizing.
+
+**Positions (live marks; theses ALL INTACT):**
+- **JPM** 34 @ 329.695588 → px **347.1955** · **+$595.00 / +5.31%** · 10% trailing floor **329.85** (below hwm 366.5 → floor unchanged), cushion ~5.0%. Intraday −0.61% (soft bank tape). >+5% but ALREADY on trailing → no conversion. Next earnings 10/13 BMO.
+- **MDT** 96 @ 92.67 → px **92.45** · **−$21.12 / −0.24%** · −7% hard 86.18, cushion ~6.8%. Intraday −0.35%. Below +5%.
+- **CFR** 60 @ 163.15 → px **158.58** · **−$274.20 / −2.80%** · −7% hard 151.73, cushion **~4.3% (tightest in book)**. Intraday −0.66%. Below +5%. Post-FOMC regional-bank pressure, no company-specific bad news; thesis intact.
+- **RSG** 44 @ 218.00 → px **217.60** · **−$17.60 / −0.18%** · −7% hard 202.74, cushion ~6.8%. Day-1 entry, ~flat. Below +5%.
+- **RMD** 42 @ 228.627381 → px **227.31** · **−$55.33 / −0.58%** · −7% hard 212.62, cushion ~6.5%. Day-1 entry, slightly red. Below +5%.
+- **SPY floor** 49 @ 766.968 → px **759.30** · **−$375.73 / −1.00%** · no stop by policy; ~38.3% of equity (index sleeve — exempt from the 20% cap).
+
+**Open orders VERIFIED (exactly 5, all live resting; no drift/orphan/duplicate):** MDT −7% hard `2768e81c` 86.18 GTC; CFR −7% hard `cd725e5b` 151.73 GTC; JPM 10% trailing `8a937ff6` floor 329.85 hwm 366.5 trail 10% GTC; RSG −7% hard `93c80d32` 202.74 GTC; RMD −7% hard `91671fa4` 212.62 GTC. SPY unencumbered by design.
+
+**Risk checks:** (a) any position −7%+ un-stopped? NO — worst CFR −2.80%, SPY −1.00% (no stop by policy); nothing at/near a trigger → no Perplexity news check required, no sell trigger. (b) any +5%+ needing hard→trailing conversion? NO — JPM +5.31% but already on trailing; all others below +5%; SPY no stop by policy. Zero conversions pending. (c) daily loss cap: intraday −0.46%, far inside the −3% cap → no restriction (and no buys possible anyway — caps full).
+
+**Decision:** NO trades, NO stop changes. Sleeve 5/5 and weekly buys 3/3 are both CAP FULL — no new buy is possible this week without a sell or next week's reset, and there is no thesis break or better-opportunity swap on the table (no high-conviction breaking catalyst to justify a midday deviation). Nothing at a stop trigger, nothing needing conversion.
+
+**Intraday alpha (estimate; weekly review owns the authoritative Fri scorecard):** SPY lastday 762.60 → 759.30 ≈ **−0.43%** intraday; book **−0.46%** → book marginally behind SPY today (JPM/CFR bank-tape softness the main drag; RSG/RMD day-1 ~flat). Week-to-date squared by the weekly review (base Fri 9/11 close).
+
+**Next:** **weekly review (Fri 2026-09-18, later today)** owns the mandatory plain-English scorecard + Telegram (never skipped) — square the full week's alpha vs SPY and note the book's shift toward defensive/low-rate-sensitivity exposure (MDT + RSG + RMD added this week) with a smaller index floor. All cushions comfortable (CFR ~4.3% tightest). **No Telegram this midday** (quiet no-trade check, per skip rules).

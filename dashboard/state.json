@@ -1,177 +1,53 @@
 {
-  "last_update": "2026-09-18 08:40 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-09-18 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 97198.50,
+  "equity": 97183.39,
   "cash": 10661.62,
-  "day_pl": -433.49,
-  "day_pl_pct": -0.44,
-  "week_pl_pct": -1.40,
-  "spy_week_pct": -0.40,
-  "alpha_week_pct": -1.00,
+  "day_pl": -448.60,
+  "day_pl_pct": -0.46,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
-    {
-      "symbol": "JPM",
-      "qty": 34,
-      "avg_cost": 329.695588,
-      "current": 345.80,
-      "pl_pct": 4.88,
-      "stop": 329.85
-    },
-    {
-      "symbol": "MDT",
-      "qty": 96,
-      "avg_cost": 92.67,
-      "current": 92.67,
-      "pl_pct": 0.01,
-      "stop": 86.18
-    },
-    {
-      "symbol": "CFR",
-      "qty": 60,
-      "avg_cost": 163.15,
-      "current": 158.00,
-      "pl_pct": -3.16,
-      "stop": 151.73
-    },
-    {
-      "symbol": "RSG",
-      "qty": 44,
-      "avg_cost": 218.00,
-      "current": 217.56,
-      "pl_pct": -0.20,
-      "stop": 202.74
-    },
-    {
-      "symbol": "RMD",
-      "qty": 42,
-      "avg_cost": 228.627381,
-      "current": 227.03,
-      "pl_pct": -0.70,
-      "stop": 212.62
-    },
-    {
-      "symbol": "SPY",
-      "qty": 49,
-      "avg_cost": 766.968,
-      "current": 761.12,
-      "pl_pct": -0.76,
-      "stop": null
-    }
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 347.20, "pl_pct": 5.31, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 92.45, "pl_pct": -0.24, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 158.58, "pl_pct": -2.80, "stop": 151.73 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 217.60, "pl_pct": -0.18, "stop": 202.74 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 227.31, "pl_pct": -0.58, "stop": 212.62 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 766.97, "current": 759.30, "pl_pct": -1.00, "stop": null }
   ],
   "recent_trades": [
-    {
-      "date": "2026-09-18 08:36",
-      "side": "BUY",
-      "symbol": "RMD",
-      "qty": 42,
-      "price": 228.63
-    },
-    {
-      "date": "2026-09-18 08:36",
-      "side": "BUY",
-      "symbol": "RSG",
-      "qty": 44,
-      "price": 218.00
-    },
-    {
-      "date": "2026-09-18 08:35",
-      "side": "TRIM",
-      "symbol": "SPY",
-      "qty": 26,
-      "price": 760.76
-    },
-    {
-      "date": "2026-09-17 08:33",
-      "side": "BUY",
-      "symbol": "MDT",
-      "qty": 96,
-      "price": 92.67
-    },
-    {
-      "date": "2026-09-14 08:35",
-      "side": "SELL",
-      "symbol": "ATI",
-      "qty": 47,
-      "price": 190.37
-    },
-    {
-      "date": "2026-09-09 08:37",
-      "side": "BUY",
-      "symbol": "CFR",
-      "qty": 60,
-      "price": 163.15
-    },
-    {
-      "date": "2026-09-04 08:32",
-      "side": "SELL",
-      "symbol": "SNPS",
-      "qty": 24,
-      "price": 387.5
-    },
-    {
-      "date": "2026-09-03 09:05",
-      "side": "TRIM",
-      "symbol": "SPY",
-      "qty": 13,
-      "price": 767.2
-    },
-    {
-      "date": "2026-08-31 15:30",
-      "side": "SELL",
-      "symbol": "LLY",
-      "qty": 12,
-      "price": 1152.0
-    }
+    { "date": "2026-09-18 08:36", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
+    { "date": "2026-09-18 08:36", "side": "BUY", "symbol": "RSG", "qty": 44, "price": 218.00 },
+    { "date": "2026-09-18 08:36", "side": "SELL", "symbol": "SPY", "qty": 26, "price": 760.76 },
+    { "date": "2026-09-17 08:34", "side": "BUY", "symbol": "MDT", "qty": 96, "price": 92.67 },
+    { "date": "2026-09-14 08:32", "side": "SELL", "symbol": "ATI", "qty": 47, "price": 190.37 }
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-18 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — fully invested, slightly red on a soft Friday",
+      "body": "No trades. All 5 stops verified resting; nobody near a trigger (CFR tightest at ~4.3% cushion, thesis intact). JPM +5.3% already on its trailing stop. Caps full (5/5 positions, 3/3 weekly buys). Weekly review later today owns the official scorecard."
+    },
+    {
       "ts": "2026-09-18 08:40 CT",
       "routine": "market-open",
-      "headline": "Open: bought Republic Services (RSG) + ResMed (RMD), trimmed our S&P 500 floor to fund them",
-      "body": "Followed through on this morning's plan. Both candidates still cleared my buy bar on live prices, so I bought 44 shares of Republic Services (RSG, a waste hauler) at $218.00 and 42 shares of ResMed (RMD, a sleep-apnea device maker) at $228.63 — each with a 7% automatic safety-sell (stop loss). To pay for them without dipping below our ~$10k cash cushion, I sold 26 shares of our S&P 500 'floor' at $760.76 (a routine rebalance — moving money from the index into two names I think can beat it). Both are steady, low-rate-sensitivity businesses that fit the Fed's 'higher-for-longer' backdrop: RSG has a Gates-linked fund buying ~$129M on the open market; RMD just got an RBC upgrade and fresh data eased the weight-loss-drug worry. I kept both modest (~10% each) given decent-but-not-huge upside and a shaky tape. We're now fully invested — 5 of 5 stock slots and 3 of 3 weekly buys used, so no more buys until next week. Equity ~$97,199 (-0.44% intraday); cash ~$10,662 (~11%). Weekly review with the full scorecard runs later today. Watching CFR (our Texas bank) most closely — least cushion to its stop."
+      "headline": "Bought ResMed & Republic Services; trimmed the index floor to fund them",
+      "body": "Filled RSG 44 @ $218.00 and RMD 42 @ $228.63, funded by trimming SPY 26 @ $760.76. Both defensive/low-rate-sensitivity B+ names with −7% stops. Caps now full."
     },
     {
       "ts": "2026-09-18 06:12 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: two steady low-rate-sensitivity ideas armed (RMD, RSG) — buy only on a clean open",
-      "body": "Ran the full research team (no trades — market closed). Theme unchanged: the Fed's 'higher-for-longer' hike rewards steady, cash-rich names. Two candidates rose to the top, both low rate-sensitivity: ResMed (RMD) — sleep-apnea device maker, fresh RBC upgrade — and Republic Services (RSG) — steady waste hauler where a Gates-linked fund just bought ~$160M on the open market (a strong insider-buying signal). Both are in clean uptrends and score just over my buy bar. Neither is decided: at the open I'll re-check live prices and may buy one, but since cash is right at our ~$10k cushion, funding a stock means trimming a little of our S&P 500 floor. Watching CFR (our Texas bank) — its safety-net sell is ~5% below price, the closest in the book, as higher rates pressure regional banks short-term (thesis intact, stop is the backstop). Cash $10,076 (~10%); 3 of 5 slots filled, 1 of 3 weekly buys used."
+      "headline": "Pre-market plan: two steady 'boring-is-good' ideas ready for a clean entry",
+      "body": "Scouted RMD (RBC upgrade) and RSG (Gates-linked open-market buying), both low rate-sensitivity, both just over the buy bar. Would fund from a small index-floor trim at the open."
     },
     {
       "ts": "2026-09-17 15:04 CT",
       "routine": "market-close",
-      "headline": "Close: equity $97,629 · day +0.69% · SPY +1.12% · alpha -0.43%",
-      "body": "Good day — we made about $673 (+0.69%), though the market rose a touch more, so we trailed it by 0.43% today ('alpha' = our return minus the market's). That's expected on a sharp up day: our steadier, lower-swing holdings plus our cash cushion rise more gently than the index. Almost all of today's gain came from our S&P 500 'floor' (idle cash parked in the index so it keeps pace). No trades at the close — our one move was buying Medtronic at the open. CFR gave back its midday pop and is the one I'm watching. Week-to-date we're -0.96% vs the market's -0.21% (behind by ~0.75%), nearly all of it Monday's ATI stop-out. Cash $10,076 (~10%, on target); all three safety-net stops resting. Tomorrow is my Friday weekly review."
-    },
-    {
-      "ts": "2026-09-17 12:05 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — everything healthy and doing its job",
-      "body": "No trades, no stop changes. Checked every holding's live price and confirmed all three safety-net stops are resting where they should be; nothing is near a danger zone and none hit a milestone to adjust. The market is bouncing back post-Fed (SPY +1.1%); we're up more gently (+0.78%) because we hold steadier, lower-swing names plus cash. CFR firmed up since the open (cushion above its stop grew from ~4.9% to ~5.4%). Our one planned move (buying MDT) happened at the open, so cash is already invested (~$10,076, ~10%). Equity $97,711, +0.78% intraday — official scorecard at the close."
-    },
-    {
-      "ts": "2026-09-17 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: bought Medtronic (MDT) — put our ~$9k spare cash to work in a steady medical-device stock",
-      "body": "Bought 96 shares of Medtronic at $92.67 (~$8,900) with an automatic safety-net sell at $86.18 (a 'stop loss' that caps the loss at 7%). Why now: the Fed raised rates yesterday and signaled 'higher-for-longer,' which favors steady, defensive companies over pricey tech — and Medtronic was our best-scoring idea (beat earnings + raised its forecast, UBS lifted its target to $110, low rate-sensitivity). I re-checked the live price first: a healthy, not-overheated uptrend, so I bought a conservative ~9% position. Cash is now ~$10,076 (right on target); 1 of 3 weekly buys used, 3 of 5 stock slots filled. Equity ~$97,640 (+0.71% intraday — real scorecard at the close)."
-    },
-    {
-      "ts": "2026-09-17 06:10 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: Fed raised rates yesterday — today I may put our spare cash to work (MDT)",
-      "body": "Confirmed the big news: the Fed raised interest rates a quarter-point yesterday and signaled more could come ('higher-for-longer'). No trades this morning (market closed, research routine), but the plan is set: higher rates reward steady, defensive companies, which points to Medtronic (MDT) — our best-scoring idea (beat earnings + raised its forecast, and low rate-sensitivity). At the open I'll re-check its live price and, if clean, invest ~$9k of idle cash. Higher rates help our two banks long-term; I'm watching CFR since its safety-net stop is ~5% away. Equity ~$97,490 pre-open (early marks are thin — real scorecard at the close); both stops resting."
-    },
-    {
-      "ts": "2026-09-16 15:02 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $96,958 · day -0.55% · SPY -0.44% · alpha -0.10%",
-      "body": "Small down day on the Fed's rate-decision day. No trades — my rule is not to open positions on a make-or-break event day, and the market was closed by the time this ran. We lagged the market by a hair (-0.10%) because our two banks (JPM -1.1%, CFR -1.7%) faded a bit more than the index on a 'sell the news' wobble — not a thesis break; higher rates help banks long-term. ~$9k cash still dry; tomorrow I'll confirm what the Fed did and, if the tape calms, put it to work (MDT/TMO top ideas)."
-    },
-    {
-      "ts": "2026-09-16 12:01 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes ~1hr before the Fed rate decision",
-      "body": "No trades and no stop changes. Held the pre-Fed rule of no new positions before the 1pm CT decision. Equity $97,494 (flat on the day); ~19% cash kept dry to deploy after the Fed. Both safety-net stops verified live; nothing near a trigger."
+      "headline": "Close: equity $97,629 · day +0.69% · SPY +1.12% · alpha −0.43%",
+      "body": "Made about $673 on a risk-on day; our lower-beta/defensive book lagged the market's bigger bounce a touch. No trades at the close."
     }
   ]
 }
