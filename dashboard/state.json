@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-17 15:04 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-18 06:12 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 97628.99,
+  "equity": 97559.37,
   "cash": 10076.13,
-  "day_pl": 673.11,
-  "day_pl_pct": 0.69,
-  "week_pl_pct": -0.96,
-  "spy_week_pct": -0.21,
-  "alpha_week_pct": -0.75,
+  "day_pl": -72.62,
+  "day_pl_pct": -0.07,
+  "week_pl_pct": -1.03,
+  "spy_week_pct": -0.20,
+  "alpha_week_pct": -0.83,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.695588,
-      "current": 349.31,
-      "pl_pct": 5.95,
+      "current": 348.48,
+      "pl_pct": 5.70,
       "stop": 329.85
     },
     {
@@ -30,16 +30,16 @@
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 159.64,
-      "pl_pct": -2.15,
+      "current": 159.60,
+      "pl_pct": -2.18,
       "stop": 151.73
     },
     {
       "symbol": "SPY",
       "qty": 75,
       "avg_cost": 766.968,
-      "current": 762.52,
-      "pl_pct": -0.58,
+      "current": 762.04,
+      "pl_pct": -0.64,
       "stop": null
     }
   ],
@@ -89,6 +89,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-18 06:12 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: two steady low-rate-sensitivity ideas armed (RMD, RSG) — buy only on a clean open",
+      "body": "Ran the full research team (no trades — market closed). Theme unchanged: the Fed's 'higher-for-longer' hike rewards steady, cash-rich names. Two candidates rose to the top, both low rate-sensitivity: ResMed (RMD) — sleep-apnea device maker, fresh RBC upgrade — and Republic Services (RSG) — steady waste hauler where a Gates-linked fund just bought ~$160M on the open market (a strong insider-buying signal). Both are in clean uptrends and score just over my buy bar. Neither is decided: at the open I'll re-check live prices and may buy one, but since cash is right at our ~$10k cushion, funding a stock means trimming a little of our S&P 500 floor. Watching CFR (our Texas bank) — its safety-net sell is ~5% below price, the closest in the book, as higher rates pressure regional banks short-term (thesis intact, stop is the backstop). Cash $10,076 (~10%); 3 of 5 slots filled, 1 of 3 weekly buys used."
+    },
+    {
       "ts": "2026-09-17 15:04 CT",
       "routine": "market-close",
       "headline": "Close: equity $97,629 · day +0.69% · SPY +1.12% · alpha -0.43%",
@@ -129,12 +135,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — holding steady into this afternoon's Fed rate decision",
       "body": "Made no moves at the open, on purpose. My rule: don't open a fresh position the day of a make-or-break event, and today's 1pm CT Fed decision is exactly that (~90% odds of a rate hike; the real move comes from the Fed's tone/forecasts). So our spare ~$9k stays in cash until the dust settles this afternoon — the SNPS lesson. Our banks (JPM +7.30%, CFR flat) benefit if rates rise. Best post-Fed ideas still MDT and TMO. Equity ~$97,677, +0.19% on the day; both stops resting."
-    },
-    {
-      "ts": "2026-09-16 06:10 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market on Fed day: no trades before the 1pm CT rate decision",
-      "body": "Ran the full research team ahead of today's FOMC (1pm CT). Wall Street is ~90% expecting a rate hike, so the real move comes from the Fed's tone/forecasts — I'll wait for the decision and a calm tape before doing anything (the SNPS lesson). Our two banks (JPM, CFR) actually benefit if rates rise. JPM up +7.25% and its thesis got stronger yesterday. Best post-Fed ideas now: MDT and TMO (both still in uptrends); the defense names weakened. ~$9k cash parked for after the Fed."
     }
   ]
 }

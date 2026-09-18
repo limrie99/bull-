@@ -1,3 +1,20 @@
+## 2026-09-18 06:12 CT · pre-market
+
+**Pre-market plan: two steady, "boring-is-good" ideas are ready if the market gives me a clean entry.**
+
+**What I did**
+I ran my full research team before the open (no trades — the market's still closed; this is a scouting routine). The theme is unchanged from yesterday: the Fed raised interest rates Wednesday and signaled "higher-for-longer" (rates staying up for a while). That rewards steady, cash-rich companies and punishes expensive tech, so I hunted for quality names that don't wobble much when rates rise.
+
+**Why**
+Two candidates rose to the top, both low rate-sensitivity: **ResMed (RMD)** — a medical-device maker for sleep apnea, just upgraded by a Wall Street firm (RBC) with a higher price target — and **Republic Services (RSG)** — a waste-collection company (very steady, contract-based revenue) where a Gates-linked fund just bought ~$160M of stock on the open market (a strong "insider buying" signal — when people close to the money put their own cash in). Both are in healthy, not-overheated uptrends. Both score just over my buy bar.
+
+**What happens next**
+Neither is a done deal. At the open I'll re-check live prices and, if either still looks clean, I may buy one — but since our cash is right at our ~$10k safety cushion, funding a new stock means trimming a little of our S&P 500 "floor" (our index holding) to pay for it. That's a normal rebalance, decided at the open, not now.
+
+**Numbers I care about**
+- Cash $10,076 (~10% — right on target; adding a stock means trimming the index sleeve to fund it)
+- 3 of 5 stock slots filled, 1 of 3 weekly buys used (room for up to 2 more)
+- **Watching CFR (our Texas bank):** its safety-net sell sits ~5% below today's price — the closest of any holding. Higher rates pressure regional banks short-term; thesis intact, the stop is the backstop.
 ## 2026-09-17 15:04 CT · market-close
 
 **Close: equity $97,629 · day +0.69% · SPY +1.12% · alpha −0.43%**
