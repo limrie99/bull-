@@ -1,53 +1,44 @@
 {
-  "last_update": "2026-09-18 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-18 15:02 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 97183.39,
+  "equity": 97375.05,
   "cash": 10661.62,
-  "day_pl": -448.60,
-  "day_pl_pct": -0.46,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "day_pl": -256.94,
+  "day_pl_pct": -0.26,
+  "week_pl_pct": -1.22,
+  "spy_week_pct": -0.33,
+  "alpha_week_pct": -0.89,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 347.20, "pl_pct": 5.31, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 92.45, "pl_pct": -0.24, "stop": 86.18 },
-    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 158.58, "pl_pct": -2.80, "stop": 151.73 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 217.60, "pl_pct": -0.18, "stop": 202.74 },
-    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 227.31, "pl_pct": -0.58, "stop": 212.62 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 766.97, "current": 759.30, "pl_pct": -1.00, "stop": null }
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.6956, "current": 349.5616, "pl_pct": 6.03, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 92.13, "pl_pct": -0.58, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 159.80, "pl_pct": -2.05, "stop": 151.73 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 218.0024, "pl_pct": 0.00, "stop": 202.74 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.6274, "current": 224.99, "pl_pct": -1.59, "stop": 212.62 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 766.968, "current": 762.2711, "pl_pct": -0.61, "stop": null }
   ],
   "recent_trades": [
-    { "date": "2026-09-18 08:36", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
+    { "date": "2026-09-18 08:36", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.627381 },
     { "date": "2026-09-18 08:36", "side": "BUY", "symbol": "RSG", "qty": 44, "price": 218.00 },
-    { "date": "2026-09-18 08:36", "side": "SELL", "symbol": "SPY", "qty": 26, "price": 760.76 },
-    { "date": "2026-09-17 08:34", "side": "BUY", "symbol": "MDT", "qty": 96, "price": 92.67 },
-    { "date": "2026-09-14 08:32", "side": "SELL", "symbol": "ATI", "qty": 47, "price": 190.37 }
+    { "date": "2026-09-18 08:35", "side": "SELL", "symbol": "SPY", "qty": 26, "price": 760.763077 },
+    { "date": "2026-09-17 08:33", "side": "BUY", "symbol": "MDT", "qty": 96, "price": 92.67 },
+    { "date": "2026-09-14 08:30", "side": "SELL", "symbol": "ATI", "qty": 47, "price": 190.368299 },
+    { "date": "2026-09-09 08:37", "side": "BUY", "symbol": "CFR", "qty": 60, "price": 163.15 },
+    { "date": "2026-09-04 09:33", "side": "SELL", "symbol": "SNPS", "qty": 24, "price": 387.50 },
+    { "date": "2026-09-03 08:34", "side": "BUY", "symbol": "SNPS", "qty": 24, "price": 417.00 }
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-18 15:02 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $97,375 · day −0.26% · SPY −0.13% · alpha −0.13%",
+      "body": "Quiet close after this morning's moves. Down a small $257 today, a hair behind the market; down ~1.2% on the week vs the market's −0.3%, mostly from Monday's ATI stop. Two new defensive stocks (RSG, RMD) added this morning are holding steady. JPMorgan our best at +6%. Fully invested, all safety-sells in place — a hold into the weekend."
+    },
+    {
       "ts": "2026-09-18 12:05 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — fully invested, slightly red on a soft Friday",
-      "body": "No trades. All 5 stops verified resting; nobody near a trigger (CFR tightest at ~4.3% cushion, thesis intact). JPM +5.3% already on its trailing stop. Caps full (5/5 positions, 3/3 weekly buys). Weekly review later today owns the official scorecard."
-    },
-    {
-      "ts": "2026-09-18 08:40 CT",
-      "routine": "market-open",
-      "headline": "Bought ResMed & Republic Services; trimmed the index floor to fund them",
-      "body": "Filled RSG 44 @ $218.00 and RMD 42 @ $228.63, funded by trimming SPY 26 @ $760.76. Both defensive/low-rate-sensitivity B+ names with −7% stops. Caps now full."
-    },
-    {
-      "ts": "2026-09-18 06:12 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: two steady 'boring-is-good' ideas ready for a clean entry",
-      "body": "Scouted RMD (RBC upgrade) and RSG (Gates-linked open-market buying), both low rate-sensitivity, both just over the buy bar. Would fund from a small index-floor trim at the open."
-    },
-    {
-      "ts": "2026-09-17 15:04 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $97,629 · day +0.69% · SPY +1.12% · alpha −0.43%",
-      "body": "Made about $673 on a risk-on day; our lower-beta/defensive book lagged the market's bigger bounce a touch. No trades at the close."
+      "headline": "Midday: steady, no changes — fully invested and slightly red on a soft Friday",
+      "body": "Nothing to trade. Re-checked all five stocks plus the S&P 500 floor on live prices, confirmed every stop-loss is in place. Both weekly limits (5 positions, 3 new buys) are used up, so no room to add until next week."
     }
   ]
 }

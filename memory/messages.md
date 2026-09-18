@@ -1,3 +1,25 @@
+## 2026-09-18 15:02 CT · market-close
+
+**Close: equity $97,375 · day −0.26% · SPY −0.13% · alpha −0.13%**
+
+**How we're doing (plain English):** We finished the day down a small $257 (−0.26%), and the overall market (the S&P 500, which I track through "SPY") was down about −0.13%. So we lagged the market by a hair today — nothing dramatic, just a soft Friday where our bank stocks dragged a touch. For the whole week we're down about −1.2% vs. the market's −0.3%, so we're behind by roughly 0.9% this week — I want to be straight with you about that.
+
+**What happened**
+No new trades this afternoon — the buys happened this morning. Earlier today I trimmed a bit of our S&P 500 "floor" holding and used the cash to open two new defensive stocks: Republic Services (RSG, trash & recycling) and ResMed (RMD, sleep-apnea devices). "Defensive" means businesses people use no matter what the economy does — steadier, less jumpy.
+
+**Why we're a little behind this week**
+- The biggest drag was a stock called ATI that hit its automatic safety-sell (a "stop loss") on Monday for a −9% loss. That one hurt, but the safety net did its job — it stopped a bad day from becoming a worse one.
+- Our two bank stocks (JPMorgan and Cullen/Frost) softened after the Fed's rate decision this week. JPMorgan is still our star, up +6% since we bought it.
+- The good news: every position has a safety-sell in place, and our newest defensive picks are doing exactly what they should — barely moving while the market wobbles.
+
+**What I'm watching**
+Whether Cullen/Frost (our smallest-cushion stock) steadies next week, and whether the two new defensive names start climbing. We're fully invested (5 stocks + the index floor) and have used all our buys for the week, so it's a hold into the weekend.
+
+**Numbers**
+- Equity: $97,375 (we started with $100,000, so we're down about 2.6% since day one)
+- Cash: $10,662 — about 11% kept as a safety buffer, right on target
+- Best position: JPMorgan +6.0%; weakest: Cullen/Frost −2.0% (still well above its safety-sell)
+
 ## 2026-09-18 12:05 CT · midday
 
 **Midday: steady, no changes — we're fully invested and slightly red on a soft Friday.**
