@@ -33,7 +33,8 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # The committee polls up to six voices plus the chair, each with web search.
+    timeout-minutes: 45
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       ASTRA_ALPACA_API_KEY: ${{ secrets.ASTRA_ALPACA_API_KEY }}
@@ -41,6 +42,9 @@ jobs:
       ASTRA_EXECUTION_ENABLED: ${{ secrets.ASTRA_EXECUTION_ENABLED }}
       ASTRA_ALPACA_BASE_URL: https://paper-api.alpaca.markets
       ASTRA_MODEL: gpt-6-astra
+      # Both optional: blank falls back to ASTRA_MODEL and to voices.json.
+      ASTRA_VOICE_MODEL: ${{ vars.ASTRA_VOICE_MODEL }}
+      ASTRA_VOICES_ENABLED: ${{ vars.ASTRA_VOICES_ENABLED }}
     steps:
       - uses: actions/checkout@v4
         with:

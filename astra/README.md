@@ -1,6 +1,6 @@
 # Astra — independent challenger ✨
 
-Astra is strategy #3 in Lauren's paper-trading league. It uses the OpenAI Responses API with `gpt-6-astra`, Alpaca paper trading, built-in web search, persistent JSON/JSONL memory, and a deterministic risk engine.
+Astra is strategy #3 in Lauren's paper-trading league. It uses the OpenAI Responses API with ChatGPT Astra (`gpt-6-astra`), Alpaca paper trading, built-in web search, persistent JSON/JSONL memory, a multi-voice investment committee, and a deterministic risk engine.
 
 ## Experimental design
 
@@ -19,7 +19,25 @@ Astra is strategy #3 in Lauren's paper-trading league. It uses the OpenAI Respon
 - No new buys after a 2% account decline versus prior close.
 - Minimum model confidence of 75 for a buy.
 - Every buy is submitted as an OTO market order with a 7% stop-loss.
+- A buy needs at least one buyer voice to have named that exact ticker, and at least one skeptic voice to have answered.
+- A skeptic voice at stance BLOCK with conviction ≥ 85 vetoes the buy, whatever the chair decided.
 - Execution is disabled unless `ASTRA_EXECUTION_ENABLED=true`; even then, the paper URL check remains mandatory.
+
+## Committee voices
+
+`astra/voices.json` is the roster. Each voice is one ChatGPT Astra call with its own mandate, its own web search, and a strict JSON answer: stance, conviction, tickers, and a short plain-English argument. Astra chairs them — it reads every voice, then issues the single decision the risk engine sees.
+
+| Bench | Job | Voices |
+| --- | --- | --- |
+| Researchers | Establish what is verifiably true | Filings Researcher · Catalyst Researcher · Macro and Rotation Researcher |
+| Buyers | Judge whether a business is worth owning today | Quality Compounder · Margin of Safety · Trend and Catalyst |
+| Skeptics | Argue why this loses money | The Bear Case · Risk and Liquidity · Pre-Mortem |
+
+The three buyer voices are deliberately incompatible: a name that a compounder buyer, a deep-value buyer and a trend buyer all want is rare and worth noticing, and any one of them is enough to clear the support rule.
+
+Researchers answer first; buyers and skeptics then argue over the same evidence, and the chair reads all of it. Each routine only wakes the benches it needs (`routines` per voice), so the buy bench never sits during `risk-shutdown`. Voices run in parallel, and one that errors or times out is recorded as silent rather than cancelling the run — but a silent *skeptic* bench blocks buying, because nobody checked the downside.
+
+Tuning knobs, all in `voices.json`: `enabled`, `max_parallel`, `min_buyer_support`, `skeptic_veto_conviction`, and each voice's `mandate`, `routines`, `reasoning_effort`, `web_search`, `model`, `timeout_seconds`. Set `ASTRA_VOICES_ENABLED=false` to fall back to a single-voice run, or `ASTRA_VOICE_MODEL` to run the benches on a cheaper model than the chair.
 
 ## Required GitHub Actions secrets
 
@@ -47,7 +65,7 @@ Weekdays in America/New_York:
 
 GitHub cron is UTC-only, so the workflow schedules both daylight- and standard-time candidates. `runner.py --scheduled` checks New York local time and skips the wrong candidate.
 
-Manual dry run:
+Manual dry run (no network, fixed committee, fixed decision):
 
 ```bash
 python astra/runner.py --fixture astra/tests/fixture.json --routine entry-check
@@ -59,4 +77,10 @@ Manual live paper-account run:
 python astra/runner.py --routine entry-check
 ```
 
-The dashboard is `astra/dashboard/index.html`. It reads `astra/dashboard/state.json` and refreshes automatically.
+Unit tests (scheduling, paper guardrails, committee gate):
+
+```bash
+python -m unittest discover -s astra/tests -p 'test_*.py'
+```
+
+The dashboard is `astra/dashboard/index.html`. It reads `astra/dashboard/state.json` and refreshes automatically, and shows each bench's stance and argument under the decision log.
