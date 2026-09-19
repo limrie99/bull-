@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run one independent GPT-6 Astra paper-trading committee check."""
+"""Run one independent ChatGPT Astra paper-trading committee check."""
 
 from __future__ import annotations
 
@@ -11,6 +11,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -19,6 +20,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
 PROMPT_PATH = ROOT / "prompt.md"
+VOICES_PATH = ROOT / "voices.json"
 DECISION_LOG = ROOT / "memory" / "decision-log.jsonl"
 TRADE_LOG = ROOT / "memory" / "trade-log.jsonl"
 STATE_PATH = ROOT / "dashboard" / "state.json"
@@ -39,7 +41,7 @@ DECISION_SCHEMA = {
     "additionalProperties": False,
     "required": [
         "action", "symbol", "confidence", "thesis", "contrary_evidence",
-        "invalidation", "entry_condition", "holding_period", "sources",
+        "invalidation", "entry_condition", "holding_period", "committee_notes", "sources",
     ],
     "properties": {
         "action": {"type": "string", "enum": ["BUY", "SELL", "HOLD", "WATCH"]},
@@ -50,7 +52,25 @@ DECISION_SCHEMA = {
         "invalidation": {"type": "string"},
         "entry_condition": {"type": "string"},
         "holding_period": {"type": "string"},
+        "committee_notes": {"type": "string"},
         "sources": {"type": "array", "items": {"type": "string"}, "maxItems": 8},
+    },
+}
+
+VOICE_STANCES = ("BUY", "SELL", "HOLD", "WATCH", "BLOCK")
+
+VOICE_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["stance", "conviction", "symbols", "argument", "evidence", "risk_flags", "sources"],
+    "properties": {
+        "stance": {"type": "string", "enum": list(VOICE_STANCES)},
+        "conviction": {"type": "integer", "minimum": 0, "maximum": 100},
+        "symbols": {"type": "array", "items": {"type": "string"}, "maxItems": 3},
+        "argument": {"type": "string"},
+        "evidence": {"type": "array", "items": {"type": "string"}, "maxItems": 5},
+        "risk_flags": {"type": "array", "items": {"type": "string"}, "maxItems": 5},
+        "sources": {"type": "array", "items": {"type": "string"}, "maxItems": 5},
     },
 }
 
@@ -163,37 +183,30 @@ def scheduled_routine(now: datetime | None = None) -> str | None:
     return None
 
 
-def openai_decision(routine: str, snapshot: dict, history: list[dict], config: dict) -> dict:
+def openai_json(*, model: str, instructions: str, input_text: str, schema_name: str,
+                schema: dict, effort: str, web_search: bool = True, timeout: int = 300) -> dict:
     api_key = os.environ.get("OPENAI_API_KEY", "")
     if not api_key:
         raise RuntimeError("Missing OPENAI_API_KEY")
-    model = os.environ.get("ASTRA_MODEL", config["model"])
-    context = {
-        "routine": routine,
-        "timestamp_utc": utc_now().isoformat(),
-        "risk_rules": config,
-        "account": snapshot,
-        "astra_prior_decisions": history[-12:],
-    }
     body = {
         "model": model,
-        "reasoning": {"effort": config.get("reasoning_effort", "high")},
-        "tools": [{"type": "web_search"}],
-        "instructions": PROMPT_PATH.read_text(encoding="utf-8"),
-        "input": "Research the current market as needed, then make this routine's decision.\n\n" + json.dumps(context),
+        "reasoning": {"effort": effort},
+        "tools": [{"type": "web_search"}] if web_search else [],
+        "instructions": instructions,
+        "input": input_text,
         "text": {
             "format": {
                 "type": "json_schema",
-                "name": "astra_trade_decision",
+                "name": schema_name,
                 "strict": True,
-                "schema": DECISION_SCHEMA,
+                "schema": schema,
             }
         },
     }
     response = request_json(
         "https://api.openai.com/v1/responses",
         headers={"Authorization": f"Bearer {api_key}"},
-        method="POST", body=body, timeout=300,
+        method="POST", body=body, timeout=timeout,
     )
     text = response.get("output_text")
     if not text:
@@ -204,8 +217,275 @@ def openai_decision(routine: str, snapshot: dict, history: list[dict], config: d
                     chunks.append(content.get("text", ""))
         text = "".join(chunks)
     if not text:
-        raise RuntimeError("OpenAI response contained no decision text")
+        raise RuntimeError("OpenAI response contained no text")
     return json.loads(text)
+
+
+def chair_model(config: dict) -> str:
+    return os.environ.get("ASTRA_MODEL") or config.get("model", "")
+
+
+def voice_model(config: dict) -> str:
+    return os.environ.get("ASTRA_VOICE_MODEL") or chair_model(config)
+
+
+def committee_enabled(voices: dict) -> bool:
+    flag = os.environ.get("ASTRA_VOICES_ENABLED", "").strip().lower()
+    if flag in {"false", "0", "no", "off"}:
+        return False
+    if flag in {"true", "1", "yes", "on"}:
+        return True
+    return bool(voices.get("enabled", True))
+
+
+def roster_for_routine(voices: dict, routine: str) -> list[dict]:
+    return [v for v in voices.get("voices", []) if routine in v.get("routines", [])]
+
+
+def voice_instructions(voice: dict, voices: dict) -> str:
+    bench = voice.get("bench", "")
+    return "\n\n".join(filter(None, [
+        voices.get("preamble", ""),
+        f"Your bench: {bench}. {voices.get('benches', {}).get(bench, '')}",
+        f"You are {voice.get('name', voice.get('id', 'a voice'))}. {voice.get('mandate', '')}",
+        "Answer only as this voice. Set conviction to how strongly your own lane supports your stance, "
+        "not to how certain you are that the trade will work.",
+    ]))
+
+
+def account_metrics(snapshot: dict) -> dict:
+    account = snapshot.get("account", {})
+    equity = float(account.get("equity", 0) or 0)
+    cash = float(account.get("cash", 0) or 0)
+    last_equity = float(account.get("last_equity", equity) or equity or 1)
+    return {
+        "equity": equity,
+        "cash": cash,
+        "last_equity": last_equity,
+        "day_pct": ((equity / last_equity) - 1) * 100 if last_equity else 0.0,
+    }
+
+
+def committee_context(routine: str, snapshot: dict, history: list[dict], config: dict) -> dict:
+    metrics = account_metrics(snapshot)
+    return {
+        "routine": routine,
+        "timestamp_utc": utc_now().isoformat(),
+        "market_open": bool(snapshot.get("clock", {}).get("is_open")),
+        "equity": round(metrics["equity"], 2),
+        "cash": round(metrics["cash"], 2),
+        "day_change_pct": round(metrics["day_pct"], 2),
+        "positions": normalized_positions(snapshot),
+        "open_buy_orders": sorted({
+            (o.get("symbol") or "").upper() for o in snapshot.get("open_orders", [])
+            if o.get("side") == "buy"
+        }),
+        "risk_rules": config,
+        "astra_prior_decisions": [
+            {
+                "routine": row.get("routine"),
+                "action": (row.get("decision") or {}).get("action"),
+                "symbol": (row.get("decision") or {}).get("symbol"),
+            }
+            for row in history[-5:]
+        ],
+    }
+
+
+def voice_record(voice: dict, payload: dict) -> dict:
+    stance = str(payload.get("stance", "HOLD")).upper()
+    conviction = int(payload.get("conviction", 0) or 0)
+    return {
+        "id": voice.get("id"),
+        "name": voice.get("name", voice.get("id")),
+        "bench": voice.get("bench"),
+        "status": "ok",
+        "stance": stance if stance in VOICE_STANCES else "HOLD",
+        "conviction": max(0, min(100, conviction)),
+        "symbols": [str(s).upper().strip() for s in payload.get("symbols", []) if str(s).strip()],
+        "argument": payload.get("argument", ""),
+        "evidence": payload.get("evidence", []),
+        "risk_flags": payload.get("risk_flags", []),
+        "sources": payload.get("sources", []),
+    }
+
+
+def failed_voice_record(voice: dict, error: str) -> dict:
+    return {
+        "id": voice.get("id"),
+        "name": voice.get("name", voice.get("id")),
+        "bench": voice.get("bench"),
+        "status": "error",
+        "error": error[:400],
+        "stance": "ABSTAIN",
+        "conviction": 0,
+        "symbols": [],
+        "argument": "",
+        "evidence": [],
+        "risk_flags": [],
+        "sources": [],
+    }
+
+
+def call_voice(voice: dict, voices: dict, context: dict, config: dict, prior: list[dict]) -> dict:
+    payload = dict(context)
+    if prior:
+        payload["committee_so_far"] = transcript(prior)
+    return openai_json(
+        model=voice.get("model") or voice_model(config),
+        instructions=voice_instructions(voice, voices),
+        input_text="Research what your mandate needs, then answer for this routine.\n\n" + json.dumps(payload),
+        schema_name="astra_committee_voice",
+        schema=VOICE_SCHEMA,
+        effort=voice.get("reasoning_effort", "medium"),
+        web_search=bool(voice.get("web_search", True)),
+        timeout=int(voice.get("timeout_seconds", 240)),
+    )
+
+
+def transcript(records: list[dict]) -> list[dict]:
+    rows = []
+    for record in records:
+        if record.get("status") != "ok":
+            continue
+        rows.append({
+            "voice": record["name"],
+            "bench": record["bench"],
+            "stance": record["stance"],
+            "conviction": record["conviction"],
+            "symbols": record["symbols"],
+            "argument": record["argument"],
+            "evidence": record["evidence"],
+            "risk_flags": record["risk_flags"],
+        })
+    return rows
+
+
+def run_wave(wave: list[dict], voices: dict, context: dict, config: dict, prior: list[dict]) -> list[dict]:
+    results: list[dict | None] = [None] * len(wave)
+    workers = min(max(1, int(voices.get("max_parallel", 4))), len(wave))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(call_voice, voice, voices, context, config, prior): i
+                   for i, voice in enumerate(wave)}
+        for future in as_completed(futures):
+            index = futures[future]
+            try:
+                results[index] = voice_record(wave[index], future.result())
+            except Exception as exc:  # one silent voice must not cancel the routine
+                print(f"Voice {wave[index].get('id')} failed: {exc}", file=sys.stderr)
+                results[index] = failed_voice_record(wave[index], str(exc))
+    return [r for r in results if r]
+
+
+def committee_record(routine: str, records: list[dict], voices: dict, model: str) -> dict:
+    return {
+        "enabled": True,
+        "routine": routine,
+        "voice_model": model,
+        "min_buyer_support": int(voices.get("min_buyer_support", 1)),
+        "skeptic_veto_conviction": int(voices.get("skeptic_veto_conviction", 85)),
+        "voices": records,
+    }
+
+
+def run_committee(routine: str, snapshot: dict, history: list[dict], config: dict,
+                  voices: dict | None = None) -> dict | None:
+    """Poll the research, buy and skeptic benches. Researchers speak first so the
+    other benches argue over the same evidence."""
+    voices = load_json(VOICES_PATH, {}) if voices is None else voices
+    if not committee_enabled(voices):
+        return None
+    roster = roster_for_routine(voices, routine)
+    if not roster:
+        return None
+    context = committee_context(routine, snapshot, history, config)
+    researchers = [v for v in roster if v.get("bench") == "researchers"]
+    deciders = [v for v in roster if v.get("bench") != "researchers"]
+    records: list[dict] = []
+    for wave in (researchers, deciders):
+        if wave:
+            records.extend(run_wave(wave, voices, context, config, records))
+    return committee_record(routine, records, voices, voice_model(config))
+
+
+def committee_summary(committee: dict | None) -> dict | None:
+    if not committee:
+        return None
+    return {
+        "routine": committee.get("routine"),
+        "voice_model": committee.get("voice_model"),
+        "voices": [
+            {
+                "name": v["name"],
+                "bench": v["bench"],
+                "stance": v["stance"],
+                "conviction": v["conviction"],
+                "symbols": v["symbols"],
+                "argument": v.get("argument", "")[:400],
+                "status": v["status"],
+            }
+            for v in committee.get("voices", [])
+        ],
+    }
+
+
+def committee_buy_gate(committee: dict, symbol: str) -> dict | None:
+    """Deterministic committee rules. The chair proposes; these lines refuse."""
+    heard = [v for v in committee.get("voices", []) if v.get("status") == "ok"]
+    buyers = [v for v in heard if v.get("bench") == "buyers"]
+    skeptics = [v for v in heard if v.get("bench") == "skeptics"]
+    if not skeptics:
+        return {"status": "REJECTED", "reason": "No skeptic voice was available to challenge this buy"}
+    floor = int(committee.get("skeptic_veto_conviction", 85))
+    for voice in skeptics:
+        if voice["stance"] != "BLOCK" or voice["conviction"] < floor:
+            continue
+        if not voice["symbols"] or symbol in voice["symbols"]:
+            return {
+                "status": "REJECTED",
+                "reason": f"{voice['name']} vetoed this buy at conviction {voice['conviction']}",
+            }
+    if not buyers:
+        return {"status": "REJECTED", "reason": "The buy bench does not sit in this routine"}
+    required = int(committee.get("min_buyer_support", 1))
+    support = [v["name"] for v in buyers if v["stance"] == "BUY" and symbol in v["symbols"]]
+    if len(support) < required:
+        return {
+            "status": "REJECTED",
+            "reason": f"Only {len(support)} of {required} required buyer voices backed {symbol}",
+        }
+    return None
+
+
+def openai_decision(routine: str, snapshot: dict, history: list[dict], config: dict,
+                    committee: dict | None = None) -> dict:
+    context = {
+        "routine": routine,
+        "timestamp_utc": utc_now().isoformat(),
+        "risk_rules": config,
+        "account": snapshot,
+        "astra_prior_decisions": [
+            {"timestamp": row.get("timestamp"), "routine": row.get("routine"),
+             "decision": row.get("decision"), "execution_status": (row.get("execution") or {}).get("status")}
+            for row in history[-12:]
+        ],
+        "committee": {
+            "voices": transcript(committee.get("voices", [])) if committee else [],
+            "silent_voices": [v["name"] for v in (committee or {}).get("voices", [])
+                              if v.get("status") != "ok"],
+            "min_buyer_support": (committee or {}).get("min_buyer_support"),
+            "skeptic_veto_conviction": (committee or {}).get("skeptic_veto_conviction"),
+        },
+    }
+    return openai_json(
+        model=chair_model(config),
+        instructions=PROMPT_PATH.read_text(encoding="utf-8"),
+        input_text="Read your committee, research anything still missing, then make this routine's decision.\n\n"
+                   + json.dumps(context),
+        schema_name="astra_trade_decision",
+        schema=DECISION_SCHEMA,
+        effort=config.get("reasoning_effort", "high"),
+    )
 
 
 def weekly_buy_count(rows: list[dict], now: datetime) -> int:
@@ -225,7 +505,8 @@ def weekly_buy_count(rows: list[dict], now: datetime) -> int:
 
 
 def validate_and_execute(decision: dict, snapshot: dict, config: dict, alpaca: Alpaca,
-                         routine: str, trade_rows: list[dict]) -> dict:
+                         routine: str, trade_rows: list[dict],
+                         committee: dict | None = None) -> dict:
     result = {"status": "NO_ORDER", "reason": "Decision did not request an order"}
     action = decision.get("action")
     symbol = (decision.get("symbol") or "").upper().strip()
@@ -258,6 +539,10 @@ def validate_and_execute(decision: dict, snapshot: dict, config: dict, alpaca: A
         return {"status": "REJECTED", "reason": "New buys are forbidden during risk shutdown"}
     if int(decision.get("confidence", 0)) < int(config["min_buy_confidence"]):
         return {"status": "REJECTED", "reason": "Confidence is below the buy gate"}
+    if committee and committee.get("enabled"):
+        blocked = committee_buy_gate(committee, symbol)
+        if blocked:
+            return blocked
     if symbol in positions:
         return {"status": "REJECTED", "reason": "No averaging down or adding to an existing position"}
     if symbol in pending_buys:
@@ -305,6 +590,15 @@ def normalized_positions(snapshot: dict) -> list[dict]:
     return result
 
 
+def state_decision(record: dict) -> dict:
+    """Keep the dashboard copy of a decision small: summarized voices, no raw evidence."""
+    trimmed = {key: value for key, value in record.items() if key != "committee"}
+    summary = committee_summary(record.get("committee"))
+    if summary:
+        trimmed["committee"] = summary
+    return trimmed
+
+
 def update_state(routine: str, snapshot: dict, record: dict, config: dict,
                  benchmark_price: float | None) -> None:
     previous = load_json(STATE_PATH, {})
@@ -318,7 +612,7 @@ def update_state(routine: str, snapshot: dict, record: dict, config: dict,
     if benchmark_price and benchmark_baseline:
         spy_return = ((benchmark_price / float(benchmark_baseline)) - 1) * 100
     portfolio_return = ((equity / start) - 1) * 100 if start else None
-    decisions = [record] + previous.get("recent_decisions", [])
+    decisions = [state_decision(record)] + previous.get("recent_decisions", [])
     trades = read_jsonl(TRADE_LOG, 10)
     state = {
         "last_update": utc_now().astimezone(NY).strftime("%Y-%m-%d %H:%M ET"),
@@ -336,6 +630,7 @@ def update_state(routine: str, snapshot: dict, record: dict, config: dict,
         "spy_return_pct": round(spy_return, 4) if spy_return is not None else None,
         "alpha_pct": round(portfolio_return - spy_return, 4) if portfolio_return is not None and spy_return is not None else None,
         "positions": normalized_positions(snapshot),
+        "committee": committee_summary(record.get("committee")),
         "recent_decisions": decisions[:12],
         "recent_trades": trades,
     }
@@ -353,8 +648,37 @@ def fixture_decision(routine: str) -> dict:
         "invalidation": "Fixture only.",
         "entry_condition": "Fixture only.",
         "holding_period": "weeks",
+        "committee_notes": "Fixture only.",
         "sources": [],
     }
+
+
+FIXTURE_STANCES = {
+    "researchers": {"stance": "WATCH", "conviction": 60},
+    "buyers": {"stance": "BUY", "conviction": 80},
+    "skeptics": {"stance": "HOLD", "conviction": 45},
+}
+
+
+def fixture_committee(routine: str, voices: dict | None = None) -> dict | None:
+    voices = load_json(VOICES_PATH, {}) if voices is None else voices
+    if not committee_enabled(voices):
+        return None
+    roster = roster_for_routine(voices, routine)
+    if not roster:
+        return None
+    records = []
+    for voice in roster:
+        stance = FIXTURE_STANCES.get(voice.get("bench", ""), {"stance": "HOLD", "conviction": 50})
+        records.append(voice_record(voice, {
+            **stance,
+            "symbols": ["MSFT"],
+            "argument": f"Fixture argument from {voice.get('name')}.",
+            "evidence": [],
+            "risk_flags": [],
+            "sources": [],
+        }))
+    return committee_record(routine, records, voices, "fixture")
 
 
 class FixtureAlpaca:
@@ -391,8 +715,15 @@ def main() -> int:
     alpaca = FixtureAlpaca(load_json(args.fixture, {})) if args.fixture else Alpaca()
     snapshot = alpaca.account_snapshot()
     history = read_jsonl(DECISION_LOG, 30)
-    decision = fixture_decision(routine) if args.fixture else openai_decision(routine, snapshot, history, config)
-    execution = validate_and_execute(decision, snapshot, config, alpaca, routine, read_jsonl(TRADE_LOG, 200))
+    if args.fixture:
+        committee = fixture_committee(routine)
+        decision = fixture_decision(routine)
+    else:
+        committee = run_committee(routine, snapshot, history, config)
+        decision = openai_decision(routine, snapshot, history, config, committee)
+    execution = validate_and_execute(
+        decision, snapshot, config, alpaca, routine, read_jsonl(TRADE_LOG, 200), committee,
+    )
     try:
         benchmark_price = alpaca.latest_price(config["benchmark"])
     except Exception as exc:
@@ -400,7 +731,7 @@ def main() -> int:
         benchmark_price = None
     record = {
         "timestamp": utc_now().isoformat(), "routine": routine,
-        "decision": decision, "execution": execution,
+        "decision": decision, "execution": execution, "committee": committee,
     }
     append_jsonl(DECISION_LOG, record)
     if execution.get("status") == "SUBMITTED":
