@@ -97,8 +97,10 @@ Only number that matters long-term: **alpha vs SPY**. Everything else is noise.
 
 Bull now includes an isolated third lane under `astra/`:
 
-- **Bull** — Claude fundamentals-driven swing trader.
-- **Maverick** — Claude challenger with the additional copy-trade signal.
-- **Astra** — GPT-6 Astra independent portfolio manager, using its own Alpaca paper account and its own memory.
+- **Bull** — Claude fundamentals-driven swing trader. Live: five local routines, own Alpaca paper account.
+- **Maverick** — Claude challenger with the additional copy-trade signal. **Not in this repo** — there is no `maverick/` lane here, so it cannot be scored.
+- **Astra** — GPT-6 Astra independent portfolio manager, using its own Alpaca paper account and its own memory. **Needs its three secrets** (`OPENAI_API_KEY`, `ASTRA_ALPACA_API_KEY`, `ASTRA_ALPACA_SECRET_KEY`) before it can trade; until then every scheduled run halts and `astra/dashboard/state.json` stays at `setup-required`.
+
+The **League scoreboard** at the top of Bull's dashboard reads each lane's `dashboard/state.json` and reports who is actually racing: equity, return since a common $100,000 start, the lane's own alpha, and when it last ran. A lane that never ran, has no state file, or has sat idle more than three days is shown as benched rather than silently omitted — being listed in this README is not the same as competing.
 
 Astra never reads Bull's or Maverick's current decisions before producing its own. Its model output is only a proposal; deterministic Python code enforces the paper-only URL, position/risk caps, price floor, confidence gate, daily loss cap, and permitted order types before Alpaca receives an order. See `astra/README.md` for setup.
