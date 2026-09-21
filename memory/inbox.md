@@ -8,7 +8,12 @@ Add a new `## YYYY-MM-DD HH:MM` header with your request under **Pending**. When
 
 ## Pending
 
-_(none)_
+### 2026-09-21 · "Fold Nate Herk's Astra setup into our strategy — without turning Bull into a day trader"
+Lauren asked me to absorb the useful ideas from Nate Herk's *"I Turned GPT-6 Astra Into a 24/7 Stock Trader"* (https://youtu.be/TLQLfa7yH4I, Sep 2026) and his follow-up where Astra, blocked from placing trades, became the **strategist** while a separate "Trader" bot executed: the strategist/executor role split, the read-handoff → act → write-handoff continuity loop, research fan-out, and secrets-in-env — while explicitly **not** adopting his day-trade "flatten everything by mid-afternoon" cadence and **not** weakening any guardrail.
+
+**Status:** a docs-only change is open on `main` for this — `memory/strategy.md` (new "Operating model — voices, continuity, and research fan-out" section + dated 2026-09-21 changelog entry), `astra/README.md` (strategist-vs-executor framing, continuity, secrets, league isolation), and `scripts/dashboard.md` (who's-talking label guidance). No trade, no guardrail change, no live trading.
+
+**Next routine that reads this:** confirm the section is present on `main`, write Lauren a short teacher-voice note in `messages.md` explaining the three voices in plain English (and that we skipped the day-trading part on purpose), then move this block to `## Handled`.
 
 ---
 
