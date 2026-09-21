@@ -8879,3 +8879,31 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - **Pattern:** 4 down-alpha weeks but NOT the same pattern (cash drag→SNPS timing→ATI mark→ATI stop realized). Entry-timing advisory NOT tested (unchanged, probation occurrence 2). Medium-term concern (sleeve not generating net run alpha) persists — kept below "structural signal" threshold because (1) we did NOT pass over gate-clearers (filled slots on merit), (2) sleeve's loss was a single intact-thesis stop. **Forward marker set (NOT a rule): if the now-full defensive sleeve lags SPY ~2–3 more weeks with theses intact and no macro-stop excuse → open a candid structural question about whether the conviction sleeve earns its risk.**
 - **Strategy change: NONE.** No guardrail/advisory touched, no strategy.md changelog entry — reacting to a clean-process losing week where a pre-flagged stop worked is the over-tuning the strategy forbids. **Grade: C−** (run-worst widening deficit caps it below C; clean constructive process keeps it from lower).
 - Inbox: nothing pending. Telegram: weekly-review push sent (mandatory event).
+
+---
+
+## 2026-09-21 12:05 CT · midday risk scan (Mon)
+
+**Market:** OPEN confirmed via `/v2/clock` (is_open=true, 13:01 ET; next_close 16:00 ET).
+**Inbox:** no Pending items.
+
+**Account (`/v2/account`):** equity $97,847.85, cash $10,661.62 (~10.90%), long_mv $87,186.23, last_equity (Fri 9/18 close) $97,350.35 → **day +$497.50 / +0.51%** (green). SPY intraday ~+1.42% (772.47 vs 761.69 lastday) → book trailing on a risk-on tape, expected with the defensive tilt; close routine owns authoritative alpha.
+
+**Live position marks:**
+- JPM 34 @ 329.6956 → 351.90, +$754.95 / +6.74%. On 10% trailing (floor 329.85, hwm 366.5); px below hwm → floor unchanged, no conversion.
+- MDT 96 @ 92.67 → 91.99, −$65.28 / −0.73%. −7% hard 86.18.
+- CFR 60 @ 163.15 → 159.295, −$231.30 / −2.36%. −7% hard 151.73; cushion ~4.75%.
+- RSG 44 @ 218.00 → 216.07, −$84.92 / −0.89%. −7% hard 202.74.
+- RMD 42 @ 228.6274 → 225.59, −$127.57 / −1.33%. −7% hard 212.62.
+- SPY 49 @ 764.716 → 772.47, +$379.93 / +1.01%. Index-floor sleeve, NO stop by policy.
+
+**Open orders:** exactly 5, all VERIFIED live resting (JPM trailing 329.85/hwm366.5; MDT 86.18; CFR 151.73; RSG 202.74; RMD 91671fa4…103fb6a6 @ 212.62). SPY unencumbered.
+
+**Risk priority-order (per midday routine):**
+- (a) Any un-stopped position −7% or worse → NO. Worst CFR −2.36%. No Perplexity news-check triggered (nothing at/near −7%).
+- (b) Any +5%+ needing hard→trailing conversion → NO. JPM +6.74% but already trailing; all others below +5%. Zero conversions.
+- (c) Daily loss cap → book +0.51% (green), nowhere near −3%. New buys not blocked on loss-cap grounds.
+
+**Buys:** none. Sleeve 5/5 (0 slots); weekly buys 0/3 but no open slot. No high-conviction breaking catalyst → no midday-deviation buy. Swap not warranted (top bench TMO ~72 ≈ lowest hold CFR ~72, CFR intact).
+
+**Action:** HOLD. No trades. Portfolio.md overwritten, message prepended, state.json overwritten. Per routine rules: no Telegram push on a quiet midday check.

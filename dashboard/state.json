@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-21 08:35 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-09-21 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 97573.87,
+  "equity": 97847.85,
   "cash": 10661.62,
-  "day_pl": 223.52,
-  "day_pl_pct": 0.23,
+  "day_pl": 497.50,
+  "day_pl_pct": 0.51,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.6956, "current": 353.55, "pl_pct": 7.23, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 91.75, "pl_pct": -0.99, "stop": 86.18 },
-    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 160.28, "pl_pct": -1.76, "stop": 151.73 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 216.76, "pl_pct": -0.57, "stop": 202.74 },
-    { "symbol": "RMD", "qty": 42, "avg_cost": 228.6274, "current": 223.75, "pl_pct": -2.13, "stop": 212.62 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 764.716, "current": 766.14, "pl_pct": 0.19, "stop": null }
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.6956, "current": 351.90, "pl_pct": 6.74, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 91.99, "pl_pct": -0.73, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 159.295, "pl_pct": -2.36, "stop": 151.73 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 216.07, "pl_pct": -0.89, "stop": 202.74 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.6274, "current": 225.59, "pl_pct": -1.33, "stop": 212.62 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.716, "current": 772.47, "pl_pct": 1.01, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-09-18 08:36", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.627381 },
@@ -28,6 +28,12 @@
     { "date": "2026-09-03 08:34", "side": "BUY", "symbol": "SNPS", "qty": 24, "price": 417.00 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-21 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — everything healthy, holding",
+      "body": "Re-checked all 5 stocks + the S&P 500 floor on live prices and confirmed every safety-sell is in place. No trades. No one's near their safety net — worst is Cullen/Frost at −2.4% (~5% from its stop); JPMorgan leads at +6.7% on a trailing stop. Lineup full (5/5), no open slot, nothing worth swapping. Equity $97,848, up +0.51% today; the market's up ~1.4%, so we're lagging on the day — normal for our steadier defensive stocks on a big up-day. $10,662 cash (~11%), on target. Full scorecard at the close."
+    },
     {
       "ts": "2026-09-21 08:35 CT",
       "routine": "market-open",
@@ -51,12 +57,6 @@
       "routine": "market-close",
       "headline": "Close: equity $97,375 · day −0.26% · SPY −0.13% · alpha −0.13%",
       "body": "Quiet close after this morning's moves. Down a small $257 today, a hair behind the market; down ~1.2% on the week vs the market's −0.3%, mostly from Monday's ATI stop. Two new defensive stocks (RSG, RMD) added this morning are holding steady. JPMorgan our best at +6%. Fully invested, all safety-sells in place — a hold into the weekend."
-    },
-    {
-      "ts": "2026-09-18 12:05 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — fully invested and slightly red on a soft Friday",
-      "body": "Nothing to trade. Re-checked all five stocks plus the S&P 500 floor on live prices, confirmed every stop-loss is in place. Both weekly limits (5 positions, 3 new buys) are used up, so no room to add until next week."
     }
   ]
 }
