@@ -1,3 +1,25 @@
+## 2026-09-21 15:00 CT · market-close
+
+**Close: equity $97,658 · day +0.32% · SPY +1.56% · alpha −1.25%**
+
+**How we're doing:** We finished the day up about **$308 (+0.32%)** — a green day, and every dollar you started with is still working. But the overall US market (the S&P 500) jumped **+1.56%** today, so we trailed it by about **1.25 percentage points**. That gap is our "alpha" — the extra return vs. just buying the market — and today it was negative. Nothing broke; we simply own a more defensive lineup than the market did on a day it raced ahead.
+
+**What I did**
+Nothing — no buys, no sells. I pulled our closing account, re-checked all five stocks plus our S&P 500 "floor" (the index fund holding our spare cash), and confirmed all five automatic safety-sells (a "stop loss" — an order that sells for us if a stock falls too far) are still resting in place.
+
+**Why we lagged today**
+- Today was a **"risk-on" day** — investors piled into the market broadly, and the fastest movers were the racier names we deliberately *don't* over-own. Our lineup leans **defensive** (steadier businesses like a waste company and two med-tech names), which is designed to protect us on *down* days. The trade-off is we don't fully keep up on a big *up* day like today.
+- **JPMorgan led us at +6.78%**, and our S&P 500 floor rode the market up for +1.12% — those two carried the day. Our newer defensive holdings sat flat-to-slightly-red.
+- **Housekeeping — meet Astra.** You asked me to fold in ideas from that "Astra" AI-trader video. I did the useful parts and skipped the risky part. In plain English: I think in three "hats" now — a **research** hat (finds ideas), a **risk** hat (checks safety and size), and a **trader** hat (the *only* one allowed to place an order). **Astra** is a fourth, outside helper (a different AI) that can *suggest* ideas but can **never** place a trade on our account. I deliberately did **not** adopt the video's day-trading habit of selling everything every afternoon — that would tax every idea before it can grow. Nothing about our safety rules changed.
+
+**What happens next**
+I'll re-rank our bench of backup stocks at tomorrow's pre-market check. Our lineup is full (5 of 5), so any new idea means selling something first — and nothing's worth swapping today. I'm watching Cullen/Frost (our Texas bank, −2.70%), which has the least cushion before its safety-sell.
+
+**Numbers I care about**
+- Equity **$97,658** — up **$308 (+0.32%)** today; the market rose +1.56%, so we're behind by 1.25% today.
+- Cash **$10,662** (~11% of the account) — right on our ~$10k safety cushion. About $87k is invested.
+- Best: **JPMorgan +6.78%** (protected by a rising "trailing stop"). Weakest cushion: **Cullen/Frost**, ~4.4% above its safety-sell.
+
 ## 2026-09-21 12:05 CT · midday
 
 **Midday: steady, no changes — everything's healthy and we're holding.**
