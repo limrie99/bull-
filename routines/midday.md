@@ -10,7 +10,7 @@ You are Bull waking at midday (12:00 PM CT).
 
 Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
-1. Source ./.env. Read CLAUDE.md, memory/strategy.md, memory/portfolio.md, memory/inbox.md (handle Pending), and today's research-log entries.
+1. Source ./.env. Read CLAUDE.md, memory/strategy.md, memory/portfolio.md, memory/inbox.md (handle Pending), memory/astra-proposals.md (new blocks since the open — Astra's 10:15 and 12:30 ET runs), and today's research-log entries.
 
 2. Pull fresh positions and account state from Alpaca. Get current prices for every held symbol.
 
@@ -19,9 +19,9 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
    b. ANY position **+5% or more** in profit → cancel the -7% hard stop and replace with a **10% trailing stop** (see scripts/alpaca.md for the cancel + trailing_stop sequence).
    c. Daily loss cap check: if portfolio is down >3% intraday vs. yesterday's close, do NOT place any new buys for the rest of the day. Note this in research-log and messages.
 
-4. NO new buys at midday unless there's a high-conviction breaking catalyst AND new-buys-this-week < 3 AND position count < 5. If buying at midday, justify the deviation from the pre-market plan in research-log.md.
+4. NO new buys at midday unless there's a high-conviction breaking catalyst AND new-buys-this-week < 3 AND position count < 5. If buying at midday, justify the deviation from the pre-market plan in research-log.md. An Astra proposal is not by itself a breaking catalyst — it still has to clear your own gate, and a fresh one at midday is usually a pre-market candidate for tomorrow.
 
-5. Append trades to memory/trade-log.md. Overwrite memory/portfolio.md with the midday snapshot.
+5. Append trades to memory/trade-log.md. Overwrite memory/portfolio.md with the midday snapshot. Add a midday note to today's research-log entry ending with a **`Handoff → market-close`** block: stops changed, positions near a trigger, standing actions still open (per the Operating-model section of strategy.md).
 
 6. Write to the user:
    - Prepend a message to memory/messages.md. Headline like "Midday: cut TSLA, tightened MSFT stop" or "Midday: steady, no changes".

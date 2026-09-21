@@ -1,5 +1,6 @@
 {
   "mode": "paper",
+  "role": "research-helper",
   "benchmark": "SPY",
   "starting_capital": 100000,
   "max_positions": 6,

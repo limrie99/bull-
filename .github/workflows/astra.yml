@@ -15,42 +15,151 @@ on:
           - closing-decision
           - risk-shutdown
   schedule:
-    # Both EDT and EST candidates. runner.py validates New York local time.
+    # Both EDT and EST candidates. runner.py validates New York local time
+    # with a 45-minute grace window for GitHub Actions cron delay.
     - cron: "0 12,13 * * 1-5"
     - cron: "25 13,14 * * 1-5"
     - cron: "15 14,15 * * 1-5"
     - cron: "30 16,17 * * 1-5"
     - cron: "0 19,20 * * 1-5"
     - cron: "50 19,20 * * 1-5"
+  pull_request:
+    paths:
+      - "astra/**"
+      - ".github/workflows/astra.yml"
 
 permissions:
   contents: write
 
-concurrency:
-  group: astra-paper-trader
-  cancel-in-progress: false
-
 jobs:
-  run:
+  fixture:
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      ASTRA_ALPACA_API_KEY: ${{ secrets.ASTRA_ALPACA_API_KEY }}
-      ASTRA_ALPACA_SECRET_KEY: ${{ secrets.ASTRA_ALPACA_SECRET_KEY }}
-      ASTRA_EXECUTION_ENABLED: ${{ secrets.ASTRA_EXECUTION_ENABLED }}
-      ASTRA_ALPACA_BASE_URL: https://paper-api.alpaca.markets
-      ASTRA_MODEL: gpt-6-astra
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    concurrency:
+      group: astra-fixture-${{ github.ref }}
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Unit tests
+        run: python -m unittest discover -s astra/tests -p "test_*.py" -v
+
+      - name: Fixture dry-run
+        run: |
+          python astra/runner.py --fixture astra/tests/fixture.json --routine entry-check
+          python astra/runner.py --fixture astra/tests/fixture.json --routine risk-shutdown
+
+  paper:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency:
+      group: astra-paper-trader
+      cancel-in-progress: false
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # Alpaca paper credentials. runner.py picks the first complete pair, preferring
+      # dedicated Astra keys if they ever exist and otherwise borrowing Bull's paper
+      # keys (authorized by Lauren, 2026-09-21). Borrowed keys force helper mode:
+      # Astra proposes and never places an order on Bull's account.
+      ASTRA_ALPACA_API_KEY: ${{ secrets.ASTRA_ALPACA_API_KEY }}
+      ASTRA_ALPACA_SECRET_KEY: ${{ secrets.ASTRA_ALPACA_SECRET_KEY }}
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+      # Deliberately NOT passing Bull's ALPACA_BASE_URL — it may point at live.
+      ASTRA_ALPACA_BASE_URL: https://paper-api.alpaca.markets
+      ASTRA_EXECUTION_ENABLED: ${{ secrets.ASTRA_EXECUTION_ENABLED || vars.ASTRA_EXECUTION_ENABLED }}
+      ASTRA_MODEL: gpt-6-astra
+    steps:
+      - name: Check required secrets
+        id: secrets
+        shell: bash
+        run: |
+          missing=()
+          [ -z "${OPENAI_API_KEY}" ] && missing+=("OPENAI_API_KEY")
+
+          account="none"
+          if [ -n "${ASTRA_ALPACA_API_KEY}" ] && [ -n "${ASTRA_ALPACA_SECRET_KEY}" ]; then
+            account="dedicated"
+          elif { [ -n "${ALPACA_API_KEY}" ] && [ -n "${ALPACA_SECRET_KEY}" ]; } \
+            || { [ -n "${APCA_API_KEY_ID}" ] && [ -n "${APCA_API_SECRET_KEY}" ]; }; then
+            account="shared-bull"
+          else
+            missing+=("an Alpaca paper key pair")
+          fi
+
+          {
+            echo "### Astra — research helper for Bull and Maverick"
+            if [ ${#missing[@]} -eq 0 ]; then
+              echo "Credentials are present. Paper URL is hard-coded to \`https://paper-api.alpaca.markets\`."
+              if [ "${account}" = "shared-bull" ]; then
+                echo
+                echo "Using **Bull's existing Alpaca paper keys** (authorized by Lauren, 2026-09-21)."
+                echo "Helper mode is therefore **forced on**: Astra reads the shared account and writes"
+                echo "proposals to \`memory/astra-proposals.md\`. It will not place an order, even if"
+                echo "\`ASTRA_EXECUTION_ENABLED\` is \`true\`. Bull's Trader voice owns execution."
+              else
+                echo
+                echo "Using **dedicated Astra paper keys**, so Astra is on its own account."
+                if [ "${ASTRA_EXECUTION_ENABLED}" = "true" ]; then
+                  echo "Execution flag is on — proposals that clear the risk engine can reach the **paper** account."
+                else
+                  echo "\`ASTRA_EXECUTION_ENABLED\` is not \`true\`: research and proposals only, no orders."
+                fi
+              fi
+            else
+              echo "Blocked: missing configuration."
+              echo
+              echo "Settings → Secrets and variables → Actions:"
+              echo
+              for name in "${missing[@]}"; do
+                echo "- $name"
+              done
+              echo
+              echo "Astra accepts, in order of preference:"
+              echo "- \`ASTRA_ALPACA_API_KEY\` + \`ASTRA_ALPACA_SECRET_KEY\` (optional dedicated paper account)"
+              echo "- \`ALPACA_API_KEY\` + \`ALPACA_SECRET_KEY\` (Bull's existing paper keys — the expected path)"
+              echo "- \`APCA_API_KEY_ID\` + \`APCA_API_SECRET_KEY\` (Alpaca's own naming, if that is how they were saved)"
+              echo
+              echo "Paper Alpaca keys only. Never add live Alpaca keys to this repository."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ ${#missing[@]} -gt 0 ]; then
+            for name in "${missing[@]}"; do
+              echo "::error title=Astra is not configured::Missing ${name}. See the job summary for the accepted secret names. Paper Alpaca keys only."
+            done
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "Manual run halted: configure the secrets listed above, then re-run."
+              exit 1
+            fi
+            echo "Scheduled run skipped (fail closed, no trades). Configure the secrets above to enable Astra."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "configured=true" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.secrets.outputs.configured == 'true'
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        if: steps.secrets.outputs.configured == 'true'
+        with:
+          python-version: "3.12"
+
       - name: Run Astra
+        if: steps.secrets.outputs.configured == 'true'
         shell: bash
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -59,17 +168,18 @@ jobs:
             python astra/runner.py --scheduled
           fi
 
-      - name: Persist Astra memory
+      - name: Persist Astra memory and the shared proposal handoff
+        if: steps.secrets.outputs.configured == 'true'
         shell: bash
         run: |
-          if git diff --quiet -- astra/memory astra/dashboard; then
+          if git diff --quiet -- astra/memory astra/dashboard memory/astra-proposals.md; then
             echo "No Astra state change to persist."
             exit 0
           fi
           git config user.name "Astra"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add astra/memory astra/dashboard
-          git commit -m "astra: persist scheduled decision"
+          git add astra/memory astra/dashboard memory/astra-proposals.md
+          git commit -m "astra: persist research proposal for Bull"
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main

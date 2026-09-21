@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run one independent GPT-6 Astra paper-trading committee check."""
+"""Run one GPT-6 Astra research check and hand a proposal to Bull and Maverick."""
 
 from __future__ import annotations
 
@@ -17,13 +17,39 @@ from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parent
+REPO_ROOT = ROOT.parent
 CONFIG_PATH = ROOT / "config.json"
 PROMPT_PATH = ROOT / "prompt.md"
 DECISION_LOG = ROOT / "memory" / "decision-log.jsonl"
 TRADE_LOG = ROOT / "memory" / "trade-log.jsonl"
+PROPOSAL_LOG = ROOT / "memory" / "proposals.jsonl"
+PROPOSALS_PATH = REPO_ROOT / "memory" / "astra-proposals.md"
 STATE_PATH = ROOT / "dashboard" / "state.json"
 NY = ZoneInfo("America/New_York")
 PAPER_URL = "https://paper-api.alpaca.markets"
+
+# Alpaca paper credentials, in precedence order. Dedicated Astra keys win when they
+# exist; otherwise Astra borrows Bull's keys, which forces helper mode because both
+# agents would then be looking at — and able to disturb — the same paper account.
+CREDENTIAL_SOURCES = (
+    ("dedicated", "ASTRA_ALPACA_API_KEY", "ASTRA_ALPACA_SECRET_KEY"),
+    ("shared-bull", "ALPACA_API_KEY", "ALPACA_SECRET_KEY"),
+    ("shared-bull", "APCA_API_KEY_ID", "APCA_API_SECRET_KEY"),
+)
+
+SHARED_ACCOUNT_REASON = (
+    "Helper mode: Astra is reading Bull's shared paper account, so it proposes "
+    "only and never places an order Bull did not authorize"
+)
+
+MAX_PROPOSAL_BLOCKS = 40
+
+# Bull's files Astra reads (read-only) so its proposals fit the book Bull actually
+# holds. Both are long-lived logs, so each is truncated to the current section.
+TEAMMATE_FILES = (
+    ("bull_portfolio", "portfolio.md", 8000),
+    ("bull_watchlist", "watchlist.md", 8000),
+)
 
 ROUTINE_TIMES = {
     (8, 0): "premarket-research",
@@ -33,6 +59,11 @@ ROUTINE_TIMES = {
     (15, 0): "closing-decision",
     (15, 50): "risk-shutdown",
 }
+
+# GitHub Actions cron is UTC-only and often starts 5–40 minutes late.
+# Keep this under 50 minutes so the 15:00 and 15:50 ET slots cannot collide,
+# and under 60 minutes so the EDT/EST candidate crons cannot double-fire.
+SCHEDULE_GRACE_MINUTES = 45
 
 DECISION_SCHEMA = {
     "type": "object",
@@ -102,15 +133,27 @@ def request_json(url: str, *, headers=None, method="GET", body=None, timeout=60)
         raise RuntimeError(f"HTTP {exc.code} from {url}: {detail[:1000]}") from exc
 
 
+def resolve_alpaca_credentials(env=None) -> tuple[str, str, str, str]:
+    """Return (source, key, secret, key_var_name) for the first complete pair found."""
+    env = os.environ if env is None else env
+    for source, key_var, secret_var in CREDENTIAL_SOURCES:
+        key = env.get(key_var, "").strip()
+        secret = env.get(secret_var, "").strip()
+        if key and secret:
+            return source, key, secret, key_var
+    return "", "", "", ""
+
+
 class Alpaca:
     def __init__(self):
+        # Never read Bull's ALPACA_BASE_URL — it may point at the live endpoint.
         self.base = os.environ.get("ASTRA_ALPACA_BASE_URL", PAPER_URL).rstrip("/")
-        self.key = os.environ.get("ASTRA_ALPACA_API_KEY", "")
-        self.secret = os.environ.get("ASTRA_ALPACA_SECRET_KEY", "")
+        self.credential_source, self.key, self.secret, self.key_var = resolve_alpaca_credentials()
         if self.base != PAPER_URL:
             raise RuntimeError("Astra is paper-only; ASTRA_ALPACA_BASE_URL must be the Alpaca paper URL")
-        if not self.key or not self.secret:
-            raise RuntimeError("Missing dedicated ASTRA_ALPACA_API_KEY or ASTRA_ALPACA_SECRET_KEY")
+        if not self.credential_source:
+            accepted = ", ".join(f"{k}/{s}" for _, k, s in CREDENTIAL_SOURCES)
+            raise RuntimeError(f"Missing Alpaca paper credentials; set one pair of {accepted}")
         self.headers = {
             "APCA-API-KEY-ID": self.key,
             "APCA-API-SECRET-KEY": self.secret,
@@ -157,10 +200,28 @@ def scheduled_routine(now: datetime | None = None) -> str | None:
     local = (now or utc_now()).astimezone(NY)
     if local.weekday() >= 5:
         return None
+    best_name = None
+    best_delta = None
     for (hour, minute), name in ROUTINE_TIMES.items():
-        if local.hour == hour and minute <= local.minute <= minute + 20:
-            return name
-    return None
+        start = local.replace(hour=hour, minute=minute, second=0, microsecond=0)
+        delta_min = (local - start).total_seconds() / 60.0
+        if 0 <= delta_min <= SCHEDULE_GRACE_MINUTES:
+            if best_delta is None or delta_min < best_delta:
+                best_name = name
+                best_delta = delta_min
+    return best_name
+
+
+def teammate_context() -> dict:
+    """Bounded read of Bull's current book and bench. Never blocks a run."""
+    context = {}
+    for name, filename, limit in TEAMMATE_FILES:
+        try:
+            text = (REPO_ROOT / "memory" / filename).read_text(encoding="utf-8")
+        except OSError:
+            continue
+        context[name] = text[:limit]
+    return context
 
 
 def openai_decision(routine: str, snapshot: dict, history: list[dict], config: dict) -> dict:
@@ -174,6 +235,7 @@ def openai_decision(routine: str, snapshot: dict, history: list[dict], config: d
         "risk_rules": config,
         "account": snapshot,
         "astra_prior_decisions": history[-12:],
+        "bull_context": teammate_context(),
     }
     body = {
         "model": model,
@@ -243,6 +305,8 @@ def validate_and_execute(decision: dict, snapshot: dict, config: dict, alpaca: A
         return result
     if not re.fullmatch(r"[A-Z][A-Z0-9.\-]{0,9}", symbol):
         return {"status": "REJECTED", "reason": "Invalid or missing ticker"}
+    if getattr(alpaca, "credential_source", "dedicated") == "shared-bull":
+        return {"status": "PROPOSED_ONLY", "reason": SHARED_ACCOUNT_REASON}
     if not snapshot.get("clock", {}).get("is_open"):
         return {"status": "REJECTED", "reason": "Market is closed"}
     if os.environ.get("ASTRA_EXECUTION_ENABLED", "false").lower() != "true":
@@ -305,8 +369,71 @@ def normalized_positions(snapshot: dict) -> list[dict]:
     return result
 
 
+PROPOSALS_HEADER = """# Astra proposals — research handoff to Bull and Maverick
+
+Astra is Bull's research helper, not a rival book. Every entry below is a **proposal**:
+Astra scored an idea and wrote it down. Nothing here is an order, and Astra does not
+place orders on Bull's account.
+
+- **Bull** reads this file at the start of pre-market, market-open, and midday. A proposal
+  is one more research input — it must still clear Bull's own buy-gate (2+ buy signals AND
+  Conviction >= 70) and Bull's Trader voice sizes and places anything it accepts.
+- **Maverick** (`limrie99/maverick`, `limrie99/maverick-aggressive`) consumes the same
+  blocks by hand or by bot — see `astra/handoff-maverick.md` for the copy-paste template.
+- Newest on top. Written by `astra/runner.py`; the machine-readable mirror is
+  `astra/memory/proposals.jsonl`. Paper only.
+
+"""
+
+
+def proposal_block(record: dict, credential_source: str) -> str:
+    decision = record["decision"]
+    execution = record["execution"]
+    stamp = datetime.fromisoformat(record["timestamp"]).astimezone(NY).strftime("%Y-%m-%d %H:%M ET")
+    symbol = decision.get("symbol") or "no ticker"
+    sources = ", ".join(decision.get("sources") or []) or "none recorded"
+    account = "Bull's shared paper account" if credential_source == "shared-bull" else "Astra's own paper account"
+    lines = [
+        f"## {stamp} · {record['routine']} · {decision.get('action')} {symbol} · confidence {decision.get('confidence')}",
+        "",
+        f"- **Status:** {execution.get('status')} — {execution.get('reason')}",
+        f"- **Account Astra looked at:** {account}",
+        f"- **Thesis:** {decision.get('thesis')}",
+        f"- **Strongest counter-argument:** {decision.get('contrary_evidence')}",
+        f"- **What would prove it wrong:** {decision.get('invalidation')}",
+        f"- **Entry condition:** {decision.get('entry_condition')}",
+        f"- **Intended holding period:** {decision.get('holding_period')}",
+        f"- **Sources:** {sources}",
+        "- **For Bull:** treat as research only. Re-score against Bull's own gate before acting.",
+        "- **For Maverick:** copy this block into that repo's inbox if it fits its mandate.",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def write_proposal_handoff(record: dict, credential_source: str) -> None:
+    """Prepend this run's proposal to the shared file Bull and Maverick read."""
+    append_jsonl(PROPOSAL_LOG, {
+        "timestamp": record["timestamp"],
+        "routine": record["routine"],
+        "action": record["decision"].get("action"),
+        "symbol": record["decision"].get("symbol"),
+        "confidence": record["decision"].get("confidence"),
+        "thesis": record["decision"].get("thesis"),
+        "invalidation": record["decision"].get("invalidation"),
+        "entry_condition": record["decision"].get("entry_condition"),
+        "status": record["execution"].get("status"),
+        "account": credential_source or "unknown",
+    })
+    existing = PROPOSALS_PATH.read_text(encoding="utf-8") if PROPOSALS_PATH.exists() else ""
+    previous = [b for b in re.split(r"(?m)^(?=## )", existing)[1:] if b.strip()]
+    body = proposal_block(record, credential_source) + "\n" + "\n".join(previous[:MAX_PROPOSAL_BLOCKS - 1])
+    PROPOSALS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    PROPOSALS_PATH.write_text(PROPOSALS_HEADER + body.rstrip() + "\n", encoding="utf-8")
+
+
 def update_state(routine: str, snapshot: dict, record: dict, config: dict,
-                 benchmark_price: float | None) -> None:
+                 benchmark_price: float | None, credential_source: str = "") -> None:
     previous = load_json(STATE_PATH, {})
     account = snapshot.get("account", {})
     equity = float(account.get("equity", 0))
@@ -317,7 +444,10 @@ def update_state(routine: str, snapshot: dict, record: dict, config: dict,
     spy_return = None
     if benchmark_price and benchmark_baseline:
         spy_return = ((benchmark_price / float(benchmark_baseline)) - 1) * 100
-    portfolio_return = ((equity / start) - 1) * 100 if start else None
+    shared = credential_source == "shared-bull"
+    # On Bull's account the equity is Bull's, so scoring an "Astra return" against
+    # Astra's starting capital would invent a rival scorecard. Leave it blank instead.
+    portfolio_return = None if shared or not start else ((equity / start) - 1) * 100
     decisions = [record] + previous.get("recent_decisions", [])
     trades = read_jsonl(TRADE_LOG, 10)
     state = {
@@ -325,6 +455,8 @@ def update_state(routine: str, snapshot: dict, record: dict, config: dict,
         "last_routine": routine,
         "status": record["execution"]["status"],
         "mode": "paper",
+        "role": config.get("role", "research-helper"),
+        "account_scope": "shared-with-bull" if shared else "astra-own",
         "model": os.environ.get("ASTRA_MODEL", config["model"]),
         "equity": round(equity, 2),
         "cash": round(cash, 2),
@@ -358,8 +490,9 @@ def fixture_decision(routine: str) -> dict:
 
 
 class FixtureAlpaca:
-    def __init__(self, data: dict):
+    def __init__(self, data: dict, credential_source: str = "fixture"):
         self.data = data
+        self.credential_source = credential_source
 
     def account_snapshot(self):
         return self.data
@@ -409,7 +542,10 @@ def main() -> int:
             "symbol": decision["symbol"], "qty": execution.get("qty"),
             "order_id": execution.get("order", {}).get("id"), "status": "submitted",
         })
-    update_state(routine, snapshot, record, config, benchmark_price)
+    credential_source = getattr(alpaca, "credential_source", "")
+    update_state(routine, snapshot, record, config, benchmark_price, credential_source)
+    if not args.fixture:
+        write_proposal_handoff(record, credential_source)
     print(json.dumps(record, indent=2))
     return 0
 

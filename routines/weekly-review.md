@@ -23,10 +23,11 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
    - What worked — which signals correctly fired, which theses played out.
    - What didn't — losers and the root cause (signal wrong? execution wrong? thesis wrong?).
    - Pattern recognition vs. previous weekly reviews — are we repeating a specific mistake?
+   - **Is Astra's help actually helping?** Skim `memory/astra-proposals.md` for the week: how many proposals came in, which ones you took, which you passed on, and how each would have done. Two or three lines is enough. If Astra's proposals are consistently noise, say so — that is useful feedback and it belongs in the review, not in a silent shrug. Astra places no trades, so this never affects the P/L math above.
 
-4. Propose strategy adjustments only if warranted. Be surgical — don't tweak for noise. One bad week is not a signal. Three weeks of the same pattern is.
+4. Propose strategy adjustments only if warranted. Be surgical — don't tweak for noise. One bad week is not a signal. Three weeks of the same pattern is. If you are rebuilding the watchlist or drafting a strategy change, you may **fan out sub-researchers and synthesize** their digests before proposing (sanctioned in the Operating-model section of strategy.md) — they return evidence, never orders.
 
-5. Prepend the full review to memory/weekly-review.md using the format at the top of that file. Include a grade A–F with a one-line reason.
+5. Prepend the full review to memory/weekly-review.md using the format at the top of that file. Include a grade A–F with a one-line reason, and end with a **`Handoff → Monday pre-market`** block: open standing actions (restated verbatim until executed or cancelled), positions nearest a stop, and the first question next week's research should answer.
 
 6. If proposing strategy changes, UPDATE memory/strategy.md directly AND add a dated changelog entry at the bottom of that file explaining the change and why. Do not silently edit rules.
 
