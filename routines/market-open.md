@@ -25,7 +25,7 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
 5. Append each trade (buy or sell leg) to memory/trade-log.md using the format at the top of that file. Use filled_avg_price from Alpaca as the true entry price.
 
-6. Overwrite memory/portfolio.md with the fresh snapshot from Alpaca.
+6. Overwrite memory/portfolio.md with the fresh snapshot from Alpaca. Prepend a short market-open entry to memory/research-log.md — what you executed or declined and why (label the voices when Research and Trader disagreed, per strategy.md) — ending with a **`Handoff → midday`** block: levels to watch, stops to upgrade, standing actions still open.
 
 7. Write to the user:
    - Prepend a message to memory/messages.md. Headline like "Open: bought MSFT, sold AAPL" or "Open: no trades — waiting for better setups". Body: 2–5 bullets.

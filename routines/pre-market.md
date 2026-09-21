@@ -30,7 +30,7 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
 3. **Update memory/watchlist.md:** re-score every existing watchlist name and every new scout candidate with the Conviction Score, re-sort highest-first, refresh Alert flags, drop anything < 40 twice. The watchlist is the ranked queue market-open buys from.
 
-4. Prepend a new entry to memory/research-log.md with today's date and "pre-market" header. Sections: Market context, Portfolio watch, **Buy candidates (table: ticker · Conviction Score with the 5 sub-scores · signals matched · catalyst)**, Sell candidates. Flag which candidates clear the gate (2+ signals AND ≥ 70) vs which are watchlist-only.
+4. Prepend a new entry to memory/research-log.md with today's date and "pre-market" header. Sections: Market context, Portfolio watch, **Buy candidates (table: ticker · Conviction Score with the 5 sub-scores · signals matched · catalyst)**, Sell candidates. Flag which candidates clear the gate (2+ signals AND ≥ 70) vs which are watchlist-only. End the entry with a **`Handoff → market-open`** block per the Operating-model section of strategy.md: what to buy/sell and at what levels, standing actions carried forward, what would change the plan, anything left unverified. This is a Research-voice proposal — the open routine's Trader voice re-validates it at live prices and may decline.
 
 5. Do NOT place any trades. Market is closed.
 

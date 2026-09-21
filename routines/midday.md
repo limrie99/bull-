@@ -21,7 +21,7 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
 4. NO new buys at midday unless there's a high-conviction breaking catalyst AND new-buys-this-week < 3 AND position count < 5. If buying at midday, justify the deviation from the pre-market plan in research-log.md.
 
-5. Append trades to memory/trade-log.md. Overwrite memory/portfolio.md with the midday snapshot.
+5. Append trades to memory/trade-log.md. Overwrite memory/portfolio.md with the midday snapshot. Add a midday note to today's research-log entry ending with a **`Handoff → market-close`** block: stops changed, positions near a trigger, standing actions still open (per the Operating-model section of strategy.md).
 
 6. Write to the user:
    - Prepend a message to memory/messages.md. Headline like "Midday: cut TSLA, tightened MSFT stop" or "Midday: steady, no changes".
