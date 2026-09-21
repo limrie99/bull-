@@ -65,10 +65,19 @@ jobs:
       cancel-in-progress: false
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # Alpaca paper credentials. runner.py picks the first complete pair, preferring
+      # dedicated Astra keys if they ever exist and otherwise borrowing Bull's paper
+      # keys (authorized by Lauren, 2026-09-21). Borrowed keys force helper mode:
+      # Astra proposes and never places an order on Bull's account.
       ASTRA_ALPACA_API_KEY: ${{ secrets.ASTRA_ALPACA_API_KEY }}
       ASTRA_ALPACA_SECRET_KEY: ${{ secrets.ASTRA_ALPACA_SECRET_KEY }}
-      ASTRA_EXECUTION_ENABLED: ${{ secrets.ASTRA_EXECUTION_ENABLED || vars.ASTRA_EXECUTION_ENABLED }}
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+      # Deliberately NOT passing Bull's ALPACA_BASE_URL — it may point at live.
       ASTRA_ALPACA_BASE_URL: https://paper-api.alpaca.markets
+      ASTRA_EXECUTION_ENABLED: ${{ secrets.ASTRA_EXECUTION_ENABLED || vars.ASTRA_EXECUTION_ENABLED }}
       ASTRA_MODEL: gpt-6-astra
     steps:
       - name: Check required secrets
@@ -77,38 +86,57 @@ jobs:
         run: |
           missing=()
           [ -z "${OPENAI_API_KEY}" ] && missing+=("OPENAI_API_KEY")
-          [ -z "${ASTRA_ALPACA_API_KEY}" ] && missing+=("ASTRA_ALPACA_API_KEY")
-          [ -z "${ASTRA_ALPACA_SECRET_KEY}" ] && missing+=("ASTRA_ALPACA_SECRET_KEY")
+
+          account="none"
+          if [ -n "${ASTRA_ALPACA_API_KEY}" ] && [ -n "${ASTRA_ALPACA_SECRET_KEY}" ]; then
+            account="dedicated"
+          elif { [ -n "${ALPACA_API_KEY}" ] && [ -n "${ALPACA_SECRET_KEY}" ]; } \
+            || { [ -n "${APCA_API_KEY_ID}" ] && [ -n "${APCA_API_SECRET_KEY}" ]; }; then
+            account="shared-bull"
+          else
+            missing+=("an Alpaca paper key pair")
+          fi
 
           {
-            echo "### Astra paper-trader secrets"
+            echo "### Astra — research helper for Bull and Maverick"
             if [ ${#missing[@]} -eq 0 ]; then
-              echo "Required secrets are present. Paper URL is hard-coded to \`https://paper-api.alpaca.markets\`."
-              if [ "${ASTRA_EXECUTION_ENABLED}" = "true" ]; then
-                echo "Execution flag is on — proposed buys/sells that pass risk checks can be submitted to the **paper** account."
+              echo "Credentials are present. Paper URL is hard-coded to \`https://paper-api.alpaca.markets\`."
+              if [ "${account}" = "shared-bull" ]; then
+                echo
+                echo "Using **Bull's existing Alpaca paper keys** (authorized by Lauren, 2026-09-21)."
+                echo "Helper mode is therefore **forced on**: Astra reads the shared account and writes"
+                echo "proposals to \`memory/astra-proposals.md\`. It will not place an order, even if"
+                echo "\`ASTRA_EXECUTION_ENABLED\` is \`true\`. Bull's Trader voice owns execution."
               else
-                echo "\`ASTRA_EXECUTION_ENABLED\` is not \`true\`. Astra will research and propose only (no orders)."
-                echo "Set repo secret or variable \`ASTRA_EXECUTION_ENABLED=true\` when you want paper orders."
+                echo
+                echo "Using **dedicated Astra paper keys**, so Astra is on its own account."
+                if [ "${ASTRA_EXECUTION_ENABLED}" = "true" ]; then
+                  echo "Execution flag is on — proposals that clear the risk engine can reach the **paper** account."
+                else
+                  echo "\`ASTRA_EXECUTION_ENABLED\` is not \`true\`: research and proposals only, no orders."
+                fi
               fi
             else
-              echo "Blocked: these **repository secrets** are missing or empty."
+              echo "Blocked: missing configuration."
               echo
-              echo "Settings → Secrets and variables → Actions → New repository secret:"
+              echo "Settings → Secrets and variables → Actions:"
               echo
               for name in "${missing[@]}"; do
                 echo "- \`$name\`"
               done
               echo
-              echo "Optional:"
-              echo "- \`ASTRA_EXECUTION_ENABLED\` = \`true\` (secret or variable) to allow paper orders"
+              echo "Astra accepts, in order of preference:"
+              echo "- \`ASTRA_ALPACA_API_KEY\` + \`ASTRA_ALPACA_SECRET_KEY\` (optional dedicated paper account)"
+              echo "- \`ALPACA_API_KEY\` + \`ALPACA_SECRET_KEY\` (Bull's existing paper keys — the expected path)"
+              echo "- \`APCA_API_KEY_ID\` + \`APCA_API_SECRET_KEY\` (Alpaca's own naming, if that is how they were saved)"
               echo
-              echo "Use a **dedicated Alpaca paper account**. Do not reuse Bull or Maverick keys. Never use live Alpaca."
+              echo "Paper Alpaca keys only. Never add live Alpaca keys to this repository."
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
           if [ ${#missing[@]} -gt 0 ]; then
             for name in "${missing[@]}"; do
-              echo "::error title=Missing GitHub Actions secret::${name} is empty. Add it under Settings → Secrets and variables → Actions. Dedicated Alpaca paper keys only."
+              echo "::error title=Missing GitHub Actions configuration::${name} is empty. See the job summary for accepted secret names. Paper Alpaca keys only."
             done
             if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
               echo "Manual run halted: configure the secrets listed above, then re-run."
@@ -140,18 +168,18 @@ jobs:
             python astra/runner.py --scheduled
           fi
 
-      - name: Persist Astra memory
+      - name: Persist Astra memory and the shared proposal handoff
         if: steps.secrets.outputs.configured == 'true'
         shell: bash
         run: |
-          if git diff --quiet -- astra/memory astra/dashboard; then
+          if git diff --quiet -- astra/memory astra/dashboard memory/astra-proposals.md; then
             echo "No Astra state change to persist."
             exit 0
           fi
           git config user.name "Astra"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add astra/memory astra/dashboard
-          git commit -m "astra: persist scheduled decision"
+          git add astra/memory astra/dashboard memory/astra-proposals.md
+          git commit -m "astra: persist research proposal for Bull"
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
