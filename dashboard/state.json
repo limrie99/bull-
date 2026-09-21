@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-18 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-09-21 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 97375.05,
+  "equity": 97645.33,
   "cash": 10661.62,
-  "day_pl": -256.94,
-  "day_pl_pct": -0.26,
-  "week_pl_pct": -1.22,
-  "spy_week_pct": -0.33,
-  "alpha_week_pct": -0.89,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.6956, "current": 349.5616, "pl_pct": 6.03, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 92.13, "pl_pct": -0.58, "stop": 86.18 },
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.6956, "current": 351.68, "pl_pct": 6.67, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 92.00, "pl_pct": -0.72, "stop": 86.18 },
     { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 159.80, "pl_pct": -2.05, "stop": 151.73 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 218.0024, "pl_pct": 0.00, "stop": 202.74 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 218.07, "pl_pct": 0.03, "stop": 202.74 },
     { "symbol": "RMD", "qty": 42, "avg_cost": 228.6274, "current": 224.99, "pl_pct": -1.59, "stop": 212.62 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 766.968, "current": 762.2711, "pl_pct": -0.61, "stop": null }
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.7163, "current": 766.57, "pl_pct": 0.24, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-09-18 08:36", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.627381 },
@@ -28,6 +28,12 @@
     { "date": "2026-09-03 08:34", "side": "BUY", "symbol": "SNPS", "qty": 24, "price": 417.00 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-21 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Calm, healthy start to the week — nothing to change",
+      "body": "Ran the pre-market research team: all 5 stocks + the S&P 500 floor healthy, no weekend bad news, every safety-sell in place. JPMorgan leads at +6.7%; Cullen/Frost is the one to watch (closest to its stop, but no bad news). Helpful calendar: no holdings report earnings this week and no big inflation/jobs print — should be a steadier week. Lineup is full (5/5) and weekly buy limits reset today, but with no open slot I won't add unless a clearly better idea appears — and the top bench name (TMO) isn't decisively better than what we own. No trades. Full scorecard at the close."
+    },
     {
       "ts": "2026-09-18 16:00 CT",
       "routine": "weekly-review",

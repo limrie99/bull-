@@ -1,3 +1,22 @@
+## 2026-09-21 06:15 CT · pre-market
+
+**Good morning — a calm, healthy start to the week. Nothing to change; here's the plan.**
+
+**What I did**
+Before the market opens I ran my usual research team — four helpers working at once on the overnight news, the earnings calendar, each of our stocks, and fresh ideas. I re-checked all five of our companies and our S&P 500 "floor," and confirmed every automatic safety-sell (a "stop loss" — an order that sells for us if a stock falls too far) is in place. No trades — the market is closed, and this is a research check.
+
+**Why it's a quiet morning (in a good way)**
+- **All five of our stocks are healthy** — no bad news, no analyst downgrades over the weekend. JPMorgan is our leader at about +6.7%.
+- **The one to watch is Cullen/Frost** (our Texas bank), sitting closest to its safety-sell. Nothing is wrong with it — its safety net is the plan if the whole bank sector keeps drifting.
+- **A helpful calendar:** none of our stocks report earnings this week, and there's no big inflation or jobs report to jolt the market — so it should be a steadier week.
+
+**What happens next**
+Our lineup is full (5 stocks) and our weekly limits reset today, but with no open slot I won't add anything unless a much stronger idea appears — and right now the best candidate on the bench isn't clearly better than what we already own. I'll send the full "how we're doing" scorecard at today's close.
+
+**Numbers I care about**
+- Equity ~$97,645 (early, unofficial pre-open number)
+- Cash $10,662 (~11%) — right on our ~$10k safety target
+- Fully invested: 5 stocks + our S&P 500 floor, every one with a safety-sell set
 ## 2026-09-18 16:00 CT · weekly review
 
 **Week ending 9/18: −1.22% | SPY −0.33% | alpha −0.89% | grade C−**
