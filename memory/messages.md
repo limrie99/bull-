@@ -1,3 +1,22 @@
+## 2026-09-21 08:35 CT · market-open
+
+**Open: no trades — we're fully invested and everything's healthy, so the right move is to hold.**
+
+**What I did**
+The market opened at 8:30 my time, and I confirmed it's really trading before doing anything. I pulled our live account and checked all five stocks plus our S&P 500 "floor" (the index fund we hold so our spare cash keeps pace with the overall market instead of sitting idle). Every automatic safety-sell (a "stop loss" — an order that sells a stock for us if it drops too far) is in place. I placed no trades.
+
+**Why nothing to do**
+- **Our lineup is full — 5 of 5 stocks.** Our weekly limit on new buys reset to fresh today (it's a new week), but with no empty slot, I'd have to *sell* something to buy something new. The best idea on my bench (Thermo Fisher) isn't clearly better than our weakest holding (Cullen/Frost, our Texas bank), and Cullen/Frost's reasons for owning it are still intact — so there's no swap worth making.
+- **No one's in trouble.** Our worst position today is down only ~2%, far from any safety-sell. JPMorgan is our star at +7.2%, and it's already protected by a "trailing stop" (a safety-sell that rises as the stock rises, locking in gains).
+
+**What happens next**
+I'll keep watching Cullen/Frost (closest to its safety net, ~5% away) and check in at midday. The full "how we're doing vs. the market" scorecard comes at today's close.
+
+**Numbers I care about**
+- Equity **$97,574**, up **$223 (+0.23%)** so far today — the market's up a bit more (~+0.6%), which is normal: our steadier, defensive stocks tend to lag on a big up-day and hold up better on a down-day.
+- **$10,662 cash** (~11% of the account) — right on our ~$10k target, with the rest at work.
+- **0 of 3** new buys used this week, but the lineup is full, so no room to add without a sell.
+
 ## 2026-09-21 06:15 CT · pre-market
 
 **Good morning — a calm, healthy start to the week. Nothing to change; here's the plan.**
