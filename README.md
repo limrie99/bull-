@@ -99,6 +99,8 @@ Bull now includes an isolated third lane under `astra/`:
 
 - **Bull** — Claude fundamentals-driven swing trader.
 - **Maverick** — Claude challenger with the additional copy-trade signal.
-- **Astra** — GPT-6 Astra independent portfolio manager, using its own Alpaca paper account and its own memory.
+- **Astra** — ChatGPT Astra independent portfolio manager, using its own Alpaca paper account and its own memory.
 
-Astra never reads Bull's or Maverick's current decisions before producing its own. Its model output is only a proposal; deterministic Python code enforces the paper-only URL, position/risk caps, price floor, confidence gate, daily loss cap, and permitted order types before Alpaca receives an order. See `astra/README.md` for setup.
+Astra never reads Bull's or Maverick's current decisions before producing its own. It chairs a committee of specialist voices defined in `astra/voices.json` — three **researchers** who establish what is verifiably true, three **buyers** with deliberately incompatible styles (quality compounder, margin of safety, trend and catalyst), and three **skeptics** whose job is to argue why the trade loses money. Astra weighs them and decides alone.
+
+Its model output is only a proposal; deterministic Python code enforces the paper-only URL, position/risk caps, price floor, confidence gate, daily loss cap, permitted order types, buyer-bench support, and the skeptic veto before Alpaca receives an order. See `astra/README.md` for setup.
