@@ -122,7 +122,7 @@ jobs:
               echo "Settings → Secrets and variables → Actions:"
               echo
               for name in "${missing[@]}"; do
-                echo "- \`$name\`"
+                echo "- $name"
               done
               echo
               echo "Astra accepts, in order of preference:"
@@ -136,7 +136,7 @@ jobs:
 
           if [ ${#missing[@]} -gt 0 ]; then
             for name in "${missing[@]}"; do
-              echo "::error title=Missing GitHub Actions configuration::${name} is empty. See the job summary for accepted secret names. Paper Alpaca keys only."
+              echo "::error title=Astra is not configured::Missing ${name}. See the job summary for the accepted secret names. Paper Alpaca keys only."
             done
             if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
               echo "Manual run halted: configure the secrets listed above, then re-run."

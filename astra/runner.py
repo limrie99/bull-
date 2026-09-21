@@ -44,6 +44,13 @@ SHARED_ACCOUNT_REASON = (
 
 MAX_PROPOSAL_BLOCKS = 40
 
+# Bull's files Astra reads (read-only) so its proposals fit the book Bull actually
+# holds. Both are long-lived logs, so each is truncated to the current section.
+TEAMMATE_FILES = (
+    ("bull_portfolio", "portfolio.md", 8000),
+    ("bull_watchlist", "watchlist.md", 8000),
+)
+
 ROUTINE_TIMES = {
     (8, 0): "premarket-research",
     (9, 25): "opening-plan",
@@ -205,6 +212,18 @@ def scheduled_routine(now: datetime | None = None) -> str | None:
     return best_name
 
 
+def teammate_context() -> dict:
+    """Bounded read of Bull's current book and bench. Never blocks a run."""
+    context = {}
+    for name, filename, limit in TEAMMATE_FILES:
+        try:
+            text = (REPO_ROOT / "memory" / filename).read_text(encoding="utf-8")
+        except OSError:
+            continue
+        context[name] = text[:limit]
+    return context
+
+
 def openai_decision(routine: str, snapshot: dict, history: list[dict], config: dict) -> dict:
     api_key = os.environ.get("OPENAI_API_KEY", "")
     if not api_key:
@@ -216,6 +235,7 @@ def openai_decision(routine: str, snapshot: dict, history: list[dict], config: d
         "risk_rules": config,
         "account": snapshot,
         "astra_prior_decisions": history[-12:],
+        "bull_context": teammate_context(),
     }
     body = {
         "model": model,

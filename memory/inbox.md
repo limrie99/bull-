@@ -11,9 +11,18 @@ Add a new `## YYYY-MM-DD HH:MM` header with your request under **Pending**. When
 ### 2026-09-21 · "Fold Nate Herk's Astra setup into our strategy — without turning Bull into a day trader"
 Lauren asked me to absorb the useful ideas from Nate Herk's *"I Turned GPT-6 Astra Into a 24/7 Stock Trader"* (https://youtu.be/TLQLfa7yH4I, Sep 2026) and his follow-up where Astra, blocked from placing trades, became the **strategist** while a separate "Trader" bot executed: the strategist/executor role split, the read-handoff → act → write-handoff continuity loop, research fan-out, and secrets-in-env — while explicitly **not** adopting his day-trade "flatten everything by mid-afternoon" cadence and **not** weakening any guardrail.
 
-**Status:** a docs-only change is open on `main` for this — `memory/strategy.md` (new "Operating model — voices, continuity, and research fan-out" section + dated 2026-09-21 changelog entry), `astra/README.md` (strategist-vs-executor framing, continuity, secrets, league isolation), and `scripts/dashboard.md` (who's-talking label guidance). No trade, no guardrail change, no live trading.
+**Status:** a docs-only change is open on `main` for this — `memory/strategy.md` (new "Operating model — voices, continuity, and research fan-out" section + dated 2026-09-21 changelog entry), `astra/README.md`, and `scripts/dashboard.md` (who's-talking label guidance). No trade, no guardrail change, no live trading.
 
 **Next routine that reads this:** confirm the section is present on `main`, write Lauren a short teacher-voice note in `messages.md` explaining the three voices in plain English (and that we skipped the day-trading part on purpose), then move this block to `## Handled`.
+
+### 2026-09-21 (later, supersedes the Astra part of the note above) · "Astra must HELP Bull and both Mavericks — not compete"
+Lauren retired the league framing: Astra is no longer an independent third book scored head-to-head against me and Maverick. **Astra is now the team's outside Research/Strategist helper.** It scores ideas and writes proposals to **`memory/astra-proposals.md`**; I read that file at pre-market, market-open, and midday and treat each block as evidence for my own scoring — never a pre-approved trade.
+
+She also authorized Astra to use **my existing Alpaca paper Actions secrets plus `OPENAI_API_KEY`**, so there are no separate Astra keys to create. Because we are now on one shared paper account, Astra's runner **hard-blocks execution** whenever those shared keys are in use — every Astra decision returns `PROPOSED_ONLY`, even with its execution flag on. It cannot place an order on this book, so there is no conflicting-order risk from Astra itself. Dedicated `ASTRA_ALPACA_*` keys stay optional for later and would take precedence automatically.
+
+**Status:** shipped in the same PR as the note above — `astra/` (helper framing, shared-secret resolution, proposal writer, tests), `.github/workflows/astra.yml` (Bull's secret names, paper URL still hard-coded), `memory/strategy.md` (new "Astra as the outside research voice" section + dated changelog entry superseding the old "blind to Bull" clause), the three routines that now read the proposals file, `CLAUDE.md`, `scripts/dashboard.md`, the root README, and `astra/handoff-maverick.md` for the Maverick hop. **No guardrail changed. Paper only.**
+
+**Next routine that reads this:** confirm `memory/astra-proposals.md` exists on `main`, fold any new Astra blocks into your scan, tell Lauren in plain English what Astra is now for, then move both blocks to `## Handled`.
 
 ---
 

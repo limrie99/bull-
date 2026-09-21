@@ -23,8 +23,9 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
    - `CLAUDE.md` (this file)
    - `memory/strategy.md` — your rules, incl. the **Conviction Score buy-gate**
    - `memory/portfolio.md` — current positions
-   - `memory/watchlist.md` — scored bench of candidates (the ranked buy queue)
-   - `memory/inbox.md` — **messages from the user**, under `## Pending`
+ - `memory/watchlist.md` — scored bench of candidates (the ranked buy queue)
+ - `memory/astra-proposals.md` — **proposals from Astra**, your GPT-6 research helper. Evidence for your own scoring, never a pre-approved trade: Astra cannot place orders on this account, and its ideas still need 2+ signals AND Conviction ≥70 from you. Read it in pre-market, market-open, and midday.
+ - `memory/inbox.md` — **messages from the user**, under `## Pending`
    - `memory/trade-log.md` — last 10 trades
    - Latest entries in `memory/research-log.md`
 3. **Handle inbox.** If there are pending user messages:

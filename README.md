@@ -93,12 +93,12 @@ Bull's `CLAUDE.md` refuses to trade live unless `strategy.md` says `mode: live`.
 
 Only number that matters long-term: **alpha vs SPY**. Everything else is noise.
 
-## AI Trading League
+## The agent team
 
-Bull now includes an isolated third lane under `astra/`:
+- **Bull** — Claude fundamentals-driven swing trader. Owns this account and is the only agent here that places orders.
+- **Maverick** — Claude challenger with the additional copy-trade signal (separate repos).
+- **Astra** — GPT-6 research helper under `astra/`. Scores ideas, argues both sides, and writes proposals for the others to use.
 
-- **Bull** — Claude fundamentals-driven swing trader.
-- **Maverick** — Claude challenger with the additional copy-trade signal.
-- **Astra** — GPT-6 Astra independent portfolio manager, using its own Alpaca paper account and its own memory.
+Astra is a **teammate, not a competitor** (changed 2026-09-21; it was previously framed as an independent third book scored head-to-head). It runs six weekday research passes on GitHub Actions and appends each proposal to `memory/astra-proposals.md`, which Bull reads at pre-market, market-open, and midday. A proposal is research: Bull re-scores it against its own gate (2+ signals AND Conviction ≥ 70), sizes it, and places any resulting order itself.
 
-Astra never reads Bull's or Maverick's current decisions before producing its own. Its model output is only a proposal; deterministic Python code enforces the paper-only URL, position/risk caps, price floor, confidence gate, daily loss cap, and permitted order types before Alpaca receives an order. See `astra/README.md` for setup.
+Astra shares Bull's Alpaca **paper** credentials with Lauren's authorization, so it sees the same book Bull does — and because those keys are shared, `astra/runner.py` hard-blocks Astra from executing anything at all. Paper only; the runner refuses any base URL other than `https://paper-api.alpaca.markets`. See `astra/README.md` for setup and `astra/handoff-maverick.md` for how proposals reach the Maverick repos.

@@ -13,7 +13,7 @@
   </style>
 </head>
 <body><div class="wrap">
-  <div class="top"><div class="mark">✨</div><div class="title"><h1>Astra Strategy</h1><p>Independent GPT-6 Astra paper portfolio · blind decisions before comparison</p></div><span class="pill" id="meta">not started</span></div>
+  <div class="top"><div class="mark">✨</div><div class="title"><h1>Astra — research helper</h1><p>GPT-6 Astra scores ideas and hands proposals to Bull and Maverick · it does not place orders</p></div><span class="pill" id="meta">not started</span></div>
   <section class="stats">
     <div class="card"><div class="label">Equity</div><div class="value" id="equity">–</div></div>
     <div class="card"><div class="label">Cash</div><div class="value" id="cash">–</div></div>
@@ -23,9 +23,9 @@
   </section>
   <div class="grid">
     <div><section class="card"><h2>Positions</h2><table><thead><tr><th>Symbol</th><th>Qty</th><th>Current</th><th>P/L</th></tr></thead><tbody id="positions"></tbody></table></section></div>
-    <div><section class="card"><h2>Independent decisions</h2><div id="decisions"></div></section></div>
+    <div><section class="card"><h2>Recent proposals</h2><div id="decisions"></div></section></div>
   </div>
-  <p class="small">Paper trading only. Model proposals pass through deterministic risk checks before execution. <a href="../../dashboard/">Back to Bull</a></p>
+  <p class="small">Paper trading only. Astra proposes; Bull's Trader voice decides and executes. On Bull's shared account, equity and positions shown here are <b>Bull's book</b>, and Astra's return/alpha stay blank on purpose. <a href="../../dashboard/">Back to Bull</a></p>
 </div>
 <script>
 const money=n=>n==null?'–':'$'+Number(n).toLocaleString(undefined,{maximumFractionDigits:2});
