@@ -9016,3 +9016,51 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - **State:** sleeve 5/5 AT CAP, 0 open slots; weekly conviction buys 0/3 but no slot → no buy without a sell/swap; none warranted. No holding reports earnings this week; no binary macro print this week (PCE 9/30). Cash ~$10.7k on the ~$10k floor.
 - **Redeploy queue if a slot opens:** TMO (non-extended pullback only) → ADM (live ≥70 re-score) → GD/WMT on 50dMA reclaim; idle remainder → SPY floor.
 - **Unverified:** none — account/positions/open-orders/clock all pulled live this run.
+
+---
+
+## 2026-09-22 15:00 CT — MARKET-CLOSE (Tue) · Day summary
+**Market:** CONFIRMED closed via `/v2/clock` (is_open=false; next_open 2026-09-23 09:30 ET). **Inbox:** no Pending items. **Astra:** `memory/astra-proposals.md` still empty.
+
+**Closing account (`/v2/account`):** equity **$96,947.83**, cash $10,661.62 (~11.00%), long_mv $86,286.21, last_equity (Mon 9/21 close) $97,669.42, status ACTIVE.
+
+**Scorecard (authoritative):**
+- Day P/L: **−$721.59 / −0.74%** (96,947.83 vs 97,669.42).
+- SPY day: **−0.01%** (IEX daily close 773.44 vs Mon 773.52) — essentially flat.
+- **Alpha today: −0.73%.** Book-specific red, not a market move.
+- WTD (base Fri 9/18 close $97,350.35): **−$402.52 / −0.41%.**
+- SPY WTD: **+1.55%** (773.44 vs 761.62). **Alpha WTD: −1.96%.**
+
+**Closing marks:**
+- JPM 34 @ 329.6956 → 340.00, +$350.35 / +3.13%. 10% trailing (floor 329.85, hwm 366.5); px below hwm → no conversion.
+- MDT 96 @ 92.67 → 90.77, −$182.40 / −2.05%. −7% hard 86.18 (cushion ~5.1%).
+- CFR 60 @ 163.15 → 156.15, −$420.00 / −4.29%. −7% hard 151.73; cushion **~2.8%** (tightest, tightened from ~3.2% midday). No CFR/Texas-bank negative news.
+- RSG 44 @ 218.00 → 213.88, −$181.28 / −1.89%. −7% hard 202.74 (cushion ~5.2%).
+- RMD 42 @ 228.6274 → 221.97, −$279.61 / −2.91%. −7% hard 212.62 (cushion ~4.2%).
+- SPY 49 @ 764.716 → 773.67, +$438.73 / +1.17%. Index-floor sleeve, NO stop.
+
+**Open orders:** exactly 5, all VERIFIED live resting (JPM trailing `8a937ff6…`; MDT 86.18 `2768e81c…`; CFR 151.73 `cd725e5b…`; RSG 202.74 `93c80d32…`; RMD 212.62 `91671fa4…`). SPY unencumbered.
+
+**Trades today:** NONE. No thesis break, no stop hit, no +5% conversion, no open slot, no warranted swap.
+
+**Risk checks:** (a) any un-stopped position ≤−7% → NO (worst CFR −4.29%). (b) any +5%+ needing conversion → NO (JPM +3.13% already trailing). (c) daily loss cap → −0.74%, nowhere near −3%.
+
+**What worked:**
+- SPY sleeve (+1.17%) and JPM (+3.13%) kept the book from a worse day; discipline held (no panic, no averaging down).
+- Every hard stop resting and verified — zero exposure to an un-stopped drawdown.
+
+**What didn't:**
+- Single-stock banks/defensives (CFR −4.29%, RMD −2.91%, MDT −2.05%) dragged us to −0.74% on a flat-SPY day → −0.73% alpha.
+- WTD we're behind by −1.96%: we only partly captured SPY's big Monday +1.56% pop (39% index sleeve), and our idiosyncratic names lagged.
+
+**Open questions for tomorrow:**
+- Does CFR stabilize or keep sliding toward the 151.73 stop (~2.8% away)? If it tags, that's the plan — no pre-empt, no average-down; re-add to watchlist.
+- Is the bank/defensive softness a rate/rotation move or name-specific? Pre-market news scan should confirm theses still intact.
+- No holding reports earnings this week; next binary macro is PCE 9/30.
+
+**Handoff → pre-market Wed 9/23:**
+- Run the pre-market news + earnings + macro scan (fan out sub-agents). Re-confirm all 5 theses; check CFR/RMD for any adverse catalyst.
+- Sleeve 5/5 AT CAP, 0 slots; weekly buys 0/3 but no slot → no buy without a sell/swap; none warranted at close.
+- Redeploy queue if a slot opens: TMO (non-extended pullback) → ADM (live ≥70 re-score) → GD/WMT on 50dMA reclaim; idle → SPY floor.
+- Mandatory daily Telegram scorecard SENT this close (see below).
+- **Unverified:** none — account/positions/open-orders/clock/SPY all pulled live this run.

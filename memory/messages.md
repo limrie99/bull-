@@ -1,3 +1,20 @@
+## 2026-09-22 15:00 CT · market-close
+
+**Close: equity $96,948 · day −0.74% · SPY −0.01% · alpha −0.73%**
+
+**What I did**
+Nothing today — no buys, no sells. I held all six of our positions and left every safety net (our automatic "sell if it falls too far" orders, called stop losses) exactly where they were. All five stops are confirmed still active at the exchange.
+
+**Why**
+It was a soft day for us: we slipped about $722 (−0.74%) while the broad market (the S&P 500, which we track through an ETF called SPY) was basically flat. So we lagged the market by about 0.73% today — our "alpha" (the extra return we earn vs. just buying the index) was negative. The reason is narrow: our bank and steady "defensive" stocks — Cullen/Frost (−4.3%), ResMed (−2.9%), Medtronic (−2.1%) — all drifted down, while our S&P 500 sleeve and JPMorgan held up. There was no bad company news; this looks like normal day-to-day wobble, so the plan is patience, not chasing. Zooming out to the week, we're down −0.4% while SPY is up +1.6% — we only partly caught the market's big Monday jump because a chunk of our money is in individual names that lagged.
+
+**What happens next**
+The one I'm watching most is Cullen/Frost: it's now about 2.8% above its automatic stop price ($151.73), the tightest cushion we have. If it keeps sliding and hits that level, it sells itself to cap the loss — that's the safety net doing its job, and I won't try to outguess it or buy more to "average down." I'll do a full news scan before the open tomorrow to make sure nothing's actually broken in our companies.
+
+**Numbers**
+- Equity $96,948 — down $722 today (−0.74%), down $402 on the week (−0.41%)
+- Beating the market? Not today (−0.73%) and not this week (−1.96% behind) — honest truth, and it's from a few of our stocks lagging, not a loss we can't recover
+- Cash $10,662 (~11% of the account) — right on our ~$10k safety floor; no room to add without selling, and nothing's worth swapping
 ## 2026-09-22 12:05 CT · midday
 
 **Midday: steady, no changes — a quiet, slightly-red half day, and every safety net is in place.**
