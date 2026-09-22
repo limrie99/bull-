@@ -1,124 +1,160 @@
 {
-  "last_update": "2026-09-22 06:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-09-22 08:32 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 97660.26,
+  "equity": 97831.23,
   "cash": 10661.62,
-  "day_pl": -9.16,
-  "day_pl_pct": -0.01,
-  "week_pl_pct": 0.318,
-  "spy_week_pct": 1.57,
-  "alpha_week_pct": -1.25,
+  "day_pl": 161.81,
+  "day_pl_pct": 0.17,
+  "week_pl_pct": 0.494,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
-      "avg_cost": 329.70,
-      "current": 352.39,
-      "pl_pct": 6.88,
+      "avg_cost": 329.695588,
+      "current": 350.61,
+      "pl_pct": 6.34,
       "stop": 329.85
     },
     {
       "symbol": "MDT",
       "qty": 96,
       "avg_cost": 92.67,
-      "current": 91.50,
-      "pl_pct": -1.26,
+      "current": 92.265,
+      "pl_pct": -0.44,
       "stop": 86.18
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 158.74,
-      "pl_pct": -2.70,
+      "current": 159.19,
+      "pl_pct": -2.43,
       "stop": 151.73
     },
     {
       "symbol": "RSG",
       "qty": 44,
-      "avg_cost": 218.00,
-      "current": 213.93,
-      "pl_pct": -1.87,
+      "avg_cost": 218.0,
+      "current": 214.28,
+      "pl_pct": -1.71,
       "stop": 202.74
     },
     {
       "symbol": "RMD",
       "qty": 42,
-      "avg_cost": 228.63,
-      "current": 223.61,
-      "pl_pct": -2.20,
+      "avg_cost": 228.627381,
+      "current": 224.98,
+      "pl_pct": -1.59,
       "stop": 212.62
     },
     {
       "symbol": "SPY",
       "qty": 49,
-      "avg_cost": 764.72,
-      "current": 773.56,
-      "pl_pct": 1.16,
+      "avg_cost": 764.716327,
+      "current": 774.7276,
+      "pl_pct": 1.31,
       "stop": null
     }
   ],
   "recent_trades": [
-    {"date": "2026-09-18 08:36", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.627381},
-    {"date": "2026-09-18 08:36", "side": "BUY", "symbol": "RSG", "qty": 44, "price": 218.00},
-    {"date": "2026-09-18 08:35", "side": "SELL", "symbol": "SPY", "qty": 26, "price": 760.763077},
-    {"date": "2026-09-17 08:33", "side": "BUY", "symbol": "MDT", "qty": 96, "price": 92.67},
-    {"date": "2026-09-14 08:30", "side": "SELL", "symbol": "ATI", "qty": 47, "price": 190.368299},
-    {"date": "2026-09-09 08:37", "side": "BUY", "symbol": "CFR", "qty": 60, "price": 163.15},
-    {"date": "2026-09-03 15:02", "side": "STOP RE-ARM", "symbol": "SNPS", "qty": 24, "price": 387.81},
-    {"date": "2026-09-04 09:33", "side": "SELL", "symbol": "SNPS", "qty": 24, "price": 387.50},
-    {"date": "2026-08-31 08:40", "side": "SELL", "symbol": "LLY", "qty": 12, "price": 1152.00},
-    {"date": "2026-08-31 08:40", "side": "BUY", "symbol": "ATI", "qty": 47, "price": 209.67}
+    {
+      "date": "2026-09-18 08:36",
+      "side": "BUY",
+      "symbol": "RMD",
+      "qty": 42,
+      "price": 228.627381
+    },
+    {
+      "date": "2026-09-18 08:36",
+      "side": "BUY",
+      "symbol": "RSG",
+      "qty": 44,
+      "price": 218.0
+    },
+    {
+      "date": "2026-09-18 08:35",
+      "side": "SELL",
+      "symbol": "SPY",
+      "qty": 26,
+      "price": 760.763077
+    },
+    {
+      "date": "2026-09-17 08:33",
+      "side": "BUY",
+      "symbol": "MDT",
+      "qty": 96,
+      "price": 92.67
+    },
+    {
+      "date": "2026-09-14 08:30",
+      "side": "SELL",
+      "symbol": "ATI",
+      "qty": 47,
+      "price": 190.368299
+    },
+    {
+      "date": "2026-09-09 08:37",
+      "side": "BUY",
+      "symbol": "CFR",
+      "qty": 60,
+      "price": 163.15
+    },
+    {
+      "date": "2026-09-03 15:02",
+      "side": "STOP RE-ARM",
+      "symbol": "SNPS",
+      "qty": 24,
+      "price": 387.81
+    },
+    {
+      "date": "2026-09-04 09:33",
+      "side": "SELL",
+      "symbol": "SNPS",
+      "qty": 24,
+      "price": 387.5
+    },
+    {
+      "date": "2026-08-31 08:40",
+      "side": "SELL",
+      "symbol": "LLY",
+      "qty": 12,
+      "price": 1152.0
+    },
+    {
+      "date": "2026-08-31 08:40",
+      "side": "BUY",
+      "symbol": "ATI",
+      "qty": 47,
+      "price": 209.67
+    }
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-22 08:32 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades \u2014 all 5 stocks healthy, quietly green +0.17%",
+      "body": "Confirmed market open, re-pulled account and all 5 stops (exactly 5, resting). Placed nothing: sleeve is full (5/5) so a buy needs a sell first, and nothing's worth swapping. No stop near a trigger (weakest cushion CFR ~4.7%); JPM +6.34% already on a trailing stop. Astra sent no new ideas. Holding and watching; next check midday."
+    },
+    {
       "ts": "2026-09-22 06:15 CT",
       "routine": "pre-market",
-      "headline": "Calm setup — nothing to buy or sell; all 5 stocks healthy, every stop in place",
-      "body": "Pre-market plan: hold and watch. Oil fell ~4.5% overnight, easing rates a touch (a small tailwind). No holding reports earnings this week and no big economic data lands — low surprise risk. Bench turned up no worthwhile swap (Thermo Fisher softened on 2 downgrades + insider selling). Sleeve 5/5 full, 0/3 weekly buys used. Watching Cullen/Frost, our closest-to-stop name (~4.4% cushion). Equity ~$97,660, cash ~$10,662 (~11%)."
+      "headline": "Calm setup \u2014 nothing to buy or sell; all five healthy, safety nets in place",
+      "body": "Oil fell ~4.5% overnight, nudging rates down (small tailwind). All 5 theses intact, none report earnings this week. Bench turned up nothing worth swapping (TMO looked interesting but had 2 downgrades + insider selling). Sleeve 5/5 full; watching CFR (~4.4% cushion)."
     },
     {
       "ts": "2026-09-21 15:00 CT",
       "routine": "market-close",
-      "headline": "Quiet Monday — up $308 (+0.32%), a bit behind the market's +1.56% bounce",
-      "body": "No trades. Book fully invested (5 stocks + S&P 500 floor), all stops resting. We lagged a strong risk-on day because our defensive tilt lags a broad bounce — expected. Cash ~$10,662 (~10.9%), on target."
+      "headline": "Close: equity $97,658 \u00b7 day +0.32% \u00b7 SPY +1.56% \u00b7 alpha \u22121.25%",
+      "body": "Green day (+$308) but the market raced ahead on a risk-on tape and we trailed by 1.25 pts \u2014 expected with our defensive tilt. JPM led at +6.78%, SPY floor +1.12%. No trades. Introduced Astra (outside research helper, can't trade). Watching CFR (weakest cushion)."
     },
     {
-      "ts": "2026-09-18 15:00 CT",
-      "routine": "weekly-review",
-      "headline": "Week wrap — bought two defensive stocks, filled the book",
-      "body": "Added Republic Services and ResMed, trimmed the S&P 500 floor to fund them. Sleeve now full at 5/5. Honest note: still slightly behind SPY on the defensive tilt; theses intact."
-    },
-    {
-      "ts": "2026-09-18 08:40 CT",
-      "routine": "market-open",
-      "headline": "Bought Republic Services + ResMed — two defensive stocks",
-      "body": "Filled both open slots with waste-hauler RSG (insider buying) and sleep-device maker RMD (analyst upgrade). Both low rate-sensitivity — the right profile for a higher-for-longer Fed."
-    },
-    {
-      "ts": "2026-09-17 08:33 CT",
-      "routine": "market-open",
-      "headline": "Bought Medtronic — a medical-device maker",
-      "body": "Deployed the ATI cash into MDT, a defensive med-tech that beat and raised guidance. Grade-A conviction ~80, sized conservatively into a hawkish tape."
-    },
-    {
-      "ts": "2026-09-14 08:30 CT",
-      "routine": "market-open",
-      "headline": "ATI's safety net triggered — sold automatically at the open",
-      "body": "ATI gapped below its stop on a risk-off Fed-week slide and sold at ~$190 (−9.2%). Not a thesis break — sector/macro noise. Back on the watchlist for a clean re-entry."
-    },
-    {
-      "ts": "2026-09-09 08:37 CT",
-      "routine": "market-open",
-      "headline": "Bought Cullen/Frost — a Texas bank",
-      "body": "Added CFR, a rate-beneficiary regional bank, sized modestly into a binary CPI week. −7% safety net set at $151.73."
-    },
-    {
-      "ts": "2026-08-31 08:40 CT",
-      "routine": "market-open",
-      "headline": "Put cash to work — enlarged the S&P 500 floor + opened ATI",
-      "body": "Deployed idle cash per your 'start investing' instruction: grew the index floor and opened a modest ATI starter. Cash down to ~$10.4k (~10%)."
+      "ts": "2026-09-21 12:05 CT",
+      "routine": "midday",
+      "headline": "Quiet midday \u2014 nothing to change",
+      "body": "Steady hold, no trades, no stop changes. All theses intact."
     }
   ]
 }

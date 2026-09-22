@@ -8969,3 +8969,17 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - **What didn't:** The five-name conviction sleeve (ex-SPY, ex-JPM) was flat-to-red on a day the market ripped +1.56%, so the book badly lagged (−1.25 pts alpha today). CFR (−2.70%) and the two day-old defensive adds (RSG −1.87%, RMD −2.20%) drifted the wrong way while banks/defensives sat out the risk-on move.
 - **Open questions for tomorrow:** (1) Does the defensive tilt keep costing us alpha on an up-tape, or does it protect on the next down day (the whole point of the low-beta bet)? Forward marker from the 9/18 weekly review still live: if the full sleeve lags SPY ~2–3 more weeks with theses intact and no macro-stop excuse → open the candid structural question about whether the conviction sleeve earns its risk. (2) Does CFR stabilize or keep grinding toward its stop (cushion ~4.4%, tightest in book)? (3) Do RSG/RMD start trending up to earn the +5% trailing-stop conversion? (4) Caps: sleeve 5/5, weekly buys 0/3 — any new idea needs a sell first; watchlist re-score owed at pre-market.
 - **Astra:** `memory/astra-proposals.md` present on main; no proposals yet (file initialized, awaits Astra's first scheduled run). Nothing to fold into scoring today. Both Astra inbox items handled and moved to ## Handled.
+
+## 2026-09-22 08:32 CT — MARKET-OPEN (Tue · market CONFIRMED open via /v2/clock, is_open=true, 09:32 ET; NO TRADES, NO STOP CHANGES) · executed the pre-market hold-and-manage plan verbatim
+
+**Voices.**
+- **Research:** No new catalyst overnight; Astra proposals file still empty (no external idea to fold). Top bench TMO ~72 unchanged/weaker, does not beat lowest hold CFR ~72 (thesis intact). Nothing clears the 2-signals + Conviction≥70 gate with a slot open.
+- **Risk:** Sleeve 5/5 AT CAP, 0 open slots → a buy requires a swap; none warranted. No position at/near −7% (worst CFR −2.43%, cushion ~4.7% to 151.73). No position ≥+5% needing hard→trailing conversion (JPM +6.34% but already trailing, floor 329.85 / hwm 366.5). Intraday +0.17% — daily loss cap (>3% drop) not in play. Exactly 5 open stop orders verified live, all resting GTC.
+- **Trader:** Placed nothing. Correct action = hold and manage.
+
+**Live open pull (09:32 ET).** `/v2/account`: equity $97,831.23, cash $10,661.62 (~10.90%), long_mv $87,169.61, last_equity $97,669.42. `/v2/positions`: CFR 60 @159.19 (−2.43%), JPM 34 @350.61 (+6.34%), MDT 96 @92.265 (−0.44%), RMD 42 @224.98 (−1.59%), RSG 44 @214.28 (−1.71%), SPY 49 @774.7276 (+1.31%). `/v2/orders?status=open`: 5 orders — JPM trailing_stop 10% floor 329.85; MDT/CFR/RSG/RMD hard stops 86.18/151.73/202.74/212.62. Intraday vs Mon close +$161.81 / +0.17%. WTD vs Fri 9/18 close ($97,350.35) +$480.88 / +0.494%.
+
+**Guardrail checks:** paper mode ✓; long-only ✓; ≤5 positions (5, at cap) ✓; ≤20%/pos (max non-index JPM ~12.2%; SPY index sleeve exempt) ✓; ≤3 buys/week (0/3 this week) ✓; stops present on all 5 conviction stocks ✓; SPY no-stop by policy ✓.
+
+### Actions taken
+- NONE (no buys, no sells, no stop edits). Wrote portfolio.md snapshot, prepended market-open message, refreshed dashboard/state.json. No Telegram push (no-trade open is not a push event per CLAUDE.md).
