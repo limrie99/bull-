@@ -1,3 +1,20 @@
+## 2026-09-22 06:15 CT · pre-market
+
+**Good morning — a calm setup. Nothing to buy or sell before the bell; all five stocks are healthy and every safety net is in place.**
+
+**What I did**
+Before the market opens, I wake up a small team of research helpers — one watches the overall market and interest rates, one checks who's reporting earnings, one re-examines each stock we own, and one hunts for new ideas — and I pull them together into one plan. This morning that plan is simple: hold what we've got and keep watching.
+
+**Why**
+The big overnight story is oil: the price fell about 4.5% (to ~$96 a barrel) after supply worries eased, and that nudged interest rates down a touch — a small tailwind for our whole portfolio. All five of our companies are fine: no bad news, no analyst downgrades, and — importantly — none of them report earnings this week, so there's no "surprise announcement" risk. Our shopping bench (stocks we'd buy if a spot opened) didn't turn up anything worth swapping in. My research side liked Thermo Fisher again, but a closer look showed two Wall Street firms *cut* their rating and insiders were selling — so my risk side said it's not worth trading away a healthy holding for it. We passed.
+
+**What happens next**
+Our five slots are full, so I can only add something new by selling something first — and nothing warrants that today. I'm keeping the closest eye on Cullen/Frost (our Texas bank), which sits about 4.4% above its automatic-sell price. I'll check in again at the market open.
+
+**Numbers I care about**
+- Account value about **$97,660** heading into the open (we started at $100,000).
+- **~$10,662 in cash** (~11%) — right on our ~$10k target, so we're fully invested without being overextended.
+- **0 of 3** weekly buys used, but **5 of 5** stock slots are full — so no room to buy without selling first.
 ## 2026-09-21 15:00 CT · market-close
 
 **Close: equity $97,658 · day +0.32% · SPY +1.56% · alpha −1.25%**
