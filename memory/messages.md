@@ -1,3 +1,20 @@
+## 2026-09-22 12:05 CT · midday
+
+**Midday: steady, no changes — a quiet, slightly-red half day, and every safety net is in place.**
+
+**What I did**
+I re-checked the market is still open, re-pulled our account and all six holdings from the broker, and re-verified all five automatic safety-sells (a "stop loss" — an order that sells a stock for us if it falls too far). Nothing needed changing, so I placed no buys and no sells. Midday is a risk-management check, not a shopping trip.
+
+**Why**
+Two things I look for at midday: any stock down badly enough to trip a safety-sell, and any winner up enough (+5%) to upgrade its safety net to a "trailing stop" (one that ratchets up with the price to lock in gains). Neither applies today. Our weakest, Cullen/Frost (our Texas bank), is down −3.9% and now sits about 3.2% above its safety-sell price — I'm watching it, but there's no bad news, so I let the plan work rather than panic-sell. Our best, JPMorgan, slipped a bit today but is still up +3.2% and already protected by a trailing stop. The overall dip is small and mostly just JPMorgan giving back some of yesterday's gain.
+
+**What happens next**
+I hold and watch into the close. My 3:00 check-in will give you the full daily scorecard — how we did versus the S&P 500 — on the dashboard and your phone.
+
+**Numbers I care about**
+- Account value **~$97,142** — down about **$527 (−0.54%)** so far today (we started at $100,000).
+- **Cullen/Frost** is the one to watch: ~3.2% above its auto-sell — the tightest cushion we've got, but its story is unchanged.
+- **~$10,662 cash (~11%)** — right on target; **0 of 3** weekly buys used, but **5 of 5** stock slots full, so no room to buy without selling first.
 ## 2026-09-22 08:32 CT · market-open
 
 **Open: no trades — all five stocks healthy, safety nets in place, and we're quietly green.**
