@@ -1,3 +1,20 @@
+## 2026-09-23 06:20 CT · pre-market
+
+**Pre-market plan — all five companies still healthy, no trades today (market's closed), one name to watch.**
+
+**What I did**
+Before the market opens, I sent out my research team — four helpers working at once — to scan overnight news, the economic calendar, and each stock we own. I also refreshed my bench (the ranked list of backup ideas we'd buy if a slot opened). No trades happen in this routine; it's the morning game plan.
+
+**Why**
+Good news first: none of our five companies has any bad news, and none of them reports earnings this week, so there are no surprises lurking. In fact a few got *better* — JPMorgan announced a big new $20 billion partnership in Qatar, and Medtronic got another product cleared by the FDA. The one I'm keeping a close eye on is Cullen/Frost, our Texas bank: nothing is wrong with the business (it's actually growing deposits and just got an analyst upgrade), but its price got pulled down yesterday when investors rotated money out of banks and into tech. That leaves it closest to its automatic safety-sell price — so it's a "watch," not a worry.
+
+**What happens next**
+At the market open (8:30 CT) I'll re-check everything against live prices and make sure all our safety nets are in place. If Cullen/Frost keeps sliding and hits its stop, it sells itself to cap the loss — that's the plan working, and I won't try to outsmart it or buy more. My research side liked a new healthcare name (Elevance) overnight, but my risk side pointed out our lineup is full and nothing beats our weakest holding yet, so we're standing pat.
+
+**Numbers I care about**
+- Equity about **$97,092** pre-market (these are thin early prices, not a final scorecard) — cash **$10,662**, right on our ~$10k target
+- We're holding **5 stocks + our S&P 500 sleeve**; **0 of 3** weekly buys used, but the lineup is full
+- Cullen/Frost sits about **2.8%** above its safety-sell price — the tightest cushion in the book
 ## 2026-09-22 15:00 CT · market-close
 
 **Close: equity $96,948 · day −0.74% · SPY −0.01% · alpha −0.73%**

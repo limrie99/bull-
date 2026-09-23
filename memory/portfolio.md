@@ -1,53 +1,48 @@
 # Portfolio
 
-**Last updated:** 2026-09-22 15:00 CT (**MARKET-CLOSE routine**, Tue). Market **CONFIRMED closed** via `/v2/clock` (is_open=false; next_open 2026-09-23 09:30 ET). **No trades today, no stop changes** — hold-and-manage held all day. Sleeve **5/5 AT CAP, 0 open slots**; no thesis break, no stop hit, no +5% conversion pending, no warranted swap. All 5 individual-stock stops re-VERIFIED live resting (exactly 5 open orders); SPY unencumbered by design. Marks below are **closing marks** from `/v2/positions`.
+**Last updated:** 2026-09-23 06:20 CT (**PRE-MARKET routine**, Wed). Market **CONFIRMED closed** via `/v2/clock` (is_open=false; next_open 2026-09-23 09:30 ET). **No trades (research routine), no stop changes.** Sleeve **5/5 AT CAP, 0 open slots**; no thesis break, no stop hit, no +5% conversion pending, no warranted swap (nothing on the bench beats weakest hold CFR ~72 at the ≥70 gate). All 5 individual-stock stops re-VERIFIED live resting GTC (exactly 5 open orders); SPY unencumbered by design. Marks below are **thin pre-open marks — NOT a scorecard.**
 
 ---
 
-**[Closing snapshot 2026-09-22 15:00 CT]** Account (`/v2/account`): equity **$96,947.83**, cash **$10,661.62 (~11.00%)**, long_market_value **$86,286.21**, last_equity (Mon 9/21 close) $97,669.42, status ACTIVE.
+**[Pre-open snapshot 2026-09-23 06:20 CT]** Account (`/v2/account`): equity **$97,092.00**, cash **$10,661.62 (~10.98%)**, long_market_value **$86,430.38**, last_equity (Tue 9/22 close) **$96,933.62**, status ACTIVE. (Alpaca last_equity is authoritative; yesterday's close-routine snapshot read $96,947.83 — ~$14 mark-timing gap, logged not reconciled.)
 
-**Today's scorecard (authoritative, close routine):**
-- **Day P/L: −$721.59 / −0.74%** (equity $96,947.83 vs Mon 9/21 close $97,669.42).
-- **SPY day: −0.01%** (IEX daily close 773.44 vs Mon close 773.52) — market essentially flat.
-- **Alpha today: −0.73%** — we lagged SPY; today's red was book-specific (banks + defensives soft), not a market move.
-- **Week-to-date (9/18 close base $97,350.35): −$402.52 / −0.41%.**
-- **SPY WTD: +1.55%** (773.44 vs Fri 9/18 close 761.62). **Alpha WTD: −1.96%** — behind for the week: SPY's big Monday +1.56% pop we only partly captured (39% index sleeve), while our single-stock banks/defensives lagged.
+**Week-to-date (thin, pre-open):** base Fri 9/18 close $97,350.35 → now $97,092.00 = **−0.27%**. SPY WTD: base 761.62 → 773.81 = **+1.61%**. **Alpha WTD ≈ −1.88%** (thin marks) — the drag is single-stock banks/defensives lagging SPY's tech-led week; theses intact.
 
-## Open positions (5 conviction stocks + 1 index-floor sleeve) — closing marks 2026-09-22 15:00 CT
+## Open positions (5 conviction stocks + 1 index-floor sleeve) — pre-open marks 2026-09-23 06:20 CT
 | Symbol | Shares | Avg Cost | Px | P/L $ | P/L % | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 340.00 | +350.35 | +3.13% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; largest US bank; Q2 beat. Thesis INTACT. Still green + above trailing floor. Next earnings **10/13 BMO**. |
-| MDT | 96 | 92.67 | 90.77 | −182.40 | −2.05% | **−7% HARD (GTC)** `86.18` | 2026-09-17 | Medtronic — defensive med-tech, LOW rate-sens. Grade-A ~80: beat+raise, MiniMed separation, Hugo robotics FDA clearance, avg PT ~$104. Converts to 10% trailing at +5%. |
-| CFR | 60 | 163.15 | 156.15 | −420.00 | −4.29% | **−7% HARD (GTC)** `151.73` | 2026-09-09 | Cullen/Frost — Texas regional bank; rate-beneficiary/NIM. B+ ~72. Cushion **~2.8%** (tightest). No company-specific/Texas-bank bad news; thesis intact. |
-| RSG | 44 | 218.00 | 213.88 | −181.28 | −1.89% | **−7% HARD (GTC)** `202.74` | 2026-09-18 | Republic Services — defensive non-cyclical waste, LOW rate-sens. B+ ~76: #4 Cascade/Gates buy + #3 pricing power. BofA reiterated Buy $241 (9/21). Converts at +5%. |
-| RMD | 42 | 228.627381 | 221.97 | −279.61 | −2.91% | **−7% HARD (GTC)** `212.62` | 2026-09-18 | ResMed — sleep-apnea/respiratory leader, LOW rate-sens. B+ ~78: #4 RBC Outperform (PT $262) + #3 aging/OSA secular. Reaffirmed LT targets 9/21. Converts at +5%. |
-| SPY | 49 | 764.716327 | 773.67 | +438.73 | +1.17% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10→09-18 (trimmed) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO stop. |
+| JPM | 34 | 329.695588 | 340.69 | +373.81 | +3.34% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | 2026-06-29 | JPMorgan — $50B buyback + div hike; new $20B Qatar partnership (9/22). Thesis INTACT. Green, on trailing. Earnings **10/13 BMO**. |
+| MDT | 96 | 92.67 | 91.20 | −141.12 | −1.59% | **−7% HARD (GTC)** `86.18` | 2026-09-17 | Medtronic — defensive med-tech, LOW rate-sens. FDA cleared LigaSure for Hugo robot; MiniMed separation live; Buy $114. Converts to 10% trailing at +5%. |
+| CFR | 60 | 163.15 | 156.15 | −420.00 | −4.29% | **−7% HARD (GTC)** `151.73` | 2026-09-09 | Cullen/Frost — Texas regional bank; NIM. MS OW $200 (9/8); deposits growing, NIM 3.75%. **THE WATCH** — cushion ~2.8% (tightest); no CFR bad news, price risk = bank-sector rotation. |
+| RSG | 44 | 218.00 | 214.50 | −154.00 | −1.61% | **−7% HARD (GTC)** `202.74` | 2026-09-18 | Republic Services — defensive waste, LOW rate-sens. BofA Buy $241 (9/21); Cascade/Gates insider buy. Converts at +5%. |
+| RMD | 42 | 228.627381 | 222.99 | −236.77 | −2.47% | **−7% HARD (GTC)** `212.62` | 2026-09-18 | ResMed — sleep-apnea leader, LOW rate-sens. RBC Outperform $262; GLP-1 a tailwind. Minor: Astral ventilator recall (non-thesis, watch). Converts at +5%. |
+| SPY | 49 | 764.716327 | 773.81 | +448.04 | +1.19% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10→09-18 (trimmed) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO stop. |
 
-**Conviction sleeve: 5 of 5 (AT CAP, 0 slots open).** **Conviction buys used this week (9/21–9/25): 0 of 3.** With the sleeve full, a new buy is only possible via a candidate SWAP — none warranted (no breaking catalyst; top bench TMO ~72 does not beat lowest hold CFR ~72, thesis intact). **Cash buffer: ~11.00%** (~$10,662 — on the ~$10k / 10% floor). Sizes on equity $96,947.83: JPM ~11.9%, MDT ~9.0%, CFR ~9.7%, RSG ~9.7%, RMD ~9.6%, SPY ~39.1% (index sleeve — exempt from the 20% cap by policy).
+**Conviction sleeve: 5 of 5 (AT CAP, 0 slots open).** **Conviction buys used this week (9/21–9/25): 0 of 3.** Sleeve full → a new buy is only possible via a candidate SWAP; none warranted (nothing on the bench beats CFR ~72 at the ≥70 gate; all theses intact). **Cash buffer: ~10.98%** (~$10,662 — on the ~$10k / 10% floor). Sizes on equity $97,092: JPM ~11.9%, MDT ~9.0%, CFR ~9.6%, RSG ~9.7%, RMD ~9.6%, SPY ~39.0% (index sleeve — exempt from the 20% cap by policy).
 
-## Stop-management state (open-orders — VERIFIED live 2026-09-22 15:00 CT, exactly 5)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **329.85**, trail 10%, GTC, resting. qty 34. +3.13% but already trailing (px 340.00 below hwm 366.5) → nothing to convert.
-- **MDT −7% hard** `2768e81c-df5f-4da2-a285-27fdd469ba84` — stop **86.18**, GTC, resting. qty 96. −2.05% (below +5%).
+## Stop-management state (open-orders — VERIFIED live 2026-09-23 06:20 CT, exactly 5)
+- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **329.85**, trail 10%, GTC, resting. qty 34. +3.34% but already trailing (px 340.69 below hwm 366.5) → nothing to convert.
+- **MDT −7% hard** `2768e81c-df5f-4da2-a285-27fdd469ba84` — stop **86.18**, GTC, resting. qty 96. −1.59% (below +5%).
 - **CFR −7% hard** `cd725e5b-c593-4dde-8c72-1dda0cfbb8ae` — stop **151.73**, GTC, resting. qty 60. Cushion **~2.8%** (px 156.15, tightest in book). −4.29% (below +5%).
-- **RSG −7% hard** `93c80d32-e37e-420d-be8f-6311918e3387` — stop **202.74**, GTC, resting. qty 44. −1.89% (below +5%).
-- **RMD −7% hard** `91671fa4-1389-488e-8780-9a99039fb6a6` — stop **212.62**, GTC, resting. qty 42. −2.91% (below +5%).
+- **RSG −7% hard** `93c80d32-e37e-420d-be8f-6311918e3387` — stop **202.74**, GTC, resting. qty 44. −1.61% (below +5%).
+- **RMD −7% hard** `91671fa4-1389-488e-8780-9a99103fb6a6` — stop **212.62**, GTC, resting. qty 42. −2.47% (below +5%).
 - **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 49 unencumbered. Confirmed **exactly 5 open orders total**.
 
-## Risk checks (close 2026-09-22 15:00 CT)
-- **(a) Any position −7% or worse un-stopped?** NO. Worst is CFR −4.29%; RMD −2.91%; MDT −2.05%; RSG −1.89%; SPY +1.17% (no stop by policy); JPM +3.13%. Nothing at/near a trigger → **no sell trigger, no news-check triggered**.
-- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM is +3.13% and ALREADY on the 10% trailing; everything else below +5%. Zero conversions pending.
-- **(c) Daily loss cap:** day −0.74% — cap governs a >3% intraday drop; nowhere near.
+## Risk checks (pre-market 2026-09-23 06:20 CT)
+- **(a) Any position −7% or worse un-stopped?** NO. Worst is CFR −4.29%; RMD −2.47%; MDT −1.59%; RSG −1.61%; JPM +3.34%; SPY +1.19% (no stop by policy). Nothing at/near a trigger.
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM +3.34% ALREADY on the 10% trailing; everything else below +5%. Zero conversions pending.
+- **(c) Daily loss cap:** N/A pre-open (research routine, market closed).
 
 ## Today's trades
-- **NONE.** Close routine, market closed at run time. No thesis break, no stop hit, no +5% conversion, no open slot, no warranted swap. Correct action: hold and manage.
+- **NONE.** Pre-market research routine, market closed. No thesis break, no stop hit, no +5% conversion, no open slot, no warranted swap. Correct action: research + hold.
 
-## Watch / next (next routine: **pre-market Wed 9/23**)
-- **CFR watch (tightest):** cushion ~2.8% to the 151.73 hard stop — tightened again today (−4.29%). Thesis INTACT; no CFR/Texas-bank negative news. If a rate-driven regional-bank move tags the stop, that is the plan working — do NOT pre-empt, do NOT average down.
-- **RMD:** −2.91%, cushion ~4.2% to 212.62 hard stop. Watch.
-- **JPM:** +3.13%, on the 10% trailing (floor 329.85, hwm 366.5). Earnings 10/13 BMO — no action yet.
+## Watch / next (next routine: **market-open Wed 9/23 08:30 CT**)
+- **CFR watch (tightest):** cushion ~2.8% to the 151.73 hard stop. Thesis/fundamentals INTACT (MS OW $200, deposits growing, NIM 3.75%); risk is bank-sector rotation, not company news. If a rate/rotation move tags the stop, that is the plan working — do NOT pre-empt, do NOT average down.
+- **RMD:** minor Astral ventilator recall (non-thesis product line) — watch only. −2.47%, cushion ~4.6% to 212.62 hard stop.
+- **JPM:** +3.34%, on the 10% trailing (floor 329.85, hwm 366.5). New $20B Qatar deal a positive. Earnings 10/13 BMO — no action yet.
 - **MDT / RSG:** slightly red; −7% hard stops the safety net; each converts to 10% trailing at +5%. Do not average down.
-- **This week:** no holding reports earnings; no binary macro print until PCE 9/30. WTD alpha −1.96% — the drag is single-stock banks/defensives lagging SPY's Monday pop; theses intact, plan is patience, not chasing.
-- **Redeploy queue if a slot opens (thesis break / stop-out):** TMO (only on a non-extended pullback) → ADM (needs a live ≥70 re-score) → GD/WMT on a 50dMA reclaim. Idle remainder → SPY floor per policy.
+- **This week:** no holding/bench reports earnings (all clear through 9/25); no binary macro print until PCE 9/30; Barr speaks 10:05 ET today (no policy surprise expected).
+- **Redeploy queue if a slot opens (thesis break / stop-out):** ELV (confirm IEX price/uptrend, ~68 strongest fresh) → GEHC (~64) → TMO only on a non-extended pullback (softening + extended +10.5%). Idle remainder → SPY floor per policy. All need a live ≥70 re-score + 2 verified signals + clean entry.
 - **Astra:** `memory/astra-proposals.md` present, **still no proposals** — nothing to fold into scoring.
 - **Cash ~$10.7k on target; sleeve 5/5, weekly buys 0/3 but no open slot.** No buy possible this week without a sell/swap.
 

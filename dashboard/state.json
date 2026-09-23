@@ -1,20 +1,20 @@
 {
-  "last_update": "2026-09-22 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-23 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96947.83,
+  "equity": 97092.00,
   "cash": 10661.62,
-  "day_pl": -721.59,
-  "day_pl_pct": -0.74,
-  "week_pl_pct": -0.41,
-  "spy_week_pct": 1.55,
-  "alpha_week_pct": -1.96,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "week_pl_pct": -0.27,
+  "spy_week_pct": 1.61,
+  "alpha_week_pct": -1.88,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 340.00, "pl_pct": 3.13, "stop": 329.85 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 773.67, "pl_pct": 1.17, "stop": null },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 213.88, "pl_pct": -1.89, "stop": 202.74 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 90.77, "pl_pct": -2.05, "stop": 86.18 },
-    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 221.97, "pl_pct": -2.91, "stop": 212.62 },
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 340.69, "pl_pct": 3.34, "stop": 329.85 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 773.81, "pl_pct": 1.19, "stop": null },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 214.50, "pl_pct": -1.61, "stop": 202.74 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 91.20, "pl_pct": -1.59, "stop": 86.18 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 222.99, "pl_pct": -2.47, "stop": 212.62 },
     { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 156.15, "pl_pct": -4.29, "stop": 151.73 }
   ],
   "recent_trades": [
@@ -28,6 +28,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-23 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: all 5 holdings healthy, no trades, watching CFR",
+      "body": "Ran the 4-agent research scan pre-open. No bad news on any holding and none reports earnings this week; JPM added a $20B Qatar deal, MDT got an FDA clearance. CFR is the one watch — fundamentals sound (MS upgrade, deposits growing), but bank-sector rotation left it ~2.8% above its stop. Sleeve full 5/5; nothing on the bench beats our weakest hold, so no swap. Re-check at the open."
+    },
+    {
       "ts": "2026-09-22 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $96,948 · day −0.74% · SPY −0.01% · alpha −0.73%",
@@ -38,12 +44,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes — quiet slightly-red half day, all stops in place",
       "body": "Re-verified account and all five stops live; no buys, no sells. Book −0.54% intraday, mostly JPM giving back; sleeve full 5/5. CFR tightest at the time."
-    },
-    {
-      "ts": "2026-09-22 08:32 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — executed the hold-and-manage plan",
-      "body": "Market confirmed open; held all positions, no stop changes. Sleeve 5/5 at cap, no warranted swap."
     }
   ]
 }
