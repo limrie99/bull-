@@ -1,3 +1,51 @@
+# 2026-09-23 15:00 CT — MARKET-CLOSE (Wed) · Day summary
+**Market:** CONFIRMED closed via `/v2/clock` (is_open=false; next_open 2026-09-24 09:30 ET). **Inbox:** no Pending items. **Astra:** `memory/astra-proposals.md` still empty. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
+
+**Closing account (`/v2/account`):** equity **$96,299.28**, cash $10,661.62 (~11.07%), long_mv $85,637.66, last_equity (Tue 9/22 close) $96,933.62, buying_power $282,431.93, status ACTIVE. daytrade_count null.
+
+**Scorecard (authoritative):**
+- Day P/L: **−$634.34 / −0.65%** (96,299.28 vs 96,933.62).
+- SPY day: **−0.71%** (IEX daily close 767.93 vs Tue 773.44).
+- **Alpha today: +0.06%** — a small win: both fell, but the book fell slightly less than the market.
+- WTD (base Fri 9/18 close $97,350.35): **−$1,051.07 / −1.08%.**
+- SPY WTD: **+0.83%** (767.93 vs 761.62). **Alpha WTD: −1.91%.**
+
+**Closing marks:**
+- JPM 34 @ 329.6956 → 337.53, +$266.37 / +2.38%. 10% trailing (floor 329.85, hwm 366.5); px below hwm → no conversion.
+- MDT 96 @ 92.67 → 89.30, −$323.52 / −3.64%. −7% hard 86.18 (cushion ~3.49%).
+- CFR 60 @ 163.15 → 154.26, −$533.40 / −5.45%. −7% hard 151.73; cushion **~1.64%** (tightest by far; tightened from ~2.8% at Tue close). No CFR/Texas-bank negative news.
+- RSG 44 @ 218.00 → 213.10, −$215.60 / −2.25%. −7% hard 202.74 (cushion ~4.86%).
+- RMD 42 @ 228.6274 → 222.30, −$265.75 / −2.77%. −7% hard 212.62 (cushion ~4.35%).
+- SPY 49 @ 764.716 → 767.72, +$147.18 / +0.39%. Index-floor sleeve, NO stop.
+
+**Open orders:** exactly 5, all VERIFIED live resting (JPM trailing `8a937ff6…`; MDT 86.18 `2768e81c…`; CFR 151.73 `cd725e5b…`; RSG 202.74 `93c80d32…`; RMD 212.62 `91671fa4…`). SPY unencumbered.
+
+**Trades today:** NONE. No thesis break, no stop hit, no +5% conversion, no open slot, no warranted swap. 0 closed orders today (verified via /v2/orders).
+
+**Risk checks:** (a) any un-stopped position ≤−7% → NO (worst CFR −5.45%). (b) any +5%+ needing conversion → NO (JPM +2.38% already trailing). (c) daily loss cap → −0.65%, well inside −3%.
+
+**What worked:**
+- We beat SPY today: −0.65% vs −0.71% (+0.06% alpha). JPM (+2.38%) and the SPY sleeve (+0.39%) cushioned the defensive drag.
+- Discipline held — no panic, no averaging down; every hard stop resting and verified (exactly 5 open orders), so zero exposure to an un-stopped drawdown.
+
+**What didn't:**
+- CFR keeps sliding (−5.45%, cushion now ~1.64%) on bank-sector rotation — no company-specific news, but it's the name most likely to hit its stop next.
+- WTD still behind by −1.91%: we only partly captured SPY's Monday pop (39% index sleeve) and our idiosyncratic banks/defensives (CFR, RMD, MDT) lagged.
+
+**Open questions for tomorrow:**
+- Does CFR stabilize or tag the 151.73 stop (~1.64% away)? If it tags, that's the plan working — no pre-empt, no average-down; re-add to watchlist. A stop-out opens a slot → redeploy queue.
+- Is the bank/defensive softness rate/rotation or name-specific? Pre-market news scan should re-confirm theses.
+- No holding reports earnings this week; next binary macro is PCE 9/30.
+
+**Handoff → pre-market Thu 9/24:**
+- Run the pre-market news + earnings + macro scan (fan out sub-agents). Re-confirm all 5 theses; check CFR especially for any adverse catalyst.
+- Sleeve 5/5 AT CAP, 0 slots; weekly buys 0/3 but no slot → no buy without a sell/swap; none warranted at close.
+- Redeploy queue if a slot opens: TMO (non-extended pullback) → ADM (live ≥70 re-score) → GD/WMT on 50dMA reclaim; idle → SPY floor.
+- Mandatory daily Telegram scorecard SENT this close (see below).
+- **Unverified:** none — account/positions/open-orders/clock/SPY all pulled live this run.
+
+---
+
 # 2026-09-23 ~12:10 CT — MIDDAY (Wed; market CONFIRMED open; NO TRADES)
 
 **Routine:** midday. Verify live state, manage risk in priority order, no new buys unless a high-conviction breaking catalyst. **NO TRADES** — sleeve 5/5 at cap, weekly buys 0/3 but no open slot; no thesis break, no stop hit, no +5% conversion, no warranted swap, no catalyst. Env: all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Astra proposals: present, **still empty** — nothing to fold. Synced origin/main at run start. Market CONFIRMED open via /v2/clock (is_open=true, 13:10 ET; next_close 16:00 ET).

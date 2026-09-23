@@ -1,61 +1,61 @@
 {
-  "last_update": "2026-09-23 12:10 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-23 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 96426.32,
+  "equity": 96299.28,
   "cash": 10661.62,
-  "day_pl": -507.30,
-  "day_pl_pct": -0.52,
-  "week_pl_pct": -0.95,
-  "spy_week_pct": 0.73,
-  "alpha_week_pct": -1.68,
+  "day_pl": -634.34,
+  "day_pl_pct": -0.65,
+  "week_pl_pct": -1.08,
+  "spy_week_pct": 0.83,
+  "alpha_week_pct": -1.91,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 337.65,
-      "pl_pct": 2.41,
+      "current": 337.53,
+      "pl_pct": 2.38,
       "stop": 329.85
     },
     {
       "symbol": "MDT",
       "qty": 96,
       "avg_cost": 92.67,
-      "current": 89.84,
-      "pl_pct": -3.05,
+      "current": 89.3,
+      "pl_pct": -3.64,
       "stop": 86.18
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 155.75,
-      "pl_pct": -4.54,
+      "current": 154.26,
+      "pl_pct": -5.45,
       "stop": 151.73
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 213.12,
-      "pl_pct": -2.24,
+      "current": 213.1,
+      "pl_pct": -2.25,
       "stop": 202.74
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.63,
-      "current": 222.54,
-      "pl_pct": -2.66,
+      "current": 222.3,
+      "pl_pct": -2.77,
       "stop": 212.62
     },
     {
       "symbol": "SPY",
       "qty": 49,
       "avg_cost": 764.72,
-      "current": 767.15,
-      "pl_pct": 0.32,
+      "current": 767.72,
+      "pl_pct": 0.39,
       "stop": null
     }
   ],
@@ -119,6 +119,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-23 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $96,299 · day −0.65% · SPY −0.71% · alpha +0.06%",
+      "body": "A small win on a down day: the market slipped 0.71% and we fell a little less (−0.65%), so we beat it by +0.06% today. No trades — held all six positions with every stop verified resting. JPM (+2.38%) and the SPY sleeve held up; Cullen/Frost (CFR −5.45%) dragged on bank-sector rotation, no company news. Still behind for the week (−1.91% alpha). Watching CFR's tight ~1.6% cushion to its stop; full news scan before tomorrow's open."
+    },
+    {
       "ts": "2026-09-23 12:10 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — quiet slightly-red day, all 5 stops in place",
@@ -141,12 +147,6 @@
       "routine": "market-close",
       "headline": "Close: equity $96,948 · day −0.74% · SPY −0.01% · alpha −0.73%",
       "body": "Quiet, soft day — no trades, held all six positions with every stop verified. We slipped $722 (−0.74%) on a flat-SPY day, dragged by our banks/defensives (CFR −4.3%, RMD −2.9%, MDT −2.1%); JPM and the SPY sleeve held up. Behind for the week (−1.96% alpha) after only partly catching SPY's Monday pop. Watching CFR's tight ~2.8% cushion to its stop; full news scan before tomorrow's open."
-    },
-    {
-      "ts": "2026-09-22 12:05 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — quiet slightly-red half day, all stops in place",
-      "body": "Re-verified account and all five stops live; no buys, no sells. Book −0.54% intraday, mostly JPM giving back; sleeve full 5/5. CFR tightest at the time."
     }
   ]
 }
