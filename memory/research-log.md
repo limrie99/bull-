@@ -1,3 +1,35 @@
+# 2026-09-23 ~12:10 CT — MIDDAY (Wed; market CONFIRMED open; NO TRADES)
+
+**Routine:** midday. Verify live state, manage risk in priority order, no new buys unless a high-conviction breaking catalyst. **NO TRADES** — sleeve 5/5 at cap, weekly buys 0/3 but no open slot; no thesis break, no stop hit, no +5% conversion, no warranted swap, no catalyst. Env: all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Astra proposals: present, **still empty** — nothing to fold. Synced origin/main at run start. Market CONFIRMED open via /v2/clock (is_open=true, 13:10 ET; next_close 16:00 ET).
+
+**Account (live 13:10 ET / 12:10 CT):** equity **$96,426.32**, cash **$10,661.62 (~11.06%)**, long_mv ~$85,764.70, last_equity (Tue 9/22 close) $96,933.62, buying_power $282,787.63, status ACTIVE. **Intraday −$507.30 / −0.52%** — well inside the −3% daily loss cap. daytrade_count null.
+
+**Positions (live marks):** JPM 34 @ 329.6956, px 337.65, +2.41%; MDT 96 @ 92.67, px 89.84, −3.05%; CFR 60 @ 163.15, px 155.75, −4.54%; RSG 44 @ 218.00, px 213.12, −2.24%; RMD 42 @ 228.6274, px 222.54, −2.66%; SPY 49 @ 764.7163, px 767.15, +0.32%.
+
+**Open orders VERIFIED (exactly 5, IDs unchanged):** JPM trailing 10% floor 329.85 hwm 366.5 `8a937ff6`; MDT −7% 86.18 `2768e81c`; CFR −7% 151.73 `cd725e5b`; RSG −7% 202.74 `93c80d32`; RMD −7% 212.62 `91671fa4`. SPY unencumbered by design. Truth (Alpaca) matches the market-open snapshot exactly.
+
+**Week-to-date (base Fri 9/18 close $97,350.35):** now $96,426.32 = **−0.95%**. SPY WTD (761.62 → 767.15) = **+0.73%**. **Alpha WTD ≈ −1.68%** — same story: single-stock banks/defensives lagging SPY's tech-led week; all theses intact.
+
+## Risk checks (priority order)
+- **(a) Any position −7% or worse un-stopped?** NO. Worst CFR −4.54% (cushion ~2.58% to 151.73 — tightest, THE WATCH). MDT −3.05% (~4.07%), RMD −2.66% (~4.46%), RSG −2.24% (~4.87%), JPM +2.41%, SPY +0.32% (no stop by policy). Nothing at/near a trigger → no news check required (rule 3a only triggers at −7%+).
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO. JPM +2.41% already on the 10% trailing; all others below +5%. Zero conversions pending.
+- **(c) Daily loss cap:** intraday −0.52% (equity $96,426.32 vs last_equity $96,933.62) — well inside the −3% cap. Not triggered (moot; no buys planned, sleeve full).
+
+## Decision
+- **NO ORDER.** No −7% breach, no +5% conversion, no stop hit. Sleeve 5/5 at cap → a buy needs a thesis break/stop-out first; none occurred. No high-conviction breaking catalyst at midday, so the "midday buy" exception does not apply. Nothing on the bench beats CFR ~72 at the ≥70 gate → no swap. Correct action: verify + hold.
+- **CFR** remains the only near-trigger watch (~2.58% cushion, slid a hair from 2.6% at the open). Fundamentals/thesis INTACT (MS OW $200, deposits growing, NIM 3.75%); risk is bank-sector rotation, not company news. If a continued rotation tags 151.73, let the hard stop fire — do NOT pre-empt, do NOT average down. On a stop-out a slot opens → redeploy queue (ELV ~68 confirm IEX trend → GEHC ~64 → TMO on a non-extended pullback; idle remainder → SPY floor). All require a live ≥70 re-score + 2 verified signals + clean entry.
+- **MDT** slid to −3.05% (was −2.42% at open) — still ~4.07% cushion to the 86.18 hard stop; no news, defensive med-tech thesis intact. Watch, do not act.
+
+## Speaker labels (this run)
+- **Research:** no fresh idea beats CFR (~72) on confirmed signals; no breaking catalyst on the tape. **Risk:** sleeve 5/5, no slot worth freeing, no swap; all 5 stops resting and verified; intraday −0.52% no cap concern; CFR tightest at ~2.58%. **Trader:** no order placed — nothing triggered. Outcome logged: **verified, chose not to trade.**
+
+## Handoff → market-close (Wed 2026-09-23)
+- Re-verify /v2/clock, account, positions, exactly 5 open orders. Compute the day's alpha-vs-SPY scorecard (base = Tue 9/22 close, last_equity $96,933.62). **Market-close owns the MANDATORY daily plain-English Telegram + dashboard message** — never skipped. CFR the watch (~2.58% cushion). Check for any +5% conversion (none pending now). Re-check inbox + Astra. No buy possible without a stop-out/swap.
+
+## Telegram
+- **NOT pushed** — a quiet midday check with no trade is explicitly on the do-NOT-push list per CLAUDE.md. The mandatory daily push is the market-close routine's job.
+
+---
 # 2026-09-23 ~08:46 CT — MARKET-OPEN (Wed; market CONFIRMED open; NO TRADES)
 
 **Routine:** market-open. Executed the pre-market handoff: verify live state, act only on a triggered signal. **NO TRADES** — sleeve 5/5 at cap, weekly buys 0/3 but no open slot; no thesis break, no stop hit, no +5% conversion, no warranted swap. Env: all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Astra proposals: present, **still empty** — nothing to fold. Synced origin/main at run start. Market CONFIRMED open via /v2/clock (is_open=true, 09:45 ET; next_close 16:00 ET).
