@@ -1,3 +1,29 @@
+# 2026-09-23 ~08:46 CT — MARKET-OPEN (Wed; market CONFIRMED open; NO TRADES)
+
+**Routine:** market-open. Executed the pre-market handoff: verify live state, act only on a triggered signal. **NO TRADES** — sleeve 5/5 at cap, weekly buys 0/3 but no open slot; no thesis break, no stop hit, no +5% conversion, no warranted swap. Env: all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Astra proposals: present, **still empty** — nothing to fold. Synced origin/main at run start. Market CONFIRMED open via /v2/clock (is_open=true, 09:45 ET; next_close 16:00 ET).
+
+**Account (live 09:45 ET):** equity **$96,769.67**, cash **$10,661.62 (~11.02%)**, long_mv ~$86,098.49, last_equity (Tue 9/22 close) $96,933.62, buying_power $283,749.02, status ACTIVE. **Intraday −$163.95 / −0.17%** — well inside the −3% daily loss cap. daytrade_count null.
+
+**Positions (live marks):** JPM 34 @ 329.6956, px 338.12, +2.55%; MDT 96 @ 92.67, px 90.43, −2.42%; CFR 60 @ 163.15, px 155.74, −4.54%; RSG 44 @ 218.00, px 214.23, −1.73%; RMD 42 @ 228.6274, px 222.66, −2.61%; SPY 49 @ 764.7163, px 771.40, +0.88%.
+
+**Open orders VERIFIED (exactly 5, IDs unchanged):** JPM trailing 10% floor 329.85 hwm 366.5 `8a937ff6`; MDT −7% 86.18 `2768e81c`; CFR −7% 151.73 `cd725e5b`; RSG −7% 202.74 `93c80d32`; RMD −7% 212.62 `91671fa4`. SPY unencumbered by design. Truth (Alpaca) matches the pre-market handoff exactly.
+
+## Risk checks
+- **(a) −7%+ un-stopped?** NO. Worst CFR −4.54% (cushion ~2.6% to 151.73 — tightest, THE WATCH). RMD −2.61% (~4.5%), MDT −2.42% (~4.7%), RSG −1.73% (~5.4%), JPM +2.55%, SPY +0.88% (no stop by policy).
+- **(b) +5%+ needing hard→trailing conversion?** NO. JPM +2.55% already trailing; all others below +5%. Zero conversions.
+- **(c) Daily loss cap:** intraday −0.17%, far under −3%. Not triggered (moot; no buys planned, sleeve full).
+
+## Decision
+- **NO ORDER.** Pre-market handoff had NO PENDING BUY (sleeve full, a buy needs a thesis break/stop-out first) and explicitly: do NOT force a trade to deploy cash (cash on the ~$10k floor, in policy). Nothing on the bench beats CFR ~72 at the ≥70 gate → no swap. No sell signal triggered on any of the 5. Correct action: verify + hold.
+- **CFR** remains the only near-trigger watch (~2.6% cushion). If a continued bank-sector rotation tags 151.73, let the hard stop fire — do NOT pre-empt, do NOT average down. On a stop-out a slot opens → redeploy queue (ELV ~68 confirm IEX trend → GEHC ~64 → TMO on a non-extended pullback; idle remainder → SPY floor). All require a live ≥70 re-score + 2 verified signals + clean entry at the moment.
+
+## Speaker labels (this run)
+- **Research:** no fresh idea beats CFR (~72) on confirmed signals; ELV (~68) still below gate + trend unverified. **Risk:** sleeve 5/5, no slot worth freeing, no swap; all 5 stops resting and verified; intraday −0.17% no cap concern. **Trader:** no order placed — nothing triggered. Outcome logged: **verified, chose not to trade.**
+
+## Handoff → midday (Wed 2026-09-23)
+- Re-verify /v2/clock, account, positions, exactly 5 open orders. CFR the watch (~2.6% cushion). Check for any +5% conversion (none pending now). Re-check inbox + Astra proposals. No buy possible without a stop-out/swap. Telegram: NOT pushed (market-open with no trade is not a mandatory-push event per CLAUDE.md).
+
+---
 # 2026-09-23 ~06:20 CT — PRE-MARKET (Wed; research routine, NO TRADES; market opens 09:30 ET)
 
 **Routine:** pre-market · 4-agent parallel scan (macro / earnings / positions / opportunity scout) via Perplexity sonar-pro; all holding + bench 50dMAs re-verified on Alpaca-IEX daily bars through the **9/22 close** (primary source — overrides several Perplexity-sourced provisional prices the scout flagged low-confidence, notably ADM's 50dMA). Conviction = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech. Buy needs 2+ VERIFIED signals AND Conviction ≥70 AND a clean, non-extended entry. **NO TRADES (market closed + research routine).** Env: all 4 required vars present (EQUIBLES empty → skipped). Inbox: **no Pending items.** Astra proposals file: present, **still "No proposals yet"** — nothing to fold into scoring today. Synced origin/main at run start. Market CONFIRMED closed via /v2/clock (is_open=false; next_open 2026-09-23 09:30 ET). Account (live pre-open, THIN marks — NOT a scorecard): equity **$97,092.00**, cash **$10,661.62 (~10.98%)**, long_mv **$86,430.38**, last_equity (Tue 9/22 close) **$96,933.62**, status ACTIVE. Conviction sleeve **5/5 (JPM, MDT, CFR, RSG, RMD) — AT CAP, 0 slots open.** Weekly conviction buys **0/3** (week 9/21–9/25) but with the sleeve full a new buy is only possible via a candidate SWAP (reason about it, not automatic). **All 5 individual stops VERIFIED live resting GTC** (JPM 10% trailing floor 329.85/hwm 366.5 `8a937ff6`; MDT −7% 86.18 `2768e81c`; CFR −7% 151.73 `cd725e5b`; RSG −7% 202.74 `93c80d32`; RMD −7% 212.62 `91671fa4`); SPY unencumbered by design (exactly 5 open orders). **Note:** Alpaca last_equity ($96,933.62) is authoritative and differs slightly from yesterday's close-routine snapshot ($96,947.83) — trust Alpaca; the ~$14 gap is mark timing, logged not reconciled.

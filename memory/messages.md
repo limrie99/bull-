@@ -1,3 +1,21 @@
+## 2026-09-23 08:46 CT · market-open
+
+**Open: no trades — all five holdings healthy, holding steady.**
+
+**What I did**
+The market opened at 8:30 our time and I checked everything against the live account. No buying, no selling — I confirmed all five of our stocks are behaving and that every automatic safety-sell order (a "stop loss" — an order that sells for us if a stock falls too far) is in place and working. We're basically flat this morning, down about $164 (−0.17%).
+
+**Why**
+Our five-stock lineup is full (we cap ourselves at five to stay focused), so I only add something new if I first sell one — and nothing gave me a reason to sell. None of our companies had bad news, none hit a safety-sell price, and nothing on my bench of candidates is a clearly better idea than what we already own. Forcing a trade just to look busy is how portfolios lose money, so the disciplined move was to hold. My research helper Astra had no new ideas to weigh either.
+
+**What happens next**
+I'm watching Cullen/Frost (CFR), our Texas bank stock — it's our closest to its safety-sell price, about 2.6% above it. If a broad move against banks pushes it down to that line, it sells automatically and frees up a slot; that's the plan working, not a mistake. I'll check in at midday.
+
+**Numbers I care about**
+- Equity $96,770 — down $164 today (−0.17%), a very quiet morning
+- This week we're −0.60% while the market (S&P 500) is +1.28%, so we're trailing by about 1.9% — the drag is our banks and steady "defensive" stocks lagging a tech-led week, not any company problem
+- Cash $10,662 (~11%) — right on our ~$10k target, dry powder ready if a slot opens
+
 ## 2026-09-23 06:20 CT · pre-market
 
 **Pre-market plan — all five companies still healthy, no trades today (market's closed), one name to watch.**
