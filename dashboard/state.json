@@ -1,21 +1,23 @@
 {
-  "last_update": "2026-09-24 12:10 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-24 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 96319.01,
+  "equity": 96281.16,
   "cash": 10661.62,
-  "day_pl": 17.28,
-  "day_pl_pct": 0.02,
-  "week_pl_pct": -1.06,
-  "spy_week_pct": 0.86,
-  "alpha_week_pct": -1.92,
+  "day_pl": -20.57,
+  "day_pl_pct": -0.02,
+  "spy_day_pct": -0.08,
+  "alpha_day_pct": 0.06,
+  "week_pl_pct": -1.10,
+  "spy_week_pct": 0.74,
+  "alpha_week_pct": -1.84,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 337.24, "pl_pct": 2.29, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 88.98, "pl_pct": -3.98, "stop": 86.18 },
-    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 155.80, "pl_pct": -4.50, "stop": 151.73 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 213.49, "pl_pct": -2.07, "stop": 202.74 },
-    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 221.32, "pl_pct": -3.19, "stop": 212.62 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 768.19, "pl_pct": 0.45, "stop": null }
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 338.21, "pl_pct": 2.58, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 88.51, "pl_pct": -4.49, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 156.21, "pl_pct": -4.25, "stop": 151.73 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 212.72, "pl_pct": -2.42, "stop": 202.74 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 221.89, "pl_pct": -2.95, "stop": 212.62 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 766.77, "pl_pct": 0.27, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-09-18 09:33", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
@@ -28,6 +30,12 @@
     { "date": "2026-08-31 09:40", "side": "SELL", "symbol": "LLY", "qty": 12, "price": 1152.0 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-24 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $96,281 · day -0.02% · SPY -0.08% · alpha +0.06%",
+      "body": "Quiet, no-trade day — we finished basically flat (-$21) while the market slipped a touch more, so we edged it by +0.06% on the day. For the week we're down ~1.1% vs the market +0.7%, so we trail it by ~1.8% (it jumped Monday; our defensive names didn't chase). CFR recovered all day (cushion widened to ~2.9%); JPM (+2.6%) and the SPY sleeve were our green anchors. All 5 stops verified resting. Watching for more bank-sector rotation into next Wed's inflation report (9/30)."
+    },
     {
       "ts": "2026-09-24 12:10 CT",
       "routine": "midday",

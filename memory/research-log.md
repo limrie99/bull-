@@ -1,3 +1,39 @@
+# 2026-09-24 ~15:00 CT — MARKET-CLOSE (Thu) · Day summary · NO TRADES · sleeve 5/5, all stops verified
+
+**Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-25 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **No trades this routine** (0 closed orders today).
+
+## Closing account (`/v2/account`)
+- equity **$96,281.16**, cash **$10,661.62 (~11.07%)**, long_mv **$85,619.54**, last_equity (Wed 9/23 close) **$96,301.73**, status ACTIVE.
+
+## Day summary
+- **Closing equity: $96,281.16.** Day P/L **−$20.57 / −0.02%** — essentially flat.
+- **SPY day: −0.08%** (767.93 → 767.29). **Alpha today: +0.06%** — edged the market by a hair on a quiet down-tape day.
+- **WTD (base Fri 9/18 close $97,350.35): −$1,069.19 / −1.10%.** SPY WTD **+0.74%** (761.62 → 767.29). **Alpha WTD: −1.84%** (behind).
+- **Trades placed: 0.**
+- **What worked:** (1) Book held flat on a risk-off day while SPY slipped — tiny positive daily alpha. (2) CFR (THE WATCH) RECOVERED all day (open low 154.33 → close 156.21); hard-stop cushion widened from ~1.68% at the open to ~2.87% at the close. (3) SPY index sleeve and JPM both green, cushioning the red defensives.
+- **What didn't:** (1) WTD we trail SPY by 1.84% — SPY gapped up Monday (773.52) while our defensive/regional-bank names lagged the risk-off rotation. (2) MDT slid to −4.49% (cushion now ~2.63%, second-tightest) on turnaround/margin skepticism — no discrete catalyst, thesis intact but soft.
+- **Open questions for tomorrow:** Does the regional-bank/risk-off rotation resume (CFR & MDT are the tightest cushions)? 10Y is near multi-year highs into next Wed's PCE (9/30) — the next binary macro. No fresh rate-sensitive beta the session before it per the entry-timing advisory.
+
+## Positions at the close (`/v2/positions`, official close marks)
+- **JPM** 34 @ 329.70 → 338.21, +$289.49 / **+2.58%**. 10% trailing (floor 329.85, hwm 366.5); below +5% vs cost AND below hwm → no conversion. Earnings 10/13 BMO.
+- **MDT** 96 @ 92.67 → 88.51, −$399.36 / **−4.49%**. −7% hard 86.18; cushion ~2.63%.
+- **CFR** 60 @ 163.15 → 156.21, −$416.40 / **−4.25%**. −7% hard 151.73; cushion ~2.87% (recovered all day). THE WATCH; clean on company news; slide = bank-sector rotation.
+- **RSG** 44 @ 218.00 → 212.72, −$232.32 / **−2.42%**. −7% hard 202.74; cushion ~4.69%. Div $0.67 ex-date 10/2.
+- **RMD** 42 @ 228.63 → 221.89, −$282.97 / **−2.95%**. −7% hard 212.62; cushion ~4.18%.
+- **SPY** 49 @ 764.72 → 766.771, +$100.68 / **+0.27%**. Index-floor sleeve, NO stop by design (~39.0% of book, exempt by policy).
+
+## Open orders VERIFIED (exactly 5, IDs unchanged from the open)
+JPM trailing 10% floor 329.85 hwm 366.5 `8a937ff6`; MDT −7% 86.18 `2768e81c`; CFR −7% 151.73 `cd725e5b`; RSG −7% 202.74 `93c80d32`; RMD −7% 212.62 `91671fa4`. SPY unencumbered by design.
+
+## Risk checks (close)
+- (a) any un-stopped position ≤ −7%? **NO** — worst MDT −4.49% / CFR −4.25%, both above their hard stops. (b) any +5%+ needing hard→trailing conversion? **NO** — JPM +2.58% already trailing; all others red. (c) daily loss cap: equity $96,281.16 vs last_equity $96,301.73 = **−0.02%**, far inside −3%.
+
+## Decision / plan
+- **NO TRADES.** Hold the book; let the automatic stops do their job. Pushed the mandatory daily "How we're doing" scorecard to `messages.md` and Telegram per the standing rule. Next routine: pre-market Fri 9/25 ~06:15 CT — re-verify clock/account/positions/exactly-5-open-orders; CFR & MDT are the tightest cushions to watch; no fresh rate-sensitive beta before 9/30 PCE.
+- **Unverified:** none — clock/account/positions/open-orders/portfolio-history/SPY-bars all pulled live this run.
+
+---
+
 # 2026-09-24 ~08:46 CT — MARKET-OPEN (Thu) · NO TRADES · sleeve 5/5, all stops verified
 
 **Routine:** market-open. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true; next_close 2026-09-24 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **No trades this routine.**

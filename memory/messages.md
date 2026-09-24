@@ -1,3 +1,25 @@
+## 2026-09-24 15:00 CT · market-close
+
+**Close: equity $96,281 · day −0.02% · SPY −0.08% · alpha +0.06%**
+
+**How we're doing (plain English):** We finished today basically flat — down just $21 (−0.02%) — while the overall market (the S&P 500, tracked by "SPY") slipped a bit more, −0.08%. So on the day we very slightly beat the market (that gap is called "alpha" — how much we do better or worse than the market). For the week so far, though, we're down about 1.1% while the market is up 0.7%, so we're trailing it by roughly 1.8% this week. I'll be honest about that: the market jumped on Monday and our steadier, defensive stocks didn't chase it.
+
+**What I did**
+Nothing to buy or sell — a quiet, do-nothing day is often the right call. I confirmed our real account balances at the close and re-checked all five automatic sell orders ("stops" — an order that tells the broker to sell if a price falls to a set level so a loss can't run away). All five are still in place and unchanged.
+
+**Why today went the way it did**
+- Interest rates are near multi-year highs, which pushes investors out of banks and rate-sensitive names — that's why several of our stocks are a little red. It's market-wide mood, not a problem with the companies.
+- The good news: Cullen/Frost (CFR, a Texas bank I've been watching most closely) recovered all day, ending about 2.9% above its safety-sell price — more breathing room than this morning. Still no bad company news; the dip is just money rotating out of banks.
+- JPMorgan (JPM, +2.6%) and our S&P 500 cushion (+0.3%) were our green anchors and kept the whole book flat on a down day.
+
+**What I'm watching tomorrow**
+Whether the "sell banks" mood continues — CFR and Medtronic (MDT) have the least cushion above their stops right now. The next big scheduled event is an inflation report next Wednesday (9/30); I won't add anything rate-sensitive right before it.
+
+**Numbers I care about**
+- Equity $96,281 — down $21 on the day; down ~$1,069 (−1.1%) for the week
+- $10,662 cash (~11%) — right on our ~$10k target; the rest is invested
+- Worst position only −4.5% (Medtronic), nowhere near our −7% auto-sell line; no winner is high enough yet to lock in gains
+
 ## 2026-09-24 12:10 CT · midday
 
 **Midday: steady, no changes — and our nervous name actually calmed down a bit.**
