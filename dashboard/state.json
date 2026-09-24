@@ -1,152 +1,56 @@
 {
-  "last_update": "2026-09-23 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-24 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96299.28,
+  "equity": 96057.06,
   "cash": 10661.62,
-  "day_pl": -634.34,
-  "day_pl_pct": -0.65,
-  "week_pl_pct": -1.08,
+  "day_pl": -244.67,
+  "day_pl_pct": -0.25,
+  "week_pl_pct": -1.33,
   "spy_week_pct": 0.83,
-  "alpha_week_pct": -1.91,
+  "alpha_week_pct": -2.16,
   "positions": [
-    {
-      "symbol": "JPM",
-      "qty": 34,
-      "avg_cost": 329.7,
-      "current": 337.53,
-      "pl_pct": 2.38,
-      "stop": 329.85
-    },
-    {
-      "symbol": "MDT",
-      "qty": 96,
-      "avg_cost": 92.67,
-      "current": 89.3,
-      "pl_pct": -3.64,
-      "stop": 86.18
-    },
-    {
-      "symbol": "CFR",
-      "qty": 60,
-      "avg_cost": 163.15,
-      "current": 154.26,
-      "pl_pct": -5.45,
-      "stop": 151.73
-    },
-    {
-      "symbol": "RSG",
-      "qty": 44,
-      "avg_cost": 218.0,
-      "current": 213.1,
-      "pl_pct": -2.25,
-      "stop": 202.74
-    },
-    {
-      "symbol": "RMD",
-      "qty": 42,
-      "avg_cost": 228.63,
-      "current": 222.3,
-      "pl_pct": -2.77,
-      "stop": 212.62
-    },
-    {
-      "symbol": "SPY",
-      "qty": 49,
-      "avg_cost": 764.72,
-      "current": 767.72,
-      "pl_pct": 0.39,
-      "stop": null
-    }
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 337.50, "pl_pct": 2.37, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 89.50, "pl_pct": -3.42, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 153.35, "pl_pct": -6.01, "stop": 151.73 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 213.10, "pl_pct": -2.25, "stop": 202.74 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 222.30, "pl_pct": -2.77, "stop": 212.62 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 763.56, "pl_pct": -0.15, "stop": null }
   ],
   "recent_trades": [
-    {
-      "date": "2026-09-18 09:33",
-      "side": "BUY",
-      "symbol": "RMD",
-      "qty": 42,
-      "price": 228.63
-    },
-    {
-      "date": "2026-09-18 09:33",
-      "side": "BUY",
-      "symbol": "RSG",
-      "qty": 44,
-      "price": 218.0
-    },
-    {
-      "date": "2026-09-18 08:35",
-      "side": "SELL",
-      "symbol": "SPY",
-      "qty": 26,
-      "price": 760.76
-    },
-    {
-      "date": "2026-09-17 09:34",
-      "side": "BUY",
-      "symbol": "MDT",
-      "qty": 96,
-      "price": 92.67
-    },
-    {
-      "date": "2026-09-14 09:31",
-      "side": "SELL",
-      "symbol": "ATI",
-      "qty": 47,
-      "price": 190.37
-    },
-    {
-      "date": "2026-09-09 09:35",
-      "side": "BUY",
-      "symbol": "CFR",
-      "qty": 60,
-      "price": 163.15
-    },
-    {
-      "date": "2026-09-04 09:32",
-      "side": "SELL",
-      "symbol": "SNPS",
-      "qty": 24,
-      "price": 387.5
-    },
-    {
-      "date": "2026-08-31 09:40",
-      "side": "SELL",
-      "symbol": "LLY",
-      "qty": 12,
-      "price": 1152.0
-    }
+    { "date": "2026-09-18 09:33", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
+    { "date": "2026-09-18 09:33", "side": "BUY", "symbol": "RSG", "qty": 44, "price": 218.0 },
+    { "date": "2026-09-18 08:35", "side": "SELL", "symbol": "SPY", "qty": 26, "price": 760.76 },
+    { "date": "2026-09-17 09:34", "side": "BUY", "symbol": "MDT", "qty": 96, "price": 92.67 },
+    { "date": "2026-09-14 09:31", "side": "SELL", "symbol": "ATI", "qty": 47, "price": 190.37 },
+    { "date": "2026-09-09 09:35", "side": "BUY", "symbol": "CFR", "qty": 60, "price": 163.15 },
+    { "date": "2026-09-04 09:32", "side": "SELL", "symbol": "SNPS", "qty": 24, "price": 387.5 },
+    { "date": "2026-08-31 09:40", "side": "SELL", "symbol": "LLY", "qty": 12, "price": 1152.0 }
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-24 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Cautious risk-off open · no trades · CFR the watch (~1% above its stop)",
+      "body": "Overnight scan done. Risk-off tape — 10Y Treasury yield above 5.1% (highest since 2007), hawkish Fed speakers today. All 5 theses intact; no company-specific bad news. CFR (~1.06% above its 151.73 stop) may tag it on bank-sector rotation — if so, that's the safety net working; no averaging down. Sleeve 5/5, no buys possible. Bench if a slot opens: GD, then TMO on a pullback."
+    },
+    {
       "ts": "2026-09-23 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $96,299 · day −0.65% · SPY −0.71% · alpha +0.06%",
-      "body": "A small win on a down day: the market slipped 0.71% and we fell a little less (−0.65%), so we beat it by +0.06% today. No trades — held all six positions with every stop verified resting. JPM (+2.38%) and the SPY sleeve held up; Cullen/Frost (CFR −5.45%) dragged on bank-sector rotation, no company news. Still behind for the week (−1.91% alpha). Watching CFR's tight ~1.6% cushion to its stop; full news scan before tomorrow's open."
+      "headline": "Equity $96,299 · day -0.65% · beat SPY by +0.06% · WTD alpha -1.91%",
+      "body": "Quiet close, no trades. We fell slightly less than the market on a down day (+0.06% alpha). JPM (+2.4%) and the SPY sleeve cushioned. CFR keeps sliding on bank-sector rotation (cushion ~1.64%) — the name most likely to hit its stop next. All 5 stops verified resting."
     },
     {
       "ts": "2026-09-23 12:10 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — quiet slightly-red day, all 5 stops in place",
-      "body": "Re-verified the live account and all five stops (exactly 5 open orders); no buys, no sells. Book −0.52% intraday, a soft-but-orderly session; sleeve full 5/5 so a buy needs a sell first, and nothing triggered one. No holding is near its stop or the +5% conversion mark, inbox/Astra empty. CFR still the tightest watch at ~2.6% above its stop. Market-close sends the full daily scorecard this afternoon."
+      "headline": "Quiet midday · no trades · CFR the watch",
+      "body": "Intraday -0.52%, well inside the loss cap. Sleeve 5/5, no thesis break, no +5% conversion. CFR tightest at ~2.58% cushion; all theses intact. Verified and held."
     },
     {
       "ts": "2026-09-23 08:46 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — all 5 holdings healthy, day −0.17%",
-      "body": "Verified live state at the open: market confirmed open, all 5 stops resting (exactly 5 open orders), sleeve 5/5 at cap. No thesis break, no stop hit, no +5% conversion, no warranted swap, inbox/Astra empty — so we hold. CFR is the watch (~2.6% above its safety-sell). Cash ~$10.7k on target."
-    },
-    {
-      "ts": "2026-09-23 06:20 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market: all 5 holdings healthy, no trades, watching CFR",
-      "body": "Ran the 4-agent research scan pre-open. No bad news on any holding and none reports earnings this week; JPM added a $20B Qatar deal, MDT got an FDA clearance. CFR is the one watch — fundamentals sound (MS upgrade, deposits growing), but bank-sector rotation left it ~2.8% above its stop. Sleeve full 5/5; nothing on the bench beats our weakest hold, so no swap. Re-check at the open."
-    },
-    {
-      "ts": "2026-09-22 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $96,948 · day −0.74% · SPY −0.01% · alpha −0.73%",
-      "body": "Quiet, soft day — no trades, held all six positions with every stop verified. We slipped $722 (−0.74%) on a flat-SPY day, dragged by our banks/defensives (CFR −4.3%, RMD −2.9%, MDT −2.1%); JPM and the SPY sleeve held up. Behind for the week (−1.96% alpha) after only partly catching SPY's Monday pop. Watching CFR's tight ~2.8% cushion to its stop; full news scan before tomorrow's open."
+      "headline": "No trades at the open · sleeve full · stops verified",
+      "body": "All 5 stops resting and verified, IDs unchanged. No triggered signal, no open slot. CFR the watch; theses intact."
     }
   ]
 }

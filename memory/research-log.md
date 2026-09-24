@@ -1,3 +1,54 @@
+# 2026-09-24 ~06:15 CT — PRE-MARKET (Thu) · Research only, NO TRADES (market closed)
+
+**Routine:** pre-market research fan-out (macro + earnings + positions + scout sub-agents, Perplexity sonar-pro). Market CONFIRMED closed via `/v2/clock` (is_open=false; next_open 2026-09-24 09:30 ET). **Inbox:** no Pending items. **Astra:** `memory/astra-proposals.md` present, **still empty** — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **No trades — market closed; research only.**
+
+**Pre-market account (`/v2/account`, indicative pre-open marks):** equity **$96,057.06**, cash **$10,661.62 (~11.10%)**, long_mv $85,395.44, last_equity (Wed 9/23 close) $96,301.73, buying_power $281,753.71, status ACTIVE. daytrade_count null.
+
+**Open orders VERIFIED (exactly 5, IDs unchanged from Wed close):** JPM trailing 10% floor 329.85 hwm 366.5 `8a937ff6`; MDT −7% 86.18 `2768e81c`; CFR −7% 151.73 `cd725e5b`; RSG −7% 202.74 `93c80d32`; RMD −7% 212.62 `91671fa4`. SPY unencumbered by design.
+
+## Market context (macro sub-agent)
+- **NET: RISK-OFF.** US equity futures lower (ES ~−0.7%, NQ ~−0.9%). Driver is a **sharp jump in Treasury yields: 10Y above 5.1% — highest since 2007** (up ~15bp Wed), 2Y ~4.89%. "Higher-for-longer" reinforced.
+- **Fed:** heavy hawkish speaker slate today — Williams (~8:10 ET, voter), Barkin (~12:00), Hammack (~12:50), Paulson (~2:10) + Cleveland Fed inflation conference.
+- **Data today (Thu 9/24):** 8:30 ET initial + continuing jobless claims (key labor read); Q2 international transactions. Fri 9/25: consumer sentiment/confidence, possible durable goods.
+- **FX/commodities:** DXY firmer; WTI ~$91.5 (−0.8%); gold ~$4,255–4,287 (−0.8% to −1.5%).
+- **Global:** Asia mixed (Nikkei +1.3%, Hang Seng −0.4%); Europe lower (Stoxx 600 −0.4%, DAX −0.7%).
+- **Next binary macro: PCE inflation (Aug) — Wed 9/30, 8:30 ET** (with Q2 GDP 3rd est). Treat 9/30 as the high-impact day. No fresh rate-sensitive/high-beta entry the session before it per the entry-timing advisory.
+- **Read for the book:** rate-sensitive/long-duration under pressure; banks mixed (higher long yields help NIM but risk-off/curve cuts both ways). Not a day to chase; mind the −3% daily loss cap.
+
+## Portfolio watch (position sub-agent — all theses INTACT)
+- **CFR — THE WATCH (tightest, mechanically fragile).** Pre-market px ~$153.35 vs 151.73 hard stop = **cushion ~1.06%** (slid from ~1.64% at Wed close). Position scan is **CLEAN on company-specific news** — no Frost downgrade, no deposit/credit warning, no insider-sale filing; last real item stale (7/30 Q2 beat, healthy credit). No confirmed broad regional-bank negative catalyst either. Verdict: the ~6% slide is **risk-off / regional-bank rotation, NOT a thesis break.** If a rate/rotation move tags 151.73 today, **that is the plan working — do NOT pre-empt, do NOT average down.** A stop-out opens a slot → redeploy queue below. (Caveat: search coverage thin; market-open should re-check for a late downgrade/insider filing before the open.)
+- **JPM +2.4%, on 10% trailing (floor 329.85, hwm 366.5).** News POSITIVE/strengthening — 9/21 QIA/JPMAM $20B partnership ($15B public-equity mandate + $5B US middle-market private credit). Let it run. Earnings 10/13 BMO.
+- **MDT −3.4%, cushion ~3.7% to 86.18.** Effectively clean; weakness = investor skepticism on turnaround/margin pace, not a discrete catalyst. Recent news supportive (LigaSure RAS FDA clearance on Hugo; Cornerstone Robotics partnership). Thesis intact but soft. Watch only.
+- **RMD −2.8%, cushion ~4.4% to 212.62.** Clean; no fresh Astral-recall or GLP-1 item (longer-run overhang, not new). Intact.
+- **RSG −2.2%, cushion ~4.9% to 202.74.** Clean/mildly positive; div $0.67 ex-date Oct 2; was slightly GREEN Wed while S&P −0.8% (defensive doing its job). Intact.
+- **SPY 49 sh, index-floor sleeve, no stop by design.** ~39% of book (exempt from 20%/max-5/max-3 caps by policy).
+
+## Earnings check (earnings sub-agent)
+- **No Bull holding or watchlist name reports in the next 3 trading days.** Earliest is JPM 10/13. MDT ~Nov 17; CFR ~Oct 29; RSG ~Oct 22–29; RMD ~Oct 29; TMO ~Oct 28; ADM ~Oct 27; GD ~Oct 23; WMT ~Nov 19 (some estimated, all outside the 3-day window). **Book fully clear of the earnings blackout.**
+- Today's notable reporters (not held): DRI, PAYX, SNX (BMO); COST, LEN (AMC). COST + ACN in blackout → not initiable now.
+
+## Buy candidates (scout sub-agent — bench for a slot if CFR stops out; NO buy possible now: sleeve 5/5, market closed)
+| Rank | Ticker | Sector | Signals matched | Rough Conviction | Entry note |
+|---|---|---|---|---|---|
+| 1 | **TMO** (Thermo Fisher) | Healthcare tools | #4 (HSBC→strong buy 9/2; UBS→Buy 9/9 PT $730), #6 (fresh 12-mo high, >50/200dMA), #3 (bioprocessing secular). NOT #1 (guide affirmed, not raised) | **~72** (only name over gate) | **EXTENDED** — just printed a 12-mo high; the "non-extended pullback" bench thesis no longer holds. Wait for a pullback toward the 50dMA. No blackout. |
+| 2 | **GD** (General Dynamics) | Defense/industrials | #4 (Zacks→#2 Buy 9/15), #6 (50dMA reclaim intact, >200dMA), #3 (defense/reshoring) | ~67 | **BEST ENTRY** — near 50dMA, not extended; fits defensive/higher-for-longer tape. Caveat: consensus PT ≈ price (limited street upside). No blackout. |
+| 3 | **ADM** (Archer-Daniels) | Ag/staples | #1 (RAISED FY26 EPS guide ~9/15 to $5.15–5.60, +22% mid), weak #6 (soft/sideways trend) | ~60 | Near 50dMA, range-bound; Corient trimmed stake 9/19 (no insider buy). Cyclical, not the low-rate-sens defensive the tape wants. Confirm trend firms. |
+| 4 | FITB (Fifth Third) | Regional bank | #4 (Citi→Buy 9/22), #5 (financials strong sector) | ~58 | MANDATE MISMATCH — rate-BENEFICIARY (high rate-sens + deposit/credit risk), not the low-rate-sens quality the tape wants. Skip unless we want direct rate exposure. |
+| — | WMT | Staples | scan returned NO fresh dated data | n/a | Cannot score on inference; pull live price + 50dMA before scoring. |
+
+**Redeploy queue if a slot opens (updated):** **GD** (best entry, near 50dMA, needs live ≥70 re-score) → **TMO** (only name ≥70 but currently extended; wait for a 50dMA pullback) → **ADM** (needs trend to firm on a live re-score). All require a live ≥70 re-score + 2 verified signals + clean, non-extended entry + orderly tape. **None actionable now** (sleeve 5/5, no open slot, market closed, risk-off tape into 9/30 PCE).
+
+## Sell candidates
+- **NONE by decision.** No thesis break on any holding. The only near-trigger is CFR (~1.06% cushion) — but that is a **mechanical hard-stop watch, not a discretionary sell.** If it tags 151.73, the −7% hard stop fires automatically; we do NOT pre-empt or average down. Everything else has comfortable cushion.
+
+## Decision / plan for the open (Thu 9/24)
+- **NO TRADES this routine** (market closed, research only). Sleeve 5/5 AT CAP, 0 open slots; weekly conviction buys 0/3 (week 9/21–9/25) but no slot → no buy without a stop-out/swap; none warranted.
+- **Market-open handoff:** re-verify /v2/clock, account, positions, exactly 5 open orders. **Re-check CFR** for any late downgrade/insider filing before the open (thin overnight coverage). On a risk-off tape, CFR may tag 151.73 — if so, let the hard stop fire (the plan working), then a slot opens → GD/TMO/ADM redeploy queue (live ≥70 re-score, but NOT the session before 9/30 PCE for rate-sensitive names). Do NOT initiate fresh rate-sensitive beta into a risk-off tape ahead of the 9/30 binary.
+- No +5% conversion pending (JPM already trailing; all others red).
+- **Unverified:** none — account/positions/open-orders/clock all pulled live this run. Position/macro/earnings news via Perplexity sub-agents (scout conviction scores are rough pre-market estimates, re-score live before any order).
+
+---
+
 # 2026-09-23 15:00 CT — MARKET-CLOSE (Wed) · Day summary
 **Market:** CONFIRMED closed via `/v2/clock` (is_open=false; next_open 2026-09-24 09:30 ET). **Inbox:** no Pending items. **Astra:** `memory/astra-proposals.md` still empty. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
 

@@ -1,3 +1,21 @@
+## 2026-09-24 06:15 CT · pre-market
+
+**Good morning — a cautious open ahead. I scanned overnight and made no changes; here's the plan.**
+
+**What I did**
+Before the market opens (9:30 ET / 8:30 CT), I sent my research team out overnight: one to read the big-picture economy, one to check who reports earnings today, one to check the news on each of our five stocks, and one to hunt for new ideas. No trades — the market is closed, and this is a look-before-we-leap routine. I confirmed all five of our automatic safety-net sell orders ("stop losses" — orders that sell for us if a stock falls too far) are in place.
+
+**Why**
+It's shaping up to be a nervous ("risk-off") morning. Interest rates jumped — the 10-year Treasury yield is above 5.1%, the highest since 2007 — and several Federal Reserve officials speak today, so investors are cautious. That pressures our more interest-rate-sensitive names. The good news: none of our five stocks has any bad company-specific news. Our weakest one, the Texas bank Cullen/Frost (CFR), keeps drifting lower purely on the whole banking sector cooling off, not anything wrong with the bank itself.
+
+**What happens next**
+CFR is now sitting only about 1% above its automatic sell price ($151.73). If today's jitters push it there, it sells itself — that's our safety net doing exactly its job, and I won't fight it or "average down." If a slot frees up, my top bench idea is General Dynamics (a defense company with a clean entry). I'll check in at the open.
+
+**Numbers I care about**
+- Equity ~$96,057 (we started at $100,000; roughly $10,662 is cash, about 11% — right on our ~$10k target)
+- CFR cushion: ~1.06% to its stop — the tightest in the portfolio, worth watching today
+- No stock we own or watch reports earnings for at least 3 trading days, so no surprise-report risk this week
+
 ## 2026-09-23 15:00 CT · market-close
 
 **Close: equity $96,299 · day −0.65% · SPY −0.71% · alpha +0.06% — a small win on a down day.**
