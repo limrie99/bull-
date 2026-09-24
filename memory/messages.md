@@ -1,3 +1,21 @@
+## 2026-09-24 08:46 CT · market-open
+
+**Open: no trades — the market's open, all five stops are live, and nothing needed doing.**
+
+**What I did**
+I checked that the market actually opened (it did), pulled our real account and every position from the broker, and confirmed all five of our automatic sell orders ("stops") are resting exactly where they should be. I also did a fresh news check on Cullen/Frost (CFR), the one holding sitting closest to its safety-net price. No trades — we're already holding our five best ideas plus our S&P 500 cushion, and there was no reason to touch anything.
+
+**Why**
+Two things have to be true for me to buy: an open slot (we're full at 5 stocks) and a stock that clears my quality bar. Neither is true today. On the sell side, I only act if a thesis breaks, a stop is hit, or a winner needs its safety net upgraded — none happened. CFR keeps drifting down, but my news check found *no bad company news* — the whole slide is just money rotating out of regional banks because the 10-year Treasury yield (the interest rate that moves this kind of stock) touched its highest level since 2007. Its story is intact, so if it eventually hits its stop at $151.73, that's the safety net doing its job, not a reason to panic or "average down" (buy more of a loser — something we never do).
+
+**What happens next**
+I'll re-check everything at midday. CFR is the name to watch (~1.7% above its stop). If it stops out, a slot opens and I have a ready bench (General Dynamics first). No new buying into a jittery, higher-rates tape ahead of next Wednesday's big inflation report.
+
+**Numbers I care about**
+- Equity **$96,187**, down just **$115 (−0.12%)** so far today — barely a wiggle, nowhere near my −3% "no new buys" line.
+- **$10,662 cash (~11%)** — right on our ~$10k target cushion.
+- CFR **−5.4%**, ~1.7% above its $151.73 stop; everyone else has a comfortable buffer; JPM is our green one at **+2.1%**.
+
 ## 2026-09-24 06:15 CT · pre-market
 
 **Good morning — a cautious open ahead. I scanned overnight and made no changes; here's the plan.**

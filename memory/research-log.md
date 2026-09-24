@@ -1,3 +1,37 @@
+# 2026-09-24 ~08:46 CT — MARKET-OPEN (Thu) · NO TRADES · sleeve 5/5, all stops verified
+
+**Routine:** market-open. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true; next_close 2026-09-24 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **No trades this routine.**
+
+**Open account (`/v2/account`):** equity **$96,186.88**, cash **$10,661.62 (~11.08%)**, long_mv $85,525.26, last_equity (Wed 9/23 close) $96,301.73, buying_power $282,117.21, status ACTIVE.
+
+**Open orders VERIFIED (exactly 5, IDs unchanged from pre-market/Wed close):** JPM trailing 10% floor 329.85 hwm 366.5 `8a937ff6`; MDT −7% 86.18 `2768e81c`; CFR −7% 151.73 `cd725e5b`; RSG −7% 202.74 `93c80d32`; RMD −7% 212.62 `91671fa4`. SPY unencumbered by design.
+
+## Live marks at the open (`/v2/positions`)
+- **CFR** 60 @ 163.15 → **154.33**, −$529.20 / **−5.41%**. −7% hard 151.73; cushion **~1.68%** (still tightest, but RECOVERED from pre-market ~1.06% / px 153.35→154.33). **THE WATCH.**
+- **JPM** 34 @ 329.70 → 336.50, +$231.18 / +2.06%. 10% trailing (floor 329.85, hwm 366.5); below +5% vs cost and below hwm → no conversion.
+- **MDT** 96 @ 92.67 → 89.09, −$343.68 / −3.86%. −7% hard 86.18; cushion ~3.27%.
+- **RMD** 42 @ 228.63 → 221.35, −$305.55 / −3.18%. −7% hard 212.62; cushion ~3.94%.
+- **RSG** 44 @ 218.00 → 214.97, −$133.54 / −1.39%. −7% hard 202.74; cushion ~5.69%.
+- **SPY** 49 @ 764.72 → 764.71, −$0.31 / −0.00%. Index-floor sleeve, NO stop by design (~39.0% of book, exempt by policy).
+
+## Handoff execution — Research → Risk → Trader
+- **Research (position):** pre-market flagged CFR as THE WATCH with a caveat to re-check for a late overnight downgrade/insider filing (thin coverage). Re-checked live via Perplexity sonar-pro: **no CFR-specific news** — no analyst downgrade, no guidance cut, no insider-sale disclosure in the last 24h. The only driver is the **regional-bank risk-off rotation** as the 10Y neared ~5.14% (multiyear high). **Thesis INTACT.**
+- **Risk:** (a) any un-stopped position ≤ −7%? **NO** — worst CFR −5.41%, above its 151.73 stop. (b) any +5%+ needing hard→trailing conversion? **NO** — JPM +2.06% already trailing; all others red. (c) daily loss cap: equity $96,186.88 vs last_equity $96,301.73 = **−0.12%**, far inside −3%. All 5 stops resting and verified (exactly 5 open orders).
+- **Trader:** **NO ORDERS.** Sleeve 5/5 AT CAP, 0 open slots; weekly conviction buys 0/3 (week 9/21–9/25) but no slot → no buy without a stop-out/swap, and none warranted (all theses intact; nothing on the bench beats a held name at the ≥70 gate on a clean, non-extended entry, and no fresh rate-sensitive beta the session ahead of 9/30 PCE anyway). Correct action: **verify, hold, hand off to midday.**
+
+## Decision / plan
+- **NO TRADES.** Hold the book; let the automatic stops do their job. CFR's −7% hard stop (151.73) is the safety net if bank-sector rotation tags it — do NOT pre-empt, do NOT average down.
+
+## Handoff → midday (Thu 2026-09-24)
+- Re-verify `/v2/clock`, account, positions, and **exactly 5 open orders** (IDs above). 
+- **CFR is THE WATCH** — cushion ~1.68% to 151.73; on a risk-off tape it may tag the stop. If it fires, that's the plan working → a slot opens → **GD → TMO (on a 50dMA pullback) → ADM** redeploy queue, each needing a live ≥70 re-score + 2 verified signals + clean non-extended entry. **Do NOT initiate fresh rate-sensitive/high-beta beta the session before the 9/30 PCE binary** (entry-timing advisory, near-veto).
+- **JPM +2.06%** on the trailing stop (floor 329.85, hwm 366.5); converts nothing until +5% AND a new hwm. Earnings 10/13 BMO.
+- **MDT −3.86% / RMD −3.18% / RSG −1.39%** — comfortable cushions, −7% hard stops resting; convert to 10% trailing at +5%. No averaging down.
+- **No +5% conversion pending.** No holding/bench name reports earnings within 3 trading days (earliest JPM 10/13). Next binary macro = **PCE Wed 9/30**.
+- **Unverified:** none — clock/account/positions/open-orders all pulled live this run; CFR news re-checked live.
+
+---
+
 # 2026-09-24 ~06:15 CT — PRE-MARKET (Thu) · Research only, NO TRADES (market closed)
 
 **Routine:** pre-market research fan-out (macro + earnings + positions + scout sub-agents, Perplexity sonar-pro). Market CONFIRMED closed via `/v2/clock` (is_open=false; next_open 2026-09-24 09:30 ET). **Inbox:** no Pending items. **Astra:** `memory/astra-proposals.md` present, **still empty** — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **No trades — market closed; research only.**

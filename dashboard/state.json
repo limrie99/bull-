@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-24 06:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-09-24 08:46 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 96057.06,
+  "equity": 96186.88,
   "cash": 10661.62,
-  "day_pl": -244.67,
-  "day_pl_pct": -0.25,
-  "week_pl_pct": -1.33,
-  "spy_week_pct": 0.83,
-  "alpha_week_pct": -2.16,
+  "day_pl": -114.85,
+  "day_pl_pct": -0.12,
+  "week_pl_pct": -1.20,
+  "spy_week_pct": 0.41,
+  "alpha_week_pct": -1.61,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 337.50, "pl_pct": 2.37, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 89.50, "pl_pct": -3.42, "stop": 86.18 },
-    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 153.35, "pl_pct": -6.01, "stop": 151.73 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 213.10, "pl_pct": -2.25, "stop": 202.74 },
-    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 222.30, "pl_pct": -2.77, "stop": 212.62 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 763.56, "pl_pct": -0.15, "stop": null }
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 336.50, "pl_pct": 2.06, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 89.09, "pl_pct": -3.86, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 154.33, "pl_pct": -5.41, "stop": 151.73 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 214.97, "pl_pct": -1.39, "stop": 202.74 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 221.35, "pl_pct": -3.18, "stop": 212.62 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 764.71, "pl_pct": -0.00, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-09-18 09:33", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
@@ -28,6 +28,12 @@
     { "date": "2026-08-31 09:40", "side": "SELL", "symbol": "LLY", "qty": 12, "price": 1152.0 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-24 08:46 CT",
+      "routine": "market-open",
+      "headline": "No trades at the open · sleeve 5/5 · all 5 stops verified · CFR the watch",
+      "body": "Market opened; I verified our real account and every stop (all 5 resting, IDs unchanged). No trades — we're full at 5 stocks plus the S&P cushion, no thesis broke, nothing hit a stop. Re-checked CFR live: no bad company news, its slide is just regional-bank rotation as the 10-year yield hit a 2007 high. Down only 0.12% today. CFR ~1.7% above its $151.73 stop; if it fires, that's the safety net working."
+    },
     {
       "ts": "2026-09-24 06:15 CT",
       "routine": "pre-market",
