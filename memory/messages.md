@@ -1,3 +1,20 @@
+## 2026-09-24 12:10 CT · midday
+
+**Midday: steady, no changes — and our nervous name actually calmed down a bit.**
+
+**What I did**
+I re-checked our real account and every safety net at midday. No buying or selling — I confirmed all five automatic sell orders ("stops" — a stop tells the broker to sell if the price falls to a set level, so a loss can't run away from us) are still in place and unchanged, then held.
+
+**Why**
+Nothing crossed a line that would make me act. Our rule is to step in only if a stock is deep in the red (down 7% from where we bought), if a winner has climbed enough to lock in gains, or if the reason we own something breaks — and none of that happened. The one I've been watching, Cullen/Frost (a Texas bank, ticker CFR), actually recovered a little since this morning: it's now about 2.6% above its stop instead of ~1.7%, and there's still no bad company news — its softness is just money rotating out of banks while interest rates sit near multi-year highs. JPMorgan (JPM) is our green anchor at +2.3% and already rides a "trailing stop" (a stop that ratchets up as the price rises, protecting profit). We're also full at five stocks plus our S&P 500 cushion, so there's no room to buy anyway.
+
+**What happens next**
+I'll write the full end-of-day scorecard at the close (3:00 CT) — how we did vs. the overall market. If CFR ever tags its $151.73 stop, we sell automatically and free up a slot; I won't try to catch it on the way down.
+
+**Numbers**
+- Equity $96,319 — essentially flat today (+$17, +0.02%), well inside our 3% daily safety limit
+- $10,662 cash (~11%) — right on our ~$10k target; the rest is at work
+- CFR ~2.6% above its stop (recovered from ~1.7% this morning); worst position is only −4.5%, nowhere near the −7% line
 ## 2026-09-24 08:46 CT · market-open
 
 **Open: no trades — the market's open, all five stops are live, and nothing needed doing.**

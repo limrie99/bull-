@@ -9304,3 +9304,36 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - Redeploy queue if a slot opens: TMO (non-extended pullback) → ADM (live ≥70 re-score) → GD/WMT on 50dMA reclaim; idle → SPY floor.
 - Mandatory daily Telegram scorecard SENT this close (see below).
 - **Unverified:** none — account/positions/open-orders/clock/SPY all pulled live this run.
+
+## 2026-09-24 12:05 CT · midday risk scan (Thu)
+
+**Market:** OPEN confirmed via `/v2/clock` (is_open=true, 13:10 ET; next_close 16:00 ET).
+**Inbox:** no Pending items. **Astra:** `memory/astra-proposals.md` still empty — no external idea to fold.
+
+**Account (`/v2/account`):** equity $96,319.01, cash $10,661.62 (~11.07%), long_mv $85,657.39, last_equity (Wed 9/23 close) $96,301.73 → **intraday +$17.28 / +0.02%** (essentially flat). WTD vs Fri 9/18 close ($97,350.35) = −$1,031.34 / −1.06%. Close routine owns authoritative alpha.
+
+**Live position marks (13:10 ET):**
+- JPM 34 @ 329.6956 → 337.24, +$256.51 / +2.29%. On 10% trailing (floor 329.85, hwm 366.5); px below hwm → floor unchanged, no conversion.
+- MDT 96 @ 92.67 → 88.98, −$354.24 / −3.98%. −7% hard 86.18; cushion ~3.15%.
+- CFR 60 @ 163.15 → 155.80, −$441.00 / −4.50%. −7% hard 151.73; cushion **~2.61%** (RECOVERED from ~1.68% at the open — px 154.33 → 155.80). No CFR/Texas-bank negative news.
+- RSG 44 @ 218.00 → 213.49, −$198.44 / −2.07%. −7% hard 202.74; cushion ~5.04%.
+- RMD 42 @ 228.6274 → 221.32, −$306.70 / −3.19%. −7% hard 212.62; cushion ~3.93%.
+- SPY 49 @ 764.716 → 768.19, +$170.21 / +0.45%. Index-floor sleeve, NO stop by policy.
+
+**Open orders:** exactly 5, all VERIFIED live resting GTC (JPM trailing 329.85/hwm366.5 `8a937ff6…`; MDT 86.18 `2768e81c…`; CFR 151.73 `cd725e5b…`; RSG 202.74 `93c80d32…`; RMD 212.62 `91671fa4…`). SPY unencumbered.
+
+**Voices.**
+- **Research:** No new catalyst intraday; Astra file empty. Top bench TMO ~72 (extended at 12-mo high) does not beat lowest hold CFR ~72 on a clean, non-extended entry (CFR thesis intact). Nothing clears the 2-signals + Conviction≥70 gate with a slot open.
+- **Risk:** (a) any un-stopped position −7% or worse → NO. Worst CFR −4.50%. No Perplexity news-check triggered (nothing at/near −7%). (b) any +5%+ needing hard→trailing conversion → NO. JPM +2.29% but already trailing; all others red. Zero conversions. (c) daily loss cap → book +0.02% (flat), nowhere near −3%; and sleeve full so buys blocked regardless. Exactly 5 open stop orders verified live.
+- **Trader:** Placed nothing. Correct action = hold and manage.
+
+**Buys:** none. Sleeve 5/5 (0 slots); weekly buys 0/3 but no open slot → no midday-deviation buy (no high-conviction breaking catalyst). Swap not warranted.
+
+**Action:** HOLD. No trades, no stop edits. Portfolio.md overwritten, message prepended, state.json overwritten. Per routine rules: no Telegram push on a quiet midday check.
+
+**Handoff → market-close (Thu 9/24 15:00 CT):**
+- **Standing action:** run the mandatory plain-English daily "How we're doing" scorecard (equity, day $/%, vs SPY, whether we're ahead) to `messages.md` AND push it to Telegram — non-negotiable every trading day, even quiet.
+- **Watch:** CFR cushion ~2.61% to the 151.73 hard stop (tightest, but RECOVERED off the open low; px 155.80) — thesis intact, no negative news; if it tags the stop that is the plan, do NOT pre-empt or average down. JPM +2.29% above 329.85 trailing floor.
+- **State:** sleeve 5/5 AT CAP, 0 open slots; weekly conviction buys 0/3 but no slot → no buy without a sell/swap; none warranted. No holding reports earnings this week (earliest JPM 10/13); next binary macro = **PCE 9/30** (no fresh rate-sensitive beta the session before). Cash ~$10.7k on the ~$10k floor.
+- **Redeploy queue if a slot opens:** GD (near 50dMA, live ≥70 re-score) → TMO (non-extended pullback only) → ADM (live ≥70 re-score); idle remainder → SPY floor.
+- **Unverified:** none — account/positions/open-orders/clock/SPY all pulled live this run.

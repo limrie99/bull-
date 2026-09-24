@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-24 08:46 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-09-24 12:10 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 96186.88,
+  "equity": 96319.01,
   "cash": 10661.62,
-  "day_pl": -114.85,
-  "day_pl_pct": -0.12,
-  "week_pl_pct": -1.20,
-  "spy_week_pct": 0.41,
-  "alpha_week_pct": -1.61,
+  "day_pl": 17.28,
+  "day_pl_pct": 0.02,
+  "week_pl_pct": -1.06,
+  "spy_week_pct": 0.86,
+  "alpha_week_pct": -1.92,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 336.50, "pl_pct": 2.06, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 89.09, "pl_pct": -3.86, "stop": 86.18 },
-    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 154.33, "pl_pct": -5.41, "stop": 151.73 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 214.97, "pl_pct": -1.39, "stop": 202.74 },
-    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 221.35, "pl_pct": -3.18, "stop": 212.62 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 764.71, "pl_pct": -0.00, "stop": null }
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 337.24, "pl_pct": 2.29, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 88.98, "pl_pct": -3.98, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 155.80, "pl_pct": -4.50, "stop": 151.73 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 213.49, "pl_pct": -2.07, "stop": 202.74 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 221.32, "pl_pct": -3.19, "stop": 212.62 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 768.19, "pl_pct": 0.45, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-09-18 09:33", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
@@ -28,6 +28,12 @@
     { "date": "2026-08-31 09:40", "side": "SELL", "symbol": "LLY", "qty": 12, "price": 1152.0 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-24 12:10 CT",
+      "routine": "midday",
+      "headline": "Steady midday · no trades · CFR calmed down (cushion back to ~2.6%)",
+      "body": "Re-checked the account and all 5 stops (resting, IDs unchanged) — no buys or sells. Book essentially flat today (+0.02%). Nothing near a trigger: worst is CFR at -4.5%, and it actually recovered off the open (cushion ~1.7% -> ~2.6%) with still no bad company news. JPM +2.3% anchors, already on its trailing stop. Full at 5 stocks + SPY cushion, so no room to buy. Full scorecard at the close."
+    },
     {
       "ts": "2026-09-24 08:46 CT",
       "routine": "market-open",
