@@ -1,63 +1,63 @@
 {
-  "last_update": "2026-09-25 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-25 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 96754.16,
+  "equity": 96720.96,
   "cash": 10661.62,
-  "day_pl": 441.06,
-  "day_pl_pct": 0.46,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
-  "week_pl_pct": -1.03,
-  "spy_week_pct": 0.74,
-  "alpha_week_pct": null,
+  "day_pl": 407.86,
+  "day_pl_pct": 0.42,
+  "spy_day_pct": 0.53,
+  "alpha_day_pct": -0.10,
+  "week_pl_pct": -0.65,
+  "spy_week_pct": 1.26,
+  "alpha_week_pct": -1.91,
   "positions": [
     {
       "symbol": "JPM",
       "qty": 34,
       "avg_cost": 329.7,
-      "current": 342.34,
-      "pl_pct": 3.84,
+      "current": 342.84,
+      "pl_pct": 3.99,
       "stop": 329.85
     },
     {
       "symbol": "MDT",
       "qty": 96,
       "avg_cost": 92.67,
-      "current": 88.48,
-      "pl_pct": -4.52,
+      "current": 88.64,
+      "pl_pct": -4.35,
       "stop": 86.18
     },
     {
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 157.84,
-      "pl_pct": -3.26,
+      "current": 157.42,
+      "pl_pct": -3.51,
       "stop": 151.73
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 212.76,
-      "pl_pct": -2.4,
+      "current": 212.1,
+      "pl_pct": -2.71,
       "stop": 202.74
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.63,
-      "current": 222.58,
-      "pl_pct": -2.65,
+      "current": 222.0,
+      "pl_pct": -2.9,
       "stop": 212.62
     },
     {
       "symbol": "SPY",
       "qty": 49,
       "avg_cost": 764.72,
-      "current": 771.0,
-      "pl_pct": 0.82,
+      "current": 771.26,
+      "pl_pct": 0.86,
       "stop": null
     }
   ],
@@ -121,6 +121,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-25 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $96,721 · day +0.42% · SPY +0.53% · alpha -0.10%",
+      "body": "Up day - we made ~$408 (+0.42%), snapping two down days, but the market rose a touch more (+0.53%), so we trailed it by 0.10% today. Our three defensive names (MDT/RMD/RSG) sat still on a risk-on day; JPM (+1.26%) and the SPY cushion (+0.53%) carried us green. No trades - full at 5 stocks, nobody near a stop (all 5 verified resting). For the week we're -0.65% vs SPY +1.26% (alpha -1.9%), mostly the defensive tilt. Weekly review next."
+    },
+    {
       "ts": "2026-09-25 12:00 CT",
       "routine": "midday",
       "headline": "Steady midday · no trades · day +0.46% · MDT bounced off the open",
@@ -161,12 +167,6 @@
       "routine": "pre-market",
       "headline": "Cautious risk-off open · no trades · CFR the watch (~1% above its stop)",
       "body": "Overnight scan done. Risk-off tape - 10Y Treasury yield above 5.1% (highest since 2007), hawkish Fed speakers today. All 5 theses intact; no company-specific bad news. CFR (~1.06% above its 151.73 stop) may tag it on bank-sector rotation - if so, that's the safety net working; no averaging down. Sleeve 5/5, no buys possible. Bench if a slot opens: GD, then TMO on a pullback."
-    },
-    {
-      "ts": "2026-09-23 15:00 CT",
-      "routine": "market-close",
-      "headline": "Equity $96,299 · day -0.65% · beat SPY by +0.06% · WTD alpha -1.91%",
-      "body": "Quiet close, no trades. We fell slightly less than the market on a down day (+0.06% alpha). JPM (+2.4%) and the SPY sleeve cushioned. CFR keeps sliding on bank-sector rotation (cushion ~1.64%) - the name most likely to hit its stop next. All 5 stops verified resting."
     }
   ]
 }

@@ -1,3 +1,25 @@
+## 2026-09-25 15:00 CT · market-close
+
+**Close: equity $96,721 · day +0.42% · SPY +0.53% · alpha −0.10%**
+
+**How we're doing (plain English)**
+Good news first: we made money today. The account rose about **$408 (+0.42%)**, from $96,313 to $96,721 — snapping two down days. The catch: the overall US stock market (the S&P 500, which I track with "SPY") rose a touch more, **+0.53%**. So we're *up*, just a hair behind the market today — we trailed it by about a tenth of a percent ("alpha" is our extra return vs. the market; today it was slightly negative at −0.10%).
+
+**Why**
+- **Today was a "risk-on" day** — investors felt optimistic, so racier stocks led. Three of our holdings (Medtronic, ResMed, Republic Services) are deliberately *steady, defensive* names that barely move on days like this. That's the trade-off we chose: they lag when the market sprints up, and they cushion us when it drops.
+- **What carried us:** JPMorgan (our bank) rose +1.26% and our S&P 500 cushion tracked the market up +0.53% — together they turned a sleepy-defensive book green.
+- **No trades, and that was right.** Nobody hit a safety-sell price, no news changed why we own anything, and we're already holding our full set of 5 stocks. Every one of our five automatic stop-losses is resting exactly where it should be.
+
+**What happens next**
+It's Friday, so my next step is the **weekly review** — an honest look at how we did for the whole week. For the record: this week we're down about **0.65%** while the market is up **1.26%**, so we're behind by roughly **1.9%** for the week. That's mostly our steady-stock tilt plus only partly owning the market's up-move. I'll dig into whether that posture still makes sense in the review. I'm watching Medtronic most closely — it has the thinnest cushion (~2.8%) above its safety price.
+
+**Numbers I care about**
+- Equity **$96,721** — up $408 today (+0.42%), but down ~$629 (−0.65%) on the week
+- **Cash $10,662** (~11% of the account) — right on our ~$10k safety target
+- Beating the market? Not today (−0.10%) and not this week (−1.9%) — honest scorecard, and the reason is our defensive mix, not a broken stock
+
+More detail on the dashboard. 🐂
+
 ## 2026-09-25 12:00 CT · midday
 
 **Steady midday — no changes, and the day is drifting slightly in our favor.**
