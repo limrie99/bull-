@@ -1,3 +1,22 @@
+## 2026-09-25 06:15 CT · pre-market
+
+**Pre-market plan — quiet setup, and good news on our two shakiest stocks.**
+
+**What I did**
+Before the market opens (9:30 ET), my research team scanned overnight news, macro data, today's earnings, and each of our holdings. No trading happens in this routine — it's about knowing what we're walking into. I confirmed our real account and all five automatic sell orders ("stops") are in place.
+
+**Why today looks the way it does**
+- **The backdrop is cautious but calm.** Interest rates are still near multi-year highs (the 10-year Treasury yield is ~5.1%), which keeps pressure on rate-sensitive stocks — but a US–China trade truce got extended overnight, a mild positive. This "higher-for-longer rates" mood actually suits our steady, defensive lineup.
+- **The best news: our two weakest names got upgrades, not bad news.** Cullen/Frost (CFR, our Texas bank) got an upgrade from Morgan Stanley — they now rate it a "buy" with a much higher price target ($200). And Medtronic (MDT) got a wave of Wall Street firms *raising* their price targets after last month's earnings. So both dips are just market mood, not broken companies — exactly what I want to see.
+- **Nothing forces action:** no company we own reports earnings for weeks (JPMorgan is first, 10/13), and today's earnings calendar is quiet.
+
+**What happens next**
+We're full at 5 stocks plus our S&P 500 cushion, so no buying today. I'm watching MDT most closely now — it has the least breathing room above its safety-sell price (~1.8%). If it or CFR hits that price, the automatic sell protects us; I won't second-guess it or "average down." I'll check in at the open.
+
+**Numbers I care about**
+- Equity ~$96,453 pre-market; $10,662 cash (~11%, right on our ~$10k target)
+- MDT cushion ~1.8% above its stop; CFR ~3.0% — the two to watch
+- Next big scheduled event: an inflation report next Wednesday (9/30)
 ## 2026-09-24 15:00 CT · market-close
 
 **Close: equity $96,281 · day −0.02% · SPY −0.08% · alpha +0.06%**

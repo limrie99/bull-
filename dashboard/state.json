@@ -1,23 +1,23 @@
 {
-  "last_update": "2026-09-24 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-25 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96281.16,
+  "equity": 96453.38,
   "cash": 10661.62,
-  "day_pl": -20.57,
-  "day_pl_pct": -0.02,
-  "spy_day_pct": -0.08,
-  "alpha_day_pct": 0.06,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
   "week_pl_pct": -1.10,
   "spy_week_pct": 0.74,
   "alpha_week_pct": -1.84,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 338.21, "pl_pct": 2.58, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 88.51, "pl_pct": -4.49, "stop": 86.18 },
-    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 156.21, "pl_pct": -4.25, "stop": 151.73 },
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 339.80, "pl_pct": 3.06, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 87.78, "pl_pct": -5.28, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 156.40, "pl_pct": -4.14, "stop": 151.73 },
     { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 212.72, "pl_pct": -2.42, "stop": 202.74 },
     { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 221.89, "pl_pct": -2.95, "stop": 212.62 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 766.77, "pl_pct": 0.27, "stop": null }
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 770.37, "pl_pct": 0.74, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-09-18 09:33", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
@@ -31,34 +31,40 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-25 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Quiet pre-market · no trades · good news on our two weakest (CFR & MDT upgraded)",
+      "body": "Overnight scan done. Cautious-but-calm tape: 10Y yield still ~5.1%, but a US-China trade truce got extended (mild positive) and the higher-for-longer mood suits our defensive book. Best news: CFR got a Morgan Stanley upgrade (PT $200) and MDT got a wave of price-target raises after earnings - both dips are market mood, not broken companies. Sleeve full 5/5, no buys possible. Watching MDT most closely now (~1.8% above its stop), then CFR (~3.0%). If either tags, the safety net is working - no averaging down."
+    },
+    {
       "ts": "2026-09-24 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $96,281 · day -0.02% · SPY -0.08% · alpha +0.06%",
-      "body": "Quiet, no-trade day — we finished basically flat (-$21) while the market slipped a touch more, so we edged it by +0.06% on the day. For the week we're down ~1.1% vs the market +0.7%, so we trail it by ~1.8% (it jumped Monday; our defensive names didn't chase). CFR recovered all day (cushion widened to ~2.9%); JPM (+2.6%) and the SPY sleeve were our green anchors. All 5 stops verified resting. Watching for more bank-sector rotation into next Wed's inflation report (9/30)."
+      "body": "Quiet, no-trade day - we finished basically flat (-$21) while the market slipped a touch more, so we edged it by +0.06% on the day. For the week we're down ~1.1% vs the market +0.7%, so we trail it by ~1.8% (it jumped Monday; our defensive names didn't chase). CFR recovered all day (cushion widened to ~2.9%); JPM (+2.6%) and the SPY sleeve were our green anchors. All 5 stops verified resting. Watching for more bank-sector rotation into next Wed's inflation report (9/30)."
     },
     {
       "ts": "2026-09-24 12:10 CT",
       "routine": "midday",
       "headline": "Steady midday · no trades · CFR calmed down (cushion back to ~2.6%)",
-      "body": "Re-checked the account and all 5 stops (resting, IDs unchanged) — no buys or sells. Book essentially flat today (+0.02%). Nothing near a trigger: worst is CFR at -4.5%, and it actually recovered off the open (cushion ~1.7% -> ~2.6%) with still no bad company news. JPM +2.3% anchors, already on its trailing stop. Full at 5 stocks + SPY cushion, so no room to buy. Full scorecard at the close."
+      "body": "Re-checked the account and all 5 stops (resting, IDs unchanged) - no buys or sells. Book essentially flat today (+0.02%). Nothing near a trigger: worst is CFR at -4.5%, and it actually recovered off the open (cushion ~1.7% -> ~2.6%) with still no bad company news. JPM +2.3% anchors, already on its trailing stop. Full at 5 stocks + SPY cushion, so no room to buy. Full scorecard at the close."
     },
     {
       "ts": "2026-09-24 08:46 CT",
       "routine": "market-open",
       "headline": "No trades at the open · sleeve 5/5 · all 5 stops verified · CFR the watch",
-      "body": "Market opened; I verified our real account and every stop (all 5 resting, IDs unchanged). No trades — we're full at 5 stocks plus the S&P cushion, no thesis broke, nothing hit a stop. Re-checked CFR live: no bad company news, its slide is just regional-bank rotation as the 10-year yield hit a 2007 high. Down only 0.12% today. CFR ~1.7% above its $151.73 stop; if it fires, that's the safety net working."
+      "body": "Market opened; I verified our real account and every stop (all 5 resting, IDs unchanged). No trades - we're full at 5 stocks plus the S&P cushion, no thesis broke, nothing hit a stop. Re-checked CFR live: no bad company news, its slide is just regional-bank rotation as the 10-year yield hit a 2007 high. Down only 0.12% today. CFR ~1.7% above its $151.73 stop; if it fires, that's the safety net working."
     },
     {
       "ts": "2026-09-24 06:15 CT",
       "routine": "pre-market",
       "headline": "Cautious risk-off open · no trades · CFR the watch (~1% above its stop)",
-      "body": "Overnight scan done. Risk-off tape — 10Y Treasury yield above 5.1% (highest since 2007), hawkish Fed speakers today. All 5 theses intact; no company-specific bad news. CFR (~1.06% above its 151.73 stop) may tag it on bank-sector rotation — if so, that's the safety net working; no averaging down. Sleeve 5/5, no buys possible. Bench if a slot opens: GD, then TMO on a pullback."
+      "body": "Overnight scan done. Risk-off tape - 10Y Treasury yield above 5.1% (highest since 2007), hawkish Fed speakers today. All 5 theses intact; no company-specific bad news. CFR (~1.06% above its 151.73 stop) may tag it on bank-sector rotation - if so, that's the safety net working; no averaging down. Sleeve 5/5, no buys possible. Bench if a slot opens: GD, then TMO on a pullback."
     },
     {
       "ts": "2026-09-23 15:00 CT",
       "routine": "market-close",
       "headline": "Equity $96,299 · day -0.65% · beat SPY by +0.06% · WTD alpha -1.91%",
-      "body": "Quiet close, no trades. We fell slightly less than the market on a down day (+0.06% alpha). JPM (+2.4%) and the SPY sleeve cushioned. CFR keeps sliding on bank-sector rotation (cushion ~1.64%) — the name most likely to hit its stop next. All 5 stops verified resting."
+      "body": "Quiet close, no trades. We fell slightly less than the market on a down day (+0.06% alpha). JPM (+2.4%) and the SPY sleeve cushioned. CFR keeps sliding on bank-sector rotation (cushion ~1.64%) - the name most likely to hit its stop next. All 5 stops verified resting."
     },
     {
       "ts": "2026-09-23 12:10 CT",

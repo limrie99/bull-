@@ -1,3 +1,47 @@
+# 2026-09-25 ~06:15 CT — PRE-MARKET (Fri) · Research fan-out · NO TRADES (market closed) · sleeve 5/5
+
+**Routine:** pre-market. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-25 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **4-agent research team ran in parallel** (macro / earnings / position / opportunity scout via Perplexity). Live Alpaca account + positions + open orders verified pre-market.
+
+## Live pre-market read (`/v2/account`, indicative — market not open)
+- equity **$96,453.38**, cash **$10,661.62 (~11.05%)**, long_mv **$85,791.76**, last_equity (Thu 9/24 close) **$96,313.10**, status ACTIVE. (Pre-market indicative; official day scorecard is the close routine's job.)
+
+## Market context (macro digest)
+- **Regime: NEUTRAL-to-CAUTIOUS, higher-for-longer INTACT.** Overnight futures modestly higher (NQ ~+0.17%), and **US–China trade truce extended to mid-January** (Bessent) — avoids the Nov tariff hike, mild positive. But the dominant force is still **rates:** 10Y ~**5.13%**, near highest since 2004; global bond selloff persisting on stronger activity data. **WTI rebounded ~3%** Thu on Iran supply risk / stalled US–Iran talks; gold −1.7% Thu, DXY firmer (~101).
+- **Data today:** 8:30 ET Durable Goods (Aug adv); 10:00 ET UMich final sentiment (weak ~47.8) + 1-yr inflation expectations rising (~4.6%). Fed speakers Williams (AM), Hammack (2pm). **Next binary macro: core PCE Wed 9/30** — the entry-timing advisory says no fresh rate-sensitive beta the session before it (moot; sleeve full).
+- **Read for the book:** higher-for-longer + rising oil/inflation-expectations continues to FAVOR our LOW-rate-sensitivity defensive tilt (MDT/RSG/RMD) and the two financials' NIM thesis, and PUNISH high-multiple/long-duration software. Thu was a yield+oil squeeze day (S&P −0.75%, Nasdaq −1%+); Fri futures tick up but the tape is fragile. Respect stops.
+
+## Portfolio watch (position digest — ALL 5 THESES INTACT; the two weakest got GOOD news)
+- **JPM** +3.06% pre-mkt, on 10% trailing (floor 329.85, hwm 366.5). No news, big-bank backdrop supportive. Earnings 10/13 BMO. Below hwm & +5% vs cost → no conversion. INTACT.
+- **MDT** −5.28% pre-mkt (px ~87.78), **−7% hard 86.18 → cushion now ~1.82% = TIGHTEST of the book.** **News flow POSITIVE, not negative:** a **wave of post-earnings PT RAISES** (Mizuho $100→$115, BofA $95→$110, Truist $86→$99, Deutsche $78→$92, Stifel $80→$95), ratings maintained. Known skepticism (slow margin expansion, $700M Cornerstone/Hugo robotics uncertainty) is the drag — NOT new bad news. **THESIS INTACT.** The slide is tape/skepticism; if it tags 86.18, that is the −7% safety net working — do NOT pre-empt, do NOT average down.
+- **CFR** −4.14% pre-mkt (px ~156.4), −7% hard 151.73 → cushion ~**2.99%**. **NEWS TURNED CONSTRUCTIVE:** **Morgan Stanley UPGRADE to Overweight, PT $141→$200** (consensus still ~Hold, avg ~$167). No Texas/regional-bank negative. THESIS INTACT — the historical WATCH, but news flow just improved and cushion widened vs the open.
+- **RSG** −2.42%, hard 202.74 → cushion ~4.69%. No news; div $0.67 ex-date 10/2 (known). INTACT.
+- **RMD** −2.95%, hard 212.62 → cushion ~4.18%. No new 24-48h action; RBC Outperform $262 (9/15, stale); 9/21 GLP-1 tailwind read supportive. INTACT.
+- **SPY** +0.74% pre-mkt, index-floor sleeve (~39% of book, NO stop by policy).
+- **Stops:** all 5 VERIFIED live resting (RMD 91671fa4 / RSG 93c80d32 / MDT 2768e81c / CFR cd725e5b / JPM trailing 8a937ff6), IDs unchanged, exactly 5 open orders; SPY unencumbered by design.
+- **New watch order:** **MDT is now the tightest cushion (~1.8%), edging past CFR (~3.0%).** Both slides are macro/skepticism with INTACT (and improving) news flow, not thesis breaks.
+
+## Earnings check
+- **Quiet Friday** — no large-caps report today (only small names RFIL/CODA pre-open, UEC post-close). Reported Thu post-close: **COST beat** (EPS $6.75 v $6.55), **DRI in-line**; neither moving the tape materially.
+- **Holdings blackout check: NONE within 3 trading days.** JPM 10/13 (confirmed) earliest; RMD ~10/22, CFR ~10/29, RSG ~10/29, MDT ~11/24 (est). Book clear.
+
+## Buy candidates (bench refresh — no slot open, sleeve 5/5, weekly buys 0/3)
+- **TMO ~65↓** (was ~72): still very extended (+11.7% >50dMA ~$596) and now carrying **THREE downgrades in 2 weeks** (Wells Fargo OW→UW, Citi Buy→Underperform, WSZen Buy→Hold). Momentum stalling into 10/28 earnings. **Do NOT chase** — fading, off the top of the queue.
+- **ADM ~66 (flat):** slipped just BELOW 50dMA (~$82.63, −0.9%) — lost its reclaim. FY26 guide $5.15–5.60 (cons ~$5.46). Next earnings ~Nov 3 / Oct 27 (unconfirmed). Neutral; needs a clean 50dMA reclaim + live ≥70 re-score.
+- **GD ~62:** price/50dMA unverified this run (Perplexity data gap); no fresh catalyst. Still needs a confirmed 50dMA reclaim.
+- **NEW: CTAS (Cintas) — scout's top pick if a slot opened.** 6th straight EPS beat AND **raised FY27 guide $5.45–5.54**; defensive low-duration industrial (uniform/facility services) = good higher-for-longer fit. Signals #1 (beat+raise) + #3 (secular), likely #6. **50dMA UNCONFIRMED on live data — must verify on Alpaca-IEX bars and run a full 5-dimension Conviction score before it could arm.** Other reporters: AZO (beat, LOW rate-sens, unconfirmed trend), GIS (thin beat, #1 only), KBH (homebuilder = HIGH rate-sens, SKIP), THO (missed, SKIP).
+- **Verdict:** book is 5/5 AT CAP, 0 open slots. A buy is only possible via a stop-out/swap — **NONE warranted.** All 5 theses intact and the two weakest (CFR, MDT) just got *positive* news, so nothing on the bench beats a held name at the ≥70 gate on a clean entry. **Research:** CTAS is the freshest idea and worth a live re-score next chance. **Risk:** no slot to free — every hold's thesis is intact/improving, and CTAS's 50dMA/Conviction are unconfirmed. **Trader:** nothing to place (market closed; no qualifying swap).
+
+## Sell candidates
+- **NONE.** No thesis break, no stop hit, no +5% hard→trailing conversion pending (JPM already trailing; everything else red). Nothing at/near a trigger. Worst cushion MDT ~1.8%, then CFR ~3.0% — both to stand; if either tags, the −7% net is doing its job.
+
+## Handoff → market-open (Fri 2026-09-25 ~08:30 CT)
+- **STANDING: no trades unless a stop fires.** Sleeve 5/5, weekly buys 0/3, no open slot → a buy needs a stop-out/swap; none warranted at the pre-market read.
+- **Verify at live open:** re-pull `/v2/clock` (is_open=true), `/v2/account`, `/v2/positions`, and confirm exactly 5 open stop orders (IDs above) resting; SPY unencumbered.
+- **WATCH #1 = MDT** (tightest, ~1.8% cushion to 86.18) then **CFR** (~3.0% to 151.73). Both drags are macro/skepticism with INTACT + improving news (MDT PT raises; CFR MS upgrade to OW, PT $200). **If either tags its stop, that is the plan working — do NOT pre-empt, do NOT average down.** On a stop-out a slot opens → redeploy queue below.
+- **+5% conversion watch:** none pending (JPM already on trailing). If any red name rallies to +5% intraday, convert its −7% hard → 10% trailing.
+- **Redeploy queue if a slot opens (all need a live ≥70 re-score + 2 verified signals + clean non-extended entry):** **CTAS** (verify 50dMA on Alpaca + full Conviction score first — freshest beat-and-raise, right tape fit) → **ADM** (needs a 50dMA reclaim) → **GD** (needs 50dMA reclaim + fresh catalyst). TMO DROPPED from the top (3 downgrades, extended). Idle remainder → SPY floor per policy.
+- **Macro:** no binary print today; **core PCE Wed 9/30** is the next one — no fresh rate-sensitive beta the session before it. Cash ~$10.66k on the ~$10k target; do not breach the 10% floor.
+
 # 2026-09-24 ~15:00 CT — MARKET-CLOSE (Thu) · Day summary · NO TRADES · sleeve 5/5, all stops verified
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-25 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **No trades this routine** (0 closed orders today).
