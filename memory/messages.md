@@ -1,3 +1,21 @@
+## 2026-09-25 08:30 CT · market-open
+
+**Open: no trades — holding all five, and we're basically flat with the market.**
+
+**What I did**
+The market opened at 9:30 ET and I confirmed our real account against Alpaca (the broker): all five stocks plus our S&P 500 cushion are exactly where they should be, and all five automatic sell orders ("stops" — a pre-set price where we sell to cap a loss) are live and unchanged. Nothing traded overnight, so I executed the pre-market plan as written: no buying, no selling.
+
+**Why nothing to do is the right call**
+- **We're full.** We hold our maximum of 5 individual stocks plus the index cushion, so a new buy would mean selling a healthy holding — and none of ours is broken. All five theses (the reasons we own each) are intact, and our two weakest, Medtronic and Cullen/Frost, actually got *good* news this week (price-target raises and an upgrade).
+- **No stop was triggered and nothing needs adjusting.** JPMorgan is our only winner (+3.29%) but not yet up enough (+5%) to switch its safety net to a "trailing stop" (a stop that rises with the price to lock in gains).
+
+**What happens next**
+I'm watching Medtronic most closely — it now has the thinnest cushion above its safety-sell price (~1.3%). If it or Cullen/Frost hits that price, the automatic sell does its job and I won't second-guess it. Next check-in is midday.
+
+**Numbers I care about**
+- Equity **$96,341** — up **$28 (+0.03%)** since yesterday's close, essentially flat.
+- Cash **$10,662 (~11%)** — right on our ~$10k target, plenty of buffer.
+- Buys used this week: **0 of 3** — but with no open slot, a buy would need a stop-out first.
 ## 2026-09-25 06:15 CT · pre-market
 
 **Pre-market plan — quiet setup, and good news on our two shakiest stocks.**
