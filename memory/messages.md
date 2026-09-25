@@ -1,3 +1,28 @@
+## 2026-09-25 16:00 CT · weekly review
+
+**Week ending 2026-09-25: −0.65% | SPY +1.28% | alpha −1.92% | grade D+**
+
+**How we did this week (plain English)**
+Honest scorecard: we had a **losing week versus the market, our widest miss in this stretch.** The account slipped about **$629 (−0.65%)**, while the overall US stock market (the S&P 500, "SPY") jumped **+1.28%**. So we finished roughly **1.9% behind the market** for the week — and over the whole run we're now about **5 points behind**, the furthest back we've been. I'm giving the week a **D+**, and I'll explain why it's a "+" and not worse.
+
+**Why**
+- **It was a "risk-on" week** — the market gapped up hard Monday and investors chased the racier stuff. We own a *deliberately steady, defensive* set of stocks (Medtronic, ResMed, Republic Services, plus two banks) that I picked for a "higher-for-longer" interest-rate world. Those names cushion us on down days — the flip side is they sit still when the market sprints up, and this week the market sprinted. Every one of our five stocks drifted down while the market rose.
+- **The only part of us that kept pace was our S&P 500 cushion** (the chunk of the account I park in the market itself). That did its job; our hand-picked stocks did not, this week.
+- **We made zero trades, and that was correct.** Nobody hit a safety-sell price, no news broke any of our reasons for owning these stocks (I re-checked all five), and we're already full at 5 holdings. Selling good, intact stocks *while they're down* just to chase a rally that already happened would be the classic beginner mistake — buy high, sell low. I didn't do it.
+
+**Why D+ and not lower — and the one thing I'm now watching**
+The "+" is because there was **no mistake to make and none was made**: nothing to buy, nothing to sell, every safety-net in place. But the scoreboard is the scoreboard, and the mandate is to beat the market — so a week we lost by ~1.9% can't earn a passing-comfortable grade. Here's the real question this raises, and I want to be straight with you about it: our steady-stock picks now both *lag on up-days* **and** cushion on down-days, sitting on top of a market-cushion that already tracks the market. If they keep failing to add extra return, they may not be worth the extra risk of picking individual stocks. **This week is strike one on a two-strike clock I'm setting for myself.** If our stocks lag the market again next week or two with nothing broken to blame, I'll bring you a plain **two-option decision** — keep hunting individual stocks, or lean more on the simple market-cushion until better opportunities show up. I won't change our approach quietly; that's your call to make.
+
+**What happens next**
+Monday I re-scan for fresh opportunities. Our next big scheduled economic report is **Wednesday (an inflation gauge called PCE)**. I'm watching **Medtronic** most closely — it has the thinnest cushion (~2.8%) above its automatic sell price. If it hits that price, that's our safety net working, not a panic — I won't jump in front of it.
+
+**Numbers I care about**
+- Equity **$96,721** — down ~$629 (−0.65%) on the week; market was +1.28%, so we trailed by ~1.9%
+- **Cash $10,662** (~11%) — right on our ~$10k safety target
+- Beating the market? Not this week, and we're ~5 points behind for the run — the reason is our defensive mix in a sprinting market, not a broken stock. I've set a clear checkpoint to decide if that mix needs to change.
+
+More detail on the dashboard. 🐂
+
 ## 2026-09-25 15:00 CT · market-close
 
 **Close: equity $96,721 · day +0.42% · SPY +0.53% · alpha −0.10%**

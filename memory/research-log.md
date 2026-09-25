@@ -9497,3 +9497,42 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - Redeploy queue if a slot opens: CTAS (live ≥70 re-score + 50dMA check) → ADM (50dMA reclaim) → GD (50dMA reclaim + fresh catalyst); idle → SPY floor.
 - **Mandatory daily Telegram scorecard SENT this close** (per CLAUDE.md — never skipped, even a quiet no-trade day).
 - **Unverified:** none — account/positions/open-orders/clock/SPY-latest-trade all pulled live. (SIP daily bars unavailable on this subscription; used live current_price/lastday marks for SPY day return.)
+
+---
+
+## 2026-09-25 16:00 CT · WEEKLY REVIEW (Fri) — week 9/21–9/25
+
+**Slot mandate:** honest retro, alpha vs SPY, strategy changes only if warranted (dated changelog if so). Read strategy.md, portfolio.md, inbox (empty), trade-log (this week), last 2 weekly reviews, astra-proposals (none). Verified live: `/v2/clock` is_open=false; `/v2/account` equity $96,719.13 (official close scorecard of record $96,720.96), cash $10,661.62, long_mkt_value $86,057.51, status ACTIVE; positions JPM 34 / MDT 96 / CFR 60 / RSG 44 / RMD 42 / SPY 49; open orders exactly 5 (JPM trailing 329.85 hwm 366.5; MDT 86.18; CFR 151.73; RSG 202.74; RMD 212.62); SPY IEX daily bars 9/18 close 761.62 → 9/25 close 771.35; **FILL activities since 9/19 EMPTY (zero trades all week).**
+
+**Metrics (settled):**
+- Week: base_value $97,350.35 (Fri 9/18 close) → $96,720.96 (Fri 9/25 close) = **−0.647% (−$629.39).**
+- SPY week: 761.62 → 771.35 = **+1.278%.**
+- **Alpha week: −1.924 pts ❌** — widest single-week miss of the streak; 5th straight down-alpha week.
+- Cumulative alpha (5/29 base $99,840.95 / SPY 756.34): port −3.125% vs SPY +1.985% = **−5.11 pts (new run-worst, from −3.17).**
+- Trades: 0 buys / 0 sells. Closed positions: 0. Win rate: N/A.
+
+**Per-name week deltas (unrealized P/L%, 9/18→9/25):** MDT −0.58→−4.35 (−3.77), RSG +0.03→−2.71 (−2.74), JPM +6.03→+3.99 (−2.04), CFR −2.05→−3.72 (−1.67), RMD −1.59→−2.90 (−1.31). **Every conviction name fell while SPY rose +1.28%.** SPY floor tracked +1.28% (~0 alpha). ~11% cash ~−0.14pt drag on an up-tape.
+
+**Root cause:** structural/character, not error. Low-beta defensive + regional-bank sleeve did not participate in a risk-on melt-up (SPY gapped +1.56% Mon; book +0.33%). All 5 theses re-verified INTACT (MDT post-earnings PT raises; CFR MS Overweight PT $200; RSG/RMD clean; JPM intact, earnings 10/13). No stop-fires, no thesis breaks, no signal misfire, no execution error. First fair test of the defensive sleeve (9/18 had no time) = a lag.
+
+**Voices:**
+- **Research:** the conviction sleeve broadly underperformed on an up-tape; no name broke; nothing on the bench cleared 2 signals + ≥70 on a clean entry — no buy candidate, no sell candidate.
+- **Risk:** all 5 stops resting GTC, MDT tightest (~2.8%); daily loss cap never near; cash on the ~$10k floor. No conversion (JPM +3.99% < +5%). Selling intact-thesis defensives while red to chase a melt-up = locking losses + chasing — declined.
+- **Trader:** no order warranted this week; none placed. Correct action = verify + hold + report.
+
+**Strategy decision:** NO change; no strategy.md changelog entry. Rationale: one risk-on week where defensives lag is expected behavior for the chosen posture, the higher-for-longer macro premise (10Y ~5.1%) is intact, and "one bad week is not a signal." Five misses but five DIFFERENT causes (cash drag → SNPS entry stop → ATI mark → ATI stop → defensive non-participation) = not one repeating pattern. Entry-timing advisory not tested; unchanged.
+
+**Forward marker SHARPENED (diagnostic, not a rule):** defensive-sleeve-lag watch = **occurrence 1** this week. **Occurrence 2** (sleeve lags SPY again in the next 1–2 weeks, theses intact, no stop-out excuse) → weekly review brings Lauren a plain **A/B proposal**: (i) tilt future conviction picks toward benchmark-participation/upside names vs. pure defensives, and/or (ii) shift weight from the conviction sleeve to the index floor until higher-participation setups clear the gate. Governance path = same as the 8/7 cash-floor decision (owner decides; no silent edit).
+
+**Grade: D+** — widest weekly miss of the streak (−1.92 alpha), run-worst cumulative (−5.11), 5th straight miss (scoreboard caps it low); but zero error to commit — no warranted trade, all theses intact, stops clean, disciplined non-chase (earns the "+").
+
+**Handoff → pre-market Mon 9/28 (~06:00 CT):**
+- **STANDING WATCH — defensive-sleeve alpha:** this week = occurrence 1 of the lag watch. Track whether the conviction sleeve keeps pace next week; if it lags again (theses intact, no stop-out), the weekly review Fri 10/2 owns the A/B proposal to Lauren. Restate this in every handoff until it clears or triggers.
+- Sleeve 5/5 AT CAP, 0 slots; weekly buys reset 0/3 Mon but no slot → no buy without a stop-out/swap. Nothing on the bench beats a held name at the gate on a clean entry as of Fri.
+- **MDT** tightest cushion (~2.8% to 86.18) AND week's worst (−4.35%); thesis intact. If it tags = −7% working; no pre-empt, no average-down → slot opens → redeploy queue.
+- Redeploy queue if a slot opens (all need live ≥70 re-score + 2 verified signals + clean non-extended entry): **CTAS → ADM (50dMA reclaim) → GD (50dMA reclaim + fresh catalyst)**; ATI/SNPS bench for clean re-entries; idle remainder → SPY floor.
+- **JPM** +3.99% on 10% trailing (floor 329.85, hwm 366.5); below +5% → no conversion; **earnings 10/13 BMO** — binary ~2.5wks out.
+- **RSG** div $0.67 ex-date 10/2; RSG/RMD convert to trailing at +5%.
+- **Macro:** next binary = **core PCE Wed 9/30** — no fresh rate-sensitive beta the session before (moot, sleeve full). Higher-for-longer read intact.
+- Inbox empty; Astra proposals none.
+- **Unverified:** none — account/positions/open-orders/clock/SPY IEX bars all pulled live this run.

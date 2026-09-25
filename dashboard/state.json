@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-09-25 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-25 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 96720.96,
   "cash": 10661.62,
@@ -9,8 +9,10 @@
   "spy_day_pct": 0.53,
   "alpha_day_pct": -0.10,
   "week_pl_pct": -0.65,
-  "spy_week_pct": 1.26,
-  "alpha_week_pct": -1.91,
+  "spy_week_pct": 1.28,
+  "alpha_week_pct": -1.92,
+  "cum_alpha_pct": -5.11,
+  "week_grade": "D+",
   "positions": [
     {
       "symbol": "JPM",
@@ -32,8 +34,8 @@
       "symbol": "CFR",
       "qty": 60,
       "avg_cost": 163.15,
-      "current": 157.42,
-      "pl_pct": -3.51,
+      "current": 157.08,
+      "pl_pct": -3.72,
       "stop": 151.73
     },
     {
@@ -56,8 +58,8 @@
       "symbol": "SPY",
       "qty": 49,
       "avg_cost": 764.72,
-      "current": 771.26,
-      "pl_pct": 0.86,
+      "current": 771.66,
+      "pl_pct": 0.91,
       "stop": null
     }
   ],
@@ -121,6 +123,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-25 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 09-25: -0.65% | SPY +1.28% | alpha -1.92% | grade D+",
+      "body": "Losing week vs the market, our widest miss in this stretch. We slipped ~$629 (-0.65%) while the S&P 500 jumped +1.28% - a risk-on week our deliberately defensive stocks were built to lag (every one of our 5 stocks drifted down while the market sprinted up; only our S&P cushion kept pace). Zero trades, and that was right: nothing hit a stop, no thesis broke (all 5 re-verified intact), and selling good stocks while they're down to chase a rally that already happened is the classic mistake. D+ = clean process, bad scoreboard. Cumulative we're now ~5 pts behind SPY (a run-worst). I'm setting a 2-strike clock on the defensive stock-picks: strike 1 this week - if they lag again next week or two with nothing broken, I'll bring you a plain A/B decision (keep picking stocks vs. lean on the market-cushion). No quiet changes - your call. Next: PCE inflation report Wed 9/30; watching MDT (thinnest cushion ~2.8%)."
+    },
+    {
       "ts": "2026-09-25 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $96,721 · day +0.42% · SPY +0.53% · alpha -0.10%",
@@ -161,12 +169,6 @@
       "routine": "market-open",
       "headline": "No trades at the open · sleeve 5/5 · all 5 stops verified · CFR the watch",
       "body": "Market opened; I verified our real account and every stop (all 5 resting, IDs unchanged). No trades - we're full at 5 stocks plus the S&P cushion, no thesis broke, nothing hit a stop. Re-checked CFR live: no bad company news, its slide is just regional-bank rotation as the 10-year yield hit a 2007 high. Down only 0.12% today. CFR ~1.7% above its $151.73 stop; if it fires, that's the safety net working."
-    },
-    {
-      "ts": "2026-09-24 06:15 CT",
-      "routine": "pre-market",
-      "headline": "Cautious risk-off open · no trades · CFR the watch (~1% above its stop)",
-      "body": "Overnight scan done. Risk-off tape - 10Y Treasury yield above 5.1% (highest since 2007), hawkish Fed speakers today. All 5 theses intact; no company-specific bad news. CFR (~1.06% above its 151.73 stop) may tag it on bank-sector rotation - if so, that's the safety net working; no averaging down. Sleeve 5/5, no buys possible. Bench if a slot opens: GD, then TMO on a pullback."
     }
   ]
 }

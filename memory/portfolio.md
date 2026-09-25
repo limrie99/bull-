@@ -1,6 +1,6 @@
 # Portfolio
 
-**Last updated:** 2026-09-25 15:00 CT (**MARKET-CLOSE routine**, Fri). Market **CONFIRMED closed** via `/v2/clock` (is_open=false; next_open 2026-09-28 09:30 ET). **No trades today** — 0 closed orders, no stop-outs, no thesis breaks, no +5% conversions, no open slot. All 5 individual-stock stops re-VERIFIED live resting (exactly 5 open orders, IDs unchanged); SPY unencumbered by design. Inbox empty, Astra proposals empty. **Up day: equity $96,313.10 (Thu close) → $96,720.96, +$407.86 / +0.42%** — but SPY rose +0.53%, so we lagged the market by −0.10% today (defensives sat still on a risk-on tape). WTD we're −0.65% vs SPY +1.26% → **alpha WTD −1.91%.**
+**Last updated:** 2026-09-25 16:00 CT (**WEEKLY-REVIEW routine**, Fri; follows the 15:00 close). Market **CONFIRMED closed** via `/v2/clock` (is_open=false; next_open 2026-09-28 09:30 ET). **No trades this routine or this week** — FILL activities since 9/19 EMPTY; 0 stop-outs, 0 thesis breaks, 0 +5% conversions, sleeve held 5/5 all week. All 5 individual-stock stops re-VERIFIED live resting (exactly 5 open orders, IDs unchanged); SPY unencumbered by design. Inbox empty, Astra proposals empty. **Week ending 9/25 (settled): portfolio −0.65% vs SPY +1.28% → alpha −1.92% (grade D+)** — a risk-on melt-up our defensive tilt was built to lag (every conviction name fell while SPY rose; only the SPY floor kept pace). **Cumulative alpha since 5/29 base: −5.11 pts (new run-worst, widened from −3.17).** Full retro in `memory/weekly-review.md`. **Forward marker: defensive-sleeve-lag watch = occurrence 1; a 2nd lagging week (theses intact, no stop-out) triggers a plain A/B proposal to Lauren on whether the conviction sleeve earns its risk — no silent change.**
 
 ---
 
@@ -46,7 +46,7 @@
 ## Today's trades
 - **NONE.** Close routine, market confirmed closed; 0 closed orders today. No stop-outs, no thesis break, no +5% conversion, no open slot, no warranted swap, inbox/Astra empty. Correct action: verify + hold + report the daily scorecard.
 
-## Watch / next (next routine: **weekly review Fri 9/25 ~16:00 CT — honest retro + alpha vs SPY; then pre-market Mon 9/28**)
+## Watch / next (next routine: **pre-market Mon 9/28 ~06:00 CT** — weekly review DONE 9/25 16:00; grade D+, alpha WTD −1.92%, cum −5.11)
 - **MDT watch (tightest hard-stop cushion, ~2.78% to 86.18):** thesis/fundamentals INTACT (post-earnings PT raises); drag is margin/turnaround skepticism + macro. **If it tags, that is the plan working — do NOT pre-empt, do NOT average down.** On a stop-out a slot opens → redeploy queue below.
 - **CFR:** −3.51%, ~3.61% cushion; news constructive (MS Overweight, PT $200); thesis intact. Watch only.
 - **JPM:** +3.99%, on the 10% trailing (floor 329.85, hwm 366.5). Below +5% vs cost → no conversion. Earnings 10/13 BMO — no action yet.
