@@ -1,3 +1,35 @@
+# 2026-09-25 ~12:00 CT — MIDDAY (Fri) · NO TRADES · sleeve 5/5 · verify + hold
+
+**Routine:** midday. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true; next_close 2026-09-25 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders verified.
+
+## Live midday read (`/v2/account`)
+- equity **$96,754.16**, cash **$10,661.62 (~11.02%)**, long_mv **$86,092.54**, last_equity (Thu 9/24 close) **$96,313.10**, status ACTIVE.
+- **Day P/L +$441.06 / +0.46%** — up on the day; book drifted up from the open ($96,340.84 → $96,754.16). Official scorecard is the close routine's job.
+
+## Risk management (priority order per the routine)
+- **(a) Any position −7% or worse un-stopped?** NO. Worst MDT −4.52% (px 88.48 vs 86.18 stop, cushion ~2.60%) — and it **bounced from −5.81% at the open**. CFR −3.26% (cushion ~3.87%), RMD −2.65% (~4.47%), RSG −2.40% (~4.71%), JPM +3.84%, SPY +0.82% (no stop). No thesis-break check triggered — nothing at/through a stop. No Perplexity news pull warranted (no −7% name).
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO. JPM +3.84% ALREADY on the 10% trailing (floor 329.85, hwm 366.5); below +5% vs cost and below hwm → nothing to convert. All others red.
+- **(c) Daily loss cap:** +0.46% — UP, far inside −3%. Not triggered.
+
+## Stops verified (open-orders, exactly 5, IDs unchanged from open)
+- JPM trailing `8a937ff6` (floor 329.85, 10%, hwm 366.5) · MDT hard `2768e81c` (86.18) · CFR hard `cd725e5b` (151.73) · RSG hard `93c80d32` (202.74) · RMD hard `91671fa4` (212.62). SPY unencumbered by design (index-floor carve-out).
+
+## Buys
+- **NONE.** No high-conviction breaking catalyst; sleeve 5/5 (0 slots), weekly buys 0/3 → no open slot anyway. No deviation from the pre-market plan warranted. Nothing on the bench beats a held name at the ≥70 gate on a clean entry; all theses intact/improving.
+
+## Voices
+- **Research:** all 5 theses intact; MDT/CFR dips remain macro/skepticism with improving news flow (MDT PT-raise wave; CFR MS Overweight PT $200), not breaks. No new proposal (Astra empty).
+- **Risk:** no stop at trigger; MDT tightest at ~2.60% and improving; loss cap clear; no conversion due; cash ~11% on target.
+- **Trader:** no order placed — no thesis break, no stop hit, no +5% conversion, no open slot, no warranted swap. Verify + hold is the correct action.
+
+## Handoff → market-close (Fri 9/25 ~15:00 CT)
+- **MANDATORY daily scorecard** vs SPY + **Telegram push** (non-negotiable every trading day, trade or not). Lead with up/down $ and %, vs SPY, and whether we're ahead; compute today's SPY move at the close.
+- **Standing actions:** none open. Cash-deploy decision long since executed. SPY floor = no stop by policy.
+- **Watch into the close:** MDT tightest (~2.60% to 86.18) — if it tags, it's the −7% net working, do NOT pre-empt/average down; a stop-out opens a slot → redeploy queue CTAS → ADM → GD (each needs live ≥70 re-score + 2 verified signals + clean non-extended entry; idle remainder → SPY). +5% conversion watch: none pending.
+- **Unverified/left:** none. Next binary macro = core PCE Wed 9/30 (no fresh rate-sensitive beta the session before). No holding earnings within 3 trading days (JPM 10/13 earliest).
+
+---
+
 # 2026-09-25 ~06:15 CT — PRE-MARKET (Fri) · Research fan-out · NO TRADES (market closed) · sleeve 5/5
 
 **Routine:** pre-market. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-25 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **4-agent research team ran in parallel** (macro / earnings / position / opportunity scout via Perplexity). Live Alpaca account + positions + open orders verified pre-market.
