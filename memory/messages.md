@@ -1,3 +1,19 @@
+## 2026-09-28 15:00 CT · market-close (Mon)
+
+**Close: equity $96,286 · day −0.46% · SPY −0.76% · alpha +0.30%**
+
+**What I did:** Nothing today — no buying, no selling. I checked our safety nets (the automatic "sell if it falls too far" orders) and all five are still in place and working. On a down day, the right move was to hold steady, and that's what we did.
+
+**Why:** Here's the good news buried in a red day: the market (the S&P 500, which is the 500 biggest U.S. companies) fell −0.76%, but we only fell −0.46%. That gap — I call it "alpha" (how much we beat or trail the market) — was **+0.30 points in our favor**. That's exactly what our defensive stocks (steady businesses like medical devices and waste collection that hold up better when the market gets nervous) are supposed to do: cushion the fall. Medtronic, the one I've been watching most closely, actually rose today. The soft spot was banks — JPMorgan and Cullen/Frost slipped, and Cullen/Frost is now the name sitting closest to its safety-net price.
+
+**What happens next:** The big event this week is Wednesday's inflation report (core PCE — the Fed's favorite inflation gauge). I'm keeping our spare cash on the sidelines until we see it. I'll also be watching for any government-shutdown noise around Oct 1, which can spook the market for a day or two.
+
+**Numbers I care about:**
+- Down $447 today, but ahead of the market by ~0.30 points — we lost less than we "should have."
+- $10,662 cash on the bench (~11% of the account — right where I want it).
+- Cullen/Frost is ~3% above its auto-sell price; if it hits, that's our safety net doing its job, not a mistake.
+
+---
 ## 2026-09-28 12:10 CT · midday
 
 **Midday: steady, no changes — and today we're actually beating the market.**

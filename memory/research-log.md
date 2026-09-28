@@ -1,3 +1,60 @@
+# 2026-09-28 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Mon) · NO TRADES · sleeve 5/5 · official daily scorecard
+
+**Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-29 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders + closed orders VERIFIED against reality.
+
+## Closing read (`/v2/account`, `/v2/positions`, `/v2/orders`)
+- equity **$96,286.32**, cash **$10,661.62 (~11.07%)**, long_mv **$85,624.70**, last_equity (Fri 9/25 close) **$96,732.85**, status ACTIVE.
+- **0 closed orders today** (`/v2/orders?status=closed&after=2026-09-28`) → no fills, no stop-outs, no trades. Cash unchanged from Fri.
+- **Exactly 5 open orders VERIFIED resting** (IDs unchanged): JPM trailing `8a937ff6` (floor 329.85, 10%, hwm 366.5) · MDT hard `2768e81c` (86.18) · CFR hard `cd725e5b` (151.73) · RMD hard `91671fa4` (212.62) · RSG hard `93c80d32` (202.74). SPY unencumbered by design.
+
+## Day summary (official scorecard — the close routine owns this)
+- **Closing equity: $96,286.32.** Day P/L: **−$446.53 / −0.46%** (vs Fri close $96,732.85).
+- **SPY day: −0.76%** (Mon close 765.49 vs Fri close 771.35, daily bars). **Alpha today: +0.30 pts** — we fell less than the market on a red tape.
+- **Week-to-date (Mon is day 1 of the week):** portfolio −0.46%, SPY −0.76%, alpha WTD **+0.30 pts**.
+- **Cum alpha since 5/29 base: ~−5.11 pts** (per 9/25 weekly review; today's +0.30 nudges it favorably — precise recompute is the Friday weekly review's job).
+- **Trades placed today: 0.** Sleeve 5/5 at cap; weekly buys 0/3; no stop fired, no +5% conversion, no open slot, no warranted swap; inbox + Astra empty.
+
+**What worked (1–3):**
+- The **defensive tilt did its job on a down tape** — portfolio −0.46% vs SPY −0.76%, +0.30 pt alpha. Exactly the design when the market sells off.
+- **MDT — the tightest-cushion watch name — actually rose +0.97% intraday** (cur 89.50, cushion widened to ~3.71% from the open's ~2.10%). RSG +0.39%, RMD +0.05% held green. Healthcare/waste defensives absorbed the risk-off.
+- Discipline held: no pre-emption, no averaging down, all 5 stops resting.
+
+**What didn't (1–3):**
+- **Financials were the day's laggards.** JPM −1.80% intraday (−$209 drag, biggest single-name) though still +2.19% vs cost; **CFR −0.64% and is now the tightest-cushion name at ~3.00% to its 151.73 stop** (overtakes MDT as WATCH #1).
+- **SPY sleeve dragged −$300 intraday** (it IS the market, −0.79%) — the index floor moves with the tape by design; nothing to fix.
+- Book still net-red on unrealized (5 of 6 names below cost); the −0.46% down day, while better than SPY, is still a down day.
+
+## Closing positions (live EOD marks)
+| Symbol | Sh | Avg Cost | EOD Px | P/L $ | P/L % | Stop | Cushion |
+|---|---|---|---|---|---|---|---|
+| JPM | 34 | 329.6956 | 336.90 | +244.95 | +2.19% | 10% trail (floor 329.85, hwm 366.5) | trailing |
+| MDT | 96 | 92.67 | 89.50 | −304.32 | −3.42% | −7% hard 86.18 | ~3.71% |
+| CFR | 60 | 163.15 | 156.42 | −403.80 | −4.13% | −7% hard 151.73 | ~3.00% (TIGHTEST) |
+| RMD | 42 | 228.6274 | 222.10 | −274.15 | −2.86% | −7% hard 212.62 | ~4.27% |
+| RSG | 44 | 218.00 | 212.93 | −223.08 | −2.33% | −7% hard 202.74 | ~4.79% |
+| SPY | 49 | 764.7163 | 765.22 | +24.68 | +0.07% | NONE (index-floor sleeve) | n/a |
+
+Total unrealized P/L: **−$935.72**. Weights on equity $96,286.32: JPM 11.9%, MDT 8.9%, CFR 9.7%, RMD 9.7%, RSG 9.7%, SPY 38.9%, cash 11.07%.
+
+## Risk checks (close 2026-09-28 15:00 CT)
+- **(a) Any position −7% or worse un-stopped?** NO. Worst **CFR −4.13%** (cur 156.42 vs 151.73 stop, cushion ~3.00%). Nothing at/through a trigger.
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO. JPM +2.19% only green stock, below +5% AND already on the 10% trailing. Zero conversions pending.
+- **(c) Daily loss cap:** −0.46% — well inside −3%. (Sleeve full → no open slot anyway.)
+
+## Open questions for tomorrow
+- **CFR is now the tightest-cushion watch (~3.00% to 151.73)**, then MDT (~3.71%). Both drags remain macro/sector risk-off with INTACT news flow (CFR MS Overweight PT $200; MDT post-earnings PT raises + MiniMed split-off) — NOT thesis breaks. If either tags, that is the −7% plan working; do NOT pre-empt or average down.
+- **Tue 9/29:** no fresh rate-sensitive beta warranted the session before **core PCE Wed 9/30** (+ Q2 GDP 3rd est, MU earnings). Sleeve full anyway.
+- **Government-shutdown risk around the 9/30–10/1 fiscal-year edge** — a risk-off spike could pressure all four rate-sensitive defensives at once. Watch.
+- RSG div $0.67 ex-date 10/2 (small). No holding reports earnings within 3 trading days (JPM 10/13 earliest).
+- **STANDING WATCH — defensive-sleeve-lag (occurrence 1):** today the sleeve BEAT SPY on a down day (supportive evidence, not a lag). Marker stays at occurrence 1; a 2nd *lagging week* (theses intact, no stop-out), judged at the Fri 10/2 weekly review, triggers the A/B proposal to Lauren.
+
+## Handoff → pre-market (Tue 2026-09-29 ~06:15 CT)
+- **STANDING: no trades unless a stop fires.** Sleeve 5/5, weekly buys 0/3, no open slot → a buy needs a stop-out/swap; none warranted.
+- **WATCH #1 = CFR** (~3.00% to 151.73) then **MDT** (~3.71% to 86.18). Verify exactly 5 open stops resting (IDs above); SPY unencumbered.
+- **No fresh rate-sensitive beta before core PCE Wed 9/30.** Watch shutdown risk 9/30–10/1.
+- Cash ~$10.66k on the ~$10k target — do not breach the 10% floor.
+
+---
 # 2026-09-28 ~08:35 CT (09:35 ET) — MARKET-OPEN (Mon) · NO TRADES · sleeve 5/5 · verify + hold
 
 **Routine:** market-open. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true; next_close 2026-09-28 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders VERIFIED against reality (truth wins over the handoff).
