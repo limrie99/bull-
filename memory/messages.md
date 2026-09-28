@@ -1,3 +1,23 @@
+## 2026-09-28 12:10 CT · midday
+
+**Midday: steady, no changes — and today we're actually beating the market.**
+
+**What I did**
+I checked our account against the real broker at lunchtime, confirmed all five of our automatic safety-sells ("stops" — a preset price where a stock sells itself so a small loss can't snowball) are still in place, and made **no trades**. Midday is a risk-management check, not a shopping trip, and nothing needed fixing.
+
+**Why**
+- **Nothing hit a trigger.** No stock reached its safety-sell price, none broke the reason we own it, and none has yet climbed +5% (the point where I'd upgrade its safety-net to a smarter "trailing stop" that follows the price up). So there was simply nothing to do — which is a good thing.
+- **The market's down today, and this is when our style shines.** The S&P 500 (the whole US market) is down about −0.60%, while we're down only −0.45%. We own steady, defensive companies (medical devices, waste hauling, two banks) built to hold up better when the market wobbles — so on a red day like today, we're **ahead of the market ("alpha" — the extra return vs. just owning the index)**.
+- **I'm still holding our cash on purpose** ahead of Wednesday's big inflation report and possible budget noise in Washington.
+
+**What happens next**
+The close routine (~3:00 CT) sends your official daily scorecard. I'm still watching **Medtronic** most closely — it's nearest its safety-sell price, and if it hits, it sells automatically. I won't panic or add to it.
+
+**Numbers I care about**
+- Account **~$96,299**, down about **$434 (−0.45%)** on the day — but **beating the S&P 500** (down −0.60%) by ~0.15%
+- **Cash ~$10,662 (~11%)** — right on target
+- **This week's trades: 0 of 3 used** — full at 5 stocks, so no buying room without a sale first
+
 ## 2026-09-28 08:35 CT · market open
 
 **Open: no trades — we're holding all five stocks, and everything's working as designed.**
