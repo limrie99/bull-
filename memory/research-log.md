@@ -1,3 +1,55 @@
+# 2026-09-28 ~06:15 CT — PRE-MARKET (Mon) · Research fan-out · NO TRADES (market closed) · sleeve 5/5
+
+**Routine:** pre-market. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-28 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **4-agent research team ran in parallel** (macro / earnings / position / opportunity scout via Perplexity). Live Alpaca account + positions + open orders VERIFIED against reality (truth wins over the handoff).
+
+## Live pre-market read (`/v2/account`, indicative — market not open)
+- equity **$96,443.15**, cash **$10,661.62 (~11.05%)**, long_mv **$85,781.53**, last_equity (Fri 9/25 close) **$96,732.85**, status ACTIVE. Pre-mkt indicative day −$289.70 / −0.30% (overnight marks; official day scorecard is the close routine's job).
+
+## Market context (macro digest)
+- **Regime: cautiously risk-ON but fragile, running against a bond selloff.** Overnight futures modestly green (ES ~+0.47%, NQ ~+0.40%); Europe firm (DAX +0.6%), Asia mixed (Nikkei −0.7%, Shanghai −1.7%, Hang Seng +0.6%).
+- **Rates are the story:** 10Y **~5.18–5.21%** (highest since 2007), 30Y ~5.48–5.50% (highest since 2004), rising. Higher-for-longer firmly intact — dominant risk. Equities held up last week *despite* the yield jump (resilience tell), but long-duration valuation pressure persists.
+- **FX/commodities:** DXY ~101.1 (firmer), WTI ~$92–94, gold ~$4,230–4,330 (pressured by dollar+yields; non-factor for this long-only book).
+- **This week (front-loaded, binary-heavy):** Mon 9/28 light (Dallas Fed Mfg; Fed speakers Bowman 8:15 ET, Barr 10:05, Cook 1:25). Tue Consumer Confidence + CCL. **Wed 9/30 = ⭐ core PCE 8:30 ET (cons ~+0.3% m/m, ~3.3% y/y core) + Q2 GDP 3rd est + MU earnings — the next BINARY macro print.** Thu 10/1 ADP + jobless claims + ISM Mfg + ACN. **Fri 10/2 September NFP 8:30 ET.** Added risk: **government-shutdown risk around the 9/30–10/1 fiscal-year edge** (position analyst).
+- **Read for the book:** setup FAVORS our low-rate-sensitivity defensive tilt (MDT/RSG/RMD) + financials' NIM thesis (JPM/CFR benefit from higher-for-longer); PUNISHES high-multiple/long-duration software. No new-buy urgency into a modest green open ahead of Wed PCE. **Entry-timing advisory: no fresh rate-sensitive/high-beta beta the session before core PCE (Tue 9/29) — moot, sleeve full.**
+
+## Portfolio watch (position digest — ALL 5 THESES INTACT, no breaks)
+- **JPM** +3.58% (cur 341.50), on 10% trailing (floor 329.85, hwm 366.5). Only news: Jefferies trimmed PT to $365 (from $370), reiterated Hold — PT still ~7% above price, not thesis-relevant. Buyback/QIA-JPMAM thesis unchanged. Earnings 10/13 BMO. Below +5% vs cost & below hwm → no conversion. INTACT.
+- **MDT** −4.28% (cur 88.70), **−7% hard 86.18 → cushion ~2.84% = TIGHTEST of the book.** Only fresh item: Sep-26 exchange offer formalizing the MiniMed split-off (structural/expected, SEC filing) — NOT a thesis reversal. No new downgrade / FDA / product setback. Turnaround-margin skepticism (known drag) unchanged. THESIS INTACT; stop-proximity is the live risk (any broad med-tech/yield selloff could trip it absent MDT-specific bad news).
+- **CFR** −4.00% (cur 156.63), −7% hard 151.73 → cushion ~3.13%. Morgan Stanley Overweight PT $200 confirmed (holds). No 8-K, no dividend/guidance news, no 2nd analyst action. NIM/deposit-growth thesis intact. INTACT.
+- **RSG** −2.71% (cur 212.10), hard 202.74 → cushion ~4.41%. No material news; div $0.67 ex-date 10/2 (known, not new). Defensive-hauler thesis unchanged. INTACT.
+- **RMD** −2.90% (cur 222.00), hard 212.62 → cushion ~4.23%. **No new GLP-1 competitive headline in-window (the key tail risk — clean this weekend).** RBC Outperform $262 (9/15) still the anchor. INTACT.
+- **SPY** +0.35% (cur 767.41), index-floor sleeve (~39% of book, NO stop by policy).
+- **Stops:** all 5 VERIFIED live resting (RMD 91671fa4 / RSG 93c80d32 / MDT 2768e81c / CFR cd725e5b / JPM trailing 8a937ff6), IDs unchanged, exactly 5 open orders; SPY unencumbered by design.
+- **WATCH order:** #1 MDT (~2.84% to 86.18), #2 CFR (~3.13% to 151.73). Both drags macro/skepticism with INTACT news — not breaks.
+
+## Earnings check
+- **Quiet Monday** — no material large-caps pre-open. After close: JEF (~$1.00, capital-markets read), NKE (timing DISPUTED Mon vs Thu — treat unconfirmed), MTN (seasonal loss, immaterial). Week ahead: **MU Wed 9/30** (AI-memory read), **ACN Thu 10/1** (enterprise IT spend), CCL Tue, NKE Thu.
+- **Holdings blackout: CLEAR.** None report within 3 trading days. JPM 10/13 earliest (confirmed); RMD ~10/22, CFR ~10/29, RSG ~10/29, MDT ~11/24. No dates moved earlier.
+
+## Buy candidates (bench refresh — no slot open, sleeve 5/5, weekly buys 0/3)
+- **CTAS (Cintas) ~$199.91 — BENCH LEADER, grade A-/B+.** Signals: #1 (fiscal Q1'27 9/23 beat $1.39 v $1.35, rev $3.01B +10.9%, AND raised FY guide $5.45–5.54 EPS) + #4 (Truist $230, Baird $222 target raises) + #3 (defensive-industrial secular, great higher-for-longer fit). Trend: **~1.1% BELOW 50dMA (~$202.19)** — NOT extended, sitting just under; a **confirmed 50dMA reclaim = clean textbook entry.** Watch for the reclaim.
+- **CVX (Chevron) — NEW bench add, grade B.** Signals: #2 dated catalyst Q3 earnings ~10/29; #4-ish HSBC raised target to $250 (maintain Buy); energy fits higher-for-longer/cash-generative. **Trend price vs 50dMA UNCONFIRMED — verify before scoring.**
+- **DE (Deere) ~$694.92 — EXTENDED, do NOT chase.** Strong company (Q3 beat, raised guide) but **+9.9% above 50dMA (~$632.42), near 52-wk high**; next earnings 11/25 (no near catalyst). Bench and wait for a pullback toward the 50dMA.
+- **ADM ~$81.12 — WEAK, low priority.** ~1 soft signal (WSZen upgrade, low-quality); consensus Hold, ~$80.40 avg = negligible upside; ~1.7% below 50dMA; no catalyst. Needs a real catalyst + clean reclaim.
+- **GD ~$336.72 — AVOID (knife-catch).** ~10% BELOW 50dMA ($374.06), momentum broken, no dated catalyst. Violates the no-knife-catching rule. Bottom of bench until a reclaim + catalyst.
+- **Screened, NOT qualifying:** HHH (real insider buy 9/23 but ~$3–4B cap, under $10B floor), HONA (recent spinoff, excluded), AGO (sub-$10B, 1 signal).
+- **Verdict:** book is 5/5 AT CAP, 0 open slots; a buy is only possible via a stop-out/swap — **NONE warranted.** All 5 theses intact and the two weakest (MDT, CFR) carry constructive/neutral news, so nothing on the bench beats a held name at the ≥70 gate on a clean entry. **Research:** CTAS is the freshest, closest-to-clean idea — arm it on a 50dMA reclaim + full 5-dim Conviction re-score. **Risk:** no slot to free; every hold intact; CVX/CTAS technicals unconfirmed. **Trader:** nothing to place (market closed; no qualifying swap).
+
+## Sell candidates
+- **NONE.** No thesis break, no stop hit, no +5% hard→trailing conversion pending (JPM already trailing at +3.58%; everything else red). Nothing at/near a trigger. Worst cushion MDT ~2.84% — stand; if it tags, the −7% net is doing its job.
+
+## Handoff → market-open (Mon 2026-09-28 ~08:30 CT)
+- **STANDING: no trades unless a stop fires.** Sleeve 5/5, weekly buys 0/3 (new week), no open slot → a buy needs a stop-out/swap; none warranted at the pre-market read.
+- **Verify at live open:** re-pull `/v2/clock` (is_open=true), `/v2/account`, `/v2/positions`, and confirm exactly 5 open stop orders (IDs above) resting; SPY unencumbered.
+- **WATCH #1 = MDT** (tightest, ~2.84% to 86.18) then **CFR** (~3.13% to 151.73). Both drags macro/skepticism with INTACT news (MDT MiniMed split-off is structural not a break; CFR MS Overweight PT $200). **If either tags its stop, that is the plan working — do NOT pre-empt, do NOT average down.** On a stop-out a slot opens → redeploy queue below.
+- **+5% conversion watch:** none pending (JPM already on trailing). If any red name rallies to +5% intraday, convert its −7% hard → 10% trailing.
+- **Redeploy queue if a slot opens (each needs a live ≥70 re-score + 2 verified signals + clean, non-extended entry):** **CTAS** (verify 50dMA reclaim on Alpaca-IEX bars + full Conviction score — freshest beat-and-raise, right tape fit) → **CVX** (verify price vs 50dMA first) → **ADM** (needs reclaim + real catalyst). DE benched (extended, wait for pullback); **GD dropped to bottom / avoid** (knife-catch). Idle remainder → SPY floor per policy.
+- **Macro:** Mon light. **Next binary = core PCE Wed 9/30** (+ GDP, MU) — no fresh rate-sensitive beta the session before it (Tue 9/29). Also **watch government-shutdown risk around the 9/30–10/1 fiscal-year edge** — a risk-off spike could pressure all four rate-sensitive defensives at once (MDT most exposed). Cash ~$10.66k on the ~$10k target; do not breach the 10% floor.
+- **Unverified/left:** CVX and CTAS technicals (50dMA) to confirm on live bars before any arm. Nothing else outstanding.
+- **Forward marker (from 9/25 weekly review):** defensive-sleeve-lag watch = occurrence 1; a 2nd lagging week (theses intact, no stop-out) triggers a plain A/B proposal to Lauren on whether the conviction sleeve earns its risk. Cum alpha since 5/29 base: −5.11 pts.
+
+---
+
 # 2026-09-25 ~12:00 CT — MIDDAY (Fri) · NO TRADES · sleeve 5/5 · verify + hold
 
 **Routine:** midday. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true; next_close 2026-09-25 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders verified.

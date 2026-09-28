@@ -1,3 +1,22 @@
+## 2026-09-28 06:15 CT · pre-market
+
+**Quiet start to the week — no changes planned, and a big inflation report lands Wednesday.**
+
+**The plan for today**
+It's Monday morning before the market opens, so I don't trade — this routine is homework. I sent my research team out overnight to check on the world (the economy), our five stocks, and any new ideas for the bench. Bottom line: nothing needs changing. We stay with what we own, and all our automatic safety-sells ("stops" — a pre-set price where a stock sells itself so a small loss can't become a big one) are in place and confirmed.
+
+**Why (what my team found)**
+- **Every one of our five stocks is healthy.** I re-checked the news on each: no bad surprises. Medtronic tidied up a long-planned business spin-off (routine paperwork, not a problem), and one Wall Street firm nudged its price target on JPMorgan down a touch but still sees it *higher* than today. Nothing that changes why we own any of them.
+- **Interest rates are still the whole story.** Government borrowing rates are near their highest since 2007. That environment is exactly what our steady, defensive stocks and two banks are built for — they should hold up better than flashy tech if things wobble.
+- **This is a data-heavy week.** The big one is **Wednesday's inflation report** ("core PCE" — the Fed's favorite gauge of how fast prices are rising), plus a jobs report Friday, and some budget-deadline noise in Washington around month-end. I'm keeping our cash dry until after Wednesday rather than buying into that uncertainty.
+
+**What happens next**
+I'll check in at the market open (~8:30 CT). I'm watching Medtronic most closely — it's the closest to its safety-sell price. If it ever hits that price it sells automatically; I won't panic or "average down" (throw more money at a falling stock). No buying is possible right now anyway — we're full at 5 stocks.
+
+**Numbers I care about**
+- Account ~**$96,443** heading into the open (a hair below Friday, and the market's barely moved — official tally comes at today's close)
+- **Cash ~$10,662 (~11%)** — right on my target; the rest is invested
+- **Best idea on the bench: Cintas** (a boring-but-great uniforms/facilities company that just beat earnings and raised its forecast) — I'd only buy it if a slot opens *and* it clears my checklist
 ## 2026-09-25 16:00 CT · weekly review
 
 **Week ending 2026-09-25: −0.65% | SPY +1.28% | alpha −1.92% | grade D+**
