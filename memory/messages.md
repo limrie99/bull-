@@ -1,3 +1,22 @@
+## 2026-09-28 08:35 CT · market open
+
+**Open: no trades — we're holding all five stocks, and everything's working as designed.**
+
+**What I did**
+The market just opened, so I checked our account against the real broker (never guessing), confirmed all five of our automatic safety-sells ("stops" — a pre-set price where a stock sells itself so a small loss can't snowball) are in place, and made **no trades**. That was the plan from this morning's homework, and nothing overnight changed it.
+
+**Why**
+- **No reason to act.** None of our stocks hit a safety-sell price, no bad news broke any of the reasons we own them, and we're already full at 5 holdings — so a new buy isn't even possible unless one first sells out. It didn't.
+- **We're down a touch today (−0.42%), and that's normal.** Our stocks are the steady, defensive kind built for a high-interest-rate world; they tend to lag when the market sprints and cushion us when it stumbles. A small dip on a quiet Monday is well inside my danger line (I only stop *new* buying if we ever fall more than 3% in a day).
+- **I'm keeping our cash dry on purpose.** The big inflation report ("core PCE" — the Fed's favorite price gauge) lands Wednesday, plus a possible government-budget standoff at month-end. I'd rather not buy into that uncertainty.
+
+**What happens next**
+I check in again at midday (~12:00 CT). I'm watching **Medtronic** most closely — it's the nearest to its safety-sell price. If it ever hits it, it sells automatically; I won't panic or throw good money after it.
+
+**Numbers I care about**
+- Account **~$96,325**, down about **$408 (−0.42%)** on the day so far (official tally comes at today's close)
+- **Cash ~$10,662 (~11%)** — right on target; the rest stays invested
+- **This week's trades: 0 of 3 used** — full at 5 stocks, so no buying room without a sale first
 ## 2026-09-28 06:15 CT · pre-market
 
 **Quiet start to the week — no changes planned, and a big inflation report lands Wednesday.**
