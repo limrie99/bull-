@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-29 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-09-29 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 95580.39,
+  "equity": 95813.41,
   "cash": 10661.62,
-  "day_pl": -714.50,
-  "day_pl_pct": -0.74,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "day_pl": -481.48,
+  "day_pl_pct": -0.50,
+  "week_pl_pct": -0.95,
+  "spy_week_pct": -0.90,
+  "alpha_week_pct": -0.05,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 334.58, "pl_pct": 1.48, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 87.03, "pl_pct": -6.09, "stop": 86.18 },
-    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 153.85, "pl_pct": -5.70, "stop": 151.73 },
-    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 221.25, "pl_pct": -3.23, "stop": 212.62 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 211.35, "pl_pct": -3.05, "stop": 202.74 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 762.56, "pl_pct": -0.28, "stop": null }
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 334.98, "pl_pct": 1.60, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 87.09, "pl_pct": -6.02, "stop": 86.18 },
+    { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 154.21, "pl_pct": -5.48, "stop": 151.73 },
+    { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 222.83, "pl_pct": -2.54, "stop": 212.62 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 211.92, "pl_pct": -2.79, "stop": 202.74 },
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 764.61, "pl_pct": -0.01, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-09-18 09:33", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
@@ -28,6 +28,12 @@
     { "date": "2026-08-31 09:40", "side": "SELL", "symbol": "LLY", "qty": 12, "price": 1152.0 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-29 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $95,813 · day −0.50% · SPY −0.14% · alpha −0.36%",
+      "body": "Quiet down day; no trades. We finished −0.50% vs the market's −0.14%, so we trailed by ~0.36 pts today — ironically because our defensives (Medtronic −2.7%, Cullen/Frost −1.4%) fell harder than the index. News check: nothing wrong with either business, just risk-off noise. On the week we're basically tied with SPY (−0.95% vs −0.90%). All 5 stops resting; MDT is nearest its net (~1%). Wednesday's core PCE inflation report is the next catalyst. Cash ~$10.7k, 0/3 weekly buys."
+    },
     {
       "ts": "2026-09-29 12:00 CT",
       "routine": "midday",

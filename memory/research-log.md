@@ -1,3 +1,34 @@
+# 2026-09-29 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Tue) · NO TRADES · sleeve 5/5 · official scorecard
+
+**Routine:** market-close. Market **CONFIRMED CLOSED** for the session via `/v2/clock` (is_open=false; next_open 2026-09-30 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders + closed orders VERIFIED against reality.
+
+## Live close read (`/v2/account`, `/v2/positions`, `/v2/orders`, `/v2/orders?status=all`)
+- equity **$95,813.41**, cash **$10,661.62 (~11.13%)**, long_mv **$85,151.79**, last_equity (Mon 9/28 close) **$96,294.89**, status ACTIVE.
+- **Closed/all orders for 9/29 = EMPTY** — zero orders placed, filled, or cancelled today. Pure verify-and-hold session.
+- **Exactly 5 open orders VERIFIED resting** (IDs unchanged all day): JPM trailing `8a937ff6` (floor 329.85, 10%, hwm 366.5) · MDT hard `2768e81c` (86.18) · CFR hard `cd725e5b` (151.73) · RMD hard `91671fa4` (212.62) · RSG hard `93c80d32` (202.74). SPY unencumbered by design.
+- Closing marks: JPM +1.60% ($334.98) · MDT −6.02% ($87.09) · CFR −5.48% ($154.21) · RMD −2.54% ($222.83) · RSG −2.79% ($211.92) · SPY −0.01% ($764.61). Unrealized **−$1,408.63**.
+
+## Day summary (official scorecard)
+- **Closing equity: $95,813.41.** Day P/L **−$481.48 / −0.50%** vs Mon 9/28 close $96,294.89.
+- **SPY day: −0.14%** — Alpaca daily bars, 9/28 close **765.49** → 9/29 close **764.38** (= −0.145%). SPY latest-trade confirmed 764.38.
+- **Alpha today: ≈ −0.36 pts** (−0.50% − (−0.14%)). We LAGGED the index today.
+- **Trades placed: 0.**
+- **Week-to-date (from Fri 9/25 close):** portfolio 96,732.85 → 95,813.41 = **−0.95%**; SPY 771.35 → 764.38 = **−0.90%**; **WTD alpha ≈ −0.05 pts (essentially flat vs SPY on the week).**
+- **What worked:** (1) JPM held green (+1.60%) and RMD/RSG cushions stayed comfortable (~4.3–4.6%) — the sleeve did NOT trip any stop on a red tape. (2) The −3% loss cap and all 5 stops behaved exactly as designed; discipline held (no panic-sell, no averaging down on MDT/CFR).
+- **What didn't:** (1) The defensive tilt UNDERperformed the index today — MDT −2.69% and CFR −1.41% on the day dragged us ~0.36 pts below SPY, the opposite of the cushion they're meant to provide. (2) MDT closed the day as the tightest cushion (~1.05% to its stop) after a −2.69% session — one more risk-off day could tag it.
+- **Open questions for tomorrow:** (a) Core PCE Wed 9/30 (Fed's preferred inflation gauge) is the binary — a hot print keeps rates elevated and pressures rate-sensitive/defensive names further; a cool print could relieve MDT/CFR. (b) If MDT tags 86.18, a slot opens — is the redeploy queue (CVX→XOM→LMT→TMO) still the right order on a post-PCE tape? (c) WTD alpha is flat, not clearly lagging — the defensive-sleeve-alpha standing watch does NOT yet escalate; re-check across the full week into Fri 10/2 weekly review.
+
+## Handoff → pre-market (Wed 2026-09-30 ~06:15 CT)
+- **Core PCE Wed 9/30 is the week's binary** (+ Q2 GDP 3rd est). No fresh rate-sensitive beta the session before a rate-relevant print — but that session is now past; pre-market is research-only regardless. Re-score the book and bench against the PCE outcome.
+- **WATCH #1 = MDT** (~1.05% to 86.18 at the close, −6.02%), **WATCH #2 = CFR** (~1.61% to 151.73, −5.48%). Both macro/sector risk-off, theses INTACT (Perplexity-verified midday). **If either tags, that is the −7% plan working — do NOT pre-empt, do NOT average down.** On a stop-out a slot opens → redeploy queue below.
+- Verify exactly 5 open stops resting (IDs above); SPY unencumbered. Check for a +5% conversion on any red name that rallies (none pending; JPM already trailing, below +5%).
+- **Redeploy queue if a slot opens (each needs a live ≥70 re-score + 2 verified signals + clean non-extended entry):** CVX (cleaner entry) → XOM (non-extended pullback only) → LMT (needs 50dMA reclaim >~$556) → TMO (buy-the-dip only). Idle remainder → SPY floor per policy.
+- No holding reports earnings within 3 trading days (JPM 10/13 earliest). RSG div ex-date 10/2 (small). Shutdown risk resolved (CR through Dec 11).
+- **STANDING WATCH — defensive-sleeve alpha (occurrence 1):** WTD alpha ~−0.05 pts (flat), NOT yet a clear 2nd lagging week. If the full week (through Fri 10/2) ends behind SPY with theses intact and no stop-out, the Fri 10/2 weekly review owns the A/B proposal to Lauren. Restate until it clears or triggers.
+- Cash ~$10.66k on the ~$10k target — do not breach the 10% floor. Sleeve 5/5; weekly buys 0/3 but full sleeve → no buy without a stop-out/swap.
+- **Mandatory daily Telegram sent this close** (per CLAUDE.md — the one push never skipped).
+
+---
 # 2026-09-29 ~12:00 CT (13:00 ET) — MIDDAY (Tue) · NO TRADES · sleeve 5/5 · verify + hold
 
 **Routine:** midday risk-management. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true; next_close 2026-09-29 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders VERIFIED against reality (truth wins over the handoff).

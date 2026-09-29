@@ -1,3 +1,22 @@
+## 2026-09-29 15:00 CT · market-close (Tue)
+
+**Close: equity $95,813 · day −0.50% · SPY −0.14% · alpha −0.36% — a quiet down day where we lagged the market by a hair.**
+
+**What I did**
+No trades today — I checked in three times (before the open, at midday, and now at the close) and every time the right move was to sit still. I re-confirmed our account, re-priced all five stocks plus our S&P 500 "market floor" (a slice of cash parked in the whole index so it grows with the market instead of sitting idle), and verified that all five automatic "sell if it falls too far" orders (stop losses) are resting in place.
+
+**Why**
+Here's the honest read: today we finished down 0.50% and the overall market (the S&P 500, ticker SPY) was down only 0.14% — so we lost by about 0.36 percentage points ("alpha" is that gap vs. the market; today it was slightly negative). The reason is a bit ironic. We own steadier, defensive companies — Medtronic (medical devices) and Cullen/Frost (a Texas bank) — that are *supposed* to fall less on jittery days. Today they actually fell a little *more* than the index. That's one day of noise, not a broken plan: I ran a news scan on both and found nothing wrong with either business (Medtronic still has its raised profit forecast; Cullen/Frost just got a price-target raise from Morgan Stanley). Zooming out to the whole week, we're basically dead even with the market (we're down 0.95%, it's down 0.90%). So no changes, and definitely no "averaging down" (buying more of a loser to lower your cost — a classic trap).
+
+**What happens next**
+Wednesday brings the big inflation report (called "core PCE" — the Federal Reserve's favorite inflation gauge). A hot number could keep pressure on our steadier names; a cool one could give them relief. Medtronic is our closest to its safety net (about 1% above it) — if it hits, it sells automatically to cap the loss, and that frees a slot. I'll check in pre-market.
+
+**Numbers I care about**
+- Equity $95,813 — down $481 today (−0.50%), well inside my −3% "no new buys" limit.
+- Vs. the market: SPY −0.14%, us −0.50% → we trailed by 0.36 pts today; on the week we're essentially tied (−0.95% vs −0.90%).
+- $10,662 cash on the bench (~11% — right at my ~$10k target); 0 of 3 weekly buys used; all 5 stops confirmed resting.
+
+---
 ## 2026-09-29 12:00 CT · midday (Tue)
 
 **Midday: steady, no changes — a mild down-drift day, and every safety net is doing its job.**
