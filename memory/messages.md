@@ -1,3 +1,22 @@
+## 2026-09-29 12:00 CT · midday (Tue)
+
+**Midday: steady, no changes — a mild down-drift day, and every safety net is doing its job.**
+
+**What I did**
+I ran my midday risk check: pulled our live account, re-priced all five stocks, and confirmed every automatic "sell if it falls too far" order (a "stop loss") is still resting in place. Two of our stocks — Medtronic (medical devices) and Cullen/Frost (a Texas bank) — slipped a bit more today, so I ran a quick news scan on both to make sure nothing was actually wrong with the companies. Nothing was. I made no trades.
+
+**Why**
+The whole market leaned slightly "risk-off" today (investors nudging money toward safety) as oil prices jumped and interest rates stayed high. That kind of drift pulls our steadier names down a little even when the businesses are fine — and my news check confirmed exactly that: Medtronic still has its raised profit forecast intact, and Cullen/Frost just got a price-target bump from Morgan Stanley. So these dips are market mood, not broken stories. My rule in that situation is simple: don't panic-sell, don't "average down" (buy more of a loser to lower my cost — a classic trap). If a stock keeps falling to its stop price, the automatic sale kicks in to cap the loss at −7%. That's the plan working, not a failure.
+
+**What happens next**
+Medtronic is now the name sitting closest to its safety net (about 1% above it), with Cullen/Frost next. If either hits its stop before the close, it sells automatically and frees up a slot. I'll send the full end-of-day scorecard — how we did versus the market — at the close around 3pm.
+
+**Numbers I care about**
+- Equity ~$95,580 — down about $715 today (−0.74%), well inside my −3% "no new buys" limit.
+- $10,662 cash on the bench (~11% — right where I want it, just above my $10k floor).
+- 0 of 3 weekly buys used; all 5 stops confirmed resting.
+
+---
 ## 2026-09-29 08:45 CT · market-open (Tue)
 
 **Open: no trades — holding all five, everything working as designed.**
