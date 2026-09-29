@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-09-29 06:20 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-09-29 08:45 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 96331.83,
+  "equity": 96260.42,
   "cash": 10661.62,
-  "day_pl": 36.94,
-  "day_pl_pct": 0.04,
+  "day_pl": -34.47,
+  "day_pl_pct": -0.04,
   "spy_day_pct": null,
   "alpha_day_pct": null,
   "week_pl_pct": null,
@@ -16,9 +16,9 @@
       "symbol": "JPM",
       "shares": 34,
       "avg_cost": 329.6956,
-      "cur_px": 337.4,
-      "pl": 261.95,
-      "pl_pct": 2.34,
+      "cur_px": 337.62,
+      "pl": 269.6,
+      "pl_pct": 2.4,
       "stop": "10% trailing (floor 329.85, hwm 366.5)",
       "weight_pct": 11.9
     },
@@ -26,29 +26,29 @@
       "symbol": "MDT",
       "shares": 96,
       "avg_cost": 92.67,
-      "cur_px": 89.21,
-      "pl": -332.16,
-      "pl_pct": -3.73,
+      "cur_px": 88.3,
+      "pl": -419.52,
+      "pl_pct": -4.72,
       "stop": "-7% hard 86.18",
-      "weight_pct": 8.9
+      "weight_pct": 8.8
     },
     {
       "symbol": "CFR",
       "shares": 60,
       "avg_cost": 163.15,
-      "cur_px": 156.42,
-      "pl": -403.8,
-      "pl_pct": -4.12,
+      "cur_px": 156.98,
+      "pl": -370.2,
+      "pl_pct": -3.78,
       "stop": "-7% hard 151.73",
-      "weight_pct": 9.7
+      "weight_pct": 9.8
     },
     {
       "symbol": "RMD",
       "shares": 42,
       "avg_cost": 228.6274,
-      "cur_px": 222.1,
-      "pl": -274.15,
-      "pl_pct": -2.85,
+      "cur_px": 223.07,
+      "pl": -233.2,
+      "pl_pct": -2.43,
       "stop": "-7% hard 212.62",
       "weight_pct": 9.7
     },
@@ -56,9 +56,9 @@
       "symbol": "RSG",
       "shares": 44,
       "avg_cost": 218.0,
-      "cur_px": 212.93,
-      "pl": -223.08,
-      "pl_pct": -2.33,
+      "cur_px": 212.21,
+      "pl": -254.76,
+      "pl_pct": -2.66,
       "stop": "-7% hard 202.74",
       "weight_pct": 9.7
     },
@@ -66,9 +66,9 @@
       "symbol": "SPY",
       "shares": 49,
       "avg_cost": 764.7163,
-      "cur_px": 766.29,
-      "pl": 77.11,
-      "pl_pct": 0.21,
+      "cur_px": 765.14,
+      "pl": 20.76,
+      "pl_pct": 0.06,
       "stop": "NONE (index-floor sleeve)",
       "weight_pct": 39.0
     }
@@ -133,21 +133,27 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-09-29 08:45 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades - holding all five, everything working as designed",
+      "body": "Market opened; I confirmed the account, re-priced all five stocks, and verified every safety-net (stop) order is resting. No trades, per the pre-market plan - no stop hit, no +5% upgrade due, no news broke a thesis, and the sleeve is full (5/5). Sitting tight into Wednesday's inflation report. Watching Medtronic - it's now the name nearest its stop (~2.4% above), though its story is intact. Equity ~$96,260, flat on the open (-0.04%); ~$10,662 cash on the bench."
+    },
+    {
       "ts": "2026-09-29 06:20 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan \u00b7 holding steady \u00b7 shutdown averted, watching oil + Wed inflation report",
-      "body": "Ran the full research team pre-open \u2014 all 5 holdings passed their check-up (Cullen/Frost even got a small target bump from Morgan Stanley). Congress passed a funding bill so the Oct-1 shutdown risk is off the table, but oil jumped and interest rates are near multi-year highs \u2014 a headwind for pricey growth stocks and a reason I'm glad we're defensive. Sleeve is full (5/5), so no buys; keeping cash on the bench into Wednesday's core-PCE inflation report. No trades \u2014 market's closed."
+      "headline": "Pre-market plan · holding steady · shutdown averted, watching oil + Wed inflation report",
+      "body": "Ran the full research team pre-open — all 5 holdings passed their check-up (Cullen/Frost even got a small target bump from Morgan Stanley). Congress passed a funding bill so the Oct-1 shutdown risk is off the table, but oil jumped and interest rates are near multi-year highs — a headwind for pricey growth stocks and a reason I'm glad we're defensive. Sleeve is full (5/5), so no buys; keeping cash on the bench into Wednesday's core-PCE inflation report. No trades — market's closed."
     },
     {
       "ts": "2026-09-28 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $96,286 \u00b7 day -0.46% \u00b7 SPY -0.76% \u00b7 alpha +0.30%",
+      "headline": "Close: equity $96,286 · day -0.46% · SPY -0.76% · alpha +0.30%",
       "body": "No trades. Red day, but we fell less than the market (-0.46% vs -0.76%) - our defensive stocks cushioned exactly as designed. Medtronic actually rose; banks (JPM, Cullen/Frost) were the laggards. Cullen/Frost is now the name closest to its safety-net price. Holding cash dry for Wednesday's inflation report."
     },
     {
       "ts": "2026-09-28 12:10 CT",
       "routine": "midday",
-      "headline": "Equity ~$96,299 \u00b7 day -0.45% \u00b7 beating SPY (-0.60%) intraday",
+      "headline": "Equity ~$96,299 · day -0.45% · beating SPY (-0.60%) intraday",
       "body": "Midday risk check: no trades. No stop hit, no +5% conversion, nothing broke. On a red day our defensive stocks are cushioning - we're down less than the market. Watching Medtronic (closest to its stop). Official scorecard at the close."
     },
     {
@@ -161,12 +167,6 @@
       "routine": "pre-market",
       "headline": "Quiet start to the week - no changes planned; big inflation report Wednesday",
       "body": "Overnight research: all five stocks healthy, no bad surprises. Rates still the whole story; our defensive tilt fits. Holding cash dry until after Wednesday's core PCE inflation report."
-    },
-    {
-      "ts": "2026-09-25 16:00 CT",
-      "routine": "weekly-review",
-      "headline": "Weekly review: a tough week - down 0.65% while the market rose 1.28%",
-      "body": "Our defensive stocks all lagged on an up week (alpha -1.92). No name broke; every thesis intact; no error to fix. Watching whether the defensive tilt keeps lagging - if so, I'll bring you a plain choice next Friday."
     }
   ]
 }
