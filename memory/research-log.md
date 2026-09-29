@@ -1,3 +1,47 @@
+# 2026-09-29 ~06:15 CT (07:15 ET) — PRE-MARKET (Tue) · RESEARCH ONLY, NO TRADES · sleeve 5/5, 0 slots
+
+**Routine:** pre-market research. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-29 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders VERIFIED. Ran the 4-agent research fan-out (macro / earnings / positions / opportunity scout) in parallel via Perplexity sonar-pro; digests synthesized below.
+
+## Live account read (`/v2/account`, `/v2/positions`, `/v2/orders`)
+- equity **$96,331.83**, cash **$10,661.62 (~11.07%)**, long_mv **$85,670.21**, last_equity **$96,294.89**, status ACTIVE.
+- **Exactly 5 open orders VERIFIED resting** (IDs unchanged from 9/28): JPM trailing `8a937ff6` (floor 329.85, 10%, hwm 366.5) · MDT hard `2768e81c` (86.18) · CFR hard `cd725e5b` (151.73) · RMD hard `91671fa4` (212.62) · RSG hard `93c80d32` (202.74). SPY unencumbered by design. **daytrade_count 0.**
+- Live position marks: JPM +2.34% ($337.40) · MDT −3.73% ($89.21) · CFR −4.12% ($156.42) · RMD −2.85% ($222.10) · RSG −2.33% ($212.93) · SPY +0.21% ($766.29). Unrealized ~−$900.
+
+## Market context
+- **Regime: MIXED, leaning mild risk-OFF; higher-for-longer INTACT.** ES ~flat/−0.1–0.2%, NQ ~flat. Europe firmer (Stoxx +~0.4%), Asia soft (Nikkei −~1.1%).
+- **Rates/commodities the story:** 10Y ~5.24–5.26% (near multiyear highs), 2Y ~4.9%, DXY firmer ~101; **WTI surged to ~$93–94 / Brent >$106 on STALLED US–Iran talks** — reviving inflation/margin worry and pressuring the long end. Gold ~$4,170.
+- **SHUTDOWN AVERTED (material change from 9/28 plan):** Congress passed a stopgap CR funding the government **through Dec 11**, so the 9/30–10/1 fiscal-year-edge shutdown risk is effectively off the table (pending final signature). The "watch shutdown noise" standing item from the 9/28 close is **resolved/downgraded**.
+- **Binary print still live: core PCE Wed 9/30** (Fed's preferred inflation gauge) + Q2 GDP 3rd est. With oil + yields rising, a soft print is needed to keep the cut narrative alive. **MU (Micron) reports 9/30 after close** — semis-sentiment read-through into the tape.
+- **Scoring implication:** rising oil + higher-for-longer favors quality/cash-flow and low-duration; wary of high-multiple long-duration growth/software. Energy is today's cleanest regime fit.
+
+## Portfolio watch (all 5 theses INTACT — position analyst confirmed)
+- **JPM** +2.34%: HSBC 9/28 kept Hold, nudged PT $369→$377. Buyback/QIA thesis intact. Earnings 10/13 BMO. On 10% trailing (floor 329.85, hwm 366.5); below +5% AND below hwm → no conversion.
+- **CFR** −4.12% (**WATCH #1, tightest cushion ~3.0% to 151.73**): **Morgan Stanley 9/28 kept Overweight, RAISED PT $200→$201.** NO Texas-/regional-bank negatives (no credit stress, deposit flight, CRE losses, downgrades). Traded on below-avg volume; comfortably above the hard stop. Drag = risk-off rotation, not a thesis break. Do NOT pre-empt, do NOT average down.
+- **MDT** −3.73%: no material news 9/28–29; defensive med-tech thesis holds; drift not news-driven. Cushion ~3.5% to 86.18.
+- **RMD** −2.85%: no news, no new GLP-1/sleep-apnea competitive item; sympathy drift. Converts to 10% trailing at +5%.
+- **RSG** −2.33%: no news; div $0.67 ex-date 10/2. Converts at +5%.
+- **Biggest into today:** broad risk-off dragging the soft names (MDT/CFR/RMD) on sentiment alone — the −7% hard stops are the safety net if any tags. None near a trigger.
+
+## Earnings context
+- **Quiet day for our book — NO holding reports today.** Earliest is JPM 10/13. Book clear of the earnings blackout.
+- Today pre-open: CCL (Carnival) ~$1.42 est — not in our sectors. COST beat FQ4 ($6.60 vs $6.48), +~2.9%. MU (Micron) reports **9/30 after close** (semis catalyst).
+
+## Buy candidates (bench re-score — signals matched + conviction; NONE clears ≥70 on a clean entry → NO buy possible anyway, sleeve 5/5)
+- **XOM $162.56** — signals **#3** (energy secular, sector earnings +154% YoY), **#5** (rotation into energy), **#6** (uptrend, well above ~$158 50dMA, ~0.5% below 52wk high). Best regime fit (least rate-/shutdown-sensitive). **Conviction ~65 (MED)** — entry mildly EXTENDED near 52wk high. Buy only on a non-extended pullback + an open slot.
+- **CVX $206.38** — signals **#3** (energy tailwind), **#5** (rotation), **#4** (Moderate Buy, 26 firms 9/18). Uptrend, cleaner entry than XOM but fewer discrete catalysts; somewhat redundant with XOM. **Conviction ~62 (MED).**
+- **LMT $518.07** — signals **#3** (defense secular), **#4** (UBS upgrade to Strong Buy 9/8). BUT **still BELOW 50dMA (~$556) → fails #6**; needs a reclaim. **Conviction ~63.** Shutdown-exposure now moot (CR passed).
+- **TMO $678.27** — fundamentals STRONGER (Q2 beat, raised FY26) but at a **NEW 52wk high, insiders net-sellers ~$44M, offsetting DB/WF downgrades** → extended/crowded. **Conviction ~72 on paper but the entry is a chase** — buy-the-dip only, not here.
+- **WMT $108.73 / ADM $80.38** — both **BELOW 50dMA → fail #6.** Skip until a reclaim. **NDSN** ~64 (no fresh data). **MCK** WEAKER (technical sell, no catalyst) — drop priority. **GD** below trend — watch alongside LMT, don't lead.
+
+## Sell candidates
+- **NONE.** No thesis break, no stop tagged, no +5% conversion pending (JPM already trailing, below +5%). All 5 conviction theses intact + SPY floor by policy. Hold.
+
+## Decision
+- **NO TRADES — market closed (pre-market research routine).** Sleeve **5/5 AT CAP, 0 open slots**; weekly conviction buys **0/3** but full sleeve → a new buy needs a stop-out/swap. **Swap check:** lowest-conviction hold = CFR ~72 (INTACT, MS raised PT $201). Best bench = XOM ~65 (extended) / CVX ~62 / TMO ~72-on-paper-but-a-chase. **None beats a held name at the ≥70 gate on a clean, non-extended entry → NO SWAP.** Cash ~$10.66k on the ~$10k floor.
+- **Redeploy queue if a slot opens (revised — energy promoted on the oil surge; each needs a live ≥70 re-score + 2 verified signals + clean non-extended entry):** **CVX** (energy, cleaner entry than XOM) → **XOM** (energy lead, but only on a non-extended pullback) → **LMT** (defense, UBS Strong Buy — needs a 50dMA reclaim >~$556) → **TMO** (buy-the-dip only). WMT/ADM benched below trend; MCK dropped; GD watch. Idle remainder → SPY floor per policy.
+- **Standing watches:** (1) **+5% conversion** — none pending; convert any red name's −7% hard → 10% trailing if it rallies to +5%. (2) **Defensive-sleeve-alpha (occurrence 1)** — 9/28 the sleeve BEAT SPY on a down day (supportive). A 2nd lagging week (theses intact, no stop-out) judged Fri 10/2 → A/B proposal to Lauren. Restated. (3) Core PCE Wed 9/30 = the week's binary; no fresh rate-sensitive beta added before it (moot — sleeve full).
+
+---
 # 2026-09-28 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Mon) · NO TRADES · sleeve 5/5 · official daily scorecard
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-29 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders + closed orders VERIFIED against reality.

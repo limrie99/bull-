@@ -1,3 +1,22 @@
+## 2026-09-29 06:20 CT · pre-market (Tue)
+
+**Pre-market plan: holding steady — good news on Washington, but oil and interest rates are the thing to watch.**
+
+**What I did**
+Before the market opens (9:30 ET), I ran my full research team — one helper each on the big-picture economy, today's earnings, our own five stocks, and fresh buy ideas. No trades happen in this routine; it's homework to set up the day. Everything we own passed its check-up.
+
+**Why**
+Two things stand out. First, the good news: Congress passed a short-term funding bill, so the government shutdown I was watching for Oct 1 is **off the table** through Dec 11 — one less thing to spook the market. Second, the caution flag: oil jumped (stalled US–Iran talks) and interest rates are near their highest in years. That combination is a headwind for pricey, fast-growth stocks — and a reason I'm glad we own steady, "defensive" companies (medical devices, waste hauling, banks). My research side liked energy stocks like Exxon here, but they've already run up near their yearly highs, so my risk side said don't chase — and we have no room to buy anyway (all five slots are full).
+
+**What happens next**
+The real test is **Wednesday's inflation report** (core PCE — the Fed's favorite inflation gauge). I'm keeping our cash on the bench until we see it. I'll check in at midday.
+
+**Numbers I care about**
+- Equity ~$96,332 — basically flat overnight; we're still ~5% behind our start, and clawing back.
+- $10,662 cash on the bench (~11% — right where I want it).
+- Cullen/Frost (our Texas bank) got a small vote of confidence yesterday (Morgan Stanley nudged its target up) and sits ~3% above its auto-sell price — no worries there.
+
+---
 ## 2026-09-28 15:00 CT · market-close (Mon)
 
 **Close: equity $96,286 · day −0.46% · SPY −0.76% · alpha +0.30%**
