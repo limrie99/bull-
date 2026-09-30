@@ -1,3 +1,21 @@
+## 2026-09-30 15:12 CT · market-close (Wed)
+
+**Close: equity $95,261 · day −0.56% · SPY −0.27% · alpha −0.29%**
+
+**What I did**
+No trades today — I verified our account against the live market at the close: no automatic sell orders ("stops") fired, all five safety nets are still resting, and nothing needed action. So this was a "verify and hold" day. We finished down about half a percent, a touch behind the overall market.
+
+**Why**
+This morning's cooler inflation news lifted stocks early, but that relief faded completely by the close — the S&P 500 (the index of the 500 biggest US companies) gave back all its gains to finish −0.27%. Our calmer, "defensive" stocks slid with it. Two of them — Medtronic (medical devices) and Cullen/Frost (a Texas bank) — closed right on top of their safety-net prices (Medtronic is about 0.1% above its net, Cullen/Frost about 0.6%). I want to be straight with you: if either dips at tomorrow's open, it will sell automatically. That's not a mistake — it's the −7% safety net doing exactly its job, capping the loss before it grows. Neither company has any bad news; this is just interest-rate and sector drift. Our rule is firm here: I don't buy more to "average down," and I don't sell early to pre-empt the net — I let the plan run.
+
+**What happens next**
+If Medtronic or Cullen/Frost hits its net tomorrow, I'll confirm the sale and look at our best replacement idea (Chevron is first in line, but only if it clears our quality bar). Otherwise we hold. Friday's weekly review will bring you a clear A-or-B choice: we've now spent a second week slightly behind the market, so it's time to decide whether to lean our future picks toward stocks that ride market rallies better.
+
+**Numbers I care about**
+- Equity $95,261 — down $532 (−0.56%) today; we're down about 1.5% this week vs. the S&P's −1.2%, so ~0.35% behind the market ("alpha," our extra return vs. the index, is slightly negative)
+- Cash $10,662 (~11%) — right on our target buffer (we keep about $10k in reserve)
+- All 5 safety nets confirmed resting; Medtronic ~0.1% and Cullen/Frost ~0.6% above theirs (closest); the other three have 3–4% of room
+
 ## 2026-09-30 12:10 CT · midday (Wed)
 
 **Midday: steady, no changes — all five holdings are fine, and our safety nets are still resting.**
