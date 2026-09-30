@@ -1,3 +1,40 @@
+# 2026-09-30 ~12:10 CT (13:10 ET) — MIDDAY (Wed) · NO TRADES · sleeve 5/5 · verify + hold · COOL-PCE RELIEF HELD
+
+**Routine:** midday risk check. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 13:10 ET; next_close 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders + today's orders VERIFIED against reality.
+
+## Live midday read (`/v2/account`, `/v2/positions`, `/v2/orders`, `/v2/orders?status=all` 9/30)
+- equity **$95,819.95**, cash **$10,661.62 (~11.13%)**, last_equity **$95,793.32**, buying_power $281,089.80. Intraday day P/L **+$26.63 / +0.03%** — essentially flat, far inside the −3% loss cap.
+- **Open orders = exactly 5** (IDs unchanged from open): JPM 10% trailing (floor 329.85, hwm 366.5); MDT/CFR/RMD/RSG −7% hard (86.18 / 151.73 / 212.62 / 202.74). SPY unencumbered by design.
+- **Orders today (`?status=all` for 9/30) = EMPTY (count 0).** No stop fired, no order placed/cancelled.
+
+## Marks & cushions (cur vs stop)
+| Sym | Cur | P/L% | Stop | Cushion | Note |
+|---|---|---|---|---|---|
+| JPM | 332.75 | +0.93% | 329.85 (trail floor) | +0.87% | below +5%, on trailing; no conversion |
+| MDT | 87.09 | −6.02% | 86.18 | ~1.05% | WATCH #1, cushion WIDENED from ~0.53% at open (caught relief) |
+| CFR | 153.69 | −5.80% | 151.73 | ~1.28% | watch #2, thesis intact |
+| RMD | 222.03 | −2.89% | 212.62 | ~4.24% | clean |
+| RSG | 211.25 | −3.10% | 202.74 | ~4.03% | clean; div ex 10/2 |
+| SPY | 768.22 | +0.46% | none | n/a | index sleeve |
+
+Total unrealized P/L **−$1,402.14**.
+
+## Risk checks
+- **(a) −7% or worse un-stopped?** NO. Worst MDT −6.02% (above 86.18). No name at/through −7% → the routine's mandatory 4-hr Perplexity news check is NOT triggered. (MDT/CFR were Perplexity-verified clean at the open; no −7% breach midday → no new pull needed.)
+- **(b) +5%+ hard→trailing conversion?** NO. JPM +0.93% (already trailing, below +5%); all else red/flat.
+- **(c) Daily loss cap:** +0.03% intraday — well inside −3%. Sleeve full anyway.
+
+## Benchmark (week-to-date, base Fri 9/25 close)
+- SPY 771.35 → 768.29 = **−0.40%**. Portfolio base ≈ $96,736 → $95,819.95 = **≈ −0.95%**. **Alpha WTD ≈ −0.55%** — widened from −0.28% at the open. Cause: cool-PCE relief rally lifts the broad tape (SPY +0.46% on the day) while our defensive/rate-sensitive sleeve lags (+0.03%). Classic up-tape drag on defensives. Feeds the STANDING-WATCH A/B item (occurrence 1) — Fri 10/2 weekly review owns the proposal if the full week ends behind SPY with theses intact.
+
+## Decision
+- **NO TRADES.** No −7% breach, no +5% conversion, sleeve 5/5 (0 slots), weekly buys 0/3 but no open slot, inbox/Astra empty, no high-conviction breaking catalyst warranting a midday deviation. Correct action = verify + hold + report. No Telegram (quiet midday, no trade — per CLAUDE.md skip list).
+
+## Handoff → market-close (Wed 2026-09-30 ~15:10 CT)
+- **Close OWNS the mandatory daily "How we're doing" Telegram push** — never skipped, even on this quiet day. Lead with the plain-English scorecard (day $/% vs SPY, are we ahead) + full-week alpha refresh.
+- Re-verify 5 stops resting; watch MDT (tightest, ~1.05%) and CFR (~1.28%) into the close. If MDT/CFR tag their −7% hard, that's the plan working — confirm the fill, a slot opens → redeploy queue (CVX→XOM→LMT→TMO, each needs live ≥70 + 2 signals + clean entry).
+- Convert any red name to 10% trailing if it rallies to +5% (none close at midday).
+- RSG div ex-date 10/2 (small). MU reported AMC 9/30 (we hold none). JPM earnings 10/13.
 # 2026-09-30 ~08:45 CT (09:45 ET) — MARKET-OPEN (Wed) · NO TRADES · sleeve 5/5 · verify + hold · CORE PCE PRINTED COOL
 
 **Routine:** market-open. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders + today's orders VERIFIED against reality (truth wins over the handoff).
