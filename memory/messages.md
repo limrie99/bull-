@@ -1,3 +1,20 @@
+## 2026-09-30 06:20 CT · pre-market
+
+**Pre-market plan: hold steady — today's big event is an inflation report at 7:30 our time.**
+
+**What I did**
+This was a research-only routine (the market is still closed), so no buying or selling. I sent my research team out overnight to check four things at once — the big-picture economy, today's earnings calendar, fresh news on each of our five stocks, and any new buy ideas — and pulled it into one plan.
+
+**Why**
+The one event that matters today is **core PCE** (the Federal Reserve's favorite inflation gauge — it tells them whether price rises are cooling), out at 7:30 CT. A hot number keeps interest rates "higher for longer," which pressures our defensive stocks a bit more; a cool number would be a relief and could lift the whole market. So the smart move is to *wait for the number* rather than guess ahead of it. I also re-checked all five holdings: none has any bad company news — the recent dips in Medtronic and Cullen/Frost are just market-wide jitters, not broken businesses, so I'm letting our automatic safety-net sell orders ("stops") do their job instead of panicking. My research side liked energy stock Chevron as a possible new idea, but my risk side pointed out our shelf is full (5 stocks) and Chevron isn't strong enough to justify selling a healthy holding to make room — so we passed. No trades.
+
+**What happens next**
+The market-open check at 8:30 CT will see the actual inflation number. Medtronic and Cullen/Frost are the two nearest their safety-net prices (~1.6–1.7% away) — if a hot report tips one over, that's our plan working, not a mistake.
+
+**Numbers I care about**
+- Equity ~$95,815 — cash ~$10,662 (~11%, right on our target buffer)
+- All 5 automatic stop orders confirmed in place; no positions unprotected
+- Buys used this week: 0 of 3 — but our 5-stock shelf is full, so no room without a swap
 ## 2026-09-29 15:00 CT · market-close (Tue)
 
 **Close: equity $95,813 · day −0.50% · SPY −0.14% · alpha −0.36% — a quiet down day where we lagged the market by a hair.**

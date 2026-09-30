@@ -1,21 +1,21 @@
 {
-  "last_update": "2026-09-29 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-09-30 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 95813.41,
+  "equity": 95814.89,
   "cash": 10661.62,
-  "day_pl": -481.48,
-  "day_pl_pct": -0.50,
+  "day_pl": null,
+  "day_pl_pct": null,
   "week_pl_pct": -0.95,
   "spy_week_pct": -0.90,
   "alpha_week_pct": -0.05,
   "positions": [
-    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 334.98, "pl_pct": 1.60, "stop": 329.85 },
-    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 87.09, "pl_pct": -6.02, "stop": 86.18 },
+    { "symbol": "JPM", "qty": 34, "avg_cost": 329.70, "current": 335.00, "pl_pct": 1.61, "stop": 329.85 },
+    { "symbol": "MDT", "qty": 96, "avg_cost": 92.67, "current": 87.67, "pl_pct": -5.39, "stop": 86.18 },
     { "symbol": "CFR", "qty": 60, "avg_cost": 163.15, "current": 154.21, "pl_pct": -5.48, "stop": 151.73 },
     { "symbol": "RMD", "qty": 42, "avg_cost": 228.63, "current": 222.83, "pl_pct": -2.54, "stop": 212.62 },
     { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 211.92, "pl_pct": -2.79, "stop": 202.74 },
-    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 764.61, "pl_pct": -0.01, "stop": null }
+    { "symbol": "SPY", "qty": 49, "avg_cost": 764.72, "current": 763.49, "pl_pct": -0.16, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-09-18 09:33", "side": "BUY", "symbol": "RMD", "qty": 42, "price": 228.63 },
@@ -28,6 +28,12 @@
     { "date": "2026-08-31 09:40", "side": "SELL", "symbol": "LLY", "qty": 12, "price": 1152.0 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-09-30 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: hold steady — today's binary is the 7:30 CT inflation report (core PCE)",
+      "body": "Research-only, no trades. All 5 theses intact — Medtronic and Cullen/Frost dips are macro/rate jitters, not bad company news. Core PCE at 7:30 CT is the swing factor: hot keeps rates higher-for-longer and pressures our defensives; cool is a relief. Sleeve full 5/5, 0/3 weekly buys, ~11% cash. My research side liked Chevron but our shelf is full and it's not strong enough to bump a healthy holding, so we passed. MDT (~1.7%) and CFR (~1.6%) are nearest their safety-net stops."
+    },
     {
       "ts": "2026-09-29 15:00 CT",
       "routine": "market-close",
