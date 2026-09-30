@@ -1,3 +1,41 @@
+# 2026-09-30 ~08:45 CT (09:45 ET) — MARKET-OPEN (Wed) · NO TRADES · sleeve 5/5 · verify + hold · CORE PCE PRINTED COOL
+
+**Routine:** market-open. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders + today's orders VERIFIED against reality (truth wins over the handoff).
+
+## Live open read (`/v2/account`, `/v2/positions`, `/v2/orders`, `/v2/orders?status=all` 9/30)
+- equity **$95,836.78**, cash **$10,661.62 (~11.12%)**, long_mv **$85,175.16**, last_equity **$95,793.32**, status ACTIVE, buying_power $281,136.94. Intraday day P/L **+$43.46 / +0.05%** — essentially flat on the open, far inside the −3% loss cap (official scorecard = close routine).
+- **Orders today (`?status=all` after 2026-09-30) = EMPTY (count 0).** No stop fired, no order placed or cancelled overnight/at the open.
+- **Exactly 5 open orders VERIFIED resting** (IDs unchanged from 9/29): JPM trailing `8a937ff6` (floor 329.85, 10%, hwm 366.5) · MDT hard `2768e81c` (86.18) · CFR hard `cd725e5b` (151.73) · RMD hard `91671fa4` (212.62) · RSG hard `93c80d32` (202.74). SPY unencumbered by design.
+- Live marks: JPM +1.40% ($334.30) · MDT −6.51% ($86.64) · CFR −5.32% ($154.47) · RMD −2.43% ($223.08) · RSG −3.30% ($210.81) · SPY +0.21% ($766.32). Unrealized **−$1,414.26**.
+
+## Executing the pre-market plan (re-validated at live prices)
+Pre-market handoff standing order: **no trades unless a stop fires**; sleeve 5/5, weekly buys 0/3, no open slot → a buy needs a stop-out/swap, none warranted. Re-validated against live Alpaca reality — nothing changed the verdict.
+
+## PCE outcome + thesis check (Perplexity sonar-pro, this open)
+- **Core PCE (Aug) printed COOL: 0.2% m/m / 3.0% y/y, BELOW the +0.3%/+3.4% consensus** — the relief surprise (≤3.3% y/y). October-hike odds eased; 2Y yield ~−4bp; equities firmer (SPY +~0.25% intraday). Long end still elevated (~10Y 5.2%s) but the immediate reaction is risk-on/relief.
+- **MDT re-checked** (tightest cushion, dropped further to −6.51%): **NO company-specific downgrade / guidance cut / recall / litigation / exec departure in 24–48h.** Raised FY27 guide ($5.94–6.00 non-GAAP EPS) + MiniMed separation intact. Drop = **(2) risk-off carryover**, NOT a thesis break — MDT simply hadn't yet responded to the friendlier rates print at the open. Thesis INTACT → do NOT pre-empt; the −7% hard stop (86.18) is the safety net if it tags.
+
+## Risk checks (priority order)
+- **(a) Any position −7% or worse un-stopped?** NO. Worst MDT −6.51% (cur 86.64 vs 86.18 stop → cushion **~0.53%, tightest ever**); CFR −5.32% (154.47 vs 151.73 → ~1.77%); RSG −3.30% (~3.83%); RMD −2.43% (~4.69%); JPM +1.40%; SPY +0.21% (no stop by policy). MDT verified macro noise → let the stop do its job.
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO. JPM +1.40% is ALREADY on the 10% trailing (floor 329.85, hwm 366.5) and below +5% AND below hwm → nothing to convert. All others red. Zero conversions pending.
+- **(c) Daily loss cap:** intraday **+0.05%** — inside −3%. (Sleeve full → no open slot for a buy anyway.)
+
+## Decision
+- **NO TRADES.** No stop fired (0 orders today), no thesis break (MDT verified macro noise; PCE cool), no +5% conversion, no open slot (sleeve 5/5 AT CAP), inbox/Astra empty. Correct action: verify + hold + report. Weekly conviction buys **0/3** but full sleeve → a buy needs a stop-out/swap; none warranted (best bench CVX ~62–65 < lowest hold CFR ~72 intact on a clean entry → NO SWAP).
+- **No Telegram push** — market-open with no trade (per CLAUDE.md, do NOT push on scans/checks with no trade; the mandatory daily push belongs to the close).
+
+## Handoff → midday (Wed 2026-09-30 ~12:00 CT)
+- **STANDING: no trades unless a stop fires.** Sleeve 5/5, weekly buys 0/3, no open slot → a buy needs a stop-out/swap; none warranted.
+- **Core PCE printed COOL (0.2%/3.0%, below consensus)** — rates eased, tape firmer. Watch whether MDT/CFR catch a relief bounce that widens their cushions; a cool print is a tailwind for our rate-sensitive/defensive names.
+- **WATCH #1 = MDT (tightest cushion ever, ~0.53% to 86.18, −6.51%).** Thesis INTACT (Perplexity-verified this open). **If it tags, that is the −7% plan working — verify the fill via `/v2/orders?status=all`, do NOT pre-empt or average down.** On a stop-out a slot opens → redeploy queue below.
+- **WATCH #2 = CFR** (~1.77% to 151.73, −5.32%; MS Overweight PT $201, intact).
+- Verify exactly 5 open stops resting (IDs above); SPY unencumbered. Check for a +5% conversion on any red name that rallies on the cool-PCE tape (none pending; JPM already trailing, below +5%).
+- **Redeploy queue if a slot opens (each needs a live ≥70 re-score + 2 verified signals + clean non-extended entry on the post-PCE tape):** CVX (cleaner entry) → XOM (non-extended pullback only) → LMT (needs 50dMA reclaim >~$556) → TMO (buy-the-dip only). Newly benched **BP** to score next pre-market. Idle remainder → SPY floor per policy.
+- **Earnings:** no holding reports within 3 trading days (JPM 10/13 earliest). **MU reports AMC tonight** (AI-memory sentiment driver for tomorrow; we hold none of that complex). RSG div ex-date 10/2 (small).
+- **STANDING WATCH — defensive-sleeve alpha (occurrence 1):** if the full week (through Fri 10/2) ends behind SPY with theses intact and no stop-out, the Fri 10/2 weekly review owns the A/B proposal to Lauren. Restate until it clears or triggers.
+- Cash ~$10.66k on the ~$10k target — do not breach the 10% floor.
+
+---
 # 2026-09-30 ~06:15 CT (07:15 ET) — PRE-MARKET (Wed) · NO TRADES · sleeve 5/5 · research + hold · CORE PCE DAY
 
 **Routine:** pre-market research. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-09-30 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders VERIFIED against reality. **4-agent research fan-out ran** (macro / earnings / positions / opportunity scout via Perplexity sonar-pro).
