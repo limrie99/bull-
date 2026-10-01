@@ -1,37 +1,37 @@
 {
-  "last_update": "2026-10-01 08:45 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-10-01 12:10 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 95127.87,
+  "equity": 95104.69,
   "cash": 39218.96,
-  "day_pl": -115.36,
-  "day_pl_pct": -0.12,
-  "week_pl_pct": -1.66,
-  "spy_week_pct": -1.01,
-  "alpha_week_pct": -0.65,
+  "day_pl": -138.54,
+  "day_pl_pct": -0.15,
+  "week_pl_pct": -1.68,
+  "spy_week_pct": -1.26,
+  "alpha_week_pct": -0.42,
   "positions": [
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.63,
-      "current": 221.15,
-      "pl_pct": -3.27,
+      "current": 223.42,
+      "pl_pct": -2.28,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 209.22,
-      "pl_pct": -4.03,
+      "current": 208.53,
+      "pl_pct": -4.34,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 49,
       "avg_cost": 764.72,
-      "current": 763.58,
-      "pl_pct": -0.15,
+      "current": 761.61,
+      "pl_pct": -0.41,
       "stop": null
     }
   ],
@@ -109,52 +109,52 @@
   ],
   "latest_messages": [
     {
-      "ts": "2026-10-01 08:45 CT",
-      "routine": "market-open",
-      "headline": "Open: 3 safety nets sold automatically (MDT, CFR, JPM) — holding cash into Friday's jobs report",
-      "body": "Rising rates (10Y ~5.3%) tripped our two rate-sensitive −7% stops (Medtronic, Cullen/Frost) and JPMorgan's trailing stop (sold near break-even) at the open. The plan working, not broken companies. No new buys: the only name clearing our bar was a 4th energy stock that deepens our lagging tilt, and I won't add fresh risk the day before Friday's big jobs report. Cash now ~41%; 3 conviction slots open. Friday's weekly review owns the redeploy plan."
+      "ts": "2026-10-01 12:10 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes · equity $95,105 · day −0.15% · tracking SPY",
+      "body": "Risk check only — no trades. Both holdings (ResMed, Republic Services) sit safely above their −7% safety nets; nothing up 5%+ to tighten; day flat and far inside the loss cap. Holding ~41% cash on purpose into Friday's jobs report; the redeploy decision waits for a calmer post-jobs tape and the Friday review."
     },
     {
-      "ts": "2026-10-01 06:15 CT",
+      "ts": "2026-10-01 08:45 CT",
+      "routine": "market-open",
+      "headline": "Open: 3 safety nets sold automatically (MDT, CFR, JPM) — now holding extra cash into Friday's jobs report",
+      "body": "At the open, MDT and CFR hit their −7% stops and JPM hit its trailing stop (break-even) on a rising-rate tape. No new buys — deliberately holding the freed cash (~41%) into Friday's jobs report rather than adding beta the day before. 3 of 5 conviction slots now open; 0/3 weekly buys used."
+    },
+    {
+      "ts": "2026-10-01 06:00 CT",
       "routine": "pre-market",
-      "headline": "Pre-market: hold our five; MDT & CFR sitting on their safety nets",
-      "body": "Research-only scan, no trades. No government shutdown (funded to Dec 11); futures green on a tech beat, but the 10-year yield near 5.3% pressures our defensive holdings. Medtronic and Cullen/Frost closed on their automatic stop-sell prices — a weak open could trigger one, and that's the plan working, not a panic. All 5 theses intact; redeploy queue ready if a slot opens."
+      "headline": "Pre-market plan: hold our five; two are sitting right on their safety nets",
+      "body": "Research-only scan. No government shutdown (funded to Dec 11); futures up on tech, but the 10-yr yield near 5.3% pressures our defensive names. MDT and CFR closed on their stops — a weak open could trigger one; that's the plan working."
     },
     {
       "ts": "2026-09-30 15:12 CT",
       "routine": "market-close",
       "headline": "Close: equity $95,261 · day −0.56% · SPY −0.27% · alpha −0.29%",
-      "body": "No trades. Cool-inflation relief faded into the close; defensive book slid with the tape. Medtronic (~0.13%) and Cullen/Frost (~0.62%) closed sitting on their −7% safety nets — a down open tomorrow likely sells one or both automatically. That's the plan, not a break; no averaging down. Friday's weekly review owns an A/B on tilting toward market-participation names after a 2nd week behind SPY."
+      "body": "Quiet no-trade day; the midday cool-PCE relief faded into the bell. MDT and CFR closed sitting right on their −7% stops — a modest down open tomorrow likely tags one or both. Theses intact; stops doing their job. ~11% cash."
     },
     {
-      "ts": "2026-09-30 12:10 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — all five holdings fine, safety nets resting",
-      "body": "Verify-and-hold midday. Cool-PCE relief held; Medtronic's cushion widened to ~1%. No bad company news anywhere; defensives just lag on an up tape."
-    },
-    {
-      "ts": "2026-09-30 08:45 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — cool inflation print, holding all five steady",
-      "body": "Core PCE came in cooler than expected (relief). No stops fired; Medtronic closest to its net (~0.5%). Holding all five."
-    },
-    {
-      "ts": "2026-09-30 06:20 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market: hold steady — today's binary is the 7:30 CT inflation report",
-      "body": "Hold-and-manage day. Sleeve full, weekly buys 0/3 but no slot; watch MDT/CFR cushions into the PCE print."
-    },
-    {
-      "ts": "2026-09-29 15:00 CT",
+      "ts": "2026-09-28 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $95,813 · day −0.50% · SPY −0.14% · alpha −0.36%",
-      "body": "Quiet down day; no trades. Every safety net resting, all theses intact heading into Wednesday's inflation print."
+      "headline": "Close: steady no-trade day; defensive tilt cushioned a down tape",
+      "body": "Book held up better than the market on a risk-off day. All 5 theses intact, all stops resting. MDT tightest cushion. Nothing on the bench cleared our buy gate; no slot anyway (5/5)."
     },
     {
-      "ts": "2026-09-29 12:00 CT",
+      "ts": "2026-09-28 12:10 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — mild down day (−0.74%), every safety net resting",
-      "body": "Verify-and-hold; defensive tilt cushioning a soft tape. No conversions, no stop-outs."
+      "headline": "Midday: steady, no changes; book slightly ahead of SPY intraday",
+      "body": "Risk check only. All 5 theses intact, all stops resting GTC, MDT tightest (~2.4%). Daily loss cap never near. Defensive tilt cushioning a down tape as designed."
+    },
+    {
+      "ts": "2026-09-25 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Weekly review: down-alpha week (−1.92pt); defensive sleeve lagged an up-tape",
+      "body": "Honest retro: every conviction name fell while SPY rose +1.28%. No thesis broke, no stop fired, no error — just a defensive book not participating in a melt-up. No strategy change; flagged a defensive-sleeve-lag watch to revisit if it repeats."
+    },
+    {
+      "ts": "2026-09-30 06:00 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: holding into core PCE; two names near their stops",
+      "body": "Research-only. Core PCE (the Fed's favorite inflation gauge) due 7:30 CT — the week's binary. MDT/CFR near their −7% safety nets; no fresh beta into the print. Sleeve full, 0 slots."
     }
   ]
 }

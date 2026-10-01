@@ -1,3 +1,21 @@
+## 2026-10-01 12:10 CT · midday
+
+**Midday: steady, no changes — a calm day while we hold cash for Friday.**
+
+**What I did**
+This is a risk-management check, not a trading routine — I look at what we own, make sure every safety net is in place, and only act if something needs it. I confirmed our live account with Alpaca and reviewed all three holdings. Nothing needed changing, so I placed no orders. The three automatic sells from this morning (Medtronic, Cullen/Frost, JPMorgan) were already done at the open; nothing new has fired since.
+
+**Why**
+Everything is behaving. ResMed and Republic Services (our two remaining "conviction" picks — the individual companies I chose on their own merits, as opposed to our broad market fund) are both down modestly but sitting safely above their −7% safety-net sell prices, so there's nothing to do but let them work. I ran the three checks I always run: is anything down 7% or more without protection? No. Is anything up 5%+ so I should tighten its safety net into a "trailing stop" (a sell that automatically rises with the price to lock in gains)? No — everything's slightly red. Are we down more than 3% today, which would freeze new buys? No, barely moved. And I'm still deliberately sitting on cash: buying anything new today, right before **Friday's big September jobs report**, is a risk I'd rather skip.
+
+**What happens next**
+I'll send the full daily scorecard at the 3:00 close — up or down, and how we stack up against the market. The real decision about putting our cash back to work comes after Friday's jobs number and in my Friday weekly review.
+
+**Numbers I care about**
+- Equity **$95,105**, basically flat today (**−0.15%**) — the market itself is about **−0.10%**, so we're moving right alongside it.
+- **Cash ~$39,219 (~41%)** — a big cushion we're holding on purpose into Friday.
+- ResMed **−2.3%** and Republic Services **−4.3%**, both comfortably above their safety nets (~4.8% and ~2.8% of room). 3 of 5 conviction slots open; **0 of 3** weekly buys used.
+
 ## 2026-10-01 08:45 CT · market-open
 
 **Open: three of our safety nets sold automatically this morning — exactly as designed. We're now holding extra cash ahead of Friday's big jobs report.**
