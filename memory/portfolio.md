@@ -1,60 +1,54 @@
 # Portfolio
 
-**Last updated:** 2026-10-01 06:15 CT (**PRE-MARKET routine**, Thu). Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, next_open 10/1 09:30 ET). **Live verify:** Alpaca account/positions/orders confirmed — equity **$95,236.56**, cash **$10,661.62 (~11.19%)**, **exactly 5 open stops resting (IDs unchanged from 9/30)**; SPY unencumbered. **NO TRADES (market closed, research routine).** Pre-market marks ~flat vs yesterday's close. 4-agent fan-out ran (macro/earnings/position/scout via Perplexity). **Key reads:** futures GREEN (ES +0.6%, NQ +1.1%, MU beat), **NO government shutdown** (CR→Dec 11), **10Y ~5.3% and rising** + strong dollar = headwind for our rate-sensitive defensives. **MDT and CFR BOTH sit ON their −7% hard stops** — MDT (−7.04%, on 86.18) has a FRESH but contained 9/30 insulin-pump battery recall (partly offset by FDA clearances + TD Cowen reiterated Buy $110 — watch scope); CFR (−6.53%, near 151.73) is pure rate/sector drift (clean "plan working" if it tags). A down open likely tags one/both = the plan working, NOT a thesis break; green futures could instead relieve them. **Do NOT pre-empt, do NOT average down.** All 5 theses INTACT. Sleeve 5/5 AT CAP (0 slots); weekly buys 0/3 → a buy needs a stop-out/swap, none warranted. No −7% breach fired yet, no +5% conversion, inbox/Astra empty → research + re-score + hold + handoff. **No Telegram** (pre-market scan, no trade).
+**Last updated:** 2026-10-01 08:45 CT (**MARKET-OPEN routine**, Thu). Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **Live verify:** Alpaca account/positions/orders confirmed — equity **$95,127.87**, cash **$39,218.96 (~41.2%)**, **exactly 2 open stops resting** (RMD, RSG); SPY unencumbered. **THREE STOPS FIRED at the open (MDT, CFR, JPM) — all mechanical, the plan working.** A down open on a rising-rate tape (10Y ~5.3%) tagged the two rate-sensitive −7% hards (MDT, CFR) and JPM's 10% trailing floor. Realized today: MDT −$657.60 (−7.39%), CFR −$691.20 (−7.06%), JPM +$11.17 (+0.10%, trailing-stop scratch) = **−$1,337.63**. Conviction sleeve now **2/5 (RMD, RSG) — 3 slots OPEN**; weekly buys 0/3 (a stop-out neither refunds nor consumes the budget). **NO redeploy today:** HWM/GEV (preferred up-tape participants) both FAIL their own 50dMA triggers (falling, fresh analyst cuts); BP (~72) is the only gate-clearer but deepens the lagging energy/value tilt — buying fresh single-name beta the session BEFORE the Fri 10/2 jobs report with rates as the active headwind is the borderline case to pass. **Hold the freed cash into the jobs print; Fri weekly review owns the 3-slot redeploy / tilt A/B.** Intraday −0.12%, far inside the −3% loss cap. Inbox/Astra empty. **Telegram pushed** (stops fired = auto-close, a push event).
 
-## Open positions (5 conviction stocks + 1 index-floor sleeve) — PRE-MARKET marks 2026-10-01 06:15 CT
+## Open positions (2 conviction stocks + 1 index-floor sleeve) — LIVE marks 2026-10-01 08:45 CT
 | Symbol | Shares | Avg Cost | Cur Px | P/L $ | P/L % | Stop | Cushion | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|---|
-| JPM | 34 | 329.695588 | 329.89 | +6.61 | +0.06% | **10% TRAILING (GTC)**, floor **329.85**, hwm 366.5 | ~0.01% | 2026-06-29 | JPMorgan — $50B buyback + div hike to $1.65; QIA/JPMAM partnership. Thesis INTACT. Below +5% AND below hwm → no conversion. Earnings **10/13 BMO**. |
-| MDT | 96 | 92.67 | 86.15 | −625.92 | −7.04% | **−7% HARD (GTC)** `86.18` | **~0.0% (ON the stop)** | 2026-09-17 | Medtronic — defensive med-tech. **WATCH #1 — pre-market mark below 86.18 (stops are regular-hours; the open decides).** FRESH 9/30 insulin-pump battery recall (contained; offset by FDA clearances + TD Cowen reiterated Buy $110). NOT a clean thesis break; watch recall scope. |
-| CFR | 60 | 163.15 | 152.50 | −639.00 | −6.53% | **−7% HARD (GTC)** `151.73` | ~0.51% | 2026-09-09 | Cullen/Frost — Texas regional bank; NIM ~3.75%, deposits growing. MS Overweight PT $201. No company/sector news → pure rate/sector drift. **WATCH #2 — clean "plan working" if it tags.** |
-| RMD | 42 | 228.627381 | 219.50 | −383.35 | −3.99% | **−7% HARD (GTC)** `212.62` | ~3.13% | 2026-09-18 | ResMed — sleep-apnea leader, LOW rate-sens. Clean; no new GLP-1 headline (9/21 data supportive); RBC Outperform $262. Converts at +5%. |
-| RSG | 44 | 218.00 | 209.87 | −357.72 | −3.73% | **−7% HARD (GTC)** `202.74` | ~3.40% | 2026-09-18 | Republic Services — defensive waste, LOW rate-sens. Clean; **div RAISED $0.62→$0.67**, ex-date 10/2. Converts at +5%. |
-| SPY | 49 | 764.716327 | 765.00 | +13.90 | +0.04% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | n/a | 2026-08-10→09-18 (trimmed) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO stop. Moves with the tape by design. |
+| RMD | 42 | 228.627381 | 221.15 | −314.05 | −3.27% | **−7% HARD (GTC)** `212.62` | ~3.86% | 2026-09-18 | ResMed — sleep-apnea leader, LOW rate-sens. Clean; no new GLP-1 headline (9/21 data supportive); RBC Outperform $262. Converts to 10% trailing at +5%. |
+| RSG | 44 | 218.00 | 209.22 | −386.32 | −4.03% | **−7% HARD (GTC)** `202.74` | ~3.10% | 2026-09-18 | Republic Services — defensive waste, LOW rate-sens. Clean; **div RAISED $0.62→$0.67**, ex-date 10/2. Converts to 10% trailing at +5%. |
+| SPY | 49 | 764.716327 | 763.58 | −55.68 | −0.15% | **NONE — index-floor sleeve, deliberate no-stop carve-out** | n/a | 2026-08-10→09-18 (trimmed) | S&P 500 market floor (Lauren-approved Option B). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO stop. Moves with the tape by design. |
 
-**Total unrealized P/L: ≈ −$1,985.48.** **Conviction sleeve: 5 of 5 (AT CAP, 0 slots open).** **Conviction buys used this week (9/28–10/2): 0 of 3.** Sleeve full → a new buy is only possible via a stop-out/swap; none warranted. **Cash buffer: ~11.19%** (~$10,662 — just above the ~$10k / 10% floor). Sizes on equity $95,236.56: JPM ~11.8%, CFR ~9.6%, MDT ~8.7%, RMD ~9.7%, RSG ~9.7%, SPY ~39.4% (index sleeve — exempt from the 20% cap by policy).
+**Total unrealized P/L: ≈ −$756.05.** **Conviction sleeve: 2 of 5 (3 slots OPEN).** **Conviction buys used this week (9/28–10/2): 0 of 3.** **Cash buffer: ~41.2%** (~$39,219 — well above the ~$10k / 10% floor; elevated after three stop-outs). Sizes on equity $95,127.87: RMD ~9.8%, RSG ~9.7%, SPY ~39.3% (index sleeve — exempt from the 20% cap by policy).
 
-## Market context (pre-market 2026-10-01)
-- **Futures GREEN, tech-led:** ES ~+0.6%, NQ ~+1.1% (Micron's AMC beat 9/30 lifting semis/AI-hardware). Asia strong, Europe soft.
-- **NO government shutdown** — CR funds govt through Dec 11; data flow intact. Next cliff Dec 11.
-- **Rates the headwind:** 10Y ~5.29–5.30% (UP ~4–7bp), strong dollar (DXY near multi-month high), WTI ~$90. Pressures rate-sensitive defensives even on an up tape.
-- **Data today:** jobless claims 8:30 ET, **ISM Manufacturing 10:00 ET**; **Sept jobs report Fri 10/2 8:30 ET** = week's binary. Fed speakers evening only.
+## Market context (market-open 2026-10-01)
+- **Mixed-to-modestly-risk-on, but rates the active headwind:** futures opened green (tech-led, MU beat); **NO government shutdown** (CR funds govt through Dec 11). But **10Y ~5.3% and rising** + strong dollar pressured our rate-sensitive defensives — the direct cause of the MDT/CFR/JPM stop-outs.
+- **Data today:** jobless claims 8:30 ET (done), **ISM Manufacturing 10:00 ET**. **Sept jobs report Fri 10/2 8:30 ET = the week's big binary.** Fed speakers evening only.
 
-## Stop-management state (open-orders — VERIFIED live 2026-10-01 06:15 CT, exactly 5)
-- **JPM 10% trailing** `8a937ff6-164c-4384-8cf8-c000d4106a60` — floor **329.85**, trail 10%, hwm 366.5, GTC, resting. qty 34. +0.06% (below +5%, below hwm) → nothing to convert.
-- **MDT −7% hard** `2768e81c-df5f-4da2-a285-27fdd469ba84` — stop **86.18**, GTC, resting. qty 96. −7.04%. Cushion **~0.0% (ON the stop on the pre-market mark).**
-- **CFR −7% hard** `cd725e5b-c593-4dde-8c72-1dda0cfbb8ae` — stop **151.73**, GTC, resting. qty 60. −6.53%. Cushion ~0.51%.
-- **RMD −7% hard** `91671fa4-1389-488e-8780-9a99103fb6a6` — stop **212.62**, GTC, resting. qty 42. −3.99%. Cushion ~3.13%.
-- **RSG −7% hard** `93c80d32-e37e-420d-be8f-6311918e3387` — stop **202.74**, GTC, resting. qty 44. −3.73%. Cushion ~3.40%.
-- **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 49 unencumbered. Confirmed **exactly 5 open orders total**.
+## Stop-management state (open-orders — VERIFIED live 2026-10-01 08:45 CT, exactly 2)
+- **RMD −7% hard** `91671fa4-1389-488e-8780-9a99103fb6a6` — stop **212.62**, GTC, resting. qty 42. −3.27%. Cushion ~3.86%.
+- **RSG −7% hard** `93c80d32-e37e-420d-be8f-6311918e3387` — stop **202.74**, GTC, resting. qty 44. −4.03%. Cushion ~3.10%.
+- **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 49 unencumbered. Confirmed **exactly 2 open orders total** (MDT/CFR/JPM stops all consumed by their fills this morning).
 
-## Risk checks (pre-market 2026-10-01 06:15 CT)
-- **(a) Any position −7% or worse un-stopped?** NO. MDT −7.04% but its 86.18 hard stop is resting (stops are regular-hours orders — the pre-market print does not trigger them; the 09:30 open decides). CFR −6.53% (above 151.73). No un-stopped name at/through −7%.
-- **(b) Any position +5%+ needing hard→trailing conversion?** NO — JPM +0.06% below +5% AND already trailing; everything else red. Zero conversions pending.
-- **(c) Daily loss cap:** market closed, no intraday session yet. (Sleeve full → no open slot anyway.)
+## Risk checks (market-open 2026-10-01 08:45 CT)
+- **(a) Any position −7% or worse un-stopped?** NO. Worst RSG −4.03% (above 202.74 stop); RMD −3.27%; SPY −0.15% (index, no stop). No un-stopped name at/through −7%.
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO — both holdings red; SPY flat. Zero conversions pending.
+- **(c) Daily loss cap:** intraday **−0.12%** (equity $95,127.87 vs last_equity $95,243.23) — far inside −3%. (And we are not buying today regardless.)
 
 ## Today's trades
-- **NONE.** Pre-market research routine (market closed). Research fan-out + watchlist re-score + handoff only. No stop fired, no order placed, inbox/Astra empty.
+- **THREE STOP-OUTS at the open, NO buys.**
+  - MDT −7% hard fired: 96 @ 85.82 = −$657.60 (−7.39%). Rate drift + a contained 9/30 insulin-pump recall; NOT a clean thesis break (watch recall scope).
+  - CFR −7% hard fired: 60 @ 151.63 = −$691.20 (−7.06%). Pure rate/sector drift; thesis intact, macro-stopped.
+  - JPM 10% trailing fired: 34 @ 330.024118 = +$11.17 (+0.10%). Scratch — trailing stop locked the position before it gave back more than 10% from the ~366.5 high.
+- **No redeploy** (see header). Freed cash held into the jobs report.
 
-## Watch / next (next routine: **market-open Thu 10/1 ~08:30 CT / 09:30 ET**)
-- **MDT (ON its 86.18 stop) and CFR (~0.51% to 151.73) sit on their −7% hard stops.** A modest down open likely tags one/both → **the plan working** (CFR clean rate/sector drift; MDT drift + a contained insulin-pump recall). **Do NOT pre-empt, do NOT average down.** On a stop-out, confirm the fill (poll to status=filled) → a slot opens → redeploy queue below. Green futures could relieve them → then just hold.
-- **JPM:** +0.06%, on the 10% trailing (floor 329.85, hwm 366.5). Below +5% → no conversion. Earnings 10/13 BMO.
-- **RMD / RSG:** clean cushions (~3.1% / ~3.4%); −7% hard stop the safety net; convert to 10% trailing at +5%. RSG div ex-date 10/2. Do not average down.
-- **+5% conversion watch:** none pending.
-- **Redeploy queue if a slot opens (each needs a live ≥70 re-score + 2 verified signals + clean, non-extended entry; PREFER an up-tape participant over a 4th energy/value name to address the SPY lag):** **HWM** (aerospace — buy only if live px >~$260.38) / **GEV** (AI-power — only on a 50dMA reclaim >~$966) → **BP** (energy, the ≥70 name — confirm live px vs ~$42.40 50dMA) → **CVX** → **XOM** (extended). Idle remainder → SPY floor per policy.
-- **This week:** no holding/bench reports earnings within 3 trading days (JPM 10/13 earliest). RSG div ex-date 10/2 (small). **ISM Mfg 10:00 ET today; jobs report Fri 10/2** = the week's big binary — watch the tape.
+## Watch / next (next routine: **midday Thu 10/1 ~12:10 CT**)
+- **RMD / RSG:** clean cushions (~3.9% / ~3.1%); −7% hard stop the safety net; convert to 10% trailing at +5%. RSG div ex-date 10/2. Do not average down.
+- **+5% conversion watch:** none pending (both red).
+- **Redeploy — DEFERRED to post-jobs / Fri weekly review.** Live re-verify at the open found: HWM $227 (~13% BELOW its $260.38 trigger, falling + Wells Fargo cut) FAIL; GEV $955 (below its $966 reclaim trigger, multiple target cuts) FAIL; BP $44.29 (+4.5% over $42.40 50dMA, ~72, clean) is the only gate-clearer but is a 4th energy name deepening the lagging value tilt. Decision: do NOT add fresh single-name beta the session before the jobs binary; revisit BP (and any participant that confirms) on a clean post-jobs tape. Idle remainder may go to SPY floor per policy — also deferred to the post-jobs decision.
+- **This week:** no holding/bench reports earnings within 3 trading days (JPM gone; next bench ~LMT 10/20). RSG div ex-date 10/2 (small). **Jobs report Fri 10/2 8:30 ET = the week's big binary.**
 - **Astra:** `memory/astra-proposals.md` present, **still no proposals** — nothing to fold into scoring.
-- **STANDING WATCH — defensive-sleeve alpha (occurrence 2 building):** WTD behind SPY (port ≈ −1.55% vs SPY ≈ −1.0%, alpha ≈ −0.5pt), theses intact, no stop-out yet. Nuance both ways: we lagged on a DOWN day (9/30) AND the book is structurally tilted away from today's up-tape leaders (semis/AI-power/aerospace). **Fri 10/2 weekly review OWNS the A/B proposal to Lauren** (tilt future picks toward benchmark-participation names vs pure defensives, and/or shift weight to the SPY floor until higher-participation setups clear the gate). Restate until it clears or triggers.
-- **Cash ~$10.66k on target; sleeve 5/5, weekly buys 0/3 but no open slot.** No buy possible this week without a stop-out/swap.
+- **STANDING WATCH — defensive-sleeve alpha (occurrence 2 building):** WTD behind SPY, theses intact; three names just macro-stopped on the rate headwind while the up-tape leaders (semis/AI-power/aerospace) led. The book is now 2 defensives + a 39% SPY floor + ~41% cash. **Fri 10/2 weekly review OWNS the A/B proposal to Lauren** (tilt future picks toward benchmark-participation names vs pure defensives, and/or shift the freed cash into the SPY floor until higher-participation setups clear the gate). Restate until it clears or triggers.
+- **Cash ~$39.2k (~41%) — elevated by three stop-outs.** 3 conviction slots open, weekly buys 0/3 — but deliberately holding dry powder into the jobs print rather than redeploying into a rate-hostile tape the day before the binary.
 
 ## Recent closes (last 5)
 | Symbol | Exit Date | Shares | Entry | Exit | P/L $ | P/L % | Reason |
 |---|---|---|---|---|---|---|---|
-| ATI | 2026-09-14 | 47 | 209.67 | 190.368299 | −907.17 | −9.21% | −7% hard stop fired at the open; ATI GAPPED below the 194.99 stop on a risk-off FOMC-eve slide. NO thesis break; back on watchlist. |
+| MDT | 2026-10-01 | 96 | 92.67 | 85.82 | −657.60 | −7.39% | −7% hard stop fired at the open; rate drift + a contained 9/30 insulin-pump recall. NOT a clean thesis break (watch recall scope); back on watchlist. |
+| CFR | 2026-10-01 | 60 | 163.15 | 151.63 | −691.20 | −7.06% | −7% hard stop fired at the open; pure rate/sector drift (rising 10Y). Thesis intact, macro-stopped; back on watchlist. |
+| JPM | 2026-10-01 | 34 | 329.695588 | 330.024118 | +11.17 | +0.10% | 10% trailing stop fired; near-breakeven scratch after a give-back from the ~366.5 high. Trailing stop working as designed. |
+| ATI | 2026-09-14 | 47 | 209.67 | 190.368299 | −907.17 | −9.21% | −7% hard stop fired; ATI GAPPED below the 194.99 stop on a risk-off FOMC-eve slide. NO thesis break; back on watchlist. |
 | SNPS | 2026-09-04 | 24 | 417.00 | 387.50 | −708.00 | −7.07% | −7% hard stop fired on a rate-driven software selloff (hot NFP). NO thesis break; back on watchlist. |
-| LLY | 2026-08-31 | 12 | 1209.84 | 1152.00 | −694.08 | −4.78% | 10% trailing stop fired (give-back from hwm 1280.52; NO thesis break). Net both LLY legs ≈ −$67. |
-| DE | 2026-08-19 | 22 | 589.82 | 579.4659 | −227.79 | −1.76% | 10% trailing stop fired at close; exited one minute before the Thu 8/20 Q3 print — no thesis break. |
-| LLY | 2026-07-31 | 14 | 1078.46 | 1123.27 | +627.34 | +4.15% | 10% trailing stop fired (give-back; no thesis break). RE-ENTERED 8/12; re-stopped 8/31. |
 
 ---
 *Overwrite this file every routine. Keep it a live snapshot, not a log.*

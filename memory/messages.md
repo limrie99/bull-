@@ -1,4 +1,23 @@
-## 2026-10-01 06:15 CT · pre-market
+## 2026-10-01 08:45 CT · market-open
+
+**Open: three of our safety nets sold automatically this morning — exactly as designed. We're now holding extra cash ahead of Friday's big jobs report.**
+
+**What I did**
+At the open, three automatic "stop-loss" orders (pre-set sells that fire if a stock falls to a set price, so a loss can't run away) did their job: **Medtronic** and **Cullen/Frost** hit their −7% safety nets and sold, and **JPMorgan** hit its trailing safety net and sold at essentially break-even. I placed no new buys. We now hold ResMed, Republic Services, and our S&P 500 "market floor," plus a good cash cushion.
+
+**Why**
+The culprit was interest rates: the 10-year Treasury yield pushed near 5.3% and kept rising, which weighs on steadier, rate-sensitive stocks like the ones that sold. These weren't broken companies — it was the market tide, so the stops protecting us is the plan working, not a failure. I deliberately did **not** rush to reinvest: the only candidate that cleared our quality bar was a 4th energy stock that would double down on the exact tilt that's been lagging the market, and buying anything new the day before **Friday's big September jobs report** (a major market-moving event) is a risk I'd rather not take. Patience here is the discipline.
+
+**What happens next**
+I'll watch ResMed and Republic Services (both fine, with healthy cushions) at the midday check. The real decision — how to put this freed-up cash back to work — I'll make on a calmer tape after Friday's jobs number, and my Friday weekly review will lay out a clear plan (and a choice for you) on tilting toward stocks that keep pace with the market.
+
+**Numbers I care about**
+- Equity **$95,128** (down a slight **−0.12%** so far today — the stop-outs were already priced in at yesterday's close, so no big new hit).
+- **Cash now ~$39,219 (~41%)** — up from ~11% this morning; three sales raised it, and I'm holding it on purpose into Friday.
+- Today's realized results: Medtronic **−$658 (−7.4%)**, Cullen/Frost **−$691 (−7.1%)**, JPMorgan **+$11 (break-even)** — about **−$1,338** total, all from safety nets doing their job.
+- 3 of our 5 "conviction" slots are now open; **0 of 3** buys used this week (we held the budget).
+
+
 
 **Pre-market plan: hold our five, and watch two of them that are sitting right on their safety nets.**
 

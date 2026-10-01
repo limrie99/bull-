@@ -1,3 +1,49 @@
+# 2026-10-01 ~08:45 CT (09:45 ET) — MARKET-OPEN (Thu) · 3 STOP-OUTS (MDT, CFR, JPM) · NO BUYS · sleeve 5/5→2/5 · HOLD CASH INTO JOBS REPORT
+
+**Routine:** market-open. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + orders VERIFIED against reality (truth wins over handoff).
+
+## Live open read (`/v2/account`, `/v2/positions`, `/v2/orders`, `/v2/orders?status=all`)
+- equity **$95,127.87**, cash **$39,218.96 (~41.2%)**, long_mv **$55,908.91**, last_equity **$95,243.23**, buying_power $313,420.79, status ACTIVE. Intraday day P/L **−$115.36 / −0.12%** — far inside the −3% loss cap (official scorecard = close).
+- **Positions now: RMD (42), RSG (44), SPY (49)** — JPM/MDT/CFR all gone. **Open orders = exactly 2** (RMD hard `91671fa4` 212.62; RSG hard `93c80d32` 202.74). SPY unencumbered.
+- **RECONCILIATION NOTE (methodology):** my first `/v2/orders?status=all&after=2026-10-01...` and `...after=2026-09-29...` queries returned ONLY the JPM fill, which momentarily looked like MDT/CFR had vanished with no record. Cause: Alpaca's `after` filters by **submitted_at**, NOT filled_at — the MDT (submitted 9/17) and CFR (submitted 9/09) stop orders were filtered out even though they FILLED today. Re-querying `after=2026-09-01` surfaced all three fills. **Lesson: to catch today's stop fills, query by a wide submission window (or status=open before the open), not a narrow `after=today`.** Memory was ACCURATE; the handoff's 5-order sleeve was real.
+
+## What fired at the open (all polled to status=filled — not assumed)
+| Sym | Order | id | Fill | Stop | Realized | Note |
+|---|---|---|---|---|---|---|
+| MDT | −7% hard | 2768e81c | 96 @ **85.82** (13:31:02Z) | 86.18 | **−$657.60 (−7.39%)** | opened a touch below stop (gap-slippage); rate drift + contained 9/30 insulin-pump recall |
+| JPM | 10% trailing | 8a937ff6 | 34 @ **330.024118** (13:32:56Z) | 329.85 (hwm 366.5) | **+$11.17 (+0.10%)** | scratch — trailing locked before >10% give-back from the ~366.5 high |
+| CFR | −7% hard | cd725e5b | 60 @ **151.63** (13:39:29Z) | 151.73 | **−$691.20 (−7.06%)** | clean fill AT stop; pure rate/sector drift |
+
+**Total realized today: −$1,337.63.** All mechanical — the plan working. Driver: 10Y ~5.3% and rising + strong dollar pressuring rate-sensitive names (MDT med-tech, CFR regional bank, JPM financial). Per pre-market handoff: CFR = clean "plan working"; MDT = drift + a CONTAINED recall (offset same-day by FDA clearances + TD Cowen reiterated Buy $110) — NOT a clean thesis break but a WATCH for recall scope-expansion; JPM trailing = disciplined near-breakeven exit. No pre-empt, no average-down — stops did their job.
+
+## Redeploy decision — NO BUYS (live re-verification via sub-agent, Perplexity sonar-pro + Alpaca latest-trade)
+3 conviction slots opened. Per pre-market handoff #3, re-verified the queue at LIVE prices (prefer up-tape participant over a 4th energy name):
+| Name | Live px | 50dMA / trigger | Signals | Fresh neg (48h) | Conv | Gate |
+|---|---|---|---|---|---|---|
+| HWM | $227.26 | ~$260.38 (need >) | #3 aero ✅, #4 Citi Buy $329 ✅ | Wells Fargo CUT $315→$255, EW | ~42 | **FAIL** (~13% BELOW trigger, falling knife) |
+| GEV | $954.78 | ~$966 (need reclaim) | #3 AI-power ✅, #4 Bernstein OP ✅ | Goldman/Deutsche/Mizuho target cuts | ~55 | **FAIL** (below trigger, below 50d/100d) |
+| BP | $44.29 | ~$42.40 (+4.5%, clean) | #4 JPM OW 9/23 + HSBC Buy 9/25 + insider buying ✅, #3 energy ✅, #6 uptrend ✅ | none | ~72 | mechanically passes |
+
+- **Verdict: HOLD, no buy today.** The two PREFERRED up-tape participants (HWM, GEV) both FAIL their own 50dMA triggers (falling, with fresh analyst cuts — not confirms). The only gate-clearer, BP (~72), is a **4th energy name** that deepens the exact value/energy tilt dragging our SPY-relative performance — and buying fresh single-name beta the **session BEFORE the Sept jobs report** (Fri 10/2 8:30 ET, the week's big binary) with rates as the active headwind is precisely the entry-timing near-veto the playbook invokes (cf. 9/14 FOMC: "do NOT add fresh market beta the session before a live binary; redeploy on a clean post-event tape"). **Revisit BP / any confirmed participant on a clean POST-jobs tape; the Fri weekly review owns the 3-slot redeploy + tilt A/B.** Idle-cash → SPY floor also deferred to the post-jobs decision.
+
+## Risk checks
+- **(a) −7% or worse un-stopped?** NO. Post-stop-outs, worst is RSG −4.03% (above 202.74); RMD −3.27%; SPY −0.15% (index, no stop). The three −7%/trailing breaches all RESOLVED by their stops firing.
+- **(b) +5%+ hard→trailing conversion?** NO — both holdings red, SPY flat. Zero pending.
+- **(c) Daily loss cap:** −0.12% intraday — far inside −3%. (Not buying regardless.)
+
+## Benchmark (intraday WTD, base Fri 9/25 close; official = close routine)
+- Port base ≈ $96,736 → $95,127.87 = **≈ −1.66%**. SPY 771.35 → 763.58 = **−1.01%**. **Alpha WTD ≈ −0.65%** — widened as our defensives stopped out on the rate headwind. Feeds the STANDING-WATCH A/B (occurrence 2) — Fri 10/2 weekly review owns the proposal.
+
+## Decision
+- **3 stop-outs (plan working), NO buys, hold freed cash into the jobs report.** Sleeve 2/5 (RMD, RSG) + SPY floor; 3 slots open; weekly conviction buys 0/3 (a stop-out neither refunds nor consumes the budget). **Telegram PUSHED** — stops fired = positions auto-closed, a push event per CLAUDE.md.
+
+## Handoff → midday (Thu 2026-10-01 ~12:10 CT)
+1. Re-verify `/v2/clock` open, live account/positions/`/v2/orders` (exactly 2 resting: RMD 212.62, RSG 202.74) and `/v2/orders?status=all` with a WIDE submission window (not `after=today`) to catch any fills.
+2. **RMD / RSG** — clean cushions (~3.9% / ~3.1%); −7% hard the net; convert to 10% trailing at +5% (neither close). Do not average down.
+3. **NO redeploy intraday** unless a high-conviction breaking catalyst — the redeploy is deliberately parked until a clean post-jobs tape / Fri weekly review. Cash ~41% held on purpose.
+4. **Watch:** 10:00 ET ISM Manufacturing (tape mover); rising 10Y (~5.3%); RSG div ex-date 10/2. **Jobs report Fri 10/2 8:30 ET = the week's big binary.**
+5. **STANDING WATCH — defensive-sleeve alpha (occurrence 2):** WTD behind SPY (alpha ≈ −0.65%); three defensives just macro-stopped while up-tape leaders (semis/AI-power/aerospace) led. Book is now 2 defensives + 39% SPY floor + ~41% cash. **Fri 10/2 weekly review OWNS the A/B proposal to Lauren** (tilt toward benchmark-participation names vs pure defensives, and/or move freed cash into the SPY floor until higher-participation setups clear the gate). Restate verbatim until it clears or triggers.
+
 # 2026-10-01 ~06:10 CT (07:10 ET) — PRE-MARKET (Thu) · NO TRADES (market closed) · sleeve 5/5 · research + re-score + handoff · SHUTDOWN AVERTED, RATES RISING
 
 **Routine:** pre-market research fan-out (4 sub-agents: macro, earnings, position, opportunity scout). Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, next_open 2026-10-01 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty ("No proposals yet") — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders VERIFIED (truth over handoff).
