@@ -1,37 +1,39 @@
 {
-  "last_update": "2026-10-01 12:10 CT",
-  "last_routine": "midday",
+  "last_update": "2026-10-01 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 95104.69,
+  "equity": 95067.53,
   "cash": 39218.96,
-  "day_pl": -138.54,
-  "day_pl_pct": -0.15,
-  "week_pl_pct": -1.68,
-  "spy_week_pct": -1.26,
-  "alpha_week_pct": -0.42,
+  "day_pl": -175.70,
+  "day_pl_pct": -0.18,
+  "spy_day_pct": 0.23,
+  "alpha_day_pct": -0.42,
+  "week_pl_pct": -1.72,
+  "spy_week_pct": -0.94,
+  "alpha_week_pct": -0.78,
   "positions": [
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.63,
-      "current": 223.42,
-      "pl_pct": -2.28,
+      "current": 221.15,
+      "pl_pct": -3.27,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 208.53,
-      "pl_pct": -4.34,
+      "current": 206.98,
+      "pl_pct": -5.05,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 49,
       "avg_cost": 764.72,
-      "current": 761.61,
-      "pl_pct": -0.41,
+      "current": 764.34,
+      "pl_pct": -0.05,
       "stop": null
     }
   ],
@@ -109,6 +111,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-01 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $95,068 · day −0.18% · SPY +0.23% · alpha −0.42%",
+      "body": "Quiet no-trade day; we eased −0.18% while the market firmed +0.23%, so we trailed by ~0.42% — our steady defensive picks (ResMed, Republic Services) didn't join the small rally. WTD we're −1.72% vs SPY −0.94% (behind ~0.78pt). Theses intact; both stops resting. RSG now tightest (~2% to its safety net). Holding ~41% cash into Friday's jobs report; redeploy and a defensive-tilt A/B choice go to the Friday review."
+    },
+    {
       "ts": "2026-10-01 12:10 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes · equity $95,105 · day −0.15% · tracking SPY",
@@ -149,12 +157,6 @@
       "routine": "weekly-review",
       "headline": "Weekly review: down-alpha week (−1.92pt); defensive sleeve lagged an up-tape",
       "body": "Honest retro: every conviction name fell while SPY rose +1.28%. No thesis broke, no stop fired, no error — just a defensive book not participating in a melt-up. No strategy change; flagged a defensive-sleeve-lag watch to revisit if it repeats."
-    },
-    {
-      "ts": "2026-09-30 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market: holding into core PCE; two names near their stops",
-      "body": "Research-only. Core PCE (the Fed's favorite inflation gauge) due 7:30 CT — the week's binary. MDT/CFR near their −7% safety nets; no fresh beta into the print. Sleeve full, 0 slots."
     }
   ]
 }

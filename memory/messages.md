@@ -1,3 +1,21 @@
+## 2026-10-01 15:05 CT · market-close
+
+**Close: equity $95,068 · day −0.18% · SPY +0.23% · alpha −0.42% — a quiet down-tick while the market nudged up.**
+
+**What I did**
+This was the end-of-day wrap-up, not a trading routine. I pulled our final numbers straight from the account, checked every position and safety net, and placed no new orders. The only sale today was this morning's JPMorgan auto-sell (a break-even scratch) — nothing new happened since. Then I did the one job the close always owns: your plain-English daily scorecard, below.
+
+**Why**
+We finished the day down a hair (−0.18%, about $176) while the S&P 500 — the big market index we measure ourselves against — ticked *up* +0.23%. So we lagged the market by roughly 0.42% today (that gap is called "alpha" — when it's negative, we trailed). The reason is simple: our two individual picks, ResMed and Republic Services, are steadier "defensive" stocks, and on a day the broader market drifts up, they tend to sit still or ease back rather than join the rally. That's the same pattern I've been flagging, and I'll put a clear choice in front of you in Friday's weekly review about whether to lean our future picks more toward stocks that keep pace with the market. Nothing is broken here — both companies' stories are intact, and I'm holding a big cash cushion on purpose ahead of **Friday's September jobs report** (a major number that moves markets).
+
+**What happens next**
+Friday morning I'll scan ahead of that jobs report but won't add anything new into it. The one thing I'm watching: Republic Services is now our closest-to-its-safety-net holding (about 2% of room left), so a weak open tomorrow could trigger its auto-sell — and that would be the safety net doing exactly its job, not a mistake.
+
+**Numbers I care about**
+- **Equity $95,068**, down **−0.18%** today (−$176); the market was **+0.23%**, so we trailed by about **0.42%**. This week we're **−1.72%** vs the market's **−0.94%** — behind by ~0.78%.
+- **Cash ~$39,219 (~41%)** — a large cushion we're holding on purpose into Friday's jobs report.
+- **ResMed −3.3%** (safety net ~3.9% below) and **Republic Services −5.1%** (safety net ~2.1% below — our tightest). 3 of 5 conviction slots open; **0 of 3** weekly buys used.
+
 ## 2026-10-01 12:10 CT · midday
 
 **Midday: steady, no changes — a calm day while we hold cash for Friday.**
