@@ -1,3 +1,21 @@
+## 2026-10-01 06:15 CT · pre-market
+
+**Pre-market plan: hold our five, and watch two of them that are sitting right on their safety nets.**
+
+**What I did**
+This is a research-only check before the market opens — I don't buy or sell here, I just scan overnight news with my team of research helpers and set the plan. Everything we own is still intact, so the plan today is to hold and manage.
+
+**Why**
+Good news first: there's **no government shutdown** — Congress funded the government through December 11, so that worry is off the table and economic data keeps flowing. Stock futures (an early pre-market indicator of where the market will open) are pointing up, led by tech after a strong report from the chipmaker Micron. The catch: the 10-year Treasury yield (the interest rate the government pays to borrow for 10 years — a key benchmark for the whole market) is climbing toward 5.3%, which pressures steadier, "defensive" stocks like the ones we own.
+
+**What happens next**
+Two of our holdings — **Medtronic** and **Cullen/Frost** — closed yesterday right on their automatic safety-net sell prices (we call these "stop losses," a pre-set order to sell if a stock drops too far). A weak open today could trigger one; that's the plan working, not a panic. I'll check in at the 8:30 CT open.
+
+**Numbers I care about**
+- Equity **$95,237**; cash **~$10,662** (~11%, right on our target)
+- All 5 holdings intact; 0 of 3 weekly buys used (but no open slot yet)
+- Watching Medtronic (on its net) and the 10:00 CT factory-activity report
+
 ## 2026-09-30 15:12 CT · market-close (Wed)
 
 **Close: equity $95,261 · day −0.56% · SPY −0.27% · alpha −0.29%**

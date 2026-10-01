@@ -1,3 +1,61 @@
+# 2026-10-01 ~06:10 CT (07:10 ET) — PRE-MARKET (Thu) · NO TRADES (market closed) · sleeve 5/5 · research + re-score + handoff · SHUTDOWN AVERTED, RATES RISING
+
+**Routine:** pre-market research fan-out (4 sub-agents: macro, earnings, position, opportunity scout). Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, next_open 2026-10-01 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty ("No proposals yet") — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders VERIFIED (truth over handoff).
+
+## Live pre-market read (`/v2/account`, `/v2/positions`, `/v2/orders`)
+- equity **$95,236.56**, cash **$10,661.62 (~11.19%)**, last_equity $95,243.23, buying_power $279,456.31. Pre-market marks ~flat vs yesterday's close (official scorecard = close routine).
+- **Exactly 5 open orders VERIFIED resting** (IDs unchanged from 9/30): JPM trailing `8a937ff6` (floor 329.85, 10%, hwm 366.5) · MDT hard `2768e81c` (86.18) · CFR hard `cd725e5b` (151.73) · RMD hard `91671fa4` (212.62) · RSG hard `93c80d32` (202.74). SPY unencumbered by design.
+- Pre-market marks: JPM $329.89 (+0.06%) · MDT $86.15 (−7.04%, **below its 86.18 stop on the pre-market mark**) · CFR $152.50 (−6.53%) · RMD $219.50 (−3.99%) · RSG $209.87 (−3.73%) · SPY $765.00 (+0.04%). Unrealized ≈ −$1,985. NB: stops are regular-hours orders — the pre-market print does NOT trigger them; the 09:30 open decides.
+
+## Market context (macro sub-agent, Perplexity sonar-pro)
+- **Futures GREEN, tech-led:** ES ~+0.6%, NQ ~+1.1% — buoyed by Micron's strong guidance (MU beat AMC 9/30) lifting semis/AI-hardware.
+- **NO GOVERNMENT SHUTDOWN** (verified across two searches): the CR funding the government through **Dec 11, 2026** was signed in early Sept; the 9/30 deadline passed with no lapse. Next fiscal cliff Dec 11. Data flow is NOT disrupted.
+- **Rates the headwind:** 10Y ~**5.29–5.30%, UP ~4–7bp** (elevated and rising); DXY near a multi-month high (strong dollar); WTI ~$90, Brent ~$98, gold ~$4,155 (−0.6%). Rising yields + strong dollar + firm oil cap enthusiasm and pressure rate-sensitive names even on an up-futures day.
+- **Global:** Asia strong (Nikkei +1.9/3.3%; HK closed China National Day), Europe soft (Stoxx −0.5%, DAX −0.8%).
+- **Data today:** 8:30 ET weekly jobless claims; **10:00 ET ISM Manufacturing** + construction spending; Atlanta Fed GDPNow 11:00. **Sept jobs report Fri 10/2 8:30 ET** (on, not delayed). Fed speakers (Bostic/Goolsbee/Kashkari) all evening — no intraday risk.
+- **Tone:** MIXED-to-modestly-risk-on. Relief (no shutdown, tech beat) vs. rate headwind.
+
+## Portfolio watch (position sub-agent, Perplexity sonar-pro)
+- **MDT — on its −7% stop; FRESH company-specific negative.** Sept 30 **voluntary recall of certain insulin pumps** (potential shortened battery life) — a real company-specific item, borderline severity (1)/(2), landing exactly as MDT sits ~on 86.18. **Partly offset same day** by positives: FDA clearance + CE Mark for Affera Prism-2 cardiac-mapping, CE Mark for PulseSelect ProxBox, FDA Breakthrough Device for IN.PACT BTK; **TD Cowen REITERATED Buy, $110 PT** (no downgrade). No guidance cut, no litigation, no exec departure. → If MDT tags at the open, lean "the plan working on rate/sector drift + a contained recall," NOT a clean thesis break — but it is **not purely macro** either. **Watch for recall scope-expansion** (that WOULD be a thesis-deterioration flag and a reason not to re-enter).
+- **CFR — no company/sector news; pure rate/sector drift.** No downgrade, deposit warning, guidance change, litigation, or regional-bank catalyst in 24–48h. MS Overweight PT $201 intact. → A stop-out tomorrow = **clean "plan working."**
+- **JPM** +0.06%, on 10% trailing — quiet; div hike to $1.65 (9/15) recirculated, predates window. Earnings 10/13.
+- **RMD** −3.99% — quiet; no new GLP-1 headline (the 9/21 GLP-1 data was supportive). RBC Outperform $262 intact.
+- **RSG** −3.73% — Sept 30 **dividend RAISED $0.62→$0.67** (ex-date 10/2, pay 10/15); FY26 guide unchanged. Mild positive, shareholder-return not operating change.
+
+## Earnings (earnings sub-agent)
+- **No earnings blackout for any holding or bench name in the next 3 trading days** — earliest is JPM ~10/13. Bench cadence (estimates, verify near date): LMT ~10/20, TMO ~10/21, CFR ~10/22, RMD ~10/22, RSG ~10/29, CVX/XOM ~10/30, BP ~11/3, ADM ~10/26–11/3, MDT ~11/24.
+- Today: **ACN** (IT-services tone, BMO), **JNJ** (BMO, timing soft), **NKE** (AMC, consumer tone). **MU beat AMC 9/30** → semi/AI-hardware read-through at the open.
+
+## Buy candidates (opportunity scout, Perplexity sonar-pro — ALL prices/50dMAs to be RE-VERIFIED live before any order)
+No fresh name clears ≥70 with 2+ signals on a clean entry with high confidence this morning, but the **redeploy queue is re-ranked** for a slot opening at the open (MDT/CFR stop-out):
+
+| Rank | Ticker | ~Px | 50dMA | Signals | Conviction | Entry read | Note |
+|---|---|---|---|---|---|---|---|
+| 1 | **BP** | ~$45 | ~$42.40 (above ~+6%) | #3 energy, #4 TD Cowen Buy $47 + HSBC + JPM Overweight (9/23), #6 uptrend (3) | **~70–72 (B+)** | clean | Only name plausibly clearing ≥70 w/ 2+ signals NOW. But lower-quality ADR & keeps book tilted value/energy (the SPY-lag drag). |
+| 2 | **CVX** | ~$205 | unverified | #3 energy, #4 TD Cowen PT→$215, prior EPS beat (2–3) | **~70** | clean-ish | 50dMA unconfirmed; borderline. |
+| 3 | **XOM** | ~$162 | ~$147 (+10.6%) | #3, #4 TD Cowen PT→$180, #6 (3) | **~68–70** | extended | +10.6% stretched; last qtr slight EPS miss. |
+| 4 | **HWM** | NOT verified | ~$260.38 | #3 aero/defense, #4 Citi Buy $329 (2) | **~65–68** | pending px | **Up-tape participant** — clears IF live px confirms >$260. |
+| 5 | **GEV** | ~$953 | ~$965.85 (−1.3%) | #3 AI/data-center power, #4 Bernstein Outperform init (2) | **~63** | below trend | **Best secular story**; NEAR-TRIGGER on reclaim >~$966. |
+| 6 | **ADM** | NOT verified | ~$80–82 | #1 Q2 beat + raised FY26 guide, maybe #4 (1–2) | **~62–65** | at/below trend | NEAR-TRIGGER on 50dMA reclaim. |
+
+- **Parked / below threshold:** LMT (~55–60, below 50dMA, promote only on reclaim >~$556; earnings 10/20), TMO (~60, insider selling THESIS-RISK, near highs — buy-the-dip only), CAT (~60, below 50dMA).
+- **Screened out:** NVDA (too extended), M/Macy's (low-quality consumer-disc, off-strategy).
+- **Strategic note (feeds the Fri A/B):** the top of the queue (BP/CVX/XOM) is all energy/value → adding one keeps the book tilted exactly where it has been lagging SPY. The two genuine **up-tape participants** — HWM (aerospace) and GEV (AI-power) — are each one data-confirm / one 50dMA-reclaim away. If a slot opens AND the tape confirms HWM >$260 or GEV >$966 with 2 verified signals and a clean entry at live prices, **prefer the participant over a 4th energy name** to actually address the lag.
+
+## Sell candidates
+- **None warranted on fundamentals.** MDT and CFR sit on their −7% hard stops; **let the stops do their job — no pre-empt, no average-down.** MDT recall is a watch, not yet a thesis break. All 5 theses otherwise intact.
+
+## Decision
+- **NO TRADES — market closed (pre-market research routine).** Sleeve 5/5 (0 slots), weekly conviction buys 0/3 (week 9/28–10/2) but no open slot → a buy needs a stop-out/swap. Correct action = research + re-score + handoff. **No Telegram** (pre-market scan, no trade — per CLAUDE.md skip list).
+
+## Handoff → market-open (Thu 2026-10-01 ~08:30 CT / 09:30 ET)
+1. **Re-verify** `/v2/clock` open, live account/positions/`/v2/orders`, and `/v2/orders?status=all` for 10/1 (did any stop fire at the open?). Truth over this handoff.
+2. **MDT & CFR both on their −7% hard stops.** A modest down open likely tags one/both → **that is the plan working** (CFR clean macro drift; MDT drift + a contained recall). **Do NOT pre-empt, do NOT average down.** On a stop-out, confirm the fill (poll to status=filled), a slot opens → redeploy queue below. Green futures could instead relieve them — if so, just hold.
+3. **If a slot opens, redeploy queue (each needs a LIVE ≥70 re-score + 2 verified signals + clean, non-extended entry + orderly tape, whole-book cash kept ≥~$10k / 10%):** **prefer an up-tape participant** → **HWM** (buy only if live px confirms >~$260.38) or **GEV** (only on a 50dMA reclaim >~$966) → else **BP** (confirm live px vs ~$42.40 50dMA; the ≥70 energy name) → **CVX** → **XOM** (extended). Idle remainder → SPY floor per policy. No name has earnings within 3 trading days (safe).
+4. **Convert** any red name to a 10% trailing stop if it rallies to +5% (none close now).
+5. **Watch:** 10:00 ET ISM Manufacturing (could move the tape); rising 10Y (~5.3%) pressures CFR/financials + rate-sensitive names; RSG div ex-date 10/2 (small). Jobs report Fri 10/2 8:30 ET is the week's big binary.
+6. **STANDING WATCH — defensive-sleeve alpha (occurrence 2 building):** WTD we are behind SPY (port ≈ −1.55% vs SPY ≈ −1.0%, alpha ≈ −0.5pt), theses intact, no stop-out yet. Nuance now both ways: we lagged on a DOWN day (9/30) AND the book is structurally tilted away from the up-tape participants (semis/AI-power/aerospace) leading today. **Fri 10/2 weekly review OWNS the A/B proposal to Lauren** (tilt future picks toward benchmark-participation names vs pure defensives, and/or shift weight to the SPY floor until higher-participation setups clear the gate). Restate verbatim until it clears or triggers.
+
 # 2026-09-30 ~12:10 CT (13:10 ET) — MIDDAY (Wed) · NO TRADES · sleeve 5/5 · verify + hold · COOL-PCE RELIEF HELD
 
 **Routine:** midday risk check. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 13:10 ET; next_close 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + open orders + today's orders VERIFIED against reality.
