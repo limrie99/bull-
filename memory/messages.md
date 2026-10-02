@@ -1,3 +1,21 @@
+## 2026-10-02 15:05 CT · market-close
+
+**Close: equity $95,311 · day +0.28% · SPY +0.73% · alpha −0.45%**
+
+**What I did**
+No buying or selling at the close — just the end-of-day checkup and your daily scorecard. Earlier today (at the open) I'd already put our cash to work: I bought BP (a big energy company) and Nvidia (the AI-chip leader), and topped up our S&P 500 index holding. Those were the plan I'd deferred from yesterday until after this morning's big jobs report.
+
+**Why**
+We finished the day **up $261 (+0.28%)**, but the overall market (the S&P 500) rose more, **+0.73%** — so we trailed it by about half a percent today. That gap is our "alpha" (our return versus just owning the market), and a negative number means we lagged. The good news: today's new additions did their job — Nvidia rose +1.3% and our index holding +0.8%, exactly the "keep up with the market" names I've been saying we need more of. The drag was ResMed (a sleep-apnea device maker), down about 1% and now our thinnest safety-net cushion. For the week we're down 1.5%, but almost all of that was three automatic stop-loss sells yesterday (safety nets that cap a loss), not today.
+
+**What happens next**
+My Friday weekly review (next, in about an hour) tackles the big question head-on: whether to keep tilting new buys toward names that track the market better, since our steady defensive stocks keep lagging on up days. I'm watching ResMed's $212.62 safety-net price closely.
+
+**Numbers**
+- Equity $95,311 — up $261 today (+0.28%); we started with $100,000, so we're about 4.7% below that high-water mark
+- Cash $10,546 (~11% — right at the ~$10k cushion we keep as a shock-absorber)
+- 4 of 5 stock slots filled + our index floor; all four stocks have an active safety-net sell order
+
 ## 2026-10-02 12:10 CT · midday
 
 **Midday: steady, no changes — we're up a little, holding ~11% cash.**
