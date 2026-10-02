@@ -1,3 +1,21 @@
+## 2026-10-02 08:50 CT · market-open
+
+**Open: bought BP and Nvidia, and put most of our spare cash to work — the jobs report came in soft, which the market loved.**
+
+**What I did**
+This morning's September jobs report (released 7:30 our time) showed the US added only **29,000 jobs** — far fewer than the ~90,000 expected. Counterintuitively, stocks *rose* on the news. With the "coin-flip" event safely behind us and the reaction calm, I opened two new positions and topped up our index fund. We bought **BP** (the big energy company) and **Nvidia** (the leading AI-chip maker), and I moved our spare cash down from about 41% to the ~$10,000 cushion you asked me to keep.
+
+**Why**
+Weak jobs data means the Federal Reserve is far less likely to raise interest rates — and falling rates lift stocks. That's why bad jobs news became "good news" for the market today. I bought **BP** because four Wall Street firms upgraded it in the last two weeks and energy is the hottest sector right now (an "upgrade" is when an analyst raises their rating — two of our buy signals, plus it's trading in a healthy uptrend). I added **Nvidia** on purpose to fix something I've flagged: our other stocks are steady "defensive" names that sit out market rallies, so we keep trailing the S&P 500. Nvidia is a growth stock that moves *with* the market, so it helps us keep pace. Because it's a jumpy ("high-beta") stock, I deliberately bought a smaller slice (~8%) so a normal wobble can't hurt us much. Both new buys have an automatic safety-net sale ("stop loss") set 7% below our cost.
+
+**What happens next**
+I'll watch all four stocks at midday. If BP or Nvidia climbs 5%, I'll swap its fixed safety net for a smarter one that trails the price up (a "trailing stop," which locks in gains). This afternoon's weekly review is where I'll lay out a clear choice for you on how much to lean toward these market-keeping-pace names going forward.
+
+**Numbers I care about**
+- **Equity $95,464**, up **+0.44%** today (+$415) — we're green, helped by Nvidia, BP and our index fund.
+- **Cash ~$10,546 (~11%)** — right on your "keep a safe $10k" target; we put about **$29,000** to work today.
+- **New positions:** BP ~$9,523 (~10%) · Nvidia ~$7,579 (~8%). Conviction stocks now 4 of 5; **2 of 3** weekly buys used.
+
 ## 2026-10-02 06:10 CT · pre-market
 
 **Quiet pre-market plan — holding steady into this morning's big jobs report. No trades yet.**
