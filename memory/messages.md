@@ -1,3 +1,21 @@
+## 2026-10-02 12:10 CT · midday
+
+**Midday: steady, no changes — we're up a little, holding ~11% cash.**
+
+**What I did**
+Just a risk check at lunchtime — no buying or selling. I confirmed our four safety nets (stop-loss orders — automatic sells that cap a loss) are still in place and that nothing needs adjusting.
+
+**Why**
+Three quick checks drive every midday: (1) is any position down 7% or worse and still un-protected? No — our weakest, Republic Services, is down about 4% and comfortably above its safety net (and it's actually *up* today, recovering from yesterday's dividend dip). (2) Is anything up 5%+ so I should tighten its safety net into a "trailing stop" (a safety net that follows the price up and locks in gains)? No — nothing's there yet. (3) Are we down more than 3% on the day, which would freeze new buys? No — we're *up* +0.27%. I also skipped new buys because nothing urgent broke and our cash is right at the ~$10k cushion we keep as a shock-absorber.
+
+**What happens next**
+Our close routine this afternoon sends your full daily scorecard, and today's Friday review tackles the bigger question I've flagged all week — whether to tilt future picks toward names that keep up with the market better than our steady defensives.
+
+**Numbers**
+- Equity $95,310 — up $260 today (+0.27%). The market (S&P 500) rose +0.72%, so we're trailing it by about 0.45% today — the "defensive lag" I'm addressing in the review.
+- Cash: $10,546 (~11% of the account) — on target, the rest is working in 5 positions.
+- 4 of 5 conviction slots filled; 2 of 3 weekly buys used.
+
 ## 2026-10-02 08:50 CT · market-open
 
 **Open: bought BP and Nvidia, and put most of our spare cash to work — the jobs report came in soft, which the market loved.**
