@@ -1,8 +1,8 @@
 {
-  "last_update": "2026-10-02 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-02 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
-  "equity": 95310.64,
+  "equity": 95283.76,
   "cash": 10545.80,
   "day_pl": 261.35,
   "day_pl_pct": 0.28,
@@ -11,6 +11,8 @@
   "week_pl_pct": -1.47,
   "spy_week_pct": -0.22,
   "alpha_week_pct": -1.25,
+  "week_grade": "C-",
+  "cum_alpha_pct": -6.30,
   "positions": [
     {
       "symbol": "BP",
@@ -24,8 +26,8 @@
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.85,
-      "current": 233.95,
-      "pl_pct": -1.22,
+      "current": 233.98,
+      "pl_pct": -1.21,
       "stop": 220.27
     },
     {
@@ -48,8 +50,8 @@
       "symbol": "SPY",
       "qty": 64,
       "avg_cost": 766.28,
-      "current": 769.99,
-      "pl_pct": 0.49,
+      "current": 769.59,
+      "pl_pct": 0.43,
       "stop": null
     }
   ],
@@ -127,6 +129,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-02 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending Oct 2: −1.5% | SPY −0.2% | alpha −1.25% | grade C−",
+      "body": "A losing week: down 1.5% while the market was flat (−0.2%), so we trailed by ~1.25% — our 6th week behind, and now ~6.3% behind the market over the whole run. Almost all of it was Thursday's two −7% stop-out sells (Medtronic, Cullen/Frost) when rates drifted up and dragged both rate-sensitive names out together; the stops did their job and I didn't average down. On Friday I redeployed the freed cash the smart way — waited out the jobs report, then bought BP (energy) and Nvidia (growth) to deliberately mix in market-tracking names. Our defensive tilt keeps costing us, so I'm putting a decision to you (Option A: keep picking stocks but smarter/more diversified — my pick; Option B: lean more on the index). Reply A or B in inbox.md; default is A. No safety rules changed."
+    },
+    {
       "ts": "2026-10-02 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $95,311 · day +0.28% · SPY +0.73% · alpha −0.45%",
@@ -167,12 +175,6 @@
       "routine": "market-open",
       "headline": "Open: 3 safety nets sold automatically (MDT, CFR, JPM) — now holding extra cash into Friday's jobs report",
       "body": "At the open, MDT and CFR hit their −7% stops and JPM hit its trailing stop (break-even) on a rising-rate tape. No new buys — deliberately holding the freed cash (~41%) into Friday's jobs report rather than adding beta the day before. 3 of 5 conviction slots now open; 0/3 weekly buys used."
-    },
-    {
-      "ts": "2026-10-01 06:00 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: hold our five; two are sitting right on their safety nets",
-      "body": "Research-only scan. No government shutdown (funded to Dec 11); futures up on tech, but the 10-yr yield near 5.3% pressures our defensive names. MDT and CFR closed on their stops — a weak open could trigger one; that's the plan working."
     }
   ]
 }

@@ -1,3 +1,26 @@
+## 2026-10-02 16:00 CT · weekly review
+
+**Week ending Oct 2: −1.5% | SPY −0.2% | alpha −1.25% | grade C−**
+
+**What I did**
+This was my Friday deep-dive into how the week went. We finished the 5-day week **down 1.5%**, while the overall market (the S&P 500) was basically flat at −0.2% — so we trailed it by about 1.25% (that gap vs. the market is our "alpha," and a minus means we lagged). That's our 6th week in a row behind the market, and over the whole run we're now about 6.3% behind it — our worst gap yet. I'm not going to dress that up: the scoreboard is poor and it's the reason this week only earns a **C−**.
+
+**Why**
+Almost the entire loss came from one morning. On Thursday, two of our steadier stocks — Medtronic (medical devices) and Cullen/Frost (a Texas bank) — hit their automatic "stop-loss" sells (safety nets that cap a loss at about −7%) when interest rates drifted up and dragged both down together. Neither company did anything wrong; it was the rate backdrop. The stops worked exactly as designed — they capped the damage and I didn't fight them or "average down" (buy more of a falling stock, which we never do). A third, JPMorgan, auto-sold at essentially break-even, protecting a gain it had built up. Then on **Friday** I put the freed-up cash to work the smart way: I waited for the morning jobs report, saw it was calm, and *then* bought BP and Nvidia — on purpose picking an energy name and a growth name instead of piling into more rate-sensitive, defensive stocks. Here's the honest pattern my research side and risk side agree on: our "steady defensive" tilt keeps costing us — it lags on up days *and* gets knocked out on rising-rate days. It's time to decide what to do about it.
+
+**What happens next — I need a decision from you (two plain options)**
+Our individual stock-picking hasn't been beating the market; the only part of our account reliably *keeping up* is the S&P 500 index holding we own. So:
+- **Option A — Keep picking stocks, but smarter.** I keep our 5 stock slots but deliberately mix in market-tracking names (like Nvidia) and spread out the risk, instead of loading up on similar defensive stocks. I started this already this week. Give it 2–3 weeks to prove itself. *(This is my recommendation.)*
+- **Option B — Lean on the index.** I shrink our hand-picked stocks to just 2–3 best ideas and park more of the money in the S&P 500 index — so more of the account simply matches the market we keep failing to beat, until a truly exceptional stock shows up.
+
+Reply in `inbox.md` with **A** or **B** (or ask me anything first). If I don't hear back, I'll continue with **A**, since it's already underway and changes none of our safety rules.
+
+**Numbers I care about**
+- Equity **$95,311** — down about $1,422 on the week; we're ~4.7% below our $100,000 starting point
+- Realized this week: **−$1,338** (the two −7% stop-sells, minus JPMorgan's small break-even gain)
+- Cash **$10,546 (~11%)** — right on our ~$10k safety cushion; 4 of 5 stock slots filled + the index floor
+- No safety rules changed this week — every stop, limit, and quality gate worked as intended
+
 ## 2026-10-02 15:05 CT · market-close
 
 **Close: equity $95,311 · day +0.28% · SPY +0.73% · alpha −0.45%**
