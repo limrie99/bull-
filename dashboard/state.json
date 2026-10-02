@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-10-01 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-02 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 95067.53,
-  "cash": 39218.96,
-  "day_pl": -175.70,
-  "day_pl_pct": -0.18,
+  "equity": 95230.59,
+  "cash": 39218.36,
+  "day_pl": null,
+  "day_pl_pct": null,
   "spy_day_pct": 0.23,
   "alpha_day_pct": -0.42,
   "week_pl_pct": -1.72,
@@ -32,8 +32,8 @@
       "symbol": "SPY",
       "qty": 49,
       "avg_cost": 764.72,
-      "current": 764.34,
-      "pl_pct": -0.05,
+      "current": 767.69,
+      "pl_pct": 0.39,
       "stop": null
     }
   ],
@@ -111,34 +111,40 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-02 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan \u00b7 holding cash into the 7:30 CT jobs report \u00b7 no trades",
+      "body": "Scanned overnight news + ideas. No trades before today's binary September jobs report (8:30 ET). Holding ~41% cash; RMD/RSG theses intact (RSG ex-dividend today \u2014 a normal mechanical dip). If the jobs reaction is calm, BP is my lead buy at the open."
+    },
+    {
       "ts": "2026-10-01 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $95,068 · day −0.18% · SPY +0.23% · alpha −0.42%",
-      "body": "Quiet no-trade day; we eased −0.18% while the market firmed +0.23%, so we trailed by ~0.42% — our steady defensive picks (ResMed, Republic Services) didn't join the small rally. WTD we're −1.72% vs SPY −0.94% (behind ~0.78pt). Theses intact; both stops resting. RSG now tightest (~2% to its safety net). Holding ~41% cash into Friday's jobs report; redeploy and a defensive-tilt A/B choice go to the Friday review."
+      "headline": "Close: equity $95,068 \u00b7 day \u22120.18% \u00b7 SPY +0.23% \u00b7 alpha \u22120.42%",
+      "body": "Quiet no-trade day; we eased \u22120.18% while the market firmed +0.23%, so we trailed by ~0.42% \u2014 our steady defensive picks (ResMed, Republic Services) didn't join the small rally. WTD we're \u22121.72% vs SPY \u22120.94% (behind ~0.78pt). Theses intact; both stops resting. RSG now tightest (~2% to its safety net). Holding ~41% cash into Friday's jobs report; redeploy and a defensive-tilt A/B choice go to the Friday review."
     },
     {
       "ts": "2026-10-01 12:10 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes · equity $95,105 · day −0.15% · tracking SPY",
-      "body": "Risk check only — no trades. Both holdings (ResMed, Republic Services) sit safely above their −7% safety nets; nothing up 5%+ to tighten; day flat and far inside the loss cap. Holding ~41% cash on purpose into Friday's jobs report; the redeploy decision waits for a calmer post-jobs tape and the Friday review."
+      "headline": "Midday: steady, no changes \u00b7 equity $95,105 \u00b7 day \u22120.15% \u00b7 tracking SPY",
+      "body": "Risk check only \u2014 no trades. Both holdings (ResMed, Republic Services) sit safely above their \u22127% safety nets; nothing up 5%+ to tighten; day flat and far inside the loss cap. Holding ~41% cash on purpose into Friday's jobs report; the redeploy decision waits for a calmer post-jobs tape and the Friday review."
     },
     {
       "ts": "2026-10-01 08:45 CT",
       "routine": "market-open",
-      "headline": "Open: 3 safety nets sold automatically (MDT, CFR, JPM) — now holding extra cash into Friday's jobs report",
-      "body": "At the open, MDT and CFR hit their −7% stops and JPM hit its trailing stop (break-even) on a rising-rate tape. No new buys — deliberately holding the freed cash (~41%) into Friday's jobs report rather than adding beta the day before. 3 of 5 conviction slots now open; 0/3 weekly buys used."
+      "headline": "Open: 3 safety nets sold automatically (MDT, CFR, JPM) \u2014 now holding extra cash into Friday's jobs report",
+      "body": "At the open, MDT and CFR hit their \u22127% stops and JPM hit its trailing stop (break-even) on a rising-rate tape. No new buys \u2014 deliberately holding the freed cash (~41%) into Friday's jobs report rather than adding beta the day before. 3 of 5 conviction slots now open; 0/3 weekly buys used."
     },
     {
       "ts": "2026-10-01 06:00 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: hold our five; two are sitting right on their safety nets",
-      "body": "Research-only scan. No government shutdown (funded to Dec 11); futures up on tech, but the 10-yr yield near 5.3% pressures our defensive names. MDT and CFR closed on their stops — a weak open could trigger one; that's the plan working."
+      "body": "Research-only scan. No government shutdown (funded to Dec 11); futures up on tech, but the 10-yr yield near 5.3% pressures our defensive names. MDT and CFR closed on their stops \u2014 a weak open could trigger one; that's the plan working."
     },
     {
       "ts": "2026-09-30 15:12 CT",
       "routine": "market-close",
-      "headline": "Close: equity $95,261 · day −0.56% · SPY −0.27% · alpha −0.29%",
-      "body": "Quiet no-trade day; the midday cool-PCE relief faded into the bell. MDT and CFR closed sitting right on their −7% stops — a modest down open tomorrow likely tags one or both. Theses intact; stops doing their job. ~11% cash."
+      "headline": "Close: equity $95,261 \u00b7 day \u22120.56% \u00b7 SPY \u22120.27% \u00b7 alpha \u22120.29%",
+      "body": "Quiet no-trade day; the midday cool-PCE relief faded into the bell. MDT and CFR closed sitting right on their \u22127% stops \u2014 a modest down open tomorrow likely tags one or both. Theses intact; stops doing their job. ~11% cash."
     },
     {
       "ts": "2026-09-28 15:00 CT",
@@ -151,12 +157,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes; book slightly ahead of SPY intraday",
       "body": "Risk check only. All 5 theses intact, all stops resting GTC, MDT tightest (~2.4%). Daily loss cap never near. Defensive tilt cushioning a down tape as designed."
-    },
-    {
-      "ts": "2026-09-25 16:00 CT",
-      "routine": "weekly-review",
-      "headline": "Weekly review: down-alpha week (−1.92pt); defensive sleeve lagged an up-tape",
-      "body": "Honest retro: every conviction name fell while SPY rose +1.28%. No thesis broke, no stop fired, no error — just a defensive book not participating in a melt-up. No strategy change; flagged a defensive-sleeve-lag watch to revisit if it repeats."
     }
   ]
 }

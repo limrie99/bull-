@@ -1,3 +1,35 @@
+# 2026-10-02 ~06:10 CT (07:10 ET) — PRE-MARKET (Fri) · JOBS-REPORT DAY · research only, NO TRADES · redeploy decision deferred to post-8:30 market-open
+
+**Routine:** pre-market. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 07:10 ET; next_open 2026-10-02 09:30 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca VERIFIED: equity **$95,230.59**, cash **$39,218.36 (~41.2%)**, last_equity $95,049.29, buying_power $313,707.68. Positions: **RMD (42), RSG (44), SPY (49)**. Open orders = exactly **2** (RMD hard `91671fa4` stop 212.62; RSG hard `93c80d32` stop 202.74). SPY unencumbered. Sub-agent team (macro, earnings, positions, scout) fanned out via Perplexity.
+
+## Market context
+- **THE event: September nonfarm payrolls, 8:30 AM ET today** (BLS on schedule — NOT delayed by the funding situation). Consensus ~**+90k** (range 85–90k, wide forecast band +35k to +180k), unemployment seen holding **4.1%**; prior Aug +162k. Reaction is **nonlinear/binary**: HOT (>~90k, esp. U-rate down) → yields up, USD up, long-duration/growth pressured; COLD (<~85k) → yields down, supportive for rate-sensitives, but a *very* weak print flips to recession/risk-off.
+- **Futures risk-on into the open:** ES ~+0.46%, NQ ~+0.74% — indicative gap higher led by tech, on softer yields/oil. Fragile until 8:30.
+- **Rates/FX/cmdty:** 10Y ~**5.24%** (pulling back from ~5.34%, a 2002 high hit earlier this week — the standing overhang). DXY ~102 (17-mo high). WTI ~$92.8 (eased overnight). Gold ~$4,184 (near record).
+- **Fed:** ~76% priced for NO October hike (was ~29% a week ago); December hike partly priced. Speakers mixed (Williams/Jefferson/Bowman dovish-leaning "no urgency"; Logan hawkish). Regime is **tightening-biased, not cutting** — unusual high-rate backdrop to factor into conviction.
+- **Global:** Asia weak (Nikkei −0.9%, Hang Seng −2.6%, China on holiday); Europe closed Thu red.
+- **Earnings:** today's large-cap calendar is **empty** (only micro-caps). No holding or watchlist name reports until **late Oct** (RMD/RSG/HWM/GEV/LMT/ADM ~10/29; XOM/CVX ~10/30; BP ~early Nov; TMO ~10/21–28). Recent beat-and-raise of note: JBL (AI data-center), ACN (modest, now too extended to chase). **Earnings NOT a factor today.** Macro flag: Materials Q3 estimates cut 8.4% since 6/30 — mild headwind for ADM.
+
+## Portfolio watch
+- **RMD** 42 @ 228.63, ~−3.3%, stop 212.62 (cushion ~3.9%). No material 24–48h news; Q1 FY27 earnings date set **10/29**. RBC Outperform $262 (9/15) stands; GLP-1 remains a *tailwind* narrative (more apnea Dx). **Verdict: HOLD — thesis intact.**
+- **RSG** 44 @ 218.00, ~−5.0%, stop 202.74 (cushion ~2.0%, tightest in book). **Ex-dividend TODAY 10/2, $0.67/sh** (the raised amount; pays 10/15) — shares mechanically open ~$0.67 lower; that is NOT a thesis move. No news/analyst action; next earnings 10/29. **Verdict: WATCH — only a concern if it breaks ~$203–204 on *real* selling (not the ex-div drop). Do not average down.**
+- **SPY** 49-sh index floor, ~flat/+0.4%, no stop by design (index-sleeve carve-out). Will track the jobs reaction.
+
+## Buy candidates (signals matched + conviction)
+- **BP (~$44.50)** — Signals **#4** (Wells Fargo upgrade 10/1 Equal→Overweight, PT $48→$57), **#5** (energy sector rotation — best S&P sector; +1.9% on 10/1), **#6** (above 50dMA ~$43.78). 4 signals. Q3 earnings ~10/30 (#2 catalyst, >30d out). **Conviction ~72 (B+) — CLEARS the gate.** Top bench, disciplined entry (not extended). Caveat: energy major = lower beta, only partial benchmark participation; also deepens the existing energy/value tilt.
+- **AVGO (~$410–420)** — Signals **#3** (AI-infra/networking secular), **#5** (semis strongest fund flows, SMH/SOXX ~$1.4B inflows), **#6** (uptrend). **Conviction ~72 — likely clears IF live price confirms not extended + above 50dMA.** The up-tape participant the sleeve-lag watch wants. VERIFY extension at open.
+- **NVDA (~$205–210)** — Signals #3/#5/#6, **Conviction ~70.** Alternative to AVGO; don't double-up semis — pick one.
+- **GE Aerospace (~$300–310)** — Signals #5/#6 (industrials rotation, aftermarket tailwind), **Conviction ~66 — near-trigger bench.** Up-tape participant.
+- **CVX (~$207)** — above 50dMA, signals #5/#6, no fresh analyst action, **~66 — bench.**
+- **MPC (~$225)** — energy/refining rotation leader but up ~6% on the day = likely extended; **~65 — bench, wait for pullback.**
+
+## Sell candidates
+- **None.** Both holdings' theses intact; no sell-signal triggers. RSG's thin cushion is on WATCH but the ~$0.67 ex-div dip is mechanical, not a break. SPY floor held by policy.
+
+## Decision & standing items
+- **NO TRADES — correct for a research routine, and doubly so pre-jobs.** The **entry-into-a-binary-macro-print advisory (occurrence 2, near-veto)** argues against opening fresh single-name beta the morning of the Sept payrolls print. Redeploy of the 3 open conviction slots (weekly buys 0/3, cash ~41%) stays **DEFERRED to the post-8:30 market-open** read: if the jobs reaction is benign, **BP is the lead buy** (clears gate); an up-tape semi (AVGO>NVDA) is the benchmark-participation alternative pending a live not-extended check. Idle remainder may go to the SPY floor per policy.
+- **STANDING WATCH — defensive-sleeve alpha lag (occurrence 2):** book is 2 defensives + ~39% SPY floor + ~41% cash; WTD behind SPY. **Today's Fri weekly review OWNS the A/B proposal to Lauren** (tilt future picks toward benchmark-participation names and/or move freed cash into SPY). The up-tape scout names (BP/AVGO/GE) are the raw material for that tilt. Restate until it clears or triggers.
+
 # 2026-10-01 ~08:45 CT (09:45 ET) — MARKET-OPEN (Thu) · 3 STOP-OUTS (MDT, CFR, JPM) · NO BUYS · sleeve 5/5→2/5 · HOLD CASH INTO JOBS REPORT
 
 **Routine:** market-open. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **Inbox:** no Pending. **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. Live Alpaca account + positions + orders VERIFIED against reality (truth wins over handoff).
