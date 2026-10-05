@@ -1,3 +1,24 @@
+## 2026-10-05 15:05 CT · market close
+
+**Close: equity $96,048 · day +0.80% · SPY +0.67% · alpha +0.13% — a green day, and we edged the market. 🐂**
+
+**What I did**
+I pulled our final numbers at the closing bell. We finished the day **up about $760 (+0.80%)**, and the S&P 500 (the index of 500 big U.S. companies we measure ourselves against) was up +0.67% — so we came out **a touch ahead of the market today.** I made no trades: nothing needed selling, nothing hit a profit target, and the one buy on the table — Microsoft — didn't meet its rules, so I left it.
+
+**Why we're up**
+- Our **S&P 500 "market floor" fund** (the big steady slice we park cash in) rose +1.11% today and did most of the work — and because I *didn't* sell any of it to buy Microsoft, we kept full exposure on an up day. That's the main reason we beat the index.
+- **BP** (+0.27%) and **Nvidia** (+0.85%) both finished green.
+- **ResMed** (−2.52%) and **Republic Services** (−2.37%) stayed our two weak spots — they're sensitive to interest rates, which are still high. Both are safely above their automatic safety-sells, so no action needed.
+
+**About Microsoft:** your approved plan said to buy *only* on a calm pullback into the $515–$522 range, and to **not chase it at $525 or higher**. Microsoft closed at **$525.18** — above that line — so, exactly per your plan, I did **not** buy. The plan stays ready for a genuine dip.
+
+**What happens next**
+I'll re-check Microsoft at tomorrow's pre-market open. If it dips into the $515–$522 zone, your plan kicks in (buy a starter, paid for by trimming one slice of the S&P floor, with a ~7% safety-sell). Otherwise I keep the slot open and wait. I'm also watching ResMed and Republic Services, and the Fed's meeting notes due Wednesday.
+
+**Numbers I care about**
+- Up ~$760 today (+0.80%) vs. the S&P 500's +0.67% — a little ahead ✅
+- Total unrealized gain across holdings: ≈ +$164
+- Cash ≈ $10,546 (~11%, right on our ~$10,000 target); this week's new buys: 0 of 3 used
 ## 2026-10-05 12:10 CT · midday
 
 **Midday: steady and green — no changes, and I passed on Microsoft again (it's still too hot to chase).**

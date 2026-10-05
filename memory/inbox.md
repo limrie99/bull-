@@ -8,24 +8,24 @@ Add a new `## YYYY-MM-DD HH:MM` header with your request under **Pending**. When
 
 ## Pending
 
-### 2026-10-05 · MSFT PULLBACK PLAN (approved by Lauren via the team pipeline). Paper only.
-
-From Lauren, via the team pipeline. Queued for Bull's trader. Paper only.
-
-**MSFT PULLBACK PLAN (approved by Lauren). Paper only.**
-
-- Thesis: MSFT pullback into $515-522 after an analyst upgrade. Not a chase at ~$525.
-- Risk Gate: PASS for a $515-522 pullback funded by an SPY trim. BLOCK on chasing at >= ~$525.
-- Size: buy 16 MSFT, LIMIT order at $518 (accept fills only inside $515-522). Never use a market order. Never raise the limit toward $525.
-- Funding: sell 11 SPY first (64 -> 53), then work the MSFT limit. Cash must stay >= ~$10k / ~10% after both legs (expected ~$10.7k).
-- Stop: -7% hard stop from the actual fill (fill x 0.93; $481.74 at a $518 fill). Set it the same session as the fill. Apply the standing +5% / +20% trail-upgrade rules after that.
-- Cancel / don't work it if: price trades >= ~$525, price leaves $515-522 and the limit is unfilled, the SPY trim fails, sleeve or weekly-buy room changes, or it's the session before MSFT earnings (~Oct 28). Don't carry an unfilled buy into earnings week.
-- Verify live before acting: still a pullback (not a chase), price is inside $515-522, re-check the 16/11 share counts at current quotes, cash floor holds, conviction gate still >= 70.
-- Log the fills, or the cancellation and its reason, in the normal session note.
+_(none)_
 
 ---
 
 ## Handled
+
+### 2026-10-05 · MSFT PULLBACK PLAN (approved by Lauren via the team pipeline). Paper only.
+_handled 2026-10-05 15:05 CT by market-close — **NOT worked, by the plan's own rules.** Verified live at the close: MSFT **closed $525.18** (last trade $525.01), which is **above the $515–522 entry band and at/over the plan's ≥$525 "block/chase" line** — the plan's explicit cancel/don't-work condition. So **no order was placed and SPY was NOT trimmed**, exactly as Lauren instructed ("not a chase at ~$525"; "BLOCK on chasing at ≥ ~$525"; "cancel if price leaves $515–522 unfilled"). The plan **stays armed**: re-verify live at pre-market Tue 10/6 — activate ONLY on a genuine pullback into $515–522 via LIMIT $518, funded by selling 11 SPY FIRST (cash ≥~$10k), with a −7% hard GTC stop at the actual fill. Do not chase ≥$525, and do not carry an unfilled buy into earnings week (~Oct 28). Original plan preserved below._
+
+> **MSFT PULLBACK PLAN (approved by Lauren). Paper only.**
+> - Thesis: MSFT pullback into $515-522 after an analyst upgrade. Not a chase at ~$525.
+> - Risk Gate: PASS for a $515-522 pullback funded by an SPY trim. BLOCK on chasing at >= ~$525.
+> - Size: buy 16 MSFT, LIMIT order at $518 (accept fills only inside $515-522). Never use a market order. Never raise the limit toward $525.
+> - Funding: sell 11 SPY first (64 -> 53), then work the MSFT limit. Cash must stay >= ~$10k / ~10% after both legs (expected ~$10.7k).
+> - Stop: -7% hard stop from the actual fill (fill x 0.93; $481.74 at a $518 fill). Set it the same session as the fill. Apply the standing +5% / +20% trail-upgrade rules after that.
+> - Cancel / don't work it if: price trades >= ~$525, price leaves $515-522 and the limit is unfilled, the SPY trim fails, sleeve or weekly-buy room changes, or it's the session before MSFT earnings (~Oct 28). Don't carry an unfilled buy into earnings week.
+> - Verify live before acting: still a pullback (not a chase), price is inside $515-522, re-check the 16/11 share counts at current quotes, cash floor holds, conviction gate still >= 70.
+> - Log the fills, or the cancellation and its reason, in the normal session note.
 
 ### 2026-09-21 · Astra fold-in (both blocks) — "voices/continuity from Herk, no day-trading" + "Astra HELPS, does not compete"
 _handled 2026-09-21 15:00 CT by market-close._ Confirmed on `main`: `memory/strategy.md` carries both the "Operating model — voices, continuity, and research fan-out" section (line ~128) and the "Astra as the outside research voice" section (line ~148) plus the dated 2026-09-21 changelog entry; `scripts/dashboard.md` has the "Who's talking" label guidance; the `astra/` folder (README, config, runner, tests, handoff-maverick) is present; and **`memory/astra-proposals.md` exists** (initialized, "No proposals yet" — nothing to fold into today's scoring). Wrote Lauren a plain-English note in `messages.md` (in the *Why* section of the close message): the three internal Bull hats (**research** proposes, **risk** checks sizing/stops, **trader** is the only one that places orders), plus **Astra** as a fourth *outside* helper that can suggest but **can never trade** this account, and that we deliberately **skipped the video's day-trade / flatten-by-afternoon cadence** and changed **no guardrail** (still paper). Both original blocks preserved below.
