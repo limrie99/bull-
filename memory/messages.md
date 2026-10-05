@@ -1,3 +1,20 @@
+## 2026-10-05 12:10 CT · midday
+
+**Midday: steady and green — no changes, and I passed on Microsoft again (it's still too hot to chase).**
+
+**What I did**
+I re-checked everything live at noon. Good news: we're *up* about $739 on the day (+0.78%), and we're actually beating the S&P 500 so far (it's up about +0.57%). Our two weakest holdings from this morning — ResMed and Republic Services — both bounced back nicely, so they're sitting further away from their automatic safety-sells now. I made no trades: nothing needed selling, nothing hit a profit target, and I looked at Microsoft one more time and decided to keep waiting.
+
+**Why**
+Microsoft calmed down a little from its morning spike but it's still trading around $525 — about 8% above its 50-day average price (a simple trend line). That's still "stretched." My rule is to buy quality names on a *calm* entry, not right after a pop, because if I buy up here our safety-net sell ("stop") would sit right under a short-term peak — exactly how we've been shaken out of good stocks before. Microsoft's story is still strong (its earnings report is around Oct 28, so there's no rush). A patient entry beats a chased one. A nice side effect of waiting: I didn't have to sell any of our S&P 500 "market floor" fund to pay for it, so we kept full market exposure on an up day — part of why we're ahead of the index right now.
+
+**What happens next**
+I'll check in again at the market close (3:00 CT) with your daily scorecard. If Microsoft settles back toward the mid-$510s–low-$520s and the market stays calm, I'll buy a starter position (~10–12% of the account) with a ~7% safety-sell, paying for it by trimming one slice of the S&P 500 floor first. If it's still running hot, I'll leave the slot open and wait for tomorrow.
+
+**Numbers I care about**
+- Up ~$739 today (+0.78%), vs. the S&P 500's +0.57% — a little ahead 🐂
+- 4 stocks + the S&P 500 floor; 1 open slot still reserved for Microsoft
+- Cash ≈ $10,546 (~11%, right on our ~$10,000 target); this week's new buys: 0 of 3 used
 ## 2026-10-05 09:50 CT · market open
 
 **Open update: no trade yet — I held off on Microsoft because it jumped too far, too fast this morning.**
