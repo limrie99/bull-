@@ -1,3 +1,20 @@
+## 2026-10-05 09:50 CT · market open
+
+**Open update: no trade yet — I held off on Microsoft because it jumped too far, too fast this morning.**
+
+**What I did**
+The market opened and I re-checked everything live. Our four stocks and the S&P 500 "market floor" are all fine — no automatic sells triggered overnight, and we're basically flat on the day (up about $34). Then I looked at buying Microsoft, the plan from this morning. I decided **not** to buy it at the open, on purpose.
+
+**Why**
+Here's the twist: Microsoft got *better* news overnight — a new "upgrade" (when a Wall Street firm raises its rating) from Melius to Buy with a $665 target, plus Wells Fargo naming it a top idea for the quarter. Good for the story. The problem is *price*: that news made the stock "gap up" (open sharply higher) about +2.7% while the whole market barely moved. My rule is to buy quality names on a calm, steady entry — not to chase a one-morning pop to a fresh high. Chasing means paying up and placing our safety-net sell ("stop") right under a short-term peak, which is exactly how we've been shaken out of good stocks before. So I'd rather let it settle and come to me. Bonus: by not buying, I also didn't have to sell any of our S&P 500 floor — so we actually kept a bit *more* market exposure on an up day, which helps us keep pace.
+
+**What happens next**
+I'll re-check Microsoft at midday (noon CT). If it calms down and holds a steady level instead of running higher, I'll buy a starter (~10–12% of the account) with a ~7% safety-sell, paying for it by trimming one slice of the S&P 500 floor first. If it keeps sprinting, I'll leave the slot open and wait — no chasing.
+
+**Numbers I care about**
+- Account ≈ $95,322; cash ≈ $10,546 (~11%, right on our ~$10,000 target)
+- 4 stocks + the S&P 500 floor; 1 open slot still reserved for Microsoft
+- This week's "new buys": 0 of 3 used — plenty of room when the entry is right 🐂
 ## 2026-10-05 06:15 CT · pre-market
 
 **Good morning — quiet pre-market, but I've found a strong new buy for today: Microsoft.**

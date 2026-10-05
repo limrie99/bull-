@@ -1,3 +1,35 @@
+# 2026-10-05 ~09:50 CT (09:50 ET) — MARKET-OPEN (Mon) · NO TRADES · Trader DECLINED the MSFT chase (gapped +2.68% on an upgrade) — thesis strengthened, entry not clean
+
+**Routine:** market-open. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, next_close 16:00 ET). **Inbox:** no Pending (structural A/B still unanswered → default A stands). **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
+
+## Live verification (this run)
+- Account: equity **$95,321.83**, cash **$10,545.79 (~11.06%)**, last_equity (Fri close) $95,288.23 → intraday **+$33.60 / +0.04%**, buying_power $279,556.07, status ACTIVE.
+- Positions (5): BP 214 @ 44.10 (−0.90%), NVDA 32 @ 237.71 (+0.36%), RMD 42 @ 219.90 (−3.82%), RSG 44 @ 208.53 (−4.34%), SPY 64 @ 770.63 (+0.57%). Total uPL ≈ **−$562.61**.
+- Open orders: **exactly 4** standalone GTC hard stops resting (BP 41.38, NVDA 220.27, RMD 212.62, RSG 202.74); SPY no stop by policy. VERIFIED.
+- Cushions: RSG ~2.8% (tightest), RMD ~3.3%, BP ~6.2%, NVDA ~7.3%.
+- Tape: SPY intraday +0.12%, QQQ +0.44% — mildly green, NOT risk-off. Daily loss cap (−3%) nowhere in play.
+
+## Risk checks
+- (a) No position at/under −7% un-stopped. (b) None at +5% needing hard→trailing conversion (SPY +0.57% best). (c) Daily loss cap not hit (+0.04%). (d) No overnight sell signals fired — all 4 theses intact, all 4 stops resting, SPY held. **No sells, no stop maintenance needed.**
+
+## The open-slot decision — MSFT (the pre-market lead buy)
+Pre-market teed up MSFT as the 5th conviction name under a **hard precondition**: buy only on a *clean, non-extended, NOT-gapped* entry (above the rising ~$488 50dMA, not chasing a spike), funded by a ~1-lot SPY-floor trim.
+
+- **Research (Bull):** MSFT's thesis is **stronger today, not weaker.** Fresh this morning: **Melius upgraded MSFT Hold→Buy, PT $665** (AI-security demand, "adult in charge"); **Wells Fargo added MSFT to its Q4 tactical top-ideas list, Overweight PT $725** (Azure growth + product catalysts); on top of the recent Piper Sandler raise to $610. That is now ~4 signals (#3 AI/cloud secular, #4 multi-firm upgrade cluster, #5 quality-growth rotation) → conviction ≥73, arguably higher. No adverse news in 48h. Verdict: keep MSFT the #1 benchmark-participation candidate.
+- **Trader (Bull):** **Declined to execute at the open.** Those exact upgrades GAPPED MSFT **+2.68% on the open to ~$531** (day open $521.96 vs Fri close $517.32; last ~$530-531), vastly outperforming QQQ (+0.44%) and SPY (+0.12%) — an idiosyncratic upgrade-day spike. At ~$531 MSFT is **~+8.9% above its $487.73 (rising) 50dMA**, vs the clean +6.1% the pre-market plan sized. This **fails the plan's own "not-gapped / non-extended" precondition** and lands in the book's own don't-chase zone (watchlist flags TSM +11.3% "extended," NVDA +7% "overbought/don't add"). Buying now places the −7% stop ~$13/sh higher, right under a fresh local high — the exact gap-entry → macro-shakeout pattern that cost v1. A quality name on a strengthening thesis (earnings ~10/28, no blackout) will give a better entry on a settle; it does not need to be chased on upgrade morning.
+- **Risk (Bull):** Not buying MSFT means NOT trimming the SPY floor → the full 64-sh (~52%) index sleeve stays on today's up-tape, which is *more* benchmark participation, not less. The open 5th slot waiting one slot for a clean entry is prudence, not cash-drag — the book is fully invested (4 conviction + ~52% floor + ~11% cash, at the target floor). Anti-paralysis rule satisfied: this is a clean-entry discipline call on a single name, not a default into idle cash.
+
+**Outcome: NO TRADE at the open.** MSFT stays #1 on the watchlist, thesis upgraded, ARMED for a clean/settled entry. SPY floor untouched. Weekly conviction buys remain 0/3. This is the operating-model's intended separation in action ("Research liked it; Trader declined because the entry wasn't clean").
+
+## Handoff → midday (Mon 10/5 ~12:00 CT)
+- **STANDING (restate until cleared): check inbox for Lauren's structural A/B reply.** Default A (participation tilt) stands; no guardrail changed.
+- **STANDING ACTION — MSFT armed buy.** If by midday MSFT has **settled/consolidated** (ideally eased back toward ~$515–522, or holds a tight base above its ~$502 20dMA *without extending further above ~$531*) AND the tape is orderly (watch the 10:00 ET ISM Services reaction + any 10Y spike): **buy ~10–12% (~$10–11k, ~19–20 sh)**, funding it by **trimming ~1 SPY lot (~$10k, 64→~51 sh) FIRST** so whole-book cash stays ≥~$10k, then place a **−7% hard GTC stop at the fill** (moderate beta → B+ band, NOT the high-beta ≤10% cap). **Do NOT chase a further leg up** — if MSFT keeps extending, leave the slot open and re-arm.
+- **Risk watch into midday:** RSG tightest (~2.8% to 202.74), RMD ~3.3% to 212.62 — rate-sensitive, do NOT pre-empt stops, no average-down; a hot ISM Services or hawkish Wed minutes could pressure one. NVDA overbought (don't add). BP strongest (OPEC+). +5% conversion watch: none pending.
+- **Macro left unverified:** govt funding/shutdown status; exact 10Y print post-ISM. ISM Services 10:00 ET was the day's main data; FOMC minutes Wed; UMich Fri.
+- **Astra:** no proposals — recheck the file at midday.
+
+*Paper only. This entry placed no Alpaca order. All numbers verified live against Alpaca this run.*
+
 # 2026-10-05 ~06:15 CT (07:15 ET) — PRE-MARKET (Mon) · research only, NO TRADES · MSFT emerges as the clean benchmark-participation buy for the open slot
 
 **Routine:** pre-market. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 07:10 ET; next_open 2026-10-05 09:30 ET). **Inbox:** no Pending (the structural A/B escalation to Lauren is still unanswered → default A stands). **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. 4-agent fan-out (macro / earnings / positions / scout) ran via Perplexity sonar-pro; all bench technicals **cross-checked against LIVE Alpaca 50dMA bars** (several Perplexity prices were stale/wrong — AVGO was quoted ~$410-420 but is actually ~$355 and BELOW its 50dMA).

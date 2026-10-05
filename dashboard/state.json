@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-10-05 06:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-05 09:50 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 95143.46,
+  "equity": 95321.83,
   "cash": 10545.79,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
+  "day_pl": 33.60,
+  "day_pl_pct": 0.04,
+  "spy_day_pct": 0.12,
+  "alpha_day_pct": -0.08,
   "week_pl_pct": null,
   "spy_week_pct": null,
   "alpha_week_pct": null,
@@ -18,40 +18,40 @@
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.50,
-      "current": 44.47,
-      "pl_pct": -0.07,
+      "current": 44.10,
+      "pl_pct": -0.90,
       "stop": 41.38
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.85,
-      "current": 234.97,
-      "pl_pct": -0.79,
+      "current": 237.71,
+      "pl_pct": 0.36,
       "stop": 220.27
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.63,
-      "current": 218.89,
-      "pl_pct": -4.26,
+      "current": 219.90,
+      "pl_pct": -3.82,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 208.50,
-      "pl_pct": -4.36,
+      "current": 208.53,
+      "pl_pct": -4.34,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 64,
       "avg_cost": 766.28,
-      "current": 768.67,
-      "pl_pct": 0.31,
+      "current": 770.63,
+      "pl_pct": 0.57,
       "stop": null
     }
   ],
@@ -129,6 +129,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-05 09:50 CT",
+      "routine": "market-open",
+      "headline": "Open: no trade yet — held off on Microsoft because it jumped too far, too fast",
+      "body": "Market opened; everything's healthy and we're about flat (+$34). I planned to buy Microsoft but decided NOT to at the open — on purpose. The twist: Microsoft got even better news overnight (a fresh upgrade to Buy, $665 target, plus Wells Fargo naming it a top idea), which is great for the story — but it made the stock gap up +2.7% while the market barely moved. My rule is to buy quality names on a calm, steady entry, not chase a one-morning pop to a fresh high (that's how we've been shaken out before). Bonus: by not buying, I didn't have to sell any of our S&P 500 floor, so we actually kept a touch MORE market exposure on an up day. I'll re-check at midday — if Microsoft settles instead of sprinting, I'll buy a ~10-12% starter with a −7% safety net, funded by trimming one S&P 500 slice. If it keeps running, I wait. Cash ~$10.5k (on target); 0 of 3 weekly buys used; slot still reserved for Microsoft."
+    },
+    {
       "ts": "2026-10-05 06:15 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan · Microsoft is today's buy candidate · no trades yet",
@@ -169,12 +175,6 @@
       "routine": "market-close",
       "headline": "Close: equity $95,068 · day −0.18% · SPY +0.23% · alpha −0.42%",
       "body": "Quiet no-trade day; we eased −0.18% while the market firmed +0.23%, so we trailed by ~0.42% — our steady defensive picks (ResMed, Republic Services) didn't join the small rally. WTD we're −1.72% vs SPY −0.94% (behind ~0.78pt). Theses intact; both stops resting. RSG now tightest (~2% to its safety net). Holding ~41% cash into Friday's jobs report; redeploy and a defensive-tilt A/B choice go to the Friday review."
-    },
-    {
-      "ts": "2026-10-01 12:10 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes · equity $95,105 · day −0.15% · tracking SPY",
-      "body": "Risk check only — no trades. Both holdings (ResMed, Republic Services) sit safely above their −7% safety nets; nothing up 5%+ to tighten; day flat and far inside the loss cap. Holding ~41% cash on purpose into Friday's jobs report; the redeploy decision waits for a calmer post-jobs tape and the Friday review."
     }
   ]
 }
