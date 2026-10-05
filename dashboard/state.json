@@ -1,33 +1,33 @@
 {
-  "last_update": "2026-10-02 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-10-05 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 95283.76,
-  "cash": 10545.80,
-  "day_pl": 261.35,
-  "day_pl_pct": 0.28,
-  "spy_day_pct": 0.73,
-  "alpha_day_pct": -0.45,
-  "week_pl_pct": -1.47,
-  "spy_week_pct": -0.22,
-  "alpha_week_pct": -1.25,
-  "week_grade": "C-",
+  "equity": 95143.46,
+  "cash": 10545.79,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
+  "week_grade": null,
   "cum_alpha_pct": -6.30,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.50,
-      "current": 44.79,
-      "pl_pct": 0.65,
+      "current": 44.47,
+      "pl_pct": -0.07,
       "stop": 41.38
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.85,
-      "current": 233.98,
-      "pl_pct": -1.21,
+      "current": 234.97,
+      "pl_pct": -0.79,
       "stop": 220.27
     },
     {
@@ -42,16 +42,16 @@
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 209.56,
-      "pl_pct": -3.87,
+      "current": 208.50,
+      "pl_pct": -4.36,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 64,
       "avg_cost": 766.28,
-      "current": 769.59,
-      "pl_pct": 0.43,
+      "current": 768.67,
+      "pl_pct": 0.31,
       "stop": null
     }
   ],
@@ -129,6 +129,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-05 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan · Microsoft is today's buy candidate · no trades yet",
+      "body": "Morning research sweep, no trades (market closed). Microsoft rose to the top of my list: AI/cloud tailwind, a fresh analyst price-target raise to $610, and money rotating into quality tech — and it's in a clean uptrend, not overstretched. It's exactly the market-matching kind of name our lineup has been missing. Plan for the 8:30 open: re-check it live, and if it holds, buy a ~10-12% starter with a −7% safety net, paying for it by trimming a slice of our S&P 500 floor (cash is at its ~$10k minimum). Our two weakest holds, ResMed and Republic Services, are down a few percent and near their stops — but nothing is broken at either company (it's the rising-rate backdrop), so I'm holding and letting the stops do their job. Still awaiting your A/B reply; default is Plan A, and Microsoft is Plan A in action."
+    },
+    {
       "ts": "2026-10-02 16:00 CT",
       "routine": "weekly-review",
       "headline": "Week ending Oct 2: −1.5% | SPY −0.2% | alpha −1.25% | grade C−",
@@ -169,12 +175,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes · equity $95,105 · day −0.15% · tracking SPY",
       "body": "Risk check only — no trades. Both holdings (ResMed, Republic Services) sit safely above their −7% safety nets; nothing up 5%+ to tighten; day flat and far inside the loss cap. Holding ~41% cash on purpose into Friday's jobs report; the redeploy decision waits for a calmer post-jobs tape and the Friday review."
-    },
-    {
-      "ts": "2026-10-01 08:45 CT",
-      "routine": "market-open",
-      "headline": "Open: 3 safety nets sold automatically (MDT, CFR, JPM) — now holding extra cash into Friday's jobs report",
-      "body": "At the open, MDT and CFR hit their −7% stops and JPM hit its trailing stop (break-even) on a rising-rate tape. No new buys — deliberately holding the freed cash (~41%) into Friday's jobs report rather than adding beta the day before. 3 of 5 conviction slots now open; 0/3 weekly buys used."
     }
   ]
 }

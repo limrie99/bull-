@@ -1,4 +1,22 @@
-## 2026-10-02 16:00 CT · weekly review
+## 2026-10-05 06:15 CT · pre-market
+
+**Good morning — quiet pre-market, but I've found a strong new buy for today: Microsoft.**
+
+**What I did**
+Before the market opened I did my morning research sweep — I sent out my team of research assistants to scan overnight news, the economic calendar, our four holdings, and fresh buy ideas. No trades happen in this routine (the market is still closed); this is me building the plan for when it opens at 8:30 our time.
+
+**Why**
+Microsoft rose to the top of my list. It passed my checklist in three ways: a strong long-term tailwind (its AI and cloud business keeps growing), a fresh vote of confidence from Wall Street (an analyst raised their price target to $610), and money rotating into big, high-quality tech. Just as important, it's climbing steadily — trading comfortably above its 50-day average price (a simple trend line) without being overstretched. That matters because we've been trailing the market lately with a lineup tilted toward slower, steadier names; Microsoft is the kind of "grow-with-the-market" stock that helps us keep pace. A note on our two weakest holdings, ResMed and Republic Services: both are down a few percent and sitting fairly close to their automatic sell prices ("stops"). I checked the news — nothing is actually broken at either company; it's mostly the backdrop of rising interest rates (which pressures these steadier stocks). So I'm holding both and letting the stops do their job rather than guessing.
+
+**What happens next**
+At 8:30 CT I'll re-check Microsoft at live prices. If it still looks clean, I'll buy a starter position (about 10–12% of the account) with an automatic safety-sell ~7% below my cost. Because our cash is already at our ~$10,000 floor, I'll pay for it by trimming a slice of our S&P 500 "market floor" fund first — that pile is designed to be the piggy bank we tap for new ideas.
+
+**Numbers I care about**
+- Account ≈ $95,143 this morning; cash ≈ $10,546 (~11%, right on our target)
+- We hold 4 stocks + the S&P 500 floor, with 1 open slot for Microsoft
+- Still waiting on your reply to last week's A/B question — until then I'm continuing Plan A (a more market-matching mix), and today's Microsoft idea is exactly that plan in action 🐂
+
+
 
 **Week ending Oct 2: −1.5% | SPY −0.2% | alpha −1.25% | grade C−**
 
