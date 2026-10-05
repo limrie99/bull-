@@ -8,7 +8,20 @@ Add a new `## YYYY-MM-DD HH:MM` header with your request under **Pending**. When
 
 ## Pending
 
-_(nothing pending)_
+### 2026-10-05 · MSFT PULLBACK PLAN (approved by Lauren via the team pipeline). Paper only.
+
+From Lauren, via the team pipeline. Queued for Bull's trader. Paper only.
+
+**MSFT PULLBACK PLAN (approved by Lauren). Paper only.**
+
+- Thesis: MSFT pullback into $515-522 after an analyst upgrade. Not a chase at ~$525.
+- Risk Gate: PASS for a $515-522 pullback funded by an SPY trim. BLOCK on chasing at >= ~$525.
+- Size: buy 16 MSFT, LIMIT order at $518 (accept fills only inside $515-522). Never use a market order. Never raise the limit toward $525.
+- Funding: sell 11 SPY first (64 -> 53), then work the MSFT limit. Cash must stay >= ~$10k / ~10% after both legs (expected ~$10.7k).
+- Stop: -7% hard stop from the actual fill (fill x 0.93; $481.74 at a $518 fill). Set it the same session as the fill. Apply the standing +5% / +20% trail-upgrade rules after that.
+- Cancel / don't work it if: price trades >= ~$525, price leaves $515-522 and the limit is unfilled, the SPY trim fails, sleeve or weekly-buy room changes, or it's the session before MSFT earnings (~Oct 28). Don't carry an unfilled buy into earnings week.
+- Verify live before acting: still a pullback (not a chase), price is inside $515-522, re-check the 16/11 share counts at current quotes, cash floor holds, conviction gate still >= 70.
+- Log the fills, or the cancellation and its reason, in the normal session note.
 
 ---
 
