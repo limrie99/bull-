@@ -10570,3 +10570,16 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 - Weekly review (today) owns the defensive-sleeve-lag A/B framing + the capacity note (1 slot + 1 weekly buy, but cash at the floor → trim SPY first for any new conviction name).
 - Inbox empty; Astra none.
 - **Unverified:** none — account/positions/open-orders/clock pulled live this run.
+
+---
+## 2026-10-06 ~12:12 CT · MIDDAY routine
+**Market:** CONFIRMED OPEN (/v2/clock is_open=true, 13:10 ET; next_close 16:00 ET).
+**Account (live):** equity $96,585.44; cash $10,545.79 (~10.92%); last_equity (Mon 10/5 close) $96,053.03 → intraday +$532.41 (+0.55%). Green; daily loss cap N/A.
+**SPY (IEX):** prev close (Mon 10/5) 774.97; latest 779.93 → +0.64% intraday. Alpha_day ≈ −0.09%. Week: book +1.34% vs SPY +1.34% (from Fri 10/2 closes eq $95,311 / SPY 769.65) → alpha_week ≈ 0.00.
+**Positions (live marks):** BP 214 @44.98 (+1.09%, cushion ~8.0%); NVDA 32 @240.20 (+1.42%, ~8.3%); RMD 42 @222.23 (−2.80%, ~4.33% — thinnest); RSG 44 @215.40 (−1.19%, ~5.88%); SPY 64 @779.93 (+1.78%, no stop). Total unrealized ≈ +$702.
+**Open orders:** exactly 4 sell-stop GTC — BP 41.38, NVDA 220.27, RMD 212.62, RSG 202.74. SPY unencumbered by design. All stop IDs unchanged from market-open.
+**Risk checks:** (a) none −7% or worse (worst RMD −2.80%); (b) none +5%+ → no hard→trailing conversion; (c) book +0.55% green → no loss-cap buy block; (d) no sell signals, all 4 theses intact/watch.
+**MSFT armed plan:** live MSFT $532.30 (latest trade, 17:10Z) — above the $515–522 band and past the ≥$525 don't-chase line → plan's cancel/don't-work condition met, NO order placed, SPY NOT trimmed. Plan stays armed for a genuine pullback into $515–522 (LIMIT $518, sell 11 SPY first, −7% hard GTC stop at fill; no chase ≥$525; no unfilled carry into earnings ~Oct 28).
+**New buys:** none. No high-conviction breaking catalyst; midday-buy bar not met. Weekly buys 0/3; sleeve 4/5.
+**Inbox:** no Pending. **Astra:** no proposals.
+**Decision:** steady, no changes. Next: market-close 15:00 CT (owns mandatory daily scorecard + Telegram).

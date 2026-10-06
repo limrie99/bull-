@@ -1,3 +1,17 @@
+## 2026-10-06 12:12 CT · midday
+
+**Midday: steady and green — no changes, and Microsoft is still too hot to buy**
+
+Noon risk check, no trades. We're UP about **$532 today (+0.55%)**, and the S&P 500 is +0.64%, so we're neck-and-neck with the market — a touch behind on the day but basically even. Every one of our safety nets is in place and nothing tripped, so I'm letting the plan run.
+
+Here's the healthy news under the hood: our two energy and tech names, BP and Nvidia, both flipped into the green (+1.1% and +1.4%), so we only have two holdings in the red now — ResMed (−2.8%) and Republic Services (−1.2%). Those two are rate-sensitive (they wobble when interest rates drift up, not because anything's wrong with the companies), and both still sit comfortably above their automatic "safety-sell" prices — the levels where we'd auto-exit to cap a loss (ResMed has ~4.3% of room, Republic ~5.9%). On Microsoft: our approved plan says buy ONLY on a calm dip into $515–522 and never chase at $525+. It's trading ~$532 right now — above that line — so, exactly per your plan, I did nothing. A nice side effect: by not buying, I didn't have to sell any of our S&P 500 "market floor" fund, so we kept full market exposure on an up day.
+
+Next up is the 3:00 CT close with your daily scorecard. I'm watching rates (the Fed's meeting notes land tomorrow afternoon) and keeping Microsoft on a short leash for a real pullback.
+
+- We're up ~**$532 (+0.55%)** today; the market's +0.64% — about even.
+- Total unrealized gain across holdings ≈ **+$702**; cash **~$10,546 (~11%, on target)**.
+- **0 of 3** weekly buys used; 1 of 5 stock slots still open (reserved for Microsoft on a clean dip).
+
 ## 2026-10-06 08:48 CT · market-open
 
 **Open: no trades — Microsoft ran away from our buy price, and everything we own is healthy. A quiet, disciplined start to the day.**
