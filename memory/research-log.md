@@ -1,3 +1,52 @@
+# 2026-10-06 ~06:20 CT (07:20 ET) — PRE-MARKET (Tue) · research only, NO TRADES · BIG dovish repricing (Oct hike odds 73%→~20%) but 10Y still ~5.3%; shutdown Day 6 CONFIRMED; MSFT still above band, GEV the only fresh near-trigger
+
+**Routine:** pre-market. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, timestamp 07:10 ET; next_open 2026-10-06 09:30 ET). **Inbox:** no Pending (the structural A/B escalation to Lauren is still unanswered → default A stands). **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. 4-agent fan-out (macro / earnings / positions / scout) ran via Perplexity sonar-pro; **all 50dMAs cross-checked against LIVE Alpaca daily bars** (Perplexity prices were stale again — e.g. GE Aero came back two values; TSM/MSFT verified in Alpaca).
+
+## Live verification (this run — pre-market marks)
+- Account: equity **$96,189.13** (pre-market marks), cash **$10,545.79 (~10.96%)**, last_equity (Mon 10/5 close) $96,053.03, buying_power $281,984.51, status ACTIVE.
+- Positions (5, pre-market marks): BP 214 @ 44.27 (−0.52%, uPL −49.18), NVDA 32 @ 241.05 (+1.78%, +134.50), RMD 42 @ 223.00 (−2.46%, −236.35), RSG 44 @ 212.83 (−2.37%, −227.48), SPY 64 @ 776.96 (+1.39%, +683.84). Total uPL ≈ **+$305** (pre-market marks).
+- Open orders: **exactly 4** standalone GTC hard stops resting `new` (BP 41.38, NVDA 220.27, RMD 212.62, RSG 202.74); SPY no stop by policy. VERIFIED.
+- **Cushions (pre-market marks):** RMD ~4.65% (223.00→212.62), RSG ~4.74% (212.83→202.74), BP ~6.53% (41.38), NVDA ~8.62% (220.27). RMD/RSG still the thinnest, rate-sensitive pair.
+- **LIVE 50dMA cross-check (Alpaca daily closes, as of Mon 10/5):** BP 44.63 vs 50dMA 43.83 = **+1.82% (rising)**; NVDA 238.98 vs 218.93 = **+9.16% (EXTENDED/overbought — don't add)**; RMD 222.89 vs 223.84 = **−0.43% (below, 50dMA flattening/falling)**; RSG 212.99 vs 216.72 = **−1.72% (below, 50dMA falling)**; SPY 774.97 vs 764.39 = **+1.38% (rising)**.
+- **Cumulative alpha since 5/29:** ≈ **−6.2 pt** (Mon official −6.2; pre-market marks are not a verified datapoint until close — carried, not re-marked).
+
+## Market context (macro digest — the story today)
+- **THE HEADLINE — a sharp dovish repricing of the Fed.** Odds of a 25bp HIKE at the Oct 27-28 FOMC **cratered from ~73% to ~20%** (now ~78-80% HOLD, ~1% cut). The weak Sept jobs print (+29k, U-rate 4.2%, out 10/2) has finally been priced into the front end. Broadly supportive — ES futures +0.20%, VIX ~15.5 (calm), Asia strong (Nikkei +2.4%).
+- **KEY NUANCE / the catch:** the **10Y actually ticked UP to ~5.30-5.31%** (vs ~5.28% Mon; off the ~5.34% 24-yr high). So the relief is a **front-end / hike-fear story; the long end has NOT relieved.** RMD/RSG weakness is driven by the long end (10Y), so the dovish repricing helps sentiment broadly but does **not** by itself lift the rate-sensitive pair until the 10Y falls. Watch the 10Y: a renewed push toward 5.34%+ reverses the mood fast.
+- **GOVERNMENT SHUTDOWN — Day 6, CONFIRMED** (funding lapsed 11:59pm 9/30; no CR/appropriations). **Resolves the prior-run "shutdown status UNVERIFIED" flag.** Fed releases (FOMC minutes Wed 2pm) unaffected; Labor/exec-branch data (jobless claims Thu, trade balance) at risk of delay.
+- **Calendar:** today Aug trade balance 8:30 ET + 3Y note auction 1pm (minor). Week: **FOMC minutes Wed 2pm (the main US event)**, jobless claims Thu (may be delayed), UMich Fri 10am (~48.1 est, inflation expectations). **No CPI this week. No FOMC decision this week** (that's Oct 27-28). → **SNPS entry-timing near-veto NOT triggered for any buy this week** (no NFP/CPI/FOMC-decision binary print).
+- **Energy (BP tailwind):** OPEC+ held Nov output flat for a 2nd straight month (2027-quota review delayed to ~mid-Nov); Brent ~$100.6 (>$100 confirmed), WTI ~$89.7. Mild pullback on G7 reserve-release chatter + higher Mideast exports, but discipline holds — supportive for BP.
+- Global: DXY not verified; gold ~$4,153 (−$3.50).
+
+## Portfolio watch (position digest — all INTACT, zero breaks)
+- **BP — INTACT (strongest).** Brent still >$100, OPEC+ discipline holds; no BP-specific downgrade, guidance, or Rumaila gas-flaring litigation update in 48h. +1.82% above a rising 50dMA. Stop 41.38, cushion ~6.5%. Earnings ~Oct 30 (confirmed OUT of the 14-day window — no blackout).
+- **NVDA — INTACT.** Secular data-center uptrend unchanged; one unattributed/UNVERIFIED PT-to-$345 reported (do NOT act on it). **+9.16% above 50dMA = overbought → keep the don't-add flag.** Stop 220.27, cushion ~8.6%. Earnings ~mid-Nov.
+- **RMD — WATCH.** No new Philips US-PAP re-entry announcement in 48h; Stifel still frames re-entry as "not near-term" and the share-loss as NOT in Street estimates. Overhang is a scenario, not an event. −0.43% below a flattening 50dMA; rate-drift pressure persists. Stop 212.62, cushion ~4.65%. Earnings 10/29 (confirmed).
+- **RSG — INTACT.** No new analyst/guidance/operating news in 48h; weakness is rate-drift, not the company. −1.72% below a falling 50dMA. Stop 202.74, cushion ~4.74%. Earnings 10/29 (confirmed).
+- **SPY floor — fine.** +1.38% above a rising 50dMA; no stop by policy; 64 sh (~51.7%) index sleeve.
+- **FACTOR-CONCENTRATION WATCH (per 10/2 lesson):** RMD + RSG remain the correlated rate-sensitive/defensive pair (thinnest cushions ~4.65% / ~4.74%). The dovish FOMC repricing is front-end; the 10Y at ~5.3% still pressures them. Do NOT re-stack this factor — the open slot is reserved for a different-factor participation name.
+
+## Buy candidates (signals matched + Conviction) — re-scored; NO TRADES (market closed)
+- **MSFT (Microsoft) — #1, ARMED (Lauren's plan), gate clears (~73 B+) but ENTRY STILL DOESN'T.** Live (Alpaca, Mon close): **$525.01, +7.01% above a rising 50dMA ($490.60).** It eased from the +8.9% open-gap but is **still ABOVE the plan's $515-522 clean band and AT/OVER the ≥$525 "block/chase" line** — the plan's explicit don't-work condition. Signals: #3 AI/cloud secular, #4 upgrade cluster (Melius Hold→Buy $665 10/5 + Wells Fargo Q4 top-pick $725 + Piper $610), #5 quality-growth rotation = ~4. Moderate beta → B+ band sizing (~10-12%), NOT high-beta-semi, NOT P/E-70 software. Earnings ~Oct 28 (no blackout yet). **Verdict: do NOT chase ≥$525. Buy ONLY on a genuine pullback into $515-522 per Lauren's armed plan (LIMIT $518, fund via 11-SPY trim FIRST, −7% hard GTC stop at fill). Caution: high-multiple name, and while the Oct hike odds fell, the 10Y is still ~5.3%.**
+- **GEV (GE Vernova) — the only fresh NEAR-TRIGGER; ~66 (B), below the 70 gate.** Live (Alpaca): **$989.10, +2.56% above a rising 50dMA ($964.41)** — non-extended, clean on the 50dMA. Rate-resilient industrial (AI/data-center power + electrification secular), Evercore Buy $1350 / Bernstein OP $1298, earnings 10/28. **BUT still reported below its 200dMA = not a fully confirmed uptrend, and the score is ~66 (<70).** Watchlist only; arm for a 200dMA reclaim + a 3rd fresh signal that lifts it over 70. Scout's top pick for the open slot, but it does NOT clear the gate today.
+- **TSM — BENCH, ~68 (B).** Live: **$486.01, +13.94% above 50dMA = EXTENDED**, and earnings 10/15 (inside the blackout window). Don't chase; re-arm on a pullback after the print.
+- **CVX — BENCH, ~66 (B).** Live: $206.45, +1.8% above 50dMA but the 50dMA sits below the 100/200dMA (choppy, not a clean uptrend); a 2nd energy name deepening the tilt we're diversifying from. Goldman cut PT $240→$228 (9/22). Pass.
+- **GE Aerospace — OUT.** Live: $306.16, **−10.15% below a FALLING 50dMA ($340.75) = knife.** Wells cut PT $390→$380. Needs a reclaim; earnings ~10/20.
+- **Fresh screen came up empty.** Breadth is weak (~25% of S&P 500 above its 50dMA), so clean non-extended rate-resilient setups are scarce. XOM failed (Wells Fargo Equal Weight downgrade). Nothing new cleared 2+ verified signals this run.
+
+## Sell candidates
+- NONE. All 4 conviction theses intact/watch; no stop breached; no +5% name needing a hard→trailing conversion (NVDA +1.78% best conviction name, below the +5% trigger; SPY +1.39% has no stop by policy). No thesis break, no fundamentals deterioration. Stops do the overnight work.
+
+## Handoff → market-open (Tue 10/6 ~08:30 CT / 09:30 ET)
+- **STANDING (restate until cleared): check inbox for Lauren's structural A/B reply.** Default A (participation tilt) stands; no guardrail changed.
+- **STANDING ACTION — MSFT armed buy (Lauren's plan).** Re-verify LIVE at the open. **Activate ONLY on a genuine pullback into $515-522** via LIMIT $518 (never market, never raise toward $525), **funding by selling 11 SPY FIRST** (64→53) so whole-book cash stays ≥~$10k, then a **−7% hard GTC stop at the actual fill**. **Do NOT chase ≥$525** (that is the plan's own cancel line — MSFT closed $525.01 Mon). Do NOT carry an unfilled buy into earnings week (~Oct 28). If still extended at the open, leave the slot open and re-arm.
+- **GEV = watchlist near-trigger**, not a buy — needs a 200dMA reclaim + a 3rd signal to clear 70. Re-check at the open; do not force it.
+- **Risk watch:** RMD (~4.65%) / RSG (~4.74%) thinnest cushions, rate-sensitive — do NOT pre-empt stops, no average-down. The dovish FOMC repricing is front-end; the 10Y ~5.3% still pressures them. FOMC minutes Wed 2pm is the week's swing factor. NVDA overbought (don't add). BP strongest (OPEC+). +5% conversion watch: none pending — if BP/NVDA tags +5%, cancel the hard stop and place a 10% trailing GTC.
+- **Macro:** shutdown Day 6 (data-delay risk Thu); no binary rate print this week → SNPS entry-timing near-veto NOT triggered. Watch the 10Y toward 5.34%+.
+- **Astra:** no proposals — recheck the file at the open.
+
+*Paper only. This entry placed no Alpaca order. All numbers verified live against Alpaca this run; 50dMAs computed from live Alpaca daily bars.*
+
 # 2026-10-05 ~15:05 CT (16:05 ET) — MARKET-CLOSE (Mon) · NO TRADES · day +0.80% vs SPY +0.67% → alpha +0.13 pt (BEAT the tape) · MSFT plan NOT worked (closed $525.18, above band)
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, timestamp 16:13 ET; bell was 16:00 ET; next_open Tue 10/6 09:30 ET). **Inbox:** one Pending — Lauren's MSFT pullback plan (handled below). **Astra:** `memory/astra-proposals.md` still empty. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
