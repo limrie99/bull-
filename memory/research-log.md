@@ -10707,3 +10707,34 @@ Pulled clock/account/positions/orders + SPY daily bars + portfolio/history from 
 **New buys:** none. No high-conviction breaking catalyst; midday-buy bar not met. Weekly buys 0/3; sleeve 4/5.
 **Inbox:** no Pending. **Astra:** no proposals.
 **Decision:** steady, no changes. Next: market-close 15:00 CT (owns mandatory daily scorecard + Telegram).
+
+---
+## 2026-10-07 ~12:15 CT · MIDDAY routine (Wed)
+**Market:** CONFIRMED OPEN (/v2/clock is_open=true, 13:10 ET; next_close 16:00 ET).
+**Account (live):** equity **$96,564.80**; cash **$10,545.79 (~10.92%)**; last_equity (Tue 10/6 close) $96,412.91 → intraday **+$151.89 (+0.16%)**. Green; daily loss cap N/A.
+**SPY (IEX):** Tue 10/6 close 779.10; latest 777.19 → **−0.245% intraday**. alpha_day ≈ **+0.40pt** (book green vs a down tape). Week (from Fri 10/2 close eq ~$95,311 / SPY 769.65): book +1.32% vs SPY +0.98% → **alpha_week ≈ +0.34pt** (ahead WTD).
+**Positions (live marks):**
+| Sym | Qty | Avg | Cur | P/L% | Stop | Cushion | Size |
+|---|---|---|---|---|---|---|---|
+| BP | 214 | 44.4998 | 44.59 | +0.20% | 41.38 | ~7.2% | 9.88% |
+| NVDA | 32 | 236.8469 | 237.21 | +0.15% | 220.27 | ~7.1% | 7.86% |
+| RMD | 42 | 228.6274 | 227.96 | −0.29% | 212.62 | ~6.7% | 9.91% |
+| RSG | 44 | 218.00 | 217.50 | −0.23% | 202.74 | ~6.8% | 9.91% |
+| SPY | 64 | 766.275 | 777.22 | +1.43% | none | n/a | 51.5% |
+
+Total unrealized ≈ **+$681**.
+**Risk checks (priority order):** (a) none −7% or worse (worst RMD −0.29%) → no 4-hr news check, no forced sell; (b) none +5%+ → no hard→trailing conversion (best conviction name BP +0.20%; SPY +1.43% has no stop by design); (c) book +0.16% green → no loss-cap buy block; (d) no sell signals — all 4 conviction theses intact/watch.
+**Notable:** the rate-sensitive pair RECOVERED vs the open — RMD −2.39%→−0.29% (cushion ~4.7%→~6.7%), RSG −0.49%→−0.23% (cushion ~6.6%→~6.8%). 10Y pressure eased intraday; FOMC minutes (Sept) land 2pm ET — not a binary decision, watch into the close.
+**Open orders:** exactly **4** sell-stop GTC — BP `7c880eaa` 41.38, NVDA `7d025ecb` 220.27, RMD `91671fa4` 212.62, RSG `93c80d32` 202.74. SPY unencumbered by design. All IDs unchanged from market-open. No orphan/dup.
+**MSFT armed plan:** live MSFT $527.90 (bid 527.84/ask 528.08) — above the $515–522 band and past the ≥$525 don't-chase line → plan's cancel/don't-work condition met, **NO order placed, SPY NOT trimmed**. Plan stays armed for a genuine pullback into $515–522 (LIMIT $518, sell 11 SPY first, −7% hard GTC stop at fill; no chase ≥$525; no unfilled carry into earnings ~Oct 28).
+**New buys:** none. No high-conviction breaking catalyst at midday; cash at the ~$10k floor (any new conviction name needs an SPY trim first). Weekly buys 0/3; sleeve 4/5 (1 slot open). Midday-buy bar not met.
+**Inbox:** no Pending. **Astra:** no proposals.
+**Voices:** **Research** — no thesis changed intraday; red names (RMD/RSG) are rate drift, not company news, and both recovered. Nothing clears 2 signals + ≥70 on a clean entry. **Risk** — 4 stops resting GTC, IDs unchanged; loss cap never near (+0.16%); no +5% conversion; cash ~10.9% on target. **Trader** — no order warranted; none placed. Correct action = verify + hold + report (no Telegram — quiet midday per CLAUDE.md push policy).
+**Decision:** steady, no changes.
+**Handoff → market-close (Wed 10/7 ~15:00 CT):**
+- **Mandatory daily scorecard** (dashboard + Telegram) — the close's non-negotiable, trade or not. Lead with up/down $ and %, vs SPY, ahead-or-behind. Book is ahead both intraday (~+0.40pt) and WTD (~+0.34pt) as of midday.
+- Verify still exactly 4 stops. Watch RMD/RSG into the bell around the 2pm FOMC minutes / any 10Y move back up; both recovered midday but stay the rate-sensitive pair. Do NOT average down, do NOT pre-empt stops.
+- **+5% conversion watch:** none pending — if BP or NVDA tags +5%, cancel the hard stop and place a 10% trailing (GTC).
+- **MSFT — STILL ARMED**, thesis intact (~4 signals), $527.90 above band. Activate ONLY on a fill inside $515–522 (LIMIT $518, sell 11 SPY first, −7% hard GTC at fill). Do not chase ≥$525; do not carry unfilled into earnings week (~Oct 28).
+- **STANDING: structural A/B still escalated to Lauren** (A = 5-slot participation-tilt sleeve; B = shrink to 2–3 names + route to SPY floor). Default (no reply) = continue A. Restate until it clears.
+- **Unverified:** none — account/positions/open-orders/clock/SPY bars all pulled live this run.

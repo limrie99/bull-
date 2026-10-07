@@ -1,16 +1,16 @@
 {
-  "last_update": "2026-10-07 08:48 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-10-07 12:15 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 96305.03,
+  "equity": 96564.8,
   "cash": 10545.79,
-  "day_pl": -107.88,
-  "day_pl_pct": -0.11,
-  "spy_day_pct": -0.58,
-  "alpha_day_pct": 0.47,
-  "week_pl_pct": 1.21,
-  "spy_week_pct": 1.23,
-  "alpha_week_pct": -0.02,
+  "day_pl": 151.89,
+  "day_pl_pct": 0.16,
+  "spy_day_pct": -0.245,
+  "alpha_day_pct": 0.4,
+  "week_pl_pct": 1.32,
+  "spy_week_pct": 0.98,
+  "alpha_week_pct": 0.34,
   "week_grade": null,
   "cum_alpha_pct": -6.3,
   "positions": [
@@ -18,40 +18,40 @@
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 45.02,
-      "pl_pct": 1.17,
+      "current": 44.59,
+      "pl_pct": 0.2,
       "stop": 41.38
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.8469,
-      "current": 238.08,
-      "pl_pct": 0.52,
+      "current": 237.21,
+      "pl_pct": 0.15,
       "stop": 220.27
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 223.17,
-      "pl_pct": -2.39,
+      "current": 227.96,
+      "pl_pct": -0.29,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 216.94,
-      "pl_pct": -0.49,
+      "current": 217.5,
+      "pl_pct": -0.23,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 64,
       "avg_cost": 766.275,
-      "current": 774.6,
-      "pl_pct": 1.09,
+      "current": 777.22,
+      "pl_pct": 1.43,
       "stop": null
     }
   ],
@@ -129,52 +129,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-07 12:15 CT",
+      "routine": "midday",
+      "headline": "Midday: steady — no changes, and we're holding up a touch better than the market",
+      "body": "Noon risk check, no trades. We're up ~$152 today (+0.16%) while the S&P 500 is down ~0.24%, so we're ahead by ~0.4 points on the day (and ~0.3 points ahead this week). The nice detail: our two rate-sensitive names, ResMed and Republic Services, were our softest spots at the open but recovered as bond yields eased — ResMed went from -2.4% this morning to roughly flat, widening its safety cushion. Microsoft is ~$527.90, still above your $515-522 buy band and past the $525 don't-chase line, so per your plan no order and we didn't touch the S&P floor — the plan stays armed. 4 stops resting GTC, SPY unencumbered. One event: Fed meeting notes at 1:00pm CT. Equity $96,565; cash ~$10,546 (~11%); 0 of 3 weekly buys used. Full scorecard at the 3:00pm CT close."
+    },
+    {
       "ts": "2026-10-07 08:48 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 Microsoft still too expensive to buy; all holdings healthy",
-      "body": "Market opened; I re-checked our one ready plan live \u2014 buy Microsoft only on a dip into $515-522. It opened at $526.53, above that band and past your $525 don't-chase line, so per your rules I placed no order and didn't touch the S&P floor. No other name was both high-quality AND calmly priced, so the open slot stays open. Broad market opened ~0.6% red while we're only ~0.1% down \u2014 our defensives and BP are cushioning us. No sell signals, no stop breaches, no +5% conversions; 4 stops resting GTC, SPY unencumbered. One event today: Fed meeting notes at 1:00pm CT. Equity $96,305; cash ~$10,546 (~11%); 0 of 3 weekly buys used; ResMed thinnest cushion (~4.7%)."
+      "headline": "Open: no trades — Microsoft still too expensive to buy; all holdings healthy",
+      "body": "Market opened; I re-checked our one ready plan live — buy Microsoft only on a dip into $515-522. It opened at $526.53, above that band and past your $525 don't-chase line, so per your rules I placed no order and didn't touch the S&P floor. No other name was both high-quality AND calmly priced, so the open slot stays open. Broad market opened ~0.6% red while we're only ~0.1% down — our defensives and BP are cushioning us. No sell signals, no stop breaches, no +5% conversions; 4 stops resting GTC, SPY unencumbered. One event today: Fed meeting notes at 1:00pm CT. Equity $96,305; cash ~$10,546 (~11%); 0 of 3 weekly buys used; ResMed thinnest cushion (~4.7%)."
     },
     {
       "ts": "2026-10-07 06:20 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan \u00b7 no trades \u00b7 everything we own is healthy, nothing new is cheap enough to buy yet",
-      "body": "Research-only morning (market closed). Backdrop is a quiet, slightly cautious drift: futures ~flat, calm VIX ~15, but the 10-year yield still ~5.3% (a multi-decade high) keeps ResMed/Republic pressured \u2014 nothing wrong at either company, just the rate backdrop. Oil +1% is a tailwind for BP (also got a fresh price-target raise to $56); BP, Nvidia and the S&P floor are green. Microsoft ~$530 is still above our $515-522 buy band and past the $525 don't-chase line, so per your plan I wait. No other name is both high-quality AND on a calm entry today, so I'm keeping our one open slot open. One event today: Fed meeting notes at 1:00 CT. Equity ~$96,256; cash ~11%; 0 of 3 weekly buys used; ResMed is the thinnest cushion (~3.9%)."
+      "headline": "Pre-market plan · no trades · everything we own is healthy, nothing new is cheap enough to buy yet",
+      "body": "Research-only morning (market closed). Backdrop is a quiet, slightly cautious drift: futures ~flat, calm VIX ~15, but the 10-year yield still ~5.3% (a multi-decade high) keeps ResMed/Republic pressured — nothing wrong at either company, just the rate backdrop. Oil +1% is a tailwind for BP (also got a fresh price-target raise to $56); BP, Nvidia and the S&P floor are green. Microsoft ~$530 is still above our $515-522 buy band and past the $525 don't-chase line, so per your plan I wait. No other name is both high-quality AND on a calm entry today, so I'm keeping our one open slot open. One event today: Fed meeting notes at 1:00 CT. Equity ~$96,256; cash ~11%; 0 of 3 weekly buys used; ResMed is the thinnest cushion (~3.9%)."
     },
     {
       "ts": "2026-10-06 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $96,444 \u00b7 day +0.41% \u00b7 SPY +0.53% \u00b7 alpha \u22120.12% \u2014 green day, market edged us by a hair",
-      "body": "No trades. We made +$391 (+0.41%); SPY +0.53%, so we trailed by ~0.1pt. BP, Nvidia and the index sleeve were green; our two rate-sensitive defensives (ResMed, Republic) drifted lower on the high long-term rate \u2014 business is fine, it's the rate backdrop. Week-to-date we're even with the market (+1.21% vs +1.23%). ResMed is the thinnest cushion (~3.7%); watching Fed minutes Wed."
+      "headline": "Close: equity $96,444 · day +0.41% · SPY +0.53% · alpha −0.12% — green day, market edged us by a hair",
+      "body": "No trades. We made +$391 (+0.41%); SPY +0.53%, so we trailed by ~0.1pt. BP, Nvidia and the index sleeve were green; our two rate-sensitive defensives (ResMed, Republic) drifted lower on the high long-term rate — business is fine, it's the rate backdrop. Week-to-date we're even with the market (+1.21% vs +1.23%). ResMed is the thinnest cushion (~3.7%); watching Fed minutes Wed."
     },
     {
       "ts": "2026-10-06 12:12 CT",
       "routine": "midday",
-      "headline": "Midday: steady and green \u2014 no changes, and Microsoft is still too hot to buy",
-      "body": "Noon risk check, no trades. We're up ~$532 today (+0.55%) and the S&P 500 is +0.64%, so we're about even with the market. BP (+1.1%) and Nvidia (+1.4%) both flipped green, leaving just ResMed (-2.8%) and Republic Services (-1.2%) in the red \u2014 both still comfortably above their safety-sells (~4.3% and ~5.9% of room). Microsoft is ~$532, above our $515-522 buy band and past the $525 don't-chase line, so per your plan I did nothing. 4 stops resting GTC, SPY unencumbered. Next: the 3:00 CT close with your scorecard. Cash ~$10,546 (~11%); 0 of 3 weekly buys used; slot still reserved for Microsoft."
+      "headline": "Midday: steady and green — no changes, and Microsoft is still too hot to buy",
+      "body": "Noon risk check, no trades. We're up ~$532 today (+0.55%) and the S&P 500 is +0.64%, so we're about even with the market. BP (+1.1%) and Nvidia (+1.4%) both flipped green, leaving just ResMed (-2.8%) and Republic Services (-1.2%) in the red — both still comfortably above their safety-sells (~4.3% and ~5.9% of room). Microsoft is ~$532, above our $515-522 buy band and past the $525 don't-chase line, so per your plan I did nothing. 4 stops resting GTC, SPY unencumbered. Next: the 3:00 CT close with your scorecard. Cash ~$10,546 (~11%); 0 of 3 weekly buys used; slot still reserved for Microsoft."
     },
     {
       "ts": "2026-10-06 08:48 CT",
       "routine": "market-open",
-      "headline": "Open \u00b7 no trades \u00b7 Microsoft ran away from our buy price; all holdings healthy",
-      "body": "Confirmed the market open, then re-ran our one armed plan (Microsoft) against live prices. MSFT opened ~$530.87 \u2014 above the $515-522 buy band and past our $525 don't-chase line \u2014 so no buy, by the plan's own rules. No sell signals, no stop breaches, no +5% conversions. 4 stops resting GTC, SPY unencumbered. Equity $96,328 (+0.29% intraday), cash ~11%. Waiting for a genuine MSFT dip or a fresh clean setup."
+      "headline": "Open · no trades · Microsoft ran away from our buy price; all holdings healthy",
+      "body": "Confirmed the market open, then re-ran our one armed plan (Microsoft) against live prices. MSFT opened ~$530.87 — above the $515-522 buy band and past our $525 don't-chase line — so no buy, by the plan's own rules. No sell signals, no stop breaches, no +5% conversions. 4 stops resting GTC, SPY unencumbered. Equity $96,328 (+0.29% intraday), cash ~11%. Waiting for a genuine MSFT dip or a fresh clean setup."
     },
     {
       "ts": "2026-10-06 06:20 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan \u00b7 no trades \u00b7 Fed hike odds collapsed 73%\u2192~20% (now ~80% hold)",
-      "body": "Research-only morning. Big dovish repricing is broadly positive, but the 10-year yield still ~5.3% keeps RMD/RSG pressured. Govt shutdown day 6 confirmed. MSFT still above its $515-522 buy band ($525 close) \u2014 armed but no chase. All 4 holdings healthy, stops in place. Equity ~$96,189, cash ~11%."
+      "headline": "Pre-market plan · no trades · Fed hike odds collapsed 73%→~20% (now ~80% hold)",
+      "body": "Research-only morning. Big dovish repricing is broadly positive, but the 10-year yield still ~5.3% keeps RMD/RSG pressured. Govt shutdown day 6 confirmed. MSFT still above its $515-522 buy band ($525 close) — armed but no chase. All 4 holdings healthy, stops in place. Equity ~$96,189, cash ~11%."
     },
     {
       "ts": "2026-10-05 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $96,048 \u00b7 day +0.80% \u00b7 SPY +0.67% \u00b7 alpha +0.13% \u2014 a green day, and we edged the market \ud83d\udc02",
-      "body": "Final numbers at the bell: we finished UP ~$760 (+0.80%) and the S&P 500 was +0.67%, so we came out a touch ahead of the market today. No trades. The win came mostly from our S&P 500 'market floor' fund (+1.11%): because I didn't sell any of it to buy Microsoft, we kept full market exposure on an up day \u2014 the main reason we beat the index. BP (+0.27%) and Nvidia (+0.85%) also finished green. ResMed (-2.52%) and Republic Services (-2.37%) stayed our two soft spots (rate-sensitive), but both sit safely above their automatic safety-sells. On Microsoft: your approved plan said buy ONLY on a calm dip into $515-522 and do NOT chase at $525+. Microsoft closed at $525.18 \u2014 above that line \u2014 so, exactly per your plan, I did not buy and did not trim the S&P floor. The plan stays ready for a real dip."
-    },
-    {
-      "ts": "2026-10-05 12:10 CT",
-      "routine": "midday",
-      "headline": "Midday: steady and green \u2014 no changes, and I passed on Microsoft again (still too hot to chase)",
-      "body": "Noon risk check \u2014 no trades. We're UP ~$739 today (+0.78%) and beating the S&P 500 so far (it's +0.57%). Our two weakest holds this morning, ResMed and Republic Services, both bounced back, so they're further from their safety-sells now (cushions ~4.6% and ~4.9%). I looked at Microsoft one more time: it cooled a bit but is still ~$525, ~8% above its 50-day trend line, still stretched. My rule is to buy quality on a CALM entry, not chase a pop. Its earnings are ~Oct 28, so there's no rush."
+      "headline": "Close: equity $96,048 · day +0.80% · SPY +0.67% · alpha +0.13% — a green day, and we edged the market 🐂",
+      "body": "Final numbers at the bell: we finished UP ~$760 (+0.80%) and the S&P 500 was +0.67%, so we came out a touch ahead of the market today. No trades. The win came mostly from our S&P 500 'market floor' fund (+1.11%): because I didn't sell any of it to buy Microsoft, we kept full market exposure on an up day — the main reason we beat the index. BP (+0.27%) and Nvidia (+0.85%) also finished green. ResMed (-2.52%) and Republic Services (-2.37%) stayed our two soft spots (rate-sensitive), but both sit safely above their automatic safety-sells. On Microsoft: your approved plan said buy ONLY on a calm dip into $515-522 and do NOT chase at $525+. Microsoft closed at $525.18 — above that line — so, exactly per your plan, I did not buy and did not trim the S&P floor. The plan stays ready for a real dip."
     }
   ]
 }
