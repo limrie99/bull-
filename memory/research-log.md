@@ -1,3 +1,54 @@
+# 2026-10-07 ~06:20 CT (07:20 ET) — PRE-MARKET (Wed) · NO TRADES (market closed) · Book healthy, all theses intact/WATCH; open slot stays OPEN — no clean gate-clearer; 2pm FOMC minutes the intraday watch
+
+**Routine:** pre-market research. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, timestamp 07:10 ET; next_open 2026-10-07 09:30 ET). **Inbox:** no Pending (structural A/B escalation still unanswered → default A stands). **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start. **4-agent fan-out ran** (macro / earnings / positions / opportunity-scout via Perplexity sonar-pro).
+
+## Live pre-market verification (this run)
+- Account: equity **$96,256.33** (pre-open marks), cash **$10,545.79 (~10.96%)**, last_equity (Tue 10/6 close) $96,412.91, buying_power $282,172.67, status ACTIVE. (Pre-market equity reflects stale/pre-open quotes — not a session P/L.)
+- Positions (5, pre-open marks): BP 214 @ 45.08 (+1.30%, uPL +124.16), NVDA 32 @ 237.91 (+0.45%, +33.87), RMD 42 @ 221.23 (−3.24%, −310.69), RSG 44 @ 214.74 (−1.49%, −143.44), SPY 64 @ 776.70 (+1.36%, +667.20). Total uPL ≈ **+$371**.
+- Open orders: **exactly 4** standalone GTC hard stops resting (BP 41.38 `7c880eaa`, NVDA 220.27 `7d025ecb`, RMD 212.62 `91671fa4`, RSG 202.74 `93c80d32`); SPY no stop by policy. IDs unchanged from Tue close. VERIFIED.
+- **Pre-open cushions:** RMD ~3.89% (221.23→212.62, thinnest), RSG ~5.59%, BP ~8.15%, NVDA ~8.02%. RMD/RSG still the rate-sensitive pair.
+- Conviction sleeve **4/5 — 1 SLOT OPEN.** Weekly conviction buys **0/3** (week 10/5–10/9). SPY floor exempt.
+
+## Market context (macro digest)
+- **Regime: mixed-to-cautious / mild risk-off drift** (not panic). ES ~7,874 (~flat), NQ −0.06%, Dow −0.15%; VIX 15.27 (calm). Overnight: Nikkei −0.64%, DAX futs −0.75%, FTSE futs −0.34% — global tape slightly red.
+- **10Y ~5.27–5.31%** (pinned near multi-decade high; macro agent saw +2–3bps to 5.31%, position agent saw a small Oct-7 dip to ~5.269% off the recent run-up — call it **firm near highs, no real relief**). 2Y ~4.82%. The long end is still THE headwind for RMD/RSG.
+- **Oil (BP tailwind): WTI ~$90.30 (+1.0%), Brent ~$101.5 (+0.9%)** on renewed Iran/Strait-of-Hormuz shipping-attack headlines — supportive for BP.
+- **Catalysts today:** **FOMC minutes (Sept meeting) 2pm ET** — expected cautious/data-dependent (the only intraday binary; a hawkish surprise would pressure RMD/RSG). Oct 27–28 FOMC priced **~78% HOLD** (~20–22% hike, no cut). **Govt shutdown ~Day 7** — Thu jobless claims AT RISK of delay. **No CPI** this week (Sept CPI = Oct 14); **no FOMC decision** this week → **SNPS entry-timing near-veto NOT triggered** (FOMC minutes ≠ a binary decision print).
+
+## Portfolio watch (position sweep — no thesis broken or at risk)
+- **BP — INTACT (strengthening).** Fresh Oct-5 Mizuho maintained Buy, raised PT to $56 (adds to the WF/TD Cowen/HSBC/JPM cluster). Oil bid on Hormuz. Strongest name; earn ~10/27–30. No action.
+- **NVDA — INTACT.** No new rating/guidance/litigation in 24–48h (only a 13F holder trim — not a corporate event). Stays extended above 50dMA → **do NOT add.** Earn ~mid-Nov.
+- **RMD — WATCH (no new damage).** Zero company-specific news in 48h; the −3.24% fade is pure rate/discount-rate drift, not fundamentals. **Thinnest cushion (~3.89%)** vs the $212.62 stop. Small Oct-7 yield dip helps at the margin; live threat is a continued 10Y grind + a hawkish 2pm minutes. RBC $262 / KeyBanc $267 intact. Earn 10/29 (after close). Respect the stop; no average-down, no pre-empt.
+- **RSG — INTACT.** No material news; weakness is rate-drift on a defensive. Goldman Buy $246. Cushion ~5.59%. Earn 10/29. No action.
+- **SPY floor — fine.** +1.36% unrealized; index participation doing its job; no stop by policy.
+- **FACTOR-CONCENTRATION WATCH (10/2 lesson):** RMD + RSG remain the correlated rate-sensitive pair; the open slot is reserved for a **different-factor participation name**, NOT more long-duration rate exposure.
+
+## Buy candidates (signals matched + conviction) — NO clean gate-clearer today
+- **MSFT — ~$529.63. ARMED (Lauren's plan) but entry STILL fails.** 50dMA ~$515.13 (+2.8%), 200dMA ~$503 (+5.3%), 50>200 clean uptrend; but price is **above the $515–522 band AND past the ≥$525 don't-chase line** = the plan's own cancel/don't-work condition. Signals #3 (AI/Azure) + #4 (fresh upgrade cluster — Scotiabank→$615 10/5, BNP $604 10/2) + #6 (uptrend) = ~4; **Conviction ~73 (B+)**. Insider = CFO sold $20.8M (9/14), no insider buying. Thesis intact/strengthening — which ironically makes a pullback less likely. **Buy ONLY on a genuine dip into $515–522 (LIMIT $518, fund via 11-SPY trim FIRST, −7% hard GTC stop at fill). Do NOT chase ≥$525. Do NOT carry an unfilled buy into earnings week (~Oct 28).** Earn ~10/28 (21 days out → NOT in blackout).
+- **GEV (GE Vernova) — ~66 (B), NOT actionable.** Below 50dMA, last earnings was a MISS (7/22), Jefferies trimmed PT; no fresh 3rd signal in 2–3 days. Appears above 200dMA (partial positive). Needs a **50dMA reclaim + a genuine 3rd signal** to clear 70. Earn 10/28.
+- **MU (Micron) — fresh, ~72–75 fundamentals BUT fails clean-entry.** +8.7% above a rising 50dMA, at/near a fresh 52-wk high (+456%/yr), high-beta semi. Signals #1 (beat+raise 9/30), #3 (AI memory), #4 (Mizuho →$1,400 10/1), #6. **Bench — only buy on a reset**, and high-beta ≤10% sizing would apply.
+- **TSM — ~68 (B), BENCHED: EARNINGS BLACKOUT.** Reports **Oct 15 (8 days out, inside 14-day window)** + already extended (+11% vs 50dMA). No fresh buy.
+- **CVX — ~66 (B), wrong factor.** Clean major but a 2nd energy name (we already hold BP) — does not diversify the open slot. Earn 10/30.
+- **ORCL — ~60, no clean uptrend** (flat 50dMA, stale 9/10 beat). Off.
+- **VERDICT: NO candidate clears 2+ signals AND Conviction ≥70 AND a clean, non-extended entry today.** The blocker is **entry discipline, not the macro-print veto** (no binary print this week). Hold the slot OPEN — do not force a buy to fill it (cold-start rule: bootstrapping a thesis ≠ forcing a trade; 4/5 invested + 51% SPY floor is NOT a cash-drag state).
+
+## Sell candidates — NONE
+- No position at/under −7% un-stopped (worst RMD −3.24%, cushion ~3.89%). No +5% hard→trailing conversion pending (best conviction name BP +1.30%, well under +5%; SPY has no stop). No thesis break, no fundamentals deterioration, no better-opportunity swap (nothing clears the gate). All 4 stops resting, IDs unchanged. No sells.
+
+## Voices
+- **Research:** No thesis changed; BP strengthened (Mizuho PT $56). No fresh name clears 2 signals + ≥70 on a clean entry — MSFT (above don't-chase line) and MU (extended at highs) both have the signals but fail the entry test. Bench re-ranked; Astra none.
+- **Risk:** 4 GTC stops resting, IDs unchanged; RMD thinnest (~3.89%) — do NOT pre-empt, no average-down. No loss-cap concern (market closed). No +5% conversion pending. Cash ~10.96% on target. Factor-concentration guard holds: open slot reserved for a different-factor participation name.
+- **Trader:** Market closed — no order to place regardless. At the open, the only conditional action is the MSFT armed LIMIT, which activates ONLY on a dip into $515–522 (fund via 11-SPY trim first, −7% hard GTC stop). No other buy warranted.
+
+## Handoff → market-open (Wed 10/7 ~08:30 CT)
+- **Check inbox** for Lauren's A/B structural reply (default A — participation tilt — until answered). **STANDING.**
+- **MSFT armed plan (Lauren-approved) — re-verify live at the open.** Buy 16–20 sh ONLY on a genuine dip INTO $515–522 via LIMIT $518, funded by selling **11 SPY FIRST** (cash stays ≥~$10k), with a **−7% hard GTC stop at the actual fill**. **Do NOT chase ≥$525; do NOT carry an unfilled buy into earnings week (~Oct 28).** At ~$529.63 pre-open it is above the band → not actionable unless it pulls back. **Carry this standing action verbatim until executed or cancelled.**
+- **No other buy** unless a name newly clears 2+ signals AND ≥70 on a clean, non-extended entry. GEV needs a 50dMA reclaim + 3rd signal; MU needs a reset; TSM in earnings blackout (10/15); CVX wrong factor. Open slot stays OPEN otherwise.
+- **Risk watch:** RMD thinnest (~3.89%), RSG (~5.59%) — **2pm FOMC minutes** + any 10Y push toward 5.34%+ could pressure them. Do NOT pre-empt stops, no average-down. NVDA extended (don't add). **+5% conversion:** none pending (watch BP/NVDA). Verify still **exactly 4 stops**, IDs unchanged. Astra recheck.
+- **Macro:** mild risk-off drift; 10Y firm near highs is the active headwind; oil bid (BP positive); shutdown Day 7; FOMC minutes 2pm the only intraday binary; no CPI/NFP/FOMC-decision this week.
+
+---
+
 # 2026-10-06 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Tue) · NO TRADES · Green day (+$391, +0.41%) but trailed SPY by ~0.13pt (RMD/RSG faded on rate drift); mandatory daily scorecard pushed
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, timestamp 16:13 ET; next_open 2026-10-07 09:30 ET). **Inbox:** no Pending (structural A/B escalation still unanswered → default A stands). **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. Env: all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start.

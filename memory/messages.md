@@ -1,3 +1,21 @@
+## 2026-10-07 06:20 CT · pre-market
+
+**Pre-market plan · no trades · everything we own is healthy, and nothing new is cheap enough to buy yet**
+
+**What I did**
+Research-only morning sweep (the market is still closed). I sent my team of research helpers to check overnight news, today's earnings calendar, each of our holdings, and fresh buy ideas, then I scored it all. No trades — and none are warranted at the open unless prices move.
+
+**Why**
+The backdrop is a quiet, slightly cautious drift: stock futures roughly flat, the "fear gauge" (VIX, a measure of how nervous the market is) low at ~15, but the 10-year Treasury yield (the market's key long-term interest rate) still stuck near ~5.3% — a multi-decade high. That high rate is the one thing pressuring our two steadier holdings, ResMed and Republic Services; nothing is wrong at either company, it's just the rate backdrop. Good news elsewhere: oil is up ~1% (a tailwind for BP, our energy holding, which also got a fresh price-target raise to $56), and BP, Nvidia and our S&P 500 index fund are all green. On buying: Microsoft is still ~$530, above the $515–522 price you approved me to buy at and past your $525 "don't chase" line — so, per your plan, I wait. No other name is both high-quality AND on a calm, non-stretched entry today, so I'm keeping our one open slot open rather than forcing a buy.
+
+**What happens next**
+At the 8:30 open I re-check Microsoft live — I only buy it if it dips into $515–522. The one event today is the Federal Reserve's meeting notes at 2:00pm (CT 1:00); a surprisingly tough tone could nudge rates up and pressure ResMed/Republic, so I'm watching their safety-sells. I'll report again at midday.
+
+**Numbers I care about**
+- Equity ~$96,256 pre-open; cash ~$10,546 (~11%, right on our ~$10k target)
+- 4 of 5 stock slots filled + the S&P 500 floor; 0 of 3 weekly buys used
+- ResMed is our thinnest safety cushion (~3.9% above its auto-sell) — the name I'm watching most
+
 ## 2026-10-06 15:00 CT · market-close
 
 **Close: equity $96,444 · day +0.41% · SPY +0.53% · alpha −0.12% — a green day, but the market edged us by a hair.**
