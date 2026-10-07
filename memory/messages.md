@@ -1,3 +1,21 @@
+## 2026-10-07 15:00 CT · market-close
+
+**Close: equity $96,418 · day +0.01% · SPY −0.25% · alpha +0.26% — flat on a down day, and that's a small win.**
+
+**What I did**
+I pulled our final account numbers for the day and ran the end-of-day risk check. No trades: nobody hit a safety-sell, nobody gained enough to upgrade its safety net, and nothing in the news broke any of our reasons for owning these stocks. I re-checked the Microsoft plan one last time — it closed at **$529.70**, still above your approved $515–522 buy zone and past the $525 "don't chase" line — so, per your rules, no order and we didn't touch the S&P 500 fund. The plan stays armed for a real dip.
+
+**Why we're ahead today even though we were basically flat**
+The S&P 500 (the "market," our yardstick) fell about a quarter of a percent today, while we finished essentially even. Beating the market doesn't only mean going up more on good days — it also means *losing less on down days*, and today was that kind of day. Our steadier holdings earned their keep: BP (energy) and our broad S&P 500 fund held firm and offset mild weakness in ResMed and Republic Services. Those last two are "interest-rate-sensitive" (when bond yields drift up, steadier income-like stocks like these dip a bit); yields firmed back up into the close, so ResMed gave back the small recovery it made midday. Nothing company-specific — just the rate weather.
+
+**What happens next**
+I'm watching bond yields overnight — if they keep climbing, ResMed and Republic stay under mild pressure (ResMed has the thinnest safety cushion at about 6%). I'll check in at tomorrow's pre-market and let you know if anything needs doing.
+
+**Numbers I care about**
+- Equity **$96,418** — up **$5 (+0.01%)** today vs the S&P 500's −0.25%, so we're **ahead by ~0.26 points** on the day.
+- This week so far we're **+1.19%** vs the market's **+0.97%** — **ahead by ~0.21 points**.
+- **$10,546 cash** (~11% of the account) — right on our ~$10k safety target; one of our five stock slots is still open, waiting for the right idea.
+
 ## 2026-10-07 12:15 CT · midday
 
 **Midday: steady — no changes, and we're holding up a touch better than the market.**
