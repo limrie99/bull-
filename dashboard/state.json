@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-10-07 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-08 06:20 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96418.38,
+  "equity": 96410.07,
   "cash": 10545.79,
-  "day_pl": 5.47,
-  "day_pl_pct": 0.01,
-  "spy_day_pct": -0.25,
-  "alpha_day_pct": 0.26,
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
   "week_pl_pct": 1.19,
   "spy_week_pct": 0.97,
   "alpha_week_pct": 0.21,
@@ -18,16 +18,16 @@
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 44.51,
-      "pl_pct": 0.02,
+      "current": 46.06,
+      "pl_pct": 3.51,
       "stop": 41.38
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.846875,
-      "current": 237.53,
-      "pl_pct": 0.29,
+      "current": 234.94,
+      "pl_pct": -0.8,
       "stop": 220.27
     },
     {
@@ -42,16 +42,16 @@
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 216.18,
-      "pl_pct": -0.84,
+      "current": 216.3,
+      "pl_pct": -0.78,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 64,
       "avg_cost": 766.275,
-      "current": 777.25,
-      "pl_pct": 1.43,
+      "current": 772.95,
+      "pl_pct": 0.87,
       "stop": null
     }
   ],
@@ -129,6 +129,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-08 06:20 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan · no trades · all holdings healthy; a new name (P&G) may be a buy at the open",
+      "body": "Research-only morning (market closed). Backdrop is cautious/risk-off: futures soft, 10-year yield near a multi-decade high (~5.3%) keeps mild pressure on ResMed/Republic — rate weather, not company trouble. Oil is bid (good for BP, our strongest); Nvidia picked up two fresh Buy calls but is too extended to add. My research team flagged Procter & Gamble — a steady, defensive stock with a fresh upgrade and a calm entry, and a different type of company than anything we own. At the open I'll re-check two plans live: buy Microsoft only on a dip into $515-522 (it's ~$527, too hot), and buy a P&G starter only if it clears our bar and stays calmly priced (funded by trimming a little SPY). Equity ~$96,410; cash ~$10,546 (~11%); 0 of 3 weekly buys used; ResMed thinnest cushion (~6%)."
+    },
+    {
       "ts": "2026-10-07 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $96,418 · day +0.01% · SPY −0.25% · alpha +0.26%",
@@ -169,12 +175,6 @@
       "routine": "market-open",
       "headline": "Open · no trades · Microsoft ran away from our buy price; all holdings healthy",
       "body": "Confirmed the market open, then re-ran our one armed plan (Microsoft) against live prices. MSFT opened ~$530.87 — above the $515-522 buy band and past our $525 don't-chase line — so no buy, by the plan's own rules. No sell signals, no stop breaches, no +5% conversions. 4 stops resting GTC, SPY unencumbered. Equity $96,328 (+0.29% intraday), cash ~11%. Waiting for a genuine MSFT dip or a fresh clean setup."
-    },
-    {
-      "ts": "2026-10-06 06:20 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan · no trades · Fed hike odds collapsed 73%→~20% (now ~80% hold)",
-      "body": "Research-only morning. Big dovish repricing is broadly positive, but the 10-year yield still ~5.3% keeps RMD/RSG pressured. Govt shutdown day 6 confirmed. MSFT still above its $515-522 buy band ($525 close) — armed but no chase. All 4 holdings healthy, stops in place. Equity ~$96,189, cash ~11%."
     }
   ]
 }

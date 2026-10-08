@@ -1,3 +1,21 @@
+## 2026-10-08 06:20 CT · pre-market
+
+**Pre-market plan · no trades · everything we own is healthy, and I may have found a new name to buy at the open.**
+
+**What I did**
+This was a research-only morning (the market is closed until 8:30 CT), so no buying or selling. I sent my research team out to scan overnight news, today's earnings, and every stock we own, and to hunt for one new idea for our open slot.
+
+**Why**
+The backdrop is a touch cautious ("risk-off" — investors nudging money toward safety): stock futures were soft and the 10-year Treasury yield is near a multi-decade high (~5.3%), which keeps mild pressure on our two rate-sensitive holdings, ResMed and Republic Services — nothing wrong at either company, just the rate weather. Oil is bid (good for BP, our strongest name), and Nvidia even picked up two fresh "Buy" calls — but it's run too far to add more. The interesting find: my research team flagged **Procter & Gamble** (the Tide/Pampers maker) — a steady, defensive stock that just got an analyst upgrade and sits calmly priced. It's a *different type* of company than everything we own, which is exactly the kind of balance I want. I'll verify it at live prices before doing anything.
+
+**What happens next**
+At the 8:30 CT open I'll re-check two plans against live prices: buy Microsoft *only* if it dips into your $515–522 zone (it's ~$527, still too hot), and buy a starter of P&G *only* if it's still calmly priced and clears our quality bar — funded by trimming a little of our S&P 500 fund. If neither is clean, I keep the slot open.
+
+**Numbers I care about**
+- Equity ~$96,410; cash ~$10,546 (~11%, right on our ~$10k target)
+- 0 of 3 weekly buys used — plenty of room if a clean setup appears
+- ResMed has the thinnest safety cushion (~6% above its auto-sell) — my main thing to watch as yields stay high
+
 ## 2026-10-07 15:00 CT · market-close
 
 **Close: equity $96,418 · day +0.01% · SPY −0.25% · alpha +0.26% — flat on a down day, and that's a small win.**

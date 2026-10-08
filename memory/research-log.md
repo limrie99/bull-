@@ -1,3 +1,54 @@
+# 2026-10-08 ~06:15 CT (pre-market, Thu) — PRE-MARKET RESEARCH · NO TRADES (market closed) · 4-agent fan-out · 1 conviction slot OPEN, held OPEN · new candidate PG added to bench
+
+**Routine:** pre-market. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-10-08 09:30 ET). **Inbox:** no Pending (structural A/B still unanswered → default A stands; MSFT armed plan under Handled carries forward). **Astra:** `memory/astra-proposals.md` still empty — nothing to fold. **Env:** all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
+
+## Live verification (pre-market indicative marks)
+- Account: **equity $96,410.07**, cash **$10,545.79 (~10.94%)**, last_equity $96,415.13, buying_power $282,603.14, status ACTIVE.
+- Positions (5, indicative pre-open quotes — noisy, cross-check at open): BP 214 @ ~46.06 (+3.51%), NVDA 32 @ ~234.94 (−0.80%), RMD 42 @ ~225.98 (−1.16%), RSG 44 @ ~216.30 (−0.78%), SPY 64 @ ~772.95 (+0.87%). Marks are indicative pre-market; SPY softer / BP firmer consistent with the risk-off, oil-bid tape.
+- Open orders: **exactly 4** standalone GTC hard stops resting (BP 41.38 `7c880eaa`, NVDA 220.27 `7d025ecb`, RMD 212.62 `91671fa4`, RSG 202.74 `93c80d32`); SPY no stop by policy. IDs unchanged. VERIFIED — matches memory, no reconciliation gap.
+- Conviction sleeve **4/5 — 1 SLOT OPEN.** Weekly conviction buys **0/3** (week 10/5–10/9). SPY floor exempt.
+
+## Market context (pre-market 2026-10-08) — from macro/earnings sub-agent fan-out
+- **Regime: RISK-OFF / cautious.** ES & NQ soft overnight (directional, exact % unverified); Asia down (Nikkei −1.4%, Hang Seng −0.6%), Europe ~flat. VIX ~15 (calm). DXY firm ~102.3. Dollar + long yields both up = classic risk-negative combo.
+- **10Y ~5.30% (touched ~5.326%, multi-year high), FIRMING.** Still THE swing factor pressuring RMD/RSG duration. No relief.
+- **Oil bid:** WTI ~$89–91, Brent ~$101 on renewed Iran/Hormuz tanker tensions (IEA reserve-release talk capped it) → BP tailwind.
+- **Govt shutdown ~Day 8** (week 5 of impasse; Senate GOP bill failed again 10/6, 13th time). SNAP/military-pay flashpoints. Adds data-interpretation noise; not a clean single driver.
+- **Today's calendar:** Initial jobless claims 8:30 ET (~200k consensus; appears on-schedule, shutdown may distort — a scheduled weekly number, **NOT a binary macro print**). Fed speakers Waller/Bowman/Musalem/Hammack; $22B 30Y auction; ECB minutes. **No NFP/CPI/FOMC decision today → SNPS entry-timing near-veto NOT triggered.** Next rate-binary = CPI 10/14. Oct 27–28 FOMC: market prices NO cut, debate hold vs ~16–22% HIKE (hawkish tilt).
+- **Earnings:** light large-cap day — PEP pre-open (not in book), nothing material to our sectors. Post-close 10/7: no sector-moving large-cap reaction. Ahead: big banks start 10/13 (WFC confirmed 10:00 ET), **TSM 10/15** (AI/semi read-through for NVDA). Our cluster BP/RMD/RSG/MSFT lands 10/27–29.
+
+## Portfolio watch (all 4 conviction theses INTACT — ZERO sell triggers)
+- **BP — THESIS INTACT, STRONGEST.** Oil bid on Iran/Hormuz; WFC Overweight PT $57 (9/30) + Mizuho Buy PT $56 (10/5) intact. No adverse 24h news. Pre-market firm (+3.5% indicative). Earn ~10/27–30.
+- **NVDA — THESIS INTACT (strengthening) but DO-NOT-ADD.** Fresh 10/8 analyst actions: BNP Paribas Exane → Strong Buy; Morgan Stanley reinstated semis top-pick Overweight PT $300. Still extended above 50dMA → no add (high-beta ≤10% rule + non-extended-entry rule). Earn mid-Nov.
+- **RMD — THESIS INTACT / WATCH.** No fresh 24h news; Philips US-PAP re-entry stays a valuation overhang (Stifel "not near-term"); RBC $262 / KeyBanc $267 intact. Rate-sensitive — 10Y firming overnight is the risk. Thinnest cushion (~6%). Earn 10/29.
+- **RSG — THESIS INTACT.** Oppenheimer maintained Buy, PT $255 (10/7); shares crossed above 200dMA 10/8 (technical, not fundamental). Weakness is rate-drift, not a company problem. Goldman Buy $246 intact. Earn 10/29.
+- **SPY floor — unencumbered by design** (no stop). ~51% index exposure anchors benchmark participation.
+- **FACTOR-CONCENTRATION WATCH (per 10/2 lesson):** RMD + RSG remain the correlated rate-sensitive pair. The open slot is reserved for a DIFFERENT-factor name — do not re-stack rate-sensitivity or add a 2nd energy name.
+
+## Buy candidates (signals re-verified; NO TRADES — market closed; all subject to live cross-check at open)
+- **MSFT (Microsoft) — #1, ARMED (Lauren's plan), gate clears ~73, entry DOES NOT.** ~$527 pre-market, within ~4% of record high = extended, above the $515–522 band & past the ≥$525 don't-chase line. Signals ~4 (#3 AI/cloud secular, #4 upgrade cluster incl. Melius Hold→Buy $665, #5 quality-growth rotation). Moderate beta → B+ sizing. Earn ~10/28 (no blackout yet). **Buy ONLY on a genuine pullback into $515–522 via LIMIT $518, funded by selling 11 SPY FIRST, −7% hard GTC stop at fill. Do NOT chase ≥$525; do NOT carry an unfilled buy into earnings week.**
+- **PG (Procter & Gamble) — NEW near-gate candidate, defensive/staples factor-diversifier.** Scout's top pick. ~$148–150, ~1.5–3% above a rising 50dMA (CLEAN, non-extended), ~10–12% below 52-wk high. Signals verified: **#4** Evercore → Outperform, PT $161→$166, raised fiscal-Q1 organic-sales view to ~3% (10/6); **#6** clean uptrend above 50dMA. Adds a DIFFERENT factor (consumer staples, shorter-duration/pricing-power — NOT the RMD/RSG rate-sensitive bucket). **Est. Conviction ~71 (B+)** — Fund ~80 (wide moat, stable), Thesis ~60 (modest single-upgrade catalyst; earnings 10/22 is as much risk as catalyst), Sent ~65, Risk ~85 (low-beta/defensive), Tech ~75. **Borderline — clears gate on paper but needs live confirmation.** Earn **10/22** (outside 3-day blackout now; a buy must leave room before the print). **Market-open: cross-check live price, exact 50dMA distance, and any Form-4 insider activity before buying; a 5th buy requires trimming the SPY floor first to hold cash ≥~$10k.**
+- **MU (Micron):** BENCH — extended at/near a 52-wk high (~$1,088, noisy), high-beta semi, raised-guidance unconfirmed, insiders net sellers. Fails clean-entry. Only on a reset to a rising 50dMA. Earn ~12/23.
+- **GEV (GE Vernova):** BENCH — below 50dMA, last print a MISS, no fresh 3rd signal (~66, below gate). Arm for a 50dMA reclaim + a genuine 3rd signal. Earn 10/28.
+- **TSM:** BENCH — reports 10/15 (inside 14-day blackout) + extended. Re-arm post-print.
+- **CVX:** BENCH — 2nd energy name = wrong factor for the open slot.
+- **BWA (BorgWarner):** WATCH only — 1 signal (MS → Overweight 10/6), ~6–9% above 50dMA = fails clean entry. Watch for a pullback toward ~$64.
+
+## Sell candidates
+- NONE. All 4 conviction theses intact/watch; no thesis break, guidance cut, or exec departure on any name (per position sub-agent). All 4 stops resting GTC. No position near −7% (worst RMD ~−1.2%, cushion ~6%); none at +5% needing hard→trailing conversion (best conviction NVDA ~flat/−0.8% pre-mkt). SPY floor held.
+
+## Voices (this run)
+- **Research:** proposed PG as the open-slot factor-diversifier (clears 2 signals + clean entry, ~71), kept MSFT #1 armed, benched MU/GEV/TSM/CVX/BWA on entry discipline.
+- **Risk:** no binary macro print today → entry-timing advisory not blocking; but tape is risk-off with 10Y at multi-year highs — a new rate-sensitive add would be unwise (PG is deliberately NOT that bucket). A 5th conviction buy must trim the SPY floor first to keep cash ≥~$10k. NVDA extended → no add despite strengthening thesis.
+- **Trader:** no action — market closed. Nothing to execute until the open.
+
+## Handoff → market-open (Thu 2026-10-08 ~08:30 CT)
+1. **STANDING: check inbox for Lauren's structural A/B reply.** Until answered, default A (participation-aware, factor-diversified tilt).
+2. **MSFT armed plan carries forward verbatim:** re-verify live at the open — buy 16–20 sh ONLY on a genuine pullback into $515–522 via LIMIT $518, fund via an 11-SPY trim FIRST (cash ≥~$10k), −7% hard GTC stop at the fill. Do NOT chase ≥$525. Do NOT carry an unfilled buy into earnings week (~10/28). ~$527 pre-market = still a chase, do not work unless it dips into band.
+3. **PG — NEW candidate to validate at live prices.** If PG is ~$148–152, within ~3–4% of a rising 50dMA (clean, not gapped), still carries #4 (Evercore upgrade) + #6 (uptrend) with Conviction ≥70, and nothing adverse surfaces → it is an eligible open-slot buy of a DIFFERENT (defensive/staples) factor. A buy requires: trim SPY floor first to fund (cash stays ≥~$10k), size at the B+ low end (~10%, ~$9.5–10k), −7% hard GTC stop at fill, leave room before 10/22 earnings. If price has run above the clean-entry gate or a Form-4 red flag appears, hold the slot OPEN.
+4. **Risk watch:** RMD/RSG the rate-sensitive pair; RMD thinnest cushion (~6%). 10Y firming overnight — watch the long end. Do NOT pre-empt stops, no average-down. NVDA extended (don't add) despite fresh BNP/MS upgrades. BP strongest (oil/Mizuho).
+5. **+5% conversion watch:** none pending. If BP/NVDA tags +5%, cancel the hard stop, place a 10% trailing (GTC).
+6. **No binary macro print today** (jobless claims 8:30 ET is a scheduled weekly number, shutdown may distort) → entry-timing advisory not triggered. Next rate-binary CPI 10/14.
+
 
 # 2026-10-07 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Wed) · NO TRADES · Close equity $96,418.38 · day +0.01% vs SPY −0.25% → day alpha +0.26pt · book flat on a down tape, ahead WTD
 
