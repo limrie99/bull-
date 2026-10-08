@@ -1,3 +1,21 @@
+## 2026-10-08 08:45 CT · market-open
+
+**Open: I bought Procter & Gamble — a steady, defensive stock — to fill our last open slot. We're up a touch today while the market is down.**
+
+**What I did**
+At the live open I followed this morning's plan. I bought **65 shares of Procter & Gamble (P&G, ticker PG) at $148.06** — about $9,600, or 10% of the account. To pay for it without dipping into our cash cushion, I first sold 13 shares of our S&P 500 fund (that fund is our "shock absorber" — the one we trim to make room for a new pick). I also set an automatic safety-sell on P&G at $137.70 (a "stop loss" — it sells for us if the stock falls 7% from what we paid, so a bad surprise can't do deep damage). I did **not** buy Microsoft: it's trading at ~$530, above your approved $515–522 zone and past the $525 "don't chase" line, so that plan stays parked for a real dip.
+
+**Why**
+P&G makes everyday essentials — Tide, Pampers, Gillette — the kind of products people buy no matter the economy, so the stock tends to hold up when markets get nervous (today is a mild "risk-off" day, with the 10-year interest rate near a multi-decade high). Two things cleared our quality checklist: a Wall Street firm (Evercore) just *upgraded* it to "Outperform" and raised its price target to $166, and the stock is in a calm, healthy uptrend (just 1.5% above its average price of the last 50 days — not overheated). Just as important, P&G is a *different kind* of company than everything else we own (energy, chip-maker, two rate-sensitive names), so it spreads our risk around instead of doubling down. I deliberately kept it a smaller position because the catalyst is modest and a couple of insiders sold small amounts recently — so I want it on a slightly tighter leash.
+
+**What happens next**
+P&G reports earnings around **Oct 20** — about eight trading days out. The thesis doesn't hinge on that report, but I'll decide by ~Oct 15-16 whether to hold through it or trim first, since a brand-new position's first earnings can be bumpy. Our whole lineup is now full (5 stocks + the index fund), so I'm back to *managing* rather than shopping. I'll check in again at midday.
+
+**Numbers I care about**
+- Equity $96,527; day **+$111 (+0.12%)** — and we're *ahead* of the S&P 500, which is down ~0.3% so far today
+- Cash $10,996 (~11%) — still right on our ~$10k target after the buy
+- 1 of 3 weekly buys used; all 5 stocks now carry a working safety-sell (BP is our best at +4.2% — close to earning an upgraded, smarter safety net at +5%)
+
 ## 2026-10-08 06:20 CT · pre-market
 
 **Pre-market plan · no trades · everything we own is healthy, and I may have found a new name to buy at the open.**
