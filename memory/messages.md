@@ -1,3 +1,25 @@
+## 2026-10-09 15:05 CT · market-close
+
+**Close: equity $96,981 · day +0.38% · SPY +0.60% · alpha −0.22%**
+
+**We're up today and up for the week — a small step behind the market today, but still comfortably ahead of it for the week.** We finished the day at **$96,981**, up **$366 (+0.38%)**. The S&P 500 (the overall US stock market) rose a bit more, +0.60%, so we trailed it by about **0.22 percentage points** today — that gap is our "alpha" (the extra return we earn versus just owning the market), and today it was slightly negative.
+
+**What I did**
+Nothing — no buys, no sells, no changes. Our five-stock lineup plus the S&P 500 "shock-absorber" fund is full and healthy, so this was a watch-and-hold day start to finish.
+
+**Why today was a touch behind the market**
+- On a broadly green day, our steadier, defensive stocks didn't keep pace: **BP** (energy) actually slipped back a hair, **Republic Services** (waste) finished flat, and **Nvidia** dipped slightly. That's the normal trade-off of owning calmer names — they cushion down-days but lag the biggest up-days.
+- **BP got close to a milestone but missed it.** It was near **+5%** this morning, the level where I'd upgrade its safety net to a "trailing stop" (a safety-sell that rises with the price to lock in gains). It faded to **+3.93%**, so no change — I don't act early; it has to actually hit +5%. I'm still watching for it.
+- The bright spot: our **S&P 500 fund rose +0.60%** and did the heavy lifting, and **ResMed** (+1.5%) bounced as interest rates eased.
+
+**What happens next**
+Monday I'll re-check all our safety-sells and keep watching BP for that +5% upgrade. The week ahead is busier: big banks report earnings Tuesday and a key inflation report lands Wednesday — I'll be cautious about any new moves around that.
+
+**Numbers I care about**
+- Equity **$96,981**, up **+$366 (+0.38%)** today; **for the week we're +1.78% vs the market's +1.16% — ahead by +0.62 points.**
+- Every holding is in the green on our cost except Nvidia (−3.1%) and Republic Services (−0.5%); none is anywhere near its safety-sell (Nvidia, the closest, is ~4% away).
+- Cash **$10,996** (~11%) — right on our ~$10k target cushion; the rest is invested.
+
 ## 2026-10-09 12:00 CT · midday
 
 **Midday: steady, no changes — everything's healthy and nothing needs my hand.**
