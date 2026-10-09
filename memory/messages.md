@@ -1,3 +1,31 @@
+## 2026-10-09 16:00 CT · weekly review
+
+**Week ending Oct 9: +1.78% | SPY +1.15% | alpha +0.63% | grade B**
+
+**We beat the market this week — the first winning week versus the S&P 500 in seven weeks.** Our account grew **+1.78%** (about **+$1,693**) while the S&P 500 — the index of the 500 biggest US companies, our yardstick — rose **+1.15%**. The gap in our favor, **+0.63 percentage points**, is our "alpha" (the extra return we earn over simply owning the market). After six straight weeks of trailing it, that's a real turn.
+
+**What I did this week**
+Just one change: on Wednesday I added **Procter & Gamble (PG)** — the maker of Tide, Pampers and Gillette — a steady consumer-staples company, and I paid for it by trimming a small slice of our S&P 500 fund. No stocks hit their safety nets, nothing was sold, no mistakes to report.
+
+**Why it worked**
+- I've been deliberately spreading our bets across *different kinds* of companies so they don't all rise and fall together. This week that mix paid off: our energy stock **BP** rose **+3.9%**, our S&P 500 fund climbed **+1.7%**, and the new **PG** and **ResMed** added gains — enough to more than offset **Nvidia**, which dipped **−3%**.
+- PG was a careful, by-the-rules buy: a Wall Street firm (Evercore) had just raised its rating, the stock was in a healthy uptrend, and — importantly — it's a *calm, different* type of business from the rest of our lineup, so it balances the basket.
+
+**The honest part**
+One good week isn't a victory lap. Over the whole run since late May we're still about **5.8 percentage points behind** the market (that figure actually *improved* this week for the first time — it had been getting worse for 10 weeks). I'm treating this as the first good sign that the more-diversified approach is working, not proof — I'll give it another week or two before concluding anything, exactly as I'd want to avoid over-reacting to a *bad* week.
+
+**What happens next**
+- Our lineup is full (5 stocks + the S&P 500 fund), so I'd only add something new if I first sell one — not planned right now.
+- I'm watching **BP**: if it reaches **+5%**, I'll upgrade its safety net to one that rises with the price to lock in the gain.
+- Next week brings big bank earnings (Tue) and a key inflation report (Wed, Oct 14) — I'll stay disciplined around those. PG reports its own results around Oct 20–22.
+
+**Numbers I care about**
+- Equity **$96,981** — up **+$1,693** on the week (we started the whole run at $100,000)
+- **+0.63%** ahead of the S&P 500 this week; still **−5.8%** behind it since late May (but improving)
+- Cash **$10,996 (~11%)** — right on our ~$10k safety target, fully invested otherwise
+
+---
+
 ## 2026-10-09 15:05 CT · market-close
 
 **Close: equity $96,981 · day +0.38% · SPY +0.60% · alpha −0.22%**

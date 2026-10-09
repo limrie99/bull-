@@ -1,3 +1,35 @@
+# 2026-10-09 ~16:00 CT (17:00 ET) — WEEKLY REVIEW (Fri) · NO TRADES · Week +1.78% vs SPY +1.15% → alpha +0.63pt ✅ (STREAK BROKEN, 1st up-alpha week in 7) · cumulative alpha −5.80pt (NARROWED from −6.30, 1st improvement of the run) · grade B
+
+**Routine:** weekly review. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-10-12 09:30 ET = Monday). **Inbox:** no Pending (structural A/B still unanswered → default A continues, now with a positive week-1 trial point to report; MSFT armed plan carries forward under Handled, double-blocked). **Astra:** `memory/astra-proposals.md` empty. **Env:** 4 required vars present (EQUIBLES empty → skipped). All account/positions/orders/history/SPY-bars pulled **LIVE**.
+
+**Live verification (this run):**
+- Account: live after-hours equity **$97,000.62**; close scorecard of record **$96,981.21**; cash $10,996.02 (~11.34%); long_mkt_value $86,004.60; last_equity (Thu 10/8) $96,614.82 → day +$366.39/+0.38%; status ACTIVE.
+- 1W portfolio history (1D): base_value **$95,288.23** asof 2026-10-02; closes Mon 10/5 $96,053.03 → Tue $96,412.91 → Wed $96,415.13 → Thu $96,614.82 (= live last_equity; Friday lags, use close scorecard).
+- SPY IEX daily bars: 10/2 **769.65** → 10/5 774.97 → 10/6 779.10 → 10/7 777.15 → 10/8 773.88 → 10/9 **778.51**.
+- Open orders (nested): **exactly 5** −7% hard GTC stops resting `new` — PG 137.70, NVDA 220.27, BP 41.38, RMD 212.62, RSG 202.74. SPY unencumbered by design.
+- Positions: BP 214, NVDA 32, PG 65, RMD 42, RSG 44, SPY 51.
+- FILL activities 10/5→10/9: SELL SPY 10/8 (13 @ 774.95, funding trim), BUY PG 10/8 (65 @ 148.06) — the entire week's activity.
+
+**Metrics (authoritative):** week return **+1.777%** (base $95,288.23 → $96,981.21); SPY week **+1.151%** (769.65 → 778.51); **alpha_week +0.626pt ✅.** Cumulative since 5/29 (base $99,840.95 / SPY 756.34): port −2.864% vs SPY +2.931% = **−5.80pt** (narrowed from −6.30 on 10/2 — 1st improvement after 10 weeks of monotonic widening). Trades: 1 conviction buy (PG) / 0 sells (+1 index rebalance trim). Win rate on closed positions: N/A (0 closed).
+
+**Voices:**
+- **Research:** the 6-week down-alpha streak broke on an UP tape — the exact scenario the sleeve had been failing (9/25 melt-up −1.92). Attribution is broad participation, not a hero trade: SPY floor +1.66%, BP +3.93%, PG +2.14%, RMD +0.62% vs NVDA −3.08% / RSG −0.51%. This is occurrence 1 of the Option-A diversified-tilt trial I committed to on 10/2 — positive, but one data point.
+- **Risk:** every guardrail held and was untouched; all 5 hard stops standalone-GTC, re-verified resting. NVDA is the thinnest cushion (~4.0% to 220.27) and the one laggard — contained by its ≤10% high-beta sizing. No daily-loss-cap pressure. Cash on the ~$10k floor; the PG buy was correctly funded by trimming the SPY shock-absorber, not by breaching the buffer.
+- **Trader:** one fill this week (PG), merit-based (2 signals + conv ~71), low-end B+ sizing for its modest-catalyst/yellow-flag profile, chosen as a 4th distinct macro factor (staples) per the 10/2 factor-concentration lesson. No chasing (MSFT held above the $525 don't-chase line all week), no averaging down, no force-buys (ETN held as near-trigger with no open slot).
+
+**Decision:** NO guardrail change, NO strategy-rule change. Logged a governance record in `strategy.md` changelog (streak broke; Option-A trial week 1 positive) — same class as the 7/31/8/7/10/2 governance entries, not a rule edit. Deliberately did NOT over-claim off one good week (the mirror of over-tuning off a bad one). Grade **B** — real progress (1st beat-SPY week in 7; cumulative narrowed) on clean, disciplined process, held below higher because it's one modest-margin week on a single buy and cumulative is still −5.80 behind.
+
+**Handoff → pre-market Mon 10/12 ~06:10 CT:**
+- **Re-verify live first:** account/positions/orders/clock; confirm exactly 5 GTC hard stops (PG 137.70, NVDA 220.27, BP 41.38, RMD 212.62, RSG 202.74) + SPY unencumbered. Sleeve 5/5 FULL; weekly buy cap resets to 0/3 (new week 10/12–10/16).
+- **STANDING +5% conversion trigger (PRIMARY):** BP closest at +3.93% — if BP (or any name) tags +5% intraday (~$46.72), cancel the hard stop, place a 10% trailing GTC stop.
+- **NVDA thinnest cushion (~4.0%, −3.08%), high-beta:** do NOT pre-empt its stop on a normal semi shake-in; do NOT average down. If it tags, the −7% is working. RSG next-watch (rate-sector drift, intact). 
+- **No new buy without a conviction SELL to free a slot** (sleeve full; an SPY trim frees cash, not a slot). Best fresh bench idea ETN (~$424, industrials/AI-power, 2 signals) basing ON its 50dMA = near-trigger, arm for a decisive move above the line.
+- **Week-ahead calendar:** bank earnings Tue 10/13 (JPM/GS/WFC/C/BLK); **Sept CPI Wed 10/14 = rate-relevant binary → respect the SNPS entry-timing advisory (no fresh rate-sensitive/high-beta beta the session before it; moot while sleeve full)**; TSM 10/15; **PG earns ~10/20–22 → hold-vs-trim decision due ~10/15–16** (thesis does NOT depend on the print); BP ~10/27–30; RMD/RSG 10/29; NVDA mid-Nov.
+- **STANDING: check inbox for Lauren's structural A/B reply.** Default = continue Option A (full 5-slot factor-diversified sleeve), now with a positive week-1 trial data point; pre-committed switch to Option B still stands if the diversified sleeve lags again over the 2–3-week trial window. MSFT armed plan carries forward, double-blocked (don't chase ≥$525; no unfilled buy into earnings week ~Oct 28).
+- **Thu 10/8's missed daily scorecard** remains the one gap flagged to Lauren this week (Fri pre-market); Friday's scorecard ran + pushed normally.
+
+---
+
 # 2026-10-09 ~15:05 CT (16:00 ET) — MARKET-CLOSE (Fri) · NO TRADES · Close equity $96,981.21 · day +0.38% vs SPY +0.60% → day alpha −0.22pt · week alpha +0.62pt (AHEAD WTD) · mandatory daily scorecard written + pushed
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-10-12... actually next_open 2026-10-12 is Monday 10/12 09:30 ET). **Inbox:** no Pending (structural A/B still unanswered → default A stands; MSFT armed plan carries forward under Handled). **Astra:** `memory/astra-proposals.md` empty. **Env:** 4 required vars present (EQUIBLES empty → skipped). All account/positions/orders pulled **LIVE**.
