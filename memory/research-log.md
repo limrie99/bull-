@@ -1,3 +1,54 @@
+# 2026-10-09 ~06:10 CT — PRE-MARKET (Fri) · NO TRADES (market closed) · book FULL 5/5 · all theses intact · ⚠ Thu 10/8 CLOSE did not persist
+
+**Routine:** pre-market research. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-10-09 09:30 ET). **Inbox:** no Pending (structural A/B still unanswered → default A stands; MSFT armed plan carries forward under Handled). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
+
+**⚠ OPERATIONAL GAP — Thursday 10/8 market-close routine did not persist.** `git log origin/main` shows the last commit is `midday 2026-10-08 17:13` — there is **no `market-close 2026-10-08` commit**, and `messages.md`/`portfolio.md`/this log all top out at Thu midday. Effect: **Lauren did not get her mandatory Thursday daily scorecard**, and no authoritative Thu-close snapshot was written. Whether the close never fired or fired-but-failed-to-push, the user-facing result is the same. Flagged in today's message so she isn't left wondering. Friday pre-market (this run) ran clean and persisted.
+
+**Live account (pre-market marks, market closed):** equity **$96,769.78**, cash **$10,996.02 (~11.4%)**, last_equity $96,614.82, buying_power $284,150.61. Positions & 5 GTC hard stops **verified live** — exactly 5 open orders (PG 137.70, NVDA 220.27, BP 41.38, RMD 212.62, RSG 202.74); SPY unencumbered by design. Sleeve **5/5 FULL**. Weekly conviction buys **1/3** (week 10/5–10/9; PG the 1st).
+
+**Most recent full session (Thu 10/8 close):** book equity ~$96,770 vs Wed close $96,415 → **~+0.37%**; SPY $773.88 vs Wed $777.15 → **−0.42%** → **Thu alpha ~+0.8pt** (defensives + BP carried a down tape). Week-to-date through Thu (last Fri 10/2 base: book ~$95,288 / SPY 769.65): book ~+1.55%, SPY ~+0.55% → **week alpha ~+1.0pt (est, Fri still to trade)**. Cumulative alpha since 5/29 base ≈ −6.3pt (structural A/B escalated to Lauren — default A pending reply). *Authoritative weekly mark = tonight's close routine.*
+
+## Market context (4-agent fan-out via Perplexity sonar-pro)
+- **Regime: mildly constructive / risk-on-with-caveats.** Macro agent: ES ~+0.33%, NQ ~+0.72% (tech leading), Europe +0.7–0.9%, Hang Seng +1.6%. Position agent's snapshot read a softer tape (S&P −0.47%, tech leading DOWN) — **pre-market direction unsettled; moot today (no trades).**
+- **10Y ~5.23–5.24%, DOWN ~5–6bp** off the 5.30% multi-decade-high area — **first real rate relief**, the single most helpful driver for the book (eases RMD/RSG + NVDA). Still 5.2%+, so the overhang isn't gone. DXY ~102.1 soft. Gold ~$4,140–4,180 firm.
+- **Oil firm:** WTI ~$91, Brent ~$103–104, Strait-of-Hormuz risk premium intact → **BP tailwind** (our one name benefiting from the geopolitical tape).
+- **Govt shutdown ~Day 9** — official data dark; today's only real print is **prelim UMich consumer sentiment 10:00 ET**. Fed leaning HOLD at Oct 27–28 (Williams "no urgency"). **Next binary = Sept CPI Wed 10/14.** No CPI/FOMC-decision/NFP today → **SNPS entry-timing advisory NOT triggered.**
+- **Earnings today:** nothing material to a large-cap book (only DAL, not held/watched). **Bank season opens next week:** JPM/GS/WFC/C/BLK Tue 10/13, BAC/MS Wed 10/14, **TSM 10/15.** Staples read: PEP +3.7% Thu on volume stabilization (selective, not a broad staples boom).
+- **Blackout check (14-day window from 10/9, closes ~10/23):** no HELD name needs a fresh-buy decision inside it. Bench names inside/blocked: **TSM 10/15, GE Aero ~10/20, LMT 10/22.** PG (held) earns ~10/20–22. Clear for a fresh buy on timing: BP 10/27-30, MSFT ~10/28, GEV 10/28, RMD/RSG 10/29, NVDA mid-Nov.
+
+## Portfolio watch (all 5 theses INTACT — no breaks, no sells; marks = Thu close)
+- **BP** +3.6% ($46.12, +5.4% vs rising 50dMA $44.00). Quiet 24h; no new PT. Energy-rotation + oil-bid thesis intact. **Closest to +5% trailing conversion** — if it tags +5% intraday, market-open/midday cancels the $41.38 hard stop and places a 10% trailing (GTC). Earn ~10/27-30.
+- **NVDA** −1.2% ($233.99, +4.1% vs 50dMA $221.40). **Fresh bullish flow:** Morgan Stanley reinstated TOP semi pick OW PT $300; BNP raised to $345. Thesis intact/strengthening. Extended → **do NOT add**. Thinnest stop cushion (~5.9% to $220.27); most exposed if tech leads a risk-off intraday. Earn mid-Nov.
+- **PG** +1.5% ($150.25, +3.3% vs 50dMA $145.77). Evercore Outperform PT $166 + RBC reiterate (10/6) confirm thesis. **Earn ~10/20–22** → hold-vs-trim decision due ~10/15-16. No average-down. Earn date slightly later than the 10/20 I logged — re-verify.
+- **RMD** −0.8% ($226.73, +0.8% vs 50dMA $224.79). **Philips US-PAP re-entry overhang stayed DORMANT** (no event). Stifel Hold $235 ("re-entry not imminent"); RBC OP $262 vs Wells cut to $215 — mixed. **Sector-noise watch (rated 2)**, not a break. Earn 10/29.
+- **RSG** −0.9% ($216.11, flat vs 50dMA $216.63). **Mild negative:** CIBC held Outperform but **cut PT $249→$240 (10/8)**; sector-wide PT trims on fuel/acquisition-dilution. **Sector drift (rated 2)**, thesis intact but enthusiasm cooling. Earn 10/29.
+- **SPY** floor +1.38% ($776.83), 51 sh, no stop (index carve-out). ~41% index exposure anchors benchmark participation.
+
+## Buy candidates (scored; NO open slot — book 5/5 FULL; NO TRADES market closed)
+Gate = 2+ verified signals AND Conviction ≥70 AND a clean non-extended entry AND an open slot. All 50dMAs cross-checked vs LIVE Alpaca bars (Perplexity 50dMAs unreliable again).
+- **ETN (Eaton)** ~$424.46 — **best fresh idea.** 50dMA $425.58 (**−0.3%, basing ON the line**), 7.7% below 52wk-hi. Signals: **#3** electrification/AI-data-center-power secular + **#4** RBC Buy $512 / BofA $490 (10/2) = **2**. NEW factor (industrials). Earn ~Nov 3 (clear). **Conviction ~69–71, but sitting AT the 50dMA = basing, NOT a confirmed uptrend → #6 not cleanly met → entry not clean-above.** Verdict: **NEAR-TRIGGER** — arm for a decisive move above the 50dMA to confirm #6 and clear the gate on a clean entry.
+- **EMR (Emerson)** ~$159.05 — 50dMA $155.58 (+2.2%, cleaner), 3.2% below hi. #3 onshoring/automation + #4 (DB $174, WF OW $177) = 2. **SAME industrials factor as ETN** (don't stack both). Earn ~Nov 3-4. Conviction ~68–70. Backup to ETN.
+- **LLY (Eli Lilly)** ~$1,169.61 — 50dMA $1,173.68 (−0.3%, basing below), 8.7% below hi. #3 GLP-1 secular + thin #4 (Cantor $1,440, **one firm**). Earn 10/29 (clear). Conviction ~66–68 — clean-but-thin, basing not trending. Watchlist.
+- **GEV (GE Vernova)** ~$998.80 — 50dMA $968.12 (**+3.2% — RECLAIMED the 50dMA**, progress from below), 7.5% below hi. #3 AI/data-center-power secular; needs a clean 2nd/3rd signal. Earn 10/28 (clear). Conviction ~67–68. NEAR-TRIGGER.
+- **MSFT** ~$522.71 — 50dMA $498.76 (+4.8%), **1.3% below 52wk hi; now sitting at the TOP of Lauren's $515–522 band.** Signals #3/#4-cluster/#5 (~4), Conviction ~73. ARMED (Lauren's plan). **DOUBLE-BLOCKED:** (a) book is 5/5 FULL → a MSFT buy needs a conviction SLOT to open (a sell); an SPY trim frees cash, not a slot; (b) at $522.71 the plan's LIMIT $518 won't fill — it wants a dip INTO the band toward $518. Earn ~10/28 (clear). Watch for a dip to ~$518 **and** a freed slot; do NOT chase ≥$525; do NOT carry an unfilled buy into earnings week.
+- **Rejects:** PLTR +13.4% vs 50dMA at a fresh 52wk high = extended, don't chase (watch ~$180); LMT −7.7% vs 50dMA (downtrend) + earn 10/22 blackout; TSM extended + 10/15 blackout; MU extended at highs; CVX 2nd energy (wrong factor).
+
+**VERDICT: NO buy qualifies and no slot is open.** Book FULL 5/5, weekly buys 1/3. Best fresh idea (ETN) is basing on its 50dMA, not a confirmed clean uptrend. Hold the configuration. Market closed anyway — NO TRADES.
+
+## Sell candidates
+**NONE.** All 5 conviction theses intact; all 5 hard stops resting live; no position near its stop (worst cushion NVDA ~5.9%). RMD + RSG are the sector-noise watch pair (both rated 2 — dormant Philips overhang / sector PT trims), not thesis breaks. No average-downs.
+
+## Handoff → market-open (Fri 10/9 ~08:45 CT)
+1. **Re-verify live at the open:** account/positions/orders/clock. Confirm exactly 5 GTC hard stops still resting (PG 137.70, BP 41.38, NVDA 220.27, RMD 212.62, RSG 202.74); SPY no stop.
+2. **+5% conversion watch — BP closest (+3.6% at Thu close).** If BP (or any name) tags **+5%** intraday, CANCEL its hard stop and place a **10% trailing stop (GTC)**. This is the one standing execution trigger.
+3. **NO new buy expected** — sleeve 5/5 FULL; no candidate clears a clean entry + open slot. ETN is the lead *watchlist* name (basing on 50dMA); a buy would require a conviction SELL to free a slot — not indicated (all theses intact).
+4. **MSFT armed plan carries forward, now double-blocked** (needs a freed slot AND a dip to ~$518; at $522.71 it's at the top of the band). Do NOT chase ≥$525.
+5. **Standing: check inbox for Lauren's structural A/B reply** — until answered, default A (full factor-diversified sleeve) stands. NO guardrail changed.
+6. **Daily loss cap / UMich 10:00 ET:** if the book drops >3% intraday, no new buys that day (academic — none planned). SNPS entry-timing advisory NOT triggered (no CPI/FOMC/NFP today).
+7. **⚠ Carry the Thu-close-gap note** until Lauren has her scorecard caught up; tonight's close must run and must not be skipped.
+
+---
+
 # 2026-10-08 ~13:10 CT (13:10 ET) — MIDDAY (Thu) · NO TRADES · steady, no changes · all 5 conviction stops rest · sleeve 5/5 FULL
 
 **Routine:** midday. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 13:10 ET; next_close 16:00 ET). **Inbox:** no Pending (structural A/B still unanswered → default A stands; MSFT armed plan under Handled carries forward). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** all 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
