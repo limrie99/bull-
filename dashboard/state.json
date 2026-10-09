@@ -1,16 +1,16 @@
 {
-  "last_update": "2026-10-09 06:10 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-09 08:46 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 96769.78,
+  "equity": 96945.85,
   "cash": 10996.02,
-  "day_pl": 354.65,
-  "day_pl_pct": 0.37,
-  "spy_day_pct": -0.42,
-  "alpha_day_pct": 0.79,
-  "week_pl_pct": 1.55,
-  "spy_week_pct": 0.55,
-  "alpha_week_pct": 1.0,
+  "day_pl": 331.03,
+  "day_pl_pct": 0.34,
+  "spy_day_pct": 0.23,
+  "alpha_day_pct": 0.11,
+  "week_pl_pct": 1.71,
+  "spy_week_pct": 0.78,
+  "alpha_week_pct": 0.93,
   "week_grade": "A",
   "cum_alpha_pct": -6.3,
   "positions": [
@@ -18,48 +18,48 @@
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 46.12,
-      "pl_pct": 3.64,
+      "current": 46.6,
+      "pl_pct": 4.72,
       "stop": 41.38
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.8469,
-      "current": 233.99,
-      "pl_pct": -1.21,
+      "current": 231.0,
+      "pl_pct": -2.47,
       "stop": 220.27
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 150.25,
-      "pl_pct": 1.48,
+      "current": 151.23,
+      "pl_pct": 2.14,
       "stop": 137.7
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 226.73,
-      "pl_pct": -0.83,
+      "current": 229.295,
+      "pl_pct": 0.29,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 216.11,
-      "pl_pct": -0.87,
+      "current": 217.41,
+      "pl_pct": -0.27,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 776.83,
-      "pl_pct": 1.38,
+      "current": 775.68,
+      "pl_pct": 1.23,
       "stop": null
     }
   ],
@@ -123,52 +123,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-09 08:46 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — lineup full & healthy; BP one step from a safety-net upgrade",
+      "body": "No buys/sells — sleeve full 5/5, nothing near a safety-sell. BP up +4.72%, ~12 cents from the +5% mark where I swap its fixed stop for a trailing one. Up +0.34% vs S&P +0.23% — a touch ahead."
+    },
+    {
       "ts": "2026-10-09 06:10 CT",
       "routine": "pre-market",
-      "headline": "Pre-market: watch, don't shop \u2014 lineup full & healthy; flagging Thu's missed scorecard",
-      "body": "No trades (market closed, book full 5/5). All 5 theses intact; rates eased, oil firm (BP our best). Heads-up: Thursday's end-of-day scorecard didn't save/send \u2014 nothing wrong with the account, tonight's close will run normally. Watching for BP to hit +5% to upgrade its safety-net."
+      "headline": "Pre-market: watch, don't shop — lineup full & healthy; flagging Thu's missed scorecard",
+      "body": "No trades (market closed, book full 5/5). All 5 theses intact; rates eased, oil firm (BP our best). Heads-up: Thursday's end-of-day scorecard didn't save/send — nothing wrong with the account, tonight's close will run normally. Watching for BP to hit +5% to upgrade its safety-net."
     },
     {
       "ts": "2026-10-08 13:10 CT",
       "routine": "midday",
-      "headline": "Midday: steady, nothing to change \u2014 up a touch while the market is down",
+      "headline": "Midday: steady, nothing to change — up a touch while the market is down",
       "body": "No buys/sells. All 5 safety-sells in place, none close to tripping. BP best at +4.2%; Nvidia -2% is normal wobble (got 2 fresh Buy ratings). Up +0.13% vs S&P -0.6% = ~+0.7% alpha today."
     },
     {
       "ts": "2026-10-08 08:45 CT",
       "routine": "market-open",
-      "headline": "Bought Procter & Gamble \u2014 a steady, defensive stock \u2014 to fill our last slot",
+      "headline": "Bought Procter & Gamble — a steady, defensive stock — to fill our last slot",
       "body": "Bought 65 PG @ $148.06 (~10%), funded by trimming 13 SPY; set a 7% safety-sell at $137.70. Skipped Microsoft (~$530, above your $515-522 zone). P&G adds a different, defensive flavor to the mix."
     },
     {
       "ts": "2026-10-08 06:20 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan \u2014 no trades; everything healthy, eyeing a new name for the open",
+      "headline": "Pre-market plan — no trades; everything healthy, eyeing a new name for the open",
       "body": "Research-only scan. Book 4/5 then, all theses intact; flagged a candidate to consider at the open."
     },
     {
       "ts": "2026-10-07 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $96,418 \u00b7 day +0.01% vs SPY -0.25% \u00b7 alpha +0.26%",
-      "body": "Flat on a down day \u2014 a small win. No trades; all stops resting, cash at target."
+      "headline": "Close: equity $96,418 · day +0.01% vs SPY -0.25% · alpha +0.26%",
+      "body": "Flat on a down day — a small win. No trades; all stops resting, cash at target."
     },
     {
       "ts": "2026-10-07 12:15 CT",
       "routine": "midday",
-      "headline": "Midday: steady \u2014 no changes, holding a touch better than the market",
+      "headline": "Midday: steady — no changes, holding a touch better than the market",
       "body": "Quiet midday, no buys/sells, all safety-sells in place."
     },
     {
       "ts": "2026-10-07 08:48 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 Microsoft still too expensive; everything we own holding fine",
+      "headline": "Open: no trades — Microsoft still too expensive; everything we own holding fine",
       "body": "Declined to chase MSFT above its buy zone; no other name cleared a clean entry."
-    },
-    {
-      "ts": "2026-10-07 06:20 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan \u2014 no trades; healthy book, nothing cheap enough to buy yet",
-      "body": "Research-only; held names intact, no clean gate-clearer on the bench."
     }
   ]
 }

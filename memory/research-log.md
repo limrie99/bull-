@@ -10950,3 +10950,44 @@ Total unrealized ≈ **+$681**.
 - **MSFT — STILL ARMED**, thesis intact (~4 signals), $527.90 above band. Activate ONLY on a fill inside $515–522 (LIMIT $518, sell 11 SPY first, −7% hard GTC at fill). Do not chase ≥$525; do not carry unfilled into earnings week (~Oct 28).
 - **STANDING: structural A/B still escalated to Lauren** (A = 5-slot participation-tilt sleeve; B = shrink to 2–3 names + route to SPY floor). Default (no reply) = continue A. Restate until it clears.
 - **Unverified:** none — account/positions/open-orders/clock/SPY bars all pulled live this run.
+
+---
+## 2026-10-09 ~08:46 CT · MARKET-OPEN routine (Fri)
+**Market:** CONFIRMED OPEN (`/v2/clock` is_open=true, 09:45 ET; next_close 16:00 ET).
+**Account (live):** equity **$96,945.85**; cash **$10,996.02 (~11.34%)**; last_equity (Thu 10/8 close) $96,614.82 → intraday **+$331.03 (+0.34%)**. Green; daily loss cap N/A. buying_power $284,643.59.
+**Inbox:** no Pending (structural A/B still unanswered → default A stands; MSFT armed plan carries forward under Handled). **Astra:** `memory/astra-proposals.md` empty — nothing to fold.
+**Positions (live marks from `/v2/positions`):**
+| Sym | Qty | Avg | Cur | P/L$ | P/L% | Stop | Cushion | Size |
+|---|---|---|---|---|---|---|---|---|
+| BP | 214 | 44.4998 | 46.60 | +449 | +4.72% | 41.38 | ~11.2% | 10.3% |
+| NVDA | 32 | 236.8469 | 231.00 | −187 | −2.47% | 220.27 | ~4.7% | 7.6% |
+| PG | 65 | 148.06 | 151.23 | +206 | +2.14% | 137.70 | ~8.9% | 10.1% |
+| RMD | 42 | 228.6274 | 229.295 | +28 | +0.29% | 212.62 | ~7.3% | 9.9% |
+| RSG | 44 | 218.00 | 217.41 | −26 | −0.27% | 202.74 | ~6.8% | 9.9% |
+| SPY | 51 | 766.2584 | 775.68 | +481 | +1.23% | none | n/a | 40.8% |
+
+Total unrealized ≈ **+$951**.
+**Risk checks (priority order):**
+- **(a) −7%-or-worse un-stopped?** NO. Worst NVDA −2.47% (cushion ~4.7% above 220.27). Nothing at/under −7% → no 4-hr news check, no forced sell.
+- **(b) +5%+ hard→trailing conversion?** NO. BP best at **+4.72%** — closest ever, trigger ≈ $46.72 (just $0.12 above the $46.60 mark). NOT triggered → did NOT pre-empt. Midday/close own this; BP may tag it intraday.
+- **(c) Daily loss cap:** book +0.34% intraday — green. No buy block (moot — sleeve full).
+- **(d) Sell signals?** NONE — all 5 conviction theses intact.
+**Open orders:** exactly **5** sell-stop GTC — PG `edc1bc78` 137.70, NVDA `7d025ecb` 220.27, BP `7c880eaa` 41.38, RMD `91671fa4` 212.62, RSG `93c80d32` 202.74. SPY unencumbered by design. All IDs unchanged from the Thu open/PG add. No orphan/dup.
+**Pre-market plan execution:** pre-market said "watch, don't shop — sleeve 5/5 FULL, no gate-clearer + no open slot; NO new buy; the one standing trigger is the +5% BP conversion." Re-validated live at the open: confirmed. Sleeve full, no slot, no sell signal, BP not yet +5%. **Zero orders placed — correct per plan.**
+**MSFT armed plan:** double-blocked (sleeve full → no slot; MSFT above $515–522 band all week). No order, SPY NOT trimmed. Stays armed for a genuine pullback into $515–522 (LIMIT $518, sell 11 SPY first, −7% hard GTC at fill; no chase ≥$525; no unfilled carry into earnings ~Oct 28).
+**New buys:** none. Sleeve 5/5 FULL (no slot); a new conviction name would require a SELL to free a slot (not indicated) AND an SPY trim for cash. Weekly buys 1/3. Entry bar not met regardless.
+**Benchmark (intraday):** SPY +0.23% (775.68 vs Thu 773.93) vs book +0.34% → **intraday alpha ~+0.11pt** (book slightly ahead; RMD flipped green on 10Y relief, SPY floor doing its participation job). Authoritative weekly mark = tonight's close.
+**Voices:**
+- **Research:** no thesis changed overnight; RMD flipped green (rate relief), RSG's CIBC PT trim is sector drift not a company break, NVDA red is semi-beta wobble with fresh OW reinstatements. Bench unchanged; nothing clears 2 signals + ≥70 on a clean entry — and no slot anyway. Astra none.
+- **Risk:** 5 stops resting GTC, IDs unchanged; NVDA tightest (~4.7%). Loss cap never near (+0.34%). No +5% conversion (BP +4.72%, hold the hard stop until it actually tags +5%). Cash ~11.3% on target.
+- **Trader:** no order warranted; none placed. Correct action = verify + hold + report. No Telegram (no-trade open — per CLAUDE.md push policy, open-with-no-trades is not a push event).
+**Decision:** steady, no changes.
+**Handoff → midday (Fri 10/9 ~12:00 CT):**
+- Re-verify live: account/positions/orders/clock; confirm exactly 5 GTC hard stops; SPY unencumbered.
+- **+5% conversion watch — PRIMARY:** BP +4.72%, only $0.12 from the +5% mark (~$46.72). If BP (or any name) tags +5% intraday, cancel the hard stop and place a 10% trailing stop (GTC). The one standing execution trigger.
+- Watch NVDA (~4.7% cushion, thinnest) on any semi wobble; do NOT pre-empt its stop, do NOT average down.
+- NO new buy — sleeve 5/5 FULL; needs a conviction SELL to free a slot.
+- MSFT armed plan carries forward, double-blocked.
+- STANDING: check inbox for Lauren's structural A/B reply; default A until answered.
+- **⚠ Tonight's close is MANDATORY** — Lauren owed the daily scorecard (Thursday's was missed). Close must run + push Telegram, trade or not.
+- **Unverified:** none — account/positions/open-orders/clock pulled live this run.
