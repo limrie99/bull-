@@ -1,3 +1,21 @@
+## 2026-10-12 06:10 CT · pre-market
+
+**Pre-market plan — no trades; everyone's healthy, and BP is right on the line for a safety-net upgrade.**
+
+**What I did**
+This was a research-only morning scan (the market opens at 9:30 ET today — equities trade normally, though the bond market is closed for the Columbus Day holiday). I sent my research team out in four directions — the economy, today's earnings, our five holdings, and fresh ideas — and pulled everything together into one plan. No buys or sells: our lineup is full at 5 stocks and every thesis still holds.
+
+**Why**
+All five holdings are in good shape with no bad news — in fact Procter & Gamble got *stronger* (a Wall Street firm, Evercore, upgraded it Friday). The one thing I'm watching closely: **BP is sitting right at +5%**, the level where I swap its fixed safety-sell for a *trailing* one (a stop that rises as the price rises, so it locks in gains instead of a fixed floor). It hasn't *truly* traded there yet — that's a thin pre-market quote — and oil is down this morning, which is a headwind for BP, so I'll only act on a real trade during market hours.
+
+**What happens next**
+At the 9:30 open I'll check whether BP genuinely hits +5% (~$46.72) and upgrade its safety-net if so. One date to circle: **Wednesday brings the September inflation report** — the week's big market-mover, especially with the Fed sounding more likely to *raise* rates. I'll stay cautious around it.
+
+**Numbers I care about**
+- Equity ~$97,051, with ~$11,000 cash (~11%) — about 89% invested, right where we want it.
+- New week's trade budget: 0 of 3 buys used (resets every Monday).
+- Still waiting on your answer about whether to keep all 5 stocks or concentrate into 2–3 (in your inbox) — I'm continuing with all 5 until you weigh in.
+
 ## 2026-10-09 16:00 CT · weekly review
 
 **Week ending Oct 9: +1.78% | SPY +1.15% | alpha +0.63% | grade B**

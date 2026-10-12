@@ -1,3 +1,55 @@
+# 2026-10-12 ~06:10 CT — PRE-MARKET (Mon) · NO TRADES (market open 9:30 ET, pre-market routine) · book FULL 5/5 · all 5 theses intact · BP at the +5% conversion line (watch at open) · Sept CPI Wed 10/14 is the week's binary
+
+**Routine:** pre-market research. Market **CONFIRMED CLOSED** at run time via `/v2/clock` (is_open=false; next_open 2026-10-12 09:30 ET = today). Equities trade normally today; **BOND market CLOSED for Columbus Day** (thins liquidity, no Treasury cash tape). **Inbox:** no Pending (structural A/B still unanswered → default A continues; MSFT armed plan carries forward under Handled, double-blocked). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required vars present (EQUIBLES empty → skipped). Synced origin/main at run start (last commit `weekly-review 2026-10-09 21:11`).
+
+**Live account (pre-market snapshot marks, market closed):** equity **$97,050.80**, cash **$10,996.02 (~11.33%)**, last_equity $96,972.32, buying_power $284,937.46, long_mkt_value $86,054.78, status ACTIVE. Positions & 5 GTC hard stops **verified live** — exactly 5 open orders, all IDs unchanged (PG 137.70, NVDA 220.27, BP 41.38, RMD 212.62, RSG 202.74); SPY unencumbered by design. Sleeve **5/5 FULL**. **Weekly conviction buys 0/3** (new week 10/12–10/16; cap reset).
+
+**⚠ BP +5% conversion — ARMED but NOT genuinely tagged yet.** Alpaca position snapshot marks BP at **$46.73 / +5.01%**, but the IEX last *trade* is still Friday's close **$46.25 (+3.93%)** — the $46.73 is a thin pre-market/snapshot quote, not an executed intraday print. Trigger is ~$46.72. **No conversion now** (market closed, pre-market = no trades). This is the **PRIMARY market-open action**: if BP genuinely trades ≥$46.72 in the regular session, cancel the hard stop (`7c880eaa-...`) and place a 10% trailing GTC stop. **Caveat:** oil is LOWER this morning (WTI ~$90.5, −1.2%) — a BP headwind that could keep it from tagging +5% at the open.
+
+## Market context (4-agent fan-out via Perplexity sonar-pro)
+- **Regime: mildly RISK-ON with a HAWKISH-Fed overhang** that matters more than the green futures. ES ~+0.3%, NQ ~+0.1–0.3%. Europe firmer (Stoxx +0.5%, DAX +0.4%); Asia mixed (Hang Seng +0.2–0.6%, Nikkei −0.2%, Kospi −1.7/−2.5%). DXY ~102.25 soft. Gold strong ~$4,200.
+- **10Y ~5.23–5.24%** — steady-to-slightly-lower, off the ~5.30% high. Minor relief, **NOT a fresh leg down** — neutral-to-slightly-helpful for RMD/RSG/NVDA, nothing to lean on. (Bond market closed today = no fresh cash tape.)
+- **Oil LOWER / volatile:** WTI ~$90.5 (−1.2%), Brent ~$103–105 whipsawing → **headwind for BP** (reverses the 10/9 firm-oil tailwind).
+- **Fed HAWKISH TILT (material):** NY Fed's Williams called another 2026 hike "reasonable"; Sept FOMC minutes reportedly 16/18 officials expecting another hike. Oct 28–29 odds conflicting (one source 77.5% hike, another hold). Easing OFF the table near-term → caps upside for rate-sensitive names. Fed speakers: Hammack today, Bowman + Barkin Wed.
+- **Govt shutdown status now UNCERTAIN/conflicting** — strongest source says a Sept stopgap funds agencies through Dec 11 (i.e. possibly NO active shutdown), contradicting the prior "Day 9" premise. Treat as unresolved; immaterial to today (no trades).
+- **Sept CPI still scheduled WED 10/14, 8:30 ET** per BLS calendar — NOT confirmed delayed. **THE binary event of the week**; given the hike narrative a hot print is a real downside catalyst. → **SNPS entry-timing advisory applies Wed 10/14** (no fresh rate-sensitive/high-beta beta the session before/of it; moot while sleeve FULL).
+- **Earnings:** none material to a large-cap book today. **Bank season opens Tue 10/13** (JPM/GS/WFC/C + JNJ/UNH), **Wed 10/14** (BAC/MS/BLK + ASML), **TSM Thu 10/15** (AI/chip bellwether). Watch bank NII/credit-provision commentary — a headline beat with cautious guidance can still sink shares. **Banks effectively in fresh-buy blackout** (print within 3 trading days); TSM blackout begins ~10/13.
+
+## Portfolio watch (5 holds — all theses INTACT, no severity-1)
+- **BP** (+3.93% close / snapshot +5.01%): no BP-specific news; constructive analyst drift (an unconfirmed JPM→Overweight, PT 675p cited); energy-rotation + above-50dMA thesis holds. **At the +5% conversion line** (see above). Headwind: oil down this morning. Earn ~10/27. Thesis INTACT.
+- **NVDA** (−3.29%, thinnest cushion ~4.0% to 220.27): mildly positive — Morgan Stanley reinstated top semi pick $300 OW; UBS reiterated $300. Watch: US–China chip-export headlines still live (severity 2, sector/regulatory noise). Do NOT pre-empt stop, do NOT average down. Earn mid-Nov.
+- **PG** (+2.01%): **thesis STRENGTHENED** — Evercore ISI upgraded to Outperform PT $166 (10/10) on ~3% organic sales vs 2% cons; BofA to $170 (10/6). **Hold-vs-trim decision due ~10/15–16** before ~10/22 earnings (thesis does NOT depend on the print). Earn ~10/20–22.
+- **RMD** (+0.64%): no company news; consensus PT drifting down (~$241 vs ~$260 3mo ago) = broad estimate pressure, not a dated action (severity 2). Philips re-entry background noise, no new study. Thesis INTACT but softening sentiment. Earn 10/29.
+- **RSG** (−0.51%): minor PT trims — Raymond James $238→$235 (10/9), Deutsche $270→$258, ratings AFFIRMED Outperform; sector-wide, constructive tone (pricing offsets diesel). Severity 2. Thesis INTACT. Earn 10/29.
+- **SPY floor** (+1.59%, 51 sh, ~41% of book): index sleeve, no stop by design. Anchors benchmark participation.
+
+## Buy candidates (watchlist only — sleeve FULL, no slot; scored later if a sell frees one)
+Opportunity-scout shortlist (analyst actions confirmed; 50dMA slope / 52-wk-low distance NOT verified — must confirm before any score):
+1. **CBOE** — MEDIUM-HIGH lean. MS upgraded to Overweight PT $258→$358 (10/9, ~39% raise); options/derivatives-volume tailwind benefits from bank-earnings-week volatility. Signals ~#4 + #3. Earn ~early Nov (clear of blackout). **Freshest catalyst of the group** — top watchlist add.
+2. **ABBV** — MEDIUM. MS raised PT $310 (10/7), OW; Skyrizi/Rinvoq immunology replacing Humira. #4 + #3. Earn ~10/30. Defensive healthcare-rotation fit.
+3. **MSFT** — MEDIUM (already an armed Lauren-approved plan, double-blocked). Melius Buy $665 (10/5). #4 + #3 + likely #6. Earn ~10/28. Don't chase ≥$525; no unfilled buy into earnings week.
+4. **AMD** — MEDIUM, high-beta (≤10% sizing cap would apply). Citi PT $575→$800. #4 + #3. Earn ~early Nov. Volatile.
+5. **JKHY** — LOW-MED. Piper OW but PT unchanged $175 = weak upgrade, only 1 clear signal. Needs a 2nd.
+- **ETN** (standing watch): no fresh catalyst this scan; industrials/AI-power tailwind intact, needs a confirmed break above its 50dMA or a new signal. Keep on bench.
+- **Blackout this week (do NOT buy):** WFC, PGR, SCHW/PNC/USB and all financials reporting 10/12–15; TSM from ~10/13.
+
+## Sell candidates
+**NONE.** All 5 conviction theses intact, no severity-1 news, no −7% breach, no thesis break. No sell signal. Sleeve stays 5/5 FULL → no slot to free → no buy possible regardless of candidate quality.
+
+## Decision
+**NO TRADES** (correct for pre-market + market closed). No guardrail/rule change. Default Option A continues (structural A/B still with Lauren; week-1 trial was positive). No Telegram push (pre-market no-trade per CLAUDE.md).
+
+## Handoff → market-open (Mon 10/12 ~08:45 CT)
+1. **Re-verify live at the open:** account/positions/orders/clock; confirm exactly 5 GTC hard stops (IDs unchanged) + SPY unencumbered.
+2. **PRIMARY — BP +5% conversion:** if BP genuinely trades ≥$46.72 in the regular session, CANCEL hard stop `7c880eaa-...` and place a 10% trailing GTC stop. Mind the oil-down headwind — don't act on a thin pre-market print, only a real session trade.
+3. **NVDA thinnest (~4% cushion), China-export watch** — do NOT pre-empt stop, do NOT average down.
+4. **NO new buy** — sleeve 5/5 FULL; needs a conviction SELL to free a slot (none indicated). SPY trim frees cash, not a slot. MSFT plan double-blocked.
+5. **CPI Wed 10/14 binary** — respect SNPS entry-timing advisory (no fresh rate-sensitive/high-beta beta the session before/of it; moot while full). Bank earnings Tue; TSM Thu.
+6. **PG hold-vs-trim decision due ~10/15–16** (thesis strengthened by Evercore upgrade; does not depend on the ~10/22 print).
+7. **CBOE** = top fresh watchlist idea if a slot ever frees. **Check inbox for Lauren's A/B reply** — default A until answered.
+
+---
+
 # 2026-10-09 ~16:00 CT (17:00 ET) — WEEKLY REVIEW (Fri) · NO TRADES · Week +1.78% vs SPY +1.15% → alpha +0.63pt ✅ (STREAK BROKEN, 1st up-alpha week in 7) · cumulative alpha −5.80pt (NARROWED from −6.30, 1st improvement of the run) · grade B
 
 **Routine:** weekly review. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; next_open 2026-10-12 09:30 ET = Monday). **Inbox:** no Pending (structural A/B still unanswered → default A continues, now with a positive week-1 trial point to report; MSFT armed plan carries forward under Handled, double-blocked). **Astra:** `memory/astra-proposals.md` empty. **Env:** 4 required vars present (EQUIBLES empty → skipped). All account/positions/orders/history/SPY-bars pulled **LIVE**.

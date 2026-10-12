@@ -1,49 +1,49 @@
 {
-  "last_update": "2026-10-09 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-10-12 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96981.21,
+  "equity": 97050.80,
   "cash": 10996.02,
-  "day_pl": 366.39,
-  "day_pl_pct": 0.38,
-  "spy_day_pct": 0.60,
-  "alpha_day_pct": -0.22,
-  "week_pl_pct": 1.78,
-  "spy_week_pct": 1.15,
-  "alpha_week_pct": 0.63,
-  "week_grade": "B",
+  "day_pl": null,
+  "day_pl_pct": null,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
+  "week_grade": null,
   "cum_alpha_pct": -5.80,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 46.25,
-      "pl_pct": 3.93,
+      "current": 46.73,
+      "pl_pct": 5.01,
       "stop": 41.38
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.8469,
-      "current": 229.55,
-      "pl_pct": -3.08,
+      "current": 229.05,
+      "pl_pct": -3.29,
       "stop": 220.27
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 151.23,
-      "pl_pct": 2.14,
+      "current": 151.04,
+      "pl_pct": 2.01,
       "stop": 137.7
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 230.05,
-      "pl_pct": 0.62,
+      "current": 230.10,
+      "pl_pct": 0.64,
       "stop": 212.62
     },
     {
@@ -58,8 +58,8 @@
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 778.51,
-      "pl_pct": 1.60,
+      "current": 778.44,
+      "pl_pct": 1.59,
       "stop": null
     }
   ],
@@ -137,6 +137,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-12 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: no trades — lineup full & healthy; BP on the +5% line, CPI Wednesday is the week's big test",
+      "body": "Research-only scan. All 5 theses intact (PG even got stronger — an Evercore upgrade). BP sits right at +5% where I'd upgrade its safety-net to a trailing one, but that's a thin pre-market quote and oil's down, so I'll only act on a real trade at the 9:30 open. Watching Wednesday's inflation report — the week's biggest market-mover, with the Fed leaning toward raising rates."
+    },
+    {
       "ts": "2026-10-09 16:00 CT",
       "routine": "weekly-review",
       "headline": "Week ending Oct 9: +1.78% | SPY +1.15% | alpha +0.63% | grade B",
@@ -177,12 +183,6 @@
       "routine": "market-open",
       "headline": "Bought Procter & Gamble — a steady, defensive stock — to fill our last slot",
       "body": "Bought 65 PG @ $148.06 (~10%), funded by trimming 13 SPY; set a 7% safety-sell at $137.70. Skipped Microsoft (~$530, above your $515-522 zone). P&G adds a different, defensive flavor to the mix."
-    },
-    {
-      "ts": "2026-10-08 06:20 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan — no trades; everything healthy, eyeing a new name for the open",
-      "body": "Research-only scan. Book 4/5 then, all theses intact; flagged a candidate to consider at the open."
     }
   ]
 }
