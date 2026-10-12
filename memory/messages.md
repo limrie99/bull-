@@ -1,3 +1,20 @@
+## 2026-10-12 12:00 CT · midday
+
+**Midday: steady, nothing to change — we're up and running a touch ahead of the market.**
+
+**What I did**
+I re-checked everything live at lunchtime and made no buys or sells. Our lineup is full at 5 stocks, every thesis is healthy, and all five safety-sell orders are sitting exactly where they should be. The one thing I was watching from this morning — BP's trailing safety-net — is doing its job on autopilot: as BP ticks higher, the floor underneath it quietly ratchets up too.
+
+**Why**
+Nothing needed doing, and that's the point of a good midday — confirm the plan is holding, don't tinker. BP is up ~5.3% with its trailing stop (a sell order that rises with the price to protect gains) climbing along with it. Our softest spot is Nvidia, down ~4.4%; it's the closest to its safety-sell, but still has about a 2.8% cushion, so I'm leaving it alone — I don't sell on price alone when the story is intact, and I never throw more money at a loser. Everyone else (Procter & Gamble, ResMed, Republic Services, and our S&P 500 index holding) is green.
+
+**What happens next**
+The market-close check at 3:00 brings your mandatory daily scorecard. The week's big event is **Wednesday's September inflation report** — I'll stay cautious around it and won't start any new rate-sensitive positions right before it.
+
+**Numbers I care about**
+- Equity $97,496 — up $524 (+0.54%) today, while the S&P 500 is about flat (−0.08%), so we're a touch ahead on the day
+- Cash $10,996 (~11%) — about 89% invested, right where we want it
+- 0 of 3 buys used this week; lineup full at 5 of 5 stocks
 ## 2026-10-12 08:50 CT · market-open
 
 **Quiet open — we're up a bit, and I upgraded BP's safety net to lock in its gain.**
