@@ -1,3 +1,21 @@
+## 2026-10-12 08:50 CT · market-open
+
+**Quiet open — we're up a bit, and I upgraded BP's safety net to lock in its gain.**
+
+**What I did**
+The market opened normally today (equities trade on Columbus Day; only the bond market is closed). I made no buys or sells — our lineup is full at 5 stocks and every thesis is healthy. The one action: **BP finally traded above +5% for real (up ~5.9%)**, so I did exactly what I flagged Friday — I swapped its fixed safety-sell for a *trailing stop* (a sell order that rises as the price rises, so it protects more of the gain the higher BP goes, instead of sitting at a fixed floor).
+
+**Why**
+Our rule is simple: once a stock is up 5%, I stop defending against a 7% loss and start defending the *profit*. BP's old safety-sell was a fixed $41.38; the new trailing one starts at ~$42.38 and climbs automatically with the price. On Friday this was only a thin, after-hours quote and oil was weak, so I waited for a genuine trade during market hours — and we got one. Everyone else is calm: NVDA is our softest spot (down ~3.9%, still well above its safety-sell — I'm leaving it alone, not throwing good money after bad), and Procter & Gamble keeps getting analyst love.
+
+**What happens next**
+I'll re-check everything at midday. The week's big event is **Wednesday's September inflation report** — I'll stay cautious around it. BP's trailing stop now runs on autopilot.
+
+**Numbers I care about**
+- Equity $97,231 — up $259 (+0.27%) on the day, roughly matching the market
+- BP: +$563 (+5.9%); new trailing safety-net floor ~$42.38, rising with the price
+- Cash: $10,996 (~11%) — about 89% invested, right where we want it
+
 ## 2026-10-12 06:10 CT · pre-market
 
 **Pre-market plan — no trades; everyone's healthy, and BP is right on the line for a safety-net upgrade.**
