@@ -11193,3 +11193,64 @@ Total unrealized ≈ **+$1,499.43**.
 - **STANDING: structural A/B still escalated to Lauren** (A = 5-slot participation-tilt sleeve; B = shrink to 2–3 names + route to SPY floor). Default (no reply) = continue A; week-1 of the trial was positive. Restate until it clears.
 - **Week ahead:** bank earnings Tue 10/13; **Sept CPI Wed 10/14** (rate-relevant binary → respect SNPS entry-timing advisory: no fresh rate-sensitive/high-beta beta the session before/of it; moot while sleeve full); TSM 10/15; PG earns ~10/20–22 (hold-vs-trim decision ~10/15–16).
 - **Unverified:** none — account/positions/open-orders/clock pulled live this run.
+
+---
+## 2026-10-12 ~15:00 CT · MARKET-CLOSE routine (Mon) — Day summary
+**Market:** CONFIRMED CLOSED (`/v2/clock` is_open=false; next_open 2026-10-13 09:30 ET). Columbus Day session — equities traded normally; bond market was closed.
+**Account (live at bell):** equity **$97,371.99**; cash **$10,996.02 (~11.29%)**; last_equity (Fri 10/9 close) $96,972.32 → **day +$399.67 (+0.41%)**. buying_power $285,836.80; long_mv $86,375.97; status ACTIVE.
+**Inbox:** no Pending (structural A/B still unanswered → default A stands; MSFT armed plan carries forward under Handled). **Astra:** `memory/astra-proposals.md` empty — nothing to fold.
+**Trades placed today:** NONE (0 buys / 0 sells). Only non-fill action all day was the BP −7% hard → 10% trailing stop conversion at the open (logged in trade-log 2026-10-12 08:50). Today's closed-orders query = 0 fills.
+
+**Closing positions (live marks from `/v2/positions`):**
+| Sym | Qty | Avg | Close | P/L$ | P/L% | Stop | Cushion | Size |
+|---|---|---|---|---|---|---|---|---|
+| BP | 214 | 44.4998 | 46.73 | +477 | +5.01% | **10% TRAILING** floor 42.5295, hwm 47.255 | n/a (trails) | 10.3% |
+| NVDA | 32 | 236.8469 | 226.0988 | −344 | −4.54% | 220.27 hard | ~2.58% | 7.4% |
+| PG | 65 | 148.06 | 152.85 | +311 | +3.24% | 137.70 hard | ~9.9% | 10.2% |
+| RMD | 42 | 228.6274 | 234.60 | +251 | +2.61% | 212.62 hard | ~9.4% | 10.1% |
+| RSG | 44 | 218.00 | 219.75 | +77 | +0.80% | 202.74 hard | ~7.7% | 9.9% |
+| SPY | 51 | 766.2584 | 778.10 | +604 | +1.55% | none | n/a | 40.8% |
+
+Total unrealized ≈ **+$1,376.44**.
+
+**Performance (close):**
+- **Day P/L: +$399.67 / +0.41%** (equity 97,371.99 vs last_equity 96,972.32).
+- **SPY day: −0.05%** (778.10 close vs Fri 10/9 close 778.51; verified via Alpaca daily bars + latest trade).
+- **Alpha today: +0.46pt (book ahead).**
+- **Week-to-date** (base Fri 10/9 close book $96,981.21 / SPY 778.51; Mon = day 1): book **+0.40%** vs SPY **−0.05%** → **week alpha +0.45pt (ahead).**
+- **Cumulative alpha since 5/29 ≈ −5.34pt** (improved from −5.80 at Fri's weekly mark).
+
+**Risk checks (priority order):**
+- **(a) −7%-or-worse un-stopped?** NO. Worst NVDA −4.54% (cushion ~2.58% above the 220.27 hard stop). Nothing at/under −7% → no 4-hr news check triggered, no forced sell. NVDA thinnest — do NOT pre-empt, do NOT average down.
+- **(b) +5%+ hard→trailing conversion?** BP +5.01% but **ALREADY on a 10% trailing stop** (converted at the 08:50 open). hwm 47.255 (BP closed 46.73, below hwm → no new ratchet this session), floor 42.5295. No other name at +5% (PG +3.24% next). Nothing to convert.
+- **(c) Daily loss cap:** book **+0.41%** on the day — green. No buy block (moot — sleeve 5/5 full anyway).
+- **(d) Sell signals?** NONE — all 5 conviction theses intact.
+**Open orders:** exactly **5** sell-stop GTC — BP `209e58f4` TRAILING (floor 42.5295, hwm 47.255, trail 10%), PG `edc1bc78` 137.70, NVDA `7d025ecb` 220.27, RMD `91671fa4` 212.62, RSG `93c80d32` 202.74. SPY unencumbered by design. All IDs unchanged from the open. No orphan/dup.
+
+**What worked today:**
+- The SPY floor + PG + RMD + BP carried the book green while SPY itself was flat-to-down (−0.05%) — the diversified participation tilt (default Option A) did its job again: book +0.41% vs a down SPY = +0.46pt alpha on the day.
+- BP's open-session trailing-stop conversion is working as designed; the position closed +5.01% with a GTC trailing floor beneath it.
+
+**What didn't / concerns:**
+- NVDA (−4.54%) remains the lone red and the thinnest cushion (~2.58% to its hard stop) — a single semi/China-export headline could tag it overnight. Honoring the stop; not averaging down, not pre-empting.
+- RSG barely positive (+0.80%); the RMD+RSG rate-sensitive pair is the factor-concentration to watch into Wed's CPI.
+
+**Open questions for tomorrow:**
+- Does NVDA stabilize or keep leaking toward 220.27? (watch China-export headlines)
+- Sept CPI Wed 10/14 is the week's binary — respect the SNPS entry-timing advisory (no fresh rate-sensitive/high-beta beta the session before/of it; moot while sleeve full).
+- PG hold-vs-trim decision due ~10/15–16 ahead of its ~10/20–22 print.
+
+**Voices:**
+- **Research:** no thesis changed today; NVDA red is semi-beta/China-export wobble (MS/UBS $300 targets stand, no break); all other theses green/intact. Bench unchanged (CBOE top add if a slot ever frees); nothing clears 2 signals + ≥70 on a clean entry — and no slot anyway. Astra none.
+- **Risk:** 5 stops resting GTC, IDs unchanged; NVDA tightest (~2.58%) — honor the hard stop. BP trailing holding. Loss cap never near (+0.41%). Cash ~11.3% on target (~$11.0k, above the ~$10k floor).
+- **Trader:** no order warranted; none placed. Correct action = verify + hold + report + the mandatory scorecard. Telegram daily scorecard IS a push event (mandatory every trading day) — pushed.
+**Decision:** steady, no changes. Mandatory daily scorecard written + pushed.
+
+**Handoff → pre-market (Tue 10/13 ~06:00 CT):**
+- Re-verify live: account/positions/open-orders/clock; confirm exactly 5 GTC stops (BP trailing + 4 hard); SPY unencumbered.
+- **Watch NVDA (~2.58% cushion, thinnest)** on any semi/China-export wobble; do NOT pre-empt its stop, do NOT average down.
+- **+5% conversion watch:** BP already converted (trailing active). No other name near +5% (PG +3.24% next). If any name tags +5%, cancel its hard stop, place a 10% trailing GTC.
+- **MSFT armed plan carries forward, double-blocked** (needs a freed slot AND a dip into $515–522; no chase ≥$525; no unfilled carry into earnings ~Oct 28).
+- **STANDING: structural A/B still escalated to Lauren** (A = 5-slot participation-tilt sleeve; B = shrink to 2–3 names + route to SPY floor). Default (no reply) = continue A; week-1 of the trial was positive. Restate until it clears.
+- **Week ahead:** bank earnings Tue 10/13 (JPM/GS/WFC/C + JNJ/UNH); BAC/MS/BLK + **Sept CPI Wed 10/14** (rate-relevant binary → respect SNPS entry-timing advisory); TSM 10/15; PG earns ~10/20–22 (hold-vs-trim decision ~10/15–16). Banks/TSM in fresh-buy blackout this week.
+- **Unverified:** none — account/positions/open-orders/clock pulled live this run.

@@ -1,3 +1,21 @@
+## 2026-10-12 15:00 CT · market-close
+
+**Close: equity $97,372 · day +0.41% · SPY −0.05% · alpha +0.46% — we're up, and ahead of the market.**
+
+**What I did**
+No buys or sells today — a quiet, healthy day. Our lineup stayed full at 5 stocks (plus our S&P 500 index holding), every thesis is intact, and all five safety-sell orders are resting exactly where they should be. The one action earlier in the day was this morning's upgrade of BP's safety-net to a trailing stop; it's been running on autopilot since.
+
+**Why**
+Here's the plain-English scorecard: we made **+$400 today (+0.41%)** while the S&P 500 actually slipped a hair (−0.05%), so we beat the market by about **half a percentage point** — that gap is our "alpha" (the extra return we earn versus just owning the index). The win came from spreading our bets: our index holding, Procter & Gamble, ResMed, and BP all finished green and outweighed Nvidia, our only loser. Nvidia is down −4.5% and is our softest spot — it's closest to its safety-sell, but still has about a 2.6% cushion, so I'm leaving it alone. I don't sell on price alone when the company's story is intact, and I never throw good money after a losing position.
+
+**What happens next**
+The week's big event is **Wednesday's September inflation report** — the number most likely to move the whole market. I'll stay cautious around it and won't start any new interest-rate-sensitive positions right before it. I'll check in at tomorrow's pre-market.
+
+**Numbers I care about**
+- Equity $97,372 — up $400 (+0.41%) today; we've recovered to within ~$2,600 of our $100k starting point
+- Cash $10,996 (~11%) — about 89% invested, right where we want it
+- 0 of 3 buys used this week; lineup full at 5 of 5 stocks; all 5 safety-sells resting
+
 ## 2026-10-12 12:00 CT · midday
 
 **Midday: steady, nothing to change — we're up and running a touch ahead of the market.**
