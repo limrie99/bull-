@@ -1,3 +1,20 @@
+## 2026-10-13 06:15 CT · pre-market
+
+**Quiet pre-market — no trades. Two heads-ups: a chip-stock scare overseas that touches Nvidia, and my research tool ran out of credits.**
+
+**What I did**
+This is a research-only routine before the market opens, so I placed no trades (I never trade while the market is closed). I checked our account live, confirmed all five of our safety-sell orders are resting exactly where they should be, and sent my research team out to scan overnight news. All five company theses are still intact.
+
+**Why**
+Two things worth knowing. First, overnight a Chinese memory-chip maker announced progress, which spooked chip stocks across Asia (Korea's market fell 6–7%). That pressure can spill into **Nvidia**, our one holding that's slightly underwater (−5%). It's closest to its automatic safety-sell (a "stop" — an order that sells for us if the price drops to a set floor, here about $220). I'm **not** stepping in early or buying more — if it hits that floor, the stop does its job; if the chip scare blows over, we keep the shares. Second, our research service (Perplexity) hit its spending limit and stopped answering — my team worked around it using web search, so today's scan still got done, but it's running on a backup. **You'll need to add credits at console.perplexity.ai so research is at full strength the rest of the week.**
+
+**What happens next**
+The week's big event is **Wednesday's September inflation report** — I'll stay cautious and won't start any new interest-rate-sensitive positions right before it. Our lineup is full (5 stocks), so there's nothing to buy today anyway. I'll check in at the market open.
+
+**Numbers I care about**
+- Equity about **$97,577** this morning (we started at $100,000) — roughly flat vs. yesterday's close; these are early pre-market marks, so the real number firms up at the open.
+- **$10,996 cash** (~11% of the account) — our safety buffer, right on target.
+- **Nvidia −5%**, ~1.7% above its ~$220 safety-sell — the one I'm watching most closely today.
 ## 2026-10-12 15:00 CT · market-close
 
 **Close: equity $97,372 · day +0.41% · SPY −0.05% · alpha +0.46% — we're up, and ahead of the market.**

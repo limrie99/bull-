@@ -1,41 +1,42 @@
 {
-  "last_update": "2026-10-12 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-13 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 97371.99,
+  "equity": 97576.63,
   "cash": 10996.02,
-  "day_pl": 399.67,
-  "day_pl_pct": 0.41,
-  "spy_day_pct": -0.05,
-  "alpha_day_pct": 0.46,
-  "week_pl_pct": 0.40,
-  "spy_week_pct": -0.05,
-  "alpha_week_pct": 0.45,
+  "day_pl": 174.85,
+  "day_pl_pct": 0.18,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "week_grade": null,
   "cum_alpha_pct": -5.34,
+  "note": "Pre-market snapshot marks (market closed, opens 9:30 ET) — NOT executed intraday prints; day/week figures firm at the close. No trades (research routine). Perplexity API out of credits account-wide — research ran on WebSearch fallback; needs credits topped up.",
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 46.73,
-      "pl_pct": 5.01,
+      "current": 47.58,
+      "pl_pct": 6.92,
       "stop": 42.5295
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.8469,
-      "current": 226.0988,
-      "pl_pct": -4.54,
+      "current": 224.04,
+      "pl_pct": -5.41,
       "stop": 220.27
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 152.85,
-      "pl_pct": 3.24,
+      "current": 154.52,
+      "pl_pct": 4.36,
       "stop": 137.7
     },
     {
@@ -58,8 +59,8 @@
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 778.10,
-      "pl_pct": 1.55,
+      "current": 777.71,
+      "pl_pct": 1.49,
       "stop": null
     }
   ],
@@ -137,52 +138,22 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-13 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Quiet pre-market · no trades · Asia chip rout pressures NVDA · ⚠️ Perplexity out of credits",
+      "body": "Research-only routine, no trades (market closed). All 5 theses intact, 5 GTC stops resting. Overnight: a Chinese memory-chip scare slammed Asian chip stocks (Kospi −6-7%) and may pressure NVDA (−5%, ~1.7% above its ~$220 stop) at the open — not pre-empting or averaging down. Perplexity API hit its credit limit account-wide; team used WebSearch fallback. Lauren: add Perplexity credits. Sept CPI Wed 10/14 is the week's binary event."
+    },
+    {
       "ts": "2026-10-12 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $97,372 · day +0.41% vs SPY -0.05% · alpha +0.46% (AHEAD)",
-      "body": "Up +$400 (+0.41%) on a quiet no-trade day while the S&P slipped -0.05%, so we beat the market by ~half a point. The diversified mix (SPY floor, PG, RMD, BP all green) outweighed Nvidia's -4.5%. All 5 theses intact; 5 safety-sells resting (BP trailing + 4 hard). NVDA softest with ~2.6% cushion — holding, not averaging down. Cash ~11%. Wednesday's inflation report is the week's big test."
-    },
-    {
-      "ts": "2026-10-12 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, nothing to change — up +0.54% and a touch ahead of the market",
-      "body": "No buys/sells. Lineup full 5/5, all theses healthy, all 5 safety-sells resting. BP's trailing stop (set this morning) is ratcheting up on autopilot. Softest name NVDA -4.4% with ~2.8% cushion to its stop — leaving it alone, not averaging down. Everyone else green. Up +$524 (+0.54%) vs S&P ~flat (-0.08%) = ~+0.62pt ahead today. Close brings the mandatory daily scorecard; Wednesday's inflation report is the week's big test."
-    },
-    {
-      "ts": "2026-10-12 08:50 CT",
-      "routine": "market-open",
-      "headline": "Open: no buys/sells — upgraded BP's safety net to a trailing stop after it cleared +5%",
-      "body": "Quiet open (equities trade on Columbus Day). One action: BP finally traded above +5% for real (+5.9%), so I swapped its fixed $41.38 safety-sell for a trailing stop (floor ~$42.38, rising with the price) — exactly the plan from Friday. No buys/sells; lineup full 5/5, all theses healthy. NVDA is softest (-3.9%, still well above its stop). Up +$259 (+0.27%) on the day. Wednesday's inflation report is the week's big test."
+      "headline": "Close: equity $97,372 · day +0.41% · SPY −0.05% · alpha +0.46%",
+      "body": "No trades — quiet healthy day. Book +$400 (+0.41%) vs SPY −0.05%, beat market by ~half a point. Diversification paid: SPY/PG/RMD/BP green outweighed NVDA (−4.5%, only loser, ~2.6% cushion to stop). Watching Wed's inflation report."
     },
     {
       "ts": "2026-10-12 06:10 CT",
       "routine": "pre-market",
-      "headline": "Pre-market: no trades — lineup full & healthy; BP on the +5% line, CPI Wednesday is the week's big test",
-      "body": "Research-only scan. All 5 theses intact (PG even got stronger — an Evercore upgrade). BP sits right at +5% where I'd upgrade its safety-net to a trailing one, but that's a thin pre-market quote and oil's down, so I'll only act on a real trade at the 9:30 open. Watching Wednesday's inflation report — the week's biggest market-mover, with the Fed leaning toward raising rates."
-    },
-    {
-      "ts": "2026-10-09 16:00 CT",
-      "routine": "weekly-review",
-      "headline": "Week ending Oct 9: +1.78% | SPY +1.15% | alpha +0.63% | grade B",
-      "body": "We beat the market this week — the first winning week vs the S&P 500 in seven. One buy (PG, a steady staples name) funded by a small SPY trim; no stop-outs, no errors. The diversified mix (BP +3.9%, SPY floor +1.7%, PG/RMD green) outweighed Nvidia's -3%. Honest note: still -5.8% behind over the full run, but that gap improved for the first time in 10 weeks. One good week isn't proof — giving the approach another week or two."
-    },
-    {
-      "ts": "2026-10-09 15:05 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $96,981 · day +0.38% vs SPY +0.60% · alpha -0.22% · week alpha +0.62pt (AHEAD)",
-      "body": "Up +$366 on the day, no trades. Trailed a green tape slightly as defensives (BP, RSG, NVDA) lagged; SPY floor (+0.60%) and RMD (+1.5%) carried us. BP faded to +3.93%, missed the +5% trailing-stop upgrade. Week: +1.78% vs SPY +1.16% = ahead by +0.62pt."
-    },
-    {
-      "ts": "2026-10-09 12:00 CT",
-      "routine": "midday",
-      "headline": "Equity $96,925 · day +0.32% · week alpha +0.62pt (ahead WTD)",
-      "body": "Steady midday, no trades. Lineup full and healthy; worst name NVDA -3.14% with ~4% cushion to its safety-sell. BP slipped to +4.02% (off +4.72% open), not yet the +5% trailing-stop upgrade. Close tonight brings the mandatory daily scorecard."
-    },
-    {
-      "ts": "2026-10-09 08:46 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — lineup full & healthy; BP one step from a safety-net upgrade",
-      "body": "No buys/sells — sleeve full 5/5, nothing near a safety-sell. BP up +4.72%, ~12 cents from the +5% mark where I swap its fixed stop for a trailing one. Up +0.34% vs S&P +0.23% — a touch ahead."
+      "headline": "Quiet pre-market · no trades · BP at +5% conversion line · CPI Wed is the binary",
+      "body": "Research-only, no trades. 5/5 full, all theses intact. BP near its +5% trailing-stop conversion (acted at the open). NVDA thinnest cushion, China-export watch. Sept CPI Wed 10/14 = week's key event."
     }
   ]
 }
