@@ -1,3 +1,45 @@
+# 2026-10-13 ~08:50 CT — MARKET-OPEN (Tue) · NO TRADES · book FULL 5/5 · all 5 theses INTACT · NVDA held ~2.22% above stop through the Asia chip rout · ⚠️ Perplexity STILL DOWN · Sept CPI Wed 10/14 is the week's binary
+
+**Routine:** market-open execution. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **Inbox:** no Pending (structural A/B still unanswered → default A continues; MSFT armed plan carries forward under Handled, double-blocked). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required Alpaca/Perplexity vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
+
+**⚠️ PERPLEXITY STILL OUT OF CREDITS** (insufficient_quota, 401, account-wide — re-tested live this routine, same error). Pre-market already surfaced this to Lauren (Telegram urgent + dashboard + message); NOT re-pinging the same ongoing issue. A no-trade management open does not require fresh Perplexity — theses re-confirmed off the pre-market scan (~2.5h old) + live price action. Keep flagging until credits are topped up at console.perplexity.ai.
+
+**Trader — live account verify (OPEN marks 09:45 ET, executed/real):** equity **$97,715.34**, cash **$10,996.02 (~11.25%)**, last_equity (Mon 10/12 close) $97,401.78, buying_power $286,798.16, long_mkt_value $86,719.32, status ACTIVE. **Day move +$313.56 / +0.32%.** Positions & 5 GTC stops **verified live** — exactly 5 open orders, all IDs unchanged (BP trailing `209e58f4` floor **43.60932** trail 10% — ratcheted up from Mon's 42.5295 as BP rose; PG hard `edc1bc78` 137.70; NVDA hard `7d025ecb` 220.27; RMD hard `91671fa4` 212.62; RSG hard `93c80d32` 202.74); SPY unencumbered by design. Sleeve **5/5 FULL**. **Weekly conviction buys 0/3** (week 10/12–10/16; SPY floor exempt).
+
+## Execution of the pre-market handoff (point by point)
+1. **Re-verify live** ✓ — account/positions/orders/clock all pulled; exactly 5 GTC stops, IDs unchanged; SPY unencumbered. Market open confirmed.
+2. **NVDA watch** ✓ — the overnight Asia memory-chip rout (CXMT progress scare → Kospi −6-7%, weak Nasdaq futures) did **NOT** gap NVDA to its stop. Live −4.88% (px 225.28), cushion **~2.22%** to the $220.27 hard stop. Held. Did NOT pre-empt the stop; did NOT average down. Thesis INTACT — sector/sentiment noise, not a company break. Re-verify NVDA headlines once Perplexity is back (any confirmed US-China export escalation would be sev-1).
+3. **PG +5% conversion** — **NOT triggered.** Live PG +2.91% (px 152.37); the +5% line is ~$155.46 (1.05×148.06). Pre-market's +4.36% was a thin pre-open snapshot; the regular-session mark is well below the trigger. Hard stop 137.70 stays. No conversion.
+4. **BP trailing stop** ✓ active — BP +8.67% (px 48.36), floor ratcheted to **43.60932** (now above the 44.4998 entry — locking a profit). No action unless it fires.
+5. **NO new buy** — sleeve 5/5 FULL; a buy needs a conviction SELL to free a slot (none indicated). SPY trim frees cash, not a slot. MSFT plan double-blocked. No qualifying setup regardless (and all this week's financials + TSM are in fresh-buy blackout).
+6. **CPI Wed 10/14 binary** — not today; SNPS entry-timing advisory moot (sleeve full, no buy). Respect it tomorrow (verify the print isn't shutdown-delayed).
+
+## Risk checks (Risk voice)
+- **(a) −7% un-stopped?** NO. Worst NVDA −4.88%, cushion ~2.22% to its hard stop. All 5 conviction names protected.
+- **(b) +5% needing conversion?** BP already on trailing; no other name at +5% (PG +2.91% nearest). Nothing to convert.
+- **(c) Daily loss cap?** N/A — book UP +0.32%.
+- **(d) Sell signals?** NONE — all 5 theses intact, no sev-1 news, no −7% breach, no thesis break. No sell candidate hit a signal overnight.
+
+## Benchmark (open marks)
+- Day: book **+0.32%** vs SPY **+0.04%** (778.39 vs Mon close 778.10) → **alpha today +0.28pt (ahead).**
+- Week-to-date (base Fri 10/9 close book $96,981.21 / SPY 778.51; Tue = day 2): book **+0.76%** vs SPY **−0.02%** → **week alpha +0.78pt (ahead).** In a value-led tape the SPY floor + defensive/energy sleeve is participating, not dragging. Authoritative weekly mark = Friday's close.
+- Cumulative alpha since 5/29 ≈ **−5.34pt** (last firm mark, Mon close; improving intraday, firms Friday).
+
+## Decision
+**NO TRADES** — correct. Sleeve FULL, no sell signal, no slot, no qualifying buy, book up, all stops resting. No guardrail/rule change. Default Option A continues (structural A/B still with Lauren). **Research (Astra):** none. **Operational flag:** Perplexity out of credits — research degraded account-wide until topped up.
+
+## Handoff → midday (Tue 10/13 ~12:00 CT)
+1. **Re-verify live:** account/positions/orders/clock; confirm exactly 5 GTC stops (IDs unchanged) + SPY unencumbered.
+2. **NVDA is the watch item** — thinnest cushion ~2.22% to $220.27; Asia chip rout / China-export risk live. Do NOT pre-empt the stop; do NOT average down. If it trades through, the GTC stop fires by design — log it.
+3. **PG +5% conversion** — if PG genuinely trades ≥+5% (~$155.46) intraday, CANCEL hard stop `edc1bc78` and place a 10% trailing GTC stop.
+4. **BP trailing stop active** — floor 43.60932 ratchets up with price; no action unless it fires.
+5. **NO new buy** — sleeve 5/5 FULL; needs a conviction SELL (none indicated). SPY trim frees cash, not a slot. MSFT plan double-blocked. Financials + TSM in fresh-buy blackout this week.
+6. **CPI Wed 10/14 binary** — respect SNPS entry-timing advisory tomorrow (verify not shutdown-delayed). Bank earnings today set broad tone; TSM Thu 10/15 = NVDA read-through.
+7. **Perplexity STILL down** — fall back to WebSearch; keep flagging to Lauren. Re-verify NVDA + PG headlines once restored before relying on "no news."
+8. **PG hold-vs-trim decision due ~10/15–16.** **MCK/CBOE** = top bench ideas if a slot ever frees. **Check inbox for Lauren's A/B reply** — default A until answered.
+
+---
+
 # 2026-10-13 ~06:15 CT — PRE-MARKET (Tue) · NO TRADES (market closed, open 9:30 ET) · book FULL 5/5 · all 5 theses intact · ⚠️ PERPLEXITY API DOWN (out of credits, account-wide) · Asia CHIP ROUT pressures NVDA (thinnest cushion) · Sept CPI Wed 10/14 is the week's binary
 
 **Routine:** pre-market research. Market **CONFIRMED CLOSED** at run time via `/v2/clock` (is_open=false; next_open 2026-10-13 09:30 ET = today; bond market REOPENS today after Mon Columbus Day). **Inbox:** no Pending (structural A/B still unanswered → default A continues; MSFT armed plan carries forward under Handled, double-blocked). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required Alpaca/Perplexity vars present (EQUIBLES empty → skipped). Synced origin/main at run start.

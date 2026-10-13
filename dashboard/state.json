@@ -1,66 +1,66 @@
 {
-  "last_update": "2026-10-13 06:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-13 08:50 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 97576.63,
+  "equity": 97715.34,
   "cash": 10996.02,
-  "day_pl": 174.85,
-  "day_pl_pct": 0.18,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
-  "week_pl_pct": null,
-  "spy_week_pct": null,
-  "alpha_week_pct": null,
+  "day_pl": 313.56,
+  "day_pl_pct": 0.32,
+  "spy_day_pct": 0.04,
+  "alpha_day_pct": 0.28,
+  "week_pl_pct": 0.76,
+  "spy_week_pct": -0.02,
+  "alpha_week_pct": 0.78,
   "week_grade": null,
   "cum_alpha_pct": -5.34,
-  "note": "Pre-market snapshot marks (market closed, opens 9:30 ET) — NOT executed intraday prints; day/week figures firm at the close. No trades (research routine). Perplexity API out of credits account-wide — research ran on WebSearch fallback; needs credits topped up.",
+  "note": "Market OPEN, live marks. NO TRADES \u2014 sleeve 5/5 FULL, no sell signal, no open slot, book +0.32%. All 5 theses intact through the overnight Asia memory-chip rout; NVDA (-4.88%, ~2.22% above its $220.27 stop) is the watch item \u2014 not pre-empting or averaging down. BP on a trailing stop now above cost. Exactly 5 GTC stops verified, IDs unchanged; SPY unencumbered. Weekly conviction buys 0/3. Perplexity API STILL out of credits account-wide (insufficient_quota) \u2014 research on WebSearch fallback; Lauren: top up billing. Sept CPI Wed 10/14 is the week's binary.",
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 47.58,
-      "pl_pct": 6.92,
-      "stop": 42.5295
+      "current": 48.36,
+      "pl_pct": 8.67,
+      "stop": 43.60932
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.8469,
-      "current": 224.04,
-      "pl_pct": -5.41,
+      "current": 225.28,
+      "pl_pct": -4.88,
       "stop": 220.27
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 154.52,
-      "pl_pct": 4.36,
+      "current": 152.37,
+      "pl_pct": 2.91,
       "stop": 137.7
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 234.60,
-      "pl_pct": 2.61,
+      "current": 235.01,
+      "pl_pct": 2.79,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 219.75,
-      "pl_pct": 0.80,
+      "current": 220.11,
+      "pl_pct": 0.97,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 777.71,
-      "pl_pct": 1.49,
+      "current": 778.45,
+      "pl_pct": 1.59,
       "stop": null
     }
   ],
@@ -138,21 +138,27 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-13 08:50 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades \u00b7 up +0.32% vs SPY +0.04% \u00b7 alpha +0.28 \u00b7 all 5 theses intact",
+      "body": "Quiet, healthy open \u2014 no buys/sells. Five stocks all intact with stops resting; book +$314 (+0.32%), beating the S&P by ~a quarter-point. Overnight Asia memory-chip rout pressured NVDA (\u22124.9%, ~2.2% above its stop) \u2014 sector noise, not a thesis break; not pre-empting or averaging down. BP +8.7% with its trailing stop now above cost (locked-in profit). Sleeve FULL 5/5, so no buy without a sell. Perplexity still out of credits \u2014 on WebSearch fallback; please top up. Watching Wed's inflation report."
+    },
+    {
       "ts": "2026-10-13 06:15 CT",
       "routine": "pre-market",
-      "headline": "Quiet pre-market · no trades · Asia chip rout pressures NVDA · ⚠️ Perplexity out of credits",
-      "body": "Research-only routine, no trades (market closed). All 5 theses intact, 5 GTC stops resting. Overnight: a Chinese memory-chip scare slammed Asian chip stocks (Kospi −6-7%) and may pressure NVDA (−5%, ~1.7% above its ~$220 stop) at the open — not pre-empting or averaging down. Perplexity API hit its credit limit account-wide; team used WebSearch fallback. Lauren: add Perplexity credits. Sept CPI Wed 10/14 is the week's binary event."
+      "headline": "Quiet pre-market \u00b7 no trades \u00b7 Asia chip rout pressures NVDA \u00b7 \u26a0\ufe0f Perplexity out of credits",
+      "body": "Research-only routine, no trades (market closed). All 5 theses intact, 5 GTC stops resting. Overnight: a Chinese memory-chip scare slammed Asian chip stocks (Kospi \u22126-7%) and may pressure NVDA (\u22125%, ~1.7% above its ~$220 stop) at the open \u2014 not pre-empting or averaging down. Perplexity API hit its credit limit account-wide; team used WebSearch fallback. Lauren: add Perplexity credits. Sept CPI Wed 10/14 is the week's binary event."
     },
     {
       "ts": "2026-10-12 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $97,372 · day +0.41% · SPY −0.05% · alpha +0.46%",
-      "body": "No trades — quiet healthy day. Book +$400 (+0.41%) vs SPY −0.05%, beat market by ~half a point. Diversification paid: SPY/PG/RMD/BP green outweighed NVDA (−4.5%, only loser, ~2.6% cushion to stop). Watching Wed's inflation report."
+      "headline": "Close: equity $97,372 \u00b7 day +0.41% \u00b7 SPY \u22120.05% \u00b7 alpha +0.46%",
+      "body": "No trades \u2014 quiet healthy day. Book +$400 (+0.41%) vs SPY \u22120.05%, beat market by ~half a point. Diversification paid: SPY/PG/RMD/BP green outweighed NVDA (\u22124.5%, only loser, ~2.6% cushion to stop). Watching Wed's inflation report."
     },
     {
       "ts": "2026-10-12 06:10 CT",
       "routine": "pre-market",
-      "headline": "Quiet pre-market · no trades · BP at +5% conversion line · CPI Wed is the binary",
+      "headline": "Quiet pre-market \u00b7 no trades \u00b7 BP at +5% conversion line \u00b7 CPI Wed is the binary",
       "body": "Research-only, no trades. 5/5 full, all theses intact. BP near its +5% trailing-stop conversion (acted at the open). NVDA thinnest cushion, China-export watch. Sept CPI Wed 10/14 = week's key event."
     }
   ]

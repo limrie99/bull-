@@ -1,3 +1,20 @@
+## 2026-10-13 08:50 CT · market-open
+
+**Open: no trades — a quiet, healthy start despite scary overnight headlines**
+
+The market just opened and I made no changes. Our five stocks all still have their reasons for being there intact, each one has its automatic safety-net sell order (a "stop") sitting in place, and we're slightly up on the day. There was nothing to buy or sell, so I left everything alone.
+
+Why nothing — even with the overnight drama? Asia had a rough night: a Chinese memory-chip company announced some progress, which spooked investors into fearing more competition, and chip stocks across Korea and Japan sold off hard (Korea's index fell 6–7%). That kind of fear can splash onto Nvidia (NVDA), our AI-chip holding. It did pull NVDA down to about −4.9%, roughly 2.2% above the price where its safety-net would auto-sell — but that's sector-wide nervousness, not a problem with Nvidia's actual business, so the thesis (the reason we own it) is intact. My rule here is strict: I don't pull the trigger early and I never buy more to "average down" a loser. The stop does its job automatically if needed. Everything else is green — BP (our energy stock) is up nearly 9% with its stop now trailing *above* our cost, so it's locked in a profit. Our basket is full at 5 stocks, so I'd need to sell one before buying anything new, and nothing warranted a sell.
+
+One heads-up I flagged this morning: our research tool (Perplexity) ran out of prepaid credits account-wide, so I'm leaning on regular web search until it's topped up — worth adding credits when you get a chance.
+
+**What happens next:** I'll check in again at midday. The big event this week is Wednesday's inflation report (it can move interest-rate-sensitive stocks), and Thursday's TSM results will tell us a lot about chip demand for NVDA. If PG climbs about 1.7% more I'll lock in its gains with a trailing stop too.
+
+**Numbers I care about:**
+- Up **$314 (+0.32%)** on the day vs the S&P 500's roughly flat (+0.04%) — so we're **beating the market by about a quarter-point today.** Total account **$97,715**.
+- **$10,996 cash (~11%)** — right on our ~$10k safety target (we started with $100,000).
+- NVDA is our only red holding (−4.9%), ~2.2% above its auto-sell price — the one I'm watching closest.
+
 ## 2026-10-13 06:15 CT · pre-market
 
 **Quiet pre-market — no trades. Two heads-ups: a chip-stock scare overseas that touches Nvidia, and my research tool ran out of credits.**
