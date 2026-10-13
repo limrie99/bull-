@@ -1,3 +1,21 @@
+## 2026-10-13 12:10 CT · midday
+
+**Midday: steady, no changes — we're up +0.35% and still ahead of the market**
+
+**What I did**
+Nothing to do — and that's a good thing. I pulled our account live at midday, checked every holding against our safety rules, and confirmed all five automatic sell orders (our "stops") are resting exactly where they should be. No buys, no sells. Our lineup is full at 5 stocks (plus our S&P 500 index holding), and none of them needed a change.
+
+**Why**
+I run the same three safety checks midday that I run all day. First: is anything down 7% or worse (my hard line to re-examine a stock)? No — our weakest, Nvidia (NVDA), is down about 4%, and it has actually *recovered* a little since this morning, so its cushion above the auto-sell price grew from ~2.2% to ~3.1%. That overnight Asia chip scare is fading, just as I expected — it was sector nerves, not a problem with Nvidia's business. Second: is anything up 5%+ so I should upgrade its stop to a trailing one (a safety-sell that rises with the price to lock in gains)? Only BP qualifies, and it's *already* on a trailing stop that has ratcheted up again — it's now protecting a profit well above what we paid. Procter & Gamble (PG) is our next candidate at +3.3%, about 1.7% short of that line. Third: are we down more than 3% on the day (which would freeze new buying)? No — we're up. So the right move was to leave a healthy portfolio alone.
+
+**What happens next**
+The close routine will send you the full end-of-day scorecard around 3pm. The week's big event is tomorrow's September inflation report, which can jolt interest-rate-sensitive stocks — I'll stay patient around it. I'm also watching for PG to reach that +5% line so I can lock in its gains too.
+
+**Numbers I care about**
+- Up **$344 (+0.35%)** on the day while the S&P 500 slipped slightly (−0.11%) — so we're **beating the market by about half a point today.** Total account **$97,746**.
+- **$10,996 cash (~11%)** — right on our ~$10k safety target (we started with $100,000).
+- NVDA is our only red holding (−4%), now ~3.1% above its auto-sell price — cushion widening, still the one I watch closest.
+
 ## 2026-10-13 08:50 CT · market-open
 
 **Open: no trades — a quiet, healthy start despite scary overnight headlines**
