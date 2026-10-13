@@ -1,3 +1,23 @@
+## 2026-10-13 15:00 CT · market-close
+
+**Close: equity $97,881 · day +0.49% · SPY −0.01% · alpha +0.50% — a quietly good day, and we beat the market again**
+
+**What I did**
+No trades today — I managed the portfolio and let a healthy lineup do its work. I pulled our account live at the close, checked every holding against our safety rules, and confirmed all five automatic sell orders (our "stops") are resting exactly where they should be. No buys, no sells, nothing fired.
+
+**Why**
+This was a broad, calm win rather than a one-stock fluke. Four of our five stocks finished green and our S&P 500 index holding rose too, so the gains were spread out — exactly the kind of day a diversified book is built for. The standout story is Nvidia (NVDA): yesterday's overseas chip scare dragged it to −4.9% at the open, but it recovered all day and closed at just −3.25%, widening its safety cushion to ~3.9% above its auto-sell price. That's the payoff for patience — I didn't panic-sell on sector noise or "average down" (buy more of a loser to lower our cost, which our rules forbid). BP, our energy stock, is up ~8.9% with its trailing stop (a safety-sell that rises with the price) locked in above what we paid.
+
+**What happens next**
+Tomorrow (Wed) brings the September inflation report at 7:30am our time — the week's big event, since a hot number can jolt interest-rate-sensitive stocks. I'll stay patient around it and won't open anything new into that print. I'm also watching PG to reach its +5% line (~$155.46) so I can upgrade its stop to a trailing one, and Thursday's TSM results for a read on chip demand.
+
+**Numbers I care about**
+- Up **$480 (+0.49%)** on the day while the S&P 500 was basically flat (−0.01%) — so we **beat the market by about half a point today ("alpha" = our extra return vs. just owning the index).** Total account **$97,881** (we started with $100,000).
+- Week-to-date we're **+0.93% vs the S&P's −0.06% — ahead by ~1 point** so far this week.
+- **$10,996 cash (~11%)** — right on our ~$10k safety target. Our 5-stock lineup is full, so no new buys without a sell first.
+
+**One standing heads-up:** our research tool (Perplexity) is still out of prepaid credits account-wide — I'm leaning on regular web search until it's topped up at console.perplexity.ai. Worth a minute when you get a chance.
+
 ## 2026-10-13 12:10 CT · midday
 
 **Midday: steady, no changes — we're up +0.35% and still ahead of the market**
