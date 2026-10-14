@@ -1,3 +1,55 @@
+# 2026-10-14 ~06:15 CT — PRE-MARKET (Wed) · NO TRADES (market closed) · 4-agent fan-out ran · book FULL 5/5, all 5 theses INTACT · ⚠️ Perplexity STILL DOWN (WebSearch fallback) · ★ Sept CPI 8:30 ET CONFIRMED releasing — the week's binary, hot-skewed
+
+**Routine:** pre-market research. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 07:10 ET; next_open 2026-10-14 09:30 ET). **Inbox:** no Pending (structural A/B still unanswered → default A continues; MSFT armed plan carries forward under Handled, double-blocked). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required Alpaca/Perplexity vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
+
+**⚠️ PERPLEXITY STILL OUT OF CREDITS** (insufficient_quota, 401, account-wide — re-tested live this routine, same error). Already surfaced to Lauren (pre-market Mon + ongoing); NOT re-pinging the same issue. All 4 sub-agents ran on **WebSearch fallback** — which returned thin/stale data on live prices, so decimal-level macro/price reads this run are LOW confidence (flagged below); directional/regime reads and earnings DATES are higher confidence. Keep flagging until credits topped up at console.perplexity.ai.
+
+**Trader — live account verify (pre-market marks, executed/real):** equity **$98,020.71**, cash **$10,996.02 (~11.2%)**, last_equity (Tue 10/13 close) $97,867.91, buying_power $287,653.21, long_mkt_value $87,024.69, status ACTIVE. Positions & 5 GTC stops **verified live** — exactly 5 open orders, all IDs unchanged (BP trailing `209e58f4` floor **43.8615**; PG hard `edc1bc78` 137.70; NVDA hard `7d025ecb` 220.27; RMD hard `91671fa4` 212.62; RSG hard `93c80d32` 202.74); SPY unencumbered by design. Sleeve **5/5 FULL**. **Weekly conviction buys 0/3** (week 10/12–10/16; SPY floor exempt). Pre-market marks: BP +9.53%, NVDA −3.95% (cushion ~3.18% — THINNEST), PG +4.35%, RMD +2.70%, RSG +0.88%, SPY +1.68%.
+
+## Market context (4-agent fan-out — Research voice)
+- **★ Sept CPI CONFIRMED for today 8:30 ET (NOT shutdown-delayed)** — multiple 2026-dated sources + BLS schedule; mirrors the 2025 precedent where BLS recalled staff to publish (collection finished pre-shutdown). Small residual late-delay risk → have the BLS page open at 8:30. **Consensus hot-skewed:** headline ~3.6–3.7% y/y / ~+0.6% m/m (ENERGY-led jump from 3.4% Aug); core softer ~2.5% y/y / ~+0.2% m/m (Cleveland Fed nowcast ~3.6% hd / ~2.3–2.4% core). **Reaction map:** HOT (hd >3.7% or core >0.3% m/m) → yields spike, Dec-hike odds firm, rate-sensitives sell off; COOL (core ≤0.2%) → relief rally. **This is the week's binary** — expect thin, jumpy tape until 8:30.
+- **Regime: risk-OFF / defensive, wait-and-see freeze into CPI.** Stagflation-tinged backdrop — reaccelerating headline inflation + multi-decade-high long yields (10Y elevated ~5.1–5.3%, exact level LOW-confidence off WebSearch) + a Fed leaning toward a **December HIKE** (~70–89% odds; Oct 27–28 ~79% HOLD). High-multiple/long-duration growth most exposed; energy (BP) relatively insulated and even benefits from the energy-led inflation impulse.
+- **Futures:** ES soft-to-flat, NQ weaker (memory/semis leading down on capex warnings) — cautious into the print. Global overnight UNVERIFIED (stale data) → logged as a gap.
+- **Earnings tape:** big-bank day — BAC/MS/WFC/BLK/STT pre-open (sets macro risk tone via NII + credit/reserve commentary); GS/C already reported 10/13. **ASML 6-K already out (10/14): Q3 sales ~€11.7B above guide, FY2026 raised to €44–45B ~56% GM** = strong AI-upcycle confirm, but upstream litho = only a SOFT read-through to NVDA. **TSM Thu 10/15 pre-open = the single most important chip-demand tell of the week for NVDA** — revenue beat largely known; the debate is 2027 AI-pricing, gross margin (2nm dilution), and 2026 capex ($60–64B; a raise = bullish). Confident capex/AI tone = clean positive NVDA read; margin miss / cautious 2027 = downside.
+- **Govt shutdown ~Day 14** — data blackout risk for OTHER releases even as CPI prints.
+- **SNPS entry-timing advisory (occ-2, probation):** **ACTIVE today** — CPI is a rate-relevant binary print. No fresh rate-sensitive/high-beta beta the session before/of it. **Moot this run** — sleeve FULL, no buy planned.
+
+## Portfolio watch (Position voice — all theses INTACT, no stop at risk)
+- **NVDA — HIGHEST-PRIORITY WATCH.** Thinnest cushion ~3.18% to the $220.27 hard stop; most headline-sensitive name. Asia memory-chip (CXMT) scare faded as read. Live risks: (1) US-China export-control truce fraying with a **Nov 10 expiry deadline** (Oct 9 Beijing formalized its critical-mineral strategy); (2) **TSM Thu 10/15**. Thesis INTACT (AI-infra secular). Do NOT pre-empt the stop; do NOT average down. A confirmed US-China escalation would be sev-1 — re-verify once Perplexity restored.
+- **BP** +9.53% on its trailing stop (floor 43.8615, above $44.50 entry — locking profit); no action. ⚠️ **Oil-price flag:** two agents could NOT confirm live WTI/Brent — stale snapshots ranged $70s–$90s+. The energy-rotation thesis assumes firm oil; a softer tape would soften (not break) it. Immaterial today (trailing stop protects; no new energy buy planned); re-verify oil live once Perplexity restored. Earn ~10/27.
+- **PG** +4.35% (px ~154.50), **~0.62% / ~$0.96 from the +5% conversion line (~$155.46)** — if it trades ≥+5% at open/midday, CANCEL hard stop `edc1bc78` and place a 10% trailing GTC. Thesis strengthened (Evercore OP $166, BofA $170); no fresh 24-48h news. **Hold-vs-trim decision due ~10/15–16** ahead of the ~10/20–22 print.
+- **RMD** +2.70%, stop 212.62 — no fresh news; Philips 2027 re-entry overhang dormant. Earn 10/29.
+- **RSG** +0.88%, stop 202.74 — no material news; dividend pays ~10/15; last quarter beat + raised FY guide still operative. Earn 10/29.
+- **SPY floor** +1.68%, no stop (index sleeve carve-out), ~40.5% index exposure anchoring benchmark participation.
+
+## Buy candidates (bench only — sleeve 5/5 FULL, NO open slot, NO buy today)
+Signals need 2+ VERIFIED AND Conviction ≥70 AND a clean non-extended entry AND an OPEN SLOT. ⚠️ All prices/50dMAs below are stale WebSearch reads — re-verify live before any buy.
+1. **MCK (McKesson) ~conv 73 — TOP BENCH IDEA.** Signals #4 (Citi Buy→$860, UBS $920, JPM $853), #6 (clean uptrend, repeated 12-mo highs), #1 (Q1 FY27 beat + raised FY guide, older). **Healthcare distribution — low-multiple, defensive, rate-RESILIENT = best fit for today's CPI/high-10Y backdrop.** Earn **Nov 4 → CLEAR of blackout.** No overlap with book. **Promote first if a slot frees.**
+2. **ETN (Eaton) ~conv 70.** Signals #3 (electrification/AI-datacenter-power secular), #6 (basing above 50dMA, verify). New factor (electrical equipment). Earn ~early Nov (verify). Solid #2.
+3. **GEV (GE Vernova) ~conv 72 thesis.** Strongest secular power story, but **earn Oct 28 = BLACKOUT** + very high multiple = heavy rate risk into CPI. Un-buyable now; hold on bench.
+4. **VRT (Vertiv) ~conv 68 — NEW.** #3 AI data-center power/cooling + #4 PT-raise cluster + #6 uptrend, but very high multiple + extended = chase/rate risk. Watch, don't chase.
+5. **LLY ~conv 67.** GLP-1 secular; earn 10/29 (near-blackout) + high multiple = rate risk.
+6. **CBOE ~conv 64.** Low-beta exchange, rate-resilient; weak on upgrades. Diversifier, lower urgency.
+Parked: EMR (~62, overlaps ETN), TMO (blackout 10/22–28), NXT (~58, policy risk, likely blackout). No clean NEW 2-signal breakout surfaced this week.
+
+## Sell candidates
+NONE — all 5 conviction theses intact, all 5 stops resting, no −7% breach, no thesis break, SPY held. No sell signal hit.
+
+## Decision
+**NO TRADES — market closed (pre-market research routine).** Sleeve 5/5 FULL → no open slot; a new name (MCK lead) needs a conviction SELL to free a slot (not indicated). CPI binary today + SNPS advisory active (moot while full). Default Option A continues (structural A/B still with Lauren). **Research (Astra):** none (file empty). **Risk:** NVDA thinnest cushion, do not pre-empt; no new rate-sensitive beta into CPI (moot). **Trader:** nothing to place — market closed; stops verified intact.
+
+## Handoff → market-open (Wed 10/14 ~08:30 CT)
+1. **Re-verify live:** account/positions/orders/clock; confirm exactly 5 GTC stops (IDs unchanged) + SPY unencumbered.
+2. **★ Sept CPI 8:30 ET is the binary** — confirm it actually printed (small shutdown-delay risk); read hot/cool and the yield reaction. HOT → expect rate-sensitives (RMD/RSG/PG) + NVDA multiple pressure; COOL → relief. **Respect SNPS advisory** (no fresh rate-sensitive/high-beta beta into/at the print; moot while sleeve full).
+3. **NVDA is THE watch** — cushion ~3.18% to $220.27; US-China (Nov 10) + TSM Thu 10/15. Do NOT pre-empt the stop; do NOT average down. A confirmed export escalation = sev-1.
+4. **PG +5% conversion** — if PG trades ≥+5% (~$155.46, only ~0.62% away) in the regular session, CANCEL hard stop `edc1bc78` and place a 10% trailing GTC. **PG hold-vs-trim decision due ~10/15–16.**
+5. **BP trailing stop active** — floor 43.8615 ratchets with price; no action unless it fires. ⚠️ Verify oil live.
+6. **NO new buy** — sleeve 5/5 FULL; needs a conviction SELL (none indicated). Banks/TSM/GE/LMT/PG + GEV in fresh-buy blackout.
+7. **Perplexity STILL down** — WebSearch fallback; keep flagging to Lauren. Re-verify NVDA/BP/PG headlines once restored before relying on "no news."
+8. **MCK = top bench idea** if a slot ever frees (rate-resilient, clear until Nov 4). **Check inbox for Lauren's A/B reply** — default A until answered. MSFT armed plan double-blocked.
+
+---
+
 # 2026-10-13 ~15:00 CT — MARKET-CLOSE (Tue) · NO TRADES · book FULL 5/5 · all 5 theses INTACT · day +0.49% vs SPY −0.01% (alpha +0.50) · NVDA recovered to ~3.88% cushion · ⚠️ Perplexity STILL DOWN · Sept CPI Wed 10/14 is the week's binary
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 16:13 ET; next_open 2026-10-14 09:30 ET). **Inbox:** no Pending (structural A/B still unanswered → default A continues; MSFT armed plan carries forward under Handled, double-blocked). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required Alpaca/Perplexity vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
