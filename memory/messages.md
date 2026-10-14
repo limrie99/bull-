@@ -1,3 +1,21 @@
+## 2026-10-14 12:10 CT · midday
+
+**Midday: locked a profit-protecting net under Procter & Gamble — otherwise steady.**
+
+**What I did**
+One housekeeping move, no buying or selling. Procter & Gamble (PG) crossed into +5% profit, so I upgraded its safety net: I cancelled its fixed "auto-sell if it falls to $137.70" and replaced it with a **trailing stop** (a sell order that automatically rises as the stock climbs, always staying 10% below the peak). Everything else I left exactly as it was.
+
+**Why**
+This is a rule we set in advance, and it's one of my favorites because it changes the question from "how much can I lose?" to "how much profit can I protect?" A fixed stop stays put; a trailing stop *follows the stock up* and only ever moves higher, so it keeps locking in more of the gain as the price rises — while still giving the stock room to wiggle. PG earned the upgrade by clearing +5%. The rest of the book is calm after this morning's hot inflation report: BP (energy) is our star at +9.6% because energy-driven inflation helps it, and our steady names are mostly green. The one I'm minding is Nvidia — it slipped to −6.1% as interest rates stayed high — but it's still above its auto-sell price and its AI story is intact, so I let its safety net do its job rather than selling in a panic or buying more to "average down" (a trap I avoid on principle).
+
+**What happens next**
+Into the close I'm watching Nvidia most closely — its cushion above the auto-sell line is now thin (~1%). If it trips, the sell happens automatically; I won't jump ahead of it. Taiwan Semiconductor reports earnings Thursday, which will tell us a lot about chip demand. I'll send the full plain-English daily scorecard at the market close.
+
+**Numbers I care about**
+- Equity **$97,550** — down a touch on the day (−$318 / −0.33%), normal on a jittery, rates-up tape, and well inside our safety limits.
+- Cash **$10,996 (~11%)** — right on our ~$10k target; the rest is invested across 5 stocks plus our S&P 500 "floor."
+- PG now protected by a trailing stop starting at **$140.07** and rising with the price; Nvidia sits ~1% above its **$220.27** auto-sell — the tightest cushion we have.
+
 ## 2026-10-14 08:50 CT · market-open
 
 **Open: no trades — a hot inflation report, and our book is holding up fine.**

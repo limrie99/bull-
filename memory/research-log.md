@@ -11484,3 +11484,39 @@ Total unrealized ≈ **+$1,376.44**.
 - **NO new buy** — sleeve FULL; needs a conviction sell. Bench lead MCK (clear until Nov 4), ETN #2 — re-confirm live if a slot ever frees.
 - **STANDING:** check inbox for Lauren's structural A/B reply (default A). MSFT armed plan carries forward, double-blocked.
 - **⚠️ Perplexity still out of credits** — WebSearch fallback; keep flagging to Lauren (console.perplexity.ai). Re-verify NVDA/BP/PG headlines once restored before relying on "no news."
+
+## 2026-10-14 ~12:10 CT · MIDDAY routine (Wed · post-CPI risk-off tape)
+
+**Slot mandate:** manage what's on — stop integrity, +5% trailing-stop conversions, thesis breaks, daily loss cap. No new buys unless a high-conviction breaking catalyst AND room (neither present).
+
+**Live verification (truth > handoff):**
+- `/v2/clock`: is_open=**true**, 13:10 ET, next_close 16:00 ET. ✓
+- Account: equity **$97,549.77**, cash **$10,996.02** (~11.3%), last_equity (Tue 10/13 close) $97,867.91 → **day ≈ −$318 / −0.33%** (soft on the risk-off tape, well inside the −3% cap). buying_power $286,334.58. status ACTIVE.
+- Positions (6): BP 214 +9.61%, NVDA 32 −6.11%, PG 65 **+5.11%**, RMD 42 +2.05%, RSG 44 +2.54%, SPY 51 +0.44%.
+- Open orders at entry = exactly 5, IDs unchanged vs market-open (BP trailing `209e58f4`, PG `edc1bc78`, NVDA `7d025ecb`, RMD `91671fa4`, RSG `93c80d32`); SPY unencumbered. ✓
+
+**Risk management — priority order:**
+- **(a) Any position −7% or worse un-stopped?** NO. Worst = NVDA −6.11% (slipped from −4.95% at the open as the 10Y held ~5.29% and the semi/tape stayed soft). Cushion to its $220.27 hard stop now **~0.95%** (current $222.38) — THINNEST, but ABOVE the stop and protected. Per the NVDA ×2 / SNPS lesson: do NOT pre-empt the stop, do NOT average down — let the −7% stop do its job if it comes to that. Thesis INTACT (macro/rate pressure, not a company break); TSM reports Thu 10/15 = next real chip-demand read.
+- **(b) +5% conversion — PRIMARY MIDDAY ACTION, FIRED.** PG crossed +5.11% (current $155.63 > the +5% line $155.463). Executed the conversion: cancelled hard stop `edc1bc78` (HTTP 204, confirmed zero open PG orders) → placed 10% trailing GTC stop `272e2864-58a7-471f-93ad-acf3914e5a18`, qty 65, floor 140.067, hwm 155.63, status new. BP already trailing. No other name at +5% (RSG +2.54% next).
+- **(c) Daily loss cap:** NOT hit — book −0.33% intraday, well inside −3%. (Moot — sleeve full, no buy planned.)
+- **(d) Sell signals?** NONE — all 5 conviction theses intact, all stops resting, SPY held. No sells.
+
+**Voices:**
+- **Research:** No new thesis (sleeve full, no cold-start, no breaking catalyst worth freeing a slot). Hot-CPI aftermath is a rate event, not a company thesis break. BP thesis reinforced by energy-led inflation.
+- **Risk:** The flagged PG +5% conversion executed cleanly; NVDA is the one watch (~0.95% cushion) but handled by its resting hard stop, not a pre-emptive exit. Factor mix intact: BP (energy, tailwind) / NVDA (semi, pressured) / PG (staples, now trailing) / RMD+RSG (rate-sensitive pair, green). Daily loss cap clear.
+- **Trader:** One order action (PG stop swap). No fills. Sleeve 5/5 FULL → any buy needs a conviction sell (none indicated). Weekly buys 0/3. MSFT plan double-blocked.
+
+**Open orders after the action = exactly 5:** PG trailing `272e2864` (floor 140.067), BP trailing `209e58f4` (floor 43.9515), NVDA hard `7d025ecb` (220.27), RMD hard `91671fa4` (212.62), RSG hard `93c80d32` (202.74); SPY unencumbered. ✓
+
+**Inbox:** empty (no Pending). **Astra proposals:** empty. **No Telegram push** — a midday stop-management action is not on the push list (push only on trade fill / stop triggered / close / weekly / urgent).
+
+**Handoff → market-close (Wed 10/14 ~3:00 CT):**
+- **MANDATORY:** write the plain-English daily scorecard vs SPY to `messages.md` AND push it to Telegram (never skipped). Firm the day/benchmark figures at the close (open/midday marks are indicative).
+- Re-verify live: account / positions / orders / clock; confirm exactly 5 GTC stops, IDs unchanged (PG now trailing `272e2864`, BP trailing `209e58f4`, NVDA `7d025ecb`, RMD `91671fa4`, RSG `93c80d32`); SPY unencumbered.
+- **NVDA is THE overnight watch** — ~0.95% cushion to $220.27, thinnest and most yield-sensitive. If it tags the stop it auto-closes; do NOT pre-empt, do NOT average down. **TSM reports Thu 10/15** pre/post — key NVDA read-through; US-China truce expires Nov 10.
+- **PG now on a 10% trailing stop** (floor 140.067, ratchets with price). **Hold-vs-trim-into-earnings decision due ~10/15–16** (PG earns ~10/20–22; thesis does not depend on the print).
+- **BP** trailing floor 43.9515 ratchets; energy-led CPI a tailwind.
+- **NO new buy** — sleeve FULL; needs a conviction sell (not indicated). Bench lead MCK (clear until Nov 4), ETN #2 — re-confirm live if a slot frees.
+- **STANDING:** check inbox for Lauren's structural A/B reply (default A). MSFT armed plan carries forward, double-blocked (full sleeve + ≥$525 chase-block + no unfilled carry into earnings ~Oct 28).
+- **⚠️ Perplexity still out of credits** (account-wide insufficient_quota) — WebSearch fallback; keep flagging to Lauren (console.perplexity.ai). Re-verify held-name headlines once restored before relying on "no news."
+- **Unverified:** none — account/positions/open-orders/clock pulled live this run.

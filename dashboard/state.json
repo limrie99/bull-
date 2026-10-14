@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-10-14 08:50 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-10-14 12:10 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 97823.64,
+  "equity": 97549.77,
   "cash": 10996.02,
-  "day_pl": -44.27,
-  "day_pl_pct": -0.05,
+  "day_pl": -318.14,
+  "day_pl_pct": -0.33,
   "spy_day_pct": null,
   "alpha_day_pct": null,
   "week_pl_pct": 0.93,
@@ -13,54 +13,54 @@
   "alpha_week_pct": 0.99,
   "week_grade": null,
   "cum_alpha_pct": -5.34,
-  "note": "Market-open (CONFIRMED open) — NO TRADES. The week's binary resolved: September CPI came in HOT (headline +3.7% YoY vs 3.6% exp, +0.6% MoM; core +2.6% vs 2.5%; energy-led, gasoline +9.1%). 10Y jumped ~+7bp to ~5.29%, modest risk-off, dollar firmer, Dec-hike odds up -- the defensive tape pre-market flagged. Book absorbed it well (day ~-$44 / -0.05%, flat): BP +9.2% (energy-led CPI is a tailwind), RMD/RSG/PG soft but green, NVDA the one pressured name (-4.95%, ~2.2% above its $220.27 stop -- thinnest cushion; thesis intact, not pre-empting or averaging down). Sleeve 5/5 FULL, no conviction sell, no thesis break -> no buy. All 5 GTC stops resting, IDs unchanged; SPY unencumbered. PG ~0.6% from its +5% trailing-stop conversion (~$155.46) -- armed for midday. Weekly buys 0/3. Inbox + Astra empty. No Telegram (no-trade open). ⚠️ Perplexity still out of credits (WebSearch fallback; Lauren: top up at console.perplexity.ai). Default Option A continues (structural A/B still awaiting Lauren). WTD ahead: +0.93% vs SPY -0.06%. Next read: TSM earnings Thu 10/15.",
+  "note": "Midday (CONFIRMED open) — ONE risk-mgmt action, no buys/sells. PG crossed +5.11% ($155.63 > +5% line $155.46), so the flagged PRIMARY trigger fired: cancelled PG's -7% hard stop (137.70) and placed a 10% trailing GTC stop (floor 140.067, hwm 155.63) to lock in profit -- PG is now the 2nd trailing stop alongside BP. All other holds unchanged. Book soft on the risk-off, rates-up tape: day -$318 / -0.33%, well inside the -3% cap. BP +9.6% (energy-led CPI a tailwind), PG +5.1%, RSG +2.5%, RMD +2.1% green; NVDA the one pressured name (-6.11%, ~0.95% above its $220.27 stop -- THINNEST cushion; thesis intact, not pre-empting or averaging down). Sleeve 5/5 FULL, no conviction sell, no thesis break -> no buy. Open orders re-verified = exactly 5 (BP + PG trailing, NVDA/RMD/RSG hard); SPY unencumbered. Weekly buys 0/3. Inbox + Astra empty. No Telegram (midday stop-mgmt not on push list). Default Option A continues (structural A/B still awaiting Lauren). WTD ahead: +0.93% vs SPY -0.06%. Watching NVDA + TSM earnings Thu 10/15. Perplexity still out of credits (WebSearch fallback; Lauren: top up at console.perplexity.ai).",
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 48.585,
-      "pl_pct": 9.18,
-      "stop": 43.8615
+      "current": 48.775,
+      "pl_pct": 9.61,
+      "stop": 43.9515
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.8469,
-      "current": 225.12,
-      "pl_pct": -4.95,
+      "current": 222.38,
+      "pl_pct": -6.11,
       "stop": 220.27
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 154.525,
-      "pl_pct": 4.37,
-      "stop": 137.7
+      "current": 155.63,
+      "pl_pct": 5.11,
+      "stop": 140.067
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 235.65,
-      "pl_pct": 3.07,
+      "current": 233.315,
+      "pl_pct": 2.05,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 221.51,
-      "pl_pct": 1.61,
+      "current": 223.545,
+      "pl_pct": 2.54,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 775.30,
-      "pl_pct": 1.18,
+      "current": 769.5945,
+      "pl_pct": 0.44,
       "stop": null
     }
   ],
@@ -138,6 +138,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-14 12:10 CT",
+      "routine": "midday",
+      "headline": "Midday: locked a profit-protecting net under PG (+5%) · otherwise steady · NVDA the one to watch",
+      "body": "One housekeeping move, no buying/selling. Procter & Gamble crossed +5% profit, so per our rule I upgraded its safety net from a fixed auto-sell to a TRAILING stop (one that rises with the stock and locks in more profit as it climbs, now starting at $140.07). Everything else unchanged. Book soft on the rates-up tape (day -$318 / -0.33%, well within limits): BP +9.6% (energy helps it), PG/RMD/RSG green; only Nvidia is pressured (-6.1%, ~1% above its $220.27 auto-sell -- thinnest cushion). Its AI story is intact so I'm letting its safety net do its job, not pre-empting or averaging down. Sleeve FULL 5/5, all 5 stops resting, SPY unencumbered. Full scorecard at the close. Perplexity still out of credits -- please top up."
+    },
+    {
       "ts": "2026-10-14 08:50 CT",
       "routine": "market-open",
       "headline": "Open: no trades · hot September inflation, book holds up (day ~flat) · NVDA the one to watch",
@@ -178,12 +184,6 @@
       "routine": "market-close",
       "headline": "Close: equity $97,372 · day +0.41% · SPY −0.05% · alpha +0.46%",
       "body": "No trades — quiet healthy day. Book +$400 (+0.41%) vs SPY −0.05%, beat market by ~half a point. Diversification paid: SPY/PG/RMD/BP green outweighed NVDA (−4.5%, only loser, ~2.6% cushion to stop). Watching Wed's inflation report."
-    },
-    {
-      "ts": "2026-10-12 06:10 CT",
-      "routine": "pre-market",
-      "headline": "Quiet pre-market · no trades · BP at +5% conversion line · CPI Wed is the binary",
-      "body": "Research-only, no trades. 5/5 full, all theses intact. BP near its +5% trailing-stop conversion (acted at the open). NVDA thinnest cushion, China-export watch. Sept CPI Wed 10/14 = week's key event."
     }
   ]
 }
