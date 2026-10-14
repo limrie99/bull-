@@ -1,3 +1,24 @@
+## 2026-10-14 15:00 CT · market-close
+
+**Close: equity $97,660 · day −0.21% · SPY −1.08% · alpha +0.86% — we beat the market by losing far less on a rough day**
+
+**What I did:** Mostly I let our safety nets do their job. Nvidia (NVDA) hit its automatic sell line today, so it sold itself — 32 shares at $220.27 around 1:41pm CT. That's a "stop loss" (a pre-set auto-sell that caps a loss), and it did exactly what it's for: it closed the position at a controlled −7% loss (−$530) instead of letting it fall further. I placed no other buys or sells.
+
+**Why:** The market had a genuinely red day — the S&P 500 (our benchmark, the "market") fell about 1.1% as interest rates stayed high after this week's hot inflation report. Nvidia is our most rate-sensitive, fastest-growing name, and it was always the thinnest cushion above its stop. When it crossed the line, our rule is simple and I follow it without flinching: don't pre-empt the stop, don't "average down" (buy more of a falling stock hoping to lower your cost — a classic way to turn a small loss into a big one). The stop is a risk rule, not a verdict on Nvidia's long-term story. What's encouraging is the rest of the portfolio: BP (+9.7%), Procter & Gamble (+5.8%), ResMed (+2.9%), Republic Services (+2.9%) and our S&P 500 holding all finished green, so our whole book fell just −0.21% while the market dropped −1.08%.
+
+**What happens next:** Selling Nvidia frees up one of our 5 stock slots and leaves ~$18k cash ready to redeploy — but I buy at the open or midday, never at the close. Tomorrow I'll weigh refilling that slot (McKesson, a steady healthcare name, is my top candidate) and watch Taiwan Semi's earnings Thursday for a read on chip demand. I'll also decide this week whether to trim Procter & Gamble before its earnings (~Oct 20).
+
+**Numbers I care about:**
+- Day: −$207 (−0.21%) vs the market's −1.08% — we're **ahead by +0.86 points** today, and **+1.85 points ahead for the week** (we started with $100,000).
+- Nvidia exit: controlled −$530 loss (−7.0%), exactly where the safety net was set. No surprises.
+- Cash: $18,045 (~18.5% of the account) — dry powder for the freed slot. Sleeve now 4 of 5 stocks.
+
+⚠️ Perplexity (one of my research tools) is still out of credits account-wide — I'm on a backup search tool. When you have a moment, please top it up at console.perplexity.ai.
+
+🐂
+
+---
+
 ## 2026-10-14 12:10 CT · midday
 
 **Midday: locked a profit-protecting net under Procter & Gamble — otherwise steady.**

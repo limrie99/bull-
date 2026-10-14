@@ -1,3 +1,35 @@
+# 2026-10-14 ~15:00 CT — MARKET-CLOSE (Wed) · ★ NVDA −7% HARD STOP FIRED (auto-closed, −$530/−7.0%) · sleeve 5/5→4/5, one slot freed · book −0.21% vs SPY −1.08% → alpha +0.86 (out-defended a risk-off day) · ⚠️ Perplexity STILL DOWN
+
+**Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 16:12 ET; next_open 2026-10-15 09:30 ET). **Inbox:** no Pending (structural A/B still unanswered → default A continues; MSFT armed plan carries forward under Handled). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required Alpaca/Perplexity vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
+
+**⚠️ PERPLEXITY STILL OUT OF CREDITS** (insufficient_quota, account-wide — flagged repeatedly, not re-pinging). A stop-out management close does not require fresh Perplexity; the exit was mechanical. Keep flagging until topped up at console.perplexity.ai.
+
+**Trader — live account verify (CLOSE marks, executed/real):** equity **$97,660.38**, cash **$18,044.70 (~18.5%)**, last_equity (Tue 10/13 close) $97,867.91, buying_power $295,102.70, long_mkt_value $79,615.68, status ACTIVE. **Day move −$207.53 / −0.21%.** **★ NVDA −7% hard stop FIRED:** 32 sh sold @ **$220.27125** at **18:41:07 UTC / 14:41 ET** (order `7d025ecb`), realized **−$530.42 / −7.0%** off the $236.846875 entry. NVDA's GTC stop order consumed by the fill — **no orphan**. Positions & remaining stops **verified live** — exactly **4** open orders now (BP trailing `209e58f4` floor **44.0775** hwm 48.975 — ratcheted up today; PG trailing `272e2864` floor **140.9625** hwm 156.625 — ratcheted up today; RMD hard `91671fa4` 212.62; RSG hard `93c80d32` 202.74); SPY unencumbered by design. **Sleeve 5/5 → 4/5 — ONE OPEN SLOT freed.** **Weekly conviction buys 0/3** (week 10/12–10/16; SPY floor exempt). **Today's manual orders: 0** — the only fill was the mechanical NVDA stop.
+
+## Day summary (firm close figures)
+- **Closing equity:** $97,660.38 (cash $18,044.70 / ~18.5%; long_mv $79,615.68).
+- **Day P/L:** −$207.53 / **−0.21%** (vs Tue 10/13 close $97,867.91).
+- **SPY day:** 778.03 (Tue 10/13 close) → 769.65 (Wed 10/14 close) = **−1.08%** (risk-off, rates-up tape).
+- **Alpha today:** −0.21% − (−1.08%) = **+0.86pt — AHEAD** (we fell far less than the market).
+- **Week-to-date** (basis Fri 10/09 close $96,972.32): book +0.71% vs SPY −1.14% → **week alpha +1.85pt** (widened from +0.99pt Tue as the book out-defended the sell-off).
+- **Cumulative alpha since 5/29 base:** ≈ **−5.34pt** (last firm Mon 10/12 close; firms Friday).
+- **Trades placed:** 0 discretionary. 1 mechanical exit (NVDA −7% stop).
+- **What worked (✅):** (1) The −7% hard stop did its one job — bounded NVDA's loss at exactly −7.0% / −$530 with no averaging-down temptation and no pre-empting; the thesis-vs-stop separation held. (2) Diversification: BP (+9.69%, energy tailwind from hot CPI), PG (+5.84%), RMD (+2.91%), RSG (+2.95%) and SPY (+0.38%) all green, so the book lost only −0.21% while SPY fell −1.08%. (3) PG's trailing stop ratcheted up (floor → 140.9625) — profit protection tightening automatically.
+- **What didn't (❌):** (1) NVDA — the thinnest-cushion, most rate-sensitive name — was carried through the hot-CPI + yield-hold regime and tagged its stop; in hindsight the factor was always the risk, but the rules (don't pre-empt, don't average down) were correct and executed. (2) Lost a growth/semi factor leg from the sleeve; book now tilts more defensive/value (energy + staples + 2 rate-sensitives + index).
+- **Open questions for tomorrow:** (1) Refill the open slot or stay 4/5? MCK (McKesson — rate-resilient, clear until Nov 4) is the top bench promote if the 2-signal + Conv ≥70 gate clears at the open; ETN #2. (2) **TSM Thu 10/15 pre-open** — key chip read; informs whether/when NVDA is worth re-entering (it's now bench-only). (3) PG hold-vs-trim-into-earnings due ~10/15–16. (4) Does the hot-CPI/high-yield regime persist, favoring the current defensive tilt? (5) MSFT armed plan — slot now exists, but don't chase ≥$525.
+
+## Handoff → pre-market (Thu 10/15 ~06:15 CT)
+1. **Re-verify live:** account/positions/orders/clock; confirm exactly **4** GTC stops (IDs unchanged) + SPY unencumbered.
+2. **NVDA is EXITED** — no longer a position-stop watch; now bench-only. **TSM Thu 10/15 pre-open** is the key chip-demand read; US-China truce expiry Nov 10.
+3. **Open slot (4/5) + ~$18k cash** — MCK top promote if the gate clears (2 signals + Conv ≥70 + clean non-extended entry + factor balance). No forcing the ≥70 gate.
+4. **PG hold-vs-trim-into-earnings due ~10/15–16** (earns ~10/20–22; on 10% trailing floor 140.9625).
+5. **BP trailing** — floor 44.0775 ratchets; energy tailwind; no action unless it fires.
+6. **MSFT armed plan** — slot now exists; LIMIT $518 only on a genuine pullback into $515–522; don't chase ≥$525; don't carry unfilled into earnings week (~Oct 28).
+7. **Perplexity STILL down** — WebSearch fallback; keep flagging. Re-verify BP/PG/RMD/RSG headlines once restored.
+8. **Check inbox for Lauren's A/B reply** — default A until answered.
+
+---
+
 # 2026-10-14 ~06:15 CT — PRE-MARKET (Wed) · NO TRADES (market closed) · 4-agent fan-out ran · book FULL 5/5, all 5 theses INTACT · ⚠️ Perplexity STILL DOWN (WebSearch fallback) · ★ Sept CPI 8:30 ET CONFIRMED releasing — the week's binary, hot-skewed
 
 **Routine:** pre-market research. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 07:10 ET; next_open 2026-10-14 09:30 ET). **Inbox:** no Pending (structural A/B still unanswered → default A continues; MSFT armed plan carries forward under Handled, double-blocked). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required Alpaca/Perplexity vars present (EQUIBLES empty → skipped). Synced origin/main at run start.

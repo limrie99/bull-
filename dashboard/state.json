@@ -1,70 +1,69 @@
 {
-  "last_update": "2026-10-14 12:10 CT",
-  "last_routine": "midday",
+  "last_update": "2026-10-14 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 97549.77,
-  "cash": 10996.02,
-  "day_pl": -318.14,
-  "day_pl_pct": -0.33,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
-  "week_pl_pct": 0.93,
-  "spy_week_pct": -0.06,
-  "alpha_week_pct": 0.99,
+  "equity": 97660.38,
+  "cash": 18044.70,
+  "day_pl": -207.53,
+  "day_pl_pct": -0.21,
+  "spy_day_pct": -1.08,
+  "alpha_day_pct": 0.86,
+  "week_pl_pct": 0.71,
+  "spy_week_pct": -1.14,
+  "alpha_week_pct": 1.85,
   "week_grade": null,
   "cum_alpha_pct": -5.34,
-  "note": "Midday (CONFIRMED open) — ONE risk-mgmt action, no buys/sells. PG crossed +5.11% ($155.63 > +5% line $155.46), so the flagged PRIMARY trigger fired: cancelled PG's -7% hard stop (137.70) and placed a 10% trailing GTC stop (floor 140.067, hwm 155.63) to lock in profit -- PG is now the 2nd trailing stop alongside BP. All other holds unchanged. Book soft on the risk-off, rates-up tape: day -$318 / -0.33%, well inside the -3% cap. BP +9.6% (energy-led CPI a tailwind), PG +5.1%, RSG +2.5%, RMD +2.1% green; NVDA the one pressured name (-6.11%, ~0.95% above its $220.27 stop -- THINNEST cushion; thesis intact, not pre-empting or averaging down). Sleeve 5/5 FULL, no conviction sell, no thesis break -> no buy. Open orders re-verified = exactly 5 (BP + PG trailing, NVDA/RMD/RSG hard); SPY unencumbered. Weekly buys 0/3. Inbox + Astra empty. No Telegram (midday stop-mgmt not on push list). Default Option A continues (structural A/B still awaiting Lauren). WTD ahead: +0.93% vs SPY -0.06%. Watching NVDA + TSM earnings Thu 10/15. Perplexity still out of credits (WebSearch fallback; Lauren: top up at console.perplexity.ai).",
+  "note": "Market-close (CONFIRMED closed). NVDA's -7% hard stop FIRED today -- 32 sh auto-sold @ $220.27 at 1:41pm CT (order 7d025ecb), a controlled -$530 / -7.0% loss. The safety net did exactly its job: bounded the loss, no averaging down, no pre-empting. Sleeve 5/5 -> 4/5, ONE OPEN SLOT freed; ~$18k cash is now dry powder (buying happens at open/midday, not the close). Despite a genuinely red tape, the book out-defended the market: day -0.21% vs SPY -1.08% -> alpha +0.86pt AHEAD, because BP (+9.7%), PG (+5.8%), RMD (+2.9%), RSG (+2.9%) and SPY (+0.4%) all finished green. Week-to-date +0.71% vs SPY -1.14% -> +1.85pt ahead (widened as the book out-defended the sell-off). Open orders re-verified = exactly 4 (BP + PG trailing -- both ratcheted up today; RMD + RSG hard); SPY unencumbered; NVDA's stop consumed by the fill (no orphan). Weekly buys 0/3. Inbox + Astra empty. Telegram pushed (stop-triggered + mandatory daily scorecard). Default Option A continues (A/B still awaiting Lauren). Tomorrow: weigh refilling the slot (MCK top candidate), watch TSM earnings Thu 10/15, PG hold-vs-trim decision ~10/15-16. Perplexity still out of credits (WebSearch fallback; Lauren: top up at console.perplexity.ai).",
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 48.775,
-      "pl_pct": 9.61,
-      "stop": 43.9515
-    },
-    {
-      "symbol": "NVDA",
-      "qty": 32,
-      "avg_cost": 236.8469,
-      "current": 222.38,
-      "pl_pct": -6.11,
-      "stop": 220.27
+      "current": 48.81,
+      "pl_pct": 9.69,
+      "stop": 44.0775
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 155.63,
-      "pl_pct": 5.11,
-      "stop": 140.067
+      "current": 156.71,
+      "pl_pct": 5.84,
+      "stop": 140.9625
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 233.315,
-      "pl_pct": 2.05,
+      "current": 235.29,
+      "pl_pct": 2.91,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 223.545,
-      "pl_pct": 2.54,
+      "current": 224.44,
+      "pl_pct": 2.95,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 769.5945,
-      "pl_pct": 0.44,
+      "current": 769.14,
+      "pl_pct": 0.38,
       "stop": null
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-10-14 13:41",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 32,
+      "price": 220.27
+    },
     {
       "date": "2026-10-08 08:45",
       "side": "BUY",
@@ -127,16 +126,15 @@
       "symbol": "RSG",
       "qty": 44,
       "price": 218.0
-    },
-    {
-      "date": "2026-09-18 08:36",
-      "side": "BUY",
-      "symbol": "RMD",
-      "qty": 42,
-      "price": 228.63
     }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-10-14 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $97,660 · day −0.21% · SPY −1.08% · alpha +0.86% — we beat the market by losing far less on a rough day",
+      "body": "Nvidia hit its automatic sell line today and sold itself — 32 shares at $220.27 (~1:41pm CT), a controlled −7% / −$530 loss. That 'stop loss' (pre-set auto-sell) did exactly its job: capped the loss, no averaging down, no pre-empting. I placed no other trades. The market had a red day (S&P −1.08% as rates stayed high after this week's hot inflation report), but our book fell just −0.21% — BP (+9.7%), PG (+5.8%), RMD (+2.9%), RSG (+2.9%) and our index holding all finished green. So we're ahead +0.86pt today and +1.85pt for the week. Selling Nvidia frees a slot and leaves ~$18k cash (~18.5%) — dry powder I'll weigh redeploying at tomorrow's open (McKesson is my top candidate). Watching TSM earnings Thu and the PG trim decision this week. Sleeve now 4/5, all stops resting. Perplexity still out of credits — please top up at console.perplexity.ai."
+    },
     {
       "ts": "2026-10-14 12:10 CT",
       "routine": "midday",
@@ -178,12 +176,6 @@
       "routine": "pre-market",
       "headline": "Quiet pre-market · no trades · Asia chip rout pressures NVDA · ⚠️ Perplexity out of credits",
       "body": "Research-only routine, no trades (market closed). All 5 theses intact, 5 GTC stops resting. Overnight: a Chinese memory-chip scare slammed Asian chip stocks (Kospi −6-7%) and may pressure NVDA (−5%, ~1.7% above its ~$220 stop) at the open — not pre-empting or averaging down. Perplexity API hit its credit limit account-wide; team used WebSearch fallback. Lauren: add Perplexity credits. Sept CPI Wed 10/14 is the week's binary event."
-    },
-    {
-      "ts": "2026-10-12 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $97,372 · day +0.41% · SPY −0.05% · alpha +0.46%",
-      "body": "No trades — quiet healthy day. Book +$400 (+0.41%) vs SPY −0.05%, beat market by ~half a point. Diversification paid: SPY/PG/RMD/BP green outweighed NVDA (−4.5%, only loser, ~2.6% cushion to stop). Watching Wed's inflation report."
     }
   ]
 }

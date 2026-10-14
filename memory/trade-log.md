@@ -365,3 +365,11 @@ Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% pr
 Stop set: PG 10% trailing GTC (floor 140.067 at placement, hwm 155.63; ratchets up as PG rises).
 Research reference: portfolio.md 2026-10-14 market-open Handoff ("PRIMARY TRIGGER — PG +5% conversion: if PG trades ≥ ~$155.46, cancel hard stop edc1bc78, place 10% trailing GTC stop qty 65") + this midday execution.
 Notes: Market CONFIRMED open via /v2/clock (is_open:true, 13:10 ET). Floor 140.067 is below entry 148.06 so it does NOT yet lock a profit, but it is well above the old hard stop 137.70 and ratchets up with price. Open-orders re-verified = exactly 5 (BP + PG trailing, NVDA/RMD/RSG −7% hard); SPY unencumbered. NO buys/sells — sleeve 5/5 FULL, no conviction sell, inbox empty, Astra empty. Conviction sleeve now has 2 trailing stops (BP, PG) + 3 hard stops (NVDA, RMD, RSG). Weekly conviction buys 0 of 3 (week 10/12–10/16). daytrade_count 0. PG hold-vs-trim-into-earnings decision still due ~10/15–16 (earns ~10/20–22).
+
+## 2026-10-14 13:41 CT | SELL | NVDA | 32 @ 220.27125 | 7d025ecb-7f2a-4e3c-8ca2-64419c06781e
+Thesis (exit): -7% hard stop fired — mechanical risk-rule exit, not a discretionary thesis call.
+Signals matched: Sell signal — hard stop hit (-7% from $236.8469 entry). Filled 14:41 ET during the regular session.
+Stop set: N/A (this IS the stop fill). NVDA's GTC stop order consumed by this fill; no orphan order.
+Realized P/L: (220.27125 - 236.846875) x 32 = -$530.42 (-7.0%).
+Research reference: research-log 2026-10-14 market-close (Day summary)
+Notes: NVDA was the thinnest-cushion / most rate-sensitive name. Post-hot-CPI yield hold (~5.29%) + US-China export-truce overhang pushed it through the $220.27 line midday. Discipline executed cleanly: bounded loss, no averaging down, no pre-empting. Sleeve 5/5 -> 4/5, one slot freed; weekly buys still 0/3.
