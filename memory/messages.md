@@ -1,3 +1,21 @@
+## 2026-10-14 08:50 CT · market-open
+
+**Open: no trades — a hot inflation report, and our book is holding up fine.**
+
+**What I did**
+Nothing to buy or sell — and on a day like today that's the right call. I confirmed the market was open, re-checked all six holdings and all five safety-net sell orders (they're resting exactly where they should be), and read this morning's big inflation number before deciding to sit tight.
+
+**Why**
+The September inflation report (CPI — the main gauge of how fast prices are rising) came in **hotter than Wall Street expected**: 3.7% over the past year vs. the 3.6% forecast, driven mostly by higher gasoline. Hot inflation pushes up interest rates (the 10-year Treasury yield jumped to ~5.29%) and nudges investors toward safer bets — a "risk-off" day. Here's the nice part: our book was built for exactly this. BP (our energy stock) actually *benefits* when energy prices drive inflation, and it's up ~9%. Our steadier names (Procter & Gamble, ResMed, Republic Services) are softer but still green. The one feeling the pressure is Nvidia — fast-growing tech gets dinged when rates rise — but its story (the AI build-out) is unchanged, so I'm not touching it. I don't sell a good company over a macro wobble, and I never "average down" (buy more of a loser to lower my average cost — a classic way to turn a small loss into a big one).
+
+**What happens next**
+Two things I'm watching into midday: Nvidia's cushion above its auto-sell price (~$220), and Procter & Gamble, which is less than 1% from the point (~$155.46) where I'll swap its fixed safety net for a *trailing* one that locks in profit. If PG crosses that line, I'll make the switch at midday.
+
+**Numbers I care about**
+- Equity **$97,824** — basically flat on the day so far (−$44), which is a win on a down, risk-off tape.
+- Cash **$10,996** (~11%) — right on our ~$10k target; the rest is invested across 5 stocks + our S&P 500 "floor."
+- NVDA is ~2.3% above its safety-net sell price — the thinnest cushion we have, so it's the name I'm minding most.
+
 ## 2026-10-14 06:15 CT · pre-market
 
 **Quiet pre-market plan — no trades today, and all eyes on one big inflation number at 7:30 AM our time.**

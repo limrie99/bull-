@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-10-14 06:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-14 08:50 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 98020.71,
+  "equity": 97823.64,
   "cash": 10996.02,
-  "day_pl": null,
-  "day_pl_pct": null,
+  "day_pl": -44.27,
+  "day_pl_pct": -0.05,
   "spy_day_pct": null,
   "alpha_day_pct": null,
   "week_pl_pct": 0.93,
@@ -13,54 +13,54 @@
   "alpha_week_pct": 0.99,
   "week_grade": null,
   "cum_alpha_pct": -5.34,
-  "note": "Pre-market research routine (market CLOSED, opens 09:30 ET) — NO TRADES. Ran the 4-agent team on WebSearch (Perplexity STILL out of credits account-wide; Lauren: top up at console.perplexity.ai). ★ The day's binary: September CPI (inflation) is CONFIRMED to release today 8:30 ET despite the ~Day-14 govt shutdown, consensus leans HOT on energy; 10Y elevated ~5.1-5.3%, Fed leaning a December hike -> risk-off/defensive, stay patient into the print. All 5 conviction theses INTACT; exactly 5 GTC stops verified, IDs unchanged; SPY unencumbered. Sleeve 5/5 FULL (no open slot), weekly buys 0/3. Watch NVDA (thinnest cushion ~3.2% to its $220.27 stop; US-China export deadline Nov 10 + TSM reports Thu 10/15) — not pre-empting its stop, not averaging down. PG ~0.6% from its +5% trailing-stop conversion line (~$155.46) — convert at open/midday if it crosses. New-name lead if a slot ever frees: McKesson (MCK) — rate-resilient healthcare distributor, clear of earnings blackout until Nov 4. Default Option A continues (structural A/B still awaiting Lauren). WTD still ahead: +0.93% vs SPY -0.06%.",
+  "note": "Market-open (CONFIRMED open) — NO TRADES. The week's binary resolved: September CPI came in HOT (headline +3.7% YoY vs 3.6% exp, +0.6% MoM; core +2.6% vs 2.5%; energy-led, gasoline +9.1%). 10Y jumped ~+7bp to ~5.29%, modest risk-off, dollar firmer, Dec-hike odds up -- the defensive tape pre-market flagged. Book absorbed it well (day ~-$44 / -0.05%, flat): BP +9.2% (energy-led CPI is a tailwind), RMD/RSG/PG soft but green, NVDA the one pressured name (-4.95%, ~2.2% above its $220.27 stop -- thinnest cushion; thesis intact, not pre-empting or averaging down). Sleeve 5/5 FULL, no conviction sell, no thesis break -> no buy. All 5 GTC stops resting, IDs unchanged; SPY unencumbered. PG ~0.6% from its +5% trailing-stop conversion (~$155.46) -- armed for midday. Weekly buys 0/3. Inbox + Astra empty. No Telegram (no-trade open). ⚠️ Perplexity still out of credits (WebSearch fallback; Lauren: top up at console.perplexity.ai). Default Option A continues (structural A/B still awaiting Lauren). WTD ahead: +0.93% vs SPY -0.06%. Next read: TSM earnings Thu 10/15.",
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 48.74,
-      "pl_pct": 9.53,
+      "current": 48.585,
+      "pl_pct": 9.18,
       "stop": 43.8615
     },
     {
       "symbol": "NVDA",
       "qty": 32,
       "avg_cost": 236.8469,
-      "current": 227.50,
-      "pl_pct": -3.95,
+      "current": 225.12,
+      "pl_pct": -4.95,
       "stop": 220.27
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 154.50,
-      "pl_pct": 4.35,
+      "current": 154.525,
+      "pl_pct": 4.37,
       "stop": 137.7
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 234.79,
-      "pl_pct": 2.70,
+      "current": 235.65,
+      "pl_pct": 3.07,
       "stop": 212.62
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 219.91,
-      "pl_pct": 0.88,
+      "current": 221.51,
+      "pl_pct": 1.61,
       "stop": 202.74
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 779.11,
-      "pl_pct": 1.68,
+      "current": 775.30,
+      "pl_pct": 1.18,
       "stop": null
     }
   ],
@@ -138,10 +138,16 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-14 08:50 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades · hot September inflation, book holds up (day ~flat) · NVDA the one to watch",
+      "body": "September inflation (CPI) came in hotter than expected (+3.7% vs 3.6%, gasoline-driven), which pushed interest rates up to ~5.29% and made it a 'risk-off' day. Our book was built for this: BP (energy) is up ~9% and actually benefits, our steady names are softer but green, and only Nvidia is pressured (fast-growth tech dislikes rising rates) -- its AI story is unchanged, so I'm holding, not pre-empting its stop or averaging down. No buys/sells: sleeve FULL 5/5, all 5 safety-net stops resting, SPY unencumbered. Equity $97,824 (~flat, -$44). PG is <1% from the point where I swap its stop for a profit-locking trailing one -- I'll check at midday. Perplexity still out of credits; please top up."
+    },
+    {
       "ts": "2026-10-14 06:15 CT",
       "routine": "pre-market",
       "headline": "Quiet pre-market · no trades · all eyes on September CPI at 8:30 ET · ⚠️ Perplexity still out of credits",
-      "body": "Research-only routine (market closed), no trades. Ran the 4-agent team on WebSearch. Today's binary: September inflation (CPI) is CONFIRMED to release 8:30 ET despite the govt shutdown, and the forecast leans hot on energy — so a defensive, patient stance into the print. All 5 theses intact, 5 GTC stops resting, SPY unencumbered; sleeve FULL 5/5. Watching NVDA most (thinnest cushion ~3.2% above its stop; US-China export deadline Nov 10 + TSM reports Thu 10/15) — not pre-empting or averaging down. PG ~0.6% from its +5% trailing-stop conversion. Best bench idea if a slot frees: McKesson (rate-resilient, clear until Nov 4). We're ahead WTD: +0.93% vs SPY -0.06%. Lauren: please top up Perplexity credits."
+      "body": "Research-only routine (market closed), no trades. Ran the 4-agent team on WebSearch. Today's binary: September inflation (CPI) is CONFIRMED to release 8:30 ET despite the govt shutdown, and the forecast leans hot on energy -- so a defensive, patient stance into the print. All 5 theses intact, 5 GTC stops resting, SPY unencumbered; sleeve FULL 5/5. Watching NVDA most (thinnest cushion ~3.2% above its stop; US-China export deadline Nov 10 + TSM reports Thu 10/15) -- not pre-empting or averaging down. PG ~0.6% from its +5% trailing-stop conversion. Best bench idea if a slot frees: McKesson (rate-resilient, clear until Nov 4). We're ahead WTD: +0.93% vs SPY -0.06%. Lauren: please top up Perplexity credits."
     },
     {
       "ts": "2026-10-13 15:00 CT",

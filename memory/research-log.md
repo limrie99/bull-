@@ -11451,3 +11451,36 @@ Total unrealized ≈ **+$1,376.44**.
 - **STANDING: structural A/B still escalated to Lauren** (A = 5-slot participation-tilt sleeve; B = shrink to 2–3 names + route to SPY floor). Default (no reply) = continue A; week-1 of the trial was positive. Restate until it clears.
 - **Week ahead:** bank earnings Tue 10/13 (JPM/GS/WFC/C + JNJ/UNH); BAC/MS/BLK + **Sept CPI Wed 10/14** (rate-relevant binary → respect SNPS entry-timing advisory); TSM 10/15; PG earns ~10/20–22 (hold-vs-trim decision ~10/15–16). Banks/TSM in fresh-buy blackout this week.
 - **Unverified:** none — account/positions/open-orders/clock pulled live this run.
+
+## 2026-10-14 ~08:50 CT · MARKET-OPEN routine (Wed · Sept CPI day)
+
+**Slot mandate:** execute the pre-market plan at live prices; manage stops; place bracket stops on any buy. No research origination unless cold-start (not triggered — sleeve full, fresh plan from this morning's pre-market handoff in `portfolio.md`).
+
+**Continuity / log-gap note:** `research-log.md`'s prior last entry was **2026-10-12 close**. The 10/13 routines (open/midday/close) and the 10/14 pre-market all ran and wrote to `messages.md` + `dashboard/state.json` + `portfolio.md` (verified: dashboard `latest_messages` carries all four), but did **not** append here. Not a trading problem — the pre-market handoff lives in full in `portfolio.md`'s "Watch / next" — but the research-log chain should not keep skipping. This entry restores it. Flag if it recurs.
+
+**Live verification at the open (truth > handoff):**
+- `/v2/clock`: is_open=**true**, 09:45 ET, next_close 16:00 ET. ✓ Market open.
+- Account: equity **$97,823.64**, cash **$10,996.02** (~11.2%), last_equity $97,867.91 → **day ≈ −$44 / −0.05%** (flat on a risk-off tape). buying_power $287,101.40. status ACTIVE.
+- Positions (6): BP 214 +9.18%, NVDA 32 −4.95%, PG 65 +4.37%, RMD 42 +3.07%, RSG 44 +1.61%, SPY 51 +1.18%. Matches the pre-market snapshot.
+- Open orders = **exactly 5**, all IDs **unchanged** vs pre-market (BP trailing `209e58f4`, PG `edc1bc78`, NVDA `7d025ecb`, RMD `91671fa4`, RSG `93c80d32`); SPY unencumbered. ✓
+
+**The binary resolved — Sept CPI came in HOT** (WebSearch; Perplexity still out of credits):
+- Headline **+3.7% YoY** vs 3.6% exp (prior 3.4%); **+0.6% MoM**. Core **+2.6% YoY** vs 2.5% exp; **+0.3% MoM** vs 0.2%. **Energy-led** — energy index +5.2%, gasoline +9.1% (oil / Middle East). Matches the pre-market HOT-on-energy call.
+- Reaction: 10Y **~5.29% (+~7bp)**, 2Y +~12bp to ~4.92%; S&P modestly red; dollar firmer; market leaning Fed higher-for-longer / higher Dec-hike odds. Textbook defensive/risk-off tape.
+
+**Decision — NO TRADES. Voices:**
+- **Research:** No new thesis to originate (sleeve full, no cold-start). Hot CPI is a macro/rate event, not a company-level thesis break on any held name. BP's thesis is *reinforced* (energy-driven inflation). No sell signal fired on fundamentals.
+- **Risk:** (a) worst drawdown NVDA −4.95%, cushion ~2.2% to its $220.27 hard stop — thinnest, pressured by the yield jump, but ABOVE the stop; do not pre-empt, do not average down (the NVDA ×2 / SNPS lesson — let the stop do its job). (b) +5% conversion: BP already trailing; **PG +4.37%, latest trade $154.48, +5% line $155.463 — NOT crossed (~0.6% short)** → no conversion yet, armed for midday. (c) daily loss cap not hit (−0.05%). (d) all 5 stops resting, IDs unchanged, SPY unencumbered. Factor mix held: BP (energy, tailwind) / NVDA (semi, pressured) / PG (staples) / RMD+RSG (rate-sensitive pair, soft but green).
+- **Trader:** Nothing to place. Sleeve 5/5 FULL → any buy needs a conviction sell first (none indicated). Weekly buys 0/3. MSFT plan double-blocked (full sleeve + ≥$525 chase-block). SNPS entry-timing advisory was active today but moot (no fresh beta initiated; print now behind us).
+
+**Inbox:** empty (no Pending). **Astra proposals:** empty ("No proposals yet"). **No Telegram push** — a no-trade market-open is not in the push list (CLAUDE.md: push on trade/stop/close/weekly/urgent only).
+
+**Handoff → midday (Wed 10/14 ~12:00 CT):**
+- Re-verify live: account / positions / orders / clock; confirm exactly 5 GTC stops, IDs unchanged (BP `209e58f4`, PG `edc1bc78`, NVDA `7d025ecb`, RMD `91671fa4`, RSG `93c80d32`); SPY unencumbered.
+- **PRIMARY TRIGGER — PG +5% conversion:** if PG trades ≥ ~$155.46 (+5% off $148.06, only ~0.6% away), CANCEL hard stop `edc1bc78` → place 10% trailing GTC stop, qty 65. Confirm zero open PG orders + qty_available=65 before re-placing. **PG hold-vs-trim decision due ~10/15–16.**
+- **NVDA watch:** cushion ~2.2% to $220.27, thinnest and most yield-sensitive post-CPI. TSM reports **Thu 10/15** (chip-demand read); US-China export truce expires Nov 10. Do NOT pre-empt its stop; do NOT average down.
+- **Daily loss-cap watch:** if book drops >3% intraday, no new buys (moot while full).
+- **BP** trailing floor 43.8615 ratchets; energy-led CPI is a tailwind; no action unless it fires.
+- **NO new buy** — sleeve FULL; needs a conviction sell. Bench lead MCK (clear until Nov 4), ETN #2 — re-confirm live if a slot ever frees.
+- **STANDING:** check inbox for Lauren's structural A/B reply (default A). MSFT armed plan carries forward, double-blocked.
+- **⚠️ Perplexity still out of credits** — WebSearch fallback; keep flagging to Lauren (console.perplexity.ai). Re-verify NVDA/BP/PG headlines once restored before relying on "no news."
