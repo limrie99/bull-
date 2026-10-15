@@ -1,3 +1,44 @@
+## 2026-10-15 · market-open (Thu)
+
+**Routine:** market-open, ~08:50 CT. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **NO TRADES — no candidate cleared a clean ≥70 entry; held the open slot (defensive/patient into PPI).** Live verify: account/positions/orders all pulled. Equity **$98,049.25** (intraday marks), cash **$18,044.54 (~18.4%)**, last_equity (Wed 10/14 close) $97,671.47 → intraday **+$377.78 / +0.39%**, long_mv $80,004.71, buying_power $296,191.33, status ACTIVE. Exactly **4 open GTC orders** confirmed, IDs unchanged (BP+PG trailing, RMD+RSG hard); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT.** Weekly conviction buys **0/3** (week 10/12–10/16). Daily loss cap NOT triggered (book UP intraday). ⚠️ **Perplexity STILL DOWN** (insufficient_quota, 401, account-wide) — WebSearch fallback. Inbox: no Pending. Astra: no proposals.
+
+### Market context (open)
+- **PPI day, risk-OFF/hot-inflation regime.** PPI (Sept, producer inflation) scheduled 8:30 ET; exact figure NOT confirmable via WebSearch (Perplexity down) — the tape is the read. **SPY −0.42% intraday** (~766.38 vs Wed close 769.65): orderly, mildly red, NOT a crash. Fed-HIKE odds repriced hawkish this week (~37%). High-multiple/long-duration names most exposed; our defensive/diversified book (energy + staples + 2 rate-sensitives + index) is +0.39% intraday — out-defending again.
+- **No held name reports today.** TSM's AI-driven Q3 beat (pre-open) = positive semi/AI read-through (NVDA now bench-only after yesterday's stop-out).
+
+### Trade execution — plan vs live re-validation (Trader voice)
+Pre-market plan: patient into PPI; re-score MCK at live prices ONLY on a benign print + non-extended entry + a confirmed 2nd hard signal; do NOT initiate ETN beta into PPI; MSFT blocked ≥$525. Re-validated at live prices:
+- **MCK ~$990.08** — even MORE extended than pre-market (~$978), well ABOVE the ~$930 avg analyst target. Fails the clean-non-extended-entry test. Does NOT clear ≥70 on an extended entry. **NO BUY.**
+- **ETN ~$390.52** — down on the day; high-beta. **Binary-macro-print advisory (near-veto) ACTIVE** (PPI is a rate-relevant binary) → do NOT initiate fresh high-beta beta into/at the print. **NO BUY.**
+- **MSFT ~$535.13** — ABOVE the $525 chase line → armed plan BLOCKED/parked (LIMIT $518 only on a dip into $515–522). **NO BUY.**
+- **LLY ~$1,248 / GS ~$862** — LLY earnings-date risk + extended; GS thin signal count, catalyst passed. Neither actionable.
+- **Decision: NO TRADES. Hold the open slot.** We are well-invested (4 conviction + SPY floor + ~18.4% cash), not cash-dragging, and outperforming today — the cold-start/anti-paralysis rule does NOT compel a buy, and nothing clears the gate on a clean entry. Disciplined patience, exactly per the pre-market plan.
+
+### Portfolio watch / stop management (Risk + Position voices — all theses INTACT)
+- **BP** +10.04% (px ~48.97), 10% trailing floor **44.31834** (ratcheted up). Brent ~$104 tailwind. Earn ~10/27. No action.
+- **PG** +6.98% (px ~158.40), 10% trailing floor **143.955** (ratcheted up). **Hold-vs-trim-into-earnings: REAFFIRMED HOLD** — thesis doesn't depend on the ~Oct 20–23 print; the trailing floor already protects the +7% gain. No sell signal.
+- **RMD** +4.48% (px ~238.88), −7% hard stop 212.62 (~11.0% cushion). Lingering recall/soft-guide overhang. Earn 10/29. No action.
+- **RSG** +4.96% (px ~228.81), −7% hard stop 202.74 (~11.4% cushion). **+4.96% is ~0.04% under the +5% conversion line (~228.90) — IMMINENT.** Rule: once ≥+5%, cancel hard stop `93c80d32` and place a 10% trailing GTC. Not yet triggered at the open; **flag for MIDDAY** (and midday owns stop integrity). Earn 10/29.
+- **SPY floor** +0.12% (51 sh, no stop by design), ~39.9% index exposure.
+- **Risk checks:** (a) none −7% un-stopped — all 4 protected; (b) RSG +5% conversion imminent, else none due; (c) daily loss cap N/A (book up); (d) no sell signals.
+
+### Voices
+- **Research:** MCK the diversifier-fit promote and TSM's AI beat a positive semi read, but MCK is extended above target. **Risk:** vetoes initiating ETN beta into PPI; flags MCK extended; RSG +5% conversion imminent (midday). **Trader:** placed nothing — no clean ≥70 entry at live prices; held the open slot and verified the 4 stops intact. **Astra:** no proposals this run.
+- **⚠️ Operational:** Perplexity out of credits (account-wide, insufficient_quota) — degrades research every routine until topped up at console.perplexity.ai. Keep flagging to Lauren.
+
+## Handoff → midday (Thu 10/15 ~12:00 CT)
+1. **Re-verify live:** account/positions/orders/clock; confirm exactly **4** GTC stops (IDs unchanged) + SPY unencumbered; daily loss-cap check.
+2. **RSG +5% conversion — IMMINENT (was +4.96% at open).** If RSG trades ≥+5% (~$228.90), CANCEL hard stop `93c80d32` and place a 10% trailing GTC. Primary midday action to watch.
+3. **Open slot (4/5) + ~$18k cash — held open.** Buy only on 2+ signals AND Conv ≥70 AND a clean non-extended entry AND factor balance. MCK the diversifier lead but extended (~$990 > ~$930 target); do NOT initiate ETN beta into the PPI reaction. No forcing the gate.
+4. **PG** — HOLD reaffirmed on the trailing stop through earnings (~Oct 20–23). Re-decide at open 10/16 if anything shifts.
+5. **RMD** — recall/soft-guide overhang; watch for an adverse headline.
+6. **BP trailing** — floor 44.31834 ratchets; energy tailwind; no action unless it fires.
+7. **MSFT armed plan** — slot exists but ~$535 is above the $525 chase line; LIMIT $518 only on a genuine pullback into $515–522; don't chase ≥$525; don't carry unfilled into earnings week (~Oct 27).
+8. **Perplexity STILL down** — WebSearch fallback; keep flagging. Re-verify BP/PG/RMD/RSG headlines once restored.
+9. **Check inbox for Lauren's A/B reply** — default A until answered.
+
+---
+
 ## 2026-10-15 · pre-market (Thu)
 
 **Routine:** pre-market research, ~06:15 CT. Market CONFIRMED CLOSED via `/v2/clock` (is_open=false, 07:10 ET; next_open 2026-10-15 09:30 ET). **No trades (market closed.)** Live verify: account/positions/orders all pulled. Equity **$97,788.11** (pre-market marks), cash **$18,044.54 (~18.5%)**, long_mv $79,743.57, buying_power $295,460.16, status ACTIVE. Exactly **4 open GTC orders** confirmed, IDs unchanged (BP+PG trailing, RMD+RSG hard); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT.** Weekly conviction buys **0/3** (week 10/12–10/16). ⚠️ **Perplexity STILL DOWN** (insufficient_quota, 401, account-wide) — research ran on WebSearch fallback via the 4-agent team. Inbox: no Pending. Astra: no proposals.

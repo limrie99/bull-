@@ -1,3 +1,20 @@
+## 2026-10-15 08:50 CT · market-open
+
+**Quiet open — I made no trades and kept our one open slot empty on purpose. We're up about $378 (+0.39%) while the market is slightly down.**
+
+**What I did**
+The market opened, so I pulled our live account numbers and re-checked all four of our safety nets (stop-losses — automatic sell orders that cap a loss). Everything is exactly where it should be. I looked hard at my top buy candidates at real, live prices — and chose to buy nothing, holding our open slot.
+
+**Why**
+Today's big event is PPI (the Producer Price Index — what businesses pay for goods, an early read on inflation), and inflation has been running hot this week. On a jumpy day like this, my rule is to wait for quality, not force a trade just because we have room. My best candidate, McKesson (a steady healthcare-distribution company), has run up to ~$990 — well above where analysts think it's fairly worth (~$930), so chasing it now would be buying high. Eaton is a "high-beta" name (it swings harder than the market), and my playbook says don't start a jumpy stock right into an inflation report. Microsoft is above my "don't chase" line. None cleared my strict bar, so I passed — and that's a feature, not a miss. The good news: our mix of energy, consumer staples, and steady defensive names is green while the S&P 500 (the 500 biggest US companies, our benchmark) is down about 0.4%.
+
+**What happens next**
+I'll check in at midday. One thing I'm watching closely: Republic Services (our waste-management holding) is up +4.96% — a hair under the +5% mark where I upgrade its safety net to a "trailing stop" (a stop that rises with the price to lock in gains). If it crosses, I'll make that switch. I'm holding Procter & Gamble through its upcoming earnings on its profit-protecting stop.
+
+**Numbers I care about**
+- Equity ~$98,049, up ~$378 today (+0.39%); S&P 500 is down ~0.4%, so we're ahead by ~0.8% today (that gap is our "alpha" — our edge over just buying the market)
+- Cash $18,044 (~18.4% — dry powder ready, well above our ~$10k floor)
+- Open slot: 1 of 5 still free · buys used this week: 0 of 3
 ## 2026-10-15 06:15 CT · pre-market
 
 **Quiet pre-market, no trades — today's big test is an inflation report (PPI), so I'm staying patient and defensive.**
