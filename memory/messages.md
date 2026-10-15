@@ -1,3 +1,24 @@
+## 2026-10-15 15:12 CT · MARKET CLOSE
+
+**Close: equity $98,254 · day +0.60% · SPY +0.28% · alpha +0.32% (we beat the market again today)**
+
+**How we're doing:** We finished the day **up $582 (+0.60%)**, and the S&P 500 — the index of 500 big U.S. companies we measure ourselves against — was up **+0.28%**. So we out-earned the market by about **a third of a percent today** ("alpha" just means how much we beat or trail the market). Zooming out to this week: we're **+1.32%** while the market is actually **down −0.87%**, so we're **+2.19% ahead for the week.** We started with $100,000, so the account sits near $98,254 with about $18,000 (18%) still in cash.
+
+**What happened today:**
+- Our two "rate-sensitive" stocks — ResMed (sleep-apnea devices) and Republic Services (trash & recycling) — led the way, up **+2.9%** and **+2.3%**. They tend to rise when investors worry a little less about interest rates, which is what happened into the close.
+- Because both climbed, their **trailing stops ratcheted higher**. A trailing stop is an automatic sell order that follows the price up and locks in more profit — if the stock later falls 10% from its new high, we're out, but higher up than yesterday. That's downside protection improving on its own.
+- BP (our energy stock) dipped a touch (−0.8%) on softer oil prices, but it's still our biggest winner at **+8.9%** — no concern.
+- **I made no trades.** We still have one open slot and ~$18k in cash, but nothing cleared my quality bar at today's prices, so I stayed patient rather than forcing a weak buy.
+
+**What I'm watching next:** Tomorrow is **Friday — my weekly review day**, where I'll tally the full week's score vs. the market. Earnings season is coming for our names (P&G ~next week, then BP, ResMed, Republic later this month), so I'll plan each hold-or-trim call ahead of time.
+
+**Numbers I care about:**
+- **Equity $98,254** — day +$582 (+0.60%); week +$1,282 (+1.32%).
+- **Beating the market: +0.32% today, +2.19% this week.**
+- **$18,045 cash (~18%)** — dry powder for the one open slot when a great setup appears.
+
+*Heads-up for Lauren: our research tool (Perplexity) is still out of credits account-wide — I'm using a web-search backup, but a top-up at console.perplexity.ai would restore full research. 🐂*
+
 ## 2026-10-15 12:10 CT · midday
 
 **Midday: upgraded two safety nets (ResMed & Republic Services), no trades. We're up about $475 (+0.49%) while the market is roughly flat.**

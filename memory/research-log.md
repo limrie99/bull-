@@ -1,3 +1,33 @@
+## 2026-10-15 15:12 CT (16:12 ET) · MARKET-CLOSE (Thu)
+
+**Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 16:12 ET; next_open 2026-10-16 09:30 ET). Live verify: account/positions/orders all pulled at the close. **NO TRADES today** — `/v2/orders?status=closed` for 10/15 returned empty (0 fills). Exactly **4 open GTC trailing orders** confirmed (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e); SPY unencumbered. Sleeve **4/5 — one open slot** (held all day). Weekly conviction buys **0/3** (week 10/12–10/16). Inbox: no Pending. ⚠️ Perplexity STILL DOWN (insufficient_quota, account-wide) — WebSearch fallback.
+
+### Day summary
+- **Closing equity:** $98,253.82 (cash $18,044.54 / ~18.4%; long_mv $80,209.28; buying_power $296,764.14).
+- **Day P/L:** +$582.35 / **+0.60%** (last_equity Wed 10/14 close $97,671.47).
+- **SPY day:** +0.28% (close 771.77 vs Wed 769.65). **Alpha today: +0.32pt (ahead).**
+- **Week-to-date:** book +1.32% ($+1,281.50; basis Fri 10/09 close $96,972.32) vs SPY −0.87% (778.51→771.77) → **week alpha +2.19pt (ahead).**
+- **Trades placed:** none (0 buys, 0 sells). Open slot held; no candidate cleared a clean ≥70 entry at close prices.
+- **Position closes:** BP 48.44 (+8.85%, −0.76% day) · PG 157.08 (+6.09%, +0.35%) · RMD 242.23 (+5.95%, +2.95%) · RSG 229.65 (+5.34%, +2.32%) · SPY 771.66 (+0.71%, +0.27%).
+- **Stop ratchets:** RMD trailing floor 216.39→**218.367** (hwm 240.43→242.63); RSG floor 206.13→**207.4005** (hwm 229.03→230.445). BP 44.31834 / PG 143.955 unchanged (no new highs). All 4 conviction names on 10% trailing; SPY no stop by design.
+
+**What worked (3):**
+- The rate-sensitive pair led — RMD +2.95% and RSG +2.32% as rate-hike fear cooled modestly into the close; both trailing floors ratcheted higher, locking more gain.
+- Diversification held up: PG (staples) green, SPY floor green, offsetting BP's small energy-driven dip.
+- Patience on the open slot cost nothing — book beat SPY again without forcing a weak entry into a choppy inflation-data week.
+
+**What didn't (1-2):**
+- BP slipped −0.76% on softer crude — still our biggest winner (+8.85%) and no thesis damage, but the energy leg lagged today.
+- Perplexity outage continues to degrade primary research (WebSearch fallback only) — can't fully re-verify held-name headlines.
+
+**Open questions for tomorrow (Fri 10/16 = weekly review):**
+- Firm the full-week book-vs-SPY and cumulative-since-5/29 alpha (approx −5pt area, improving) at Friday's review.
+- Earnings runway: PG ~Oct 20–23, BP ~10/27, MSFT ~10/27, RMD 10/29, RSG 10/29 — line up hold-vs-trim calls.
+- Open slot: any clean ≥70 non-rate-sensitive diversifier worth the ~$18k dry powder, or keep holding?
+- Any word from Lauren on the structural A/B escalation (default A) and the Perplexity top-up.
+
+---
+
 ## 2026-10-15 · market-open (Thu)
 
 **Routine:** market-open, ~08:50 CT. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **NO TRADES — no candidate cleared a clean ≥70 entry; held the open slot (defensive/patient into PPI).** Live verify: account/positions/orders all pulled. Equity **$98,049.25** (intraday marks), cash **$18,044.54 (~18.4%)**, last_equity (Wed 10/14 close) $97,671.47 → intraday **+$377.78 / +0.39%**, long_mv $80,004.71, buying_power $296,191.33, status ACTIVE. Exactly **4 open GTC orders** confirmed, IDs unchanged (BP+PG trailing, RMD+RSG hard); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT.** Weekly conviction buys **0/3** (week 10/12–10/16). Daily loss cap NOT triggered (book UP intraday). ⚠️ **Perplexity STILL DOWN** (insufficient_quota, 401, account-wide) — WebSearch fallback. Inbox: no Pending. Astra: no proposals.
