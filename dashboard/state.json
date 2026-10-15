@@ -1,58 +1,58 @@
 {
-  "last_update": "2026-10-15 08:50 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-10-15 12:10 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 98049.25,
+  "equity": 98146.84,
   "cash": 18044.54,
-  "day_pl": 377.78,
-  "day_pl_pct": 0.39,
-  "spy_day_pct": -0.42,
-  "alpha_day_pct": 0.81,
-  "week_pl_pct": 1.11,
-  "spy_week_pct": -1.56,
-  "alpha_week_pct": 2.67,
+  "day_pl": 475.37,
+  "day_pl_pct": 0.49,
+  "spy_day_pct": -0.01,
+  "alpha_day_pct": 0.50,
+  "week_pl_pct": 1.21,
+  "spy_week_pct": -1.15,
+  "alpha_week_pct": 2.36,
   "week_grade": null,
   "cum_alpha_pct": -5.34,
-  "note": "Market-open (CONFIRMED open). NO TRADES -- held the open slot on purpose. Today is PPI (producer inflation) day in a hot-inflation, risk-off regime; the S&P 500 is down ~0.4% intraday while our defensive/diversified book is UP +0.39% (out-defending again). I re-checked my top candidates at live prices and none cleared our strict quality bar on a clean entry: McKesson ran up to ~$990 (above its ~$930 fair-value target = chasing), Eaton is high-beta so I won't start it right into an inflation report (binary-macro advisory), and Microsoft ~$535 is above my $525 don't-chase line (plan parked). We're well-invested with one open slot and ~$18k dry powder -- no need to force a trade. Stop watch: Republic Services (RSG) is +4.96%, a hair under the +5% line where I upgrade it to a trailing stop -- midday converts it if it crosses. Holding Procter & Gamble through its ~Oct 20-23 earnings on its profit-protecting trailing stop (HOLD reaffirmed). Exactly 4 GTC stops verified (IDs unchanged); SPY floor unencumbered. Daily loss cap N/A (book up). Sleeve 4/5, 0/3 weekly buys. Inbox + Astra empty; default Option A continues (A/B still awaiting Lauren). Perplexity still out of credits -- please top up at console.perplexity.ai. Figures are intraday marks, not the official close.",
+  "note": "Midday (CONFIRMED open). ACTION: upgraded TWO safety nets -- both ResMed (RMD, +5.16%) and Republic Services (RSG, +5.06%) crossed the +5% profit line, so I cancelled their fixed -7% stop-losses and replaced them with 10% trailing stops (a stop that rises with the price to lock in gains). That means ALL FOUR of our individual stocks now ride trailing stops; the S&P sleeve has no stop by design. No buys, no sells -- none of my candidates cleared our strict quality bar, and I'd rather be patient on an inflation-data day. We're up +0.49% ($475) while the S&P 500 is roughly flat, so we're ahead ~0.5% today. Exactly 4 GTC trailing stops verified (BP floor ~44.3, PG ~144, RMD ~216, RSG ~206); SPY floor unencumbered. Daily loss cap N/A (book up). Sleeve 4/5, one open slot held, 0/3 weekly buys; ~$18k dry powder. Inbox + Astra empty; default Option A continues (A/B still awaiting Lauren). Perplexity still out of credits -- please top up at console.perplexity.ai. Figures are intraday marks, not the official close.",
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 48.97,
-      "pl_pct": 10.04,
+      "current": 48.67,
+      "pl_pct": 9.37,
       "stop": 44.31834
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 158.40,
-      "pl_pct": 6.98,
+      "current": 157.89,
+      "pl_pct": 6.64,
       "stop": 143.955
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 238.88,
-      "pl_pct": 4.48,
-      "stop": 212.62
+      "current": 240.43,
+      "pl_pct": 5.16,
+      "stop": 216.38925
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.00,
-      "current": 228.81,
-      "pl_pct": 4.96,
-      "stop": 202.74
+      "current": 229.03,
+      "pl_pct": 5.06,
+      "stop": 206.127
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 767.16,
-      "pl_pct": 0.12,
+      "current": 769.58,
+      "pl_pct": 0.43,
       "stop": null
     }
   ],
@@ -70,6 +70,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-15 12:10 CT",
+      "routine": "midday",
+      "headline": "Equity ~$98,147 · day +0.49% · S&P ~flat · alpha +0.50 · upgraded RMD + RSG stops to trailing · no trades",
+      "body": "Both ResMed and Republic Services crossed +5% profit, so I upgraded their safety nets from fixed stops to 10% trailing stops -- all four of our stocks now ride trailing stops. No buys (nothing cleared the bar on an inflation-data day). We're up +0.49% while the market's roughly flat. ~$18k cash; one open slot held. Perplexity still out of credits -- please top up."
+    },
+    {
       "ts": "2026-10-15 08:50 CT",
       "routine": "market-open",
       "headline": "Equity ~$98,049 · day +0.39% · S&P -0.42% · alpha +0.81 · NO trades (slot held)",
@@ -78,20 +84,14 @@
     {
       "ts": "2026-10-15 06:15 CT",
       "routine": "pre-market",
-      "headline": "Quiet pre-market, no trades -- staying patient and defensive into today's PPI inflation report",
-      "body": "Research-only routine (market closed). Risk-off, hot-inflation regime; one open slot + ~$18k cash ready, but waiting for the PPI number rather than rushing. MCK top candidate but extended; MSFT above the $525 chase line. Holding PG through earnings on its trailing stop."
+      "headline": "Quiet pre-market, no trades -- PPI (inflation) day, staying patient and defensive",
+      "body": "Research-only routine (market closed). Risk-off because inflation ran hot this week; Fed rate-HIKE odds ~37%. Today's PPI is a binary event -- I'll wait for the number rather than rush the open slot. TSMC beat big overnight (good AI read-through). Holding PG on its trailing stop through earnings; MSFT plan parked above its $525 don't-chase line."
     },
     {
-      "ts": "2026-10-14 15:00 CT",
+      "ts": "2026-10-14 15:05 CT",
       "routine": "market-close",
-      "headline": "Nvidia hit its safety net and auto-sold (-$530) -- but we fell far less than the market on a red day",
-      "body": "NVDA's -7% stop-loss triggered and closed the position (-$530). The rest of the book held up: we were down just -0.21% vs the S&P's -1.08% (alpha +0.86). One slot now open; staying disciplined on the refill."
-    },
-    {
-      "ts": "2026-10-13 15:00 CT",
-      "routine": "market-close",
-      "headline": "Quiet, green day -- up modestly and holding our lead for the week",
-      "body": "No trades. All five holdings resting on their stops; book nudged higher. Staying the course into a busy earnings/data week."
+      "headline": "Nvidia safety net did its job -- stopped out at a bounded -7% loss; book still ahead of the market",
+      "body": "Nvidia hit its -7% stop midday and auto-sold (bounded loss ~$530, no averaging down). The rest of the book held up; we stayed ahead of the S&P on the day. Sleeve 4/5 now, one slot freed. See the dashboard for the full scorecard."
     }
   ]
 }

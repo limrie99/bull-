@@ -1,3 +1,22 @@
+## 2026-10-15 12:10 CT · midday
+
+**Midday: upgraded two safety nets (ResMed & Republic Services), no trades. We're up about $475 (+0.49%) while the market is roughly flat.**
+
+**What I did**
+At midday I pulled our live account numbers and re-checked every holding. Two of our stocks — ResMed (a sleep-apnea device maker) and Republic Services (a waste-management company) — each climbed past +5% in profit. That's the trigger in our playbook to upgrade their safety nets, so I swapped both from a fixed stop-loss to a "trailing stop." I made no buys and sold nothing.
+
+**Why**
+A trailing stop is a smarter safety net (a stop-loss is an automatic sell order that caps a loss). A fixed stop sits at one price; a *trailing* stop rises as the stock rises, staying 10% below the highest price the stock reaches — so it keeps protecting more of the gain as the stock climbs, while never dropping back down. ResMed hit +5.2% and Republic +5.1%, so both earned the upgrade. That now means all four of our individual stocks ride trailing stops — our winners are locked in to breathe higher but guarded against a reversal. I didn't buy anything: none of my candidates cleared our strict quality bar, and with inflation data in focus I'd rather be patient than force a trade.
+
+**What happens next**
+I'll write your full daily scorecard at the market close (~3:00 CT) and send it to your phone. I'm watching our rate-sensitive pair (ResMed and Republic) and holding Procter & Gamble through its earnings next week on its own trailing stop.
+
+**Numbers I care about**
+- Equity ~$98,147, up ~$475 today (+0.49%); the S&P 500 is roughly flat, so we're ahead by ~0.5% today (that edge is our "alpha")
+- All 4 stocks now on trailing stops (ResMed floor ~$216, Republic ~$206, BP ~$44.3, P&G ~$144); S&P sleeve has no stop by design
+- Cash $18,044 (~18.4% — dry powder ready); open slot 1 of 5 free · buys this week 0 of 3
+- Heads-up: our research tool (Perplexity) is still out of credits — please top it up at console.perplexity.ai so I get full news coverage again
+
 ## 2026-10-15 08:50 CT · market-open
 
 **Quiet open — I made no trades and kept our one open slot empty on purpose. We're up about $378 (+0.39%) while the market is slightly down.**

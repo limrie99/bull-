@@ -373,3 +373,21 @@ Stop set: N/A (this IS the stop fill). NVDA's GTC stop order consumed by this fi
 Realized P/L: (220.27125 - 236.846875) x 32 = -$530.42 (-7.0%).
 Research reference: research-log 2026-10-14 market-close (Day summary)
 Notes: NVDA was the thinnest-cushion / most rate-sensitive name. Post-hot-CPI yield hold (~5.29%) + US-China export-truce overhang pushed it through the $220.27 line midday. Discipline executed cleanly: bounded loss, no averaging down, no pre-empting. Sleeve 5/5 -> 4/5, one slot freed; weekly buys still 0/3.
+
+## 2026-10-15 12:10 CT (13:10 ET) | RISK-MGMT (no fill) | RMD | converted −7% hard stop → 10% trailing stop | 761a6a31-03ad-4bbf-873c-6c1594bd9367
+Action: RMD crossed +5% profit intraday (current $240.43, unrealized +5.16% vs the +5% conversion line $240.059 = 228.6274×1.05), firing a midday trigger the market-open routine had flagged as "short of +5%, watch." Per strategy sell-signal #2 mechanics I cancelled the −7% GTC hard stop and replaced it with a 10% trailing GTC stop.
+- Cancelled hard stop 91671fa4-1389-488e-8780-9a99103fb6a6 (was @ 212.62) — HTTP 204, confirmed zero open RMD orders before re-placing.
+- Placed trailing_stop sell, qty 42, trail_percent 10, GTC → id 761a6a31-03ad-4bbf-873c-6c1594bd9367. stop_price (floor) 216.38925, hwm 240.4325. Confirmed resting (status new).
+Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% profit). No shares traded.
+Stop set: RMD 10% trailing GTC (floor 216.38925 at placement, hwm 240.4325; ratchets up as RMD rises). This floor is ABOVE the old hard stop 212.62 and locks a positive cushion — but is still below entry 228.6274, so it protects against a reversal rather than guaranteeing a locked profit yet.
+Research reference: portfolio.md 2026-10-15 market-open risk-check (b) ("RMD +4.48% short of +5%") + this midday live re-verification showing RMD had crossed the line.
+Notes: Market CONFIRMED open via /v2/clock (is_open:true, 13:10 ET). Open-orders re-verified = exactly 4 after both conversions (BP + PG + RMD + RSG all trailing); SPY unencumbered. NO buys/sells — sleeve 4/5, one open slot held, no conviction sell, inbox empty, Astra empty. Weekly conviction buys 0 of 3 (week 10/12–10/16). daytrade_count 0. RMD earns 10/29 (recall/soft-guide overhang still the watch).
+
+## 2026-10-15 12:10 CT (13:10 ET) | RISK-MGMT (no fill) | RSG | converted −7% hard stop → 10% trailing stop | 135c200e-fc09-4a37-95c1-f940b57ae0e3
+Action: RSG crossed +5% profit intraday (current $229.03, unrealized +5.06% vs the +5% conversion line $228.90 = 218.00×1.05), firing THE primary flagged midday trigger (market-open had it at +4.96%, "IMMINENT — midday converts if it crosses"). Per strategy sell-signal #2 mechanics I cancelled the −7% GTC hard stop and replaced it with a 10% trailing GTC stop.
+- Cancelled hard stop 93c80d32-be37-420d-be8f-6311918e3387 (was @ 202.74) — HTTP 204, confirmed zero open RSG orders before re-placing.
+- Placed trailing_stop sell, qty 44, trail_percent 10, GTC → id 135c200e-fc09-4a37-95c1-f940b57ae0e3. stop_price (floor) 206.127, hwm 229.03. Confirmed resting (status new).
+Signals matched: sell-signal #2 mechanics (10% trailing stop activated at +5% profit). No shares traded.
+Stop set: RSG 10% trailing GTC (floor 206.127 at placement, hwm 229.03; ratchets up as RSG rises). Floor is well above the old hard stop 202.74 but below entry 218.00 — reversal protection, not yet a locked profit.
+Research reference: portfolio.md 2026-10-15 market-open risk-check (b) + Watch/next ("RSG +5% conversion — IMMINENT; if RSG trades ≥+5% (~$228.90), cancel hard stop 93c80d32 and place a 10% trailing GTC") + this midday execution.
+Notes: Market CONFIRMED open via /v2/clock (is_open:true, 13:10 ET). Open-orders re-verified = exactly 4 (all 4 conviction names now trailing); SPY unencumbered. NO buys/sells — sleeve 4/5, one open slot held, inbox empty, Astra empty. Weekly conviction buys 0 of 3 (week 10/12–10/16). daytrade_count 0. RSG earns 10/29. Conviction sleeve now has 4 trailing stops (BP, PG, RMD, RSG) + 0 hard stops; SPY no stop by design.
