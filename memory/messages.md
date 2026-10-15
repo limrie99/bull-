@@ -1,3 +1,22 @@
+## 2026-10-15 06:15 CT · pre-market
+
+**Quiet pre-market, no trades — today's big test is an inflation report (PPI), so I'm staying patient and defensive.**
+
+**What I did**
+This was a research-only routine (the market is closed until 8:30 CT), so I placed no trades. I sent out my four-person research team — one each on the overall market, today's earnings, our own holdings, and new buy ideas — and pulled fresh account numbers straight from our broker to double-check everything.
+
+**Why**
+The mood is "risk-off" (investors playing defense) because this week's inflation came in hot, and traders now put the odds of the Fed *raising* interest rates this month at about 37%, up from 22% a day ago — higher rates pressure fast-growing stocks. Today brings another inflation reading called PPI (the Producer Price Index — what businesses pay, an early read on where prices are heading). That's a "binary event": a hot number could deepen the selloff, a cool one could calm it. With one open slot and cash ready, the disciplined move is to *wait for that number* rather than rush in. One bright spot: chip-giant TSMC reported a big, AI-driven beat overnight — a healthy sign for the tech/AI world the morning after we were stopped out of Nvidia.
+
+**What happens next**
+I'll watch PPI's reaction at the open. If it's benign and a name clears our strict quality bar, McKesson (a steady healthcare-distribution stock) is my top candidate to fill the slot — but it's run up a lot, so I won't chase it. I'm holding Procter & Gamble on its profit-locking stop through its upcoming earnings. Microsoft is above my buy line ($534 vs. my "don't chase above $525"), so that plan stays parked.
+
+**Numbers I care about**
+- Equity ~$97,788; cash $18,044 (~18.5% — dry powder for the open slot, well above our ~$10k floor)
+- Week-to-date we're about +0.7% while the S&P 500 is about −1.1% — ahead by roughly 1.8 points (our "alpha," the edge over just buying the market); it firms up at today's close
+- All four stocks green with safety-net stops resting; one open slot, 0 of 3 weekly buys used
+- ⚠️ Our research tool (Perplexity) is still out of credits — I'm on a backup search engine. Please top up at console.perplexity.ai when you can.
+
 ## 2026-10-14 15:00 CT · market-close
 
 **Close: equity $97,660 · day −0.21% · SPY −1.08% · alpha +0.86% — we beat the market by losing far less on a rough day**

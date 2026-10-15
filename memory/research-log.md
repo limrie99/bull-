@@ -1,3 +1,40 @@
+## 2026-10-15 · pre-market (Thu)
+
+**Routine:** pre-market research, ~06:15 CT. Market CONFIRMED CLOSED via `/v2/clock` (is_open=false, 07:10 ET; next_open 2026-10-15 09:30 ET). **No trades (market closed.)** Live verify: account/positions/orders all pulled. Equity **$97,788.11** (pre-market marks), cash **$18,044.54 (~18.5%)**, long_mv $79,743.57, buying_power $295,460.16, status ACTIVE. Exactly **4 open GTC orders** confirmed, IDs unchanged (BP+PG trailing, RMD+RSG hard); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT.** Weekly conviction buys **0/3** (week 10/12–10/16). ⚠️ **Perplexity STILL DOWN** (insufficient_quota, 401, account-wide) — research ran on WebSearch fallback via the 4-agent team. Inbox: no Pending. Astra: no proposals.
+
+### Market context
+- **Risk-OFF, hot-inflation regime.** Wed 10/14 was a red day (SPY −1.11% to 769.65; Nasdaq −1.88%) on a hotter-than-expected inflation read. Fed-HIKE odds for this month repriced to ~37% (from ~22% a day earlier) — regime flipped hawkish. **Today's binary: PPI (Producer Price Index)** awaited this session — a hot print deepens the selloff / pushes yields higher; a cool print relieves. Futures pre-open mixed/tech-weak: NQ ~−1.1%, ES ~−0.3%, Dow ~+0.3% (value/defensive rotation).
+- **Yields:** rising / hawkish repricing. Exact 10Y not confirmable via WebSearch (est. ~5% area — NOT confirmed; pull live before acting on a number).
+- **Commodities/FX:** Brent ~$104/bbl (elevated — a live inflation driver AND a BP tailwind). DXY/gold/WTI exact prints not confirmed.
+- **Global/overnight:** Asia weak, semiconductor-led (Kospi ~−7% on chip selling). India (Sensex) bucked higher.
+- **TSM reported (Q3, pre-US-open today): big AI-driven BEAT** — rev ~NT$1.49T (~US$46.7B), ~+50% YoY, above guide; HPC ~66% of revenue; FY26 capex guide $60–64B. **Positive read-through for the whole semi/AI complex** (NVDA/AMD/AVGO) — notable given NVDA stopped out yesterday. Bank season constructive so far (GS/MS/C beats; WFC laggard; JPM muted). Schwab (SCHW) reports today. **None of our holdings report today.**
+
+### Portfolio watch (no confirmable fresh 24h news on any holding — WebSearch thin; Perplexity down)
+- **BP** +9.8% (last px ~48.88), 10% trailing floor 44.0775 (hwm 48.975). Brent ~$104 = tailwind. Earn ~10/27. No action unless stop fires.
+- **PG** +7.4% (last px ~158.99), 10% trailing floor 140.9625 (hwm 156.625). **Hold-vs-trim-into-earnings decision due ~10/15–16; earnings ~Oct 20–23 (date not fully settled — EarningsWhispers Oct 22 BMO; confirm on PG IR).** No fresh catalyst either way: consensus ~$1.89 EPS (below $1.99 yr-ago — Street already models a YoY decline), last print was a slight beat that still sold off ~1.9%. Trimming part into +7.4% strength ahead of a binary print is a defensible RISK call, not a signal call. **Trader lean: HOLD the full position on the trailing stop** (thesis doesn't depend on the print; the trailing floor already protects profit). Re-decide at midday 10/15 / open 10/16.
+- **RMD** +3.6% (last px ~236.79), −7% hard stop 212.62 (~9.6% cushion). **Thinnest cushion + lingering overhang** (Aug: soft FY27 guide excl. Astral ventilator recall). Most exposed to a bad headline. Earn ~10/29. Watch.
+- **RSG** +3.0% (last px ~224.44), −7% hard stop 202.74. Dividend was ex 10/2 (already passed; pay ~now). Earn ~10/29. No action.
+- **SPY** index floor (51 sh, no stop by design), +~0.1%. ~40% index exposure anchors benchmark participation.
+- **Factor watch:** RMD+RSG remain the correlated rate-sensitive pair (both green). Any slot refill should diversify away from rate-sensitivity, not add to it.
+
+### Buy candidates (signals matched + conviction) — NO buy this routine (market closed); open/midday decision, post-PPI
+- **MCK (McKesson)** — last ~$978. Rate-resilient healthcare distributor; best DIVERSIFIER vs our book (non-correlated defensive, unlike RMD/RSG). Earn CONFIRMED Nov 4 AC → clear of the 3-day blackout now. Signals: #6 (uptrend) + #2 (earnings catalyst <30d), #4 soft (bullish analyst base, no confirmed fresh upgrade/insider buy in last 2wk). **CAUTION: at ~$978 it is now ABOVE the ~$930 avg analyst target — extended, weakens technical-timing + "clean entry."** Conviction read: borderline B/B+ (~high-60s to ~70) — does NOT clearly clear the ≥70 gate on an extended entry. Top promote-WATCH, not a forced buy.
+- **ETN (Eaton)** — last ~$408. Strongest secular story (data-center power/electrification), likely ~3 signals (#3,#4,#6), near 52-wk highs. **HIGH-BETA (±~8% implied earnings move) → ≤10% starter cap applies.** Earn Nov 3 (would hold through). **Binary-macro-print advisory (near-veto): do NOT initiate fresh high-beta the session into a rate-relevant binary print (PPI today).** Prefer a dip entry post-PPI, sized small.
+- **MSFT** — last **~$534 → ABOVE the $525 chase line. Pullback plan BLOCKED / stand down** (plan: LIMIT $518 only on a genuine dip into $515–522; don't chase ≥$525; don't carry an unfilled buy into earnings week ~Oct 27). Plan stays armed; not actionable here. Earn CONFIRMED Oct 27 AC.
+- **LLY** — elite GLP-1 tailwind (#3) but Q3 earnings date unconfirmed (likely late Oct/early Nov → blackout risk). ON HOLD pending date confirmation.
+- **GS** — Oct 13 beat but thin signal count (no raised-guidance/rotation confirmed), high-beta i-bank, catalyst just passed. Medium-low watch.
+
+### Sell candidates
+- None. All 4 conviction theses intact; stops resting; no position −7% or at a thesis break. PG hold-vs-trim is a discretionary risk question, not a sell signal (leaning HOLD on the trailing stop). SPY no stop by design.
+
+### Pre-market decision / plan
+- **Defensive, patient into PPI.** Open slot + ~$18k cash gives options, but the disciplined call on a risk-off, hot-inflation tape with a binary PPI print pending is **do not rush a buy**. No candidate clears the ≥70 gate cleanly this morning: MCK extended above target, ETN high-beta-into-PPI (advisory near-veto), MSFT blocked ≥$525.
+- **For the open/midday:** if PPI comes in benign and the tape stabilizes, re-score MCK at live prices (needs a non-extended entry + a confirmed 2nd hard signal to clear ≥70) as the defensive-fit promote; do NOT initiate ETN's beta ahead of/into the PPI reaction. Hold PG on its trailing stop through the print unless the thesis breaks. Respect factor balance, the ≥70 gate, and the ~$10k cash floor.
+- **Voices:** **Research** flagged MCK as the diversifier promote and TSM's AI beat as a positive semi read; **Risk** vetoes initiating ETN beta into PPI and flags MCK as extended above target; **Trader** places nothing (market closed) and will re-validate at live prices post-PPI. **Astra:** no proposals this run.
+- **⚠️ Operational:** Perplexity out of credits (account-wide, insufficient_quota) — degrades research every routine until topped up at console.perplexity.ai. WebSearch fallback surfaced little dated-Oct-2026 content this morning; earnings dates above need IR confirmation. Keep flagging to Lauren.
+
+---
+
 # 2026-10-14 ~15:00 CT — MARKET-CLOSE (Wed) · ★ NVDA −7% HARD STOP FIRED (auto-closed, −$530/−7.0%) · sleeve 5/5→4/5, one slot freed · book −0.21% vs SPY −1.08% → alpha +0.86 (out-defended a risk-off day) · ⚠️ Perplexity STILL DOWN
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 16:12 ET; next_open 2026-10-15 09:30 ET). **Inbox:** no Pending (structural A/B still unanswered → default A continues; MSFT armed plan carries forward under Handled). **Astra:** `memory/astra-proposals.md` empty — nothing to fold. **Env:** 4 required Alpaca/Perplexity vars present (EQUIBLES empty → skipped). Synced origin/main at run start.
