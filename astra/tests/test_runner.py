@@ -134,6 +134,72 @@ class PaperGuardrailTests(unittest.TestCase):
         self.assertEqual(result["status"], "PROPOSED_ONLY")
 
 
+class SubmitBuyTests(unittest.TestCase):
+    def _alpaca(self):
+        with patch.dict(os.environ, {
+            "ASTRA_ALPACA_BASE_URL": runner.PAPER_URL,
+            "ASTRA_ALPACA_API_KEY": "PKTEST",
+            "ASTRA_ALPACA_SECRET_KEY": "secret",
+        }, clear=False):
+            return runner.Alpaca()
+
+    def test_market_buy_then_separate_gtc_stop_after_fill(self):
+        alpaca = self._alpaca()
+        calls = []
+
+        def fake_request(url, *, headers=None, method="GET", body=None, timeout=60):
+            calls.append((method, body))
+            if method == "POST" and body.get("side") == "buy":
+                return {"id": "buy-1", "status": "accepted"}
+            if method == "GET":
+                return {"id": "buy-1", "status": "filled"}
+            return {"id": "stop-1", "status": "new"}
+
+        with patch.object(runner, "request_json", side_effect=fake_request), \
+             patch.object(runner.time, "sleep"):
+            result = alpaca.submit_buy("MSFT", 14, 93)
+
+        self.assertEqual([(m, b) for m, b in calls], [
+            ("POST", {
+                "symbol": "MSFT", "qty": "14", "side": "buy", "type": "market",
+                "time_in_force": "day",
+            }),
+            ("GET", None),
+            ("POST", {
+                "symbol": "MSFT", "qty": "14", "side": "sell", "type": "stop",
+                "time_in_force": "gtc", "stop_price": "93.00",
+            }),
+        ])
+        self.assertEqual(result["id"], "buy-1")
+        self.assertEqual(result["stop"]["id"], "stop-1")
+        for _, body in calls:
+            if not body:
+                continue
+            self.assertNotIn("order_class", body)
+            self.assertNotIn("stop_loss", body)
+            self.assertNotIn("take_profit", body)
+
+    def test_gtc_stop_is_not_placed_when_the_buy_does_not_fill(self):
+        alpaca = self._alpaca()
+        posts = []
+
+        def fake_request(url, *, headers=None, method="GET", body=None, timeout=60):
+            if method == "POST":
+                posts.append(body)
+                return {"id": "buy-1", "status": "accepted"}
+            return {"id": "buy-1", "status": "accepted"}
+
+        with patch.object(runner, "request_json", side_effect=fake_request), \
+             patch.object(runner.time, "sleep"):
+            with self.assertRaises(RuntimeError) as ctx:
+                alpaca.submit_buy("MSFT", 14, 93)
+
+        self.assertIn("did not fill", str(ctx.exception))
+        self.assertEqual(len(posts), 1)
+        self.assertEqual(posts[0]["side"], "buy")
+        self.assertNotIn("order_class", posts[0])
+
+
 class FixtureRunTests(unittest.TestCase):
     def test_fixture_entry_check_proposes_only(self):
         snapshot = runner.load_json(FIXTURE, {})
