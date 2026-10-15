@@ -8,6 +8,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -180,14 +181,29 @@ class Alpaca:
         return self.get(f"/v2/assets/{urllib.parse.quote(symbol)}")
 
     def submit_buy(self, symbol: str, qty: int, stop_price: float) -> dict:
-        return request_json(
+        buy = request_json(
             self.base + "/v2/orders", headers=self.headers, method="POST",
             body={
                 "symbol": symbol, "qty": str(qty), "side": "buy", "type": "market",
-                "time_in_force": "day", "order_class": "oto",
-                "stop_loss": {"stop_price": f"{stop_price:.2f}"},
+                "time_in_force": "day",
             },
         )
+        order_id = buy.get("id")
+        polls = 0
+        while buy.get("status") != "filled" and order_id and polls < 20:
+            time.sleep(0.25)
+            buy = self.get(f"/v2/orders/{urllib.parse.quote(str(order_id))}")
+            polls += 1
+        if buy.get("status") != "filled":
+            raise RuntimeError("Market buy did not fill; GTC stop not placed")
+        stop = request_json(
+            self.base + "/v2/orders", headers=self.headers, method="POST",
+            body={
+                "symbol": symbol, "qty": str(qty), "side": "sell", "type": "stop",
+                "time_in_force": "gtc", "stop_price": f"{stop_price:.2f}",
+            },
+        )
+        return {"id": buy.get("id") or order_id, "buy": buy, "stop": stop}
 
     def close_position(self, symbol: str) -> dict:
         return request_json(

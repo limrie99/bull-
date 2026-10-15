@@ -76,7 +76,7 @@ A high score with only 1 signal does **not** buy. Two signals with a score of 64
 
 ## Sell signals — any one triggers
 
-1. **Hard stop: -7% from entry.** (Placed as a stop order at buy via Alpaca bracket.)
+1. **Hard stop: -7% from entry.** (Plain market buy, then a separate GTC stop.)
 2. **Trailing stop: 10%** — activated once position is +5% or more in profit (cancel the -7% hard stop, place a 10% trailing stop).
 3. Thesis broken — the specific catalyst that prompted the buy reversed or was invalidated by news.
 4. Fundamentals deterioration (guidance cut, major litigation, key exec departure).
@@ -94,7 +94,7 @@ Tie the size to the Conviction Score (above), which already folds in the buy-sig
 
 ## Risk rules
 
-- Hard stop: **-7% from entry** (bracket order placed at buy)
+- Hard stop: **-7% from entry** (plain market buy, then a separate GTC stop)
 - Trailing stop: **10%**, activated once position is **+5%** in profit
 - Daily loss cap: portfolio down >3% intraday → no new buys rest of day
 - Weekly buy cap: max 3 new positions per week
@@ -139,7 +139,7 @@ Herk's accident is our design principle: **the voice that has an idea should not
 |-------|------|------------|
 | **Research / Strategist** | Overnight + macro digests, theses, the 5 Conviction sub-scores, watchlist ordering, buy/sell *proposals* | Never places, sizes, or cancels an order. A proposal is a recommendation, never a fill. |
 | **Risk** | Sizing bands, the high-beta ≤10% starter cap, the binary-macro-print entry advisory, stop integrity, daily loss cap, the cash floor | Never originates a thesis to justify a trade it already wants. |
-| **Trader / Execution** | The only voice that touches Alpaca: orders, bracket stops, trailing-stop swaps, fill confirmation, the SPY floor sleeve | Never buys a name that has not cleared Research's gate (2+ signals AND Conviction ≥70) and Risk's checks. |
+| **Trader / Execution** | The only voice that touches Alpaca: orders, separate GTC stops, trailing-stop swaps, fill confirmation, the SPY floor sleeve | Never buys a name that has not cleared Research's gate (2+ signals AND Conviction ≥70) and Risk's checks. |
 
 - **Bull is the accountable owner and the single voice Lauren hears.** The voices are how the work is organized and logged, not a committee she has to referee.
 - **A proposal is never self-executing.** Research proposes → Risk checks → Trader re-validates at live prices and either fills or declines **with the reason logged**. "Research liked it, Trader declined on a wide spread / a stale score / no open slot" is a legitimate outcome — that separation is the whole point.
@@ -184,7 +184,7 @@ Bull keeps its existing five CT slots, unchanged:
 | Bull slot (CT) | Mandate |
 |----------------|---------|
 | 6:00 pre-market | Research fan-out, Conviction re-scores, watchlist re-rank. No trades. |
-| 8:30 open | Execute the plan at live prices; place bracket stops. |
+| 8:30 open | Execute the plan at live prices; plain market buy, then a separate GTC stop. |
 | 12:00 midday | Manage what's on — stop integrity, trailing-stop swaps, thesis breaks. |
 | 3:00 close | Mandatory plain-English scorecard vs SPY, plus risk check into the overnight. |
 | Fri 4:00 weekly review | Honest retro, alpha vs SPY, strategy changes with a dated changelog entry. |
