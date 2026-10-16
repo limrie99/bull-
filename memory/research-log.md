@@ -1,3 +1,44 @@
+## 2026-10-16 06:15 CT · PRE-MARKET (Fri) — weekly-review day
+
+**Routine:** pre-market research fan-out (5 sub-agents: macro / earnings / position·BP+PG / position·RMD+RSG / scout). Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 07:11 ET; next_open 2026-10-16 09:30 ET). **NO TRADES (market closed).** Live verify: account/positions/orders all pulled. Equity **$98,516.37** (pre-market marks), cash **$18,074.02 (~18.3%)**, last_equity $98,289.93, long_mv $80,442.35, buying_power $297,534.66, status ACTIVE. Open orders = exactly **4 GTC trailing**, IDs unchanged (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT.** Weekly conviction buys **0/3** (week 10/12–10/16). Inbox: **no Pending.** Astra: **no proposals.** ⚠️ **Perplexity STILL DOWN** (insufficient_quota 401, account-wide — re-tested live this run) → fan-out ran on **WebSearch** (figures LOW-confidence, re-verify live before any buy; earnings DATES higher-confidence).
+
+### Market context
+- **Regime: hawkish / high-yield, cautiously risk-OFF with a modest chip-led bounce.** 10Y elevated near **~4.95–5.0%** (highest since 2007 area); hot Sept CPI midweek drove an AI/semis sell-off (S&P −1% Wed); Fed Oct 27–28 priced ~coin-flip **hike vs hold**, a cut essentially unpriced (Chair Warsh hawkish regime). **Rotation OUT of AI/semis INTO value / consumer-staples / defensives** — favorable for our book (energy + staples + defensives + index). **TSMC Q3 beat (10/15)** nudges Fri ES/NQ modestly higher (~+0.15%, chip sentiment). Oil firm (Brent reportedly >$100, unconfirmed live). **Confidence LOW-MED (Perplexity down).**
+- **Earnings today:** NONE of our names. Today = **oil services (SLB) + regional banks (TFC, RF, likely FITB/CMA/HBAN/STT)**; focus = credit quality + net interest income. Week's megabank tone **mixed** (WFC/GS beat; JPM missed + cut buybacks; BofA $1.2B AML charge). **Held-book earnings runway:** PG **~10/22** (consensus ~$1.89 EPS; last qtr 7/29 was an EPS miss → lean WATCH into the print), MSFT ~10/27, BP ~10/27, RMD 10/29, RSG 10/29.
+
+### Portfolio watch (all 4 conviction theses INTACT — position agents found NO thesis-breaking news 24–48h)
+- **BP** +10.3% (px ~49.09), 10% trailing floor **44.31834** (hwm 49.2426). No material news; Brent-elevated backdrop supportive; buy-ratings improved YoY. Earn ~10/27. No action.
+- **PG** +6.5% (px ~157.70), 10% trailing floor **143.955** (hwm 159.95). No material news; Evercore ISI UPGRADE + PT $166 (10/6), consensus Moderate Buy ~$171. **Lean WATCH into ~10/22 earnings** (last qtr was an EPS miss) — but **HOLD reaffirmed**: thesis doesn't depend on the print and the trailing floor protects the +6% gain. No sell signal.
+- **RMD** +5.8% (px ~241.99), 10% trailing floor **218.367** (hwm 242.63). No material news; CEO framed GLP-1 as a **tailwind** (9/22); Astral recall old/priced-in since Aug; RBC Outperform PT→$262 (Sept). Earn 10/29. No action.
+- **RSG** +5.3% (px ~229.65), 10% trailing floor **207.4005** (hwm 230.445). No material news; FY26 guide narrowed-up at Q2; div paid 10/15; ~11 Buy/11 Hold, avg PT ~$244. Earn 10/29. No action.
+- **SPY floor** +0.9% (51 sh, px ~772.96, no stop by design), ~40% index exposure.
+- **FACTOR-CONCENTRATION WATCH:** RMD + RSG are the correlated rate-sensitive pair — mild headwind from the ~5% 10Y, but both green, both trailing, theses intact. Open-slot refill should PREFER a non-rate-sensitive diversifier.
+- **Risk checks:** (a) none −7% un-stopped — all 4 protected on 10% trailing; (b) no +5% hard→trailing conversion pending — all 4 already converted; (c) daily loss cap N/A (market closed); (d) no sell signals.
+
+### Buy candidates (scout fan-out; signals + Conviction; market CLOSED → scored for the open-slot queue, NOT a buy today)
+- **UNH** (UnitedHealth, managed care) ~$406.66 — **signals #1** (Q3 beat 10/13: adj EPS $4.69 vs ~$4.14, rev $112.7B, RAISED FY26 to ≥$20.50) **+ #6** (recovering off multi-yr lows, non-extended) = **2**. Non-rate-sensitive (good factor), but MILD healthcare overlap w/ RMD (insurance vs devices), Medicare membership −935k YoY, "recovering off lows" = some knife-catch risk; TD Cowen/RJ trimmed PTs (kept Buy). **Conviction ~62 (B) — WATCHLIST, below gate.** Strongest single signal on the bench (beat+raise), but not ≥70 on a still-healing chart.
+- **TXRH** (Texas Roadhouse, consumer discretionary) ~$171.03 — **signals #4** (4-firm upgrade cluster last 2wk: Stephens/Jefferies/StoneX/Evercore ~$190–205) **+ #6** (clean, ~21% below highs, off lows) = **2**. Best non-rate-sensitive DIVERSIFIER (zero overlap w/ book). But analyst views SPLIT (Barclays cautious, JPM neutral), no hard near-term catalyst, and consumer-discretionary/cyclical into a hawkish-slowing tape is a headwind. Earn 11/5 (clear). **Conviction ~60 (B) — WATCHLIST, below gate.**
+- **TSM** (TSMC) ~$422 — Q3 beat + AI-foundry tailwind, clean pullback (~13% below high), but **FOREIGN ADR → fails the strict US-only screen.** Not buyable under guardrails; note only.
+- **CTVA** (Corteva) ~$12.86 — ag-chem, post-spinoff, 2 softer signals but **EXTENDED/messy** post-upgrade + restructuring noise. Below gate. Skip.
+
+### Sell candidates
+- **NONE.** All 4 conviction theses intact, all on ratcheting 10% trailing stops; SPY held. No stop fired, no thesis break, no fundamentals deterioration.
+
+### Voices
+- **Research:** UNH is the highest-quality single signal (beat+raise) but still healing off lows; TXRH the better factor-fit diversifier but split analysts + cyclical into a hawkish tape. Neither clears ≥70 on a clean entry. **Risk:** favors a non-rate-sensitive diversifier for the open slot but sees no name worth forcing; book is well-invested (4 conviction + 40% SPY + ~18% cash) and out-defending the rotation — the anti-paralysis rule does NOT compel a buy. **Trader:** nothing to execute (market closed); would decline both at live prices on the sub-70 scores. **Astra:** no proposals this run.
+- **⚠️ Operational:** Perplexity out of credits (account-wide, insufficient_quota) — degrades research every routine until topped up at console.perplexity.ai. Keep flagging to Lauren.
+
+## Handoff → market-open (Fri 10/16 ~08:30 CT)
+1. **Re-verify live:** account/positions/orders/clock; confirm exactly **4** GTC trailing stops (IDs unchanged) + SPY unencumbered; daily loss-cap check.
+2. **NO gate-clearer for the open slot.** UNH (~62) and TXRH (~60) lead the bench but both below ≥70 on a clean entry. Re-score at live open prices; buy ONLY on 2+ verified signals AND Conv ≥70 AND a clean non-extended entry AND factor balance (prefer non-rate-sensitive). Don't force the gate — ~$18k dry powder is fine held.
+3. **All 4 conviction names:** theses intact, on ratcheting 10% trailing floors — no action unless a stop fires. **PG lean-WATCH into ~10/22 earnings** (HOLD reaffirmed on the trailing floor).
+4. **MSFT armed plan — PARKED** (above the $525 chase line; LIMIT $518 only on a genuine dip into $515–522; don't chase ≥$525; don't carry an unfilled buy into earnings week ~10/27).
+5. **Today = Friday weekly-review day (4:00 CT).** Firm full-week book-vs-SPY and cumulative-since-5/29 alpha at the review.
+6. **Perplexity STILL down** — WebSearch fallback; keep flagging to Lauren. Re-verify held-name headlines once restored.
+7. **STANDING: check inbox for Lauren's structural A/B reply** — default A until answered.
+
+---
+
 ## 2026-10-15 15:12 CT (16:12 ET) · MARKET-CLOSE (Thu)
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 16:12 ET; next_open 2026-10-16 09:30 ET). Live verify: account/positions/orders all pulled at the close. **NO TRADES today** — `/v2/orders?status=closed` for 10/15 returned empty (0 fills). Exactly **4 open GTC trailing orders** confirmed (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e); SPY unencumbered. Sleeve **4/5 — one open slot** (held all day). Weekly conviction buys **0/3** (week 10/12–10/16). Inbox: no Pending. ⚠️ Perplexity STILL DOWN (insufficient_quota, account-wide) — WebSearch fallback.

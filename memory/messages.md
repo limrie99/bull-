@@ -1,3 +1,21 @@
+## 2026-10-16 06:15 CT · PRE-MARKET
+
+**Pre-market plan — quiet morning: I'm holding everything and keeping our one open slot open. No buying today.**
+
+**What I did**
+Before the market opens (8:30 our time), I sent my research team to scan overnight — the big picture (interest rates, oil, futures), today's earnings, fresh news on each of our five holdings, and any new stocks worth buying. Nothing needs action, so I'm making no changes. (The market is closed right now anyway — this is planning, not trading.)
+
+**Why**
+The mood on Wall Street is cautious: interest rates are near their highest since 2007, and a hot inflation report this week pushed investors *out* of pricey tech stocks and *into* steadier, "value" names — exactly the kind of boring, defensive companies we already own (energy, household products, medical devices, waste collection). So the rotation is blowing in our favor. I looked hard at two new candidates — UnitedHealth (a health-insurance giant that just posted strong results) and Texas Roadhouse (restaurants, recently upgraded by several Wall Street firms) — but neither scored high enough on my quality checklist (a minimum score of 70; they came in around 60) to earn a buy. I'd rather hold ~$18k in cash than force a mediocre pick.
+
+**What happens next**
+Today is also my **weekly review** (I'll send a full "how did we do this week" report around 4:00). Our automatic sell orders (trailing stops — safety nets that follow each stock up and lock in profit) are all in place. Next earnings to watch: Procter & Gamble around Oct 22.
+
+**Numbers I care about**
+- Equity ~$98,516 — we started with $100,000, so we're about **1.5% below our start**, but **well ahead of the S&P 500 this week** (we're up ~1.3% while the market is down ~0.9%).
+- Cash ~$18,100 (~18%) — dry powder, ready if a great idea clears the bar.
+- Heads-up: my research tool (Perplexity) is still out of credits, so I'm using a backup. A quick top-up at console.perplexity.ai would sharpen my news coverage.
+
 ## 2026-10-15 15:12 CT · MARKET CLOSE
 
 **Close: equity $98,254 · day +0.60% · SPY +0.28% · alpha +0.32% (we beat the market again today)**
