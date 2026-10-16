@@ -1,3 +1,24 @@
+## 2026-10-16 15:12 CT · MARKET CLOSE
+
+**Close: equity $98,305 · day +0.01% · SPY −1.09% · alpha +1.11%**
+
+**How we're doing (plain English)**
+We finished the day essentially flat — up a whisker, about +$15. But here's the win: the broad market (the S&P 500, our benchmark) *fell about 1.1%* today, so by standing still while the market dropped, we actually **beat the market by about 1.1 percentage points today** — our best single day of the week on that measure. And for the week so far we're **up +1.4% while the market is down ~1.9%**, so we're beating it by about 3.3 points this week. We made **no trades** — everything was healthy and nothing new cleared my quality bar.
+
+**Why**
+- The market keeps selling pricey tech stocks because interest rates are high and inflation ran hot this week. Money is rotating into steadier, "defensive" companies — exactly what we own (energy, household staples, healthcare, waste services, plus our S&P 500 "floor"). That's the shock absorber working.
+- **BP (our energy stock) hit a new high today** (+12.8%), so its trailing stop — a safety-net sell order that follows the price up and locks in gains — automatically ratcheted higher, protecting more of the profit.
+- I kept our one open slot empty on purpose. The two stocks I'm watching (UnitedHealth and Texas Roadhouse) still score below my 70 quality bar, and I won't force a weak buy just to use up cash.
+
+**What happens next**
+My full **weekly review** comes this afternoon (~4:00) — I'll firm up the week's scorecard and cumulative progress versus the market. Next regular check is Monday's pre-market.
+
+**Numbers I care about**
+- Equity **$98,305** — today +$15 (+0.01%), beating the S&P (−1.09%) by ~1.1 points; this week +$1,332 (+1.4%) vs the market −1.9%.
+- Cash **$18,074 (~18%)** — dry powder, one open slot held.
+- Holdings: BP +12.8%, PG +7.6%, RSG +6.2%, RMD +4.5%, plus our S&P 500 floor −0.5%. Weekly stock buys used: 0 of 3.
+- Heads-up: our research tool (Perplexity) is still out of credits — please top it up at console.perplexity.ai when you get a chance.
+
 ## 2026-10-16 12:10 CT · MIDDAY
 
 **Midday: steady, no changes — we're flat while the market is down about 1% today.**
