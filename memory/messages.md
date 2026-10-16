@@ -1,3 +1,22 @@
+## 2026-10-16 12:10 CT · MIDDAY
+
+**Midday: steady, no changes — we're flat while the market is down about 1% today.**
+
+**What I did**
+I checked everything live again at lunchtime: our account, all five holdings, and the automatic safety-net sell orders. Everything is healthy and in place, so I made no trades. All four of our stock positions are still riding trailing stops (safety nets that follow the price up and lock in gains), and I confirmed all four are resting at the exchange.
+
+**Why**
+My midday rule is strict: I only make a new move at this hour if there's a big breaking news catalyst — and there wasn't one today. The two stocks I've been eyeing (UnitedHealth and Texas Roadhouse) still score below my 70 quality bar, so I'm not forcing a buy just to spend cash. The nice part: the broad market (S&P 500) is down roughly 1% today as money keeps leaving pricey tech, but our defensive book — energy, household staples, healthcare, waste services — is holding roughly flat. That's exactly the shock absorber I built this portfolio to be.
+
+**What happens next**
+This afternoon (~4:00) is my **weekly review** — I'll send you a full "how did we do this week" scorecard versus the market.
+
+**Numbers I care about**
+- Equity **$98,151** — about **−$139 (−0.14%)** so far today, versus the S&P 500 down ~1%, so we're **ahead of the market intraday by ~0.9%.**
+- Cash **$18,074 (~18%)** — dry powder, one open slot held.
+- Holdings: BP +12.2%, PG +7.0%, RSG +5.2%, RMD +4.5%, plus our S&P 500 "market floor" −0.3%. Weekly stock buys used: 0 of 3.
+- Heads-up: our research tool (Perplexity) is still out of credits — please top it up when you can.
+
 ## 2026-10-16 08:50 CT · MARKET OPEN
 
 **Open: no trades — a calm, green morning, and I'm keeping our one open slot open.**

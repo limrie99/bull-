@@ -11765,3 +11765,40 @@ Total unrealized ≈ **+$1,376.44**.
 - **STANDING:** check inbox for Lauren's structural A/B reply (default A). MSFT plan parked (above $525; don't carry an unfilled buy into earnings week ~10/27).
 - **⚠️ Perplexity credit outage** — keep flagging until restored.
 - **Unverified:** none — account/positions/open-orders/clock pulled live this run.
+
+---
+
+## 2026-10-16 ~12:10 CT · MIDDAY (Fri — weekly-review day)
+
+**Market CONFIRMED OPEN** via `/v2/clock` (is_open=true, 13:10 ET; next_close 16:00 ET). Account/positions/orders/clock pulled LIVE.
+
+**Account (live):** equity **$98,150.77**, last_equity (Thu 10/15 close) $98,289.93 → intraday day P/L **−$139.16 (−0.14%)** → loss-cap N/A (well inside −3%). Cash $18,074.02 (~18.4%); long_market_value $80,076.75; buying_power $296,510.98; status ACTIVE.
+
+**Positions (live):** BP 214 @ 44.4998 px 49.94 (**+12.22%**, mv $10,687.16); PG 65 @ 148.06 px 158.48 (**+7.04%**, mv $10,301.20); RMD 42 @ 228.6274 px 238.915 (**+4.50%**, mv $10,034.43); RSG 44 @ 218.00 px 229.41 (**+5.23%**, mv $10,094.04); SPY 51 @ 766.2584 px 763.91 (**−0.31%**, mv $38,959.41). Sizes on equity $98,150.77: BP 10.89%, PG 10.50%, RMD 10.22%, RSG 10.28%, SPY 39.69%.
+
+**Open orders (live) = exactly 4, ALL 10% trailing GTC (floors ratcheted vs open):** BP floor **44.9955** hwm 49.995 (209e58f4); PG floor **143.982** hwm 159.98 (272e2864); RMD floor **218.367** hwm 242.63 (761a6a31); RSG floor **208.818** hwm 232.02 (135c200e). SPY unencumbered (index-floor carve-out).
+
+**Risk checks (priority order):**
+- **(a) Any un-stopped −7% name?** NO. All 4 conviction names green + on trailing; SPY −0.31% (index, no stop by design, nowhere near −7%). No 4-hour news check triggered.
+- **(b) Any +5% conversion pending?** NONE — all 4 conviction names already on 10% trailing. **Note:** RMD slipped to **+4.50%** intraday (was +5.27% at open) but stays on its trailing floor (218.367) — a trailing stop is never reverted to a fixed stop; it keeps protecting. No action.
+- **(c) Daily loss cap:** intraday **−0.14%** — NO breach. New buys allowed in principle.
+- **(d) Sell signals?** NONE. All 4 theses intact; no thesis-breaking headlines on BP/PG/RMD/RSG (WebSearch fallback — nothing specific surfaced). Stops resting; SPY held.
+- **FACTOR WATCH:** RMD+RSG remain the rate-sensitive pair (mild ~5% 10Y headwind, both green/protected); PG (staples) + BP (energy) diversify. Open-slot refill must prefer a non-rate-sensitive diversifier.
+
+**Buy decision: NO TRADE.** Midday rule bars new buys unless a high-conviction breaking catalyst AND weekly buys <3 AND positions <5. No breaking catalyst; bench leads UNH/TXRH both <70; MSFT parked above $525 into earnings week (~10/27). Sleeve 4/5, one open slot held; weekly buys 0/3 (week 10/12–10/16); cash ~$18.1k dry powder. Gate not forced.
+
+**Benchmark (indicative, intraday):** book **−0.14%** vs SPY (Thu close ~771.77 → px 763.91) **≈ −1.02%** → **intraday alpha ≈ +0.88pt (ahead).** Our defensive book out-defending a weak tape. Full-week + cumulative-since-5/29 alpha firm at the 4:00 weekly review.
+
+**Inbox:** empty (no Pending). **Astra proposals:** empty. **Telegram:** NO push — midday quiet check is on the do-NOT-push list (push only on trade fill / stop triggered / close / weekly / urgent).
+
+**⚠️ OPERATIONAL — Perplexity STILL DOWN:** account-wide insufficient_quota 401; WebSearch fallback in use. Keep flagging to Lauren (console.perplexity.ai → add credits). Re-verify held-name headlines once restored before relying on "no news."
+
+**Handoff → weekly review / market-close (Fri 10/16 ~3:00–4:00 CT):**
+- **MANDATORY at close:** write the plain-English daily scorecard vs SPY to `messages.md` AND push it to Telegram (never skipped). Firm day/benchmark + full-week + cumulative-since-5/29 alpha at the official close.
+- Re-verify live: account/positions/orders/clock; confirm exactly **4 GTC trailing stops** (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e); SPY unencumbered; daily loss-cap check.
+- All 4 conviction floors ratchet with price — no −7% hard stops remain. Watch RMD (now +4.5%, closest to its floor among winners) and the RMD/RSG rate-sensitive pair into the close.
+- **PG hold-vs-trim-into-earnings** — HOLD on the trailing floor; re-decide at the close (PG earns ~10/22).
+- **Open slot** — held. Buy ONLY on 2+ signals AND Conv ≥70 AND clean non-extended entry AND factor balance (prefer non-rate-sensitive). UNH/TXRH lead the bench but both <70.
+- **STANDING:** check inbox for Lauren's structural A/B reply (default A). MSFT plan parked (above $525; don't carry an unfilled buy into earnings week ~10/27).
+- **⚠️ Perplexity credit outage** — keep flagging until restored.
+- **Unverified:** none — account/positions/open-orders/clock pulled live this run.
