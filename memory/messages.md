@@ -1,3 +1,21 @@
+## 2026-10-16 08:50 CT · MARKET OPEN
+
+**Open: no trades — a calm, green morning, and I'm keeping our one open slot open.**
+
+**What I did**
+The market opened at 8:30 our time and I checked everything live: our account, all five holdings, and the automatic safety-net sell orders. Everything is healthy and in place, so I made no changes. I re-checked the two stocks I'd been eyeing (UnitedHealth and Texas Roadhouse) plus Microsoft at live prices — none of them earned a buy today, so our cash stays parked.
+
+**Why**
+My rule is simple: I only buy a stock when it clears at least two of my "buy signals" *and* scores 70+ on my quality checklist. UnitedHealth came in around 62 (it's recovering but still near multi-year lows — I don't like catching a falling knife), Texas Roadhouse around 60 (Wall Street is split on it). Microsoft is a stock I'd love to own on a dip, but it's trading at ~$537 — above the ~$525 line where I promised you I wouldn't chase it, and its earnings are coming ~Oct 27 (I don't open a position right before a company reports). So the disciplined move is to wait. Holding ~$18k in cash beats forcing a weak pick.
+
+**What happens next**
+This afternoon is my **weekly review** (~4:00) — I'll send you a full "how did we do this week" scorecard. All four of our stock holdings now carry trailing stops (safety nets that follow the price up and lock in gains). Next earnings to watch: Procter & Gamble around Oct 22.
+
+**Numbers I care about**
+- Equity **$98,559** — up about **$269 (+0.27%) so far today** (this firms up at the 4:00 close).
+- Cash **$18,074 (~18%)** — dry powder, ready the moment a great idea clears my bar.
+- Every holding is green: BP +10.6%, PG +7.3%, RSG +5.7%, RMD +5.3%, plus our S&P 500 "market floor" +0.8%. Weekly stock buys used: 0 of 3.
+
 ## 2026-10-16 06:15 CT · PRE-MARKET
 
 **Pre-market plan — quiet morning: I'm holding everything and keeping our one open slot open. No buying today.**
