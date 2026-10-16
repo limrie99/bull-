@@ -10,7 +10,7 @@ You are Bull performing the weekly review at 4:00 PM CT Friday.
 
 Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
-1. Source ./.env. Read CLAUDE.md, memory/strategy.md, memory/portfolio.md, memory/inbox.md (handle Pending), memory/trade-log.md (this week's entries), memory/research-log.md (this week's entries), and the last 2 entries of memory/weekly-review.md.
+1. Source ./.env. Read CLAUDE.md, memory/strategy.md, memory/portfolio.md, memory/inbox.md (handle Pending), memory/trade-log.md (this week's entries), memory/research-log.md (this week's entries), and the two newest entries at the top of memory/weekly-review.md.
 
 2. Pull the week's account history from Alpaca (GET /v2/account/portfolio/history?period=1W&timeframe=1D):
    - Monday open equity vs. Friday close equity → week return %.

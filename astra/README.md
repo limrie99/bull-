@@ -50,7 +50,6 @@ These apply to Astra's own account, should one ever exist. They are unchanged by
 - Maximum 3 buys per rolling Monday–Friday week.
 - No new buys after a 2% account decline versus prior close.
 - Minimum model confidence of 75 for a buy.
-- Every buy is submitted as an OTO market order with a 7% stop-loss.
 - Paper only — the runner rejects any Alpaca base URL except `https://paper-api.alpaca.markets`.
 
 ## Role split — Astra proposes, the host decides

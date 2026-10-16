@@ -26,6 +26,8 @@ curl -s "$ALPACA_BASE_URL/v2/account" \
 
 Returns: `equity`, `cash`, `buying_power`, `portfolio_value`, `last_equity`, `daytrade_count`.
 
+Ignore `buying_power` (margin); size off equity and cash.
+
 ## Positions
 
 ```bash
@@ -122,11 +124,19 @@ curl -s -X POST "$ALPACA_BASE_URL/v2/orders" \
 
 ## Sell / close a position
 
-```bash
-# Market sell all shares of a symbol
-curl -s -X DELETE "$ALPACA_BASE_URL/v2/positions/AAPL" -H ...
+One sequence. Each position has a resting GTC stop sell for the full quantity. A market sell while that stop is still open can fill both and leave a short. Cancel that symbol's open sell orders, confirm they are gone, then sell (or `DELETE /v2/positions/{symbol}`).
 
-# Or place a regular sell order for partial
+```bash
+# 1. Cancel each open sell for the symbol (the resting stop)
+curl -s "$ALPACA_BASE_URL/v2/orders?status=open&symbols=AAPL" -H ...
+curl -s -X DELETE "$ALPACA_BASE_URL/v2/orders/{order_id}" -H ...
+
+# 2. Confirm no open sell remains — do not sell while any side=sell is listed
+curl -s "$ALPACA_BASE_URL/v2/orders?status=open&symbols=AAPL" -H ...
+
+# 3. Then close
+curl -s -X DELETE "$ALPACA_BASE_URL/v2/positions/AAPL" -H ...
+# or a sized market sell, only after step 2
 curl -s -X POST "$ALPACA_BASE_URL/v2/orders" \
   -H ... \
   -d '{"symbol":"AAPL","qty":5,"side":"sell","type":"market","time_in_force":"day"}'

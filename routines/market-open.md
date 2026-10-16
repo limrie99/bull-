@@ -19,7 +19,7 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
    - **Buy-gate (strategy.md):** only buy a name with **2+ buy signals AND Conviction Score ≥ 70**. If overnight news moved a candidate, recompute its score before acting — a name that has slipped below 70 stays on the watchlist, not in the book. Size per the score band (A: 15–20%, B+: 10–15%).
    - Respect guardrails from CLAUDE.md: max 5 positions, max 20% per position, max 3 new buys per week (check this week's BUY count in memory/trade-log.md).
    - For each BUY, place a plain market buy, then — after that buy fills — a separate GTC stop at **-7% from entry** (no take-profit; the trailing stop will replace this stop later once the position is profitable).
-   - If a sell candidate hit a sell signal overnight, sell at open.
+   - If a sell candidate hit a sell signal overnight, sell at open using the one sell sequence in scripts/alpaca.md (cancel that symbol's open sell orders, confirm gone, then sell).
    - If yesterday's daily loss cap was hit and carries, skip new buys.
 
 4. Poll the market buy with GET /v2/orders/{order_id} until status = "filled", and confirm the separate GTC stop is resting (open, time_in_force gtc). Do not assume fills. If an order fails or rejects, log it and move on — do not retry blindly.
