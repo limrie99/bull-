@@ -1,3 +1,31 @@
+## 2026-10-16 16:00 CT · WEEKLY REVIEW (Fri)
+
+**Routine:** weekly review. Market CONFIRMED CLOSED via `/v2/clock` (is_open=false, 17:05 ET; next_open 2026-10-19 09:30 ET). Live re-verify this run: account (equity live $98,267.54 / official close scorecard $98,304.52, cash $18,074.02, last_equity $98,289.93, buying_power $296,837.94, status ACTIVE), positions (BP 214 / PG 65 / RMD 42 / RSG 44 / SPY 51), open orders (**exactly 4 GTC trailing**: BP 209e58f4 45.243/50.27, PG 272e2864 143.982/159.98, RMD 761a6a31 218.367/242.63, RSG 135c200e 208.818/232.02; SPY unencumbered), 1W portfolio history, SPY IEX week bars. Inbox: **no Pending** (nothing to handle). Astra: **no proposals**. ⚠️ Perplexity STILL DOWN (insufficient_quota, account-wide) all week — WebSearch fallback.
+
+### Verified weekly metrics (covers Mon 10/12 → Fri 10/16)
+- Base (Fri 10/09 close, portfolio-history base_value): **$96,972.32**. End (Fri 10/16 official close scorecard): **$98,304.52**. Week return **+1.374% ≈ +1.37%** (+$1,332.20).
+- SPY week (IEX bars): 10/09 close **778.51** → 10/16 close **763.335** = **−1.949% ≈ −1.95%**.
+- **Week alpha = +3.32 pts (BEAT — largest single-week alpha of the run).**
+- Cumulative since 5/29 base (equity $99,840.95 / SPY 756.34): port −1.539% vs SPY +0.925% = **−2.46 pts** (narrowed from −5.80 on 10/09; +3.34pt one-week repair, 2nd consecutive narrowing).
+- Daily equity path: 10/12 97,401.78 → 10/13 97,867.91 → 10/14 97,671.47 → 10/15 98,289.93 → 10/16 98,304.52 (official). SPY path: 778.03 / 778.03 / 769.65 (hot CPI) / 771.77 / 763.335.
+- Week fills: **SELL NVDA 10/14 (−7% hard, 32 @ 220.27, −$530.42 / −7.0%)** — only fill. Four hard→trailing conversions (BP 10/12, PG 10/14, RMD+RSG 10/15) = order swaps, no shares. Buys 0/3. Win rate on closed trades: **0% (0 of 1).**
+
+### Voices
+- **Research:** the two-week beat is real but regime-driven — both wins (10/9 +0.63, 10/16 +3.32) came on down/choppy tapes where a defensive book is built to win; NVDA (the one non-defensive, growth/semi name) was the lone casualty, which actually confirms the factor read rather than contradicting it. Bench unchanged (UNH ~62, TXRH ~60, both <70). **Risk:** every stop/cap/gate worked; NVDA loss bounded by the ≤10% high-beta sizing rule; cash ~18% (above the ~$10k target) was a mild tailwind on a down tape, acceptable held since no clean ≥70 entry. **Trader:** nothing to execute; declined the bench on sub-70 scores. **Astra:** no proposals.
+- **Decision:** NO strategy/guardrail change (two favorable-regime weeks ≠ a signal; over-tuning off a good regime mirrors the forbidden over-tuning off a bad one). Entry-timing advisory (SNPS occurrence-2, probation) NOT triggered — NVDA was held from 10/2, not a fresh binary-print entry; probation stays at 2. Structural A/B ("does the conviction sleeve earn its single-name risk ACROSS regimes?") stays escalated to Lauren; default A. Grade **A−** (decisive beat + cumulative repair + clean execution; held off clean A by regime-dependency + still cumulatively behind + the NVDA loss).
+
+## Handoff → pre-market (Mon 10/19 ~6:00 CT)
+1. **Re-verify live Mon open:** account/positions/orders/clock; confirm exactly **4** GTC trailing stops (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e) + SPY unencumbered; daily loss-cap check.
+2. **Open slot held (sleeve 4/5).** UNH (~62), TXRH (~60) lead the bench, both <70. Buy ONLY on 2+ verified signals AND Conv ≥70 AND a clean non-extended entry AND factor balance (PREFER non-rate-sensitive — RMD+RSG are the correlated rate-sensitive pair). ~$18k dry powder is fine held; don't force the gate.
+3. **All 4 conviction theses intact, on ratcheting 10% trailing floors** — no action unless a stop fires. **PG lean-WATCH into ~10/22 earnings** (HOLD reaffirmed on the trailing floor; last qtr was an EPS miss — decide hold-vs-trim at Mon/Tue pre-market).
+4. **Earnings runway:** PG ~10/22, BP ~10/27, MSFT ~10/27, RMD 10/29, RSG 10/29. Line up hold-vs-trim ahead of each; FOMC Oct 27–28 (~coin-flip hike/hold) overlaps.
+5. **MSFT armed plan — PARKED** (above the $525 chase line; LIMIT $518 only on a genuine dip into $515–522; don't chase ≥$525; don't carry an unfilled buy into earnings week ~10/27).
+6. **Regime watch:** the 2 beat weeks were defense in a risk-off rotation. The real test of the Option-A tilt is the NEXT up-SPY / melt-up week — watch whether the book can PARTICIPATE, not just out-defend.
+7. **⚠️ Perplexity STILL down** — WebSearch fallback; keep flagging to Lauren (console.perplexity.ai). Re-verify held-name headlines once restored before any buy.
+8. **STANDING: check inbox for Lauren's structural A/B reply** — default A until answered.
+
+---
+
 ## 2026-10-16 15:12 CT (16:12 ET) · MARKET-CLOSE (Fri)
 
 **Routine:** market-close. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 16:12 ET; next_open 2026-10-19 09:30 ET). Live verify: account/positions/orders all pulled at the close. **NO TRADES today** — `/v2/orders?status=closed` for 10/16 returned empty (0 fills). Exactly **4 open GTC trailing orders** confirmed (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e); SPY unencumbered. Sleeve **4/5 — one open slot** (held all day). Weekly conviction buys **0/3** (week 10/12–10/16). Inbox: no Pending. Astra: no proposals. ⚠️ Perplexity STILL DOWN (insufficient_quota, account-wide) — WebSearch fallback.

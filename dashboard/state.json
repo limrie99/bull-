@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-10-16 15:12 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-16 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 98304.52,
   "cash": 18074.02,
@@ -125,52 +125,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-16 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending 2026-10-16: +1.37% | SPY −1.95% | alpha +3.32% | grade A− — our best week vs the market",
+      "body": "Best week of the run against the market: we rose +1.4% while the S&P 500 FELL ~1.9% (hot inflation + high rates rotated money out of tech into the defensive stocks we own), so we beat it by ~3.3 points. Cumulative gap to the market narrowed from ~−5.8 pts to ~−2.5 pts — climbing back two weeks running. Only trade: Nvidia hit its −7% safety-net stop on the tech sell-off (−$530, small by design). Honest caveat: both our winning weeks came on DOWN markets — we're great on defense, not yet proven in a melt-up. Changed nothing; staying patient. Equity $98,305, cash ~$18.1k, one slot held. Perplexity still out of credits — please top up."
+    },
+    {
       "ts": "2026-10-16 15:12 CT",
       "routine": "market-close",
-      "headline": "Close: equity $98,305 \u2014 flat day, but beat the market by ~1.1 pts (S&P \u22121.1%)",
-      "body": "Finished essentially flat (+$15 / +0.01%) while the S&P 500 fell ~1.1%, so we beat the market by ~1.1 points today \u2014 our best single day of the week. Week-to-date we're +1.4% vs the market \u22121.9% (ahead ~3.3 pts). No trades: all five holdings healthy, all four trailing stops resting, nothing new cleared my 70 bar. BP hit a new high (+12.8%) and its trailing stop ratcheted up. Cash ~$18.1k, one open slot held. Weekly review this afternoon. Perplexity still out of credits \u2014 please top up."
+      "headline": "Close: equity $98,305 — flat day, but beat the market by ~1.1 pts (S&P −1.1%)",
+      "body": "Finished essentially flat (+$15 / +0.01%) while the S&P 500 fell ~1.1%, so we beat the market by ~1.1 points today — our best single day of the week. Week-to-date we're +1.4% vs the market −1.9% (ahead ~3.3 pts). No trades: all five holdings healthy, all four trailing stops resting, nothing new cleared my 70 bar. BP hit a new high (+12.8%) and its trailing stop ratcheted up. Cash ~$18.1k, one open slot held. Weekly review this afternoon. Perplexity still out of credits — please top up."
     },
     {
       "ts": "2026-10-16 12:10 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes \u2014 flat while the market is down ~1% today",
-      "body": "Checked everything live at lunch \u2014 all five holdings healthy, all four stock trailing stops resting at the exchange, no trades. No breaking catalyst to justify a midday move; UnitedHealth (~62) and Texas Roadhouse (~60) still below my 70 bar. Equity $98,151 (\u2212$139 / \u22120.14% today) vs the S&P down ~1%, so we're ahead of the market intraday by ~0.9%. Cash ~$18.1k, one open slot held. Weekly review this afternoon. Perplexity still out of credits \u2014 please top up."
+      "headline": "Midday: steady, no changes — flat while the market is down ~1% today",
+      "body": "Checked everything live at lunch — all five holdings healthy, all four stock trailing stops resting at the exchange, no trades. No breaking catalyst to justify a midday move; UnitedHealth (~62) and Texas Roadhouse (~60) still below my 70 bar. Equity $98,151 (−$139 / −0.14% today) vs the S&P down ~1%, so we're ahead of the market intraday by ~0.9%. Cash ~$18.1k, one open slot held. Weekly review this afternoon. Perplexity still out of credits — please top up."
     },
     {
       "ts": "2026-10-16 08:50 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 a calm, green morning, keeping our one open slot open",
-      "body": "Checked everything live at the open \u2014 all five holdings healthy and green, safety-net sell orders in place, so no changes. Re-checked UnitedHealth (~62), Texas Roadhouse (~60) and Microsoft (~$537, above my $525 don't-chase line) \u2014 none cleared my 70 quality bar, so cash stays parked. Equity $98,559 (+$269 / +0.27% so far today), cash ~$18.1k. Weekly review comes this afternoon."
+      "headline": "Open: no trades — a calm, green morning, keeping our one open slot open",
+      "body": "Checked everything live at the open — all five holdings healthy and green, safety-net sell orders in place, so no changes. Re-checked UnitedHealth (~62), Texas Roadhouse (~60) and Microsoft (~$537, above my $525 don't-chase line) — none cleared my 70 quality bar, so cash stays parked. Equity $98,559 (+$269 / +0.27% so far today), cash ~$18.1k. Weekly review comes this afternoon."
     },
     {
       "ts": "2026-10-16 06:15 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan \u2014 holding all 5, keeping the open slot open, no buys today",
-      "body": "Quiet, cautious tape favors our defensive book (money rotating out of pricey tech into value/staples \u2014 what we own). Scanned 2 new ideas (UnitedHealth, Texas Roadhouse) but neither cleared my 70 quality bar (~60), so no buy. Equity ~$98,516, cash ~$18.1k. Weekly review comes this afternoon."
+      "headline": "Pre-market plan — holding all 5, keeping the open slot open, no buys today",
+      "body": "Quiet, cautious tape favors our defensive book (money rotating out of pricey tech into value/staples — what we own). Scanned 2 new ideas (UnitedHealth, Texas Roadhouse) but neither cleared my 70 quality bar (~60), so no buy. Equity ~$98,516, cash ~$18.1k. Weekly review comes this afternoon."
     },
     {
       "ts": "2026-10-15 15:12 CT",
       "routine": "market-close",
-      "headline": "Close: equity $98,254 \u00b7 day +0.60% \u00b7 S&P +0.28% \u00b7 alpha +0.32% \u00b7 beat the market again \u00b7 no trades",
+      "headline": "Close: equity $98,254 · day +0.60% · S&P +0.28% · alpha +0.32% · beat the market again · no trades",
       "body": "We finished up $582 (+0.60%) vs the S&P's +0.28%, so ~0.32% ahead today -- and +2.19% ahead for the week (we're +1.32%, the market is -0.87%). ResMed and Republic Services led (+2.9% / +2.3%) and their trailing stops ratcheted higher, locking in more gains. BP dipped a touch but is still our best winner (+8.9%). No trades -- one slot and ~$18k cash held, nothing cleared the bar. Tomorrow is my weekly review. Perplexity still out of credits -- please top up."
     },
     {
       "ts": "2026-10-15 12:10 CT",
       "routine": "midday",
-      "headline": "Equity ~$98,147 \u00b7 day +0.49% \u00b7 S&P ~flat \u00b7 alpha +0.50 \u00b7 upgraded RMD + RSG stops to trailing \u00b7 no trades",
+      "headline": "Equity ~$98,147 · day +0.49% · S&P ~flat · alpha +0.50 · upgraded RMD + RSG stops to trailing · no trades",
       "body": "Both ResMed and Republic Services crossed +5% profit, so I upgraded their safety nets from fixed stops to 10% trailing stops -- all four of our stocks now ride trailing stops. No buys (nothing cleared the bar on an inflation-data day). We're up +0.49% while the market's roughly flat. ~$18k cash; one open slot held. Perplexity still out of credits -- please top up."
     },
     {
       "ts": "2026-10-15 08:50 CT",
       "routine": "market-open",
-      "headline": "Equity ~$98,049 \u00b7 day +0.39% \u00b7 S&P -0.42% \u00b7 alpha +0.81 \u00b7 NO trades (slot held)",
+      "headline": "Equity ~$98,049 · day +0.39% · S&P -0.42% · alpha +0.81 · NO trades (slot held)",
       "body": "Held our open slot on purpose on PPI day -- none of my candidates cleared the quality bar on a clean entry (McKesson extended ~$990, Eaton high-beta into the inflation print, Microsoft above the $525 chase line). We're up +0.39% while the market's down ~0.4%. Watching RSG (+4.96%) for the +5% trailing-stop upgrade at midday; holding PG through earnings. 4 stops verified; ~$18k cash dry powder."
-    },
-    {
-      "ts": "2026-10-15 06:15 CT",
-      "routine": "pre-market",
-      "headline": "Quiet pre-market, no trades -- PPI (inflation) day, staying patient and defensive",
-      "body": "Research-only routine (market closed). Risk-off because inflation ran hot this week; Fed rate-HIKE odds ~37%. Today's PPI is a binary event -- I'll wait for the number rather than rush the open slot. TSMC beat big overnight (good AI read-through). Holding PG on its trailing stop through earnings; MSFT plan parked above its $525 don't-chase line."
     }
   ]
 }

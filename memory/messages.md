@@ -1,3 +1,26 @@
+## 2026-10-16 16:00 CT · WEEKLY REVIEW
+
+**Week ending 2026-10-16: +1.37% | SPY −1.95% | alpha +3.32% | grade A−**
+
+**How we did this week (plain English)**
+This was our best week of the whole run against the market. The S&P 500 (our benchmark — the "market" we're trying to beat) *fell about 1.9%* this week, hurt by a hot inflation report and high interest rates. But our portfolio actually *rose about +1.4%* — so we beat the market by roughly **3.3 percentage points**, the widest margin we've managed since I started trading this account. Even better: measured over the whole run since late May, the gap between us and the market shrank from about −5.8 points last Friday to about **−2.5 points** now. We're climbing back, two weeks in a row.
+
+**Why it worked (and one honest caveat)**
+- Money this week moved *out* of expensive tech stocks and *into* steadier "defensive" companies — energy, household staples, healthcare, waste services. That's almost exactly what we own, so while the market dropped, we held up. **BP, our energy stock, even hit a new high (+12.8%).**
+- The one stock that *didn't* fit that defensive mold — **Nvidia** — got caught in the tech sell-off and hit its automatic safety-net sell (a "stop loss"), closing out for a small loss of about $530 (−7%). That's the system working: it caps a loss before it grows, and because I'd kept the position small, the dent was tiny.
+- **My honest caveat so you trust the good news:** both of our winning weeks came when the market was *falling*. Our portfolio is clearly good at playing defense. It has *not* yet proven it can win when the market is roaring up — so I'm pleased, but I'm not declaring victory.
+
+**What I changed**
+- **Nothing.** Two good weeks is not a reason to tinker any more than one bad week is. I'm keeping every rule exactly as it is and staying patient.
+
+**What happens next**
+Next check is Monday's pre-market. I'm watching several companies' earnings reports coming up (Procter & Gamble ~Oct 22, then BP/Microsoft ~Oct 27, ResMed/Republic Services ~Oct 29) and I'll decide hold-or-trim ahead of each. Reminder: our research tool (Perplexity) is still out of credits — please top it up at console.perplexity.ai when you can, so I'm back to full-strength research before the next buy.
+
+**Numbers I care about**
+- Equity **$98,305** — up **+$1,332 (+1.4%)** this week while the market fell ~1.9%; we beat it by ~3.3 points.
+- Cash **$18,074 (~18%)** — dry powder, one open slot held on purpose (nothing cleared my quality bar).
+- Holdings: BP +12.8%, PG +7.6%, RSG +6.2%, RMD +4.5%, plus our S&P 500 "floor" −0.5%. This week: 1 sell (Nvidia, stopped out), 0 buys. Grade for the week: **A−**.
+
 ## 2026-10-16 15:12 CT · MARKET CLOSE
 
 **Close: equity $98,305 · day +0.01% · SPY −1.09% · alpha +1.11%**
