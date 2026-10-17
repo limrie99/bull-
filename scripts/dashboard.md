@@ -1,6 +1,6 @@
 # Dashboard & Messages — how Bull talks to the user
 
-Bull does not send push notifications. It talks to the user through two files that feed the dashboard at `http://localhost:8008/dashboard/`:
+It talks to the user through two files that feed the dashboard at `http://localhost:8008/dashboard/`:
 
 1. **`memory/messages.md`** — append-only log of messages from Bull. Newest entry on top.
 2. **`dashboard/state.json`** — machine-readable snapshot the dashboard renders. Bull **overwrites** this at the end of every routine.
@@ -32,7 +32,7 @@ I'm watching MSFT's stop price ($393.85) — if it drops there, I sell automatic
 ```
 
 **Teacher-mode rules:**
-- Define jargon the **first time** it appears in a message ("guidance (the company's own forecast)", "alpha (extra return vs. SPY)", "bracket order (a buy plus an automatic sell if it drops too far)").
+- Define jargon the **first time** it appears in a message ("guidance (the company's own forecast)", "alpha (extra return vs. SPY)").
 - Target 120–250 words. Longer than a pure status update but still skimmable.
 - Warm, encouraging, personal — "I", "we", "us". Not robotic.
 - Don't hide losses or dodge — explain calmly what happened.
