@@ -1219,7 +1219,3 @@ _Written 2026-06-01 during a manual repair, reconstructed from Alpaca fills + th
 **Strategy adjustments** — see strategy.md changelog 2026-06-01: added the cold-start / anti-paralysis rule. Core guardrails unchanged (they barely got to run; no evidence to retune them).
 
 **Grade: D** — capital was preserved (−0.16%) but the entire mandate (beat SPY) was abandoned by accident for six weeks. Not an F only because nothing was lost recklessly; the failure was omission and broken plumbing, both now fixed.
-
----
-
-(no reviews yet)
