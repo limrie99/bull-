@@ -49,4 +49,3 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
 - Every buy candidate has a Conviction Score with its 5 sub-scores shown — not a vibe.
 - Buy candidates name specific catalysts, which screen surfaced them, and which signals hit — not generic.
 - watchlist.md is re-scored and re-sorted; gate-clearing names (≥70 + 2 signals) are clearly flagged for market-open.
-- messages.md entry is ≤ 80 words. User can read it in 10 seconds on the dashboard.
