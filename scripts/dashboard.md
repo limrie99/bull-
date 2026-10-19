@@ -17,10 +17,10 @@ Lauren is new to investing. Each message should **teach her a little** while tel
 **Good close — we made $420 today, a little ahead of the market.**
 
 **What I did**
-Sold our 10 shares of Apple at $205.30. Bought 20 shares of Microsoft at $428.10.
+Bought 20 shares of Microsoft at $428.10.
 
 **Why**
-Apple hit our target gain of +20% faster than I expected — they reported better-than-expected earnings (how much money the company actually made last quarter), so other investors rushed in and pushed the price up. When we hit our target, I locked in the win rather than risk giving it back. For Microsoft, they raised their "guidance" (their own forecast for next quarter's earnings) this morning, which usually means the business is healthier than Wall Street thought — a classic buy signal in our playbook.
+Microsoft raised their "guidance" (their own forecast for next quarter's earnings) this morning, which usually means the business is healthier than Wall Street thought — a classic buy signal in our playbook.
 
 **What happens next**
 I'm watching MSFT's stop price ($393.85) — if it drops there, I sell automatically to cap the loss. I'll check in at midday tomorrow.
@@ -87,7 +87,7 @@ Overwrite the file completely each routine. All fields present, use `null` when 
       "ts": "2026-04-21 15:00 CT",
       "routine": "market-close",
       "headline": "Equity $100,420 · day +0.42% · alpha +0.32%",
-      "body": "Sold AAPL 10 @ $205.30 on +20% take-profit. Added MSFT 20 @ $428.10. Nothing worrying heading into tomorrow."
+      "body": "Added MSFT 20 @ $428.10. Nothing worrying heading into tomorrow."
     }
   ]
 }
