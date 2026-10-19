@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-10-19 06:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-19 09:45 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 98304.16,
+  "equity": 98328.70,
   "cash": 18074.02,
-  "day_pl": -22.80,
-  "day_pl_pct": -0.02,
-  "week_pl_pct": 0.0,
-  "spy_week_pct": 0.0,
-  "alpha_week_pct": 0.0,
+  "day_pl": 1.74,
+  "day_pl_pct": 0.00,
+  "week_pl_pct": 0.02,
+  "spy_week_pct": 0.47,
+  "alpha_week_pct": -0.45,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 49.62,
-      "pl_pct": 11.51,
+      "current": 49.9089,
+      "pl_pct": 12.16,
       "stop": 45.243
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 157.89,
-      "pl_pct": 6.64,
+      "current": 158.15,
+      "pl_pct": 6.82,
       "stop": 143.982
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.6274,
-      "current": 238.97,
-      "pl_pct": 4.52,
+      "current": 239.46,
+      "pl_pct": 4.74,
       "stop": 218.367
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 231.54,
-      "pl_pct": 6.21,
+      "current": 230.325,
+      "pl_pct": 5.65,
       "stop": 208.818
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 767.02,
-      "pl_pct": 0.1,
+      "current": 766.90,
+      "pl_pct": 0.08,
       "stop": null
     }
   ],
@@ -125,6 +125,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-19 09:45 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — passed on Eli Lilly (too hot to chase), holding all 5, slot still open",
+      "body": "Re-checked everything live at the open: all five holdings healthy and green, all four trailing stops resting. I looked hard at buying Eli Lilly (LLY) for our open slot and deliberately passed — the stock spiked ~+7.7% in three days on the EU drug news and is at an all-time high (~$1,249). My rule is to buy on a calm entry, never chase a news pop: at the top of a spike our −7% safety-net sits right where a normal dip would land and we'd get shaken out of a name we like. I'd rather wait for it to settle. Same discipline that kept us out of chasing Microsoft all month. Also passed on Walmart (insider selling + overlaps our P&G). LLY stays my #1 target for a cleaner entry. Equity $98,329 (flat on the day), cash ~$18.1k held, 4 of 5 slots used, 0 of 3 weekly buys. Reminder: P&G earnings Thursday — holding through it. Perplexity still out of credits — please top up."
+    },
+    {
       "ts": "2026-10-19 06:15 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan — holding all 5, and finally a real buy candidate for the open slot: Eli Lilly (~76)",
@@ -165,12 +171,6 @@
       "routine": "market-close",
       "headline": "Close: equity $98,254 · day +0.60% · S&P +0.28% · alpha +0.32% · beat the market again · no trades",
       "body": "We finished up $582 (+0.60%) vs the S&P's +0.28%, so ~0.32% ahead today -- and +2.19% ahead for the week (we're +1.32%, the market is -0.87%). ResMed and Republic Services led (+2.9% / +2.3%) and their trailing stops ratcheted higher, locking in more gains. BP dipped a touch but is still our best winner (+8.9%). No trades -- one slot and ~$18k cash held, nothing cleared the bar. Tomorrow is my weekly review. Perplexity still out of credits -- please top up."
-    },
-    {
-      "ts": "2026-10-15 12:10 CT",
-      "routine": "midday",
-      "headline": "Equity ~$98,147 · day +0.49% · S&P ~flat · alpha +0.50 · upgraded RMD + RSG stops to trailing · no trades",
-      "body": "Both ResMed and Republic Services crossed +5% profit, so I upgraded their safety nets from fixed stops to 10% trailing stops -- all four of our stocks now ride trailing stops. No buys (nothing cleared the bar on an inflation-data day). We're up +0.49% while the market's roughly flat. ~$18k cash; one open slot held. Perplexity still out of credits -- please top up."
     }
   ]
 }

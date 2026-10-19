@@ -1,3 +1,40 @@
+## 2026-10-19 09:45 CT · MARKET-OPEN (Mon)
+
+**Routine:** market-open execution. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:45 ET; next_close 16:00 ET). **Live verify (all pulled this run):** equity **$98,328.70**, cash **$18,074.02 (~18.4%)**, last_equity (Fri 10/16 close) $98,326.96 → intraday **+$1.74 / +0.00% (flat)**, buying_power $297,009.19, long_mv $80,254.68, status ACTIVE. Open orders = **exactly 4 GTC trailing** (RSG 135c200e, RMD 761a6a31, PG 272e2864, BP 209e58f4), all `hwm`/floor matching the handoff; SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT**. Weekly conviction buys **0/3**. Inbox: **no Pending**. Astra: **no proposals**. ⚠️ **Perplexity STILL DOWN** (insufficient_quota) — re-verify ran on Alpaca market data + WebSearch. **NO TRADES — the lead buy (LLY) was DECLINED on ENTRY, not on thesis.**
+
+### Daily loss-cap check
+Intraday +$1.74 (+0.00%) — nowhere near the −3% cap. New buys permitted (none qualified).
+
+### Risk checks (live)
+- (a) Any position −7% un-stopped? **NO** — all 4 conviction green (BP +12.16%, PG +6.82%, RMD +4.74%, RSG +5.65%) and on 10% trailing GTC; SPY +0.08% (index, no stop by design).
+- (b) Any +5% needing hard→trailing conversion? **NONE** — all 4 already on trailing. RMD at +4.74% keeps its ratcheting trailing floor (never reverted; below the +5% line but already trailing, nothing to do).
+- (c) Sell signals? **None** — all 4 theses intact; no −7% breach, no thesis break, no fundamentals deterioration. Open slot = #5 (better-opp swap) moot.
+- All stops rested clean through the open; no fills, no rejects.
+
+### The LLY decision (Trader voice declines on entry discipline)
+Pre-market handed market-open a single lead: **LLY** for the open slot, ~10% (~8 sh ≈ $10k), −7% hard GTC stop, **ONLY on a clean non-extended entry — "don't chase a CHMP gap."**
+
+- **Research (pre-market):** LLY ≈ 76 (B+), 3 signals (#2 EU CHMP positive opinion ~10/13 for oral GLP-1 orforglipron, #3 GLP-1 secular, #4 PT hikes to $1,400–1,500). Best non-rate-sensitive diversifier. Earn 10/29 (safe). Thesis **intact** — WebSearch confirms orforglipron catalyst live, Citi at $1,500 Buy, name at a record high.
+- **Live price re-verify (Alpaca):** LLY **$1,248.94** now. Daily bars: closed **$1,167.16 on 10/13**, then **$1,210.90 (10/14) → gap-open $1,236 to $1,251.73 close (10/15) → $1,257.32 (10/16)** = **+7.7% in 3 sessions on the CHMP news**, ~5.9% above the 20-day avg (~$1,179), at/near all-time highs (10/15 high $1,275.56). Today drifting **down ~0.7%** off Friday's close — a post-spike consolidation near the highs, **NOT a confirmed base / clean entry.**
+- **Trader:** **DECLINED.** This is precisely the extended CHMP-gap chase the pre-market plan said to refuse ("If gapped/extended → don't chase, leave NEAR-TRIGGER"). Same entry-discipline that correctly kept us out of the MSFT ≥$525 chase repeatedly. The signals stand; the entry does not. Buying +7.7% into a 3-day catalyst spike at record highs, with a −7% hard stop, is exactly the shake-out setup the high-beta/extended-entry learnings warn against. **LLY stays bench leader (NEAR-TRIGGER), slot held, $0 risked.**
+- **#2 WMT (~70 borderline):** DECLINED too — real insider selling (Walton family + exec sales, WebSearch-confirmed) + staples overlap with PG; does not clear the gate on a clean basis. Rank behind LLY.
+- **Net:** no name clears 2+ signals AND ≥70 AND a **clean** entry. Open slot stays open; ~$18.1k dry powder held. Not forcing the gate to "spend cash" — cash is well above the ~$10k floor and holding it one more session is cheap vs chasing a record high.
+
+### Voices
+- **Research:** liked LLY (76, 3 signals, thesis intact) — proposed it for the open slot.
+- **Risk:** entry is extended (+7.7%/3 sessions, record high); a −7% hard stop here sits right in normal pullback range after a catalyst spike = high shake-out odds. Prefer a base/pullback.
+- **Trader:** declined LLY on entry; declined WMT on gate+overlap; no order placed. Slot held.
+
+### Handoff → MIDDAY (Mon 2026-10-19 ~12:00 CT)
+- **Re-verify live:** account/positions/orders/clock; confirm exactly 4 GTC trailing stops (RSG 135c200e, RMD 761a6a31, PG 272e2864, BP 209e58f4); SPY unencumbered; daily loss-cap check.
+- **STANDING — LLY (bench leader, NEAR-TRIGGER):** buy for the open slot ONLY on a **clean, non-extended pullback/base** (NOT the current record-high spike), 2+ signals still standing, Conviction ≥70, earn still 10/29, cash stays ≥~$10k. Size ~10% (~8 sh ≈ $10k) from cash, −7% hard GTC stop. If still extended/near highs → leave NEAR-TRIGGER, do not chase. WMT #2 only if it verifies clean (insider-selling flag persists).
+- **Watch RMD:** +4.74%, just under the +5% line; already on a ratcheting trailing floor so no conversion action needed — note only.
+- **PG earnings Thu 10/22 pre** — no new PG buy; HOLD on the trailing floor; decide hold-vs-trim at pre-market Tue/Wed.
+- **Earnings runway:** PG 10/22, MSFT 10/28, RSG 10/29, RMD 10/29, BP 10/30. FOMC Oct 27–28 (leaning hold). MSFT plan PARKED above $525 (earn 10/28).
+- **STANDING:** structural A/B default A (no Lauren reply). ⚠️ Perplexity credits still out — keep flagging; re-verify held-name headlines once restored.
+
+---
+
 ## 2026-10-19 06:15 CT · PRE-MARKET (Mon)
 
 **Routine:** pre-market research. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 07:12 ET; next_open 2026-10-19 09:30 ET — normal session, 10/19 is NOT a holiday). **Live verify:** account/positions/orders all pulled this run. Equity **$98,304.16**, cash **$18,074.02 (~18.4%)**, last_equity (Fri 10/16 close) $98,326.96, buying_power $296,940.47, long_mv $80,230.14, status ACTIVE. Open orders = **exactly 4 GTC trailing** (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT**. **New week (10/19–10/23): weekly conviction buys 0/3.** Inbox: **no Pending**. Astra: **no proposals**. ⚠️ **Perplexity STILL DOWN** (insufficient_quota 401, account-wide, re-tested live) — 4-agent fan-out ran on **WebSearch** (prices/levels LOW-confidence, re-verify live before any buy; earnings DATES higher-confidence). **NO TRADES (market closed).**

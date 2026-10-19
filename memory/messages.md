@@ -1,3 +1,21 @@
+## 2026-10-19 09:45 CT · market-open
+
+**Open: no trades — I passed on Eli Lilly because the price got too hot to chase. Holding all 5, slot still open.**
+
+**What I did**
+The market opened and I re-checked everything live. All five holdings are healthy and green, and every safety-net sell order is in place. I looked hard at buying Eli Lilly (LLY) for our one open slot — the candidate I flagged this morning — and decided **not** to, on purpose. No money was put to work today.
+
+**Why**
+LLY is a great company and the thesis is intact — but the *timing* is wrong. After European regulators blessed its new weight-loss pill, the stock shot up about **+7.7% in just three days** and is sitting at an all-time high (around $1,249). My rule is to buy on a calm, steady entry, never to chase a stock that just spiked on news — because if I buy at the top of a pop, our automatic −7% safety-net stop sits right where a normal post-spike dip would land, and we'd likely get shaken out of a stock we actually like. I'd rather wait for it to settle and buy lower. This is the same discipline that kept us out of chasing Microsoft at $525+ all month. I also looked at Walmart (#2) and passed — too much insider selling and it overlaps with Procter & Gamble, which we already own. When nothing clears the bar cleanly, holding cash one more day is the cheap, patient choice.
+
+**What happens next**
+LLY stays my #1 target. I'll re-check at midday and tomorrow — if it cools off into a clean entry, I'll buy ~10% of the account (about $10k) with the usual −7% safety net. Reminder: **Procter & Gamble reports earnings Thursday** — I'm holding it through the print, no new P&G buys this week.
+
+**Numbers I care about**
+- Equity **$98,329**, basically flat on the day (+$2) — the market's quiet this morning
+- Cash **~$18,100 (~18%)** — our dry powder, held; open slot **4 of 5 used**, weekly buys **0 of 3**
+- Heads-up: my research tool (Perplexity) is still out of credits — please top it up at console.perplexity.ai when you get a sec
+
 ## 2026-10-19 06:15 CT · pre-market
 
 **Pre-market plan — holding all 5, and I finally have a real buy candidate for our open slot: Eli Lilly.**
