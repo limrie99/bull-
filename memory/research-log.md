@@ -11954,3 +11954,31 @@ Total unrealized ≈ **+$1,376.44**.
 - **STANDING:** check inbox for Lauren's structural A/B reply (default A). MSFT plan parked (above $525; don't carry an unfilled buy into earnings week ~10/27).
 - **⚠️ Perplexity credit outage** — keep flagging until restored.
 - **Unverified:** none — account/positions/open-orders/clock pulled live this run.
+
+---
+## 2026-10-19 12:10 CT · MIDDAY (Mon)
+
+**Market:** CONFIRMED OPEN via /v2/clock (is_open=true, 13:10 ET; next_close 16:00 ET).
+**Live pull:** account + positions + open-orders all fetched this run.
+
+**Account:** equity $98,160.57 | last_equity (Fri 10/16) $98,326.96 → intraday −$166.39 / −0.17% | cash $18,074.02 (~18.4%) | buying_power $296,538.43 | long_mv $80,086.55 | status ACTIVE.
+
+**Positions (live):** BP 214 @44.4998 px49.5550 +11.36% mv10604.77 | PG 65 @148.06 px157.6931 +6.51% mv10250.05 | RMD 42 @228.6274 px239.16 +4.61% mv10044.72 | RSG 44 @218.00 px228.7712 +4.94% mv10065.93 | SPY 51 @766.2584 px767.07 +0.11% mv39120.57.
+
+**Open orders:** exactly 4, all GTC trailing_stop 10% — BP floor45.243/hwm50.27 (209e58f4), PG floor143.982/hwm159.98 (272e2864), RMD floor218.367/hwm242.63 (761a6a31), RSG floor208.818/hwm232.02 (135c200e). SPY unencumbered by design. Matches memory exactly; floors unchanged (ratchet-only; BP eased below hwm, floor holds).
+
+**Benchmark (WTD):** base Fri 10/16 book $98,304.52 / SPY 763.335. Midday SPY ~767.23 (latest trade) → SPY +0.51% WTD; book (98160.57/98304.52−1) = −0.15% WTD → alpha −0.66% WTD. Intraday drag = BP pulling back from +12.2% (open) to +11.4% while broad tape firmed; theses intact, normal noise.
+
+**Risk checks:**
+- (a) −7% un-stopped: NONE. All 4 conviction green + on trailing; SPY index no-stop by design. No news-check triggered (nothing down).
+- (b) +5% hard→trailing conversion: NONE pending — all 4 already trailing. RMD +4.6%, RSG +4.9% under +5% line but already on ratcheting floors (nothing to do).
+- (c) Daily loss cap: −0.17% intraday, far from −3%. New buys permitted.
+- (d) Sell signals: none. Theses intact.
+
+**Buys:** NONE at midday. No high-conviction breaking catalyst; LLY still extended at record high (don't-chase per open plan); position count 5 (4 conviction + SPY), slot 4/5 open but no name cleared the midday bar; weekly buys 0/3. Perplexity down limits fresh catalyst verification — extra reason not to force a midday buy.
+
+**Perplexity health:** POST /chat/completions → HTTP 401 insufficient_quota ("exceeded your current quota"), account-wide. 3rd consecutive routine down. Research degraded; using Alpaca market data + WebSearch. Flagged to Lauren again in messages.
+
+**Inbox:** no Pending. Nothing to handle. Astra: no proposals.
+
+**Decision:** HOLD all. No trades, no stop changes, no new orders. Next: market-close 15:00 CT (mandatory daily scorecard + Telegram push).

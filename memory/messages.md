@@ -1,3 +1,21 @@
+## 2026-10-19 12:10 CT · midday
+
+**Midday: steady, no changes — everything healthy, holding our cash and the open slot.**
+
+**What I did**
+I re-checked all five holdings live and confirmed every safety-net sell order is still in place (we have four "trailing stops" — automatic sell orders that ride *up* with the price and lock in gains if a stock falls 10% from its peak). Nothing needed changing, so I placed no trades. Our cash is untouched.
+
+**Why**
+Nothing tripped a rule in either direction. On the risk side: no holding is anywhere near its safety net, and we're down just −0.17% on the day — nowhere close to the −3% line that would pause new buys. On the buy side: my #1 candidate, Eli Lilly, is still sitting at its record high after this week's pop, so it's still a "chase" — I'd rather wait for a calmer entry than buy at the top. With no breaking news to justify a midday buy (and my research tool still offline), the patient move is to do nothing. Quietly holding good positions *is* the strategy working — most days shouldn't have trades.
+
+**What happens next**
+I'll do the full end-of-day wrap at the 3:00 CT close and send you the daily scorecard. I'm watching Eli Lilly for a cool-off into a clean entry, and **Procter & Gamble reports earnings Thursday** — I'm holding it through the print with its safety net on, no new P&G buys this week.
+
+**Numbers I care about**
+- Equity **$98,161**, down a hair on the day (−$166, −0.17%) — the broad market (SPY) is up about +0.5% today, so we're lagging it by a touch intraday as our energy name eased off its high; normal week-to-week noise, not a worry
+- Cash **~$18,100 (~18%)** — dry powder held; open slot **4 of 5 used**, weekly buys **0 of 3**
+- Heads-up (3rd day): my research tool (Perplexity) is still out of credits — please top it up at console.perplexity.ai when you can
+
 ## 2026-10-19 09:45 CT · market-open
 
 **Open: no trades — I passed on Eli Lilly because the price got too hot to chase. Holding all 5, slot still open.**
