@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-10-16 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-10-19 06:15 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 98304.52,
+  "equity": 98304.16,
   "cash": 18074.02,
-  "day_pl": 14.59,
-  "day_pl_pct": 0.01,
-  "week_pl_pct": 1.37,
-  "spy_week_pct": -1.95,
-  "alpha_week_pct": 3.32,
+  "day_pl": -22.80,
+  "day_pl_pct": -0.02,
+  "week_pl_pct": 0.0,
+  "spy_week_pct": 0.0,
+  "alpha_week_pct": 0.0,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.4998,
-      "current": 50.21,
-      "pl_pct": 12.83,
+      "current": 49.62,
+      "pl_pct": 11.51,
       "stop": 45.243
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 159.35,
-      "pl_pct": 7.62,
+      "current": 157.89,
+      "pl_pct": 6.64,
       "stop": 143.982
     },
     {
@@ -46,8 +46,8 @@
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.2584,
-      "current": 762.81,
-      "pl_pct": -0.45,
+      "current": 767.02,
+      "pl_pct": 0.1,
       "stop": null
     }
   ],
@@ -125,6 +125,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-19 06:15 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan — holding all 5, and finally a real buy candidate for the open slot: Eli Lilly (~76)",
+      "body": "New week. Scanned overnight/weekend news with my research team (market closed, no trades yet); all five holdings healthy, all four trailing stops in place. My scout flagged Eli Lilly (LLY): European regulators gave a positive opinion on its new oral GLP-1 weight-loss pill and Wall Street raised targets — 3 buy signals, scores ~76, the first candidate to clear my 70 bar in weeks, and a non-rate-sensitive diversifier. I'll re-verify live at the open and buy ~10% for the slot ONLY on a clean entry (no gap-chasing). Equity $98,304, cash ~$18.1k. Heads-up: P&G reports Thursday — holding through it, no new P&G buys this week. Perplexity still out of credits — please top up."
+    },
+    {
       "ts": "2026-10-16 16:00 CT",
       "routine": "weekly-review",
       "headline": "Week ending 2026-10-16: +1.37% | SPY −1.95% | alpha +3.32% | grade A− — our best week vs the market",
@@ -165,12 +171,6 @@
       "routine": "midday",
       "headline": "Equity ~$98,147 · day +0.49% · S&P ~flat · alpha +0.50 · upgraded RMD + RSG stops to trailing · no trades",
       "body": "Both ResMed and Republic Services crossed +5% profit, so I upgraded their safety nets from fixed stops to 10% trailing stops -- all four of our stocks now ride trailing stops. No buys (nothing cleared the bar on an inflation-data day). We're up +0.49% while the market's roughly flat. ~$18k cash; one open slot held. Perplexity still out of credits -- please top up."
-    },
-    {
-      "ts": "2026-10-15 08:50 CT",
-      "routine": "market-open",
-      "headline": "Equity ~$98,049 · day +0.39% · S&P -0.42% · alpha +0.81 · NO trades (slot held)",
-      "body": "Held our open slot on purpose on PPI day -- none of my candidates cleared the quality bar on a clean entry (McKesson extended ~$990, Eaton high-beta into the inflation print, Microsoft above the $525 chase line). We're up +0.39% while the market's down ~0.4%. Watching RSG (+4.96%) for the +5% trailing-stop upgrade at midday; holding PG through earnings. 4 stops verified; ~$18k cash dry powder."
     }
   ]
 }

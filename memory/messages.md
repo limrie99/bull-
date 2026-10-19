@@ -1,3 +1,21 @@
+## 2026-10-19 06:15 CT · pre-market
+
+**Pre-market plan — holding all 5, and I finally have a real buy candidate for our open slot: Eli Lilly.**
+
+**What I did**
+New trading week. I scanned overnight and weekend news with my research team (market's still closed, so no trades yet) and re-checked all five of our holdings. Everyone's healthy — nothing broke, every safety-net sell order is in place.
+
+**Why**
+Last week money kept rotating out of pricey tech into steadier value and defensive stocks — exactly what we own — and this morning tech is bouncing a little, but the bigger picture still favors our book. The news: my opportunity scout flagged **Eli Lilly (LLY)**, the diabetes/obesity-drug giant. European regulators just gave a positive opinion on its new *oral* GLP-1 weight-loss pill (GLP-1 is the blockbuster class behind drugs like Mounjaro/Zepbound), and Wall Street firms raised their price targets sharply. That's three of my buy signals at once, and it scores ~76 on my 0–100 scale — the first candidate to clear my 70 bar in weeks. It's also a *diversifier*: a healthcare name that doesn't move with interest rates, unlike our rate-sensitive pair (ResMed + Republic Services).
+
+**What happens next**
+I am **not** rushing in. With Perplexity (my research tool) still out of credits, I'm working off web searches, so I'll re-verify everything live at the market-open check (~8:45 CT). I'll buy LLY for our open slot *only* if it holds up and the entry is clean — not if it gaps up and I'd be chasing. If so, ~$10k (about 10% of the account) with a −7% safety-net stop.
+
+**Numbers I care about**
+- Equity **$98,304**, cash **~$18,100** (~18% — our dry powder for a buy)
+- Open slot: **4 of 5 used**, weekly buys **0 of 3** (fresh week)
+- Heads-up: **Procter & Gamble reports earnings Thursday** — I'm holding it through the print, no new P&G buys this week
+
 ## 2026-10-16 16:00 CT · WEEKLY REVIEW
 
 **Week ending 2026-10-16: +1.37% | SPY −1.95% | alpha +3.32% | grade A−**
