@@ -1,3 +1,32 @@
+## 2026-10-20 12:10 CT · MIDDAY (Tue)
+
+**Routine:** midday risk-management. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 13:04 ET; next_close 16:00 ET). **Live verify (all pulled this run):** equity **$98,606.97**, cash **$18,074.02 (~18.3%)**, last_equity (Mon 10/19 close) $98,142.17 → **intraday +$464.80 (+0.47%)**, buying_power $297,788.33, long_mv $80,532.95, status ACTIVE. Open orders = **exactly 4 GTC trailing** (BP 209e58f4 45.243/50.27, PG 272e2864 143.982/159.98, RMD 761a6a31 **221.814/246.46 — ratcheted up**, RSG 135c200e **209.673/232.97 — ratcheted up**); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT**. Weekly conviction buys **0/3** (week 10/19–10/23). Inbox: **no Pending**. Astra: **no proposals**. ⚠️ **Perplexity STILL DOWN** (insufficient_quota 401, account-wide, re-tested live). **NO TRADES.**
+
+### Risk management (the midday mandate)
+- **(a) Any position −7% or worse un-stopped?** NO. All 4 conviction green (BP +10.59, PG +7.01, RMD +7.28, RSG +6.30) and protected on 10% trailing floors; SPY +0.33% (index, no stop by design). Nothing requires a thesis/news check.
+- **(b) +5%+ hard→trailing conversion?** NONE pending — all 4 already on 10% trailing. RMD & RSG both hit new hwm today, so their floors ratcheted UP (RMD 218.961→221.814, hwm→246.46; RSG 209.286→209.673, hwm→232.97) — normal trailing behavior, no action.
+- **(c) Daily loss cap:** intraday **+0.47%** — nowhere near the −3% cap. New buys permitted.
+- **(d) Sell signals?** None. All 4 theses intact; no −7% breach, no thesis break, no fundamentals deterioration.
+
+### Midday buy check (no new buys unless a high-conviction BREAKING catalyst + room)
+- Room exists (slot 4/5, 0/3 weekly, +0.47% intraday, ~$18k cash), but **no breaking catalyst cleared the bar.** Perplexity is down, so no fresh news scan was possible beyond live marks — a reason to be *more* conservative at midday, not less.
+- **LLY (lead bench name, ~76 B+):** entry got WORSE, not better — live Alpaca **$1,291.70**, an even fresher all-time high (above this morning's ~$1,285 and the prior $1,275.56 peak). The clean-entry window (~$1,180–1,210 / ≥5% off the high) is further away. DECLINED again on entry discipline (the exact high-beta/extended-entry learning: a −7% hard stop under a record high sits right in normal post-spike pullback range). Stays NEAR-TRIGGER; do not chase.
+- **Decision: NO deviation from the pre-market/open plan.** No midday buy justified.
+
+### Benchmark (WTD, intraday)
+- Fri 10/16 base: book $98,304.52 / SPY 763.335. Live now: book $98,606.97 (+0.31% WTD) / SPY 768.75 (+0.71% WTD) → **alpha −0.40 WTD** (SPY ran harder; firms at Fri close). *Today's* intraday, book +0.47% edged SPY's +0.30%.
+
+### Voices
+- **Research:** no new signal; LLY still the only factor-right gate-adjacent idea but more extended than ever. **Risk:** all stops intact and ratcheting; loss cap fine; a record-high LLY entry = high shake-out odds, hold the slot. **Trader:** nothing to execute. **Astra:** no proposals.
+- **Decision:** steady hold, no trades, no guardrail change. Keep flagging the Perplexity outage.
+
+## Handoff → market-close (Tue 10/20 ~15:00 CT)
+1. **MANDATORY:** write the plain-English daily "How we're doing" scorecard to `messages.md` AND push it to Telegram (🌇) — never skipped, even on a no-trade day. Lead with up/down in $ and %, vs SPY, and whether we're ahead.
+2. **Re-verify live:** account/positions/orders/clock; confirm exactly 4 GTC trailing stops (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e) + SPY unencumbered; overnight risk check.
+3. **LLY:** still NEAR-TRIGGER; buy for the open slot ONLY on a clean non-extended base (~$1,180–1,210 / ≥5% off the ATH), 2+ signals, Conviction ≥70, earn still 10/29, cash ≥~$10k, ~10% (~8 sh), −7% hard GTC stop. Do NOT chase the record high.
+4. **PG earns Thu 10/22 pre** — hold on the floor, no new PG buy; decide hold-vs-trim at pre-market Wed.
+5. **STANDING:** structural A/B default A until Lauren replies; MSFT parked above $525; keep flagging the Perplexity credit outage until topped up.
+
 ## 2026-10-20 06:15 CT · PRE-MARKET (Tue)
 
 **Routine:** pre-market research. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 07:06 ET; next_open 2026-10-20 09:30 ET — normal session). **Live verify (all pulled this run):** equity **$98,154.60**, cash **$18,074.02 (~18.4%)**, last_equity (Mon 10/19 close) $98,142.17 → **flat pre-market (+$12)**, buying_power $296,521.70, long_mv $80,080.58, status ACTIVE. Open orders = **exactly 4 GTC trailing** (BP 209e58f4 45.243/50.27, PG 272e2864 143.982/159.98, RMD 761a6a31 218.367/242.63, RSG 135c200e 208.818/232.02); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT**. Weekly conviction buys **0/3** (week 10/19–10/23). Inbox: **no Pending**. Astra: **no proposals**. ⚠️ **Perplexity STILL DOWN** (insufficient_quota 401, account-wide, re-tested live) — 4-agent fan-out ran on **WebSearch**, whose index came back STALE (freshest hits mid-2026). Mitigated the stale-price problem by pulling **live Alpaca marks/bars** for every price that mattered. **NO TRADES (market closed).**
