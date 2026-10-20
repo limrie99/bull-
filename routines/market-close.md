@@ -24,7 +24,8 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
 5. Append a "Day summary" section to TODAY's research-log entry: closing equity, day P/L $ and %, SPY day %, alpha, trades placed, what worked / didn't (1–3 bullets each), open questions for tomorrow. Close it with a **`Handoff → next pre-market`** block (per strategy.md): positions nearest a stop, standing actions carried forward verbatim until executed or cancelled, and what tomorrow's research should resolve first. Positions are **held overnight** with their stops — we do not flatten the book at the close.
 
 6. Write to the user:
-   - Prepend an end-of-day message to memory/messages.md. Headline format: "Close: equity $X · day +/-Y% · SPY +/-Z% · alpha +/-W%". Body: 2–4 bullets (key trades, wins, concerns).
+   - Prepend the end-of-day "How we're doing" message to memory/messages.md in the CLAUDE.md teacher format (120–250 words), including days with no trades. The first two lines say, in plain English, whether we are up or down and whether we are ahead of the S&P 500 (today's gain or loss in dollars and percent, versus the S&P 500). Then 2–4 short bullets on why, then what you are watching tomorrow.
+   - Push that close note to Telegram every trading day (see scripts/telegram.md), including days with no trades. If the close cannot run, say so plainly in that day's message.
    - Overwrite dashboard/state.json with the closing snapshot. This is the most important state.json write of the day.
 
 7. Move handled inbox items to ## Handled.

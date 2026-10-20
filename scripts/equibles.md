@@ -115,8 +115,7 @@ a hot smart-money name with no catalyst is watchlist-only at best.
 
 ## Budget tip (hard limit — plan around it)
 
-The free tier is **100 requests per DAY, shared across all 5 routines** (and the MCP
-server, if ever used). Same discipline as the Perplexity budget: batch, don't browse.
+The free tier is **100 requests per DAY, shared across all 5 routines**. Same discipline as the Perplexity budget: batch, don't browse.
 - Pre-market owns most of the budget: ~3-4 calls per scout candidate + held name
   (insider-transactions, institutional-ownership, short-interest, valuation-multiples).
   5 candidates + 4 holdings ≈ 35 calls. Fine.

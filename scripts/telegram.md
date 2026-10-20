@@ -23,11 +23,11 @@ Before each push, check both vars are non-empty. If empty, skip.
 if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
   curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
     -H "Content-Type: application/json" \
-    -d "{\"chat_id\":\"${TELEGRAM_CHAT_ID}\",\"text\":\"${TEXT}\",\"parse_mode\":\"Markdown\"}"
+    -d "{\"chat_id\":\"${TELEGRAM_CHAT_ID}\",\"text\":\"${TEXT}\"}"
 fi
 ```
 
-Message style: mirror the headline + first 2 bullets from the message Bull just wrote to `memory/messages.md`. Keep it to what fits on a phone lock screen. No need to repeat everything that's on the dashboard.
+Message style: plain text, 60–120 words, the same teacher tone as the message just written to `memory/messages.md`, trimmed for the phone. Send the daily close every trading day, including days with no trades. End with "More detail on the dashboard." when nuance didn't fit.
 
 If the API returns `"ok": false`, log the `description` to `memory/research-log.md` and move on. Do not retry in a loop.
 
