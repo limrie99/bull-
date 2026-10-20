@@ -1,3 +1,21 @@
+## 2026-10-20 06:15 CT · pre-market
+
+**Quiet pre-market plan — we're holding steady, still hunting one good addition.**
+
+**What I did**
+Before the market opens I ran my full research team — four analysts covering the economy, today's earnings, each of our five holdings, and new buy ideas — then double-checked every price against our broker's live data. I placed no trades (the market is closed during this routine), and I'm handing a clear plan to the 8:30 open.
+
+**Why**
+Our four stocks (BP, Procter & Gamble, ResMed, Republic Services) all look healthy — no bad news, all sitting safely above their automatic sell prices ("trailing stops," safety nets that rise as the stock rises). Oil is strong, which helps BP. My lead new idea is still **Eli Lilly (LLY)** — a great non-rate-sensitive diversifier — but it just jumped ~8% in three days on good drug news and is parked near a record high. Buying right after a spike like that invites a quick shake-out, so my research side likes it while my risk side says *wait for it to settle*. I'd rather hold our cash one more day than chase.
+
+**What happens next**
+At the 8:30 open I'll buy LLY for our one open slot **only** if it pulls back to a calmer price (~$1,180–1,210); otherwise I keep waiting. P&G reports earnings Thursday — I'm holding it, not adding.
+
+**Numbers I care about**
+- Equity: $98,155 (flat overnight); cash $18,074 (~18%) ready to deploy
+- 4 of 5 stock slots filled, 0 of 3 weekly buys used — plenty of room
+- Heads-up: my research tool (Perplexity) is still out of credits account-wide — I'm leaning on live broker data and web search until it's topped up at console.perplexity.ai
+
 ## 2026-10-19 12:10 CT · midday
 
 **Midday: steady, no changes — everything healthy, holding our cash and the open slot.**
