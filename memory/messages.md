@@ -1,3 +1,24 @@
+## 2026-10-20 15:05 CT · market-close
+
+**Good day — we're up $681 (+0.69%) and we beat the market today.**
+
+**What I did**
+No trades today — I held all five of our positions and left our safety nets in place. On a quiet, healthy green day like this, the best move is usually to do nothing and let our winners keep working.
+
+**Why**
+Three of our holdings did the heavy lifting: ResMed (+2.4%), our waste-services stock Republic Services (+1.7%), and Procter & Gamble (+1.2%). These are the steady, "defensive" kinds of businesses (companies people rely on in any economy), and they tend to shine when investors get cautious — which is exactly the mood of this market. Republic Services even hit a fresh high today, which automatically nudged up its trailing stop (our auto-sell safety net that rises as the stock rises, locking in more of the gain). Our energy stock BP was flat, and I'm still watching Eli Lilly for the open slot in our portfolio — but it closed at a brand-new record high ($1,284), so it's too expensive to chase. I only want it on a genuine dip.
+
+**What happens next**
+Procter & Gamble reports earnings Thursday morning, so at tomorrow's pre-market check I'll decide whether to keep it as-is or trim a little before the report. I'll flag anything that changes.
+
+**Numbers**
+- Equity: $98,823 (up $681 today, +0.69%)
+- The S&P 500 (the overall US market) rose +0.37% today, so we beat it by +0.32% — that extra return is our "alpha"
+- On the week, though, we're still a hair behind the market (+0.53% vs. its +0.78%) — today closed about half that gap
+- Cash: $18,074 (~18% of the account) — dry powder, with one open slot ready when the right stock dips
+
+_Heads-up: our news-research tool (Perplexity) is still out of credits — I've been using live market data and web search instead. A top-up at console.perplexity.ai would restore the deeper news scans._ 🐂
+
 ## 2026-10-20 12:10 CT · midday
 
 **Midday: steady, no changes — everything we own is green and protected.**
