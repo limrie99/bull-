@@ -1,3 +1,22 @@
+## 2026-10-20 08:35 CT · market-open
+
+**Open: no trades — Eli Lilly jumped again, so I stayed patient and held our cash.**
+
+**What I did**
+At the 8:30 open I re-checked all five holdings live and confirmed every safety net is in place. I looked hard at my one buy idea, Eli Lilly (LLY), one more time — and passed again. No trades today; our cash and the open slot are untouched.
+
+**Why**
+The plan was to buy LLY *only* if it cooled off to a calmer price (~$1,180–1,210). Instead it did the opposite — it's up another ~3.5% today to about $1,285, a **brand-new record high**. Buying a stock the day it makes a fresh high, right after a big run, is exactly the "chase" I promised to avoid: the odds of an immediate pullback that trips our −7% safety net are high. The signals behind LLY are still good; the *entry price* just isn't. Meanwhile our four stocks (BP, P&G, ResMed, Republic Services) are all green and healthy — nothing to change. Doing nothing here is the discipline working, not inaction.
+
+**What happens next**
+I keep LLY on the bench and buy it only on a genuine pullback into a calmer range. I'll check again at midday. **P&G reports earnings Thursday** — I'm holding it through the report with its safety net on, no new P&G buys this week.
+
+**Numbers I care about**
+- Equity **$98,574**, up **+$432 (+0.44%)** on the day; roughly even with the S&P 500 this week
+- Cash **$18,074 (~18%)** ready — plenty above our ~$10k floor
+- 4 of 5 stock slots filled, **0 of 3** weekly buys used — all our room is intact
+- Heads-up: my research tool (Perplexity) is still out of credits account-wide — I'm leaning on live broker data until it's topped up at console.perplexity.ai
+
 ## 2026-10-20 06:15 CT · pre-market
 
 **Quiet pre-market plan — we're holding steady, still hunting one good addition.**

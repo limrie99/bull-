@@ -12029,3 +12029,40 @@ Total unrealized ≈ **+$1,376.44**.
 **Inbox:** no Pending. Nothing to handle. Astra: no proposals.
 
 **Decision:** HOLD all. No trades, no stop changes, no new orders. Next: market-close 15:00 CT (mandatory daily scorecard + Telegram push).
+
+## 2026-10-20 08:35 CT · MARKET-OPEN (Tue)
+
+**Routine:** market-open execution. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 09:34 ET; next_close 16:00 ET). **Live verify (all pulled this run):** equity **$98,573.84**, cash **$18,074.02 (~18.3%)**, last_equity (Mon 10/19 close) $98,142.17 → intraday **+$431.67 / +0.44%**, buying_power $297,695.58, long_mv $80,499.82, status ACTIVE. Open orders = **exactly 4 GTC trailing** (RSG 135c200e floor 209.286/hwm 232.54, RMD 761a6a31 218.961/243.29, PG 272e2864 143.982/159.98, BP 209e58f4 45.243/50.27); SPY unencumbered. Sleeve **4/5 — ONE OPEN SLOT**. Weekly conviction buys **0/3** (week 10/19–10/23). Inbox: **no Pending**. Astra: **no proposals**. ⚠️ **Perplexity STILL DOWN** (insufficient_quota) — re-verify ran on live Alpaca market data + WebSearch. **NO TRADES — the lead buy (LLY) was DECLINED on ENTRY (now MORE extended than yesterday), not on thesis.**
+
+### Daily loss-cap check
+Intraday +$431.67 (+0.44%) — nowhere near the −3% cap. New buys permitted (none qualified).
+
+### Risk checks (live)
+- (a) Any position −7% un-stopped? **NO** — all 4 conviction green (BP +12.0%, PG +7.43%, RMD +6.54%, RSG +6.67%) and on 10% trailing GTC; SPY −0.11% (index, no stop by design).
+- (b) Any +5% needing hard→trailing conversion? **NONE** — all 4 already on trailing and all now above +5%, ratcheting with price (RMD floor stepped 218.367→218.961, RSG 208.818→209.286 as they rose — normal trailing behavior). Nothing to convert.
+- (c) Sell signals? **None** — all 4 theses intact; no −7% breach, no thesis break, no fundamentals deterioration. Open slot = #5 (better-opp swap) moot.
+- All stops rested clean through the open; no fills, no rejects.
+
+### The LLY decision (Trader voice declines on entry discipline — again)
+Pre-market handed market-open a single lead: **LLY** for the open slot, ~10% (~8 sh ≈ $10k), −7% hard GTC stop, **ONLY on a clean non-extended entry (a genuine base ~$1,180–1,210 / ≥5% off the $1,275 high).**
+
+- **Research (pre-market):** LLY ≈ 76 (B+), 3 signals (#2 EU CHMP positive opinion ~10/13 for oral GLP-1 orforglipron, #3 GLP-1 secular, #4 PT hikes to $1,400–1,500). Best non-rate-sensitive diversifier. Earn 10/29 (safe). Thesis **intact.**
+- **Live price re-verify (Alpaca):** LLY **$1,284.6** now (latest trade). Daily bars: $1,167.16 (10/13) → $1,210.90 (10/14) → $1,251.73 (10/15, intraday high $1,275.56) → $1,257.32 (10/16) → $1,240.62 (10/19) → **today open $1,264.27, now $1,284.53 (+3.5% on the day, a FRESH all-time high ABOVE the prior $1,275.56 peak).** The stock moved UP, away from the clean-entry window, not into a base.
+- **Trader:** **DECLINED.** Yesterday LLY sat at $1,241 (a post-spike consolidation near highs) and I declined; today it is +3.5% higher at a brand-new record. This is the opposite of the ~$1,180–1,210 pullback the plan required — buying a fresh all-time high the day it's made, right after a catalyst run, with a −7% hard stop, is precisely the extended-entry shake-out the plan and the high-beta learnings warn against. **LLY stays bench leader (NEAR-TRIGGER), slot held, $0 risked.**
+- **#2 WMT (~70 borderline):** still DECLINED — insider selling + staples overlap with PG; no clean basis.
+- **Net:** no name clears 2+ signals AND ≥70 AND a **clean** entry. Open slot stays open; ~$18.1k dry powder held, well above the ~$10k floor. Not forcing the gate to spend cash.
+
+### Benchmark (intraday, firms at close)
+Fri 10/16 official base: book $98,304.52 / SPY 763.335. Live now: book $98,573.84 (+0.27% WTD) / SPY 765.45 (+0.28% WTD) → **alpha ~flat WTD** (roughly dead even, early week).
+
+### Voices
+- **Research:** liked LLY (76, 3 signals, thesis intact) — proposed it for the open slot.
+- **Risk:** entry is now a fresh record high (+3.5% today on top of the CHMP spike); a −7% hard stop here sits squarely in normal post-spike pullback range = high shake-out odds. Prefer a base/pullback.
+- **Trader:** declined LLY on entry; declined WMT on gate+overlap; no order placed. Slot held.
+
+### Handoff → MIDDAY (Tue 2026-10-20 ~12:00 CT)
+- **Re-verify live:** account/positions/orders/clock; confirm exactly 4 GTC trailing stops (RSG 135c200e, RMD 761a6a31, PG 272e2864, BP 209e58f4); SPY unencumbered; daily loss-cap check.
+- **STANDING — LLY (bench leader, NEAR-TRIGGER):** buy for the open slot ONLY on a **clean, non-extended pullback/base** (~$1,180–1,210 / ≥5% off the all-time high — NOT the current ~$1,285 record), 2+ signals standing, Conviction ≥70, earn still 10/29, cash stays ≥~$10k. Size ~10% (~8 sh ≈ $10k) from cash, −7% hard GTC stop. If still extended → leave NEAR-TRIGGER, do not chase. WMT #2 only if it verifies clean.
+- **PG earnings Thu 10/22 pre** — no new PG buy; HOLD on the trailing floor; decide hold-vs-trim at pre-market Wed.
+- **Earnings runway:** PG 10/22, MSFT 10/28, RSG 10/29, RMD 10/29, LLY 10/29, BP 10/30. FOMC Oct 27–28 (leaning hold). MSFT plan PARKED above $525 (earn 10/28).
+- **STANDING:** structural A/B default A (no Lauren reply). ⚠️ Perplexity credits still out — keep flagging; re-verify held-name headlines once restored.

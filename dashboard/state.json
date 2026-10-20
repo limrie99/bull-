@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-10-20 06:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-20 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 98154.6,
+  "equity": 98573.84,
   "cash": 18074.02,
-  "day_pl": 12.43,
-  "day_pl_pct": 0.01,
-  "week_pl_pct": -0.15,
-  "spy_week_pct": 0.23,
-  "alpha_week_pct": -0.38,
+  "day_pl": 431.67,
+  "day_pl_pct": 0.44,
+  "week_pl_pct": 0.27,
+  "spy_week_pct": 0.28,
+  "alpha_week_pct": -0.01,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 49.82,
-      "pl_pct": 11.96,
+      "current": 49.84,
+      "pl_pct": 12.0,
       "stop": 45.243
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 158.3,
-      "pl_pct": 6.92,
+      "current": 159.065,
+      "pl_pct": 7.43,
       "stop": 143.982
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.627381,
-      "current": 238.91,
-      "pl_pct": 4.5,
-      "stop": 218.367
+      "current": 243.57,
+      "pl_pct": 6.54,
+      "stop": 218.961
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 229.03,
-      "pl_pct": 5.06,
-      "stop": 208.818
+      "current": 232.54,
+      "pl_pct": 6.67,
+      "stop": 209.286
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.258431,
-      "current": 765.06,
-      "pl_pct": -0.16,
+      "current": 765.45,
+      "pl_pct": -0.11,
       "stop": null
     }
   ],
@@ -111,34 +111,40 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-20 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — LLY jumped again, so I held our cash",
+      "body": "LLY declined on entry a 2nd day: instead of pulling back it's +3.5% to ~$1,285, a fresh all-time high — exactly the chase I avoid. Signals stand, entry doesn't. 4/5 sleeve, open slot held, ~$18k dry powder. Equity $98,574 (+0.44% today), ~even with SPY this week. PG earns Thu (holding, not adding)."
+    },
+    {
       "ts": "2026-10-20 06:15 CT",
       "routine": "pre-market",
-      "headline": "Quiet pre-market plan \u2014 holding steady, still hunting one good addition",
-      "body": "Ran the full research team pre-open; no trades (market closed). All 4 stocks healthy above their trailing stops; oil strong (helps BP). Lead idea LLY still too extended near a record high to chase \u2014 buy only on a pullback. Cash ~$18k ready; PG earns Thu (holding, not adding)."
+      "headline": "Quiet pre-market plan — holding steady, still hunting one good addition",
+      "body": "Ran the full research team pre-open; no trades (market closed). All 4 stocks healthy above their trailing stops; oil strong (helps BP). Lead idea LLY still too extended near a record high to chase — buy only on a pullback. Cash ~$18k ready; PG earns Thu (holding, not adding)."
     },
     {
       "ts": "2026-10-19 12:10 CT",
       "routine": "midday",
-      "headline": "Steady midday \u2014 nothing to change",
+      "headline": "Steady midday — nothing to change",
       "body": "No catalyst cleared the midday bar; LLY still extended (don't chase). 4/5 sleeve, open slot held, ~$18k dry powder. All stops resting clean."
     },
     {
       "ts": "2026-10-19 09:45 CT",
       "routine": "market-open",
-      "headline": "No buy at the open \u2014 LLY too extended to chase",
+      "headline": "No buy at the open — LLY too extended to chase",
       "body": "Lead idea LLY declined on entry (+7.7% in 3 days at record highs). Signals stand, entry doesn't. Slot held, $0 risked. All 4 theses intact."
     },
     {
       "ts": "2026-10-19 06:15 CT",
       "routine": "pre-market",
-      "headline": "New week, one open slot \u2014 LLY is the lead idea",
+      "headline": "New week, one open slot — LLY is the lead idea",
       "body": "First bench name to reach the buy gate in weeks (LLY, GLP-1 drug news). Buy only on a clean, non-extended entry. 4/5 sleeve, 0/3 weekly buys."
     },
     {
       "ts": "2026-10-16 16:00 CT",
       "routine": "weekly-review",
-      "headline": "Best alpha week of the run \u2014 beat the market by ~3.3 points",
-      "body": "Book +1.37% vs SPY \u22121.95%. Zero stop-outs, all theses intact. Cumulative gap to SPY narrowed sharply."
+      "headline": "Best alpha week of the run — beat the market by ~3.3 points",
+      "body": "Book +1.37% vs SPY −1.95%. Zero stop-outs, all theses intact. Cumulative gap to SPY narrowed sharply."
     },
     {
       "ts": "2026-10-16 15:12 CT",
@@ -149,14 +155,8 @@
     {
       "ts": "2026-10-16 12:10 CT",
       "routine": "midday",
-      "headline": "Quiet midday \u2014 no changes",
+      "headline": "Quiet midday — no changes",
       "body": "Book steady; stops resting; no catalyst to act on."
-    },
-    {
-      "ts": "2026-10-16 08:50 CT",
-      "routine": "market-open",
-      "headline": "No new buy at the open",
-      "body": "No candidate cleared a clean entry; slot held open."
     }
   ]
 }
