@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-10-21 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-10-21 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 98886.88,
+  "equity": 98873.44,
   "cash": 18074.02,
-  "day_pl": 103.93,
-  "day_pl_pct": 0.11,
-  "week_pl_pct": 0.59,
-  "spy_week_pct": 1.31,
-  "alpha_week_pct": -0.72,
+  "day_pl": 90.49,
+  "day_pl_pct": 0.09,
+  "week_pl_pct": 0.58,
+  "spy_week_pct": 1.28,
+  "alpha_week_pct": -0.70,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 49.78,
-      "pl_pct": 11.87,
+      "current": 49.85,
+      "pl_pct": 12.02,
       "stop": 45.243
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 157.58,
-      "pl_pct": 6.43,
+      "current": 156.74,
+      "pl_pct": 5.86,
       "stop": 143.982
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.627381,
-      "current": 246.0325,
-      "pl_pct": 7.61,
+      "current": 246.20,
+      "pl_pct": 7.69,
       "stop": 223.74
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 230.49,
-      "pl_pct": 5.73,
+      "current": 230.46,
+      "pl_pct": 5.72,
       "stop": 209.8755
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.258431,
-      "current": 773.37,
-      "pl_pct": 0.93,
+      "current": 773.67,
+      "pl_pct": 0.97,
       "stop": null
     }
   ],
@@ -111,52 +111,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-21 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $98,873 · day +0.09% · SPY +0.53% · alpha -0.44%",
+      "body": "Up small on the day (+$90), every stock green, no trades. But the market rose more on a risk-on tape, so we trailed by ~0.44 pts today and -0.70 on the week. BP our star (+12%), RMD +7.7%. Held cash rather than chase Eli Lilly near its record high. P&G reports earnings Thu pre-market — holding it on its trailing-stop safety net."
+    },
+    {
       "ts": "2026-10-21 12:05 CT",
       "routine": "midday",
-      "headline": "Equity $98,887 \u00b7 day +0.11% \u00b7 steady, no changes \u00b7 Perplexity restored",
+      "headline": "Equity $98,887 · day +0.11% · steady, no changes · Perplexity restored",
       "body": "Midday check-up: all 4 conviction names green and protected; no trades. RMD hit a fresh high so its trailing stop ratcheted up. Research tool (Perplexity) back online after a multi-day outage; 4-hr news scan on all holds = no material news. Behind SPY on today's up-tape (book +0.11% vs SPY +0.56%); WTD alpha -0.72. Holding cash for a clean LLY entry."
     },
     {
       "ts": "2026-10-21 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 all 5 healthy, holding our slot for a better price",
-      "body": "Re-checked at the live open; no trades. Holding P&G through Thursday's earnings (protected by a trailing stop), passed again on Eli Lilly (~$1,267, still ~3% off a record \u2014 too close to chase), and confirmed all 4 safety nets working. Chose not to park spare cash in the S&P 500 floor (already ~82% invested, not idle-cash drag) \u2014 keeping powder for LLY on a dip. Equity ~$98,810 (flat, +$27). Week +0.5% vs SPY +0.9%. Perplexity still out of credits."
+      "headline": "Open: no trades — all 5 healthy, holding our slot for a better price",
+      "body": "Re-checked at the live open; no trades. Holding P&G through Thursday's earnings (protected by a trailing stop), passed again on Eli Lilly (~$1,267, still ~3% off a record — too close to chase), and confirmed all 4 safety nets working. Chose not to park spare cash in the S&P 500 floor (already ~82% invested, not idle-cash drag) — keeping powder for LLY on a dip. Equity ~$98,810 (flat, +$27). Week +0.5% vs SPY +0.9%. Perplexity still out of credits."
     },
     {
       "ts": "2026-10-21 06:15 CT",
       "routine": "pre-market",
-      "headline": "Quiet pre-market plan \u2014 holding steady, PG held into Thursday's earnings",
+      "headline": "Quiet pre-market plan — holding steady, PG held into Thursday's earnings",
       "body": "Ran the full research team pre-open; no trades (market closed). All 4 stocks healthy above their trailing stops; oil ~$110 helps BP, high rates a mild drag on RMD/RSG. Decided to HOLD P&G through its Thu earnings (4 straight beats + fresh upgrades, and it's protected by a trailing stop). Lead idea LLY still too extended (~$1,285, near record) to chase. Cash ~$18k, open slot held, 0/3 weekly buys. Perplexity still out of credits."
     },
     {
       "ts": "2026-10-20 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $98,823 \u00b7 day +0.69% \u00b7 SPY +0.37% \u00b7 alpha +0.32%",
-      "body": "Quiet green day, no trades. ResMed (+2.4%), Republic Services (+1.7%), P&G (+1.2%) led; BP flat. We beat the market today but are still -0.26% on the week. PG earnings Thu \u2014 decide hold-vs-trim Wed pre-market. LLY at a fresh record high, too expensive to chase. Perplexity still out of credits."
+      "headline": "Close: equity $98,823 · day +0.69% · SPY +0.37% · alpha +0.32%",
+      "body": "Quiet green day, no trades. ResMed (+2.4%), Republic Services (+1.7%), P&G (+1.2%) led; BP flat. We beat the market today but are still -0.26% on the week. PG earnings Thu — decide hold-vs-trim Wed pre-market. LLY at a fresh record high, too expensive to chase. Perplexity still out of credits."
     },
     {
       "ts": "2026-10-20 12:10 CT",
       "routine": "midday",
-      "headline": "Steady midday \u2014 no changes, everything green and protected",
-      "body": "No catalyst cleared the midday bar; LLY got MORE extended (fresh ATH ~$1,292), still don't chase. All 4 stocks green above their trailing stops (RMD & RSG floors ratcheted up today). Equity $98,607 (+0.47% today \u2014 slightly ahead of SPY's +0.30%). 4/5 sleeve, open slot held, 0/3 weekly buys, ~$18k dry powder."
+      "headline": "Steady midday — no changes, everything green and protected",
+      "body": "No catalyst cleared the midday bar; LLY got MORE extended (fresh ATH ~$1,292), still don't chase. All 4 stocks green above their trailing stops (RMD & RSG floors ratcheted up today). Equity $98,607 (+0.47% today — slightly ahead of SPY's +0.30%). 4/5 sleeve, open slot held, 0/3 weekly buys, ~$18k dry powder."
     },
     {
       "ts": "2026-10-20 08:35 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 LLY jumped again, so I held our cash",
-      "body": "LLY declined on entry a 2nd day: instead of pulling back it's +3.5% to ~$1,285, a fresh all-time high \u2014 exactly the chase I avoid. Signals stand, entry doesn't. 4/5 sleeve, open slot held, ~$18k dry powder. Equity $98,574 (+0.44% today), ~even with SPY this week. PG earns Thu (holding, not adding)."
+      "headline": "Open: no trades — LLY jumped again, so I held our cash",
+      "body": "LLY declined on entry a 2nd day: instead of pulling back it's +3.5% to ~$1,285, a fresh all-time high — exactly the chase I avoid. Signals stand, entry doesn't. 4/5 sleeve, open slot held, ~$18k dry powder. Equity $98,574 (+0.44% today), ~even with SPY this week. PG earns Thu (holding, not adding)."
     },
     {
       "ts": "2026-10-20 06:15 CT",
       "routine": "pre-market",
-      "headline": "Quiet pre-market plan \u2014 holding steady, still hunting one good addition",
-      "body": "Ran the full research team pre-open; no trades (market closed). All 4 stocks healthy above their trailing stops; oil strong (helps BP). Lead idea LLY still too extended near a record high to chase \u2014 buy only on a pullback. Cash ~$18k ready; PG earns Thu (holding, not adding)."
-    },
-    {
-      "ts": "2026-10-19 12:10 CT",
-      "routine": "midday",
-      "headline": "Steady midday \u2014 nothing to change",
-      "body": "No catalyst cleared the midday bar; LLY still extended (don't chase). 4/5 sleeve, open slot held, ~$18k dry powder. All stops resting clean."
+      "headline": "Quiet pre-market plan — holding steady, still hunting one good addition",
+      "body": "Ran the full research team pre-open; no trades (market closed). All 4 stocks healthy above their trailing stops; oil strong (helps BP). Lead idea LLY still too extended near a record high to chase — buy only on a pullback. Cash ~$18k ready; PG earns Thu (holding, not adding)."
     }
   ]
 }

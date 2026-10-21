@@ -1,3 +1,39 @@
+## 2026-10-21 · market-close (Wed, ~15:05 CT) — Opus 4.8 | NO TRADES
+
+**Run meta:** Market CONFIRMED CLOSED via /v2/clock (is_open=false, 16:03 ET; next_open Thu 10/22 09:30 ET). Keys valid. Live pulls this run: account/positions/orders/clock + SPY trade/bars. Inbox: no Pending. Astra: no proposals. Weekly conviction buys 0/3 (week 10/19–10/23). Sleeve 4/5, one open slot held. Today's closed orders: **0** (no trades placed, none filled, no stops fired). State fully reconciles with the midday handoff — no gap.
+
+**Closing snapshot:** equity **$98,873.44**, cash **$18,074.02 (~18.28%)**, last_equity (Tue 10/20 close) $98,782.95 → **day P/L +$90.49 (+0.09%)**; buying_power $298,534.46; long_mv $80,799.42; status ACTIVE. Positions (close marks): BP 214 @ 49.85 (+12.02%), PG 65 @ 156.74 (+5.86%), RMD 42 @ 246.20 (+7.69%), RSG 44 @ 230.46 (+5.72%), SPY 51 @ 773.67 (+0.97%, index sleeve ~39.9%).
+
+**Stop integrity (live, exactly 4 GTC trailing + SPY unencumbered):** BP 209e58f4 floor **45.243** hwm 50.27 · PG 272e2864 floor **143.982** hwm 159.98 · RMD 761a6a31 floor **223.74** hwm 248.60 · RSG 135c200e floor **209.8755** hwm 233.195. SPY 51 sh unencumbered (no stop by design). **No hard stops remain.** No hard→trailing conversion pending (all 4 already trailing, all >+5%). Unchanged from midday.
+
+### Day summary (2026-10-21)
+- **Closing equity:** $98,873.44. **Day P/L: +$90.49 / +0.09%.**
+- **SPY day: +0.53%** (official close 773.13 vs Tue close 769.09). **Alpha today: −0.44.**
+- **WTD** (base Fri 10/16 close book $98,304.52 / SPY 763.335): book **+0.58%** / SPY **+1.28%** → **alpha −0.70 WTD.**
+- **Trades placed today:** 0.
+- **What worked:** (1) All 4 conviction names and the SPY floor closed green — book made money on the day; nothing stopped, nothing broke. (2) BP strong (+12.02%), RMD (+7.69%) held near its ratcheted high — the energy + sleep-apnea legs carried the sleeve. (3) Discipline held: LLY left near-trigger rather than chased into a record high, consistent with the high-beta/extended-entry learning.
+- **What didn't:** (1) The defensive sleeve again under-participated on a risk-on up-tape — +0.09% vs SPY +0.53% — so we lost ~0.44 of relative ground today and sit −0.70 WTD. This is the recurring non-participation pattern the 10/2 escalation named; not a new break, but the structural A/B is still unanswered. (2) Cash ~18.3% is above the ~$10k target and earns no beta on an up day; held deliberately as LLY dry powder, but it is a mild drag on strong-SPY days.
+- **Open questions for tomorrow:** (1) **PG earnings Thu 10/22 pre** — does the print hold the thesis? Floor (143.982) caps downside; pre-market owns the read. (2) Does an LLY clean-entry window (~$1,180–1,210 / ≥5% off the high) finally open, or does it stay extended? (3) Read-through from tonight's mega-cap prints (META/TSLA/IBM/LRCX) to the tape/sector tone into tomorrow. (4) Lauren's structural A/B reply (default A until answered).
+
+### Risk checks (close, into the overnight)
+- **(a) Any position −7%+ un-stopped?** NO — all 4 conviction green and protected; nothing down or near a stop overnight.
+- **(b) +5%+ hard→trailing conversion pending?** NONE — all 4 already trailing.
+- **(c) Daily loss cap:** day **+0.09%** (positive) — never in play.
+- **(d) Sell signals?** None. All theses intact; stops resting clean; SPY held.
+- **Overnight event:** PG earns Thu pre — held on the trailing floor, downside bounded; no new PG.
+
+### Voices
+- **Research:** No new high-conviction catalyst; LLY still the lead, still extended (no clean entry). No Astra proposals, nothing new clears the gate.
+- **Risk:** All 4 trailing stops intact and resting into the overnight; day +0.09% (loss cap N/A); PG event risk bounded by its floor; cash ample. No sizing/stop change.
+- **Trader:** No order placed — close mandate is scorecard + risk check into the overnight, and everything is healthy and protected.
+
+### Handoff → pre-market (Thu 10/22 ~06:00 CT)
+- Re-verify live: account/positions/orders/clock; confirm exactly 4 GTC trailing stops (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e) + SPY unencumbered.
+- **PG EARNINGS pre-market Thu 10/22** — read the result + tape reaction; thesis-hold decision; NO new PG; floor 143.982 caps downside on a gap-down.
+- **LLY = lead buy** for the open slot ONLY on a CLEAN non-extended pullback (~$1,180–1,210 / ≥5% off the high), 2+ signals, Conviction ≥70, earn 10/29 (>3 sessions), cash ≥~$10k, ~10% size, −7% hard GTC stop. Still near highs → don't chase. RTX #2 (extended), MMM below gate.
+- Cash ~$18.1k above the ~$10k target but NOT drag (~82% invested); SPY-floor top-up remains an OPTION only.
+- Earnings runway: PG 10/22, MSFT 10/28, RSG 10/29, RMD 10/29, LLY 10/29, BP 10/30. FOMC Oct 27–28 (leaning hold). Check inbox for Lauren's structural A/B reply (default A until answered).
+
 ## 2026-10-21 · midday (Wed, ~12:05 CT) — Opus 4.8 | NO TRADES
 
 **Run meta:** Market CONFIRMED OPEN via /v2/clock (is_open=true, 13:04 ET; next_close 16:00 ET). Keys valid. Live pulls this run: account/positions/orders/clock + per-name marks. Inbox: no Pending. Astra: no proposals. Weekly conviction buys 0/3 (week 10/19–10/23). Sleeve 4/5, one open slot held. **✅ Perplexity RESTORED** — a real `sonar` query returned HTTP 200 with content (was 401 insufficient_quota, account-wide, for several days). Ran a 4-hour breaking-news/thesis-break scan on all 4 conviction names → **no material negative news** (BP: TD Cowen PT raise + TechnipFMC MoU, both positive; PG/RMD/RSG: nothing material). The multi-day operational research outage is **cleared**; removed the standing ⚠️ flag.

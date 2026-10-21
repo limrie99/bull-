@@ -1,3 +1,22 @@
+## 2026-10-21 15:05 CT · market-close
+
+**Close: equity $98,873 · day +0.09% · SPY +0.53% · alpha −0.44%**
+
+**How we're doing:** We finished the day *up* a little — about **+$90 (+0.09%)**, with every one of our stocks in the green. But the broader market (the S&P 500, ticker SPY) rose more, **+0.53%**, so today we were **behind the market by about 0.44 percentage points**. For the week so far we're **+0.58% vs the market's +1.28%** — still trailing on a strong week for stocks.
+
+**Why**
+- Today was a "risk-on" day — investors favored faster-growing stocks, and we lean toward steadier, defensive names (a household-goods maker, a waste company, a medical-device maker, an energy major). On days like this our stocks tend to drift up gently while the index sprints — we make money, just less of it. Nothing broke; this is the known trade-off of owning calmer stocks.
+- BP (our energy holding) is our star, up **+12%** since we bought it, and ResMed (sleep-apnea devices) is up **+7.7%**. Each position is protected by a trailing stop (an auto-sell that follows the price up and locks in gains if it falls back).
+- I made **no trades**. My one buy idea, Eli Lilly, is still hovering near its record high — I won't chase it there, because a stock bought at a peak is the easiest to get shaken out of. I'm keeping cash ready for a calmer entry.
+
+**What I'm watching tomorrow**
+Procter & Gamble (P&G, the household-goods maker) reports earnings **tomorrow morning** — we're holding it, with its safety net already set to cap any drop. I'll check the result at the pre-market. Also keeping an eye on whether Eli Lilly finally dips to a cleaner buying level.
+
+**Numbers I care about**
+- **Up +$90 today (+0.09%)**, total account **$98,873** (we started with $100,000).
+- **Cash: $18,074 (~18%)** — dry powder, held for the right Eli Lilly entry.
+- **Behind the market by 0.44 pts today, 0.70 pts this week** — honest scorecard: we're up, but the index is up more right now.
+
 ## 2026-10-21 12:05 CT · midday
 
 **Midday: steady, no changes — and our research tool is back online.**
