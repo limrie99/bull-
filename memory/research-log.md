@@ -1,3 +1,51 @@
+## 2026-10-21 · pre-market (Wed, ~06:15 CT) — Opus 4.8 | NO TRADES (market closed)
+
+**Run meta:** Market CONFIRMED CLOSED via /v2/clock (is_open=false, 07:04 ET; next_open 2026-10-21 09:30 ET). Keys valid. Live pulls this run: account/positions/orders/clock. **⚠️ Perplexity STILL DOWN** (401 insufficient_quota, account-wide — persistent multi-day outage; flagged to Lauren again). Full 4-agent research fan-out run on **WebSearch fallback** (macro / earnings / positions / scout). Inbox: no Pending. Astra: no proposals. Weekly conviction buys 0/3 (week 10/19–10/23). Sleeve 4/5, one open slot held. Cash $18,074.02 (~18.3%).
+
+**Live snapshot:** equity **$98,914.36**, cash $18,074.02, last_equity (Tue 10/20 close) $98,782.95; buying_power $298,649.03; status ACTIVE. Positions (pre-market marks): BP 214 @ 44.4998 → 49.85 (+12.02%); PG 65 @ 148.06 → 158.28 (+6.90%); RMD 42 @ 228.627 → 245.88 (+7.55%); RSG 44 @ 218.00 → 232.98 (+6.87%); SPY 51 @ 766.258 → 770.709 (+0.58%, index sleeve ~40%). Open orders verified = exactly 4, ALL 10% trailing GTC (BP 209e58f4 floor 45.243 hwm 50.27; PG 272e2864 floor 143.982 hwm 159.98; RMD 761a6a31 floor 221.814 hwm 246.46; RSG 135c200e floor 209.8755 hwm 233.195); SPY unencumbered (no stop by design).
+
+### Market context (Macro voice)
+- **Futures mildly risk-on** on earnings: ES ~+0.3%, NQ ~+0.9%, Dow ~flat; VIX ~17 (-6%). Tue (10/20) closed green (Dow +~1% on 3M). **Big after-close prints today: META, TSLA, IBM, LRCX** — the real sentiment swing into Thursday's open.
+- **Yields = the standing headwind.** 10Y ~5.1% (near 24-yr highs; intraday 5.36% on 10/7). Heavy issuance + oil-led inflation. 2Y unconfirmable fresh. **Rate-sensitive names (RMD, RSG) carry this risk.**
+- **Oil ELEVATED — BP tailwind.** Brent ~$110 (touched ~$112 on 10/20, highest since May) on Strait of Hormuz tanker-flow disruption + a 4.9M bbl US crude draw; WTI ~$99. IEA sees little normalization in 2026.
+- **Fed quiet period through 10/29**; Oct 27–28 FOMC ~80% HOLD. Govt-shutdown/data-disruption status UNCONFIRMED (assume official data thin).
+- **Net read: NEUTRAL-to-cautiously-risk-on.** Firm tape, but 5.1% 10Y + $110 Brent pressure long-duration/rate-sensitive holdings while boosting BP. Tilt any new buy toward rate-resilient / energy-levered, not long-duration growth.
+
+### Portfolio watch (Research + Risk voices) — NO sell triggers
+- **BP (+12.0%) — THESIS INTACT & STRENGTHENING.** Brent ~$110 on Hormuz disruption is a direct tailwind. No adverse company news. Earn Fri 10/30 (consensus EPS ~$2.09). On 10% trailing floor 45.243.
+- **PG (+6.9%) — THESIS INTACT; EARNINGS THU 10/22 PRE is the swing event.** Fiscal Q1'27: consensus EPS ~$1.88–1.89 (~5% YoY decline), rev ~$22.7B (+1.4% YoY), organic ~2%. 4 straight EPS beats. Fresh analyst support into print: Citi→$180 (added to catalyst watch), UBS Buy $172, Evercore ISI upgrade Outperform $166, Bernstein→$149; counterweight Zacks Rank #4. Recurring risk = revenue miss (beat EPS/missed rev last quarter) + ~8% core-EPS FY27 headwind. **DECISION (see below): HOLD core into the print on the trailing floor; no new PG.**
+- **RMD (+7.5%) — THESIS INTACT.** GLP-1 reads as TAILWIND not threat (company data: PAP+GLP-1 users show higher PAP adherence). Mizuho→$240 Outperform (10/13). Earn 10/29. Rate-sensitive (watch 10Y). On floor 221.814.
+- **RSG (+6.9%) — WATCH (not broken).** No company-specific bad news; benign institutional buying noted. BUT a cluster of October price-target CUTS, no upgrades: Morgan Stanley→$219 EW (10/13, now ~at our price ~$233), Goldman→$246 Buy, Scotia $236, BMO $244, RBC $272; consensus ~$243. Valuation fatigue into the 10/29 print. Thesis (defensive waste) intact; monitor earnings closely. On floor 209.8755 (hwm 233.195).
+- **SPY floor (+0.58%) — tracking, no stop by design** (Lauren-approved Option B carve-out).
+- **FACTOR WATCH:** RMD + RSG remain the correlated rate-sensitive pair; BP (energy) + PG (staples) diversify. Open-slot refill should PREFER a non-rate-sensitive diversifier on a CLEAN entry.
+
+### Buy candidates (Research/Scout voices) — signals matched + conviction
+**Gate reminder: need 2+ signals AND Conviction ≥70 AND a clean (non-extended, non-knife) entry. Nothing clears on a clean, live-confirmed entry today.**
+- **LLY (Eli Lilly) — lead bench, ~76 B+, but DECLINED on entry (chase + pre-earnings).** Live $1,284.90 = ~0.6% off the all-time high (~$1,292). Signals: #3 GLP-1 secular tailwind, #4 analyst upgrades (Leerink/Berenberg/Citi/HSBC), #5 rotation into defensive pharma = ~3 signals. BUT entry is a CHASE at a record high; the clean $1,180–1,210 base from early Oct has been given up. Earn ~10/29 (unconfirmed; ~6 sessions out — outside the 3-day no-open window but opening fresh right into a Lilly print is risky). **Stays NEAR-TRIGGER: buy for the open slot ONLY on a genuine pullback to ~$1,180–1,210 with ≥2 signals standing, Conviction ≥70, and comfort holding through 10/29. Do NOT chase.**
+- **RTX (defense/aerospace) — WATCH.** Live $193.33. Q3 beat (EPS $2.26 vs ~$1.77) + RAISED FY26 EPS guide $29.35–29.75, sales +12% organic. Signals: #1 beat+raise, #3 defense secular, #5 rotation into defense = ~3 signals; non-rate-sensitive (good diversifier); print risk now past. Rough conviction ~68–72. Entry popped on the print — re-verify base quality; do not chase a post-print spike. Best signal profile of the fresh movers; watch for a pullback toward the 50-day.
+- **MMM (3M, diversified industrial) — WATCH.** Live $171.31 (~7% below 52-wk high ~$184). Beat + FY26 guide raise (~$8.80–8.95). Signals ~2 (#1 beat+raise, weak #3). Non-rate-sensitive. Rough conviction ~62–66 (B — watchlist only). Cleanest entry of the movers but signals marginal — does not clear the gate.
+- Passed: HAS (+11%, discretionary/extended), EFX (rate-sensitive + trimmed outlook), COF (bank/rate-sensitive), NOC (good tailwind but extended near highs).
+
+### Sell candidates
+- **None.** No thesis breaks, no guidance cuts, no litigation, no exec departures. All 4 conviction names green and protected on 10% trailing floors; SPY floor tracking. RSG flagged WATCH on analyst-target compression into 10/29 earnings — monitor, not a sell.
+
+### PG hold-vs-trim-into-earnings DECISION (due today; executes at a session that can trade)
+**Research:** PG print Thu 10/22 pre — neutral-to-mildly-constructive; 4 straight EPS beats, two fresh upgrades/reiterations (Citi $180, UBS $172, Evercore $166) into the print, organic trends firming (~2–3%). Capped reward (defensive staple, EPS declining YoY) and recurring revenue-miss risk are the offsets.
+**Risk:** Position is +6.9% and sits on a 10% trailing GTC floor (143.982) that caps downside automatically; single-name overnight event risk is already bounded. Trimming to bank +7% is defensible but not compelled.
+**Trader decision: HOLD the full 65 shares into the print on the existing trailing floor; place NO new PG (no add — PG overlaps the staples factor and we don't buy into a <3-day print). Default = HOLD.** Rationale: the trailing stop already handles the downside, the analyst/beat setup tilts constructive, and trimming a winner before a print we lean positive on is timing against our own thesis. If a session-level routine today sees a material pre-print negative (guidance pre-announce, sector shock), it may revisit a partial trim — but absent that, HOLD stands. (No order placed this routine; market closed.)
+
+### Handoff → market-open (Wed 10/21 ~08:35 CT)
+1. Re-verify live: account/positions/orders/clock; confirm exactly 4 GTC trailing stops (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e); SPY unencumbered.
+2. **PG: HOLD into Thu print on the trailing floor; no new PG.** (Standing decision above.)
+3. **Open slot: LLY near-trigger — buy ONLY on a clean pullback to ~$1,180–1,210** (not a chase near the ~$1,292 ATH), 2+ signals, Conviction ≥70, comfort holding through ~10/29, cash ≥~$10k, ~10% size (~8 sh), −7% hard GTC stop at fill. If still extended → hold the slot, don't chase. RTX/MMM = watchlist only (RTX better signals but post-print extended; MMM marginal signals).
+4. **Cash ~$18.1k is above the ~$10k target** but we are NOT in cash-drag (~82% invested). Holding dry powder for a quality clean entry is fine; a small SPY-floor top-up is an OPTION if nothing conviction-grade appears and cash stays well above $10k — not mandated.
+5. Watch after-close META/TSLA/IBM for sentiment read into Thursday; 10Y ~5.1% pressure on RMD/RSG; Brent ~$110 supports BP.
+6. **STANDING: check inbox for Lauren's structural A/B reply** (default A until answered). **Keep flagging the Perplexity outage** until credits restored.
+
+*Paper only. This entry places no Alpaca order.*
+
+---
+
 ## 2026-10-20 15:05 CT · MARKET-CLOSE (Tue)
 
 **Routine:** market-close + mandatory daily scorecard. Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false, 16:02 ET; next_open 2026-10-21 09:30 ET). **Live verify (all pulled this run):** equity **$98,823.13**, cash **$18,074.02 (~18.3%)**, last_equity (Mon 10/19 close) $98,142.17, buying_power $298,393.59, long_mv $80,749.11, status ACTIVE. Open orders = **exactly 4 GTC trailing** (BP 209e58f4 45.243/50.27, PG 272e2864 143.982/159.98, RMD 761a6a31 221.814/246.46, RSG 135c200e **209.8755/233.195 — ratcheted UP today**); SPY unencumbered (qty_available 51). Sleeve **4/5 — ONE OPEN SLOT**. Weekly conviction buys **0/3** (week 10/19–10/23). Today's closed orders: **0**. Inbox: **no Pending**. Astra: **no proposals**. ⚠️ **Perplexity STILL DOWN** (insufficient_quota 401, account-wide). **NO TRADES.**

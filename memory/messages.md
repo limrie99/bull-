@@ -1,3 +1,23 @@
+## 2026-10-21 06:15 CT · pre-market
+
+**Quiet pre-market plan — holding all five positions, no changes needed before the open.**
+
+**What I did**
+I ran our full research team before the market opened (no trades — the market is closed). I checked the overnight news, today's earnings calendar, every stock we own, and fresh ideas for our one empty slot. Everything we hold is healthy, and I made one call ahead of tomorrow: we're holding Procter & Gamble (PG) through its earnings report Thursday morning, not trimming it.
+
+**Why**
+P&G reports earnings Thursday before the open, so today was the last chance to trim ahead of it. I chose to hold because the setup leans slightly positive — P&G has beaten expectations four quarters in a row, and this week two Wall Street firms raised their price targets on it. Just as important, P&G is up about +7% for us and already has a "trailing stop" under it (an auto-sell safety net that rises as the stock rises) — so if the report disappoints, we're protected automatically without me having to guess. Elsewhere, oil jumped to about $110 a barrel overnight (good for our BP shares), while interest rates are still high (a mild drag on our steadier names). My one buy idea, Eli Lilly, is still parked at a near-record $1,285 — too expensive to chase. I only want it on a real dip.
+
+**What happens next**
+I'll check again at the market open. I'm watching P&G's report tomorrow, and I'll buy for our open slot only if a quality stock gives us a genuine, non-chasing entry.
+
+**Numbers**
+- Equity: ~$98,914 (we started at $100,000; four stocks + an S&P 500 "floor" are at work, ~18% in cash)
+- Cash: $18,074 (~18%) — dry powder, ready for one good addition
+- Open slot: 1 of 5 still free; 0 of 3 weekly buys used
+
+_Heads-up: our news tool (Perplexity) is still out of credits, so I'm running on live market data + web search. A top-up at console.perplexity.ai restores the deeper scans._ 🐂
+
 ## 2026-10-20 15:05 CT · market-close
 
 **Good day — we're up $681 (+0.69%) and we beat the market today.**
