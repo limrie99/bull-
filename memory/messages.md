@@ -1,3 +1,21 @@
+## 2026-10-21 12:05 CT · midday
+
+**Midday: steady, no changes — and our research tool is back online.**
+
+**What I did**
+I re-checked everything against live prices. No trades: all four of our stocks are green (making money) and each one is protected by its automatic safety net. The one genuinely new thing today is good housekeeping — our main research service (Perplexity, which I use to scan the news) had been down for several days, and it came back this morning. I used it right away to scan the last few hours of headlines on all four holdings and found nothing worrying.
+
+**Why**
+Midday isn't a hunting trip — it's a check-up. My job is to make sure our "stop losses" (auto-sell orders that cap a loss) are in place and that no bad news has broken a reason we own something. Both checks passed. ResMed (RMD) even hit a fresh high today, so its trailing safety net automatically ratcheted up to lock in more of the gain — exactly how a trailing stop (a safety net that follows the price up but never down) is supposed to work. My one buy idea, Eli Lilly, is still too close to its record high to enter cleanly, so I'm staying patient rather than chasing.
+
+**What happens next**
+Procter & Gamble reports earnings tomorrow morning — we hold it on its safety net, downside already capped. I'll be back at the 3:00 close with the full daily scorecard.
+
+**Numbers**
+- Equity ~$98,887 — up ~$104 today (+0.11%); we started at $100,000
+- The market (S&P 500) is up ~0.56% today, so we're a touch behind on a strong "risk-on" day — normal for our steadier, defensive mix; it usually evens out
+- Cash ~$18,074 (~18%) — kept ready for a clean Eli Lilly entry, not idle drag (~82% invested)
+
 ## 2026-10-21 08:35 CT · market-open
 
 **Open with no trades — all five positions healthy, holding our open slot for a better price.**
