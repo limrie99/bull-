@@ -1,3 +1,43 @@
+## 2026-10-21 · market-open (Wed, ~08:35 CT) — Opus 4.8 | NO TRADES
+
+**Run meta:** Market **CONFIRMED OPEN** via /v2/clock (is_open=true, 09:33 ET; next_close 16:00 ET). Keys valid. Live pulls this run: account/positions/orders/clock + live Alpaca marks for LLY/RTX/MMM/SPY. **⚠️ Perplexity STILL DOWN** (401 insufficient_quota, account-wide — persistent multi-day outage; still flagged to Lauren). Inbox: **no Pending**. Astra: **no proposals**. Weekly conviction buys **0/3** (week 10/19–10/23). Sleeve **4/5, one open slot held**. Cash $18,074.02 (~18.3%).
+
+**Live snapshot:** equity **$98,809.77**, cash $18,074.02, last_equity (Tue 10/20 close) $98,782.95 → **flat at the open (+$26.82 / +0.03%)**; buying_power $298,356.18; long_mv $80,735.75; status ACTIVE. Positions (live open marks): BP 214 @ 44.4998 → 49.655 (+11.58%); PG 65 @ 148.06 → 158.15 (+6.82%); RMD 42 @ 228.627 → 246.32 (+7.74%); RSG 44 @ 218.00 → 232.045 (+6.44%); SPY 51 @ 766.258 → 770.05 (+0.50%, index sleeve ~39.8%). **Open orders VERIFIED = exactly 4, ALL 10% trailing GTC** (BP 209e58f4 floor 45.243 hwm 50.27; PG 272e2864 floor 143.982 hwm 159.98; RMD 761a6a31 floor 221.814 hwm 246.46; RSG 135c200e floor 209.8755 hwm 233.195); SPY unencumbered (no stop by design). **State fully reconciles with the pre-market handoff — no gap.**
+
+### Execution of the pre-market plan (re-validated at live prices)
+- **PG — HELD into Thu 10/22 print.** No new PG, no trim. Standing pre-market decision stands: the 10% trailing floor (143.982) already bounds the overnight event risk, the analyst/beat setup leans constructive (Citi $180, UBS $172, Evercore $166 into the print; 4 straight EPS beats), and trimming a +6.8% winner before a print we lean positive on is timing against our own thesis. No fresh pre-print negative appeared. **HOLD the full 65 shares.**
+- **Open slot — LLY DECLINED again on entry discipline.** Live **$1,267.39** — still only ~3.4% below the 10/20 intraday high ($1,311.75) and ~2% off the ~$1,292 ATH. The clean-entry window (~$1,180–1,210 / ≥5% off the high) has NOT come; a −7% hard stop placed under a record high sits squarely in normal post-spike pullback range (the exact high-beta/extended-entry learning). **Research liked it (~76 B+, 3 signals); Trader declined — chase, not a clean base.** Stays NEAR-TRIGGER.
+- **RTX ($195.30) / MMM ($169.77) — watchlist only.** RTX has the best fresh-mover signal profile (#1 beat+raise, #3 defense, #5 rotation; non-rate-sensitive diversifier) but is post-print extended (~68–72, don't chase the spike). MMM signals marginal (~62–66, below gate). Neither clears a clean entry today.
+- **No conviction buy placed.** Nothing clears 2+ signals AND Conviction ≥70 on a *clean, live-confirmed* entry.
+- **SPY-floor top-up — NOT taken (optional, not mandated).** Cash $18,074 (~18.3%) is above the ~$10k target, but we are **~82% invested — NOT in cash-drag**, and the slot/powder is deliberately reserved for an LLY clean entry. Per the pre-market handoff this top-up was an OPTION only; forcing index deployment while holding a specific high-conviction near-trigger target would trade for its own sake. Powder held.
+
+### Risk checks (market-open)
+- **(a) Any position −7% or worse un-stopped?** NO. All 4 conviction green and protected on 10% trailing; SPY +0.50% (index, no stop by design).
+- **(b) +5%+ hard→trailing conversion pending?** NONE — all 4 already on 10% trailing (BP +11.58, PG +6.82, RMD +7.74, RSG +6.44 all ratcheting).
+- **(c) Daily loss cap:** book **+0.03%** at the open — nowhere near −3%. New buys permitted (none qualified).
+- **(d) Sell signals?** None. All 4 theses intact; stops resting clean; no fills, no rejects.
+- **FACTOR WATCH:** RMD + RSG stay the correlated rate-sensitive pair; BP (energy) + PG (staples) diversify. Open-slot refill must PREFER a non-rate-sensitive diversifier (LLY/RTX fit) on a clean entry.
+
+### Benchmark
+- **Today (intraday):** book +0.03% vs SPY +0.08% (769.91 vs Tue close 769.32) — roughly flat, early session.
+- **WTD** (base Fri 10/16: book $98,304.52 / SPY 763.335): book **+0.51%** / SPY **+0.86%** → **alpha −0.35 WTD** (still trailing the index on the week; firms at Fri close).
+
+### Voices
+- **Research:** no new signal clears a clean entry; LLY the only factor-right gate-adjacent idea, still extended. **Risk:** all 4 trailing stops intact and resting, loss cap N/A, cash ample, a record-high LLY entry = high shake-out odds → hold the slot. **Trader:** nothing to execute — PG held, LLY declined on entry, no clean qualifier. **Astra:** no proposals.
+- **Decision:** steady hold, no trades, no guardrail change.
+
+### Handoff → midday (Wed 10/21 ~12:00 CT)
+1. **Re-verify live:** account/positions/orders/clock; confirm exactly 4 GTC trailing stops (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e) + SPY unencumbered; stop integrity + any +5% hard→trailing conversion (none pending).
+2. **PG: HOLD into Thu 10/22 pre print on the trailing floor; no new PG.** (Standing.)
+3. **Open slot: LLY near-trigger — buy ONLY on a clean pullback to ~$1,180–1,210** (not a chase near the ~$1,311 high), 2+ signals, Conviction ≥70, comfort holding through ~10/29, cash ≥~$10k, ~10% size (~8 sh), −7% hard GTC stop at fill. RTX/MMM watchlist only.
+4. **Cash ~$18.1k above the ~$10k target but NOT cash-drag (~82% invested).** SPY-floor top-up remains an OPTION if nothing conviction-grade appears and cash stays well above $10k — not mandated.
+5. Watch after-close META/TSLA/IBM for sentiment into Thursday; 10Y ~5.1% pressure on RMD/RSG; Brent ~$110 supports BP.
+6. **STANDING: check inbox for Lauren's structural A/B reply** (default A until answered). **Keep flagging the Perplexity outage** until credits restored.
+
+*Paper only. This entry places no Alpaca order.*
+
+---
+
 ## 2026-10-21 · pre-market (Wed, ~06:15 CT) — Opus 4.8 | NO TRADES (market closed)
 
 **Run meta:** Market CONFIRMED CLOSED via /v2/clock (is_open=false, 07:04 ET; next_open 2026-10-21 09:30 ET). Keys valid. Live pulls this run: account/positions/orders/clock. **⚠️ Perplexity STILL DOWN** (401 insufficient_quota, account-wide — persistent multi-day outage; flagged to Lauren again). Full 4-agent research fan-out run on **WebSearch fallback** (macro / earnings / positions / scout). Inbox: no Pending. Astra: no proposals. Weekly conviction buys 0/3 (week 10/19–10/23). Sleeve 4/5, one open slot held. Cash $18,074.02 (~18.3%).

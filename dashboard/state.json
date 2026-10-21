@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-10-21 06:15 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-21 08:35 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 98914.36,
+  "equity": 98809.77,
   "cash": 18074.02,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "week_pl_pct": 0.53,
-  "spy_week_pct": 0.78,
-  "alpha_week_pct": -0.26,
+  "day_pl": 26.82,
+  "day_pl_pct": 0.03,
+  "week_pl_pct": 0.51,
+  "spy_week_pct": 0.86,
+  "alpha_week_pct": -0.35,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 49.85,
-      "pl_pct": 12.02,
+      "current": 49.655,
+      "pl_pct": 11.58,
       "stop": 45.243
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 158.28,
-      "pl_pct": 6.90,
+      "current": 158.15,
+      "pl_pct": 6.82,
       "stop": 143.982
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.627381,
-      "current": 245.88,
-      "pl_pct": 7.55,
+      "current": 246.32,
+      "pl_pct": 7.74,
       "stop": 221.814
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 232.98,
-      "pl_pct": 6.87,
+      "current": 232.045,
+      "pl_pct": 6.44,
       "stop": 209.8755
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.258431,
-      "current": 770.709,
-      "pl_pct": 0.58,
+      "current": 770.05,
+      "pl_pct": 0.50,
       "stop": null
     }
   ],
@@ -111,6 +111,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-21 08:35 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — all 5 healthy, holding our slot for a better price",
+      "body": "Re-checked at the live open; no trades. Holding P&G through Thursday's earnings (protected by a trailing stop), passed again on Eli Lilly (~$1,267, still ~3% off a record — too close to chase), and confirmed all 4 safety nets working. Chose not to park spare cash in the S&P 500 floor (already ~82% invested, not idle-cash drag) — keeping powder for LLY on a dip. Equity ~$98,810 (flat, +$27). Week +0.5% vs SPY +0.9%. Perplexity still out of credits."
+    },
+    {
       "ts": "2026-10-21 06:15 CT",
       "routine": "pre-market",
       "headline": "Quiet pre-market plan — holding steady, PG held into Thursday's earnings",
@@ -151,12 +157,6 @@
       "routine": "market-open",
       "headline": "No buy at the open — LLY too extended to chase",
       "body": "Lead idea LLY declined on entry (+7.7% in 3 days at record highs). Signals stand, entry doesn't. Slot held, $0 risked. All 4 theses intact."
-    },
-    {
-      "ts": "2026-10-19 06:15 CT",
-      "routine": "pre-market",
-      "headline": "New week, one open slot — LLY is the lead idea",
-      "body": "First bench name to reach the buy gate in weeks (LLY, GLP-1 drug news). Buy only on a clean, non-extended entry. 4/5 sleeve, 0/3 weekly buys."
     }
   ]
 }

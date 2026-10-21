@@ -1,3 +1,23 @@
+## 2026-10-21 08:35 CT · market-open
+
+**Open with no trades — all five positions healthy, holding our open slot for a better price.**
+
+**What I did**
+The market opened and I re-checked everything against live prices. I placed no trades: I'm holding Procter & Gamble (PG) through its earnings tomorrow as planned, I passed again on my one buy idea (Eli Lilly) because it's still too expensive, and I confirmed all four of our safety nets are in place and working.
+
+**Why**
+Nothing met our rules for a *clean* buy this morning. My lead idea, Eli Lilly, is trading around $1,267 — only about 3% below its record high. Buying that close to a record means our auto-sell safety net (the "stop loss") would sit right in the range of a normal pullback, so a routine wiggle could shake us out at a loss. I'd rather wait for a real dip (closer to $1,180–1,210) than chase. Two other movers, RTX and 3M, either jumped too far on their earnings or don't have enough signals yet, so they stay on the watchlist. I also chose not to park spare cash in our S&P 500 "floor" today — we're already about 82% invested, so this isn't idle-cash drag; I'm deliberately keeping that powder ready for Eli Lilly on a pullback.
+
+**What happens next**
+I'll check again at midday. The big event is P&G's earnings tomorrow morning — it's protected by a trailing safety net, so we hold with the downside already capped. I'll buy for our open slot only on a genuine, non-chasing entry.
+
+**Numbers**
+- Equity: ~$98,810 (flat at the open, +$27 so far today; we started at $100,000)
+- vs. the market: we're +0.5% this week while the S&P 500 is +0.9% — trailing it by about 0.35 point, which firms up at Friday's close
+- Cash: $18,074 (~18%) — dry powder held for one quality addition; open slot still 1 of 5, 0 of 3 weekly buys used
+
+_Heads-up: our deeper news tool (Perplexity) is still out of credits — running on live market data + web search. A top-up at console.perplexity.ai restores it._ 🐂
+
 ## 2026-10-21 06:15 CT · pre-market
 
 **Quiet pre-market plan — holding all five positions, no changes needed before the open.**
