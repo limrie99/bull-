@@ -1,3 +1,45 @@
+## 2026-10-22 · market-open (Thu, ~08:36 CT) — Opus 4.8 | NO TRADES
+
+**Run meta:** Market **CONFIRMED OPEN** via /v2/clock (is_open=true, 09:35 ET; next_close 16:00 ET). Keys valid. Live pulls this run: account/positions/orders/clock + real-time trades for LLY/GE/ELV/RTX. Inbox: **no Pending**. Astra: **no proposals**. Weekly conviction buys **0/3** (week 10/19–10/23). Sleeve **4/5, one open slot held**. Cash $18,074.02 (~18.18%). **Perplexity OPERATIONAL.** State **fully reconciles with the pre-market handoff** — exactly 4 GTC trailing stops (all ratcheted UP from pre-market as prices rose), SPY unencumbered.
+
+**Live snapshot (market open):** equity **$99,426.58**, cash **$18,074.02 (~18.18%)**, last_equity (Wed 10/21 close) $98,838.59 → **day P/L +$587.99 / +0.59%**; buying_power $300,083.25; long_mv $81,352.56; status ACTIVE. Positions (live marks): BP 214 @ 44.4998 → 50.235 (+12.89%, +0.77% today); **PG 65 @ 148.06 → 165.46 (+11.75%, +5.50% today — GAPPED UP HARD on its beat)**; RMD 42 @ 228.627 → 245.78 (+7.50%, −0.17% today); **RSG 44 @ 218.00 → 236.27 (+8.38%, +2.58% today — RECOVERED, the pre-market −2.3% dip WAS noise exactly as called)**; SPY 51 @ 766.258 → 767.23 (+0.13% vs cost, −0.76% today, index sleeve).
+
+**Stop integrity (live, VERIFIED exactly 4 GTC trailing + SPY unencumbered — all ratcheted UP):** BP 209e58f4 floor **45.378** hwm 50.42 · PG 272e2864 floor **149.562** hwm **166.18** (ratcheted UP from 143.982/159.98 — PG new high on the beat, now locking in profit above entry) · RMD 761a6a31 floor **223.74** hwm 248.6 · RSG 135c200e floor **212.787** hwm **236.43** (ratcheted UP from 209.8755/233.195 — RSG new high). SPY 51 sh unencumbered (no stop by design). **No hard stops remain.**
+
+### Execution vs the pre-market plan
+- **PG — print CONFIRMED a beat.** PG opened +5.50% (px $165.46) on its fiscal Q1 FY27 report — a staples name does not gap +5% on an in-line print, so the tape confirms a beat and/or a reassuring guide (removed RBC's "low-end EPS" worry). Per plan: **HELD the full 65 sh on the trailing floor; NO new PG** (no chasing a post-print pop). The trailing floor ratcheted UP to **149.562** (above the $148.06 entry) — the gain is now locked in above cost. Thesis CONFIRMED.
+- **RSG — dip was noise, as called.** Pre-market indicated −2.3%; it reopened and ran to +2.58% today. No company catalyst was ever there; floor 212.787 well below. No action. Thesis intact.
+- **Open slot — NO buy; no name cleared a clean entry (live-verified real-time trades):**
+  - **LLY $1,283.08** — lead idea, 3 signals (#3 GLP-1 secular, #1 raised guidance, #6 uptrend), ~76 B+, best non-rate-sensitive diversifier. **ENTRY = STILL A CHASE:** only ~2.2% off the 10/20 record high ($1,311.75); the clean-entry window (~$1,180–1,210 / ≥5% off the high) has NOT opened. A −7% hard stop under a record high sits squarely in normal post-spike pullback range — the exact high-beta/extended-entry learning. Earn 10/29. Stays **NEAR-TRIGGER**.
+  - **GE $293.63** — #2 fresh diversifier (2 signals: #1 beat+raise 10/20, #3 aerospace-cycle secular, ~70), but **still below its 50-day MA** (pullback, "clean uptrend" unconfirmed) — needs to reclaim/hold the 50-day before it is a clean entry. Watch.
+  - **ELV $435.88** — best fundamentals (2+ signals, ~72) but a CHASE near the 52-wk high. **RTX $194.67** — beat+raise + defense (2 signals, ~68–70) but still below its 50-day (needs ~$199 reclaim). Neither clean.
+- **SPY-floor top-up — NOT taken.** Cash ~18.2% is above the ~$10k target but we are ~82% invested (NOT drag), and on a risk-off tape there is no urgency to add index exposure while the slot/powder is deliberately held for an LLY clean entry.
+
+### Risk checks (market open)
+- **(a) Any position −7%+ un-stopped?** NO — all 4 conviction green and protected (all on 10% trailing, all far above floors); SPY −0.76% intraday (index, no stop by design). Nothing near a stop.
+- **(b) +5%+ hard→trailing conversion pending?** NONE — all 4 already trailing; stops ratcheted UP today (PG + RSG hit new highs on the beat/recovery). Nothing to convert.
+- **(c) Daily loss cap:** day **+0.59%** (positive) — never in play; new buys permitted (none qualified on a clean entry).
+- **(d) Sell signals?** None. All 4 theses intact (PG beat confirmed, RSG recovered, BP tailwind, RMD quiet); stops resting clean; SPY held. No sell.
+
+### Benchmark (intraday — firms at close)
+- **SPY today −0.76%** (767.23 vs Wed close 773.09) while the **book is +0.59%** → **intraday alpha ≈ +1.35** — the defensive/value sleeve doing exactly its job on a risk-off, AI-capex-repricing tape (PG's beat + RSG's recovery + BP's oil tailwind carry while the SPY sleeve dips with the index).
+- **WTD (base Fri 10/16 official close: book $98,304.52 / SPY 763.335):** book ~**+1.14%** / SPY ~**+0.51%** → **alpha ~+0.63 WTD** (intraday; the book pulled AHEAD on the week today). Real scorecard at the close.
+
+### Voices
+- **Research:** No new catalyst clears the gate on a clean entry. LLY still lead but still a chase; GE the most buyable fresh diversifier but still below its 50-day. PG beat confirmed by the tape. No Astra proposals.
+- **Risk:** All 4 trailing stops intact and ratcheting (PG/RSG new highs); no position near a stop; day +0.59% (loss cap N/A); cash ample. No sizing/stop change. Risk-off tape argues for patience, not forcing the slot.
+- **Trader:** No order placed. PG held on its floor (confirmed beat); no clean-entry buy existed at live prices; slot and powder held by plan.
+
+### Handoff → midday (Thu 10/22 ~12:00 CT)
+- Re-verify live: account/positions/orders/clock; confirm exactly 4 GTC trailing stops (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e) + SPY unencumbered; any new +5% hard→trailing conversion (none pending — all already trailing).
+- **PG — HELD on its trailing floor (149.562, now above entry) after a confirmed +5.5% beat; NO new PG.** Watch for any give-back but downside is locked above cost.
+- **RSG — recovered to green; thesis intact; floor 212.787 well below.** No action unless a real catalyst surfaces.
+- **LLY = lead buy** for the open slot ONLY on a CLEAN non-extended pullback (~$1,180–1,210 / ≥5% off the high), 2+ signals, Conviction ≥70, earn 10/29 (>3 sessions), cash ≥~$10k, ~10% size (~8 sh ≈ $10k), −7% hard GTC stop. Still near highs ($1,283) → don't chase. **GE** #2 (confirm it reclaims its 50-day first); **ELV** best-fundamentals-but-chase; RTX below its 50-day.
+- Don't force the slot or an SPY top-up into a risk-off open — the book is protected and powder is deliberately held; patience is cheap.
+- Earnings runway: MSFT 10/28, RSG 10/29, RMD 10/29, LLY 10/29, BP 10/30. FOMC Oct 27–28 (leaning hold). Check inbox for Lauren's structural A/B reply (default A until answered).
+
+---
+
 ## 2026-10-22 · pre-market (Thu, ~06:07 CT) — Opus 4.8 | NO TRADES (market closed)
 
 **Run meta:** Market CONFIRMED CLOSED via /v2/clock (is_open=false, 07:03 ET; next_open Thu 10/22 09:30 ET). Keys valid. Live pulls this run: account/positions/orders/clock. Inbox: **no Pending**. Astra: **no proposals**. Weekly conviction buys **0/3** (week 10/19–10/23). Sleeve **4/5, one open slot held**. Cash $18,074.02. **Perplexity OPERATIONAL** (research team ran clean — 4 sub-agents, ~12 Perplexity calls, zero failures). NOTE: the Alpaca data-feed `quotes/latest` endpoint returns only prior-close marks on this plan (ts 20:00 UTC = 10/21 close); the position `current_price` fields are Alpaca's **pre-market INDICATIVE** marks and drive the indicative equity — treated as indications, not fills/closes, to be confirmed at the 09:30 ET open.

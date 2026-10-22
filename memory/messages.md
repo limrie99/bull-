@@ -1,3 +1,21 @@
+## 2026-10-22 08:36 CT · market-open
+
+**Open: no trades needed — and today our calmer stocks are beating the market. P&G's earnings beat confirmed.**
+
+**What I did**
+At the open I confirmed the market was really trading, checked all our live numbers, and verified that all four of our safety-net sell orders are in place and have automatically ratcheted upward as our stocks rose (that's the trailing stop doing its job — it follows the price up and locks in more of the gain). I placed **no new trades** — no candidate was at a sensible buying price.
+
+**Why**
+The big news: **Procter & Gamble's earnings beat expectations** — its stock jumped about **+5.5%** this morning, which for a steady household-goods maker is a strong reaction. We're holding all 65 shares, and its safety net has now climbed *above* what we paid, so that profit is protected no matter what. Meanwhile the broad market is **down about −0.76%** today, because investors are nervous about how much big tech is spending on AI ("risk-off"). We own none of those pricey tech names, so our steadier stocks are actually *up* — our book is **+0.59% while the market is −0.76%**, meaning we're **beating the market by roughly 1.3 points today**. This is exactly why we hold defensive businesses. I still didn't buy Eli Lilly (my top idea) — at ~$1,283 it's within ~2% of its record high, too expensive to chase (a stock bought at a peak gets shaken out easily).
+
+**What happens next**
+I'll check in again at midday to make sure everything stays healthy. I'm still waiting for Eli Lilly to dip to a fair price before using our one open slot.
+
+**Numbers I care about**
+- **Up +$588 today (+0.59%)**, total account **$99,427** (we started with $100,000) — and ahead of the market today.
+- **Cash: $18,074 (~18%)** — dry powder held for the right Eli Lilly entry.
+- **4 of 5 stock slots filled, 0 of 3 weekly buys used** — plenty of room, no rush.
+
 ## 2026-10-22 06:07 CT · pre-market
 
 **Quiet pre-market plan — holding steady into a jittery, "risk-off" morning. P&G's earnings look good; no changes needed.**

@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-10-22 06:07 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-22 08:36 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 98548.88,
+  "equity": 99426.58,
   "cash": 18074.02,
-  "day_pl": -289.71,
-  "day_pl_pct": -0.29,
-  "week_pl_pct": 0.25,
-  "spy_week_pct": 0.29,
-  "alpha_week_pct": -0.04,
+  "day_pl": 587.99,
+  "day_pl_pct": 0.59,
+  "week_pl_pct": 1.14,
+  "spy_week_pct": 0.51,
+  "alpha_week_pct": 0.63,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 50.36,
-      "pl_pct": 13.17,
-      "stop": 45.243
+      "current": 50.235,
+      "pl_pct": 12.89,
+      "stop": 45.378
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 160.23,
-      "pl_pct": 8.22,
-      "stop": 143.982
+      "current": 165.46,
+      "pl_pct": 11.75,
+      "stop": 149.562
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.627381,
-      "current": 246.20,
-      "pl_pct": 7.69,
+      "current": 245.78,
+      "pl_pct": 7.50,
       "stop": 223.74
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 225.01,
-      "pl_pct": 3.22,
-      "stop": 209.8755
+      "current": 236.27,
+      "pl_pct": 8.38,
+      "stop": 212.787
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.258431,
-      "current": 765.53,
-      "pl_pct": -0.10,
+      "current": 767.23,
+      "pl_pct": 0.13,
       "stop": null
     }
   ],
@@ -111,6 +111,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-22 08:36 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — our calmer stocks are beating the market today; P&G beat confirmed",
+      "body": "At the live open I verified all 4 safety-net sell orders are in place and ratcheting up with price; no new trades. P&G's earnings BEAT — it jumped +5.5%, and its trailing stop is now above what we paid, so that profit is locked. The broad market is down -0.76% today on AI-spending nerves, but we own none of those pricey tech names, so our book is +0.59% — beating the market by ~1.3 pts today. Still won't chase Eli Lilly at ~$1,283 (near its record). Equity $99,427 (+$588 today), cash $18k, 4/5 slots, 0/3 weekly buys."
+    },
+    {
       "ts": "2026-10-22 06:07 CT",
       "routine": "pre-market",
       "headline": "Quiet pre-market plan — holding steady into a risk-off morning; P&G earnings look good",
@@ -151,12 +157,6 @@
       "routine": "midday",
       "headline": "Steady midday — no changes, everything green and protected",
       "body": "No catalyst cleared the midday bar; LLY got MORE extended (fresh ATH ~$1,292), still don't chase. All 4 stocks green above their trailing stops (RMD & RSG floors ratcheted up today). Equity $98,607 (+0.47% today — slightly ahead of SPY's +0.30%). 4/5 sleeve, open slot held, 0/3 weekly buys, ~$18k dry powder."
-    },
-    {
-      "ts": "2026-10-20 08:35 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — LLY jumped again, so I held our cash",
-      "body": "LLY declined on entry a 2nd day: instead of pulling back it's +3.5% to ~$1,285, a fresh all-time high — exactly the chase I avoid. Signals stand, entry doesn't. 4/5 sleeve, open slot held, ~$18k dry powder. Equity $98,574 (+0.44% today), ~even with SPY this week. PG earns Thu (holding, not adding)."
     }
   ]
 }
