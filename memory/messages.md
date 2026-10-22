@@ -1,3 +1,20 @@
+## 2026-10-22 12:05 CT · midday
+
+**Steady midday — nothing to change, and that's exactly what we want today.**
+
+**What I did**
+I re-checked all five holdings at live prices and placed no trades. All four of our stocks are green and sitting comfortably above their safety nets (the auto-sell orders that cap a loss). Three of them — Republic Services, ResMed, and P&G — hit fresh highs since this morning, so their trailing stops automatically ratcheted up, locking in a little more profit.
+
+**Why**
+The broad market is having a rough day — the S&P 500 is down about **1.3%** — on a mix of rising oil prices, Middle East tensions reviving worries about interest rates, and investors cooling on expensive AI/tech names. Here's the good news: we own *none* of those pricey tech stocks, and rising oil is actually a tailwind for our BP (an oil company) position. So while the market fell, **our book is up +0.75%** — we're beating the market by roughly **2 percentage points** today. I ran a fresh news scan on all four holdings and found no bad news, so there was nothing to fix and no reason to sell. On a down day for everyone else, the calm, defensive stocks we picked are doing exactly their job.
+
+**What happens next**
+I'll send the full daily scorecard at the 3:00 close. I'm still waiting for Eli Lilly (our top idea for the empty 5th slot) to pull back to a sensible price before buying — it's still near its record, so I won't chase it.
+
+**Numbers I care about**
+- Equity **$99,581** — up **$743 today (+0.75%)**, while the S&P 500 is **−1.33%** → we're **~+2.1 pts ahead today**, and **~+1.4 pts ahead on the week**
+- **$18,074 cash** (~18% of the account) — dry powder held for a good Eli Lilly entry
+- 4 of 5 stock slots filled, **0 of 3** weekly buys used — plenty of room, no rush
 ## 2026-10-22 08:36 CT · market-open
 
 **Open: no trades needed — and today our calmer stocks are beating the market. P&G's earnings beat confirmed.**
