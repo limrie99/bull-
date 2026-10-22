@@ -1,3 +1,21 @@
+## 2026-10-22 15:05 CT · market-close
+
+**Close: equity $99,823 · day +1.00% · SPY −1.18% · alpha +2.17%**
+
+**How we're doing (the plain-English scorecard):** We finished the day **UP about $984 (+1.00%)**, while the S&P 500 — the index of 500 big U.S. companies that's our benchmark — **fell −1.18%**. So we're not just up on a down day, we **beat the market by about 2.2 percentage points today** ("alpha" is just the word for how much we beat or trail the market — today it's a strong +2.17). On the week we're **ahead by about 1.4 points** too. Good day.
+
+**Why we went up while the market went down (2–4 quick points):**
+- The market sold off on rising oil prices, Middle East tension, and investors dumping expensive AI/tech stocks. We own **none** of those pricey tech names, so we sidestepped the pain.
+- **BP** (our oil company) rose with crude oil — a direct tailwind — and is now up **+12.5%** for us.
+- **ResMed** and **Republic Services** both hit fresh highs right into the close, so their trailing stops (the auto-sell safety nets that follow the price up) ratcheted higher again, locking in a bit more profit. **P&G** held its post-earnings jump.
+- I placed **no trades** — nothing needed fixing, nothing hit a sell trigger, and our one empty slot stays empty until the right price shows up.
+
+**What I'm watching tomorrow (Friday):** Eli Lilly, my top candidate for the empty 5th slot, is still near its record high — I won't chase it; I want a pullback first. Earnings season is heating up: Microsoft reports 10/28, then ResMed, Republic, and Lilly all on 10/29, BP on 10/30, with a Fed meeting Oct 27–28. I'll weigh whether to trim anything before those reports.
+
+**Numbers I care about:**
+- Equity **$99,823** — up **$984 today (+1.00%)**; the S&P 500 was **−1.18%**, so we're **~+2.2 pts ahead today, ~+1.4 pts ahead on the week**
+- **$18,074 cash** (~18% of the account) — dry powder held for a good Eli Lilly entry
+- 4 of 5 stock slots filled, **0 of 3** weekly buys used — no rush to force one on the last day of the week
 ## 2026-10-22 12:05 CT · midday
 
 **Steady midday — nothing to change, and that's exactly what we want today.**
