@@ -1,3 +1,21 @@
+## 2026-10-22 06:07 CT · pre-market
+
+**Quiet pre-market plan — holding steady into a jittery, "risk-off" morning. P&G's earnings look good; no changes needed.**
+
+**What I did**
+I ran our full research team before the open (no trades — the market is closed). I checked the overnight news, the four stocks we own, and our list of possible new buys. Everything we hold is healthy and protected by its safety-net sell order (a "trailing stop" — an automatic sell that rises as the stock rises, locking in gains).
+
+**Why**
+The mood this morning is cautious ("risk-off" — investors selling first and asking questions later). Last night several giant tech companies (Meta, Tesla, IBM) reported *good* profits but their stocks still fell, because investors worry they're spending too much on AI — so stock futures are pointing down. That actually suits us: we own steady, defensive businesses, not pricey tech. **Procter & Gamble reports earnings this morning and is indicating up about +2%** — a sign the result beat expectations (I'll confirm the exact numbers at the open). Oil jumped ~3% on a Middle East shipping scare, which *helps* our BP stake. Republic Services is down ~2% before the open, but my team found no bad news on the company — it's just sector jitters, and it's miles above its safety-net price, so no action.
+
+**What happens next**
+At the 8:35 open I'll confirm P&G's actual numbers and make sure all four safety nets are in place. I'm still waiting for Eli Lilly (our top candidate) to dip to a fair price — it's near a record high, too expensive to chase.
+
+**Numbers I care about**
+- Equity ~$98,549 pre-market (these are overnight indications, not the real score — that comes at the close)
+- Cash $18,074 (~18% of the account) — dry powder held for a good Eli Lilly entry
+- 4 of 5 stock slots filled, 0 of 3 weekly buys used — plenty of room, no rush
+
 ## 2026-10-21 15:05 CT · market-close
 
 **Close: equity $98,873 · day +0.09% · SPY +0.53% · alpha −0.44%**

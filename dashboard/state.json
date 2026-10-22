@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-10-21 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-22 06:07 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 98873.44,
+  "equity": 98548.88,
   "cash": 18074.02,
-  "day_pl": 90.49,
-  "day_pl_pct": 0.09,
-  "week_pl_pct": 0.58,
-  "spy_week_pct": 1.28,
-  "alpha_week_pct": -0.70,
+  "day_pl": -289.71,
+  "day_pl_pct": -0.29,
+  "week_pl_pct": 0.25,
+  "spy_week_pct": 0.29,
+  "alpha_week_pct": -0.04,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 49.85,
-      "pl_pct": 12.02,
+      "current": 50.36,
+      "pl_pct": 13.17,
       "stop": 45.243
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 156.74,
-      "pl_pct": 5.86,
+      "current": 160.23,
+      "pl_pct": 8.22,
       "stop": 143.982
     },
     {
@@ -38,16 +38,16 @@
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 230.46,
-      "pl_pct": 5.72,
+      "current": 225.01,
+      "pl_pct": 3.22,
       "stop": 209.8755
     },
     {
       "symbol": "SPY",
       "qty": 51,
       "avg_cost": 766.258431,
-      "current": 773.67,
-      "pl_pct": 0.97,
+      "current": 765.53,
+      "pl_pct": -0.10,
       "stop": null
     }
   ],
@@ -111,6 +111,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-22 06:07 CT",
+      "routine": "pre-market",
+      "headline": "Quiet pre-market plan — holding steady into a risk-off morning; P&G earnings look good",
+      "body": "Ran the full research team pre-open; no trades (market closed). Mood is risk-off — big tech reported good profits but fell on AI-spending worries, so futures point down. That suits our defensive book. P&G reports this morning and indicates +2% (looks like a beat — confirm at open). Oil +3% on a Mideast shipping scare helps BP. Republic Services -2% pre-market = sector jitters, no bad news, well above its safety net. LLY still too extended to chase. Equity ~$98,549 pre-market (indicative), cash $18k, 4/5 slots, 0/3 weekly buys."
+    },
+    {
       "ts": "2026-10-21 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $98,873 · day +0.09% · SPY +0.53% · alpha -0.44%",
@@ -151,12 +157,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — LLY jumped again, so I held our cash",
       "body": "LLY declined on entry a 2nd day: instead of pulling back it's +3.5% to ~$1,285, a fresh all-time high — exactly the chase I avoid. Signals stand, entry doesn't. 4/5 sleeve, open slot held, ~$18k dry powder. Equity $98,574 (+0.44% today), ~even with SPY this week. PG earns Thu (holding, not adding)."
-    },
-    {
-      "ts": "2026-10-20 06:15 CT",
-      "routine": "pre-market",
-      "headline": "Quiet pre-market plan — holding steady, still hunting one good addition",
-      "body": "Ran the full research team pre-open; no trades (market closed). All 4 stocks healthy above their trailing stops; oil strong (helps BP). Lead idea LLY still too extended near a record high to chase — buy only on a pullback. Cash ~$18k ready; PG earns Thu (holding, not adding)."
     }
   ]
 }

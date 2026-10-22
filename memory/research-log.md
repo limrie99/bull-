@@ -1,3 +1,53 @@
+## 2026-10-22 · pre-market (Thu, ~06:07 CT) — Opus 4.8 | NO TRADES (market closed)
+
+**Run meta:** Market CONFIRMED CLOSED via /v2/clock (is_open=false, 07:03 ET; next_open Thu 10/22 09:30 ET). Keys valid. Live pulls this run: account/positions/orders/clock. Inbox: **no Pending**. Astra: **no proposals**. Weekly conviction buys **0/3** (week 10/19–10/23). Sleeve **4/5, one open slot held**. Cash $18,074.02. **Perplexity OPERATIONAL** (research team ran clean — 4 sub-agents, ~12 Perplexity calls, zero failures). NOTE: the Alpaca data-feed `quotes/latest` endpoint returns only prior-close marks on this plan (ts 20:00 UTC = 10/21 close); the position `current_price` fields are Alpaca's **pre-market INDICATIVE** marks and drive the indicative equity — treated as indications, not fills/closes, to be confirmed at the 09:30 ET open.
+
+**Live snapshot (pre-market indicative):** equity **$98,548.88**, cash **$18,074.02 (~18.34%)**, last_equity (Wed 10/21 close) $98,838.59 → **indicative −$289.71 / −0.29% overnight** (driven by the SPY sleeve marking ~−0.95% pre-market; NOT a realized/closed day move). buying_power $297,625.69; long_mv $80,474.86; status ACTIVE. Positions (indicative pre-market marks): BP 214 @ 44.4998 → 50.36 (+13.17%); PG 65 @ 148.06 → 160.23 (+8.22%, gapping up on its print); RMD 42 @ 228.627 → 246.20 (+7.69%, STALE — no pre-market trade yet); RSG 44 @ 218.00 → 225.01 (+3.22%, down ~−2.3% pre-market); SPY 51 @ 766.258 → 765.53 (−0.10% vs cost, ~−0.95% pre-market, index sleeve ~39.6%).
+
+**Stop integrity (live, VERIFIED exactly 4 GTC trailing + SPY unencumbered):** BP 209e58f4 floor **45.243** hwm 50.27 · PG 272e2864 floor **143.982** hwm 159.98 · RMD 761a6a31 floor **223.74** hwm 248.60 · RSG 135c200e floor **209.8755** hwm 233.195. SPY 51 sh unencumbered (no stop by design). **No hard stops remain.** State **fully reconciles with the market-close handoff — no gap.**
+
+### Market context
+- **Tape tone: RISK-OFF into the open.** ES ~−0.8%, NQ ~−1.6%. The driver is a **"beat-and-bleed" repricing of expensive AI/mega-cap names** after last night's prints: META (rev beat $64.6B but ~−1.9% AH on heavier AI capex + non-voting share overhang), TSLA (beat but ~−5% AH on a cut 2026 capex outlook ~$20B), IBM (beat, ~−2% to −6% AH), LRCX (~−5% to −7% AH on a light next-Q guide — dragging the whole semi complex and most of NQ's decline). Good numbers, bad reactions — AI-capex concerns are the story.
+- **Rates:** 10Y **5.13%** (+~1bp), still >5% / multi-year highs; a weak 20Y auction (5.469%, ~5bp tail) keeps long-end pressure on — a persistent mild drag on the rate-sensitive sleeve (RMD/RSG). (Position agent separately noted 10Y eased ~4bp intraday Wed; either way it's camped above 5%.)
+- **Commodities:** **Brent ~$111–112, up ~2.4–3.2% on Strait of Hormuz tanker fires** — supply-risk premium back on = **direct tailwind for BP**, headwind for broad risk. Gold ~$4,105 (−1.1%, pressured by the high 10Y). DXY 101.53 (−0.2%, soft).
+- **Fed:** Oct 27–28 FOMC ~80% priced for a HOLD (funds 3.75–4.00%); focus shifting to whether an oil-driven inflation impulse delays future easing.
+- **Today's earnings read-through (other sub-agent):** pre-open UNP ~$3.48 / NSC ~$3.47 (rails/industrials), LMT ~$7.52 (defense — RTX read-through), VLO ~$21.18 (refining/energy), CMCSA ~$0.99; post-close WDC, NEM, BX. No direct large-cap read-through for our staples/med-device/waste sleeves today.
+
+### Portfolio watch
+- **PG — reports fiscal Q1 FY2027 THIS MORNING (pre-open); indicative +2.2% (~$160.23 vs $156.84 close).** Research could not see the actual numbers yet (Perplexity index lag); the bar was ~$1.89 core EPS / ~$22.8B rev / ~2% organic. A staples name does not gap +2% on an in-line print → the move IMPLIES a beat and/or organic-growth beat and/or a guidance reaffirm that removed RBC's (10/20, Outperform $166) "low-end EPS" worry. **Market-open routine MUST confirm the live print + reaction before relying on "beat."** Either way the position (65 sh, +8% indicative) sits far above its trailing floor 143.982, so it is protected regardless; **NO new PG** (don't add into a post-print pop). Thesis leans CONFIRMED pending the live number.
+- **RSG — indicative −2.3% pre-market ($225.01). Severity 2 (sector/positioning noise), THESIS HOLDS.** Position agent found NO company-specific catalyst, NO downgrade/PT cut in 24h, and WM did NOT report (WM earnings 10/27 — not a bad-peer read-through). Most likely broad rate-sensitive/industrials positioning + pre-earnings caution ahead of RSG's own 10/29 print. Floor 209.8755 is well below ~$225 — no stop risk. Watch, no action.
+- **BP — thesis INTACT, tailwind refreshed.** No fresh BP-specific analyst action in 24h, but the Hormuz-driven Brent spike (~+3%) is a live tailwind. TD Cowen PT raise + TechnipFMC MoU still stand. Earnings Fri 10/30.
+- **RMD — thesis INTACT.** No analyst action or GLP-1 development dated 10/21–10/22; latest ratings stale (RBC upgrade 9/15, Piper cut 8/7). Earnings after close 10/29 (consensus ~$2.69 EPS / $1.39B rev). Rate-sensitive mild drag from the >5% 10Y.
+- **SPY (index floor)** — marking ~−1% pre-market on the risk-off tape; no stop by design; ~39.6% of book.
+- **Factor-concentration note:** RMD + RSG remain the correlated rate-sensitive pair (both pressured by the >5% long end today). BP (energy, oil-levered) + PG (staples) diversify. Open-slot refill should PREFER a non-rate-sensitive diversifier on a CLEAN entry.
+
+### Buy candidates (signals matched + conviction) — NO clean entry today
+- **LLY ~$1,279 — LEAD idea, 3 signals (#3 GLP-1 secular, #1 raised guidance, #6 uptrend), ~76 B+. ENTRY = CHASE (NO).** Only ~2.5% off the 10/20 record high ($1,311.75); the clean-entry window (~$1,180–1,210 / ≥5% off the high) has NOT opened. A −7% hard stop under a record high sits in normal post-spike pullback range — the exact high-beta/extended-entry learning. Earnings 10/29. Stays **NEAR-TRIGGER**: buy for the open slot ONLY on a genuine pullback to a non-extended base.
+- **GE (GE Aerospace) ~$295.88 — best fresh diversifier, 2 signals (#1 beat+raise 10/20: EPS $2.25 vs $2.00, raised FY; #3 aerospace-cycle secular), ~70. YELLOW: ~4% BELOW its 50-day MA** (pullback, not a clean uptrend) — "clean uptrend" unconfirmed; needs to reclaim/hold the 50-day. Non-rate-sensitive industrial. **Watch — not a clean green light.**
+- **ELV (Elevance) ~ near 52wk high — best fundamentals, 2+ signals (#1 monster beat $6.99 vs $4.66, FY EPS raised ≥$29), ~72. ENTRY = CHASE** (~3.5% off high after a ~58% run off March lows). Healthcare diversifier. Wait for a pullback.
+- **RTX ~$190.69 — beat+raise 10/20 (EPS $2.26 vs $1.78, raised FY) + defense secular = 2 signals, ~68–70. NO: ~4% BELOW its 50-day** (falling pullback) — wait for it to reclaim ~$199.
+- **MMM ~$161.89 — Q3 raised FY EPS to $9.10–9.15 (new positive), ~64 BELOW gate; also below 50-day. NO.**
+- **ISRG ~$ (−29% off high) — beat $3.00 vs $2.61 but NO confirmed guidance raise (~1.5 signals), ~66 below gate.** Watch for a guidance-confirmed re-rate.
+- **SPY-floor top-up — OPTION only, NOT mandated.** Cash ~18.3% is above the ~$10k target but we are ~82% invested (NOT cash-drag), and the slot/powder is deliberately held for an LLY clean entry. On a risk-off morning there is no urgency to add index exposure.
+
+### Sell candidates
+- **None.** All 4 conviction theses intact; RSG's dip is noise (severity 2), PG's gap is constructive, BP has a fresh tailwind, RMD quiet. All 4 trailing stops resting clean, all far above their floors; SPY held by design. No sell signal.
+
+### Voices
+- **Research:** No new catalyst clears the gate on a clean entry. LLY still lead but still a chase; GE the most buyable fresh diversifier but below its 50-day (yellow). No Astra proposals. PG print leans constructive, pending the live number.
+- **Risk:** All 4 trailing stops intact and far above floors into a risk-off open; no position near a stop; RSG dip noise, downside bounded. Cash ample. No sizing/stop change. Risk-off tape argues for patience, not forcing the slot.
+- **Trader:** No order — market closed; pre-market mandate is research + plan only. Nothing to execute.
+
+### Handoff → market-open (Thu 10/22 ~08:35 CT)
+- Re-verify live: account/positions/orders/clock; confirm exactly 4 GTC trailing stops (BP 209e58f4, PG 272e2864, RMD 761a6a31, RSG 135c200e) + SPY unencumbered; any new +5% hard→trailing conversion (none pending — all already trailing).
+- **PG — CONFIRM the live print + tape reaction at the open.** If the beat/guidance holds and PG opens up, HOLD the full 65 sh on the trailing floor; **NO new PG** (don't chase a post-print pop). If it unexpectedly gapped down on a bad print, the floor 143.982 bounds the downside — re-read the thesis before any action.
+- **RSG — confirm the pre-market dip is just positioning** (reopen above/near flat is the tell); floor 209.8755 well below. No action unless a real catalyst surfaces.
+- **LLY = lead buy** for the open slot ONLY on a CLEAN non-extended pullback (~$1,180–1,210 / ≥5% off the high), 2+ signals, Conviction ≥70, earn 10/29 (>3 sessions), cash ≥~$10k, ~10% size, −7% hard GTC stop. Still near highs → don't chase. **GE** is the #2 bench name (beat+raise, but confirm it reclaims its 50-day before treating it as a clean entry); **ELV** best fundamentals but wait for a pullback; RTX/MMM below their 50-day.
+- Risk-off open likely (ES/NQ red on AI-capex repricing) — do NOT force the slot or the SPY top-up into weakness; patience is cheap with the book protected.
+- Earnings runway: PG 10/22 (today), MSFT 10/28, RSG 10/29, RMD 10/29, LLY 10/29, BP 10/30. FOMC Oct 27–28 (leaning hold). Check inbox for Lauren's structural A/B reply (default A until answered).
+
+---
+
 ## 2026-10-21 · market-close (Wed, ~15:05 CT) — Opus 4.8 | NO TRADES
 
 **Run meta:** Market CONFIRMED CLOSED via /v2/clock (is_open=false, 16:03 ET; next_open Thu 10/22 09:30 ET). Keys valid. Live pulls this run: account/positions/orders/clock + SPY trade/bars. Inbox: no Pending. Astra: no proposals. Weekly conviction buys 0/3 (week 10/19–10/23). Sleeve 4/5, one open slot held. Today's closed orders: **0** (no trades placed, none filled, no stops fired). State fully reconciles with the midday handoff — no gap.
