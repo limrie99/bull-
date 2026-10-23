@@ -1,12 +1,12 @@
 # Portfolio
 
-**Last updated:** 2026-10-23 ~15:05 CT (**MARKET-CLOSE routine**, Fri). Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; 16:02 ET; next_open 2026-10-26 09:30 ET). **Live verify:** account/positions/orders all pulled this run. **NO TRADES AT THE CLOSE** — today's only activity was at the open (NOC buy funded by a 3-share SPY trim). Weekly conviction buys **1/3** (week 10/19–10/23). Inbox: no Pending. Astra: no proposals.
+**Last updated:** 2026-10-23 ~16:05 CT (**WEEKLY-REVIEW routine**, Fri). Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; 17:11 ET; next_open 2026-10-26 09:30 ET). **Live verify:** account/positions/orders all re-pulled this run (settled EOD marks). **NO TRADES** this routine (retro only); today's only activity was at the open (NOC buy funded by a 3-share SPY trim). Weekly conviction buys **1/3** (week 10/19–10/23, closed). Inbox: no Pending. Astra: no proposals.
 
-**Closing snapshot (official EOD marks):** equity **$99,607.89**, cash **$10,554.23 (~10.6%)**, last_equity (Thu 10/22 close) $99,782.15 → **day P/L −$174.26 / −0.17%** (nearly flat). buying_power $291,567.17; long_market_value $89,053.66; status ACTIVE. **Conviction sleeve 5/5 — FULL.** Cash at the ~$10k / 10% floor by design.
+**Settled EOD snapshot (weekly-review marks):** equity **$99,480.87**, cash **$10,554.23 (~10.6%)**, last_equity (Thu 10/22 close) $99,782.15 → **day P/L −$301.28 / −0.30%** (settled a touch below the 15:05 close mark). buying_power $291,211.51; long_market_value $88,926.64; status ACTIVE. **Conviction sleeve 5/5 — FULL.** Cash at the ~$10k / 10% floor by design.
 
-**Benchmark — OFFICIAL CLOSE scorecard:**
-- **Today:** SPY close **759.83** vs Thu close 764.03 → **−0.55%**; book **−0.17%** → **alpha today +0.38** (book ahead on a down day).
-- **Week-to-date** (base Fri 10/16 official close: book $98,304.52 / SPY 763.335): book **+1.33%** ($99,607.89, +$1,303.37) / SPY **−0.46%** → **alpha +1.79 WTD** (book well AHEAD on the week).
+**Benchmark — WEEKLY-REVIEW scorecard (settled):**
+- **Today:** SPY close **759.83** vs Thu close 764.03 → **−0.55%**; book **−0.30%** → **alpha today +0.25** (book ahead on a down day).
+- **Week ending 10/23** (base Fri 10/16 Alpaca close book $98,326.96 / SPY 763.34): book **+1.17%** ($99,480.87) / SPY **−0.46%** → **alpha +1.63 ✅ — THIRD straight weekly beat.** Cumulative alpha since 5/29 base narrowed from −2.46 to **~−0.83 pts** (near even; +5.47pt repair in 3 weeks). Grade **B+**.
 
 ## Open positions (5 conviction stocks + 1 index-floor sleeve) — closing marks 2026-10-23 ~15:05 CT
 | Symbol | Shares | Avg Cost | Px (close) | P/L % | Stop | Entry Date | Thesis (1 line) |
