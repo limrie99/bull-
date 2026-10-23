@@ -1,3 +1,22 @@
+## 2026-10-23 08:36 CT · market-open
+
+**Bought Northrop Grumman (NOC) — a defense contractor — filling our empty 5th slot.**
+
+**What I did**
+At the live open I pulled up Northrop's real price and it checked out — so I bought **18 shares at $544.37** (about $9,800, ~10% of the account) and immediately set an automatic "sell if it drops 7%" safety net (a stop loss) at $506.26. To keep a healthy cash cushion, I first sold **3 shares of our S&P 500 holding** (our index "floor") to free up the money, so we still hold about $10,500 cash afterward.
+
+**Why**
+Northrop cleared four of our buy signals at once: it beat its latest earnings and raised its forecast, an analyst firm (Baird) upgraded it with a $675 price target, money is rotating into defense stocks, and it's in a steady uptrend — about 4% above its 50-day average price (a common trend line) and well off its highs, so we're not overpaying. Just as important, it **diversifies us**: our other stocks lean on oil, consumer staples, and interest rates, while defense marches to its own drummer. One wrinkle worth noting: at the opening bell the "asking price" screen was showing a junk number (~$577) that didn't match where the stock was actually trading (~$544). So instead of a plain market order — which could have overpaid — I used a **limit order** (an order that refuses to pay above a set price), and it filled cleanly at $544.37.
+
+**What happens next**
+I'll let Northrop settle in. Its 7% safety net is in place; once it climbs 5% into profit I'll upgrade that to a trailing stop (a safety net that rises with the price). No earnings to worry about until January. I'll check everything again at the midday routine.
+
+**Numbers I care about**
+- Equity **$99,634**; cash **$10,554 (~10.6%)** — right at our target cushion after putting money to work
+- **5 of 5 stock slots now filled** (NOC joins BP, P&G, ResMed, Republic); **1 of 3** weekly buys used
+- Northrop's safety-net sell price: **$506.26** (7% below our $544.37 cost)
+- On the week we're **up ~1.35%** while the S&P 500 is **down ~0.5%** — ahead by ~1.85 points
+
 ## 2026-10-23 06:05 CT · pre-market
 
 **Quiet pre-market plan — holding steady, and I may finally have a clean pick for our empty slot: Northrop Grumman.**

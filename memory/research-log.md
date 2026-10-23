@@ -1,3 +1,39 @@
+## 2026-10-23 · MARKET-OPEN (Fri, ~08:36 CT) — Opus 4.8 | TRADED: BUY NOC 18 @ 544.37 (slot filled) + trim SPY 3
+
+**Run meta:** Market **CONFIRMED OPEN** via /v2/clock (is_open=true, 09:34 ET; next_close 16:00 ET). Keys valid (all 4 required non-empty). Live pulls: account/positions/orders/clock + NOC/SPY quotes/trades/bars. Inbox: **no Pending** (nothing to handle/move). Astra: **no proposals**. **Executed the pre-market plan** — bought the bench leader NOC into the open slot on a clean live entry, funded by a 3-share SPY-floor trim to hold the cash floor. Sleeve **4/5 → 5/5 (FULL)**; weekly conviction buys **0/3 → 1/3** (week 10/19–10/23). State reconciled fully with the pre-market handoff before acting (exactly 4 trailing stops + SPY 51 unencumbered; floors had auto-ratcheted: BP 45.378→45.7821, RMD 228.258→228.411, RSG 218.1735→218.628).
+
+**Open snapshot (live):** equity $99,633.80, cash $10,554.23 (~10.6%), last_equity (Thu close) $99,782.15 → day −$148.35 / −0.15% (intraday; mostly BP/SPY/PG ticking — NOC ~flat). long_mv $89,079.57, buying_power $291,639.72, status ACTIVE.
+
+### Execution detail
+- **NOC live-verify (all passed):** 50-day SMA = **$522.85** (56 daily SIP bars); NOC trading ~$543–547 = **+4.1% above the 50-day**, ~28% off its 52-wk high → clean, intact uptrend, NOT extended, NOT a knife. News scan (web): no fresh adverse NOC item dated 10/23; Q3 beat+raise + Baird→Outperform (PT $675) stand. **4 signals** (#1 beat+raise, #4 Baird upgrade, #5 defense rotation, #6 uptrend) AND Conviction ~77 (B+) → **buy-gate cleared on a clean live entry.** No earnings blackout (next print ~Jan 2027). Best factor fit (non-rate-sensitive defense diversifier vs the energy/staples/rate-pair book).
+- **Garbage-NBBO handling (Trader voice):** the opening quote feed showed a stuck/unreliable ask of **$577.50** vs a $517–544 bid while actual **trades printed $543–547**. A plain MARKET buy risked filling ~$577 (+6% overpay → would break the "not-extended" entry). Used a **marketable LIMIT at $548** instead → filled **18 @ $544.37** (below the limit AND the bad ask). This is the strategy's spread-aware Trader discipline, not a convention break; the −7% hard stop still went on immediately per the playbook.
+- **Funding / cash-floor mechanic:** buying ~$9,799 of NOC on $18,074 cash would drop whole-book cash to ~$8,210 (~8.2%) — **below the ~$10k / 10% floor.** Per the cash-policy "trim the floor first to make room" rule, sold **3 SPY @ $759.62** (+$2,278.87; 51→48) BEFORE the NOC buy → ending cash **$10,554.23 (~10.6%)**, floor respected. SPY floor stays the dominant sleeve, no stop.
+- **Stop set:** NOC **−7% hard GTC $506.26** (= 544.37 × 0.93), id 59a67c62-0ec7-4d59-8315-66d94b9d3d7c, qty 18, resting (status new). Verified. Convert to 10% trailing on +5%.
+- **Sizing:** $9,798.66 ≈ 9.8% of equity — B+ ~10% band. Defense is low-beta/non-rate-sensitive, so the high-beta ≤10% override did not apply (it was already within band anyway).
+
+### Portfolio watch (all 5 theses INTACT — no sell triggers)
+- BP +13.97% (trail floor 45.81); PG +10.79% (trail 150.165, above entry); RMD +10.88% (trail 228.411, RBC upgrade 10/22, earn 10/29); RSG +11.34% (trail 218.628, earn 10/29); NOC −0.19% (new, hard 506.26); SPY −0.88% (48 sh, no stop). No −7% breach, no +5% conversion pending (NOC far off; 4 others already trailing), no thesis break.
+
+### Benchmark (intraday — close owns the official scorecard)
+- Day: book −0.15% vs SPY ~−0.59% (759.54 vs Thu close 764.03) → intraday alpha ~+0.44.
+- WTD (base Fri 10/16: book $98,304.52 / SPY 763.335): book **+1.35%** / SPY **−0.50%** → **alpha +1.85 WTD** (book well ahead on the week).
+
+### Voices
+- **Research:** NOC was the pre-market bench leader; live verification confirmed the clean, non-extended entry (+4% over the 50-day, no blackout, 4 signals, ~77). Promoted from proposal to a confirmed buy. No Astra proposals to score.
+- **Risk:** sized ~10% B+ band (defense low-beta → no high-beta cap needed); −7% hard GTC stop at the actual fill; held the cash floor by trimming 3 SPY first (floor is the designated shock-absorber). Day −0.15% nowhere near the −3% cap. NOC deliberately breaks the RMD/RSG rate-concentration.
+- **Trader:** declined to send a market order into a garbage NBBO (ask $577.50); used a marketable limit at $548, filled 18 @ $544.37 — clean. Funded via a 3-SPY trim. Did NOT buy LLY (chase + 10/29 blackout). One validated buy, no churn.
+
+### Handoff → midday (Fri 10/23 ~12:00 CT)
+- **Re-verify live:** account/positions/orders/clock; confirm **exactly 5 open orders** — NOC hard **506.26** (59a67c62), BP trail (209e58f4), PG trail 150.165 (272e2864), RMD trail 228.411 (761a6a31), RSG trail 218.628 (135c200e); SPY 48 unencumbered.
+- **NOC is new — let it settle.** Only action if it crosses **+5%** (→ cancel the $506.26 hard stop, place a 10% trailing GTC) or a thesis break. Hard stop protects it meanwhile.
+- **Hold all 5 — sleeve is FULL.** No new PG/BP/RMD/RSG/NOC. Any further idea is a SWAP candidate to reason about, not an auto-add. Don't chase LLY (chase + 10/29 blackout).
+- **Watch today's data:** Flash PMIs (9:45 ET), UMich inflation exp (10:00 ET) for any rate repricing that moves RMD/RSG.
+- **Earnings runway:** MSFT 10/28; RSG/RMD/LLY 10/29; BP 10/30. FOMC Oct 27–28 (leaning hold). Decide hold-vs-trim on RSG/RMD at **pre-market Mon 10/26** before their 10/29 prints.
+- **Market-close owns today's mandatory plain-English scorecard + Telegram** (never skipped).
+- **STANDING:** structural A/B default A (no Lauren reply). Perplexity OPERATIONAL.
+
+---
+
 ## 2026-10-23 · PRE-MARKET (Fri, ~06:05 CT) — Opus 4.8 | NO TRADES (market closed)
 
 **Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false; next_open 2026-10-23 09:30 ET). Keys valid (all 4 required non-empty). Live pulls this run: account/positions/orders/clock + NOC latest trade. Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). Weekly conviction buys **0/3** (week 10/19–10/23, last session today). Sleeve **4/5 — ONE OPEN SLOT.** 4-agent fan-out (macro/earnings/position/scout) ran on **Perplexity sonar-pro** (OPERATIONAL). State **fully reconciles with the close handoff** — exactly 4 GTC trailing stops (BP 209e58f4/45.378, PG 272e2864/150.165, RMD 761a6a31/228.258, RSG 135c200e/218.1735) + SPY 51 unencumbered; no hard stops remain.
