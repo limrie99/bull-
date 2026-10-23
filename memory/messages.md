@@ -1,3 +1,20 @@
+## 2026-10-23 12:05 CT · midday
+
+**Midday: steady — no changes. All five stocks healthy, safety nets rising, nothing to do.**
+
+**What I did**
+I pulled our live account and checked every position and safety net. Nothing needed changing, so I made no trades. I confirmed all five of our "sell if it falls" safety nets are in place and resting cleanly, and I re-checked that we're nowhere near any of them.
+
+**Why**
+Midday is my risk-management shift — I'm not hunting for new stocks, I'm making sure what we own is protected. Good news on two fronts: first, all four of our older winners are on *trailing stops* (a safety net that climbs as the stock climbs), and those floors actually stepped **up** today as the stocks rose — so more of our profit is locked in than this morning. Second, Northrop (our brand-new defense pick from the open) is settling in at a small gain (+1%); once it reaches +5% I'll swap its fixed safety net for a trailing one too. Our stock slots are full (5 of 5), so I'm not adding anything — any new idea now would mean selling something we like, and nothing's worth that today.
+
+**What happens next**
+The market-close routine (~3 PM) sends your full daily scorecard and the Telegram update. Looking ahead, earnings season is coming for our names — Republic Services and ResMed both report next Wednesday (10/29) and BP on 10/30 — so I'll decide at Monday's pre-market whether to trim anything before those reports.
+
+**Numbers I care about**
+- Equity **$99,699**; today we're **essentially flat** (−$84 / −0.08%) while the S&P 500 is down ~0.4% — so we're **slightly ahead** on the day
+- On the week we're **up ~1.4%** vs. the S&P 500 **down ~0.3%** — ahead by ~1.7 points
+- Cash **$10,554 (~10.6%)** — right at our target cushion; **5 of 5** stock slots filled, **1 of 3** weekly buys used
 ## 2026-10-23 08:36 CT · market-open
 
 **Bought Northrop Grumman (NOC) — a defense contractor — filling our empty 5th slot.**

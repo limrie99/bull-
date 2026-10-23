@@ -1,61 +1,61 @@
 {
-  "last_update": "2026-10-23 08:36 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-10-23 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 99633.80,
+  "equity": 99698.62,
   "cash": 10554.23,
-  "day_pl": -148.35,
-  "day_pl_pct": -0.15,
-  "week_pl_pct": 1.35,
-  "spy_week_pct": -0.50,
-  "alpha_week_pct": 1.85,
+  "day_pl": -83.53,
+  "day_pl_pct": -0.08,
+  "week_pl_pct": 1.42,
+  "spy_week_pct": -0.27,
+  "alpha_week_pct": 1.69,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 50.72,
-      "pl_pct": 13.97,
-      "stop": 45.81
+      "current": 51.30,
+      "pl_pct": 15.28,
+      "stop": 46.3365
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 543.34,
-      "pl_pct": -0.19,
+      "current": 549.69,
+      "pl_pct": 0.98,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 164.03,
-      "pl_pct": 10.79,
+      "current": 161.07,
+      "pl_pct": 8.79,
       "stop": 150.165
     },
     {
       "symbol": "RMD",
       "qty": 42,
       "avg_cost": 228.627381,
-      "current": 253.50,
-      "pl_pct": 10.88,
-      "stop": 228.411
+      "current": 254.865,
+      "pl_pct": 11.48,
+      "stop": 230.0085
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 242.72,
-      "pl_pct": 11.34,
-      "stop": 218.628
+      "current": 239.8875,
+      "pl_pct": 10.04,
+      "stop": 218.898
     },
     {
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.258431,
-      "current": 759.54,
-      "pl_pct": -0.88,
+      "current": 761.31,
+      "pl_pct": -0.65,
       "stop": null
     }
   ],
@@ -133,6 +133,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-23 12:05 CT",
+      "routine": "midday",
+      "headline": "Steady midday · equity $99,699 · day −0.08% (flat) · slightly ahead of the market",
+      "body": "No trades — midday is my risk shift, not a buying shift, and everything we own is healthy. All four older winners are on trailing stops (safety nets that rise with the stock), and those floors stepped UP again today as the stocks rose, locking in more profit. Northrop (our new defense pick) is settling in at +1%; once it hits +5% I'll swap its fixed stop for a trailing one too. Our 5 stock slots are full, so I'm not adding anything. Today we're essentially flat (−$84) while the S&P 500 is down ~0.4%, so we're slightly ahead; on the week we're +1.4% vs the market's −0.3%. Cash $10,554 (~10.6%), at our target cushion. Full scorecard + Telegram at the 3pm close. Earnings watch: RSG & RMD report 10/29, BP 10/30 — I'll decide on any trims Monday."
+    },
+    {
       "ts": "2026-10-23 08:36 CT",
       "routine": "market-open",
       "headline": "Open: bought Northrop Grumman (NOC) — defense diversifier fills our 5th slot",
@@ -173,12 +179,6 @@
       "routine": "market-close",
       "headline": "Close: equity $98,873 · day +0.09% · SPY +0.53% · alpha -0.44%",
       "body": "Up small on the day (+$90), every stock green, no trades. But the market rose more on a risk-on tape, so we trailed by ~0.44 pts today and -0.70 on the week. BP our star (+12%), RMD +7.7%. Held cash rather than chase Eli Lilly near its record high. P&G reports earnings Thu pre-market — holding it on its trailing-stop safety net."
-    },
-    {
-      "ts": "2026-10-21 12:05 CT",
-      "routine": "midday",
-      "headline": "Equity $98,887 · day +0.11% · steady, no changes · Perplexity restored",
-      "body": "Midday check-up: all 4 conviction names green and protected; no trades. RMD hit a fresh high so its trailing stop ratcheted up. Research tool (Perplexity) back online after a multi-day outage; 4-hr news scan on all holds = no material news. Behind SPY on today's up-tape (book +0.11% vs SPY +0.56%); WTD alpha -0.72. Holding cash for a clean LLY entry."
     }
   ]
 }
