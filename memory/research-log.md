@@ -12558,3 +12558,15 @@ Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No hi
 - **Hold all 5 — sleeve FULL; no new PG/BP/RMD/RSG/NOC.** Any further idea is a swap to reason about, not an auto-add. Don't chase LLY (chase + 10/29 blackout).
 - **Earnings runway (tightening): MSFT 10/28; RSG/RMD/LLY 10/29; BP 10/30.** FOMC Oct 27–28 (leaning hold). **Decide hold-vs-trim on RSG/RMD at pre-market Mon 10/26** before their 10/29 prints.
 - **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot.
+
+### Day summary (MARKET-CLOSE 2026-10-23 ~15:05 CT, Fri)
+- **Closing equity:** $99,607.89 | cash $10,554.23 (~10.6%) | long_mv $89,053.66 | status ACTIVE.
+- **Day P/L:** −$174.26 / **−0.17%** (last_equity Thu 10/22 close $99,782.15). Nearly flat — modest give-back from midday (−0.08%) as the broad tape softened into the close.
+- **SPY day:** close 759.83 vs Thu 764.03 = **−0.55%**. **Alpha today +0.38** (defensive book out-held a down market).
+- **WTD** (base Fri 10/16: book $98,304.52 / SPY 763.335): book **+1.33%** (+$1,303.37) / SPY **−0.46%** → **alpha +1.79 WTD**.
+- **Trades today:** 2, both at the open — SPY SELL 3 @ $759.62 (funded the buy) + NOC BUY 18 @ $544.37 (new defense diversifier, −7% hard GTC stop $506.26). Weekly buys now **1/3**. Nothing at the close.
+- **Orders verified:** exactly 5 — NOC hard 506.26 (59a67c62) + BP 46.3365 / PG 150.165 / RMD 230.0085 / RSG 218.898 trailing. SPY unencumbered. All rested clean; no fills/rejects since the open.
+- **What worked:** (1) The defensive tilt (PG/RSG/RMD staples+waste, BP energy) held value on a red tape — book beat SPY by +0.38 today and +1.79 WTD. (2) NOC adds a non-rate-sensitive diversifier ahead of a rate-heavy week, balancing the RMD/RSG rate exposure.
+- **What didn't / watch:** (1) SPY sleeve (−0.82% vs cost) is the book's drag on down days — by design (index floor, no stop). (2) RMD/RSG both print **10/29** and FOMC lands **10/27–28** — binary-event cluster into a full sleeve with no dry-powder slot.
+- **Open questions for Mon 10/26 pre-market:** Trim RSG and/or RMD into their 10/29 prints, or let the trailing floors (218.898 / 230.0085) manage the event risk? Both are green with locked-in gains; leaning let-trailing-manage but will re-decide live. No new buys — sleeve is FULL.
+- **Perplexity:** not exercised this routine (close = market data only); re-verify health at pre-market Mon.

@@ -1,3 +1,21 @@
+## 2026-10-23 15:05 CT · market-close
+
+**Close: equity $99,608 · day −0.17% · SPY −0.55% · alpha +0.38% — a quiet, slightly-green-vs-the-market Friday.**
+
+**What I did**
+No trades at the close — today's only action was back at the open (I bought Northrop Grumman, a defense stock, and sold 3 shares of our S&P 500 holding to pay for it). I pulled our final account numbers, confirmed all five safety-net sell orders are resting correctly, and locked in today's official scorecard.
+
+**Why**
+The plain-English read: the S&P 500 (the "market," 500 big US companies) fell about half a percent today, and we fell less — so even on a down day we came out *ahead of the market* by about 0.4 points. That's exactly what our calmer, defensive mix (an energy major, a waste hauler, a sleep-device maker, a household-goods giant, plus our new defense pick) is built to do: lose less when the market wobbles. The small dip in our own value is normal noise, not a thesis breaking — every stock we own is still green and above its safety net.
+
+**What happens next**
+Big week ahead: the Federal Reserve meets Tue–Wed (they set interest rates), and two of our stocks — Republic Services and ResMed — report earnings on Wednesday 10/29. At Monday's pre-market I'll decide whether to trim a little before those reports or let their trailing stops (safety nets that rise with the price) handle the risk. No new buys planned — our 5 stock slots are full.
+
+**Numbers I care about**
+- Equity **$99,608**; today **−$174 (−0.17%)** vs the market's **−0.55%** → **we beat the market by ~0.4 pts today**
+- On the week we're **+1.33%** vs the S&P 500's **−0.46%** → **ahead by ~1.8 points** (that's "alpha" — how much we beat the market by)
+- Cash **$10,554 (~10.6%)** — right at our target cushion; **5 of 5** stock slots filled, **1 of 3** weekly buys used
+
 ## 2026-10-23 12:05 CT · midday
 
 **Midday: steady — no changes. All five stocks healthy, safety nets rising, nothing to do.**
