@@ -1,3 +1,48 @@
+## 2026-10-23 · PRE-MARKET (Fri, ~06:05 CT) — Opus 4.8 | NO TRADES (market closed)
+
+**Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false; next_open 2026-10-23 09:30 ET). Keys valid (all 4 required non-empty). Live pulls this run: account/positions/orders/clock + NOC latest trade. Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). Weekly conviction buys **0/3** (week 10/19–10/23, last session today). Sleeve **4/5 — ONE OPEN SLOT.** 4-agent fan-out (macro/earnings/position/scout) ran on **Perplexity sonar-pro** (OPERATIONAL). State **fully reconciles with the close handoff** — exactly 4 GTC trailing stops (BP 209e58f4/45.378, PG 272e2864/150.165, RMD 761a6a31/228.258, RSG 135c200e/218.1735) + SPY 51 unencumbered; no hard stops remain.
+
+**Pre-market snapshot (indicative, pre-open marks):** equity **$99,578.75**, cash **$18,074.02 (~18.2%)**, long_mv $81,504.73, buying_power $300,509.32, status ACTIVE. Positions (indicative pre-open): BP 214 @ 44.4998 → 50.47 (+13.42%); PG 65 @ 148.06 → 163.80 (+10.63%, slight give-back off the 165.59 close, well above 150.165 floor); RMD 42 @ 228.627 → 253.06 (+10.69%); RSG 44 @ 218.00 → 240.00 (+10.09%); SPY 51 @ 766.258 → 762.13 (−0.54% vs cost, index sleeve). (Official scorecard carries from Thu close: book +1.54% WTD / SPY +0.09% → alpha +1.45 WTD.)
+
+### Market context
+- **Futures flat/mixed:** ES −0.11%, NQ +0.05% — no directional lead into the open.
+- **Global risk-OFF, Asia hit hard:** Nikkei −2.65%, Hang Seng −3.03%, Shanghai −1.48%; Europe soft (FTSE −0.26%, DAX −0.85%). Confirms the defensive/value tape still in force.
+- **Big overnight BOND RALLY — 10Y 4.96%, DOWN ~18.5bp** (flight-to-safety). First real rate relief in weeks → **supportive for our rate-sensitive pair RMD/RSG** and for rate-resilient/defensive names generally. (2Y ~4.74%, direction unconfirmed.)
+- **Oil re-elevated — Brent ~$114 (+0.7%), WTI ~$100 (+0.9%)** on fresh overnight Hormuz escalation (~7 oil tankers reported damaged/ablaze near the strait; traffic collapsed). **BP tailwind intact/re-strengthening.** NOTE a data split: position analyst's earlier read had Brent cooled to ~$100; macro's fresher ~1:48am read has it back to ~$114 on the overnight escalation — oil is whipsawing around the Hormuz headlines, net elevated. Not a thesis risk to BP either way; the strongest leg is simply volatile.
+- **Data today:** S&P Global Flash PMIs 9:45 ET (Svc 58.0 / Mfg 55.5 est); UMich 1yr inflation exp 10:00 ET (4.7% est). **FOMC Oct 27–28** (prior context ~80% hold; FedWatch % unverified this run). Govt-shutdown status unverified (gap).
+- **Earnings today:** NOTHING in our book or on the watchlist. Notable: SLB (energy bellwether — a BP read-through), AXP (consumer tell). Thu-PM gappers: NEM beat, WDC beat; INTC print unconfirmed.
+
+### Portfolio watch (all 4 theses INTACT — no sell triggers)
+- **BP** (+13.4%): no company news/analyst action in 24h. Oil tailwind intact (Brent net-elevated ~$114 on Hormuz; whipsawing). Earn ~10/30. HOLD on trailing floor 45.378.
+- **PG** (+10.6%): Q1 FY27 **beat CONFIRMED** (EPS $2.00 vs ~$1.89–1.94; rev $23.28B; reaffirmed FY27 EPS $6.89–7.11), +5.8% on 10/22. No fresh 24h analyst action. Thesis strengthened. Floor 150.165 above the $148.06 entry = profit locked. NO new PG.
+- **RMD** (+10.7%): no company news, net-POSITIVE analyst tone last 24h — **RBC UPGRADE Sector Perform→Outperform, PT $244→$262**; KeyBanc $255→$267; Mizuho $235→$240. Mild offset: a mixed MS margin/Philips-competition note. GLP-1 framed risk+opportunity. 10Y relief today helps. Earn **10/29**. HOLD; decide hold-vs-trim Mon before the print.
+- **RSG** (+10.1%): quiet; only fresh item Baird PT $242→$245 (Neutral, unchanged). Earn **10/29** (consensus ~$1.92 EPS / $4.41B rev). 10Y relief helps. HOLD; decide hold-vs-trim Mon.
+- **Factor-concentration watch:** RMD+RSG remain the correlated rate-sensitive pair (both 10/29). BP (energy) + PG (staples) diversify. Open-slot refill should PREFER a non-rate-sensitive diversifier on a clean entry.
+
+### Buy candidates (signals matched + conviction) — market closed, NO trades; hand to market-open
+- **★ NEW BENCH LEADER — NOC (Northrop Grumman), defense/aerospace. Conviction ~77 (B+). Live last trade $552.32.** Signals: **#1** Q3 beat+raise (EPS $7.89 vs $7.18, raised FY26 to $29.35–29.75), **#4** Baird UPGRADE→Outperform PT $675 (last 2wk), **#5** defense-sector rotation, **#6** clean uptrend above its 50-day (~$523 per scout) and ~28% off its 52-wk high = NOT extended / NOT a knife. **Non-rate-sensitive diversifier** (best factor fit vs our energy/staples/rate-pair book). **NO earnings blackout — next print ~Jan 26 2027.** This is a cleaner open-slot candidate than LLY (which is a chase AND in 10/29 blackout). **→ Hand to market-open as a GENUINE buy candidate:** live-verify price + 50-day (confirm above, not extended), re-verify the beat+raise + Baird upgrade still stand, size ~10% (~$10k ≈ 18 sh @ ~$553), place a **−7% hard GTC stop** at fill×0.93 the same session, confirm cash stays ≥~$10k after (≈$8.1k would remain — OK, above the floor; or trim a few SPY first to keep the ~$10k buffer — Trader's call at live prices). This is NOT "forcing the Friday slot" — it is a name that genuinely clears the gate on a clean entry; the anti-paralysis rule favors acting on a qualifying setup.
+- **MMM (3M), industrials/value. ~70.** Signals #1 (Q3 beat+raise) + #2 (new Amazon data-center deal). Adds a sector we hold none of. Soft spot: confirm it's ABOVE its 50-day at live prices before buying. #2 candidate if NOC fails live verification.
+- **LLY (Eli Lilly), ~76 B+ — now #3, NOT buyable today.** 3 signals (GLP-1 secular/raised guidance/PT hikes) but still a CHASE (~1–2% off its ~$1,321 record) AND **earn 10/29 = inside the 3-session blackout**. Needs a pullback to ~$1,180–1,210. Stays NEAR-TRIGGER/WATCH.
+- **RTX (~68) / GE (~68):** both beat+raise + defense rotation but still below/at their 50-day — not a confirmed uptrend. Need a 50-day reclaim first. WATCH.
+
+### Sell candidates
+- **NONE.** All 4 conviction theses intact, all green on 10% trailing stops far above floors; no −7% breach, no +5% conversion pending (all already trailing), no thesis break, no fundamentals deterioration. SPY floor held (no stop by design).
+
+### Voices
+- **Research:** NOC is the morning's find — a clean, non-rate-sensitive defense diversifier that clears 2+ signals AND ≥70 on a clean entry, with no blackout, unlike LLY. Promote it to bench leader and propose it as a market-open buy pending live verification. No Astra proposals to score.
+- **Risk:** All 4 trailing stops intact; 10Y relief eases pressure on the RMD/RSG rate pair; no position near a stop; cash ample (~18%). On a NOC buy, size ~10% (defense is low-beta, non-rate-sensitive — standard B+ band, no high-beta cap needed), −7% hard GTC stop at the actual fill, keep whole-book cash ≥~$10k (trim a little SPY first if needed). Don't chase LLY into its blackout.
+- **Trader:** No order this run (market closed). Standing order for market-open: if NOC live-verifies (price/50-day clean, 2+ signals, cash floor OK), execute ~10% with a −7% hard GTC stop; else fall to MMM (verify above 50-day); do NOT buy LLY (chase + blackout). Slot + powder held otherwise.
+
+### Handoff → market-open (Fri 10/23 ~08:30 CT)
+- **Re-verify live:** account/positions/orders/clock; confirm exactly 4 GTC trailing stops (BP 209e58f4, PG 272e2864/150.165, RMD 761a6a31/228.258, RSG 135c200e/218.1735) + SPY 51 unencumbered; any new +5% hard→trailing conversion (none pending — all already trailing).
+- **LEAD BUY = NOC** (defense, ~77 B+, non-rate-sensitive diversifier, NO blackout). Buy for the open slot ONLY on a live-confirmed CLEAN entry: price above the 50-day & not extended, 2+ signals standing (beat+raise #1, Baird upgrade #4, rotation #5, uptrend #6), Conviction ≥70, size ~10% (~18 sh ≈ $10k @ ~$553), **−7% hard GTC stop at fill×0.93 same session**, whole-book cash ≥~$10k after (trim a little SPY first if the buffer would dip under ~$10k). **#2 = MMM** (verify above 50-day). **Do NOT buy LLY** — chase + 10/29 earnings blackout.
+- **This is the last session of the 10/19–10/23 week (0/3 buys used).** A NOC buy on a genuine clean entry is NOT "forcing the quota" — it clears the gate. But if NOC/MMM do NOT live-verify clean, DON'T force a buy just to use the slot; hold powder.
+- **Hold all 4 — no new PG/BP/RMD/RSG.** 10Y relief + oil elevated both favor the book today. Decide hold-vs-trim on RMD/RSG at **pre-market Mon 10/26** before their 10/29 prints.
+- **Earnings runway:** MSFT 10/28; RSG/RMD/LLY 10/29; BP 10/30. FOMC Oct 27–28 (leaning hold). Watch today's PMIs (9:45 ET) + UMich (10:00 ET) for any rate repricing.
+- **STANDING:** structural A/B default A (no Lauren reply). Perplexity OPERATIONAL.
+
+---
+
 ## 2026-10-22 · MARKET-CLOSE (Thu, ~15:05 CT) — Opus 4.8 | NO TRADES
 
 **Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false; close printed 16:00 ET; next_open 2026-10-23 09:30 ET). Keys valid. Live pulls this run: account/positions/orders/clock + SPY latest trade + SPY daily bars. Inbox: **no Pending** (nothing to handle). Astra: **no proposals**. Weekly conviction buys **0/3** (week 10/19–10/23). Sleeve **4/5, one open slot held**. **NO trades today** (none placed; closed-orders query = empty). State **fully reconciles with the midday handoff** — exactly 4 GTC trailing stops + SPY unencumbered; RSG & RMD floors ratcheted UP again into the close on fresh late-day highs; PG & BP steady.

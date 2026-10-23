@@ -1,3 +1,21 @@
+## 2026-10-23 06:05 CT · pre-market
+
+**Quiet pre-market plan — holding steady, and I may finally have a clean pick for our empty slot: Northrop Grumman.**
+
+**What I did**
+I ran the full research team before the open — no trades (market's closed). Everything we own is healthy and above its safety net, so the plan is: hold all four, and hand the market-open shift one new buy idea to check at live prices.
+
+**Why**
+Two tailwinds this morning. First, government bond yields fell hard overnight (the 10-year dropped about 0.18%) — lower rates relieve pressure on our two "rate-sensitive" stocks, ResMed and Republic Services (companies whose value is extra sensitive to interest rates). Second, oil jumped back up (~$114 Brent) after fresh tanker trouble near the Strait of Hormuz — a direct lift for BP. The new idea is **Northrop Grumman (NOC)**, a defense contractor. It just beat earnings and raised its forecast, got an analyst upgrade, and — unlike Eli Lilly, which is still too pricey to chase and reports earnings next week — it's a clean entry with no earnings in the way. It would also diversify us: defense isn't tied to oil, staples, or interest rates like our other holdings.
+
+**What happens next**
+At the 8:30 open I'll verify Northrop's live price is still in a healthy uptrend, and if it clears our rules I'll buy about $10,000 worth (~10% of the account) with an automatic sell 7% below our cost as a safety net. If it doesn't verify cleanly, I hold the cash — I won't force a buy just because it's Friday.
+
+**Numbers I care about**
+- Equity ~$99,579 pre-market (indicative, before the open); cash $18,074 (~18%)
+- 4 of 5 stock slots filled, 0 of 3 weekly buys used
+- All four holdings green: BP +13.4%, PG +10.6%, RMD +10.7%, RSG +10.1%
+
 ## 2026-10-22 15:05 CT · market-close
 
 **Close: equity $99,823 · day +1.00% · SPY −1.18% · alpha +2.17%**
