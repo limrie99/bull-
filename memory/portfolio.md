@@ -1,8 +1,8 @@
 # Portfolio
 
-**Last updated:** 2026-10-23 ~16:05 CT (**WEEKLY-REVIEW routine**, Fri). Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; 17:11 ET; next_open 2026-10-26 09:30 ET). **Live verify:** account/positions/orders all re-pulled this run (settled EOD marks). **NO TRADES** this routine (retro only); today's only activity was at the open (NOC buy funded by a 3-share SPY trim). Weekly conviction buys **1/3** (week 10/19–10/23, closed). Inbox: no Pending. Astra: no proposals.
+**Last updated:** 2026-10-26 ~06:05 CT (**PRE-MARKET routine**, Mon). Market **CONFIRMED CLOSED** via `/v2/clock` (is_open=false; 07:05 ET; next_open 2026-10-26 09:30 ET). **Live verify:** account/positions/orders re-pulled this run (pre-market marks). **NO TRADES** (market closed). New week (10/26–10/30): weekly conviction buys **0/3**. Inbox: no Pending. Astra: no proposals. **Earnings-week de-risk plan set** (lean: trim RMD before Thu 10/29; hold RSG — see Watch/next).
 
-**Settled EOD snapshot (weekly-review marks):** equity **$99,480.87**, cash **$10,554.23 (~10.6%)**, last_equity (Thu 10/22 close) $99,782.15 → **day P/L −$301.28 / −0.30%** (settled a touch below the 15:05 close mark). buying_power $291,211.51; long_market_value $88,926.64; status ACTIVE. **Conviction sleeve 5/5 — FULL.** Cash at the ~$10k / 10% floor by design.
+**Pre-market snapshot (live marks):** equity **$99,468.28**, cash **$10,554.17 (~10.6%)**, last_equity (Fri 10/23 close) $99,607.35. buying_power $291,176.19; status ACTIVE. Pre-market prices only (no meaningful day P/L yet). **Conviction sleeve 5/5 — FULL.** Cash at the ~$10k / 10% floor by design.
 
 **Benchmark — WEEKLY-REVIEW scorecard (settled):**
 - **Today:** SPY close **759.83** vs Thu close 764.03 → **−0.55%**; book **−0.30%** → **alpha today +0.25** (book ahead on a down day).
@@ -45,10 +45,10 @@
 - **Traded:** NOC added at the open (defense diversifier); nothing at the close. Sleeve 5/5; weekly buys 1/3; cash ~$10.6k at the floor.
 - **Buy bench (full sleeve — any further buy is a swap candidate, not an add):** LLY ~$1,285 (~76 B+) still a CHASE + 10/29 blackout — WATCH for a ~$1,180–1,210 pullback. GE/RTX (~68) still need a 50-day reclaim.
 
-## Watch / next (next routine: **pre-market Mon 10/26**)
-- **Re-verify live:** account/positions/orders/clock; confirm exactly 5 orders (NOC hard 506.26, BP/PG/RMD/RSG trailing); SPY unencumbered; watch for any +5% hard→trailing conversion (NOC only candidate — far off; 4 others already trailing).
-- **EARNINGS WEEK DECISION:** **Decide hold-vs-trim on RSG/RMD at pre-market Mon 10/26** before their **10/29** prints. Both are green and on ratcheting trailing floors; the question is whether to trim into the binary event or let the trailing stop manage it.
+## Watch / next (next routine: **market-open Mon 10/26, ~08:30 CT**)
+- **Re-verify live:** account/positions/orders/clock; confirm exactly 5 orders (NOC hard 506.26, BP/PG/RMD/RSG trailing); SPY unencumbered; watch for any +5% hard→trailing conversion (NOC +1.67% — far off; 4 others already trailing).
+- **EARNINGS-WEEK DE-RISK (decided this pre-market):** de-risk window open through **Wed 10/28** (both prints Thu 10/29). **Lean: trim RMD ~half (e.g. 20 of 42)** at a live session — a trailing stop can't catch an overnight earnings GAP, and RMD carries miss/competition overhangs (negative Zacks ESP, GLP-1/supply). Locks ~half the +10.6% gain, keeps half for upside. **RSG: lean HOLD under its 10% trailing stop** (defensive, lower gap risk) — **but FIRST verify RSG's exact earnings date/time** (earnings agent could not confirm 10/29; position agent assumed it). Market-open makes the live call; no rush today.
 - **NOC — new; let it settle.** Hard stop $506.26 protects it. No action unless +5% (→ convert to 10% trailing) or a thesis break.
-- **Hold all 5 — sleeve FULL; no new PG/BP/RMD/RSG/NOC.** Any further idea is a swap to reason about. Don't chase LLY (chase + 10/29 blackout).
-- **Earnings runway (tightening):** MSFT 10/28; RSG/RMD/LLY 10/29; BP 10/30. FOMC Oct 27–28 (leaning hold).
+- **Hold all 5 — sleeve FULL; no new PG/BP/RMD/RSG/NOC.** No actionable buy candidate today (RTX/LMT/TMO B+ but 50-day unconfirmed; GE/MMM below 50-day). Don't chase LLY (not in $1,180–1,210 zone + 10/29 blackout).
+- **Earnings runway:** MSFT 10/28 AMC; RMD/LLY 10/29 (LLY BMO), RSG ~10/29 (unconfirmed); BP 10/30 BMO. FOMC Oct 27–28 (hold ~90% priced; hawkish-after, ~76% Dec-hike odds). 10Y near 5% — pre-Fed caution, no chasing.
 - **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot.

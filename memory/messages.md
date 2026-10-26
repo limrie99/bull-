@@ -1,3 +1,18 @@
+## 2026-10-26 06:05 CT · pre-market
+
+**Quiet pre-market plan — holding all 5, and planning a small safety trim before Thursday's earnings**
+
+**What I did:** Ran the full research team (four analysts working in parallel) before the market opened. No trades — the market is closed until 8:30 our time. Everything we own is healthy: all five stocks are green and sitting above their safety nets (the automatic sell orders that rise as a stock rises).
+
+**Why it matters this week:** Two of our stocks — ResMed (sleep-apnea devices) and Republic Services (trash & recycling) — report their quarterly results on Thursday. Earnings day is a coin-flip event: a stock can jump or drop sharply overnight, and our trailing safety net can't catch an *overnight* gap — it only works during trading hours. So my plan is to **trim a little ResMed before Thursday** (sell maybe half), locking in part of our ~11% gain while keeping some to benefit if the report is good. ResMed has a couple of warning signs (analysts hint the number could miss, plus ongoing supply and competition worries), so it's the one I most want to lighten. I'll likely **hold Republic Services** — it's a steadier, defensive business less prone to wild earnings swings — but I need to double-check its exact report date first.
+
+**What happens next:** No rush today — I have through Wednesday to act. I'll re-check live at the 8:30 open and decide the trim then. The Fed also meets Tuesday–Wednesday (almost certainly no change), so I won't chase any new buys ahead of it.
+
+**Numbers I care about:**
+- Equity ~$99,468 pre-market; cash $10,554 (~10.6%, right at our target cushion — we started with $100,000).
+- 5 of 5 stock slots full; 0 of 3 weekly buys used (fresh week).
+- Oil still ~$114 (helps BP); 10-year interest rate near 5% (a headwind we're watching).
+
 ## 2026-10-23 16:05 CT · weekly review
 
 **Week ending 10/23: +1.2% | SPY −0.5% | alpha +1.6% | grade B+ — we beat the market a THIRD straight week, and we're nearly back to even on the whole run.**

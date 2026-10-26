@@ -1,3 +1,35 @@
+## 2026-10-26 · PRE-MARKET (Mon, ~06:05 CT) — Opus 4.8 | NO TRADES (market closed) — earnings-week de-risk plan set
+
+**Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false, 07:05 ET; next_open 2026-10-26 09:30 ET). Keys valid (4 required non-empty; EQUIBLES empty → filing data skipped). Live pulls: account/positions/orders/clock. Inbox: **no Pending**. Astra: **no proposals**. Research fan-out: 4 sub-agents in parallel (macro, earnings, position, opportunity scout), each on Perplexity. **No trades — pre-market, market closed.** State verified: exactly **5 open orders** (NOC −7% hard 506.26; BP/PG/RMD/RSG 10% trailing), SPY 48 unencumbered. All 5 conviction green; SPY floor −0.75%.
+
+**Pre-market live snapshot:** equity **$99,468.28**, cash **$10,554.17 (~10.6%)**, last_equity (Fri close) $99,607.35. buying_power $291,176.19; status ACTIVE. Pre-market marks only (not a meaningful day P/L yet). Sleeve **5/5 FULL**; weekly buys reset for new week (10/26–10/30), **0/3 used**.
+
+### Market context (macro)
+- **Futures flat/mixed:** ES +0.08%, NQ −0.14%. Asia mixed, Europe soft (Stoxx 600 −0.3%).
+- **Rates sticky-high:** 10Y ~4.97–4.99% (near 5%). DXY softer. **FOMC Oct 27–28** — hold at 3.75–4.00% priced ~90%; hawkish path after (~76% Dec-hike odds). Market expects a pause, not an end to tightening.
+- **Oil (BP tailwind):** Brent ~$114.5–115, down ~1–2% from Fri $116.72 but structurally elevated on the Hormuz risk premium (Iran/IRGC tanker claims, disputed; flows actually recovering). Net still supportive for BP.
+- **Regime:** cautiously **risk-off/neutral** into the open. No reason to chase buys pre-Fed.
+
+### Portfolio watch
+- **BP** +12.7% (px 50.14, stale pre-mkt) — HOLD. Quiet; earnings **Fri 10/30 BMO** (cons EPS ~$2.57). Brent >$114 supportive. Trailing floor 46.3365.
+- **NOC** +1.67% (553.45) — HOLD. Fresh bullish analyst momentum (Rothschild/Redburn → Strong Buy 10/26; Baird Outperform PT $675). −7% hard stop 506.26; far from +5% conversion line (no action).
+- **PG** +9.29% (161.81) — HOLD. Wave of PT hikes post-Q1-beat (MS $185, WF $180, JPM $180). Cost-inflation a watch, not a break. Trailing floor 150.165.
+- **RMD** +10.6% (252.86) — ⚠️ **WATCH / lean TRIM.** Earnings **Thu 10/29 (likely AMC)**. Slightly NEGATIVE Zacks ESP (miss risk) + GLP-1 demand / FY27 supply / Astral remediation overhangs. Trailing floor 230.0085 (~9% cushion) — but a trailing stop does NOT protect an overnight earnings GAP. Main de-risk candidate.
+- **RSG** +10.3% (240.45) — WATCH / lean HOLD. Earnings **~Thu 10/29 (DATE UNCONFIRMED — verify)**. Analysts target-cutting (MS $232→$219) but ratings held; defensive waste name on a ~7-session run. Lower binary-gap risk than RMD. Trailing floor 218.898.
+- **SPY** −0.75% (760.51) — index floor, no stop by design. Fragile high-rate week; don't lean on "defensives" to buffer index vol (high rates compress all multiples).
+
+### Buy candidates (sleeve FULL — any entry is a SWAP to reason about, not an add)
+- **No actionable candidate. None clears the gate cleanly today.**
+- RTX (B+): raised FY EPS to $7.65–7.75; signals #1/#3/#5 — but 50-day reclaim UNCONFIRMED (the name we're already waiting on). GE (B): best fundamentals (raised FY to $8.00–8.10) but BELOW 50-day (~$330) → fails #6. LMT/TMO (B+): beats but guidance-raise + 50-day unconfirmed; LMT/RTX also concentrate defense atop NOC. MMM: beat-and-raise but below 50-day.
+- **LLY** ~$1,273 — pulled back from $1,321 but NOT into the $1,180–1,210 target; **earnings blackout (Thu 10/29)** → do not buy. GE/RTX reclaim not yet achieved.
+- Data caveat: Perplexity could not confirm 50-day MA for RTX/LMT/TMO — verify before any Conviction ≥70.
+
+### Sell candidates / de-risk plan (hand to market-open 10/26)
+- **No stop-outs, no thesis breaks, no forced sells.** All 5 conviction theses intact; stops resting clean.
+- **EARNINGS-WEEK DE-RISK (the Friday-flagged decision):** window open through **Wed 10/28** (both prints Thu 10/29). **Lean: a modest RMD trim** (e.g. ~half, 20 of 42) at a live session to cut binary gap-down exposure the trailing stop can't catch overnight, locking ~half the +10.6% gain and keeping half to participate on a beat. **RSG: lean HOLD under its trailing stop** (defensive, in-line print less likely to gap violently) — but first **verify RSG's exact earnings date/time** (earnings agent could not confirm; position agent assumed 10/29). Market-open makes the live call; no rush today.
+- **NOC** — let it settle; convert hard→trailing only at +5% (far off).
+- **No new PG/BP/RMD/RSG/NOC** (sleeve full). Don't chase LLY.
+
 ## 2026-10-23 · MARKET-OPEN (Fri, ~08:36 CT) — Opus 4.8 | TRADED: BUY NOC 18 @ 544.37 (slot filled) + trim SPY 3
 
 **Run meta:** Market **CONFIRMED OPEN** via /v2/clock (is_open=true, 09:34 ET; next_close 16:00 ET). Keys valid (all 4 required non-empty). Live pulls: account/positions/orders/clock + NOC/SPY quotes/trades/bars. Inbox: **no Pending** (nothing to handle/move). Astra: **no proposals**. **Executed the pre-market plan** — bought the bench leader NOC into the open slot on a clean live entry, funded by a 3-share SPY-floor trim to hold the cash floor. Sleeve **4/5 → 5/5 (FULL)**; weekly conviction buys **0/3 → 1/3** (week 10/19–10/23). State reconciled fully with the pre-market handoff before acting (exactly 4 trailing stops + SPY 51 unencumbered; floors had auto-ratcheted: BP 45.378→45.7821, RMD 228.258→228.411, RSG 218.1735→218.628).
