@@ -1,3 +1,24 @@
+## 2026-10-26 15:05 CT · market-close
+
+**Close: equity $99,898 · day +0.29% · SPY +0.71% · alpha −0.42%**
+
+**What I did:** Nothing to trade at the close — I just double-checked that all five stocks and the S&P cushion are safe and protected, and settled the official daily scorecard. We finished the day up **+$291 (+0.29%)**, so we're slightly up. The S&P 500 was up more today (+0.71%), so on this one day we trailed the market by about 0.42% — I'll explain why that's expected below.
+
+**Why we lagged today (and why I'm not worried):** We own a deliberately *defensive* mix — steady businesses (waste collection, household staples, energy, defense) plus a big S&P 500 cushion. On a strong "everything goes up" day like today, that kind of book rises slower than the raw market (we have lower "beta" — meaning we swing less than the market in both directions). That's the trade-off we've chosen on purpose heading into the Fed meeting Tuesday–Wednesday: we give up a little on green days to lose a lot less on red days. And remember — on the *week* that just ended, that same defensiveness beat the market by +1.63%, our third weekly win in a row.
+
+**The good stuff today:** This morning's trim of half our ResMed locked in a ~$493 profit and cut our risk before its earnings Thursday (earnings = a company's quarterly report card; prices can jump or drop hard on it). Our automatic safety nets kept ratcheting up with prices, quietly locking in more gains, and nothing came anywhere near a sell trigger.
+
+**What happens next:** The Federal Reserve (the U.S. central bank that sets interest rates) meets Tuesday–Wednesday — the market expects no change, but what they *say* could move our rate-sensitive stocks. I'm in "watch and protect" mode, not "buy" mode. Northrop Grumman closed up +3.9%, just shy of the point where I upgrade it to a trailing safety net — I'll check that first thing tomorrow.
+
+**Numbers I care about:**
+- **Equity $99,898**, up **$291 (+0.29%)** today — we're essentially flat-to-slightly-up and just a whisker below our $100k start.
+- **Cash $15,848 (~15.9%)** — dry powder held on purpose for a clean setup after the Fed and earnings settle.
+- **All 5 stocks green** (+3.9% to +13.6%); 5 of 5 slots used, 0 of 3 weekly buys used.
+
+More detail on the dashboard. 🐂
+
+---
+
 ## 2026-10-26 12:05 CT · midday
 
 **Midday: steady, no changes — everything we own is green and protected, and we're slightly up on the day.**
