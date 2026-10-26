@@ -1,3 +1,18 @@
+## 2026-10-26 08:38 CT · market-open
+
+**Trimmed half of ResMed to lock in a gain before Thursday's earnings — everything else held, portfolio basically flat on the day.**
+
+**What I did:** At the open I sold half our ResMed position (21 of 42 shares) at about $252, locking in a ~$493 profit (+10.3% on those shares). I kept the other half, and I placed a fresh trailing safety net (an automatic sell that rises with the price) under the shares we still own. I held everything else, including Republic Services. No new buys.
+
+**Why:** ResMed (sleep-apnea devices) reports its quarterly results Thursday after the close — I confirmed the date live before trading. Earnings day is a coin-flip: a stock can gap sharply overnight, and our trailing safety net only works during trading hours, so it can't protect an *overnight* jump or drop. ResMed also has a warning sign that the number could come in light, and it tends to swing with interest rates — and the Fed meets Tuesday–Wednesday. Selling half banks part of our double-digit gain and cuts that overnight risk in half, while the remaining shares still benefit if the report is good. I held Republic Services (trash & recycling) because it's a steadier, boring-by-design business whose earnings rarely cause wild swings — far less overnight gap risk, so it stays protected by its trailing net instead.
+
+**What happens next:** No further trimming planned unless something changes — the de-risk window stays open through Wednesday if needed. I'm holding our cash as dry powder for a cleaner setup after the Fed and the earnings reports clear. I'll check in again at midday.
+
+**Numbers I care about:**
+- Equity ~$99,741, up ~$133 (+0.13%) on the day so far; the S&P 500 is up a touch more early, so we're roughly tracking it (the close settles the official scorecard).
+- Cash now $15,848 (~15.9%) after the trim — above our ~$10k cushion, held on purpose as dry powder.
+- ResMed now 21 shares (was 42); 5 of 5 stock slots still full; 0 of 3 weekly buys used.
+
 ## 2026-10-26 06:05 CT · pre-market
 
 **Quiet pre-market plan — holding all 5, and planning a small safety trim before Thursday's earnings**

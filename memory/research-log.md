@@ -1,3 +1,47 @@
+## 2026-10-26 · MARKET-OPEN (Mon, ~08:38 CT) — Opus 4.8 | TRADED: trim RMD 21 of 42 (earnings-week de-risk)
+
+**Run meta:** Market **CONFIRMED OPEN** via /v2/clock (is_open=true, 09:37 ET; next_close 16:00 ET). Keys valid (4 required non-empty; EQUIBLES empty → filing data skipped). Live pulls: account/positions/orders/clock + RMD quote/trade. Inbox: **no Pending** (nothing to handle/move). Astra: **no proposals**. **Executed the pre-market earnings-week de-risk plan** — trimmed RMD by half ahead of its Thu 10/29 AMC print; held RSG. State reconciled fully with the pre-market handoff before acting (exactly 5 open orders: NOC −7% hard 506.26 + BP/PG/RMD/RSG 10% trailing; SPY 48 unencumbered; floors had auto-ratcheted: RMD hwm 255.565, RSG hwm 243.22).
+
+**Open snapshot (post-trade, live):** equity **$99,740.78**, cash **$15,848.30 (~15.9%)**, last_equity (Fri close) $99,607.35 → day **+$133.43 / +0.13%** (intraday). long_mv $83,893.80, buying_power $298,292.13, status ACTIVE. Sleeve **5/5** (RMD held, half-sized); weekly conviction buys **0/3** (week 10/26–10/30 — a sell, no buy budget used).
+
+### +5% hard→trailing conversion check
+- **NOC +2.79%** — still below the +5% conversion line; **no action** (hard stop 506.26 stays). The other four already trail. Nothing to convert.
+
+### Earnings-date verification (done live before trading)
+- Perplexity (sonar-pro, OPERATIONAL) confirmed **both RMD and RSG report Thursday Oct 29, AMC.** RMD consensus ~$2.69, no reliable whisper (pre-market's negative Zacks ESP stands = elevated miss risk). RSG consensus ~$1.92, Earnings ESP −0.11% (mild negative lean, not a clear miss call); ratings held.
+
+### Execution detail — RMD half-trim
+- **Decision (market-open owns the live call):** trim RMD ~half TODAY on a calm tape rather than wait to Wed, because (a) RMD reports Thu AMC and a trailing stop cannot catch an overnight earnings GAP; (b) RMD is rate-sensitive into the Tue–Wed FOMC; (c) waiting buys nothing — if RMD runs, 21 sh still participate; if it drops on FOMC/pre-earnings jitters, half the +10.6% gain is locked. Asymmetry favored acting now.
+- **Spread-aware fill (Trader voice):** opening NBBO garbage — bid 252.07 x ask 258.44 (spread $6.37 / ~2.5%), last trade 252.76. Used a marketable **LIMIT at $251.50** (floored just under the solid 252.07×100 bid) instead of a market order → filled **21 @ $252.101429** (price improvement to the prevailing bid). Realized **+$492.96 / +10.27%**.
+- **Stop resize:** cancelled the 42-sh trailing stop 761a6a31 FIRST (HTTP 204, it reserved all 42 sh), sold 21, then placed a fresh **10% trailing GTC on the remaining 21 sh** → id 6095b269, floor 227.7945, hwm 253.105, resting. RMD stays on a trailing (not hard) stop — it is +10.7%, past +5%.
+- **RSG held:** defensive waste name, far lower earnings-gap volatility than a med-device name, ESP only mildly negative, ratings held, on its 10% trailing (floor 218.898, ~9% cushion). No trim.
+
+### Post-trade state (VERIFIED live — exactly 5 open orders)
+- NOC −7% hard 506.26 (59a67c62, qty 18) · BP trail floor 46.3365 (209e58f4, qty 214) · PG trail floor 150.165 (272e2864, qty 65) · RSG trail floor 218.898 (135c200e, qty 44) · **RMD trail floor 227.7945 (6095b269, qty 21 — NEW).** SPY 48 unencumbered (index floor, no stop by design).
+- Positions: BP 214 (+13.84%), NOC 18 (+2.79%), PG 65 (+8.52%), RMD **21** (+10.71%), RSG 44 (+10.69%), SPY 48 (−0.48%). Cash $15,848.30.
+
+### Buy candidates (sleeve FULL — no action)
+- **No buy.** Sleeve 5/5; it is FOMC + earnings week — de-risking, not adding. Bench (RTX/GE/LMT/TMO) still need a 50-day reclaim / guidance confirm; LLY a chase AND in its 10/29 blackout. The ~$15.8k cash is intentional dry powder for a cleaner post-FOMC / post-earnings setup, not a buy trigger today.
+
+### Benchmark (intraday — close owns the official scorecard)
+- Day: book **+0.13%** vs SPY ~**+0.36%** (762.58 vs Fri 10/23 close 759.83) → intraday alpha ~**−0.23** (early, thin — not the official number). WTD base is Fri 10/23 close; the close/weekly-review settle it.
+
+### Voices
+- **Research:** verified both earnings dates (Thu 10/29 AMC) before any action; RMD carries the higher binary/idiosyncratic gap risk (neg ESP + GLP-1/supply/Astral overhangs), RSG the lower (utility-like waste). No Astra proposals to score. No buy candidate clears the gate cleanly into FOMC week.
+- **Risk:** the de-risk rationale is gap-risk a trailing stop can't catch, compounded by RMD's rate-sensitivity into the FOMC — trimmed half, kept half, resized the stop. Day +0.13% nowhere near the −3% cap. Cash ~15.9% (above the ~$10k floor) = authorized dry powder; not forcing a buy to spend it.
+- **Trader:** declined a market order into a wide/garbage NBBO; marketable limit $251.50 filled 21 @ $252.10 (price improvement). Cancelled the oversized stop first, re-placed a 21-sh trailing GTC. One validated de-risk trade, no churn, no buy.
+
+### Handoff → midday (Mon 10/26 ~12:00 CT)
+- **Re-verify live:** account/positions/orders/clock; confirm **exactly 5 open orders** — NOC hard **506.26** (59a67c62), BP trail (209e58f4), PG trail 150.165 (272e2864), RSG trail 218.898 (135c200e), **RMD trail 227.7945 (6095b269, qty 21)**; SPY 48 unencumbered.
+- **NOC** — new-ish; convert hard→trailing only if it crosses **+5%** (now +2.8%, ~$571.60 line); hard stop protects it meanwhile.
+- **Earnings-week de-risk status:** RMD **half-trimmed (done)**; RSG **held** under its trailing stop. De-risk window still open through **Wed 10/28** if anything changes (both prints Thu 10/29 AMC). No further planned trim unless a thesis break or a sharp adverse FOMC move on RSG.
+- **Hold all — sleeve FULL.** No new PG/BP/RMD/RSG/NOC. No buy candidate clears the gate; don't chase LLY (chase + 10/29 blackout). ~$15.8k dry powder reserved for a clean post-FOMC/post-earnings setup.
+- **Events:** **FOMC Tue–Wed Oct 27–28** (hold ~90% priced; hawkish-after, ~76% Dec-hike odds) — watch 10Y (~4.97–4.99%, near 5%) for any repricing that moves RMD/RSG/SPY. MSFT 10/28 AMC; RMD/RSG/LLY 10/29 AMC; BP 10/30 BMO.
+- **Market-close owns today's mandatory plain-English scorecard + Telegram** (never skipped).
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL.
+
+---
+
 ## 2026-10-26 · PRE-MARKET (Mon, ~06:05 CT) — Opus 4.8 | NO TRADES (market closed) — earnings-week de-risk plan set
 
 **Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false, 07:05 ET; next_open 2026-10-26 09:30 ET). Keys valid (4 required non-empty; EQUIBLES empty → filing data skipped). Live pulls: account/positions/orders/clock. Inbox: **no Pending**. Astra: **no proposals**. Research fan-out: 4 sub-agents in parallel (macro, earnings, position, opportunity scout), each on Perplexity. **No trades — pre-market, market closed.** State verified: exactly **5 open orders** (NOC −7% hard 506.26; BP/PG/RMD/RSG 10% trailing), SPY 48 unencumbered. All 5 conviction green; SPY floor −0.75%.
