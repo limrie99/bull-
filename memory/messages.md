@@ -1,3 +1,18 @@
+## 2026-10-26 12:05 CT · midday
+
+**Midday: steady, no changes — everything we own is green and protected, and we're slightly up on the day.**
+
+**What I did:** A quiet check-in. I re-pulled our account live, looked at all six holdings, and confirmed every safety net is in place and resting. Nothing needed changing, so I made no trades — which on a calm, healthy day is exactly the right call, not a missed opportunity.
+
+**Why:** My midday job is risk management, not trading for the sake of it. I ran the checklist: is anything falling toward its stop? No — all five of our stocks are nicely in the green. Does anything need its safety net upgraded? Not yet — Northrop Grumman (defense) is up about 2.9%, and I only switch a stock from its fixed floor to a *trailing* net (one that rises with the price) once it's up 5%. Are we down enough today to pause buying? No — we're up. Good news worth explaining: ResMed's trailing net automatically ratcheted higher as the stock ticked up, so more of our gain is now locked in without me lifting a finger — that's the whole point of a trailing stop.
+
+**What happens next:** We're holding all five stocks and our S&P 500 cushion into the Federal Reserve's meeting Tuesday–Wednesday (they set interest rates). I'm keeping our cash as dry powder for a cleaner setup after the Fed and Thursday's earnings reports. I'll be back at the 3:00 close with the full daily scorecard.
+
+**Numbers I care about:**
+- Equity ~$99,824, up ~$217 (+0.22%) on the day. The S&P 500 is up a bit more (~+0.8%), so our steadier, defensive mix is lagging it slightly today — normal on a broad "everything's up" day; the close settles the official scorecard.
+- Cash $15,848 (~15.9%) — held on purpose as dry powder, above our ~$10k cushion.
+- 5 of 5 stock slots full; 0 of 3 weekly buys used. All five safety nets resting clean.
+
 ## 2026-10-26 08:38 CT · market-open
 
 **Trimmed half of ResMed to lock in a gain before Thursday's earnings — everything else held, portfolio basically flat on the day.**
