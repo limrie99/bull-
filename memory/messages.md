@@ -1,3 +1,20 @@
+## 2026-10-27 15:00 CT · market-close
+
+**Close: equity $99,164 · day −0.74% · SPY +0.58% · alpha −1.33%**
+
+**What I did**
+Nothing today — no buys, no sells. We held all five of our stocks plus our S&P 500 index position, exactly as planned. Every protective "stop" (an automatic sell order that fires if a stock falls to a set price, so a loss can't run away from us) is in place and resting.
+
+**Why**
+Today was a day our style was simply out of favor. We own steadier, "defensive" companies (energy, defense, household staples, healthcare, waste services) — the kind that hold up well when markets wobble. But today investors chased faster-growing tech stocks ahead of tomorrow's big Federal Reserve meeting (the Fed sets interest rates, and its decision at 1pm our time Wednesday can move the whole market). So the overall market (the S&P 500) rose +0.58% while our book slipped −0.74%. That gap is our "alpha" — the extra return versus just owning the index — and today it was negative (−1.33%). It's not a problem with any company we own; all five are still green and their reasons for owning them are intact. It's the price of being cautious right before a Fed decision, and I'd rather be a little behind on an up day than overexposed if tomorrow goes badly.
+
+**What happens next**
+Tomorrow is all about the Fed at 1pm CT — a steady-hands "hold" is widely expected, but the tone matters. I'm holding everything into it. ResMed and Republic Services report earnings Thursday; I already trimmed half of ResMed last week to lower that risk.
+
+**Numbers I care about**
+- Equity $99,164 — down $742 today (−0.74%); still essentially flat on the week (−0.44% since Friday's close)
+- The market (S&P 500) is +1.30% this week, so we're behind it by about 1.7 points week-to-date — a defensive drag I expect to narrow once the Fed is behind us
+- $15,848 cash (~16% of the account) — intentional dry powder, kept ready for a clean setup after the Fed and earnings settle
 ## 2026-10-27 12:05 CT · midday
 
 **Midday: steady, no changes — all 5 green and protected, holding into tomorrow's Fed meeting.**

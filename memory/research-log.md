@@ -1,3 +1,43 @@
+# 2026-10-27 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Tue) — Opus 4.8 · NO TRADES · Close equity $99,164.39 · day −$741.99 / −0.74% vs SPY +0.58% → day alpha −1.33pt · WTD alpha −1.74pt · mandatory daily scorecard written + pushed · all 5 conviction stops rest clean into FOMC (Wed 2pm ET)
+
+**Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false, 16:03 ET; next_open 2026-10-28 09:30 ET). 4 required keys non-empty; EQUIBLES empty → filing data skipped. Live pulls this run: account / positions / orders / portfolio-history / SPY bars+trade. Inbox: **no Pending**. Astra: **no proposals**. **No trades** (0 closed orders today) — manage-only all day into FOMC-eve, nothing triggered. Exactly **5 open orders** verified (NOC −7% hard 506.26; BP/PG/RMD/RSG 10% trailing), SPY 48 unencumbered.
+
+**Closing marks (live, official):**
+| Symbol | Sh | Avg | Close | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| BP | 214 | 44.499813 | 48.93 | +9.96% | 10,471.02 | 10% trail floor 46.3365 (hwm 51.485) |
+| NOC | 18 | 544.37 | 551.23 | +1.26% | 9,922.14 | −7% HARD 506.26 |
+| PG | 65 | 148.06 | 159.05 | +7.42% | 10,338.25 | 10% trail floor 150.165 (hwm 166.85) |
+| RMD | 21 | 228.624762 | 250.80 | +9.70% | 5,266.80 | 10% trail floor 229.491 (hwm 254.99) |
+| RSG | 44 | 218.00 | 235.66 | +8.10% | 10,369.04 | 10% trail floor 218.898 (hwm 243.22) |
+| SPY | 48 | 766.253333 | 769.80 | +0.46% | 36,950.58 | NONE (index-floor sleeve) |
+
+Equity **$99,164.39** = cash $15,848.18 (15.98%) + long_mv $83,316.21. last_equity (Mon 10/26 close) $99,906.38.
+
+## Day summary
+- **Closing equity:** $99,164.39
+- **Day P/L:** −$741.99 / **−0.74%** (vs Mon 10/26 close $99,906.38)
+- **SPY day:** +0.58% (765.225 → 769.70, IEX feed)
+- **Day alpha:** **−1.33 pt** — defensive/value book lagged an up tape on FOMC-eve (growth/tech bid ahead of Wed 2pm ET decision + the big-tech earnings deluge). Nothing actionable; close owns the number.
+- **WTD (10/26–10/30, day 2 of 5):** book −$442.96 / −0.44% vs Fri 10/23 settled close $99,607.35; SPY WTD +1.30% (759.83 → 769.70) → **WTD alpha −1.74 pt**. (Mon +0.30% / SPY +0.71%; Tue −0.74% / SPY +0.58%.)
+- **Trades placed:** none (0). Manage-only; no stop fired, no +5% conversion due, sleeve full 5/5, weekly buys 0/3.
+- **Risk checks:** (a) no un-stopped position at/under −7% — all 5 conviction green; (b) NOC (only hard stop) +1.26% ($551.23), still ~3.7% under its +5% conversion line ($571.59) — ticked DOWN from midday $556.45, no swap; (c) daily loss cap −0.74%, far from −3%; (d) no sell signals, all theses intact.
+
+**What worked (1–3):**
+- All 5 conviction names stayed green and protected through a day our style was out of favor — the trailing floors keep ratcheting profit in without any manual touch.
+- Holding the full ~16% cash buffer ($15.8k dry powder) rather than chasing the growth tape ahead of the Fed — discipline, not FOMO.
+
+**What didn't (1–3):**
+- Pure beta drag: a value/defensive book simply can't keep pace with a growth-led up day. −1.33 day alpha and −1.74 WTD alpha are the cost of defensiveness into the Fed, not a thesis problem.
+- NOC the laggard — drifted down intraday (+3.56% at open → +1.26% at close); defense rotation paused as risk appetite rose pre-FOMC.
+
+**Open questions for tomorrow:**
+- **FOMC Wed 10/28, 2pm ET decision** (~90–94% hold priced). Hawkish-tone risk hits rate-sensitives (RMD/RSG/SPY); a dovish surprise would relieve them. 10Y ~5.0% is the tell.
+- **MSFT 10/28 AMC** kicks the big-tech earnings wave; read-through to broad risk appetite, not to our names directly.
+- **RMD/RSG both 10/29 AMC** — RMD already half-trimmed (de-risked); RSG held under its trailing. WM's Tue-AMC print is the RSG read-through — check pricing vs cost inflation. De-risk window open through Wed 10/28; no further planned trim absent a thesis break or sharp adverse FOMC/WM read.
+- **BP 10/30 BMO** (possible ~$3–4.5B write-down) — BP on a trailing floor (46.3365), so protected either way.
+
+---
 ## 2026-10-27 · MARKET-OPEN (Tue, ~08:53 CT) — Opus 4.8 | NO TRADES — executed the manage-only plan; all 5 protected into FOMC-eve
 
 **Run meta:** Market **CONFIRMED OPEN** via /v2/clock (is_open=true, 09:53 ET; next_close 16:00 ET). Keys valid (4 required non-empty; EQUIBLES empty → filing data skipped). Live pulls this run: account/positions/orders/clock. Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). **No trades** — the pre-market plan was explicitly *manage-only / no new buys into FOMC-eve*, and nothing required action at the open. State reconciled fully with the pre-market handoff: exactly **5 open orders** (NOC −7% hard 506.26; BP/PG/RMD/RSG 10% trailing), SPY 48 unencumbered.
