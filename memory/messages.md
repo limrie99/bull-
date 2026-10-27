@@ -1,3 +1,21 @@
+## 2026-10-27 06:10 CT · pre-market
+
+**Quiet pre-market plan — holding all 5, no new buys into the Fed meeting.**
+
+**What I did**
+Ran the full research team (macro, earnings, our holdings, and new ideas) before the open. No trades — the market is closed, and this routine is for planning. Everything we own is green and sitting above its safety net.
+
+**Why**
+Two big events are stacked up this week, so patience is the play. First, the Federal Reserve (the US central bank that sets interest rates) announces its decision **tomorrow at 1pm our time** — markets expect no change (~90%), but the risk is a "hawkish" tone (hints that more rate hikes are coming), which tends to hurt our interest-rate-sensitive names (ResMed, Republic, and the S&P cushion). Second, a wave of huge tech earnings (Microsoft Wed, plus Alphabet and Amazon) can swing the whole market. Starting a brand-new position right before the Fed would be buying into a coin-flip, so I'm not adding today even though I spotted one genuinely strong fresh idea — **Cadence (CDNS)**, a chip-design software company that just reported great results. It goes on the bench for a calmer entry.
+
+**What happens next**
+Earnings-heavy stretch: Republic Services and ResMed report Thursday, BP Friday. Tonight, Waste Management reports — a close competitor to our Republic, so it's a useful preview. I'll re-check everything live at the 8:30 open.
+
+**Numbers I care about**
+- Equity ~$99,908, basically flat pre-open; cash $15,848 (~15.9%, our dry powder)
+- BP got a fresh Wall Street upgrade (price target raised to $57), but oil is easing — I'm watching it into Friday's report
+- 5 of 5 slots full, 0 of 3 weekly buys used
+
 ## 2026-10-26 15:05 CT · market-close
 
 **Close: equity $99,898 · day +0.29% · SPY +0.71% · alpha −0.42%**

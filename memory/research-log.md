@@ -1,3 +1,51 @@
+## 2026-10-27 · PRE-MARKET (Tue, ~06:10 CT) — Opus 4.8 | NO TRADES (market closed) — manage/de-risk posture into FOMC (Wed) + earnings week
+
+**Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false, 07:06 ET; next_open 2026-10-27 09:30 ET, next_close 16:00 ET). Keys valid (4 required non-empty; EQUIBLES empty → filing data skipped). Live pulls this run: account/positions/orders/clock. Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). **No trades — market closed (pre-market research routine).** State reconciled fully with the Mon 10/26 close handoff: exactly **5 open orders** (NOC −7% hard 506.26; BP/PG/RMD/RSG 10% trailing), SPY 48 unencumbered. Ran the full 4-sub-agent research team in parallel (macro / earnings / position / opportunity scout).
+
+**Pre-market live snapshot:** equity **$99,908.03**, cash **$15,848.18 (~15.86%)**, last_equity (settled Mon 10/26 close) $99,906.38 → essentially flat pre-open (+$1.65). long_mv $84,059.85; buying_power $298,760.30; status ACTIVE. Sleeve **5/5 FULL** (RMD half-sized); weekly conviction buys **0/3** (week 10/26–10/30, day 2 of 5). WTD book ~+0.30% (vs Fri 10/23 settled close $99,607.35) / SPY WTD +0.71% (through Mon) → WTD alpha ~−0.41 (carryover — the close owns the official number).
+
+### Market context (macro synthesis)
+- **Tone:** mildly RISK-OFF / wait-and-see into two back-to-back catalysts — **FOMC decision Wed Oct 28 2pm ET** and the **Big Tech earnings deluge** (Alphabet/MSFT/Amazon this week, ~1/3 of the S&P reports).
+- **Rates:** 10Y ~**4.99%** (flat, still pinned at the 5% line), 2Y ~**4.71%** (+3bp, front end creeping with hawkish Fed pricing). DXY ~102 (+0.3%, dollar firm).
+- **FOMC:** Oct 28 ~**90–94% priced as a HOLD** (~6–10% hike, ~0% cut); Dec ~68–80% odds of a 25bp **HIKE** — a hiking/holding cycle, not easing. Key risk Wed = a **hawkish surprise** (language implying hikes beyond December, or cuts off the table) → lifts front-end yields + dollar, pressures rate-sensitive/high-multiple names (our RMD/RSG/SPY).
+- **Commodities:** Brent ~$114.8 / WTI ~$101 (both −~0.8%, easing on US-Iran de-escalation talks, still elevated). Gold ~$4,008–4,038 (+0.8%). **Oil cross-current for BP** — high absolute price supportive, but the Hormuz risk premium is softening.
+- **Headlines since Mon close:** Anthropic filed for IPO (revived AI-stock enthusiasm); oil slipped on US-Iran engagement; China Sept industrial profits +14.4% y/y; US macro still inflationary (Sept core CPI ~3.1%, Q3 GDP ~3.2% annualized → reinforces hawkish tone).
+
+### Portfolio watch (position intelligence, last 24h)
+- **BP** (+12.45%, $50.04) — **WATCH.** Fresh POSITIVE analyst action: **Wells Fargo upgrade to Overweight, PT $57 (from $48)**; TD Cowen PT $49. BUT Brent fell a 2nd straight session on Mideast de-escalation — directly erodes the "Hormuz premium / Brent elevated" leg of our thesis. Earnings **Fri 10/30 BMO** confirmed; flagged potential **~$3.0–4.5B impairment/write-down** (offset possible by stronger refining). Biggest earnings-gap risk in the book. Still well above its trailing floor (46.3365).
+- **NOC** (+3.86%, $565.40) — **INTACT.** No new material 24h event (Q3 beat+raise was 10/20; a 10/27 SEC filing is admin only). Non-rate-sensitive. Still **below the +5% conversion line** (~$571.59) → hard stop 506.26 stays; convert to trailing only if it clears +5% intraday.
+- **PG** (+7.88%, $159.73) — **INTACT.** Quiet; no dated news after the Q1 FY27 beat. Floor 150.165 (above entry — profit locked).
+- **RMD** (+10.75%, $253.20) — **INTACT** (event risk Thu). Earnings **Thu 10/29 AMC** confirmed (consensus ~$2.69 EPS / ~$1.39B rev; Street Hold-leaning, avg PT ~$243). GLP-1 narrative-driven, not yet an established earnings headwind. **Already half-trimmed** for de-risk; trailing floor 229.491.
+- **RSG** (+10.69%, $241.31) — **INTACT** (event risk Thu). Earnings **Thu 10/29 AMC** confirmed. **WM reports tonight (Tue 10/27 AMC) = a live read-through** for RSG's Thursday print — watch pricing vs cost inflation. Trailing floor 218.898 (~9% cushion).
+- **SPY** (+0.21%, $767.85) — index-floor sleeve, no stop by design. ~36.9% of book.
+
+### Buy candidates (sleeve FULL 5/5 — any buy is a SWAP candidate, not an add; and it's FOMC-eve)
+- **CDNS — Cadence (EDA/chip-design software)** — top candidate by signal quality. Reported **Oct 26 AMC beat-and-raise** (Q3 EPS $2.11 vs $2.05; rev $1.633B vs $1.61B; RAISED FY26 to $6.387–6.417B / EPS $8.37–8.43), +>3% premarket. **Signals: #1 (beat+raise, confirmed), #3 (AI/semi-design secular tailwind), #6 (reacting up — 50-day not verified).** Earnings risk now BEHIND it. Conviction lean **A−/B+**.
+- **LMT — Lockheed Martin (defense)** — reported Q3 Oct 22, stock +~15.9% on the week with continued upgrades. **Signals: #4 (upgrades), #5/#6 (sector rotation / momentum).** Earnings behind it. Lean **B+** — but verify entry isn't chasing an extended move; would overlap NOC's defense exposure.
+- **RTX — Raytheon (defense)** — reported Q3 Oct 20 (earnings cleared); fresh **$24.4B Navy SM-6 contract** catalyst. **Signals: #2 (contract win), #3/#5 (defense tailwind/rotation).** Lean **B+** — confirm 50-day reclaim; also defense-overlap with NOC.
+- **AMD / ANET (AI infra)** — tailwind names (#3), but both report **early-mid Nov** — initiating now = a pre-earnings bet. B+ lean, flagged.
+- **SNPS (EDA)** / **PANW (cyber)** — only ~1–1.5 clean signals each; below the ≥2 gate. Watchlist.
+- **Blackout — do NOT initiate:** VRT, GEV report Wed 10/28; LLY reports Thu 10/29 (BMO — date correction from prior "AMC"). GE: still below 50-day + Melius/Jefferies downgrades → avoid. TMO: no fresh 2nd signal → still wait.
+
+### Sell candidates
+- **None forced.** All 5 theses intact/WATCH; nothing near a stop. BP on WATCH (softening oil premium into Fri earnings) but strong analyst support and well above its floor — no action pre-market. RMD already de-risked. No thesis break, no fundamentals deterioration.
+
+### Voices
+- **Research:** CDNS is the one genuinely fresh, fully-qualified idea (confirmed beat-and-raise + AI tailwind, earnings behind it). LMT/RTX are real but defense-overlap with NOC. No Astra proposals to score. Nothing clears a *clean swap* case worth acting on into an FOMC + earnings week.
+- **Risk:** sleeve full; it is FOMC-eve + a 3-print week (RMD/RSG Thu, BP Fri). Any new entry today is into a macro event with a hawkish-tone risk that hits exactly our rate-sensitive sleeve. Patience > deployment. Cash ~15.9% is authorized dry powder, not a spend trigger. NOC below +5% → no conversion yet.
+- **Trader:** market closed — no order possible or warranted. "Verified and did nothing" is correct for pre-market.
+
+### Handoff → market-open (Tue 10/27 ~08:30 CT)
+- **Re-verify live:** account/positions/orders/clock; confirm **exactly 5 open orders** (NOC hard 506.26 `59a67c62`; BP trail `209e58f4`; PG trail 150.165 `272e2864`; RMD trail 229.491 qty 21 `6095b269`; RSG trail 218.898 `135c200e`); SPY 48 unencumbered.
+- **NOC +5% conversion watch:** +3.86% ($565.40), within ~1% of ~$571.59. Convert hard→trailing if it clears +5% intraday.
+- **FOMC Wed 10/28 2pm ET** — hold ~90–94% priced; watch 10Y (~4.99%) for hawkish repricing that moves RMD/RSG/SPY. De-risk/manage, not add. **No new buys into FOMC-eve.**
+- **Earnings-week de-risk:** RMD half-trimmed (done); RSG held under its trailing — **WM prints tonight as the RSG read-through**. Window open through Wed 10/28 (both Thu 10/29 AMC). No further planned trim unless a thesis break or a sharp adverse FOMC/WM read on RSG.
+- **BP WATCH:** falling Brent vs. fresh WF upgrade into Fri 10/30 BMO (+ possible $4.5B write-down). Hold; no action unless Brent breaks down hard or thesis breaks. Well above floor.
+- **Bench for a clean post-FOMC/post-earnings setup:** CDNS (best), LMT, RTX. ~$15.8k dry powder reserved. Don't chase; don't initiate into the Fed.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (4 sub-agents, ~7 calls this run).
+
+---
+
 ## 2026-10-26 · MARKET-CLOSE (Mon, ~15:05 CT) — Opus 4.8 | NO TRADES at close — all 5 protected; official daily scorecard settled
 
 **Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false, 16:03 ET; next_open 2026-10-27 09:30 ET). Keys valid (4 required non-empty; EQUIBLES empty → filing data skipped). Live pulls this run: account/positions/orders/clock + SPY latest trade + SPY daily bars. Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). **No trades at midday or close** — manage-only slot. State verified: exactly **5 open orders** (NOC −7% hard 506.26; BP/PG/RMD/RSG 10% trailing), SPY 48 unencumbered — matches the midday handoff.

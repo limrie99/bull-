@@ -1,28 +1,28 @@
 {
-  "last_update": "2026-10-26 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-27 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99898.34,
-  "cash": 15848.3,
-  "day_pl": 290.99,
-  "day_pl_pct": 0.29,
-  "week_pl_pct": 0.29,
+  "equity": 99908.03,
+  "cash": 15848.18,
+  "day_pl": 1.65,
+  "day_pl_pct": 0.0,
+  "week_pl_pct": 0.3,
   "spy_week_pct": 0.71,
-  "alpha_week_pct": -0.42,
+  "alpha_week_pct": -0.41,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 50.53,
-      "pl_pct": 13.55,
+      "current": 50.04,
+      "pl_pct": 12.45,
       "stop": 46.3365
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 565.41,
+      "current": 565.4,
       "pl_pct": 3.86,
       "stop": 506.26
     },
@@ -30,14 +30,14 @@
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 159.92,
-      "pl_pct": 8.01,
+      "current": 159.73,
+      "pl_pct": 7.88,
       "stop": 150.165
     },
     {
       "symbol": "RMD",
       "qty": 21,
-      "avg_cost": 228.627381,
+      "avg_cost": 228.624762,
       "current": 253.2,
       "pl_pct": 10.75,
       "stop": 229.491
@@ -54,8 +54,8 @@
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.253333,
-      "current": 765.2,
-      "pl_pct": -0.14,
+      "current": 767.85,
+      "pl_pct": 0.21,
       "stop": null
     }
   ],
@@ -133,52 +133,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-27 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan · holding all 5 · no new buys into Wed's Fed meeting",
+      "body": "Ran the full research team; no trades (market closed). All five holdings green and above their safety nets. Patience week: the Fed decides rates Wed 1pm CT (no change expected, but a hawkish tone would hit our rate-sensitive names), and Big Tech earnings (MSFT Wed) can swing the tape — so no new positions into the Fed. I found one strong fresh idea, Cadence (CDNS, chip-design software, just beat and raised), but it goes on the bench for a calmer entry. Earnings-heavy stretch: Republic + ResMed Thu, BP Fri; Waste Management reports tonight as a preview for Republic. BP got a fresh upgrade (PT $57) but oil is easing — watching it into Friday. Equity ~$99,908 (flat pre-open), cash $15,848 (~15.9%). 5/5 slots, 0/3 weekly buys."
+    },
+    {
       "ts": "2026-10-26 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $99,898 \u00b7 day +0.29% \u00b7 SPY +0.71% \u00b7 alpha \u22120.42%",
-      "body": "Quiet, protected close on a green day. We finished up +$291 (+0.29%); the S&P rose more (+0.71%), so our defensive book trailed by ~0.42% today \u2014 expected when the whole market rips, and the same defensiveness beat the market by +1.63% last week. This morning's ResMed half-trim banked ~$493 and cut earnings risk; all five stocks are green (+3.9% to +13.6%) and nothing came near a stop. Watch-and-protect mode into the Fed meeting Tue\u2013Wed; Northrop (+3.9%) is just below its trailing-net upgrade line \u2014 I'll check it at the open. Cash $15,848 (~15.9%) held as dry powder. 5/5 slots, 0/3 weekly buys."
+      "headline": "Close: equity $99,898 · day +0.29% · SPY +0.71% · alpha −0.42%",
+      "body": "Quiet, protected close on a green day. We finished up +$291 (+0.29%); the S&P rose more (+0.71%), so our defensive book trailed by ~0.42% today — expected when the whole market rips, and the same defensiveness beat the market by +1.63% last week. This morning's ResMed half-trim banked ~$493 and cut earnings risk; all five stocks are green (+3.9% to +13.6%) and nothing came near a stop. Watch-and-protect mode into the Fed meeting Tue–Wed; Northrop (+3.9%) is just below its trailing-net upgrade line — I'll check it at the open. Cash $15,848 (~15.9%) held as dry powder. 5/5 slots, 0/3 weekly buys."
     },
     {
       "ts": "2026-10-26 12:05 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes \u00b7 all 5 green and protected \u00b7 slightly up on the day",
-      "body": "A quiet risk check \u2014 no trades, which on a calm, healthy day is the right call. All five stocks are green and above their safety nets; nothing fell toward a stop and nothing needed changing. Northrop (defense, +2.9%) stays on its fixed floor \u2014 I only upgrade to a trailing net once a stock is up 5%. Good automatic news: ResMed's trailing net ratcheted higher as the stock ticked up, locking in more gain hands-free. We're up +0.22% ($217); the S&P 500 is up ~0.8%, so our defensive mix lags a touch on a broad-up day (the close settles the official scorecard). Holding all 5 plus the S&P cushion into the Fed meeting Tue\u2013Wed; cash $15,848 (~15.9%) kept as dry powder. 5/5 slots, 0/3 weekly buys. Back at the 3:00 close with the full scorecard."
+      "headline": "Midday: steady, no changes · all 5 green and protected · slightly up on the day",
+      "body": "A quiet risk check — no trades, which on a calm, healthy day is the right call. All five stocks are green and above their safety nets; nothing fell toward a stop and nothing needed changing. Northrop (defense, +2.9%) stays on its fixed floor — I only upgrade to a trailing net once a stock is up 5%. Good automatic news: ResMed's trailing net ratcheted higher as the stock ticked up, locking in more gain hands-free. We're up +0.22% ($217); the S&P 500 is up ~0.8%, so our defensive mix lags a touch on a broad-up day (the close settles the official scorecard). Holding all 5 plus the S&P cushion into the Fed meeting Tue–Wed; cash $15,848 (~15.9%) kept as dry powder. 5/5 slots, 0/3 weekly buys. Back at the 3:00 close with the full scorecard."
     },
     {
       "ts": "2026-10-26 08:38 CT",
       "routine": "market-open",
-      "headline": "Trimmed half of ResMed before Thursday's earnings \u00b7 held everything else \u00b7 flat on the day",
-      "body": "At the open I sold half our ResMed (21 of 42 sh) at ~$252, locking a ~$493 profit (+10.3% on those shares), and put a fresh trailing safety net under the shares we kept. Why: ResMed reports Thursday after the close (date confirmed live); earnings day is a coin-flip and our trailing net can't catch an OVERNIGHT gap, only intraday moves. ResMed has a miss warning sign and swings with interest rates \u2014 and the Fed meets Tue\u2013Wed \u2014 so banking half the gain cuts the overnight risk in half while the rest still benefits on a good report. I HELD Republic Services (waste) \u2014 a steadier business whose earnings rarely gap hard, so it stays protected by its trailing net instead. No new buys (slots full; it's Fed + earnings week \u2014 de-risking, not adding). Equity ~$99,741, +$133 (+0.13%) on the day; cash now $15,848 (~15.9%) held as dry powder after the trim. 5/5 slots, 0/3 weekly buys."
+      "headline": "Trimmed half of ResMed before Thursday's earnings · held everything else · flat on the day",
+      "body": "At the open I sold half our ResMed (21 of 42 sh) at ~$252, locking a ~$493 profit (+10.3% on those shares), and put a fresh trailing safety net under the shares we kept. Why: ResMed reports Thursday after the close (date confirmed live); earnings day is a coin-flip and our trailing net can't catch an OVERNIGHT gap, only intraday moves. ResMed has a miss warning sign and swings with interest rates — and the Fed meets Tue–Wed — so banking half the gain cuts the overnight risk in half while the rest still benefits on a good report. I HELD Republic Services (waste) — a steadier business whose earnings rarely gap hard, so it stays protected by its trailing net instead. No new buys (slots full; it's Fed + earnings week — de-risking, not adding). Equity ~$99,741, +$133 (+0.13%) on the day; cash now $15,848 (~15.9%) held as dry powder after the trim. 5/5 slots, 0/3 weekly buys."
     },
     {
       "ts": "2026-10-26 06:05 CT",
       "routine": "pre-market",
-      "headline": "Quiet pre-market plan \u00b7 holding all 5 \u00b7 planning a small ResMed trim before Thursday's earnings",
-      "body": "Ran the full research team; no trades (market closed). Everything we own is green and above its safety net. The week's event: ResMed (sleep-apnea) and Republic Services (waste) report Thursday \u2014 earnings day is a coin-flip, and our trailing safety net can't catch an overnight gap, only intraday moves. Plan: trim a little ResMed (maybe half) before Thursday to lock part of our ~11% gain \u2014 it has miss/competition warning signs \u2014 while likely HOLDING Republic (steadier, less swing-prone), pending a double-check of its exact report date. No rush: I have through Wednesday and will decide live at the 8:30 open. Fed meets Tue\u2013Wed (almost certainly no change), so no new buys ahead of it. Equity ~$99,468 pre-market, cash $10,554 (~10.6%), 5/5 slots, 0/3 weekly buys. Oil ~$114 (helps BP); 10-year rate near 5% (a headwind we watch)."
+      "headline": "Quiet pre-market plan · holding all 5 · planning a small ResMed trim before Thursday's earnings",
+      "body": "Ran the full research team; no trades (market closed). Everything we own is green and above its safety net. The week's event: ResMed (sleep-apnea) and Republic Services (waste) report Thursday — earnings day is a coin-flip, and our trailing safety net can't catch an overnight gap, only intraday moves. Plan: trim a little ResMed (maybe half) before Thursday to lock part of our ~11% gain — it has miss/competition warning signs — while likely HOLDING Republic (steadier, less swing-prone), pending a double-check of its exact report date. No rush: I have through Wednesday and will decide live at the 8:30 open. Fed meets Tue–Wed (almost certainly no change), so no new buys ahead of it. Equity ~$99,468 pre-market, cash $10,554 (~10.6%), 5/5 slots, 0/3 weekly buys. Oil ~$114 (helps BP); 10-year rate near 5% (a headwind we watch)."
     },
     {
       "ts": "2026-10-23 16:05 CT",
       "routine": "weekly-review",
-      "headline": "Week ending 10/23: +1.2% | SPY \u22120.5% | alpha +1.6% | grade B+ \u2014 third straight beat, nearly back to even on the run",
-      "body": "Friday retro: the account ended the week at $99,481 (+1.17%) while the S&P 500 slipped \u22120.46% \u2014 we beat the market by ~1.6 points (\"alpha\"), our THIRD winning week in a row (+0.6, +3.3, +1.6). The big story: three weeks ago we were 6.3 points behind the market on the whole run; after this repair we're down only ~0.8 \u2014 basically even, the fastest comeback of the year. Why it's working: the bets are spread across energy (BP), staples (PG), two rate-sensitive names (RMD/RSG) and now defense (Northrop), so no single thing sinks us \u2014 all four older names green with rising safety nets. Honest caveat: two of the three wins came on DOWN weeks, where our calmer mix is built to shine; leading a rising market is the harder test we've passed only once. Changed NO rules \u2014 three good weeks is no more a reason to get cocky than losing was to panic. Next week: Fed meets Tue\u2013Wed (likely no change), Republic Services + ResMed report 10/29, BP 10/30; I'll decide Monday whether to trim before earnings or let the trailing stops manage it. 5/5 slots full, cash ~10.6% at target, zero stop-outs and zero errors this week."
+      "headline": "Week ending 10/23: +1.2% | SPY −0.5% | alpha +1.6% | grade B+ — third straight beat, nearly back to even on the run",
+      "body": "Friday retro: the account ended the week at $99,481 (+1.17%) while the S&P 500 slipped −0.46% — we beat the market by ~1.6 points (\"alpha\"), our THIRD winning week in a row (+0.6, +3.3, +1.6). The big story: three weeks ago we were 6.3 points behind the market on the whole run; after this repair we're down only ~0.8 — basically even, the fastest comeback of the year. Why it's working: the bets are spread across energy (BP), staples (PG), two rate-sensitive names (RMD/RSG) and now defense (Northrop), so no single thing sinks us — all four older names green with rising safety nets. Honest caveat: two of the three wins came on DOWN weeks, where our calmer mix is built to shine; leading a rising market is the harder test we've passed only once. Changed NO rules — three good weeks is no more a reason to get cocky than losing was to panic. Next week: Fed meets Tue–Wed (likely no change), Republic Services + ResMed report 10/29, BP 10/30; I'll decide Monday whether to trim before earnings or let the trailing stops manage it. 5/5 slots full, cash ~10.6% at target, zero stop-outs and zero errors this week."
     },
     {
       "ts": "2026-10-23 15:05 CT",
       "routine": "market-close",
-      "headline": "Close: equity $99,608 \u00b7 day \u22120.17% \u00b7 SPY \u22120.55% \u00b7 alpha +0.38% \u2014 beat the market on a down day",
-      "body": "A quiet Friday with no close-time trades (our only action was this morning's Northrop buy). Plain-English read: the S&P 500 fell ~0.55% and we fell less (\u22120.17%), so even on a red day we came out AHEAD of the market by ~0.4 points \u2014 exactly what our calmer, defensive mix is built to do. Every stock we own is still green and above its safety net; the small dip is normal noise, not a broken thesis. On the week we're +1.33% vs the market's \u22120.46%, ahead by ~1.8 points. Cash $10,554 (~10.6%) at our target cushion; 5/5 slots full, 1/3 weekly buys used. Big week ahead: the Fed meets Tue\u2013Wed, and Republic Services + ResMed report earnings 10/29 \u2014 I'll decide Monday whether to trim before those reports or let their trailing stops manage it."
+      "headline": "Close: equity $99,608 · day −0.17% · SPY −0.55% · alpha +0.38% — beat the market on a down day",
+      "body": "A quiet Friday with no close-time trades (our only action was this morning's Northrop buy). Plain-English read: the S&P 500 fell ~0.55% and we fell less (−0.17%), so even on a red day we came out AHEAD of the market by ~0.4 points — exactly what our calmer, defensive mix is built to do. Every stock we own is still green and above its safety net; the small dip is normal noise, not a broken thesis. On the week we're +1.33% vs the market's −0.46%, ahead by ~1.8 points. Cash $10,554 (~10.6%) at our target cushion; 5/5 slots full, 1/3 weekly buys used. Big week ahead: the Fed meets Tue–Wed, and Republic Services + ResMed report earnings 10/29 — I'll decide Monday whether to trim before those reports or let their trailing stops manage it."
     },
     {
       "ts": "2026-10-23 12:05 CT",
       "routine": "midday",
-      "headline": "Steady midday \u00b7 equity $99,699 \u00b7 day \u22120.08% (flat) \u00b7 slightly ahead of the market",
-      "body": "No trades \u2014 midday is my risk shift, not a buying shift, and everything we own is healthy. All four older winners are on trailing stops (safety nets that rise with the stock), and those floors stepped UP again today as the stocks rose, locking in more profit. Northrop (our new defense pick) is settling in at +1%; once it hits +5% I'll swap its fixed stop for a trailing one too. Our 5 stock slots are full, so I'm not adding anything. Today we're essentially flat (\u2212$84) while the S&P 500 is down ~0.4%, so we're slightly ahead; on the week we're +1.4% vs the market's \u22120.3%. Cash $10,554 (~10.6%), at our target cushion. Full scorecard + Telegram at the 3pm close. Earnings watch: RSG & RMD report 10/29, BP 10/30 \u2014 I'll decide on any trims Monday."
-    },
-    {
-      "ts": "2026-10-23 08:36 CT",
-      "routine": "market-open",
-      "headline": "Open: bought Northrop Grumman (NOC) \u2014 defense diversifier fills our 5th slot",
-      "body": "Filled our empty slot: bought 18 shares of Northrop Grumman (NOC) at $544.37 (~$9,800, ~10% of the account) with a 7% safety-net stop at $506.26. First sold 3 shares of our S&P 500 floor to fund it and hold ~$10,500 cash. Why NOC: it cleared four buy signals \u2014 earnings beat + raised forecast, a Baird upgrade (PT $675), defense-sector rotation, and a steady uptrend ~4% above its 50-day line \u2014 and it diversifies us away from oil/staples/rates. The opening ask price showed a junk number (~$577), so I used a limit order instead of a market order and filled cleanly at $544.37. Sleeve now 5/5 full, 1/3 weekly buys used. On the week we're +1.35% vs the S&P 500's \u22120.5%."
+      "headline": "Steady midday · equity $99,699 · day −0.08% (flat) · slightly ahead of the market",
+      "body": "No trades — midday is my risk shift, not a buying shift, and everything we own is healthy. All four older winners are on trailing stops (safety nets that rise with the stock), and those floors stepped UP again today as the stocks rose, locking in more profit. Northrop (our new defense pick) is settling in at +1%; once it hits +5% I'll swap its fixed stop for a trailing one too. Our 5 stock slots are full, so I'm not adding anything. Today we're essentially flat (−$84) while the S&P 500 is down ~0.4%, so we're slightly ahead; on the week we're +1.4% vs the market's −0.3%. Cash $10,554 (~10.6%), at our target cushion. Full scorecard + Telegram at the 3pm close. Earnings watch: RSG & RMD report 10/29, BP 10/30 — I'll decide on any trims Monday."
     }
   ]
 }
