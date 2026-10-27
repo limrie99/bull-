@@ -3,9 +3,12 @@
 
 from __future__ import annotations
 
+import io
+import json
 import os
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
@@ -201,7 +204,7 @@ class SubmitBuyTests(unittest.TestCase):
 
 
 class FixtureRunTests(unittest.TestCase):
-    def test_fixture_entry_check_proposes_only(self):
+    def test_dedicated_account_entry_check_fills(self):
         snapshot = runner.load_json(FIXTURE, {})
         decision = runner.fixture_decision("entry-check")
         self.assertEqual(decision["action"], "BUY")
@@ -226,6 +229,33 @@ class FixtureRunTests(unittest.TestCase):
             )
         self.assertEqual(result["status"], "REJECTED")
         self.assertIn("risk shutdown", result["reason"].lower())
+
+    def test_fixture_path_writes_no_tracked_state(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            tracked = (
+                root / "decision-log.jsonl",
+                root / "trade-log.jsonl",
+                root / "state.json",
+                root / "astra-proposals.md",
+                root / "proposals.jsonl",
+            )
+            stdout = io.StringIO()
+            with patch.object(runner, "DECISION_LOG", tracked[0]), \
+                 patch.object(runner, "TRADE_LOG", tracked[1]), \
+                 patch.object(runner, "STATE_PATH", tracked[2]), \
+                 patch.object(runner, "PROPOSALS_PATH", tracked[3]), \
+                 patch.object(runner, "PROPOSAL_LOG", tracked[4]), \
+                 patch.dict(os.environ, {"ASTRA_EXECUTION_ENABLED": "true"}, clear=False), \
+                 patch.object(sys, "argv", [
+                     "runner.py", "--fixture", str(FIXTURE), "--routine", "entry-check",
+                 ]), \
+                 redirect_stdout(stdout):
+                self.assertEqual(runner.main(), 0)
+            for path in tracked:
+                self.assertFalse(path.exists(), path.name)
+        printed = json.loads(stdout.getvalue())
+        self.assertEqual(printed["execution"]["status"], "SUBMITTED")
 
 
 class HelperModeTests(unittest.TestCase):
