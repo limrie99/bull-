@@ -1,3 +1,21 @@
+## 2026-10-27 12:05 CT · midday
+
+**Midday: steady, no changes — all 5 green and protected, holding into tomorrow's Fed meeting.**
+
+**What I did**
+A quiet risk check — I verified everything live and placed no trades, which on a healthy day with a full lineup is exactly the right call. All five stocks are green and comfortably above their safety nets, nothing fell toward a stop, and the S&P 500 cushion is up a touch. Nothing needed buying, selling, or adjusting.
+
+**Why**
+This is a deliberate "watch and protect" day: the Federal Reserve (the US central bank that sets interest rates) announces its decision tomorrow at 1pm our time, and a wave of giant tech earnings can swing the whole market — so I won't open a new position into that coin-flip. One honest note for today: our calmer, defensive mix is lagging the market intraday (we're down ~0.66% while the S&P is up ~0.53%) because money is favoring tech/growth ahead of the Fed, and staples/waste names like ours sat it out. That's normal give-and-take — the same defensiveness beat the market by +1.6% last week — and nothing in any of our companies changed, so there's nothing to do. I'm also watching Northrop (our defense stock): it slipped to +2.2%, so it's further from the +5% line where I'd swap its fixed safety net for a trailing one — its fixed net stays.
+
+**What happens next**
+Back at the 3:00 close with the full plain-English scorecard. Big stretch ahead: the Fed tomorrow, then Republic Services and ResMed earnings Thursday and BP Friday. Waste Management (a Republic rival) reported last night — a useful preview I'll weigh before Thursday.
+
+**Numbers I care about**
+- Equity $99,248, down $658 (−0.66%) on the day — a quiet red, far from any worry line (our daily stop-adding limit is −3%)
+- Cash $15,848 (~16%), held as dry powder for a calmer entry after the Fed
+- 5 of 5 slots full, 0 of 3 weekly buys used
+
 ## 2026-10-27 08:53 CT · market-open
 
 **Open: no trades — holding all 5 steady into tomorrow's Fed meeting.**
