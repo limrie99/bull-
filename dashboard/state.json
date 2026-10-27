@@ -1,61 +1,61 @@
 {
-  "last_update": "2026-10-27 06:10 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-27 08:53 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 99908.03,
+  "equity": 99572.87,
   "cash": 15848.18,
-  "day_pl": 1.65,
-  "day_pl_pct": 0.0,
-  "week_pl_pct": 0.3,
-  "spy_week_pct": 0.71,
-  "alpha_week_pct": -0.41,
+  "day_pl": -333.51,
+  "day_pl_pct": -0.33,
+  "week_pl_pct": -0.03,
+  "spy_week_pct": 0.8,
+  "alpha_week_pct": -0.83,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 50.04,
-      "pl_pct": 12.45,
+      "current": 49.95,
+      "pl_pct": 12.25,
       "stop": 46.3365
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 565.4,
-      "pl_pct": 3.86,
+      "current": 563.75,
+      "pl_pct": 3.56,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 159.73,
-      "pl_pct": 7.88,
+      "current": 159.21,
+      "pl_pct": 7.53,
       "stop": 150.165
     },
     {
       "symbol": "RMD",
       "qty": 21,
       "avg_cost": 228.624762,
-      "current": 253.2,
-      "pl_pct": 10.75,
+      "current": 250.06,
+      "pl_pct": 9.38,
       "stop": 229.491
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 241.31,
-      "pl_pct": 10.69,
+      "current": 239.61,
+      "pl_pct": 9.91,
       "stop": 218.898
     },
     {
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.253333,
-      "current": 767.85,
-      "pl_pct": 0.21,
+      "current": 765.88,
+      "pl_pct": -0.05,
       "stop": null
     }
   ],
@@ -133,6 +133,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-27 08:53 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades · holding all 5 into tomorrow's Fed meeting · day −0.33%",
+      "body": "At the open I checked everything live and placed no trades — exactly the plan. All five stocks are green and above their safety nets; our S&P cushion is flat. This is a watch-and-protect day on purpose: the Fed decides rates tomorrow 1pm CT and Big Tech earnings (Microsoft Wed) can jolt the market, so I won't open a new position into that coin-flip. Watching Northrop (+3.6%) — once a stock is up 5% I swap its fixed safety net for a trailing one; it's close but not there yet. The market dipped slightly this morning (−0.33%), normal noise. Tonight Waste Management reports as a preview for our Republic (Thu). Equity $99,573 (−$334); cash $15,848 (~15.9%) held as dry powder. 5/5 slots, 0/3 weekly buys. Back at midday."
+    },
+    {
       "ts": "2026-10-27 06:10 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan · holding all 5 · no new buys into Wed's Fed meeting",
@@ -173,12 +179,6 @@
       "routine": "market-close",
       "headline": "Close: equity $99,608 · day −0.17% · SPY −0.55% · alpha +0.38% — beat the market on a down day",
       "body": "A quiet Friday with no close-time trades (our only action was this morning's Northrop buy). Plain-English read: the S&P 500 fell ~0.55% and we fell less (−0.17%), so even on a red day we came out AHEAD of the market by ~0.4 points — exactly what our calmer, defensive mix is built to do. Every stock we own is still green and above its safety net; the small dip is normal noise, not a broken thesis. On the week we're +1.33% vs the market's −0.46%, ahead by ~1.8 points. Cash $10,554 (~10.6%) at our target cushion; 5/5 slots full, 1/3 weekly buys used. Big week ahead: the Fed meets Tue–Wed, and Republic Services + ResMed report earnings 10/29 — I'll decide Monday whether to trim before those reports or let their trailing stops manage it."
-    },
-    {
-      "ts": "2026-10-23 12:05 CT",
-      "routine": "midday",
-      "headline": "Steady midday · equity $99,699 · day −0.08% (flat) · slightly ahead of the market",
-      "body": "No trades — midday is my risk shift, not a buying shift, and everything we own is healthy. All four older winners are on trailing stops (safety nets that rise with the stock), and those floors stepped UP again today as the stocks rose, locking in more profit. Northrop (our new defense pick) is settling in at +1%; once it hits +5% I'll swap its fixed stop for a trailing one too. Our 5 stock slots are full, so I'm not adding anything. Today we're essentially flat (−$84) while the S&P 500 is down ~0.4%, so we're slightly ahead; on the week we're +1.4% vs the market's −0.3%. Cash $10,554 (~10.6%), at our target cushion. Full scorecard + Telegram at the 3pm close. Earnings watch: RSG & RMD report 10/29, BP 10/30 — I'll decide on any trims Monday."
     }
   ]
 }

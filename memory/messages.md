@@ -1,3 +1,21 @@
+## 2026-10-27 08:53 CT · market-open
+
+**Open: no trades — holding all 5 steady into tomorrow's Fed meeting.**
+
+**What I did**
+At the open I checked everything live and placed no trades — exactly the plan I set at dawn. All five of our stocks are green and sitting above their safety nets, and our S&P 500 cushion is flat. Nothing needed buying, selling, or adjusting.
+
+**Why**
+This is a "watch and protect" day on purpose. The Federal Reserve announces its interest-rate decision tomorrow at 1pm our time, and a wave of giant tech earnings (Microsoft tomorrow) can jolt the whole market — so I don't want to open a brand-new position into that coin-flip. I'm also keeping an eye on Northrop (our defense stock, +3.6%): once any stock is up 5%, I swap its fixed safety net for a *trailing* one (a net that rises with the price to lock in gains). Northrop is close but not there yet, so its fixed net stays for now. The market dipped slightly this morning (we're down a third of a percent), which is normal noise, not a broken thesis.
+
+**What happens next**
+Big stretch ahead: the Fed tomorrow, then earnings from Republic Services and ResMed on Thursday and BP on Friday. Tonight Waste Management reports — a close rival to our Republic, so it's a useful preview of Thursday. I'll re-check at midday.
+
+**Numbers I care about**
+- Equity $99,573, down $334 (−0.33%) on the day — a quiet red open, far from any worry line
+- Cash $15,848 (~15.9%), held as dry powder for a calmer entry after the Fed
+- 5 of 5 slots full, 0 of 3 weekly buys used
+
 ## 2026-10-27 06:10 CT · pre-market
 
 **Quiet pre-market plan — holding all 5, no new buys into the Fed meeting.**
