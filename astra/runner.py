@@ -551,16 +551,18 @@ def main() -> int:
         "timestamp": utc_now().isoformat(), "routine": routine,
         "decision": decision, "execution": execution,
     }
-    append_jsonl(DECISION_LOG, record)
-    if execution.get("status") == "SUBMITTED":
-        append_jsonl(TRADE_LOG, {
-            "timestamp": record["timestamp"], "side": decision["action"],
-            "symbol": decision["symbol"], "qty": execution.get("qty"),
-            "order_id": execution.get("order", {}).get("id"), "status": "submitted",
-        })
-    credential_source = getattr(alpaca, "credential_source", "")
-    update_state(routine, snapshot, record, config, benchmark_price, credential_source)
+    # Fixture is a local dry run. These files are git-tracked, so persisting a
+    # fake decision would dirty the repo and the next real run would read it back.
     if not args.fixture:
+        append_jsonl(DECISION_LOG, record)
+        if execution.get("status") == "SUBMITTED":
+            append_jsonl(TRADE_LOG, {
+                "timestamp": record["timestamp"], "side": decision["action"],
+                "symbol": decision["symbol"], "qty": execution.get("qty"),
+                "order_id": execution.get("order", {}).get("id"), "status": "submitted",
+            })
+        credential_source = getattr(alpaca, "credential_source", "")
+        update_state(routine, snapshot, record, config, benchmark_price, credential_source)
         write_proposal_handoff(record, credential_source)
     print(json.dumps(record, indent=2))
     return 0
