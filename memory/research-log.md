@@ -1,3 +1,50 @@
+# 2026-10-28 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Wed, FOMC DECISION DAY) — Opus 4.8 · NO TRADES · Close equity $99,410.85 · day +$240.04 / +0.24% vs SPY +0.34% → day alpha −0.09pt · WTD alpha −1.84pt · mandatory daily scorecard written + pushed · Fed held 3.75–4.00%, Powell hawkish-but-market-shrugged · all 5 conviction stops rest clean into RMD/RSG earnings (Thu AMC)
+
+**Run meta:** Market **CONFIRMED CLOSED** via /v2/clock (is_open=false, 16:03 ET; next_open 2026-10-29 09:30 ET). 4 required keys non-empty; EQUIBLES empty → filing data skipped. Live pulls this run: account/positions/orders (closed+open)/clock, SPY daily bars (IEX) + latest trade, portfolio history 5D/1D, one Perplexity (sonar-pro) for the FOMC read. Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). **No trades today** (today's closed orders = empty) — the FOMC-day plan was explicitly manage-only / no new buys, and nothing required action post-decision. State reconciled: exactly **5 open orders** (NOC −7% hard 506.26; BP/PG/RMD/RSG 10% trailing), SPY 48 unencumbered.
+
+**Close live snapshot:** equity **$99,410.85**, cash **$15,848.18 (~15.94%)**, last_equity (settled Tue 10/27 close) $99,170.81 → day **+$240.04 / +0.24%**. long_mv $83,562.67; buying_power $297,368.20; status ACTIVE. Sleeve **5/5 FULL** (RMD half-sized); weekly conviction buys **0/3** (week 10/26–10/30, day 3 of 5).
+
+**The Fed (via Perplexity sonar-pro):** FOMC voted **10–2 to HOLD** the target range at **3.75%–4.00%** (dissenters wanted a 25bp HIKE); Powell's presser read **hawkish/cautious** — inflation still elevated, future moves data-dependent. S&P dipped on the print, rallied during the presser, closed modestly green. Net: the hold was priced (~91%), the hawkish *tone* did NOT trigger the rate-sensitive sell-off we were guarding against — RMD/RSG/SPY all held up.
+
+## Day summary
+- **Closing equity:** $99,410.85 (cash $15,848.18 / ~15.94%; long_mv $83,562.67).
+- **Day P/L:** **+$240.04 / +0.24%** (vs settled Tue 10/27 close $99,170.81).
+- **SPY day:** **+0.34%** (IEX daily close 769.70 → 772.28; post-close trade 773.08).
+- **Alpha today:** **−0.09pt** — book essentially MATCHED the market on FOMC-decision day (marginally behind). A defensive, half-cash book keeping pace with SPY through a hawkish-tone Fed is a clean, low-drama outcome.
+- **WTD (10/26–10/30, day 3 of 5):** book **−0.20%** (equity vs Fri 10/23 settled base $99,607.35) vs **SPY +1.64%** (759.83 → 772.28) → **WTD alpha −1.84pt**. Still trailing on the week — the growth-led tape (Mon/Tue up-moves + AI-capex names) has outrun our defensive sleeve; two reporters (RMD/RSG) tomorrow AMC are the week's swing factor.
+- **Trades placed:** none.
+- **What worked (1–3):** (1) Staying manage-only through the Fed — no money risked into a coin-flip, and the hawkish tone we feared did NOT hit our rate-sensitive names. (2) BP (+11.9%) and the oil re-bid (Brent ~$116) carried the book's green day into Fri BMO earnings. (3) Every stop rested clean; zero forced action, zero drawdown scares.
+- **What didn't (1–3):** (1) WTD still red vs a strong SPY — defense lags a melt-up. (2) NOC (+1.54%) continues to drift sideways below its +5% conversion line — no ratchet, dead-money-ish since the 10/23 entry. (3) Half-cash (~16%) is a drag in an up week, by design (dry powder reserved) but it costs relative performance when SPY runs.
+- **Open questions for tomorrow:** (1) **RMD + RSG both report Thu AMC** — RMD already half-trimmed + above its trailing floor (229.491); RSG held under its trailing (218.898). A miss/soft-guide from either gaps the stock pre-market Fri; a beat re-rates. Do I need any further pre-earnings de-risk at Thu's close, or let the trailing stops do their job? (Current lean: trailing stops handle it; RMD already de-risked; no further trim unless a thesis break.) (2) **BP Fri 10/30 BMO** (~4am ET) — possible ~$3–4.5B write-down; well above floor, hold. (3) **NOC** — if it finally clears +5% (~$571.59) convert hard→trailing; still ~3.3% under. (4) Post-Fed + post-earnings window: is there a clean bench entry (CDNS #1 / UPS #2) worth the dry powder, or hold cash through the Thu/Fri earnings gauntlet? (Lean: wait for the earnings dust to settle.)
+
+### Risk checks (close — live marks)
+- **(a) Any position −7% or worse un-stopped?** NO. All 5 conviction green (BP +11.89%, NOC +1.54%, PG +6.89%, RMD +9.42%, RSG +7.06%); SPY +1.00% (index floor, no stop by design). Nothing near a stop.
+- **(b) Any position +5%+ needing hard→trailing conversion?** NOC is the only hard stop, at **+1.54% ($552.77)** — still ~3.3% under the +5% line (~$571.59). No conversion. The other four already trail.
+- **(c) Daily loss cap:** day **+0.24%** (positive) — far from the −3% cap.
+- **(d) Sell signals?** None forced. All five theses intact (RMD on WATCH into Thu earnings but de-risked + above floor); no thesis break, no fundamentals deterioration, no breaking catalyst.
+
+### Stops verified (exactly 5 open, GTC)
+- NOC hard **506.26** `59a67c62`, qty 18 (convert at +5% ~$571.59; px $552.77 — below).
+- BP trail floor **46.3365** hwm 51.485 `209e58f4`, qty 214.
+- PG trail floor **150.165** hwm 166.85 `272e2864`, qty 65 (floor above entry — profit locked).
+- RMD trail floor **229.491** hwm 254.99 `6095b269`, qty 21.
+- RSG trail floor **218.898** hwm 243.22 `135c200e`, qty 44.
+- SPY 48 unencumbered (index-floor carve-out, no stop by design).
+
+### Voices
+- **Research:** no Astra proposals. FOMC hold + hawkish-but-absorbed tone removes the near-term rate shock we were guarding; the two live swing factors are now RMD/RSG earnings (Thu AMC) and BP (Fri BMO). Bench unchanged: CDNS #1 (post-earnings, on a pullback ~$320), UPS #2 (cleanest non-rate-sensitive). Nothing to initiate into a two-name earnings night.
+- **Risk:** all 5 stops rest clean, day +0.24% positive, cash ~16% above the ~$10k floor. NOC below +5% → no conversion. RMD de-risked (half-trimmed) + above floor; RSG under trailing. No risk action required; let trailing stops handle the earnings gaps.
+- **Trader:** no order — correct "verified and did nothing" close. Mandatory daily scorecard written + Telegram pushed.
+
+### Handoff → pre-market (Thu 10/29 ~06:10 CT)
+- **Re-verify live:** account/positions/orders/clock; confirm **exactly 5 open orders** (NOC hard 506.26 `59a67c62`; BP trail 46.3365 `209e58f4`; PG trail 150.165 `272e2864`; RMD trail 229.491 qty 21 `6095b269`; RSG trail 218.898 `135c200e`); SPY 48 unencumbered.
+- **EARNINGS NIGHT (Thu AMC): RMD + RSG both report.** RMD already half-trimmed + above floor; RSG held under trailing. Decide at Thu's close whether any further pre-earnings de-risk is warranted (current lean: no — trailing stops + prior RMD trim suffice). Watch for pre-market Fri gaps.
+- **NOC +5% conversion watch:** +1.54% ($552.77), ~3.3% under ~$571.59. Convert hard→trailing only if it clears +5%.
+- **BP Fri 10/30 BMO** (~4am ET) — possible write-down; hold, well above floor.
+- **Bench for a clean post-earnings setup:** CDNS #1, UPS #2. ~$15.8k dry powder held — don't chase into the earnings gauntlet.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot.
+
+---
 # 2026-10-28 ~08:43 CT (09:42 ET) — MARKET-OPEN (Wed) — Opus 4.8 · NO TRADES — executed the manage-only plan; all 5 protected into FOMC DECISION (today 2pm ET) · equity $99,141.65 (day −$29.16 / −0.03%) · sleeve 5/5 FULL · weekly buys 0/3
 
 **Run meta:** Market **CONFIRMED OPEN** via /v2/clock (is_open=true, 09:42 ET; next_close 2026-10-28 16:00 ET). 4 required keys non-empty; EQUIBLES empty → filing data skipped. Live pulls this run: account/positions/orders/clock. Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). **No trades** — the pre-market plan was explicitly *manage-only / no new buys into FOMC-decision day*, and nothing required action at the open. State reconciled fully with the pre-market handoff: exactly **5 open orders** (NOC −7% hard 506.26; BP/PG/RMD/RSG 10% trailing), SPY 48 unencumbered.

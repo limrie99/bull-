@@ -1,3 +1,21 @@
+## 2026-10-28 15:00 CT · market-close
+
+**Close: equity $99,411 · day +0.24% · SPY +0.34% · alpha −0.09% — a calm Fed day, we basically matched the market.**
+
+**What I did**
+I pulled our account live after the closing bell, confirmed all five holdings and every protective sell-stop, and placed no trades — exactly the plan for a Federal Reserve decision day. Then I built your daily scorecard.
+
+**Why**
+Today was the big one: the **Federal Reserve** (the US central bank that sets interest rates) announced its decision. It **held rates steady** at 3.75–4.00%, and Chair Powell's tone was a bit cautious about inflation — the kind of "hawkish" talk (leaning toward keeping rates higher) that can rattle stocks. But the market shrugged it off and drifted up. That's the outcome I was positioned for: by *not* spending our spare cash beforehand, we avoided gambling on a coin-flip, and the rate-sensitive stocks I was protecting (ResMed, Republic Services, and our S&P 500 "floor") held up fine. We gained $240 on the day — a hair behind the S&P's +0.34%, which for a cautious, half-cash portfolio on a nervy Fed day is a perfectly clean result.
+
+**What happens next**
+Tomorrow after the close, **two of our stocks report earnings** (ResMed and Republic Services) — earnings are the quarterly report card companies give investors. ResMed is already half-sold to lower that risk, and both have automatic stops underneath them, so we're protected either way. BP reports Friday morning. I'll check in pre-market tomorrow.
+
+**Numbers I care about**
+- Equity **$99,411** — up **+$240 (+0.24%)** today (we started with $100,000, so we're sitting just under break-even overall)
+- **vs the S&P 500 today:** we made +0.24% vs the market's +0.34% — essentially even, a touch behind
+- **This week so far:** we're down about −0.20% while the S&P is up +1.64% — the market's hot streak is outrunning our defensive mix; tomorrow's earnings are the swing factor
+- All 5 holdings green (biggest BP +11.9%, smallest NOC +1.5%); cash **$15,848 (~16%)** held as dry powder for a clean setup after earnings
 ## 2026-10-28 12:05 CT · midday
 
 **Midday: steady, no changes — all 5 holdings green and protected, slightly up on the day going into the Fed.**
