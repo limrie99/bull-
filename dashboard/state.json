@@ -1,61 +1,61 @@
 {
-  "last_update": "2026-10-28 08:43 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-10-28 12:05 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 99141.65,
+  "equity": 99469.71,
   "cash": 15848.18,
-  "day_pl": -29.16,
-  "day_pl_pct": -0.03,
-  "week_pl_pct": -0.47,
-  "spy_week_pct": 1.4,
-  "alpha_week_pct": -1.87,
+  "day_pl": 298.90,
+  "day_pl_pct": 0.30,
+  "week_pl_pct": -0.14,
+  "spy_week_pct": 1.57,
+  "alpha_week_pct": -1.71,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 49.34,
-      "pl_pct": 10.89,
+      "current": 49.82,
+      "pl_pct": 11.96,
       "stop": 46.3365
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 550.42,
-      "pl_pct": 1.11,
+      "current": 554.16,
+      "pl_pct": 1.80,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 158.39,
-      "pl_pct": 6.98,
+      "current": 159.20,
+      "pl_pct": 7.52,
       "stop": 150.165
     },
     {
       "symbol": "RMD",
       "qty": 21,
       "avg_cost": 228.624762,
-      "current": 249.98,
-      "pl_pct": 9.34,
+      "current": 250.51,
+      "pl_pct": 9.57,
       "stop": 229.491
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 233.86,
-      "pl_pct": 7.27,
+      "current": 234.785,
+      "pl_pct": 7.70,
       "stop": 218.898
     },
     {
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.253333,
-      "current": 770.63,
-      "pl_pct": 0.57,
+      "current": 771.79,
+      "pl_pct": 0.72,
       "stop": null
     }
   ],
@@ -133,6 +133,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-28 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes \u00b7 all 5 green and protected \u00b7 up +0.30% into the 2pm Fed decision",
+      "body": "Quiet midday, no stop or conversion due. Book recovered to +0.30% on the day. NOC +1.8% \u2014 still below its +5% conversion line, hard stop stays. Holding all 5 into today's FOMC decision + Powell; ~$15.8k dry powder held for a clean post-Fed setup. Close routine (after the Fed) owns the daily scorecard."
+    },
+    {
       "ts": "2026-10-28 08:43 CT",
       "routine": "market-open",
       "headline": "Open \u00b7 no trades \u00b7 holding all 5 steady into today's 2pm Fed decision",
@@ -173,12 +179,6 @@
       "routine": "market-close",
       "headline": "Close: equity $99,898 \u00b7 day +0.29% \u00b7 SPY +0.71% \u00b7 alpha -0.42%",
       "body": "Quiet up day, slightly behind the market. Trimmed half of ResMed earlier before Thursday's earnings."
-    },
-    {
-      "ts": "2026-10-26 12:05 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes \u00b7 all 5 green and protected \u00b7 slightly up on the day",
-      "body": "No changes at midday."
     }
   ]
 }

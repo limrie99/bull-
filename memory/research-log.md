@@ -12977,3 +12977,36 @@ Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No hi
 - **Events runway:** FOMC decision Wed 2pm ET; MSFT 10/28 AMC; RMD/RSG 10/29 AMC + LLY 10/29 BMO; BP 10/30 BMO. Watch 10Y (~5.0%).
 - **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (not exercised this routine — no trigger).
 - **Unverified:** none — account/positions/open-orders/clock all pulled live this run.
+
+## 2026-10-28 12:05 CT · MIDDAY (Wed — FOMC DECISION DAY)
+
+**Routine:** midday risk-management. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 13:04 ET; next_close 16:00 ET; next_open 2026-10-29 09:30 ET). **Live verify (all pulled this run):** equity **$99,469.71**, cash **$15,848.18 (~15.93%)**, last_equity (Tue 10/27 close) $99,170.81 → day **+$298.90 / +0.30%**, buying_power $297,533, long_mv $83,621.53, status ACTIVE. Open orders = **exactly 5** (NOC hard stop 59a67c62 @ 506.26; + 4 GTC trailing: BP 209e58f4 floor 46.3365/hwm 51.485, PG 272e2864 150.165/166.85, RMD 6095b269 229.491/254.99 qty 21, RSG 135c200e 218.898/243.22); SPY unencumbered. Sleeve **5/5 — FULL**. Weekly conviction buys **0/3** (week 10/26–10/30). Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). **NO TRADES — steady, nothing to change, manage-only into the 2pm ET Fed decision (~1 hr away).**
+
+### Risk checks (live, priority order)
+- **(a) Any position −7% or worse un-stopped?** **NO.** All 5 conviction green (BP +11.96%, NOC +1.80%, PG +7.52%, RMD +9.57%, RSG +7.70%). SPY +0.72% (index-floor sleeve, no stop by design). Nothing within shouting distance of a stop → no Perplexity 4-hr news-check triggered.
+- **(b) Any +5%+ needing hard→trailing conversion?** **NONE.** NOC is the only hard stop, at **+1.80%** ($554.16) — below its +5% line (544.37×1.05 = **$571.59**), ~3.1% under. The 4 older names already trail; all four sit below their hwm (BP 51.485, PG 166.85, RMD 254.99, RSG 243.22) so no floor ratchet this run — floors unchanged from the open. Nothing to convert.
+- **(c) Daily loss cap:** day **+0.30%** (positive — book recovered from the −0.03% open mark) — far from the −3% cap. New buys would be permitted by the cap (none qualify / sleeve full / FOMC-day no-buy already set).
+- **(d) Sell signals?** **None.** All 5 theses intact; no −7% breach, no thesis break, no fundamentals deterioration, no better-opp swap worth freeing a slot into the Fed. No sell.
+- All 5 stops rested clean since the open; no fills, no rejects, no partials.
+
+### No-buy rationale (midday)
+Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No high-conviction breaking catalyst surfaced (no Astra proposal, no inbox request, no held-name news break). It is **FOMC-decision day** — the decision lands at 2pm ET (~1 hr after this routine), Powell 2:30 — and the pre-market/open plan is explicitly manage-only / no new buys into the decision (~91% hold priced; the live risk is a hawkish *tone* hitting rate-sensitive RMD/RSG/SPY). Nothing changed that. The midday mandate is manage-what's-on, and everything on is healthy. **$0 risked; configuration held.** Deliberately skipped a research fan-out — running one to justify inaction into a locked no-buy window is waste (per the operating-model note).
+
+### Benchmark (intraday — close owns the official scorecard)
+- **Intraday today:** SPY **771.79** vs Tue 10/27 close 769.66 → **+0.28%**; book **+0.30%** → intraday alpha **~+0.02** (book essentially matching, marginally ahead — a reversal of Tue's lag as the tape steadied pre-Fed).
+- **WTD** (base Fri 10/23 official close: book $99,607.35 / SPY 759.83): book **−0.14%** / SPY **+1.57%** → **alpha ~−1.71 WTD** (book trailing into the Fed; close settles the official number).
+
+### Voices
+- **Research:** no new proposal; held-book theses all intact; no bench name clears the gate on a clean entry into a full sleeve, and FOMC-decision day locks the no-buy window anyway (CDNS bench leader but ~40x = don't chase into the Fed).
+- **Risk:** stops healthy; day +0.30% leaves full buffer; NOC's hard stop still protects it below the +5% line; no concentration or stop-integrity issue. Defensive sleeve matched the up-tape today (vs Tue's lag) — a close/weekly observation, not a midday action; structural A/B already with Lauren (default A).
+- **Trader:** no order placed — nothing to execute, cancel, or convert. Held.
+
+### Handoff → MARKET-CLOSE (Wed 2026-10-28 ~15:00 CT — POST-FOMC)
+- **MANDATORY:** market-close owns today's plain-English daily scorecard vs SPY to `messages.md` **AND the Telegram push** (never skipped, trade or no trade). Lead with up/down in $ and %, vs SPY, and whether we're ahead. The close lands **AFTER** the 2pm ET Fed decision + Powell 2:30 — capture the rate-reaction in RMD/RSG/SPY and the 10Y.
+- **Re-verify live:** account/positions/orders/clock; confirm exactly 5 orders (NOC hard 506.26; BP/PG/RMD/RSG trailing; RMD 229.491 qty 21); SPY unencumbered; daily loss-cap check.
+- **NOC +5% conversion:** at +1.80% ($554.16), ~3.1% under the +5% line (~$571.59) — if it clears +5% at the close, convert hard→trailing. The 4 others already trail.
+- **Earnings-week de-risk:** RMD half-trimmed (DONE) + Morningstar cut = WATCH into Thu AMC; RSG HELD under its trailing (WM read-through mixed). No further planned trim unless a thesis break or a sharp adverse FOMC/earnings read.
+- **Hold all 5 — sleeve FULL; no new buys into FOMC-decision day.** ~$15.8k dry powder held for a clean post-FOMC/post-earnings setup.
+- **Events runway:** **FOMC decision today 2pm ET + Powell 2:30**; **MSFT/GOOGL 10/28 AMC** (AI-capex verdict); **RMD/RSG 10/29 AMC, LLY 10/29 BMO, AMZN 10/29 AMC**; BP 10/30 ~4am ET. Watch 10Y (~5.0%) for a rate repricing that moves RMD/RSG/SPY.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (not exercised this routine — no trigger).
+- **Unverified:** none — account/positions/open-orders/clock all pulled live this run.

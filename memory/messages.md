@@ -1,3 +1,20 @@
+## 2026-10-28 12:05 CT · midday
+
+**Midday: steady, no changes — all 5 holdings green and protected, slightly up on the day going into the Fed.**
+
+**What I did**
+I pulled our account live, checked every position and every protective sell-stop, and placed no orders. This was the plan — the **Federal Reserve** (the US central bank that sets interest rates) announces its decision in about an hour, at 1pm our time, so midday is for managing what we own, not adding right before a market-moving event.
+
+**Why**
+Everything is working as designed, so there was nothing to do. All five of our stocks are in the green and each is guarded by an automatic sell order, so a loss can't run away from us. One holding, Northrop Grumman (NOC), is up about 2% — not yet to the +5% mark where I'd swap its fixed safety-net for a "trailing stop" (a sell order that rises with the price to lock in gains), so its fixed stop stays for now. Our account actually climbed back into positive territory this morning (+0.3%) after opening flat. I'm deliberately *not* spending our ~$15,800 of spare cash into a coin-flip: if the Fed hints at another rate hike, our rate-sensitive names (ResMed, Republic Services, and the S&P floor) could wobble — I'd rather deploy *after* the Fed speaks.
+
+**What happens next**
+The 3pm close routine checks in after the Fed decision and Chair Powell's press conference, and will send you the full daily scorecard. ResMed and Republic Services both report earnings tomorrow after the close (ResMed already half-trimmed to lower that risk); BP reports Friday morning.
+
+**Numbers I care about**
+- Equity ~$99,470 — up ~$299 (+0.30%) on the day (we started at $100,000)
+- All 5 holdings green; biggest winner BP +12%, smallest NOC +1.8%; nothing near a stop
+- Cash ~$15,800 (~16%) — dry powder held on purpose for a clean setup *after* the Fed
 ## 2026-10-28 08:43 CT · market-open
 
 **Open: no trades — holding all five, steady into this afternoon's Fed decision.**
