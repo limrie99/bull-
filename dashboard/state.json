@@ -1,42 +1,184 @@
 {
-  "last_update": "2026-10-28 06:10 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-28 08:43 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 99094.38,
+  "equity": 99141.65,
   "cash": 15848.18,
-  "day_pl": -76.43,
-  "day_pl_pct": -0.08,
-  "week_pl_pct": -0.52,
-  "spy_week_pct": 1.30,
-  "alpha_week_pct": -1.82,
+  "day_pl": -29.16,
+  "day_pl_pct": -0.03,
+  "week_pl_pct": -0.47,
+  "spy_week_pct": 1.4,
+  "alpha_week_pct": -1.87,
   "positions": [
-    { "symbol": "BP", "qty": 214, "avg_cost": 44.499813, "current": 49.11, "pl_pct": 10.35, "stop": 46.3365 },
-    { "symbol": "NOC", "qty": 18, "avg_cost": 544.37, "current": 549.10, "pl_pct": 0.87, "stop": 506.26 },
-    { "symbol": "PG", "qty": 65, "avg_cost": 148.06, "current": 157.65, "pl_pct": 6.48, "stop": 150.165 },
-    { "symbol": "RMD", "qty": 21, "avg_cost": 228.624762, "current": 250.80, "pl_pct": 9.70, "stop": 229.491 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 235.00, "pl_pct": 7.80, "stop": 218.898 },
-    { "symbol": "SPY", "qty": 48, "avg_cost": 766.253333, "current": 770.83, "pl_pct": 0.60, "stop": null }
+    {
+      "symbol": "BP",
+      "qty": 214,
+      "avg_cost": 44.499813,
+      "current": 49.34,
+      "pl_pct": 10.89,
+      "stop": 46.3365
+    },
+    {
+      "symbol": "NOC",
+      "qty": 18,
+      "avg_cost": 544.37,
+      "current": 550.42,
+      "pl_pct": 1.11,
+      "stop": 506.26
+    },
+    {
+      "symbol": "PG",
+      "qty": 65,
+      "avg_cost": 148.06,
+      "current": 158.39,
+      "pl_pct": 6.98,
+      "stop": 150.165
+    },
+    {
+      "symbol": "RMD",
+      "qty": 21,
+      "avg_cost": 228.624762,
+      "current": 249.98,
+      "pl_pct": 9.34,
+      "stop": 229.491
+    },
+    {
+      "symbol": "RSG",
+      "qty": 44,
+      "avg_cost": 218.0,
+      "current": 233.86,
+      "pl_pct": 7.27,
+      "stop": 218.898
+    },
+    {
+      "symbol": "SPY",
+      "qty": 48,
+      "avg_cost": 766.253333,
+      "current": 770.63,
+      "pl_pct": 0.57,
+      "stop": null
+    }
   ],
   "recent_trades": [
-    { "date": "2026-10-26 08:38", "side": "SELL", "symbol": "RMD", "qty": 21, "price": 252.101429 },
-    { "date": "2026-10-23 08:35", "side": "BUY", "symbol": "NOC", "qty": 18, "price": 544.37 },
-    { "date": "2026-10-23 08:34", "side": "SELL", "symbol": "SPY", "qty": 3, "price": 759.623333 },
-    { "date": "2026-10-14 13:41", "side": "SELL", "symbol": "NVDA", "qty": 32, "price": 220.27125 },
-    { "date": "2026-10-08 08:45", "side": "BUY", "symbol": "PG", "qty": 65, "price": 148.06 },
-    { "date": "2026-10-08 08:45", "side": "SELL", "symbol": "SPY", "qty": 13, "price": 774.95 },
-    { "date": "2026-10-02 08:48", "side": "BUY", "symbol": "SPY", "qty": 15, "price": 771.366667 },
-    { "date": "2026-10-02 08:48", "side": "BUY", "symbol": "NVDA", "qty": 32, "price": 236.846875 },
-    { "date": "2026-10-02 08:48", "side": "BUY", "symbol": "BP", "qty": 214, "price": 44.499813 },
-    { "date": "2026-10-01 08:39", "side": "SELL", "symbol": "CFR", "qty": 60, "price": 151.63 }
+    {
+      "date": "2026-10-26 08:38",
+      "side": "SELL",
+      "symbol": "RMD",
+      "qty": 21,
+      "price": 252.101429
+    },
+    {
+      "date": "2026-10-23 08:35",
+      "side": "BUY",
+      "symbol": "NOC",
+      "qty": 18,
+      "price": 544.37
+    },
+    {
+      "date": "2026-10-23 08:34",
+      "side": "SELL",
+      "symbol": "SPY",
+      "qty": 3,
+      "price": 759.623333
+    },
+    {
+      "date": "2026-10-14 13:41",
+      "side": "SELL",
+      "symbol": "NVDA",
+      "qty": 32,
+      "price": 220.27125
+    },
+    {
+      "date": "2026-10-08 08:45",
+      "side": "BUY",
+      "symbol": "PG",
+      "qty": 65,
+      "price": 148.06
+    },
+    {
+      "date": "2026-10-08 08:45",
+      "side": "SELL",
+      "symbol": "SPY",
+      "qty": 13,
+      "price": 774.95
+    },
+    {
+      "date": "2026-10-02 08:48",
+      "side": "BUY",
+      "symbol": "SPY",
+      "qty": 15,
+      "price": 771.366667
+    },
+    {
+      "date": "2026-10-02 08:48",
+      "side": "BUY",
+      "symbol": "NVDA",
+      "qty": 32,
+      "price": 236.846875
+    },
+    {
+      "date": "2026-10-02 08:48",
+      "side": "BUY",
+      "symbol": "BP",
+      "qty": 214,
+      "price": 44.499813
+    },
+    {
+      "date": "2026-10-01 08:39",
+      "side": "SELL",
+      "symbol": "CFR",
+      "qty": 60,
+      "price": 151.63
+    }
   ],
   "latest_messages": [
-    { "ts": "2026-10-28 06:10 CT", "routine": "pre-market", "headline": "Pre-market plan · holding all 5 · no new buys until after today's 2pm Fed decision", "body": "FOMC decision day (~91% hold priced; risk is a hawkish tone hitting rate-sensitive names). Sleeve full 5/5. Oil re-bid overnight (Brent ~$116) helps BP. RMD on watch into Thu earnings but already half-trimmed. ~$15.8k dry powder held for a clean post-Fed setup." },
-    { "ts": "2026-10-27 15:00 CT", "routine": "market-close", "headline": "Close: equity $99,164 · day -0.74% · SPY +0.58% · alpha -1.33%", "body": "Defensive book lagged a growth-led up tape on FOMC-eve. No trades, all 5 green and protected; cash ~16% held into the Fed." },
-    { "ts": "2026-10-27 12:05 CT", "routine": "midday", "headline": "Midday: steady, no changes · all 5 green and protected · day -0.66% into the Fed meeting", "body": "Quiet midday; no stop or conversion due. Holding into tomorrow's FOMC." },
-    { "ts": "2026-10-27 08:53 CT", "routine": "market-open", "headline": "Open: no trades · holding all 5 into tomorrow's Fed meeting · day -0.33%", "body": "Manage-only open; sleeve full, nothing qualified into FOMC-eve." },
-    { "ts": "2026-10-27 06:10 CT", "routine": "pre-market", "headline": "Pre-market plan · holding all 5 · no new buys into Wed's Fed meeting", "body": "Research team ran; no trades. Holding into the Fed." },
-    { "ts": "2026-10-26 15:05 CT", "routine": "market-close", "headline": "Close: equity $99,898 · day +0.29% · SPY +0.71% · alpha -0.42%", "body": "Quiet up day, slightly behind the market. Trimmed half of ResMed earlier before Thursday's earnings." },
-    { "ts": "2026-10-26 12:05 CT", "routine": "midday", "headline": "Midday: steady, no changes · all 5 green and protected · slightly up on the day", "body": "No changes at midday." },
-    { "ts": "2026-10-26 08:38 CT", "routine": "market-open", "headline": "Trimmed half of ResMed before Thursday's earnings · held everything else · flat on the day", "body": "Reduced ResMed by half to lower earnings risk ahead of Thursday's print." }
+    {
+      "ts": "2026-10-28 08:43 CT",
+      "routine": "market-open",
+      "headline": "Open \u00b7 no trades \u00b7 holding all 5 steady into today's 2pm Fed decision",
+      "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, nothing near a trigger. No buys into FOMC-decision day (~91% hold priced; hawkish-tone risk hits rate-sensitive RMD/RSG/SPY). NOC +1.1% \u2014 below its +5% conversion line, hard stop stays. RMD/RSG report Thu AMC (RMD half-trimmed), BP Fri BMO. ~$15.8k dry powder held for a clean post-Fed setup."
+    },
+    {
+      "ts": "2026-10-28 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan \u00b7 holding all 5 \u00b7 no new buys until after today's 2pm Fed decision",
+      "body": "FOMC decision day (~91% hold priced; risk is a hawkish tone hitting rate-sensitive names). Sleeve full 5/5. Oil re-bid overnight (Brent ~$116) helps BP. RMD on watch into Thu earnings but already half-trimmed. ~$15.8k dry powder held for a clean post-Fed setup."
+    },
+    {
+      "ts": "2026-10-27 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,164 \u00b7 day -0.74% \u00b7 SPY +0.58% \u00b7 alpha -1.33%",
+      "body": "Defensive book lagged a growth-led up tape on FOMC-eve. No trades, all 5 green and protected; cash ~16% held into the Fed."
+    },
+    {
+      "ts": "2026-10-27 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes \u00b7 all 5 green and protected \u00b7 day -0.66% into the Fed meeting",
+      "body": "Quiet midday; no stop or conversion due. Holding into tomorrow's FOMC."
+    },
+    {
+      "ts": "2026-10-27 08:53 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades \u00b7 holding all 5 into tomorrow's Fed meeting \u00b7 day -0.33%",
+      "body": "Manage-only open; sleeve full, nothing qualified into FOMC-eve."
+    },
+    {
+      "ts": "2026-10-27 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan \u00b7 holding all 5 \u00b7 no new buys into Wed's Fed meeting",
+      "body": "Research team ran; no trades. Holding into the Fed."
+    },
+    {
+      "ts": "2026-10-26 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,898 \u00b7 day +0.29% \u00b7 SPY +0.71% \u00b7 alpha -0.42%",
+      "body": "Quiet up day, slightly behind the market. Trimmed half of ResMed earlier before Thursday's earnings."
+    },
+    {
+      "ts": "2026-10-26 12:05 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes \u00b7 all 5 green and protected \u00b7 slightly up on the day",
+      "body": "No changes at midday."
+    }
   ]
 }

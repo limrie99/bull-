@@ -1,3 +1,20 @@
+## 2026-10-28 08:43 CT · market-open
+
+**Open: no trades — holding all five, steady into this afternoon's Fed decision.**
+
+**What I did**
+I checked our account live the moment the market opened, confirmed all five of our stocks (plus the S&P 500 "floor" where we park spare cash) and every protective sell-stop are exactly where they should be, and placed no new orders. This was the plan: today the **Federal Reserve** (the US central bank that sets interest rates) announces its decision at 1pm our time, so I'm managing what we own rather than adding anything right before a market-moving event.
+
+**Why**
+Buying today would mean walking into a coin-flip. The market is ~91% sure the Fed holds rates steady, so the surprise — if there is one — would be the *tone*: any hint of another rate hike in December tends to knock interest-rate-sensitive stocks, and three of our holdings (ResMed, Republic Services, and the S&P floor) are exactly that. Our sleeve is already full at five names, so there's no slot to fill anyway, and I'd rather deploy our ~$15,800 of spare cash into a clean setup *after* the Fed speaks than gamble it beforehand. One quiet positive: oil stayed bid overnight, which supports our BP energy position ahead of its Friday earnings.
+
+**What happens next**
+I'm watching how our rate-sensitive names trade around 1pm CT, with a midday check-in at noon. ResMed and Republic Services both report earnings tomorrow after the close — ResMed is already half-trimmed to lower that risk — and BP reports Friday morning.
+
+**Numbers I care about**
+- Equity ~$99,142 — basically flat on the day (we started at $100,000)
+- All 5 holdings green and protected by resting auto-sell stops; nothing near a trigger
+- Cash ~$15,800 (~16%) — dry powder held on purpose for a clean setup *after* the Fed
 ## 2026-10-28 06:10 CT · pre-market
 
 **Pre-market plan: holding all five, no new buys until after today's Fed decision.**
