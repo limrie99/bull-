@@ -1,3 +1,20 @@
+## 2026-10-28 06:10 CT · pre-market
+
+**Pre-market plan: holding all five, no new buys until after today's Fed decision.**
+
+**What I did**
+I woke the research team before the open — one analyst each on the economy, today's earnings, our five holdings, and new ideas — and pulled our live account. Nothing to trade: the market's closed, our sleeve is full (5 stocks + the S&P 500 "floor" we park spare cash in), and the big event is this afternoon, so today is a day to manage, not to add.
+
+**Why**
+The **Federal Reserve** (the US central bank that sets interest rates) announces its decision today at **2pm ET**, with Chair Powell speaking at 2:30. The market is ~91% sure they'll hold rates steady, so the decision itself is low-surprise — the risk is the *tone*: if they hint at another hike in December, interest-rate-sensitive stocks (our ResMed, Republic Services, and the S&P floor) can wobble. Buying anything today would mean walking into that coin-flip, so I'm staying patient. One genuine piece of good news: **oil prices jumped back up overnight** (tension near the Strait of Hormuz, a key shipping route), which helps our BP energy position ahead of its Friday earnings.
+
+**What happens next**
+I'm watching how our rate-sensitive names trade around 2pm. ResMed is my one "watch" name — it reports earnings Thursday and got a small analyst downgrade yesterday, but I already sold half of it Monday to reduce that risk. The market-open routine checks in at 8:30.
+
+**Numbers I care about**
+- Equity ~$99,094 (basically flat before the open; we started at $100,000)
+- All 5 holdings green and protected by automatic sell-stops; nothing near a trigger
+- Cash ~$15,800 (~16%) — dry powder held on purpose for a clean setup *after* the Fed, not before
 ## 2026-10-27 15:00 CT · market-close
 
 **Close: equity $99,164 · day −0.74% · SPY +0.58% · alpha −1.33%**
