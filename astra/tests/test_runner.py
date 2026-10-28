@@ -27,26 +27,53 @@ class ScheduledRoutineTests(unittest.TestCase):
     def test_due_window_includes_github_cron_delay(self):
         # 16:36 UTC on a weekday is 12:36 ET in September — 6 minutes after 12:30.
         due = datetime(2026, 9, 16, 12, 36, tzinfo=runner.NY)
-        self.assertEqual(runner.scheduled_routine(due), "portfolio-check")
+        self.assertEqual(
+            runner.scheduled_routine(due, "30 16,17 * * 1-5"), "portfolio-check",
+        )
 
     def test_closing_decision_survives_37_minute_actions_delay(self):
         # Observed 2026-09-16 19:37 UTC start (15:37 ET) previously missed the 20-minute window.
         delayed = datetime(2026, 9, 16, 15, 37, tzinfo=runner.NY)
-        self.assertEqual(runner.scheduled_routine(delayed), "closing-decision")
+        self.assertEqual(
+            runner.scheduled_routine(delayed, "0 19,20 * * 1-5"), "closing-decision",
+        )
 
     def test_risk_shutdown_still_wins_near_1550(self):
         near = datetime(2026, 9, 16, 15, 55, tzinfo=runner.NY)
-        self.assertEqual(runner.scheduled_routine(near), "risk-shutdown")
+        self.assertEqual(
+            runner.scheduled_routine(near, "50 19,20 * * 1-5"), "risk-shutdown",
+        )
 
     def test_est_candidate_does_not_double_fire_during_edt(self):
         # 13:00 UTC in September is 9:00 ET — the EST 8:00 candidate must not rematch.
         est_candidate = datetime(2026, 9, 16, 9, 0, tzinfo=runner.NY)
-        self.assertIsNone(runner.scheduled_routine(est_candidate))
+        self.assertIsNone(runner.scheduled_routine(est_candidate, "0 12,13 * * 1-5"))
 
     def test_off_window_is_idle(self):
         # 11:10 ET is 55 minutes after 10:15 and still before the 12:30 slot.
         idle = datetime(2026, 9, 16, 11, 10, tzinfo=runner.NY)
-        self.assertIsNone(runner.scheduled_routine(idle))
+        self.assertIsNone(runner.scheduled_routine(idle, "15 14,15 * * 1-5"))
+
+    def test_off_season_crons_stay_on_their_own_routine(self):
+        # Off-season hours land inside a neighbor's 45-minute window. The cron
+        # that fired is the one that may run, and only against its own start.
+        entry_check_edt = datetime(2026, 9, 16, 10, 25, tzinfo=runner.NY)
+        self.assertIsNone(runner.scheduled_routine(entry_check_edt, "25 13,14 * * 1-5"))
+        self.assertEqual(
+            runner.scheduled_routine(entry_check_edt, "15 14,15 * * 1-5"), "entry-check",
+        )
+
+        risk_shutdown_edt = datetime(2026, 9, 16, 16, 0, tzinfo=runner.NY)
+        self.assertIsNone(runner.scheduled_routine(risk_shutdown_edt, "0 19,20 * * 1-5"))
+        self.assertEqual(
+            runner.scheduled_routine(risk_shutdown_edt, "50 19,20 * * 1-5"), "risk-shutdown",
+        )
+
+        premarket_est = datetime(2026, 1, 14, 8, 25, tzinfo=runner.NY)
+        self.assertIsNone(runner.scheduled_routine(premarket_est, "25 13,14 * * 1-5"))
+        self.assertEqual(
+            runner.scheduled_routine(premarket_est, "0 12,13 * * 1-5"), "premarket-research",
+        )
 
 
 NO_CREDENTIALS = {
