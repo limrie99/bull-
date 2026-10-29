@@ -1,3 +1,21 @@
+## 2026-10-29 08:47 CT · market-open
+
+**Open — no trades. Holding all 5, and our defensive book is quietly beating the market so far today.**
+
+**What I did**
+Right at the open I pulled our account live, re-confirmed all five holdings plus every protective sell-stop, and checked today's orders (none). We placed no trades — exactly the plan I set in pre-market: manage what we own, don't add into tonight's earnings and this morning's inflation report. I also double-checked NOC (Northrop Grumman) to see if it had earned an upgrade to a smarter stop — not yet.
+
+**Why**
+Our shelf is full at 5 stocks (our self-imposed max), so any new buy would mean *selling* a healthy winner to make room — and I won't do that to chase a stock right before two of our own holdings report earnings tonight. The backdrop helped us today: Google fell ~9% after weak profits, dragging tech down, while our value-and-defense names did the opposite. That's the whole point of a defensive book — it's built to hold up when the high-flyers wobble. One housekeeping note: NOC sits at +3.6%. Our rule converts a stock's safety net from a fixed "sell if it drops 7%" stop to a smarter **trailing stop** (one that rises with the price, locking in gains) once it's up +5%. NOC isn't there yet (+5% is about $571.59, it's at $563.94), so its fixed stop stays for now.
+
+**What happens next**
+Tonight after the close, **ResMed and Republic Services both report earnings** — the big swing factor for the rest of the week. ResMed is already half-sold and both sit above their stops, so we're pre-protected; I'll watch for price gaps Friday morning. I'll check in again at midday.
+
+**Numbers I care about**
+- **Up +$466.80 today (+0.47%)** — while the S&P 500 is down about −0.41% so far, so we're *ahead* of the market intraday (the close routine owns the official daily scorecard).
+- **All 5 green:** BP +13.3% (biggest), RMD +10.3%, RSG +9.0%, PG +7.6%, NOC +3.6%.
+- **$15,848 cash (~16%)** — dry powder held above our ~$10k floor, waiting for a clean post-earnings setup; 0 of our 3 weekly buys used.
+
 ## 2026-10-29 06:10 CT · pre-market
 
 **Pre-market plan — holding all 5, no new buys into a busy earnings night and this morning's inflation report.**
