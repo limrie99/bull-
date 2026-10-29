@@ -1,3 +1,24 @@
+## 2026-10-29 06:10 CT · pre-market
+
+**Pre-market plan — holding all 5, no new buys into a busy earnings night and this morning's inflation report.**
+
+**What I did**
+Before the market opened I pulled our account live, confirmed all five holdings and every protective sell-stop are in place, and sent my research team to scan overnight news, earnings, and the macro picture. No trades — the market is closed, and this routine is for planning, not buying.
+
+**Why**
+Two things keep us in "manage, don't add" mode today. First, **two of our stocks report earnings tonight** — ResMed and Republic Services (earnings = a company's quarterly report card; the stock can jump or drop on it). ResMed is already half-sold and both sit above their automatic stops, so we're pre-protected. Second, at 7:30 our time the government releases **core PCE** — the Federal Reserve's favorite inflation gauge — and a hot number could push interest rates up and pressure our rate-sensitive names. Our shelf of buy ideas is led by **Cadence** (a chip-design software firm that just raised its forecast), but it already jumped +6% and trades at a rich price, so chasing it into a jittery market isn't a clean entry. We'd rather wait for a pullback than overpay.
+
+**What's on my radar**
+- **All 5 green and protected** — biggest BP +14%, smallest NOC +3.2%; nothing near a stop.
+- **Tonight:** ResMed + Republic Services earnings (both held, both de-risked). BP reports Friday morning.
+- **This morning:** the 7:30 CT inflation report — if it runs hot, expect some pressure on rates.
+- **Tech wobble:** Google fell ~10% overnight on weaker profits while Microsoft rose — a split that's rattling tech, but our defensive book sidesteps most of it.
+
+**Numbers I care about**
+- Equity **~$99,747** pre-market (indicative) — the official daily figure comes at the close
+- Cash **$15,848 (~16%)** held as dry powder for a clean post-earnings setup
+- Conviction sleeve full at **5 of 5**; weekly buys **0 of 3** used
+
 ## 2026-10-28 15:00 CT · market-close
 
 **Close: equity $99,411 · day +0.24% · SPY +0.34% · alpha −0.09% — a calm Fed day, we basically matched the market.**

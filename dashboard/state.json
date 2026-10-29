@@ -1,39 +1,39 @@
 {
-  "last_update": "2026-10-28 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-29 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99410.85,
+  "equity": 99746.68,
   "cash": 15848.18,
-  "day_pl": 240.04,
-  "day_pl_pct": 0.24,
-  "spy_day_pct": 0.34,
-  "alpha_day_pct": -0.09,
-  "week_pl_pct": -0.20,
+  "day_pl": 412.63,
+  "day_pl_pct": 0.42,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": 0.14,
   "spy_week_pct": 1.64,
-  "alpha_week_pct": -1.84,
+  "alpha_week_pct": -1.50,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 49.79,
-      "pl_pct": 11.89,
+      "current": 50.71,
+      "pl_pct": 13.96,
       "stop": 46.3365
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 552.77,
-      "pl_pct": 1.54,
+      "current": 562.00,
+      "pl_pct": 3.24,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 158.26,
-      "pl_pct": 6.89,
+      "current": 160.17,
+      "pl_pct": 8.18,
       "stop": 150.165
     },
     {
@@ -48,7 +48,7 @@
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 233.4,
+      "current": 233.40,
       "pl_pct": 7.06,
       "stop": 218.898
     },
@@ -56,8 +56,8 @@
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.253333,
-      "current": 773.91,
-      "pl_pct": 1.00,
+      "current": 770.76,
+      "pl_pct": 0.59,
       "stop": null
     }
   ],
@@ -135,6 +135,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-29 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan · holding all 5 · no new buys into tonight's earnings + this morning's inflation report",
+      "body": "ResMed + Republic Services report earnings tonight (both held, both de-risked); BP reports Friday. 7:30 CT core-PCE inflation print is the morning swing factor. Bench led by Cadence but it's +6%-extended at a rich price = not a clean entry. Sleeve full 5/5, ~$15.8k dry powder held for a clean post-earnings setup."
+    },
+    {
       "ts": "2026-10-28 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $99,411 · day +0.24% · SPY +0.34% · alpha -0.09%",
@@ -175,12 +181,6 @@
       "routine": "market-open",
       "headline": "Open: no trades · holding all 5 into tomorrow's Fed meeting · day -0.33%",
       "body": "Manage-only open; sleeve full, nothing qualified into FOMC-eve."
-    },
-    {
-      "ts": "2026-10-26 15:05 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $99,898 · day +0.29% · SPY +0.71% · alpha -0.42%",
-      "body": "Quiet up day, slightly behind the market. Trimmed half of ResMed earlier before Thursday's earnings."
     }
   ]
 }
