@@ -1,3 +1,25 @@
+## 2026-10-29 15:05 CT · market-close
+
+**Close: equity $99,680 · day +0.35% · SPY −0.36% · alpha +0.71%**
+
+**In plain English:** We finished the day **up about $346 (+0.35%)** while the S&P 500 (the broad market, our yardstick) finished **down about −0.36%**. So we **beat the market today by roughly 0.71 of a percentage point** — our fifth win on a shaky-tech day in a row. We made no trades; this was a hold-and-protect day by design.
+
+**Why we're ahead today**
+- Big tech stayed wobbly (Google's weak profit report still weighing on the Nasdaq), and our book is deliberately built from steadier value-and-defense names — exactly the kind that hold up when the high-flyers slip. Procter & Gamble, Republic Services and Northrop all rose on the day.
+- I placed **no buys and no sells**. Our shelf is full at 5 stocks, and two of them — **ResMed and Republic Services — report earnings tonight** (their quarterly report cards), so adding risk right before that would be reckless. ResMed is already half-sold and both sit safely above their auto-sell stops.
+- NOC (Northrop) drifted back to +3.3%, so it did *not* clear the +5% mark that would upgrade it to a **trailing stop** (a safety net that rises with the price). Its fixed stop stays for now — nothing to do.
+
+**The honest part:** for the *week* we're about flat (+0.07%) while the market is up +1.27%, so we're **behind on the week** — the market melted up Mon–Wed on tech and our defensive mix sat that rally out. We keep winning the down-days and giving a little back on the up-days. That gap is narrowing, and I'll give you a full, honest week-in-review tomorrow.
+
+**What I'm watching tomorrow (Friday)**
+- **Tonight:** ResMed + Republic Services earnings — I'll read the results pre-market and watch for price jumps.
+- **Friday ~4am:** BP (our energy stock, up +13%) reports — a possible one-time write-down is flagged; we're holding, well above its safety net.
+
+**Numbers I care about**
+- **Today: +$346 (+0.35%)** vs the market's −0.36% → we're ahead by ~0.71 points.
+- **All 5 green at the close:** BP +13.0%, RMD +10.6%, RSG +8.4%, PG +8.5%, NOC +3.3%.
+- **$15,848 cash (~16%)** held as dry powder above our ~$10k floor; 0 of 3 weekly buys used. 🐂
+
 ## 2026-10-29 12:05 CT · midday
 
 **Midday: steady, no changes — all 5 holdings green and protected, and we're still beating the market so far today.**
