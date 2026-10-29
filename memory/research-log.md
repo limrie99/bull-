@@ -13150,3 +13150,36 @@ Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No hi
 - **Events runway:** **FOMC decision today 2pm ET + Powell 2:30**; **MSFT/GOOGL 10/28 AMC** (AI-capex verdict); **RMD/RSG 10/29 AMC, LLY 10/29 BMO, AMZN 10/29 AMC**; BP 10/30 ~4am ET. Watch 10Y (~5.0%) for a rate repricing that moves RMD/RSG/SPY.
 - **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (not exercised this routine — no trigger).
 - **Unverified:** none — account/positions/open-orders/clock all pulled live this run.
+
+## 2026-10-29 12:05 CT · MIDDAY (Thu — EARNINGS NIGHT: RMD + RSG report AMC)
+
+**Routine:** midday risk-management. Market **CONFIRMED OPEN** via `/v2/clock` (is_open=true, 13:05 ET; next_close 16:00 ET; next_open 2026-10-30 09:30 ET). **Live verify (all pulled this run):** equity **$99,681.24**, cash **$15,848.18 (~15.90%)**, last_equity (Wed 10/28 close) $99,334.05 → day **+$347.19 / +0.35%**, buying_power $298,125.30, long_mv $83,833.06, status ACTIVE. Open orders = **exactly 5** (NOC hard stop 59a67c62 @ 506.26; + 4 GTC trailing: BP 209e58f4 floor 46.3365/hwm 51.485, PG 272e2864 150.165/166.85, RMD 6095b269 229.491/254.99 qty 21, RSG 135c200e 218.898/243.22); SPY unencumbered. Sleeve **5/5 — FULL**. Weekly conviction buys **0/3** (week 10/26–10/30, day 4 of 5). Inbox: **no Pending**. Astra: **no proposals** (file still "No proposals yet"). **NO TRADES — steady, nothing to change, manage-only into tonight's RMD/RSG earnings.**
+
+### Risk checks (live, priority order)
+- **(a) Any position −7% or worse un-stopped?** **NO.** All 5 conviction green (BP +12.97% $50.27, NOC +4.03% $566.32, PG +7.49% $159.15, RMD +10.23% $252.01, RSG +7.56% $234.49). SPY +0.38% $769.17 (index-floor sleeve, no stop by design). Nothing within shouting distance of a stop → no Perplexity 4-hr news-check triggered.
+- **(b) Any +5%+ needing hard→trailing conversion?** **NONE yet.** NOC is the only hard stop, at **+4.03%** ($566.32) — still ~0.9% under its +5% conversion line (544.37×1.05 = **$571.59**). It CLIMBED from +3.60% at the open (moving TOWARD the line, unlike Wed when it slipped away). Watch at the close: if it clears +5% ($571.59), convert hard→trailing. The 4 older names already trail; all four sit below their hwm (BP 51.485, PG 166.85, RMD 254.99, RSG 243.22) → no floor ratchet this run, floors unchanged from the open.
+- **(c) Daily loss cap:** day **+0.35%** (positive) — far from the −3% cap. New buys would be permitted by the cap (none qualify / sleeve full).
+- **(d) Sell signals?** **None.** All 5 theses intact; no −7% breach, no thesis break, no fundamentals deterioration, no breaking catalyst, no better-opp swap worth freeing a slot into tonight's earnings. No sell.
+- All 5 stops rested clean since the open; no fills, no rejects, no partials (today's closed-orders list empty).
+
+### No-buy rationale (midday)
+Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No high-conviction breaking catalyst surfaced (no Astra proposal, no inbox request, no held-name news break). It is **earnings night** — RMD + RSG both report tonight AMC — and the pre-market/open plan is explicitly manage-only / no new buys into that two-name coin-flip + Fri BMO BP. Nothing changed that. Midday mandate is manage-what's-on, and everything on is healthy. **$0 risked; configuration held.** Deliberately skipped a research fan-out — running one to justify inaction into a full sleeve + locked no-buy window is waste (per the operating-model note).
+
+### Benchmark (intraday — close owns the official scorecard)
+- **Intraday today:** SPY **769.17** vs Wed 10/28 settled close 772.28 → **−0.40%**; book **+0.35%** → intraday alpha **~+0.75** (defensive book BEATING a mild risk-off tape — same pattern as the open; our value/defense sleeve working as designed while tech digests GOOGL's capex miss).
+- **WTD** (base Fri 10/23 official close: book $99,607.35 / SPY 759.83): book **+0.07%** / SPY **+1.23%** → **alpha ~−1.16 WTD** (still trailing on the week's growth-led melt-up, but the gap keeps narrowing as tech rolls over; close + tonight's RMD/RSG prints settle the week).
+
+### Voices
+- **Research:** no new proposal; held-book theses all intact; no bench name clears the gate on a clean entry into a full sleeve (CDNS still +extended/~40x — not a clean entry), and earnings night argues against initiating anyway.
+- **Risk:** stops healthy; day +0.35% leaves full buffer; NOC's hard stop still protects it below the +5% line (but closing in — watch at the close); no concentration or stop-integrity issue. Defensive sleeve beating the tape today — a close/weekly observation, not a midday action; structural A/B already with Lauren (default A).
+- **Trader:** no order placed — nothing to execute, cancel, or convert. Held.
+
+### Handoff → MARKET-CLOSE (Thu 2026-10-29 ~15:00 CT)
+- **MANDATORY:** market-close owns today's plain-English daily scorecard vs SPY to `messages.md` **AND the Telegram push** (never skipped, trade or no trade). Lead with up/down in $ and %, vs SPY, and whether we're ahead. Firm the intraday numbers at the actual close.
+- **Re-verify live:** account/positions/orders/clock; confirm exactly 5 orders (NOC hard 506.26; BP/PG/RMD/RSG trailing; RMD 229.491 qty 21); SPY unencumbered; daily loss-cap check.
+- **NOC +5% conversion:** at +4.03% ($566.32), only ~0.9% under the +5% line (~$571.59) and CLIMBING — if it clears +5% at the close, convert hard→trailing (cancel 59a67c62, place 10% trailing_stop GTC qty 18). The 4 others already trail.
+- **EARNINGS TONIGHT (Thu AMC): RMD + RSG both report.** RMD half-trimmed + above floor (229.491); RSG held under trailing (218.898). Current lean: trailing stops + the prior RMD trim suffice — no further pre-earnings trim unless a thesis break surfaces by the close. Watch pre-market Fri gaps.
+- **Hold all 5 — sleeve FULL; no new buys into the earnings gauntlet.** ~$15.8k dry powder held for a clean post-earnings setup.
+- **Events runway:** **RMD/RSG 10/29 AMC**; BP 10/30 ~4am ET BMO (possible ~$3–4.5B write-down; well above floor). Watch 10Y (~5.0%) for a rate repricing that moves RMD/RSG/SPY.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (not exercised this routine — no trigger).
+- **Unverified:** none — account/positions/open-orders/clock all pulled live this run.

@@ -1,3 +1,21 @@
+## 2026-10-29 12:05 CT · midday
+
+**Midday: steady, no changes — all 5 holdings green and protected, and we're still beating the market so far today.**
+
+**What I did**
+I pulled our account live again, re-checked all five stocks and their protective sell-stops, and confirmed no trades have happened since the open (none were planned). Nothing needed changing — every position is healthy and sitting comfortably above its safety net. I made no buys and no sells.
+
+**Why**
+Midday is a risk-check routine, not a shopping trip: my job right now is to make sure nothing we own is breaking down, not to go hunting for new ideas. Our shelf is full at 5 stocks, and two of them — ResMed and Republic Services — report earnings (their quarterly report cards) tonight after the close, so this is no time to add risk. One thing I'm watching: NOC (Northrop Grumman) is up +4.0% and creeping toward +5%. At +5% our rule upgrades its safety net from a fixed stop to a **trailing stop** (a safety net that automatically rises as the price rises, locking in more of the gain). It's about $5 away ($571.59), so I'll check it again at the close.
+
+**What happens next**
+Tonight ResMed and Republic Services report earnings — the big swing factor into Friday. Both already sit above their stops, and ResMed is half-sold, so we're pre-protected. The close routine will send you the official daily scorecard and convert NOC's stop if it clears +5%.
+
+**Numbers I care about**
+- **Up +$347 today (+0.35%)** while the S&P 500 is down about −0.40% — so we're *ahead* of the market intraday again.
+- **All 5 green:** BP +13.0% (biggest), RMD +10.2%, RSG +7.6%, PG +7.5%, NOC +4.0%.
+- **$15,848 cash (~16%)** held as dry powder above our ~$10k floor; 0 of 3 weekly buys used.
+
 ## 2026-10-29 08:47 CT · market-open
 
 **Open — no trades. Holding all 5, and our defensive book is quietly beating the market so far today.**
