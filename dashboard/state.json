@@ -1,16 +1,16 @@
 {
-  "last_update": "2026-10-30 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-30 16:05 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
-  "equity": 99024.54,
+  "equity": 99038.14,
   "cash": 20674.19,
-  "day_pl": -794.40,
-  "day_pl_pct": -0.80,
+  "day_pl": -780.80,
+  "day_pl_pct": -0.78,
   "spy_day_pct": -1.79,
-  "alpha_day_pct": 0.99,
-  "week_pl_pct": -0.59,
+  "alpha_day_pct": 1.01,
+  "week_pl_pct": -0.57,
   "spy_week_pct": -0.54,
-  "alpha_week_pct": -0.04,
+  "alpha_week_pct": -0.03,
   "positions": [
     {
       "symbol": "BP",
@@ -32,8 +32,8 @@
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 161.57,
-      "pl_pct": 9.12,
+      "current": 161.89,
+      "pl_pct": 9.34,
       "stop": 150.165
     },
     {
@@ -48,8 +48,8 @@
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.253333,
-      "current": 756.28,
-      "pl_pct": -1.30,
+      "current": 755.99,
+      "pl_pct": -1.34,
       "stop": null
     }
   ],
@@ -127,6 +127,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-30 16:05 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending Oct 30: -0.57% | SPY -0.54% | alpha -0.03% | grade B",
+      "body": "Honest week report-card: after three straight weekly wins, we TIED the market this week -- we slipped -0.57% and so did the S&P 500 (-0.54%), finishing a whisker behind. No spin: the streak is over. The week was two-sided -- the Mon-Wed rally-into-the-Fed is our weak spot (our steady defensive stocks don't climb as fast on up days), so we fell behind, then Thu-Fri's selloff is where we shine (Friday us -0.80% vs market -1.79%) and we clawed back to even. The real win was risk management on ResMed: I trimmed half on Monday to lock +10% BEFORE its earnings, it then gapped ~6% lower, and our safety net sold the rest Friday -- net +$518 for the week instead of giving it back. No rules changed: one tie after three beats is noise, not a reason to tinker. Monday I'll look for a clean buy for the open slot -- only if something good is on sale. Equity $99,038; $20,674 cash (~21%)."
+    },
+    {
       "ts": "2026-10-30 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $99,025 · day -0.80% · SPY -1.79% · alpha +0.99%",
@@ -167,12 +173,6 @@
       "routine": "market-open",
       "headline": "Open · no trades · holding all 5 · defense beating the market intraday (+0.47% vs SPY -0.41%)",
       "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, nothing near a trigger. No buys into tonight's RMD/RSG earnings + this morning's inflation report. Google fell ~9% dragging tech down while our value/defense names held up. NOC +3.6% -- still below its +5% conversion line, hard stop stays. ~$15.8k dry powder held for a clean post-earnings setup."
-    },
-    {
-      "ts": "2026-10-29 06:10 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan · holding all 5 · no new buys into tonight's earnings + this morning's inflation report",
-      "body": "ResMed + Republic Services report earnings tonight (both held, both de-risked); BP reports Friday. 7:30 CT core-PCE inflation print is the morning swing factor. Bench led by Cadence but it's +6%-extended at a rich price = not a clean entry. Sleeve full 5/5, ~$15.8k dry powder held for a clean post-earnings setup."
     }
   ]
 }

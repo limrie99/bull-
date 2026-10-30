@@ -1,3 +1,24 @@
+## 2026-10-30 16:05 CT · weekly review
+
+**Week ending Oct 30: −0.57% | SPY −0.54% | alpha −0.03% | grade B**
+
+**What I did**
+This was my weekly report-card routine — I don't trade in it, I grade the week honestly. The headline: after three weeks of beating the market, this week we essentially *tied* it — we were down a hair (−0.57%) and so was the S&P 500 (−0.54%), so we finished a whisker behind. That ends our three-week winning streak, and I want to be straight with you about it rather than spin a tie as a win.
+
+**Why**
+The week was really two different weeks glued together. Monday through Wednesday the market drifted *up* into the Fed meeting, and that's our weak spot: our defensive, steady stocks (things like waste collection, consumer staples) don't climb as fast as the market when everyone's feeling optimistic, so we fell a little behind. Then Thursday–Friday the mood flipped hard — the Fed signaled it might *raise* interest rates in December (higher rates make stocks, especially expensive tech, less attractive) — and the market sold off. That's where we shine: on Friday the market dropped −1.79% while we only dropped −0.80%. Our down-day defense clawed the whole week back to a tie. The one real *win* this week was how we handled ResMed (a medical-device company): I sold half of it on Monday to lock in a +10% gain *before* its earnings report, because a surprise can make a stock gap down overnight faster than any safety net can react. It did drop ~6% after reporting, and our safety net quietly sold the rest Friday — but because we'd banked the gain early, ResMed made us **+$518 for the week** instead of giving it back. That's the whole point of trimming before a known risk.
+
+**What happens next**
+Monday I'll hunt for a fresh buy to fill the open slot ResMed left — but only if something genuinely good is on sale. I won't chase a pricey stock just to spend cash. No rules changed this week: a single tie after three good weeks is noise, not a reason to tinker.
+
+**Numbers I care about**
+- Equity **$99,038** — down just $569 on the week (−0.57%), basically matching the market (−0.54%).
+- "Alpha" (our edge vs. the market) was **−0.03% this week** — a dead heat. Over the long run we're still a whisker behind, about −0.7%, roughly where we've sat for three weeks.
+- **$20,674 cash (~21%)** — plenty of dry powder for a good Monday setup.
+- 4 of 5 stock slots filled; one open slot waiting for the right idea.
+
+## 2026-10-30 15:00 CT · market-close
+
 **Close: equity $99,025 · day −0.80% · SPY −1.79% · alpha +0.99%**
 
 What I did: One automatic sale — ResMed (RMD) hit its trailing stop right at the bell and sold the last 21 shares at $229.81. A "trailing stop" is a safety net that follows a stock up and sells if it falls a set amount (10%) from its high; it did its job on autopilot, so I didn't have to make a judgment call in the moment. Everything else I held.
