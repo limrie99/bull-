@@ -86,7 +86,7 @@ Weekdays in America/New_York:
 5. 15:00 — closing decision
 6. 15:50 — risk shutdown and journal
 
-GitHub cron is UTC-only, so the workflow schedules both daylight- and standard-time candidates. `runner.py --scheduled` checks New York local time and skips the wrong candidate. It also allows up to 45 minutes of GitHub Actions start delay so a late cron still runs the intended slot without overlapping the next one.
+GitHub cron is UTC-only, so each routine has one cron line with its daylight-time and standard-time UTC hours. `runner.py --scheduled <cron>` runs that routine only when New York time is within 45 minutes of the routine's own start. That covers a late Actions run and skips the off-season hour instead of matching whichever slot is nearest.
 
 Six wakeups a day is a *monitoring* cadence, not a day-trading one. `risk-shutdown` means **no new buy proposals plus a journal** — nothing is flattened, and the team holds positions overnight with stops doing the work. (Bull makes the same choice explicitly in `memory/strategy.md` under *Schedule mapping*.)
 
