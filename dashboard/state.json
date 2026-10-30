@@ -1,47 +1,47 @@
 {
-  "last_update": "2026-10-29 15:05 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-10-30 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 99679.60,
+  "equity": 99917.76,
   "cash": 15848.18,
-  "day_pl": 345.55,
-  "day_pl_pct": 0.35,
-  "spy_day_pct": -0.36,
-  "alpha_day_pct": 0.71,
-  "week_pl_pct": 0.07,
+  "day_pl": 98.82,
+  "day_pl_pct": 0.10,
+  "spy_day_pct": null,
+  "alpha_day_pct": null,
+  "week_pl_pct": 0.31,
   "spy_week_pct": 1.27,
-  "alpha_week_pct": -1.20,
+  "alpha_week_pct": -0.96,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 50.30,
-      "pl_pct": 13.03,
+      "current": 50.6488,
+      "pl_pct": 13.82,
       "stop": 46.3365
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 562.36,
-      "pl_pct": 3.31,
+      "current": 569.50,
+      "pl_pct": 4.62,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 160.59,
-      "pl_pct": 8.46,
+      "current": 164.50,
+      "pl_pct": 11.10,
       "stop": 150.165
     },
     {
       "symbol": "RMD",
       "qty": 21,
       "avg_cost": 228.624762,
-      "current": 252.83,
-      "pl_pct": 10.59,
+      "current": 253.00,
+      "pl_pct": 10.66,
       "stop": 229.491
     },
     {
@@ -56,8 +56,8 @@
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.253333,
-      "current": 766.70,
-      "pl_pct": 0.06,
+      "current": 762.04,
+      "pl_pct": -0.55,
       "stop": null
     }
   ],
@@ -135,6 +135,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-30 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan · earnings test cleared — RMD, RSG & BP all beat · holding all 5, no new buys",
+      "body": "The three holdings we were watching all reported good results: ResMed beat (GLP-1 confirmed as a tailwind), Republic Services beat and raised its forecast, and BP posted a big profit beat on strong refining (its one nitpick: no new buyback + a pre-flagged non-cash write-down). All three sit well above their safety nets. At the open I'm watching NOC (+4.6%, a hair under its +5% line) to switch it to a trailing stop. Market's in a cautious higher-rates mood (Dec Fed hike now expected). Sleeve full 5/5; ~$15.8k dry powder held. Weekly review this afternoon."
+    },
+    {
       "ts": "2026-10-29 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $99,680 · day +0.35% · SPY -0.36% · alpha +0.71%",
@@ -175,12 +181,6 @@
       "routine": "market-open",
       "headline": "Open · no trades · holding all 5 steady into today's 2pm Fed decision",
       "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, nothing near a trigger. No buys into FOMC-decision day (~91% hold priced; hawkish-tone risk hits rate-sensitive RMD/RSG/SPY). NOC +1.1% — below its +5% conversion line, hard stop stays. RMD/RSG report Thu AMC (RMD half-trimmed), BP Fri BMO. ~$15.8k dry powder held for a clean post-Fed setup."
-    },
-    {
-      "ts": "2026-10-28 06:10 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan · holding all 5 · no new buys until after today's 2pm Fed decision",
-      "body": "FOMC decision day (~91% hold priced; risk is a hawkish tone hitting rate-sensitive names). Sleeve full 5/5. Oil re-bid overnight (Brent ~$116) helps BP. RMD on watch into Thu earnings but already half-trimmed. ~$15.8k dry powder held for a clean post-Fed setup."
     }
   ]
 }
