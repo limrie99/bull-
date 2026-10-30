@@ -1,3 +1,17 @@
+**Close: equity $99,025 · day −0.80% · SPY −1.79% · alpha +0.99%**
+
+What I did: One automatic sale — ResMed (RMD) hit its trailing stop right at the bell and sold the last 21 shares at $229.81. A "trailing stop" is a safety net that follows a stock up and sells if it falls a set amount (10%) from its high; it did its job on autopilot, so I didn't have to make a judgment call in the moment. Everything else I held.
+
+Why: It was an ugly Friday for the whole market — the S&P 500 fell −1.79% on worries the Fed may *raise* rates in December. We fell only −0.80%, so we beat the market by about a point today — our defensive stocks (BP, Republic Services, Procter & Gamble) held up far better than tech. The ResMed sale was planned, not a panic: we'd already taken most of our profit on it earlier this week, and this exit still locked a tiny gain (+$24.89). It frees up one of our five slots for a fresh idea next week.
+
+What happens next: My weekly review is next (this afternoon) — the honest full-week scorecard. On Monday I'll look for a clean new buy to fill ResMed's empty slot, but only if something genuinely good is on sale (I won't chase a pricey stock).
+
+Numbers I care about:
+- Down −$794 today (−0.80%), but ahead of the market by ~1 point — we lose less on red days.
+- For the WEEK we finished a dead heat: us −0.59% vs the market −0.54% (basically tied). Honest take below.
+- $20,674 cash now (~21% of the account), lifted by the ResMed sale — plenty of dry powder for a good setup.
+- 4 of 5 stock slots filled; weekly review coming up.
+
 ## 2026-10-30 12:05 CT · midday
 
 **Midday: steady, no changes · all 5 green and protected · still beating the market as the selloff deepens (−0.51% vs the S&P's −1.78%)**

@@ -421,3 +421,11 @@ Signals matched: N/A (risk-rule maintenance — keep the remaining position prot
 Stop set: RMD 10% trailing GTC, qty 21 (floor 227.7945 at placement; ratchets up with price).
 Research reference: this market-open execution (de-risk trim + stop resize).
 Notes: Open-orders re-verified = exactly 5 (NOC −7% hard 506.26; BP/PG/RSG trailing unchanged; RMD trailing NEW at 21 sh); SPY 48 unencumbered. daytrade_count unaffected (sell only, no same-day RMD buy).
+
+## 2026-10-30 15:00 CT (15:59 ET) | SELL (trailing-stop auto-exit) | RMD | 21 @ 229.81 | 6095b269-2777-48b6-b317-318579116eb9
+Thesis (exit): RMD's resting 10% trailing GTC stop FIRED at the close. RMD drifted post-earnings (clean Q1 FY27 beat $2.91 vs $2.68 but FY27 guide reiterated-not-raised → gapped down ~6% on 10/30 and drifted lower into the close), slicing the 229.491 trailing floor; the stop executed mechanically. NOT a discretionary sell — exactly the hands-off plan ("if it slices 229.491 let the trailing stop fire, don't pre-empt"). RMD thesis was intact (beat + GLP-1 tailwind); this is a multiple-reset exit at a locked small profit, not a thesis-break dump.
+Signals matched: sell-signal #2 mechanics — 10% trailing stop triggered. Position management, not a forced call.
+Stop set: N/A — position fully closed (21 → 0). No open RMD order remains (verified: closed-orders shows this fill; open-orders = exactly 4, no RMD).
+Realized P/L: **+$24.89 (+0.52%)** (21 × (229.81 − 228.624762)). RMD realized this WEEK total: +$517.85 (10/26 half-trim +$492.96 + today's stop +$24.89).
+Research reference: research-log 2026-10-30 midday + Handoff → MARKET-CLOSE ("RMD post-earnings watch: ~1.2% above floor 229.491; if it slices, let the trailing stop fire mechanically").
+Notes: Market CONFIRMED closed via /v2/clock (is_open:false, 16:02 ET) — stop filled 15:59 ET at the close auction window. Proceeds ~$4,826 lifted cash to $20,674.19 (~20.9%). Sleeve 5/5 → **4/5** (one open conviction slot now free). Weekly conviction buys 0 of 3 (week 10/26–10/30, DONE — this is a sell, no buy budget used). daytrade_count null (no same-day RMD buy). Open orders now exactly 4 (NOC hard 506.26; BP/PG/RSG trailing); SPY 48 unencumbered.

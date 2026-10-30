@@ -1,67 +1,66 @@
 {
-  "last_update": "2026-10-30 12:05 CT",
-  "last_routine": "midday",
+  "last_update": "2026-10-30 15:05 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 99310.91,
-  "cash": 15848.18,
-  "day_pl": -508.03,
-  "day_pl_pct": -0.51,
-  "spy_day_pct": -1.78,
-  "alpha_day_pct": 1.27,
-  "week_pl_pct": -0.30,
-  "spy_week_pct": -0.53,
-  "alpha_week_pct": 0.23,
+  "equity": 99024.54,
+  "cash": 20674.19,
+  "day_pl": -794.40,
+  "day_pl_pct": -0.80,
+  "spy_day_pct": -1.79,
+  "alpha_day_pct": 0.99,
+  "week_pl_pct": -0.59,
+  "spy_week_pct": -0.54,
+  "alpha_week_pct": -0.04,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 50.67,
-      "pl_pct": 13.87,
+      "current": 50.39,
+      "pl_pct": 13.24,
       "stop": 46.3365
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 562.375,
-      "pl_pct": 3.31,
+      "current": 557.54,
+      "pl_pct": 2.42,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 163.02,
-      "pl_pct": 10.10,
+      "current": 161.57,
+      "pl_pct": 9.12,
       "stop": 150.165
-    },
-    {
-      "symbol": "RMD",
-      "qty": 21,
-      "avg_cost": 228.624762,
-      "current": 232.31,
-      "pl_pct": 1.61,
-      "stop": 229.491
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 244.00,
-      "pl_pct": 11.93,
+      "current": 244.04,
+      "pl_pct": 11.95,
       "stop": 224.433
     },
     {
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.253333,
-      "current": 755.80,
-      "pl_pct": -1.36,
+      "current": 756.28,
+      "pl_pct": -1.30,
       "stop": null
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-10-30 15:59",
+      "side": "SELL",
+      "symbol": "RMD",
+      "qty": 21,
+      "price": 229.81
+    },
     {
       "date": "2026-10-26 08:38",
       "side": "SELL",
@@ -124,27 +123,26 @@
       "symbol": "BP",
       "qty": 214,
       "price": 44.499813
-    },
-    {
-      "date": "2026-10-01 08:39",
-      "side": "SELL",
-      "symbol": "CFR",
-      "qty": 60,
-      "price": 151.63
     }
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-30 15:05 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $99,025 · day -0.80% · SPY -1.79% · alpha +0.99%",
+      "body": "Ugly Friday for the market (S&P -1.79% on Dec-rate-hike worries) but we fell only -0.80% -- beat the market by ~1 point as our defensive names (BP, Republic Services, P&G) held up far better than tech. One automatic sale: ResMed's trailing stop fired at the bell (21 sh @ $229.81, a planned mechanical exit that still locked +$24.89); we'd already banked most of its profit earlier this week. Honest week note: we finished a DEAD HEAT (us -0.59% vs market -0.54%) -- won the down-days but the index floor capped us on the Mon-Wed rally, so no 4th straight weekly beat. $20,674 cash (~21%) now; one open slot for a fresh idea Monday. Weekly review next."
+    },
+    {
       "ts": "2026-10-30 12:05 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes · all 5 green and protected · still beating the market as the selloff deepens (-0.51% vs SPY -1.78%)",
-      "body": "Quiet midday risk-check; no stop or conversion due. All 5 holdings green and above their safety nets while the market has a rough Friday (Dec-hike worries). ResMed has drifted to +1.6%, now ~1% above its stop — not selling by hand; the thesis is intact and the trailing stop handles any further slip mechanically. NOC +3.3%, still under its +5% conversion line. On the day we're ahead by over a point; for the week we've nudged slightly ahead of the market. ~$15.8k dry powder held. Weekly review this afternoon owns the official scorecard."
+      "body": "Quiet midday risk-check; no stop or conversion due. All 5 holdings green and above their safety nets while the market has a rough Friday (Dec-hike worries). ResMed has drifted to +1.6%, now ~1% above its stop -- not selling by hand; the thesis is intact and the trailing stop handles any further slip mechanically. NOC +3.3%, still under its +5% conversion line. On the day we're ahead by over a point; for the week we've nudged slightly ahead of the market. ~$15.8k dry powder held. Weekly review this afternoon owns the official scorecard."
     },
     {
       "ts": "2026-10-30 08:40 CT",
       "routine": "market-open",
       "headline": "Open · no trades · holding all 5 · defense beating the market again (-0.28% vs SPY -1.28%)",
-      "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, no buys. All earnings now behind us (RMD/RSG/BP all beat). ResMed opened down ~6% on a merely-reaffirmed (not raised) forecast — thesis intact, already half-sold, sitting ~3.5% above its stop, so I'm letting the stop manage it, not panic-selling. Republic Services rallied on a beat-and-raise; its trailing stop auto-ratcheted up. NOC +3.2%, back under its +5% conversion line. On the week we're now roughly EVEN with the market as today's selloff unwinds the Mon-Wed tech rally. ~$15.8k dry powder held. Weekly review this afternoon."
+      "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, no buys. All earnings now behind us (RMD/RSG/BP all beat). ResMed opened down ~6% on a merely-reaffirmed (not raised) forecast -- thesis intact, already half-sold, sitting ~3.5% above its stop, so I'm letting the stop manage it, not panic-selling. Republic Services rallied on a beat-and-raise; its trailing stop auto-ratcheted up. NOC +3.2%, back under its +5% conversion line. On the week we're now roughly EVEN with the market as today's selloff unwinds the Mon-Wed tech rally. ~$15.8k dry powder held. Weekly review this afternoon."
     },
     {
       "ts": "2026-10-30 06:10 CT",
@@ -156,31 +154,25 @@
       "ts": "2026-10-29 15:05 CT",
       "routine": "market-close",
       "headline": "Close: equity $99,680 · day +0.35% · SPY -0.36% · alpha +0.71%",
-      "body": "We finished up +$346 (+0.35%) while the S&P 500 fell -0.36% — our fifth straight win on a shaky-tech day, ahead by ~0.71 points. No trades: a hold-and-protect day into tonight's RMD + RSG earnings (both above their stops; RMD half-sold). NOC drifted to +3.3%, below its +5% conversion line, so its fixed stop stays. Honest note: for the WEEK we're ~flat (+0.07%) vs the market's +1.27% — we sat out the Mon-Wed tech melt-up. Full week-in-review tomorrow. BP reports Friday ~4am; held well above its floor."
+      "body": "We finished up +$346 (+0.35%) while the S&P 500 fell -0.36% -- our fifth straight win on a shaky-tech day, ahead by ~0.71 points. No trades: a hold-and-protect day into tonight's RMD + RSG earnings (both above their stops; RMD half-sold). NOC drifted to +3.3%, below its +5% conversion line, so its fixed stop stays. Honest note: for the WEEK we're ~flat (+0.07%) vs the market's +1.27% -- we sat out the Mon-Wed tech melt-up. Full week-in-review tomorrow. BP reports Friday ~4am; held well above its floor."
     },
     {
       "ts": "2026-10-29 12:05 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes · all 5 green and protected · still beating the market intraday (+0.35% vs SPY -0.40%)",
-      "body": "Quiet midday risk-check; no stop or conversion due. All 5 holdings green and above their safety nets. NOC +4.0% — climbing toward its +5% conversion line (~$571.59, ~0.9% away); will convert to a trailing stop at the close if it clears. Holding all 5 into tonight's RMD + RSG earnings; ~$15.8k dry powder held for a clean post-earnings setup. Close routine owns the daily scorecard."
+      "body": "Quiet midday risk-check; no stop or conversion due. All 5 holdings green and above their safety nets. NOC +4.0% -- climbing toward its +5% conversion line (~$571.59, ~0.9% away); will convert to a trailing stop at the close if it clears. Holding all 5 into tonight's RMD + RSG earnings; ~$15.8k dry powder held for a clean post-earnings setup. Close routine owns the daily scorecard."
     },
     {
       "ts": "2026-10-29 08:47 CT",
       "routine": "market-open",
       "headline": "Open · no trades · holding all 5 · defense beating the market intraday (+0.47% vs SPY -0.41%)",
-      "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, nothing near a trigger. No buys into tonight's RMD/RSG earnings + this morning's inflation report. Google fell ~9% dragging tech down while our value/defense names held up. NOC +3.6% — still below its +5% conversion line, hard stop stays. ~$15.8k dry powder held for a clean post-earnings setup."
+      "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, nothing near a trigger. No buys into tonight's RMD/RSG earnings + this morning's inflation report. Google fell ~9% dragging tech down while our value/defense names held up. NOC +3.6% -- still below its +5% conversion line, hard stop stays. ~$15.8k dry powder held for a clean post-earnings setup."
     },
     {
       "ts": "2026-10-29 06:10 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan · holding all 5 · no new buys into tonight's earnings + this morning's inflation report",
       "body": "ResMed + Republic Services report earnings tonight (both held, both de-risked); BP reports Friday. 7:30 CT core-PCE inflation print is the morning swing factor. Bench led by Cadence but it's +6%-extended at a rich price = not a clean entry. Sleeve full 5/5, ~$15.8k dry powder held for a clean post-earnings setup."
-    },
-    {
-      "ts": "2026-10-28 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $99,411 · day +0.24% · SPY +0.34% · alpha -0.09%",
-      "body": "Calm Fed day — the Fed held rates steady and the market shrugged off Powell's cautious tone. We gained +$240, essentially matching the S&P. No trades; all 5 green and protected. ResMed + Republic Services report earnings tomorrow after the close (ResMed already half-trimmed)."
     }
   ]
 }
