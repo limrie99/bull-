@@ -1,63 +1,63 @@
 {
-  "last_update": "2026-10-30 06:10 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-10-30 08:40 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 99917.76,
+  "equity": 99539.53,
   "cash": 15848.18,
-  "day_pl": 98.82,
-  "day_pl_pct": 0.10,
-  "spy_day_pct": null,
-  "alpha_day_pct": null,
-  "week_pl_pct": 0.31,
-  "spy_week_pct": 1.27,
-  "alpha_week_pct": -0.96,
+  "day_pl": -279.41,
+  "day_pl_pct": -0.28,
+  "spy_day_pct": -1.28,
+  "alpha_day_pct": 1.00,
+  "week_pl_pct": -0.07,
+  "spy_week_pct": -0.02,
+  "alpha_week_pct": -0.05,
   "positions": [
     {
       "symbol": "BP",
       "qty": 214,
       "avg_cost": 44.499813,
-      "current": 50.6488,
-      "pl_pct": 13.82,
+      "current": 50.34,
+      "pl_pct": 13.12,
       "stop": 46.3365
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 569.50,
-      "pl_pct": 4.62,
+      "current": 561.91,
+      "pl_pct": 3.22,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 164.50,
-      "pl_pct": 11.10,
+      "current": 163.19,
+      "pl_pct": 10.22,
       "stop": 150.165
     },
     {
       "symbol": "RMD",
       "qty": 21,
       "avg_cost": 228.624762,
-      "current": 253.00,
-      "pl_pct": 10.66,
+      "current": 237.49,
+      "pl_pct": 3.88,
       "stop": 229.491
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 236.28,
-      "pl_pct": 8.39,
-      "stop": 218.898
+      "current": 244.00,
+      "pl_pct": 11.92,
+      "stop": 224.433
     },
     {
       "symbol": "SPY",
       "qty": 48,
       "avg_cost": 766.253333,
-      "current": 762.04,
-      "pl_pct": -0.55,
+      "current": 759.80,
+      "pl_pct": -0.84,
       "stop": null
     }
   ],
@@ -135,6 +135,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-10-30 08:40 CT",
+      "routine": "market-open",
+      "headline": "Open · no trades · holding all 5 · defense beating the market again (-0.28% vs SPY -1.28%)",
+      "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, no buys. All earnings now behind us (RMD/RSG/BP all beat). ResMed opened down ~6% on a merely-reaffirmed (not raised) forecast — thesis intact, already half-sold, sitting ~3.5% above its stop, so I'm letting the stop manage it, not panic-selling. Republic Services rallied on a beat-and-raise; its trailing stop auto-ratcheted up. NOC +3.2%, back under its +5% conversion line. On the week we're now roughly EVEN with the market as today's selloff unwinds the Mon-Wed tech rally. ~$15.8k dry powder held. Weekly review this afternoon."
+    },
+    {
       "ts": "2026-10-30 06:10 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan · earnings test cleared — RMD, RSG & BP all beat · holding all 5, no new buys",
@@ -175,12 +181,6 @@
       "routine": "midday",
       "headline": "Midday: steady, no changes · all 5 green and protected · up +0.30% into the 2pm Fed decision",
       "body": "Quiet midday, no stop or conversion due. Book recovered to +0.30% on the day. NOC +1.8% — still below its +5% conversion line, hard stop stays. Holding all 5 into today's FOMC decision + Powell; ~$15.8k dry powder held for a clean post-Fed setup. Close routine (after the Fed) owns the daily scorecard."
-    },
-    {
-      "ts": "2026-10-28 08:43 CT",
-      "routine": "market-open",
-      "headline": "Open · no trades · holding all 5 steady into today's 2pm Fed decision",
-      "body": "Verified live at the open: sleeve full 5/5, all stops resting clean, nothing near a trigger. No buys into FOMC-decision day (~91% hold priced; hawkish-tone risk hits rate-sensitive RMD/RSG/SPY). NOC +1.1% — below its +5% conversion line, hard stop stays. RMD/RSG report Thu AMC (RMD half-trimmed), BP Fri BMO. ~$15.8k dry powder held for a clean post-Fed setup."
     }
   ]
 }

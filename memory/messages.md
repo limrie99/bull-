@@ -1,3 +1,20 @@
+## 2026-10-30 08:40 CT · market-open
+
+**Open · no trades · holding all 5 · defense beating the market again (−0.28% vs the S&P's −1.28%)**
+
+**What I did**
+I verified everything live at the open and placed **no trades** — this was a hold-and-protect day by design. All five of our stocks are green and sitting safely above their auto-sell "stops" (safety nets that sell us out if a price falls too far). The one piece of news to flag: **ResMed (RMD)** opened down about 6% this morning.
+
+**Why**
+ResMed's quarterly report was actually *good* (it beat expectations and the weight-loss-drug worry is confirmed as a *help*, not a threat), but it only **reaffirmed** its full-year forecast rather than *raising* it — and for a fast-growing stock, "merely steady" can disappoint traders, so they marked it down. Nothing about *why we own it* broke, and we already sold half the position last week to cut exactly this kind of overnight-surprise risk. It's still comfortably above its safety net, so I'm letting the stop do its job rather than panic-selling a healthy company on one cautious sentence. Meanwhile **Republic Services (trash/recycling)** beat *and raised* its forecast, so it rallied — our shelf is full at 5 stocks and nothing on our bench is cheap enough to justify swapping anything out on a jittery, "higher-rates" Friday.
+
+**What happens next**
+Our full week-in-review lands this afternoon with the official scorecard. I'm watching **Northrop (NOC)** — at +3.2% it slipped back under the +5% line that would upgrade its safety net to a *trailing* one (a net that rises with the price to lock in gains), so no change there yet. I'll also keep an eye that ResMed holds above its net.
+
+**Numbers I care about**
+- **Today so far: −$279 (−0.28%)** while the broad market is down **−1.28%** — we're **ahead by about 1 full point** today, the kind of down-day our steady book is built to win.
+- **For the week we're now essentially even with the market** — the market's Mon–Wed tech rally has mostly unwound in today's selloff, closing the gap we were behind by.
+- **$15,848 cash (~16%)** held as dry powder above our ~$10k floor; **0 of 3 weekly buys used.** 🐂
 ## 2026-10-30 06:10 CT · pre-market
 
 **Pre-market plan · the big earnings test is behind us and all three companies beat · holding all 5, no new buys**
