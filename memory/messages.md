@@ -1,3 +1,21 @@
+## 2026-10-30 12:05 CT · midday
+
+**Midday: steady, no changes · all 5 green and protected · still beating the market as the selloff deepens (−0.51% vs the S&P's −1.78%)**
+
+**What I did**
+I ran my midday safety check — pulled our account and every position live — and placed **no trades**. The midday job is to manage what we already own, not to go shopping, and everything we own is behaving. All five of our stocks are still in the green and sitting above their auto-sell "stops" (the safety nets that sell us out if a price falls too far). I didn't need to adjust a single one.
+
+**Why**
+The market is having a rough Friday — the broad market (the S&P 500) is down about **−1.78%** on worries that the Fed will *raise* interest rates in December. Our book of steady, defensive companies (energy, consumer staples, trash collection, defense, healthcare) is only down **−0.51%**, so on a down day like this our style is doing exactly what it's built to do: lose less. One thing I'm watching: **ResMed (RMD)**, the sleep-apnea company, has drifted down to just +1.6% and is now only about 1% above its safety net. I'm *not* selling it by hand — its quarterly results were good and the reason we own it is intact; if it keeps slipping, the stop will sell it automatically, which is the disciplined way to handle it.
+
+**What happens next**
+The **weekly review lands this afternoon** with the official scorecard versus the market. I'm watching ResMed's safety net and **Northrop (NOC)** at +3.3%, still under the +5% line that would upgrade it to a trailing (gain-locking) net.
+
+**Numbers I care about**
+- **Today: −$508 (−0.51%)** while the market is down **−1.78%** — we're **ahead by over a point** on the day.
+- **For the week we've nudged slightly ahead of the market** (us ≈ −0.30% vs the market ≈ −0.53%) as today's selloff keeps unwinding Monday–Wednesday's tech rally.
+- **$15,848 cash (~16%)** held as dry powder above our ~$10k floor; **0 of 3 weekly buys used.** 🐂
+
 ## 2026-10-30 08:40 CT · market-open
 
 **Open · no trades · holding all 5 · defense beating the market again (−0.28% vs the S&P's −1.28%)**
