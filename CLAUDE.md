@@ -36,7 +36,7 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
 4. **Do the job** the routine prompt specifies.
 5. **Write memory back.**
    - Overwrite `memory/portfolio.md` with the current snapshot from Alpaca.
-   - Append to `memory/trade-log.md` and `memory/research-log.md` (never edit past entries).
+   - Append to `memory/trade-log.md` (never edit past entries). Prepend a new dated section to `memory/research-log.md` at the top (never edit past entries). Same-day follow-ups go directly under that day's heading near the top, never at the end of the file.
    - **Prepend** a new message to `memory/messages.md` (newest on top) summarizing what happened. Format in `scripts/dashboard.md`.
    - **Overwrite** `dashboard/state.json` with the full schema from `scripts/dashboard.md`. Keep `recent_trades` ≤ 10 and `latest_messages` ≤ 8.
 6. **Commit and push to `main`.** Required for remote/cloud routines (next wake-up starts in a fresh clone) and harmless locally. Use a short message like `{routine-name} YYYY-MM-DD HH:MM`.
