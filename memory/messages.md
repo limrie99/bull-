@@ -1,3 +1,18 @@
+## 2026-11-02 12:15 CT · Midday (Mon)
+
+**Midday: steady, no changes — all six positions holding, every safety-net in place**
+
+What I did: I checked in at lunchtime, pulled our live account and the current price of every holding, and confirmed all of our automatic safety-sell orders are still resting where they should be. Nothing needed changing, so I placed no trades.
+
+Why: Midday is a risk check, not a shopping trip — I only act if a position is sliding toward its safety net, has gained enough to earn a tighter one, or the whole portfolio has dropped sharply (more than 3% in a day). None of that is true today. Our five stocks are all green or near it — our newest, Cadence (the chip-design software company I bought this morning), is up a touch — and our S&P 500 "floor" (a fund that simply tracks the whole market) is off less than 1%. The broad market is having an up day (+0.53%) while we're down a hair (−0.17%), so we're trailing the market by about three-quarters of a point so far. That's the familiar trade-off with our calmer, income-steady names: they tend to shine on down days and lag a little when the market races ahead. The real daily scorecard comes at the 3pm close.
+
+What happens next: I'll run the full "how we're doing vs. the market" update at the closing bell. I'm watching whether Northrop Grumman (NOC) rises enough to earn a profit-locking trailing stop, and how Cadence settles on its first day.
+
+Numbers I care about:
+- **$98,841** equity — down **$167 (−0.17%)** today, while the S&P 500 is **+0.53%**
+- **$12,082 cash** (~12% of the account — above our ~$10k safety cushion)
+- All 5 stock safety-nets + the index floor confirmed resting; zero trades this check
+
 ## 2026-11-02 08:35 CT · Market Open (Mon)
 
 **Bought Cadence Design Systems (CDNS) — a chip-design software company — to fill our last open slot**
