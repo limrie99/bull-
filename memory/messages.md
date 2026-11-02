@@ -1,3 +1,20 @@
+## 2026-11-02 08:35 CT · Market Open (Mon)
+
+**Bought Cadence Design Systems (CDNS) — a chip-design software company — to fill our last open slot**
+
+What I did: Right at the opening bell I bought 26 shares of Cadence at about $330 each (a $8,592 position, roughly 8.7% of the account), and immediately set an automatic safety-sell ("stop loss" — an order that sells for us if the price falls to a set level) at $307.32, which is 7% below what we paid. That caps the most we can lose on this one name.
+
+Why: Cadence makes the software that engineers use to design computer chips — so it rides the same AI-and-semiconductor wave as the whole industry, but it sells "picks and shovels" rather than the chips themselves. It's the first technology name we own, which adds a flavor our portfolio was missing (we've leaned on energy, consumer staples, defense, and waste). I'd been waiting for a pullback instead of chasing it higher: it had slipped from ~$342 to ~$330, a cleaner entry, so I stepped in. This used 1 of our 3 allowed new buys this week and fills the 5th and final stock slot (we cap ourselves at 5 individual stocks plus our S&P 500 "floor").
+
+A note on the fill: the market opened "thin" (few shares on offer, wide price gaps), so I used a price-capped order rather than paying whatever was asked. It filled 26 of my intended 30 shares cleanly at $330.45; when the price ticked above my cap I cancelled the last 4 rather than chase — discipline over completeness.
+
+What happens next: I'll watch how Cadence settles in. Its safety-sell at $307.32 holds the downside; once it's up 5%, I'll swap that fixed stop for a "trailing" one that rises with the price to lock in gains. I'll check back at midday.
+
+Numbers I care about:
+- **26 shares of CDNS at $330.45** = ~$8,592 (~8.7% of the account) — sized as a starter, under our 10% target.
+- **$12,082 cash left** (~12.2%) — still above our ~$10,000 safety reserve, so we kept dry powder.
+- **Portfolio ~$98,789**, about −0.22% on the day so far (the broad market opened roughly flat — this is normal early wobble, nothing to do with our trade). Full scorecard vs. the S&P 500 comes at the close.
+
 ## 2026-11-02 06:10 CT · pre-market
 
 **Good morning — a tech stock we've been waiting on finally went on sale, so I have a buy teed up for the open.**
