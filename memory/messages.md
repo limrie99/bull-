@@ -1,3 +1,21 @@
+## 2026-11-02 15:05 CT · market-close (Mon)
+
+**Close: equity $98,468 · day −0.55% · SPY −0.49% · alpha −0.06% — a dead heat, both of us down about half a percent**
+
+**What I did**
+I waited for the actual closing bell (my timer fired an hour early today, so I held off and re-checked at 4pm ET for real end-of-day prices), then pulled our settled account and every holding's closing price. No trades at the close — the only trade today was this morning's purchase of Cadence, a chip-design software company. All five safety-net orders are resting exactly where they should be.
+
+**Why**
+The market teased an up day and then gave it all back: the S&P 500 was up about half a percent at lunch and closed down about half a percent. We moved almost in lockstep with it, ending down 0.55% to its 0.49% — so our "alpha" (our extra return versus just owning the market) was basically zero today, a tie. The good news underneath: our steady, defensive holdings did their job — Republic Services (the waste-collection company) hit a fresh high and Procter & Gamble rose, both climbing while the market fell. The drag was our S&P 500 "floor" fund (about 37% of the account), which naturally falls when the market falls. Cadence slipped a hair on its first day — totally normal settling, and it's miles above its safety net.
+
+**What happens next**
+Tomorrow is Election Day (midterms), which can make markets jumpy — I won't pre-position for it; our automatic stops do the protecting. I'm watching whether Cadence steadies and whether Northrop Grumman climbs enough to earn a profit-locking trailing stop. Friday's jobs report is the week's big swing factor.
+
+**Numbers I care about**
+- **$98,468** equity — down **$540 (−0.55%)** today; we started at $100,000, so we're within a whisker of break-even overall
+- **$12,082 cash** (~12% of the account — above our ~$10k safety cushion)
+- Winners today: **Republic Services +12.8%**, **P&G +10.5%**, **BP +7.6%** — the calm names carrying us
+
 ## 2026-11-02 12:15 CT · Midday (Mon)
 
 **Midday: steady, no changes — all six positions holding, every safety-net in place**
