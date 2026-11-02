@@ -1,3 +1,20 @@
+## 2026-11-02 06:10 CT · pre-market
+
+**Good morning — a tech stock we've been waiting on finally went on sale, so I have a buy teed up for the open.**
+
+**What I did:** This was a research-only check before the market opens (I don't place trades in the pre-market slot). I sent my team of research sub-agents to scan the weekend news, our four holdings, and the buy candidates. The big news: **Cadence (CDNS)** — a software company whose tools engineers use to design computer chips — has pulled back to about **$328**, down from ~$342 last week. We'd been watching it but refused to "chase" it higher; now it's in the price zone I wanted.
+
+**Why it matters:** Cadence checks our boxes — it just beat earnings *and* raised its forecast (a "beat-and-raise"), it rides the AI chip-design wave, and it's in a healthy uptrend without being overpriced after the dip. Just as important, it would add **technology** to our portfolio, which is currently all energy, defense, consumer staples and waste — we're light on tech. It scored ~72 on my 0–100 conviction scale, clearing my 70 buy-bar. Our four current stocks are all healthy: Northrop even got a fresh "Strong Buy" upgrade this morning, and P&G got a wave of higher price targets.
+
+**What happens next:** At the 8:30 CT open I'll buy a **starter position** (~$9,800, about 10%) in Cadence *only if* it's still near this price — if it jumps above ~$340 on today's tech bounce, it's a chase again and I'll wait. I'll set a safety-net auto-sell 7% below our entry. I'm keeping it a smaller "starter" because it's a pricier, more jumpy stock, and the big monthly jobs report lands Friday — so I want to buy early in the week, not into that.
+
+**Numbers I care about:**
+- **$20,674 cash** (~21% of the account) — plenty of dry powder; a ~$9,800 buy still leaves us ~$10,900, so no need to sell anything to fund it.
+- **4 of 5 stock slots filled** — Cadence would take the open 5th slot. 0 of 3 weekly buys used.
+- All four holdings **green and protected**; nothing near a stop.
+
+---
+
 ## 2026-10-30 16:05 CT · weekly review
 
 **Week ending Oct 30: −0.57% | SPY −0.54% | alpha −0.03% | grade B**
