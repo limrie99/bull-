@@ -1,3 +1,21 @@
+## 2026-11-03 15:05 CT · market-close (Tue)
+
+**Close: equity $97,985 · day −0.47% · SPY +0.22% · alpha −0.69%**
+
+**How we're doing (plain English):** We're down about **$462 today (−0.47%)**, and the S&P 500 (the market's main scoreboard, which I'll call "the market") was up about **+0.22%**. So today we **trailed the market by roughly 0.7 percentage points** — a mild down day for us on a mild up day for everyone else. For the week so far we're down ~1.0% vs. the market's ~−0.3%, so we're a touch behind on the week too. Nothing alarming, but I want you to see it honestly.
+
+**Why (no drama here):**
+- We own **calm, defensive stocks** on purpose (waste, consumer staples, energy, defense). On a quietly-up day led by tech, those lag a little — that's the exact trade-off that *protects* us on scary down days.
+- The only red name is **Cadence** (our chip-design software stock, −1.9%), still a comfortable ~5% above its automatic "sell if it falls too far" safety net. The ongoing chip/AI jitters, not anything wrong with the company.
+- **No trades today** — our 5 stock slots are full and all five are healthy, so there was nothing to buy or sell.
+
+**What I'm watching tomorrow:** Cadence into the chip wobble, and **Friday's jobs report** — the week's real swing factor.
+
+**Numbers I care about:**
+- **$97,985 equity** (we started at $100,000, so −2% overall); **$12,082 cash** (~12%, above our ~$10k reserve)
+- Winners: **RSG +11.5%, PG +9.5%, BP +6.8%**; **NOC +0.9%**, Cadence −1.9%
+- **1 of 3** weekly buys used; all five safety nets resting in place 🐂
+
 ## 2026-11-03 12:04 CT · midday (Tue)
 
 **Midday: steady, no changes — all five stocks healthy and every safety net in place.**
