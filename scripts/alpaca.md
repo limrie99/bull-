@@ -146,4 +146,26 @@ curl -s "$ALPACA_BASE_URL/v2/orders/{order_id}" -H ...
 curl -s "$ALPACA_BASE_URL/v2/clock" -H ...
 ```
 
-Returns `is_open`, `next_open`, `next_close`. Use this defensively — if `is_open=false` during the market-open routine, pause and notify.
+Returns `is_open`, `next_open`, `next_close`. Use this together with `scripts/market_clock.py`. New York wall time decides whether the routine's slot is due. This clock decides whether the exchange is actually open, and it blocks a "close" while `next_close` is still more than 20 minutes away. If `is_open=false` during the market-open routine, do not trade.
+
+## SPY floor order (same path, no stop)
+
+The share count comes from `scripts/spy_floor.py`. Do not invent it, and do not use `buying_power` (that number is margin). The order itself is the plain market order above.
+
+A buy of SPY:
+
+```bash
+curl -s -X POST "$ALPACA_BASE_URL/v2/orders" \
+  -H "APCA-API-KEY-ID: $ALPACA_API_KEY" \
+  -H "APCA-API-SECRET-KEY: $ALPACA_SECRET_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "symbol": "SPY",
+    "qty": 15,
+    "side": "buy",
+    "type": "market",
+    "time_in_force": "day"
+  }'
+```
+
+Then **stop**. Do not place the GTC stop for SPY. A trim that funds a stock buy is the same call with `"side": "sell"` and the script's quantity. `qty` 15 above is the 2026-11-04 example (about $11,500), not a standing share count — re-run the script on live prices.

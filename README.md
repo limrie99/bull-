@@ -17,11 +17,12 @@ memory/
   messages.md          # Bull → user message log (newest on top)
   inbox.md             # User → Bull message queue
 routines/              # Prompts to paste into each Claude Code routine
-  pre-market.md        # 6:00 AM CT  weekdays
-  market-open.md       # 8:30 AM CT  weekdays
-  midday.md            # 12:00 PM CT weekdays
-  market-close.md      # 3:00 PM CT  weekdays
-  weekly-review.md     # 4:00 PM CT  Fridays only
+  CLOCKS.md            # New York wall times, plus summer and winter UTC crons
+  pre-market.md        # 7:00 AM New York / 6:00 AM Central, weekdays
+  market-open.md       # 9:30 AM New York / 8:30 AM Central, weekdays
+  midday.md            # 1:00 PM New York / 12:00 PM Central, weekdays
+  market-close.md      # 4:00 PM New York / 3:00 PM Central, weekdays
+  weekly-review.md     # Friday 5:00 PM New York / 4:00 PM Central
 scripts/               # API cheat sheets Bull reads at runtime
   alpaca.md
   perplexity.md
@@ -52,7 +53,7 @@ For each file in `routines/`, create a Local routine:
 - New Routine → **Local**
 - Working directory: `C:\Users\lhi\trading-routine`
 - Model: Claude Opus 4.7
-- Schedule: copy the schedule from the top of the routine file
+- Schedule: copy **both** UTC crons from the top of the routine file (summer and winter). Details in `routines/CLOCKS.md`. Do not paste a single Central-time cron, and do not shift a UTC hour by one when daylight saving changes. The routine checks `America/New_York` before it acts.
 - Prompt: copy the code block from the routine file
 
 No GitHub, no cloud environment needed — everything runs locally. Your computer must be on and Claude Code desktop must be running for local routines to fire on schedule.

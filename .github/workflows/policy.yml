@@ -1,0 +1,22 @@
+name: Bull policy checks
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  policy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: SPY sweep, sleeve balance, and New York clock
+        run: python -m unittest discover -s scripts/tests -p "test_*.py" -v

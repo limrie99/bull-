@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-11-04T20:03:00+00:00",
+  "note": "Bull's book on Wednesday 2026-11-04 after the BP trailing stop, using the near-close marks in memory/portfolio.md. Cash was about $22,000. This file is a dry-run input. It does not place an order.",
+  "mode": "paper",
+  "equity": 98638.47,
+  "cash": 21997.01,
+  "spy_price": 767.61,
+  "qualifying_stock_buy_dollars": 0,
+  "daily_loss_cap_hit": false,
+  "positions": [
+    {"symbol": "CDNS", "qty": 26, "price": 330.65},
+    {"symbol": "NOC", "qty": 18, "price": 528.21},
+    {"symbol": "PG", "qty": 65, "price": 167.63},
+    {"symbol": "RSG", "qty": 44, "price": 245.34},
+    {"symbol": "SPY", "qty": 48, "price": 767.61}
+  ]
+}

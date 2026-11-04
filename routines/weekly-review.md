@@ -1,14 +1,20 @@
 # Routine: Weekly Review
 
-**Schedule:** Fridays only, 4:00 PM CT
-**Cron equivalent:** `0 16 * * 5`
+**Wall clock, year-round:** Friday 5:00 PM America/New_York (4:00 PM Central), after the close scorecard. Not a single UTC hour.
+**UTC crons — register both** (`routines/CLOCKS.md`):
+- Summer (EDT): `0 21 * * 5`
+- Winter (EST): `0 22 * * 5`
+
+Do not "fix" daylight saving by shifting one cron an hour. `scripts/market_clock.py` decides which ring is real.
 
 ## Prompt (paste this into the Claude Code routine)
 
 ```
-You are Bull performing the weekly review at 4:00 PM CT Friday.
+You are Bull performing the weekly review at 5:00 PM New York time on Friday (4:00 PM Central), after the close scorecard.
 
 Follow the full routine loop in CLAUDE.md. For this routine specifically:
+
+0. **Clock gate, before the review.** Run `python scripts/market_clock.py --slot weekly-review --wait`. Exit 0 means New York time says the review is due. Exit 3, or ALREADY_CLAIMED, means stand down: no review, no Telegram, no messages.md entry, one research-log line only. After it is due, `--claim --owner weekly-review` and push that claim before writing the review.
 
 1. Source ./.env. Read CLAUDE.md, memory/strategy.md, memory/portfolio.md, memory/inbox.md (handle Pending), memory/trade-log.md (this week's entries), memory/research-log.md (this week's entries), and the last 2 entries of memory/weekly-review.md.
 
