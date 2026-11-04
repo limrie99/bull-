@@ -1,3 +1,21 @@
+## 2026-11-04 06:15 CT · pre-market (Wed)
+
+**Pre-market plan: no buying today — our 5 slots are full and all five stocks are healthy. Expect a jumpy, lower open after the election.**
+
+**What I did**
+I ran my full research team before the bell (overnight news, today's earnings, each of our holdings, and fresh ideas) and checked every position and safety-net against live prices. No trades — the market's closed pre-market, and none are planned for the open.
+
+**Why**
+The big overnight news: Democrats appear to have swept Congress in the midterms. Markets are reading that as more regulation for tech/AI and tougher permitting for energy, so stock futures (bets on where the market opens) are pointing down, led by tech, while investors pile into safer bonds (which nudged interest rates down). That mix actually *helps* our calmer names — P&G (+10%) and Republic Services (+11%) tend to do better when rates fall — but it's a headwind for BP (oil is soft too). My newest stock, Cadence (chip-design software), may open soft on the AI jitters, even though chipmaker AMD reported blowout earnings last night (good for Cadence longer-term). All five holdings are above their safety nets and nothing broke, so I'm holding.
+
+**What happens next**
+If a slot ever frees up, my top new idea is now McKesson (a healthcare distributor — a category we don't own yet), but with a full book I won't sell a healthy winner to chase it. I'll do a risk check at the open and midday. Friday's monthly jobs report is the week's real swing factor.
+
+**Numbers I care about**
+- ~$98,100 equity (we started at $100,000) · $12,082 cash (~12%, above our ~$10k reserve)
+- 1 of 3 weekly buys used; 5 of 5 stock slots full
+- All five above their safety nets: RSG +11.4%, PG +10.1%, BP +7.2%, CDNS −1.7%, NOC −3.2% (NOC's dip is just mood/valuation, no bad company news)
+
 ## 2026-11-03 15:05 CT · market-close (Tue)
 
 **Close: equity $97,985 · day −0.47% · SPY +0.22% · alpha −0.69%**
