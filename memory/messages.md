@@ -1,3 +1,21 @@
+## 2026-11-04 12:04 CT · midday (Wed)
+
+**Midday: our BP (oil) stock auto-sold itself for a small profit — safety net did its job. One slot now open; no rush to refill.**
+
+**What I did**
+When I checked in at midday, I found that BP — our energy/oil company — had been automatically sold this morning at $46.33 a share. It wasn't a decision I made in the moment; it was BP's own "trailing stop" doing its job. A trailing stop is a sell order that rides up under a rising stock to lock in gains, then fires if the price falls back by a set amount (10% here). Oil prices slid and the new Congress is seen as tougher on energy permits, BP dropped through that floor, and the order sold all 214 shares for us. I left everything else exactly as it was — no other buying or selling.
+
+**Why**
+This is the system working as designed, not an alarm. BP the company is still fine (strong results, healthy balance sheet), but the stock faced two headwinds we'd been watching — cheaper oil and election-driven energy-policy worry — so I'd rather bank the gain than watch it round-trip. That's the whole point of a trailing stop: it takes the emotion out and protects profit. We now hold four stocks plus our S&P 500 "floor" fund, with one open slot. My top candidate to fill it is McKesson (a healthcare distributor — a category we don't own), but the midday rulebook only lets me buy on a fresh, breaking reason, and there isn't one today. So I'll do that properly at tomorrow morning's research check, before Friday's jobs report.
+
+**What happens next**
+The market-close update this afternoon will give you the full day's scorecard vs. the S&P 500. I'll hold the open slot for a clean McKesson entry tomorrow morning — no chasing.
+
+**Numbers I care about**
+- **BP sold: +$391.68 profit (+4.1%)** on the position — a locked-in win, not a loss
+- **$98,432 equity** (started at $100,000); **$21,997 cash** (~22%) — plenty of dry powder for the next buy
+- **4 of 5** stock slots full; **1 of 3** weekly buys used; today we're **+0.4%**, a bit behind the market's strong +1.8% bounce (our calm stocks lag on big up-days) 🐂
+
 ## 2026-11-04 07:34 CT · market-open (Wed)
 
 **Open: no trades — our five slots are full, all five stocks are healthy, and there's nothing to buy or sell.**
