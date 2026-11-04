@@ -1,16 +1,22 @@
 # Routine: Pre-Market
 
-**Schedule:** Weekdays, 6:00 AM CT (Mon–Fri)
-**Cron equivalent:** `0 6 * * 1-5` (US Central)
+**Wall clock, year-round:** 7:00 AM America/New_York (6:00 AM Central). Not a single UTC hour.
+**UTC crons — register both** (`routines/CLOCKS.md`):
+- Summer (EDT): `0 11 * * 1-5`
+- Winter (EST): `0 12 * * 1-5`
+
+Do not "fix" daylight saving by shifting one cron an hour. `scripts/market_clock.py` decides which ring is real.
 
 ## Prompt (paste this into the Claude Code routine)
 
 ```
-You are Bull waking for the pre-market routine at 6:00 AM CT. Market opens in 3.5 hours.
+You are Bull waking for the pre-market routine at 7:00 AM New York time (6:00 AM Central). The market opens at 9:30 New York time.
 
 Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
-1. Source ./.env and read CLAUDE.md, memory/strategy.md (note the **Conviction Score** rubric and buy-gate), memory/portfolio.md, memory/watchlist.md, memory/inbox.md (handle Pending), **memory/astra-proposals.md (Astra's overnight research proposals — new blocks since your last run)**, last 10 entries of memory/trade-log.md, and top 3 entries of memory/research-log.md.
+0. **Clock gate, before research.** Run `python scripts/market_clock.py --slot pre-market --wait`. Exit 0 means New York time says this slot is due — continue. Exit 3, or a claim that says ALREADY_CLAIMED, means stand down: no scorecard, no Telegram, no messages.md entry, one research-log line only. Then `GET /v2/clock`. Pre-market expects the market to be closed. Pass `--clock-is-open` and `--next-open` and run the script once more without `--wait`. If it is not due, stand down the same way. After it is due, run `--claim --owner pre-market` and push that claim with the normal `HEAD:main` loop before the long research, so the other season's alarm cannot do the work twice.
+
+1. Source ./.env and read CLAUDE.md, memory/strategy.md (note the **Conviction Score** rubric, the buy-gate, the same-day SPY sweep, and the defensive-sleeve cap), memory/portfolio.md, memory/watchlist.md, memory/inbox.md (handle Pending), **memory/astra-proposals.md (Astra's overnight research proposals — new blocks since your last run)**, last 10 entries of memory/trade-log.md, and top 3 entries of memory/research-log.md.
 
    **How to use Astra's proposals:** Astra is the team's outside research helper; its blocks are evidence, not decisions, and it cannot place orders. Score any proposed name yourself with the full Conviction rubric — Astra's confidence number never substitutes for your score, and the 2-signal + ≥70 gate still applies. Say in the research log which Astra proposals you took, passed on, and why (one line each).
 
@@ -28,11 +34,11 @@ Follow the full routine loop in CLAUDE.md. For this routine specifically:
      - *Smart-money screen (only if EQUIBLES_API_KEY is set):* top insider-sentiment scores with cluster buys (`clusterBuysOnly=true`, $10B+ cap), cross-checked against 13F top-buys — candidates here feed **signal #7** in strategy.md but still need a real catalyst and the full Conviction Score like everyone else.
      For each candidate, give the matched screen + the specific near-term catalyst.
 
-   **Synthesize:** for every buy candidate, you (Bull) own the **Thesis & catalyst (0–100)** dimension and the light **Technical-timing (0–100)** dimension, then compute the **Conviction Score** = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech. Count buy signals separately.
+   **Synthesize:** for every buy candidate, you (Bull) own the **Thesis & catalyst (0–100)** dimension and the light **Technical-timing (0–100)** dimension, then compute the **Conviction Score** = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech. Count buy signals separately. Record a beta and a sector for every candidate and every holding. Run the names through `scripts/sleeve.py` rules (strategy.md, "Sleeve balance"): at most 2 of the 5 stock slots may be defensive or low-beta (beta under 0.85, or staples / utilities / waste / telecom / defense / aerospace) **for future buys**. Names already held stay even if the book is over the cap — do not propose a sale to fix the mix. A name that moves with the market (beta at least 1.0) gets +5 rank points only among names that already cleared Conviction ≥ 70. The +5 does not help a 68 across the gate.
 
 3. **Update memory/watchlist.md:** re-score every existing watchlist name and every new scout candidate with the Conviction Score, re-sort highest-first, refresh Alert flags, drop anything < 40 twice. The watchlist is the ranked queue market-open buys from.
 
-4. Prepend a new entry to memory/research-log.md with today's date and "pre-market" header. Sections: Market context, Portfolio watch, **Buy candidates (table: ticker · Conviction Score with the 5 sub-scores · signals matched · catalyst)**, Sell candidates. Flag which candidates clear the gate (2+ signals AND ≥ 70) vs which are watchlist-only. End the entry with a **`Handoff → market-open`** block per the Operating-model section of strategy.md: what to buy/sell and at what levels, standing actions carried forward, what would change the plan, anything left unverified. This is a Research-voice proposal — the open routine's Trader voice re-validates it at live prices and may decline.
+4. Prepend a new entry to memory/research-log.md with today's date and "pre-market" header. Sections: Market context, Portfolio watch, **Buy candidates (table: ticker · Conviction Score with the 5 sub-scores · beta · defensive? · signals matched · catalyst)**, Sell candidates. Flag which candidates clear the gate (2+ signals AND ≥ 70) vs which are watchlist-only, and which gate-clearing names the sleeve cap still blocks. End the entry with a **`Handoff → market-open`** block per the Operating-model section of strategy.md: what to buy/sell and at what levels, standing actions carried forward, what would change the plan, anything left unverified. If no stock buy will be placed at the open, say so explicitly and hand off the same-day SPY sweep (`scripts/spy_floor.py`) — idle cash above the cushion does not wait for a stock idea. This is a Research-voice proposal — the open routine's Trader voice re-validates it at live prices and may decline.
 
 5. Do NOT place any trades. Market is closed.
 

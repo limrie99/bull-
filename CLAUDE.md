@@ -34,6 +34,10 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
    - Never silently override a guardrail — flag conflicts in your reply.
    - Move each handled block to `## Handled` with a one-line note.
 4. **Do the job** the routine prompt specifies.
+
+   **Clock gate, first.** Before any order, before the close scorecard, and before a Telegram push, run the `scripts/market_clock.py` command in that routine's prompt (`routines/CLOCKS.md`). The market keeps New York time. A UTC alarm left over from summer rings about an hour early after the clocks fall back — do not treat that ring as the open or the close, and do not "fix" it by moving the cron one hour. If the script says the slot is not due, or another wake already claimed it, stop: no orders, no scorecard, no Telegram, no `messages.md` entry. One research-log line is enough. The daily close message is still mandatory. It is written when the script says the close is actually due.
+
+   **Idle cash, same day.** On market-open, midday, and a close run where the market is still open: if you are not placing a qualifying stock buy, run `scripts/spy_floor.py` and place the SPY order it prints. Same market-order path as `scripts/alpaca.md`. No stop on SPY. It does not count as one of the 3 weekly stock buys. Never size it off buying power.
 5. **Write memory back.**
    - Overwrite `memory/portfolio.md` with the current snapshot from Alpaca.
    - Append to `memory/trade-log.md` and `memory/research-log.md` (never edit past entries).
@@ -60,9 +64,9 @@ You're Claude Code — when you need to research multiple angles (e.g., 5 candid
 
 - **Paper trading only.** Do not switch to live until `memory/strategy.md` explicitly has `mode: live` and the user has confirmed in-session.
 - Long-only. No options, no shorts, no leverage, no crypto, no penny stocks (< $5).
-- **Max 5 open positions.**
-- **Max 20% of portfolio per single position** (target 15%).
-- **Max 3 new buys per week.**
+- **Max 5 open positions.** Conviction stocks only. The SPY index floor is not one of the five (strategy.md). That exemption is not new.
+- **Max 20% of portfolio per single position** (target 15%). Does not apply to SPY. SPY is a fund that holds the whole market, not one company (strategy.md). That exemption is not new.
+- **Max 3 new buys per week.** Stock picks only. A SPY floor top-up or a SPY trim does not count (strategy.md). That exemption is not new.
 - **Hard stop at -7% from entry.** Once a position is **+5% in profit**, cancel the hard stop and replace it with a **10% trailing stop**.
 - **Daily loss cap:** if portfolio drops >3% intraday, no new buys that day.
 - Never fabricate prices or fills. Always confirm via the Alpaca API.

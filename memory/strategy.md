@@ -74,6 +74,22 @@ Every buy candidate gets one number before any order is placed. This converts "I
 
 A high score with only 1 signal does **not** buy. Two signals with a score of 64 do **not** buy — they go on the watchlist. When at the 5-position cap and a new name scores higher than a held name, that's a *candidate* swap to reason about in the message, not an automatic action.
 
+## Sleeve balance — future picks only (Lauren approved 2026-11-04)
+
+The 5 stock slots are allowed to include calm, defensive companies. They are not allowed to become *only* those. A book of staples, waste, and defense lags on strong up days even when the index floor is doing its job. That is what the sleeve did through the fall of 2026.
+
+**This changes future buys only. Do not sell PG, RSG, NOC, or anything else just to fix the mix.** Holdings are grandfathered. When one leaves on its own (a stop or a broken thesis), the cap below starts to bind.
+
+A name is **defensive / low-beta** if either:
+- its beta is under **0.85** (it rises meaningfully less than the market), or
+- its business is consumer staples, utilities, waste / environmental services, telecom, or defense / aerospace.
+
+Healthcare is not automatically defensive. A low-beta distributor is caught by the beta test. Record a beta on every candidate before a buy; `scripts/sleeve.py` is the check.
+
+**Cap:** at most **2** of the 5 stock slots may be defensive / low-beta, counting names already held. A third defensive candidate stays on the watchlist even at Conviction 80. While the current book is already over the cap, no new defensive name is bought.
+
+**Participation bonus, ranking only:** a candidate with beta at least **1.0** (it keeps up with the market, or outruns it) gets **+5** points when you sort names that already cleared the gate. The +5 is not added to the Conviction Score. A 68 does not become a buy. The gate stays at 2 signals and Conviction ≥ 70.
+
 ## Sell signals — any one triggers
 
 1. **Hard stop: -7% from entry.** (Plain market buy, then a separate GTC stop.)
@@ -89,16 +105,16 @@ Tie the size to the Conviction Score (above), which already folds in the buy-sig
 - **Grade A (score 80–100):** 15–20% of portfolio
 - **Grade B+ (score 70–79):** 10–15%
 - **High-beta override (STANDING RULE as of 2026-07-03, graduated from probation):** for high-beta AI/semiconductor names, the **≤10% starter cap** wins over the band above, even at Grade A. Beta sizing beats conviction sizing for shake-out-prone names. Validated 3× (NVDA ×2, ETN): the smaller size is exactly why ETN's 7/2 shake-out cost −$211 vs NVDA's −$849. This is now a hard sizing rule, not advisory.
-- Never more than 20% in any single position
+- Never more than 20% in any single **stock**. The SPY floor is exempt (it is the whole market, not one company).
 - Keep 10–20% cash buffer at all times
 
 ## Risk rules
 
 - Hard stop: **-7% from entry** (plain market buy, then a separate GTC stop)
 - Trailing stop: **10%**, activated once position is **+5%** in profit
-- Daily loss cap: portfolio down >3% intraday → no new buys rest of day
-- Weekly buy cap: max 3 new positions per week
-- Max 5 open positions
+- Daily loss cap: portfolio down >3% intraday → no new buys rest of day, **including** a SPY top-up
+- Weekly buy cap: max 3 new **stock** positions per week. SPY floor top-ups and SPY trims do not count.
+- Max 5 open **conviction-stock** positions. SPY is a separate sleeve and does not take a slot.
 - Earnings risk: do not open a new position within 3 trading days of its earnings unless the thesis specifically depends on the print
 
 ## Cash-deployment / market-floor policy (added 2026-08-07 — Lauren APPROVED Option B; cash-band amended 2026-08-27)
@@ -109,12 +125,36 @@ Tie the size to the Conviction Score (above), which already folds in the buy-sig
 
 **Rules for the market floor:**
 - **Instrument:** SPY (preferred) or VOO — a broad S&P 500 index ETF. Long-only, large-cap, liquid — breaks no guardrail.
-- **Target:** whole-book cash of about **$10,000, i.e. ~10% of equity.** Never hold ~50% idle by default. Never deploy so much that total cash falls below the **10% floor** of the existing **10–20% minimum buffer**. Idle cash above that band is authorized for the existing SPY market-floor sleeve. Size the next tranche from **live prices**. A further small add is fine if cash is still above ~$10k after the first fill.
+- **Target:** whole-book cash of about **$10,000, i.e. ~10% of equity.** Never hold ~50% idle by default. Never deploy so much that total cash falls below the **10% floor** of the existing **10–20% minimum buffer**. Idle cash above that band goes into the existing SPY market-floor sleeve. As of 2026-11-04 that sweep is required the same session, not a later nice-to-have — see **Same-day idle-cash sweep** below. Size it from **live prices** with `scripts/spy_floor.py`.
 - **The floor is its OWN sleeve, NOT a conviction pick.** Therefore it is **exempt** from: (a) the ≤20%-per-single-position cap (it is a diversified index, not single-company risk — a single SPY lot may exceed 20% of equity), (b) the max-5-positions cap, and (c) the max-3-buys/week cap. Those three caps govern individual stock picks; the index floor does not consume their budget. The **10–20% minimum cash buffer still applies** to the whole book (target the ~10% / ~$10k low end; never breach it).
 - **NO stop on the floor.** Do **not** place a −7% hard stop or a 10% trailing stop on the index floor. Stopping out of the benchmark just re-creates the cash drag we are fixing and locks in a low. The floor is buy-and-hold-the-market; it is meant to track SPY through drawdowns, not exit them. (This is the one deliberate carve-out from the −7%/trailing-stop guardrails, and it applies ONLY to the index-floor sleeve — every individual stock keeps its stops exactly as before.)
 - **The ≥70 Conviction gate is UNCHANGED and was NOT lowered.** The floor is explicitly the alternative to loosening the quality bar: idle cash matches the market via the index while the stock sleeve keeps requiring 2+ signals AND Conviction ≥70. We do not force-buy mediocre individual names — or falling knives — to deploy cash. If a stock (e.g. BJ) independently clears the gate on a **clean entry**, it may use some of the deploy budget; any idle remainder still goes to SPY.
 - **Execution (next session that can actually trade: Fri 2026-08-28):** enlarge the existing SPY floor so whole-book cash lands near ~$10k. Compute exact shares at the live price; log the fill to trade-log.md like any buy (note "MARKET-FLOOR / index sleeve, no stop"). **Jackson Hole:** Fed Chair Warsh's keynote is Fri 8/28 ~10:00 ET / 9:00 CT. Prefer placing the tranche at midday after the speech if the open is chaotic; if the tape is orderly, market-open Fri is allowed. If Lauren countermands in inbox first, stand down. Weekend/overnight veto window is open until then. Do not invent fills; paper only.
-- **Rebalance:** if the stock sleeve later grows (new ≥70 buys) such that total cash would drop below the 10–20% buffer (i.e. below the ~10% / ~$10k floor), trim the floor first to make room — the floor is the shock-absorber, conviction picks take priority for the alpha budget.
+- **Rebalance:** if the stock sleeve later grows (new ≥70 buys) such that total cash would drop below the cushion, trim the floor first to make room — the floor is the shock-absorber, conviction picks take priority for the alpha budget. `scripts/spy_floor.py` returns `action: trim` with the share count. Same plain market sell as `scripts/alpaca.md`. No stop on the SPY that remains.
+
+### Same-day idle-cash sweep (Lauren approved 2026-11-04)
+
+Leaving the cash above the cushion until a stock idea shows up is how the book sat on about **$22,000 cash (~22%)** after BP's trailing stop on 2026-11-04, versus the ~$10,000 cushion. The sibling Maverick book puts that freed cash into SPY the same day. This rule is the same behavior, required rather than optional.
+
+**Whenever a routine can trade, the market is open, cash is above the cushion, and this run is not placing a qualifying stock buy, buy SPY with the excess before the routine ends.** That includes the run that notices a stop or a sell. Do not wait for the next morning, and do not wait for a stock that clears the gate.
+
+Run `python scripts/spy_floor.py` on the live account and obey the JSON. It does not place the order. The Trader voice places the printed quantity with the existing market order (`type: market`, `time_in_force: day`) and then **no stop**. The top-up does **not** count toward the 3 stock buys per week, the 5 stock slots, or the 20% single-company cap. Do not use buying power — that figure is margin, and this book does not borrow.
+
+If a qualifying stock buy *is* being placed this run, do not also sweep in that same run. Size the stock first. If paying for it would drop cash under the cushion, the script says `trim` and you sell that many SPY shares first. The next routine sweeps whatever cash is still idle, so the dollars do not sit out the rest of the day.
+
+The cushion the script leaves is the **larger of $10,000 and 10% of equity**. On today's ~$100,000 book that is $10,000. The 10% check only matters if the account grows, so the older "never below 10%" line still holds. The daily loss cap still blocks the sweep: a day already down more than 3% gets no new buy, index included.
+
+### SPY is the core holding (Lauren approved 2026-11-04)
+
+SPY's target is not a fixed percent, because a fixed percent would fight the 5 stock slots. A full sleeve of stock picks plus a $10,000 cushion cannot also be "50% SPY" without shrinking a slot or the cushion, and neither of those changes.
+
+**Target: SPY holds every dollar that is not in a conviction stock and not in the cash cushion.**
+
+```
+SPY target = equity − cash cushion − market value of the conviction stocks
+```
+
+Empty stock slots stay in SPY until a name clears the gate. A later stock buy funds itself by trimming SPY, then the target shrinks by that buy. Bull cannot drift into a large cash pile on a day the market is rising: the idle dollars are in the index the same day. `scripts/spy_floor.py` prints `spy_target_dollars` and `spy_target_pct` with the order size. On the 2026-11-04 book (about $98,600 equity, about $22,000 cash, four stocks, 48 SPY shares near $768) the target is about half the account, and the sweep is **15 shares, about $11,500**, which is the ~$12,000 of idle cash, leaving about $10,500 in the cushion.
 
 ## Cold-start / anti-paralysis rule (added 2026-06-01)
 
@@ -139,7 +179,7 @@ Herk's accident is our design principle: **the voice that has an idea should not
 |-------|------|------------|
 | **Research / Strategist** | Overnight + macro digests, theses, the 5 Conviction sub-scores, watchlist ordering, buy/sell *proposals* | Never places, sizes, or cancels an order. A proposal is a recommendation, never a fill. |
 | **Risk** | Sizing bands, the high-beta ≤10% starter cap, the binary-macro-print entry advisory, stop integrity, daily loss cap, the cash floor | Never originates a thesis to justify a trade it already wants. |
-| **Trader / Execution** | The only voice that touches Alpaca: orders, separate GTC stops, trailing-stop swaps, fill confirmation, the SPY floor sleeve | Never buys a name that has not cleared Research's gate (2+ signals AND Conviction ≥70) and Risk's checks. |
+| **Trader / Execution** | The only voice that touches Alpaca: orders, separate GTC stops, trailing-stop swaps, fill confirmation, the SPY floor sleeve | Never buys a **stock** that has not cleared Research's gate (2+ signals AND Conviction ≥70) and Risk's checks. The SPY floor is the written exception: it is not a stock pick, it skips that gate, and it still has to pass the cushion, the daily loss cap, and no-margin. |
 
 - **Bull is the accountable owner and the single voice Lauren hears.** The voices are how the work is organized and logged, not a committee she has to referee.
 - **A proposal is never self-executing.** Research proposes → Risk checks → Trader re-validates at live prices and either fills or declines **with the reason logged**. "Research liked it, Trader declined on a wide spread / a stale score / no open slot" is a legitimate outcome — that separation is the whole point.
@@ -179,15 +219,15 @@ Keys live in `.env` locally and in **GitHub Actions secrets** for anything cloud
 
 ### Schedule mapping — what we took, and the one thing we refused
 
-Bull keeps its existing five CT slots, unchanged:
+Bull keeps the same five wall-clock slots. The anchor is **America/New_York**, not a UTC hour frozen in summer. Central is one hour earlier all year. Both UTC alarms are registered; `scripts/market_clock.py` stands down unless New York time (and, for the bell, the Alpaca clock) says the slot is real. See `routines/CLOCKS.md`.
 
-| Bull slot (CT) | Mandate |
-|----------------|---------|
-| 6:00 pre-market | Research fan-out, Conviction re-scores, watchlist re-rank. No trades. |
-| 8:30 open | Execute the plan at live prices; plain market buy, then a separate GTC stop. |
-| 12:00 midday | Manage what's on — stop integrity, trailing-stop swaps, thesis breaks. |
-| 3:00 close | Mandatory plain-English scorecard vs SPY, plus risk check into the overnight. |
-| Fri 4:00 weekly review | Honest retro, alpha vs SPY, strategy changes with a dated changelog entry. |
+| Bull slot | New York | Central | Mandate |
+|-----------|----------|---------|---------|
+| Pre-market | 7:00 | 6:00 | Research fan-out, Conviction re-scores, watchlist re-rank, sleeve-cap flags. No trades. |
+| Open | 9:30 | 8:30 | Execute the plan at live prices; plain market buy, then a separate GTC stop. If no stock buy, sweep idle cash into SPY. |
+| Midday | 13:00 | 12:00 | Manage what's on — stop integrity, trailing-stop swaps, thesis breaks. Sweep cash a stop just freed. |
+| Close | 16:00 | 15:00 | Mandatory plain-English scorecard vs SPY, plus risk check into the overnight. Not an hour before the bell. |
+| Fri weekly review | 17:00 | 16:00 | Honest retro, alpha vs SPY, strategy changes with a dated changelog entry. |
 
 Herk's build wakes six times a market day and **flattens the book by mid-afternoon** so nothing is held overnight. **We do not adopt that.** Our slots exist to *invest and manage risk*, not to be flat by the bell. This is a swing/position book (holds days to months) whose overnight risk is handled by stops and sizing — not by selling everything at 3:50. Closing daily would tax every thesis before it can express (the same mistake v1's 2% stops made) and would make beating SPY arithmetically hard, since SPY is never flat either. The six-slot ET schedule in `astra/` belongs to that separate experiment, and even there the 15:50 "risk-shutdown" means *no new buys plus a journal*, not a forced liquidation.
 
@@ -204,6 +244,7 @@ Herk's build wakes six times a market day and **flattens the book by mid-afterno
 
 ## Changelog
 
+- **2026-11-04 (Lauren approved four improvements; not yet live until this change is merged) — RULE CHANGE, guardrails kept.** Four additions, none of them a silent edit. (1) **Same-day SPY sweep.** Idle cash above the cushion is invested in the existing SPY floor in the same session whenever that run is not placing a qualifying stock buy — including the session that sees a stop free the cash. On the 2026-11-04 book that is about $22,000 cash → buy about $11,500 of SPY (15 shares at the $767.61 mark) and leave about $10,500. `scripts/spy_floor.py` sizes it and does not send the order; the order stays the plain market buy in `scripts/alpaca.md`, with no stop. A later stock buy trims SPY to fund itself. SPY top-ups stay **exempt** from the 3-buys-a-week cap, the 5-stock cap, and the 20% cap, which is the exemption the floor already had. (2) **SPY core target.** SPY's job is to hold every dollar that is not in a conviction stock and not in the cushion (`equity − cushion − stock market value`). Not a fixed percent, because a fixed percent would squeeze the stock slots or the $10,000 cushion. (3) **Sleeve balance, future picks only.** At most 2 of 5 stock slots may be defensive or low-beta (beta under 0.85, or staples / utilities / waste / telecom / defense / aerospace). A beta of at least 1.0 gets +5 rank points among names that already cleared the gate. The +5 does not change the ≥70 gate. Current holdings are not force-sold. (4) **Clocks.** Routines are anchored to America/New_York with both the summer and winter UTC crons. `scripts/market_clock.py` waits out an early ring and refuses a close while Alpaca says the bell is still more than 20 minutes away. This is not a one-hour shift of the old cron. **Unchanged on purpose:** `mode: paper`; the ~$10,000 cushion (the script leaves the larger of $10,000 and 10% of equity, which is $10,000 at today's size); the −7% hard stop and the +5% upgrade to a 10% trailing stop, including no stop on the SPY sleeve; the weekly cap of 3 stock buys; no leverage or margin; the order type and the Alpaca submission path; the Conviction ≥70 and 2-signal gate. The daily loss cap still blocks every new buy, SPY included. Paper only; this entry places no Alpaca order.
 - **2026-10-30 (weekly review) — NO rule changed. Governance record: the 3-week beat streak ENDED in a dead heat, and the regime-sensitivity characteristic is now 4 weeks consistent — logged, NOT reacted to.** Week ending 10/30: SPY −0.54% (759.83 → 755.72) while the book slipped −0.57% ($99,607.35 → $99,038.14) → **alpha −0.03 pt ≈ a TIE, the book a whisker behind** — so the streak (10/9 +0.63, 10/16 +3.32, 10/23 +1.63) does NOT extend to a 4th week. Two-sided tape: a Mon–Wed pre-FOMC melt-up (SPY 759.83 → 772.28) where the ~36.7% SPY floor tracked up but the defensive single names underparticipated and we fell behind, then a Thu–Fri hawkish risk-off reversal (FOMC hold Wed + hot Thu data → Dec-hike priced ~70–86%, 10Y ~5.0%, AMZN light guide + month-end selling) where the book out-defended (Fri −0.80% vs SPY −1.79%, +0.99pt day alpha, 6th straight down-day beat) and clawed the mid-week deficit back to even. Zero conviction buys (0/3), zero live stop-outs, zero errors. The one position closed was **RMD**, exited cleanly and profitably on BOTH legs: the 10/26 earnings-week half-trim banked +$492.96/+10.27% ahead of Thu's print, RMD then gapped ~6% lower on a clean-beat-but-guide-reiterated result and drifted into its 10% trailing stop, which fired at the Fri close for +$24.89 (**RMD +$517.85 realized for the week**) — a textbook "trim before a binary gap a trailing stop can't catch" win. Cumulative alpha since the 5/29 base ~**−0.72 pt** (from ~−0.83 entering; essentially flat — within settled-vs-marked noise, NOT a real repair). **This is a GOVERNANCE/diagnostic record, NOT a rule change: every guardrail is untouched** — the −7% hard stop, 10% trailing at +5%, ≥70 Conviction gate, 2-signal rule, high-beta ≤10% sizing, max 5 conviction names, max 3 buys/week, the ~$10k/~10% cash floor, the index-sleeve stop carve-out, and the SNPS entry-timing advisory (not tested — only RMD sells this week; still on probation at occurrence 2) all held and were not edited. The **regime-sensitivity characteristic is now 4 weeks consistent** (wins down/choppy tapes — 10/16, 10/23, 10/30's down-days; lags clean up-legs — 9/25 melt-up, this week's Mon–Wed up-leg) and remains the substance of the structural A/B escalated to Lauren on 10/2 (shrink the active sleeve + lean on the floor vs. keep the diversified sleeve). I am NOT closing or changing that A/B unilaterally — the sleeve-size decision is the owner's — but the honest read is that the book is regime-sensitive, so the question stays live; **structural A/B remains with Lauren (no reply); default continues as Option A.** I deliberately did NOT tighten/shrink anything off one tie after three beats — over-reacting to a single week is the same over-tuning error in the opposite direction. Paper only; this entry places no Alpaca order.
 - **2026-10-23 (weekly review) — NO rule changed. Governance record: the Option-A trial window CLOSED 3-for-3 on weekly alpha, and the cumulative deficit is nearly erased.** Week ending 10/23: SPY −0.46% while the book rose +1.17% → **alpha +1.63 ✅, the THIRD straight up-alpha week** (10/9 +0.63, 10/16 +3.32, 10/23 +1.63). Cumulative alpha since the 5/29 base narrowed from −2.46 to **~−0.83 pts** — the smallest the deficit has been since mid-August and a **+5.47pt repair in three weeks** off the −6.30 run-worst of 10/2. One conviction buy — **NOC (Northrop Grumman, defense/aerospace, ~77 B+, 4 signals)** on 10/23, funded by a 3-share SPY-floor trim — filling the 5th slot NVDA's 10/14 stop-out opened, deliberately chosen as a **non-rate-sensitive 4th factor** (defense) atop BP-energy / PG-staples / RMD+RSG-rate-pair, applying the 10/2 factor-concentration lesson. Zero stop-outs, zero conviction closes, zero errors; all five stops rested clean. **The participation-aware, factor-diversified Option-A tilt — escalated to Lauren 10/2, pre-committed to a 2–3-week trial with a switch to Option B if it lagged — has now COMPLETED that window 3-for-3, so the switch-to-B condition never triggered and the default (continue Option A) is backed by three confirming weeks, not a no-reply default.** This is a GOVERNANCE/diagnostic record, NOT a rule change: **every guardrail is untouched** — the −7% hard stop, 10% trailing at +5%, ≥70 Conviction gate, 2-signal rule, high-beta ≤10% sizing, max 5 conviction names, max 3 buys/week, the ~$10k/~10% cash floor, the index-sleeve stop carve-out, and the SNPS entry-timing advisory (not tested in-week — NOC is non-rate-sensitive defense bought clear of the Tue–Wed FOMC; still on probation at occurrence 2) all held and were not edited. Honest caveat held for the third week running: **two of the three beats (10/16 and this week) came on DOWN tapes** where a defensive book is built to win; 10/9 is the one genuine up-tape participation win, so this is a favorable-regime-plus-one-real-up-tape result, NOT yet broad proof of up-tape stock-picking alpha, and NOC is one day old. I deliberately did NOT over-claim off three good weeks or loosen anything — over-tuning off a favorable regime is the mirror of over-tuning off a bad one. The **structural A/B remains available to Lauren (no reply); default continues as Option A**, now with a completed, favorable trial record. Paper only; this entry places no Alpaca order.
 - **2026-10-09 (weekly review) — NO rule changed. Governance record: the 6-week down-alpha STREAK BROKE and the Option-A diversified-tilt trial's week 1 was POSITIVE.** Week ending 10/9: SPY +1.15% while the book rose MORE, +1.78% → **alpha +0.63 ✅, the first up-alpha week in seven**, and cumulative alpha NARROWED for the first time in the run (−6.30 on 10/2 → **−5.80**) after 10 straight weeks of widening. Only 1 conviction buy all week — **PG** (consumer-staples, ~71 B+, 10/8, funded by a 13-sh SPY-floor trim), the deliberate 5th-slot factor-diversifier applying the 10/2 factor-concentration lesson (a 4th distinct macro factor atop BP-energy / NVDA-growth / RMD+RSG-rate-sensitive). Zero stop-outs, zero closes, zero errors; all 5 −7% hard stops rested clean. The up-alpha came from the **factor-diversified, participation-aware tilt (default Option A, escalated to Lauren 10/2) working in week 1 of its pre-committed 2–3-week trial:** the SPY floor tracked the up-tape (+1.66%), BP ran (+3.93%), PG/RMD added green, and the sleeve PARTICIPATED instead of dragging (the exact 9/25 failure reversed). **This is a GOVERNANCE/diagnostic record, NOT a rule change: every guardrail is untouched** — the −7% hard stop, 10% trailing at +5%, ≥70 Conviction gate, 2-signal rule, high-beta ≤10% sizing, max 5 conviction names, max 3 buys/week, the ~$10k/~10% cash floor, index-sleeve stop carve-out, and the SNPS entry-timing advisory (not tested in-week; next binary Sept CPI Wed 10/14; still on probation at occurrence 2) all held and were not edited. I deliberately did NOT over-claim off one good week or loosen/tighten anything in reaction to it — over-tuning off a single week is the same error in the other direction as over-tuning off a bad one. The **structural A/B remains with Lauren (no reply); default continues as Option A**, now with a positive week-1 trial data point; the pre-committed switch to Option B (shrink the active sleeve, lean on the floor) still stands if the diversified sleeve lags again over the trial window. Paper only; this entry places no Alpaca order.

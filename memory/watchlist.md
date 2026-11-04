@@ -17,6 +17,8 @@ Persistent, scored bench of candidates Bull is tracking but hasn't bought (or ha
    - `CATALYST-SOON` — known event (launch, FDA, contract decision) within ~7 days
 4. Drop anything that scores < 40 twice in a row, with a one-line reason in the log below.
 5. Keep the active table to ~8 names — this is a focused bench, not a screener dump.
+6. Record **beta** and **sector** on every row, and whether `scripts/sleeve.py` calls it defensive (beta under 0.85, or staples / utilities / waste / telecom / defense / aerospace).
+7. A defensive name that already clears Conviction ≥ 70 still stays on this list when the sleeve is at its cap of 2 defensive holdings. Do not delete it, and do not treat the cap as an order to sell something we already own. Sort gate-clearing names by conviction plus the +5 participation bonus (beta at least 1.0). The bonus is for ordering only.
 
 ## Rankings
 

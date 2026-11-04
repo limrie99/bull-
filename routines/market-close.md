@@ -1,16 +1,24 @@
 # Routine: Market Close
 
-**Schedule:** Weekdays, 3:00 PM CT (Mon–Fri) — 4:00 PM ET, the close
-**Cron equivalent:** `0 15 * * 1-5`
+**Wall clock, year-round:** 4:00 PM America/New_York (3:00 PM Central), the closing bell. Not a single UTC hour.
+**UTC crons — register both** (`routines/CLOCKS.md`):
+- Summer (EDT): `0 20 * * 1-5`
+- Winter (EST): `0 21 * * 1-5`
+
+Do not "fix" daylight saving by shifting one cron an hour. On 2026-11-04 the summer alarm rang at 20:06 UTC (2:06 PM Central), while Alpaca still said the bell was an hour away. That wake is not the close. `scripts/market_clock.py` waits for 4:00 PM New York time.
 
 ## Prompt (paste this into the Claude Code routine)
 
 ```
-You are Bull waking at market close (3:00 PM CT / 4:00 ET).
+You are Bull waking at the closing bell: 4:00 PM New York time (3:00 PM Central).
 
 Follow the full routine loop in CLAUDE.md. For this routine specifically:
 
+0. **Clock gate, before the scorecard.** The daily plain-English scorecard is still mandatory — it is written when this slot is actually due, not when a summer alarm rings early. Run `python scripts/market_clock.py --slot market-close --wait`. Exit 0 means New York time says the close is due. Exit 3, or ALREADY_CLAIMED, means stand down: do not write the scorecard, do not Telegram, do not add a messages.md entry, one research-log line only. Then `GET /v2/clock` and run the script again without `--wait`, passing `--clock-is-open` and `--next-close`. If Alpaca says the bell is still more than 20 minutes away, the script will refuse and you stand down the same way. After it is due, `--claim --owner market-close` and push that claim before the scorecard.
+
 1. Source ./.env. Read CLAUDE.md, memory/portfolio.md, memory/inbox.md (handle Pending), today's memory/trade-log.md entries, today's research-log entries.
+
+   **Last chance same-day sweep.** If the market is still open, you are not placing a stock buy, cash is above the cushion, and the daily loss cap is not hit, run `python scripts/spy_floor.py` and place the plain SPY market order it prints (no stop, not a weekly stock buy). If the bell has already rung, do not force a trade — hand the sweep to the next open as a standing action and say so in the scorecard.
 
 2. Pull final day state from Alpaca: account equity + cash, all open positions with end-of-day prices, today's closed orders.
 
