@@ -13715,3 +13715,28 @@ Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No hi
 - **Events runway:** ISM Services came out this morning; **NFP Fri 8:30 = the binary.** All held-book earnings Jan–Feb 2027 (no blackouts).
 - **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (not exercised this run — no −7% trigger).
 - **Unverified:** none — account/positions/open-orders/closed-orders/clock + SPY all pulled live this run.
+
+### Day summary (market-close 2026-11-04 15:03 ET · appended to today's entry)
+
+⚠️ **Timing:** close routine fired ~57 min early (DST fall-back trigger shift) — market CONFIRMED OPEN via /v2/clock (is_open=true, 15:03 ET; next_close 16:00 ET). Marks below are **near-close live (15:03 ET), not the official 16:00 print** — essentially set for the day barring a late swing. All data (account/positions/open-orders/closed-orders/clock + SPY) pulled live this run.
+
+- **Closing-ish equity:** **$98,638.47** (cash $21,997.01 / ~22.3%; long_mv $76,641.46; buying_power $302,584.11; status ACTIVE).
+- **Day P/L:** **+$619.96 / +0.63%** (vs Tue 11/3 settled close $98,018.51, from account last_equity).
+- **SPY day:** **+1.75%** (Tue 11/3 close 754.35 → latest trade 767.58; provisional aggregating bar close 767.44). **Day alpha ~−1.12pt.**
+- **WTD (base Fri 10/30 settled close book $99,007.63 / SPY 755.72):** book **−0.37%** vs SPY **+1.57%** → **WTD alpha ~−1.94pt** (day 3 of 5; weekly review Fri owns the final grade).
+- **Trades placed today:** 1 — **BP 10% trailing-stop auto-exit, 214 @ $46.330093 @ 11:31 ET, +$391.68 / +4.11%** (fired this morning, logged at midday). **No close-routine order** (no new buy, no discretionary sell, no hard→trailing conversion).
+
+**What worked (1–3):**
+- **PG (+3.4% intraday) and RSG (+1.0%)** — the defensive-staples/waste core did its job on a lower-rates relief tape; both are double-digit winners with locked-in trailing floors (PG hwm ratcheted to 168.17).
+- **CDNS bounced ~+2.1%** intraday back to ~flat on cost (+0.06%) — the week-start pullback entry is holding; ~7.0% above its −7% hard.
+- **BP's trailing stop** banked +4.11% this morning instead of round-tripping the gain on the soft-oil + permitting headwind — textbook mechanical discipline.
+
+**What didn't (1–3):**
+- **Relative lag on a big up-day:** book +0.63% vs SPY +1.75% (−1.12pt). A calm, low-beta, defensive/value book is *designed* to trail on melt-up days; the real test is down-day protection, but it still widened the WTD gap to −1.94pt in a strong-SPY week.
+- **NOC −2.97%** (−4.01% intraday) remains the sole conviction loser on the sentiment/procurement-scrutiny slip — no company catalyst, contained by its hard stop at 506.26 (~4.2% cushion), but it dragged the book on an otherwise-green day.
+- **One slot sat empty** (sleeve 4/5) — correct per the midday no-breaking-catalyst rule, but it also meant we carried ~22.3% cash through a strong up-tape, which amplified the relative lag.
+
+**Open questions for tomorrow (Thu pre-market):**
+- **MCK entry:** does the full live-verify still clear Conviction ≥70 + 2 signals + a clean non-extended entry? Timing gate is Wed/Thu only (NOT Thu-into-Fri pre-NFP), so Thu's pre-market/open is the clean window to fill the open slot at ~10% size with a −7% hard GTC at fill×0.93.
+- **NFP Fri 8:30 = the binary.** A hot print re-threatens rate-sensitive names (CDNS the most exposed in the book); a soft print extends the PG/RSG rates tailwind. Keep MCK entry Thu, not Thu-into-Fri.
+- **NOC:** watch for any shift from sentiment-slip to an actual thesis-break (procurement/budget headline); otherwise hold and let the hard stop manage downside.
