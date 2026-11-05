@@ -13819,3 +13819,8 @@ Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No hi
 - **MCK entry:** does the full live-verify still clear Conviction ≥70 + 2 signals + a clean non-extended entry? Timing gate is Wed/Thu only (NOT Thu-into-Fri pre-NFP), so Thu's pre-market/open is the clean window to fill the open slot at ~10% size with a −7% hard GTC at fill×0.93.
 - **NFP Fri 8:30 = the binary.** A hot print re-threatens rate-sensitive names (CDNS the most exposed in the book); a soft print extends the PG/RSG rates tailwind. Keep MCK entry Thu, not Thu-into-Fri.
 - **NOC:** watch for any shift from sentiment-slip to an actual thesis-break (procurement/budget headline); otherwise hold and let the hard stop manage downside.
+
+---
+
+### 2026-11-05 ~12:04 ET (11:04 CT) · MIDDAY WAKE — EARLY DST RING, STOOD DOWN (clock gate)
+`scripts/market_clock.py --slot midday` → **status EARLY** (−55.9 min; this is the summer UTC alarm `0 17 * * 1-5` ringing ~56 min early in winter — not the real midday). Slot NOT due, NOT claimed. Per CLAUDE.md/routines/midday.md: stood down — **no orders, no scorecard, no Telegram, no messages.md entry.** No account/position pull, no risk action: the real midday winter alarm (`0 18 * * 1-5` = 18:00 UTC = 1:00 PM ET / 12:00 PM CT) runs the full check in ~56 min. Nothing changed since the 09:34 ET market-open run (4/5 sleeve, 4 stops resting — CDNS 307.32 / NOC 506.26 / PG 152.604 / RSG 224.433, SPY unencumbered, cash ~$10.6k at cushion, nothing at −7%, nothing needing hard→trailing). Handoff → real midday (winter ring): full live re-verify (account/positions/open-orders/clock), risk checks (a)(b)(c)(d), and sweep only if a stop freed fresh cash.
