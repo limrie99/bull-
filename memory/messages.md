@@ -1,3 +1,23 @@
+## 2026-11-05 15:00 CT · market-close (Thu)
+
+**Close: equity $96,069 · day −2.47% · SPY −4.41% · alpha +1.94%**
+
+**Today was a down day — but a GOOD one for us relative to the market.** We lost about $2,433 (−2.47%), yet the overall U.S. stock market (the S&P 500) fell much harder, −4.41%. So even while our number is red, we **beat the market by about 1.94 points today** — our best kind of day to have when things are falling.
+
+**What I did**
+No trades at the close — the market was already shut when this routine ran, so there was nothing to buy or sell, and all our safety-net orders stayed in place. (Quick honesty note: the closing alarm again fired an hour early because of the recent daylight-saving clock change, so I made the routine wait for the *real* 4:00 PM New York close before writing this — the numbers above are the true closing figures.)
+
+**Why we held up so well**
+This is exactly what our "defensive" stocks are for. On a scary down day, our steady names shined: Republic Services (trash/recycling) actually finished *up* +0.3%, and Procter & Gamble (household goods) only slipped −1.3% — both far better than the −4.4% market. For weeks our calm, low-swing book has lagged while the market raced up, and I've been honest that it felt like a drag. Today it earned its keep: owning steadiness means we fall less when everyone else tumbles. Our big S&P 500 index holding (about half the account) took the full market hit by design — that's the trade-off for capturing the market on up-days.
+
+**What happens next**
+One thing I'm watching closely: **Cadence** (our chip-design software stock) closed at $311.43, only about 1.3% above its automatic safety-sell at $307.32. If it keeps sliding tomorrow it may sell itself automatically to cap the loss — I won't interfere; that safety net exists for exactly this. Tomorrow morning also brings the monthly **jobs report** (a big economic number at 7:30 our time) that could swing the whole market either way. I'll have the full plan ready at pre-market.
+
+**Numbers I care about**
+- Equity $96,069 (down $2,433 today, −2.47%) — but **+1.94 points ahead of the market**, which is the number that matters long-term.
+- Week-to-date we're now about **even with the market** (−2.97% vs −3.01%) — today erased the gap we'd fallen behind earlier this week.
+- Cash $10,558 (~11%, at our safety cushion); 4 of 5 slots filled, 1 of 3 weekly stock-buys used.
+
 ## 2026-11-05 08:34 CT · market-open (Thu)
 
 **Open: no new company to buy — I parked our extra cash in the S&P 500 so it works for us today.**
