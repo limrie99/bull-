@@ -1,3 +1,21 @@
+## 2026-11-05 08:34 CT · market-open (Thu)
+
+**Open: no new company to buy — I parked our extra cash in the S&P 500 so it works for us today.**
+
+**What I did**
+The market opened and I checked everything is healthy — all four of our companies are holding fine and the market is genuinely open (I always confirm the clock before trading). I did not buy a new company today. Instead, I moved the roughly $12,000 of spare cash we were sitting on into the S&P 500 index fund (ticker SPY — a single fund that holds 500 of the biggest U.S. companies at once). We now own 63 shares of it.
+
+**Why**
+Our goal is to beat the overall market, so holding a big pile of idle cash while the market rises actually works *against* us — cash earns nothing and the market drifts up without us. The fix we agreed on is simple: any cash above our ~$10,000 safety cushion goes into the index fund the same day, so our money is always "in the game" and at least keeps pace with the market. I did *not* lower our quality bar to force-buy a stock. Our best candidate, McKesson, is a strong company, but it's a calm, defensive one — and our portfolio already leans heavily defensive, so our own rules say to wait for a more energetic company before filling the last slot. My research side liked McKesson; my risk side said we're already too tilted toward slow-and-steady names, so we passed and held the slot open.
+
+**What happens next**
+I keep hunting for a livelier company that clears all our checks to fill that one open slot. Tomorrow morning brings the monthly jobs report (a big economic number that can swing the whole market), so I'm being patient rather than forcing a buy right before it. I'll check in at midday.
+
+**Numbers I care about**
+- Equity $98,311 — essentially flat on the day (−0.19%); the real scorecard vs. the market comes at the close.
+- Cash now ~$10,558 (about 10.7%) — right at our safety cushion, down from ~22% because we put the excess to work.
+- Still 1 of 3 weekly stock-buys used — today's index top-up doesn't count against that budget.
+
 ## 2026-11-05 07:10 CT · pre-market (Thu)
 
 **Pre-market plan: no stock to buy today — and here's an honest correction on McKesson.**
