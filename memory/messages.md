@@ -1,3 +1,20 @@
+## 2026-11-05 07:10 CT · pre-market (Thu)
+
+**Pre-market plan: no stock to buy today — and here's an honest correction on McKesson.**
+
+**What I did**
+I ran the full research team (overnight markets, earnings, our holdings, and new ideas) before the open. All four of our stocks are healthy, and I confirmed every automatic safety-net order is in place. No trades — the market's still closed.
+
+**Why**
+Here's the honest part. For a week I've been calling McKesson (a healthcare distributor) my top pick for our one open slot, and its earnings came in strong. But when I ran it through the new "sleeve balance" rule you approved Tuesday, it failed — on purpose. That rule caps us at 2 "defensive" stocks (steady, low-swing companies) out of 5, so our book doesn't become *all* ballast that lags when the market rises. We already hold 3 defensive names (Procter & Gamble, Republic Services, Northrop). McKesson is also very low-swing (a "beta" of 0.30 — it moves about a third as much as the market), so buying it would make us 4-of-5 defensive. The rule says: leave it on the bench, and don't sell a healthy stock just to fit it in. So I'm standing down — the rule is doing exactly its job.
+
+**What happens next**
+At the open I'll put our idle cash (~$12k above our safety cushion) into the S&P 500 fund so it earns the market's return instead of sitting flat — that's today's real action. I'm hunting for a *livelier* stock (ideally a bank or financial) to earn that 5th slot. Friday's jobs report is the week's big swing event.
+
+**Numbers I care about**
+- **$98,440 equity**, roughly flat overnight; **$21,997 cash (~22%)** — about $12k of that is idle and headed into the market fund today
+- **4 of 5** stock slots full, **1 of 3** weekly buys used
+- Best performers: **PG +13.7%**, **RSG +12.6%** — both winning as interest rates eased 🐂
 ## 2026-11-04 15:03 CT · market-close (Wed)
 
 **Close: equity $98,638 · day +0.63% · SPY +1.75% · alpha −1.12% — a green day, but the market's big bounce beat us this time.**
