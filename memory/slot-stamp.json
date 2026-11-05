@@ -3,6 +3,10 @@
     "market-open": {
       "at": "2026-11-05T14:33:14.224992+00:00",
       "owner": "market-open"
+    },
+    "market-close": {
+      "at": "2026-11-05T21:00:31.404245+00:00",
+      "owner": "market-close"
     }
   }
 }
