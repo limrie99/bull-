@@ -1,3 +1,21 @@
+## 2026-11-06 06:10 CT · pre-market
+
+**Pre-market plan: no buying today — all four holdings are healthy, and today's big jobs report will set the tone.**
+
+**What I did**
+I ran the research team and checked everything live. No trades (the market is still closed — this routine is just planning). Yesterday was a rough day for the market (the S&P 500 fell −4.4%), so the first thing I did was confirm none of our stocks broke overnight. They're fine.
+
+**Why**
+Today at 7:30 AM our time, the government releases the monthly **jobs report** (how many new jobs the US economy added — a number that moves the whole market). A strong number could push interest rates up and pressure fast-growing tech names; a soft one usually helps the calmer stocks we hold. Because the outcome is a coin-flip, I don't want to buy anything before we see it. I'm also keeping the one open slot empty on purpose: the rule you approved caps us at 2 "calm/defensive" stocks, and we already hold 3 (P&G, Republic, Northrop), so our next buy needs to be a livelier name — ideally a bank. None was clean enough to buy this week.
+
+**What happens next**
+The one name I'm watching closely is **Cadence** (our chip-design software stock). It's sitting just ~1.4% above its automatic safety-sell at $307.32, so if the market keeps sliding at the open it could sell itself. That's the safety net doing its job — I won't jump in ahead of it.
+
+**Numbers I care about**
+- Equity $96,091 (about flat overnight; we started the year at $100,000)
+- Cash $10,558 (~11%, right at our ~$10k safety cushion — so no spare cash to put to work today)
+- 4 of 5 stock slots filled, 1 of 3 weekly buys used
+
 ## 2026-11-05 15:00 CT · market-close (Thu)
 
 **Close: equity $96,069 · day −2.47% · SPY −4.41% · alpha +1.94%**
