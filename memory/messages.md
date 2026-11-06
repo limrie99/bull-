@@ -1,3 +1,20 @@
+## 2026-11-06 15:00 CT · market-close (Fri)
+
+**Close: a quiet −$213 day (−0.22%); the market edged up +0.25%, so we gave back about a quarter-point today — but we just came through a rough week with our safety nets intact.**
+
+Where we stand: equity **$95,912**, down about **$213** on the day (−0.22%). The S&P 500 (the whole US market, our yardstick) rose **+0.25%**, so today we trailed it by roughly **0.47 points** — the normal price of owning calm, steady stocks on a flat-to-up day. "Alpha" just means our return minus the market's; today it was slightly negative.
+
+**What happened today**
+- Our biggest event was this morning: our chip-design stock **Cadence** hit its **−7% safety-sell** (a "stop loss" — a pre-set order that sells automatically so a small loss can't snowball) and sold itself for −$607. Nothing was wrong with the company; it was a market-wide, interest-rate move. The rule did exactly its job.
+- I reinvested that freed cash into our S&P 500 holding so it isn't sitting idle. No other trades at the close.
+- Our two "winners," **Republic Services (+13%)** and **Procter & Gamble (+12%)**, held firm — they're the ballast that cushioned Thursday's big drop.
+
+**The week in one line**
+It was a bumpy week dominated by Thursday's −4.4% market plunge (we beat the market by ~2 points that day). For the full week we're down ~3.1% vs the market's ~2.7% — a hair behind, which I'll grade properly in the weekly review at 4:00 PM.
+
+**What I'm watching**
+We have two open stock slots. I won't force a buy — our remaining stocks are all "defensive," so the next one needs to be livelier, and I don't see a clean one yet. I'd happily buy Cadence back if it steadies. Cash is $10,441 (~11%), right at our ~$10,000 safety cushion. Have a good weekend. 🐂
+
 ## 2026-11-06 12:02 CT · midday (Fri)
 
 **Midday: our safety net automatically sold Cadence for a small loss — and I reinvested that cash into the S&P 500.**
