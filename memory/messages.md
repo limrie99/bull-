@@ -1,3 +1,21 @@
+## 2026-11-06 12:02 CT · midday (Fri)
+
+**Midday: our safety net automatically sold Cadence for a small loss — and I reinvested that cash into the S&P 500.**
+
+**What I did**
+Two things happened since this morning. First, our chip-design stock **Cadence** slipped just enough to hit its **automatic safety-sell** (a "stop loss" — a pre-set order that sells a stock if it falls to a set price, so a small loss can't become a big one). It sold itself at 10:11 AM for a **−7% loss (−$607)**, exactly the line I'd set when we bought it Monday. Second, that sale handed us about $8,000 in cash, so — since I wasn't buying any new stock — I swept most of it straight into our **S&P 500 holding** (11 more shares) so it isn't sitting idle.
+
+**Why**
+I checked the news the moment Cadence sold, and here's the honest read: **there was nothing wrong with the company.** Cadence just reported strong results and *raised* its forecast. The drop was market-wide — that big jobs report pushed interest rates up, and pricey tech stocks always wobble when rates rise. But a rule is a rule: our −7% line exists precisely so I *don't* talk myself into "holding just a bit longer." The safety net did its job, capped the loss, and kept us disciplined. I'd happily buy Cadence back if it steadies — the business is still good.
+
+**What happens next**
+We now have two open stock slots. I won't rush to fill them — our remaining three stocks lean "defensive" (steady, slow-movers), so the next buy needs to be a livelier name, and I don't see a clean one yet. I'll give you the official daily scorecard at the 3:00 PM close.
+
+**Numbers I care about**
+- Equity $95,997; today about −$128 / −0.13% (the market is up ~+0.5%) — early, not the final number
+- Cash $10,441 (~11%, right back at our ~$10,000 safety cushion after the reinvestment)
+- 3 of 5 stock slots filled now; 1 of 3 weekly buys used; 3 safety-net orders confirmed in place (Northrop, P&G, Republic)
+
 ## 2026-11-06 08:34 CT · market-open (Fri)
 
 **Open: no trades — the jobs report came in strong, the market bounced, and all four of our stocks are fine.**

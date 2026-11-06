@@ -13950,3 +13950,50 @@ Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No hi
 
 ### 2026-11-05 ~12:04 ET (11:04 CT) · MIDDAY WAKE — EARLY DST RING, STOOD DOWN (clock gate)
 `scripts/market_clock.py --slot midday` → **status EARLY** (−55.9 min; this is the summer UTC alarm `0 17 * * 1-5` ringing ~56 min early in winter — not the real midday). Slot NOT due, NOT claimed. Per CLAUDE.md/routines/midday.md: stood down — **no orders, no scorecard, no Telegram, no messages.md entry.** No account/position pull, no risk action: the real midday winter alarm (`0 18 * * 1-5` = 18:00 UTC = 1:00 PM ET / 12:00 PM CT) runs the full check in ~56 min. Nothing changed since the 09:34 ET market-open run (4/5 sleeve, 4 stops resting — CDNS 307.32 / NOC 506.26 / PG 152.604 / RSG 224.433, SPY unencumbered, cash ~$10.6k at cushion, nothing at −7%, nothing needing hard→trailing). Handoff → real midday (winter ring): full live re-verify (account/positions/open-orders/clock), risk checks (a)(b)(c)(d), and sweep only if a stop freed fresh cash.
+
+---
+
+# 2026-11-06 ~12:02 CT (13:02 ET) — MIDDAY (Fri) — Opus 4.8 · ★ CDNS −7% HARD STOP FIRED (−$607.36/−7.07%, mechanical) → sleeve 3/5 (two open slots) · SPY SWEEP buy 11 @ 736.49 of freed cash · all remaining risk checks clean · weekly buys 1/3 · equity $95,997.25 · cash $10,441.15 (~10.9%)
+
+**Run meta:** The 17:04 UTC wake was the **early summer DST alarm** (12:04 PM NY, status EARLY −56 min). `market_clock.py --slot midday --wait` held to the real **13:00 ET** (status DUE, waited:true, winter cron `0 18 * * 1-5`). Alpaca `/v2/clock` **is_open=true** (next_close 16:00 ET); re-ran script with `--clock-is-open true` → DUE, "Alpaca clock says the market is open." Slot **CLAIMED** (`--claim --owner midday`, stamp 2026-11-06) and the claim **pushed to `HEAD:main` BEFORE any order**. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers research). Inbox: **no Pending**. Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account equity $95,997.25 (post-sweep), last_equity (Thu settled close) $96,124.91 → intraday −$127.66 / −0.13%; cash $10,441.15; long_mv $85,556.10; status ACTIVE. Positions = 3 conviction + SPY floor.
+
+**★ EVENT 1 — CDNS −7% HARD STOP FIRED (9404caf9):** sold 26 @ 307.09 @ 10:11 ET (15:11 UTC), filled_qty 26, status filled (stop_price 307.32). Realized **−$607.36 / −7.07%** (330.45 → 307.09). Mechanical −7% hard-stop exit. CDNS slid from ~313.5 at the open (+0.67%) through the 307.32 hard mid-morning. Fired between the market-open run (09:34 ET, CDNS still held) and this midday run — midday caught it. Proceeds ~$7,984.34 lifted cash toward $18,542.59. Sleeve 4/5 → **3/5 (two open slots)**; open orders 4 → 3. CDNS position now 404 (closed).
+  - **Perplexity 4-hr news check (CDNS, run this midday):** **NO company-specific bad news** — no guidance cut, material downgrade, or lawsuit in Nov 6 coverage. Most recent company news is POSITIVE (Q3 beat + RAISED FY revenue & EPS guidance). The ~2% intraday decline is **broad macro/sector**: hot October NFP (+165k vs +65k) pushed yields up, pressuring high-multiple chip/EDA names; + profit-taking after a prior-day AI-chip selloff. Only soft negative: a WSZen Buy→Hold on 11/5, insufficient alone. **Conclusion:** thesis NOT broken by news, but the −7% hard floor is non-negotiable and is respected regardless of cause. **CDNS → clean RE-ENTRY candidate on stabilization** (fundamentals intact), handed to next pre-market.
+
+**★ EVENT 2 — SPY same-day sweep (1e9e711a):** CDNS's morning stop freed ~$8k cash the same day → ran `scripts/spy_floor.py` on the live book (equity 95966.74, cash 18542.59, spy_price 736.26, spy_shares 63, stock_mv 31038.87) → **action:buy, qty:11**, est $8,098.86, cash_after $10,443.73, buffer $10,000. Obeyed it: plain market buy, day TIF → filled 11 @ avg 736.4945 = $8,101.44. SPY 63 → 74 sh (avg 761.083). Cash $18,542.59 → $10,441.15 (~10.9%, at cushion). NOT a weekly stock buy; no stop (index sleeve). This is the "morning stop frees cash → same-day sweep" rule in action (like BP on 11/04).
+
+**Live position marks (13:02 ET, post-sweep):**
+| Sym | Qty | Avg | Px | P/L% | Stop |
+|---|---|---|---|---|---|
+| NOC | 18 | 544.3700 | 527.57 | −3.09% | −7% HARD 506.26 |
+| PG | 65 | 148.0600 | 165.99 | +12.11% | 10% TRAIL floor 153.468 (hwm 170.52) |
+| RSG | 44 | 218.0000 | 244.82 | +12.30% | 10% TRAIL floor 228.955 (hwm 254.394) |
+| SPY | 74 | 761.0830 | 736.47 | −3.23% | NONE (index-floor sleeve) |
+
+**Risk checks (live, priority order):**
+- **(a) Any position −7% or worse un-stopped?** **NO.** CDNS already exited mechanically at −7.07% (its hard stop). Deepest REMAINING loser **NOC −3.09%** (527.57), ~4.0% above its 506.26 hard — protected. SPY −3.23% (index, no stop by design). Nothing held is breaching −7%.
+- **(b) Any +5%+ needing hard→trailing conversion?** **NONE.** Only HARD-stop name left is NOC (−3.09%, negative). PG (+12.11%) and RSG (+12.30%) already trail. Nothing to convert.
+- **(c) Daily loss cap:** intraday **−0.13%** vs Thu settled close — far from the −3% cap. New buys permitted (SPY sweep placed; no stock buy qualified).
+- **(d) Sell signals?** **None (beyond the mechanical CDNS exit already booked).** NOC/PG/RSG theses intact; no −7% breach, no thesis break, no fundamentals deterioration. NOC's −3.09% is the same sentiment/procurement slip (no company catalyst) — WATCH, not sell; the hard stop protects below.
+
+**No-stock-buy rationale (midday rule 4):** Two slots genuinely freed (CDNS exit → 3/5), weekly budget 2/3 remains, loss cap fine (−0.13%). BUT midday forbids a new stock buy **absent a high-conviction *breaking* catalyst** — none this run (no Astra proposal, no inbox, no held/bench-name news break). The book is NOC/PG/RSG = **defensive-tilted, already over the 2-of-5 defensive cap**, so the open slots need a NON-defensive (beta ≥1.0) gate-clearer. Bench: AXP closest (~63, financials) but revenue-miss + unverified trend = below gate; MCK (bench leader, ~82 A) stays BLOCKED by the defensive cap. No clean non-defensive gate-clearer this week. **$0 risked at midday on stocks; two slots held open for a clean entry.** (CDNS re-entry is a pre-market job, not a reflexive midday chase into a fresh hot-data week.)
+
+**Benchmark (intraday — close owns the official scorecard):**
+- **Intraday (13:02 ET):** book **−0.13%** vs SPY **+0.47%** (736.47 vs Thu close 733.00) → intraday alpha **~−0.60pt** — defensive book lagging the relief-bounce up-tape (expected trade-off; CDNS's exit also trimmed beta). Indicative.
+- **WTD (base Fri 10/30 settled close book $99,007.63 / SPY 755.72):** book **−3.04%** vs SPY **−2.55%** → **WTD alpha ~−0.49pt** (day 5 of 5). Weekly review Fri owns the final grade after today's close.
+
+**Voices:**
+- **Research:** CDNS exit was macro, not company — Perplexity confirms fundamentals intact (Q3 beat + raised FY). CDNS → bench as a re-entry candidate on stabilization. No new proposal; NOC/PG/RSG theses intact. The two open slots still need a non-defensive gate-clearer — AXP closest but below gate; MCK blocked (defensive). Hand CDNS re-entry + slot-fill to next pre-market.
+- **Risk:** CDNS's −7% hard stop was textbook discipline — we did NOT override it on the "it's only macro" narrative; the floor is non-negotiable and it capped the loss at −7.07%. Remaining stops healthy; NOC's drift contained by its hard stop; day −0.13% leaves full buffer; no concentration issue (largest non-index single name PG ~11.2% of equity). SPY sleeve ~56.8% ($54,498/$95,997) after the sweep — within the index-sleeve carve-out (exempt from single-position cap).
+- **Trader:** two orders this run — detected CDNS's auto-executed hard-stop exit (nothing to cancel; it closed itself) and placed the SPY sweep buy (11 @ 736.49, no stop). Open orders verified = exactly 3 (NOC hard 506.26, PG trail 153.468, RSG trail 228.955); SPY 74 unencumbered. Telegram push SENT (CDNS stop-triggered/auto-close + the SPY sweep).
+
+**Handoff → MARKET-CLOSE (Fri 2026-11-06 ~15:00 CT / 16:00 ET):**
+- **★ MANDATORY:** close owns today's plain-English daily scorecard vs SPY to messages.md **AND the Telegram push** (never skipped). Lead with up/down in $ and %, vs SPY, whether we're ahead. **Feature CDNS's stop-out** in the day's story (the safety net worked). Firm the intraday numbers at the actual close.
+- **Re-verify live:** account/positions/orders/clock; confirm exactly **3** open orders now (NOC hard 506.26; PG trail 153.468; RSG trail 228.955); SPY (74 sh) unencumbered; daily loss-cap check.
+- **Sleeve 3/5 — two open slots.** No buy budget pressure (2/3 left) but **no breaking catalyst** → close is not a buy routine; leave the slots open for a non-defensive gate-clearer. Book is defensive-tilted — do NOT force MCK (blocked by defensive cap).
+- **SPY sweep:** DONE at midday (cash at the ~$10k cushion). At close, re-run `spy_floor.py` ONLY if a late stop frees fresh cash and the market is still open at the early-DST close ring; otherwise nothing to sweep.
+- **CDNS re-entry watch (next pre-market):** fundamentals intact; if it stabilizes above ~$307 with a non-extended re-entry it's a candidate — but it's high-multiple/rate-sensitive, size/timing carefully, NOT into a fresh hot-data print.
+- **NOC watch:** −3.09% sentiment/procurement slip, no company catalyst; ~4.0% above its hard (506.26). Hold unless a thesis-break appears; let the hard stop manage downside.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (exercised this run for the CDNS news check).
+- **Clock note:** today's real midday winter ring was reached via `--wait` (the 11/5 miss did not repeat). Keep watching that both UTC crons stay registered.
+- **Unverified:** none — account/positions/open-orders/closed-orders/clock + SPY all pulled live this run.
