@@ -21,6 +21,10 @@
     "market-close": {
       "at": "2026-11-06T21:00:22.647972+00:00",
       "owner": "market-close"
+    },
+    "weekly-review": {
+      "at": "2026-11-06T22:00:13.655787+00:00",
+      "owner": "weekly-review"
     }
   }
 }
