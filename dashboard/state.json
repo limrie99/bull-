@@ -1,40 +1,168 @@
 {
-  "last_update": "2026-11-06 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-11-06 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 95911.58,
   "cash": 10441.15,
   "day_pl": -213.33,
   "day_pl_pct": -0.22,
   "week_pl_pct": -3.13,
-  "spy_week_pct": -2.71,
-  "alpha_week_pct": -0.42,
+  "spy_week_pct": -2.69,
+  "alpha_week_pct": -0.44,
   "positions": [
-    { "symbol": "NOC", "qty": 18, "avg_cost": 544.37, "current": 525.01, "pl_pct": -3.56, "stop": 506.26 },
-    { "symbol": "PG", "qty": 65, "avg_cost": 148.06, "current": 165.39, "pl_pct": 11.71, "stop": 153.468 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 246.85, "pl_pct": 13.23, "stop": 228.955 },
-    { "symbol": "SPY", "qty": 74, "avg_cost": 761.083, "current": 735.13, "pl_pct": -3.41, "stop": null }
+    {
+      "symbol": "NOC",
+      "qty": 18,
+      "avg_cost": 544.37,
+      "current": 525.01,
+      "pl_pct": -3.56,
+      "stop": 506.26
+    },
+    {
+      "symbol": "PG",
+      "qty": 65,
+      "avg_cost": 148.06,
+      "current": 165.4,
+      "pl_pct": 11.71,
+      "stop": 153.468
+    },
+    {
+      "symbol": "RSG",
+      "qty": 44,
+      "avg_cost": 218.0,
+      "current": 246.85,
+      "pl_pct": 13.23,
+      "stop": 228.955
+    },
+    {
+      "symbol": "SPY",
+      "qty": 74,
+      "avg_cost": 761.083,
+      "current": 735.68,
+      "pl_pct": -3.34,
+      "stop": null
+    }
   ],
   "recent_trades": [
-    { "date": "2026-11-06 13:02", "side": "BUY", "symbol": "SPY", "qty": 11, "price": 736.49 },
-    { "date": "2026-11-06 10:11", "side": "SELL", "symbol": "CDNS", "qty": 26, "price": 307.09 },
-    { "date": "2026-11-05 08:35", "side": "BUY", "symbol": "SPY", "qty": 15, "price": 762.57 },
-    { "date": "2026-11-04 11:31", "side": "SELL", "symbol": "BP", "qty": 214, "price": 46.33 },
-    { "date": "2026-11-02 08:32", "side": "BUY", "symbol": "CDNS", "qty": 26, "price": 330.45 },
-    { "date": "2026-10-30 15:59", "side": "SELL", "symbol": "RMD", "qty": 21, "price": 229.81 },
-    { "date": "2026-10-26 08:40", "side": "SELL", "symbol": "RMD", "qty": 21, "price": 252.10 },
-    { "date": "2026-10-23 08:36", "side": "BUY", "symbol": "NOC", "qty": 18, "price": 544.37 },
-    { "date": "2026-10-23 08:36", "side": "SELL", "symbol": "SPY", "qty": 3, "price": 759.62 },
-    { "date": "2026-10-08 08:48", "side": "BUY", "symbol": "PG", "qty": 65, "price": 148.06 }
+    {
+      "date": "2026-11-06 13:02",
+      "side": "BUY",
+      "symbol": "SPY",
+      "qty": 11,
+      "price": 736.49
+    },
+    {
+      "date": "2026-11-06 10:11",
+      "side": "SELL",
+      "symbol": "CDNS",
+      "qty": 26,
+      "price": 307.09
+    },
+    {
+      "date": "2026-11-05 08:35",
+      "side": "BUY",
+      "symbol": "SPY",
+      "qty": 15,
+      "price": 762.57
+    },
+    {
+      "date": "2026-11-04 11:31",
+      "side": "SELL",
+      "symbol": "BP",
+      "qty": 214,
+      "price": 46.33
+    },
+    {
+      "date": "2026-11-02 08:32",
+      "side": "BUY",
+      "symbol": "CDNS",
+      "qty": 26,
+      "price": 330.45
+    },
+    {
+      "date": "2026-10-30 15:59",
+      "side": "SELL",
+      "symbol": "RMD",
+      "qty": 21,
+      "price": 229.81
+    },
+    {
+      "date": "2026-10-26 08:40",
+      "side": "SELL",
+      "symbol": "RMD",
+      "qty": 21,
+      "price": 252.1
+    },
+    {
+      "date": "2026-10-23 08:36",
+      "side": "BUY",
+      "symbol": "NOC",
+      "qty": 18,
+      "price": 544.37
+    },
+    {
+      "date": "2026-10-23 08:36",
+      "side": "SELL",
+      "symbol": "SPY",
+      "qty": 3,
+      "price": 759.62
+    },
+    {
+      "date": "2026-10-08 08:48",
+      "side": "BUY",
+      "symbol": "PG",
+      "qty": 65,
+      "price": 148.06
+    }
   ],
   "latest_messages": [
-    { "ts": "2026-11-06 15:00 CT", "routine": "market-close", "headline": "Close: equity $95,912 · day −0.22% · SPY +0.25% · alpha −0.47%", "body": "A quiet −$213 day; the market edged up and we trailed by ~0.47 pts — the normal cost of calm stocks on an up day. Cadence hit its −7% safety-sell this morning (−$607, a rates move, no company bad news); I swept the cash into SPY. Winners RSG (+13%) and PG (+12%) held firm. For the week we're ~3.1% down vs the market's ~2.7% — weekly review grades it at 4pm. Cash $10,441 (~11%)." },
-    { "ts": "2026-11-06 12:02 CT", "routine": "midday", "headline": "Our safety net auto-sold Cadence (−7%, −$607); reinvested the cash into the S&P 500.", "body": "Cadence hit its −7% stop at 10:11 AM — a market-wide rates move, no company bad news (Q3 beat + raised forecast). The stop did its job and capped the loss. I swept the ~$8k it freed into SPY (11 shares) so it isn't idle. Two stock slots now open; I won't rush to fill them. Official scorecard at the close." },
-    { "ts": "2026-11-06 08:34 CT", "routine": "market-open", "headline": "Open: no trades — strong jobs report, market bounced, all four stocks fine.", "body": "165k jobs added (vs ~65k expected); market opened +0.35% in relief. Cadence rose +0.67% at the open. No clean non-defensive name to buy; cash at the cushion. Our calm stocks lag on a bounce day — expected trade-off." },
-    { "ts": "2026-11-06 06:10 CT", "routine": "pre-market", "headline": "Pre-market: no buying — holdings healthy; today's jobs report sets the tone.", "body": "Confirmed nothing broke overnight after Thursday's −4.4%. Holding the open slot for a livelier (non-defensive) name. Watching Cadence near its safety-sell." },
-    { "ts": "2026-11-05 15:00 CT", "routine": "market-close", "headline": "Equity $96,069 · day −2.47% · SPY −4.41% · alpha +1.94%", "body": "A down day, but a good relative one: the market fell much harder than we did. Our defensive tilt earned ~1.94 points of outperformance." },
-    { "ts": "2026-11-05 08:34 CT", "routine": "market-open", "headline": "Open: no new company to buy — parked extra cash in the S&P 500.", "body": "Swept idle cash into SPY so it works for us. No clean non-defensive gate-clearer; McKesson blocked by the defensive cap." },
-    { "ts": "2026-11-05 07:10 CT", "routine": "pre-market", "headline": "Pre-market: no stock to buy — honest correction on McKesson.", "body": "McKesson is too defensive to add on top of our already-defensive book. Holding the open slot for a livelier name." },
-    { "ts": "2026-11-04 15:03 CT", "routine": "market-close", "headline": "Equity $98,638 · day +0.63% · SPY +1.75% · alpha −1.12%", "body": "A green day, but the market's big bounce beat us. BP's trailing stop banked +4.11% in the morning. Calm books lag on melt-up days." }
+    {
+      "ts": "2026-11-06 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending Nov 6: −3.13% | SPY −2.69% | alpha −0.44% | grade C+",
+      "body": "Down −3.13% vs market −2.69% — our 2nd straight non-beat. But we out-defended Thursday's −4.34% crash by ~2 points, banked a +$392 BP win before it, and our −7% safety net capped the Cadence loss at −$607. No rule changes — every guardrail did its job in a brutal week."
+    },
+    {
+      "ts": "2026-11-06 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $95,912 · day −0.22% · SPY +0.25% · alpha −0.47%",
+      "body": "A quiet −$213 day; the market edged up and we trailed by ~0.47 pts — the normal cost of calm stocks on an up day. Cadence hit its −7% safety-sell this morning (−$607, a rates move, no company bad news); I swept the cash into SPY. Winners RSG (+13%) and PG (+12%) held firm. For the week we're ~3.1% down vs the market's ~2.7% — weekly review grades it at 4pm. Cash $10,441 (~11%)."
+    },
+    {
+      "ts": "2026-11-06 12:02 CT",
+      "routine": "midday",
+      "headline": "Our safety net auto-sold Cadence (−7%, −$607); reinvested the cash into the S&P 500.",
+      "body": "Cadence hit its −7% stop at 10:11 AM — a market-wide rates move, no company bad news (Q3 beat + raised forecast). The stop did its job and capped the loss. I swept the ~$8k it freed into SPY (11 shares) so it isn't idle. Two stock slots now open; I won't rush to fill them. Official scorecard at the close."
+    },
+    {
+      "ts": "2026-11-06 08:34 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — strong jobs report, market bounced, all four stocks fine.",
+      "body": "165k jobs added (vs ~65k expected); market opened +0.35% in relief. Cadence rose +0.67% at the open. No clean non-defensive name to buy; cash at the cushion. Our calm stocks lag on a bounce day — expected trade-off."
+    },
+    {
+      "ts": "2026-11-06 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: no buying — holdings healthy; today's jobs report sets the tone.",
+      "body": "Confirmed nothing broke overnight after Thursday's −4.4%. Holding the open slot for a livelier (non-defensive) name. Watching Cadence near its safety-sell."
+    },
+    {
+      "ts": "2026-11-05 15:00 CT",
+      "routine": "market-close",
+      "headline": "Equity $96,069 · day −2.47% · SPY −4.41% · alpha +1.94%",
+      "body": "A down day, but a good relative one: the market fell much harder than we did. Our defensive tilt earned ~1.94 points of outperformance."
+    },
+    {
+      "ts": "2026-11-05 08:34 CT",
+      "routine": "market-open",
+      "headline": "Open: no new company to buy — parked extra cash in the S&P 500.",
+      "body": "Swept idle cash into SPY so it works for us. No clean non-defensive gate-clearer; McKesson blocked by the defensive cap."
+    },
+    {
+      "ts": "2026-11-05 07:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market: no stock to buy — honest correction on McKesson.",
+      "body": "McKesson is too defensive to add on top of our already-defensive book. Holding the open slot for a livelier name."
+    }
   ]
 }

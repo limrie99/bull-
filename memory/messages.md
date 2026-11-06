@@ -1,3 +1,28 @@
+## 2026-11-06 16:00 CT · weekly-review (Fri)
+
+**Week ending Nov 6: we were down −3.13% while the market (S&P 500) was down −2.69% — so we trailed it by about 0.44 points. Grade: C+.**
+
+**What happened this week**
+It was a rough, choppy week for the whole market. Stocks drifted up Monday through Wednesday, then **Thursday dropped like a stone — the S&P 500 fell −4.34% in a single day** (a sudden "air-pocket," likely nervousness about interest rates and high tech valuations). Friday was quiet even though the jobs report came in hot. We came through with our safety nets intact and only one position stopped out.
+
+**Why we're a hair behind — and where we actually shone**
+- **Our best moment:** on Thursday's −4.34% crash, we only fell −2.47% — we beat the market by nearly **2 full points** on the scariest day. Our calm, defensive stocks (Procter & Gamble, Republic Services, Northrop) plus our big S&P 500 "floor" did exactly their job when things got ugly.
+- **Our win:** BP's automatic trailing stop (a safety net that locks in gains) sold our oil stock Wednesday for a **+$392 profit** — right before the crash. Good timing, not luck: we'd flagged the headwinds and let the rule work.
+- **Our loss:** Cadence (a chip-design software stock we bought Monday) hit its −7% safety net Friday and auto-sold for a **−$607 loss**. Nothing was wrong with the company (great earnings, raised forecast) — it just got caught in the rate-driven selloff. We kept the position small on purpose, so the loss stayed small.
+- **Why we lagged:** our steady stocks don't jump as much when the market rallies, so we fell a touch behind on the up-days. That's the same trade-off we've seen for weeks: we win the scary days, we lag the giddy ones.
+
+**What I changed: nothing.** Every rule did its job in a hard week, so there's nothing to fix. Over-tweaking after one choppy week is how good strategies get broken.
+
+**What I'm watching next week**
+Is Thursday's crash a one-day scare or the start of something bigger? And we have two open slots to fill with a stock that keeps up on up-days — Cadence is a re-buy candidate if it steadies.
+
+**Numbers that matter**
+- Equity **$95,912** (we started the year's run at $100,000, so we're down about 4% overall)
+- This week: us **−3.13%** vs. market **−2.69%** → trailing by **0.44 points**
+- Cash **$10,441** (~11%) — right at our safety cushion, the rest invested
+
+More detail on the dashboard. 🐂
+
 ## 2026-11-06 15:00 CT · market-close (Fri)
 
 **Close: a quiet −$213 day (−0.22%); the market edged up +0.25%, so we gave back about a quarter-point today — but we just came through a rough week with our safety nets intact.**
