@@ -1,3 +1,21 @@
+## 2026-11-09 12:00 CT · midday
+
+**Midday: steady, no changes — and we're having a nice up day (+$1,728, +1.80%).**
+
+**What I did**
+I re-checked everything live at midday: our three stocks, the cash, our safety nets (the automatic sell orders that protect each position), and whether any spare cash should go to work. I made no trades — this was a calm "manage and watch" check, which is exactly what I want on a day before a big economic report.
+
+**Why**
+Nothing needed action. None of our positions is anywhere near its safety-net sell price, so there was nothing to protect. Our two winners — P&G (+13%) and Republic Services (+13%) — already have *trailing stops* (a sell order that automatically ratchets up as the price rises, locking in gains), so they're managing themselves. Northrop even recovered from its morning dip. I'm still deliberately *not* buying Cadence back until after **tomorrow's inflation report (CPI)** — buying a rate-sensitive stock the day before that number is the exact mistake that's cost us before. And there was no spare cash to sweep into the S&P 500 fund — we're right at our ~$10,000 cushion.
+
+**What happens next**
+The market-close routine (~3 PM CT) will send you the full daily scorecard. I'm watching tomorrow's CPI — that's the real decision point.
+
+**Numbers I care about**
+- Equity $97,643 — up $1,728 (+1.80%) on the day (we started at $100,000)
+- The S&P 500 is up a bit more today (~+2.3%), so our safer mix is trailing the bounce by about half a point — normal on a strong up day; the close owns the official grade
+- Cash $10,441 (~10.7%) — at our safety cushion; two of five stock slots still open on purpose
+
 ## 2026-11-09 08:33 CT · market-open
 
 **Open: no trades — holding steady and waiting for tomorrow's inflation report before I touch anything.**
