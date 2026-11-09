@@ -1,3 +1,24 @@
+## 2026-11-09 15:00 CT · market-close
+
+**Close: equity $97,587 · day +1.74% · S&P 500 +2.36% · we trailed by ~0.6 pts — a good day, just a hair behind the market.**
+
+**How we're doing (plain English)**
+Good news first: we finished the day **up $1,672 (+1.74%)**, with the account at **$97,587**. The catch is the S&P 500 (the index of 500 big US companies we measure ourselves against) rose a bit more — about **+2.36%** — so today we're **slightly behind the market, by roughly 0.6 of a percentage point**. On a strong "everything's up" day, that's normal for us: we hold a steadier, more defensive mix, which usually lags on big rallies and holds up better on down days. The part of our money parked in the S&P 500 fund itself (about 57% of the account) did most of the work keeping us close.
+
+**Why today looked like this**
+- **Our two winners kept winning:** P&G (+13%) and Republic Services (+13%) both held their gains, each protected by a *trailing stop* (a sell order that automatically rises as the price rises, locking in profit).
+- **Northrop was the only soft spot** — down about 1% on general defense-sector mood, not any company problem. Its safety-net sell sits ~6.5% below today's price, so it's well protected.
+- **I made no trades** — on purpose. Tomorrow brings the **October inflation report (CPI)**, and buying anything rate-sensitive the day before that number is a mistake that's cost us before. I'm keeping our powder dry.
+
+**What I'm watching tomorrow**
+Tuesday's CPI is the big one. A "hot" (high) number could rattle the market and the stocks I'd want to buy back; a "cool" number could open the door to add one. I'll only act *after* we see it, never before.
+
+**Numbers I care about**
+- Equity **$97,587** — up **$1,672 (+1.74%)** today (we started at $100,000)
+- Cash **$10,441 (10.7%)** — right at our safety cushion; two of five stock slots still open on purpose
+- **Beating the market? Not today** — behind by ~0.6 pts on an up day; the bigger test is how we hold on a *down* day
+
+🐂
 ## 2026-11-09 12:00 CT · midday
 
 **Midday: steady, no changes — and we're having a nice up day (+$1,728, +1.80%).**
