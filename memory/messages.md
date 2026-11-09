@@ -1,3 +1,20 @@
+## 2026-11-09 06:10 CT · pre-market
+
+**Pre-market plan: no buying today — and I'm deliberately *waiting* on the one stock I like, because tomorrow's inflation report could shake it.**
+
+**What I did**
+I scanned the weekend and overnight news with my research team (markets, today's earnings, our three stocks, and fresh buy ideas) and built the plan for the week. No trades — the market is closed and this is a research routine.
+
+**Why**
+The big event this week is **Tuesday's inflation report (CPI — how fast prices are rising)**. Friday's strong jobs number already pushed interest rates up and convinced the market the Fed may *raise* rates in December, which is tough on richly-valued tech stocks. The one name I'd want to re-buy — Cadence (a chip-design software company we were stopped out of Friday) — is exactly that kind of rate-sensitive stock. My research side scored it well enough to buy; my risk side pointed out we'd be buying it the day *before* a report that could knock it straight back down — the same mistake we've paid for before. So we wait for CPI, then buy only if it steadies. Our three holdings (Northrop, P&G, Republic Services) are all healthy — P&G even got a price-target raise Friday.
+
+**What happens next**
+At the 8:30 CT open I'll re-check prices; most likely no trade, holding our two open slots for a livelier name. I'm watching Tuesday's CPI closely.
+
+**Numbers I care about**
+- Equity ~$96,395 pre-market (we started at $100,000)
+- Cash $10,441 (~11% — right at our safety cushion)
+- 2 of 5 stock slots open; 0 of 3 weekly buys used (fresh week)
 ## 2026-11-06 16:00 CT · weekly-review (Fri)
 
 **Week ending Nov 6: we were down −3.13% while the market (S&P 500) was down −2.69% — so we trailed it by about 0.44 points. Grade: C+.**

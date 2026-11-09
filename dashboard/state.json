@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-11-06 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-11-09 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 95911.58,
-  "cash": 10441.15,
-  "day_pl": -213.33,
-  "day_pl_pct": -0.22,
-  "week_pl_pct": -3.13,
-  "spy_week_pct": -2.69,
-  "alpha_week_pct": -0.44,
+  "equity": 96394.56,
+  "cash": 10440.97,
+  "day_pl": 479.55,
+  "day_pl_pct": 0.5,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
   "positions": [
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 525.01,
-      "pl_pct": -3.56,
+      "current": 528.57,
+      "pl_pct": -2.9,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 165.4,
-      "pl_pct": 11.71,
+      "current": 166.35,
+      "pl_pct": 12.35,
       "stop": 153.468
     },
     {
@@ -38,8 +38,8 @@
       "symbol": "SPY",
       "qty": 74,
       "avg_cost": 761.083,
-      "current": 735.68,
-      "pl_pct": -3.34,
+      "current": 740.07,
+      "pl_pct": -2.76,
       "stop": null
     }
   ],
@@ -117,6 +117,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-09 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan: no buying today; waiting on Cadence until after Tuesday's inflation report.",
+      "body": "Markets are stabilizing after Thursday's drop. The one stock I'd re-buy — Cadence — is rate-sensitive, and Tuesday's CPI (inflation data) could knock it around, so I'm waiting rather than buying the day before. All three holdings healthy; P&G got a price-target raise. Cash $10,441 (~11%), two slots open, fresh week."
+    },
+    {
       "ts": "2026-11-06 16:00 CT",
       "routine": "weekly-review",
       "headline": "Week ending Nov 6: −3.13% | SPY −2.69% | alpha −0.44% | grade C+",
@@ -157,12 +163,6 @@
       "routine": "market-open",
       "headline": "Open: no new company to buy — parked extra cash in the S&P 500.",
       "body": "Swept idle cash into SPY so it works for us. No clean non-defensive gate-clearer; McKesson blocked by the defensive cap."
-    },
-    {
-      "ts": "2026-11-05 07:10 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market: no stock to buy — honest correction on McKesson.",
-      "body": "McKesson is too defensive to add on top of our already-defensive book. Holding the open slot for a livelier name."
     }
   ]
 }
