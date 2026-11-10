@@ -1,3 +1,59 @@
+# 2026-11-10 ~08:35 CT (09:35 ET) — MARKET-OPEN (Tue) — Opus 4.8 · NO TRADES · ★ OCTOBER CPI PRINTED HOT → rate-sensitive/high-beta near-veto confirmed · sleeve 3/5 (two open slots) · weekly buys 0/3 · equity $97,470.44 · intraday −0.18% vs SPY −0.53% (book AHEAD +0.35pt) · cash $10,440.97 (10.71%)
+
+**Run meta:** `market_clock.py --slot market-open --wait` → status **DUE** (09:33 ET, ~4 min after the 9:30 bell; winter cron `30 14 * * 1-5`, real winter ring — no early-summer DST alarm this slot, no `--wait` block). Second run with `--clock-is-open true --next-open 2026-11-11T09:30:00-05:00` → "Alpaca clock says the market is open." Alpaca `/v2/clock` **is_open=true**. Slot **CLAIMED** (`--claim --owner market-open`, stamp 2026-11-10) and the claim pushed to `HEAD:main` BEFORE any order. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox: **no Pending**. Astra: **no proposals**. Live Alpaca verified: equity $97,470.44, cash $10,440.97, last_equity (Mon settled) $97,642.41, long_mv $87,029.47, buying_power $285,446.39 (margin, unused), status ACTIVE. Positions = 3 conviction + SPY floor. **Open orders = exactly 3** (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY (74 sh) unencumbered. Week 11/09–11/13 → weekly conviction buys **0/3** (day 2 of 5). No new trade-log lines (no fills).
+
+## Live position marks (market-open, 09:35 ET)
+| Sym | Qty | Avg | Px | P/L% | Intraday% | MV | Stop |
+|---|---|---|---|---|---|---|---|
+| NOC | 18 | 544.3700 | 544.99 | +0.11% | +1.10% | $9,809.83 | −7% HARD 506.26 (~7.3% above) |
+| PG  | 65 | 148.0600 | 168.98 | +14.13% | +0.39% | $10,983.60 | 10% TRAIL floor 153.468 (hwm 170.52) |
+| RSG | 44 | 218.0000 | 246.12 | +12.90% | −0.27% | $10,829.28 | 10% TRAIL floor 228.95469 (hwm 254.394) |
+| SPY | 74 | 761.0828 | 748.67 | −1.63% | −0.53% | $55,401.58 | NONE (index-floor sleeve) |
+
+Conviction stock mv NOC+PG+RSG = $31,622.71 (32.4%); SPY sleeve $55,401.58 (56.8%); cash $10,440.97 (10.71%, at the ~$10k cushion).
+
+## ★ The CPI print (8:30 ET) — HOT, as the near-veto scenario
+Perplexity (sonar-pro) confirmed the **October CPI came in HOT**: headline **+0.4% m/m / +4.0% y/y**, core **+0.3% m/m / +2.9% y/y** — both ~0.1pt above consensus (headline +0.3%/+3.9%, core +0.2%/+2.8%). Reaction: **S&P futures ~−0.8%, Nasdaq ~−1.4%** (growth/long-duration hit hardest), **Treasury yields jumped**, **December hike now ~100% priced** with ~13.6% odds of a 50bp. This is precisely the regime the pre-market handoff flagged: a HOT print cements the Dec hike and re-threatens rate-sensitive/high-multiple names. Defensives/value outperform — our NOC/PG/RSG tilt is on the right side; the SPY floor carries index beta.
+
+## Buy decision — NO QUALIFYING BUY (all candidates disqualified by the HOT-CPI regime)
+Book is DEFENSIVE-TILTED at the **2-of-5 defensive cap**, so any new buy must be NON-defensive (beta ≥1.0) AND clear 2+ signals + Conviction ≥70 on a clean entry. Re-validated the two deferred candidates on live Alpaca:
+- **CDNS (Cadence) — $327.22 live, but FALLING on the rate stress.** The pre-market condition was "after CPI, ONLY on a genuine stabilize/reclaim above ~$312–315." A HOT CPI that spikes yields is the opposite of that backdrop — this is the exact rate-sensitivity the Risk near-veto blocks, and we were rate-stopped out of this same name 11/6. Nominally above the $312–315 level is meaningless when the move is a rate-driven selloff, not a stabilize. **DISQUALIFIED today — stays armed but deferred to a genuine stabilize + easing-rate backdrop.**
+- **AMD (Advanced Micro Devices) — $508.79 live.** Even MORE extended than the pre-market ~$470 pop (chasing further), ~68 (below the 70 gate), high-beta into a risk-off tape + NVDA 11/17 event. **DISQUALIFIED — chasing + below gate + exactly the fresh-high-beta-into-a-macro-shock pattern the near-veto exists to prevent.**
+- **GWW ~66 / APP ~63** — below gate, no fresh 2nd signal. No buy.
+Two open slots stay open — a FEATURE in a hot-CPI risk-off tape, not a gap. Do NOT force a buy.
+
+## SPY sweep
+Not placing a qualifying stock buy and daily loss cap NOT hit → ran `spy_floor.py --equity 97417.83 --cash 10440.97 --spy-price 748.15 --spy-shares 74 --stock-market-value 31615.98 --stock-buy-dollars 0` → **`action: none`** ("Cash is already within one SPY share of the cushion. Nothing to sweep."). No SPY order. SPY target 57.28% ($55,801.85) vs held $55,401.58 — within a share.
+
+## Sell candidates
+- **NONE.** NOC/PG/RSG theses all INTACT; nothing breaching −7% (NOC +0.11%, PG/RSG green); no thesis break, guidance cut, litigation, or exec departure; no sell signal. No forced sell.
+
+## Risk checks (market-open, live)
+- **(a) Any position −7% or worse un-stopped?** NO. No conviction loser (NOC +0.11%); SPY −1.63% (index, no stop by design). No Perplexity thesis-break check triggered.
+- **(b) Any +5%+ needing hard→trailing conversion?** NO. Only HARD-stop name NOC is +0.11% (convert at ~$571.59). PG/RSG already trail.
+- **(c) Daily loss cap:** book −0.18% intraday — NOT breached. (A deepening HOT-CPI selloff past −3% would block buys rest of day.)
+- **(d) Sell signals?** NONE.
+
+## Voices
+- **Research:** CPI HOT confirmed the pre-market base case. The two deferred candidates (CDNS, AMD) both fail on the live tape — CDNS because the rate backdrop is the wrong one (hot print, not the easing stabilize the arming condition required), AMD because it's extended further and still below gate. No non-defensive ≥70 clean entry exists today. Hold the two slots.
+- **Risk:** VINDICATED. The near-veto (no fresh rate-sensitive/high-beta the session of a binary print) is exactly why we didn't pre-buy CDNS/AMD — both are selling off now. Book is −0.18% vs SPY −0.53% = down-day protection working. Cash at cushion; largest single name PG ~11.3% of equity, no concentration issue. Two open slots are correct, not a miss.
+- **Trader:** **NO order this run.** HOT CPI → no qualifying stock buy; no sell (theses intact); SPY sweep `action: none` (cash at cushion). Open orders verified = exactly 3 (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY 74 unencumbered. No Telegram push (no-trade market-open, no stop/urgent event — per telegram.md skip rules; the close owns today's mandatory daily push).
+
+**Handoff → MIDDAY (Tue 2026-11-10 ~12:00 CT / 13:00 ET):**
+- **Levels to watch:** Is the HOT-CPI selloff deepening or stabilizing? If the book drops past **−3% intraday**, the daily loss cap blocks new buys rest of day (index included). SPY $748.67 at open — watch whether it holds or slides further on the rate repricing.
+- **Stops to upgrade:** NOC convert hard→trailing only at +5% (~$571.59) — currently +0.11%, not yet. PG/RSG trails ratchet automatically; nothing manual.
+- **Standing actions still open (verbatim until executed or cancelled):**
+  1. **CDNS re-entry — STILL ARMED but DEFERRED.** Not into a hot-CPI rate selloff. Reconsider only on a genuine stabilize + easing-rate backdrop, ≤10% starter, −7% hard at fill. Do NOT chase.
+  2. **Two open slots (sleeve 3/5) → NON-defensive gate-clearer only** (beta ≥1.0). AMD extended/below gate; GWW/APP below gate. Do NOT force a buy.
+  3. **SPY sweep:** `action: none` (cash at cushion). Re-run `spy_floor.py` at midday only if a stop frees fresh cash while the market is open.
+  4. **Daily loss cap:** if HOT-CPI selling pushes the book >3% intraday, NO new buys rest of day.
+- **Re-verify live at midday:** account/positions/open-orders/clock; confirm exactly 3 open orders; SPY (74 sh) unencumbered.
+- **Clock discipline:** winter crons; today's market-open was the real winter ring (09:33 ET). Keep both UTC crons registered.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (CPI query returned).
+- **Unverified:** CDNS/AMD exact 50-day levels (directional read is clear — both selling on rate stress); account/positions/open-orders/clock all pulled live this run.
+
+---
+
 # 2026-11-10 ~06:10 CT (07:05 ET) — PRE-MARKET (Tue) — Opus 4.8 · NO TRADES (market closed) · ★ OCTOBER CPI 8:30 ET = THE WEEK'S BINARY · posture LIGHT into the print · sleeve 3/5 (two open slots) · weekly buys 0/3 · equity $97,758.99 · cash $10,440.97 (10.68%)
 
 **Run meta:** `market_clock.py --slot pre-market` → status **DUE** (07:05 EST, ~5 min after the 7:00 ET bell time; winter cron `0 12 * * 1-5`, real winter ring — not an early summer DST alarm). No `--wait` block needed (we woke on the real winter cron). Alpaca `/v2/clock` **is_open=false** (next_open Tue 2026-11-10 09:30 ET; next_close 16:00 ET) — **market CLOSED, pre-market = research only, NO TRADES this run.** 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers research). Inbox: **no Pending**. Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). Live Alpaca verified: equity $97,758.99, cash $10,440.97, last_equity (Mon settled close) $97,642.41, long_mv $87,318.02, buying_power $286,254.33 (margin, unused), status ACTIVE. Positions = 3 conviction + SPY floor. **Open orders = exactly 3** (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY (74 sh) unencumbered. Week 11/09–11/13 → weekly conviction buys **0/3** (day 2 of 5).
