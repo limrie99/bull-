@@ -1,3 +1,71 @@
+# 2026-11-10 ~06:10 CT (07:05 ET) — PRE-MARKET (Tue) — Opus 4.8 · NO TRADES (market closed) · ★ OCTOBER CPI 8:30 ET = THE WEEK'S BINARY · posture LIGHT into the print · sleeve 3/5 (two open slots) · weekly buys 0/3 · equity $97,758.99 · cash $10,440.97 (10.68%)
+
+**Run meta:** `market_clock.py --slot pre-market` → status **DUE** (07:05 EST, ~5 min after the 7:00 ET bell time; winter cron `0 12 * * 1-5`, real winter ring — not an early summer DST alarm). No `--wait` block needed (we woke on the real winter cron). Alpaca `/v2/clock` **is_open=false** (next_open Tue 2026-11-10 09:30 ET; next_close 16:00 ET) — **market CLOSED, pre-market = research only, NO TRADES this run.** 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers research). Inbox: **no Pending**. Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). Live Alpaca verified: equity $97,758.99, cash $10,440.97, last_equity (Mon settled close) $97,642.41, long_mv $87,318.02, buying_power $286,254.33 (margin, unused), status ACTIVE. Positions = 3 conviction + SPY floor. **Open orders = exactly 3** (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY (74 sh) unencumbered. Week 11/09–11/13 → weekly conviction buys **0/3** (day 2 of 5).
+
+**4-agent fan-out ran on Perplexity sonar-pro (all 4 returned).** Macro / Earnings / Position(NOC·PG·RSG) / Opportunity-scout.
+
+## Live position marks (pre-market, 07:05 ET — thin pre-open quotes, reference)
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| NOC | 18 | 544.3700 | 540.66 | −0.68% | $9,731.88 | −7% HARD 506.26 (~6.4% above) |
+| PG  | 65 | 148.0600 | 168.7446 | +13.97% | $10,968.40 | 10% TRAIL floor 153.468 (hwm 170.52) |
+| RSG | 44 | 218.0000 | 246.84 | +13.23% | $10,860.96 | 10% TRAIL floor 228.95469 (hwm 254.394) |
+| SPY | 74 | 761.0828 | 753.47 | −1.00% | $55,756.78 | NONE (index-floor sleeve) |
+
+Conviction stock mv NOC+PG+RSG = $31,561.24 (32.3%); SPY sleeve $55,756.78 (57.0%); cash $10,440.97 (10.68%, at the ~$10k cushion).
+
+## Market context
+**★ REGIME: RISK-OFF / inflation-wary, coiled into the 8:30 ET October CPI — the week's binary.** Fed-path pricing has swung hard hawkish: ~84–85% priced for a **December HIKE** (up from ~74% a week ago), after Friday's hot jobs (+165k). Rates HIGH + bear-flattening: **10Y ~4.882% (+~2bp) / 2Y ~4.614% (+~6bp)** — short end rising faster = policy anxiety, not growth optimism. **Oil easing** (WTI ~$86, Brent ~$91.67, −~1%) = mild disinflationary tailwind into the print. DXY ~101.66, gold ~$4,129. **Global firmly green overnight** (Nikkei +2.89% tech-led, Hang Seng +~0.5%, Stoxx 600 +~0.9%, DAX +~1.3%) — risk appetite abroad better than the US rates-driven defensive tone. **US futures direction UNVERIFIED** (agent couldn't pull a clean 7am ES/NQ quote) — let market-open read the live tape after the print.
+- **★ OCTOBER CPI (8:30 ET):** consensus **headline +0.3% m/m / +3.9% y/y; core +0.2% m/m / +2.8% y/y**; whisper slightly below (~+0.26–0.29% headline). **HOT (core ≥+0.3% m/m)** → cements the Dec hike, yields up, growth/long-duration sells off, defensives outperform. **SOFT (core ≤+0.1%)** → risk-on relief, hike odds fade, growth/rate-sensitive beta rebounds (opens the CDNS re-entry window). In-line keeps the hawkish tilt. PPI Thu 11/12 is the follow-on.
+- Tape favors **DEFENSIVE / VALUE** over high-beta growth until CPI clears — our NOC/PG/RSG tilt is on the right side of today's regime, with the SPY floor carrying index participation.
+
+## Earnings watch
+- **Nothing material to a beat-SPY large-cap book today.** No mega-cap / major S&P constituent reports Nov 10 BMO or AMC. Today's calendar skews mid/small-cap + AI/crypto-miner/space (SE, ONON, TDG BMO; CoreWeave CRWV AMC = an AI-sentiment read, not a holding). The bigger large-caps (AMAT, CSCO) are **Wed 11/11**, not today.
+- **Holdings check — CONFIRMED CLEAR:** NOC / PG / RSG do NOT report today or this week (next prints Jan–Feb 2027). No surprise earnings risk in the book.
+
+## Portfolio watch (all three conviction holdings INTACT)
+- **NOC — INTACT.** No company-specific news Nov 8–10; a Nov 10 13F showed an outside fund (Lockheed's investment arm) trimmed NOC — positioning noise, not a fundamental change. Recent analyst actions (Guggenheim $640, MS $765, both Oct 21) at/above our ~$593 thesis target. Backlog/beat-raise thesis intact; soft patch still reads as post-midterm defense sentiment, not a company break. −0.68%, ~6.4% above its 506.26 hard. A HOT CPI could press it modestly; let the hard manage downside.
+- **PG — INTACT.** No operating news. **Flag: the UBS PT→$190 Buy (our Friday note) could NOT be independently re-confirmed this scan** — treat as Friday-sourced, not a fresh live signal; other recent PTs Goldman $161 / Barclays $165 / BNP-Exane $189 (late Oct). Nov 19 Investor Day still the next catalyst (event, not new guidance). +13.97%, trailing floor 153.468 well clear.
+- **RSG — INTACT.** Bernstein maintained Hold, PT $230 (Nov 9–10) — the only fresh action, neutral/near levels. $5B buyback + raised FY26 intact. +13.23%, trailing floor 228.95469.
+- **SPY floor** −1.00% (index, no stop by design), 57.0% of book — carries the index participation.
+
+## Buy candidates (signals matched + Conviction) — NONE CLEAR THE ≥70 GATE
+Book is DEFENSIVE-TILTED and at the **2-of-5 defensive cap**, so next buys MUST be NON-defensive (beta ≥1.0). Scored by Bull from the scout's evidence; live prices/50-day UNVERIFIED pre-open (scout could only confirm AMD/NVDA) — market-open must re-anchor to live Alpaca before any score is actioned.
+- **★ AMD (Advanced Micro Devices) — semis/tech (MISSING factor), beta ~1.7–1.9 — Conviction ~68 (B), BELOW gate.** Three signals: #1 (Q3 beat 11/4 — EPS $2.09 vs $1.94, rev $13.38B vs $13.06B, stronger Q4 guide), #4 (FRESH Oppenheimer upgrade→Outperform $600 PT 11/9), #3 (AI/semis secular). Sub-scores Fund 75 / Thesis 72 / Sent 75 / Risk 45 / Tech 50 → **~68.5**. Clears 2-signal but **FAILS the ≥70 gate**, and multiple red flags: already popped **~+4.8% pre-market to ~$470 = chasing**, 50-day unverified, **NVDA earnings 11/17 = sector-wide whipsaw risk for all semis next week**, and it's high-beta into today's binary CPI = the exact fresh-entry-into-a-macro-print pattern the SNPS near-veto exists to prevent. **WATCH/NEAR-TRIGGER — reconsider only AFTER CPI on a stabilize/pullback (not the extended gap), ≤10% starter per the high-beta standing rule, −7% hard at fill. Do NOT chase the pre-market pop.**
+- **GWW (Grainger) — industrials, beta ~0.9–1.0 — Conviction ~66 (B), BELOW gate.** Cleanest beat-and-raise (EPS $12.54 vs $11.68; raised FY EPS $47–48 / rev $19.8–20.0B) but **beta ~0.9–1.0 = borderline, may FAIL the non-defensive beta≥1.0 gate**, and NO fresh upgrade / 30-day catalyst → really ~1–1.5 signals. WATCH (needs a 2nd clean signal AND a confirmed beta ≥1.0).
+- **APP (AppLovin) — software/adtech, beta ~1.8–2.1 (very high) — Conviction ~63 (B), BELOW gate.** #1 (beat 11/5 — EPS $4.30 vs $4.04, rev $2.18B vs $2.07B) + #4 (BTIG $450 / Needham $475) + #3 (AI-adtech), but the guide was strong QUARTERLY not a confirmed FY raise, trend UNVERIFIED, extreme volatility. WATCH (size small IF it ever clears).
+- **★ CDNS (Cadence) — EDA/chip software, beta ~1.3 — ~71 (B+) on score, but TIMING-DEFERRED.** Clears on score + fills the tech need, but the Risk near-veto holds: high-multiple/rate-sensitive + we were rate-stopped out of this exact name 11/6 + today IS the binary CPI. **ARMED but DEFERRED past the print. Do NOT buy before 8:30 ET. After CPI, only on a stabilize/reclaim above ~$312–315, ≤10% starter, −7% hard at fill; do NOT chase.**
+- Scout could not verify CRM/NOW/AXP/CAT/UBER/SHOP/XYZ/ELF within budget (no confirmed fresh beat-raise surfaced). NVDA non-defensive but in a confirmed downtrend near 52-wk lows + earns 11/17 = knife, avoid. PANW earns 11/18 (event risk, defer).
+
+## Sell candidates
+- **NONE.** NOC/PG/RSG theses all INTACT; nothing breaching −7%; no thesis break, guidance cut, litigation, or exec departure. PG/RSG trailing stops sit well below price (profit locked). No forced sell.
+
+## Risk checks (pre-market, reference — no orders placed)
+- **(a) Any position −7% or worse un-stopped?** NO. Deepest conviction loser NOC −0.68% (~6.4% above its 506.26 hard); SPY −1.00% (index, no stop by design). Nothing near −7% → Perplexity 4-hr thesis-break check NOT triggered.
+- **(b) Any +5%+ needing hard→trailing conversion?** NO. Only HARD-stop name is NOC (−0.68%, negative). PG/RSG already trail.
+- **(c) Daily loss cap:** N/A pre-open; market-open owns the live intraday check before any buy.
+- **(d) Sell signals?** NONE.
+
+## Voices
+- **Research:** 4-agent fan-out clean. 3 held theses INTACT (PG/RSG double-digit winners, NOC flat/contained). AMD is the strongest NON-defensive idea and adds the missing tech factor, but scores ~68 (below the 70 gate) AND is extended into a binary CPI + a looming NVDA print — not a clean entry. CDNS stays armed but TIMING-gated to post-CPI. No proposal clears for the two open slots this run. Hand slot-fill + CDNS re-entry to market-open (post-print).
+- **Risk:** posture LIGHT into the 8:30 ET CPI is correct — the near-veto blocks initiating fresh rate-sensitive/high-beta beta the session of/before a binary macro print. AMD (high-beta, extended, +NVDA 11/17 event) and CDNS (rate-sensitive) both sit squarely inside that veto until the print clears. Two open slots are a FEATURE pre-CPI, not a gap. Cash at the ~$10k cushion; no concentration issue (largest single name PG ~11.2% of equity).
+- **Trader:** **NO order this run — market CLOSED (is_open=false), pre-market is research only.** Open orders verified = exactly 3 (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY 74 unencumbered. SPY sweep `action: none` (cash within one share of the cushion; market closed anyway) — no sweep. No Telegram push (pre-market research, no trade/urgent event — per telegram.md skip rules).
+
+**Handoff → MARKET-OPEN (Tue 2026-11-10 ~08:30 CT / 09:30 ET):**
+- **★★ CPI LANDS 8:30 ET, BEFORE the 9:30 open — read the print + the tape's reaction FIRST, then decide.** Do NOT initiate fresh rate-sensitive/high-beta beta into/at the print; let it stabilize.
+- **Standing actions carried forward (verbatim until executed or cancelled):**
+  1. **CDNS re-entry ARMED, DEFERRED past the CPI print.** After CPI only, on a stabilize/reclaim above ~$312–315; ≤10% starter, −7% hard GTC stop at fill; do NOT buy before 8:30 ET, do NOT chase.
+  2. **Two open slots (sleeve 3/5) → NON-defensive gate-clearer only** (beta ≥1.0; book at the 2-of-5 defensive cap). **AMD** is the leading non-defensive candidate but ~68 (below gate) + extended + high-beta into CPI/NVDA-11/17 — re-score on live Alpaca post-print; buy ONLY if it clears ≥70 on a clean (non-extended) entry AND survives the CPI reaction, ≤10% starter. GWW (~66, beta borderline) / APP (~63, very high beta) / ELF/XYZ below gate. Do NOT force a buy.
+  3. **SPY sweep:** `action: none` (cash at cushion). Re-run `spy_floor.py` at the live open ONLY if a stop frees fresh cash; otherwise nothing to sweep.
+  4. **Daily loss cap:** if a HOT CPI drops the book >3% intraday, NO new buys rest of day (index included).
+- **Re-verify live at the open:** account/positions/open-orders/clock; confirm is_open=true before any trade; confirm exactly 3 open orders (NOC hard 506.26; PG trail 153.468; RSG trail 228.95469); SPY (74 sh) unencumbered.
+- **NOC watch (nearest hard):** −0.68%, ~6.4% above 506.26; thesis intact (PT's at/above ~$593). A hot CPI could press it — let the hard manage downside; watch only for a sentiment-slip → actual thesis-break headline.
+- **Clock discipline:** winter crons; today's pre-market was the real winter ring (no early-summer alarm this slot). Keep both UTC crons registered.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (4/4 agents returned this run).
+- **Unverified:** US futures ES/NQ levels (agent couldn't pull a clean 7am quote); PG UBS $190 Buy (treat as Friday-sourced); candidate live prices/50-day (re-anchor to live Alpaca at the open). Account/positions/open-orders/clock all pulled live this run.
+
+---
+
 # 2026-11-09 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Mon) — Opus 4.8 · NO TRADES (quiet up-day) · official day grade: equity $97,587.50 · day +$1,672.49/+1.74% · SPY +2.36% · alpha −0.61pt · sleeve 3/5 (two open slots) · weekly buys 0/3 · cash $10,440.97 (10.70%)
 
 **Run meta:** The 20:00 UTC wake was the **early summer DST alarm** (15:00 ET, status EARLY −57 min — the summer cron `0 20 * * 1-5` ringing in winter). `market_clock.py --slot market-close --wait` held to the real **16:00 ET** (status **DUE**, waited:true, winter cron `0 21 * * 1-5`). Alpaca `/v2/clock` **is_open=false** (bell rung; next_open Tue 2026-11-10 09:30 ET). Second script run with `--clock-is-open false --next-close 2026-11-10T16:00-05:00` → "The bell has rung or there is no session. The scorecard can run." (exit 0). Slot **CLAIMED** (`--claim --owner market-close`, stamp 2026-11-09) and the claim pushed to `HEAD:main` BEFORE the scorecard (so the winter alarm cannot double-run). 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers research, not exercised this run — no −7% trigger). Inbox: **no Pending**. Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). **Last-chance SPY sweep:** at ~15:06 ET (market still open) `spy_floor.py` on the live book (equity 97783.25, cash 10440.97, spy_price 754.11, spy_shares 74, stock_mv 31538.88) → **action: none** ("cash within one SPY share of the cushion"); no late stop freed cash → nothing to sweep, and the bell had rung by the scorecard anyway. Live Alpaca verified at the close: account/positions/open-orders/closed-orders/clock + SPY all pulled live.

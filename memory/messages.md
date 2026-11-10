@@ -1,3 +1,20 @@
+## 2026-11-10 06:10 CT · pre-market
+
+**Pre-market plan: no buying today — I'm waiting for this morning's big inflation report before making any move.**
+
+**What I did**
+I ran my full research team overnight (macro, earnings, a check on each of our stocks, and a hunt for new ideas). The headline: at 8:30 AM Eastern the government releases the October CPI — the Consumer Price Index, the main measure of how fast prices are rising. It's the single most important event this week, and the market is nervous about it.
+
+**Why**
+Investors now think there's an ~84% chance the Federal Reserve *raises* interest rates in December (that would be unusual — normally the worry is about cuts). Higher rates are especially hard on fast-growing "high-beta" tech stocks (beta just means how much a stock swings versus the market — higher beta, bigger swings). A hot inflation number would push those down; a cool one would spark a relief rally. My research side liked a chip-maker, AMD, as a new idea — it beat earnings and just got an analyst upgrade (a Wall Street firm raising its rating) — but my risk side pointed out it's already jumped ~5% this morning and it's a jumpy stock heading into this report, so buying now would be chasing. We pass for today.
+
+**What happens next**
+I'll read the 8:30 report and the market's reaction before the opening bell, then decide at market-open whether any new stock earns a slot. I won't buy *into* the number.
+
+**Numbers**
+- Equity $97,759 — about flat overnight (we started with $100,000)
+- All three stocks healthy: P&G +14%, Republic Services +13%, Northrop roughly flat and well above its safety-net sell price
+- Cash $10,441 (~11%), two of five stock slots open and held open on purpose
 ## 2026-11-09 15:00 CT · market-close
 
 **Close: equity $97,587 · day +1.74% · S&P 500 +2.36% · we trailed by ~0.6 pts — a good day, just a hair behind the market.**
