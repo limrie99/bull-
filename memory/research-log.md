@@ -2,6 +2,63 @@
 
 **Run meta:** `market_clock.py --slot market-open --wait` → status **DUE** (09:33 ET, ~4 min after the 9:30 bell; winter cron `30 14 * * 1-5`, real winter ring — no early-summer DST alarm this slot, no `--wait` block). Second run with `--clock-is-open true --next-open 2026-11-11T09:30:00-05:00` → "Alpaca clock says the market is open." Alpaca `/v2/clock` **is_open=true**. Slot **CLAIMED** (`--claim --owner market-open`, stamp 2026-11-10) and the claim pushed to `HEAD:main` BEFORE any order. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox: **no Pending**. Astra: **no proposals**. Live Alpaca verified: equity $97,470.44, cash $10,440.97, last_equity (Mon settled) $97,642.41, long_mv $87,029.47, buying_power $285,446.39 (margin, unused), status ACTIVE. Positions = 3 conviction + SPY floor. **Open orders = exactly 3** (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY (74 sh) unencumbered. Week 11/09–11/13 → weekly conviction buys **0/3** (day 2 of 5). No new trade-log lines (no fills).
 
+## MIDDAY (Tue 2026-11-10 ~12:00 CT / 13:00 ET) — Opus 4.8 · NO TRADES · steady manage-and-watch · sleeve 3/5 · weekly buys 0/3 · equity $97,545.75 · cash $10,440.97 (10.71%)
+
+**Run meta:** Summer UTC cron (`0 17 * * 1-5` = 17:00 UTC) rang at 12:05 ET — the winter DST early ring. `market_clock.py --slot midday --wait` returned **EARLY** (−55 min) and slept until 13:00 ET, then **DUE** (0.09 min after the bell window). Confirmed `/v2/clock` **is_open=true** (next_close 16:00 ET). Slot **CLAIMED** (`--claim --owner midday`, 2026-11-10) and the claim pushed to `HEAD:main` BEFORE any order — the concurrent winter ring (`0 18` = 18:00 UTC = 13:00 ET) will see ALREADY_CLAIMED and stand down. 4 required keys non-empty; EQUIBLES empty (skipped). Inbox: **no Pending.** Astra: **no proposals** (`astra-proposals.md` still "No proposals yet"). Weekly conviction buys **0/3** (week 11/09–11/13, day 2).
+
+## Live marks (midday, 13:00 ET)
+| Sym | Qty | Avg | Px | P/L% | MV |
+|---|---|---|---|---|---|
+| NOC | 18 | 544.37 | 552.35 | +1.47% | $9,942.30 |
+| PG | 65 | 148.06 | 169.44 | +14.44% | $11,013.60 |
+| RSG | 44 | 218.00 | 248.31 | +13.90% | $10,925.64 |
+| SPY | 74 | 761.083 | 746.26 | −1.95% | $55,223.24 |
+
+Account: equity **$97,545.75**, cash **$10,440.97 (10.71%)**, last_equity (Mon settled close) $97,642.41 → **intraday −$96.66 / −0.10%** (nowhere near −3% loss cap). long_mv $87,104.78 (89.3%); buying_power $285,657.26 (margin, unused); status ACTIVE. Conviction stock mv NOC+PG+RSG $31,881.54 (32.68%); SPY $55,223.24 (56.61%). Sleeve **3/5 — two open slots.**
+
+## Open orders — VERIFIED live (exactly 3, unchanged from open)
+- **NOC −7% HARD** `59a67c62` — stop **506.26**, GTC. qty 18. Convert at +5% (~$571.59).
+- **PG 10% TRAILING** `272e2864` — floor **153.468**, trail 10%, GTC. qty 65.
+- **RSG 10% TRAILING** `135c200e` — floor **228.95469**, trail 10%, GTC. qty 44.
+- **SPY** — NO STOP by design (index-floor sleeve). qty 74 unencumbered.
+
+## Risk checks (midday, live)
+- **(a) Any −7% un-stopped?** NO. All 3 conviction stocks green; deepest mark is SPY −1.95% (index, no stop by design). Nothing near −7%.
+- **(b) Any +5%+ needing hard→trailing conversion?** NO. NOC (only hard-stop name) is **+1.47%** — below +5% (convert ~$571.59; px $552.35). PG (+14.44%) and RSG (+13.90%) already trail.
+- **(c) Daily loss cap:** book **−0.10%** intraday — NOT breached. New buys allowed on merit; none qualify.
+- **(d) Sell signals?** NONE. All three theses INTACT; no −7% breach, no thesis break, no guidance cut.
+
+## Buy decision — NO QUALIFYING BUY
+- **Research:** HOT-CPI risk-off regime unchanged since the open. Rate-sensitive/high-beta near-veto still blocks CDNS (still rate-pressured, no stabilize) and AMD (extended, high-beta into risk-off, NVDA 11/17 ahead). Nothing clears the ≥70 gate on a clean entry at midday. No breaking catalyst to justify a midday deviation from the pre-market plan.
+- **Risk:** two open slots, weekly 0/3, loss cap not breached — budget exists, but no name earns it. Next buys must be NON-defensive (beta ≥1.0) per the sleeve cap (book at 2/5 defensive).
+- **Trader:** placed no stock order. No deviation from the pre-market/open plan.
+
+## SPY sweep
+`spy_floor.py` (equity 97545.75, cash 10440.97, spy-px 746.26, 74 sh, stock-mv 31881.54) → **action: none** — "Cash is already within one SPY share of the cushion." spy_target $55,664.21 (57.06%); holding 74 sh ≈ $55,223 — on target. No order.
+
+## Benchmark (midday, intraday read — close owns the official grade)
+- **DAY:** book **−0.10%** vs **SPY −0.85%** (746.26 vs Mon close 752.69) → book **ahead ~+0.75 pt** intraday. Defensive tilt doing its down-day job on the hot-CPI tape.
+- **WEEK-TO-DATE:** book **+1.70%** (vs Fri 11/06 close $95,912) vs **SPY +1.47%** (746.26 vs Fri close ~735.43) → book **ahead ~+0.23 pt** — flipped from −0.18 behind at the open to a slim lead, as SPY gave back intraday and our book held.
+
+## Voices
+- **Research:** regime unchanged (hot CPI, Dec hike ~fully priced); no gate-clearer; CDNS/AMD still disqualified.
+- **Risk:** loss cap clear, stops intact (NOC hard, PG/RSG trail); cash at cushion; no conversion due.
+- **Trader:** no orders. Claim pushed before anything.
+
+**Handoff → MARKET-CLOSE (Tue 2026-11-10 ~15:00 CT / 16:00 ET):**
+- **MANDATORY close scorecard + Telegram** (never skipped): lead with plain-English day grade — book vs SPY, up/down $ and %, are we ahead. As of midday: DAY book −0.10% vs SPY −0.85% (ahead ~0.75 pt); WEEK book +1.70% vs SPY +1.47% (ahead ~0.23 pt). Re-verify at the real close.
+- **Clock gate:** today's midday was the early summer ring (`0 17`), `--wait`ed to 13:00 ET and claimed. Close uses `market_clock.py --slot market-close`; the summer ring (`0 20`=20:00 UTC) will be ~1h early again → `--wait` to 16:00 ET, confirm `/v2/clock` close within 20 min, then claim.
+- **Stops to upgrade:** NOC convert hard→trailing only at +5% (~$571.59) — now +1.47%, not yet. PG/RSG ratchet automatically.
+- **Standing actions still open (verbatim until executed or cancelled):**
+  1. **CDNS re-entry — ARMED but DEFERRED.** Not into a hot-CPI rate selloff. Reconsider only on a genuine stabilize + easing-rate backdrop, ≤10% starter, −7% hard at fill. Do NOT chase.
+  2. **Two open slots (sleeve 3/5) → NON-defensive gate-clearer only** (beta ≥1.0). AMD extended/below gate; GWW/APP below gate. Do NOT force a buy.
+  3. **SPY sweep:** `action: none` (cash at cushion). Re-run `spy_floor.py` at close only if a stop frees fresh cash while the market is open.
+  4. **Daily loss cap:** if a late selloff pushes the book >3% intraday, NO new buys rest of day.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading each slot. Perplexity OPERATIONAL. Keep both UTC crons registered.
+- **Unverified:** nothing new — account/positions/open-orders/clock all pulled live this run.
+
+---
+
 ## Live position marks (market-open, 09:35 ET)
 | Sym | Qty | Avg | Px | P/L% | Intraday% | MV | Stop |
 |---|---|---|---|---|---|---|---|
