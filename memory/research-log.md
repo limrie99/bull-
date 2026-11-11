@@ -1,3 +1,45 @@
+# 2026-11-11 ~08:33 CT (09:33 ET) — MARKET-OPEN (Wed; Veterans Day — equities OPEN, bonds closed) — Opus 4.8 · NO TRADES · FERG verified+scored but WATCHLISTED (extended entry) · sleeve 3/5 (two open slots) · weekly buys 0/3 · equity $97,959.34 · cash $10,440.97 (10.66%)
+
+**Run meta:** `market_clock.py --slot market-open --wait` → status **DUE** (09:32 ET, 2.7 min into the 9:30 ET window; winter cron `30 14 * * 1-5` — real winter ring, no early-summer DST alarm this slot). Alpaca `/v2/clock` **is_open=true** (ts 09:32 ET; next_close 11/11 16:00 ET). Slot **CLAIMED** (`--claim --owner bull`, stamp 2026-11-11) and the claim pushed to `HEAD:main` BEFORE any order (concurrent summer ring would see ALREADY_CLAIMED and stand down). 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox: **no Pending.** Astra: **no proposals.** Live Alpaca verified: equity $97,959.34, cash $10,440.97 (10.66%), last_equity (Tue settled) $97,668.21 → intraday **+$291.13 / +0.30%** (daily loss cap NOT hit), long_mv $87,518.37, status ACTIVE. **Open orders = exactly 3** (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY (74 sh) unencumbered.
+
+## Live marks (open, ~09:33 ET)
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| NOC | 18 | 544.3700 | 545.00 | +0.12% | $9,810.00 | −7% HARD 506.26 (~7.1% above) |
+| PG  | 65 | 148.0600 | 166.15 | +12.22% | $10,799.75 | 10% TRAIL floor 153.468 (hwm 170.52) |
+| RSG | 44 | 218.0000 | 247.20 | +13.39% | $10,876.80 | 10% TRAIL floor 228.95469 (hwm 254.394) |
+| SPY | 74 | 761.0828 | 757.86 | −0.42% | $56,081.64 | NONE (index-floor sleeve) |
+
+Conviction stock mv NOC+PG+RSG $31,486.55 (32.1%); SPY sleeve $56,081.64 (57.3%); largest single name PG $10,799.75 (11.0%) — under the 20% cap. Cash $10,440.97 (10.66%, at the ~$10k cushion).
+
+## Execution of the pre-market plan — PRIMARY DECISION: FERG
+Pre-market handed FERG to the open as the primary candidate, with the explicit gate: **buy only if ≥70 at a CLEAN, non-extended entry (don't chase a gap-up)**; else watchlist. A live research sub-agent (Perplexity sonar-pro) re-verified and fully scored it:
+- **4 buy signals MET** (≥2 ✓): **#1** Q3 reported 2026-11-09 — adj EPS $3.43 vs $3.28 cons (beat), rev $9.03B vs $8.76B (beat), **RAISED FY26** organic growth ~7% + adj op margin 9.6–9.8%; **#3** construction / onshoring / data-center distribution secular; **#4** Citigroup upgrade Neutral→Buy 10/27 ($288) + PT-raise wave 11/10 (Barclays $314 OW, Baird $300 OP, UBS $270, Oppenheimer $296 Buy), avg PT ~$290; **#6** uptrend intact. (No insider Form-4 buying found — the 11/10 "Aegon" item was an institutional holding disclosure, not an insider buy; #5 sector-rotation not directly sourced.)
+- **Conviction ~76 (B+):** Fund 82 (scale-leader distribution moat, ~7% organic, ~9.7% op margin, P/E ~21.8 fair, leverage ~1.7x EBITDA post-FloWorks) · Thesis 72 (clear but main catalyst already in the price) · Sent 85 (1 upgrade + 4 PT raises in 2 wks, Buy consensus, ~12% to avg PT) · Risk 70 (large-cap/liquid but cyclical, beta 1.11, rising interest expense) · **Tech 58 (the weak leg — extended, ~96% of the 52-wk high right after an 11% gap-up = chasing near resistance).** Weighted = 0.30·82+0.30·72+0.20·85+0.12·70+0.08·58 = **76.2**.
+- **Gates on paper: PASS** (Conviction 76≥70; signals 4≥2; **beta 1.11 ≥1.0 satisfies the non-defensive requirement**, book at the 2-of-5 defensive cap; P/E ~21.8 = NOT a long-duration/rate-sensitive name the hot-CPI backdrop would veto). Next earnings ~3 months out → no 3-day earnings blackout.
+
+### Voices
+- **Research:** FERG is a genuine non-defensive, low-rate-risk industrial that clears both gates — exactly the factor the defensive cap is pushing us toward. On the framework it is buyable today.
+- **Risk:** The **entry is the problem, not the name.** FERG is extended +11% on the 11/9 pop, parked ~96% of its 52-wk high ($271.64) with the catalyst already priced; technical-timing scored 58 and risk/reward is muted (~12% to the avg PT). The pre-market condition was a *clean* entry — this is a chase. This is precisely the shape of entry that the entry-timing discipline (and the CDNS "buy the pullback, don't chase >$340" precedent) tells us to decline. A −7% hard stop under an extended, mean-reversion-prone entry is a shake-out waiting to happen.
+- **Trader:** **DECLINED the buy at live prices.** Two reasons: (1) the entry fails the clean-entry gate (extended chase); (2) the live open book was **thin/wide — bid 253.32 / ask 276.15 ≈ a 9% spread**, with a stale IEX last print (Tue close $259.36) — any order would take a garbage fill, same anti-garbage-fill discipline as the CDNS marketable-limit note. **FERG → WATCHLIST / NEAR-TRIGGER: score clears, entry doesn't.** Buy trigger: a pullback into the ~$240s (toward the pre-gap base) that holds, re-verified 2 signals + ≥70 + an open slot, B+ sizing (10–15%), −7% hard GTC at fill. Do NOT chase near $260/the high.
+
+## Other decisions this run
+- **Sells: NONE.** No position −7% un-stopped; no +5% hard→trailing conversion due (NOC +0.12% only hard-stop name, converts ~$571.59); no thesis break, guidance cut, litigation, or exec departure. RSG strengthened (JPMorgan upgrade→OW PT $295).
+- **CDNS re-entry — ARMED but DEFERRED.** Hot-CPI is the adverse rate scenario; re-entry needs a genuine stabilize + easing-rate backdrop, not this tape.
+- **ANET** rate-vetoed (high-multiple tech into hot-CPI); **XYZ** borderline (~70) — both WATCH, not buys.
+- **SPY sweep:** `spy_floor.py --equity 97959.34 --cash 10440.97 --spy-price 756.09 --spy-shares 74 --stock-market-value 31486.55` → **action: none** ("Cash is already within one SPY share of the cushion"); spy_target ~$56,473 (~57.6%), held 74 sh ≈ $56k — on target. No sweep. (No stock buy this run, so the same-day sweep rule applies, but there is no idle cash above the cushion to sweep.)
+- **Daily loss cap:** book +0.30% intraday — not breached; new buys allowed today (none qualified on a clean entry).
+
+## Handoff → midday (Wed 2026-11-11 ~12:00 CT / 13:00 ET)
+- **Clock:** summer cron `0 17` fires early (12:00 ET); winter `0 18` (13:00 ET) is the real ring — `market_clock.py --slot midday --wait` holds to 13:00 ET. Keep both UTC crons registered.
+- **★ FERG — WATCHLIST, do NOT chase.** Buy trigger: a genuine pullback into the ~$240s that holds, re-score ≥70 with 2 signals, open slot; B+ sizing (10–15%), −7% hard GTC at fill. Do not initiate near $260/the 52-wk high. If it pulls back cleanly intraday, midday may originate the buy under the normal gates.
+- **Standing actions (verbatim until executed/cancelled):** (1) CDNS re-entry ARMED but DEFERRED — not into hot-CPI; genuine stabilize + easing-rate backdrop only, ≤10% starter, −7% hard GTC. (2) Two open slots → NON-defensive only (beta ≥1.0). ANET/XYZ on watch, not buys. (3) SPY sweep: cash at cushion → `action: none` unless a stop frees fresh cash while market open. (4) Daily loss cap resets daily; >3% intraday drop blocks new buys.
+- **NOC:** +0.12%, ~7.1% above 506.26. Convert hard→trailing only at +5% (~$571.59). Watch for a thesis-break headline only.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (exercised via the FERG verify sub-agent).
+- **Unverified:** nothing on the book (account/positions/open-orders/clock pulled live). FERG figures are Perplexity-sourced; re-verify live if it ever triggers.
+
+---
+
 # 2026-11-11 ~06:05 CT (07:05 ET) — PRE-MARKET (Wed) — Opus 4.8 · RESEARCH-ONLY (market closed, no trades) · sleeve 3/5 (two open slots) · weekly buys 0/3 (day 3 of 5) · equity $98,147.17 (pre-mkt mark) · cash $10,440.97 (10.64%)
 
 **Run meta:** `market_clock.py --slot pre-market --wait` → status **DUE** (07:04 ET, 4.7 min into the 7:00 AM ET window; winter cron `0 12 * * 1-5` — real winter ring, no early-summer DST alarm this slot). Pre-market is research-only: **no order, no scorecard, no Telegram** (per CLAUDE.md pre-market scans with no trades do NOT push). Alpaca `/v2/clock` **is_open=false** (next_open Wed 11/11 09:30 ET). 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox: **no Pending.** Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). Live Alpaca verified (pre-market marks, extended hours): equity $98,147.17, cash $10,440.97, last_equity (Tue settled close) $97,668.21, long_mv $87,706.20, buying_power $287,341.25 (margin, unused), status ACTIVE. **Open orders = exactly 3** (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY (74 sh) unencumbered. Sub-agent team run in parallel: macro, earnings, position, opportunity scout (all via Perplexity sonar-pro).

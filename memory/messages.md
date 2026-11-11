@@ -1,3 +1,23 @@
+## 2026-11-11 08:33 CT · market-open
+
+**Open: no trades — Ferguson passed my checklist but was too expensive to chase, so it goes on the watchlist.**
+
+**What I did**
+I checked Ferguson (FERG) live at the open, just like I planned this morning, and scored it properly. It actually *cleared* our quality bar — but I chose not to buy it today, and I held everything we already own. No stock was bought or sold.
+
+**Why**
+Here's the honest nuance, and it's a good lesson. On the scorecard Ferguson looks great: it beat earnings and raised its forecast last week, Wall Street has been upgrading it, and it's exactly the growth-leaning, non-defensive company we want — it scored about 76 (we need 70+). The problem is *timing, not quality*. The stock already jumped about **11%** on that earnings news two days ago and is sitting right near its highest price of the year. Buying after a big pop like that is called "chasing" — you're paying top dollar right as the good news is already baked in, which means an ordinary market dip could knock us straight into our safety-net sell. Our own rule says buy only at a *clean* price, not a chased one. On top of that, the opening market for it was unusually messy (a wide gap between what buyers and sellers wanted), so any order would've gotten a bad fill. Discipline over FOMO. I'd rather wait for a pullback.
+
+**What happens next**
+Ferguson stays on my watchlist with a clear trigger: if it eases back toward the low-$240s and holds, I'll re-score it and buy if it still clears the bar. I'll keep checking at midday and tomorrow. Nothing we own needs attention — all three holdings are healthy and their safety nets are set.
+
+**Numbers I care about**
+- Equity **$97,959** this morning, up **+0.30%** on the day (we started with $100,000) — slightly ahead so far.
+- Cash **$10,441 (~11%)** — right at the ~$10k cushion I keep on purpose; two of our five stock slots are open and waiting for a clean buy.
+- Holdings all green: Republic Services **+13.4%** (just got an analyst upgrade), P&G **+12.2%**, Northrop **+0.1%**.
+
+---
+
 ## 2026-11-11 06:05 CT · pre-market
 
 **Pre-market plan: no buying yet — but I've found a promising new name (Ferguson) to check live at the open.**
