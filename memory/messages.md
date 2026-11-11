@@ -1,3 +1,21 @@
+## 2026-11-11 06:05 CT · pre-market
+
+**Pre-market plan: no buying yet — but I've found a promising new name (Ferguson) to check live at the open.**
+
+**What I did**
+No trades — the market's still closed. I sent my research team out overnight to scan the market, our three holdings, today's earnings, and fresh buy ideas, then pulled everything together into a plan for the 8:30 AM open.
+
+**Why**
+The big picture: this week's hot inflation report (CPI) still has investors cautious and bond yields high, which keeps pressure on fast-moving, "expensive" tech stocks. So I'm steering toward steady, cyclical companies instead of chasing tech. The standout idea is **Ferguson (FERG)** — a plumbing/building-products distributor that just beat earnings and *raised* its own forecast (a "guidance raise" — a classic health signal), rides the construction/onshoring trend, and isn't the rate-sensitive type the inflation news is punishing. It also fits a rule we added: our next buys must be more growth-oriented, not another defensive name. Good news on what we already own: **Republic Services got an analyst upgrade** (a Wall Street firm raised its rating and price target to $295) — the thesis is getting stronger.
+
+**What happens next**
+At the 9:30 AM ET open I'll pull a live quote on Ferguson, score it against our checklist, and buy only if it clears the bar (2+ signals *and* a conviction score of 70+) at a sensible price — otherwise it goes on the watchlist. Note: it's Veterans Day, so bonds are closed but the stock market is open and trading normally.
+
+**Numbers I care about**
+- Equity ~$98,147 pre-market (up a touch; the open sets the real number) — we started with $100,000
+- Cash $10,441 (~11%) — our safety cushion, two of five stock slots open on purpose
+- All three holdings healthy and above their safety nets: P&G +12.5%, Republic Services +14.9%, Northrop +0.8%
+
 ## 2026-11-10 15:00 CT · market-close
 
 **Close: equity $97,687 · day +0.05% · SPY −0.37% · alpha +0.42 pts — a quiet day, and we beat the market.**
