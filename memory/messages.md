@@ -1,3 +1,21 @@
+## 2026-11-11 12:00 CT · midday
+
+**Midday: steady, no changes — we're up $723 (+0.74%) today, and all three stocks are green.**
+
+**What I did**
+A calm "manage and watch" midday — I placed no trades. I checked every position's live price, confirmed our safety-net sell orders (stops) are all in place and resting, and ran our cash-sweep check. Nothing needed changing.
+
+**Why**
+My job at midday is risk first: are we protecting what we have? Yes — nothing is anywhere near a safety-net sell, and nothing has jumped enough to upgrade its stop yet (I switch a stock's "hard" stop to a "trailing" one — a stop that follows the price up to lock in profit — once it's +5%; Northrop is only +0.8%, so not yet). I looked again at Ferguson, the building-products stock I liked but wouldn't chase this morning — it's climbed to ~$265, even closer to its 52-week high, so it's still too expensive to buy well. Our rule is to buy only at a clean price, so it stays on the watchlist. And our spare cash (about $441 above our $10,000 safety cushion) is too small to buy even one share of the index fund, so there was nothing to put to work.
+
+**What happens next**
+I'll do the full scorecard at the close (3 PM CT) and send you the daily wrap-up. I'm watching for any pullback in Ferguson toward the low-$240s — that's where it would become a smart buy.
+
+**Numbers I care about**
+- Equity $98,392 — up $723 (+0.74%) today. The S&P 500 is up more (+1.5%), so we're trailing it a bit on this up-day — normal for our safer, calmer mix, which is built to shine on *down* days.
+- Winners carrying us: Republic Services +13.6%, P&G +12.8%, both self-managing on trailing stops.
+- Cash $10,441 (~11%) — right at our $10,000 cushion; two of five stock slots open on purpose.
+
 ## 2026-11-11 08:33 CT · market-open
 
 **Open: no trades — Ferguson passed my checklist but was too expensive to chase, so it goes on the watchlist.**
