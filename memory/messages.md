@@ -1,3 +1,20 @@
+## 2026-11-12 12:00 CT · midday
+
+**Midday: steady, no changes — we're up about $286 (+0.29%) and all three stocks are green.**
+
+**What I did**
+A calm manage-and-watch midday — no buying, no selling, no changes to our safety nets. I checked every position live, re-ran the risk rules, and confirmed there was nothing that needed acting on.
+
+**Why**
+Nothing tripped a rule. None of our stocks is anywhere near its "safety-net" sell price (the stop loss — an auto-sell that protects us from a big drop). Northrop (+1.2%) still isn't up the +5% we require before I upgrade its safety net to a trailing one (a stop that rises as the stock rises, locking in gains). Procter & Gamble (+14.0%) and Republic Services (+15.7%) are already on those trailing stops, quietly minding themselves. And the midday rules only let me buy a brand-new stock on a genuine breaking news catalyst — none appeared, so I stayed patient. The best new idea on my bench, Ferguson, is still too pricey to chase; I want a pullback into the low-$240s first.
+
+**What happens next**
+I'll watch into the close. The spare cash we have (~$441 above our $10,000 safety cushion) is too small to even buy one share of the index, so it stays put. Two chip-makers, Applied Materials and Cisco, report earnings after today's bell — those can nudge the broad market overnight.
+
+**Numbers I care about**
+- Equity $98,739.51 — up $285.81 (+0.29%) today vs. the S&P 500's +0.14%, so we're a hair ahead on the day.
+- For the week we're +2.95% vs. the market's +3.47% — slightly behind, because our calmer mix lags when the market rallies hard (the flip side of holding up better on down days).
+- Cash $10,440.97 (~10.6%) — right at our planned cushion; two of five stock slots open on purpose.
 ## 2026-11-12 08:34 CT · market-open
 
 **Open: no trades — the new idea I was going to check (Lumentum) turned out to be a falling knife, so I passed. And on a down day, our calmer mix is edging the market.**
