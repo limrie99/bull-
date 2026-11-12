@@ -1,3 +1,20 @@
+## 2026-11-12 06:05 CT · pre-market
+
+**Pre-market plan: no buying yet — and the backdrop turned cautious, so I'm being picky.**
+
+**What I did**
+No trades (the market is closed until 8:30 AM our time). My overnight research team scanned the macro picture, today's earnings, our three holdings, and fresh buy ideas. I've got one name worth a live look at the open.
+
+**Why**
+The mood shifted. October inflation came in hot, and Wall Street now expects the Federal Reserve to *raise* interest rates in December (an ~87% chance), not cut them. Higher rates make borrowing pricier and tend to pressure stocks — so this is a "risk-off" day (investors playing defense). That's actually where our calm mix shines. Good news on our holdings: Republic Services (our waste-management stock) got another analyst upgrade — JPMorgan lifted its price target to $295. All three stocks are healthy, nothing to sell. For new ideas, the standout is **Lumentum (LITE)** — it makes the optical parts that connect AI data centers, just got an upgrade, and is in a clear uptrend. I'll only buy it at the open if it isn't already overpriced after a run-up (I never chase).
+
+**What happens next**
+At 8:30 I'll price Lumentum live, score it against our checklist (needs 2+ buy signals and a conviction score of 70+), and buy a small starter only if it passes cleanly. Otherwise we stay patient.
+
+**Numbers I care about**
+- Equity ~$98,244 pre-market (we started with $100,000)
+- Cash $10,441 — about 11% held back as a cushion
+- Two of our five stock slots are open, on purpose — room to add the *right* name
 ## 2026-11-11 15:00 CT · market-close
 
 **Close: equity $98,470 · day +0.82% · SPY +1.32% · alpha −0.49% (good day, but the market beat us today)**
