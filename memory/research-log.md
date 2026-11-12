@@ -1,3 +1,52 @@
+# 2026-11-12 ~08:34 CT (09:34 ET) — MARKET-OPEN (Thu) — Opus 4.8 · NO TRADES · ★ LITE DECLINED (pre-market data was wrong — it's a −50% falling knife, not a clean uptrend) · SPY sweep action:none · sleeve 3/5 (two open slots) · weekly buys 0/3 · equity $98,427.37 · cash $10,440.97 (10.61%)
+
+**Run meta:** `market_clock.py --slot market-open --wait --claim --owner market-open` → status **DUE** (09:33 ET, 3.29 min into the 9:30 ET window; winter cron `30 14 * * 1-5` — real winter ring, no early-summer DST alarm this slot, no `--wait` block) and **CLAIMED** (stamp 2026-11-12, owner market-open; a concurrent summer ring would see ALREADY_CLAIMED and stand down). Alpaca `/v2/clock` **is_open=true** (ts 09:33:55 ET; next_close 2026-11-12T16:00 ET; next_open 11/13 09:30). 4 required keys non-empty; EQUIBLES empty → filing-grade data skipped (Perplexity covers research; no −7% trigger this run so not exercised). Inbox: **no Pending**. Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account/positions/open-orders/clock + LITE & SPY marks all pulled live this run.
+
+**Live snapshot (09:34 ET):** equity **$98,427.37**, cash **$10,440.97 (10.61%)**, last_equity (Wed 11/11 settled close) $98,453.70 → **intraday −$26.33 / −0.027%** (flat; daily loss cap NOT hit). long_mv $87,986.40; buying_power $288,125.79 (margin — NOT used); status ACTIVE. Positions = 3 conviction + SPY floor. **Open orders = exactly 3** (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY (74 sh) unencumbered. Week 11/09–11/13 → weekly conviction buys **0/3** (day 4 of 5).
+
+**Live position marks (09:34 ET):**
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| NOC | 18 | 544.3700 | 556.76 | +2.28% | $10,021.68 | −7% HARD 506.26 |
+| PG | 65 | 148.0600 | 169.525 | +14.50% | $11,019.13 | 10% TRAIL floor 153.468 (hwm 170.52) |
+| RSG | 44 | 218.0000 | 252.595 | +15.87% | $11,114.18 | 10% TRAIL floor 228.95469 (hwm 254.394) |
+| SPY | 74 | 761.0830 | 754.68 | −0.84% | $55,846.32 | NONE (index-floor sleeve) |
+
+**★ DECISION — LITE (Lumentum) DECLINED on live re-verification (the whole point of the Research→Trader split).** The pre-market handoff flagged LITE as the LEAD candidate (preliminary Conviction ~70, 3 signals: #3 AI-optical, #4 analyst upgrade 11/11, #6 "50-day $881.57 > 200-day $803.93 golden alignment") with the explicit instruction: *re-verify live, is it extended at a fresh high (chase = pass) or a clean entry?* **The Perplexity trend numbers were materially wrong.** Live IEX daily bars (pulled this run) show the opposite of a clean uptrend:
+  - Late-Oct peak region ~$978 (10/29) / 52-day high ~$1,133 → then a **violent ~50% crash**: 10/30 $840.81 → 11/02 $683.69 → 11/03 $679.71 → 11/04 $626.70 → **11/05 $510.28** (region low). Bounce: 11/06 $538.08 → 11/09 $596.22 → 11/10 $585.42 → 11/11 $647.80 → **11/12 ~$607** (−6% intraday, high 607.32 / low 592.17).
+  - **20-day SMA ≈ $733.72; price ~$607 is ~17% BELOW the 20-day** and sits just above a fresh region low ($510). Daily ranges of $80–100 = extreme whipsaw. The cited "50-day $881 > 200-day $803 golden cross" does not survive contact with a $607 tape — stale/hallucinated.
+  - **Verdict:** LITE **FAILS signal #6** (clear uptrend / *not* at fresh lows — "we don't catch knives"). Technical-timing dimension collapses and the risk dimension (beta ~1.64, −50% drawdown, huge realized vol) craters → re-scored Conviction **well under 70**, even granting #3 + #4. **Buy-gate NOT met → declined.** This is independent of the regime, but the regime reinforces it: RISK-OFF/HAWKISH, 10Y ~5%, Dec hike ~priced, **PPI tomorrow (Fri 11/13)** = the binary-macro near-veto on initiating fresh high-beta/rate-sensitive beta the session before a rate-relevant print. Either test alone is a decline.
+  - Other pre-market candidates all stay below the gate on a clean entry: **XYZ** ~65 (trend unconfirmed), **GEV** (elite catalyst but price below 50/200-day → fails #6, needs a reclaim), **AAON** (beat+raise but −49% off high / below 200-day → knife, fails #6). **FERG** watchlist (~$264 pre-mkt, still above the ~$240s trigger). **No clean non-defensive gate-clearer today.**
+
+**★ SPY same-day sweep check:** no qualifying stock buy this run → ran `scripts/spy_floor.py --equity 98427.37 --cash 10440.97 --spy-price 754.70 --spy-shares 74 --stock-market-value 32154.985` → **action: none**, qty 0, reason "Cash is already within one SPY share of the cushion." spy_target_dollars $56,272.38 / 57.17% (hold 74 sh ≈ $55,846 — within one share). Buffer $10,000. Nothing to sweep; cash stays at the ~$10k cushion.
+
+**Risk checks (live, priority order):**
+- **(a) Any position −7% or worse un-stopped?** **NO.** All 3 conviction stocks green (NOC +2.28%, PG +14.50%, RSG +15.87%); deepest is SPY −0.84% (index, no stop by design). Nothing near −7% → no Perplexity 4-hr news-check triggered.
+- **(b) Any +5%+ needing hard→trailing conversion?** **NONE.** Only HARD-stop name is NOC (+2.28%, below the +5% line); convert at ~$571.59. PG (+14.50%) and RSG (+15.87%) already trail. Nothing to convert.
+- **(c) Daily loss cap:** intraday **−0.03%** vs Wed settled close — far from the −3% cap. New buys permitted by the cap (none qualified).
+- **(d) Sell signals?** **None.** NOC/PG/RSG theses intact; no −7% breach, no thesis break, no fundamentals deterioration, no "better opportunity at the 5-cap" (two slots OPEN). RSG actively STRENGTHENED (JPMorgan Overweight PT $295 11/11).
+
+**Benchmark (intraday — close owns the official scorecard):**
+- **Intraday (09:34 ET):** book **−0.03%** vs SPY **−0.67%** (754.70 vs Wed official close 759.80) → intraday alpha **~+0.64 pts (AHEAD)** — down-tape; the defensive tilt + ~10.6% cash under-participates on the way DOWN (flip side of the up-day lag). Early/indicative.
+- **WTD (base Fri 11/6 settled close book $95,915.01 / SPY 735.40):** book **+2.62%** vs SPY **+2.62%** → **WTD alpha ~flat** (day 4 of 5) — SPY's pullback today erased the −0.65 pt gap carried into the open. Close/weekly-review re-measure.
+
+**Voices:**
+- **Research:** LITE's pre-market score rested on a trend read that live prices falsified — a ~50% crash, not a golden-cross uptrend. Re-scored <70; declined. No bench name clears a clean entry today (XYZ trend-unconfirmed; GEV/AAON fail #6; FERG above zone). The two open slots stay open; next clean NON-defensive gate-clearer only. Good reminder: Perplexity's dated/forward price fields are unreliable — always confirm trend from Alpaca bars before scoring #6.
+- **Risk:** declining LITE is the correct call three times over — (1) failed #6 knife-catch, (2) high-beta ≤10% starter name into a −50% whipsaw, (3) fresh high-beta/rate-sensitive initiation the session before PPI (binary-macro near-veto). Stops healthy; NOC's drift contained by its hard; day −0.03% leaves full buffer; largest non-index single name RSG ~11.3% of equity (well under 20%). SPY sleeve ~56.7% (index carve-out, exempt).
+- **Trader:** no order placed — LITE did not clear Research's gate at live prices, so there was nothing to size or fill; SPY sweep returned `action: none`. Open orders verified = exactly 3 (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY 74 unencumbered. No Telegram push (market-open with no trades does NOT push).
+
+**Handoff → MIDDAY (Thu 2026-11-12 ~12:00 CT / 13:00 ET):**
+- **Clock gate:** summer cron `0 17 * * 1-5` rings ~55 min early in winter → `market_clock.py --slot midday --wait` holds to the real **13:00 ET** (winter cron `0 18`); confirm `/v2/clock` is_open=true, then `--claim --owner midday` and push the claim BEFORE any order.
+- **Re-verify live:** account/positions/open-orders/clock; confirm exactly **3** open orders (NOC hard 506.26; PG trail 153.468; RSG trail 228.95469); SPY (74 sh) unencumbered; daily loss-cap check.
+- **Risk checks (a)(b)(c)(d):** NOC convert to trailing ONLY at +5% (~$571.59); watch for any thesis-break headline on the three holdings.
+- **Sleeve 3/5 — two open slots.** **No midday stock buy** absent a high-conviction BREAKING catalyst (midday rule). **LITE stays DECLINED** (don't re-open it on an intraday bounce — it's a knife); FERG stays watchlist (needs the ~$240s); XYZ/GEV/AAON below gate. Book is defensive-tilted (2-of-5 cap) → any fill must be NON-defensive (beta ≥1.0) with a clean entry.
+- **SPY sweep:** cash at cushion → `action: none` carried forward. Re-run `spy_floor.py` live only if a stop frees fresh cash while the market is open.
+- **Events runway:** **AMAT + CSCO after today's close** (semi-cap / enterprise-IT read → could move the SPY sleeve via after-hours); **PPI Fri 11/13** = the rate-relevant binary; Dec 9 FOMC near-priced for a 25bp HIKE. Keep the no-fresh-high-beta-into-PPI near-veto live through Fri.
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL. Keep both UTC crons registered per slot.
+- **Unverified:** none — account/positions/open-orders/clock + LITE & SPY marks all pulled live this run.
+
+---
+
 # 2026-11-12 ~06:00 CT (07:00 ET) — PRE-MARKET (Thu) — Opus 4.8 · RESEARCH ONLY (market closed, NO TRADES) · sleeve 3/5 (two open slots) · weekly buys 0/3 · cash $10,440.97 (10.63%) · pre-market indicative equity ~$98,244
 
 **Run meta:** `market_clock.py --slot pre-market` → status **DUE** (07:04 EST, 4.4 min into the 7:00 AM ET window; real winter ring `0 12 * * 1-5`). Alpaca `/v2/clock` **is_open=false** (next_open 2026-11-12 09:30 ET) → market CLOSED, research-only, no orders, no SPY sweep, no Telegram (pre-market with no trades does NOT push). 4 required keys non-empty; EQUIBLES empty → filing-grade data skipped (Perplexity + EDGAR fallback cover research). Inbox: **no Pending**. Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). Four research sub-agents dispatched in parallel (macro / earnings / positions / opportunity scout), each on Perplexity sonar-pro. Live Alpaca pulled: account, positions, open-orders, clock.

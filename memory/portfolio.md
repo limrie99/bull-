@@ -1,50 +1,49 @@
 # Portfolio
 
-**Last updated:** 2026-11-11 ~15:00 CT (**16:00 ET, MARKET-CLOSE routine**, Wed; Veterans Day — equities OPEN, bonds closed). Clock gate: the summer cron `0 20 * * 1-5` (15:00 ET) rang early in winter → `market_clock.py --slot market-close --wait` held to the real **16:00 ET** (DUE, waited:true, winter ring `0 21`). Alpaca `/v2/clock` **is_open=false** (bell rung, ts 16:00:10 ET; next_open Thu 11/12 09:30 ET). Slot **CLAIMED** (`--claim --owner market-close`, stamp 2026-11-11) and the claim pushed to `HEAD:main` BEFORE the scorecard (the concurrent winter ring sees ALREADY_CLAIMED and stands down). Inbox: **no Pending.** Astra: **no proposals.** Sleeve **3/5 (TWO open conviction slots)**. Weekly conviction buys **0/3** (week 11/09–11/13, day 3 of 5). Open orders **exactly 3** (NOC hard 506.26 + PG trail 153.468 + RSG trail 228.95469); SPY unencumbered. **NO TRADES today** (0 closed orders — all four slots no-trade).
+**Last updated:** 2026-11-12 ~08:35 CT (**09:35 ET, MARKET-OPEN routine**, Thu). Clock gate: `market_clock.py --slot market-open --wait --claim --owner market-open` → **DUE** (09:33 ET, 3.3 min into the 9:30 window; winter cron `30 14 * * 1-5`, real winter ring — no early summer DST alarm this slot) and **CLAIMED** (stamp 2026-11-12). Alpaca `/v2/clock` **is_open=true** (ts 09:33 ET; next_close 16:00 ET). 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers research). Inbox: **no Pending.** Astra: **no proposals.** Sleeve **3/5 (TWO open conviction slots)**. Weekly conviction buys **0/3** (week 11/09–11/13, day 4 of 5). Open orders **exactly 3** (NOC hard 506.26 + PG trail 153.468 + RSG trail 228.95469); SPY unencumbered. **NO TRADES this run** — LITE (the pre-market lead candidate) declined on live verification; SPY sweep `action: none` (cash at cushion).
 
-## Closing scorecard (2026-11-11 — official, 16:00 ET)
-- **Equity $98,470.25** · cash **$10,440.97 (10.60%)** · last_equity (Tue settled close) $97,668.21 → **day +$802.04 / +0.821%** (daily loss cap NOT hit). long_mv $88,029.28; buying_power $288,245.86 (margin — NOT used); daytrade_count 0; status ACTIVE.
-- **SPY day +1.316%** (close 759.80 vs Tue 11/10 close 749.93). **Alpha today −0.49 pts → LAGGED SPY** (up-day; defensive tilt + ~10.6% cash under-participates on the way up, by design).
-- **WTD (day 3 of 5; base Fri 11/6 settled close book $95,915.01 / SPY 735.40):** book **+2.664%** vs SPY **+3.318%** → **WTD alpha −0.654 pts.** Running week P/L **+$2,555.24 / +2.66%.**
+## Open snapshot (2026-11-12 — 09:34 ET live marks)
+- **Equity $98,427.37** · cash **$10,440.97 (10.61%)** · last_equity (Wed 11/11 settled close) $98,453.70 → **intraday −$26.33 / −0.027%** (essentially flat; daily loss cap NOT hit). long_mv $87,986.40; buying_power $288,125.79 (margin — NOT used); status ACTIVE.
+- **SPY intraday −0.67%** (live 754.70 vs Wed 11/11 official close 759.80). **Book −0.03% vs SPY −0.67% → intraday alpha ~+0.64 pts (AHEAD)** — down-tape, the defensive tilt + ~10.6% cash under-participates on the way DOWN (the flip side of lagging up-days). Indicative; close owns the official scorecard.
+- **WTD (day 4 of 5; base Fri 11/6 settled close book $95,915.01 / SPY 735.40):** book **+2.62%** vs SPY **+2.62%** → **WTD alpha ~flat** (SPY's pullback today closed the −0.65 pt gap we carried into the open).
 - **Conviction sleeve 3/5 — two slots open.** Cash at the ~$10k cushion.
 
-## Open positions (3 conviction stocks + 1 index-floor sleeve) — close marks 2026-11-11 16:00 ET
-| Symbol | Shares | Avg Cost | Px (close) | P/L % | MV | Stop | Entry Date | Thesis (1 line) |
+## Open positions (3 conviction stocks + 1 index-floor sleeve) — live marks 2026-11-12 09:34 ET
+| Symbol | Shares | Avg Cost | Px (live) | P/L % | MV | Stop | Entry Date | Thesis (1 line) |
 |---|---|---|---|---|---|---|---|---|
-| NOC | 18 | 544.37 | 550.96 | +1.21% | $9,917.28 | **−7% HARD (GTC)** `506.26` | 2026-10-23 | Northrop Grumman, defense/aerospace. ~8.5% above its −7% hard. Q3 beat+raise + record backlog intact; consensus Moderate Buy, avg PT ~$644. Convert to trailing at +5% (~$571.59). INTACT. |
-| PG | 65 | 148.06 | 167.64 | +13.22% | $10,896.60 | **10% TRAILING (GTC)** floor `153.468` (hwm 170.52) | 2026-10-08 | Procter & Gamble — staples diversifier. Relative WINNER. Nov 19 Investor Day ahead. Floor above entry (profit locked); below hwm today so floor unchanged. HOLD. |
-| RSG | 44 | 218.00 | 249.34 | +14.38% | $10,970.96 | **10% TRAILING (GTC)** floor `228.95469` (hwm 254.394) | 2026-09-18 | Republic Services — defensive waste. Relative WINNER. JPMorgan Overweight PT $295 (11/11); Q3 beat + raised FY26, $5B buyback. Below hwm today so floor unchanged. HOLD/STRENGTHENING. |
-| SPY | 74 | 761.083 | 760.19 | −0.12% | $56,254.06 | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10→11-06 | S&P 500 market floor (Lauren-approved Option B + same-day sweep). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO stop. ~57.1% of book. It IS the benchmark. Official 1-day close bar 759.80. |
+| NOC | 18 | 544.37 | 556.76 | +2.28% | $10,021.68 | **−7% HARD (GTC)** `506.26` | 2026-10-23 | Northrop Grumman, defense/aerospace. ~9.7% above its −7% hard. Q3 beat+raise + record backlog intact; consensus Moderate Buy, avg PT ~$644. Convert to trailing at +5% (~$571.59). INTACT. |
+| PG | 65 | 148.06 | 169.525 | +14.50% | $11,019.13 | **10% TRAILING (GTC)** floor `153.468` (hwm 170.52) | 2026-10-08 | Procter & Gamble — staples diversifier. Relative WINNER. **Investor Day Nov 19.** Floor above entry (profit locked). HOLD. |
+| RSG | 44 | 218.00 | 252.595 | +15.87% | $11,114.18 | **10% TRAILING (GTC)** floor `228.95469` (hwm 254.394) | 2026-09-18 | Republic Services — defensive waste. Relative WINNER. JPMorgan UPGRADE Neutral→Overweight PT $295 (11/11) + PT-raise wave. Q3 beat + raised FY26, $5B buyback. HOLD/STRENGTHENING. |
+| SPY | 74 | 761.083 | 754.68 | −0.84% | $55,846.32 | **NONE — index-floor sleeve, deliberate no-stop carve-out** | 2026-08-10→11-06 | S&P 500 market floor (Lauren-approved Option B + same-day sweep). Own sleeve, EXEMPT from ≤20%/max-5/max-3-per-week; NO stop. ~56.7% of book. It IS the benchmark. |
 
-**Conviction sleeve: 3 of 5 — two open slots.** **Conviction buys used this week (11/09–11/13): 0 of 3.** **Cash buffer: 10.60%** ($10,440.97 — at the ~$10k cushion). Largest non-index single name RSG $10,970.96 (11.1% of equity — well under the 20% cap). Conviction stock mv NOC+PG+RSG $31,784.84 (32.3%); SPY sleeve $56,254.06 (57.1%).
+**Conviction sleeve: 3 of 5 — two open slots.** **Conviction buys used this week (11/09–11/13): 0 of 3.** **Cash buffer: 10.61%** ($10,440.97 — at the ~$10k cushion). Largest non-index single name RSG $11,114.18 (11.3% of equity — well under the 20% cap). Conviction stock mv NOC+PG+RSG $32,154.99 (32.7%); SPY sleeve $55,846.32 (56.7%).
 
-## Today's fills (2026-11-11)
-- **NONE (0 closed orders).** No buy, no sell, no stop trigger, no stop conversion, no SPY sweep. All three conviction stocks green at the close; nothing near −7%; NOC (+1.21%) not yet at the +5% hard→trailing conversion line. FERG re-checked live earlier at ~$265 (near its 52-wk high) = a chase, so still WATCHLISTED. SPY last-chance sweep NOT run (bell already rung at scorecard time; cash at cushion anyway). (Pre-market research-only, open + midday both no-trade.)
+## Today's fills (2026-11-12)
+- **NONE (0 orders placed/filled this run).** No buy, no sell, no stop trigger, no stop conversion, no SPY sweep. All three conviction stocks green at the open; nothing near −7%; NOC (+2.28%) not yet at the +5% hard→trailing conversion line (~$571.59). **LITE declined** (see Risk checks + Strategy status). SPY sweep ran → `action: none` (cash within one SPY share of the cushion).
 
-## Risk checks (CLOSE 2026-11-11 16:00 ET)
-- **(a) Any position −7% or worse un-stopped?** NO. All 3 conviction stocks green (NOC +1.21%, PG +13.22%, RSG +14.38%); SPY −0.12% (index, no stop by design). Nothing near −7%.
-- **(b) Any position +5%+ needing hard→trailing conversion?** NO. NOC (only HARD-stop name) is +1.21% — not yet +5% (convert at ~$571.59). PG/RSG already trail (both below hwm today → floors unchanged). Nothing to convert.
-- **(c) Daily loss cap:** book **+0.82%** on the day — NOT breached (cap is >3% down).
+## Risk checks (MARKET-OPEN 2026-11-12 09:34 ET)
+- **(a) Any position −7% or worse un-stopped?** NO. All 3 conviction stocks green (NOC +2.28%, PG +14.50%, RSG +15.87%); SPY −0.84% (index, no stop by design). Nothing near −7%.
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO. NOC (only HARD-stop name) is +2.28% — not yet +5% (convert at ~$571.59). PG/RSG already trail. Nothing to convert.
+- **(c) Daily loss cap:** book **−0.03%** on the day — NOT breached (cap is >3% down). New buys permitted by the cap.
 - **(d) Sell signals?** NONE. NOC/PG/RSG theses all INTACT; no −7% breach, no thesis break, no guidance cut.
 
-## Stop-management state (open-orders — VERIFIED live 2026-11-11 CLOSE, exactly 3)
+## Stop-management state (open-orders — VERIFIED live 2026-11-12 OPEN, exactly 3)
 - **NOC −7% HARD** `59a67c62-0ec7-4d59-8315-66d94b9d3d7c` — stop **506.26**, GTC, resting. qty 18. Convert at +5% (~$571.59).
 - **PG 10% TRAILING** `272e2864-58a7-471f-93ad-acf3914e5a18` — floor **153.468**, trail 10%, GTC, resting. qty 65. hwm 170.52.
 - **RSG 10% TRAILING** `135c200e-fc09-4a37-95c1-f940b57ae0e3` — floor **228.95469**, trail 10%, GTC, resting. qty 44. hwm 254.394.
 - **SPY — NO STOP by design** (index-floor sleeve carve-out). qty 74 unencumbered.
-- Confirmed **exactly 3 open orders total** — 1 hard stop (NOC) + 2 trailing (PG/RSG). SPY unencumbered. 0 closed orders today.
+- Confirmed **exactly 3 open orders total** — 1 hard stop (NOC) + 2 trailing (PG/RSG). SPY unencumbered. 0 orders placed this run.
 
-## Strategy status (CLOSE 2026-11-11)
-- **Regime:** risk-ON today (SPY +1.32%), but a single-day bounce off the hot-October-CPI selloff; Dec Fed hike still ~priced. Relief-rally-until-proven-durable. Favor quality, don't chase. Our defensive book + ~10.6% cash lags on up-days, as designed.
-- **Traded today:** **NOTHING** (all four slots no-trade). FERG scored a clean B+ but the entry stays extended (~$265, near the 52-wk high) → watchlisted for a pullback, not chased.
-- **★ Two open slots (sleeve 3/5)** — book is NOC/PG/RSG = defensive-tilted (at the 2-of-5 defensive cap). Next buys MUST be NON-defensive (beta ≥1.0) with a clean entry. FERG qualifies on beta but needs a pullback into the ~$240s.
-- **★ FERG WATCHLIST — buy trigger: a pullback into the ~$240s that holds**, re-verify 2 signals + ≥70 + open slot; B+ sizing (10–15%), −7% hard GTC. Do NOT chase near $265/the 52-wk high.
+## Strategy status (OPEN 2026-11-12)
+- **Regime:** RISK-OFF / HAWKISH. Hot October CPI has the **Dec 9 FOMC near-fully-priced for a 25bp HIKE** (~87% CME); 10Y ~4.99% (flirting with 5%). **PPI tomorrow (Fri 11/13) = a rate-relevant print.** AMAT + CSCO report after today's close (semi-cap / enterprise-IT read for the SPY sleeve). Favor quality; do NOT chase; do NOT initiate fresh high-beta/rate-sensitive beta into the PPI print.
+- **Traded today:** **NOTHING** (open was a no-trade). **LITE (Lumentum) DECLINED:** the pre-market digest's trend numbers (Perplexity "50-day $881.57 > 200-day $803.93, golden alignment, verify not-extended-at-a-fresh-high") were WRONG. Live bars show LITE **crashed ~50%** from ~$1,133/$978 (late Oct) to ~$510 (11/05) and is in a violent bounce (11/11 $647.80 → 11/12 ~$607, −6% intraday), trading FAR BELOW its 20-day SMA (~$733.72) and near recent lows. That is a falling-knife mid-crash, not a clean uptrend → **FAILS signal #6 (uptrend / not at fresh lows); technical & risk dimensions crater → Conviction well under 70.** Declined regardless of the #4 upgrade. Reinforced by the risk-off/hawkish tape + PPI-tomorrow near-veto on fresh high-beta.
+- **★ Two open slots (sleeve 3/5)** — book is NOC/PG/RSG = defensive-tilted (at the 2-of-5 defensive cap). Next buys MUST be NON-defensive (beta ≥1.0) with a CLEAN entry. No bench name clears the gate on a clean entry right now.
+- **★ FERG WATCHLIST — buy trigger: a pullback into the ~$240s that holds** (live ~$264 pre-mkt = still above zone), re-verify 2 signals + ≥70 + open slot; B+ sizing (10–15%), −7% hard GTC. Do NOT chase near the 52-wk high.
 
-## Watch / next (next routine: **pre-market Thu 2026-11-12 ~06:00 CT / 07:00 ET**)
-- **Regime read:** is today's +1.32% SPY bounce durable relief or a one-day squeeze? If risk-on persists, the defensive tilt keeps lagging — weigh a clean NON-defensive entry vs. holding the line on Dec-hike risk.
-- **Clock gate (pre-market):** winter cron `0 12 * * 1-5` (07:00 ET) is the real winter ring; `market_clock.py --slot pre-market` confirms New York time; market CLOSED at that hour = research only.
-- **NOC (nearest hard):** +1.21%, ~8.5% above 506.26. Convert to trailing only at +5% (~$571.59). Watch for a thesis-break headline only.
-- **FERG:** WATCHLIST — do not chase; buy only on a genuine pullback into the ~$240s that holds, re-scored ≥70 with 2 signals. CDNS re-entry deferred (needs stabilize + easing-rate backdrop).
-- **SPY sweep:** cash at cushion → `action: none` carried forward. Re-run `spy_floor.py` at the next open if a stop frees fresh cash while the market is open.
+## Watch / next (next routine: **midday Thu 2026-11-12 ~12:00 CT / 13:00 ET**)
+- **Clock gate (midday):** summer cron `0 17 * * 1-5` rings ~55 min early in winter → `market_clock.py --slot midday --wait` holds to the real **13:00 ET** (winter cron `0 18`); confirm `/v2/clock` is_open=true before any order/claim.
+- **Risk checks:** re-verify (a)(b)(c)(d) at live marks; NOC convert to trailing ONLY at +5% (~$571.59); watch for any thesis-break headline.
+- **SPY sweep:** cash at cushion → `action: none` carried forward. Re-run `spy_floor.py` only if a stop frees fresh cash while the market is open.
+- **No new stock buy at midday** unless a high-conviction BREAKING catalyst appears (midday rule). LITE stays declined; FERG stays watchlist (needs the $240s); the open slots wait for a clean NON-defensive gate-clearer.
 - **Daily loss cap:** resets each day; a >3% intraday drop blocks new buys that day.
-- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL. Keep both UTC crons registered (market-close summer `0 20`, winter `0 21`).
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL. Keep both UTC crons registered per slot (summer + winter).

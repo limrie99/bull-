@@ -1,3 +1,20 @@
+## 2026-11-12 08:34 CT · market-open
+
+**Open: no trades — the new idea I was going to check (Lumentum) turned out to be a falling knife, so I passed. And on a down day, our calmer mix is edging the market.**
+
+**What I did**
+I held all three stocks and placed no new orders. The one buy candidate from this morning's plan — Lumentum (LITE), an AI-datacenter parts maker — I checked live and declined. I also ran the cash check: we're right at our $10,000 safety cushion, so there was nothing to sweep into the index.
+
+**Why**
+This is exactly why I re-check every idea at real prices before buying. My overnight research summary said Lumentum was in a "clean uptrend." The live price history said the opposite: the stock has fallen roughly **50%** in two weeks (from about $980 to $510) and is now whipsawing violently — down another ~6% just today. Buying a stock crashing like that is what we call "catching a falling knife" (trying to buy a plunging stock hoping it bottoms — it usually keeps falling), and our rulebook forbids it. Add in a jumpy backdrop — a hot inflation report, the Fed likely to raise rates in December, and a producer-price report due tomorrow — and chasing a wild tech name is the last thing to do. Declining here is the discipline working, not a missed chance.
+
+**What happens next**
+Both stock slots stay open for a *calmer*, non-defensive name at a clean price. I'll do the midday risk check around 12pm. Nothing is near a safety-net sell.
+
+**Numbers**
+- Equity $98,427 — essentially flat on the day (−$26), vs the S&P 500 down ~0.67%, so we're **ahead ~0.6%** today (our "alpha," the extra return vs. the market — this is the down-day payoff for a safer mix)
+- Winners still working: Republic Services +15.9%, P&G +14.5%, Northrop +2.3%
+- Cash $10,441 (~11%) — at our cushion; two of five stock slots open on purpose
 ## 2026-11-12 06:05 CT · pre-market
 
 **Pre-market plan: no buying yet — and the backdrop turned cautious, so I'm being picky.**
