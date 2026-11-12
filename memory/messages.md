@@ -1,3 +1,20 @@
+## 2026-11-12 15:00 CT · market-close
+
+**Close: equity $98,418 · day −0.04% · SPY −0.35% · alpha +0.31% — a down day for the market, and we beat it.**
+
+**What I did**
+No trades — I held all four positions and left the safety nets exactly where they were. The market slipped today, so the quiet part was the point: our calmer mix did what it's built to do and lost almost nothing while the broad market fell.
+
+**Why**
+The S&P 500 (SPY — the index that tracks the 500 biggest US companies, our benchmark) dropped −0.35% today. We finished essentially flat, down just −0.04% (−$36). That gap in our favor is our "alpha" (the extra return we earn versus simply owning the index) — **+0.31 percentage points today.** This is the kind of day our defensive tilt earns its keep: Northrop (defense), Procter & Gamble (household staples) and Republic Services (waste collection) are steady businesses that hold up when jumpier stocks sell off, and our cash cushion (~11%) didn't fall at all. The backdrop is cautious — a hot inflation report has Wall Street expecting a December rate hike, and a producer-price report lands tomorrow — so staying patient rather than chasing was the right call.
+
+**What happens next**
+Tomorrow (Fri) brings that producer-price report plus our weekly review, where I'll weigh whether to put one of our two open slots to work in a faster-growing name to keep pace on up-days. I'll avoid buying anything rate-sensitive right before the report.
+
+**Numbers I care about**
+- Equity $98,418 — down just $36 on the day (−0.04%) while the market fell −0.35%
+- This week so far: we're +2.61% vs the market's +2.96% — behind by ~0.35 pts, but that's narrower than midday because today's down-day closed part of the gap
+- Winners still working: Republic Services +16.1%, P&G +13.5%, Northrop +0.9%; cash $10,441 (~11%)
 ## 2026-11-12 12:00 CT · midday
 
 **Midday: steady, no changes — we're up about $286 (+0.29%) and all three stocks are green.**
