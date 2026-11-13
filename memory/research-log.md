@@ -1,3 +1,58 @@
+# 2026-11-13 ~06:05 CT (07:04 ET) — PRE-MARKET (Fri) — Opus 4.8 · RESEARCH ONLY, NO TRADES (market closed) · 4-agent fan-out · sleeve 3/5 (two open slots) · weekly buys 0/3 (day 5 of 5) · equity $98,655.88 (pre-mkt indicative) · cash $10,440.97 (~10.6%)
+
+**Run meta:** `market_clock.py --slot pre-market` → status **DUE** (07:04 ET, 4.3 min into the 7:00 ET window; winter cron `0 12 * * 1-5` — real winter ring, no early-summer DST alarm). Pre-market is research-only: no claim/order/scorecard/Telegram. Alpaca `/v2/clock` **is_open=false** (ts 07:04 ET; next_open 11/13 09:30, next_close 16:00 ET). 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox: **no Pending.** Astra: **no proposals** (file still "No proposals yet"). Live Alpaca verified: account/positions/open-orders/clock pulled live.
+
+**Live snapshot (07:04 ET, pre-market indicative marks):** equity **$98,655.88**, cash **$10,440.97 (~10.58%)**, last_equity $98,406.14; long_mv $88,214.91; buying_power $288,765.63 (margin — NOT used); status ACTIVE. Positions = 3 conviction + SPY floor. **Open orders = exactly 3** (NOC hard 506.26, PG trail 153.468, RSG trail 228.95469); SPY (74 sh) unencumbered. Week 11/09–11/13 → weekly conviction buys **0/3** (day 5 of 5).
+
+**Live position marks (07:04 ET pre-mkt):**
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| NOC | 18 | 544.37 | 549.13 | +0.87% | $9,884.34 | −7% HARD 506.26 (convert at +5% ~$571.59) |
+| PG | 65 | 148.06 | 168.87 | +14.06% | $10,976.55 | 10% TRAIL floor 153.468 (hwm 170.52) |
+| RSG | 44 | 218.00 | 253.60 | +16.33% | $11,158.40 | 10% TRAIL floor 228.95469 (hwm 254.394) |
+| SPY | 74 | 761.083 | 759.40 | −0.22% | $56,195.62 | NONE — index-floor sleeve (carve-out) |
+
+## Market context
+**★ Regime: RISK-OFF / HAWKISH, coiled into a binary PPI print.** 4-agent fan-out (macro/earnings/position/scout) ran on Perplexity sonar-pro (all 4 returned).
+- **Overnight tape:** ES ~−0.12%, NQ ~−0.33% (≈3:50 AM ET snapshot). Nikkei +0.53%; Hang Seng −1.6% (China AI-chip restriction fears); Stoxx 600 ~−0.2%. **10Y ~5.13% (rising on hike repricing)**; 2Y unverified. DXY 103.17 (2026 high, +0.3%). **Oil spiking on US–Iran tension: WTI ~$88.43 (+2.2%), Brent ~$95.55 (+3.0%).** Gold ~$3,885.
+- **★ THE BINARY = October PPI (producer prices), 8:30 ET today.** Consensus headline +0.4% m/m / +6.6% y/y; core +0.3% m/m / +5.0% y/y. No verified whisper. Core still 5%+ y/y = inflation hot. HOT print → yields/DXY higher, long-duration/high-multiple growth sells off; SOFT print = the relief valve. Asymmetric and hawkish-tilted regardless.
+- **Dec 9–10 FOMC: ~85–91% priced for a 25bp HIKE** (~9–15% for 50bp); cut/hold negligible. This is a HIKING cycle — a structural headwind for long-only swing beta; favor quality/cash-flow over duration.
+- **★ Constructive thread: AMAT + CSCO both BEAT & RAISED after Thu close.** AMAT rev $10.41B vs $10.30B, EPS $4.16 vs $4.06, Q1 guide above (~$11.1B mid). CSCO rev $18.52B vs $18.12B, EPS $1.40 vs $1.33, FY27 raised to $74.8–75.8B rev / $5.47–5.53 EPS (cited ~$9B hyperscaler AI-infra); +~2–4% AH. Positive for semis/AI-networking, but concentrated — limited broad-SPY lift.
+- **Today's earnings:** light, no US large-cap movers (small/mid only). Today's tape is driven by the Thu-PM semis/networking names + PPI.
+
+## Portfolio watch (all 3 conviction holdings HEALTHY; no action)
+- **NOC — INTACT.** No company-specific catalyst Nov 7–13 (no new award/budget action/rating change/B-21/Sentinel). Thesis (Q3 beat+raise, record backlog, Moderate Buy ~$644 PT) unchanged. "No news found," not verified-clean. +0.87%, hard stop 506.26 ~8% below; convert to trailing only at +5% (~$571.59).
+- **PG — STRENGTHENING.** **Investor Day Thu Nov 19 confirmed** (CEO Jejurikar, CFO Schulten) = a binary event next week. PT-hike cluster: UBS→$190, BofA→$185, RBC→$169; **Freedom Broker UPGRADE to Buy, PT→$176.** FY2027 guidance reaffirmed (2–4% sales). Several firms stayed Neutral/EW → expectations measured. +14%, 10% trailing floor 153.468.
+- **RSG — STRENGTHENING.** **JPMorgan Nov 11 upgrade CONFIRMED (Neutral→Overweight, PT $265→$295)** — volumes returning to growth 2027, margin expansion, FCF step-up 2028 post-Polymer Center. Argus reportedly also upgraded→Buy PT $275 (thinner source). No negative news. +16%, 10% trailing floor 228.95469.
+- **SPY floor** −0.22%, no stop (carve-out), ~57% of book, IS the benchmark.
+
+## Buy candidates (signals matched + conviction) — NO buy today (market closed); hand to market-open conditionally
+- **★ FERG (Ferguson, Industrials/building-products distribution; beta 1.11 = NON-DEFENSIVE gate PASS; P/E ~22 = NOT rate-vetoed; ~$43B) — THE one actionable non-defensive, non-rate-vetoed gate-clearer.** Signals 3–4: #1 Q3 beat+raise 11/9 (adj EPS $3.43 vs $3.28, rev $9.03B vs $8.76B, raised FY26 organic ~7%); #4 PT raise to $296 on 11/13 + prior Citi/Barclays/Baird/UBS upgrades; #3 construction/onshoring/data-center secular. No earnings blackout (reported 11/9). Conviction ~74–76. **★ CHANGE SINCE 11/11: FERG has pulled back HARD from the ~$260 gap/52wk-high (the prior "chase" objection) to ~$228 — through the watchlist's "$240s" buy trigger, now AT/below its 50-day (~$228.32) and near the pre-gap base (52wk range $212.13–$271.64).** The extension objection is GONE, but the pullback is DEEP → the question flips from "too hot" to "is the uptrend faltering / is this a knife?" Perplexity gave no confirmed Nov-13 close; price approximate.
+  - **Handoff to market-open (conditional buy):** read the 8:30 ET PPI print + reaction FIRST. Buy FERG ONLY if, at live open marks, it is **HOLDING/stabilizing ~$228+** (not still bleeding toward the $212 low), 2+ signals + Conviction ≥70 standing, an open slot (two free), and the tape isn't a hot-PPI risk-off flush. Size ≤ B+ band (10–15%), plain market buy, −7% hard GTC stop at fill same session. Do NOT chase back toward $260; do NOT catch a knife into a hot PPI.
+- **XYZ (Block, fintech, beta ~2.3, ~$66B)** — beat + raised FY26 EPS ~$4.15 (#1) + fintech growth (#3), ~70 borderline. Non-defensive but VERY high beta + some rate sensitivity into PPI. WATCH; if ever taken, ≤10% starter.
+- **CDNS (Cadence, EDA/tech, beta ~1.3, ~71)** — triple beat+raise + AI chip-design secular, ~$319. **RATE-VETOED into PPI** (high-multiple ~40x, long-duration; we were rate-stopped out of this exact name 11/6). ARMED but DEFERRED past the print — re-entry only on a stabilize + easing-rate backdrop.
+- **AMD (semis, beta ~1.7–1.9, ~$68B)** — 3 signals but Conviction ~68.5 (BELOW gate), extended on the pop, NVDA earnings 11/17 = semis whipsaw. Rate-risk into PPI. WATCH only.
+- **GWW (Grainger, industrials, beta ~0.95)** — cleanest beat+raise fundamentally (EPS $12.54 vs $11.68, FY→$47–48) but beta <1.0 → likely FAILS the non-defensive gate, and only ~1.5 fresh signals. Below gate.
+- **Earnings-leads (last week, need chart confirm):** ABNB (Q3 beat + raised FY26 + $12B buyback, +11.67% — strongest, but verify trend/entry), MRNA (huge beat +raised FY26 rev 15–25%, trend unconfirmed), VST (raised EBITDA + buyback, unverified). HUM — SKIP (Q3 loss, not clean beat-raise).
+
+## Sell candidates
+- **NONE.** No position at −7% or worse (nearest is NOC at +0.87%); no thesis break; no guidance cut/litigation/exec-departure/downgrade on any holding. NOC/PG/RSG theses all INTACT→STRENGTHENING. SPY floor has no stop by design.
+
+## Risk / caps state
+- Daily loss cap: resets today; a >3% intraday drop blocks new buys (incl. SPY). Sleeve 3/5 (two open slots). Weekly conviction buys 0/3 (Fri = last day of week). Cash $10,440.97 at the ~$10k cushion → SPY sweep action:none carried (market closed anyway; re-run spy_floor.py only if a stop frees fresh cash while open).
+
+## Handoff → market-open (Fri 2026-11-13 ~08:30 CT / 09:30 ET)
+1. **Clock gate:** `market_clock.py --slot market-open --wait --claim --owner market-open`; winter cron `30 14 * * 1-5`. Confirm Alpaca `/v2/clock` is_open=true before any order.
+2. **★ PPI at 8:30 ET is the first thing — read the print + tape reaction BEFORE any buy.** Hot PPI → risk-off, do NOT initiate fresh beta; soft PPI → relief, FERG/XYZ become cleaner.
+3. **★ FERG is the conditional buy candidate** (see above): buy ONLY on a live-verified HOLD ~$228+ (stabilizing, not bleeding to $212), 2+ signals + ≥70, open slot, non-hot-PPI tape. ≤B+ sizing, plain market buy, −7% hard GTC stop at fill. Else leave it on the watchlist / NEAR-TRIGGER. Do NOT chase toward $260; do NOT knife-catch.
+4. **Rate-sensitive near-veto LIVE through the PPI print:** do NOT initiate CDNS/AMD/XYZ or any high-multiple/long-duration/high-beta tech into/before PPI (SNPS pattern).
+5. **Risk checks (a–d) at live marks:** NOC convert hard→trailing ONLY at +5% (~$571.59); watch for any thesis-break headline; daily loss cap.
+6. **SPY sweep:** cash at cushion → action:none unless a stop frees fresh cash while the market is open.
+7. **Weekly review is LATER TODAY** (Fri ~16:00 CT / 17:00 ET after close) — measure full-week book vs SPY (base Fri 11/6 settled close book $95,915.01 / SPY 735.40; entering Fri WTD alpha was −0.35 pts). The MANDATORY daily "How we're doing" close message + Telegram push is owed at the Fri close regardless of trades.
+8. **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL (4/4 returned). Keep both summer+winter UTC crons registered per slot.
+
+---
+
 # 2026-11-12 ~08:34 CT (09:34 ET) — MARKET-OPEN (Thu) — Opus 4.8 · NO TRADES · ★ LITE DECLINED (pre-market data was wrong — it's a −50% falling knife, not a clean uptrend) · SPY sweep action:none · sleeve 3/5 (two open slots) · weekly buys 0/3 · equity $98,427.37 · cash $10,440.97 (10.61%)
 
 **Run meta:** `market_clock.py --slot market-open --wait --claim --owner market-open` → status **DUE** (09:33 ET, 3.29 min into the 9:30 ET window; winter cron `30 14 * * 1-5` — real winter ring, no early-summer DST alarm this slot, no `--wait` block) and **CLAIMED** (stamp 2026-11-12, owner market-open; a concurrent summer ring would see ALREADY_CLAIMED and stand down). Alpaca `/v2/clock` **is_open=true** (ts 09:33:55 ET; next_close 2026-11-12T16:00 ET; next_open 11/13 09:30). 4 required keys non-empty; EQUIBLES empty → filing-grade data skipped (Perplexity covers research; no −7% trigger this run so not exercised). Inbox: **no Pending**. Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account/positions/open-orders/clock + LITE & SPY marks all pulled live this run.

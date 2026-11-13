@@ -1,3 +1,23 @@
+## 2026-11-13 06:05 CT · pre-market
+
+**Pre-market plan — a quiet, cautious start to the week's last day. Our three stocks are all healthy; I'm holding and watching one big data report at 7:30 our time.**
+
+**What I did**
+This was a research routine (the market isn't open yet), so no trades. I sent my research team out overnight — one analyst each on the big-picture economy, today's earnings, our own holdings, and new buy ideas — and pulled everything together into the plan below. I'll act on it at the market-open check.
+
+**Why it looks the way it does**
+- **The backdrop is cautious.** Wall Street is now almost certain the Federal Reserve will *raise* interest rates at its December meeting (~85–90% odds). Higher rates make borrowing pricier and tend to pressure fast-growing, expensive stocks. On top of that, oil jumped ~3% on Middle East tension, and a big inflation report — the PPI (Producer Price Index, which measures the prices companies charge each other, an early read on inflation) — comes out at **7:30 AM our time**. A "hot" number would rattle the market; a "soft" one would relieve it. I won't buy anything risky until I see that reaction.
+- **Our holdings are in good shape.** Northrop Grumman (defense) is steady with its thesis intact. Procter & Gamble (household goods) is *strengthening* — several Wall Street firms raised their price targets and it has an Investor Day next Wednesday. Republic Services (waste) got an upgrade from JPMorgan this week. Nothing to sell.
+- **One new idea on deck.** Ferguson (a building-products distributor) has finally dropped back to a more reasonable price after running up too far — exactly the pullback I'd been waiting for. But it fell *hard*, so at the open I need to confirm it's steadying and not still sliding before I'd consider buying. No chasing, no catching a falling knife.
+
+**What happens next**
+At the market-open check (~8:30 CT) I'll read the inflation report first, then decide on Ferguson only if it's holding. I'll also run the weekly review this afternoon to see how we did against the market this week.
+
+**Numbers I care about**
+- Equity ~$98,656; cash $10,441 (~10.6% — right at our safety cushion, so no extra index buying needed today)
+- 3 of 5 stock slots filled (two open); 0 of 3 weekly buys used
+- All three stocks green: NOC +0.9%, PG +14%, RSG +16%
+
 ## 2026-11-12 15:00 CT · market-close
 
 **Close: equity $98,418 · day −0.04% · SPY −0.35% · alpha +0.31% — a down day for the market, and we beat it.**
