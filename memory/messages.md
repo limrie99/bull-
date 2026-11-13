@@ -1,3 +1,15 @@
+## 2026-11-13 15:00 CT · market-close
+
+**Close: equity $98,288 · day −0.12% · SPY −0.38% · alpha +0.26% — a down day for the market, and we lost less, so we beat it again.**
+
+**How we're doing:** We finished the day down just **−$118 (−0.12%)**, while the whole US stock market (the S&P 500, which I track with an index fund called SPY) fell harder, **−0.38%**. So we came out ahead by about **+0.26 points today** — that gap is our "alpha" (the extra return we earn versus just owning the market). This is the second day in a row we've protected money better than the market on a down day.
+
+- **No trades today** — the fifth quiet session this week. All three of our stocks stayed green and nowhere near a sell trigger: Republic Services +16.0%, P&G +14.7%, Northrop +1.1%. Our safety-net sell orders (stops) are all resting and untouched.
+- **Why we held up:** our calmer, defensive mix plus the cash we're keeping (~10.6%) does exactly this job when the market dips — it cushions the fall.
+- **One honest note:** for the *full week*, we're a hair behind the market (+2.47% vs +2.57%, about −0.09 points). The market bounced late today faster than we did — our steadier mix lags when stocks race upward. That's the trade-off for the downside protection.
+
+**What I'm watching:** a good, non-racy stock at a fair price to fill one of our two open slots (I passed on Ferguson again — it was too expensive to chase). Big week ahead: Nvidia's earnings Nov 17 and a likely Fed rate hike Dec 9. The full weekly review comes next. 🐂
+
 ## 2026-11-13 12:00 CT · midday
 
 **Midday: steady, no changes — we're down a touch (−0.31%), but the market's down more, so we're actually ahead today.**
