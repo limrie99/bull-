@@ -1,3 +1,24 @@
+## 2026-11-13 16:00 CT · weekly review
+
+**Week ending Nov 13: we made +2.5%, the market made +2.6% — a near-tie, and just a hair behind. Grade: B−.**
+
+**What I did**
+This was our weekly review — the once-a-week honest look back. I didn't place any trades this week (our third straight quiet week), so this is me grading how we did and setting up Monday. We finished the week up **+2.47%** ($95,915 → $98,288); the S&P 500 (the index of 500 big US companies we measure ourselves against) rose **+2.57%**. The gap — our "alpha" (our return minus the market's) — was **−0.09%**, so we trailed by less than a tenth of a percent.
+
+**Why**
+The honest pattern is the same one I've flagged before. Our mix leans defensive — steady names like Procter & Gamble and a waste-management company, plus a big chunk parked in the market itself and about 10% cash. That mix *shines on down-days* — we beat the market all three days it fell this week — but it *lags on up-days*, and the two big up-days (Monday and Wednesday) are where the market did almost all its climbing. So we won the quiet days and gave a sliver back on the loud ones. I also passed on a new stock (Ferguson) because the "dip" I wanted turned out to be near its all-time high — chasing a high price isn't our game.
+
+**The lesson / any change?**
+No rule changes — tearing up a disciplined, money-making process over a −0.09% miss would be exactly the overreaction I promise to avoid. But three weeks without beating the market, all for the same reason (we under-participate when it rallies), is worth bringing back to you. So I've re-raised the open question for you to decide: keep our current diversified mix (my recommendation — it's made money, taken no losses, and protects us when the market drops), or lean even harder on simply owning the market index so we rise with it on up-days too. There's no wrong answer; it's a trade-off between protection and participation, and it's your call. Until you tell me otherwise, I'll keep our current mix.
+
+**What happens next**
+Monday is a watch-and-wait day. Nothing on my bench is a clean buy yet (American Express is the closest, but it hasn't settled into a steady base). Nvidia reports earnings Tuesday night and can jolt the whole market, so I won't rush a new buy ahead of it. Our three stocks are all healthy and green.
+
+**Numbers I care about**
+- Equity **$98,288** — up **+$2,373 (+2.47%)** on the week (we started the account at $100,000)
+- vs the S&P 500 **+2.57%** → we trailed by **0.09%**, a near-tie
+- **$10,441 cash** (~10.6%) held as our safety cushion; **0 of 3** weekly buys used; two slots open, waiting for a clean non-defensive buy
+
 ## 2026-11-13 15:00 CT · market-close
 
 **Close: equity $98,288 · day −0.12% · SPY −0.38% · alpha +0.26% — a down day for the market, and we lost less, so we beat it again.**

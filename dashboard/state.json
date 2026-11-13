@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-11-13 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-11-13 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 98287.66,
   "cash": 10440.97,
@@ -22,8 +22,8 @@
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 169.85,
-      "pl_pct": 14.72,
+      "current": 169.99,
+      "pl_pct": 14.81,
       "stop": 153.657
     },
     {
@@ -38,8 +38,8 @@
       "symbol": "SPY",
       "qty": 74,
       "avg_cost": 761.083,
-      "current": 753.61,
-      "pl_pct": -0.98,
+      "current": 752.27,
+      "pl_pct": -1.16,
       "stop": null
     }
   ],
@@ -117,52 +117,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-13 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending Nov 13: +2.47% | SPY +2.57% | alpha -0.09% | grade B- \u2014 a disciplined near-tie, 3rd straight non-beat.",
+      "body": "No trades (0/3 buys). We beat all 3 down-days but lagged the 2 up-days, so we trailed a quiet index rally by a hair. Every stop rested clean; passed on FERG as a 52-wk-high chase. No rule changes; re-surfaced the diversified-vs-index A/B to Lauren (recommend staying put). Monday: watch-and-wait, nothing clean yet, NVDA earnings Tue."
+    },
+    {
       "ts": "2026-11-13 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $98,288 · day −0.12% · SPY −0.38% · alpha +0.26% — a down day for the market, and we lost less, so we beat it again.",
-      "body": "No trades (fifth quiet session this week). We finished down just −$118 (−0.12%) while the S&P 500 fell −0.38%, so we beat the market by +0.26 pts today — second straight down-day where our defensive mix + ~10.6% cash cushioned the fall. All three stocks green and far from any sell trigger: Republic +16.0%, P&G +14.7%, Northrop +1.1%; stops resting. Honest note: for the full week we're a hair behind (+2.47% vs +2.57%, −0.09 pts) — the market bounced late faster than our steadier mix. Watching for a clean non-racy name to fill one of two open slots (passed on Ferguson as a chase). Weekly review next; Nvidia earnings 11/17 and a likely Dec 9 Fed hike ahead."
+      "headline": "Close: equity $98,288 \u00b7 day \u22120.12% \u00b7 SPY \u22120.38% \u00b7 alpha +0.26% \u2014 a down day for the market, and we lost less, so we beat it again.",
+      "body": "No trades (fifth quiet session this week). We finished down just \u2212$118 (\u22120.12%) while the S&P 500 fell \u22120.38%, so we beat the market by +0.26 pts today \u2014 second straight down-day where our defensive mix + ~10.6% cash cushioned the fall. All three stocks green and far from any sell trigger: Republic +16.0%, P&G +14.7%, Northrop +1.1%; stops resting. Honest note: for the full week we're a hair behind (+2.47% vs +2.57%, \u22120.09 pts) \u2014 the market bounced late faster than our steadier mix. Watching for a clean non-racy name to fill one of two open slots (passed on Ferguson as a chase). Weekly review next; Nvidia earnings 11/17 and a likely Dec 9 Fed hike ahead."
     },
     {
       "ts": "2026-11-13 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — down −0.31%, but SPY −0.76%, so we're ahead ~0.45 pts today.",
-      "body": "Calm watch-and-hold midday, no trades. All three stocks green and nowhere near a sell trigger: Republic +16.5%, P&G +14.9%, Northrop +0.5% (both trailing stops ratcheted up intraday). Declined Ferguson (FERG): my morning plan said buy only on a pullback to ~$228 that holds, but the live price was ~$256 — back near its 52-wk high, i.e. a chase our rules forbid (the '$228 pullback' was bad data again). FERG stays on the watchlist for a real low-$240s dip. SPY sweep: nothing to do (cash at the ~$10k cushion). Day book −0.31% vs SPY −0.76% → ahead ~0.45 pts; WTD +2.28% vs +2.18% (a hair ahead, flipped positive on the down tape). Close owns the official daily + weekly scorecard."
+      "headline": "Midday: steady, no changes \u2014 down \u22120.31%, but SPY \u22120.76%, so we're ahead ~0.45 pts today.",
+      "body": "Calm watch-and-hold midday, no trades. All three stocks green and nowhere near a sell trigger: Republic +16.5%, P&G +14.9%, Northrop +0.5% (both trailing stops ratcheted up intraday). Declined Ferguson (FERG): my morning plan said buy only on a pullback to ~$228 that holds, but the live price was ~$256 \u2014 back near its 52-wk high, i.e. a chase our rules forbid (the '$228 pullback' was bad data again). FERG stays on the watchlist for a real low-$240s dip. SPY sweep: nothing to do (cash at the ~$10k cushion). Day book \u22120.31% vs SPY \u22120.76% \u2192 ahead ~0.45 pts; WTD +2.28% vs +2.18% (a hair ahead, flipped positive on the down tape). Close owns the official daily + weekly scorecard."
     },
     {
       "ts": "2026-11-13 06:05 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: quiet, cautious start — all 3 stocks healthy, holding; watching the 7:30 CT inflation report before any buy.",
-      "body": "No trades (market closed). Backdrop is risk-off/hawkish: Wall Street is ~85–90% sure the Fed HIKES in December, the 10-yr yield is near 5.1%, oil jumped ~3% on Middle East tension, and October's PPI (producer-price inflation report) lands at 7:30 CT — a hot number would rattle the market, so I won't buy risky names until I see the reaction. Holdings all healthy: Northrop intact, P&G strengthening (price-target hikes + Investor Day Nov 19), Republic upgraded by JPMorgan (PT $295). Best new idea is Ferguson (FERG) — it's finally pulled back from ~$260 to ~$228 (the dip I was waiting for), but it fell hard, so market-open must confirm it's steadying before I'd buy (no knife-catching). Equity ~$98,656, cash $10,441 (~10.6%), two slots open. Weekly review this afternoon."
+      "headline": "Pre-market plan: quiet, cautious start \u2014 all 3 stocks healthy, holding; watching the 7:30 CT inflation report before any buy.",
+      "body": "No trades (market closed). Backdrop is risk-off/hawkish: Wall Street is ~85\u201390% sure the Fed HIKES in December, the 10-yr yield is near 5.1%, oil jumped ~3% on Middle East tension, and October's PPI (producer-price inflation report) lands at 7:30 CT \u2014 a hot number would rattle the market, so I won't buy risky names until I see the reaction. Holdings all healthy: Northrop intact, P&G strengthening (price-target hikes + Investor Day Nov 19), Republic upgraded by JPMorgan (PT $295). Best new idea is Ferguson (FERG) \u2014 it's finally pulled back from ~$260 to ~$228 (the dip I was waiting for), but it fell hard, so market-open must confirm it's steadying before I'd buy (no knife-catching). Equity ~$98,656, cash $10,441 (~10.6%), two slots open. Weekly review this afternoon."
     },
     {
       "ts": "2026-11-12 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $98,418 · day −0.04% · SPY −0.35% · alpha +0.31% — a down day for the market, and we beat it.",
-      "body": "No trades — held all four positions, stops untouched. SPY fell −0.35% while our calmer mix finished essentially flat (−0.04%, −$36), so we beat the market by +0.31 pts today — the defensive tilt (Northrop, P&G, Republic Services) + index floor + ~11% cash doing their job on a down day. Week-to-date +2.61% vs SPY +2.96% (behind ~0.35 pts, narrower than midday). Winners still running: Republic +16.1%, P&G +13.5%. Backdrop cautious — producer-price report + weekly review tomorrow; I'll weigh re-betaing one open slot without chasing into the print."
+      "headline": "Close: equity $98,418 \u00b7 day \u22120.04% \u00b7 SPY \u22120.35% \u00b7 alpha +0.31% \u2014 a down day for the market, and we beat it.",
+      "body": "No trades \u2014 held all four positions, stops untouched. SPY fell \u22120.35% while our calmer mix finished essentially flat (\u22120.04%, \u2212$36), so we beat the market by +0.31 pts today \u2014 the defensive tilt (Northrop, P&G, Republic Services) + index floor + ~11% cash doing their job on a down day. Week-to-date +2.61% vs SPY +2.96% (behind ~0.35 pts, narrower than midday). Winners still running: Republic +16.1%, P&G +13.5%. Backdrop cautious \u2014 producer-price report + weekly review tomorrow; I'll weigh re-betaing one open slot without chasing into the print."
     },
     {
       "ts": "2026-11-12 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — up ~$286 (+0.29%), all three stocks green.",
+      "headline": "Midday: steady, no changes \u2014 up ~$286 (+0.29%), all three stocks green.",
       "body": "Calm manage-and-watch midday, no trades. Nothing near a safety-net sell; Northrop (+1.2%) not yet at the +5% line to upgrade its stop; P&G (+14.0%) and Republic Services (+15.7%) self-managing on trailing stops. No breaking catalyst, so no midday buy; Ferguson still too pricey to chase (waiting for the low-$240s). Spare cash (~$441 over the $10k cushion) too small to buy a share of the index. Day +0.29% vs SPY +0.14% (ahead a hair); week +2.95% vs +3.47% (we lag when the market rallies hard). Close owns the daily scorecard."
     },
     {
       "ts": "2026-11-12 08:34 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — the new idea (Lumentum) was a falling knife, so I passed. On a down day our calmer mix is edging the market.",
-      "body": "Declined Lumentum (LITE): my overnight summary called it a 'clean uptrend,' but the live price history showed a ~50% crash in two weeks and a ~6% drop today — a falling knife our rules forbid. Backdrop is jumpy (hot inflation, likely Dec rate hike, producer-price report tomorrow). Both stock slots stay open for a calmer name at a clean price. Equity $98,427 (flat, −$26) vs SPY −0.67% → ahead ~0.6% today. Republic +15.9%, P&G +14.5%, Northrop +2.3%. Cash $10,441 (~11%)."
+      "headline": "Open: no trades \u2014 the new idea (Lumentum) was a falling knife, so I passed. On a down day our calmer mix is edging the market.",
+      "body": "Declined Lumentum (LITE): my overnight summary called it a 'clean uptrend,' but the live price history showed a ~50% crash in two weeks and a ~6% drop today \u2014 a falling knife our rules forbid. Backdrop is jumpy (hot inflation, likely Dec rate hike, producer-price report tomorrow). Both stock slots stay open for a calmer name at a clean price. Equity $98,427 (flat, \u2212$26) vs SPY \u22120.67% \u2192 ahead ~0.6% today. Republic +15.9%, P&G +14.5%, Northrop +2.3%. Cash $10,441 (~11%)."
     },
     {
       "ts": "2026-11-12 06:05 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan: no buying yet — backdrop turned cautious (hot inflation, likely Dec rate hike), so I'm being picky.",
-      "body": "No trades (market closed). Research team scanned overnight: mood is risk-off — hot October CPI has Wall Street ~87% sure the Fed HIKES in December, 10-yr yield near 5%. Our calm mix is built for this. Holdings all healthy; Republic Services got another upgrade (JPMorgan PT $295). Best new idea is Lumentum (LITE) — AI-datacenter optical parts, fresh upgrade, clear uptrend — but I'll only buy at the open if it's not overpriced (no chasing). Equity ~$98,244 pre-market, cash $10,441 (~11%), two slots open."
-    },
-    {
-      "ts": "2026-11-11 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $98,470 · day +0.82% · SPY +1.32% · alpha −0.49% — good day, but the market beat us.",
-      "body": "No trades. We rose +$802 (+0.82%) but the S&P 500 jumped +1.32%, so we trailed by ~0.49% today and ~0.65% for the week. Our defensive mix plus ~11% cash lags on big up-days by design. Winners kept working — Republic +14.4%, P&G +13.2%. All stops resting; nothing to worry about overnight."
+      "headline": "Pre-market plan: no buying yet \u2014 backdrop turned cautious (hot inflation, likely Dec rate hike), so I'm being picky.",
+      "body": "No trades (market closed). Research team scanned overnight: mood is risk-off \u2014 hot October CPI has Wall Street ~87% sure the Fed HIKES in December, 10-yr yield near 5%. Our calm mix is built for this. Holdings all healthy; Republic Services got another upgrade (JPMorgan PT $295). Best new idea is Lumentum (LITE) \u2014 AI-datacenter optical parts, fresh upgrade, clear uptrend \u2014 but I'll only buy at the open if it's not overpriced (no chasing). Equity ~$98,244 pre-market, cash $10,441 (~11%), two slots open."
     }
   ]
 }
