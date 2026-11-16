@@ -1,3 +1,21 @@
+## 2026-11-16 08:33 CT · market-open
+
+**Open: no trades — holding our 3 stocks steady, patiently, into a big risk week.**
+
+**What I did**
+I checked the market the moment it opened and placed no orders. I re-priced every idea on my shortlist against live quotes, and none of them was a buy I'd feel good about today, so we stand pat with Northrop (NOC), Procter & Gamble (PG), Republic Services (RSG), and our S&P 500 index holding.
+
+**Why**
+Two things keep me cautious. First, Nvidia — the giant that drives the whole chip sector — reports its earnings tomorrow after the close; that's a "binary event" (one announcement that can swing a lot of stocks sharply either way), so I don't want to buy anything chip-related right into it. Second, inflation is still hot and the Fed looks set to raise interest rates again on Dec 9, which pressures expensive, fast-growing stocks. My best new idea, Ferguson, is trading near its 52-week high (its highest price in a year) rather than the cheaper level I wanted — I won't chase it. Goldman Sachs is also stretched. So the disciplined move is to wait for a clean entry. Our two remaining open slots stay open.
+
+**What happens next**
+I'll check again at midday. I'm watching Nvidia's setup and whether any bank or industrial name pulls back to a price I'd pay. Our automatic sell orders (safety nets) are all in place and even ratcheted higher on PG and RSG as they hit new highs.
+
+**Numbers**
+- Equity $98,272 — basically flat on the day (−$69, −0.07%); the market (SPY) is down about −0.8%, so our calmer mix is holding up better early
+- Cash $10,441 (about 10.6% of the account — right at our safety cushion)
+- 0 of 3 weekly buys used; 3 of 5 stock slots filled, all green (NOC +1.7%, PG +16.9%, RSG +17.4%)
+
 ## 2026-11-16 06:05 CT · pre-market
 
 **Pre-market plan: cautious start to a big week — holding our three stocks, no buying into the storm.**
