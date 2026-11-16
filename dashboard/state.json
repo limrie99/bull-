@@ -1,45 +1,45 @@
 {
-  "last_update": "2026-11-16 08:33 CT",
-  "last_routine": "market-open",
+  "last_update": "2026-11-16 12:00 CT",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 98271.79,
+  "equity": 97811.05,
   "cash": 10440.97,
-  "day_pl": -68.86,
-  "day_pl_pct": -0.07,
-  "week_pl_pct": -0.02,
-  "spy_week_pct": -0.82,
-  "alpha_week_pct": 0.80,
+  "day_pl": -529.60,
+  "day_pl_pct": -0.54,
+  "week_pl_pct": -0.54,
+  "spy_week_pct": -1.55,
+  "alpha_week_pct": 1.01,
   "positions": [
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 553.41,
-      "pl_pct": 1.66,
+      "current": 549.445,
+      "pl_pct": 0.93,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 173.01,
-      "pl_pct": 16.85,
-      "stop": 155.9475
+      "current": 173.165,
+      "pl_pct": 16.96,
+      "stop": 156.213
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 255.99,
-      "pl_pct": 17.43,
-      "stop": 230.832
+      "current": 256.13,
+      "pl_pct": 17.49,
+      "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 74,
       "avg_cost": 761.083,
-      "current": 748.12,
-      "pl_pct": -1.70,
+      "current": 742.60,
+      "pl_pct": -2.43,
       "stop": null
     }
   ],
@@ -117,6 +117,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-16 12:00 CT",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — down −0.54% but SPY is −1.6%, so we're beating the market by ~1 point today.",
+      "body": "Nothing to buy, sell, or adjust — all three stocks (NOC +0.9%, PG +17.0%, RSG +17.5%) are green with their safety nets in place. On a red market day our defensive mix is holding up noticeably better than the index. Still no buying into Nvidia's earnings (Tue PM) and a likely Dec 9 Fed hike. Cash is right at the cushion, so nothing to sweep. Two stock slots stay open for a clean entry."
+    },
+    {
       "ts": "2026-11-16 08:33 CT",
       "routine": "market-open",
       "headline": "Open: no trades — holding our 3 stocks steady into a big risk week (Nvidia earnings Tue, likely Fed hike Dec 9).",
@@ -152,11 +158,6 @@
       "ts": "2026-11-12 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $98,418 · day −0.04% · SPY −0.35% · alpha +0.31% — a down day for the market, and we beat it."
-    },
-    {
-      "ts": "2026-11-12 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — up ~$286 (+0.29%), all three stocks green."
     }
   ]
 }

@@ -1,3 +1,21 @@
+## 2026-11-16 12:00 CT · midday
+
+**Midday: steady, no changes — and we're holding up better than the market on a red day.**
+
+**What I did**
+I re-checked the account and every holding at live prices and placed no orders. Our three stocks — Northrop (NOC), Procter & Gamble (PG), and Republic Services (RSG) — plus our S&P 500 index holding are all exactly where I want them, so there was nothing to buy, sell, or adjust.
+
+**Why**
+The market is having a down day (the S&P 500 is off about −1.6%), but our mix is only down about −0.5% — so we're actually *beating* the market today by roughly a full percentage point. That's the defensive tilt doing its job. I'm deliberately not buying anything new: the big event this week is Nvidia's earnings tomorrow after the close (a "binary event" — one report that can swing the whole chip sector sharply either way), and the Fed looks set to raise interest rates on Dec 9. Buying a jumpy, expensive stock right into that is how we've been burned before, so I'd rather wait for a clean, calmer setup. Our safety-net sell orders (automatic stops) are all in place; PG and RSG are sitting on big gains with their stops locked above our cost, so those profits are protected no matter what.
+
+**What happens next**
+I'll do the full wrap-up at the 3:00 PM CT close with the plain-English daily scorecard. I'm watching for any stock that pulls back to a price I'd genuinely want to pay — otherwise we stay patient. Nothing is near a sell trigger.
+
+**Numbers**
+- Equity $97,811 — down −$530 (−0.54%) today, but the market's down −1.6%, so we're ahead by ~1 point
+- Cash $10,441 (about 10.7% — right at our safety cushion; nothing to sweep into the index today)
+- 0 of 3 weekly buys used; 3 of 5 stock slots filled, all green (NOC +0.9%, PG +17.0%, RSG +17.5%)
+
 ## 2026-11-16 08:33 CT · market-open
 
 **Open: no trades — holding our 3 stocks steady, patiently, into a big risk week.**

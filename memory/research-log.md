@@ -1,3 +1,35 @@
+# 2026-11-16 ~12:00 CT (13:00 ET) — MIDDAY (Mon) — Opus 4.8 · NO TRADES · steady, no changes · SPY sweep action:none · sleeve 3/5 (two open slots) · weekly buys 0/3 · equity $97,811.05 · cash $10,440.97 (10.67%) · intraday −0.539% (SPY −1.56%, book ahead ~1.0 pt)
+
+**Run meta — clock gate:** summer cron `0 17 * * 1-5` rang early at 11:03 CT (winter is the real `0 18`). `market_clock.py --slot midday --wait` WAITED 53 min (within the 75-min early window) and returned status **DUE** at 13:00 ET (wait_seconds 0, 0 min after the 1:00 PM ET bell), NY time inside the window. Confirmed with Alpaca `/v2/clock` **is_open=true** (ts 13:00 ET; next_close 16:00 ET; next_open 11/17 09:30) → re-ran with `--clock-is-open true` → **DUE** → **CLAIMED** (stamp 2026-11-16 midday, owner midday, 18:00:31 UTC) and the claim pushed to main with the memory write. The winter `0 18` ring will see ALREADY_CLAIMED and stand down. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox: **no Pending.** Astra: **no new proposals** since the open (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified this run: account, positions, open-orders, clock, SPY snapshot.
+
+**Live snapshot (13:00 ET):** equity **$97,811.05**, cash **$10,440.97 (10.67%)**, last_equity $98,340.65 → **intraday −$529.60 / −0.539%** (daily loss cap far off — full buffer intact). Positions = 3 conviction + SPY floor. **Open orders = exactly 3** (NOC hard 506.26; RSG trail 231.111; PG trail 156.213 — both trailing floors UNCHANGED since the open, no new high this run); SPY (74 sh) unencumbered. Weekly conviction buys **0/3** (week 11/16–11/20).
+
+**Live position marks (13:00 ET):**
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| NOC | 18 | 544.3700 | 549.445 | +0.93% | $9,890.01 | −7% HARD 506.26 (convert at +5% ~$571.59) |
+| PG | 65 | 148.0600 | 173.165 | +16.96% | $11,255.73 | 10% TRAIL floor 156.213 |
+| RSG | 44 | 218.0000 | 256.13 | +17.49% | $11,269.72 | 10% TRAIL floor 231.111 |
+| SPY | 74 | 761.0830 | 742.60 | −2.43% | $54,952.40 | NONE — index-floor sleeve (carve-out) |
+
+## Risk management (priority order)
+- **(a) −7% or worse un-stopped?** NONE. NOC +0.93%, PG +16.96%, RSG +17.49% all green; SPY −2.43% (index, no stop by design). No Perplexity news-check needed — nothing near the hard stop.
+- **(b) +5%+ needing hard→trailing conversion?** NONE. NOC is the only −7%-hard name and is +0.93%, below the +5% line (~$571.59). PG/RSG already trail; their floors held (no new high this run).
+- **(c) Daily loss cap:** intraday **−0.539%** vs yesterday's close — NOT breached (cap >3%). New buys still allowed if a name qualifies. For context, SPY is −1.56% on the day, so the defensive-tilted book is **outperforming the index by ~1.0 pt intraday** on a red tape.
+- **(d) Sell signals?** NONE across NOC/PG/RSG.
+
+## Buys — none (midday discipline held)
+No new stock buy. The midday bar is high (breaking high-conviction catalyst AND room AND sleeve-OK). None present: no fresh Astra proposal, no new catalyst since the open, regime RISK-OFF into **NVDA 11/17 AMC** (binary near-veto blocks fresh high-beta/semi/high-multiple longs), and the two open slots require a NON-defensive (beta ≥1.0) name at a CLEAN entry — FERG still near its 52-wk high (chase), GS extended. **Research:** nothing actionable at midday. **Trader:** no order.
+
+## SPY same-day sweep
+Not placing a qualifying stock buy → ran `spy_floor.py --equity 97811.05 --cash 10440.97 --spy-price 742.60 --spy-shares 74 --stock-market-value 32415.46` → **action:none** (reason: "Cash is already within one SPY share of the cushion. Nothing to sweep." cash $10,440.97 vs $10k buffer; spy_target ~$55,556 / 56.78%). No order. No cash left idle — the ~$441 above the cushion is less than one SPY share.
+
+## Handoff → market-close
+- **Stops changed:** NONE this run. Open orders remain exactly 3 (NOC hard 506.26; PG trail floor 156.213; RSG trail floor 231.111). SPY unencumbered (no-stop carve-out).
+- **Positions near a trigger:** NONE near a stop. NOC is the only name watch for a hard→trailing conversion — needs +5% (~$571.59); it's +0.93%, ~4% away. PG/RSG floors will ratchet up on any new high (Alpaca auto-manages).
+- **Standing actions still open:** (1) **MANDATORY market-close "How we're doing" message + Telegram** — never skipped, written when `market_clock.py --slot market-close` says DUE (winter ring `0 21`, do not treat the early summer `0 20` as the close). (2) Two open conviction slots — next buy MUST be NON-defensive (beta ≥1.0) at a clean entry; **NVDA 11/17 AMC binary near-veto** remains active on fresh high-beta/semi/high-multiple longs through the print. (3) SPY cash AT cushion → sweep only if a stop frees cash. (4) PG Investor Day Thu Nov 19 (watch, hold). (5) Structural A/B default A (no Lauren reply). (6) Keep both UTC crons registered per slot; Perplexity OPERATIONAL; Astra file read each slot.
+- **Unverified:** none — account/positions/open-orders/clock + SPY snapshot all pulled live this run.
+
 # 2026-11-16 ~08:33 CT (09:33 ET) — MARKET-OPEN (Mon) — Opus 4.8 · NO TRADES · stand-pat into the NVDA-binary week · SPY sweep action:none · sleeve 3/5 (two open slots) · weekly buys 0/3 (new week 11/16–11/20) · equity $98,271.79 · cash $10,440.97 (10.63%)
 
 **Run meta — clock gate:** winter cron `30 14 * * 1-5` rang on time. `market_clock.py --slot market-open --wait` → status **DUE** (wait_seconds 0, ~3 min after the 09:30 ET bell), NY time inside the window. Confirmed with Alpaca `/v2/clock` **is_open=true** (ts 09:32 ET; next_close 2026-11-16 16:00 ET; next_open 11/17 09:30) → re-ran with `--clock-is-open true` (exchange: "Alpaca clock says the market is open") → **CLAIMED** (stamp 2026-11-16, owner market-open) and the claim was **pushed to main before any order** (commit 53101be). 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox: **no Pending.** Astra: **no proposals** (`memory/astra-proposals.md` still "No proposals yet"). Live Alpaca verified this run: account, positions, open-orders, clock, candidate last-trade marks.
