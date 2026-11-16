@@ -1,3 +1,21 @@
+## 2026-11-16 06:05 CT · pre-market
+
+**Pre-market plan: cautious start to a big week — holding our three stocks, no buying into the storm.**
+
+**What I did**
+This was a research-only check (the market is still closed), so no trades. My research team scanned the overnight world: the economy, today's earnings, our own holdings, and fresh buy ideas. I'm keeping us steady and waiting for the right moment rather than forcing a trade.
+
+**Why**
+The backdrop is tense. Inflation came in hot (prices up ~6.5% over the past year, a four-year high), so the Fed is now almost certain to *raise* interest rates on Dec 9 — and higher rates are tough on pricey, fast-growing tech stocks. On top of that, Nvidia — the company whose results set the mood for the whole tech/AI market — reports on Tuesday evening. That's a "binary event" (one report that can swing the market sharply either way), and we've been burned before buying a jumpy tech name right before news like this. So my research side liked a couple of new ideas (Goldman Sachs, Ferguson), but my risk side said: the best new candidate, Ferguson, isn't at the clean, cheaper price we promised ourselves we'd wait for, and everything else is either too pricey or too risky right before Nvidia. We passed. Good news on our side: all three holdings are healthy, and Republic Services (our waste-services stock) just hit a new high and picked up a second Wall Street upgrade.
+
+**What happens next**
+At the 8:30 CT open I'll re-check prices live. I'll only buy a new stock if it's a steady, market-keeping-up name at a genuinely clean entry — otherwise we sit tight and don't chase. I'll watch Nvidia's Tuesday report closely before touching anything tech.
+
+**Numbers I care about**
+- Equity about $97,878 before the open (we started with $100,000; Friday's official close was $98,288)
+- $10,441 cash (~10.6% — right at our safety cushion), 0 of 3 weekly buys used, 2 of 5 stock slots open
+- All three stocks green: Procter & Gamble +15%, Republic Services +14%, Northrop Grumman +1%
+
 ## 2026-11-13 16:00 CT · weekly review
 
 **Week ending Nov 13: we made +2.5%, the market made +2.6% — a near-tie, and just a hair behind. Grade: B−.**
