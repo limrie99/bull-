@@ -1,45 +1,45 @@
 {
-  "last_update": "2026-11-16 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-11-16 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 97811.05,
+  "equity": 97495.42,
   "cash": 10440.97,
-  "day_pl": -529.60,
-  "day_pl_pct": -0.54,
-  "week_pl_pct": -0.54,
-  "spy_week_pct": -1.55,
-  "alpha_week_pct": 1.01,
+  "day_pl": -845.23,
+  "day_pl_pct": -0.86,
+  "week_pl_pct": -0.86,
+  "spy_week_pct": -1.89,
+  "alpha_week_pct": 1.03,
   "positions": [
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 549.445,
-      "pl_pct": 0.93,
+      "current": 545.65,
+      "pl_pct": 0.24,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 173.165,
-      "pl_pct": 16.96,
+      "current": 173.15,
+      "pl_pct": 16.95,
       "stop": 156.213
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 256.13,
-      "pl_pct": 17.49,
+      "current": 255.56,
+      "pl_pct": 17.23,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 74,
       "avg_cost": 761.083,
-      "current": 742.60,
-      "pl_pct": -2.43,
+      "current": 739.72,
+      "pl_pct": -2.81,
       "stop": null
     }
   ],
@@ -117,6 +117,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-16 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $97,495 · day −0.86% · SPY −1.89% · alpha +1.03% — a rough day for the market, but we lost noticeably less, so we beat it.",
+      "body": "No trades. The S&P 500 fell −1.89% but our account dropped only −0.86%, so we beat the market by ~1 point (that's our alpha). Two of our defensive stocks actually rose — PG +2.0%, RSG +1.0% — while Northrop held flat; the only drag was our S&P 500 index holding itself. I bought nothing ahead of Nvidia's earnings tomorrow after the close. Cash ~10.7%, two stock slots still open."
+    },
+    {
       "ts": "2026-11-16 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — down −0.54% but SPY is −1.6%, so we're beating the market by ~1 point today.",
@@ -153,11 +159,6 @@
       "ts": "2026-11-13 06:05 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: quiet, cautious start — all 3 stocks healthy, holding; watching the 7:30 CT inflation report before any buy."
-    },
-    {
-      "ts": "2026-11-12 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $98,418 · day −0.04% · SPY −0.35% · alpha +0.31% — a down day for the market, and we beat it."
     }
   ]
 }

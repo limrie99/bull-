@@ -1,3 +1,36 @@
+# 2026-11-16 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Mon) — Opus 4.8 · NO TRADES · official daily scorecard · DAY −0.86% vs SPY −1.89% → alpha +1.03 pts (AHEAD) · WTD (day 1) −0.86% vs SPY −1.89% → +1.03 pts · sleeve 3/5 (two open slots) · weekly buys 0/3 (week 11/16–11/20) · equity $97,495.42 · cash $10,440.97 (10.71%)
+
+**Run meta — clock gate:** summer cron `0 20 * * 1-5` rang at **20:02 UTC (15:02 EST)** — status **EARLY** (~57 min before the 16:00 ET bell-time, wait_seconds 3444), the DST miss (summer UTC hour ringing in winter). Per CLOCKS.md, held for New York time: `--wait --claim --owner market-close` launched in the background (66-min cap) and completed cleanly at **21:00:04 UTC (16:00 EST)**, status **DUE** (0 min after bell-time), **CLAIMED** (date 2026-11-16, owner market-close). Then confirmed with Alpaca `/v2/clock` **is_open=false** (ts 16:00:29 ET; bell rung; next_open 11/17 09:30, next_close 11/17 16:00) → scorecard can run; **market closed → NO SPY sweep** (the same-day-while-open sweep rule did not apply, and cash was at the cushion anyway). A concurrent winter ring (`0 21`) sees ALREADY_CLAIMED and stands down. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox: **no Pending.** Astra: **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified this run: account, positions, open-orders, closed-orders, clock, SPY close bar + latest trade.
+
+## Day summary (2026-11-16 — official close)
+- **Closing equity $97,495.42** · cash $10,440.97 (10.71%) · long_mv $87,054.45.
+- **Day P/L −$845.23 / −0.86%** (base Alpaca last_equity $98,340.65 = Fri 11/13 prior close; Bull's own 11/13 close log recorded $98,287.66 — a ~$53 settlement/mark difference; used Alpaca's authoritative `last_equity`, the same base midday used today).
+- **SPY day −1.887%** (close 740.04 vs Fri 11/13 close 754.27; source: Alpaca IEX daily bars + snapshot dailyBar/prevDailyBar).
+- **Day alpha +1.03 pts (AHEAD).**
+- **WTD (day 1 of week 11/16–11/20, base Fri 11/13 close):** book −0.86% vs SPY −1.89% → WTD alpha **+1.03 pts (AHEAD)**. Weekly review (Fri) owns the official weekly number.
+- **Trades placed: 0** (no buy, sell, stop trigger, stop conversion, or SPY sweep; closed-orders empty today). No SPY sweep — market already closed at the real-close ring.
+- **What worked:** (1) Textbook defensive down-day — broad market sold off hard (SPY −1.89%) but the book fell only −0.86%, a clean **+1.03 pt** day-alpha. (2) The two conviction defensives actually ROSE against a red tape: **PG +1.97%, RSG +1.02%**; NOC ~flat (−0.87%). The only real drag was the **SPY index sleeve itself (−1.94% today)**, which by definition cannot beat the benchmark. (3) Discipline into the NVDA binary — declined to add high-beta/semis the session into **NVDA 11/17 AMC**; no fresh risk initiated into the selloff.
+- **What didn't / watch:** (1) Absolute equity still fell −$845 — the ~56% SPY sleeve means a hard market down-day drags the book in *dollars* even when we win on relative alpha; the mandate is relative, but Lauren feels the dollar drop. (2) Still 3/5 sleeve, two open slots unused — the book under-participates on up-days; no clean NON-defensive entry has cleared the gate. (3) NVDA 11/17 AMC is the whole-complex binary; a gap either way Wed moves the SPY sleeve.
+- **Open questions for tomorrow (Tue 11/17):** (a) **NVDA earnings AMC** — the single biggest event; do NOT initiate fresh high-beta/semi beta the session into it; (b) does any bench name (FERG on a genuine pullback) finally offer a clean non-defensive entry to re-beta an open slot; (c) NOC convert hard→trailing only at +5% (~$571.59) — still only +0.24%.
+
+**Benchmark (official close):**
+- **Day:** book **−0.86%** vs SPY **−1.89%** → **alpha +1.03 pts (AHEAD).**
+- **WTD (day 1):** book **−0.86%** vs SPY **−1.89%** → **alpha +1.03 pts (AHEAD).**
+
+**Voices:**
+- **Research:** close is not a buy routine; nothing cleared the gate. Two slots stay open for a clean NON-defensive name; FERG remains watchlist (needs a genuine pullback, not a 52-wk-high chase). NVDA 11/17 AMC keeps the high-beta/semi near-veto live.
+- **Risk:** stops healthy — exactly **3** open orders verified live (NOC hard **506.26**; PG trail **156.213**; RSG trail **231.111**); SPY 74 unencumbered. Day −0.86% leaves the full −3% loss-cap buffer. Largest non-index single name RSG $11,244.64 (~11.5% of equity, well under 20%). SPY sleeve ~56.2% (index carve-out, exempt). No conversion due (NOC +0.24%).
+- **Trader:** no order placed — nothing cleared Research's gate; no SPY sweep (market closed, is_open=false). Open orders verified = exactly 3. **Telegram daily close scorecard SENT** (mandatory, never skipped).
+
+**Handoff → Tue 2026-11-17 (pre-market `0 12` → open `30 14` → midday `0 18` → close `0 21`, winter UTC crons; summer rings `0 11 / 30 13 / 0 17 / 0 20` land ~57–60 min early → `--wait` holds to real NY time):**
+- **Clock gate every slot:** `market_clock.py --slot <name> --wait --claim --owner <name>`; EARLY summer rings land ~57–60 min early → `--wait` holds. **MANDATORY daily close scorecard + Telegram Tue regardless of trades.**
+- **Re-verify live each slot:** account/positions/open-orders/clock; confirm exactly **3** open orders (NOC hard 506.26; PG trail 156.213; RSG trail 231.111); SPY (74 sh) unencumbered; daily loss-cap check.
+- **NVDA 11/17 AMC = THE binary** for the AI/semi complex — do NOT initiate fresh high-beta/semi beta the session into it.
+- **Sleeve 3/5 — two open slots.** Any fill must be NON-defensive (beta ≥1.0), clean entry. FERG watchlist (needs a genuine pullback). Weekly buys 0/3 (week 11/16–11/20).
+- **Risk:** NOC convert hard→trailing ONLY at +5% (~$571.59); watch thesis-break headlines on the three holdings. **PG Investor Day Thu 11/19.**
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity operational. Keep both summer+winter crons per slot.
+- **Unverified:** none — account/positions/open-orders/closed-orders/clock + SPY close all pulled live this run.
+
 # 2026-11-16 ~12:00 CT (13:00 ET) — MIDDAY (Mon) — Opus 4.8 · NO TRADES · steady, no changes · SPY sweep action:none · sleeve 3/5 (two open slots) · weekly buys 0/3 · equity $97,811.05 · cash $10,440.97 (10.67%) · intraday −0.539% (SPY −1.56%, book ahead ~1.0 pt)
 
 **Run meta — clock gate:** summer cron `0 17 * * 1-5` rang early at 11:03 CT (winter is the real `0 18`). `market_clock.py --slot midday --wait` WAITED 53 min (within the 75-min early window) and returned status **DUE** at 13:00 ET (wait_seconds 0, 0 min after the 1:00 PM ET bell), NY time inside the window. Confirmed with Alpaca `/v2/clock` **is_open=true** (ts 13:00 ET; next_close 16:00 ET; next_open 11/17 09:30) → re-ran with `--clock-is-open true` → **DUE** → **CLAIMED** (stamp 2026-11-16 midday, owner midday, 18:00:31 UTC) and the claim pushed to main with the memory write. The winter `0 18` ring will see ALREADY_CLAIMED and stand down. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox: **no Pending.** Astra: **no new proposals** since the open (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified this run: account, positions, open-orders, clock, SPY snapshot.

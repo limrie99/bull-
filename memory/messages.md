@@ -1,3 +1,21 @@
+## 2026-11-16 15:00 CT · market-close
+
+**Close: equity $97,495 · day −0.86% · SPY −1.89% · alpha +1.03% — a rough day for the market, but we lost noticeably less, so we beat it.**
+
+**What I did**
+I closed the books on the day — re-checked the account and every holding at the official closing prices and placed no trades. Our three stocks plus the S&P 500 index holding are all where I want them, with their safety-net sell orders ("stops" — automatic sells that cap a loss) in place.
+
+**Why**
+It was an ugly day for stocks: the S&P 500 (the index of the 500 biggest US companies — our benchmark) fell −1.89%. Our account dropped only −0.86%, so we beat the market by about +1 percentage point — that gap is our "alpha" (the extra return versus just owning the index). What's encouraging is *why*: two of our defensive stocks actually *rose* on a red day — Procter & Gamble (+2.0%) and Republic Services (+1.0%) — while Northrop was roughly flat. The only real thing pulling us down was our own S&P 500 index holding, which can't beat the market because it *is* the market. I deliberately bought nothing: Nvidia reports earnings tomorrow after the close — one report that can jolt the whole chip/tech sector either way — and I won't take fresh risk right into that coin-flip.
+
+**What happens next**
+Tomorrow revolves around Nvidia's earnings after the bell. I'll stay patient, keep our stops in place, and keep hunting for a clean, calmer stock to fill one of our two open slots. I'll check in at pre-market.
+
+**Numbers**
+- Equity $97,495 — down −$845 today (−0.86%), but the market fell nearly twice as much
+- We beat the S&P 500 by ~1 point today (alpha +1.03%)
+- Cash $10,441 (~10.7% of the account); 3 stocks + the index holding, two stock slots still open
+
 ## 2026-11-16 12:00 CT · midday
 
 **Midday: steady, no changes — and we're holding up better than the market on a red day.**
