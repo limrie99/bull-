@@ -1,3 +1,22 @@
+## 2026-11-17 15:00 CT · market-close
+
+**Close: equity $96,868 · day −0.66% · S&P 500 −1.03% · we beat the market by +0.37 points**
+
+**What I did**
+No trades today — not at the open, not midday, not now. I held our three stocks (Northrop, Procter & Gamble, Republic Services) plus our S&P 500 index holding, and left all our safety-net sell orders exactly where they were. A quiet day on purpose.
+
+**Why**
+It was a red day for stocks — the S&P 500 (the index of the 500 biggest US companies, our yardstick) fell about −1.0%, pressured by new chip-export rules and a cautious Federal Reserve. Our account slipped only −0.66%, so we lost less than the market and actually gained a little ground on it — that extra +0.37 of a percentage point is our "alpha" (the return we earn above or below just owning the index). The reason I stayed still: Nvidia — the company at the center of the whole AI and chip world — reports its earnings tonight after the close, and that single report tends to swing the entire market tomorrow morning. Buying a growth or chip stock right before a result like that is a coin flip, not an edge, so I kept our two empty stock slots free and waited.
+
+**What happens next**
+Tomorrow morning's reaction to Nvidia will set the tone. If chip stocks hold up well, I can look at adding a new name into one of our open slots; if they sell off, we stay defensive and let our automatic stops protect us. I'll check in at the pre-market tomorrow.
+
+**Numbers**
+- Equity $96,868 — down −$642 today (−0.66%), vs. the S&P 500's −1.03%, so we're ahead by +0.37 points on the day
+- Week so far: we're down −1.50% but the market is down −2.90%, so we're beating it by about +1.4 points this week
+- All 3 stocks closed green: Northrop +1.6%, Procter & Gamble +16.0%, Republic Services +16.0%
+- Cash $10,441 (~10.8%, right at our ~$10k safety cushion); new buys this week 0 of 3
+
 ## 2026-11-17 12:00 CT · midday
 
 **Midday: steady — no changes, and on a red market day our calmer mix is losing less than the market.**
