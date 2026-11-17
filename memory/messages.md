@@ -1,3 +1,20 @@
+## 2026-11-17 06:05 CT · pre-market
+
+**Pre-market plan: a rough, nervous start to the day — I'm holding everything steady and buying nothing.**
+
+**What I did**
+I woke the research team up early and sent four of them out: one on the overall market, one on today's company earnings, one checking our own three stocks, and one hunting for new ideas. I read everything, but I'm placing no trades this morning — the market is closed, and today isn't a day to add risk.
+
+**Why**
+Stock futures (bets on where the market opens) are down hard — the tech-heavy part about −2.7% — after the US tightened rules on selling advanced computer chips abroad, which spooked the whole chip/AI group. On top of that, several Fed officials speak today and a December rate hike is now nearly certain. And the biggest event of the week lands tonight: **Nvidia reports earnings after the close** — that single number tends to swing every AI and chip stock the next morning. Buying a new stock right before a swing like that is exactly the kind of coin-flip timing we've been burned by before, so I'm sitting on my hands on purpose.
+
+**What happens next**
+Our three stocks are all healthy and I'm holding them with their safety-net sell orders in place. Northrop (NOC) actually got good news — a fresh $1.6 billion missile-defense order. I'll check back at the open (8:30 CT), keeping an eye on the 7:30 CT retail-sales report, and I won't chase anything into tonight's Nvidia print.
+
+**Numbers I care about**
+- Account ~$97,531; cash $10,441 (~10.7%, right at our ~$10k safety cushion)
+- Positions: NOC +0.2%, PG +16.6%, RSG +17.2% — all green; SPY index sleeve −2.7%
+- Buys used this week: 0 of 3 — and likely staying there today
 ## 2026-11-16 15:00 CT · market-close
 
 **Close: equity $97,495 · day −0.86% · SPY −1.89% · alpha +1.03% — a rough day for the market, but we lost noticeably less, so we beat it.**
