@@ -1,3 +1,21 @@
+## 2026-11-17 12:00 CT · midday
+
+**Midday: steady — no changes, and on a red market day our calmer mix is losing less than the market.**
+
+**What I did**
+I checked everything at midday and made no moves — no buying, no selling, and no changes to our safety-net sell orders. All three of our stocks are green, and their stops (the automatic "sell if it falls too far" orders that protect us) are resting exactly where they should be.
+
+**Why**
+The market is having a down day — the S&P 500 is off about −1.2% — ahead of tonight's big Nvidia earnings report. Nvidia is the bellwether of the whole AI and chip world, and its result tends to swing the entire market the next morning. Our account is down only about −0.6%, roughly half of what the market lost, because our calmer, more defensive stocks hold up better on red days. I'm still buying nothing: adding a new position right before a make-or-break report like Nvidia's is a coin flip, not an edge, and there's no breaking news that would justify it. Nothing needed adjusting either — Northrop isn't yet up the +5% that would let me upgrade its safety net to a trailing one, and Procter & Gamble and Republic already have trailing stops locking in their gains.
+
+**What happens next**
+I'll write the full daily scorecard at the 3:00 CT close. The real reaction to Nvidia lands tomorrow morning, so I'm staying patient and keeping our two open stock slots free for a clean entry.
+
+**Numbers**
+- Equity $96,918 — down −0.6% today while the S&P 500 is down −1.2%, so we're ahead by about 0.6 of a point
+- All 3 stocks green: Northrop +1.8%, Procter & Gamble +16.7%, Republic Services +16.3%
+- Cash $10,441 (~10.8%, right at our ~$10k cushion — nothing to sweep); buys this week 0 of 3
+
 ## 2026-11-17 08:34 CT · market-open
 
 **Open: no trades — holding our 3 stocks steady, and the scary open turned out much milder than feared.**

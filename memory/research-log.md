@@ -15240,3 +15240,42 @@ Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No hi
 - **Events runway:** AMAT + CSCO after-hours tonight (SPY-sleeve read); **PPI Fri 11/13** = the rate-relevant binary; Dec 9 FOMC near-priced for a 25bp HIKE.
 - **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading the file each slot. Perplexity OPERATIONAL. Keep both UTC crons registered per slot.
 - **Unverified:** none — account/positions/open-orders/closed-orders/clock + SPY close all pulled live this run.
+
+---
+
+## 2026-11-17 ~12:00 CT (1:00 PM ET) · MIDDAY — steady, NO TRADES (NVDA AMC binary near-veto holds)
+
+**Clock gate:** `market_clock.py --slot midday --wait --claim --owner midday --clock-is-open true --next-close 2026-11-17T16:00:00-05:00`. The summer UTC alarm (`0 17`) fired ~53 min early (12:07 ET wake) → `--wait` held 3167s to the real **1:00 PM ET** → **status DUE** ("0 min after the bell time"), Alpaca clock **is_open=true**. **CLAIMED** (stamp 2026-11-17 midday, owner midday). Market-open already claimed earlier (14:33 UTC). No double-claim. 4 required keys non-empty; EQUIBLES empty → filing data skipped. **Inbox: no Pending.** **Astra: no proposals.**
+
+**Live verify (1:00 PM ET):** equity **$96,918.12**, cash $10,440.97, long_mv $86,477.15. last_equity (11/16 close) $97,509.91 → intraday **−$591.79 / −0.607%** — NOT near the −3% loss cap. SPY last **731.12** vs 11/16 close 740.04 → SPY day **−1.21%**; book −0.607% → **+0.60 pt intraday alpha** (down-day defense, consistent with the 5-wk regime-sensitivity characteristic). Open orders **exactly 3** (NOC hard 506.26; RSG trail 231.111 hwm 256.79; PG trail 156.231 hwm 173.59 — PG hwm ticked up from 173.57, floor auto-raised); SPY (74 sh) unencumbered.
+
+**Positions (LIVE 1:00 PM ET):**
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| NOC | 18 | 544.37 | 554.40 | +1.84% | 9,979.20 | −7% HARD 506.26 |
+| PG | 65 | 148.06 | 172.83 | +16.73% | 11,233.95 | 10% TRAIL 156.231 (hwm 173.59) |
+| RSG | 44 | 218.00 | 253.545 | +16.31% | 11,155.98 | 10% TRAIL 231.111 (hwm 256.79) |
+| SPY | 74 | 761.083 | 731.19 | −3.93% | 54,108.02 | NONE (index sleeve) |
+
+**Risk checks (midday mandate):**
+- **(a) Any position −7% or worse un-stopped?** NO. NOC/PG/RSG all green; SPY −3.93% is the index-floor sleeve with the deliberate no-stop carve-out. Nothing near −7%. No Perplexity news check triggered (no name at/below −7%).
+- **(b) Any position +5%+ needing hard→trailing conversion?** NO. NOC (only hard-stop name) is +1.84% — not yet +5% (convert ~$571.59). PG/RSG already trail. Nothing to convert.
+- **(c) Daily loss cap:** intraday **−0.607%** — NOT breached (cap >3% down). Full buffer intact.
+- **(d) Sell signals?** NONE. NOC/PG/RSG theses INTACT→STRENGTHENING; no −7% breach, no thesis break, no guidance cut; no "better opportunity at the 5-cap" (two slots OPEN).
+
+**Buys:** **Research:** no high-conviction *breaking* catalyst at midday; the NVDA 11/17 AMC complex-wide binary near-veto on fresh high-beta/semi/rate-sensitive longs is active, and ES is already risk-off on the chip-export curbs. **Risk:** two slots open and 0/3 weekly buys used, but no name clears a clean entry and midday is not for initiating fresh beta into tonight's binary. **Trader:** nothing to place. 0 buys — consistent with the pre-market + market-open plan.
+
+**SPY sweep:** `spy_floor.py --equity 96918.12 --cash 10440.97 --spy-price 731.56 --spy-shares 74 --stock-market-value 32384.40` → **action: none** ("cash already within one SPY share of the cushion"). Cash $10,440.97 vs $10,000 cushion = ~$441 excess < 1 SPY share (~$731). Nothing to sweep.
+
+**NO TRADES this run. 0 orders placed/filled.** Sleeve 3/5 (two open slots); weekly conviction buys 0/3 (week 11/16–11/20).
+
+**Handoff → market-close (3:00 PM CT / 4:00 PM ET):**
+- **MANDATORY daily close scorecard + Telegram push** regardless of trades — lead with plain-English up/down $ & % vs SPY and whether we're ahead. Base: 11/16 close book $97,509.91 / SPY 740.04.
+- **Clock gate first:** `market_clock.py --slot market-close --wait --claim --owner market-close`; summer ring (`0 20`) lands ~53 min early → `--wait` holds to 4:00 PM ET; a close is NOT the close while Alpaca `next_close` is >20 min away.
+- **Re-verify live:** account/positions/open-orders/clock; confirm exactly **3** open orders (NOC hard 506.26; PG trail 156.231; RSG trail 231.111); SPY (74) unencumbered; daily loss-cap check.
+- **Risk (a)(b)(c)(d):** NOC convert to trailing ONLY at +5% (~$571.59); watch any thesis-break headline on the 3 holdings.
+- **★ NVDA reports TONIGHT (11/17 AMC)** — THE binary for the whole AI/semi complex; reaction hits semis/index Wed AM. On a close run while the market is still open, if not buying a stock, run `spy_floor.py` and sweep any idle cash (today: action none at cushion). **Do NOT initiate fresh high-beta/semi/rate-sensitive beta into the NVDA print.**
+- **Sleeve 3/5 — two open slots.** Next buys MUST be NON-defensive (beta ≥1.0) on a CLEAN entry; no bench name qualifies right now. ADSK (#1 non-def bench ~72) blocked by its own Nov 24 earnings + NVDA binary; FERG needs a genuine low-$240s pullback, not a 52-wk-high chase.
+- **Events runway:** NVDA 11/17 AMC; retail prints Tue–Thu; **PG Investor Day Thu 11/19**; Dec 9–10 FOMC (25bp hike near-priced).
+- **STANDING:** structural A/B default A (no Lauren reply). Astra: no proposals — keep reading each slot. Perplexity OPERATIONAL. Both UTC crons registered per slot.
+- **Unverified:** none — account/positions/open-orders/clock + SPY last all pulled live this run.
