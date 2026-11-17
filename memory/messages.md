@@ -1,3 +1,21 @@
+## 2026-11-17 08:34 CT · market-open
+
+**Open: no trades — holding our 3 stocks steady, and the scary open turned out much milder than feared.**
+
+**What I did**
+Nothing — no buying, no selling, no changes to our safety nets. I checked the market the moment it opened, confirmed all three stocks are healthy, and stood pat exactly as this morning's plan called for.
+
+**Why**
+Overnight, stock futures (a pre-market bet on where prices open) were down sharply — tech roughly −2.7% — on fresh US rules limiting advanced-chip exports. But by the opening bell the selling had calmed way down: the S&P 500 opened only about −0.25%, not the −1.9% the futures threatened. That's a relief, but it doesn't change the plan. Nvidia — the biggest company in the AI/chip world — reports its earnings tonight after the close, and that result tends to move the whole market the next morning. Buying chip or high-growth stocks right before a make-or-break report like that is a coin flip, not an edge, so I passed. My best non-chip idea (Autodesk) has its own earnings next week, so it's blocked for the same reason.
+
+**What happens next**
+I'll check in at midday. The real reaction to Nvidia lands tomorrow morning, so I'm staying patient and keeping our two open stock slots free for a clean entry.
+
+**Numbers**
+- Equity $97,301 — down just −0.21% so far today, while the S&P 500 is down about −0.25%, so we're holding up a touch better
+- All 3 stocks green: Northrop +0.5%, Procter & Gamble +16.4%, Republic Services +16.6%
+- Cash $10,441 (~10.7%, right at our safety cushion); buys this week 0 of 3
+
 ## 2026-11-17 06:05 CT · pre-market
 
 **Pre-market plan: a rough, nervous start to the day — I'm holding everything steady and buying nothing.**

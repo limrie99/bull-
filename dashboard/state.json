@@ -1,45 +1,45 @@
 {
-  "last_update": "2026-11-17 06:05 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-11-17 08:34 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 97531.07,
+  "equity": 97301.10,
   "cash": 10440.97,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "week_pl_pct": -0.86,
-  "spy_week_pct": -1.89,
-  "alpha_week_pct": 1.03,
+  "day_pl": -208.81,
+  "day_pl_pct": -0.21,
+  "week_pl_pct": -1.07,
+  "spy_week_pct": -2.13,
+  "alpha_week_pct": 1.06,
   "positions": [
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 545.65,
-      "pl_pct": 0.24,
+      "current": 547.10,
+      "pl_pct": 0.50,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 172.56,
-      "pl_pct": 16.55,
+      "current": 172.285,
+      "pl_pct": 16.36,
       "stop": 156.213
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.00,
-      "current": 255.56,
-      "pl_pct": 17.23,
+      "current": 254.25,
+      "pl_pct": 16.63,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 74,
       "avg_cost": 761.083,
-      "current": 740.64,
-      "pl_pct": -2.69,
+      "current": 738.20,
+      "pl_pct": -3.01,
       "stop": null
     }
   ],
@@ -117,6 +117,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-17 08:34 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — holding our 3 stocks steady, and the scary open turned out much milder than feared.",
+      "body": "Futures were down hard overnight (tech ~-2.7%) on new US chip-export rules, but the S&P 500 opened only ~-0.25%. I still bought nothing: Nvidia reports tonight and that moves the whole market tomorrow, so no chasing chips or growth into it. All 3 stocks green (NOC +0.5%, PG +16.4%, RSG +16.6%). Equity $97,301 (-0.21% vs SPY ~-0.25%). Cash ~10.7%; buys 0/3."
+    },
+    {
       "ts": "2026-11-17 06:05 CT",
       "routine": "pre-market",
       "headline": "Pre-market plan: rough, risk-off start — holding all 3 stocks, buying nothing into the chip-export scare + Nvidia earnings tonight.",
@@ -155,11 +161,6 @@
       "ts": "2026-11-13 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $98,288 · day −0.12% · SPY −0.38% · alpha +0.26% — a down day for the market, and we lost less, so we beat it again."
-    },
-    {
-      "ts": "2026-11-13 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — down −0.31%, but SPY −0.76%, so we're ahead ~0.45 pts today."
     }
   ]
 }
