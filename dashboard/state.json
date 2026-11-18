@@ -1,29 +1,29 @@
 {
-  "last_update": "2026-11-17 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-11-18 06:10 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96868.1,
-  "cash": 10440.97,
-  "day_pl": -641.81,
-  "day_pl_pct": -0.66,
-  "week_pl_pct": -1.5,
-  "spy_week_pct": -2.9,
-  "alpha_week_pct": 1.4,
+  "equity": 96896.43,
+  "cash": 10511.72,
+  "day_pl": -65.25,
+  "day_pl_pct": -0.07,
+  "week_pl_pct": -1.47,
+  "spy_week_pct": -2.62,
+  "alpha_week_pct": 1.15,
   "positions": [
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 553.26,
-      "pl_pct": 1.63,
+      "current": 545.27,
+      "pl_pct": 0.17,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 171.79,
-      "pl_pct": 16.03,
+      "current": 170.77,
+      "pl_pct": 15.34,
       "stop": 156.231
     },
     {
@@ -38,8 +38,8 @@
       "symbol": "SPY",
       "qty": 74,
       "avg_cost": 761.083,
-      "current": 732.12,
-      "pl_pct": -3.81,
+      "current": 734.47,
+      "pl_pct": -3.5,
       "stop": null
     }
   ],
@@ -117,6 +117,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-18 06:10 CT",
+      "routine": "pre-market",
+      "headline": "Quiet open expected \u2014 FERG flagged as lead buy (B+ 74); NVDA beat relaxes the high-beta veto",
+      "body": "NVDA crushed earnings + raised guidance (AI binary resolved bullish). FERG (Ferguson) is the one name clearing both gates on a clean non-defensive entry \u2014 may add at the open, funded by an SPY trim. ADSK clears on score but deferred (earns 11/24). Holdings all green; PG Investor Day Thu. Watch 2pm FOMC minutes. No trades (market closed)."
+    },
+    {
       "ts": "2026-11-17 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $96,868 \u00b7 day -0.66% \u00b7 SPY -1.03% \u00b7 alpha +0.37%",
@@ -157,12 +163,6 @@
       "routine": "market-open",
       "headline": "Open: no trades \u2014 holding our 3 stocks steady into a big risk week (Nvidia earnings Tue, likely Fed hike Dec 9).",
       "body": "No idea on my shortlist was a clean buy today, so we stand pat. Ferguson and Goldman are too near their highs to chase, and I won't buy chip stocks right into Nvidia's binary earnings tomorrow. Equity basically flat (\u22120.07%) while SPY is down ~0.8%, so our calmer mix is holding up better early. Two stock slots stay open for a clean entry."
-    },
-    {
-      "ts": "2026-11-16 06:05 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: cautious start to a big week \u2014 holding our 3 stocks, no buying into a hawkish Fed + Nvidia earnings (Tue). All 3 healthy.",
-      "body": "Research-only, no trades. Hot inflation (~6.5% YoY) all but seals a Dec 9 rate hike, and Nvidia reports Tue PM \u2014 a market-moving binary event. Best new idea (Ferguson) isn't at our clean target price; everything else too pricey or too risky pre-Nvidia, so we passed. RSG hit a new high + a 2nd upgrade. Two slots stay open for a clean, non-defensive entry."
     }
   ]
 }

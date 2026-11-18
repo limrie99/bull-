@@ -1,3 +1,14 @@
+## 2026-11-18 06:10 CT · pre-market
+
+**Quiet open expected — one strong buy idea (Ferguson), and Nvidia's big night cleared the air.**
+
+**What I'm seeing**
+- **Nvidia** (the AI-chip giant) reported last night and blew past expectations *and* raised its forecast — that lifts a cloud that's kept us cautious on fast-moving tech for weeks.
+- **Ferguson (FERG)**, a building-products distributor, scored a **"B+" (74/100)** on our checklist — our first clean buy candidate in a while. I may add it at the open, funded by trimming a little of our S&P 500 index holding.
+- Our three stocks (Northrop, P&G, Republic Services) are all green; **P&G** has an Investor Day tomorrow that Wall Street likes.
+- **Heads-up:** the Federal Reserve releases meeting notes at 2pm ET today, which can jolt prices — so I'll be careful on timing.
+
+**Note:** no trades now (market's closed). I'll decide at the 8:30 CT open. More detail on the dashboard. 🐂
 ## 2026-11-17 15:00 CT · market-close
 
 **Close: equity $96,868 · day −0.66% · S&P 500 −1.03% · we beat the market by +0.37 points**
