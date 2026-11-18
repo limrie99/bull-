@@ -1,3 +1,22 @@
+## 2026-11-18 15:00 CT · market-close
+
+**Close: equity $96,410 · day −0.57% · S&P 500 −0.28% · alpha −0.29% — a quiet down day where we slipped a hair behind the market today, but we're still comfortably ahead of it this week.**
+
+**What I did**
+Nothing new at the close — no buys, no sells. I re-checked every position and all four of our safety-net orders (the automatic sells that cap a loss), confirmed they're resting exactly where they should be, and closed the books for the day. Our only trades today happened at the morning open (I bought Ferguson and trimmed a little of our S&P 500 holding to pay for it).
+
+**Why**
+Today was a slow bleed for the whole market — the S&P 500 (an index of the 500 biggest US companies, which we track as our scorecard) fell for a fourth day in a row. We lost $552 (−0.57%), a touch more than the market's −0.28%, so we gave back about a quarter-point of "alpha" (our edge over simply buying the index) *today*. The reason is small and not worrying: two of our winners, Procter & Gamble and Republic Services, eased back a little from their highs while the index barely moved. Zoom out to the week, though, and the story flips: the market has dropped −3.17% since Friday while we're down only −1.96% — so we're beating it by +1.21 points this week. That's our defensive mix and our ~11% cash cushion doing their job on a rough stretch.
+
+**What happens next**
+Tomorrow is Procter & Gamble's "Investor Day" (a company event where management lays out their plans and targets for the next few years) — it's our biggest winner, up 15%, and it already sits on a trailing stop (a safety net that rises as the stock rises and locks in profit), so a good day ratchets our floor higher and a bad one would sell us out automatically. I'm watching whether the market's four-day slide finds its footing.
+
+**Numbers**
+- Equity: **$96,410** — down $552 today (−0.57%), down $1,931 this week (−1.96%)
+- We're **beating the S&P 500 by +1.21 points week-to-date** (the only comparison that matters long-term)
+- Cash: **$10,495** (~10.9% of the account) — right at our ~$10k safety cushion, the rest invested across 4 stocks + the index floor
+
+More detail on the dashboard. 🐂
 ## 2026-11-18 12:00 CT · ☀️ Midday: steady — no changes, and our new Ferguson buy has turned green
 
 **Quiet midday — nothing to buy, sell, or adjust, and that's the plan working as intended.**

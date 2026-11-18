@@ -15408,3 +15408,31 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 - **FERG** now +1.03% (recovered) — still on its hard stop; convert to trailing only at +5% (~$267.63). **NOC** −0.38%, convert at +5% (~$571.59). PG/RSG trail automatically.
 - **FOMC Oct minutes 2:00 PM ET** may whipsaw the afternoon — watch FERG doesn't knife below 232.61 and SPY/held names into the close. **PG Investor Day Thu 11/19.** Dec 9–10 FOMC (25bp hike near-priced).
 - SPY sweep at close (if market still open and cash > cushion): expect `action:none` unless a stop fires intraday and frees cash — then sweep same day.
+
+### 2026-11-18 · Day summary (MARKET-CLOSE)
+**Clock:** summer cron `0 20 UTC` rang 3:02 PM ET (55 min early, daylight-saving miss); `--wait` held to 4:00 PM ET, `--claim --owner market-close` → CLAIMED (no prior claim today). Alpaca `/v2/clock` is_open=false, next_close 2026-11-19 → genuine close. Inbox no Pending; Astra no proposals.
+
+**Closing numbers:**
+- Close equity **$96,410.02** · cash $10,495.47 (10.89%) · long_mv $85,914.55.
+- **Day P/L −$551.66 / −0.57%** (base 11/17 close $96,961.68 = Alpaca `last_equity`).
+- **SPY day −0.28%** (close 732.41 → 730.33). **Day alpha −0.29 pp** (we lagged today).
+- **Week-to-date (from Fri 11/13 close $98,340.65): −1.96% / −$1,930.63.** SPY week −3.17% (754.27 → 730.33). **Week alpha +1.21 pp — beating the market WTD.**
+
+**Close marks:** FERG 44 @ 251.23 (+0.44%, mv 11,054.12); NOC 18 @ 542.99 (−0.25%, mv 9,773.82); PG 65 @ 170.30 (+15.02%, mv 11,069.50); RSG 44 @ 249.16 (+14.29%, mv 10,963.04); SPY 59 @ 729.90 (−4.10%, mv 43,064.10). Open orders verified **exactly 4** (FERG hard 232.61, NOC hard 506.26, RSG trail 231.111, PG trail 156.231); SPY unencumbered.
+
+**Trades today:** CLOSE none. Open leg (earlier): SPY trim 15 @ 732.602 + FERG buy 44 @ 250.12 (1/3 weekly conviction buys; sleeve 3→4). SPY sweep `spy_floor.py` action:none (cash within one share of cushion) + market closed → no sweep.
+
+**Voices:**
+- **Research:** no new candidate cleared the gate; FERG thesis intact day 1 (closed green). ADSK deferred to its 11/24 earnings fence. PG Investor Day tomorrow is the live catalyst.
+- **Risk:** all stops healthy, exactly 4 open orders, SPY unencumbered by design. Day −0.57% leaves the full −3% loss-cap buffer. Largest non-index name PG 11.48% (< 20% cap). No +5% hard→trailing conversion due (FERG +0.44%, NOC −0.25%).
+- **Trader:** no order (market closed at the bell; nothing cleared Research; sweep action:none). 4 open orders unchanged.
+
+**What worked:** PG/RSG are up ~15% and absorbed almost nothing of the market's slide — our defensive mix + 10.9% cash is exactly why we're +1.21 pp ahead of SPY week-to-date while SPY has bled four straight sessions (757→730). FERG closed green on day 1.
+**What didn't:** we lagged SPY by ~0.29 pp *today* — PG and RSG gave back a little intraday while SPY was only mildly down, so our book's day move was slightly worse than the index's for one session. Minor, and the week picture is the opposite. SPY sleeve itself (−4.10% unrealized) keeps dragging mark-to-market, but that's the index we deliberately own as the floor.
+
+**Open questions for tomorrow:**
+- PG Investor Day 11/19: does it ratchet PG's trailing floor higher (pop) or threaten a trail-out (disappointment)? PG is our biggest winner — watch but don't pre-trade.
+- Does the four-session SPY slide find a base, or extend toward a sharper risk-off that pressures the loss cap?
+- One open conviction slot: is there a non-defensive, Conviction ≥70, 2-signal gate-clearer at a clean entry? Nothing qualified today.
+
+**Handoff → pre-market (Thu 2026-11-19):** clock gate first; re-verify 4 open orders + SPY unencumbered + loss cap; PG Investor Day is the headline catalyst; FERG convert at +5% (~$267.63), NOC at +5% (~$571.59); SPY sweep expect action:none unless a stop frees cash.
