@@ -97,6 +97,10 @@
     "pre-market": {
       "at": "2026-11-18T12:03:56.395925+00:00",
       "owner": "pre-market"
+    },
+    "market-open": {
+      "at": "2026-11-18T14:33:19.785802+00:00",
+      "owner": "market-open"
     }
   }
 }
