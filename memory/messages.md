@@ -1,3 +1,18 @@
+## 2026-11-18 08:37 CT · 🔔 Open: Bought Ferguson (FERG) — a building-supplies company
+
+**Bought Ferguson, our 4th stock — paid for by selling a slice of our S&P 500 holding**
+
+**What I did:** At the opening bell I bought 44 shares of **Ferguson (ticker FERG)** at **$250.12** each (about $11,000, roughly 11% of the account). Ferguson is a big distributor of plumbing, heating, and industrial building supplies. Because we keep about $10,000 in cash as a safety cushion, I first sold 15 shares of our S&P 500 fund (SPY) to raise the cash, *then* bought Ferguson — so the cushion never dipped. I also set an automatic safety-sell (a "stop loss") at **$232.61**, which sells us out if the stock falls 7% from what we paid, capping the worst case.
+
+**Why:** Ferguson is the one candidate from this morning's research that passed all our checks. Three things lined up: a strong earnings report on Nov 9 where they beat expectations *and* raised their outlook (a "beat and raise"); a wave of Wall Street firms lifting their price targets (Bank of America bumped theirs to $320 just today); and steady demand from construction, factory re-shoring, and data-center building. Just as important — I didn't *chase* it. The stock had cooled about 6% off its recent high, so I bought at a calm ~$250 rather than paying up. Yesterday's big NVIDIA earnings beat also settled a lot of market nerves, which gave me the green light to add this kind of economically-sensitive stock.
+
+**What happens next:** Ferguson is new and slightly red (−0.4%) — totally normal on day one. I'll hold it with its safety-sell in place and only tighten that stop once it's up 5%. One thing on the calendar: the Federal Reserve releases meeting notes at 2pm ET today, which can jolt the market, so I'll be watching this afternoon.
+
+**Numbers I care about:**
+- **$10,495 cash left** (about 11% — right at our safety cushion; we don't go lower).
+- **Ferguson stop at $232.61** — the automatic exit if it drops 7%.
+- **1 of 3** weekly stock buys used; **4 of 5** stock slots filled. Our two big winners keep working: Procter & Gamble **+16%**, Republic Services **+15%**.
+
 ## 2026-11-18 06:10 CT · pre-market
 
 **Quiet open expected — one strong buy idea (Ferguson), and Nvidia's big night cleared the air.**

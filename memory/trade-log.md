@@ -467,3 +467,17 @@ Stop set: NONE (deliberate index-sleeve carve-out; stopping out of the benchmark
 Realized P/L: N/A (opening/adding).
 Research reference: research-log 2026-11-06 midday; scripts/spy_floor.py (action:buy, qty:11, estimated $8,098.86, cash_after $10,443.73, buffer $10,000).
 Notes: Plain market buy, day TIF. Filled 11 sh @ avg 736.4945 = $8,101.44. SPY position 63 → 74 sh (avg 761.083). Whole-book cash $18,542.59 → $10,441.15 (~10.9%, at the ~$10k cushion). Does NOT count as one of the 3 weekly stock buys. Sleeve still 3/5, weekly conviction buys still 1/3. Daily-loss-cap check passed before order (intraday −0.13%, well under −3%). No stock buy this run — no breaking catalyst at midday; the two open slots need a NON-defensive (beta ≥1.0) gate-clearer (book is NOC/PG/RSG = defensive-tilted), none clean this week. Open orders after = exactly 3 (NOC hard 506.26; PG trail 153.468; RSG trail 228.955); SPY 74 unencumbered.
+
+## 2026-11-18 08:37 CT | SELL | SPY | 15 @ 732.602 | 1791d67d-c7c5-4278-a6b0-be8dac35cd5a
+Thesis: Index-floor trim to fund the FERG conviction buy and keep cash at the ~$10k cushion. Not a conviction sell; sized by scripts/spy_floor.py (action:trim, qty 15).
+Signals matched: N/A (SPY floor cash-management trim per strategy.md same-day sweep / spy_floor.py; does NOT count vs 3 weekly stock buys).
+Stop set: N/A (index sleeve carries no stop; the remaining 59 SPY stay unencumbered).
+Research reference: research-log 2026-11-18 pre-market (FERG lead buy, funding = SPY trim first) + this market-open run.
+Notes: Filled 15 sh @ 732.602 = $10,989.03 proceeds. SPY 74 → 59. Trim executed FIRST, before the FERG buy, so cash never dipped under cushion.
+
+## 2026-11-18 08:37 CT | BUY | FERG | 44 @ 250.12 | c7eccb6e-b636-47c0-8734-5dc63d61c5ec
+Thesis: Ferguson plc — plumbing/HVAC/industrial distributor; Q1 FY27 beat-and-raise (11/9) + onshoring/construction/data-center build secular demand + a Nov PT-raise wave (incl. fresh BofA PT $320 Buy on 11/18) + clean non-extended uptrend. Non-defensive diversifier (beta ~1.11) added after the NVDA 11/17 beat relaxed the high-beta near-veto.
+Signals matched: #1 (Q1 beat+raise 11/9), #3 (onshoring/data-center secular), #4 (PT-raise wave), #6 (clear uptrend). Conviction 74 (B+). 4 signals — clears the ≥70 + 2-signal gate.
+Stop set: $232.61 (-7.0% hard GTC stop from fill 250.12 × 0.93; order ea91d0f9-6f6d-46c1-a665-b77c6efdc0ec, confirmed resting GTC).
+Research reference: research-log 2026-11-18 pre-market (★ LEAD BUY = FERG) + this market-open live re-validation (price ~$249.5 clean entry, not a chase; no adverse 24h news; BofA PT raise today).
+Notes: Filled 44 sh @ 250.12 = $11,005.28 (~11.4% of equity — modest B+ sizing). Funded by the 15-share SPY trim above. Sleeve 3/5 → 4/5 (defensive count stays 2/5); weekly stock buys 0/3 → 1/3. Clean fill near the real market (~$250) despite a wide stale opening quote.
