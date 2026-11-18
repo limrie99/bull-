@@ -15373,3 +15373,38 @@ Sleeve is **5/5 FULL** — any new idea is a *swap* candidate, not an add. No hi
 **What worked:** (1) Defensive mix + index floor lost about half what the market did on a red day — book −0.66% vs SPY −1.03%, +0.37 pt alpha, extending the 5-week down-day-defense characteristic. (2) Discipline held: resisted initiating fresh high-beta/semi beta into tonight's NVDA binary (the exact fresh-entry-into-a-binary pattern the strategy warns about). (3) WTD +1.40 pt alpha — the book is ahead of SPY for the week on relative defense.
 **What didn't / open questions:** (1) Absolute return is negative two days running — down-day defense is relative, not absolute; two open slots sitting idle means no alpha engine beyond defense. (2) ★ **NVDA reports TONIGHT 11/17 AMC** — the whole AI/semi complex + index reaction lands Wed AM; that print, not today's tape, sets Wednesday's regime. (3) Still no clean NON-defensive (beta ≥1.0) entry for the two open slots — ADSK blocked by its own 11/24 earnings + the NVDA binary; FERG needs a real low-$240s pullback. (4) PG Investor Day Thu 11/19 is a near catalyst on a held name.
 **Handoff → pre-market Wed 11/18:** READ THE NVDA REACTION FIRST (after-hours + pre-market semis/ES move sets the regime). If semis gap up and hold a clean base, the NVDA near-veto lifts → re-score ADSK/non-defensive bench for a clean entry. If NVDA disappoints, stay defensive, let stops work. Clock gate first; re-verify live; confirm 3 open orders; daily loss-cap check. Sleeve 3/5, 0/3 weekly buys. Events: PG Investor Day 11/19; Dec 9–10 FOMC (25bp hike near-priced).
+
+## 2026-11-18 midday (1:00 PM ET / 12:00 PM CT) — STEADY, NO CHANGES
+
+**Clock gate.** Wake fired on the SUMMER cron (`0 17 UTC`) at 17:00 UTC = 12:05 PM ET — the daylight-saving early ring (54 min before the 1:00 PM ET slot). `market_clock.py --slot midday` returned `status:EARLY, wait_seconds:3263`. Held via `--wait` to 18:00 UTC = 1:00 PM ET, then `--claim --owner midday` → `CLAIMED` (2026-11-18). Pushed the claim stamp to `main` BEFORE any order (commit 9110d46). Alpaca `/v2/clock` `is_open:true` (13:00 ET, next_close 16:00 ET). Did NOT shift the cron. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox **no Pending**; Astra **no proposals**.
+
+**Live re-verification (1:00 PM ET).** Account equity $96,646.84, cash $10,495.47 (10.86%), last_equity (11/17 close) $96,961.68 → intraday **−$314.84 / −0.33%** (loss cap −3% far off). Positions:
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| FERG | 44 | 250.12 | 252.69 | +1.03% | 11,118.36 | HARD 232.61 |
+| NOC | 18 | 544.37 | 542.29 | −0.38% | 9,761.22 | HARD 506.26 |
+| PG | 65 | 148.06 | 170.63 | +15.24% | 11,090.95 | TRAIL 156.231 |
+| RSG | 44 | 218.00 | 250.87 | +15.08% | 11,038.06 | TRAIL 231.111 |
+| SPY | 59 | 761.083 | 731.19 | −3.93% | 43,140.21 | NONE (index) |
+
+Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`). SPY 59 sh unencumbered.
+
+**Risk (Risk voice):**
+- (a) Any position ≤−7% un-stopped? **NO.** Worst non-index is NOC −0.38%; FERG +1.03%. SPY −3.93% is the index sleeve (deliberate no-stop). Nothing near −7%, no discretionary sell, no Perplexity news check triggered.
+- (b) Any +5%+ needing hard→trailing conversion? **NO.** The two hard-stop names (FERG +1.03%, NOC −0.38%) are below +5% (FERG convert ~$267.63; NOC ~$571.59). PG/RSG already trailing, floors ratchet automatically.
+- (c) Daily loss cap: intraday −0.33% — NOT breached. New buys would be allowed, but none qualify.
+- (d) Sell signals? NONE. All four theses INTACT; FERG recovered from −0.42% at open to +1.03%.
+
+**SPY sweep (Trader voice).** `spy_floor.py --equity 96646.84 --cash 10495.47 --spy-price 731.19 --spy-shares 59 --stock-market-value 43008.59` → `action:none` ("Cash is already within one SPY share of the cushion. Nothing to sweep."). spy_target_dollars 43,638.25 (45.15%), held 59 sh ≈ $43,140 — on target. No SPY order. Cash $495 above the $10k cushion = less than one share, as the open handoff predicted.
+
+**New buys.** NONE. Midday originates a buy only on a high-conviction BREAKING catalyst AND weekly buys <3 AND positions <5. Weekly buys 1/3, sleeve 4/5 (one open slot) — room exists, but no breaking catalyst surfaced. **FOMC Oct minutes land 2:00 PM ET today** — a macro risk event, not a buy trigger; initiating fresh beta into a binary rate print is exactly the entry-timing pattern strategy.md flags as a near-veto. ADSK (B+ 72) stays DEFERRED behind its own 11/24 earnings. Research proposed nothing new; Trader placed nothing.
+
+**Decision: STEADY — no orders this run.** Memory snapshot updated; not a Telegram push event (quiet midday). Daily scorecard owned by the 3:00 PM CT close.
+
+**Handoff → market-close (Wed 2026-11-18, winter cron `0 21 UTC`; summer `0 20` rings early → `--wait` holds to 4:00 PM ET):**
+- Clock gate first: `market_clock.py --slot market-close --wait --claim --owner market-close`; the close is not the close while Alpaca `next_close` >20 min away.
+- **MANDATORY daily "How we're doing" message + Telegram push** — never skipped.
+- Re-verify live: account/positions/open-orders/clock; confirm exactly 4 open orders unchanged; daily loss-cap.
+- **FERG** now +1.03% (recovered) — still on its hard stop; convert to trailing only at +5% (~$267.63). **NOC** −0.38%, convert at +5% (~$571.59). PG/RSG trail automatically.
+- **FOMC Oct minutes 2:00 PM ET** may whipsaw the afternoon — watch FERG doesn't knife below 232.61 and SPY/held names into the close. **PG Investor Day Thu 11/19.** Dec 9–10 FOMC (25bp hike near-priced).
+- SPY sweep at close (if market still open and cash > cushion): expect `action:none` unless a stop fires intraday and frees cash — then sweep same day.

@@ -1,3 +1,18 @@
+## 2026-11-18 12:00 CT · ☀️ Midday: steady — no changes, and our new Ferguson buy has turned green
+
+**Quiet midday — nothing to buy, sell, or adjust, and that's the plan working as intended.**
+
+**What I did:** I re-checked every holding against live prices, confirmed all our safety nets (the automatic "stop loss" orders that sell us out if a stock falls too far) are in place, and looked at whether any spare cash should go to work. The answer on all of it was "leave it alone," so I placed no trades.
+
+**Why:** Nothing crossed a line that calls for action. None of our stocks is anywhere near its safety-net price, so there's nothing to sell. None has risen enough yet to upgrade its safety net to a "trailing stop" (a stop that follows the price up to lock in gains) — that kicks in once a stock is +5%, and our two newest aren't there. Our cash ($10,495) is right at the ~$10,000 cushion I keep, so there's nothing extra to sweep into our S&P 500 fund. And I'm deliberately *not* adding a new stock ahead of this afternoon's Federal Reserve meeting minutes (2pm ET) — that's a notes release that can jolt the market, and I don't like opening fresh positions into a known jolt. The nice surprise: Ferguson, which we bought this morning slightly underwater, has already climbed to **+1.0%**.
+
+**What happens next:** I'll watch the 2pm Fed minutes for any whipsaw and make sure Ferguson holds above its $232.61 safety line. Your full daily scorecard — how we did vs. the market — comes at the 3:00 CT close.
+
+**Numbers I care about:**
+- Equity **$96,647**, down just **−0.33%** on the day (we started the year at $100,000) — a calm, nothing-day move, nowhere near my −3% "stop buying" line.
+- Winners still winning: **PG +15.2%**, **RSG +15.1%**; our two newest (NOC −0.4%, FERG +1.0%) sit near even.
+- Cash **$10,495 (~10.9%)**, right at the cushion. Stock buys used this week: **1 of 3**; **4 of 5** stock slots filled.
+
 ## 2026-11-18 08:37 CT · 🔔 Open: Bought Ferguson (FERG) — a building-supplies company
 
 **Bought Ferguson, our 4th stock — paid for by selling a slice of our S&P 500 holding**
