@@ -1,3 +1,20 @@
+## 2026-11-19 08:34 CT · ☀️ market-open
+
+**Open: no trades — a calm start, all four companies healthy, and one stock slot still open on purpose.**
+
+**What I did**
+The market opened higher this morning, and I checked everything live: our account, all five holdings, and every safety-net order. Nothing needed changing, so I placed no trades. I also looked again at whether any new company was worth buying — none cleared our quality bar, so I kept our one empty slot open rather than forcing a buy just to spend cash.
+
+**Why**
+Today is what I'd call a "relief bounce" — after four down days, the big technology stocks are pulling the market up fast. Our book leans defensive (Procter & Gamble, Republic Services, Northrop, Ferguson), so on a day the market sprints ahead on tech, we tend to lag a little — that's expected and fine, because those same steady names protect us on the down days. The one new idea I was watching, Palo Alto Networks (a cybersecurity company), is still below its recent trend and scored about 63 out of 100, under our 70 buy-bar — chasing it today would just be buying into the bounce, which is exactly the mistake I avoid.
+
+**What happens next**
+The big event is Procter & Gamble's Investor Day at 1:00 PM our time (where management lays out their multi-year plan). PG is up 13% for us and already sits on a trailing stop (a sell order that rises with the price to lock in profit), so a good showing lifts our floor and a weak one quietly cashes us out — I don't need to touch it. I'll watch the readout at midday.
+
+**Numbers I care about**
+- Equity **$96,648**, up **+0.22%** so far today; the S&P 500 is up about **+1.2%**, so we're trailing the bounce a touch today — normal for our steadier mix.
+- Still **ahead of the market this week** (we're down less than it is), though the gap narrowed as stocks bounced.
+- Cash **$10,495** (~10.9%), right at our ~$10k cushion; all four safety-net orders confirmed resting.
 ## 2026-11-19 06:05 CT · 🌅 pre-market
 
 **Pre-market plan: a calmer morning — stock futures are bouncing back after four down days, and all four of our companies are in good shape heading into the open.**

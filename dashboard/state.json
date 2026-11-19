@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-11-19 06:05 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-11-19 08:34 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 96837.16,
+  "equity": 96647.92,
   "cash": 10495.23,
-  "day_pl": null,
-  "day_pl_pct": null,
-  "week_pl_pct": -1.96,
-  "spy_week_pct": -3.17,
-  "alpha_week_pct": 1.21,
+  "day_pl": 211.06,
+  "day_pl_pct": 0.22,
+  "week_pl_pct": -1.72,
+  "spy_week_pct": -2.03,
+  "alpha_week_pct": 0.31,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "current": 251.23,
-      "pl_pct": 0.44,
+      "current": 250.80,
+      "pl_pct": 0.27,
       "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 542.99,
-      "pl_pct": -0.25,
+      "current": 542.05,
+      "pl_pct": -0.43,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 168.37,
-      "pl_pct": 13.72,
+      "current": 167.63,
+      "pl_pct": 13.22,
       "stop": 156.231
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 249.16,
-      "pl_pct": 14.29,
+      "current": 247.10,
+      "pl_pct": 13.35,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
-      "avg_cost": 759.746,
-      "current": 739.1,
-      "pl_pct": -2.72,
+      "avg_cost": 759.75,
+      "current": 738.98,
+      "pl_pct": -2.73,
       "stop": null
     }
   ],
@@ -125,52 +125,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-19 08:34 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades — calm start, all 4 companies healthy, one stock slot open on purpose",
+      "body": "Market opened higher (tech-led relief bounce after 4 down days). Checked everything live — nothing needed changing, placed no trades. No new company cleared our 70 buy-bar (PANW ~63 → would just be chasing the bounce), so the one open slot stays open. Equity $96,648, +0.22% today vs SPY ~+1.2% — our defensive mix lags on a tech-up day, but we're still ahead of the market this week. PG Investor Day 2pm ET is today's catalyst; PG +13% on a trailing stop, handled mechanically — won't pre-trade. Cash $10,495 at cushion, 4 stops resting."
+    },
+    {
       "ts": "2026-11-19 06:05 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan \u00b7 no trades \u00b7 equity ~$96,850 \u00b7 all 4 theses intact \u00b7 PG Investor Day 2pm ET",
-      "body": "Pre-market research only \u2014 no trades (market closed). Futures bouncing after 4 down days (tech-led relief), but thin into 8:30 ET jobless claims + Walmart earnings. All 4 holdings' theses intact. PG Investor Day 2pm ET is today's catalyst \u2014 PG is +15% on a trailing stop, handled mechanically, won't pre-trade. PANW scored ~63 (below the 70 gate) \u2192 watchlist only. One open stock slot stays open."
+      "headline": "Pre-market plan · no trades · equity ~$96,850 · all 4 theses intact · PG Investor Day 2pm ET",
+      "body": "Pre-market research only — no trades (market closed). Futures bouncing after 4 down days (tech-led relief), but thin into 8:30 ET jobless claims + Walmart earnings. All 4 holdings' theses intact. PG Investor Day 2pm ET is today's catalyst — PG is +15% on a trailing stop, handled mechanically, won't pre-trade. PANW scored ~63 (below the 70 gate) → watchlist only. One open stock slot stays open."
     },
     {
       "ts": "2026-11-18 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $96,410 \u00b7 day \u22120.57% \u00b7 SPY \u22120.28% \u00b7 alpha \u22120.29% (beating market +1.21% this week)",
-      "body": "Quiet down day \u2014 no trades at the close. We slipped ~0.29 pts behind the market today as PG and RSG eased off their highs, but week-to-date we're down only \u22121.96% vs the S&P's \u22123.17%, so we're ahead by +1.21 pts. Cash at the ~$10k cushion, 4 stops resting. Watching PG's Investor Day tomorrow."
+      "headline": "Close: equity $96,410 · day −0.57% · SPY −0.28% · alpha −0.29% (beating market +1.21% this week)",
+      "body": "Quiet down day — no trades at the close. We slipped ~0.29 pts behind the market today as PG and RSG eased off their highs, but week-to-date we're down only −1.96% vs the S&P's −3.17%, so we're ahead by +1.21 pts. Cash at the ~$10k cushion, 4 stops resting. Watching PG's Investor Day tomorrow."
     },
     {
       "ts": "2026-11-18 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes \u2014 new Ferguson buy already green (+1.0%)",
+      "headline": "Midday: steady, no changes — new Ferguson buy already green (+1.0%)",
       "body": "Nothing to change at midday. FERG recovered to +1.0%; all theses intact; FOMC Oct minutes at 2pm the afternoon risk event."
     },
     {
       "ts": "2026-11-18 08:37 CT",
       "routine": "market-open",
-      "headline": "Open: Bought Ferguson (FERG) \u2014 a building-supplies company; our 4th stock",
-      "body": "Bought 44 FERG @ $250.12 with a \u22127% safety net, funded by trimming 15 SPY. Beat+raise plus onshoring/data-center demand \u2014 2 signals, Conviction cleared."
+      "headline": "Open: Bought Ferguson (FERG) — a building-supplies company; our 4th stock",
+      "body": "Bought 44 FERG @ $250.12 with a −7% safety net, funded by trimming 15 SPY. Beat+raise plus onshoring/data-center demand — 2 signals, Conviction cleared."
     },
     {
       "ts": "2026-11-17 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $96,868 \u00b7 day \u22120.66% \u00b7 SPY \u22121.03% \u00b7 alpha +0.37%",
-      "body": "Down day for the market; we lost less, so we beat it. No trades \u2014 holding steady."
+      "headline": "Close: equity $96,868 · day −0.66% · SPY −1.03% · alpha +0.37%",
+      "body": "Down day for the market; we lost less, so we beat it. No trades — holding steady."
     },
     {
       "ts": "2026-11-17 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady \u2014 no changes, calmer mix on a red market day",
+      "headline": "Midday: steady — no changes, calmer mix on a red market day",
       "body": "Nothing to change; our defensive names held up better than the index on a risk-off tape."
     },
     {
       "ts": "2026-11-17 08:34 CT",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 holding our 3 stocks steady through a scary open",
+      "headline": "Open: no trades — holding our 3 stocks steady through a scary open",
       "body": "Risk-off open but orderly; stayed put, all theses intact."
-    },
-    {
-      "ts": "2026-11-17 06:05 CT",
-      "routine": "pre-market",
-      "headline": "Pre-market plan: rough, risk-off start \u2014 holding all 3 stocks",
-      "body": "Planned to hold through a weak open and keep scanning for a 4th name."
     }
   ]
 }

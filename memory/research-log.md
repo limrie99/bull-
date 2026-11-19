@@ -1,3 +1,41 @@
+# 2026-11-19 ~08:34 CT (09:34 ET) — MARKET-OPEN (Thu) — Opus 4.8 · NO TRADES (no gate-clearer, no stops hit, no sweep) · sleeve 4/5 (one open slot) · weekly buys 1/3 (week 11/16–11/20) · equity $96,647.92 · intraday +0.22% · cash $10,495.23 (10.86%, at cushion)
+
+**Run meta — clock gate:** cron rang; `market_clock.py --slot market-open --claim` → **DUE** (09:33 ET, "3 min after the bell", wait 0) → **CLAIMED** (stamp 2026-11-19, owner bull, no prior claim today). Alpaca `/v2/clock` **is_open=true** (ts 09:33 ET; next_close 11/19 16:00) → open is genuine. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified this run: account, positions, open-orders, clock, SPY mark.
+
+**Live snapshot (09:33–09:34 ET):** equity **$96,647.92**, last_equity (11/18 close) $96,436.86 → **intraday +$211.06 / +0.22%** (UP; loss cap −3% irrelevant, full buffer). cash **$10,495.23 (10.86%, at the ~$10k cushion)**, long_mv $86,152.69; status ACTIVE, trading_blocked false. Positions = 4 conviction (FERG/NOC/PG/RSG) + SPY floor (59 sh). Open orders = **exactly 4** (FERG hard 232.61; NOC hard 506.26; RSG trail 231.111; PG trail 156.231); SPY unencumbered. Everything matches the pre-market handoff exactly.
+
+## Execution vs the pre-market plan — NO TRADE, as planned
+Pre-market plan: **no pre-positioned buy**; PANW watch-only (~63, below the ≥70 gate), interesting only on a 50-day reclaim (~$366); one open slot stays open; PG Investor Day 2pm ET handled mechanically by its trailing stop (do NOT pre-trade); SPY sweep expected `action:none`. Re-validated live:
+- **No buy candidate clears the gate.** PANW not re-scored up — the pre-market read stands (price below 50dMA ~$366, beat catalyst spent, no 30-day forward event, Conviction ~63). Exactly the "beta to the relief bounce" the macro voice warned against chasing; today's tape is a tech-led relief bounce (SPY ~+1.2% intraday), so chasing is the specific mistake to avoid. No fresh Astra proposal, no new name verified. **One open slot stays open — correct, not a failure to act (cold-start rule: no 2-signal + ≥70 setup exists today).**
+- **PG Investor Day 2:00 PM ET today** — NOT pre-traded. PG +13.22% on a 10% trailing stop (floor 156.231); an up readout ratchets the floor, a weak one trails out mechanically. Midday run watches the readout.
+
+## Risk management (priority order)
+- **(a) −7% or worse un-stopped?** NONE. FERG +0.27%, NOC −0.43%, PG +13.22%, RSG +13.35% (all in range); SPY −2.73% (index, no stop by design). Nothing near −7%.
+- **(b) +5%+ needing hard→trailing conversion?** NONE. Both hard-stop names below +5% (FERG +0.27% convert ~$267.63; NOC −0.43% convert ~$571.59). PG/RSG already trail; floors unchanged (156.231 / 231.111).
+- **(c) Daily loss cap:** intraday **+0.22%** (UP) — not breached. New buys would be allowed if a setup appeared; none did.
+- **(d) Sell signals?** NONE across the four conviction names. All theses intact; no −7% breach, no thesis break, no guidance cut, no exec/legal event.
+
+## SPY same-day sweep
+`spy_floor.py --equity 96647.92 --cash 10495.23 --spy-price 738.98 --spy-shares 59 --stock-market-value 42560.45` → **action:none** ("Cash is already within one SPY share of the cushion"). cash_after $10,495.23; buffer $10,000; spy_target_dollars $44,087.47 (45.62%). No idle cash above the cushion to sweep (excess ~$495 < one SPY share ~$739). No buying power used. Correct — the sweep rule is satisfied with a no-op.
+
+## Benchmark (intraday open snapshot — official scorecard is the close's job)
+- **Today:** equity +0.22% vs **SPY +1.18%** (730.33 close 11/18 → 738.98 now) → **lagging the bounce intraday by ~0.96 pp.** Expected: today is a megacap-tech-led relief bounce and our book is defensive-tilted (PG/RSG staples+waste, NOC defense, FERG distributor) with no megacap-tech beta; the SPY floor (59 sh) captures the index move for ~45% of the book.
+- **Week-to-date (from Fri 11/13 close $98,340.65):** equity −1.72% vs **SPY week −2.03%** (754.27 → 738.98) → **week alpha +0.31 pp — still BEATING the market this week**, though the lead narrowed from +1.21 at Tuesday's close as the index bounced faster than our defensive book. All week figures intraday/approximate; the close locks the official number.
+
+**Voices:**
+- **Research:** nothing clears the gate (2+ signals AND ≥70) at a clean entry. PANW stays watch-only at ~63 and is exactly the relief-bounce chase to avoid; GEV still a broken chart; no verified non-defensive third candidate. No Astra proposal. Hold; keep the slot open.
+- **Risk:** no −7% breach, no +5% conversion due, intraday +0.22% leaves the full loss-cap buffer; cash $10,495 at the $10k cushion; largest non-index name PG $10,895.95 (~11.3% of equity, well under 20%); sleeve 4/5, defensive 2/4 (room). Nothing to do.
+- **Trader:** verified exactly 4 open orders resting unchanged; SPY (59) unencumbered; no order placed (no gate-clearer, no stop hit, sweep action:none). **No Telegram push** — a no-trade market-open is not a push event (push only on trade/stop/close/weekly/urgent).
+
+## Handoff → midday (Thu 2026-11-19, winter cron `0 18 UTC`; summer `0 17` rings ~57 min early → `--wait` holds to 1:00 PM ET)
+- **Clock gate first:** `market_clock.py --slot midday --wait --claim --owner midday`; confirm Alpaca is_open=true before claiming.
+- **Re-verify live:** account/positions/open-orders/clock; confirm **exactly 4** open orders (FERG hard 232.61; NOC hard 506.26; RSG trail 231.111; PG trail 156.231); SPY (59) unencumbered; daily-loss-cap check.
+- **★ PG Investor Day 2:00 PM ET** — the readout starts around midday. PG +13% on a trailing stop (floor 156.231): don't pre-trade; watch the readout, but the stop handles both outcomes mechanically. If PG pops, the floor ratchets; if it disappoints, it trails out on its own.
+- **FERG** +0.27% day-2 — hold on its hard stop; convert to trailing only at +5% (~$267.63). **NOC** −0.43%, convert at +5% (~$571.59). PG/RSG floors ratchet automatically.
+- **SPY sweep:** cash $10,495 is <1 SPY share above the $10k cushion → expect `action:none` unless a stop fires and frees cash. If idle cash is above the cushion and no qualifying stock buy, sweep per the same-day rule.
+- **One open slot** — next buy must clear 2+ signals AND ≥70 at a clean entry; prefer non-defensive (defensive cap 2/4 has room). PANW only becomes interesting on a 50dMA reclaim (~$366) that adds signal #6 — do NOT chase the relief bounce. ADSK still DEFERRED on its 11/24 earnings fence.
+- **What would change the plan:** any held name hitting a stop; a strong/weak PG Investor Day; a sharp intraday reversal of the relief bounce (watch the loss cap).
+
 # 2026-11-19 ~07:05 CT (07:05 ET) — PRE-MARKET (Thu) — Opus 4.8 · NO TRADES (market closed) · research only · sleeve 4/5 (one open slot) · weekly buys 1/3 (week 11/16–11/20) · equity ~$96,853 (pre-mkt mark) · cash $10,495 (at cushion)
 
 **Run meta — clock gate:** winter cron `0 12 UTC` rang on time (07:03 ET). `market_clock.py --slot pre-market --wait` → **DUE** (wait 0). Alpaca `/v2/clock` **is_open=false, next_open 2026-11-19 09:30** → re-ran `--clock-is-open false --next-open …` (still DUE, "Alpaca clock does not block this slot") → `--claim --owner pre-market` → **CLAIMED** (stamp 2026-11-19, no prior claim today); claim **pushed to main BEFORE research** (HEAD:main loop OK). A concurrent summer `0 11` ring would see ALREADY_CLAIMED and stand down. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders, clock.
