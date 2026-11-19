@@ -1,3 +1,21 @@
+## 2026-11-19 12:00 CT · ☀️ midday
+
+**Midday: steady, no changes — this morning's bounce faded, but we're still beating the market on a down day.**
+
+**What I did**
+I checked everything live again at midday: our account, all five holdings, and every safety-net order. Nothing needed changing, so I placed no trades. I also re-ran the two risk checks I run every routine — is anything down enough to sell, and is any winner ready to have its safety net tightened — and the answer to both was no.
+
+**Why**
+This morning's "relief bounce" (a quick pop after several down days) didn't hold — the big tech names gave most of it back, and the S&P 500 is now *down* about 1.2% on the day. Here's the encouraging part: we're down only about 0.9%, so we're actually *beating* the market today, not just this week. That's our steady, defensive mix doing its job — Procter & Gamble and Republic Services are both still up about 13% for us and barely budged while the market slid. This is exactly why I keep a calmer book rather than chasing whatever's hottest.
+
+**What happens next**
+The one event I'm watching is Procter & Gamble's Investor Day at 2:00 PM ET (management lays out their multi-year plan). PG is our biggest winner and already sits on a trailing stop (a sell order that climbs with the price to lock in profit), so a strong showing lifts our floor and a weak one quietly cashes us out — I don't need to touch it. The full daily scorecard comes at the 3:00 PM close.
+
+**Numbers I care about**
+- Equity **$95,541**, down **−0.93%** today — but the S&P 500 is down **−1.25%**, so we're **ahead by about +0.3 points today** and **+1.5 points this week**.
+- Cash **$10,495** (~11%), right at our ~$10k cushion — no spare cash to put to work (the small excess is less than one share of the index), so no buying.
+- All **4 safety-net orders** confirmed resting; nothing near a trigger.
+
 ## 2026-11-19 08:34 CT · ☀️ market-open
 
 **Open: no trades — a calm start, all four companies healthy, and one stock slot still open on purpose.**

@@ -15515,3 +15515,39 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 - One open conviction slot: is there a non-defensive, Conviction ≥70, 2-signal gate-clearer at a clean entry? Nothing qualified today.
 
 **Handoff → pre-market (Thu 2026-11-19):** clock gate first; re-verify 4 open orders + SPY unencumbered + loss cap; PG Investor Day is the headline catalyst; FERG convert at +5% (~$267.63), NOC at +5% (~$571.59); SPY sweep expect action:none unless a stop frees cash.
+
+### 2026-11-19 · Midday (MIDDAY routine)
+**Clock gate.** Wake fired on the SUMMER cron (`0 17 UTC`) at ~12:05 PM ET — the daylight-saving early ring (~24 min before the 1:00 PM ET slot). `market_clock.py --slot midday` returned `status:EARLY, wait_seconds:1462`. Held via `--wait` to 18:00 UTC = 1:00 PM ET, then `--claim --owner midday` → `CLAIMED` (2026-11-19, owner midday, no prior claim; stamp in `memory/slot-stamp.json`). Alpaca `/v2/clock` `is_open:true` (13:00 ET, next_close 16:00 ET). Did NOT shift the cron. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox **no Pending**; Astra **no proposals**. (Note: the first `--wait` background run was killed at the 30-min bg limit before the wait elapsed; re-armed and it claimed cleanly at 18:00 UTC.)
+
+**Live re-verification (1:00 PM ET).** Account equity $95,540.99, cash $10,495.23 (10.99%), last_equity (11/18 close) $96,436.86 → intraday **−$895.87 / −0.93%** (loss cap −3% far off). Positions:
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| FERG | 44 | 250.12 | 248.63 | −0.60% | 10,939.72 | HARD 232.61 |
+| NOC | 18 | 544.37 | 543.16 | −0.22% | 9,776.88 | HARD 506.26 |
+| PG | 65 | 148.06 | 168.26 | +13.64% | 10,936.90 | TRAIL 156.231 |
+| RSG | 44 | 218.00 | 246.37 | +13.01% | 10,840.28 | TRAIL 231.111 |
+| SPY | 59 | 759.746 | 721.23 | −5.07% | 42,552.57 | NONE (index) |
+
+Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`). SPY 59 sh unencumbered.
+
+**Benchmark.** SPY today −1.25% (730.33→721.23); ours −0.93% → **intraday alpha +0.32 pp (BEATING today)** — a reversal from the open where we lagged the +1.2% bounce. The bounce round-tripped: SPY went from +1.18% at 9:34 ET to −1.25% by 1:00 PM ET. WTD: ours −2.85% vs SPY −4.38% → **week alpha +1.53 pp (still beating)**, lead widened from +0.31 at the open.
+
+**Risk (Risk voice):**
+- (a) Any position ≤−7% un-stopped? **NO.** Worst non-index is FERG −0.60%; NOC −0.22%. SPY −5.07% is the index sleeve (deliberate no-stop). Nothing near −7% → no discretionary sell, no Perplexity news check triggered.
+- (b) Any +5%+ needing hard→trailing conversion? **NO.** The two hard-stop names (FERG −0.60%, NOC −0.22%) are below +5% (FERG convert ~$267.63; NOC ~$571.59). PG/RSG already trailing, floors ratchet automatically.
+- (c) Daily loss cap: intraday −0.93% — NOT breached. New buys would be allowed, but none qualify.
+- (d) Sell signals? NONE. All four theses INTACT.
+
+**SPY sweep (Trader voice).** `spy_floor.py --equity 95540.99 --cash 10495.23 --spy-price 721.23 --spy-shares 59 --stock-market-value 42493.78` → `action:none` ("Cash is already within one SPY share of the cushion. Nothing to sweep."). spy_target_pct 45.06, held 59 sh ≈ $42,553 — on target. No SPY order. Cash $495 above the $10k cushion = less than one share, as the open handoff predicted.
+
+**New buys.** NONE. Midday originates a buy only on a high-conviction BREAKING catalyst AND weekly buys <3 AND positions <5. Weekly buys 1/3, sleeve 4/5 (one open slot) — room exists, but no breaking catalyst surfaced and nothing clears the ≥70 gate. PANW stays watch-only (~63). ADSK (B+ 72) stays DEFERRED behind its own 11/24 earnings. **PG Investor Day lands 2:00 PM ET today** — a catalyst for a HELD name, not a buy trigger; handled by the trailing stop, don't pre-trade. Research proposed nothing new; Trader placed nothing.
+
+**Decision: STEADY — no orders this run.** Memory snapshot updated; not a Telegram push event (quiet midday). Daily scorecard owned by the 3:00 PM CT close.
+
+**Handoff → market-close (Thu 2026-11-19, winter cron `0 21 UTC`; summer `0 20` rings early → `--wait` holds to 4:00 PM ET):**
+- Clock gate first: `market_clock.py --slot market-close --wait --claim --owner market-close`; the close is not the close while Alpaca `next_close` >20 min away.
+- **MANDATORY daily "How we're doing" message + Telegram push** — never skipped.
+- Re-verify live: account/positions/open-orders/clock; confirm exactly 4 open orders unchanged; daily loss-cap.
+- **PG Investor Day 2:00 PM ET** may move PG into the close — PG +13.6% on a trailing floor 156.231; an up readout ratchets the floor, a disappointment trails out. Watch but don't pre-trade. **FERG** convert at +5% (~$267.63), **NOC** at +5% (~$571.59); PG/RSG trail automatically.
+- Watch whether the faded bounce extends into a sharper risk-off (SPY round-tripped today) — monitor FERG doesn't knife below 232.61 and the loss cap into the close.
+- SPY sweep at close (if market still open and cash > cushion): expect `action:none` unless a stop fires intraday and frees cash — then sweep same day.
