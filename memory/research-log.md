@@ -15551,3 +15551,31 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 - **PG Investor Day 2:00 PM ET** may move PG into the close — PG +13.6% on a trailing floor 156.231; an up readout ratchets the floor, a disappointment trails out. Watch but don't pre-trade. **FERG** convert at +5% (~$267.63), **NOC** at +5% (~$571.59); PG/RSG trail automatically.
 - Watch whether the faded bounce extends into a sharper risk-off (SPY round-tripped today) — monitor FERG doesn't knife below 232.61 and the loss cap into the close.
 - SPY sweep at close (if market still open and cash > cushion): expect `action:none` unless a stop fires intraday and frees cash — then sweep same day.
+
+### 2026-11-19 · Day summary (MARKET-CLOSE)
+**Clock:** summer cron `0 20 UTC` rang 3:02 PM ET (~58 min early, daylight-saving miss); `market_clock.py --slot market-close --wait` held to 21:00 UTC = 4:00 PM ET (status DUE, "0 min after the bell"), `--claim --owner market-close` → CLAIMED (no prior claim today). Alpaca `/v2/clock` is_open=false (bell rang 16:00 ET, next_open 11/20 09:30) → genuine close. (Note: the auto-backgrounded `--wait` would have been killed at the 30-min bg limit, so it was re-launched as an explicit 65-min background command that slept the full ~54 min and claimed cleanly at 21:00 UTC.) Inbox no Pending; Astra no proposals.
+
+**Closing numbers:**
+- Close equity **$95,086.86** · cash $10,495.23 (11.04%) · long_mv $84,591.63.
+- **Day P/L −$1,350.00 / −1.40%** (base 11/18 close $96,436.86 = Alpaca `last_equity`).
+- **SPY day −1.98%** (daily-bar close 730.33 → 715.84). **Day alpha +0.58 pp** (we beat the market today).
+- **Week-to-date (from Fri 11/13 close $98,340.65): −3.31% / −$3,253.79.** SPY week −5.10% (754.27 → 715.84). **Week alpha +1.79 pp — beating the market WTD** (lead widened from +1.53 at midday).
+
+**Close marks:** FERG 44 @ 247.39 (−1.09%, mv 10,885.16); NOC 18 @ 542.31 (−0.38%, mv 9,761.58); PG 65 @ 167.94 (+13.43%, mv 10,916.10); RSG 44 @ 246.49 (+13.07%, mv 10,845.56); SPY 59 @ 714.97 Alpaca mark / 715.84 official close (−5.89%, mv 42,183.23). Open orders verified **exactly 4** (FERG hard 232.61, NOC hard 506.26, RSG trail 231.111, PG trail 156.231); SPY unencumbered. Closed-orders for 2026-11-19 = 0.
+
+**Trades today:** NONE at open, midday, or close. No buys (nothing cleared 2 signals AND ≥70; no breaking catalyst), no sells (no −7% breach, no broken thesis), no hard→trailing conversions (neither hard-stop name +5%). SPY sweep: market closed at the close run → no sweep; cash also within one share of the cushion.
+
+**Voices:**
+- **Research:** no new candidate cleared the gate all day; all four theses intact. PG Investor Day (2:00 PM ET) was a non-event for the stock (closed flat, +13.43%) — no ratchet, no trail-out. ADSK deferred to its 11/24 earnings fence; PANW watch-only (~63).
+- **Risk:** all stops healthy, exactly 4 open orders, SPY unencumbered by design. Day −1.40% leaves the full −3% loss-cap buffer. Largest non-index name PG 11.48% (< 20% cap). No +5% hard→trailing conversion due (FERG −1.09%, NOC −0.38%).
+- **Trader:** no order (nothing cleared Research; sweep n/a market-closed). 4 open orders unchanged, none fired.
+
+**What worked:** our defensive mix + ~11% cash is exactly why we closed −1.40% while SPY dropped −1.98% — PG and RSG (both ~+13%) barely moved while the index slid, so we flipped from lagging the open bounce to beating the market on the day (+0.58 pp). Week-to-date we're +1.79 pp ahead and the lead keeps widening as SPY bleeds (754→716 this week, five down sessions in six).
+**What didn't:** the SPY sleeve itself (−5.89% unrealized) keeps dragging mark-to-market — it's ~44% of the book and it IS the benchmark, so on a down-market day it pulls our equity with it; that's the deliberate cost of owning the floor. FERG gave back day-2 (−1.09%) on the broad slide, but it's nowhere near its 232.61 stop and the thesis is intact.
+
+**Open questions for tomorrow (Fri 11/20 — weekly-review day):**
+- Does the five-in-six SPY slide find a base, or extend toward a sharper risk-off that pressures the loss cap? Watch FERG's 232.61 and the SPY mark.
+- One open conviction slot: is there a non-defensive, Conviction ≥70, 2-signal gate-clearer at a clean entry? Nothing qualified this week yet.
+- Weekly review owns the full-week scorecard + Telegram; week alpha is the headline (+1.79 pp and widening).
+
+**Handoff → pre-market (Fri 2026-11-20):** clock gate first; re-verify 4 open orders + SPY unencumbered + loss cap; Fri is also weekly-review day; FERG convert at +5% (~$267.63), NOC at +5% (~$571.59); SPY sweep expect action:none unless a stop frees cash.

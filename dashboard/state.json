@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-11-19 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-11-19 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 95540.99,
+  "equity": 95086.86,
   "cash": 10495.23,
-  "day_pl": -895.87,
-  "day_pl_pct": -0.93,
-  "week_pl_pct": -2.85,
-  "spy_week_pct": -4.38,
-  "alpha_week_pct": 1.53,
+  "day_pl": -1350.00,
+  "day_pl_pct": -1.40,
+  "week_pl_pct": -3.31,
+  "spy_week_pct": -5.10,
+  "alpha_week_pct": 1.79,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "current": 248.63,
-      "pl_pct": -0.60,
+      "current": 247.39,
+      "pl_pct": -1.09,
       "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 543.16,
-      "pl_pct": -0.22,
+      "current": 542.31,
+      "pl_pct": -0.38,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 168.26,
-      "pl_pct": 13.64,
+      "current": 167.94,
+      "pl_pct": 13.43,
       "stop": 156.231
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 246.37,
-      "pl_pct": 13.01,
+      "current": 246.49,
+      "pl_pct": 13.07,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
-      "avg_cost": 759.75,
-      "current": 721.23,
-      "pl_pct": -5.07,
+      "avg_cost": 759.746,
+      "current": 714.97,
+      "pl_pct": -5.89,
       "stop": null
     }
   ],
@@ -125,6 +125,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-19 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $95,087 · day −1.40% · SPY −1.98% · alpha +0.58% (beating market +1.79% this week)",
+      "body": "A down day for everyone — the S&P 500 fell ~2% (fifth down day in six). We fell only −1.40%, so we beat the market today (+0.58 pts) and widened our week lead to +1.79 pts. No trades at open, midday, or close — nothing needed changing. PG and RSG (both ~+13%) barely budged while the index slid; ~11% cash cushions the drop. PG's Investor Day was a non-event for the stock. All 4 safety-net orders resting, none triggered. Tomorrow is Friday — the weekly review."
+    },
+    {
       "ts": "2026-11-19 12:00 CT",
       "routine": "midday",
       "headline": "Midday: steady, no changes — morning bounce faded, but we're beating the market on a down day",
@@ -165,12 +171,6 @@
       "routine": "market-close",
       "headline": "Close: equity $96,868 · day −0.66% · SPY −1.03% · alpha +0.37%",
       "body": "Down day for the market; we lost less, so we beat it. No trades — holding steady."
-    },
-    {
-      "ts": "2026-11-17 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady — no changes, calmer mix on a red market day",
-      "body": "Nothing to change; our defensive names held up better than the index on a risk-off tape."
     }
   ]
 }
