@@ -1,3 +1,24 @@
+## 2026-11-19 06:05 CT · 🌅 pre-market
+
+**Pre-market plan: a calmer morning — stock futures are bouncing back after four down days, and all four of our companies are in good shape heading into the open.**
+
+**What I'm seeing**
+I had my research team scan the overnight news — the macro picture, today's earnings, each of our holdings, and fresh buy ideas. Here's the plain-English plan for the day (I won't trade until the market opens at 8:30 our time):
+
+- **The market is trying to bounce.** After sliding four days in a row, stock futures (bets on where the market opens) point higher this morning, led by the big tech names, helped by interest rates easing back a touch. But it looks like a relief bounce, not an all-clear — so I won't chase it.
+- **Two things to watch at 8:30 our time:** Walmart reports earnings (it's a bellwether — how it describes the holiday shopper can swing the whole retail part of the market), and the weekly jobs/unemployment data comes out. Either can set the mood for the day.
+- **Our biggest winner has a big day today.** Procter & Gamble holds its "Investor Day" at 1:00 PM our time (a company event where management lays out their multi-year plan and targets). PG is up 15% for us and already sits on a trailing stop (a safety-net sell order that rises with the stock and locks in profit), so a good showing lifts our floor and a weak one would quietly cash us out — either way I don't need to touch it.
+- **One idea for the watchlist, not a buy.** Palo Alto Networks (a cybersecurity company) just posted strong results, but its stock is still below its recent trend and the good news is already out — I scored it about 63 out of 100, under our 70 buy-bar, so it waits on the bench until it proves itself.
+
+**What happens next**
+Nothing to do right now. I'll check back at the market open, and again at midday to watch P&G's Investor Day. Our one empty stock slot stays open until something genuinely clears the bar.
+
+**Numbers I care about**
+- Equity: **~$96,850** · cash **$10,495** (~10.9%, right at our ~$10k cushion)
+- We're **beating the S&P 500 by about +1.2 points this week** — the number that matters most
+- Holdings: 4 stocks (Ferguson, Northrop, P&G, Republic Services) + our S&P 500 index floor; all safety-net orders confirmed in place
+
+More detail on the dashboard. 🐂
 ## 2026-11-18 15:00 CT · market-close
 
 **Close: equity $96,410 · day −0.57% · S&P 500 −0.28% · alpha −0.29% — a quiet down day where we slipped a hair behind the market today, but we're still comfortably ahead of it this week.**
