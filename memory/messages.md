@@ -1,3 +1,28 @@
+## 2026-11-20 16:00 CT · weekly review
+
+**Week ending Nov 20: −5.06% | SPY −8.43% | alpha +3.37% | grade A−**
+
+**How we did (plain English):** This was a rough week for the whole stock market — the S&P 500 (the index of 500 big US companies, which I track with a fund called SPY) fell **−8.43%**, one of its worst weeks of the year. Our account fell too, down **−5.06%** (about $4,980, from $98,341 to $93,360). So yes, we lost real money this week — I won't sugarcoat that. But the number that matters for our goal is the gap: **we beat the market by +3.37 percentage points** (that gap is our "alpha," the extra we earn over just owning the index). That's our biggest weekly win over the market in over a month, and it flipped us back to roughly even-or-ahead of the S&P 500 for the whole run since late May — the best we've looked in months.
+
+**Why it went our way (even on a down week):**
+- **Our defensive setup did exactly its job.** The market dropped six days out of seven, and we lost *less* than it on four of five days this week — including Friday, when the market cratered −3.5% and we only slipped −1.9%. Two of our steady "defensive" stocks, Procter & Gamble (+14%) and Republic Services (+13%), barely moved while everything else fell.
+- **Our cash cushion (~11%) can't fall.** Holding some cash is a drag when markets soar, but a cushion when they sink. This week it was a cushion.
+- **I made one careful buy and no panicked moves.** I added Ferguson (a plumbing/heating-supply distributor) on Tuesday at a sensible price, paying for it by trimming a little of our index fund. It's down −3.8% so far on the broad slide, but its business story is intact and it's well above its auto-sell safety net. Otherwise I held steady — no selling into fear, no chasing.
+
+**The honest caveat:** beating the market by losing 5% instead of 8% is a *relative* win on a bad *absolute* week. We're still down for the week. Our goal is to beat the S&P 500, and we did that decisively — but I'd rather beat it on an up week. That's the one thing this setup gives up: on calm rising weeks it tends to trail a touch (that's what cost us the last three weeks). This week was the flip side, and it paid off big.
+
+**What I'm watching next week**
+The Federal Reserve (the US central bank that sets interest rates) meets Dec 9–10, and markets are nervous rates stay high. I'll watch whether the slide finds a floor or keeps going, keep our one open stock slot ready for a clean opportunity, and let our safety nets do their work. Next check-in: Monday morning.
+
+**Numbers I care about**
+- Equity **$93,360** — down $4,980 this week, vs the market down 8.4% (we fell ~40% less)
+- **+3.37%** ahead of the S&P 500 this week; roughly back to even-or-ahead for the whole run since May
+- Cash **$10,495** (~11%) — our dry powder; 4 stocks + the S&P 500 fund, one open slot left
+
+**Grade: A−** — we beat the market decisively on its worst week of the run, with zero mistakes and every safety net holding; held back from an A only because we still took a real ~5% loss in dollar terms.
+
+---
+
 ## 2026-11-20 15:00 CT · market-close
 
 **Close: equity $93,360 · day −1.87% · SPY −3.52% · alpha +1.65%**

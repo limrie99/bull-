@@ -1,14 +1,15 @@
 {
-  "last_update": "2026-11-20 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-11-20 16:00 CT",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 93360.13,
   "cash": 10495.23,
   "day_pl": -1773.98,
   "day_pl_pct": -1.87,
-  "week_pl_pct": -5.07,
+  "week_pl_pct": -5.06,
   "spy_week_pct": -8.43,
   "alpha_week_pct": 3.37,
+  "week_grade": "A-",
   "positions": [
     { "symbol": "FERG", "qty": 44, "avg_cost": 250.12, "current": 240.620, "pl_pct": -3.80, "stop": 232.61 },
     { "symbol": "NOC", "qty": 18, "avg_cost": 544.37, "current": 534.310, "pl_pct": -1.85, "stop": 506.26 },
@@ -29,6 +30,12 @@
     { "date": "2026-10-23 08:40", "side": "BUY", "symbol": "NOC", "qty": 18, "price": 544.37 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-11-20 16:00 CT",
+      "routine": "weekly-review",
+      "headline": "Week ending Nov 20: -5.06% vs SPY -8.43% — alpha +3.37 pp, grade A-",
+      "body": "A decisive win on the market's worst week of the run: the S&P 500 fell -8.43% (six red days in seven), we fell only -5.06%, so we beat the market by +3.37 points — our biggest weekly beat in over a month. That's the defensive setup doing exactly its job: PG (+14%) and RSG (+13%) barely moved, our ~11% cash can't fall, and we out-defended the market on four of five days including Friday's -3.5% rout. One careful buy (Ferguson, funded by trimming the index fund); no sells, no stops fired, zero mistakes. Honest caveat: it's still a real ~$4,980 loss in dollars — a strong *relative* win on a bad *absolute* week. This beat flipped us back to roughly even-or-ahead of the market for the whole run since May, the best in months. No strategy changes. Watching the Dec 9-10 Fed meeting."
+    },
     {
       "ts": "2026-11-20 15:00 CT",
       "routine": "market-close",
