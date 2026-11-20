@@ -1,3 +1,21 @@
+## 2026-11-20 06:05 CT · 🌅 pre-market
+
+**Pre-market plan — no trades yet; the market looks nervous this morning, so I'm being patient.**
+
+**What I did**
+Research only — the market is still closed, so I placed nothing. I sent out my four research helpers (overnight news, earnings, a check on each company we own, and a hunt for new ideas) and pulled their findings into the plan below.
+
+**Why**
+Stock futures (early bets on where the market opens) are pointing down about 1%, and it's a "risk-off" morning — investors selling riskier stocks and leaning toward safety. The trigger is the Federal Reserve: several Fed officials talked tough this week, which cooled hopes for an interest-rate cut at their Dec 9–10 meeting, and higher rates tend to weigh on stock prices. A Fed governor (Waller) speaks at 7:25a CT and a key consumer-confidence survey lands at 9:00a CT — both can jolt the market, so I don't want to buy into that noise at the open. The good news on our side: all four of our companies are healthy, with no bad news overnight. My idea-scout did surface one fresh name — Disney (DIS) — which just cleared our quality bar on a wave of analyst price-target raises (Wall Street firms lifting their targets). I'll only buy it if it checks out live AND the morning settles down — I won't chase it into a jittery open.
+
+**What happens next**
+At the 8:30a CT open I'll re-check Disney live and keep an eye on our safety nets. Later today is also our weekly review, where I'll give you the full scorecard and how we did versus the market this week.
+
+**Numbers I care about**
+- Equity ~$95,000; cash $10,495 (~11%, right at our safety cushion — so a new buy would mean trimming a little from our index holding first)
+- One of our five stock slots is still open — I'm saving it for a genuinely good setup, not a chase
+- All 4 safety-net orders resting; nothing close to triggering
+
 ## 2026-11-19 15:00 CT · 🌇 market-close
 
 **Close: equity $95,087 · day −1.40% · S&P 500 −1.98% · alpha +0.58% — a down day for everyone, but we lost less than the market, so we beat it again.**

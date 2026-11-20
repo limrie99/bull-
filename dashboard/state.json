@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-11-19 15:00 CT",
-  "last_routine": "market-close",
+  "last_update": "2026-11-20 06:05 CT",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 95086.86,
+  "equity": 95003.96,
   "cash": 10495.23,
-  "day_pl": -1350.00,
-  "day_pl_pct": -1.40,
+  "day_pl": -130.15,
+  "day_pl_pct": -0.14,
   "week_pl_pct": -3.31,
   "spy_week_pct": -5.10,
   "alpha_week_pct": 1.79,
@@ -22,16 +22,16 @@
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 542.31,
-      "pl_pct": -0.38,
+      "current": 543.0,
+      "pl_pct": -0.25,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 167.94,
-      "pl_pct": 13.43,
+      "current": 169.95,
+      "pl_pct": 14.79,
       "stop": 156.231
     },
     {
@@ -46,8 +46,8 @@
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 714.97,
-      "pl_pct": -5.89,
+      "current": 711.14,
+      "pl_pct": -6.40,
       "stop": null
     }
   ],
@@ -125,6 +125,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-20 06:05 CT",
+      "routine": "pre-market",
+      "headline": "Pre-market plan · no trades · risk-off morning · all 4 holdings healthy · 1 new idea (Disney) to verify",
+      "body": "Research only — market closed, no trades. Futures down ~1% on a 'risk-off' morning: tough Fed talk cooled hopes for a December rate cut, so I won't chase a jittery open. All 4 companies we own are healthy, no bad overnight news. My scout flagged one fresh name — Disney (DIS) — that just cleared our 70 quality bar on a wave of analyst target raises; I'll only buy it if it verifies live AND the tape settles. One stock slot stays open. Cash $10,495 (~11%, at cushion). Weekly review comes later today."
+    },
+    {
       "ts": "2026-11-19 15:00 CT",
       "routine": "market-close",
       "headline": "Close: equity $95,087 · day −1.40% · SPY −1.98% · alpha +0.58% (beating market +1.79% this week)",
@@ -165,12 +171,6 @@
       "routine": "market-open",
       "headline": "Open: Bought Ferguson (FERG) — a building-supplies company; our 4th stock",
       "body": "Bought 44 FERG @ $250.12 with a −7% safety net, funded by trimming 15 SPY. Beat+raise plus onshoring/data-center demand — 2 signals, Conviction cleared."
-    },
-    {
-      "ts": "2026-11-17 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $96,868 · day −0.66% · SPY −1.03% · alpha +0.37%",
-      "body": "Down day for the market; we lost less, so we beat it. No trades — holding steady."
     }
   ]
 }
