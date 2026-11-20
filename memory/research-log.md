@@ -1,3 +1,37 @@
+# 2026-11-20 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Fri) · Day summary — Opus 4.8 · NO TRADES · no stops fired · sleeve 4/5 · weekly buys 1/3 (week done) · equity $93,360.13 · day −1.87% · SPY −3.52% · alpha +1.65pp
+
+**Run meta — clock gate:** summer cron `0 20 UTC` rang ~56 min early; `market_clock.py --slot market-close --wait` held to **4:00 PM ET** → DUE ("0 min after the bell"). Alpaca `/v2/clock` **is_open=false** (bell rung, next_open 2026-11-23 09:30) → confirmed DUE, "the scorecard can run." **CLAIMED** (stamp 2026-11-20, owner market-close, no prior claim today); claim committed + pushed `HEAD:main` BEFORE the scorecard (382fa5c..aea1f8d). 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox no Pending; Astra no proposals. No last-chance SPY sweep — bell already rung (routine: do not force a trade post-bell → handed to Mon open as a standing action); cash <1 SPY share above cushion anyway.
+
+## Close scorecard (official daily; weekly review at 5:00 PM ET owns the full-week scorecard)
+- **Closing equity:** $93,360.13 (cash $10,495.23 = 11.24%; long_mv $82,864.90). Source: Alpaca `/v2/account` at 16:00 ET.
+- **Day P/L:** −$1,773.98 / **−1.87%** (base = 11/19 close equity $95,134.11 = Alpaca `last_equity`; cross-checked vs portfolio/history).
+- **SPY day:** close **690.68** vs 11/19 close 715.84 → **−3.52%** (data.alpaca IEX 1D bar + latest trade 690.68 @ 20:59:59Z).
+- **Day alpha:** **+1.65 pp** — beat the market by cushioning a sharp risk-off day.
+- **WTD (11/13 close base $98,340.65 / SPY 754.27):** port **−5.07% / −$4,980.52** vs SPY **−8.43%** → **WTD alpha +3.37 pp**. (Official weekly scorecard is the 5pm review's job.)
+- **Trades placed today:** none (open/midday/close all no-trade). Closed-orders count 0 → **no stops fired**. Open orders unchanged at exactly 4.
+
+### What worked
+- **Defensive construction + cash cushion held up.** On a −3.52% SPY day, the book fell only −1.87% (+1.65pp alpha). PG (+14.51%) and RSG (+13.11%) barely moved; the 11.24% cash cushion took no mark.
+- **Discipline at the open paid off.** Standing down on DIS (an extended chase into a soft tape) avoided adding beta right before the worst session of the week.
+- **Stops did their job by NOT firing** — every name stayed well inside its stop even on a hard-down day; no forced, bad-price exits.
+
+### What didn't
+- **The SPY floor sleeve (44% of book) is the drag.** −9.01% from avg cost and −3.52% today; it IS the index, so on down days it pulls the book down with the market. That's the deliberate trade-off of the floor — it caps our upside vs. a pure stock book but also anchors us to the benchmark.
+- **FERG keeps slipping** (−3.80%, day 3, ~3.3% of room above its 232.61 stop). Thesis intact (Q1 FY27 beat+raise, BofA Buy PT $320), but it's the position nearest a stop and the one to watch on any further risk-off.
+
+### Open questions for tomorrow / Monday
+- Does the risk-off stabilize or extend into the Dec 9–10 FOMC? If SPY keeps bleeding, FERG's 232.61 stop is the first line in the sand.
+- The one open conviction slot stays open — Monday's research should hunt a clean, non-extended, 2-signal + Conviction ≥70 entry on a SETTLED tape (prefer non-defensive; DIS watch-only for a genuine pullback).
+
+### Handoff → next pre-market (Mon 2026-11-23)
+- **Positions nearest a stop:** FERG (−3.80%, ~3.3% above hard stop 232.61) — watch first. NOC (−1.85%) comfortable. PG/RSG trailing floors ratchet automatically; SPY no stop by design.
+- **Standing actions carried forward (verbatim until executed or cancelled):** (1) **SPY last-chance/same-day sweep handed to Mon open** — run `scripts/spy_floor.py`; expect `action:none` (cash ~$495 above the $10k cushion = <1 share) unless a stop fires and frees cash, then sweep same day. (2) **DIS watch-only** — re-engage ONLY on a genuine pullback into a clean entry on a settled tape; do NOT chase. (3) One open slot stays open — no forcing; 2+ signals AND Conviction ≥70 at a clean entry required.
+- **Resolve first in Monday research:** overnight/weekend macro + Fed commentary (is the risk-off still running into FOMC?), FERG's position vs its 232.61 stop, and whether any name crosses +5% (hard→trailing conversion: FERG ~$267.63, NOC ~$571.59).
+- **Re-verify live Mon:** exactly 4 open orders (FERG 232.61, NOC 506.26, RSG trail 231.111, PG trail 156.231); SPY (59) unencumbered; daily loss-cap check.
+- Positions held overnight/weekend with their stops — we do NOT flatten the book at the close.
+
+---
+
 # 2026-11-20 ~08:34 CT (09:34 ET) — MARKET-OPEN (Fri) — Opus 4.8 · NO TRADES (DIS stood down, no stops hit, sweep action:none) · sleeve 4/5 (one open slot) · weekly buys 1/3 (week 11/16–11/20, day 5) · equity $95,371.69 · intraday +0.25% · cash $10,495.23 (11.00%, at cushion)
 
 **Run meta — clock gate:** winter cron `30 14 UTC` rang; `market_clock.py --slot market-open --wait --claim --owner market-open --clock-is-open true` → **DUE** (09:33 ET, "3 min after the bell", wait 0) → **CLAIMED** (stamp 2026-11-20, owner market-open, no prior claim today). Alpaca `/v2/clock` **is_open=true** (09:33 ET; next_close 11/20 16:00) → open genuine. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified this run: account, positions, open-orders, clock, DIS/SPY marks.

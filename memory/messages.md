@@ -1,3 +1,25 @@
+## 2026-11-20 15:00 CT · market-close
+
+**Close: equity $93,360 · day −1.87% · SPY −3.52% · alpha +1.65%**
+
+**How we're doing (plain English):** We had a down day — the account slipped about $1,774 (−1.87%) to $93,360. But here's the important part: the overall US stock market (the S&P 500, which I track with a fund called SPY) fell a lot harder today, −3.52%. So even on a red day, **we beat the market by about 1.65 percentage points** — that gap is our "alpha" (the extra return we earn over simply owning the index). And on the week so far, we're down about 5% while the market is down 8.4% — we're losing, but losing noticeably less.
+
+**What I did**
+Nothing — no buys, no sells, no changes to our safety nets. It was a quiet, deliberate hold through a rough day for stocks.
+
+**Why**
+This is exactly what a defensive setup is built for. Two of our stocks — Procter & Gamble (+14.5%) and Republic Services (+13.1%) — are "defensive" names (steady businesses people use no matter what the economy does), so they barely budged while the market sold off. We also kept about 11% of the account in cash, which simply can't fall. The market's been sliding all week on worries the Federal Reserve (the US central bank that sets interest rates) will keep rates high longer than hoped. On days like this, not losing much IS winning.
+
+**What happens next**
+Our automatic "stop-loss" safety nets (orders that sell a stock by themselves if it falls too far, to cap a loss) are all in place and none were triggered today. I'm watching Ferguson (our newest stock, −3.8%) most closely — it's the one nearest its safety net. Next check-in is the weekly review at 4:00 PM Central today, then Monday morning.
+
+**Numbers I care about**
+- Equity $93,360 — down $1,774 today, but the market fell twice as hard
+- Cash $10,495 (about 11% of the account — our dry powder for the next good opportunity)
+- 4 stocks + our S&P 500 fund; one open slot left for a 5th stock when a clean one appears
+
+---
+
 ## 2026-11-20 12:00 CT · midday
 
 **Midday: steady — no changes, and we're still beating the market.**

@@ -1,20 +1,20 @@
 {
-  "last_update": "2026-11-20 12:00 CT",
-  "last_routine": "midday",
+  "last_update": "2026-11-20 15:00 CT",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 94326.16,
+  "equity": 93360.13,
   "cash": 10495.23,
-  "day_pl": -807.95,
-  "day_pl_pct": -0.85,
-  "week_pl_pct": -4.08,
-  "spy_week_pct": -7.18,
-  "alpha_week_pct": 3.10,
+  "day_pl": -1773.98,
+  "day_pl_pct": -1.87,
+  "week_pl_pct": -5.07,
+  "spy_week_pct": -8.43,
+  "alpha_week_pct": 3.37,
   "positions": [
-    { "symbol": "FERG", "qty": 44, "avg_cost": 250.12, "current": 243.695, "pl_pct": -2.57, "stop": 232.61 },
-    { "symbol": "NOC", "qty": 18, "avg_cost": 544.37, "current": 540.405, "pl_pct": -0.73, "stop": 506.26 },
-    { "symbol": "PG", "qty": 65, "avg_cost": 148.06, "current": 170.055, "pl_pct": 14.85, "stop": 156.231 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 249.370, "pl_pct": 14.39, "stop": 231.111 },
-    { "symbol": "SPY", "qty": 59, "avg_cost": 759.746, "current": 700.390, "pl_pct": -7.81, "stop": null }
+    { "symbol": "FERG", "qty": 44, "avg_cost": 250.12, "current": 240.620, "pl_pct": -3.80, "stop": 232.61 },
+    { "symbol": "NOC", "qty": 18, "avg_cost": 544.37, "current": 534.310, "pl_pct": -1.85, "stop": 506.26 },
+    { "symbol": "PG", "qty": 65, "avg_cost": 148.06, "current": 169.545, "pl_pct": 14.51, "stop": 156.231 },
+    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 246.590, "pl_pct": 13.11, "stop": 231.111 },
+    { "symbol": "SPY", "qty": 59, "avg_cost": 759.746, "current": 691.280, "pl_pct": -9.01, "stop": null }
   ],
   "recent_trades": [
     { "date": "2026-11-18 08:37", "side": "BUY", "symbol": "FERG", "qty": 44, "price": 250.12 },
@@ -29,6 +29,12 @@
     { "date": "2026-10-23 08:40", "side": "BUY", "symbol": "NOC", "qty": 18, "price": 544.37 }
   ],
   "latest_messages": [
+    {
+      "ts": "2026-11-20 15:00 CT",
+      "routine": "market-close",
+      "headline": "Close: equity $93,360 · day -1.87% vs SPY -3.52% · alpha +1.65%",
+      "body": "Down day, but we beat a sharp selloff: the market fell -3.52% and we fell only -1.87%. No trades, no stops fired. Defensive names PG (+14.5%) and RSG (+13.1%) plus ~11% cash cushioned the drop. Week-to-date we're down 5.1% vs the market's 8.4% — alpha +3.37 pp. Watching FERG (-3.8%), our name nearest its safety net. Weekly review at 4pm CT owns the full-week scorecard."
+    },
     {
       "ts": "2026-11-20 12:00 CT",
       "routine": "midday",
