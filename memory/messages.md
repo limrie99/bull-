@@ -1,3 +1,20 @@
+## 2026-11-20 12:00 CT · midday
+
+**Midday: steady — no changes, and we're still beating the market.**
+
+**What I did**
+Nothing to trade — I checked every position and left all four stocks and our S&P 500 index fund (SPY, a single fund that owns the whole market) exactly as they were. No buying, no selling, no adjusting our safety nets.
+
+**Why**
+A quiet midday is a good midday. Our two big winners, Procter & Gamble (+14.9%) and Republic Services (+14.4%), are both protected by a "trailing stop" (an automatic sell order that rises with the price to lock in gains). Ferguson is down a touch (−2.6%) but nowhere near its safety net, and its story hasn't changed. I only act at midday if something is breaking — a stock cratering past its stop or a brand-new catalyst worth chasing — and neither happened. I also checked whether to park spare cash into the index, but we're already right at our ~$10,000 cash cushion, so there was nothing to sweep.
+
+**What happens next**
+The market has been sliding all week, but our defensive mix is softening the blow. The 3:00 PM close message and today's weekly review (Friday) will have the full scorecard.
+
+**Numbers**
+- Equity $94,326 — down just 0.85% today while the S&P 500 fell about 2.2%, so we're ahead by ~1.4% on the day ("alpha," our edge over the market)
+- This week we're down ~4.1% vs. the market's ~7.2% — a widening lead
+- $10,495 cash (about 11% of the account), right at our safety cushion
 ## 2026-11-20 08:34 CT · 🔔 market-open
 
 **Open: no trades — I passed on Disney because it ran up too fast to buy well.**

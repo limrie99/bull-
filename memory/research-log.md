@@ -15660,3 +15660,40 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 - Weekly review owns the full-week scorecard + Telegram; week alpha is the headline (+1.79 pp and widening).
 
 **Handoff → pre-market (Fri 2026-11-20):** clock gate first; re-verify 4 open orders + SPY unencumbered + loss cap; Fri is also weekly-review day; FERG convert at +5% (~$267.63), NOC at +5% (~$571.59); SPY sweep expect action:none unless a stop frees cash.
+
+### 2026-11-20 · Midday note (MIDDAY routine, 1:00 PM ET / 12:00 PM CT)
+
+**Clock:** summer cron `0 17 UTC` rang 12:00 PM ET (~60 min early, daylight-saving miss); `market_clock.py --slot midday --wait` held to 18:00 UTC = 1:00 PM ET (status DUE, "0 min after the bell"). Alpaca `/v2/clock` is_open=true (13:00 ET, next_close 16:00) → open genuine; `--clock-is-open true` confirmed DUE. `--claim --owner midday` → CLAIMED (no prior claim today); claim pushed `HEAD:main` before any order. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox **no Pending**; Astra **no proposals** (file still "No proposals yet").
+
+**Live re-verification (1:00 PM ET).** Account equity $94,326.16, cash $10,495.23 (11.13%), last_equity (11/19 close) $95,134.11 → intraday **−$807.95 / −0.85%** (loss cap −3% far off). Positions:
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| FERG | 44 | 250.12 | 243.695 | −2.57% | 10,722.58 | HARD 232.61 |
+| NOC | 18 | 544.37 | 540.405 | −0.73% | 9,727.29 | HARD 506.26 |
+| PG | 65 | 148.06 | 170.055 | +14.85% | 11,053.58 | TRAIL 156.231 |
+| RSG | 44 | 218.00 | 249.370 | +14.39% | 10,972.28 | TRAIL 231.111 |
+| SPY | 59 | 759.746 | 700.390 | −7.81% | 41,323.01 | NONE (index) |
+
+Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`). SPY 59 sh unencumbered.
+
+**Benchmark.** SPY today −2.20% (715.84 close 11/19 → 700.09 last trade 1:01 PM ET); ours −0.85% → **intraday alpha +1.35 pp (BEATING today)** — the defensive book + cash cushion hold up while the index keeps bleeding. WTD (from Fri 11/13 close $98,340.65): ours −4.08% vs SPY −7.18% (754.27 → 700.09) → **week alpha +3.10 pp, lead widened** from +1.79 at Thu close. Official full-week scorecard is the **5:00 PM ET weekly review's** job today.
+
+**Risk (Risk voice):**
+- (a) Any position ≤−7% un-stopped? **NO.** Worst non-index is FERG −2.57%; NOC −0.73%. SPY −7.81% is the index sleeve (deliberate no-stop carve-out). Nothing near the −7% hard → no discretionary sell, no Perplexity 4-hr news check triggered.
+- (b) Any +5%+ needing hard→trailing conversion? **NO.** The two hard-stop names (FERG −2.57%, NOC −0.73%) are below the +5% line (FERG convert ~$267.63; NOC ~$571.59). PG/RSG already trailing, floors ratchet automatically.
+- (c) Daily loss cap: intraday −0.85% — NOT breached. New buys would be allowed, but none qualify.
+- (d) Sell signals? NONE. All four theses INTACT.
+
+**SPY sweep (Trader voice).** `spy_floor.py --equity 94326.16 --cash 10495.23 --spy-price 700.390 --spy-shares 59 --stock-market-value 42475.73` → `action:none` ("Cash is already within one SPY share of the cushion. Nothing to sweep."). spy_target_pct 44.37; cash $495 above the $10k cushion = less than one SPY share (~$700), as the open handoff predicted. No SPY order.
+
+**New buys.** NONE. Midday originates a buy only on a high-conviction BREAKING catalyst AND weekly buys <3 AND positions <5. Weekly buys 1/3, sleeve 4/5 (one open slot) — room exists, but no breaking catalyst surfaced at midday and nothing clears the ≥70 gate on a clean, non-extended entry in a soft tape. DIS stays **watch-only** (stood down at the open as an extended ~+4% chase; re-engage only on a genuine pullback / settled tape). PANW watch-only (~63); ADSK DEFERRED behind its 11/24 earnings. Research proposed nothing new; Trader placed nothing.
+
+**Decision: STEADY — no orders this run.** Memory snapshot updated; NOT a Telegram push event (quiet midday — the close owns the mandatory daily "How we're doing" push). Daily scorecard owned by the 5:00 PM ET weekly review + close today.
+
+**Handoff → market-close / weekly review (Fri 2026-11-20, winter cron `0 21 UTC` for close; weekly review `0 22 UTC` winter; summer `0 20`/`0 21` ring early → `--wait` holds to 4:00/5:00 PM ET):**
+- Clock gate first: `market_clock.py --slot market-close --wait --claim --owner market-close`; the close is not the close while Alpaca `next_close` >20 min away.
+- **MANDATORY daily "How we're doing" message + Telegram push** at the close — never skipped. **Weekly review (5:00 PM ET) owns the official full-week scorecard + its own mandatory Telegram** — week alpha is the headline (+3.10 pp intraday and widening as SPY bleeds 754→700 this week).
+- Re-verify live: account/positions/open-orders/clock; confirm exactly 4 open orders unchanged; daily loss-cap.
+- **FERG** −2.57% day 3 — hold on its hard stop 232.61 (still ~4.6% of room above it); convert to trailing only at +5% (~$267.63). **NOC** −0.73%, convert at +5% (~$571.59). PG/RSG floors ratchet automatically.
+- Watch whether the six-in-seven SPY slide (754→700 this week) finds a base or extends into a sharper risk-off that pressures the loss cap into the close — monitor FERG doesn't knife below 232.61 and the SPY mark.
+- SPY sweep at close (if market still open and cash > cushion): expect `action:none` unless a stop fires intraday and frees cash — then sweep same day.
