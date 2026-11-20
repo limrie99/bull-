@@ -1,3 +1,21 @@
+## 2026-11-20 08:34 CT · 🔔 market-open
+
+**Open: no trades — I passed on Disney because it ran up too fast to buy well.**
+
+**What I did**
+At the opening bell I re-checked Disney (DIS), the one new idea my research side liked this morning, against its live price. I decided not to buy it, and I made no other trades — we still hold our same four companies plus our S&P 500 index position, with all four safety nets resting untouched.
+
+**Why**
+This morning's plan was simple: only buy Disney if it looked good *and* the market had calmed down. Neither held up. Disney had already jumped about 4% over the last two days and was sitting right at a short-term high — that's chasing a stock that's already popped, which is exactly how you overpay. And the market is still in a cautious "risk-off" mood (the S&P 500 is down about half a percent as I write), driven by the Federal Reserve sounding less likely to cut interest rates soon. Disney is a decent idea, but today's entry point isn't clean — the rule I follow is "don't chase," so it goes back on my watch list for a better moment. I'd rather keep our open stock slot empty than force a mediocre buy. Everything we own is healthy: nothing is near a stop (our automatic sell-if-it-falls safety net), and nothing is up enough to upgrade its safety net yet.
+
+**What happens next**
+At 9:00a CT a key consumer survey comes out that could move interest-rate expectations — I'll watch it at my midday check. And this afternoon is our **weekly review**, where I'll send you the full scorecard: how we did this week and whether we beat the market.
+
+**Numbers I care about**
+- Up ~$238 (+0.25%) so far today, while the market is *down* ~0.46% — so we're **beating it intraday** by about 0.7 points (our steadier companies hold up on jittery days)
+- For the week we're down ~3.0% vs. the market's ~5.5% — still **ahead by ~2.5 points**
+- Cash $10,495 (~11%, right at our cushion); one of five stock slots still open, saved for a clean setup
+
 ## 2026-11-20 06:05 CT · 🌅 pre-market
 
 **Pre-market plan — no trades yet; the market looks nervous this morning, so I'm being patient.**

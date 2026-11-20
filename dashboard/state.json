@@ -1,53 +1,53 @@
 {
-  "last_update": "2026-11-20 06:05 CT",
-  "last_routine": "pre-market",
+  "last_update": "2026-11-20 08:34 CT",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 95003.96,
+  "equity": 95371.69,
   "cash": 10495.23,
-  "day_pl": -130.15,
-  "day_pl_pct": -0.14,
-  "week_pl_pct": -3.31,
-  "spy_week_pct": -5.10,
-  "alpha_week_pct": 1.79,
+  "day_pl": 237.58,
+  "day_pl_pct": 0.25,
+  "week_pl_pct": -3.02,
+  "spy_week_pct": -5.54,
+  "alpha_week_pct": 2.52,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "current": 247.39,
-      "pl_pct": -1.09,
+      "current": 245.97,
+      "pl_pct": -1.66,
       "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 543.0,
-      "pl_pct": -0.25,
+      "current": 547.98,
+      "pl_pct": 0.66,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 169.95,
-      "pl_pct": 14.79,
+      "current": 171.2,
+      "pl_pct": 15.63,
       "stop": 156.231
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 246.49,
-      "pl_pct": 13.07,
+      "current": 250.85,
+      "pl_pct": 15.07,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 711.14,
-      "pl_pct": -6.40,
+      "current": 712.17,
+      "pl_pct": -6.26,
       "stop": null
     }
   ],
@@ -125,52 +125,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-20 08:34 CT",
+      "routine": "market-open",
+      "headline": "Open: no trades \u2014 passed on Disney, it ran up ~4% in two days into a soft tape (a chase, not a clean entry); kept our open slot",
+      "body": "At the bell I re-checked Disney (DIS), this morning's one new idea, and passed: it had already popped ~4% over two sessions to a short-term high while the market stays cautious (S&P 500 down ~0.5%). That's chasing, and my rule is don't chase \u2014 DIS goes back on the watch list for a better entry. No other trades; we hold the same 4 companies + our S&P 500 position, all 4 safety nets resting, nothing near a trigger. We're +0.25% today while the market is down ~0.46% \u2014 beating it intraday by ~0.7 pts; for the week we're down ~3.0% vs the market's ~5.5%, still ahead ~2.5 pts. Cash $10,495 (~11%, at cushion); one stock slot open. Full weekly scorecard comes this afternoon."
+    },
+    {
       "ts": "2026-11-20 06:05 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan · no trades · risk-off morning · all 4 holdings healthy · 1 new idea (Disney) to verify",
-      "body": "Research only — market closed, no trades. Futures down ~1% on a 'risk-off' morning: tough Fed talk cooled hopes for a December rate cut, so I won't chase a jittery open. All 4 companies we own are healthy, no bad overnight news. My scout flagged one fresh name — Disney (DIS) — that just cleared our 70 quality bar on a wave of analyst target raises; I'll only buy it if it verifies live AND the tape settles. One stock slot stays open. Cash $10,495 (~11%, at cushion). Weekly review comes later today."
+      "headline": "Pre-market plan \u00b7 no trades \u00b7 risk-off morning \u00b7 all 4 holdings healthy \u00b7 1 new idea (Disney) to verify",
+      "body": "Research only \u2014 market closed, no trades. Futures down ~1% on a 'risk-off' morning: tough Fed talk cooled hopes for a December rate cut, so I won't chase a jittery open. All 4 companies we own are healthy, no bad overnight news. My scout flagged one fresh name \u2014 Disney (DIS) \u2014 that just cleared our 70 quality bar on a wave of analyst target raises; I'll only buy it if it verifies live AND the tape settles. One stock slot stays open. Cash $10,495 (~11%, at cushion). Weekly review comes later today."
     },
     {
       "ts": "2026-11-19 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $95,087 · day −1.40% · SPY −1.98% · alpha +0.58% (beating market +1.79% this week)",
-      "body": "A down day for everyone — the S&P 500 fell ~2% (fifth down day in six). We fell only −1.40%, so we beat the market today (+0.58 pts) and widened our week lead to +1.79 pts. No trades at open, midday, or close — nothing needed changing. PG and RSG (both ~+13%) barely budged while the index slid; ~11% cash cushions the drop. PG's Investor Day was a non-event for the stock. All 4 safety-net orders resting, none triggered. Tomorrow is Friday — the weekly review."
+      "headline": "Close: equity $95,087 \u00b7 day \u22121.40% \u00b7 SPY \u22121.98% \u00b7 alpha +0.58% (beating market +1.79% this week)",
+      "body": "A down day for everyone \u2014 the S&P 500 fell ~2% (fifth down day in six). We fell only \u22121.40%, so we beat the market today (+0.58 pts) and widened our week lead to +1.79 pts. No trades at open, midday, or close \u2014 nothing needed changing. PG and RSG (both ~+13%) barely budged while the index slid; ~11% cash cushions the drop. PG's Investor Day was a non-event for the stock. All 4 safety-net orders resting, none triggered. Tomorrow is Friday \u2014 the weekly review."
     },
     {
       "ts": "2026-11-19 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — morning bounce faded, but we're beating the market on a down day",
-      "body": "No trades at midday — nothing to change. This morning's relief bounce round-tripped: the S&P 500 went from +1.2% at the open to −1.25% now. The encouraging part is we're down only −0.93%, so we're beating the market today (+0.3 pts) as well as this week (+1.5 pts) — PG and RSG (both ~+13%) barely budged while the index slid. Cash $10,495 at the ~$10k cushion (excess is less than one index share, so no buying). All 4 safety-net orders resting, nothing near a trigger. Watching PG's Investor Day at 2pm ET — handled by its trailing stop, won't pre-trade. Full scorecard at the 3pm close."
+      "headline": "Midday: steady, no changes \u2014 morning bounce faded, but we're beating the market on a down day",
+      "body": "No trades at midday \u2014 nothing to change. This morning's relief bounce round-tripped: the S&P 500 went from +1.2% at the open to \u22121.25% now. The encouraging part is we're down only \u22120.93%, so we're beating the market today (+0.3 pts) as well as this week (+1.5 pts) \u2014 PG and RSG (both ~+13%) barely budged while the index slid. Cash $10,495 at the ~$10k cushion (excess is less than one index share, so no buying). All 4 safety-net orders resting, nothing near a trigger. Watching PG's Investor Day at 2pm ET \u2014 handled by its trailing stop, won't pre-trade. Full scorecard at the 3pm close."
     },
     {
       "ts": "2026-11-19 08:34 CT",
       "routine": "market-open",
-      "headline": "Open: no trades — calm start, all 4 companies healthy, one stock slot open on purpose",
-      "body": "Market opened higher (tech-led relief bounce after 4 down days). Checked everything live — nothing needed changing, placed no trades. No new company cleared our 70 buy-bar (PANW ~63 → would just be chasing the bounce), so the one open slot stays open. Equity $96,648, +0.22% today vs SPY ~+1.2% — our defensive mix lags on a tech-up day, but we're still ahead of the market this week. PG Investor Day 2pm ET is today's catalyst; PG +13% on a trailing stop, handled mechanically — won't pre-trade. Cash $10,495 at cushion, 4 stops resting."
+      "headline": "Open: no trades \u2014 calm start, all 4 companies healthy, one stock slot open on purpose",
+      "body": "Market opened higher (tech-led relief bounce after 4 down days). Checked everything live \u2014 nothing needed changing, placed no trades. No new company cleared our 70 buy-bar (PANW ~63 \u2192 would just be chasing the bounce), so the one open slot stays open. Equity $96,648, +0.22% today vs SPY ~+1.2% \u2014 our defensive mix lags on a tech-up day, but we're still ahead of the market this week. PG Investor Day 2pm ET is today's catalyst; PG +13% on a trailing stop, handled mechanically \u2014 won't pre-trade. Cash $10,495 at cushion, 4 stops resting."
     },
     {
       "ts": "2026-11-19 06:05 CT",
       "routine": "pre-market",
-      "headline": "Pre-market plan · no trades · equity ~$96,850 · all 4 theses intact · PG Investor Day 2pm ET",
-      "body": "Pre-market research only — no trades (market closed). Futures bouncing after 4 down days (tech-led relief), but thin into 8:30 ET jobless claims + Walmart earnings. All 4 holdings' theses intact. PG Investor Day 2pm ET is today's catalyst — PG is +15% on a trailing stop, handled mechanically, won't pre-trade. PANW scored ~63 (below the 70 gate) → watchlist only. One open stock slot stays open."
+      "headline": "Pre-market plan \u00b7 no trades \u00b7 equity ~$96,850 \u00b7 all 4 theses intact \u00b7 PG Investor Day 2pm ET",
+      "body": "Pre-market research only \u2014 no trades (market closed). Futures bouncing after 4 down days (tech-led relief), but thin into 8:30 ET jobless claims + Walmart earnings. All 4 holdings' theses intact. PG Investor Day 2pm ET is today's catalyst \u2014 PG is +15% on a trailing stop, handled mechanically, won't pre-trade. PANW scored ~63 (below the 70 gate) \u2192 watchlist only. One open stock slot stays open."
     },
     {
       "ts": "2026-11-18 15:00 CT",
       "routine": "market-close",
-      "headline": "Close: equity $96,410 · day −0.57% · SPY −0.28% · alpha −0.29% (beating market +1.21% this week)",
-      "body": "Quiet down day — no trades at the close. We slipped ~0.29 pts behind the market today as PG and RSG eased off their highs, but week-to-date we're down only −1.96% vs the S&P's −3.17%, so we're ahead by +1.21 pts. Cash at the ~$10k cushion, 4 stops resting. Watching PG's Investor Day tomorrow."
+      "headline": "Close: equity $96,410 \u00b7 day \u22120.57% \u00b7 SPY \u22120.28% \u00b7 alpha \u22120.29% (beating market +1.21% this week)",
+      "body": "Quiet down day \u2014 no trades at the close. We slipped ~0.29 pts behind the market today as PG and RSG eased off their highs, but week-to-date we're down only \u22121.96% vs the S&P's \u22123.17%, so we're ahead by +1.21 pts. Cash at the ~$10k cushion, 4 stops resting. Watching PG's Investor Day tomorrow."
     },
     {
       "ts": "2026-11-18 12:00 CT",
       "routine": "midday",
-      "headline": "Midday: steady, no changes — new Ferguson buy already green (+1.0%)",
+      "headline": "Midday: steady, no changes \u2014 new Ferguson buy already green (+1.0%)",
       "body": "Nothing to change at midday. FERG recovered to +1.0%; all theses intact; FOMC Oct minutes at 2pm the afternoon risk event."
-    },
-    {
-      "ts": "2026-11-18 08:37 CT",
-      "routine": "market-open",
-      "headline": "Open: Bought Ferguson (FERG) — a building-supplies company; our 4th stock",
-      "body": "Bought 44 FERG @ $250.12 with a −7% safety net, funded by trimming 15 SPY. Beat+raise plus onshoring/data-center demand — 2 signals, Conviction cleared."
     }
   ]
 }
