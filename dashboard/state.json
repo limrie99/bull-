@@ -1,59 +1,59 @@
 {
-  "last_update": "2026-11-23 13:00 ET",
-  "last_routine": "midday",
+  "last_update": "2026-11-23 16:00 ET",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 95835.91,
+  "equity": 95974.72,
   "cash": 10495.23,
-  "day_pl": 2578.02,
-  "day_pl_pct": 2.76,
-  "week_pl_pct": 2.76,
+  "day_pl": 2716.83,
+  "day_pl_pct": 2.91,
+  "week_pl_pct": 2.91,
   "spy_week_pct": 4.62,
-  "alpha_week_pct": -1.86,
+  "alpha_week_pct": -1.70,
   "week_grade": null,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "price": 253.32,
-      "pl_pct": 1.28,
-      "mv": 11146.08,
+      "price": 252.79,
+      "pl_pct": 1.07,
+      "mv": 11122.76,
       "stop": "−7% hard 232.61"
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "price": 539.86,
-      "pl_pct": -0.83,
-      "mv": 9717.48,
+      "price": 542.14,
+      "pl_pct": -0.41,
+      "mv": 9758.52,
       "stop": "−7% hard 506.26"
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "price": 170.09,
-      "pl_pct": 14.88,
-      "mv": 11055.85,
+      "price": 169.89,
+      "pl_pct": 14.74,
+      "mv": 11042.85,
       "stop": "10% trail 156.231"
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "price": 245.38,
-      "pl_pct": 12.56,
-      "mv": 10796.72,
+      "price": 247.69,
+      "pl_pct": 13.62,
+      "mv": 10898.36,
       "stop": "10% trail 231.111"
     },
     {
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "price": 722.39,
-      "pl_pct": -4.92,
-      "mv": 42621.01,
+      "price": 723.0,
+      "pl_pct": -4.84,
+      "mv": 42657.0,
       "stop": "none (index floor)"
     }
   ],
@@ -125,6 +125,10 @@
   ],
   "latest_messages": [
     {
+      "when": "2026-11-23 16:00 ET · market-close",
+      "headline": "Close: equity $95,975 · day +2.91% · SPY +4.62% · alpha −1.70% — a strong green day, just a step behind a market that bounced harder."
+    },
+    {
       "when": "2026-11-23 13:00 ET · midday",
       "headline": "Midday: steady — nothing to change, and we're having a strong up day (just behind a market that bounced even harder)."
     },
@@ -151,10 +155,6 @@
     {
       "when": "2026-11-20 08:34 CT · 🔔 market-open",
       "headline": "Open: no trades — I passed on Disney because it ran up too fast to buy well."
-    },
-    {
-      "when": "2026-11-20 06:05 CT · 🌅 pre-market",
-      "headline": "Pre-market plan — no trades yet; the market looks nervous this morning, so I'm being patient."
     }
   ]
 }

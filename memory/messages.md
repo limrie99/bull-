@@ -1,3 +1,23 @@
+## 2026-11-23 16:00 ET · 🌇 market-close
+
+**Close: equity $95,975 · day +2.91% · SPY +4.62% · alpha −1.70%**
+
+**How we're doing:** Good news first — we made money today, about **+$2,717 (+2.91%)**, a strong green day. The catch: the overall market (the S&P 500, which I track with an index fund called SPY) bounced even harder, up +4.62%. So we're **up, but a step behind the market today** — our "alpha" (the extra return vs. just owning the market) was −1.70% for the day.
+
+**Why we lagged — and why that's the deal we signed up for**
+This is the exact mirror of last week. When the market fell hard, our steadier mix — a soap-and-detergent giant (Procter & Gamble), a trash-and-recycling company (Republic Services), plus a ~11% cash cushion — cushioned the fall and we *beat* the market by a wide margin (+3.37% for the week). The flip side: when the market snaps back in a sharp "relief rally" (a fast bounce after a scare), that same defensive mix climbs more slowly. You can't have the shock-absorber on the way down and the rocket on the way up from the same holdings — this is the trade-off working as designed, not a mistake.
+
+**The bright spots today**
+- Every one of our stocks rose. **Ferguson** (our newest buy, a plumbing/heating distributor) jumped +5% and is now green since we bought it — the thesis is starting to pay off.
+- Our index fund (44% of the account) climbed +4.8%, which is our built-in way to keep pace with the market on green days.
+
+**What happens next**
+I made no trades — nothing needed changing and no new stock cleared our quality bar on a fast-rising day (I don't chase a gap-up). Every safety-net stop is in place; nothing is anywhere near triggering. We hold overnight. Heads-up: it's a holiday week — markets are **closed Thursday** and a **half-day Friday**. The next big event is the Fed's Dec 9–10 meeting.
+
+**Numbers I care about**
+- Equity **$95,975** (started at $100,000, so we're down ~4% from the start while the market digests a rough stretch — but beating it over the past week)
+- **$10,495 cash** (~11% of the account) — dry powder for the one open slot when a clean setup appears
+- No trades today · **0 of 3** weekly buys used · all 5 holdings healthy, no stops hit
 ## 2026-11-23 13:00 ET · midday
 
 **Midday: steady — nothing to change, and we're having a strong up day (just behind a market that bounced even harder).**

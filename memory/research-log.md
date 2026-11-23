@@ -1,3 +1,56 @@
+# 2026-11-23 ~16:00 ET — MARKET-CLOSE (Mon) · Day summary — Opus 4.8 · NO TRADES · no stops fired · sleeve 4/5 (one open slot) · weekly buys 0/3 (new week 11/23–11/28) · equity $95,974.72 · day +2.91% · SPY +4.62% · alpha −1.70pp
+
+**Run meta — clock gate:** summer cron `0 20 UTC` rang ~57 min early (20:02 UTC = 15:02 ET; script `EARLY`, wait 3441s). `market_clock.py --slot market-close --wait` held to **21:00 UTC = 16:00 ET** → **DUE** ("1 min after the bell", `waited:true`). Alpaca `/v2/clock` **is_open=false** (timestamp 16:00:17 ET, bell rung; next_open 2026-11-24 09:30) → re-ran script `--clock-is-open false --next-close 2026-11-24T16:00` → **DUE**, "the bell has rung… the scorecard can run." **CLAIMED** (stamp 2026-11-23, owner market-close, no prior claim today; a concurrent winter `0 21` ring would see ALREADY_CLAIMED and stand down). Claim (slot-stamp.json) committed + pushed `HEAD:main` (0c2babc..136ff43) BEFORE the scorecard. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders (exactly 4), clock, SPY bars/trade, portfolio/history.
+
+## Close scorecard (official daily; weekly review Fri owns the full-week scorecard)
+- **Closing equity:** $95,974.72 (cash $10,495.23 = 10.94%; long_mv $85,479.49). Source: Alpaca `/v2/account` at 16:00 ET.
+- **Day P/L:** +$2,716.83 / **+2.91%** (base = Fri 11/20 close equity $93,257.89 = Alpaca `last_equity` = portfolio/history `base_value`).
+- **SPY day:** close **722.56** vs Fri 11/20 close 690.68 → **+4.62%** (data.alpaca 1D bars: 11/20 c=690.68, 11/23 c=722.56; latest trade 722.56 @ 20:59:59Z).
+- **Day alpha:** **−1.70 pp** — LAGGED the market on a strong up day (defensive book + ~11% cash + index floor is the catch-up lever; mirror image of last week's +1.65pp/+3.37pp beats on down days).
+- **WTD (new week day 1, base Fri 11/20 close $93,257.89 / SPY 690.68):** port **+2.91% / +$2,716.83** vs SPY **+4.62%** → **WTD alpha −1.70 pp** (= today; week just started). Thanksgiving week: closed Thu 11/27, half-day Fri 11/28; weekly review runs Fri.
+- **Trades placed today:** NONE (open/midday/close all no-trade). Closed-orders count **0** → **no stops fired**. Open orders unchanged at **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`); SPY (59) unencumbered.
+
+## Closing positions (4 conviction + SPY floor) — EOD marks 2026-11-23 16:00 ET
+| Sym | Qty | Avg | Close Px | P/L% (entry) | Day% | MV | Stop |
+|---|---|---|---|---|---|---|---|
+| FERG | 44 | 250.12 | 252.79 | +1.07% | +5.06% | 11,122.76 | HARD 232.61 |
+| NOC | 18 | 544.37 | 542.14 | −0.41% | +1.47% | 9,758.52 | HARD 506.26 |
+| PG | 65 | 148.06 | 169.89 | +14.74% | +0.31% | 11,042.85 | TRAIL 156.231 |
+| RSG | 44 | 218.00 | 247.69 | +13.62% | +0.45% | 10,898.36 | TRAIL 231.111 |
+| SPY | 59 | 759.746 | 723.00 | −4.84% | +4.81% | 42,657.00 | NONE (index) |
+
+Sleeve **4/5** (one open slot). Weekly conviction buys **0/3**. Defensive 2/4 (PG, RSG). Largest non-index FERG 11.59% of equity (<20% cap; PG 11.51%, RSG 11.36%, NOC 10.17%). SPY sleeve 44.45%. Conviction-stock mv $42,822.49 (44.62%). Cash 10.94% (≥10% floor). mode: paper.
+
+## Risk checks (CLOSE)
+- (a) Any position ≤−7% un-stopped? **NO.** Worst non-index NOC −0.41% (entry). SPY −4.84% is the index sleeve (deliberate no-stop carve-out). Nothing near −7% → no discretionary sell, no Perplexity 4-hr news check triggered.
+- (b) Any +5%+ (from entry) needing hard→trailing conversion? **NO.** Both hard-stop names below the +5% line on an entry basis: FERG +1.07% (convert ~$262.63), NOC −0.41% (convert ~$571.59). Their big +5.06%/+1.47% moves were intraday only. PG/RSG already trailing, floors ratchet automatically.
+- (c) Daily loss cap: day **UP +2.91%** — not in play.
+- (d) Sell signals? NONE. All four theses INTACT; closed-orders 0 → no stops fired.
+
+## SPY sweep (Trader voice)
+No sweep. Bell already rung (`/v2/clock` is_open=false) → per routine, do NOT force a post-bell trade; hand the same-day sweep to the next open as a standing action. Cash $10,495.23 is ~$495 above the $10k cushion = <1 SPY share → `spy_floor.py` would return `action:none` regardless.
+
+### What worked
+- **Full-book green day — conviction names led.** All four conviction stocks rose and FERG (our newest buy, day 4) jumped +5.06% to close green from entry (+1.07%) — the thesis is starting to pay. NOC +1.47%. The relief bounce lifted everything we own.
+- **The SPY floor did its catch-up job.** +4.81% on the day (44% of book) — on green days the index sleeve is what keeps us near the market instead of stranded in cash.
+- **No forced action.** Nothing hit a stop; no conversion due; discipline held — we didn't chase the gap-up at the open and still captured a +2.91% day by simply holding quality.
+
+### What didn't
+- **We lagged the bounce by 1.70pp.** SPY +4.62% vs our +2.91%. The same defensive build + cash cushion that beat a falling market last week (+3.37pp WTD) caps us on a sharp up day. Deliberate trade-off, not a miss — but worth naming honestly.
+- **The one open conviction slot stayed empty another day.** A strong gap-up tape offers no clean, non-extended entry; correct to wait, but the slot is unused alpha potential on green days.
+
+### Open questions for tomorrow
+- Does the relief rally hold, or fade back toward last week's lows into the Dec 9–10 FOMC (market pricing meaningful odds of a 25bp HIKE)?
+- Can research find a clean, non-extended, 2-signal + Conviction ≥70 entry on a SETTLED tape for the open slot (prefer non-defensive; DIS/SCHW/PANW watch-only; ADSK reports Tue 11/24 AMC — defer)?
+
+### Handoff → next pre-market (Tue 2026-11-24)
+- **Positions nearest a stop:** FERG (+1.07% entry, close 252.79, ~8.7% above hard 232.61) — most-watched but comfortable after today's rally. NOC (−0.41%, ~7.1% above 506.26) comfortable. PG/RSG trailing floors ratchet automatically; SPY no stop by design. No name within range of a trigger.
+- **Standing actions carried forward (verbatim until executed or cancelled):** (1) **SPY same-day sweep handed to Tue open** — run `scripts/spy_floor.py`; expect `action:none` (cash ~$495 above the $10k cushion = <1 share) unless a stop fires and frees cash, then sweep same day. (2) **DIS / SCHW / PANW watch-only** — engage ONLY on a clean, non-extended entry on a settled tape with 2+ verified signals AND Conviction ≥70; do NOT chase the relief bounce. (3) **ADSK deferred** past its Tue 11/24 AMC earnings — re-evaluate only after it prints. (4) One open slot stays open — no forcing.
+- **Resolve first in Tue research:** overnight macro + whether the relief rally is holding or fading into FOMC; FERG/NOC comfortable-but-watch; any name crossing +5% entry (hard→trailing conversion: FERG ~$262.63, NOC ~$571.59); ADSK print read (watchlist only).
+- **Re-verify live Tue:** exactly 4 open orders (FERG 232.61, NOC 506.26, RSG trail 231.111, PG trail 156.231); SPY (59) unencumbered; daily loss-cap check.
+- Positions held overnight with their stops — we do NOT flatten the book at the close. Thanksgiving week: normal Tue, closed Thu 11/27, half-day Fri 11/28.
+
+---
 # 2026-11-23 ~13:00 ET — MIDDAY (Mon) — Opus 4.8 · NO TRADES · STEADY · no stops fired · sleeve 4/5 (one open slot) · weekly buys 0/3 (new week 11/23–11/28) · equity $95,835.91 · day +2.76% · SPY +4.62% · alpha −1.86pp
 
 **Run meta — clock gate:** summer cron `0 17 UTC` rang ~55 min early (11:00 ET). `market_clock.py --slot midday --wait --claim --owner midday --clock-is-open true` held to **18:00 UTC = 13:00 ET** → **DUE** ("0.08 min after the bell", `waited:true`) → Alpaca `/v2/clock` **is_open=true, next_close 2026-11-23T16:00-05:00** → confirmed DUE → **CLAIMED** (stamp 2026-11-23, owner midday, no prior claim today; a concurrent winter `0 18` ring would see ALREADY_CLAIMED and stand down). Claim (slot-stamp.json) committed + pushed `HEAD:main` (1e439a5..7eddd3e) BEFORE any order — claim-before-order rule satisfied. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders, clock.
