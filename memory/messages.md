@@ -1,3 +1,11 @@
+## 2026-11-23 07:05 ET · pre-market
+
+**Quiet open plan — market's bouncing back, but no new buy for us yet.**
+
+- After last week's drop, stocks open sharply higher (S&P 500 ~+2%). A relief bounce, not an all-clear — rates stay high and the Fed meets Dec 9–10, so I won't chase it.
+- All four of our stocks are healthy; none near their safety nets. Procter & Gamble's good news (a big cost-savings plan) supports our winner there.
+- Scanned ideas for our open slot — nothing clears my quality bar at a clean price today, so we hold. Next check: market open.
+
 ## 2026-11-20 16:00 CT · weekly review
 
 **Week ending Nov 20: −5.06% | SPY −8.43% | alpha +3.37% | grade A−**

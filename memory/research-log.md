@@ -1,3 +1,51 @@
+# 2026-11-23 ~07:05 ET — PRE-MARKET (Mon) — Opus 4.8 · NO TRADES (market closed, research only) · sleeve 4/5 (one open slot) · weekly buys 0/3 (NEW week 11/23–11/28) · equity $94,716.44 (pre-mkt indicative mark) · cash $10,495.23 (~11.1%, at cushion)
+
+**Run meta — clock gate:** winter cron `0 12 UTC` rang on time (07:03 ET). `market_clock.py --slot pre-market --wait` → **DUE** ("4 min after the bell", wait 0); confirmed with `--clock-is-open false --next-open 2026-11-23T09:30` → still DUE; `--claim --owner pre-market` → **CLAIMED** (stamp 2026-11-23, owner pre-market, no prior claim today). A concurrent summer `0 11` ring would see ALREADY_CLAIMED and stand down. Claim committed + pushed `HEAD:main` BEFORE the long research (256420f..7d9c2f4). Alpaca `/v2/clock` **is_open=false, next_open 2026-11-23 09:30** → genuine pre-market, no trades. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders, clock.
+
+**Live snapshot (pre-mkt ~07:05 ET):** equity **$94,716.44** (pre-market indicative mark, stale/approx), last_equity (Fri 11/20 close) **$93,257.89**, cash **$10,495.23 (~11.1%, at the ~$10k cushion)**, long_mv $84,221.21; status ACTIVE, trading_blocked false. Positions = 4 conviction (FERG/NOC/PG/RSG) + SPY floor (59 sh). Open orders = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`); SPY unencumbered. Matches the 11/20 close/weekly-review handoff exactly. Sweep check: market closed AND cash <1 SPY share above cushion → no sweep (expect action:none at open).
+
+## Market context (4-agent Perplexity sonar-pro fan-out — all 4 returned; levels Perplexity-approx, verify live)
+- **Macro — RELIEF RALLY off the rout, but fragile.** ES ~+2.2%, NQ ~+3.0% (tech/semis leading the bounce), Dow ~+1.7%. Asia mostly still red (Nikkei closed Japan holiday; Hang Seng −1.1%, Kospi −3.6% — bounce came after Asia cash closed); Europe higher (Stoxx +0.7%). **10Y ~4.96% (+~5bp), 2Y ~4.69% (+~7bp, front end backing up)**, DXY ~103.5–103.8 flat, **gold ~+3% (hedge bid still ON)**, WTI ~$83 flat. Read = reflex bounce in a risk-off regime (yields rising WITH stocks = caution). **Dec 9–10 FOMC the overhang; markets pricing meaningful odds of a 25bp HIKE.** Fed: **Williams ~4:00p ET** (only speaker — hawkish tone could kill the bounce). Data: **Nov flash PMIs** only. Thanksgiving Thu 11/27 (closed), Fri 11/28 half-day.
+- **Sector rotation:** leading today = Info Tech / semis / high-beta growth (the bounce); defensives (staples/healthcare/utilities/telecom) were where money hid in the selloff; Industrials/Financials/Discretionary sold in the rout and today's bounce is a dead-cat risk.
+- **Earnings — QUIET week for us.** Only blackout on our names: **ADSK reports Tue 11/24 AMC** (watchlist — DEFER until it prints). NO holding reports this week (FERG ~Dec 8, NOC ~Jan 28, PG ~Jan 22, RSG ~Feb 5). Material large-cap reporters cluster Mon–Tue (HPE/A/ZM Mon AMC; ADI/MDT/DELL/WDAY/BBY Tue) — none in our book. NVDA/PANW/BJ already printed last week.
+
+## Portfolio watch (position analyst — all 4 theses INTACT, severity-3, no action)
+- **FERG** −1.62% (~246.08), hard 232.61 (~5.8% room above). Quiet; Bernstein Buy $325 reiterated 11/17/21 reinforces; prior BofA $320. Convert to trailing at +5% (~$262.63). INTACT.
+- **NOC** −1.12% (~538.26), hard 506.26 (~6.3% room above). Reinforced: BNP PT $600→$630 (11/17) + B-21 Raider weapons test (11/22); offset by JPM/RBC/Bernstein Hold reiterations (soft tape). Convert at +5% (~$571.59). INTACT.
+- **PG** +14.48% (~169.50), trailing floor 156.231. ★ 11/20 Investor Day = the week's main catalyst and SUPPORTIVE (up to $10B productivity savings FY27–30, ~30% mfg/logistics headcount cut by 2030, reaffirmed FY27 guide); PT-raise wave (Citi $190, Wells $188, Freedom upgrade→Buy $176, TD Cowen $180). NO adverse WMT/tariff read-through — story is cost/productivity-led. INTACT / modestly strengthened. Trailing stop protects the +14.5%.
+- **RSG** +13.11% (~246.59), trailing floor 231.111. Quiet week; Argus Buy $275 / JPM OW $295 stand; $5B buyback + raised FY26 (from 10/29 Q3) intact. INTACT.
+- **SPY floor** −6.67% (~709 pre-mkt mark), no stop by design, ~44% of book. Participates in today's relief bounce (the floor IS the benchmark — it lagged on the way down, it bounces on the way up).
+
+## Buy candidates (scout fan-out · Conviction = 0.30·Fund+0.30·Thesis+0.20·Sent+0.12·Risk+0.08·Tech; ALL Perplexity-approx, VERIFY LIVE)
+| Ticker | Conv | Fund | Thesis | Sent | Risk | Tech | Beta | Def? | Signals | Catalyst / note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| SCHW | **63 (B)** | 72 | 55 | 78 | 55 | 35 | ~1.0–1.3 | No | #4 RJ Strong Buy $135 (11/18) = 1 clean | Below 50-day (~$90 vs ~$95), ~7% above 52-wk low — dip, fails #6. Buy on 50-day reclaim only. |
+| AMD | **63 (B)** | 82 | 55 | 75 | 33 | 40 | ~2 | No | #1 Q3 beat 11/3 + #3 AI = ~2 | Extended (+89% 52-wk), high-beta into Dec FOMC = near-veto; chasing +3% gap. Pass. |
+| DIS | **62 (B)** | 70 | 55 | 72 | 50 | 55 | ~1.4 | No | #4 PT-wave + #6 (fragile) = ~2 | Carried; stood down Fri as extended. Watch for a genuine pullback / settled tape. |
+| LFUS | **61 (B)** | 80 | 48 | 62 | 58 | 45 | ~1.2 | No | growth screen = ~1 | Best fundies/valuation (fwd P/E ~21) but technicals+liquidity+earnings-date UNVERIFIED, no 30d catalyst. Verify live. |
+
+- **BLOCKED:** **MCK** — beta ~0.27–0.30 (<0.85) = DEFENSIVE → would be the 3rd defensive slot (cap 2/5); also negative insider tape (14 sells / 0 buys, 6mo). Bench leader on score, cap-blocked. **ADSK** — reports Tue 11/24 AMC = inside the 3-trading-day earnings blackout; DEFER until it prints.
+- **WATCH (below gate):** **PANW** (possible Q1 FY27 miss on 11/18 — VERIFY; needs ~$366 50-day reclaim), **NVDA** (reported 11/17, extended/high-beta), **MSFT** (quality but beta ~0.9 borderline, no catalyst until Jan 27), **HD** (reported 11/17, no catalyst).
+
+**Gate check:** NO name clears (needs 2+ verified signals AND Conviction ≥70 AND a clean non-extended entry). Top bench names sit 61–63 — a catalyst-light morning right after a hard selloff, with the one plausible fresh catalyst (SCHW's RJ upgrade) attached to a name trading BELOW its 50-day. The relief rally does not create a clean entry; chasing high-beta into a +3% gap is exactly the "don't chase the open" pattern. One open slot stays open — correct, not a failure to act.
+
+**Voices:**
+- **Research:** SCHW has the freshest real catalyst (RJ Strong Buy) but it's a sub-50-day dip, 1 clean signal, ~63 — a 50-day-reclaim watch, not a buy. AMD/DIS/LFUS all ~61–63 and either extended, unverified, or wrong-tape. Nothing clears. Keep the slot.
+- **Risk:** no −7% breach, no +5% conversion due (FERG convert ~$262.63, NOC ~$571.59); cash at the $10k cushion; defensive 2/4 (room for a non-defensive add); a strong-up open argues AGAINST initiating high-beta beta at a gap. Hold.
+- **Trader:** market closed — no orders. At the open, verify exactly 4 open orders unchanged, SPY (59) unencumbered, daily loss-cap, then run spy_floor.py (expect action:none). No Telegram push (pre-market, no trade = not a push event).
+
+## Handoff → market-open (Mon 2026-11-23, winter cron `30 14 UTC`; summer `30 13` rings ~57 min early → `--wait` holds to 9:30 ET)
+- **Clock gate first:** `market_clock.py --slot market-open --wait --claim --owner market-open --clock-is-open true`; confirm Alpaca is_open=true before claiming; push the claim HEAD:main before any order.
+- **Re-verify live:** account/positions/open-orders/clock; confirm **exactly 4** open orders (FERG hard 232.61; NOC hard 506.26; RSG trail 231.111; PG trail 156.231); SPY (59) unencumbered; daily-loss-cap check.
+- **NO stock buy planned** — no name clears the gate at a clean entry. One open slot stays open. **Do NOT chase the relief-rally gap.** Only act if a name independently verifies 2+ signals AND ≥70 AND a clean non-extended entry on a settled tape (prefer non-defensive; defensive cap has room 2/4).
+- **Watch-list triggers:** SCHW on a 50-day RECLAIM (~$95) + a 2nd clean signal; DIS on a genuine pullback / settled tape (not a chase); PANW on a ~$366 50-day reclaim (and verify the Q1 print). ADSK deferred past Tue 11/24 earnings.
+- **SPY same-day sweep (standing action):** run `scripts/spy_floor.py` live; cash $10,495 is ~$495 above the $10k cushion = <1 SPY share → expect `action:none` unless a stop fires and frees cash (then sweep SAME day).
+- **FERG** −1.62% — hold on its hard stop 232.61 (~5.8% room); convert to trailing only at +5% (~$262.63). **NOC** −1.12%, convert at +5% (~$571.59). PG/RSG floors ratchet automatically.
+- **What would change the plan:** any held name hitting a stop; a hawkish Williams (4pm) or weak flash PMIs re-igniting the selloff (watch SPY + FERG 232.61); a non-defensive name verifying clean at a non-extended entry for the open slot; the Dec 9–10 FOMC setup.
+- **Unverified / to confirm live:** all Perplexity levels (futures, yields, candidate prices/50-days); SCHW's exact 50-day vs price; PANW's Q1 beat/miss; LFUS liquidity + next-earnings date.
+
+---
+
 # 2026-11-20 ~15:00 CT (16:00 ET) — MARKET-CLOSE (Fri) · Day summary — Opus 4.8 · NO TRADES · no stops fired · sleeve 4/5 · weekly buys 1/3 (week done) · equity $93,360.13 · day −1.87% · SPY −3.52% · alpha +1.65pp
 
 **Run meta — clock gate:** summer cron `0 20 UTC` rang ~56 min early; `market_clock.py --slot market-close --wait` held to **4:00 PM ET** → DUE ("0 min after the bell"). Alpaca `/v2/clock` **is_open=false** (bell rung, next_open 2026-11-23 09:30) → confirmed DUE, "the scorecard can run." **CLAIMED** (stamp 2026-11-20, owner market-close, no prior claim today); claim committed + pushed `HEAD:main` BEFORE the scorecard (382fa5c..aea1f8d). 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox no Pending; Astra no proposals. No last-chance SPY sweep — bell already rung (routine: do not force a trade post-bell → handed to Mon open as a standing action); cash <1 SPY share above cushion anyway.

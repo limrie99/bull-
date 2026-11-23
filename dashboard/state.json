@@ -1,64 +1,39 @@
 {
-  "last_update": "2026-11-20 16:00 CT",
-  "last_routine": "weekly-review",
+  "last_update": "2026-11-23 07:05 ET",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 93360.13,
+  "equity": 94716.44,
   "cash": 10495.23,
-  "day_pl": -1773.98,
-  "day_pl_pct": -1.87,
-  "week_pl_pct": -5.06,
-  "spy_week_pct": -8.43,
-  "alpha_week_pct": 3.37,
-  "week_grade": "A-",
+  "day_pl": null,
+  "day_pl_pct": null,
+  "week_pl_pct": null,
+  "spy_week_pct": null,
+  "alpha_week_pct": null,
+  "week_grade": null,
   "positions": [
-    { "symbol": "FERG", "qty": 44, "avg_cost": 250.12, "current": 240.620, "pl_pct": -3.80, "stop": 232.61 },
-    { "symbol": "NOC", "qty": 18, "avg_cost": 544.37, "current": 534.310, "pl_pct": -1.85, "stop": 506.26 },
-    { "symbol": "PG", "qty": 65, "avg_cost": 148.06, "current": 169.545, "pl_pct": 14.51, "stop": 156.231 },
-    { "symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 246.590, "pl_pct": 13.11, "stop": 231.111 },
-    { "symbol": "SPY", "qty": 59, "avg_cost": 759.746, "current": 691.280, "pl_pct": -9.01, "stop": null }
+    {"symbol": "FERG", "qty": 44, "avg_cost": 250.12, "current": 246.08, "pl_pct": -1.62, "stop": 232.61},
+    {"symbol": "NOC", "qty": 18, "avg_cost": 544.37, "current": 538.26, "pl_pct": -1.12, "stop": 506.26},
+    {"symbol": "PG", "qty": 65, "avg_cost": 148.06, "current": 169.50, "pl_pct": 14.48, "stop": 156.231},
+    {"symbol": "RSG", "qty": 44, "avg_cost": 218.00, "current": 246.59, "pl_pct": 13.11, "stop": 231.111},
+    {"symbol": "SPY", "qty": 59, "avg_cost": 759.746, "current": 709.10, "pl_pct": -6.67, "stop": null}
   ],
   "recent_trades": [
-    { "date": "2026-11-18 08:37", "side": "BUY", "symbol": "FERG", "qty": 44, "price": 250.12 },
-    { "date": "2026-11-18 08:37", "side": "SELL", "symbol": "SPY", "qty": 15, "price": 732.602 },
-    { "date": "2026-11-06 12:02", "side": "BUY", "symbol": "SPY", "qty": 11, "price": 736.4945 },
-    { "date": "2026-11-06 09:11", "side": "SELL", "symbol": "CDNS", "qty": 26, "price": 307.09 },
-    { "date": "2026-11-05 08:34", "side": "BUY", "symbol": "SPY", "qty": 15, "price": 762.5687 },
-    { "date": "2026-11-04 11:31", "side": "SELL", "symbol": "BP", "qty": 214, "price": 46.330093 },
-    { "date": "2026-11-02 08:32", "side": "BUY", "symbol": "CDNS", "qty": 26, "price": 330.45 },
-    { "date": "2026-10-30 15:00", "side": "SELL", "symbol": "RMD", "qty": 21, "price": 229.81 },
-    { "date": "2026-10-26 08:38", "side": "SELL", "symbol": "RMD", "qty": 21, "price": 252.101429 },
-    { "date": "2026-10-23 08:40", "side": "BUY", "symbol": "NOC", "qty": 18, "price": 544.37 }
+    {"date": "2026-11-18 08:37", "side": "BUY", "symbol": "FERG", "qty": 44, "price": 250.12},
+    {"date": "2026-11-18 08:37", "side": "SELL", "symbol": "SPY", "qty": 15, "price": 732.602},
+    {"date": "2026-11-06 12:02", "side": "BUY", "symbol": "SPY", "qty": 11, "price": 736.4945},
+    {"date": "2026-11-06 09:11", "side": "SELL", "symbol": "CDNS", "qty": 26, "price": 307.09},
+    {"date": "2026-11-05 08:34", "side": "BUY", "symbol": "SPY", "qty": 15, "price": 762.5687},
+    {"date": "2026-11-04 11:31", "side": "SELL", "symbol": "BP", "qty": 214, "price": 46.330093},
+    {"date": "2026-11-02 08:32", "side": "BUY", "symbol": "CDNS", "qty": 26, "price": 330.45},
+    {"date": "2026-10-30 15:00", "side": "SELL", "symbol": "RMD", "qty": 21, "price": 229.81},
+    {"date": "2026-10-26 08:38", "side": "SELL", "symbol": "RMD", "qty": 21, "price": 252.101429},
+    {"date": "2026-10-23 08:40", "side": "BUY", "symbol": "NOC", "qty": 18, "price": 544.37}
   ],
   "latest_messages": [
-    {
-      "ts": "2026-11-20 16:00 CT",
-      "routine": "weekly-review",
-      "headline": "Week ending Nov 20: -5.06% vs SPY -8.43% — alpha +3.37 pp, grade A-",
-      "body": "A decisive win on the market's worst week of the run: the S&P 500 fell -8.43% (six red days in seven), we fell only -5.06%, so we beat the market by +3.37 points — our biggest weekly beat in over a month. That's the defensive setup doing exactly its job: PG (+14%) and RSG (+13%) barely moved, our ~11% cash can't fall, and we out-defended the market on four of five days including Friday's -3.5% rout. One careful buy (Ferguson, funded by trimming the index fund); no sells, no stops fired, zero mistakes. Honest caveat: it's still a real ~$4,980 loss in dollars — a strong *relative* win on a bad *absolute* week. This beat flipped us back to roughly even-or-ahead of the market for the whole run since May, the best in months. No strategy changes. Watching the Dec 9-10 Fed meeting."
-    },
-    {
-      "ts": "2026-11-20 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close: equity $93,360 · day -1.87% vs SPY -3.52% · alpha +1.65%",
-      "body": "Down day, but we beat a sharp selloff: the market fell -3.52% and we fell only -1.87%. No trades, no stops fired. Defensive names PG (+14.5%) and RSG (+13.1%) plus ~11% cash cushioned the drop. Week-to-date we're down 5.1% vs the market's 8.4% — alpha +3.37 pp. Watching FERG (-3.8%), our name nearest its safety net. Weekly review at 4pm CT owns the full-week scorecard."
-    },
-    {
-      "ts": "2026-11-20 12:00 CT",
-      "routine": "midday",
-      "headline": "Midday: steady, no changes — day -0.85% vs SPY -2.2%, beating the market",
-      "body": "No trades. All four stocks and the SPY floor held, safety nets untouched. PG +14.9% and RSG +14.4% both on trailing stops; FERG -2.6% but far from its stop and thesis intact. Cash at the ~$10k cushion, nothing to sweep. Weekly review this afternoon owns the full scorecard."
-    },
-    {
-      "ts": "2026-11-20 08:34 CT",
-      "routine": "market-open",
-      "headline": "Open: no trades — passed on Disney, it ran up too fast to buy well",
-      "body": "Skipped DIS: already +4% over two days into a soft risk-off tape = a chase, not a clean entry. Kept the open slot. All four holdings healthy, stops resting."
-    },
-    {
-      "ts": "2026-11-19 15:00 CT",
-      "routine": "market-close",
-      "headline": "Close -1.40% vs SPY -1.98% — beat the market again; week alpha +1.79 pp",
-      "body": "Quiet no-trade day. Defensive mix + ~11% cash cushioned the slide. PG/RSG ~+13% barely moved while SPY bled. Week-to-date lead widening."
-    }
+    {"ts": "2026-11-23 07:05 ET", "routine": "pre-market", "headline": "Relief rally expected; no new buy — nothing clears the bar at a clean price", "body": "Stocks open sharply higher (S&P ~+2%) after last week's drop — a bounce, not an all-clear, with rates high into the Dec 9-10 Fed meeting. All 4 holdings healthy, none near stops; PG strengthened by its investor-day cost plan. Best idea (SCHW) got an upgrade but is below its 50-day — waiting, not chasing. One slot stays open."},
+    {"ts": "2026-11-20 16:00 CT", "routine": "weekly-review", "headline": "Week ending Nov 20: -5.06% | SPY -8.43% | alpha +3.37% | grade A-", "body": "Rough week for the whole market (SPY -8.43%); we fell less (-5.06%) and beat the index by +3.37pp — our biggest weekly win over the market in over a month. Defensive stocks (PG +14%, RSG +13%) and the cash cushion did their job. Added Ferguson Tuesday. Watching the Dec 9-10 Fed meeting."},
+    {"ts": "2026-11-20 15:00 CT", "routine": "market-close", "headline": "Equity $93,360 - day -1.87% vs SPY -3.52% - alpha +1.65pp", "body": "Market dropped hard (-3.5%); we fell only -1.87%, beating it by +1.65pp. Defensive book + cash cushion held up. No trades; all stops intact, nothing fired. Weekly review owns the full-week scorecard."},
+    {"ts": "2026-11-20 08:34 CT", "routine": "market-open", "headline": "No trade - DIS stood down as an extended chase into a soft tape", "body": "Held steady into a soft open. DIS looked like a chase at a local high on a risk-off morning, so I passed and kept our open slot. All 4 holdings healthy; cash at the ~$10k cushion."},
+    {"ts": "2026-11-20 07:05 CT", "routine": "pre-market", "headline": "Risk-off/hawkish tape; DIS a conditional idea, verify live", "body": "Hawkish Fed tone, yields near highs. DIS the one plausible buy but only if it verifies clean on a settled tape - do not chase. All holdings intact."}
   ]
 }
