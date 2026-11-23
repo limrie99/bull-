@@ -1,3 +1,47 @@
+# 2026-11-23 ~13:00 ET — MIDDAY (Mon) — Opus 4.8 · NO TRADES · STEADY · no stops fired · sleeve 4/5 (one open slot) · weekly buys 0/3 (new week 11/23–11/28) · equity $95,835.91 · day +2.76% · SPY +4.62% · alpha −1.86pp
+
+**Run meta — clock gate:** summer cron `0 17 UTC` rang ~55 min early (11:00 ET). `market_clock.py --slot midday --wait --claim --owner midday --clock-is-open true` held to **18:00 UTC = 13:00 ET** → **DUE** ("0.08 min after the bell", `waited:true`) → Alpaca `/v2/clock` **is_open=true, next_close 2026-11-23T16:00-05:00** → confirmed DUE → **CLAIMED** (stamp 2026-11-23, owner midday, no prior claim today; a concurrent winter `0 18` ring would see ALREADY_CLAIMED and stand down). Claim (slot-stamp.json) committed + pushed `HEAD:main` (1e439a5..7eddd3e) BEFORE any order — claim-before-order rule satisfied. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders, clock.
+
+## Account / positions (live 13:00 ET)
+- Equity **$95,835.91** · cash $10,495.23 (10.95%) · long_mv $85,340.68 · buying_power $280,934.82 (margin figure; book does not borrow). status ACTIVE, trading_blocked false.
+- **Day P/L +$2,578.02 / +2.76%** (base = Fri 11/20 close equity $93,257.89 = Alpaca `last_equity`).
+
+| Sym | Qty | Avg | Px | P/L% | MV | Stop |
+|---|---|---|---|---|---|---|
+| FERG | 44 | 250.12 | 253.32 | +1.28% | 11,146.08 | HARD 232.61 |
+| NOC | 18 | 544.37 | 539.86 | −0.83% | 9,717.48 | HARD 506.26 |
+| PG | 65 | 148.06 | 170.09 | +14.88% | 11,055.85 | TRAIL 156.231 |
+| RSG | 44 | 218.00 | 245.38 | +12.56% | 10,796.72 | TRAIL 231.111 |
+| SPY | 59 | 759.746 | 722.39 | −4.92% | 42,621.01 | NONE (index) |
+
+Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`). SPY 59 sh unencumbered.
+
+## Benchmark
+SPY prev daily close (Fri 11/20) **690.68** (Alpaca snapshot `prevDailyBar`); midday latest trade **722.58** → SPY day **+4.62%**; ours +2.76% → **day alpha −1.86 pp (LAGGING today)**, narrowed from −2.31 at the open as FERG flipped green. New week day 1 → WTD = today's numbers (ours +2.76% vs SPY +4.62%, alpha −1.86). Context: last week SPY fell 754→690; today is a +4.6% bounce. Our defensive book + ~11% cash lags the bounce exactly as it protected on the way down (beat the market all last week). The SPY sleeve (44% of book, +4.6% today) is the catch-up lever on green days.
+
+## Risk (Risk voice)
+- (a) Any position ≤−7% un-stopped? **NO.** Worst non-index NOC −0.83%; FERG +1.28%. SPY −4.92% is the index sleeve (deliberate no-stop carve-out). Nothing near −7% → no discretionary sell, no Perplexity 4-hr news check triggered.
+- (b) Any +5%+ needing hard→trailing conversion? **NO.** Both hard-stop names (FERG +1.28%, NOC −0.83%) below the +5% line (FERG convert ~$262.63; NOC ~$571.59). PG/RSG already trailing, floors ratchet automatically.
+- (c) Daily loss cap: day is UP +2.76% — not in play. New buys allowed on the cap basis, but none qualifies.
+- (d) Sell signals? NONE. All four theses INTACT.
+
+## SPY sweep (Trader voice)
+`spy_floor.py --equity 95835.91 --cash 10495.23 --spy-price 722.39 --spy-shares 59 --stock-market-value 42716.13` → `action:none` ("Cash is already within one SPY share of the cushion. Nothing to sweep."). spy_target_pct 44.99; cash $495 above the $10k cushion = less than one SPY share (~$722). No SPY order.
+
+## New buys
+NONE. Midday originates a buy only on a high-conviction BREAKING catalyst AND weekly buys <3 AND positions <5. Weekly buys 0/3, sleeve 4/5 (one open slot) — room exists, but no breaking catalyst surfaced at midday and nothing clears the ≥70 gate on a clean, non-extended entry on a strong up day. DIS/SCHW/PANW stay **watch-only** (do not chase the relief bounce); ADSK DEFERRED behind its 11/24 earnings. Research proposed nothing new; Trader placed nothing. No Astra proposal to fold in.
+
+**Decision: STEADY — no orders this run.** Memory snapshot updated; NOT a Telegram push event (quiet midday — the 4:00 PM close owns the mandatory daily "How we're doing" push).
+
+## Handoff → market-close (Mon 2026-11-23, winter cron `0 21 UTC`; summer `0 20` rings ~56 min early → `--wait` holds to 4:00 PM ET)
+- Clock gate first: `market_clock.py --slot market-close --wait --claim --owner market-close`; the close is not the close while Alpaca `next_close` >20 min away.
+- **MANDATORY daily "How we're doing" message + Telegram push** at the close — never skipped, even on this quiet no-trade day. Lead with the beginner scorecard: we're UP +2.76% but the market bounced harder (+4.6%), so we trail on the day — the mirror image of last week when our steadier book beat a falling market. Frame as the deliberate trade-off.
+- Re-verify live: account/positions/open-orders/clock; confirm exactly 4 open orders unchanged; daily loss-cap.
+- **FERG** +1.28% day 4 — hold on hard stop 232.61; convert to trailing only at +5% (~$262.63). **NOC** −0.83%, convert at +5% (~$571.59). PG/RSG floors ratchet automatically.
+- Watch whether the relief rally holds or fades into the close; SPY sweep at close (if market still open and cash > cushion): expect `action:none` unless a stop fires intraday and frees cash — then sweep same day.
+
+---
+
 # 2026-11-23 ~09:32 ET — MARKET-OPEN (Mon) — Opus 4.8 · NO TRADES · no stops fired · sleeve 4/5 (one open slot) · weekly buys 0/3 (new week 11/23–11/28) · equity $95,263.97 · day +2.15% · SPY +4.46% · alpha −2.31pp
 
 **Run meta — clock gate:** winter cron `30 14 UTC` rang on time (09:32 ET). `market_clock.py --slot market-open --wait --claim --owner market-open` → **DUE** ("2.68 min after the bell", wait 0) → Alpaca `/v2/clock` **is_open=true, next_close 2026-11-23T16:00-05:00** → confirmed DUE → **CLAIMED** (stamp 2026-11-23, owner market-open, no prior claim today; a concurrent summer `30 13` ring would see ALREADY_CLAIMED and stand down). Claim (slot-stamp.json) committed with this run's memory push `HEAD:main` — no order placed this run, so the claim-before-order rule is satisfied trivially. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders, clock.
