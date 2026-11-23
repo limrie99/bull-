@@ -1,3 +1,34 @@
+# 2026-11-23 ~09:32 ET — MARKET-OPEN (Mon) — Opus 4.8 · NO TRADES · no stops fired · sleeve 4/5 (one open slot) · weekly buys 0/3 (new week 11/23–11/28) · equity $95,263.97 · day +2.15% · SPY +4.46% · alpha −2.31pp
+
+**Run meta — clock gate:** winter cron `30 14 UTC` rang on time (09:32 ET). `market_clock.py --slot market-open --wait --claim --owner market-open` → **DUE** ("2.68 min after the bell", wait 0) → Alpaca `/v2/clock` **is_open=true, next_close 2026-11-23T16:00-05:00** → confirmed DUE → **CLAIMED** (stamp 2026-11-23, owner market-open, no prior claim today; a concurrent summer `30 13` ring would see ALREADY_CLAIMED and stand down). Claim (slot-stamp.json) committed with this run's memory push `HEAD:main` — no order placed this run, so the claim-before-order rule is satisfied trivially. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders, clock.
+
+## Account / positions (live 09:32 ET)
+- Equity **$95,263.97**; cash $10,495.23 (11.02%); long_mv $84,768.74; buying_power $279,333.38 (margin, unused — no borrowing). status ACTIVE, trading_blocked false.
+- Day P/L **+$2,006.08 / +2.15%** (base = Alpaca `last_equity` $93,257.89 = Fri close). SPY 721.46 vs Fri 690.68 = **+4.46%**. **Day alpha −2.31 pp** — lagging on a strong up day (defensive book + 11% cash + index floor is the catch-up lever; mirror image of Friday's +1.65pp beat on the down day).
+- Positions match Fri close **exactly** → no stops fired over the weekend: FERG 44 @ 250.12 (px 248.255, −0.75%); NOC 18 @ 544.37 (px 534.785, −1.76%); PG 65 @ 148.06 (px 167.83, +13.35%); RSG 44 @ 218.00 (px 244.2422, +12.04%); SPY 59 @ 759.746 (px 721.46, −5.04%).
+- Open orders **exactly 4**: FERG hard 232.61 (`ea91d0f9`), NOC hard 506.26 (`59a67c62`), RSG trail 231.111 (`135c200e`), PG trail 156.231 (`272e2864`). SPY 59 unencumbered.
+
+## Decision: NO TRADES (execute the pre-market handoff; re-validated at live prices)
+- **No stock buy.** Pre-market handoff = no gate-clearer at a clean entry; today's tape is a sharp **relief-rally gap-up** (SPY +4.46%), the opposite of a clean non-extended entry on a settled tape. Standing discipline: do NOT chase the gap. Watch-list (SCHW ~$95 50-day reclaim + 2nd signal; DIS genuine pullback; PANW ~$366 reclaim + verify Q1) — none verified clean on a gap-up morning; ADSK deferred past its Tue 11/24 earnings. One open slot stays open. **Research voice: no proposal clears 2+ signals AND Conviction ≥70 at a non-extended entry today. Trader voice: no order.**
+- **No sell.** All four theses INTACT; no −7% breach, no thesis break, no overnight sell trigger. Nothing near a stop (FERG nearest, ~6.7% above 232.61).
+- **No hard→trailing conversion.** FERG (−0.75%) and NOC (−1.76%) both below the +5% line (convert at ~$262.63 / ~$571.59). PG/RSG already trail.
+- **No SPY sweep.** `spy_floor.py --equity 95263.97 --cash 10495.23 --spy-price 721.46` → `action:none` ("Cash is already within one SPY share of the cushion"). Cash ~$495 above the $10k cushion = <1 share.
+- **Daily loss cap:** not in play — day is UP +2.15%.
+
+## Guardrail state
+- Sleeve **4/5** (one open slot). Weekly conviction buys **0/3** (new week 11/23–11/28). Defensive count 2/4 (PG, RSG) — cap has room, prefer non-defensive for the open slot. Largest stock FERG 11.47% of equity (<20% cap). Cash 11.02% (≥10% floor). mode: paper.
+- No Telegram push — market-open no-trade is not a push event (push only: trade placed, stop triggered, daily close, weekly review, urgent).
+
+## Handoff → midday (today 1:00 PM ET, winter cron `0 18 UTC`; summer `0 17` rings ~57 min early → `--wait` holds to 1:00 PM ET)
+- **Clock gate first:** `market_clock.py --slot midday --wait --claim --owner midday`; confirm Alpaca is_open=true before claiming; push claim HEAD:main before any order.
+- **Re-verify live:** account/positions/open-orders/clock; confirm **exactly 4** open orders (FERG hard 232.61; NOC hard 506.26; RSG trail 231.111; PG trail 156.231); SPY (59) unencumbered; daily-loss-cap check.
+- **SPY same-day sweep (standing action):** run `scripts/spy_floor.py` live; cash ~$495 above cushion = <1 share → expect `action:none` unless a stop fires and frees cash (then sweep SAME day).
+- **FERG** −0.75% day 4 — hold on hard stop 232.61 (~6.7% room); convert at +5% (~$262.63). **NOC** −1.76%, convert at +5% (~$571.59). PG/RSG floors ratchet automatically.
+- **Watch-list triggers (watch-only, do NOT chase the relief bounce):** SCHW ~$95 50-day reclaim + 2nd clean signal; DIS genuine pullback / settled tape; PANW ~$366 50-day reclaim + verify Q1 print.
+- **What would change the plan:** any held name hitting a stop; the relief rally reversing hard and pressuring FERG's 232.61 / the loss cap; a non-defensive name verifying clean at a non-extended entry for the open slot; the Dec 9–10 FOMC setup.
+
+---
+
 # 2026-11-23 ~07:05 ET — PRE-MARKET (Mon) — Opus 4.8 · NO TRADES (market closed, research only) · sleeve 4/5 (one open slot) · weekly buys 0/3 (NEW week 11/23–11/28) · equity $94,716.44 (pre-mkt indicative mark) · cash $10,495.23 (~11.1%, at cushion)
 
 **Run meta — clock gate:** winter cron `0 12 UTC` rang on time (07:03 ET). `market_clock.py --slot pre-market --wait` → **DUE** ("4 min after the bell", wait 0); confirmed with `--clock-is-open false --next-open 2026-11-23T09:30` → still DUE; `--claim --owner pre-market` → **CLAIMED** (stamp 2026-11-23, owner pre-market, no prior claim today). A concurrent summer `0 11` ring would see ALREADY_CLAIMED and stand down. Claim committed + pushed `HEAD:main` BEFORE the long research (256420f..7d9c2f4). Alpaca `/v2/clock` **is_open=false, next_open 2026-11-23 09:30** → genuine pre-market, no trades. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders, clock.

@@ -1,3 +1,17 @@
+## 2026-11-23 09:32 ET · market-open
+
+**Open: no trades — we're holding steady while the market bounces back.**
+
+**What I did:** Nothing today, on purpose. I checked our account the moment the market opened, confirmed all four of our stocks and our index fund are healthy, and placed no new trade. The market is having a big "relief rally" this morning (the S&P 500 — the index of 500 big US companies I track with a fund called SPY — jumped about +4.5% after last week's steep drop), and I chose not to chase that gap.
+
+**Why:** A one-day bounce after a bad week is not an all-clear — interest rates are still high and the Federal Reserve (the US central bank that sets rates) meets Dec 9–10. The best entries come on a *settled* tape at a sensible price, not on a sharp gap-up where you risk buying the high. My rule is a name needs at least two solid reasons to buy *and* a quality score of 70+ before I'll touch it; nothing clears that bar at a clean price today, so our one open slot stays open. Our stocks are all comfortably above their automatic safety-nets (the "stop" that auto-sells if a stock falls too far), so there was nothing to sell either.
+
+**What happens next:** I'll re-check at midday (1 PM ET). I'm watching a few names (Schwab, Disney, Palo Alto Networks) for a clean setup, and watching whether this bounce holds or fades into the Fed meeting.
+
+**Numbers I care about:**
+- We're **up about $2,006 today (+2.15%)** to **$95,264** — a good day, though the market rose faster (+4.5%), so we trail by ~2.3 points today. That's the flip side of Friday, when our steadier mix *beat* the market on a sharp down day. Over time this setup is built to lose less when markets fall and give a little back when they soar.
+- Cash **$10,495 (~11%)** — right at our planned cushion; no idle cash to put to work today.
+- **0 of 3** weekly buys used, **one open stock slot** left.
 ## 2026-11-23 07:05 ET · pre-market
 
 **Quiet open plan — market's bouncing back, but no new buy for us yet.**
