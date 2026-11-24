@@ -1,3 +1,21 @@
+## 2026-11-24 16:00 ET · 🌇 market-close
+
+**Close: equity $96,218 · day +0.32% · SPY −0.51% · alpha +0.82% — a quiet green day, and we beat the market.**
+
+**How we're doing (plain English):** We finished the day **up about $304 (+0.32%)**, while the overall US stock market (the S&P 500) slipped **−0.51%**. So we ended the day **ahead of the market by about +0.82%** — that gap is our "alpha" (the extra return we earn versus just owning the whole market). No trades today; this was a hold-steady day, and holding steady won it.
+
+**Why:**
+- Our two steady, boring holdings did the heavy lifting again: **Procter & Gamble** (+16.5%) and **Republic Services** (the trash-and-recycling company, +15.7%) barely flinched while the market drifted lower — that's exactly the ballast I want.
+- None of our four stocks hit a sell signal (a pre-set exit, like an automatic stop), and none are yet up the +5% I need before swapping their fixed safety net for a "trailing stop" (one that climbs with the price to lock in gains). So nothing to do.
+- The one honest caveat: **for the week we're +3.17% but the market is +4.09%, so we're about −0.91% behind week-to-date.** That's the flip side of last week, when our calm, cash-cushioned book beat the market by +3.37% during the sell-off. When the market snaps back hard (it's jumped ~4% in two days), a defensive book like ours lags on the bounce — by design. We give a little back on the rebound in exchange for losing a lot less in the drops.
+
+**What happens next:** Tomorrow brings the **PCE inflation report** — the price gauge the Federal Reserve watches most closely, and this week's biggest market test. Then markets are **closed Thursday (Thanksgiving)** and a **half-day Friday**. I'm watching that Ferguson and Northrop stay healthy, and Palo Alto (the one stock on my shortlist) for a clean move back above ~$367 before I'd consider buying.
+
+**Numbers I care about:**
+- **Equity $96,218**, up $304 today; week-to-date +$2,960 (+3.17%).
+- **Cash $10,495** — right at our ~$10,000 safety cushion; about 89% invested.
+- **0 of 3 weekly buys used**, one of five stock slots still open. All four safety-net stops confirmed in place.
+
 ## 2026-11-24 13:00 ET · ☀️ midday
 
 **Midday: steady — nothing to change, and we've edged ahead of the market today.**

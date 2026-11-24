@@ -16016,3 +16016,31 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 - **SPY sweep at close** (if market still open and cash > cushion): expect `action:none` unless a stop fires intraday and frees cash → then sweep same session. No margin.
 - **What would change the plan:** any held name hitting a stop (then same-day SPY sweep of freed cash); PANW decisively reclaiming $367 on a settled tape; a sharp risk-off into the close pressuring the loss cap; the Wed 11/25 PCE print.
 - **Calendar (Alpaca-verified):** Wed 11/25 normal full day; **Thu 11/26 CLOSED (Thanksgiving)**; **Fri 11/27 half-day (close 13:00 ET)**; Mon 11/30 normal.
+
+### 2026-11-24 · Day summary (MARKET-CLOSE)
+**Clock:** summer cron `0 20 UTC` rang 15:02 ET (~58 min early, daylight-saving miss); `market_clock.py --slot market-close --wait --claim --owner market-close` held to 21:00 UTC = 16:00 ET (status DUE, "0 min after the bell"), `--claim` → CLAIMED (owner market-close, no prior claim today; stamp in `memory/slot-stamp.json`). Alpaca `/v2/clock` is_open=false (bell rang 16:00 ET, next_open 11/25 09:30 ET) → genuine close. 4 required keys non-empty; EQUIBLES empty. Inbox **no Pending**; Astra **no proposals**.
+
+**Closing snapshot (Alpaca, live 16:00 ET):** equity **$96,217.78** | cash **$10,495.23 (10.91%)** | long_mv **$85,722.55**. `last_equity` $95,913.98 (Mon 11/23 close = day baseline). Positions (close marks): FERG 44 @ 252.24 (+0.85%, mv 11,098.56); NOC 18 @ 550.84 (+1.19%, mv 9,915.12); PG 65 @ 172.54 (+16.53%, mv 11,215.10); RSG 44 @ 252.15 (+15.67%, mv 11,094.60, hwm 256.79); SPY 59 @ 718.91 (−5.41%, mv 42,399.17). Open orders verified **exactly 4** (FERG hard 232.61 `ea91d0f9`, NOC hard 506.26 `59a67c62`, RSG trail 231.111 `135c200e` hwm 256.79, PG trail 156.231 `272e2864` hwm 173.59); SPY unencumbered. **Closed-orders for 2026-11-24 = 0.**
+
+**Scorecard:**
+- **Day P/L +$303.80 / +0.32%** (base = Alpaca `last_equity` $95,913.98 = Mon 11/23 close).
+- **SPY day −0.51%** (IEX daily-bar close 722.56 → 718.91; latest trade 718.91 @ 15:59:59 ET confirms the bar). **Day alpha +0.82 pp** (we beat the market today).
+- **Week-to-date (baseline Fri 11/20 close $93,257.89 from portfolio-history 1D; SPY 690.68):** port **+3.17% / +$2,959.89** vs **SPY +4.09%** (690.68 → 718.91) → **week alpha −0.91 pp** (behind WTD; 2 sessions in: Mon +2.85%, Tue +0.32%).
+
+**Trades today:** NONE at open, midday, or close. No buys (nothing cleared 2 signals AND ≥70; PANW ~$353 below its $367 trigger; no breaking catalyst), no sells (no −7% breach, no broken thesis, no guidance cut), no hard→trailing conversions (FERG +0.85% / NOC +1.19%, both below +5%). SPY sweep: market closed at the close run → no sweep; cash also within one SPY share of the $10k cushion (excess ~$495 < 1 share @ ~$719).
+
+**Voices:**
+- **Research:** no new candidate cleared the gate all day; all four theses intact. PANW watch-only (below $367 trend). Wed 11/25 PCE + Deere (DE) BMO are the live catalysts for tomorrow (DE is a FERG industrial read-through).
+- **Risk:** loss cap never in play (day peaked +0.42% midday, closed +0.32%). All stops resting; FERG/NOC below the +5% conversion line; PG/RSG floors ratchet automatically (PG hwm ticked 173.57→173.59). Cash at cushion; no margin used.
+- **Trader:** no order (nothing cleared Research; sweep n/a market-closed + cash at cushion). 4 open orders unchanged, none fired.
+
+**What worked:** Our defensive anchors (PG +16.53%, RSG +15.67%) barely moved while SPY drifted −0.51% off its Monday-bounce high — that ballast + ~11% cash is exactly why we closed green and beat the market today (+0.82 pp) on a mildly-red tape. FERG and NOC both held gains.
+
+**What didn't / honest note:** We're −0.91 pp behind week-to-date. That is the structural flip side of our edge: when the market snaps back hard off a bottom (SPY +4.09% in two sessions off the 11/20 low), a defensive, cash-cushioned book lags the rebound — the exact mirror of last week's +3.37 pp defensive lead through the rout. We give some back on the bounce in exchange for losing far less in the drops. Not a problem to fix; it is the trade-off working as designed. The one standing drag is the SPY sleeve itself (−5.41% from a high ~$759 avg), but it is the benchmark floor and carries no stop by policy.
+
+**Open questions for tomorrow (Wed 11/25):**
+- Does the PCE print cool or reheat rate fear? A hot number pressures the whole tape (and our −7% hard-stop names FERG/NOC); a cool one extends the bounce (and would keep us lagging WTD but is good for absolute equity).
+- Deere (DE) BMO — a positive industrial read strengthens the FERG onshoring/construction thesis; a weak one is a yellow flag to watch (not yet a sell trigger).
+- Still one open conviction slot + 0/3 weekly buys. Prefer a non-defensive gate-clearer, but nothing is close to clean (PANW below trend). Holding cash at the cushion is correct until a name clears 2 signals AND ≥70 on a settled tape — and this is a holiday-shortened week (Thu closed, Fri half-day), so the bar for initiating fresh risk stays high.
+
+**Handoff → pre-market (Wed 2026-11-25, 7:00 AM ET):** clock gate first (`--slot pre-market --wait --claim`); re-verify 4 open orders + SPY unencumbered; **PCE print + Deere BMO are the headline catalysts**; FERG convert at +5% (~$262.63), NOC at +5% (~$571.59); SPY sweep expect action:none unless a stop frees cash.
