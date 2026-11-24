@@ -1,3 +1,18 @@
+## 2026-11-24 13:00 ET · ☀️ midday
+
+**Midday: steady — nothing to change, and we've edged ahead of the market today.**
+
+**What I did:** I re-checked all five holdings, our safety-net stops, and the cash-sweep math at 1:00 PM. Everything is where it should be, so I made no trades — the right call when nothing clears our bar in either direction.
+
+**Why:** None of our four stocks hit a sell signal (a pre-set exit, like an automatic stop or a broken reason-to-own). Two of them — Ferguson and Northrop — aren't yet up the +5% I need before I swap their fixed safety net for a "trailing stop" (a stop that climbs with the price to lock in gains as it rises). On the buy side, the one name I'm watching, Palo Alto (a cybersecurity company), is still ~$353, below the ~$367 line I'd need it to reclaim first — I don't chase a stock below its trend. And our spare cash ($495 above the ~$10,000 cushion) is too little to buy even one share of our market-tracking fund.
+
+**What happens next:** The close routine (4:00 PM ET) sends your full daily scorecard. The market's big test is tomorrow's inflation report (the "PCE" number the Federal Reserve watches most). Heads-up: markets are closed Thursday (Thanksgiving) and a half-day Friday.
+
+**Numbers I care about:**
+- **Up about $404 (+0.42%) today** — and the overall market (S&P 500) is *down* about −0.42%, so we're ahead by roughly +0.84% right now (that gap is our "alpha," the extra return vs. just owning the market).
+- **$10,495 cash**, right at our ~$10,000 cushion; about 89% invested.
+- **0 of 3 weekly buys used**, one of five stock slots still open.
+
 ## 2026-11-24 09:33 ET · 🔔 market-open
 
 **Open: no trades — our four stocks are steady and nothing new clears the bar.**

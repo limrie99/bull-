@@ -15982,3 +15982,37 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 **Market read (confirming pre-market):** relief-rally fade underway — SPY −1.27% so far (713.41 vs Mon 722.56), tech/semis giving back as expected. Our defensive-tilt book + ~11% cash is +0.83pp ahead of SPY intraday, the mirror of Monday's lag on the up day. Watching **Wed 11/25 PCE** (key Fed test), Deere (DE) Wed BMO (FERG read), Dec 9–10 FOMC (~93% priced for 25bp HIKE).
 
 **Memory written:** portfolio.md (fresh 09:33 ET snapshot), messages.md (teacher-voice 🔔 market-open, prepended), dashboard/state.json (snapshot + message prepend, both ≤8). No trade-log append (no fills). **No Telegram** (no-trade open — per push rules, not a trade/stop/close/weekly/urgent event). Handoff → midday 1:00 PM ET.
+
+---
+
+# 2026-11-24 ~13:00 ET — MIDDAY (Tue) · Opus 4.8 · NO TRADES · sleeve 4/5 (one open slot) · weekly buys 0/3 · equity $96,317.49 · day +0.42% (SPY −0.42%, +0.84pp ahead)
+
+**Run meta — clock gate:** Early summer alarm `0 17 UTC` rang 12:06 ET (an hour early, DST miss). `market_clock.py --slot midday --wait --claim --owner midday` → status **EARLY** (−54 min), slept ~54 min to 13:00:05 ET → re-eval **DUE** ("0 min after the bell time") → **CLAIMED** (stamp 2026-11-24, owner midday; prior claims today: pre-market, market-open). Alpaca `/v2/clock` **is_open=true** (next_close 2026-11-24T16:00-05:00) confirmed before and after the wait. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox **no Pending**; Astra **no proposals**. No order placed before DUE confirmation — all pre-wait calls were read-only.
+
+**Live Alpaca verified (13:00 ET):** account (equity $96,317.49, cash $10,495.23, last_equity $95,913.98 = Mon 11/23 close, trading_blocked false), positions (5: FERG/NOC/PG/RSG + SPY sleeve), open-orders (**exactly 4**: FERG hard 232.61 `ea91d0f9`, NOC hard 506.26 `59a67c62`, RSG trail 231.111 `135c200e`, PG trail 156.231 `272e2864`; SPY 59 unencumbered). None fired — identical to Mon close / today's open.
+
+**Risk management (priority order):**
+- **(a) Any position −7% un-stopped?** NO. FERG +0.89%, NOC +2.16%, PG +16.53%, RSG +15.21% (all from entry); SPY −5.31% (index-floor, deliberate no-stop carve-out). No news check needed — nothing near the hard line.
+- **(b) Any +5%-from-entry needing hard→trailing conversion?** NO. FERG +0.89% (convert ~$262.63), NOC +2.16% (convert ~$571.59) — both below the +5% line. PG/RSG already trailing.
+- **(c) Daily loss cap:** day **+0.42%** (base = last_equity $95,913.98) — not breached (cap −3%). New buys still allowed.
+- **(d) Sell signals?** NONE. All four theses INTACT; no −7% breach, no thesis break, no guidance cut; no stops fired.
+
+**No new buy (midday bar = breaking catalyst only).** **Research:** lead buy-STOP idea PANW live $353.14 — still well below the ~$367 50dMA reclaim trigger; no breaking catalyst surfaced. CLS watch-only pending 50dMA + high-beta ≤10% cap. **Trader:** no gate-clearer (needs 2+ signals AND Conviction ≥70 on a settled tape + a decisive $367 reclaim for PANW) — stand down, open slot stays open. No deviation from the pre-market/open plan.
+
+**SPY sweep `action:none`.** `spy_floor.py --equity 96169.89 --cash 10495.23 --spy-price 716.53 --spy-shares 59 --stock-market-value 43395.845` → action none ("cash already within one SPY share of the cushion"). Cushion $10,000 (max of $10k and 10%·equity $9,632). Excess ~$495 < 1 SPY share (~$716–720). spy_target ~$42,774 (44.48%); holding 59 ≈ $42,444. Nothing to sweep (no stop fired → no freed cash).
+
+**Market read:** relief-rally fade firming into a flat/mildly-green tape — SPY −0.42% on the day (719.56 vs Mon 722.56), well off the −1.27% open low; our book +0.42% day → +0.84pp ahead intraday, defensive tilt + ~11% cash cushion doing its job on a choppy tape. **Wed 11/25 PCE** (key Fed test) + Deere (DE) Wed BMO (FERG read) ahead; **Thu 11/26 CLOSED, Fri 11/27 half-day (close 13:00 ET)**; Dec 9–10 FOMC (~93% priced for 25bp HIKE).
+
+**Week-to-date (baseline Fri 11/20 close, continuous with prior runs):** equity +~3.28% vs SPY +~4.18% → alpha ~−0.90 pp (behind on the week as the market snaps back from last week's rout, the mirror of our +3.37pp defensive lead the week before — by design).
+
+**Memory written:** portfolio.md (fresh 13:00 ET midday snapshot), messages.md (teacher-voice ☀️ midday, prepended), dashboard/state.json (snapshot + message prepend, both ≤8). No trade-log append (no fills). **No Telegram** (quiet midday — not a trade/stop/close/weekly/urgent event; the close owns the mandatory daily "How we're doing" push). slot-stamp.json claim committed with this run's push.
+
+**Handoff → market-close (Tue 2026-11-24, 4:00 PM ET):**
+- **Clock gate first:** `market_clock.py --slot market-close --wait --claim --owner market-close`; the close is not the close while Alpaca `next_close` >20 min away. Summer alarm `0 20 UTC` rings early → `--wait` holds to 4:00 PM ET.
+- **MANDATORY daily "How we're doing" message + Telegram push** — never skipped, trade or no trade. Lead with the plain-English scorecard (day $ and %, vs SPY, ahead/behind), then why, then tomorrow's watch.
+- Re-verify live: account/positions/open-orders/clock; confirm **exactly 4** open orders unchanged (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`); SPY 59 unencumbered; daily loss-cap.
+- **FERG** +0.89% — hold on hard stop 232.61; convert to trailing only at +5% from entry (~$262.63). **NOC** +2.16%, convert at +5% (~$571.59). PG/RSG floors ratchet automatically.
+- **No stock buy planned** — PANW only on a decisive ~$367 50dMA reclaim on a settled tape; below trend → stand down. CLS watch-only.
+- **SPY sweep at close** (if market still open and cash > cushion): expect `action:none` unless a stop fires intraday and frees cash → then sweep same session. No margin.
+- **What would change the plan:** any held name hitting a stop (then same-day SPY sweep of freed cash); PANW decisively reclaiming $367 on a settled tape; a sharp risk-off into the close pressuring the loss cap; the Wed 11/25 PCE print.
+- **Calendar (Alpaca-verified):** Wed 11/25 normal full day; **Thu 11/26 CLOSED (Thanksgiving)**; **Fri 11/27 half-day (close 13:00 ET)**; Mon 11/30 normal.
