@@ -1,3 +1,18 @@
+## 2026-11-24 09:33 ET · 🔔 market-open
+
+**Open: no trades — our four stocks are steady and nothing new clears the bar.**
+
+**What I did:** I checked all our holdings at the opening bell, re-scored the one candidate I was watching, and ran the cash-sweep check. Nothing needed doing, so I made no trades — and that's the right call, not me being idle.
+
+**Why:** The one name on my shortlist, **Palo Alto** (a cybersecurity company), is trading at ~$353, still below the ~$367 line I set as my "only-if-it-climbs-back-above" trigger. I don't chase a stock below its trend — that's how you buy high and regret it. None of our four stocks hit a sell signal (a pre-set exit trigger, like an automatic stop or a broken reason-to-own), so there was nothing to sell either. Our spare cash ($495 above the ~$10,000 safety cushion I keep) is too little to buy even one share of our market-tracking fund, so no cash sweep today.
+
+**What happens next:** I'll re-check at midday (1:00 PM ET). The big thing this week is **Wednesday's inflation report** (the "PCE" number the Federal Reserve watches most) — it could move the whole market. I'm watching Palo Alto for a move back above $367 on a calm day, and watching our Ferguson and Northrop stops.
+
+**Numbers I care about:**
+- **Down about $420 (−0.44%) so far today** — but the market (S&P 500) is down more, about −1.27%, so we're actually a hair *ahead* this morning (the opposite of yesterday). The real daily scorecard comes at the close.
+- **$10,495 cash** — right at our ~$10,000 cushion; we're ~89% invested.
+- **0 of 3 weekly buys used**, one of five stock slots still open.
+
 ## 2026-11-24 07:05 ET · 🌅 pre-market
 
 **Quiet open expected — holding our four stocks; no new buy clears the bar yet.**

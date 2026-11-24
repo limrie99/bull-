@@ -1,54 +1,54 @@
 {
-  "last_update": "2026-11-24 07:05 ET",
-  "last_routine": "pre-market",
+  "last_update": "2026-11-24 09:33 ET",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 95601.34,
+  "equity": 95493.75,
   "cash": 10495.23,
-  "day_pl": -312.64,
-  "day_pl_pct": -0.33,
-  "week_pl_pct": 2.51,
-  "spy_week_pct": 4.62,
-  "alpha_week_pct": null,
+  "day_pl": -420.23,
+  "day_pl_pct": -0.44,
+  "week_pl_pct": 2.4,
+  "spy_week_pct": 3.29,
+  "alpha_week_pct": -0.89,
   "week_grade": null,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "current": 252.0,
-      "pl_pct": 0.75,
+      "current": 251.855,
+      "pl_pct": 0.69,
       "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 542.14,
-      "pl_pct": -0.41,
+      "current": 547.77,
+      "pl_pct": 0.62,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 170.88,
-      "pl_pct": 15.41,
+      "current": 170.89,
+      "pl_pct": 15.42,
       "stop": 156.231
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 247.69,
-      "pl_pct": 13.62,
+      "current": 247.285,
+      "pl_pct": 13.43,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 716.17,
-      "pl_pct": -5.74,
+      "current": 713.41,
+      "pl_pct": -6.1,
       "stop": null
     }
   ],
@@ -120,6 +120,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-24 09:33 ET",
+      "routine": "market-open",
+      "headline": "Open: no trades \u2014 our four stocks are steady and nothing new clears the bar",
+      "body": "Checked every holding at the bell; no sell signals and no gate-clearing buy. Palo Alto (~$353) is still below my $367 'only-if-it-reclaims' line, so no chase. Cash ($10,495) is right at the ~$10k cushion \u2014 too little to sweep even one SPY share. Down ~$420 (\u22120.44%) so far, but the S&P 500 is down more (\u22121.27%), so we're a hair ahead this morning. 0/3 weekly buys used, one stock slot open. Real scorecard at the close."
+    },
+    {
       "ts": "2026-11-24 07:05 ET",
       "routine": "pre-market",
       "headline": "Quiet open expected \u2014 holding our four stocks; no new buy clears the bar yet",
@@ -148,10 +154,6 @@
     {
       "when": "2026-11-20 15:00 CT \u00b7 market-close",
       "headline": "Close: equity $93,360 \u00b7 day \u22121.87% \u00b7 SPY \u22123.52% \u00b7 alpha +1.65%"
-    },
-    {
-      "when": "2026-11-20 12:00 CT \u00b7 midday",
-      "headline": "Midday: steady \u2014 no changes, and we're still beating the market."
     }
   ]
 }
