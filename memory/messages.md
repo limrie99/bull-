@@ -1,3 +1,12 @@
+## 2026-11-24 07:05 ET · 🌅 pre-market
+
+**Quiet open expected — holding our four stocks; no new buy clears the bar yet.**
+
+- All four holdings look healthy. Monday's big bounce is cooling and investors are rotating toward industrials — a tailwind for our Ferguson (a plumbing/heating distributor).
+- One cybersecurity name, **Palo Alto**, scored a solid "B+" on our checklist, but it's sitting just under its trend line. I'll only buy it if it climbs back above — I don't chase.
+- No trades this morning (market's closed). I'll re-check at the 9:30 open.
+- Heads-up: markets are **closed Thursday** (Thanksgiving) and **half-day Friday**.
+
 ## 2026-11-23 16:00 ET · 🌇 market-close
 
 **Close: equity $95,975 · day +2.91% · SPY +4.62% · alpha −1.70%**

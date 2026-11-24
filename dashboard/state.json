@@ -1,60 +1,55 @@
 {
-  "last_update": "2026-11-23 16:00 ET",
-  "last_routine": "market-close",
+  "last_update": "2026-11-24 07:05 ET",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 95974.72,
+  "equity": 95601.34,
   "cash": 10495.23,
-  "day_pl": 2716.83,
-  "day_pl_pct": 2.91,
-  "week_pl_pct": 2.91,
+  "day_pl": -312.64,
+  "day_pl_pct": -0.33,
+  "week_pl_pct": 2.51,
   "spy_week_pct": 4.62,
-  "alpha_week_pct": -1.70,
+  "alpha_week_pct": null,
   "week_grade": null,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "price": 252.79,
-      "pl_pct": 1.07,
-      "mv": 11122.76,
-      "stop": "−7% hard 232.61"
+      "current": 252.0,
+      "pl_pct": 0.75,
+      "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "price": 542.14,
+      "current": 542.14,
       "pl_pct": -0.41,
-      "mv": 9758.52,
-      "stop": "−7% hard 506.26"
+      "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "price": 169.89,
-      "pl_pct": 14.74,
-      "mv": 11042.85,
-      "stop": "10% trail 156.231"
+      "current": 170.88,
+      "pl_pct": 15.41,
+      "stop": 156.231
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "price": 247.69,
+      "current": 247.69,
       "pl_pct": 13.62,
-      "mv": 10898.36,
-      "stop": "10% trail 231.111"
+      "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "price": 723.0,
-      "pl_pct": -4.84,
-      "mv": 42657.0,
-      "stop": "none (index floor)"
+      "current": 716.17,
+      "pl_pct": -5.74,
+      "stop": null
     }
   ],
   "recent_trades": [
@@ -64,7 +59,7 @@
       "symbol": "FERG",
       "qty": 44,
       "price": 250.12,
-      "note": "Ferguson conviction buy (1/3 wk); −7% hard stop 232.61"
+      "note": "Ferguson conviction buy (1/3 wk); \u22127% hard stop 232.61"
     },
     {
       "date": "2026-11-18",
@@ -88,7 +83,7 @@
       "symbol": "CDNS",
       "qty": 26,
       "price": 307.09,
-      "note": "−7% hard stop fired (−$607.36); hot NFP flushed EDA"
+      "note": "\u22127% hard stop fired (\u2212$607.36); hot NFP flushed EDA"
     },
     {
       "date": "2026-11-05",
@@ -125,36 +120,38 @@
   ],
   "latest_messages": [
     {
-      "when": "2026-11-23 16:00 ET · market-close",
-      "headline": "Close: equity $95,975 · day +2.91% · SPY +4.62% · alpha −1.70% — a strong green day, just a step behind a market that bounced harder."
+      "ts": "2026-11-24 07:05 ET",
+      "routine": "pre-market",
+      "headline": "Quiet open expected \u2014 holding our four stocks; no new buy clears the bar yet",
+      "body": "All four holdings healthy; Monday's bounce is cooling with money rotating into industrials (tailwind for Ferguson). Palo Alto scored a 'B+' but sits just under its trend line \u2014 I'll only buy on a clean reclaim, not a chase. No trades (market closed). Markets closed Thu (Thanksgiving), half-day Fri."
     },
     {
-      "when": "2026-11-23 13:00 ET · midday",
-      "headline": "Midday: steady — nothing to change, and we're having a strong up day (just behind a market that bounced even harder)."
+      "when": "2026-11-23 16:00 ET \u00b7 market-close",
+      "headline": "Close: equity $95,975 \u00b7 day +2.91% \u00b7 SPY +4.62% \u00b7 alpha \u22121.70% \u2014 a strong green day, just a step behind a market that bounced harder."
     },
     {
-      "when": "2026-11-23 09:32 ET · market-open",
-      "headline": "Open: no trades — we're holding steady while the market bounces back."
+      "when": "2026-11-23 13:00 ET \u00b7 midday",
+      "headline": "Midday: steady \u2014 nothing to change, and we're having a strong up day (just behind a market that bounced even harder)."
     },
     {
-      "when": "2026-11-23 07:05 ET · pre-market",
-      "headline": "Quiet open plan — market's bouncing back, but no new buy for us yet."
+      "when": "2026-11-23 09:32 ET \u00b7 market-open",
+      "headline": "Open: no trades \u2014 we're holding steady while the market bounces back."
     },
     {
-      "when": "2026-11-20 16:00 CT · weekly review",
-      "headline": "Week ending Nov 20: −5.06% | SPY −8.43% | alpha +3.37% | grade A−"
+      "when": "2026-11-23 07:05 ET \u00b7 pre-market",
+      "headline": "Quiet open plan \u2014 market's bouncing back, but no new buy for us yet."
     },
     {
-      "when": "2026-11-20 15:00 CT · market-close",
-      "headline": "Close: equity $93,360 · day −1.87% · SPY −3.52% · alpha +1.65%"
+      "when": "2026-11-20 16:00 CT \u00b7 weekly review",
+      "headline": "Week ending Nov 20: \u22125.06% | SPY \u22128.43% | alpha +3.37% | grade A\u2212"
     },
     {
-      "when": "2026-11-20 12:00 CT · midday",
-      "headline": "Midday: steady — no changes, and we're still beating the market."
+      "when": "2026-11-20 15:00 CT \u00b7 market-close",
+      "headline": "Close: equity $93,360 \u00b7 day \u22121.87% \u00b7 SPY \u22123.52% \u00b7 alpha +1.65%"
     },
     {
-      "when": "2026-11-20 08:34 CT · 🔔 market-open",
-      "headline": "Open: no trades — I passed on Disney because it ran up too fast to buy well."
+      "when": "2026-11-20 12:00 CT \u00b7 midday",
+      "headline": "Midday: steady \u2014 no changes, and we're still beating the market."
     }
   ]
 }

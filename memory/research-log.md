@@ -1,3 +1,58 @@
+# 2026-11-24 ~07:00 ET — PRE-MARKET (Tue) · Opus 4.8 · NO TRADES (market closed) · sleeve 4/5 (one open slot) · weekly buys 0/3 · equity ~$95,601 (pre-mkt) · plan: hold, no clean open-buy; PANW buy-STOP on $367 reclaim; SPY sweep action:none
+
+**Run meta — clock gate:** winter cron `0 12 UTC` on time (12:03 UTC = 07:03 ET). `market_clock.py --slot pre-market --wait` → **DUE** ("4 min after the bell time"). Alpaca `/v2/clock` **is_open=false** (next_open 2026-11-24T09:30-05:00) — pre-market expects closed ✓ → re-ran `--clock-is-open false --next-open 09:30` → **DUE**. **CLAIMED** (stamp 2026-11-24, owner pre-market, no prior claim today). Claim committed + pushed `HEAD:main` BEFORE research. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders (exactly 4), clock, calendar. Research fan-out: 4 sub-agents (macro / earnings / holdings / opportunity+risk), all returned, both Perplexity-backed.
+
+## ⚠️ Calendar correction (VERIFIED via Alpaca `/v2/calendar`)
+Memory has repeatedly said "closed Thu 11/27, half-day Fri 11/28." **That is wrong by one day.** Today 11/24 is a **Tuesday** (Alpaca clock `2026-11-24 EST`, market open today). Alpaca calendar 11/24–11/30: **11/24 Tue full, 11/25 Wed full, 11/26 Thu NOT a trading day (Thanksgiving, CLOSED), 11/27 Fri half-day (close 13:00 ET), 11/30 Mon full.** Corrected in portfolio handoff + message. Routines are protected regardless because each gate re-checks the live Alpaca clock (a holiday shows is_open=false → stand down), but the user-facing dates must be right.
+
+## Market context
+- **Relief rally is FADING, not extending.** Mon 11/23 SPY closed 722.56 (+4.62%) — a sharp bounce off last week's rout. Overnight: ES/NQ ~flat-to-lower, megacap tech & semis giving back (MU/AMD/MRVL ~−3.3% to −4.3% pre-mkt). VIX elevated ~27.75. Read Monday as digestion/relief, not an all-clear.
+- **Rates/Fed:** 10Y ~4.93% (2Y ~4.68%) — still high, little relief. CME FedWatch ~93% for a **25bp HIKE** at Dec 9–10 FOMC (hawkish backdrop intact). DXY ~104.3 firm; gold ~$3,610–3,637; WTI ~$80.
+- **Rotation:** OUT of high-beta tech/semis, **INTO industrials and financials** (value rotation) — a relative tailwind for **FERG** (industrials distributor) and mild support for **NOC** (defense + geopolitical bid). Staples/waste (PG/RSG) catch a defensive bid on a tech-down tape.
+- **Global:** Asia strong o/n (Nikkei +3.6%, Kospi +6.3%, Taiwan +9%; HK −0.8%); Europe flat-soft.
+- **Next catalysts:** **Wed 11/25 PCE inflation print** (the week's key Fed test); **Deere (DE) Wed BMO** = clean industrial read for FERG; ADSK tonight AMC (watchlist, deferred). Thanksgiving-week thin liquidity can exaggerate moves.
+- *(Data caveat: one macro feed cited an implausible "NVDA +31.5% / SPY −4.71% pre-market" — garbage, discarded. Directional read above is the consensus of the credible feeds.)*
+
+## Portfolio watch (all 4 theses INTACT — holdings agent, Perplexity-backed)
+| Sym | Entry | Last (Mon close) | P/L% | Stop | 24h news | Analyst flow (7–14d) | F/S | Verdict |
+|---|---|---|---|---|---|---|---|---|---|
+| FERG | 250.12 (11/18) | 252.79 | +1.07% | HARD 232.61 | none | BofA PT $315→$320 Buy (11/18); RBC OP $286→$288; Bernstein $325 | 78/72 | INTACT · industrials rotation tailwind |
+| NOC | 544.37 (10/23) | 542.14 | −0.41% | HARD 506.26 | none | no fresh; BNP $630 ref; avg PT $636 | 80/76 | INTACT · geopolitical/defensive bid |
+| PG | 148.06 (10/08) | 169.89 | +14.74% | TRAIL 156.231 | none | MS OW $185→$192 (11/23); BofA $185→$190 (11/23); Citi $190; TD Cowen $166→$180 | 74/75 | INTACT · trailing stop protects +15% |
+| RSG | 218.00 (09/18) | 247.69 | +13.62% | TRAIL 231.111 | none | JPM UPGRADE Neutral→OW $265→$295 (11/11); Argus $275 | 77/74 | INTACT · trailing stop protects +13% |
+| SPY | 759.746 | 723.00 | −4.84% | NONE (index) | — | — | — | index floor; directly exposed to a tech-led give-back of part of Mon's bounce — digestion, not a thesis-break, NO stop by design |
+
+- **Conversions:** FERG converts hard→trailing at +5% from entry (~$262.63); NOC at ~$571.59. Both below the line (FERG +1.07%, NOC −0.41%). PG/RSG floors ratchet automatically.
+
+## Buy candidates (Conviction = 0.30·F + 0.30·Th + 0.20·S + 0.12·R + 0.08·T; I own Thesis & Tech)
+| Ticker | Conviction (F/Th/S/R/T) | Beta · Def? | Signals (verified) | Catalyst | Gate? |
+|---|---|---|---|---|---|
+| **PANW** (cybersecurity SW) | **73 (82/68/78/68/55)** | 0.97 · No | #1 Q1FY27 beat 11/18 (EPS $1.05 v $0.97, rev $3.44B v $3.31B; FY27 EPS guide $4.26–4.30) + #4 Phillip Sec Neutral→Buy PT $418 (11/23), BMO PT $425 (11/20) + #3 cybersec secular = **3** | post-beat continuation; **no fresh dated catalyst next 30d** | **Score clears (73≥70, 3 sig) BUT entry fails** — **$353.43, ~3.8% BELOW 50dMA (~$367)**. Low Tech score reflects this. **BUY-STOP on a decisive ~$367 reclaim on a SETTLED (non-gap) tape — do NOT buy below trend into a fading tech tape.** Non-defensive, beta 0.97 (<1.0 → no +5 bonus). |
+| **CLS** (Celestica, AI-server EMS) | **69 (80/65/75/52/50)** | **2.11** · No | #1 beat (EPS $3.30 v $3.02, rev $5.74B v $5.39B) + #4 Wall St Zen Hold→Buy (11/23) = **2** | AI-hardware cyclical; ~$27B cap | **Below gate (69<70).** 50dMA/price UNVERIFIED → confirm first. Extreme beta 2.11 → ≤10% high-beta starter cap would bind; overlaps FERG industrials sub-sleeve. NEAR-TRIGGER, watch only. |
+| **MSFT** (mega-cap tech) | **~68 (entry-fail)** | 1.04 · No | #3 cloud/AI secular + #5 post-tech rotation = ~2 | — | $492.50 — **below the ~$520 re-arm trigger**, below 50dMA. NOT re-armed. Watch. |
+| **DIS** (entertainment) | **62 (70/58/60/65/45)** | 1.43 · No | #3 streaming secular = **1** | none fresh | **$120.27, ~9% ABOVE 50dMA = extended/chase.** Only 1 signal → fails signal count too. Wait for a pullback toward ~$111. |
+| **SCHW** (Schwab, financials) | **~60** | **0.42 · DEF** | #4 Raymond James Outperform→Strong Buy PT $135 (11/18) = **1** | — | $92.37 — below the $95 reclaim trigger AND **DEFENSIVE-CAPPED** (beta 0.42 <0.85; sleeve already 2/5 defensive via PG/RSG). **Blocked even if it cleared.** Watch. |
+| **ADSK** (design SaaS) | **72 (defer)** | ~1.1 · No | #4 Loop upgrade + #3 secular + #6 uptrend = 3 | **EARNINGS TONIGHT AMC** (cons EPS ~$3.07–3.13, rev ~$2.13–2.18B; guide risk HIGH vs mgmt $2.125–2.14B; implied move ~±2.3%) | **DEFER — in earnings blackout, reports tonight.** Re-evaluate only after the print (Wed). Do NOT initiate into the binary (SNPS entry-timing near-veto). |
+| **UBER** | <60 | 1.3 · No | 11/4 print mixed, FY guide below cons | — | **$64.07, ~1.2% above 52wk low = AT FRESH LOWS.** Fails "no knife-catching." **DROP from active watchlist.** |
+
+**Gate status: NO name is an actionable clean buy at the open.** PANW is the single best idea but is a **buy-STOP on a confirmed ~$367 50dMA reclaim**, not a pre-emptive market buy — and today's fading tech tape is the wrong backdrop to chase a below-trend software name. Correct posture: **hold the 4 names, no forced buy, keep the slot open.**
+
+## Sell candidates
+- **NONE.** All 4 theses INTACT; no −7% breach, no thesis break, no guidance cut. Closed-orders 0 overnight → no stops fired; open orders exactly 4.
+
+## SPY same-day sweep (handed from Mon close)
+`spy_floor.py` (live: equity ~$95,601, cash $10,495.23, SPY ~$716.17) → **`action: none`** — "cash is already within one SPY share of the cushion." Cash is ~$495 above the $10k cushion = <1 share. Standing action persists: **if any stop fires today and frees cash above the cushion, sweep into SPY the SAME session.** Do not size off buying power (margin).
+
+## Handoff → market-open (Tue 2026-11-24, 9:30 ET open / gate ~9:33)
+- **Clock gate first:** winter cron `0 14:30 UTC`; summer rings ~57m early → `market_clock.py --slot market-open --wait --claim --owner market-open`; confirm Alpaca `/v2/clock` is_open=true before any order.
+- **Re-verify live:** account, positions, **exactly 4 open orders** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`); SPY (59) unencumbered; daily loss-cap check.
+- **No stock buy planned at the open.** No name is a clean gate-clearer on a settled tape. **Standing buy-STOP idea: PANW** — engage ONLY on a decisive reclaim of its ~$367 50dMA on a settled (non-gap) tape, with the 11/18 beat + 11/23 upgrade still intact; Conviction ~73, 3 signals, non-defensive, size B+ band (10–15%) funded by an SPY trim. **Do NOT buy PANW below its 50dMA / into the fading tech tape.** CLS watch-only pending 50dMA confirmation (+ high-beta cap). ADSK deferred past tonight's AMC print.
+- **SPY same-day sweep (standing):** run `scripts/spy_floor.py` live at the open; expect `action:none` (cash ~$495 above cushion = <1 share) UNLESS a stop fires and frees cash → then sweep SAME session.
+- **Conversions:** FERG→trailing at +5% (~$262.63); NOC at +5% (~$571.59). Neither close.
+- **What would change the plan:** any held name hitting a stop (then same-day SPY sweep of freed cash); PANW decisively reclaiming $367 on a settled tape; the tech-led fade deepening and pressuring SPY/FERG; Wed PCE surprise reshaping the Fed path. **DIS/SCHW/MSFT watch-only; UBER dropped; ADSK deferred.**
+- **Calendar (CORRECTED):** Wed 11/25 normal full day; **Thu 11/26 CLOSED (Thanksgiving)**; **Fri 11/27 half-day (close 13:00 ET)**; Mon 11/30 normal.
+
+---
 # 2026-11-23 ~16:00 ET — MARKET-CLOSE (Mon) · Day summary — Opus 4.8 · NO TRADES · no stops fired · sleeve 4/5 (one open slot) · weekly buys 0/3 (new week 11/23–11/28) · equity $95,974.72 · day +2.91% · SPY +4.62% · alpha −1.70pp
 
 **Run meta — clock gate:** summer cron `0 20 UTC` rang ~57 min early (20:02 UTC = 15:02 ET; script `EARLY`, wait 3441s). `market_clock.py --slot market-close --wait` held to **21:00 UTC = 16:00 ET** → **DUE** ("1 min after the bell", `waited:true`). Alpaca `/v2/clock` **is_open=false** (timestamp 16:00:17 ET, bell rung; next_open 2026-11-24 09:30) → re-ran script `--clock-is-open false --next-close 2026-11-24T16:00` → **DUE**, "the bell has rung… the scorecard can run." **CLAIMED** (stamp 2026-11-23, owner market-close, no prior claim today; a concurrent winter `0 21` ring would see ALREADY_CLAIMED and stand down). Claim (slot-stamp.json) committed + pushed `HEAD:main` (0c2babc..136ff43) BEFORE the scorecard. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders (exactly 4), clock, SPY bars/trade, portfolio/history.
