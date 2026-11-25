@@ -1,3 +1,54 @@
+# 2026-11-25 ~07:05 ET — PRE-MARKET (Wed) · Opus 4.8 · NO TRADES (market closed) · sleeve 4/5 (one open slot) · weekly buys 0/3 · equity ~$95,568 (pre-mkt indicative) · plan: hold, no gate-clearing open-buy; PANW buy-trigger on $367 50d reclaim (needs Conviction ≥70 too); SPY sweep expect action:none
+
+**Run meta — clock gate:** winter cron `0 12 UTC` on time (12:03 UTC = 07:03 ET). `market_clock.py --slot pre-market --wait` → **DUE** ("3 min after bell"). Alpaca `/v2/clock` **is_open=false** (next_open 2026-11-25T09:30-05:00) — pre-market expects closed ✓ → re-ran `--clock-is-open false --next-open 09:30` → **DUE** → **CLAIMED** (stamp 2026-11-25, owner pre-market, no prior claim). Claim committed + pushed `HEAD:main` BEFORE research. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals**. Live Alpaca verified: account (equity $95,567.53 pre-mkt indicative, cash $10,495.23, status ACTIVE, trading_blocked false), positions (5), **open-orders exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`; SPY 59 unencumbered), clock. Research fan-out: 4 sub-agents (macro / earnings / holdings / opportunity+scoring), all returned, all Perplexity-backed. Data caveat: several Perplexity feeds noisy/stale pre-holiday (futures magnitudes, FedWatch odds, and Deere's reported EPS all conflicted across feeds) — directional reads kept, hard numbers flagged as approximate.
+
+## Market context
+- **Stand-aside morning until the 8:30 AM ET October PCE print** (the Fed's preferred inflation gauge). Consensus core PCE ~+0.3% m/m / ~+3.2% y/y — an *acceleration* already expected, so an in-line print may be a non-event; the tell is the fed-funds-futures reaction. HOT (>0.3%/>3.2%) → kills Dec-cut odds, yields/dollar up, pressures long-duration/high-beta tech; COOL → risk-on relief.
+- **Rates/FX/commodities (approx, Nov-24 ref):** 10Y ~4.93%, 2Y ~4.68%; DXY ~104.3 firm; gold ~$3,637 (+~3%, hedge bid on); WTI ~$82 / Brent ~$91 (+~2.3%, mild inflation headwind). Net: defensive/inflation-wary into the print.
+- **Rotation:** INTO healthcare + utilities (less AI/rate-sensitive leadership); OUT of technology (weakest) and energy (profit-taking). Mild cross-read for our book: neutral.
+- **Fed:** Dec 9–10 FOMC the next big event (markets fear a 25bp HIKE). CME FedWatch split UNVERIFIED this run (Perplexity gap) — re-check post-8:30.
+- **Earnings:** Deere (DE) reported pre-open — print read **mixed/noisy across feeds** (ag-equipment cycle, one-time pension charge in FY27 guide); **limited direct FERG read-through** (DE = ag machinery; FERG = plumbing/HVAC/waterworks/construction). Not a trade trigger; watch nonres-construction commentary. ADSK (watchlist) reported Tue AMC: **beat-and-raise but shares fell ~4% AH** (~$246) on forward/cash-flow setup — yellow flag, demotes ADSK as a near-term candidate.
+- **Calendar (Alpaca-verified):** Wed 11/25 full day; **Thu 11/26 CLOSED (Thanksgiving)**; **Fri 11/27 half-day (close 13:00 ET), thin liquidity**; Mon 11/30 full.
+
+## Portfolio watch (all 4 theses INTACT — holdings agent, Perplexity-backed; no sell signals)
+| Sym | Entry | Last (pre-mkt mark) | P/L% | Stop | 24h news / analyst flow | Sent | Verdict |
+|---|---|---|---|---|---|---|---|
+| FERG | 250.12 (11/18) | 252.24 | +0.85% | HARD 232.61 (~8.5% above) | No co. news; BofA PT $320 Buy (11/18) stands; mild Nov-12 insider Form-4 sale + Mawer trim (routine). Deere read mixed. | 66 | INTACT (soft watch) |
+| NOC | 544.37 (10/23) | 555.83 | +2.10% | HARD 506.26 (~9% above) | **Mizuho initiated Outperform PT $680 (11/24)** — fresh positive; record backlog, B-21 test 11/22, PAC-3 order 11/16 stand. | 78 | INTACT — strengthened |
+| PG | 148.06 (10/8) | 173.50 | +17.18% | TRAIL 156.231 (10%) | Quiet; 11/20 Investor Day productivity story stands. | 60 | INTACT — winner, stop protects |
+| RSG | 218.00 (9/18) | 252.15 | +15.67% | TRAIL 231.111 (10%) | Quiet; Argus $275 / JPM OW $295 / $5B buyback stand. | 58 | INTACT — winner, stop protects |
+| SPY | 759.746 | 705.04 | −7.20% | NONE (index sleeve) | Pre-mkt indicative mark (SPY ~705 vs 718.91 Tue close = soft pre-open tape into PCE); participates in the index by design. | — | HOLD — benchmark floor |
+
+- **Stops:** none fired. **+5%→trailing conversion:** NOT due — FERG +0.85% (convert ~$262.63), NOC +2.10% (convert ~$571.59); both below the +5% line. PG/RSG already trail.
+- **Defensive count 2/4** (PG staples, RSG waste) — AT the sleeve cap; FERG/NOC non-defensive. New buys must be non-defensive.
+
+## Buy candidates (Conviction = 0.30·Fund + 0.30·Thesis + 0.20·Sent + 0.12·Risk + 0.08·Tech; gate = 2+ signals AND ≥70)
+| Ticker | Conv | Fund | Thesis | Sent | Risk | Tech | Beta | Def? | Signals matched | Catalyst | Status |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| PANW | **67** (B) | 78 | 62 | 74 | 58 | 45 | >1 | No | #1 beat+raise, #3 secular cyber, #4 OW upgrade $380 (11/18) = **3** — but **#6 FAILS** (price ~$353 vs 50d $367) | Soft (next earns ~Feb; $4.5B Applied Compute acq. narrative) | **NEAR-TRIGGER / WATCH** — buy only on decisive $367 50d reclaim on volume (adds #6, lifts Tech/Thesis over ≥70). Best bench name. |
+| DELL | **62** (B) | 72 | 60 | 60 | 55 | 45 | 1.44 | No | #1 beat+raise (rev +103% YoY AI servers, raised guide 11/24), #3 AI tailwind = **2** — **#6 FAILS** (below 50d; feeds noisy) | Post-print volatility | **WATCH** (NEW) — cheap (fwd P/E ~9) + compelling, but no clean entry; needs to rebuild above 50d. Verify technicals on Alpaca. |
+| DE | **60** (B) | 68 | 55 | 55 | 70 | 50 | 0.89 | No (borderline-low beta) | #1 beat (today), #2 catalyst (today) = **2** — but earnings-day gap = not a clean non-extended entry; +6% growth fails growth screen | Today's print (past) | **WATCH** post-print reaction; cyclical ag trough, low-growth — not conviction. |
+| DIS | **59** (B) | 62 | 55 | 58 | 62 | 65 | 1.43 | No | #6 clean uptrend (~$122 above 50d ~$111) = **1 only** | None in 30d (earns 11/17 passed) | **WATCH** — only clean chart but no catalyst to trigger. |
+| SCHW | **61** (B) | 65 | 55 | 65 | 68 | 50 | **0.75** | **YES (beta<0.85)** | #4 RJ upgrade — ~1 clean signal; below $95 50d reclaim (~$93.9) | Rate-stays-high | **BLOCKED** — ★ classification conflict: beta 0.75 = DEFENSIVE; at 2/2 defensive cap, NOT eligible as a non-defensive buy even on a $95 reclaim. Watch, don't buy. |
+
+**Housekeeping:** AMD **DOWNGRADE/AVOID** (~$413, ~25% below 50d ~$550; beta 2.54; no catalyst to Feb — worst name into hot PCE). LFUS **DEMOTE** (~$360, below 50d $400 and 200d $406; Baird CUT target to $455 on 11/23 despite strong Q3 — momentum broken). NVDA WATCH-only (extended, reported this month). ADSK demoted (beat-and-raise sold off ~4% AH). MCK stays BLOCKED (defensive + negative insider tape).
+
+**Gate check:** NO candidate clears **2 signals AND Conviction ≥70**. PANW is closest (3 signals, but 67 and below its 50d). No defensive-cap-blocked name clears the gate either. **NO BUY today** (market closed anyway).
+
+## Sell candidates
+**NONE.** All four theses INTACT; no −7% breach, no thesis break, no guidance cut, no downgrade, zero stops fired.
+
+## Handoff → market-open (Wed 2026-11-25, 9:30 AM ET)
+- **Clock gate first:** `market_clock.py --slot market-open --wait --claim --owner market-open`; summer alarm `30 13 UTC` rings early → `--wait` holds to 9:30 ET. Then `/v2/clock` must be is_open=true before any order.
+- **Re-verify live:** account/positions/open-orders/clock; confirm **exactly 4** open orders (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`); SPY (59) unencumbered.
+- **★ Read the 8:30 AM PCE reaction FIRST.** Do NOT buy into/at the print. Hawkish/hot → stand down, no high-beta entries. Cool → a quality 2-signal + ≥70 non-defensive name could qualify, but thin pre-holiday liquidity argues for patience.
+- **NO stock buy planned** — no name cleared the gate. **PANW buy-trigger:** a decisive ~$367 50d reclaim on volume on a settled tape — AND re-score to confirm Conviction ≥70 at the live quote (currently ~67). DELL watch for a 50d rebuild. Do not chase AMD/NVDA/LFUS into PCE.
+- **SPY same-day sweep (standing):** on market-open/midday with market open and cash > cushion, run `scripts/spy_floor.py`; expect **action:none** — cash $10,495.23 is only ~$495 above the ~$10k cushion (<1 SPY share). Sweep SAME session ONLY if a stop fires and frees cash. Never size off buying power.
+- **Conversions:** FERG convert to trailing at +5% (~$262.63); NOC at +5% (~$571.59) — neither due. PG/RSG floors ratchet automatically.
+- **Caps:** sleeve 4/5 (one open slot); weekly buys 0/3; defensive 2/2 (new buys must be non-defensive). Daily loss cap −3% (not in play pre-open).
+- **This is a Research-voice proposal** — the open routine's Trader voice re-validates at live prices and may decline.
+
+---
 # 2026-11-24 ~07:00 ET — PRE-MARKET (Tue) · Opus 4.8 · NO TRADES (market closed) · sleeve 4/5 (one open slot) · weekly buys 0/3 · equity ~$95,601 (pre-mkt) · plan: hold, no clean open-buy; PANW buy-STOP on $367 reclaim; SPY sweep action:none
 
 **Run meta — clock gate:** winter cron `0 12 UTC` on time (12:03 UTC = 07:03 ET). `market_clock.py --slot pre-market --wait` → **DUE** ("4 min after the bell time"). Alpaca `/v2/clock` **is_open=false** (next_open 2026-11-24T09:30-05:00) — pre-market expects closed ✓ → re-ran `--clock-is-open false --next-open 09:30` → **DUE**. **CLAIMED** (stamp 2026-11-24, owner pre-market, no prior claim today). Claim committed + pushed `HEAD:main` BEFORE research. 4 required keys non-empty; EQUIBLES empty → filing data skipped (Perplexity covers). Inbox **no Pending**; Astra **no proposals** (`astra-proposals.md` still "No proposals yet"). Live Alpaca verified: account, positions, open-orders (exactly 4), clock, calendar. Research fan-out: 4 sub-agents (macro / earnings / holdings / opportunity+risk), all returned, both Perplexity-backed.

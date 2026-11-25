@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-11-24 16:00 ET",
-  "last_routine": "market-close",
+  "last_update": "2026-11-25 07:05 ET",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96217.78,
+  "equity": 95567.53,
   "cash": 10495.23,
-  "day_pl": 303.80,
-  "day_pl_pct": 0.32,
+  "day_pl": null,
+  "day_pl_pct": null,
   "week_pl_pct": 3.17,
   "spy_week_pct": 4.09,
   "alpha_week_pct": -0.91,
@@ -23,16 +23,16 @@
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 550.84,
-      "pl_pct": 1.19,
+      "current": 555.83,
+      "pl_pct": 2.10,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 172.54,
-      "pl_pct": 16.53,
+      "current": 173.50,
+      "pl_pct": 17.18,
       "stop": 156.231
     },
     {
@@ -47,8 +47,8 @@
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 718.91,
-      "pl_pct": -5.41,
+      "current": 705.04,
+      "pl_pct": -7.20,
       "stop": null
     }
   ],
@@ -120,6 +120,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-25 07:05 ET",
+      "routine": "pre-market",
+      "headline": "Quiet, wait-for-data morning — holding our four stocks; no new buy clears the bar",
+      "body": "Big event at 8:30 AM: the PCE inflation report (the Fed's favorite price gauge). I never buy into a print like this — I'll read the reaction first. All four holdings healthy, no sell signals; Northrop drew a fresh 'Outperform' rating (target $680). Best bench idea Palo Alto scored a 'B' — I'd only buy on a clean move back above its trend line. Markets closed Thursday (Thanksgiving), half-day Friday."
+    },
+    {
       "ts": "2026-11-24 16:00 ET",
       "routine": "market-close",
       "headline": "Close: equity $96,218 · day +0.32% · SPY −0.51% · alpha +0.82% — a quiet green day, and we beat the market",
@@ -160,12 +166,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — we're holding steady while the market bounces back",
       "body": "No sell signals and no new buy clears the bar. Holding our four stocks plus the SPY floor."
-    },
-    {
-      "ts": "2026-11-20 16:00 CT",
-      "routine": "weekly review",
-      "headline": "Week ending Nov 20: −5.06% | SPY −8.43% | alpha +3.37% | grade A−",
-      "body": "A brutal week for the market — but our defensive book + cash cushion lost far less than the index, beating SPY by +3.37 points. That's the strategy working exactly as designed in a sell-off."
     }
   ]
 }

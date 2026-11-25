@@ -1,3 +1,12 @@
+## 2026-11-25 07:05 ET · pre-market
+
+**Quiet, wait-for-data morning — holding our four stocks; no new buy clears the bar.**
+
+- Big event at 8:30 AM: the **PCE inflation report** (the Fed's favorite price gauge). I never buy into a print like this — I'll read the reaction first.
+- All four holdings healthy, no sell signals. **Northrop drew a fresh "Outperform" rating** (a firm's buy vote), target $680.
+- Best bench idea, **Palo Alto**, scored a "B" — I'd only buy on a clean move back above its trend line.
+- Markets **closed Thursday** (Thanksgiving), half-day Friday.
+
 ## 2026-11-24 16:00 ET · 🌇 market-close
 
 **Close: equity $96,218 · day +0.32% · SPY −0.51% · alpha +0.82% — a quiet green day, and we beat the market.**
