@@ -1,54 +1,54 @@
 {
-  "last_update": "2026-11-25 09:33 ET",
-  "last_routine": "market-open",
+  "last_update": "2026-11-25 13:00 ET",
+  "last_routine": "midday",
   "mode": "paper",
-  "equity": 95159.36,
+  "equity": 96155.43,
   "cash": 10495.23,
-  "day_pl": -1062.72,
-  "day_pl_pct": -1.1,
-  "week_pl_pct": 2.04,
-  "spy_week_pct": 1.49,
-  "alpha_week_pct": 0.55,
+  "day_pl": -66.65,
+  "day_pl_pct": -0.07,
+  "week_pl_pct": 3.11,
+  "spy_week_pct": 2.87,
+  "alpha_week_pct": 0.24,
   "week_grade": null,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "current": 249.26,
-      "pl_pct": -0.34,
+      "current": 254.78,
+      "pl_pct": 1.86,
       "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 550.61,
-      "pl_pct": 1.15,
+      "current": 554.24,
+      "pl_pct": 1.81,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 173.27,
-      "pl_pct": 17.03,
-      "stop": 156.231
+      "current": 174.28,
+      "pl_pct": 17.71,
+      "stop": 157.104
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 253.62,
-      "pl_pct": 16.34,
+      "current": 255.16,
+      "pl_pct": 17.04,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 701.0,
-      "pl_pct": -7.73,
+      "current": 710.48,
+      "pl_pct": -6.49,
       "stop": null
     }
   ],
@@ -59,7 +59,7 @@
       "symbol": "FERG",
       "qty": 44,
       "price": 250.12,
-      "note": "Ferguson conviction buy (1/3 wk); \u22127% hard stop 232.61"
+      "note": "Ferguson conviction buy (1/3 wk); −7% hard stop 232.61"
     },
     {
       "date": "2026-11-18",
@@ -83,7 +83,7 @@
       "symbol": "CDNS",
       "qty": 26,
       "price": 307.09,
-      "note": "\u22127% hard stop fired (\u2212$607.36); hot NFP flushed EDA"
+      "note": "−7% hard stop fired (−$607.36); hot NFP flushed EDA"
     },
     {
       "date": "2026-11-05",
@@ -120,52 +120,52 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-25 13:00 ET",
+      "routine": "midday",
+      "headline": "Midday: steady, no changes — the morning inflation scare has nearly fully faded; we're ~flat and beating the market by +1.1% today",
+      "body": "Hotter-than-expected PCE inflation dropped the market ~2.5% at the open, but by lunchtime it climbed most of the way back and we're essentially flat (−$67, −0.07%) vs the S&P 500 down −1.17%. No trades: no stop is near, nothing hit +5% to upgrade its stop, and no thesis broke. Deere's earnings today missed on profit (farm-equipment specific) but management flagged strong construction, infrastructure, and data-center demand — good for Ferguson, so I'm holding with confidence. Ahead for the week too. Full wrap at the close; markets closed Thursday, half-day Friday."
+    },
+    {
       "ts": "2026-11-25 09:33 ET",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 hot inflation report dropped the market ~2.5%, our calmer book down just 1.1% and beating it by +1.4%",
-      "body": "October PCE inflation came in hotter than expected, making the Fed more likely to keep rates high \u2014 the market opened sharply lower. I didn't buy into the scared tape (Palo Alto still below its $367 line). No stops fired; all four theses are intact. Our defensive names (PG +17%, RSG +16%) and cash cushion cut the drop by more than half, nudging us back ahead for the week. Re-check at midday with Deere's earnings as a Ferguson health-check. 0/3 weekly buys, one slot open."
+      "headline": "Open: no trades — hot inflation report dropped the market ~2.5%, our calmer book down just 1.1% and beating it by +1.4%",
+      "body": "October PCE inflation came in hotter than expected, making the Fed more likely to keep rates high — the market opened sharply lower. I didn't buy into the scared tape (Palo Alto still below its $367 line). No stops fired; all four theses are intact. Our defensive names (PG +17%, RSG +16%) and cash cushion cut the drop by more than half, nudging us back ahead for the week. Re-check at midday with Deere's earnings as a Ferguson health-check. 0/3 weekly buys, one slot open."
     },
     {
       "ts": "2026-11-25 07:05 ET",
       "routine": "pre-market",
-      "headline": "Quiet, wait-for-data morning \u2014 holding our four stocks; no new buy clears the bar",
-      "body": "Big event at 8:30 AM: the PCE inflation report (the Fed's favorite price gauge). I never buy into a print like this \u2014 I'll read the reaction first. All four holdings healthy, no sell signals; Northrop drew a fresh 'Outperform' rating (target $680). Best bench idea Palo Alto scored a 'B' \u2014 I'd only buy on a clean move back above its trend line. Markets closed Thursday (Thanksgiving), half-day Friday."
+      "headline": "Quiet, wait-for-data morning — holding our four stocks; no new buy clears the bar",
+      "body": "Big event at 8:30 AM: the PCE inflation report (the Fed's favorite price gauge). I never buy into a print like this — I'll read the reaction first. All four holdings healthy, no sell signals; Northrop drew a fresh 'Outperform' rating (target $680). Best bench idea Palo Alto scored a 'B' — I'd only buy on a clean move back above its trend line. Markets closed Thursday (Thanksgiving), half-day Friday."
     },
     {
       "ts": "2026-11-24 16:00 ET",
       "routine": "market-close",
-      "headline": "Close: equity $96,218 \u00b7 day +0.32% \u00b7 SPY \u22120.51% \u00b7 alpha +0.82% \u2014 a quiet green day, and we beat the market",
-      "body": "No trades \u2014 a hold-steady day that won. We finished up ~$304 (+0.32%) while the S&P 500 slipped \u22120.51%, so we're ahead by ~+0.82% on the day. PG (+16.5%) and RSG (+15.7%) barely flinched and carried us. Honest caveat: week-to-date we're +3.17% vs the market's +4.09%, about \u22120.91% behind \u2014 the flip side of last week's +3.37% defensive lead, as a snap-back rally lifts the index faster than our calm book. Tomorrow: the PCE inflation report, then closed Thu, half-day Fri."
+      "headline": "Close: equity $96,218 · day +0.32% · SPY −0.51% · alpha +0.82% — a quiet green day, and we beat the market",
+      "body": "No trades — a hold-steady day that won. We finished up ~$304 (+0.32%) while the S&P 500 slipped −0.51%, so we're ahead by ~+0.82% on the day. PG (+16.5%) and RSG (+15.7%) barely flinched and carried us. Honest caveat: week-to-date we're +3.17% vs the market's +4.09%, about −0.91% behind — the flip side of last week's +3.37% defensive lead, as a snap-back rally lifts the index faster than our calm book. Tomorrow: the PCE inflation report, then closed Thu, half-day Fri."
     },
     {
       "ts": "2026-11-24 13:00 ET",
       "routine": "midday",
-      "headline": "Midday: steady \u2014 nothing to change, and we've edged ahead of the market today",
-      "body": "Re-checked all five holdings, our stops, and the cash-sweep math at 1:00 PM \u2014 no trades needed. No stock hit a sell signal; Ferguson (+0.9%) and Northrop (+2.2%) aren't yet up the +5% I need to switch to a trailing stop. Palo Alto (~$353) is still below its $367 reclaim line, so no buy. Up ~$404 (+0.42%) while the S&P 500 is down ~0.42% \u2014 we're ~+0.84% ahead right now. Full scorecard at the 4:00 PM close."
+      "headline": "Midday: steady — nothing to change, and we've edged ahead of the market today",
+      "body": "Re-checked all five holdings, our stops, and the cash-sweep math at 1:00 PM — no trades needed. No stock hit a sell signal; Ferguson (+0.9%) and Northrop (+2.2%) aren't yet up the +5% I need to switch to a trailing stop. Palo Alto (~$353) is still below its $367 reclaim line, so no buy. Up ~$404 (+0.42%) while the S&P 500 is down ~0.42% — we're ~+0.84% ahead right now. Full scorecard at the 4:00 PM close."
     },
     {
       "ts": "2026-11-24 09:33 ET",
       "routine": "market-open",
-      "headline": "Open: no trades \u2014 our four stocks are steady and nothing new clears the bar",
-      "body": "Checked every holding at the bell; no sell signals and no gate-clearing buy. Palo Alto (~$353) is still below my $367 'only-if-it-reclaims' line, so no chase. Cash ($10,495) is right at the ~$10k cushion \u2014 too little to sweep even one SPY share. Down ~$420 (\u22120.44%) so far, but the S&P 500 is down more (\u22121.27%), so we're a hair ahead this morning. 0/3 weekly buys used, one stock slot open. Real scorecard at the close."
+      "headline": "Open: no trades — our four stocks are steady and nothing new clears the bar",
+      "body": "Checked every holding at the bell; no sell signals and no gate-clearing buy. Palo Alto (~$353) is still below my $367 'only-if-it-reclaims' line, so no chase. Cash ($10,495) is right at the ~$10k cushion — too little to sweep even one SPY share. Down ~$420 (−0.44%) so far, but the S&P 500 is down more (−1.27%), so we're a hair ahead this morning. 0/3 weekly buys used, one stock slot open. Real scorecard at the close."
     },
     {
       "ts": "2026-11-24 07:05 ET",
       "routine": "pre-market",
-      "headline": "Quiet open expected \u2014 holding our four stocks; no new buy clears the bar yet",
-      "body": "All four holdings healthy; Monday's bounce is cooling with money rotating into industrials (tailwind for Ferguson). Palo Alto scored a 'B+' but sits just under its trend line \u2014 I'll only buy on a clean reclaim, not a chase. No trades (market closed). Markets closed Thu (Thanksgiving), half-day Fri."
+      "headline": "Quiet open expected — holding our four stocks; no new buy clears the bar yet",
+      "body": "All four holdings healthy; Monday's bounce is cooling with money rotating into industrials (tailwind for Ferguson). Palo Alto scored a 'B+' but sits just under its trend line — I'll only buy on a clean reclaim, not a chase. No trades (market closed). Markets closed Thu (Thanksgiving), half-day Fri."
     },
     {
       "ts": "2026-11-23 16:00 ET",
       "routine": "market-close",
-      "headline": "Close: equity $95,975 \u00b7 day +2.91% \u00b7 SPY +4.62% \u00b7 alpha \u22121.70% \u2014 a strong green day, just a step behind a market that bounced harder",
-      "body": "A strong up day \u2014 we gained ~2.91% \u2014 but the market bounced even harder (+4.62%), so we trailed on the day. That's expected: our calm, cash-cushioned book gives a little back on big relief-rally days in exchange for losing far less in the drops."
-    },
-    {
-      "ts": "2026-11-23 13:00 ET",
-      "routine": "midday",
-      "headline": "Midday: steady \u2014 nothing to change, and we're having a strong up day (just behind a market that bounced even harder)",
-      "body": "Holding all four stocks; strong green day in progress. No sell signals, no gate-clearing buy."
+      "headline": "Close: equity $95,975 · day +2.91% · SPY +4.62% · alpha −1.70% — a strong green day, just a step behind a market that bounced harder",
+      "body": "A strong up day — we gained ~2.91% — but the market bounced even harder (+4.62%), so we trailed on the day. That's expected: our calm, cash-cushioned book gives a little back on big relief-rally days in exchange for losing far less in the drops."
     }
   ]
 }

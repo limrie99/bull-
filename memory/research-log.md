@@ -16128,3 +16128,29 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 - **SPY sweep:** expect `action:none` (cash within one share of cushion) UNLESS a stop fires intraday and frees cash → sweep SAME session. No margin.
 - FERG convert to trailing at +5% from entry (~$262.63); NOC at +5% (~$571.59); PG/RSG floors ratchet automatically.
 - **Calendar:** Wed 11/25 normal full day; **Thu 11/26 CLOSED (Thanksgiving)**; **Fri 11/27 half-day (close 13:00 ET)**; Mon 11/30 normal. Dec 9–10 FOMC (~97% priced 25bp HIKE).
+
+---
+
+## 2026-11-25 — MIDDAY (Wed, 1:00 PM ET) · **Voices: Research (Bull + Astra feed) / Risk / Trader** · NO TRADES
+
+**Clock gate (first).** Summer alarm `0 17 UTC` rang ~54 min early (11:05 CT). `market_clock.py --slot midday --wait --claim --owner midday` held (`--wait`, run as a 65-min background task so the long sleep wouldn't hit the 30-min cap) to the real slot → **DUE** at 1:00 PM ET (0 min after bell) → **CLAIMED** (owner midday, stamp 2026-11-25). Alpaca `/v2/clock` is_open=true, next_close 11/25 16:00 → genuine open. 4 required keys non-empty; EQUIBLES empty (skip Equibles — Perplexity/EDGAR cover it). Inbox **no Pending**; Astra `astra-proposals.md` **no proposals**.
+
+**Live reconciliation (13:00 ET).** Equity **$96,155.43**; `last_equity` (Tue 11/24 close) $96,222.08 → **day −$66.65 / −0.07%** (base confirmed = Alpaca last_equity). Cash $10,495.23 (10.91%), long_mv $85,660.20, buying_power $280,349.25 (margin — unused, no-borrow book), status ACTIVE, trading_blocked false. Open orders **exactly 4** (verified): FERG hard 232.61 `ea91d0f9`, NOC hard 506.26 `59a67c62`, RSG trail 231.111 `135c200e`, PG trail **157.104** `272e2864` (ratcheted from 156.645 at open as hwm rose). SPY (59) unencumbered.
+
+**Regime — hot-PCE flush REVERSED intraday.** Open was a risk-off gap on core PCE 3.3% y/y vs 3.2% exp (SPY −2.49% to 701.00, day −1.10%). By midday the tape recovered: SPY **710.48** (−1.17% on the day), book **−0.07%**. Day alpha **+1.10 pp**; WTD equity +3.11% ($2,897.54) vs SPY +2.87% → **week alpha +0.24 pp (ahead)**. Defensive sleeve (PG +17.71%, RSG +17.04%) + ~11% cash did the cushioning job on the way down; the recovery is broad, not us-specific.
+
+**Risk management (priority order).**
+- (a) **−7%+ un-stopped?** NO. FERG +1.86%, NOC +1.81%, PG +17.71%, RSG +17.04% (from entry). SPY −6.49% is the index-floor sleeve (no stop by design; recovered from −7.73% at open; not near any actionable line). No 4-hour news check triggered (step 3a only fires on a −7% holding).
+- (b) **+5%+ needing hard→trailing conversion?** NO. FERG +1.86% / NOC +1.81% from entry, both below +5% (FERG convert ~$262.63; NOC ~$571.59). PG/RSG already trailing; PG floor auto-ratcheted to 157.104.
+- (c) **Daily loss cap:** day −0.07% — not breached (cap −3%). Buys technically allowed; none qualifies.
+- (d) **Sell signals?** NONE. All four theses intact; no −7% breach, no thesis break, no guidance cut, no stops fired. Morning move was macro/rates, not company-specific, and largely reversed.
+
+**Deere (DE) Q4 read-through for FERG (Perplexity sonar-pro).** DE reported FY Q4 2026 on 11/25: adj EPS $3.89 **missed** (~$4.03 consensus); revenue $12.115B (down 2% y/y but **beat** ~$10.3–10.4B est). FY27 net income guide $4.50–5.25B. Management: **construction demand remained strong** on infrastructure spending, data-center projects, and rental-fleet replacement; **North American infrastructure demand continuing to grow**; early improvement in large ag led by N.A. Interpretation: the EPS miss is **ag-equipment-specific** (pricing/mix), while the end-market commentary that matters for FERG — non-residential construction, infrastructure, data centers — is **positive**. Net **supportive** for FERG's onshoring/data-center distribution thesis. Not a sell trigger; FERG already recovered to +1.86% intraday. Logged as thesis-confirming evidence only (monitoring item from the open handoff, resolved).
+
+**New buys.** None. One open slot (sleeve 4/5), budget 0/3, but nothing clears 2 signals AND Conviction ≥70 on a tape still inside a rate-sensitive event runway (Dec 9–10 FOMC ~97% priced for a 25bp hike). PANW below its ~$367 50dMA trigger. No high-conviction breaking catalyst → no deviation from the pre-market plan (midday-buy bar not met).
+
+**SPY same-day sweep.** `spy_floor.py --equity 96155.43 --cash 10495.23 --spy-price 710.48 --spy-shares 59 --stock-market-value 43741.88 --stock-buy-dollars 0` → **`action:none`** ("cash already within one SPY share of the cushion"). cash_after 10495.23, buffer 10000.0, spy_target_dollars 42413.55 / 44.11%. No order. No stop fired to free cash, so nothing to sweep this run.
+
+**Memory writes:** portfolio.md overwritten (midday snapshot); this research-log entry appended; messages.md prepended (teacher voice); dashboard/state.json overwritten. Inbox: no Pending to move. **No Telegram** (quiet midday, no trade — per skip rules).
+
+**Handoff → market-close (3:00 PM ET):** clock gate `--slot market-close --wait --claim --owner market-close`; **MANDATORY daily close message + Telegram** (never skipped). Re-verify exactly 4 open orders. SPY sweep expect `action:none` unless a stop frees cash. FERG convert at ~$262.63, NOC at ~$571.59. **Thu 11/26 CLOSED; Fri 11/27 half-day close 13:00 ET.**
