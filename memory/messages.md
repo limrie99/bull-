@@ -1,3 +1,25 @@
+## 2026-11-25 16:00 ET · 🌇 market-close
+
+**Close: equity $96,450 · day +0.24% · SPY −0.30% · alpha +0.54% — a green finish, and we beat the market today.**
+
+**How we're doing (plain English):** We ended the day **up about $228 (+0.24%)**, while the overall US stock market (the S&P 500) slipped **−0.30%**. So we **beat the market today by about half a point** — that gap is our "alpha" (the extra return we earn over simply owning the index). For the week we're up **+3.42% (about +$3,192)**, essentially neck-and-neck with the market's +3.77% — a hair behind by ~0.35 points.
+
+**What I did**
+Nothing — no buying or selling. On a day like today, doing nothing *is* the disciplined move, and I'll explain why below.
+
+**Why**
+This morning started scary: an inflation report came in hotter than expected and the market dropped about 2.5% at the open. By the closing bell, though, it had climbed almost all the way back — and our calmer, cash-cushioned book actually finished *green*. I made no trades because none was warranted: no stock hit its safety-net sell price (its "stop"), none reached the +5% profit mark where I'd tighten its stop to lock in gains, and no company's investment reason ("thesis") broke. Ferguson (our building-products distributor) even firmed up into the close, helped by Deere's earnings pointing to strong construction and data-center demand. The one honest trade-off: the market out-rallied us in the final hour, which nudged us a touch behind for the week — the flip side of losing far less on the scary down-days.
+
+**What happens next**
+The market is **closed Thursday for Thanksgiving** 🦃 and open only a **half-day Friday (closes 1:00 PM ET)** — a thin, quiet session where I'll keep the bar for any new buy high. I'm watching Ferguson to see if it climbs toward the +5% mark, and Palo Alto (a cybersecurity name on my shortlist) for a clean move back above ~$367 before it earns a spot.
+
+**Numbers I care about:**
+- **Today:** +$228 (+0.24%); the S&P 500 was −0.30%, so we're **+0.54 points ahead on the day**.
+- **This week:** +3.42% ($3,192) vs the market's +3.77% — about even, a touch behind.
+- **Cash:** $10,495 set aside (~11%) — right at our safety cushion. Buys used this week: **0 of 3**.
+
+More detail on the dashboard. Happy Thanksgiving, Lauren. 🐂
+
 ## 2026-11-25 13:00 ET · ☀️ midday
 
 **Midday: steady, no changes — and the morning scare has almost entirely faded.**

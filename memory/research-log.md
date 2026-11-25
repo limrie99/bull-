@@ -16154,3 +16154,39 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 **Memory writes:** portfolio.md overwritten (midday snapshot); this research-log entry appended; messages.md prepended (teacher voice); dashboard/state.json overwritten. Inbox: no Pending to move. **No Telegram** (quiet midday, no trade — per skip rules).
 
 **Handoff → market-close (3:00 PM ET):** clock gate `--slot market-close --wait --claim --owner market-close`; **MANDATORY daily close message + Telegram** (never skipped). Re-verify exactly 4 open orders. SPY sweep expect `action:none` unless a stop frees cash. FERG convert at ~$262.63, NOC at ~$571.59. **Thu 11/26 CLOSED; Fri 11/27 half-day close 13:00 ET.**
+
+---
+
+## 2026-11-25 — MARKET-CLOSE (Wed, 4:00 PM ET) · **Voices: Research / Risk / Trader** · NO TRADES
+
+**Clock gate (first).** Summer alarm `0 20 UTC` rang ~56 min early (2:04 PM CT / 15:04 ET). `market_clock.py --slot market-close --wait --claim --owner market-close` held (`--wait`, run as a background task with a 70-min cap so the ~56-min sleep wouldn't hit the 30-min default) to the real slot → **DUE** at 4:00 PM ET ("0 min after the bell time") → **CLAIMED** (owner market-close, stamp 2026-11-25). Claim committed + pushed `HEAD:main` **before** anything else, so the winter `0 21 UTC` alarm (firing at the same 21:00 UTC instant) reads the claim and stands down. Alpaca `/v2/clock` **is_open=false**, next_close 2026-11-27T13:00 (Fri half-day), next_open 2026-11-27T09:30 → bell has rung, scorecard genuine. 4 required keys non-empty; EQUIBLES empty. Inbox **no Pending**; Astra **no proposals**.
+
+**Live close reconciliation (16:00 ET).** Equity **$96,450.07**; `last_equity` (Tue 11/24 close) **$96,222.08** → **day +$227.99 / +0.24%** (base = Alpaca last_equity, authoritative). Cash $10,495.23 (10.88%), status ACTIVE, trading_blocked false, buying_power $282,654.47 (margin — unused, no-borrow book). Today's **closed orders: 0** (zero fills). Open orders **exactly 4** (verified live): FERG hard 232.61 `ea91d0f9`, NOC hard 506.26 `59a67c62`, RSG trail 231.111 (hwm 256.79) `135c200e`, PG trail **157.104** (hwm 174.56) `272e2864`. SPY (59) unencumbered.
+
+**Closing marks / positions.**
+| Sym | Qty | Avg | Close px | P/L% | MV | % equity |
+|---|---|---|---|---|---|---|
+| FERG | 44 | 250.12 | 256.99 | +2.75% | 11,307.56 | 11.72% |
+| NOC | 18 | 544.37 | 555.79 | +2.10% | 10,004.22 | 10.37% |
+| PG | 65 | 148.06 | 172.89 | +16.77% | 11,237.85 | 11.65% |
+| RSG | 44 | 218.00 | 254.16 | +16.59% | 11,183.04 | 11.59% |
+| SPY | 59 | 759.746 | 715.62 | −5.81% | 42,221.58 | 43.78% |
+
+Conviction stock mv $43,732.67 (45.34%); SPY sleeve 43.78%; cash 10.88%. Largest single name FERG 11.72% — well under the 20% cap. Defensive count 2/4 (PG, RSG); FERG/NOC non-defensive → sleeve cap has room.
+
+**Day summary.**
+- **Closing equity $96,450.07** · day **+$227.99 / +0.24%**.
+- **SPY day:** Tue 11/24 close 718.91 → Wed 11/25 close **716.735** = **−0.30%**. **Day alpha +0.54 pp** (ahead on the day).
+- **Week-to-date** (base Fri 11/20 close: equity $93,257.89, SPY 690.68): equity **+3.42% / +$3,192.18** vs **SPY +3.77%** (690.68 → 716.735) → **week alpha −0.35 pp** (slightly behind WTD).
+- **Trades placed:** none (0 fills; no buy cleared 2 signals + Conviction ≥70, no sell signal, no +5% conversion, no SPY sweep — market closed and cash already at cushion).
+- **What worked:** (1) FERG firmed into the close (+1.86% midday → +2.75%), the Deere construction/infra/data-center read-through playing through; +$0.9k on the name's mark day-over-day. (2) The hot-PCE morning flush (day −1.10% at 09:33) fully reversed — we finished green, beating SPY on the day via the defensive sleeve + cash cushion.
+- **What didn't:** SPY out-rallied us into the bell (midday 710.48 → close 716.735, +0.88%) while our calmer book added only +0.31% from midday — that single late-day index pop flipped us from +0.24 pp ahead WTD (midday) to −0.35 pp behind WTD. Same structural trade-off: we lag the sharp up-legs, we lose far less on the down-legs.
+- **Open questions for tomorrow (Fri 11/27, half-day):** Thu 11/26 CLOSED (Thanksgiving); Fri 11/27 half-day, close **13:00 ET** — thin, low-volume tape, keep the bar for fresh risk high. Does FERG keep building toward the +5% conversion line (~$262.63)? Does PANW finally reclaim ~$367 on a settled tape to become a real candidate for the open slot? Dec 9–10 FOMC (~97% priced 25bp hike) remains the macro overhang.
+
+**Risk checks (CLOSE).** (a) No position −7% un-stopped — FERG +2.75, NOC +2.10, PG +16.77, RSG +16.59 from entry; SPY −5.81 (index, no-stop carve-out, recovered further from the open). (b) No +5%-from-entry conversion due — FERG +2.75 / NOC +2.10 both below +5% (convert at ~$262.63 / ~$571.59); PG/RSG already trail. (c) Daily loss cap: day +0.24%, not breached. (d) Sell signals: NONE — all four theses intact, zero stops fired, no thesis break / guidance cut / adverse news.
+
+**SPY same-day sweep.** N/A — market **closed** at the close run (is_open=false; no post-bell orders), and cash $10,495.23 is already within one SPY share of the ~$10,000 cushion (would print `action:none` even intraday). No stop fired to free cash. Nothing to sweep.
+
+**Memory writes:** portfolio.md overwritten (closing snapshot); this entry appended; messages.md prepended (teacher-voice 🌇 close); dashboard/state.json overwritten (closing snapshot — the day's key write). Inbox: no Pending to move. **Telegram: pushed** (mandatory daily close — the one push never skipped).
+
+**Handoff → pre-market (Fri 2026-11-27, 7:00 AM ET — NOTE: Thu 11/26 CLOSED).** Clock gate first (`--slot pre-market --wait --claim`). Re-verify exactly 4 open orders + SPY unencumbered. Fri is a **half-day (close 13:00 ET)** — thin tape; no chasing. FERG convert at +5% (~$262.63), NOC at +5% (~$571.59); PG/RSG floors ratchet automatically. SPY sweep expect `action:none` unless a stop frees cash. PANW watch: ~$367 50dMA reclaim on a settled tape (still needs Conviction ≥70). Dec 9–10 FOMC overhang.

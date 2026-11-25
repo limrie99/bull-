@@ -1,54 +1,54 @@
 {
-  "last_update": "2026-11-25 13:00 ET",
-  "last_routine": "midday",
+  "last_update": "2026-11-25 16:00 ET",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 96155.43,
+  "equity": 96450.07,
   "cash": 10495.23,
-  "day_pl": -66.65,
-  "day_pl_pct": -0.07,
-  "week_pl_pct": 3.11,
-  "spy_week_pct": 2.87,
-  "alpha_week_pct": 0.24,
+  "day_pl": 227.99,
+  "day_pl_pct": 0.24,
+  "week_pl_pct": 3.42,
+  "spy_week_pct": 3.77,
+  "alpha_week_pct": -0.35,
   "week_grade": null,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "current": 254.78,
-      "pl_pct": 1.86,
+      "current": 256.99,
+      "pl_pct": 2.75,
       "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 554.24,
-      "pl_pct": 1.81,
+      "current": 555.79,
+      "pl_pct": 2.10,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 174.28,
-      "pl_pct": 17.71,
+      "current": 172.89,
+      "pl_pct": 16.77,
       "stop": 157.104
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 255.16,
-      "pl_pct": 17.04,
+      "current": 254.16,
+      "pl_pct": 16.59,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 710.48,
-      "pl_pct": -6.49,
+      "current": 715.62,
+      "pl_pct": -5.81,
       "stop": null
     }
   ],
@@ -120,6 +120,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-25 16:00 ET",
+      "routine": "market-close",
+      "headline": "Close: equity $96,450 · day +0.24% · SPY −0.30% · alpha +0.54% — a green finish, and we beat the market today",
+      "body": "A quiet, disciplined green day. We finished up ~$228 (+0.24%) while the S&P 500 slipped −0.30%, so we beat the market by ~+0.54% today. This morning's hot-inflation scare (−2.5% at the open) fully reversed by the close; no trades — no stop near, nothing at +5% to upgrade, no thesis broke, and Ferguson firmed up on Deere's strong construction/data-center commentary. Honest note: the market out-rallied us late, so week-to-date we're +3.42% vs +3.77%, a hair behind. Closed Thursday (Thanksgiving), half-day Friday."
+    },
+    {
       "ts": "2026-11-25 13:00 ET",
       "routine": "midday",
       "headline": "Midday: steady, no changes — the morning inflation scare has nearly fully faded; we're ~flat and beating the market by +1.1% today",
@@ -160,12 +166,6 @@
       "routine": "pre-market",
       "headline": "Quiet open expected — holding our four stocks; no new buy clears the bar yet",
       "body": "All four holdings healthy; Monday's bounce is cooling with money rotating into industrials (tailwind for Ferguson). Palo Alto scored a 'B+' but sits just under its trend line — I'll only buy on a clean reclaim, not a chase. No trades (market closed). Markets closed Thu (Thanksgiving), half-day Fri."
-    },
-    {
-      "ts": "2026-11-23 16:00 ET",
-      "routine": "market-close",
-      "headline": "Close: equity $95,975 · day +2.91% · SPY +4.62% · alpha −1.70% — a strong green day, just a step behind a market that bounced harder",
-      "body": "A strong up day — we gained ~2.91% — but the market bounced even harder (+4.62%), so we trailed on the day. That's expected: our calm, cash-cushioned book gives a little back on big relief-rally days in exchange for losing far less in the drops."
     }
   ]
 }
