@@ -16095,3 +16095,36 @@ Open orders VERIFIED live = **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard
 - Still one open conviction slot + 0/3 weekly buys. Prefer a non-defensive gate-clearer, but nothing is close to clean (PANW below trend). Holding cash at the cushion is correct until a name clears 2 signals AND ≥70 on a settled tape — and this is a holiday-shortened week (Thu closed, Fri half-day), so the bar for initiating fresh risk stays high.
 
 **Handoff → pre-market (Wed 2026-11-25, 7:00 AM ET):** clock gate first (`--slot pre-market --wait --claim`); re-verify 4 open orders + SPY unencumbered; **PCE print + Deere BMO are the headline catalysts**; FERG convert at +5% (~$262.63), NOC at +5% (~$571.59); SPY sweep expect action:none unless a stop frees cash.
+
+---
+
+# 2026-11-25 ~09:33 ET — MARKET-OPEN (Wed) · Opus 4.8 · NO TRADES · sleeve 4/5 (one open slot) · weekly buys 0/3 · equity $95,159.36 · day −1.10% (SPY −2.49%, +1.39pp ahead) · HOT PCE risk-off open
+
+**Run meta — clock gate:** winter cron `30 14 UTC` rang 09:33 ET (on time, 3 min after bell). `market_clock.py --slot market-open --wait --claim --owner market-open` → **DUE** ("3 min after the bell time", wait_seconds 0) → **CLAIMED** (stamp 2026-11-25, owner market-open). Alpaca `/v2/clock` **is_open=true** (next_close 2026-11-25T16:00-05:00, next_open 11/27 09:30 — Thu closed) → genuine open. 4 required keys non-empty; EQUIBLES empty → filing data skipped. Inbox **no Pending**; Astra **no proposals**.
+
+**Memory-continuity note (single-occurrence, NOT yet an escalation):** today's PRE-MARKET persisted its `messages.md` block (07:05 ET · "wait-for-data morning; no buy; PANW only on clean $367 reclaim") but did **not** leave a `research-log.md` entry on `origin/main`. The plan is fully captured in the pre-market message and matches this run's independent live validation, so no information was lost. Per the cold-start rule I re-derived fresh within this run rather than defer. Flag to user only if the research-log gap recurs (2nd+ consecutive session) — one miss is not the lost-month pattern.
+
+**Live Alpaca verified (09:33 ET):** account (equity **$95,159.36**, last_equity $96,222.08 = Tue 11/24 close, cash $10,495.23, long_mv $84,664.13, buying_power $279,040.49 margin — no borrow, trading_blocked false), positions (5: FERG/NOC/PG/RSG + SPY sleeve), open-orders (**exactly 4**: FERG hard 232.61 `ea91d0f9`, NOC hard 506.26 `59a67c62`, RSG trail 231.111 `135c200e`, PG trail 156.231 `272e2864`; SPY 59 unencumbered), clock. None fired overnight — identical to Tue 11/24 close.
+
+**Macro driver (Perplexity sonar-pro, live):** October **PCE came in HOT** — headline 0.3% m/m / 3.8% y/y (up from 3.6%), **core 3.3% y/y vs 3.2% expected**. Reinforces higher-for-longer; Dec 25bp HIKE ~97–98% priced, meaningful Jan odds. Broad risk-off (SPY −2.49%), rate-sensitive/growth leading down. **No company-specific 24h news for FERG/NOC/PG/RSG** — this is a macro/rates move, not a thesis-breaker for any holding. (Deere earnings not yet in Perplexity's sources at 09:33 — monitor at midday for the FERG industrial read-through.)
+
+**Execution of the plan (re-validated at live prices):**
+- **No stock buy.** This is the textbook binary-macro-print risk-off tape the strategy's entry-timing advisory warns against (hot inflation print, SPY −2.5%, yields up) — do NOT initiate fresh beta. Lead bench idea PANW live **$344.98** — far below the ~$367 50dMA reclaim trigger → stand down. CLS watch-only. No name clears 2 signals AND Conviction ≥70 on this tape. Open slot stays open; holiday-shortened week (Thu closed, Fri half-day) keeps the bar for fresh risk high.
+- **No sell.** All four conviction theses INTACT; zero stops fired; no thesis break, no guidance cut, no adverse news. FERG −0.34%, NOC +1.15%, PG +17.03%, RSG +16.34% (all from entry); SPY −7.73% (index, no-stop carve-out by design).
+- **No hard→trailing conversion.** FERG −0.34% / NOC +1.15% from entry — both below the +5% conversion line (FERG convert ~$262.63; NOC ~$571.59). PG/RSG already trail.
+- **SPY sweep `action:none`.** `spy_floor.py --equity 95159.36 --cash 10495.23 --spy-price 701.00 --spy-shares 59 --stock-market-value 43300.41` → action none ("cash already within one SPY share of the cushion"). Excess ~$495 < 1 SPY share @ $701. spy_target $41,858.95 (43.99%); holding 59 ≈ $41,359. Nothing to sweep (no stop fired → no freed cash).
+
+**Risk checks:** (a) no position −7% un-stopped (worst is SPY −7.73%, index no-stop by design; all 4 stocks green-to-flat from entry, none near their hard line); (b) no +5%-from-entry conversion due; (c) daily loss cap **NOT breached** — day −1.10% vs −3% cap, new buys technically still allowed but none clears the gate on this tape; (d) no sell signals.
+
+**Scorecard (intraday, 09:33 ET):** day **−1.10% / −$1,062.72** (base last_equity $96,222.08); **SPY day −2.49%** (Tue close 718.91 → 701.00) → **day alpha +1.39 pp** (defensive book + ~11% cash cushion cutting the drop by more than half). **WTD (baseline Fri 11/20 close $93,257.89; SPY 690.68):** equity **+2.04% / +$1,901.47** vs **SPY +1.49%** (690.68 → 701.00) → **week alpha +0.55 pp** — today's risk-off flips us from −0.91 pp behind (Tue close) to ahead WTD, the defensive edge reasserting as the bounce fades.
+
+**Memory written:** portfolio.md (fresh 09:33 ET snapshot), messages.md (teacher-voice 🔔 market-open, prepended), dashboard/state.json (snapshot + message prepend, both ≤8). No trade-log append (no fills). **No Telegram** (no-trade open — not a trade/stop/close/weekly/urgent event; the close owns the mandatory daily push).
+
+**Handoff → midday (Wed 2026-11-25, 1:00 PM ET):**
+- Clock gate first: `market_clock.py --slot midday --wait --claim --owner midday`; summer alarm `0 17 UTC` rings ~54 min early → `--wait` holds to 1:00 PM ET. Confirm Alpaca is_open=true.
+- Re-verify live: account/positions/open-orders/clock; confirm **exactly 4** open orders unchanged (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 156.231 `272e2864`); SPY 59 unencumbered.
+- **Deere (DE) earnings read** — a positive industrial print strengthens the FERG onshoring/construction thesis; a weak one is a yellow flag to watch (not yet a sell trigger).
+- **Watch the loss cap** on a hot-PCE risk-off tape: if the day deepens past −3% intraday, no new buys the rest of the day (none planned regardless). Midday buys only on a breaking catalyst clearing 2 signals AND ≥70 — PANW still below $367.
+- **SPY sweep:** expect `action:none` (cash within one share of cushion) UNLESS a stop fires intraday and frees cash → sweep SAME session. No margin.
+- FERG convert to trailing at +5% from entry (~$262.63); NOC at +5% (~$571.59); PG/RSG floors ratchet automatically.
+- **Calendar:** Wed 11/25 normal full day; **Thu 11/26 CLOSED (Thanksgiving)**; **Fri 11/27 half-day (close 13:00 ET)**; Mon 11/30 normal. Dec 9–10 FOMC (~97% priced 25bp HIKE).

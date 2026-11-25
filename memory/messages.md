@@ -1,3 +1,21 @@
+## 2026-11-25 09:33 ET · 🔔 market-open
+
+**Open: no trades — a hot inflation report knocked the market down ~2.5%, and our calmer book is holding up far better.**
+
+**What I did**
+I checked all five holdings, our safety-net stops, and the cash math at the open, then made no trades — the right move on a day like this. This morning's **PCE report** (the inflation gauge the Federal Reserve watches most) came in *hotter* than expected, which makes the Fed more likely to keep interest rates high. Higher-for-longer rates spook the whole market, so stocks opened sharply lower.
+
+**Why**
+I don't buy into a scared, falling market driven by a surprise inflation number — that's exactly when prices overshoot and you get a bad entry. The one stock on my shortlist, Palo Alto (a cybersecurity company), is at ~$345, still below the ~$367 line I need it to reclaim first, so there's nothing to buy. None of our four stocks hit a sell signal (a pre-set exit) — this is a market-wide, interest-rate move, not bad news about any company we own. And our spare cash ($495 above our ~$10,000 cushion) is too small to buy even one share of anything.
+
+**What happens next**
+I'll re-check everything at midday (1:00 PM ET), including **Deere's** earnings out this morning — Deere is a useful health-check on the same industrial economy our Ferguson stock rides. Markets are **closed Thursday (Thanksgiving)** and a **half-day Friday**.
+
+**Numbers I care about**
+- **Down about $1,063 (−1.10%) today — but the overall market (S&P 500) is down −2.49%, so we're beating it by about +1.39% right now** (that gap is our "alpha," the extra return vs. just owning the market). Our steady names — Procter & Gamble (+17%) and Republic Services (+16%) — are the ballast doing that job.
+- This also nudged us **back ahead for the week**: we're +2.04% vs the market's +1.49%. Down days are where our cautious style earns its keep.
+- **$10,495 cash** (at our ~$10,000 cushion); **0 of 3 weekly buys used**, one stock slot still open. All four safety-net stops confirmed in place.
+
 ## 2026-11-25 07:05 ET · pre-market
 
 **Quiet, wait-for-data morning — holding our four stocks; no new buy clears the bar.**
