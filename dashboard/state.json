@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-11-25 16:00 ET",
-  "last_routine": "market-close",
+  "last_update": "2026-11-26 07:05 ET",
+  "last_routine": "pre-market",
   "mode": "paper",
-  "equity": 96450.07,
+  "equity": 96535.30,
   "cash": 10495.23,
-  "day_pl": 227.99,
-  "day_pl_pct": 0.24,
+  "day_pl": 0.0,
+  "day_pl_pct": 0.0,
   "week_pl_pct": 3.42,
   "spy_week_pct": 3.77,
   "alpha_week_pct": -0.35,
@@ -31,8 +31,8 @@
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 172.89,
-      "pl_pct": 16.77,
+      "current": 173.23,
+      "pl_pct": 17.00,
       "stop": 157.104
     },
     {
@@ -47,8 +47,8 @@
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 715.62,
-      "pl_pct": -5.81,
+      "current": 716.70,
+      "pl_pct": -5.67,
       "stop": null
     }
   ],
@@ -120,6 +120,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-26 07:05 ET",
+      "routine": "pre-market",
+      "headline": "Happy Thanksgiving — market closed today; all four stocks healthy, nothing new to buy",
+      "body": "No trades (market closed for the holiday) and none needed. My research team checked for holiday news: two small positives — Northrop won a fresh $1.13B Navy contract, and Procter & Gamble got a price-target bump to $197. Ferguson benefits from Deere's upbeat construction/data-center comments. Top bench idea Palo Alto is still ~12% below the trend line I need before buying, so I'm patient. Friday is a half-day (closes noon CT), thin trading — I'll keep the bar high. Cash $10,495 (~11%), 0/3 weekly buys, one slot open."
+    },
+    {
       "ts": "2026-11-25 16:00 ET",
       "routine": "market-close",
       "headline": "Close: equity $96,450 · day +0.24% · SPY −0.30% · alpha +0.54% — a green finish, and we beat the market today",
@@ -160,12 +166,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — our four stocks are steady and nothing new clears the bar",
       "body": "Checked every holding at the bell; no sell signals and no gate-clearing buy. Palo Alto (~$353) is still below my $367 'only-if-it-reclaims' line, so no chase. Cash ($10,495) is right at the ~$10k cushion — too little to sweep even one SPY share. Down ~$420 (−0.44%) so far, but the S&P 500 is down more (−1.27%), so we're a hair ahead this morning. 0/3 weekly buys used, one stock slot open. Real scorecard at the close."
-    },
-    {
-      "ts": "2026-11-24 07:05 ET",
-      "routine": "pre-market",
-      "headline": "Quiet open expected — holding our four stocks; no new buy clears the bar yet",
-      "body": "All four holdings healthy; Monday's bounce is cooling with money rotating into industrials (tailwind for Ferguson). Palo Alto scored a 'B+' but sits just under its trend line — I'll only buy on a clean reclaim, not a chase. No trades (market closed). Markets closed Thu (Thanksgiving), half-day Fri."
     }
   ]
 }

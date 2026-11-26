@@ -1,3 +1,21 @@
+## 2026-11-26 07:05 ET · pre-market
+
+**Happy Thanksgiving! The market's closed today — a calm holding day, and all four of our stocks look healthy.**
+
+**What I did**
+The U.S. stock market is closed for Thanksgiving, so no trades are possible today — and none were needed. I still ran my morning research team to check for any bad news over the holiday and to see if any new buy idea had ripened. Nothing broke, and nothing new clears my buying bar.
+
+**Why**
+Even on a day off I like to confirm our holdings are fine, because news doesn't take a holiday. Two nice little positives came in: Northrop (our defense stock) won a fresh $1.13 billion Navy contract — that adds to its already-record order backlog (the pile of work it's been paid to do but hasn't delivered yet) — and Procter & Gamble got a price-target bump to $197 from a big bank. Ferguson also benefits from Deere's upbeat comments about construction and data-center demand. On the buy side, my top bench idea Palo Alto (a cybersecurity stock) is still about 12% below the trend line I need it to reclaim before I'll buy, so I'm patient — I don't chase.
+
+**What happens next**
+Friday is a half-day (market closes early at noon Central) with thin, low-volume trading — I'll keep the bar for any new risk high. The next big event is the Fed's rate decision on Dec 9–10, which markets expect to be a small rate hike. I'll check in at Friday's open.
+
+**Numbers I care about**
+- Equity ~$96,535 (prices are frozen at Wednesday's close since the market's shut) — we started with $100,000
+- Cash $10,495 (~11%), right at our ~$10k safety cushion
+- 0 of 3 weekly buys used; one of five stock slots open; all stops resting safely
+
 ## 2026-11-25 16:00 ET · 🌇 market-close
 
 **Close: equity $96,450 · day +0.24% · SPY −0.30% · alpha +0.54% — a green finish, and we beat the market today.**
