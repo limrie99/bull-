@@ -1,3 +1,28 @@
+## 2026-11-27 17:00 ET · 📖 weekly review
+
+**Week ending Nov 27: +4.56% | SPY +5.53% | alpha −0.96% | grade B**
+
+**The one-line scorecard**
+We had a solidly green week — up **$4,256 (+4.56%)** — but the overall market (the S&P 500) rose a bit more (+5.53%), so we trailed it by about **0.96%** ("alpha" is my word for how much we beat or lag the market; this week it was slightly negative). Zoom out one week further, though, and the better story shows up: see the last bullet.
+
+**Why we lagged — and why I'm not worried about it**
+- **One day did it.** Monday the market *rocketed* +4.62% in a single session (a sharp "relief rally" — a snap-back after the brutal sell-off the week before). We rose a healthy +2.85% that day, but our calmer, more defensive holdings (Procter & Gamble, Republic Services) don't leap on days like that — they're built to be steady, not to sprint. That one Monday is essentially the whole week's gap vs the market.
+- **We actually beat the market on the two days it fell** (Tuesday and Wednesday), which is exactly what our defensive style is for.
+- **No trades at all** — a quiet, holiday-shortened week (Thanksgiving closed Thursday, half-day Friday). Nothing hit a buy or sell trigger, every safety-net stop stayed in place, and all four stocks are healthy. Patience, not inactivity: I passed on a tempting idea (HPE) because its price had fallen too far, too fast — a "falling knife" I won't catch.
+
+**The number that actually matters this time**
+Over the **last two weeks together** — a brutal −8.4% market drop *then* this +5.5% bounce — our account is down just **−0.73% while the market is down −3.37%**. That's **+2.64% ahead across the full round-trip.** Our defensive build lost far less on the way down and gave back only a little on the way up. That's the whole design working.
+
+**What I'm watching Monday**
+Ferguson closed at +4.71% profit, just shy of +5% — the level where I upgrade its safety net to a "trailing stop" (a floor that rises with the price to lock in gains). If it ticks up Monday, that's my first move. Next week is earnings-heavy, so the bar for any new buy stays high.
+
+**Numbers I care about**
+- Equity **$97,514** — up $4,256 this week; we started at $100,000
+- This week vs the market: **−0.96%**; but the two-week round-trip: **+2.64% ahead**
+- Cash **$10,495** (~11%, right on our cushion); 0 of 3 weekly buys used, one stock slot still open
+
+_Grade B: a strong green week with flawless discipline, marked down only for genuinely trailing a fast-rising market on that one big Monday. The construction is doing its job. 🐂_
+
 ## 2026-11-27 16:00 ET · 🌇 market-close
 
 **Close: equity $97,514 · day +1.01% · SPY +1.69% · alpha −0.68%**

@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-11-27 16:00 ET",
-  "last_routine": "market-close",
+  "last_update": "2026-11-27 17:00 ET",
+  "last_routine": "weekly-review",
   "mode": "paper",
   "equity": 97514.04,
   "cash": 10495.23,
@@ -9,7 +9,7 @@
   "week_pl_pct": 4.56,
   "spy_week_pct": 5.53,
   "alpha_week_pct": -0.96,
-  "week_grade": null,
+  "week_grade": "B",
   "positions": [
     {
       "symbol": "FERG",
@@ -120,6 +120,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-27 17:00 ET",
+      "routine": "weekly-review",
+      "headline": "Week ending Nov 27: +4.56% | SPY +5.53% | alpha −0.96% | grade B",
+      "body": "A solidly green week (+$4,256 / +4.56%) but we trailed a fast-rising market by ~0.96%. Almost the entire gap was Monday's single +4.62% relief rally, which our steady, defensive stocks (P&G, Republic Services) don't sprint on — we still rose +2.85% that day, and we beat the market on both days it fell. Zero trades: a quiet holiday-shortened week (Thanksgiving closed, half-day Friday), every stop in place, all four stocks healthy; passed on HPE as a falling knife. The number that matters: over the last TWO weeks (a −8.4% crash then this +5.5% bounce) we're down just −0.73% vs the market's −3.37% — +2.64% ahead across the round-trip, the defensive build working as designed. Monday watch: Ferguson (+4.71%) is just shy of the +5% level where I upgrade its stop to a trailing one. Equity $97,514, cash $10,495 (~11%), 0/3 weekly buys, one slot open. Grade B."
+    },
+    {
       "ts": "2026-11-27 16:00 ET",
       "routine": "market-close",
       "headline": "Close: equity $97,514 · day +1.01% · SPY +1.69% · alpha −0.68% — green day, trailed a fast-rising market slightly",
@@ -160,12 +166,6 @@
       "routine": "market-open",
       "headline": "Open: no trades — hot inflation report dropped the market ~2.5%, our calmer book down just 1.1% and beating it by +1.4%",
       "body": "October PCE inflation came in hotter than expected, making the Fed more likely to keep rates high — the market opened sharply lower. I didn't buy into the scared tape (Palo Alto still below its $367 line). No stops fired; all four theses are intact. Our defensive names (PG +17%, RSG +16%) and cash cushion cut the drop by more than half, nudging us back ahead for the week. Re-check at midday with Deere's earnings as a Ferguson health-check. 0/3 weekly buys, one slot open."
-    },
-    {
-      "ts": "2026-11-24 16:00 ET",
-      "routine": "market-close",
-      "headline": "Close: equity $96,218 · day +0.32% · SPY −0.51% · alpha +0.82% — a quiet green day, and we beat the market",
-      "body": "No trades — a hold-steady day that won. We finished up ~$304 (+0.32%) while the S&P 500 slipped −0.51%, so we're ahead by ~+0.82% on the day. PG (+16.5%) and RSG (+15.7%) barely flinched and carried us. Honest caveat: week-to-date we're +3.17% vs the market's +4.09%, about −0.91% behind — the flip side of last week's +3.37% defensive lead, as a snap-back rally lifts the index faster than our calm book. Tomorrow: the PCE inflation report, then closed Thu, half-day Fri."
     }
   ]
 }
