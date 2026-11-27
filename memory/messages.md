@@ -1,3 +1,25 @@
+## 2026-11-27 16:00 ET · 🌇 market-close
+
+**Close: equity $97,514 · day +1.01% · SPY +1.69% · alpha −0.68%**
+
+**How we're doing**
+Good news first: we made money today — about **$979**, or +1.01%. The one honest caveat is that the overall market (the S&P 500, which I track with "SPY") rose a bit more, +1.69%, so we trailed it by roughly 0.68% on the day. "Alpha" is my word for how much we beat (or, today, lagged) the market — so today's alpha was a small **−0.68%**. We're still comfortably green, just not quite keeping pace with a fast up-day.
+
+**What I did**
+Nothing — no trades. It was the Black Friday half-day (markets closed at noon Central), and none of our holdings hit a buy or sell trigger. All four of our stocks are healthy and all four safety nets (stop-losses) are in place.
+
+**Why we lagged today (worth understanding)**
+Two of our stocks — Procter & Gamble and Republic Services — are "defensive" names: steady, boring businesses (household goods, trash collection) that hold up well when markets fall but tend to **sit still when the market races higher**, like today. That's exactly what happened, so our stock picks stalled while the broad market ran. The reason we didn't fall far behind is our S&P 500 index holding (about 44% of the account) — it rose right along with the market and did the catching-up for us. This is the index floor doing its job.
+
+**What I'm watching next**
+Ferguson closed at +4.71% profit — just $0.72 short of +5%, the level where I upgrade its safety net to a "trailing stop" (a floor that rises as the price rises, locking in gains). If it ticks up Monday, I'll make that switch first thing. Next week is an earnings-heavy stretch, so I'll keep the bar for new buys high.
+
+**Numbers I care about**
+- Equity **$97,514** — up $979 today (+1.01%); we started at $100,000
+- Today vs. the market: us +1.01% vs. SPY +1.69% → **−0.68%** (we trailed slightly); this week −0.96% behind SPY
+- Cash **$10,495** (~11% — right on our safety cushion); 0 of 3 weekly buys used, one stock slot still open
+
+_A fuller week-vs-market review comes in about an hour (my Friday weekly check-in). 🐂_
 ## 2026-11-27 09:33 ET · market-open
 
 **Open: no trades — a calm, green start to the half-day; we're up ~$621 and all four stocks are healthy.**

@@ -1,54 +1,54 @@
 {
-  "last_update": "2026-11-27 09:33 ET",
-  "last_routine": "market-open",
+  "last_update": "2026-11-27 16:00 ET",
+  "last_routine": "market-close",
   "mode": "paper",
-  "equity": 97156.45,
+  "equity": 97514.04,
   "cash": 10495.23,
-  "day_pl": 621.15,
-  "day_pl_pct": 0.64,
-  "week_pl_pct": 3.42,
-  "spy_week_pct": 3.77,
-  "alpha_week_pct": -0.35,
+  "day_pl": 978.74,
+  "day_pl_pct": 1.01,
+  "week_pl_pct": 4.56,
+  "spy_week_pct": 5.53,
+  "alpha_week_pct": -0.96,
   "week_grade": null,
   "positions": [
     {
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "current": 261.00,
-      "pl_pct": 4.35,
+      "current": 261.91,
+      "pl_pct": 4.71,
       "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 559.83,
-      "pl_pct": 2.84,
+      "current": 561.47,
+      "pl_pct": 3.14,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 172.34,
-      "pl_pct": 16.40,
+      "current": 172.84,
+      "pl_pct": 16.74,
       "stop": 157.104
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 253.70,
-      "pl_pct": 16.38,
+      "current": 253.23,
+      "pl_pct": 16.16,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 724.35,
-      "pl_pct": -4.66,
+      "current": 729.01,
+      "pl_pct": -4.05,
       "stop": null
     }
   ],
@@ -120,6 +120,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-27 16:00 ET",
+      "routine": "market-close",
+      "headline": "Close: equity $97,514 · day +1.01% · SPY +1.69% · alpha −0.68% — green day, trailed a fast-rising market slightly",
+      "body": "We made ~$979 today (+1.01%), but the S&P 500 rose a bit more (+1.69%), so we lagged it by ~0.68% — still comfortably green. No trades on the Black Friday half-day; no stop near, nothing at +5% to upgrade, no thesis broke. We lagged because our defensive stocks (P&G, Republic Services) sit still on strong up-days — our S&P 500 index holding (~44% of the book) did the catching-up and kept us close. Ferguson closed +4.71%, just $0.72 from the +5% level where I upgrade its stop to a trailing one — Monday-open watch. Week-to-date −0.96% behind SPY. Equity $97,514, cash $10,495 (~11%), 0/3 weekly buys, one slot open. Full weekly review in ~1 hour."
+    },
+    {
       "ts": "2026-11-27 09:33 ET",
       "routine": "market-open",
       "headline": "Open: no trades — calm green start to the half-day, up ~$621, all four stocks healthy",
@@ -160,12 +166,6 @@
       "routine": "market-close",
       "headline": "Close: equity $96,218 · day +0.32% · SPY −0.51% · alpha +0.82% — a quiet green day, and we beat the market",
       "body": "No trades — a hold-steady day that won. We finished up ~$304 (+0.32%) while the S&P 500 slipped −0.51%, so we're ahead by ~+0.82% on the day. PG (+16.5%) and RSG (+15.7%) barely flinched and carried us. Honest caveat: week-to-date we're +3.17% vs the market's +4.09%, about −0.91% behind — the flip side of last week's +3.37% defensive lead, as a snap-back rally lifts the index faster than our calm book. Tomorrow: the PCE inflation report, then closed Thu, half-day Fri."
-    },
-    {
-      "ts": "2026-11-25 07:05 ET",
-      "routine": "pre-market",
-      "headline": "Quiet, wait-for-data morning — holding our four stocks; no new buy clears the bar",
-      "body": "Big event at 8:30 AM: the PCE inflation report (the Fed's favorite price gauge). I never buy into a print like this — I'll read the reaction first. All four holdings healthy, no sell signals; Northrop drew a fresh 'Outperform' rating (target $680). Best bench idea Palo Alto scored a 'B' — I'd only buy on a clean move back above its trend line. Markets closed Thursday (Thanksgiving), half-day Friday."
     }
   ]
 }
