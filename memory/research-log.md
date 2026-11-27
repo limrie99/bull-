@@ -1,3 +1,37 @@
+# 2026-11-27 ~09:33 ET — MARKET OPEN (Fri, BLACK FRIDAY HALF-DAY, close 13:00 ET) · Opus 4.8 · NO TRADES
+
+**Clock gate.** Winter cron `30 14 UTC` on time (14:32 UTC = 09:32 ET EST). `market_clock.py --slot market-open --wait` → **status DUE** (3 min into the 9:30 ET window, wait 0s). Alpaca `/v2/clock` **is_open=true** (next_close 2026-11-27T13:00−05:00 = confirmed half-day; next_open 2026-11-30 09:30). `--claim --owner market-open` → **CLAIMED** (owner market-open, 2026-11-27; slot previously held only pre-market). Claim pushed `HEAD:main` with this write. 4 required keys non-empty; EQUIBLES empty (skip). Inbox **no Pending**; Astra **no proposals**.
+
+## Live account (Alpaca, 09:33 ET)
+- Equity **$97,156.45** · last_equity $96,535.30 → **day P/L +$621.15 (+0.64%)**. Cash $10,495.23 (10.80%). long_mv $86,661.22. status ACTIVE, trading_blocked false. (buying_power $284,632.34 is a margin figure — book does not borrow.)
+- **Daily loss cap:** n/a — session is GREEN (+0.64%), nowhere near −3%.
+
+## Positions (live marks, 09:33 ET)
+| Sym | Qty | Avg | Px | P/L% | Intraday% | MV | Stop |
+|---|---|---|---|---|---|---|---|
+| FERG | 44 | 250.12 | 261.00 | +4.35% | +1.56% | 11,484.00 | −7% HARD 232.61 |
+| NOC | 18 | 544.37 | 559.83 | +2.84% | +0.73% | 10,076.85 | −7% HARD 506.26 |
+| PG | 65 | 148.06 | 172.34 | +16.40% | −0.51% | 11,202.10 | 10% TRAIL 157.104 |
+| RSG | 44 | 218.00 | 253.70 | +16.38% | −0.18% | 11,162.80 | 10% TRAIL 231.111 |
+| SPY | 59 | 759.75 | 724.35 | −4.66% | +1.07% | 42,736.65 | NONE (index sleeve) |
+
+- Conviction stock MV $43,925.75 (45.21%); SPY sleeve $42,736.65 (43.99%). Largest single name FERG 11.82% of equity (< 20% cap). **Sleeve 4/5 — one open slot. Weekly buys 0/3 (11/23–11/27).** Defensive 2/4 (PG, RSG).
+
+## Decision: NO TRADES
+- **No stock buy.** The only armed trigger was **PANW decisive ~$367 50dMA reclaim on a settled tape + re-score ≥70**. Live PANW **$346.81** — not only below the 50dMA, it slipped further from the ~$356 pre-open level. **Not triggered.** HPE/DELL remain knife-catches. Nothing else cleared 2 signals AND Conviction ≥70. **Research** had no fresh gate-clearer; **Trader** placed nothing. One slot stays open.
+- **No sell.** Zero stops fired overnight/at the open; all four theses intact; no −7% breach, no thesis break, no downgrade. Open orders verified **exactly 4** (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; PG trail 157.104 `272e2864`; RSG trail 231.111 `135c200e`); SPY (59) unencumbered.
+- **No conversion.** FERG **+4.35%** (px 261.00) — closest to the +5% hard→trailing line (convert ~$262.63, i.e. a ~$1.63 further move). NOC +2.84% (convert ~$571.59). Neither due — **FERG is the live watch item for midday.**
+- **No SPY sweep.** Not placing a qualifying stock buy and loss cap not hit → ran `spy_floor.py --equity 97156.45 --cash 10495.23 --spy-price 724.31 --spy-shares 59 --stock-market-value 43925.75 --stock-buy-dollars 0` → **`action: none`** (cash within one SPY share of the $10k cushion; target 44.5% vs held 43.99% — no top-up needed). No SPY order.
+
+## Handoff → midday (Fri 2026-11-27 — HALF-DAY, close 13:00 ET)
+- **Clock gate first:** `market_clock.py --slot midday --wait --claim --owner midday` (winter cron `0 18 UTC`); then `/v2/clock` is_open must still be true (half-day — market closes 13:00 ET, so midday at ~13:00 ET/12:00 CT lands right at/near the bell — verify is_open before any order, stand down if already closed).
+- **★ FERG conversion watch:** FERG +4.35% at the open (px 261.00), needs only ~+0.6% more (≈$262.63) to cross +5% → **convert the −7% hard stop (232.61) to a 10% trailing stop**. Check this first at midday; if it printed ≥$262.63, do the conversion.
+- **Re-verify exactly 4 open orders**; SPY (59) unencumbered. NOC convert at +5% (~$571.59) — not close.
+- **PANW** the only buy trigger — $346.81, needs a decisive ~$367 50dMA reclaim on a settled tape + re-score ≥70. Not near. HPE/DELL knife-catches — stay out.
+- **SPY sweep:** expect `action:none` unless a stop frees cash → sweep same session, no margin.
+- **Half-day close 13:00 ET.** Earnings blackout next week: CRM (11/30), NTAP (12/1), MRVL (12/2), OKTA (12/2) — off-limits for new buys.
+
+---
 # 2026-11-27 ~07:03 ET — PRE-MARKET (Fri, BLACK FRIDAY HALF-DAY, close 13:00 ET) · Opus 4.8 · RESEARCH ONLY, NO TRADES
 
 **Clock gate.** Winter cron `0 12 UTC` on time (12:03 UTC = 07:03 ET EST). `market_clock.py --slot pre-market --claim --owner pre-market` → **status DUE** (3.4 min into the 7:00 ET window) → **CLAIMED** (owner pre-market, 2026-11-27); claim committed and pushed `HEAD:main` (e852f17→97dc06d) BEFORE research. Pre-market is research-only — no trades regardless. 4 required keys non-empty; EQUIBLES empty (skip). Inbox **no Pending**; Astra **no proposals** ("No proposals yet"). Alpaca `/v2/clock` is_open=false (next_open 2026-11-27T09:30; next_close 13:00 = confirmed Fri half-day).

@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-11-27 07:05 ET",
-  "last_routine": "pre-market",
+  "last_update": "2026-11-27 09:33 ET",
+  "last_routine": "market-open",
   "mode": "paper",
-  "equity": 97121.97,
+  "equity": 97156.45,
   "cash": 10495.23,
-  "day_pl": null,
-  "day_pl_pct": null,
+  "day_pl": 621.15,
+  "day_pl_pct": 0.64,
   "week_pl_pct": 3.42,
   "spy_week_pct": 3.77,
   "alpha_week_pct": -0.35,
@@ -15,40 +15,40 @@
       "symbol": "FERG",
       "qty": 44,
       "avg_cost": 250.12,
-      "current": 256.99,
-      "pl_pct": 2.75,
+      "current": 261.00,
+      "pl_pct": 4.35,
       "stop": 232.61
     },
     {
       "symbol": "NOC",
       "qty": 18,
       "avg_cost": 544.37,
-      "current": 555.79,
-      "pl_pct": 2.10,
+      "current": 559.83,
+      "pl_pct": 2.84,
       "stop": 506.26
     },
     {
       "symbol": "PG",
       "qty": 65,
       "avg_cost": 148.06,
-      "current": 172.38,
-      "pl_pct": 16.43,
+      "current": 172.34,
+      "pl_pct": 16.40,
       "stop": 157.104
     },
     {
       "symbol": "RSG",
       "qty": 44,
       "avg_cost": 218.0,
-      "current": 254.16,
-      "pl_pct": 16.59,
+      "current": 253.70,
+      "pl_pct": 16.38,
       "stop": 231.111
     },
     {
       "symbol": "SPY",
       "qty": 59,
       "avg_cost": 759.746,
-      "current": 727.58,
-      "pl_pct": -4.23,
+      "current": 724.35,
+      "pl_pct": -4.66,
       "stop": null
     }
   ],
@@ -120,6 +120,12 @@
   ],
   "latest_messages": [
     {
+      "ts": "2026-11-27 09:33 ET",
+      "routine": "market-open",
+      "headline": "Open: no trades — calm green start to the half-day, up ~$621, all four stocks healthy",
+      "body": "A quiet, by-design open on the thin Black Friday half-day (closes 1 PM ET). No buy — my only armed idea, Palo Alto (~$347), is still below the ~$367 trend line I need. No sell — zero stops fired, all four theses intact. No stop upgrades yet: Ferguson is closest at +4.35%, ~0.6% from the +5% line where I switch it to a trailing stop (a safety net that rises with the price) — I'll watch it at midday. Equity $97,156 (+0.64%), cash $10,495 (~11%), 0/3 weekly buys, one slot open."
+    },
+    {
       "ts": "2026-11-27 07:05 ET",
       "routine": "pre-market",
       "headline": "Pre-market plan — calm Black Friday half-day, all four stocks healthy, passing on a tempting-but-broken idea",
@@ -160,12 +166,6 @@
       "routine": "pre-market",
       "headline": "Quiet, wait-for-data morning — holding our four stocks; no new buy clears the bar",
       "body": "Big event at 8:30 AM: the PCE inflation report (the Fed's favorite price gauge). I never buy into a print like this — I'll read the reaction first. All four holdings healthy, no sell signals; Northrop drew a fresh 'Outperform' rating (target $680). Best bench idea Palo Alto scored a 'B' — I'd only buy on a clean move back above its trend line. Markets closed Thursday (Thanksgiving), half-day Friday."
-    },
-    {
-      "ts": "2026-11-24 13:00 ET",
-      "routine": "midday",
-      "headline": "Midday: steady — nothing to change, and we've edged ahead of the market today",
-      "body": "Re-checked all five holdings, our stops, and the cash-sweep math at 1:00 PM — no trades needed. No stock hit a sell signal; Ferguson (+0.9%) and Northrop (+2.2%) aren't yet up the +5% I need to switch to a trailing stop. Palo Alto (~$353) is still below its $367 reclaim line, so no buy. Up ~$404 (+0.42%) while the S&P 500 is down ~0.42% — we're ~+0.84% ahead right now. Full scorecard at the 4:00 PM close."
     }
   ]
 }

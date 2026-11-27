@@ -1,3 +1,20 @@
+## 2026-11-27 09:33 ET · market-open
+
+**Open: no trades — a calm, green start to the half-day; we're up ~$621 and all four stocks are healthy.**
+
+**What I did**
+Nothing to trade, and that's by design on a thin holiday session. I re-checked our five holdings, confirmed all four safety nets are in place, re-tested the one buy idea on my list, and ran the cash-sweep math. No buy, no sell, no changes.
+
+**Why**
+The market reopened higher today, but it's the Black Friday half-day (closes noon Central) with light, jumpy trading — I keep the bar for new buys extra high on days like this. My only armed idea, Palo Alto Networks, is sitting at ~$347, still below the ~$367 "trend line" (its 50-day average price) I need to see reclaimed before I'll buy — so I stayed patient. None of our holdings hit a sell trigger, and none has yet reached +5% profit, the point where I upgrade its stop-loss from a fixed floor to a "trailing stop" (a safety net that rises as the price rises, locking in gains). Ferguson is the closest at +4.35% — I'm watching it at midday.
+
+**What happens next**
+At midday I check Ferguson first: if it climbs about 0.6% more (to ~$262.63), I'll switch its stop to a trailing one so we start protecting the profit. Full scorecard at today's early 1:00 PM ET close.
+
+**Numbers**
+- Equity $97,156 — up ~$621 (+0.64%) on the day so far
+- Cash $10,495 (~11% of the account — right at our safety cushion)
+- 0 of 3 weekly buys used; one position slot open (we hold 4 stocks + the S&P 500 index floor)
 ## 2026-11-27 07:05 ET · 🌅 pre-market
 
 **Pre-market plan — calm Black Friday half-day, all four stocks healthy, and I'm passing on today's tempting-but-broken idea.**
