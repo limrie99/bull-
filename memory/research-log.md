@@ -1,3 +1,38 @@
+# 2026-11-27 ~07:03 ET — PRE-MARKET (Fri, BLACK FRIDAY HALF-DAY, close 13:00 ET) · Opus 4.8 · RESEARCH ONLY, NO TRADES
+
+**Clock gate.** Winter cron `0 12 UTC` on time (12:03 UTC = 07:03 ET EST). `market_clock.py --slot pre-market --claim --owner pre-market` → **status DUE** (3.4 min into the 7:00 ET window) → **CLAIMED** (owner pre-market, 2026-11-27); claim committed and pushed `HEAD:main` (e852f17→97dc06d) BEFORE research. Pre-market is research-only — no trades regardless. 4 required keys non-empty; EQUIBLES empty (skip). Inbox **no Pending**; Astra **no proposals** ("No proposals yet"). Alpaca `/v2/clock` is_open=false (next_open 2026-11-27T09:30; next_close 13:00 = confirmed Fri half-day).
+
+**Research fan-out: 4 parallel Perplexity-backed sub-agents** (macro / earnings / position-news / opportunity-scout), each 1–2 batched calls for budget discipline.
+
+## Market context
+- **Regime: risk-on, AI/semi-led bounce, on a thin half-day.** Macro agent: NQ futures ~+2.63% (Nvidia ~+4%, Micron ~+6.6%), ES higher (no reliable %); broad global risk-on (Europe prior session +1.7–2.1%, Nikkei +2%, Shanghai up on Beijing equity-support measures). **But firmer underneath:** 10Y ~4.85%→~4.92% (+7bp intraday), 2Y ~4.61%, DXY ~103.8; **oil rallying** (WTI ~$85.6 +2.3%, Brent >$96) which nags near-term inflation. Gold instruments conflicting (~$3,567 spot / ~$3,706 Dec fut).
+- **Black Friday half-day = low Thanksgiving liquidity → exaggerated moves both ways.** Treat any intraday pop as low-conviction; do not chase gaps.
+- **Earnings:** none notable today (Black Friday empty — confirmed). No verified Black Friday retail sales read-through yet. **Next week earnings blackout (our 3-trading-day rule) → OFF-LIMITS for new buys:** CRM (Mon 11/30), NTAP (Tue 12/1), MRVL (Wed 12/2), OKTA (Wed 12/2). EPS figures soft/conflicting across calendars — treat as unconfirmed.
+- **FOMC:** Perplexity could NOT confirm a live CME FedWatch probability for Dec 9–10 this morning; our prior ~97–98%-priced-25bp-HIKE note is **unverified today** (2Y 4.61% consistent with a restrictive path but not a confirmation). Flagging the staleness rather than repeating the number as fact.
+
+## Portfolio watch — ALL 4 THESES INTACT (zero stops fired)
+- **FERG** +2.75% (px 256.99) — **BofA raised PT $315→$320, reiterated Buy (11/26)**, thesis-confirming (onshoring/data-center distribution). −7% HARD stop 232.61 (GTC). Convert to trailing at +5% (~$262.63) — not due.
+- **NOC** +2.10% (px 555.79) — no new 24–48h item; latest Mizuho Outperform/$680 (11/24, outside window). Record backlog + recent $1.13B Navy E-130J (11/25). −7% HARD 506.26. Convert at +5% (~$571.59) — not due.
+- **PG** +16.43% (px 172.38) — no new 24–48h item; latest BofA $190 Buy (11/23). 10% TRAILING floor 157.104, well above. HOLD.
+- **RSG** +16.59% (px 254.16) — no new 24–48h item; still Buy, consensus ~$257. 10% TRAILING floor 231.111. HOLD.
+- **SPY** (index floor, 59 sh) px 727.58, −4.23% from blended avg; NO stop by design. ~44% of book.
+
+## Buy candidates — NONE CLEAR THE GATE (one open slot stays open)
+- **HPE (lead scout pick) — REJECTED on the tape: textbook knife-catch.** Fundamentals genuine (FY26 beat-and-raise, upbeat FY27 guide, AI-infra tailwind = signals #1 + #3). BUT Alpaca daily bars: last close **$40.82 (11/25), 20dMA $47.77, ~50dMA $56.88 → −28% below 50dMA** in a waterfall decline. Fails signal #6 (clear uptrend / no knife-catching) hard; technical-timing + risk Conviction dimensions near-zero → would NOT score ≥70. Same bucket as DELL: compelling fundamentals, broken chart. → **Watchlist: wait for a base, do not catch the knife.**
+- **ZM** borderline (1 solid + 1 soft signal) — does not clear 2 verified signals. Pass.
+- **BBY / DKS / SJM** each clear only ONE clean signal (beat/raise) — no verified 2nd signal; fail the gate. SJM also defensive (staples, beta <0.85) and the defensive bucket has room but we prefer a non-defensive gate-clearer. Pass.
+- **PANW (watchlist) — NOT triggered.** Alpaca: ~$356.14 (11/25) vs ~50dMA $366.18 → **−2.7% below**, no decisive reclaim yet. Signals building (fiscal-Q1 beat; KeyBanc OW PT ~$450 on 11/13; Phillip Securities Buy PT $418 on 11/23 = signals #1+#4) but the ~$367 50dMA technical trigger is unmet. Keep waiting for a decisive close back above the 50dMA on a settled tape, then re-score to Conviction ≥70.
+- **DELL (watchlist) — do NOT buy.** ~$297 vs 50dMA ~$457–467 (~40% one-month collapse); BofA CUT PT $600→$500 (11/26). AI-server backlog story intact but tape in free-fall; next earnings Feb 25 2027. No 50dMA rebuild in sight.
+
+## Sell candidates — NONE
+No −7% breach, no thesis break, no guidance cut, no downgrade; zero stops fired. All four holdings intact and two carry fresh thesis-confirming items (FERG PT bump; NOC Navy mod from 11/25).
+
+## Handoff → market-open (Fri 2026-11-27, 9:30 ET — HALF-DAY, close 13:00 ET)
+- Clock gate first (`--slot market-open --wait --claim`); `/v2/clock` is_open=true before any order. **Half-day = thin, do not chase gaps.**
+- **No stock buy planned** — nothing cleared the gate. If anything, a decisive PANW 50dMA reclaim (~$367) on a settled tape + Conviction ≥70 is the only live trigger; HPE/DELL are knife-catches, stay out.
+- Re-verify exactly 4 open orders (FERG hard 232.61 `ea91d0f9`; NOC hard 506.26 `59a67c62`; RSG trail 231.111 `135c200e`; PG trail 157.104 `272e2864`); SPY 59 unencumbered.
+- **SPY same-day sweep:** expect `action:none` — cash $10,495 within one share of the ~$10k cushion. Sweep only if a stop frees cash (none expected). No margin; daily-loss-cap check still gates it.
+- Conversions: FERG→trailing at +5% (~$262.63), NOC at +5% (~$571.59) — neither due. PG/RSG floors ratchet automatically.
 # 2026-11-26 ~15:05 ET — MARKET-CLOSE (Thu, THANKSGIVING — MARKET CLOSED) · Opus 4.8 · STAND-DOWN, NO SCORECARD · one research-log line per the clock-gate rule
 
 **Clock gate → STAND DOWN (two independent reasons).** This wake is the **summer UTC alarm `0 20` ringing early** — `market_clock.py --slot market-close` returned **status EARLY (exit 4)**, 54.6 min before 4:00 PM ET (15:05 ET now; the daylight-saving miss — do NOT treat as the close, do NOT shift the cron). Independently, today is a **holiday**: **Alpaca `/v2/clock` is_open=false** (next_open 2026-11-27T09:30; next_close 2026-11-27T13:00 = Fri half-day) AND **`/v2/calendar` has NO entry for 2026-11-26** → confirmed Thanksgiving, market CLOSED all day. Per CLAUDE.md/CLOCKS.md a holiday is a no-trade day and the daily scorecard is mandatory only on a **trading** day → **no scorecard, no Telegram, no messages.md entry, no dashboard/portfolio overwrite, no slot claim.** Pre-market (07:05 ET) already did the full holiday research + wrote portfolio.md/messages.md/dashboard; market-open (09:32 ET) stood down. Nothing changed since: inbox **no Pending**, Astra **no proposals** ("No proposals yet"), zero stops fired, all 4 theses intact, no SPY sweep (market closed; cash $10,495.23 at cushion). 4 required keys non-empty. **Next real session: Fri 2026-11-27 market-open (half-day, close 13:00 ET).** Single-line log only.

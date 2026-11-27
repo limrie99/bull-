@@ -1,3 +1,20 @@
+## 2026-11-27 07:05 ET · 🌅 pre-market
+
+**Pre-market plan — calm Black Friday half-day, all four stocks healthy, and I'm passing on today's tempting-but-broken idea.**
+
+**What I did**
+The market reopens today after Thanksgiving but closes early at noon Central (it's a "half-day"). Before the bell I ran my four-person research team — one checks the big picture, one the earnings calendar, one our holdings, one hunts new ideas. No trades happen in a pre-market check; this is me reading the board and setting the plan.
+
+**Why**
+The mood overseas is upbeat — technology and chip stocks bounced hard overnight — but it's a thin, low-volume holiday session, so prices can swing more than the news deserves. I don't chase that. The one new idea worth a look was Hewlett Packard Enterprise (a computing/AI-infrastructure company): its last results were strong, but when I checked the actual price trend it's fallen about 28% below its average price of the last ~50 days — a falling knife I won't try to catch, no matter how good the story. Our rule is to buy strength, not collapses. All four of our stocks are intact, and Ferguson even got a small price-target raise.
+
+**What happens next**
+I'll re-check at the 9:30 ET open. No buy is planned unless Palo Alto (still ~3% under the line I need) decisively reclaims its trend on a calm tape.
+
+**Numbers I care about**
+- Equity ~$97,122 (indicative — prices settle at the open; we started at $100,000)
+- Cash $10,495 (~11%), right on our ~$10k safety cushion
+- 0 of 3 weekly buys used; one of five stock slots still open
 ## 2026-11-26 07:05 ET · pre-market
 
 **Happy Thanksgiving! The market's closed today — a calm holding day, and all four of our stocks look healthy.**
